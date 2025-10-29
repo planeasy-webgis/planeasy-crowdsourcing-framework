@@ -48,6 +48,12 @@ All datasets share the same principles:
 - **Transparency:** all timestamps are stored in **UTC** and accompanied by the user’s **local timezone**.
 - **FAIR compliance:** all questionnaire versions are version-controlled on GitHub for reproducibility and open research.
 
+### 🔗 Framework Overview
+
+![PlanEasy Crowdsourcing Framework](./img/planeasy_crowdsourcing_framework.png)
+
+*The diagram shows the main components and data flows between admin and user environments in the PlanEasy Crowdsourcing System.*
+
 ---
 
 ## 📋 Crowdsourced Data Schema
