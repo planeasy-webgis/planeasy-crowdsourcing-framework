@@ -40,16 +40,15 @@ and organizations wishing to collect participatory data in a compliant and repro
    - Export your questionnaire as a JSON file with version and metadata.
 
 2. **Configure your database**  
-   - Each project creates and manages its own **Firestore** or **MongoDB** instance.  
-   - The database must follow the data model described in  
-     [`docs/DATA_ARCHITECTURE.md`](docs/DATA_ARCHITECTURE.md).  
-   - PlanEasy provides configuration support and validation tools to ensure full compatibility.  
-   - All responses are stored pseudonymously, following GDPR and FAIR standards.
+   - Your team creates and manages its own **Firestore** **or** **MongoDB** instance.  
+   - The schema **must** follow [`docs/DATA_ARCHITECTURE.md`](docs/DATA_ARCHITECTURE.md).  
+   - PlanEasy provides configuration guidance and validation checks for compatibility.  
+   - All responses are stored **in pseudonymized form**, aligned with GDPR and FAIR.
 
 3. **Distribute your survey link**  
    - PlanEasy provides a **dedicated web or mobile URL** for each questionnaire.  
-   - The link includes a query to your database index — no data are stored by PlanEasy itself.  
-   - Participants complete the survey through this interface, and their responses are written directly to your configured database.
+   - The link targets your database index via query parameters — **PlanEasy does not store your project’s data**.  
+   - Participants use this interface; responses are written **directly to your database**.
 
 4. **Access and analyze your data**  
    - Data can be queried directly from Firestore or exported to your research database (e.g. MongoDB).  
@@ -93,10 +92,10 @@ The PlanEasy Crowdsourcing Framework aims to:
 
 ## 🔐 Privacy and Ethics
 
-All projects based on the PlanEasy Crowdsourcing System must:
+All projects based on the PlanEasy Crowdsourcing Framework must:
 - Follow the **GDPR (Article 89)** framework for scientific research.  
 - Apply **pseudonymization** and **data separation** to protect personal information.  
-- Share only **anonymized and aggregated datasets** for scientific and civic purposes.  
+- Share only **anonymized and/or aggregated datasets** for scientific and civic purposes.  
 
 For full details, refer to  
 👉 [Privacy and Consent Guidelines](docs/PRIVACY_GUIDELINES.md).
@@ -118,8 +117,8 @@ The PlanEasy Crowdsourcing Framework is designed according to the **FAIR Data Pr
 
 ## 🏛 Governance and Maintenance
 
-The **PlanEasy Crowdsourcing Framework** is maintained by the **PlanEasy Authors**  
-within the **PlanEasy WebGIS** platform.  
+The **PlanEasy Crowdsourcing Framework** is maintained by the **PlanEasy contributors**  
++within the **PlanEasy WebGIS** platform.
 
 See also the [PlanEasy Questionnaires Repository](https://github.com/planeasy-questionnaires).
 
