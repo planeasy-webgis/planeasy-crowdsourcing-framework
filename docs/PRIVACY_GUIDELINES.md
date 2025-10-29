@@ -178,9 +178,6 @@ Your participation is voluntary.
 You can request the deletion of your data or withdraw from a study at any time  
 by contacting the research team running the specific project.
 
-> The **PlanEasy organization** ensures that every project using the PlanEasy Crowdsourcing System operates  
-> within the same ethical, legal, and transparency principles.
-
 ---
 
 ## 📬 Contact
