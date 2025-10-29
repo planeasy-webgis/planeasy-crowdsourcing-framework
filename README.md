@@ -37,13 +37,13 @@ and organizations wishing to collect participatory data in a compliant and repro
 1. **Prepare your questionnaire**  
    - Use the **PlanEasy Questionnaire Builder** to design your survey.  
    - Follow the structure of existing schemas (see the [PlanEasy Questionnaires Folder](../questionnaires/README.md)).  
-   - Export your questionnaire as a JSON file with version and metadata.
+   - Export your questionnaire as a JSON file including version and metadata.
 
 2. **Configure your database**  
    - Your team creates and manages its own **Firestore** **or** **MongoDB** instance.  
    - The schema **must** follow [`docs/DATA_ARCHITECTURE.md`](docs/DATA_ARCHITECTURE.md).  
-   - PlanEasy provides configuration guidance and validation checks for compatibility.  
-   - All responses are stored **in pseudonymized form**, aligned with GDPR and FAIR.
+   - PlanEasy provides configuration guidance and validation tools to ensure compatibility.  
+   - All responses are stored **in pseudonymized form**, aligned with GDPR and FAIR standards.
 
 3. **Distribute your survey link**  
    - PlanEasy provides a **dedicated web or mobile URL** for each questionnaire.  
@@ -65,7 +65,7 @@ and organizations wishing to collect participatory data in a compliant and repro
 |------|--------------|
 | [`docs/PRIVACY_GUIDELINES.md`](docs/PRIVACY_GUIDELINES.md) | Explains how the PlanEasy Crowdsourcing Framework collects, uses, and protects participant data. |
 | [`docs/DATA_ARCHITECTURE.md`](docs/DATA_ARCHITECTURE.md) | Defines the unified data model and interoperability logic across Local, Firestore, and MongoDB environments. |
-| [`../questionnaires/README.md`](../questionnaires/README.md) | Contains the questionnaires used by PlanEasy Crowsourcing System. |
+| [`../questionnaires/README.md`](../questionnaires/README.md) | Lists the questionnaires managed by the PlanEasy Crowdsourcing Framework. |
 | [`README.md`](README.md) | This file — overview, workflow, and documentation index. |
 
 ---
@@ -105,7 +105,7 @@ For full details, refer to
 
 ## 🧩 Interoperability and FAIR Principles
 
-The PlanEasy Crowdsourcing Framework is designed according to the **FAIR Data Principles**:
+The PlanEasy Crowdsourcing Framework follows the **FAIR Data Principles**:
 
 | Principle | Description |
 |------------|-------------|
@@ -118,11 +118,11 @@ The PlanEasy Crowdsourcing Framework is designed according to the **FAIR Data Pr
 
 ## 🏛 Governance and Maintenance
 
-The **PlanEasy Crowdsourcing Framework** is maintained by the **PlanEasy contributors**  
-+within the **PlanEasy WebGIS** platform.
+The **PlanEasy Crowdsourcing Framework** is maintained by the **PlanEasy Contributors**  
+within the **PlanEasy WebGIS** platform.
 
 Any reuse or adaptation must:
-- Credit **PlanEasy Authors**.  
+- Credit the **PlanEasy Contributors**.  
 - Follow the **FAIR** and **GDPR** principles described in this documentation.
 
 ---
