@@ -20,16 +20,16 @@ to run participatory mapping and citizen science projects.
 It helps people like you share useful observations and experiences about mobility and urban life  
 in a safe, transparent, and responsible way.
 
-PlanEasy provides the technical infrastructure, such as the web app, database, and mobile tools,  
+The **PlanEasy Crowdsourcing System** provides the technical infrastructure — including the web app, database, and mobile tools —  
 but **each research project decides which questions to ask, what data to collect, and how to use the results**.  
 This means that your answers are always managed by the project team running the specific study,  
 following both the **GDPR** and the **ethical research standards** that apply to them.
 
-All projects using PlanEasy share the same privacy-by-design principles:
+All projects using the PlanEasy Crowdsourcing System share the same *privacy-by-design* principles:
 - Your participation is voluntary and anonymous.  
 - Only the minimum information needed for research is collected.  
-- Data are securely stored and never used for commercial or marketing purposes. 
- 
+- Data are securely stored and never used for commercial or marketing purposes.  
+
 This page explains **what type of data may be collected**, **why they are collected**,  
 and **how your privacy is protected** when you participate in a PlanEasy-based project.
 
@@ -38,7 +38,7 @@ and **how your privacy is protected** when you participate in a PlanEasy-based p
 
 ---
 
-## 🧭 1. What Data PlanEasy Collects
+## 🧭 1. What Data the PlanEasy Crowdsourcing System Collects
 
 The **PlanEasy Crowdsourcing System** only collects information that is genuinely useful for research and analysis —  
 never for commercial or marketing purposes.  
@@ -49,7 +49,7 @@ Your participation is entirely voluntary, and all responses are stored in anonym
 ### 📝 Questionnaire Responses
 
 When you take part in a project, you may be invited to answer short questionnaires.  
-These are designed for research and planning purposes, and may include questions about:
+These are designed for research and planning purposes and may include questions about:
 
 - **Your profile** (age range, education, work situation, household context)  
 - **Mobility habits** (how often you walk, cycle, or use public transport)  
@@ -87,13 +87,13 @@ A small amount of technical information helps the platform run smoothly and avoi
 
 ---
 
-## 💡 2. Why PlanEasy Collects Data
+## 💡 2. Why the PlanEasy Crowdsourcing System Collects Data
 
 The information you share through the **PlanEasy Crowdsourcing System** helps researchers and public institutions  
 design **better, safer, and more sustainable urban environments**.  
-Your contributions make it possible to connect everyday experience with real urban decision-making.
+Your contributions make it possible to connect everyday experiences with real urban decision-making.
 
-The data collected through PlanEasy are used to:
+The data collected through the PlanEasy Crowdsourcing System are used to:
 
 - understand how people move and perceive their city,  
 - evaluate the quality, safety, and accessibility of streets and public spaces,  
@@ -105,10 +105,10 @@ The data collected through PlanEasy are used to:
 
 ---
 
-## 🔐 3. How PlanEasy Protects Your Data
+## 🔐 3. How the PlanEasy Crowdsourcing System Protects Your Data
 
 Your privacy and the security of your information are central to how the **PlanEasy Crowdsourcing System** operates.  
-All projects using the system follow strict *privacy-by-design* standards,  
+All projects using the system follow strict *privacy-by-design* standards —  
 the same protection principles apply everywhere the platform is used.
 
 ---
@@ -147,16 +147,17 @@ This separation prevents any link between your identity and the information you 
 ### 🪶 Transparency
 
 The structure, purpose, and data model of the PlanEasy Crowdsourcing System are fully documented in the  
-[planeasy-webgis repository](https://github.com/planeasy-webgis).  
+[PlanEasy Crowdsourcing Framework repository](https://github.com/planeasy-crowdsourcing-framework).  
 Researchers and participants can review how data are handled, stored, and anonymized at any time.
 
 ---
 
-> PlanEasy applies the same privacy and security standards to all projects,  
+> The **PlanEasy Crowdsourcing System** applies the same privacy and security standards to all projects,  
 > ensuring that your information is always handled safely, responsibly, and in line with research ethics.
 
+---
 
-## 🧾 5. Access Control, Legal and Ethical Context
+## 🧾 4. Access Control, Legal and Ethical Context
 
 **Access to pseudonymized data** is limited to the research team responsible for each specific project,  
 and only for legitimate scientific and ethical research purposes.  
@@ -177,7 +178,8 @@ Your participation is voluntary.
 You can request the deletion of your data or withdraw from a study at any time  
 by contacting the research team running the specific project.
 
-> PlanEasy ensures that every project using its infrastructure operates within these same ethical, legal, and transparency principles.
+> The **PlanEasy organization** ensures that every project using the PlanEasy Crowdsourcing System operates  
+> within the same ethical, legal, and transparency principles.
 
 ---
 
