@@ -19,7 +19,7 @@ for collecting, storing, and exporting responses from participatory questionnair
 
 This architecture is part of the broader **PlanEasy Framework**, developed to support  
 scientific research, participatory mapping, and citizen science applications.  
-It is **project-agnostic**, meaning that any initiative (e.g. (*theBIKEnet*)[https://github.com/MovingProjects/thebikenet/blob/main/README.md]) can adopt this structure  
+It is **project-agnostic**, meaning that any initiative (e.g. [*theBIKEnet*](https://github.com/MovingProjects/thebikenet/blob/main/README.md)) can adopt this structure  
 for consistent, transparent, and FAIR data management.
 
 Responses can be stored, synchronized, or exported using the same schema  
