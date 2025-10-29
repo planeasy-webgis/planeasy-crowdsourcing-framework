@@ -21,7 +21,7 @@ The **PlanEasy Crowdsourcing Framework** is part of the **PlanEasy WebGIS ecosys
 a research and development environment for participatory mapping, mobility analysis, and citizen science.
 
 This repository defines the **data architecture**, **privacy model**, and **FAIR-compliant standards**  
-used across all PlanEasy-based research projects — providing a transparent and interoperable foundation  
+used across PlanEasy-based research projects — providing a transparent and interoperable foundation  
 for collecting, managing, and sharing crowdsourced information.
 
 > 🧩 This framework does **not** include source code or operational databases.  
@@ -63,7 +63,7 @@ and organizations wishing to collect participatory data in a compliant and repro
 
 | Path | Description |
 |------|--------------|
-| [`docs/PRIVACY_GUIDELINES.md`](docs/PRIVACY_GUIDELINES.md) | Explains how the PlanEasy Crowdsourcing System collects, uses, and protects participant data. |
+| [`docs/PRIVACY_GUIDELINES.md`](docs/PRIVACY_GUIDELINES.md) | Explains how the PlanEasy Crowdsourcing Framework collects, uses, and protects participant data. |
 | [`docs/DATA_ARCHITECTURE.md`](docs/DATA_ARCHITECTURE.md) | Defines the unified data model and interoperability logic across Local, Firestore, and MongoDB environments. |
 | [`README.md`](README.md) | This file — overview, workflow, and documentation index. |
 
