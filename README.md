@@ -134,10 +134,10 @@ Any reuse or adaptation must:
 
 ---
 
-## 📄 License
+## 📄 License and Contact
 
-[**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) —  
-You may share and adapt this material with appropriate credit.
+**License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by/4.0/) —  
+You may share and adapt this material with appropriate credit for non-commercial use.
 
 ---
 
