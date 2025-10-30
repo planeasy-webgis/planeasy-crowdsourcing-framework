@@ -1,3 +1,4 @@
+#
 <div align="left">
 <br/>
   <table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
@@ -6,13 +7,14 @@
         <img src="https://github.com/planeasy-webgis.png" width="80" alt="PlanEasy logo">
       </td>
       <td style="border:1px solid transparent; vertical-align: middle;">
-        <h1 style="margin: 0; padding: 0;">PlanEasy Questionnaires</h1>
+        <h1 style="margin: 0; padding: 0;">PlanEasy Crowdsourcing Framework</h1>
+        <p><strong>Structured and Versioned Questionnaires</strong></p>
       </td>
     </tr>
   </table>
 </div>
 
-# 🧩 PlanEasy Questionnaires – Structured and Versioned Survey Instruments
+---
 
 The **PlanEasy Questionnaires** repository contains structured and versioned research questionnaires  
 used within participatory, behavioural, and mobility studies.  
