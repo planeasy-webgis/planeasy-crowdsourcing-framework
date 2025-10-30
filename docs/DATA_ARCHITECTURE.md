@@ -1,3 +1,4 @@
+#
 <div align="left">
 <br/>
   <table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
@@ -7,13 +8,13 @@
       </td>
       <td style="border:1px solid transparent; vertical-align: middle;">
         <h1 style="margin: 0; padding: 0;">Unified Data Architecture – PlanEasy Crowdsourcing System</h1>
+        <p><strong>Interoperable and FAIR Data Model for Participatory Research</strong></p>
       </td>
     </tr>
   </table>
 </div>
 
-# 🧭 PlanEasy Crowdsourcing System – Unified Data Architecture
-
+---
 The **PlanEasy Crowdsourcing System** defines a unified and interoperable data structure  
 for collecting, storing, and exporting responses from participatory questionnaires and mobility tracking.
 
