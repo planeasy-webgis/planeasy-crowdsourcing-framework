@@ -1,3 +1,4 @@
+#
 <div align="left">
 <br/>
   <table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
@@ -6,14 +7,14 @@
         <img src="https://github.com/planeasy-webgis.png" width="80" alt="PlanEasy logo">
       </td>
       <td style="border:1px solid transparent; vertical-align: middle;">
-        <h1 style="margin: 0; padding: 0;">Privacy and Consent Guidelines – PlanEasy Crowdsourcing System</h1>
+        <h1 style="margin: 0; padding: 0;">PlanEasy Crowdsourcing Framework</h1>
+        <p><strong>How the PlanEasy Crowdsourcing System Collects, Uses, and Protects Your Data</strong></p>
       </td>
     </tr>
   </table>
 </div>
 
-# 🌍 Privacy and Consent Guidelines
-### How the PlanEasy Crowdsourcing System Collects, Uses, and Protects Your Data
+---
 
 The **PlanEasy Crowdsourcing System** is a secure online platform used by researchers and institutions  
 to run participatory mapping and citizen science projects.  
@@ -147,7 +148,7 @@ This separation prevents any link between your identity and the information you 
 ### 🪶 Transparency
 
 The structure, purpose, and data model of the PlanEasy Crowdsourcing System are fully documented in the  
-[PlanEasy Crowdsourcing Framework repository](https://github.com/planeasy-crowdsourcing-framework).  
+[PlanEasy Crowdsourcing Framework repository](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework).  
 Researchers and participants can review how data are handled, stored, and anonymized at any time.
 
 ---
