@@ -1,0 +1,114 @@
+{
+	"questionnaire": {
+		"name": "Tell us about bicycle parking in this area",
+		"questionnaire_id": "theBIKEnet_bike_parking_report",
+		"questionnaire_version": "1.0.2",
+		"project": "theBIKEnet",
+		"feedback_mode": "true",
+		"privacy_options": {
+			"ask_consent": true,
+			"save_user_id": true
+		},
+		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
+		"sections": [
+			{
+				"title": "Tell us about bicycle parking in this area",
+				"description": "Help us map the real parking conditions for cyclists in Rome: whether there are safe, public, informal or no options at all.<br><br>🚲 <a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "Approximate location (address or map point)",
+						"question_type": "address"
+					},
+					{
+						"text": "Which best describes the parking situation here?",
+						"question_type": "single_option",
+						"options": [
+							{
+								"text": "Secure paid parking (guarded, indoor, or monitored)"
+							},
+							{
+								"text": "Secure public parking (free, racks or stands well located and visible)"
+							},
+							{
+								"text": "Public parking (racks or stands, but not secure or overcrowded)"
+							},
+							{
+								"text": "Improvised parking (poles, fences, etc.)"
+							},
+							{
+								"text": "No place to park"
+							}
+						]
+					},
+					{
+						"text": "How safe does it feel to leave a bicycle here for a while?",
+						"question_type": "single_option",
+						"options": [
+							{
+								"text": "Very safe – I would leave it even for hours"
+							},
+							{
+								"text": "Moderately safe – for a short stop"
+							},
+							{
+								"text": "Unsafe – I would not leave it unattended"
+							}
+						]
+					},
+					{
+						"text": "What would most improve bicycle parking in this area?",
+						"question_type": "multiple_options",
+						"add_other": true,
+						"options": [
+							{
+								"text": "Install secure or monitored parking facilities"
+							},
+							{
+								"text": "Add more public racks or stands"
+							},
+							{
+								"text": "Provide covered or weather-protected spaces"
+							},
+							{
+								"text": "Improve lighting and visibility"
+							},
+							{
+								"text": "Free the space from obstacles or car parking"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"en": {
+			"code": "en",
+			"#Tell us about bicycle parking in this area": "Tell us about bicycle parking in this area"
+		},
+		"it": {
+			"code": "it",
+			"#Tell us about bicycle parking in this area": "Raccontaci dei parcheggi per biciclette in questa zona",
+			"#Which best describes the parking situation here?": "Quale di queste descrizioni rappresenta meglio la situazione di parcheggio in quest’area?",
+			"#Secure paid parking (guarded, indoor, or monitored)": "Parcheggio a pagamento e sicuro (custodito, al chiuso o sorvegliato)",
+			"#Secure public parking (free, racks or stands well located and visible)": "Parcheggio pubblico sicuro (gratuito, con rastrelliere ben posizionate e visibili)",
+			"#Public parking (racks or stands, but not secure or overcrowded)": "Parcheggio pubblico (rastrelliere o stalli, ma non sicuri o sovraffollati)",
+			"#Improvised parking (poles, fences, etc.)": "Parcheggio di fortuna (pali, recinzioni, ecc.)",
+			"#No place to park": "Nessun posto dove parcheggiare",
+			"#How safe does it feel to leave a bicycle here for a while?": "Quanto ti sembra sicuro lasciare una bici qui per un po’ di tempo?",
+			"#Very safe – I would leave it even for hours": "Molto sicuro – la lascerei anche per ore",
+			"#Moderately safe – for a short stop": "Abbastanza sicuro – per una sosta breve",
+			"#Unsafe – I would not leave it unattended": "Poco sicuro – non la lascerei incustodita",
+			"#What would most improve bicycle parking in this area?": "Cosa migliorerebbe maggiormente il parcheggio biciclette in questa zona?",
+			"#Install secure or monitored parking facilities": "Installare parcheggi sicuri o sorvegliati",
+			"#Add more public racks or stands": "Aggiungere più rastrelliere o stalli pubblici",
+			"#Provide covered or weather-protected spaces": "Fornire spazi coperti o protetti dalle intemperie",
+			"#Improve lighting and visibility": "Migliorare l’illuminazione e la visibilità",
+			"#Free the space from obstacles or car parking": "Liberare lo spazio da ostacoli o parcheggi auto"
+		}
+	},
+	"id": "theBIKEnet_bike_parking_report",
+	"db_set": "questionnaires",
+	"default_language": "it"
+}

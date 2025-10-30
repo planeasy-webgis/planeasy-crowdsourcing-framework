@@ -1,0 +1,533 @@
+{
+	"questionnaire": {
+		"name": "8. theBIKEnet Mobility Services – Shared Use, Integration and Willingness to Pay",
+		"questionnaire_id": "theBIKEnet_mobility_services",
+		"questionnaire_version": "1.0.0",
+		"feedback_mode": "true",
+		"project": "theBIKEnet",
+		"privacy_options": {
+			"ask_consent": true,
+			"save_user_id": true
+		},
+		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
+		"sections": [
+			{
+				"title": "Welcome to the theBIKEnet Mobility Services Questionnaire",
+				"description": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This eighth questionnaire focuses on <b>shared and public mobility services</b> — such as bike sharing, e-scooter sharing, and public transport. It investigates <b>how often you use these services, how you combine them, and what improvements could make them more accessible</b>. Your feedback will help us design <b>better-integrated, affordable, and sustainable</b> mobility systems.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+				"backgroundColor": "#0c9091",
+				"questions": []
+			},
+			{
+				"title": "Use of Shared and Public Mobility Services",
+				"description": "How frequently you use shared vehicles or public transport, and how safe and comfortable you feel while doing so.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "How often do you use bike or e-bike sharing services?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Daily (5 or more times per week)"
+							},
+							{
+								"text": "Frequently (3–4 times per week)"
+							},
+							{
+								"text": "Sometimes (1–2 times per week or at least twice per month)"
+							},
+							{
+								"text": "Rarely (less than twice per month)"
+							},
+							{
+								"text": "Only in my free time"
+							},
+							{
+								"text": "Never"
+							}
+						]
+					},
+					{
+						"text": "How often do you use e-scooter sharing services?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Daily (5 or more times per week)"
+							},
+							{
+								"text": "Frequently (3–4 times per week)"
+							},
+							{
+								"text": "Sometimes (1–2 times per week or at least twice per month)"
+							},
+							{
+								"text": "Rarely (less than twice per month)"
+							},
+							{
+								"text": "Only in my free time"
+							},
+							{
+								"text": "Never"
+							}
+						]
+					},
+					{
+						"text": "How often do you use car sharing services?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Daily (5 or more times per week)"
+							},
+							{
+								"text": "Frequently (3–4 times per week)"
+							},
+							{
+								"text": "Sometimes (1–2 times per week or at least twice per month)"
+							},
+							{
+								"text": "Rarely (less than twice per month)"
+							},
+							{
+								"text": "Only in my free time"
+							},
+							{
+								"text": "Never"
+							}
+						]
+					},
+					{
+						"text": "Do you currently have an ATAC / Metrebus public transport subscription?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes, annual subscription"
+							},
+							{
+								"text": "Yes, monthly subscription"
+							},
+							{
+								"text": "I had one in the past"
+							},
+							{
+								"text": "No, I do not have one"
+							}
+						]
+					},
+					{
+						"text": "When using shared bicycles or e-scooters, how safe and comfortable do you usually feel?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Not safe at all"
+							},
+							{
+								"text": "Slightly safe"
+							},
+							{
+								"text": "Neither unsafe nor safe"
+							},
+							{
+								"text": "Safe"
+							},
+							{
+								"text": "Very safe and comfortable"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Integration and Incentives",
+				"description": "Your experience with integrated services and what incentives would make you use shared mobility more often.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "What factors would influence your decision to use public transport?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "If it offered shorter travel times, better connections, or more frequent services."
+							},
+							{
+								"text": "If there were the discounted tickets"
+							},
+							{
+								"text": "If I had physical limitations that made cycling difficult"
+							},
+							{
+								"text": "If it offered options like bike racks on buses or trains (for longer journeys)"
+							},
+							{
+								"text": "When I'm running late or need to reach my destination quickly"
+							},
+							{
+								"text": "If I felt unsafe cycling due to busy traffic, unsafe road conditions, or concerns about theft."
+							},
+							{
+								"text": "Bad weather conditions"
+							}
+						]
+					},
+					{
+						"text": "If you were given free access to a shared bicycle or e-scooter, would you use it?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly agree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Strongly disagree"
+							}
+						]
+					},
+					{
+						"text": "If you were given free bus or metro tickets, would you ride a bicycle or e-scooter more often?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly agree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Strongly disagree"
+							}
+						]
+					},
+					{
+						"text": "What would most encourage you to use shared mobility services more often?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Lower cost per trip"
+							},
+							{
+								"text": "More parking and docking spaces"
+							},
+							{
+								"text": "Better integration with public transport"
+							},
+							{
+								"text": "Higher vehicle availability nearby"
+							},
+							{
+								"text": "More reliable app or payment options"
+							},
+							{
+								"text": "Increased safety and lighting"
+							}
+						]
+					},
+					{
+						"text": "Do you currently use or plan to use the micromobility discount (bike, e-scooter, or car sharing) linked to your ATAC / Metrebus subscription?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes, I already use it"
+							},
+							{
+								"text": "Yes, I plan to activate it"
+							},
+							{
+								"text": "No, I am not interested"
+							},
+							{
+								"text": "I was not aware of this discount"
+							},
+							{
+								"text": "I am not eligible or was excluded from the program"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Cost and Willingness to Pay",
+				"description": "How affordable you find current services and your willingness to pay for improved public transport or faster travel times.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "How affordable do you find using a bicycle or an e-scooter (personal)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very expensive"
+							},
+							{
+								"text": "Expensive"
+							},
+							{
+								"text": "Neutral"
+							},
+							{
+								"text": "Affordable"
+							},
+							{
+								"text": "Extremely affordable"
+							}
+						]
+					},
+					{
+						"text": "How affordable do you find using a bicycle or an e-scooter (shared)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very expensive"
+							},
+							{
+								"text": "Expensive"
+							},
+							{
+								"text": "Neutral"
+							},
+							{
+								"text": "Affordable"
+							},
+							{
+								"text": "Extremely affordable"
+							}
+						]
+					},
+					{
+						"text": "Would you be willing to pay a higher fare for public transport if it meant improved service quality (e.g. more frequent buses or trains)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Definitely yes"
+							},
+							{
+								"text": "Probably yes"
+							},
+							{
+								"text": "Neither yes nor no"
+							},
+							{
+								"text": "Probably no"
+							},
+							{
+								"text": "Definitely no"
+							}
+						]
+					},
+					{
+						"text": "Would you be willing to pay a higher fare for public transport if it meant less congestion and faster travel times?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Definitely yes"
+							},
+							{
+								"text": "Probably yes"
+							},
+							{
+								"text": "Neither yes nor no"
+							},
+							{
+								"text": "Probably no"
+							},
+							{
+								"text": "Definitely no"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"it": {
+			"code": "it",
+			"#8. theBIKEnet Mobility Services – Shared Use, Integration and Willingness to Pay": "8. theBIKEnet Servizi di Mobilità – Uso Condiviso, Integrazione e Disponibilità a Pagare",
+			"#Welcome to the theBIKEnet Mobility Services Questionnaire": "Benvenutə al questionario theBIKEnet – Servizi di Mobilità",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This eighth questionnaire focuses on <b>shared and public mobility services</b> — such as bike sharing, e-scooter sharing, and public transport. It investigates <b>how often you use these services, how you combine them, and what improvements could make them more accessible</b>. Your feedback will help us design <b>better-integrated, affordable, and sustainable</b> mobility systems.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> è un progetto di ricerca pubblica che studia come le persone si spostano in bicicletta nelle città — unendo scienza, tecnologia ed esperienza quotidiana. Il nostro obiettivo è rendere la mobilità urbana più sicura, equa e sostenibile per tutti.<br><br>Questo ottavo questionario si concentra sui <b>servizi di mobilità condivisa e pubblica</b> — come bike sharing, monopattini elettrici condivisi e trasporto pubblico. Indaga <b>quanto spesso utilizzi questi servizi, come li combini tra loro e quali miglioramenti potrebbero renderli più accessibili</b>. Il tuo contributo ci aiuterà a progettare sistemi di mobilità <b>più integrati, accessibili ed economicamente sostenibili</b>.<br><br>La partecipazione è completamente volontaria e anonima. Le informazioni fornite saranno utilizzate solo a fini scientifici ed educativi.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Scopri di più sul progetto theBIKEnet</a>",
+			"#Use of Shared and Public Mobility Services": "Uso dei Servizi di Mobilità Condivisa e del Trasporto Pubblico",
+			"#How frequently you use shared vehicles or public transport, and how safe and comfortable you feel while doing so.": "Con quale frequenza utilizzi i servizi di mobilità condivisa o i mezzi pubblici, e quanto ti senti sicuro/a e a tuo agio durante l’utilizzo.",
+			"#How often do you use bike or e-bike sharing services?": "Con quale frequenza utilizzi i servizi di bike sharing o e-bike sharing?",
+			"#Daily (5 or more times per week)": "Quotidianamente (5 o più volte a settimana)",
+			"#Frequently (3–4 times per week)": "Frequentemente (3–4 volte a settimana)",
+			"#Sometimes (1–2 times per week or at least twice per month)": "A volte (1–2 volte a settimana o almeno due volte al mese)",
+			"#Rarely (less than twice per month)": "Raramente (meno di due volte al mese)",
+			"#Only in my free time": "Solo nel tempo libero",
+			"#Never": "Mai",
+			"#How often do you use e-scooter sharing services?": "Con quale frequenza utilizzi i servizi di sharing di monopattini elettrici?",
+			"#How often do you use car sharing services?": "Con quale frequenza utilizzi i servizi di car sharing?",
+			"#Do you currently have an ATAC / Metrebus public transport subscription?": "Hai attualmente un abbonamento ATAC / Metrebus per il trasporto pubblico?",
+			"#Yes, annual subscription": "Sì, abbonamento annuale",
+			"#Yes, monthly subscription": "Sì, abbonamento mensile",
+			"#I had one in the past": "L’ho avuto in passato",
+			"#No, I do not have one": "No, non ho un abbonamento",
+			"#When using shared bicycles or e-scooters, how safe and comfortable do you usually feel?": "Quando utilizzi biciclette o monopattini condivisi, quanto ti senti solitamente sicuro/a e a tuo agio?",
+			"#Not safe at all": "Per niente sicuro/a",
+			"#Slightly safe": "Poco sicuro/a",
+			"#Neither unsafe nor safe": "Né sicuro/a né insicuro/a",
+			"#Safe": "Abbastanza sicuro/a",
+			"#Very safe and comfortable": "Molto sicuro/a e a tuo agio",
+			"#Integration and Incentives": "Integrazione e Incentivi",
+			"#Your experience with integrated services and what incentives would make you use shared mobility more often.": "La tua esperienza con servizi integrati e quali incentivi ti spingerebbero a utilizzare più spesso la mobilità condivisa.",
+			"#What factors would influence your decision to use public transport?": "Quali fattori influenzerebbero la tua decisione di utilizzare il trasporto pubblico?",
+			"#If it offered shorter travel times, better connections, or more frequent services.": "Se offrisse tempi di viaggio più brevi, migliori coincidenze o servizi più frequenti.",
+			"#If there were the discounted tickets": "Se fossero disponibili biglietti scontati",
+			"#If I had physical limitations that made cycling difficult": "Se avessi limitazioni fisiche che rendono difficile andare in bicicletta",
+			"#If it offered options like bike racks on buses or trains (for longer journeys)": "Se offrisse opzioni come portabiciclette su autobus o treni (per viaggi più lunghi)",
+			"#When I'm running late or need to reach my destination quickly": "Quando sono in ritardo o devo raggiungere rapidamente la destinazione",
+			"#If I felt unsafe cycling due to busy traffic, unsafe road conditions, or concerns about theft.": "Se mi sentissi insicuro/a nell’andare in bicicletta a causa del traffico intenso, di condizioni stradali pericolose o per timore di furti.",
+			"#Bad weather conditions": "Condizioni meteo avverse",
+			"#If you were given free access to a shared bicycle or e-scooter, would you use it?": "Se ti fosse offerto l’uso gratuito di una bicicletta o di un monopattino condiviso, lo utilizzeresti?",
+			"#Strongly agree": "Totalmente d’accordo",
+			"#Agree": "D’accordo",
+			"#Neither agree nor disagree": "Né d’accordo né in disaccordo",
+			"#Disagree": "In disaccordo",
+			"#Strongly disagree": "Totalmente in disaccordo",
+			"#If you were given free bus or metro tickets, would you ride a bicycle or e-scooter more often?": "Se ti fossero forniti biglietti gratuiti per autobus o metropolitana, useresti più spesso una bicicletta o un monopattino elettrico?",
+			"#What would most encourage you to use shared mobility services more often?": "Cosa ti incoraggerebbe maggiormente a utilizzare più spesso i servizi di mobilità condivisa?",
+			"#Lower cost per trip": "Costo per corsa più basso",
+			"#More parking and docking spaces": "Più spazi per parcheggio e stalli di aggancio",
+			"#Better integration with public transport": "Migliore integrazione con il trasporto pubblico",
+			"#Higher vehicle availability nearby": "Maggiore disponibilità di veicoli nelle vicinanze",
+			"#More reliable app or payment options": "App e sistemi di pagamento più affidabili",
+			"#Increased safety and lighting": "Maggiore sicurezza e illuminazione",
+			"#Do you currently use or plan to use the micromobility discount (bike, e-scooter, or car sharing) linked to your ATAC / Metrebus subscription?": "Utilizzi o prevedi di utilizzare lo sconto per la micromobilità (bicicletta, monopattino o car sharing) collegato al tuo abbonamento ATAC / Metrebus?",
+			"#Yes, I already use it": "Sì, lo utilizzo già",
+			"#Yes, I plan to activate it": "Sì, ho intenzione di attivarlo",
+			"#No, I am not interested": "No, non sono interessato/a",
+			"#I was not aware of this discount": "Non ero a conoscenza di questo sconto",
+			"#I am not eligible or was excluded from the program": "Non sono idoneo/a o non ho potuto aderire al programma",
+			"#Cost and Willingness to Pay": "Costo e Disponibilità a Pagare",
+			"#How affordable you find current services and your willingness to pay for improved public transport or faster travel times.": "Quanto ritieni accessibili i servizi attuali e la tua disponibilità a pagare per un trasporto pubblico migliore o viaggi più rapidi.",
+			"#How affordable do you find using a bicycle or an e-scooter (personal)?": "Quanto ritieni accessibile l’uso di una bicicletta o di un monopattino elettrico personale?",
+			"#Very expensive": "Molto costoso",
+			"#Expensive": "Costoso",
+			"#Neutral": "Neutro",
+			"#Affordable": "Accessibile",
+			"#Extremely affordable": "Molto accessibile",
+			"#How affordable do you find using a bicycle or an e-scooter (shared)?": "Quanto ritieni accessibile l’uso di una bicicletta o di un monopattino condiviso?",
+			"#Would you be willing to pay a higher fare for public transport if it meant improved service quality (e.g. more frequent buses or trains)?": "Saresti disposto/a a pagare una tariffa più alta per il trasporto pubblico se significasse una migliore qualità del servizio (ad esempio autobus o treni più frequenti)?",
+			"#Definitely yes": "Decisamente sì",
+			"#Probably yes": "Probabilmente sì",
+			"#Neither yes nor no": "Né sì né no",
+			"#Probably no": "Probabilmente no",
+			"#Definitely no": "Decisamente no",
+			"#Would you be willing to pay a higher fare for public transport if it meant less congestion and faster travel times?": "Saresti disposto/a a pagare una tariffa più alta per il trasporto pubblico se ciò comportasse meno congestione e tempi di viaggio più rapidi?"
+		},
+		"en": {
+			"code": "en",
+			"#8. theBIKEnet Mobility Services – Shared Use, Integration and Willingness to Pay": "8. theBIKEnet Mobility Services – Shared Use, Integration and Willingness to Pay",
+			"#Welcome to the theBIKEnet Mobility Services Questionnaire": "Welcome to the theBIKEnet Mobility Services Questionnaire",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This eighth questionnaire focuses on <b>shared and public mobility services</b> — such as bike sharing, e-scooter sharing, and public transport. It investigates <b>how often you use these services, how you combine them, and what improvements could make them more accessible</b>. Your feedback will help us design <b>better-integrated, affordable, and sustainable</b> mobility systems.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This eighth questionnaire focuses on <b>shared and public mobility services</b> — such as bike sharing, e-scooter sharing, and public transport. It investigates <b>how often you use these services, how you combine them, and what improvements could make them more accessible</b>. Your feedback will help us design <b>better-integrated, affordable, and sustainable</b> mobility systems.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+			"#Use of Shared and Public Mobility Services": "Use of Shared and Public Mobility Services",
+			"#How frequently you use shared vehicles or public transport, and how safe and comfortable you feel while doing so.": "How frequently you use shared vehicles or public transport, and how safe and comfortable you feel while doing so.",
+			"#How often do you use bike or e-bike sharing services?": "How often do you use bike or e-bike sharing services?",
+			"#Daily (5 or more times per week)": "Daily (5 or more times per week)",
+			"#Frequently (3–4 times per week)": "Frequently (3–4 times per week)",
+			"#Sometimes (1–2 times per week or at least twice per month)": "Sometimes (1–2 times per week or at least twice per month)",
+			"#Rarely (less than twice per month)": "Rarely (less than twice per month)",
+			"#Only in my free time": "Only in my free time",
+			"#Never": "Never",
+			"#How often do you use e-scooter sharing services?": "How often do you use e-scooter sharing services?",
+			"#How often do you use car sharing services?": "How often do you use car sharing services?",
+			"#Do you currently have an ATAC / Metrebus public transport subscription?": "Do you currently have an ATAC / Metrebus public transport subscription?",
+			"#Yes, annual subscription": "Yes, annual subscription",
+			"#Yes, monthly subscription": "Yes, monthly subscription",
+			"#I had one in the past": "I had one in the past",
+			"#No, I do not have one": "No, I do not have one",
+			"#When using shared bicycles or e-scooters, how safe and comfortable do you usually feel?": "When using shared bicycles or e-scooters, how safe and comfortable do you usually feel?",
+			"#Not safe at all": "Not safe at all",
+			"#Slightly safe": "Slightly safe",
+			"#Neither unsafe nor safe": "Neither unsafe nor safe",
+			"#Safe": "Safe",
+			"#Very safe and comfortable": "Very safe and comfortable",
+			"#Integration and Incentives": "Integration and Incentives",
+			"#Your experience with integrated services and what incentives would make you use shared mobility more often.": "Your experience with integrated services and what incentives would make you use shared mobility more often.",
+			"#What factors would influence your decision to use public transport?": "What factors would influence your decision to use public transport?",
+			"#If it offered shorter travel times, better connections, or more frequent services.": "If it offered shorter travel times, better connections, or more frequent services.",
+			"#If there were the discounted tickets": "If there were the discounted tickets",
+			"#If I had physical limitations that made cycling difficult": "If I had physical limitations that made cycling difficult",
+			"#If it offered options like bike racks on buses or trains (for longer journeys)": "If it offered options like bike racks on buses or trains (for longer journeys)",
+			"#When I'm running late or need to reach my destination quickly": "When I'm running late or need to reach my destination quickly",
+			"#If I felt unsafe cycling due to busy traffic, unsafe road conditions, or concerns about theft.": "If I felt unsafe cycling due to busy traffic, unsafe road conditions, or concerns about theft.",
+			"#Bad weather conditions": "Bad weather conditions",
+			"#If you were given free access to a shared bicycle or e-scooter, would you use it?": "If you were given free access to a shared bicycle or e-scooter, would you use it?",
+			"#Strongly agree": "Strongly agree",
+			"#Agree": "Agree",
+			"#Neither agree nor disagree": "Neither agree nor disagree",
+			"#Disagree": "Disagree",
+			"#Strongly disagree": "Strongly disagree",
+			"#If you were given free bus or metro tickets, would you ride a bicycle or e-scooter more often?": "If you were given free bus or metro tickets, would you ride a bicycle or e-scooter more often?",
+			"#What would most encourage you to use shared mobility services more often?": "What would most encourage you to use shared mobility services more often?",
+			"#Lower cost per trip": "Lower cost per trip",
+			"#More parking and docking spaces": "More parking and docking spaces",
+			"#Better integration with public transport": "Better integration with public transport",
+			"#Higher vehicle availability nearby": "Higher vehicle availability nearby",
+			"#More reliable app or payment options": "More reliable app or payment options",
+			"#Increased safety and lighting": "Increased safety and lighting",
+			"#Do you currently use or plan to use the micromobility discount (bike, e-scooter, or car sharing) linked to your ATAC / Metrebus subscription?": "Do you currently use or plan to use the micromobility discount (bike, e-scooter, or car sharing) linked to your ATAC / Metrebus subscription?",
+			"#Yes, I already use it": "Yes, I already use it",
+			"#Yes, I plan to activate it": "Yes, I plan to activate it",
+			"#No, I am not interested": "No, I am not interested",
+			"#I was not aware of this discount": "I was not aware of this discount",
+			"#I am not eligible or was excluded from the program": "I am not eligible or was excluded from the program",
+			"#Cost and Willingness to Pay": "Cost and Willingness to Pay",
+			"#How affordable you find current services and your willingness to pay for improved public transport or faster travel times.": "How affordable you find current services and your willingness to pay for improved public transport or faster travel times.",
+			"#How affordable do you find using a bicycle or an e-scooter (personal)?": "How affordable do you find using a bicycle or an e-scooter (personal)?",
+			"#Very expensive": "Very expensive",
+			"#Expensive": "Expensive",
+			"#Neutral": "Neutral",
+			"#Affordable": "Affordable",
+			"#Extremely affordable": "Extremely affordable",
+			"#How affordable do you find using a bicycle or an e-scooter (shared)?": "How affordable do you find using a bicycle or an e-scooter (shared)?",
+			"#Would you be willing to pay a higher fare for public transport if it meant improved service quality (e.g. more frequent buses or trains)?": "Would you be willing to pay a higher fare for public transport if it meant improved service quality (e.g. more frequent buses or trains)?",
+			"#Definitely yes": "Definitely yes",
+			"#Probably yes": "Probably yes",
+			"#Neither yes nor no": "Neither yes nor no",
+			"#Probably no": "Probably no",
+			"#Definitely no": "Definitely no",
+			"#Would you be willing to pay a higher fare for public transport if it meant less congestion and faster travel times?": "Would you be willing to pay a higher fare for public transport if it meant less congestion and faster travel times?"
+		}
+	},
+	"id": "theBIKEnet_mobility_services",
+	"db_set": "questionnaires",
+	"default_language": "it"
+}
