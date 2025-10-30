@@ -67,7 +67,7 @@ Each questionnaire includes:
 ## 🌐 Example of Direct Access
 
 Each questionnaire can be accessed directly as a raw JSON file, for example:  
-`https://raw.githubusercontent.com/planeasy-crowdsourcing-framework/main/questionnaires/theBIKEnet/theBIKEnet_profile.json`
+`https://raw.githubusercontent.com/planeasy-webgis/planeasy-crowdsourcing-framework/main/questionnaires/theBIKEnet/theBIKEnet_profile.json`
 
 These files can be integrated into applications, dashboards, or analytical workflows  
 to support reproducible and participatory research.
