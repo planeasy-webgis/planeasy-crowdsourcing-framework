@@ -36,7 +36,7 @@ and organizations wishing to collect participatory data in a compliant and repro
 
 1. **Prepare your questionnaire**  
    - Use the **PlanEasy Questionnaire Builder** to design your survey.  
-   - Follow the structure of existing schemas (see the [PlanEasy Questionnaires Folder](../questionnaires/README.md)).  
+   - Follow the structure of existing schemas (see the [PlanEasy Questionnaires Folder](questionnaires/README.md)).  
    - Export your questionnaire as a JSON file including version and metadata.
 
 2. **Configure your database**  
@@ -65,7 +65,7 @@ and organizations wishing to collect participatory data in a compliant and repro
 |------|--------------|
 | [`docs/PRIVACY_GUIDELINES.md`](docs/PRIVACY_GUIDELINES.md) | Explains how the PlanEasy Crowdsourcing Framework collects, uses, and protects participant data. |
 | [`docs/DATA_ARCHITECTURE.md`](docs/DATA_ARCHITECTURE.md) | Defines the unified data model and interoperability logic across Local, Firestore, and MongoDB environments. |
-| [`../questionnaires/README.md`](../questionnaires/README.md) | Lists the questionnaires managed by the PlanEasy Crowdsourcing Framework. |
+| [`../questionnaires/README.md`](questionnaires/README.md) | Lists the questionnaires managed by the PlanEasy Crowdsourcing Framework. |
 | [`README.md`](README.md) | This file — overview, workflow, and documentation index. |
 
 ---
