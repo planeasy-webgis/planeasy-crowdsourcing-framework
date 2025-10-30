@@ -1,3 +1,4 @@
+#
 <div align="left">
 <br/>
   <table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
@@ -7,7 +8,7 @@
       </td>
       <td style="border:1px solid transparent; vertical-align: middle;">
         <h1 style="margin: 0; padding: 0;">PlanEasy Crowdsourcing Framework</h1>
-        <p><strong>Unified Data Architecture and Privacy Model for Participatory Research</strong></p>
+        <p><strong>Data Architecture, Privacy Model, and FAIR Standards for Participatory Research</strong></p>
       </td>
     </tr>
   </table>
@@ -15,10 +16,11 @@
 
 ---
 
-## 🧭 Overview
-
-The **PlanEasy Crowdsourcing Framework** is part of the **PlanEasy WebGIS ecosystem**,  
+The **PlanEasy Crowdsourcing Framework** is a core component of the **PlanEasy WebGIS ecosystem**,  
 a research and development environment for participatory mapping, mobility analysis, and citizen science.
+
+This repository defines the **data architecture**, **privacy model**, and **FAIR-compliant standards**  
+that ensure transparency, interoperability, and reproducibility across PlanEasy-based research projects.
 
 This repository defines the **data architecture**, **privacy model**, and **FAIR-compliant standards**  
 used across PlanEasy-based research projects — providing a transparent and interoperable foundation  
