@@ -1,0 +1,355 @@
+{
+	"questionnaire": {
+		"name": "theBIKEnet Post-Trip",
+		"questionnaire_id": "theBIKEnet_trip_post",
+		"questionnaire_version": "1.0.0",
+		"feedback_mode": "true",
+		"project": "theBIKEnet",
+		"privacy_options": {
+			"ask_consent": false,
+			"save_user_id": false
+		},
+		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
+		"sections": [
+			{
+				"title": "Safety and Comfort",
+				"description": "",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "During this trip, how safe did you feel overall?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very unsafe"
+							},
+							{
+								"text": "Unsafe"
+							},
+							{
+								"text": "Neutral"
+							},
+							{
+								"text": "Safe"
+							},
+							{
+								"text": "Very safe"
+							}
+						]
+					},
+					{
+						"text": "Did you feel at risk or in danger at any moment?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Never"
+							},
+							{
+								"text": "Once"
+							},
+							{
+								"text": "A few times"
+							},
+							{
+								"text": "Often"
+							}
+						]
+					},
+					{
+						"text": "If yes, please describe briefly the situation or location.",
+						"question_type": "text",
+						"prefer_not_to_say": false,
+						"add_other": false
+					},
+					{
+						"text": "Did you deviate from your usual route during this trip?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "No, I followed my usual route"
+							},
+							{
+								"text": "Yes, small detour"
+							},
+							{
+								"text": "Yes, major change of route"
+							},
+							{
+								"text": "Not applicable (first time on this route)"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Parking and End of Trip",
+				"description": "",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "Where did you park or end your ride?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Public space or street"
+							},
+							{
+								"text": "Dedicated bike rack"
+							},
+							{
+								"text": "Shared or open parking area"
+							},
+							{
+								"text": "Private or workplace parking"
+							}
+						]
+					},
+					{
+						"text": "How secure do you feel about the parking place?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very insecure"
+							},
+							{
+								"text": "Insecure"
+							},
+							{
+								"text": "Neutral"
+							},
+							{
+								"text": "Secure"
+							},
+							{
+								"text": "Very secure"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Alternatives and Motivation",
+				"description": "",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "Did you have other transport options for this trip?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "No"
+							},
+							{
+								"text": "Yes – Public transport"
+							},
+							{
+								"text": "Yes – Private car"
+							},
+							{
+								"text": "Yes – Walking"
+							},
+							{
+								"text": "Yes – Other micromobility (bike/e-scooter sharing)"
+							}
+						]
+					},
+					{
+						"text": "Why did you choose this route today?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "It’s the shortest route"
+							},
+							{
+								"text": "It feels safer"
+							},
+							{
+								"text": "It’s more pleasant or scenic"
+							},
+							{
+								"text": "It avoids traffic"
+							},
+							{
+								"text": "It’s the one I usually take"
+							},
+							{
+								"text": "Recommended by app or map"
+							},
+							{
+								"text": "Weather or time of day"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Final Reflection",
+				"description": "",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "Compared to your expectations before the trip, how was this ride?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Much worse"
+							},
+							{
+								"text": "Slightly worse"
+							},
+							{
+								"text": "About as expected"
+							},
+							{
+								"text": "Slightly better"
+							},
+							{
+								"text": "Much better"
+							}
+						]
+					},
+					{
+						"text": "Any additional notes about this trip?",
+						"question_type": "text",
+						"prefer_not_to_say": false,
+						"add_other": false
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"en": {
+			"code": "en",
+			"#theBIKEnet Post-Trip": "theBIKEnet Post-Trip",
+			"#Safety and Comfort": "Safety and Comfort",
+			"#During this trip, how safe did you feel overall?": "During this trip, how safe did you feel overall?",
+			"#Very unsafe": "Very unsafe",
+			"#Unsafe": "Unsafe",
+			"#Neutral": "Neutral",
+			"#Safe": "Safe",
+			"#Very safe": "Very safe",
+			"#Did you feel at risk or in danger at any moment?": "Did you feel at risk or in danger at any moment?",
+			"#Never": "Never",
+			"#Once": "Once",
+			"#A few times": "A few times",
+			"#Often": "Often",
+			"#If yes, please describe briefly the situation or location.": "If yes, please describe briefly the situation or location.",
+			"#Did you deviate from your usual route during this trip?": "Did you deviate from your usual route during this trip?",
+			"#No, I followed my usual route": "No, I followed my usual route",
+			"#Yes, small detour": "Yes, small detour",
+			"#Yes, major change of route": "Yes, major change of route",
+			"#Not applicable (first time on this route)": "Not applicable (first time on this route)",
+			"#Parking and End of Trip": "Parking and End of Trip",
+			"#Where did you park or end your ride?": "Where did you park or end your ride?",
+			"#Public space or street": "Public space or street",
+			"#Dedicated bike rack": "Dedicated bike rack",
+			"#Shared or open parking area": "Shared or open parking area",
+			"#Private or workplace parking": "Private or workplace parking",
+			"#How secure do you feel about the parking place?": "How secure do you feel about the parking place?",
+			"#Very insecure": "Very insecure",
+			"#Insecure": "Insecure",
+			"#Secure": "Secure",
+			"#Very secure": "Very secure",
+			"#Alternatives and Motivation": "Alternatives and Motivation",
+			"#Did you have other transport options for this trip?": "Did you have other transport options for this trip?",
+			"#No": "No",
+			"#Yes – Public transport": "Yes – Public transport",
+			"#Yes – Private car": "Yes – Private car",
+			"#Yes – Walking": "Yes – Walking",
+			"#Yes – Other micromobility (bike/e-scooter sharing)": "Yes – Other micromobility (bike/e-scooter sharing)",
+			"#Why did you choose this route today?": "Why did you choose this route today?",
+			"#It’s the shortest route": "It’s the shortest route",
+			"#It feels safer": "It feels safer",
+			"#It’s more pleasant or scenic": "It’s more pleasant or scenic",
+			"#It avoids traffic": "It avoids traffic",
+			"#It’s the one I usually take": "It’s the one I usually take",
+			"#Recommended by app or map": "Recommended by app or map",
+			"#Weather or time of day": "Weather or time of day",
+			"#Final Reflection": "Final Reflection",
+			"#Compared to your expectations before the trip, how was this ride?": "Compared to your expectations before the trip, how was this ride?",
+			"#Much worse": "Much worse",
+			"#Slightly worse": "Slightly worse",
+			"#About as expected": "About as expected",
+			"#Slightly better": "Slightly better",
+			"#Much better": "Much better",
+			"#Any additional notes about this trip?": "Any additional notes about this trip?"
+		},
+		"it": {
+			"code": "it",
+			"#theBIKEnet Post-Trip": "theBIKEnet Post-Viaggio",
+			"#Safety and Comfort": "Sicurezza e Comfort",
+			"#During this trip, how safe did you feel overall?": "Durante questo viaggio, quanto ti sei sentito sicuro nel complesso?",
+			"#Very unsafe": "Per niente sicuro",
+			"#Unsafe": "Poco sicuro",
+			"#Neutral": "Neutro",
+			"#Safe": "Sicuro",
+			"#Very safe": "Molto sicuro",
+			"#Did you feel at risk or in danger at any moment?": "Ti sei sentito a rischio o in pericolo in qualche momento?",
+			"#Never": "Mai",
+			"#Once": "Una volta",
+			"#A few times": "Alcune volte",
+			"#Often": "Spesso",
+			"#If yes, please describe briefly the situation or location.": "Se sì, descrivi brevemente la situazione o il luogo.",
+			"#Did you deviate from your usual route during this trip?": "Hai deviato dal tuo percorso abituale durante questo viaggio?",
+			"#No, I followed my usual route": "No, ho seguito il mio percorso abituale",
+			"#Yes, small detour": "Sì, una piccola deviazione",
+			"#Yes, major change of route": "Sì, un cambiamento significativo di percorso",
+			"#Not applicable (first time on this route)": "Non applicabile (prima volta su questo percorso)",
+			"#Parking and End of Trip": "Parcheggio e Fine del Viaggio",
+			"#Where did you park or end your ride?": "Dove hai parcheggiato o terminato la corsa?",
+			"#Public space or street": "Spazio pubblico o strada",
+			"#Dedicated bike rack": "Rastrelliera dedicata",
+			"#Shared or open parking area": "Area di parcheggio condivisa o aperta",
+			"#Private or workplace parking": "Parcheggio privato o sul luogo di lavoro",
+			"#How secure do you feel about the parking place?": "Quanto ti senti sicuro riguardo al luogo di parcheggio?",
+			"#Very insecure": "Per niente sicuro",
+			"#Insecure": "Poco sicuro",
+			"#Neutral": "Neutro",
+			"#Secure": "Sicuro",
+			"#Very secure": "Molto sicuro",
+			"#Alternatives and Motivation": "Alternative e Motivazioni",
+			"#Did you have other transport options for this trip?": "Avevi altre opzioni di trasporto per questo viaggio?",
+			"#No": "No",
+			"#Yes – Public transport": "Sì – Mezzi pubblici",
+			"#Yes – Private car": "Sì – Auto privata",
+			"#Yes – Walking": "Sì – A piedi",
+			"#Yes – Other micromobility (bike/e-scooter sharing)": "Sì – Altra micromobilità (bike o e-scooter sharing)",
+			"#Why did you choose this route today?": "Perché hai scelto questo percorso oggi?",
+			"#It’s the shortest route": "È il percorso più breve",
+			"#It feels safer": "Mi sembra più sicuro",
+			"#It’s more pleasant or scenic": "È più piacevole o panoramico",
+			"#It avoids traffic": "Evita il traffico",
+			"#It’s the one I usually take": "È quello che faccio di solito",
+			"#Recommended by app or map": "Consigliato da app o mappa",
+			"#Weather or time of day": "Condizioni meteo o orario del giorno",
+			"#Final Reflection": "Riflessione Finale",
+			"#Compared to your expectations before the trip, how was this ride?": "Rispetto alle tue aspettative prima del viaggio, com’è andata questa corsa?",
+			"#Much worse": "Molto peggio",
+			"#Slightly worse": "Un po’ peggio",
+			"#About as expected": "Come mi aspettavo",
+			"#Slightly better": "Un po’ meglio",
+			"#Much better": "Molto meglio",
+			"#Any additional notes about this trip?": "Hai ulteriori commenti o note su questo viaggio?"
+		}
+	},
+	"id": "theBIKEnet_trip_post",
+	"db_set": "questionnaires",
+	"default_language": "it"
+}

@@ -1,0 +1,622 @@
+{
+	"questionnaire": {
+		"name": "4. theBIKEnet Safety Behaviour – How you protect yourself",
+		"questionnaire_id": "theBIKEnet_safety_behaviour",
+		"questionnaire_version": "1.0.0",
+		"feedback_mode": "true",
+		"project": "theBIKEnet",
+		"privacy_options": {
+			"ask_consent": true,
+			"save_user_id": true
+		},
+		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
+		"sections": [
+			{
+				"title": "Welcome to the theBIKEnet Safety Behaviour Questionnaire",
+				"description": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This fourth questionnaire explores <b>how you protect yourself and behave in traffic</b>, including your <b>confidence, safety practices, and reactions</b> to different road situations. Understanding these everyday strategies helps us identify <b>habits and needs</b> that can guide safer riding behaviours and better infrastructure design.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+				"backgroundColor": "#0c9091",
+				"questions": []
+			},
+			{
+				"title": "Cycling Confidence",
+				"description": "How confident and comfortable you feel when handling your bicycle or e-scooter in different traffic and environmental conditions.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "I am confident in my ability to control my bicycle or e-scooter in various traffic conditions.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Strongly agree"
+							}
+						]
+					},
+					{
+						"text": "I am confident in my ability to handle my bicycle or e-scooter at high speeds or on steep descents.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Strongly agree"
+							}
+						]
+					},
+					{
+						"text": "I feel comfortable riding in urban environments with heavy traffic.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Strongly agree"
+							}
+						]
+					},
+					{
+						"text": "I feel anxious or tense when cycling in complex traffic.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Strongly agree"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Avoidance and Adaptive Behaviour",
+				"description": "When and where you choose to ride, and what strategies you use to stay safe.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "What actions do you take to feel safer when cycling or riding?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Choose streets with less traffic"
+							},
+							{
+								"text": "Avoid riding at night"
+							},
+							{
+								"text": "Use protective gear (helmet, reflective clothing)"
+							},
+							{
+								"text": "Ride more slowly or cautiously"
+							},
+							{
+								"text": "Use sidewalks or pedestrian areas when possible"
+							},
+							{
+								"text": "Avoid left turns or roundabouts"
+							},
+							{
+								"text": "Avoid tunnels or bridges"
+							},
+							{
+								"text": "Ride against traffic"
+							},
+							{
+								"text": "None"
+							}
+						]
+					},
+					{
+						"text": "Would you be willing to break traffic rules in some situations if you consider it safer or more convenient?",
+						"question_type": "single_option",
+						"prefer_not_to_say": true,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Never – I always follow the rules"
+							},
+							{
+								"text": "Rarely – only in very specific circumstances"
+							},
+							{
+								"text": "Sometimes – when I judge it harmless"
+							},
+							{
+								"text": "Often – rules are not always adapted to cyclists"
+							}
+						]
+					},
+					{
+						"text": "Which traffic rules do you occasionally disregard when cycling or riding?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": true,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Crossing at red lights when safe to do so"
+							},
+							{
+								"text": "Riding on sidewalks"
+							},
+							{
+								"text": "Using bus lanes"
+							},
+							{
+								"text": "Going the wrong way on one-way streets"
+							},
+							{
+								"text": "Using the phone or headphones while riding"
+							},
+							{
+								"text": "None"
+							}
+						]
+					},
+					{
+						"text": "Which types of road users most negatively affect your sense of safety?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Car drivers"
+							},
+							{
+								"text": "Motorcyclists"
+							},
+							{
+								"text": "Bus or truck drivers"
+							},
+							{
+								"text": "Other cyclists"
+							},
+							{
+								"text": "E-scooter users"
+							},
+							{
+								"text": "Pedestrians"
+							},
+							{
+								"text": "None"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Protective Behaviour",
+				"description": "How often and in what ways you protect yourself while cycling or using an e-scooter.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "How often do you wear a helmet when cycling or riding an e-scooter?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Always"
+							},
+							{
+								"text": "Often"
+							},
+							{
+								"text": "Sometimes"
+							},
+							{
+								"text": "Rarely"
+							},
+							{
+								"text": "Never"
+							}
+						]
+					},
+					{
+						"text": "Which safety equipment do you use regularly?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Front light"
+							},
+							{
+								"text": "Rear light"
+							},
+							{
+								"text": "Reflective vest or clothing"
+							},
+							{
+								"text": "Helmet"
+							},
+							{
+								"text": "Bell or horn"
+							},
+							{
+								"text": "None"
+							}
+						]
+					},
+					{
+						"text": "Do you usually ride with lights or reflective items during the day?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Always"
+							},
+							{
+								"text": "Often"
+							},
+							{
+								"text": "Sometimes"
+							},
+							{
+								"text": "Rarely"
+							},
+							{
+								"text": "Never"
+							}
+						]
+					},
+					{
+						"text": "Where do you usually position yourself when waiting at red lights?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "In front of cars, in the lane"
+							},
+							{
+								"text": "Beside cars, near the curb"
+							},
+							{
+								"text": "On the sidewalk or crosswalk"
+							},
+							{
+								"text": "I do not stop at red lights if I consider it safe"
+							},
+							{
+								"text": "Not applicable (no traffic lights on this route)"
+							}
+						]
+					},
+					{
+						"text": "How do you deal with tram tracks or similar obstacles?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "I slow down and cross perpendicularly"
+							},
+							{
+								"text": "I avoid them by changing route or lane"
+							},
+							{
+								"text": "I cross at a shallow angle without slowing down"
+							},
+							{
+								"text": "There are no tram tracks on my usual routes"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Motivation and Social Norms",
+				"description": "Your reasons and social influences related to using safety equipment such as helmets or lights.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "I use safety equipment because it makes me feel safer.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Strongly agree"
+							}
+						]
+					},
+					{
+						"text": "I use safety equipment because it is required by law or regulation.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Strongly agree"
+							}
+						]
+					},
+					{
+						"text": "I do not think safety equipment is necessary for short trips.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Strongly agree"
+							}
+						]
+					},
+					{
+						"text": "Most people I know use helmets or lights when cycling.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Strongly disagree"
+							},
+							{
+								"text": "Disagree"
+							},
+							{
+								"text": "Neither agree nor disagree"
+							},
+							{
+								"text": "Agree"
+							},
+							{
+								"text": "Strongly agree"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"it": {
+			"code": "it",
+			"#4. theBIKEnet Safety Behaviour – How you protect yourself": "4. theBIKEnet Comportamenti di Sicurezza – Come ti proteggi",
+			"#Welcome to the theBIKEnet Safety Behaviour Questionnaire": "Benvenutə al questionario theBIKEnet – Comportamenti di Sicurezza",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This fourth questionnaire explores <b>how you protect yourself and behave in traffic</b>, including your <b>confidence, safety practices, and reactions</b> to different road situations. Understanding these everyday strategies helps us identify <b>habits and needs</b> that can guide safer riding behaviours and better infrastructure design.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> è un progetto di ricerca pubblica che studia come le persone si spostano in bicicletta nelle città — unendo scienza, tecnologia ed esperienza quotidiana. Il nostro obiettivo è rendere la mobilità urbana più sicura, equa e sostenibile per tutti.<br><br>Questo quarto questionario analizza <b>come ti proteggi e come ti comporti nel traffico</b>, considerando la tua <b>fiducia, le pratiche di sicurezza e le reazioni</b> in diverse situazioni stradali. Comprendere queste strategie quotidiane ci aiuta a individuare <b>abitudini e bisogni</b> che possono orientare comportamenti più sicuri e una migliore progettazione delle infrastrutture.<br><br>La partecipazione è completamente volontaria e anonima. Le informazioni fornite saranno utilizzate solo a fini scientifici ed educativi.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Scopri di più sul progetto theBIKEnet</a>",
+			"#Cycling Confidence": "Confidenza nella guida",
+			"#How confident and comfortable you feel when handling your bicycle or e-scooter in different traffic and environmental conditions.": "Quanto ti senti sicuro e a tuo agio nel gestire la tua bici o il tuo monopattino in diverse condizioni di traffico e ambientali.",
+			"#I am confident in my ability to control my bicycle or e-scooter in various traffic conditions.": "Sono sicuro della mia capacità di controllare la bici o il monopattino in varie condizioni di traffico.",
+			"#I am confident in my ability to handle my bicycle or e-scooter at high speeds or on steep descents.": "Sono sicuro della mia capacità di gestire la bici o il monopattino ad alte velocità o in discesa.",
+			"#I feel comfortable riding in urban environments with heavy traffic.": "Mi sento a mio agio a circolare in ambienti urbani con traffico intenso.",
+			"#I feel anxious or tense when cycling in complex traffic.": "Mi sento ansioso o teso quando vado in bici in situazioni di traffico complesso.",
+			"#Strongly disagree": "Completamente in disaccordo",
+			"#Disagree": "In disaccordo",
+			"#Neither agree nor disagree": "Né d’accordo né in disaccordo",
+			"#Agree": "D’accordo",
+			"#Strongly agree": "Completamente d’accordo",
+			"#Avoidance and Adaptive Behaviour": "Evitamento e comportamenti adattivi",
+			"#When and where you choose to ride, and what strategies you use to stay safe.": "Quando e dove scegli di muoverti, e quali strategie adotti per sentirti al sicuro.",
+			"#What actions do you take to feel safer when cycling or riding?": "Quali azioni adotti per sentirti più sicuro quando vai in bici o in monopattino?",
+			"#Choose streets with less traffic": "Scelgo strade con meno traffico",
+			"#Avoid riding at night": "Evito di muovermi di notte",
+			"#Use protective gear (helmet, reflective clothing)": "Uso dispositivi di protezione (casco, abbigliamento riflettente)",
+			"#Ride more slowly or cautiously": "Guido più lentamente o con cautela",
+			"#Use sidewalks or pedestrian areas when possible": "Uso marciapiedi o aree pedonali quando possibile",
+			"#Avoid left turns or roundabouts": "Evito svolte a sinistra o rotonde",
+			"#Avoid tunnels or bridges": "Evito gallerie o ponti",
+			"#Ride against traffic": "Circolo contromano",
+			"#Would you be willing to break traffic rules in some situations if you consider it safer or more convenient?": "Saresti disposto a infrangere alcune regole del traffico se lo considerassi più sicuro o conveniente?",
+			"#Never – I always follow the rules": "Mai – seguo sempre le regole",
+			"#Rarely – only in very specific circumstances": "Raramente – solo in circostanze molto particolari",
+			"#Sometimes – when I judge it harmless": "A volte – quando ritengo che non sia pericoloso",
+			"#Often – rules are not always adapted to cyclists": "Spesso – le regole non sono sempre adatte ai ciclisti",
+			"#Which traffic rules do you occasionally disregard when cycling or riding?": "Quali regole del traffico ignori occasionalmente quando vai in bici o in monopattino?",
+			"#Crossing at red lights when safe to do so": "Attraverso con il rosso quando lo considero sicuro",
+			"#Riding on sidewalks": "Circolo sui marciapiedi",
+			"#Using bus lanes": "Uso le corsie preferenziali degli autobus",
+			"#Going the wrong way on one-way streets": "Procedo contromano su strade a senso unico",
+			"#Using the phone or headphones while riding": "Uso il telefono o le cuffie mentre guido",
+			"#None": "Nessuna",
+			"#Which types of road users most negatively affect your sense of safety?": "Quali tipi di utenti della strada influenzano più negativamente la tua sensazione di sicurezza?",
+			"#Car drivers": "Automobilisti",
+			"#Motorcyclists": "Motociclisti",
+			"#Bus or truck drivers": "Conducenti di autobus o camion",
+			"#Other cyclists": "Altri ciclisti",
+			"#E-scooter users": "Utenti di monopattini elettrici",
+			"#Pedestrians": "Pedoni",
+			"#Protective Behaviour": "Comportamenti di protezione",
+			"#How often and in what ways you protect yourself while cycling or using an e-scooter.": "Con quale frequenza e in che modo ti proteggi quando vai in bici o in monopattino elettrico.",
+			"#How often do you wear a helmet when cycling or riding an e-scooter?": "Con quale frequenza indossi il casco quando vai in bici o in monopattino?",
+			"#Always": "Sempre",
+			"#Often": "Spesso",
+			"#Sometimes": "A volte",
+			"#Rarely": "Raramente",
+			"#Never": "Mai",
+			"#Which safety equipment do you use regularly?": "Quali dispositivi di sicurezza utilizzi regolarmente?",
+			"#Front light": "Luce anteriore",
+			"#Rear light": "Luce posteriore",
+			"#Reflective vest or clothing": "Gilet o abbigliamento riflettente",
+			"#Helmet": "Casco",
+			"#Bell or horn": "Campanello o clacson",
+			"#Do you usually ride with lights or reflective items during the day?": "Usi di solito luci o elementi riflettenti anche di giorno?",
+			"#Where do you usually position yourself when waiting at red lights?": "Dove ti posizioni di solito quando aspetti al semaforo rosso?",
+			"#In front of cars, in the lane": "Davanti alle auto, nella corsia",
+			"#Beside cars, near the curb": "Accanto alle auto, vicino al marciapiede",
+			"#On the sidewalk or crosswalk": "Sul marciapiede o sulle strisce pedonali",
+			"#I do not stop at red lights if I consider it safe": "Non mi fermo al rosso se lo considero sicuro",
+			"#Not applicable (no traffic lights on this route)": "Non applicabile (non ci sono semafori su questo percorso)",
+			"#How do you deal with tram tracks or similar obstacles?": "Come affronti i binari del tram o ostacoli simili?",
+			"#I slow down and cross perpendicularly": "Rallento e attraverso perpendicolarmente",
+			"#I avoid them by changing route or lane": "Li evito cambiando percorso o corsia",
+			"#I cross at a shallow angle without slowing down": "Li attraverso con un angolo obliquo senza rallentare",
+			"#There are no tram tracks on my usual routes": "Non ci sono binari del tram sui miei percorsi abituali",
+			"#Motivation and Social Norms": "Motivazioni e norme sociali",
+			"#Your reasons and social influences related to using safety equipment such as helmets or lights.": "Le tue motivazioni e influenze sociali nell’uso di dispositivi di sicurezza come casco o luci.",
+			"#I use safety equipment because it makes me feel safer.": "Uso i dispositivi di sicurezza perché mi fanno sentire più sicuro.",
+			"#I use safety equipment because it is required by law or regulation.": "Uso i dispositivi di sicurezza perché sono obbligatori per legge o regolamento.",
+			"#I do not think safety equipment is necessary for short trips.": "Non ritengo che i dispositivi di sicurezza siano necessari per tragitti brevi.",
+			"#Most people I know use helmets or lights when cycling.": "La maggior parte delle persone che conosco usa casco o luci quando va in bici."
+		},
+		"en": {
+			"code": "en",
+			"#4. theBIKEnet Safety Behaviour – How you protect yourself": "4. theBIKEnet Safety Behaviour – How you protect yourself",
+			"#Welcome to the theBIKEnet Safety Behaviour Questionnaire": "Welcome to the theBIKEnet Safety Behaviour Questionnaire",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This fourth questionnaire explores <b>how you protect yourself and behave in traffic</b>, including your <b>confidence, safety practices, and reactions</b> to different road situations. Understanding these everyday strategies helps us identify <b>habits and needs</b> that can guide safer riding behaviours and better infrastructure design.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This fourth questionnaire explores <b>how you protect yourself and behave in traffic</b>, including your <b>confidence, safety practices, and reactions</b> to different road situations. Understanding these everyday strategies helps us identify <b>habits and needs</b> that can guide safer riding behaviours and better infrastructure design.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+			"#Cycling Confidence": "Cycling Confidence",
+			"#How confident and comfortable you feel when handling your bicycle or e-scooter in different traffic and environmental conditions.": "How confident and comfortable you feel when handling your bicycle or e-scooter in different traffic and environmental conditions.",
+			"#I am confident in my ability to control my bicycle or e-scooter in various traffic conditions.": "I am confident in my ability to control my bicycle or e-scooter in various traffic conditions.",
+			"#Strongly disagree": "Strongly disagree",
+			"#Disagree": "Disagree",
+			"#Neither agree nor disagree": "Neither agree nor disagree",
+			"#Agree": "Agree",
+			"#Strongly agree": "Strongly agree",
+			"#I am confident in my ability to handle my bicycle or e-scooter at high speeds or on steep descents.": "I am confident in my ability to handle my bicycle or e-scooter at high speeds or on steep descents.",
+			"#I feel comfortable riding in urban environments with heavy traffic.": "I feel comfortable riding in urban environments with heavy traffic.",
+			"#Avoidance and Adaptive Behaviour": "Avoidance and Adaptive Behaviour",
+			"#When and where you choose to ride, and what strategies you use to stay safe.": "When and where you choose to ride, and what strategies you use to stay safe.",
+			"#What actions do you take to feel safer when cycling or riding?": "What actions do you take to feel safer when cycling or riding?",
+			"#Choose streets with less traffic": "Choose streets with less traffic",
+			"#Avoid riding at night": "Avoid riding at night",
+			"#Use protective gear (helmet, reflective clothing)": "Use protective gear (helmet, reflective clothing)",
+			"#Ride more slowly or cautiously": "Ride more slowly or cautiously",
+			"#Use sidewalks or pedestrian areas when possible": "Use sidewalks or pedestrian areas when possible",
+			"#Avoid left turns or roundabouts": "Avoid left turns or roundabouts",
+			"#Avoid tunnels or bridges": "Avoid tunnels or bridges",
+			"#Ride against traffic": "Ride against traffic",
+			"#Would you be willing to break traffic rules in some situations if you consider it safer or more convenient?": "Would you be willing to break traffic rules in some situations if you consider it safer or more convenient?",
+			"#Never – I always follow the rules": "Never – I always follow the rules",
+			"#Rarely – only in very specific circumstances": "Rarely – only in very specific circumstances",
+			"#Sometimes – when I judge it harmless": "Sometimes – when I judge it harmless",
+			"#Often – rules are not always adapted to cyclists": "Often – rules are not always adapted to cyclists",
+			"#Which traffic rules do you occasionally disregard when cycling or riding?": "Which traffic rules do you occasionally disregard when cycling or riding?",
+			"#Crossing at red lights when safe to do so": "Crossing at red lights when safe to do so",
+			"#Riding on sidewalks": "Riding on sidewalks",
+			"#Using bus lanes": "Using bus lanes",
+			"#Going the wrong way on one-way streets": "Going the wrong way on one-way streets",
+			"#Using the phone or headphones while riding": "Using the phone or headphones while riding",
+			"#None": "None",
+			"#Which types of road users most negatively affect your sense of safety?": "Which types of road users most negatively affect your sense of safety?",
+			"#Car drivers": "Car drivers",
+			"#Motorcyclists": "Motorcyclists",
+			"#Bus or truck drivers": "Bus or truck drivers",
+			"#Other cyclists": "Other cyclists",
+			"#E-scooter users": "E-scooter users",
+			"#Pedestrians": "Pedestrians",
+			"#How often do you wear a helmet when cycling or riding an e-scooter?": "How often do you wear a helmet when cycling or riding an e-scooter?",
+			"#Always": "Always",
+			"#Often": "Often",
+			"#Sometimes": "Sometimes",
+			"#Rarely": "Rarely",
+			"#Never": "Never",
+			"#Which safety equipment do you use regularly?": "Which safety equipment do you use regularly?",
+			"#Front light": "Front light",
+			"#Rear light": "Rear light",
+			"#Reflective vest or clothing": "Reflective vest or clothing",
+			"#Helmet": "Helmet",
+			"#Bell or horn": "Bell or horn",
+			"#Do you usually ride with lights or reflective items during the day?": "Do you usually ride with lights or reflective items during the day?",
+			"#I use safety equipment because it makes me feel safer.": "I use safety equipment because it makes me feel safer.",
+			"#I use safety equipment because it is required by law or regulation.": "I use safety equipment because it is required by law or regulation.",
+			"#I do not think safety equipment is necessary for short trips.": "I do not think safety equipment is necessary for short trips.",
+			"#Where do you usually position yourself when waiting at red lights?": "Where do you usually position yourself when waiting at red lights?",
+			"#In front of cars, in the lane": "In front of cars, in the lane",
+			"#Beside cars, near the curb": "Beside cars, near the curb",
+			"#On the sidewalk or crosswalk": "On the sidewalk or crosswalk",
+			"#I do not stop at red lights if I consider it safe": "I do not stop at red lights if I consider it safe",
+			"#Not applicable (no traffic lights on this route)": "Not applicable (no traffic lights on this route)",
+			"#How do you deal with tram tracks or similar obstacles?": "How do you deal with tram tracks or similar obstacles?",
+			"#I slow down and cross perpendicularly": "I slow down and cross perpendicularly",
+			"#I avoid them by changing route or lane": "I avoid them by changing route or lane",
+			"#I cross at a shallow angle without slowing down": "I cross at a shallow angle without slowing down",
+			"#There are no tram tracks on my usual routes": "There are no tram tracks on my usual routes",
+			"#I feel anxious or tense when cycling in complex traffic.": "I feel anxious or tense when cycling in complex traffic.",
+			"#Protective Behaviour": "Protective Behaviour",
+			"#How often and in what ways you protect yourself while cycling or using an e-scooter.": "How often and in what ways you protect yourself while cycling or using an e-scooter.",
+			"#Motivation and Social Norms": "Motivation and Social Norms",
+			"#Your reasons and social influences related to using safety equipment such as helmets or lights.": "Your reasons and social influences related to using safety equipment such as helmets or lights.",
+			"#Most people I know use helmets or lights when cycling.": "Most people I know use helmets or lights when cycling."
+		}
+	},
+	"id": "theBIKEnet_safety_behaviour",
+	"db_set": "questionnaires",
+	"default_language": "it"
+}

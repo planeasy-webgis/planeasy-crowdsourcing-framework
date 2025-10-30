@@ -1,0 +1,238 @@
+{
+	"questionnaire": {
+		"name": "theBIKEnet Pre-Trip",
+		"questionnaire_id": "theBIKEnet_trip_pre",
+		"questionnaire_version": "1.0.0",
+		"feedback_mode": "true",
+		"project": "theBIKEnet",
+		"privacy_options": {
+			"ask_consent": false,
+			"save_user_id": false
+		},
+		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
+		"sections": [
+			{
+				"title": "Trip Context",
+				"description": "Information about the trip you are about to start.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "What is the main purpose of this trip?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Commuting (work or study)"
+							},
+							{
+								"text": "Errands or shopping"
+							},
+							{
+								"text": "Leisure or recreation"
+							},
+							{
+								"text": "Sport or fitness"
+							},
+							{
+								"text": "Visiting friends or relatives"
+							}
+						]
+					},
+					{
+						"text": "Is this a regular or occasional trip for you?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Regular – I do this trip often"
+							},
+							{
+								"text": "Occasional – I rarely do this trip"
+							},
+							{
+								"text": "First time on this route"
+							}
+						]
+					},
+					{
+						"text": "Are you carrying passengers or cargo?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "No"
+							},
+							{
+								"text": "Yes, passenger(s)"
+							},
+							{
+								"text": "Yes, cargo (bags, groceries, equipment)"
+							},
+							{
+								"text": "Yes, both"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Environment and Companionship",
+				"description": "",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "What are the weather conditions right now?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Sunny or clear"
+							},
+							{
+								"text": "Cloudy"
+							},
+							{
+								"text": "Rainy"
+							},
+							{
+								"text": "Windy"
+							},
+							{
+								"text": "Foggy"
+							},
+							{
+								"text": "Night-time"
+							}
+						]
+					},
+					{
+						"text": "Are you travelling alone or with others?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Alone"
+							},
+							{
+								"text": "With family"
+							},
+							{
+								"text": "With friends or colleagues"
+							},
+							{
+								"text": "In a group or organised ride"
+							}
+						]
+					},
+					{
+						"text": "Was the weather or traffic a factor in your decision to travel now?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes, weather"
+							},
+							{
+								"text": "Yes, traffic conditions"
+							},
+							{
+								"text": "Both"
+							},
+							{
+								"text": "No"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"en": {
+			"code": "en",
+			"#theBIKEnet Pre-Trip": "theBIKEnet Pre-Trip",
+			"#Trip Context": "Trip Context",
+			"#Information about the trip you are about to start.": "Information about the trip you are about to start.",
+			"#What is the main purpose of this trip?": "What is the main purpose of this trip?",
+			"#Commuting (work or study)": "Commuting (work or study)",
+			"#Errands or shopping": "Errands or shopping",
+			"#Leisure or recreation": "Leisure or recreation",
+			"#Sport or fitness": "Sport or fitness",
+			"#Visiting friends or relatives": "Visiting friends or relatives",
+			"#Is this a regular or occasional trip for you?": "Is this a regular or occasional trip for you?",
+			"#Regular – I do this trip often": "Regular – I do this trip often",
+			"#Occasional – I rarely do this trip": "Occasional – I rarely do this trip",
+			"#First time on this route": "First time on this route",
+			"#Are you carrying passengers or cargo?": "Are you carrying passengers or cargo?",
+			"#No": "No",
+			"#Yes, passenger(s)": "Yes, passenger(s)",
+			"#Yes, cargo (bags, groceries, equipment)": "Yes, cargo (bags, groceries, equipment)",
+			"#Yes, both": "Yes, both",
+			"#Environment and Companionship": "Environment and Companionship",
+			"#What are the weather conditions right now?": "What are the weather conditions right now?",
+			"#Sunny or clear": "Sunny or clear",
+			"#Cloudy": "Cloudy",
+			"#Rainy": "Rainy",
+			"#Windy": "Windy",
+			"#Foggy": "Foggy",
+			"#Night-time": "Night-time",
+			"#Are you travelling alone or with others?": "Are you travelling alone or with others?",
+			"#Alone": "Alone",
+			"#With family": "With family",
+			"#With friends or colleagues": "With friends or colleagues",
+			"#In a group or organised ride": "In a group or organised ride",
+			"#Was the weather or traffic a factor in your decision to travel now?": "Was the weather or traffic a factor in your decision to travel now?",
+			"#Yes, weather": "Yes, weather",
+			"#Yes, traffic conditions": "Yes, traffic conditions",
+			"#Both": "Both"
+		},
+		"it": {
+			"code": "it",
+			"#theBIKEnet Pre-Trip": "theBIKEnet Pre-Viaggio",
+			"#Trip Context": "Contesto del Viaggio",
+			"#Information about the trip you are about to start.": "Informazioni sul viaggio che stai per iniziare.",
+			"#What is the main purpose of this trip?": "Qual è lo scopo principale di questo viaggio?",
+			"#Commuting (work or study)": "Spostamento casa-lavoro o studio",
+			"#Errands or shopping": "Commissioni o acquisti",
+			"#Leisure or recreation": "Svago o tempo libero",
+			"#Sport or fitness": "Attività sportiva o fitness",
+			"#Visiting friends or relatives": "Visita ad amici o parenti",
+			"#Is this a regular or occasional trip for you?": "Si tratta di uno spostamento abituale o occasionale per te?",
+			"#Regular – I do this trip often": "Abituale – Faccio spesso questo percorso",
+			"#Occasional – I rarely do this trip": "Occasionale – Lo faccio raramente",
+			"#First time on this route": "Prima volta su questo percorso",
+			"#Are you carrying passengers or cargo?": "Stai trasportando passeggeri o carichi?",
+			"#No": "No",
+			"#Yes, passenger(s)": "Sì, passeggero/i",
+			"#Yes, cargo (bags, groceries, equipment)": "Sì, carico (borse, spesa, attrezzature)",
+			"#Yes, both": "Sì, entrambi",
+			"#Environment and Companionship": "Ambiente e Compagnia",
+			"#What are the weather conditions right now?": "Quali sono le condizioni meteo in questo momento?",
+			"#Sunny or clear": "Soleggiato o sereno",
+			"#Cloudy": "Nuvoloso",
+			"#Rainy": "Piovoso",
+			"#Windy": "Ventoso",
+			"#Foggy": "Nebbia",
+			"#Night-time": "Notturno",
+			"#Are you travelling alone or with others?": "Stai viaggiando da solo o con altre persone?",
+			"#Alone": "Da solo/a",
+			"#With family": "Con la famiglia",
+			"#With friends or colleagues": "Con amici o colleghi",
+			"#In a group or organised ride": "In gruppo o pedalata organizzata",
+			"#Was the weather or traffic a factor in your decision to travel now?": "Il meteo o il traffico hanno influenzato la tua decisione di viaggiare ora?",
+			"#Yes, weather": "Sì, il meteo",
+			"#Yes, traffic conditions": "Sì, le condizioni del traffico",
+			"#Both": "Entrambi",
+			"#No": "No"
+		}
+	},
+	"id": "theBIKEnet_trip_pre",
+	"db_set": "questionnaires",
+	"default_language": "it"
+}

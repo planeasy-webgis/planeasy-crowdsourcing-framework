@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlanEasy Questionnaires</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fb;
+      color: #222;
+    }
+    header {
+      background: #0c9091;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    h1 { margin: 0; font-size: 1.8rem; }
+    main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    section {
+      background: #fff;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      padding: 1.2rem 1.5rem;
+    }
+    h2 {
+      color: #0c9091;
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+    ul { list-style: none; padding: 0; }
+    li {
+      margin: 0.5rem 0;
+      padding: 0.3rem 0.6rem;
+      border-left: 4px solid #0c9091;
+      background: #f1fafa;
+      border-radius: 6px;
+    }
+    a {
+      color: #0c9091;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧩 PlanEasy Questionnaires</h1>
+    <p>Open, structured and versioned survey definitions</p>
+  </header>
+
+  <main id="content">
+    <p>Loading available questionnaires...</p>
+  </main>
+
+  <footer>
+    © 2025 PlanEasy contributors · Licensed under CC BY NC 4.0
+  </footer>
+
+  <script>
+    const BASE = "https://raw.githubusercontent.com/planeasy-webgis//planeasy-crowdsourcing-framework/main/questionnaires";
+
+    async function loadJSON(path) {
+      const res = await fetch(path);
+      if (!res.ok) throw new Error("Failed to fetch " + path);
+      return await res.json();
+    }
+
+    async function render() {
+      const container = document.getElementById("content");
+      container.innerHTML = "";
+
+      try {
+        const repoIndex = await loadJSON(BASE + "/index.json");
+
+        for (const project of repoIndex.projects) {
+          const sec = document.createElement("section");
+          const title = document.createElement("h2");
+          title.textContent = project.name;
+          sec.appendChild(title);
+
+          const desc = document.createElement("p");
+          desc.textContent = project.description || "";
+          sec.appendChild(desc);
+
+          if (project.website) {
+            const link = document.createElement("p");
+            link.innerHTML = `🌐 <a href="${project.website}" target="_blank">Visit project website</a>`;
+            sec.appendChild(link);
+          }
+
+          const projIndex = await loadJSON(BASE + "/" + project.path);
+          const list = document.createElement("ul");
+
+          for (const file of projIndex.questionnaires) {
+            const li = document.createElement("li");
+
+            const qid = file.replace(".json", "");
+            const projectId = project.id || "";
+            const basePath = projectId ? `${BASE}/${projectId}` : BASE;
+
+            const jsonLink = document.createElement("a");
+            jsonLink.href = `${basePath}/${file}`;
+            jsonLink.textContent = "📘 Definition";
+            jsonLink.target = "_blank";
+
+            const webLink = document.createElement("a");
+            const webUrl = projectId
+              ? `https://questionnaires.wemolab.eu/${projectId}/${qid}`
+              : `https://questionnaires.wemolab.eu/${qid}`;
+            webLink.href = webUrl;
+            webLink.textContent = "🧭 Answer online";
+            webLink.target = "_blank";
+            webLink.style.marginLeft = "1em";
+
+            li.appendChild(document.createTextNode(`${qid} `));
+            li.appendChild(jsonLink);
+            li.appendChild(webLink);
+
+            list.appendChild(li);
+          }
+
+          sec.appendChild(list);
+          container.appendChild(sec);
+        }
+      } catch (e) {
+        console.error(e);
+        container.innerHTML = "<p>⚠️ Failed to load questionnaire index.</p>";
+      }
+    }
+
+    render();
+  </script>
+</body>
+</html>

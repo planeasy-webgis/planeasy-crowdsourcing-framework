@@ -1,0 +1,621 @@
+{
+	"questionnaire": {
+		"name": "5. theBIKEnet Travel Habits - How you move every day",
+		"questionnaire_id": "theBIKEnet_travel_habits",
+		"questionnaire_version": "1.0.0",
+		"feedback_mode": "true",
+		"project": "theBIKEnet",
+		"privacy_options": {
+			"ask_consent": true,
+			"save_user_id": true
+		},
+		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
+		"sections": [
+			{
+				"title": "Welcome to the theBIKEnet Travel Habits Questionnaire",
+				"description": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This fifth questionnaire looks at <b>how you move every day</b>: the <b>means of transport</b> you use, the <b>purpose and frequency</b> of your trips, and how cycling or micromobility fit into your daily routine. Your answers will help us identify <b>mobility patterns</b> and <b>multimodal behaviours</b> across the city.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+				"backgroundColor": "#0c9091",
+				"questions": []
+			},
+			{
+				"title": "Frequency and Purpose",
+				"description": "Main transport modes, frequency of trips, and reasons for moving around the city.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "Which means of transport do you use most often for your regular trips?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Bicycle (non-electric)"
+							},
+							{
+								"text": "E-bike (personal/shared)"
+							},
+							{
+								"text": "E-scooter (personal/shared)"
+							},
+							{
+								"text": "E-scooter sharing"
+							},
+							{
+								"text": "Car (private)"
+							},
+							{
+								"text": "Car sharing"
+							},
+							{
+								"text": "Motorbike or scooter"
+							},
+							{
+								"text": "Public transport (bus, metro, tram, train)"
+							},
+							{
+								"text": "Walking"
+							}
+						]
+					},
+					{
+						"text": "For what purposes do you mainly travel by bicycle or e-scooter?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Commute to work"
+							},
+							{
+								"text": "Commute to school or university"
+							},
+							{
+								"text": "Daily shopping (groceries, errands)"
+							},
+							{
+								"text": "General shopping (clothing, other goods)"
+							},
+							{
+								"text": "Recreation or leisure"
+							},
+							{
+								"text": "Exercise and fitness"
+							},
+							{
+								"text": "Health and well-being"
+							},
+							{
+								"text": "Socializing or attending events"
+							},
+							{
+								"text": "Exploration and sightseeing"
+							}
+						]
+					},
+					{
+						"text": "How often do you ride a bicycle or an e-scooter?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Daily (5 or more times per week)"
+							},
+							{
+								"text": "Frequently (3–4 times per week)"
+							},
+							{
+								"text": "Sometimes (1–2 times per week or at least twice per month)"
+							},
+							{
+								"text": "Rarely (less than twice per month)"
+							},
+							{
+								"text": "Only in my free time"
+							},
+							{
+								"text": "Never"
+							}
+						]
+					},
+					{
+						"text": "How often do you use public transport for your daily commute or other trips?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Daily (5 or more times per week)"
+							},
+							{
+								"text": "Frequently (3–4 times per week)"
+							},
+							{
+								"text": "Sometimes (1–2 times per week or at least twice per month)"
+							},
+							{
+								"text": "Rarely (less than twice per month)"
+							},
+							{
+								"text": "Only occasionally"
+							},
+							{
+								"text": "Never"
+							}
+						]
+					},
+					{
+						"text": "Do you use micromobility (bike, e-bike, or e-scooter) in combination with public transport for your trips (for example, to reach or leave a bus, metro, or train station)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes, almost every time I use public transport"
+							},
+							{
+								"text": "Yes, often (several times per week)"
+							},
+							{
+								"text": "Sometimes (a few times per month)"
+							},
+							{
+								"text": "Rarely (a few times per year)"
+							},
+							{
+								"text": "Never"
+							},
+							{
+								"text": "I never use public transport"
+							}
+						]
+					},
+					{
+						"text": "How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very difficult"
+							},
+							{
+								"text": "Difficult"
+							},
+							{
+								"text": "Neither easy nor difficult"
+							},
+							{
+								"text": "Easy"
+							},
+							{
+								"text": "Very easy"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Cycling and Micromobility Experience",
+				"description": "Your overall experience with bicycles or e-scooters, both in Rome and elsewhere.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "How many years of cycling experience do you have in Rome?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Less than 1 year"
+							},
+							{
+								"text": "1–2 years"
+							},
+							{
+								"text": "3–5 years"
+							},
+							{
+								"text": "More than 5 years"
+							},
+							{
+								"text": "I have never cycled or used e-scooters in Rome"
+							}
+						]
+					},
+					{
+						"text": "How many years of cycling experience do you have in Italy (including Rome)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Less than 1 year"
+							},
+							{
+								"text": "1–2 years"
+							},
+							{
+								"text": "3–5 years"
+							},
+							{
+								"text": "More than 5 years"
+							},
+							{
+								"text": "I have never cycled or used e-scooters in Italy"
+							}
+						]
+					},
+					{
+						"text": "How many months or years of cycling or micromobility experience do you have abroad (outside Italy)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Less than 1 month"
+							},
+							{
+								"text": "Up to 12 months"
+							},
+							{
+								"text": "1–2 years"
+							},
+							{
+								"text": "More than 2 years"
+							},
+							{
+								"text": "I have no experience abroad"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Micromobility Use",
+				"description": "How you use your bicycle or e-scooter: when, where, and for what purpose.",
+				"backgroundColor": "#0c9091",
+				"questions": [
+					{
+						"text": "Which type of bicycle or e-scooter do you use most frequently?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Bicycle (non-electric)"
+							},
+							{
+								"text": "E-bike (personal)"
+							},
+							{
+								"text": "E-scooter (personal)"
+							},
+							{
+								"text": "Bike sharing (regular or e-bike)"
+							},
+							{
+								"text": "E-scooter sharing"
+							},
+							{
+								"text": "Other micromobility"
+							},
+							{
+								"text": "I do not use micromobility"
+							}
+						]
+					},
+					{
+						"text": "What is the typical distance of your trips by bicycle or e-scooter?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Less than 2 km"
+							},
+							{
+								"text": "2–5 km"
+							},
+							{
+								"text": "5–10 km"
+							},
+							{
+								"text": "More than 10 km"
+							}
+						]
+					},
+					{
+						"text": "At what time(s) of day do you mostly ride a bicycle or an e-scooter?",
+						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Before 07:00"
+							},
+							{
+								"text": "07:00–10:00 (morning peak)"
+							},
+							{
+								"text": "10:00–16:00 (midday)"
+							},
+							{
+								"text": "16:00–18:00 (afternoon peak)"
+							},
+							{
+								"text": "18:00–20:00 (evening commute)"
+							},
+							{
+								"text": "After 20:00 (late evening/night)"
+							}
+						]
+					},
+					{
+						"text": "Do you usually ride alone or with other people?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Mostly alone"
+							},
+							{
+								"text": "Often with family members"
+							},
+							{
+								"text": "Often with colleagues or friends"
+							},
+							{
+								"text": "It varies"
+							}
+						]
+					},
+					{
+						"text": "Do you regularly carry passengers (e.g., children) or cargo (bags, groceries, work equipment)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes, passengers"
+							},
+							{
+								"text": "Yes, cargo"
+							},
+							{
+								"text": "Yes, both passengers and cargo"
+							},
+							{
+								"text": "No"
+							}
+						]
+					},
+					{
+						"text": "Do you regularly accompany or assist someone during your trips (for example, children, elderly, or people with disabilities)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": true,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Yes, I accompany children or minors"
+							},
+							{
+								"text": "Yes, I accompany people who need assistance (elderly, disabled, etc.)"
+							},
+							{
+								"text": "Yes, I accompany colleagues or friends"
+							},
+							{
+								"text": "No, I usually travel alone"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"it": {
+			"code": "it",
+			"#5. theBIKEnet Travel Habits - How you move every day": "5. theBIKEnet Abitudini di Viaggio – Come ti muovi ogni giorno",
+			"#Welcome to the theBIKEnet Travel Habits Questionnaire": "Benvenutə al questionario theBIKEnet – Abitudini di Viaggio",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This fifth questionnaire looks at <b>how you move every day</b>: the <b>means of transport</b> you use, the <b>purpose and frequency</b> of your trips, and how cycling or micromobility fit into your daily routine. Your answers will help us identify <b>mobility patterns</b> and <b>multimodal behaviours</b> across the city.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> è un progetto di ricerca pubblica che studia come le persone si spostano in bicicletta nelle città — unendo scienza, tecnologia ed esperienza quotidiana. Il nostro obiettivo è rendere la mobilità urbana più sicura, equa e sostenibile per tutti.<br><br>Questo quinto questionario analizza <b>come ti sposti ogni giorno</b>: i <b>mezzi di trasporto</b> che utilizzi, la <b>frequenza e lo scopo</b> dei tuoi spostamenti e come la bicicletta o la micromobilità si integrano nella tua routine quotidiana. Le tue risposte ci aiuteranno a identificare <b>modelli di mobilità</b> e <b>comportamenti multimodali</b> nella città.<br><br>La partecipazione è completamente volontaria e anonima. Le informazioni fornite saranno utilizzate solo a fini scientifici ed educativi.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Scopri di più sul progetto theBIKEnet</a>",
+			"#Frequency and Purpose": "Frequenza e motivazioni degli spostamenti",
+			"#Main transport modes, frequency of trips, and reasons for moving around the city.": "Principali mezzi di trasporto, frequenza degli spostamenti e motivazioni per muoverti in città.",
+			"#Which means of transport do you use most often for your regular trips?": "Quale mezzo di trasporto utilizzi più spesso per i tuoi spostamenti abituali?",
+			"#Bicycle (non-electric)": "Bicicletta (non elettrica)",
+			"#E-bike (personal/shared)": "E-bike (personale/condivisa)",
+			"#E-scooter (personal/shared)": "Monopattino elettrico (personale/condiviso)",
+			"#E-scooter sharing": "Servizio di monopattini in sharing",
+			"#Car (private)": "Auto privata",
+			"#Car sharing": "Servizio di car sharing",
+			"#Motorbike or scooter": "Motocicletta o scooter",
+			"#Public transport (bus, metro, tram, train)": "Trasporto pubblico (autobus, metro, tram, treno)",
+			"#Walking": "A piedi",
+			"#For what purposes do you mainly travel by bicycle or e-scooter?": "Per quali motivi ti sposti principalmente in bicicletta o in monopattino elettrico?",
+			"#Commute to work": "Per recarti al lavoro",
+			"#Commute to school or university": "Per andare a scuola o all’università",
+			"#Daily shopping (groceries, errands)": "Per la spesa o commissioni quotidiane",
+			"#General shopping (clothing, other goods)": "Per altri acquisti (abbigliamento, beni vari)",
+			"#Recreation or leisure": "Per svago o tempo libero",
+			"#Exercise and fitness": "Per attività fisica o allenamento",
+			"#Health and well-being": "Per salute e benessere",
+			"#Socializing or attending events": "Per socializzare o partecipare a eventi",
+			"#Exploration and sightseeing": "Per esplorare o fare turismo",
+			"#How often do you ride a bicycle or an e-scooter?": "Con quale frequenza utilizzi una bicicletta o un monopattino elettrico?",
+			"#Daily (5 or more times per week)": "Quotidianamente (5 o più volte a settimana)",
+			"#Frequently (3–4 times per week)": "Frequentemente (3–4 volte a settimana)",
+			"#Sometimes (1–2 times per week or at least twice per month)": "A volte (1–2 volte a settimana o almeno due volte al mese)",
+			"#Rarely (less than twice per month)": "Raramente (meno di due volte al mese)",
+			"#Only in my free time": "Solo nel tempo libero",
+			"#Never": "Mai",
+			"#How often do you use public transport for your daily commute or other trips?": "Con quale frequenza utilizzi il trasporto pubblico per i tuoi spostamenti quotidiani o altri viaggi?",
+			"#Only occasionally": "Solo occasionalmente",
+			"#Do you use micromobility (bike, e-bike, or e-scooter) in combination with public transport for your trips (for example, to reach or leave a bus, metro, or train station)?": "Utilizzi la micromobilità (bici, e-bike o monopattino) in combinazione con il trasporto pubblico (ad esempio per raggiungere o lasciare una fermata o stazione)?",
+			"#Yes, almost every time I use public transport": "Sì, quasi ogni volta che utilizzo il trasporto pubblico",
+			"#Yes, often (several times per week)": "Sì, spesso (più volte a settimana)",
+			"#Sometimes (a few times per month)": "A volte (alcune volte al mese)",
+			"#Rarely (a few times per year)": "Raramente (alcune volte all’anno)",
+			"#I never use public transport": "Non utilizzo mai il trasporto pubblico",
+			"#Cycling and Micromobility Experience": "Esperienza con la bicicletta e la micromobilità",
+			"#Your overall experience with bicycles or e-scooters, both in Rome and elsewhere.": "La tua esperienza complessiva con biciclette o monopattini elettrici, a Roma e altrove.",
+			"#How many years of cycling experience do you have in Rome?": "Quanti anni di esperienza in bicicletta hai a Roma?",
+			"#Less than 1 year": "Meno di 1 anno",
+			"#1–2 years": "Da 1 a 2 anni",
+			"#3–5 years": "Da 3 a 5 anni",
+			"#More than 5 years": "Più di 5 anni",
+			"#I have never cycled or used e-scooters in Rome": "Non ho mai usato biciclette o monopattini elettrici a Roma",
+			"#How many years of cycling experience do you have in Italy (including Rome)?": "Quanti anni di esperienza in bicicletta hai in Italia (inclusa Roma)?",
+			"#I have never cycled or used e-scooters in Italy": "Non ho mai usato biciclette o monopattini elettrici in Italia",
+			"#How many months or years of cycling or micromobility experience do you have abroad (outside Italy)?": "Quanti mesi o anni di esperienza in bicicletta o micromobilità hai all’estero (fuori dall’Italia)?",
+			"#Less than 1 month": "Meno di 1 mese",
+			"#Up to 12 months": "Fino a 12 mesi",
+			"#More than 2 years": "Più di 2 anni",
+			"#I have no experience abroad": "Non ho esperienza all’estero",
+			"#Micromobility Use": "Uso della micromobilità",
+			"#How you use your bicycle or e-scooter: when, where, and for what purpose.": "Come utilizzi la tua bicicletta o il tuo monopattino elettrico: quando, dove e per quale scopo.",
+			"#Which type of bicycle or e-scooter do you use most frequently?": "Quale tipo di bicicletta o monopattino utilizzi più frequentemente?",
+			"#E-bike (personal)": "E-bike (personale)",
+			"#E-scooter (personal)": "Monopattino elettrico (personale)",
+			"#Bike sharing (regular or e-bike)": "Servizio di bike sharing (tradizionale o elettrico)",
+			"#Other micromobility": "Altro mezzo di micromobilità",
+			"#I do not use micromobility": "Non utilizzo mezzi di micromobilità",
+			"#What is the typical distance of your trips by bicycle or e-scooter?": "Qual è la distanza tipica dei tuoi spostamenti in bicicletta o in monopattino elettrico?",
+			"#Less than 2 km": "Meno di 2 km",
+			"#2–5 km": "Da 2 a 5 km",
+			"#5–10 km": "Da 5 a 10 km",
+			"#More than 10 km": "Più di 10 km",
+			"#At what time(s) of day do you mostly ride a bicycle or an e-scooter?": "In quali momenti della giornata utilizzi più spesso la bicicletta o il monopattino elettrico?",
+			"#Before 07:00": "Prima delle 07:00",
+			"#07:00–10:00 (morning peak)": "07:00–10:00 (ora di punta del mattino)",
+			"#10:00–16:00 (midday)": "10:00–16:00 (fascia diurna)",
+			"#16:00–18:00 (afternoon peak)": "16:00–18:00 (ora di punta pomeridiana)",
+			"#18:00–20:00 (evening commute)": "18:00–20:00 (rientro serale)",
+			"#After 20:00 (late evening/night)": "Dopo le 20:00 (sera/notte)",
+			"#Do you usually ride alone or with other people?": "Di solito ti sposti da solo o in compagnia?",
+			"#Mostly alone": "Per lo più da solo",
+			"#Often with family members": "Spesso con familiari",
+			"#Often with colleagues or friends": "Spesso con colleghi o amici",
+			"#It varies": "Dipende dalla situazione",
+			"#Do you regularly carry passengers (e.g., children) or cargo (bags, groceries, work equipment)?": "Porti regolarmente passeggeri (es. bambini) o carichi (borse, spesa, attrezzature di lavoro)?",
+			"#Yes, passengers": "Sì, passeggeri",
+			"#Yes, cargo": "Sì, carichi",
+			"#Yes, both passengers and cargo": "Sì, passeggeri e carichi",
+			"#No": "No",
+			"#Do you regularly accompany or assist someone during your trips (for example, children, elderly, or people with disabilities)?": "Accompagni o assisti regolarmente qualcuno durante i tuoi spostamenti (ad esempio bambini, anziani o persone con disabilità)?",
+			"#Yes, I accompany children or minors": "Sì, accompagno bambini o minori",
+			"#Yes, I accompany people who need assistance (elderly, disabled, etc.)": "Sì, accompagno persone che necessitano assistenza (anziani, disabili, ecc.)",
+			"#Yes, I accompany colleagues or friends": "Sì, accompagno colleghi o amici",
+			"#No, I usually travel alone": "No, solitamente viaggio da solo",
+			"#How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?": "Quanto ti risulta facile integrare la micromobilità (es. bici, monopattino) nella tua routine quotidiana?",
+			"#Very difficult": "Molto difficile",
+			"#Difficult": "Difficile",
+			"#Neither easy nor difficult": "Né facile né difficile",
+			"#Easy": "Facile",
+			"#Very easy": "Molto facile"
+		},
+		"en": {
+			"code": "en",
+			"#5. theBIKEnet Travel Habits - How you move every day": "5. theBIKEnet Travel Habits - How you move every day",
+			"#Welcome to the theBIKEnet Travel Habits Questionnaire": "Welcome to the theBIKEnet Travel Habits Questionnaire",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This fifth questionnaire looks at <b>how you move every day</b>: the <b>means of transport</b> you use, the <b>purpose and frequency</b> of your trips, and how cycling or micromobility fit into your daily routine. Your answers will help us identify <b>mobility patterns</b> and <b>multimodal behaviours</b> across the city.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This fifth questionnaire looks at <b>how you move every day</b>: the <b>means of transport</b> you use, the <b>purpose and frequency</b> of your trips, and how cycling or micromobility fit into your daily routine. Your answers will help us identify <b>mobility patterns</b> and <b>multimodal behaviours</b> across the city.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+			"#Frequency and Purpose": "Frequency and Purpose",
+			"#Main transport modes, frequency of trips, and reasons for moving around the city.": "Main transport modes, frequency of trips, and reasons for moving around the city.",
+			"#Which means of transport do you use most often for your regular trips?": "Which means of transport do you use most often for your regular trips?",
+			"#Bicycle (non-electric)": "Bicycle (non-electric)",
+			"#E-bike (personal/shared)": "E-bike (personal/shared)",
+			"#E-scooter (personal/shared)": "E-scooter (personal/shared)",
+			"#E-scooter sharing": "E-scooter sharing",
+			"#Car (private)": "Car (private)",
+			"#Car sharing": "Car sharing",
+			"#Motorbike or scooter": "Motorbike or scooter",
+			"#Public transport (bus, metro, tram, train)": "Public transport (bus, metro, tram, train)",
+			"#Walking": "Walking",
+			"#For what purposes do you mainly travel by bicycle or e-scooter?": "For what purposes do you mainly travel by bicycle or e-scooter?",
+			"#Commute to work": "Commute to work",
+			"#Commute to school or university": "Commute to school or university",
+			"#Daily shopping (groceries, errands)": "Daily shopping (groceries, errands)",
+			"#General shopping (clothing, other goods)": "General shopping (clothing, other goods)",
+			"#Recreation or leisure": "Recreation or leisure",
+			"#Exercise and fitness": "Exercise and fitness",
+			"#Health and well-being": "Health and well-being",
+			"#Socializing or attending events": "Socializing or attending events",
+			"#Exploration and sightseeing": "Exploration and sightseeing",
+			"#How often do you ride a bicycle or an e-scooter?": "How often do you ride a bicycle or an e-scooter?",
+			"#Daily (5 or more times per week)": "Daily (5 or more times per week)",
+			"#Frequently (3–4 times per week)": "Frequently (3–4 times per week)",
+			"#Sometimes (1–2 times per week or at least twice per month)": "Sometimes (1–2 times per week or at least twice per month)",
+			"#Rarely (less than twice per month)": "Rarely (less than twice per month)",
+			"#Only in my free time": "Only in my free time",
+			"#Never": "Never",
+			"#How often do you use public transport for your daily commute or other trips?": "How often do you use public transport for your daily commute or other trips?",
+			"#Only occasionally": "Only occasionally",
+			"#Do you use micromobility (bike, e-bike, or e-scooter) in combination with public transport for your trips (for example, to reach or leave a bus, metro, or train station)?": "Do you use micromobility (bike, e-bike, or e-scooter) in combination with public transport for your trips (for example, to reach or leave a bus, metro, or train station)?",
+			"#Yes, almost every time I use public transport": "Yes, almost every time I use public transport",
+			"#Yes, often (several times per week)": "Yes, often (several times per week)",
+			"#Sometimes (a few times per month)": "Sometimes (a few times per month)",
+			"#Rarely (a few times per year)": "Rarely (a few times per year)",
+			"#I never use public transport": "I never use public transport",
+			"#Cycling and Micromobility Experience": "Cycling and Micromobility Experience",
+			"#Your overall experience with bicycles or e-scooters, both in Rome and elsewhere.": "Your overall experience with bicycles or e-scooters, both in Rome and elsewhere.",
+			"#How many years of cycling experience do you have in Rome?": "How many years of cycling experience do you have in Rome?",
+			"#Less than 1 year": "Less than 1 year",
+			"#1–2 years": "1–2 years",
+			"#3–5 years": "3–5 years",
+			"#More than 5 years": "More than 5 years",
+			"#I have never cycled or used e-scooters in Rome": "I have never cycled or used e-scooters in Rome",
+			"#How many years of cycling experience do you have in Italy (including Rome)?": "How many years of cycling experience do you have in Italy (including Rome)?",
+			"#I have never cycled or used e-scooters in Italy": "I have never cycled or used e-scooters in Italy",
+			"#How many months or years of cycling or micromobility experience do you have abroad (outside Italy)?": "How many months or years of cycling or micromobility experience do you have abroad (outside Italy)?",
+			"#Less than 1 month": "Less than 1 month",
+			"#Up to 12 months": "Up to 12 months",
+			"#More than 2 years": "More than 2 years",
+			"#I have no experience abroad": "I have no experience abroad",
+			"#Micromobility Use": "Micromobility Use",
+			"#How you use your bicycle or e-scooter: when, where, and for what purpose.": "How you use your bicycle or e-scooter: when, where, and for what purpose.",
+			"#Which type of bicycle or e-scooter do you use most frequently?": "Which type of bicycle or e-scooter do you use most frequently?",
+			"#E-bike (personal)": "E-bike (personal)",
+			"#E-scooter (personal)": "E-scooter (personal)",
+			"#Bike sharing (regular or e-bike)": "Bike sharing (regular or e-bike)",
+			"#Other micromobility": "Other micromobility",
+			"#I do not use micromobility": "I do not use micromobility",
+			"#What is the typical distance of your trips by bicycle or e-scooter?": "What is the typical distance of your trips by bicycle or e-scooter?",
+			"#Less than 2 km": "Less than 2 km",
+			"#2–5 km": "2–5 km",
+			"#5–10 km": "5–10 km",
+			"#More than 10 km": "More than 10 km",
+			"#At what time(s) of day do you mostly ride a bicycle or an e-scooter?": "At what time(s) of day do you mostly ride a bicycle or an e-scooter?",
+			"#Before 07:00": "Before 07:00",
+			"#07:00–10:00 (morning peak)": "07:00–10:00 (morning peak)",
+			"#10:00–16:00 (midday)": "10:00–16:00 (midday)",
+			"#16:00–18:00 (afternoon peak)": "16:00–18:00 (afternoon peak)",
+			"#18:00–20:00 (evening commute)": "18:00–20:00 (evening commute)",
+			"#After 20:00 (late evening/night)": "After 20:00 (late evening/night)",
+			"#Do you usually ride alone or with other people?": "Do you usually ride alone or with other people?",
+			"#Mostly alone": "Mostly alone",
+			"#Often with family members": "Often with family members",
+			"#Often with colleagues or friends": "Often with colleagues or friends",
+			"#It varies": "It varies",
+			"#Do you regularly carry passengers (e.g., children) or cargo (bags, groceries, work equipment)?": "Do you regularly carry passengers (e.g., children) or cargo (bags, groceries, work equipment)?",
+			"#Yes, passengers": "Yes, passengers",
+			"#Yes, cargo": "Yes, cargo",
+			"#Yes, both passengers and cargo": "Yes, both passengers and cargo",
+			"#No": "No",
+			"#Do you regularly accompany or assist someone during your trips (for example, children, elderly, or people with disabilities)?": "Do you regularly accompany or assist someone during your trips (for example, children, elderly, or people with disabilities)?",
+			"#Yes, I accompany children or minors": "Yes, I accompany children or minors",
+			"#Yes, I accompany people who need assistance (elderly, disabled, etc.)": "Yes, I accompany people who need assistance (elderly, disabled, etc.)",
+			"#Yes, I accompany colleagues or friends": "Yes, I accompany colleagues or friends",
+			"#No, I usually travel alone": "No, I usually travel alone",
+			"#How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?": "How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?",
+			"#Very difficult": "Very difficult",
+			"#Difficult": "Difficult",
+			"#Neither easy nor difficult": "Neither easy nor difficult",
+			"#Easy": "Easy",
+			"#Very easy": "Very easy"
+		}
+	},
+	"id": "theBIKEnet_travel_habits",
+	"db_set": "questionnaires",
+	"default_language": "it"
+}
