@@ -12,7 +12,7 @@
   </table>
 </div>
 
-# 🚴‍♀️ theBIKEnet – Cycling and Micromobility Research
+# 🚲 theBIKEnet – Cycling and Micromobility Research
 
 **theBIKEnet** is a research initiative coordinated by **Moving Projects Srl**,  
 in collaboration with **Sapienza University of Rome – Department of Civil, Construction and Environmental Engineering (DICEA)**,  
@@ -43,10 +43,13 @@ This folder contains the official *theBIKEnet* questionnaires in structured JSON
 
 ---
 
-## 🌐 Official Website
+## 🌐 Official Website and Repository
 
 For more information about the project, visit  
-👉 [**https://movprojects.com/thebikenet**](https://movprojects.com/thebikenet)
+👉 [**Official Website**](https://movprojects.com/thebikenet)  
+
+To access the open questionnaires and documentation, see the GitHub repository:  
+👉 [**https://github.com/movingprojects/thebikenet**](https://github.com/movingprojects/thebikenet)
 
 ---
 
@@ -66,8 +69,8 @@ All *theBIKEnet* questionnaires are released under the
 **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license.
 
 You may share and adapt this material for **non-commercial research and educational purposes**,  
-provided that proper credit is given to **PlanEasy**, **Moving Projects Srl**, and **Sapienza University of Rome (DICEA)**.
+provided that proper credit is given to **Moving Projects Srl**, **Sapienza University of Rome (DICEA)**, and **PlanEasy**.
 
 📄 Full license text: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
-© 2025 PlanEasy · Moving Projects Srl · Sapienza University of Rome (DICEA)
+© 2025 Moving Projects Srl · Sapienza University of Rome (DICEA) · PlanEasy 
