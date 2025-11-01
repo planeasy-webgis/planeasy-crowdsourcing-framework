@@ -4,7 +4,8 @@
 		"questionnaire_id": "perception_on_ride_sharing",
 		"questionnaire_version": "0.0.0",
 		"project": "",
-		"privacy_options": {
+		"options": {
+			"review_mode": false,
 			"ask_consent": false,
 			"save_user_id": false
 		},
@@ -12,60 +13,10 @@
 		"sections": [
 			{
 				"title": "Preface",
-				"description": "",
+				"description": "Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com",
 				"backgroundColor": "#7bccb5",
 				"condition": "undefined",
-				"questions": [
-					{
-						"text": "Dear Participant,",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": []
-					},
-					{
-						"text": "Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": []
-					},
-					{
-						"text": "This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": []
-					},
-					{
-						"text": "The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": []
-					},
-					{
-						"text": "If you have any questions or would like to discuss this research further, please contact us via the email below",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": []
-					},
-					{
-						"text": "m.afsary@gmail.com",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": []
-					},
-					{
-						"text": "We appreciate the time you spend answering this questionnaire",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": []
-					}
-				]
+				"questions": []
 			},
 			{
 				"title": "Demographic information",
@@ -1186,7 +1137,6 @@
 			"#Contact a familiar person": "Contact a familiar person",
 			"#Convenience and ease (such as having an air conditioner, comfortable seats, etc.)": "Convenience and ease (such as having an air conditioner, comfortable seats, etc.)",
 			"#Daily": "Daily",
-			"#Dear Participant,": "Dear Participant,",
 			"#Demographic information": "Demographic information",
 			"#Diploma or less": "Diploma or less",
 			"#Direct phone call to the transportation provider center and report the issue": "Direct phone call to the transportation provider center and report the issue",
@@ -1228,7 +1178,6 @@
 			"#I have used taxis in the city": "I have used taxis in the city",
 			"#I'm not willing to spend more for additional security.": "I'm not willing to spend more for additional security.",
 			"#If you have any experience or ideas related to this research, we would be very happy for you to share them with us.": "If you have any experience or ideas related to this research, we would be very happy for you to share them with us.",
-			"#If you have any questions or would like to discuss this research further, please contact us via the email below": "If you have any questions or would like to discuss this research further, please contact us via the email below",
 			"#Implement real-time driver tracking feature to enhance security": "Implement real-time driver tracking feature to enhance security",
 			"#Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips": "Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips",
 			"#Important": "Important",
@@ -1256,7 +1205,6 @@
 			"#Preface": "Preface",
 			"#Relatively important": "Relatively important",
 			"#Relatively secured": "Relatively secured",
-			"#Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification": "Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification",
 			"#Retired": "Retired",
 			"#Safety refers to protecting people from unintentional hazards and incidents such as accidents and vehicle breakdowns, while security is concerned with protecting people from intentional threats such as theft and criminal attacks.": "Safety refers to protecting people from unintentional hazards and incidents such as accidents and vehicle breakdowns, while security is concerned with protecting people from intentional threats such as theft and criminal attacks.",
 			"#Scoring": "Scoring",
@@ -1276,10 +1224,8 @@
 			"#Taxi fares": "Taxi fares",
 			"#Taxis in the city": "Taxis in the city",
 			"#The future implementation": "The future implementation",
-			"#The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.": "The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.",
 			"#The use of security applications and the possibility of reporting the issue with personal or anonymous information": "The use of security applications and the possibility of reporting the issue with personal or anonymous information",
 			"#There is no difference": "There is no difference",
-			"#This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.": "This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.",
 			"#Three": "Three",
 			"#Three and more than three": "Three and more than three",
 			"#Travel time": "Travel time",
@@ -1288,7 +1234,6 @@
 			"#Using security applications and reporting the issue anonymously": "Using security applications and reporting the issue anonymously",
 			"#Van": "Van",
 			"#Very important": "Very important",
-			"#We appreciate the time you spend answering this questionnaire": "We appreciate the time you spend answering this questionnaire",
 			"#Weekly or more": "Weekly or more",
 			"#Well below average": "Well below average",
 			"#What destinations do you most travel to?": "What destinations do you most travel to?",
@@ -1331,19 +1276,19 @@
 			"#what is your gender?": "what is your gender?",
 			"#with irregular intervals or without setting time": "with irregular intervals or without setting time",
 			"#Perceptions on Ride Sharing": "Perceptions on Ride Sharing",
-			"#m.afsary@gmail.com": "m.afsary@gmail.com",
 			"#50-69": "50-69",
 			"#>70 ": ">70 ",
 			"#1": "1",
 			"#2": "2",
 			"#3": "3",
 			"#4": "4",
-			"#5": "5"
+			"#5": "5",
+			"#Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com": "Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com"
 		},
 		"fa": {
 			"code": "fa",
-				"#Perceptions on Ride Sharing": "برداشت‌ها درباره هم‌سفری",
-				"rtl": true,
+			"#Perceptions on Ride Sharing": "برداشت‌ها درباره هم‌سفری",
+			"rtl": true,
 			"#0 (Because I don't have a driving license)": "0 (زیرا من گواهینامه رانندگی ندارم)",
 			"#0 (Because I don't have confidence in driving a car)": "(زیرا من در رانندگی ماشین اعتماد به نفس ندارم) 0",
 			"#Have you ever experienced an unpleasant touch, or an unpleasant feeling from the behavior of the driver or other passengers while using a taxi? (Imaginary sexual harassment)": "(آزار جنسی خیالی)آیا تا به حال هنگام استفاده از تاکسی، تجربه لمس ناخوشایند ،یا احساس نا خوشایندی از رفتار راننده و یا سایر مسافرین داشته‌اید؟",
@@ -1378,7 +1323,6 @@
 			"#Contact a familiar person": "تماس با یک آشنا",
 			"#Convenience and ease (such as having an air conditioner, comfortable seats, etc.)": "راحتی و سهولت  (مانند داشتن کولر، راحتی صندلی ها و ... )",
 			"#Daily": "روزانه",
-			"#Dear Participant,": "همراه عزیز",
 			"#Demographic information": "اطلاعات دموگرافیک",
 			"#Diploma or less": "دیپلم یا کمتر",
 			"#Direct phone call to the transportation provider center and report the issue": "تماس تلفنی مستقیم با مرکز ارایه دهنده حمل و نقل و گزارش موضوع",
@@ -1552,10 +1496,11 @@
 			"#what is your gender?": "جنسیت شما چیست؟",
 			"#with irregular intervals or without setting time": "با فواصل نامنظم یا بدون تعیین زمان",
 			"#yearly": "سالانه",
-			"#چندین بار در روز": "چندین بار در روز"
+			"#چندین بار در روز": "چندین بار در روز",
+			"#Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com": "شرکت‌کننده گرامی,<br><br>گروه پژوهشی حمل‌ونقل در دانشگاه ساپینزا رم در حال بررسی احساس امنیت افراد در تاکسی‌ها در کشورهای توسعه‌یافته و در حال توسعه است. هدف این پژوهش شناسایی دلایل احساس ناامنی و ارائه‌ی راه‌حل‌هایی برای ایجاد یک سیستم تاکسی امن‌تر در آینده می‌باشد. علاوه بر این، ما قصد داریم شکاف بین زنان و مردان و طبقات مختلف اجتماعی و اقتصادی را در برنامه‌ریزی شهری کاهش دهیم و جامعه‌ای امن برای همه‌ی افراد، فارغ از هرگونه طبقه‌بندی، ایجاد کنیم.<br><br>این پرسشنامه شامل ۸ صفحه است و پاسخ‌گویی به آن تقریباً ۱۰ تا ۱۵ دقیقه زمان می‌برد.<br><br>پرسشنامه از سه بخش تشکیل شده است. بخش اول شامل سؤالات جمعیت‌شناختی درباره‌ی خود شماست که به ما کمک می‌کند ترجیحات مختلف را با انواع متفاوت افراد مقایسه کنیم. بخش دوم شامل چندین سؤال درباره‌ی نحوه‌ی استفاده‌ی فعلی شما از تاکسی و ترجیحاتتان در این زمینه است. در نهایت، بخش سوم به آگاهی شما از موضوع امنیت در تاکسی‌ها و ترجیحاتتان برای طراحی یک سیستم تاکسی امن‌تر در آینده می‌پردازد. تمامی پاسخ‌ها به صورت ناشناس جمع‌آوری خواهند شد.<br><br>از زمانی که برای پاسخ‌گویی به این پرسشنامه اختصاص می‌دهید، صمیمانه سپاسگزاریم.<br><br>m.afsary@gmail.com"
 		}
 	},
 	"id": "perception_on_ride_sharing",
 	"db_set": "questionnaires",
-	"default_language": "fa"
+	"default_language": "en"
 }
