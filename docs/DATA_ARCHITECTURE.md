@@ -1,6 +1,4 @@
-#
 <div align="left">
-<br/>
   <table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
     <tr style="border:1px solid transparent;">
       <td style="border:1px solid transparent; vertical-align: middle; padding-right: 16px;">
@@ -82,18 +80,23 @@ Each document represents one completed questionnaire or trip record.
 
   "elapsed_s": 10,
   "answers": {},
-
   
   "geometry": {
     "type": "Point",
-    "coordinates": [12.387021, 41.902115]
+    "coordinates": [ 12.3794989, 41.8870416]
   },  
+  "bounding_box": {
+    "minLon": 12.3794989,
+    "minLat": 41.8870416,
+    "maxLon": 12.3794989,
+    "maxLat": 41.8870416
+  },
 
   "meta": {
     "device_os": "web",
     "app_version": "1.0.0",
     "language": "it",
-    "source": "mobile-app-v1"
+    "source": "web-app"
   },
 
   "consent_datetime": 1761753709702,
@@ -102,9 +105,10 @@ Each document represents one completed questionnaire or trip record.
 }
 ```
 
-- `answers`: contains responses matching the related questionnaire schema.
-- `geometry`: included only for geolocated responses.
-- In MongoDB, ttl_at is stored as `ISODate("2030-10-08T10:12:00Z")`.
+- `answers`: responses matching the related questionnaire schema.  
+- `geometry`: main spatial reference (usually a Point as centroid of reported locations); used for indexing and map display.  
+- `bounding_box`: rectangular extent covering all related locations; used for spatial filters and zoom-to-fit.  
+- In MongoDB, `ttl_at` is stored as `ISODate("2030-10-08T10:12:00Z")`.
  
 ---
 
@@ -125,28 +129,40 @@ Each document represents one completed questionnaire or trip record.
   "timezone": "Europe/Rome", 
 
   "pre_trip": {},
-  "post_trip": {},
+  "post_trip": {},  
 
   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-      [12.486, 41.892],
-      [12.490, 41.895],
-      [12.496, 41.898]
-    ]
+    "type": "Point",
+    "coordinates": [ 12.3794989, 41.8870416]
+  },  
+   "bounding_box": {
+    "minLon": 12.3794989,
+    "minLat": 41.8870416,
+    "maxLon": 12.3812345,
+    "maxLat": 41.8991871
+  },
+
+  "origin_geometry": {   
+    "type": "Point",
+    "coordinates": [ 12.3794989, 41.8870416]
+  },   
+
+  "destination_geometry": {
+     "type": "Point",
+     "coordinates": [ 12.3812345, 41.8991871]
   },
   
   "positions": [
     {
       "t": 1761755709702,
-      "lat": 41.892,
-      "lon": 12.486,
+      "lat": 41.3794989,
+      "lon": 12.8870416,
       "speed": 3.5
     },
     {
       "t": 1761755715702,
-      "lat": 41.895,
-      "lon": 12.490,
+      "lat": 41.3794996,
+      "lon": 12.8870450,
       "speed": 4.2
     }
   ],
@@ -155,7 +171,7 @@ Each document represents one completed questionnaire or trip record.
     "device_os": "android",
     "app_version": "1.0.0",
     "language": "it",
-    "source": "mobile-app-v1"
+    "source": "mobile-app"
   },
 
   "consent_datetime": 1761753709702,
@@ -166,6 +182,9 @@ Each document represents one completed questionnaire or trip record.
 
 - `pre_trip`:  response (according to `response_schema`) for the questionnaire before the trip.
 - `post_trip`: response (according to `response_schema`) for the questionnaire after the trip.
+- `geometry`: main spatial reference (usually a Point as centroid of the trip path); used for indexing and map display.
+- `bounding_box`: rectangular extent covering the entire trip; used for spatial filters and zoom-to-fit.
+- `origin_geometry` and `destination_geometry`: points representing the start and end locations of the trip; both can be indexed and queried separately.
 - In MongoDB, ttl_at is stored as `ISODate("2030-10-08T10:12:00Z")`.
   
 ---
@@ -182,11 +201,12 @@ This guarantees consistency between client-side storage, cloud synchronization, 
 ```
 surveyResponses/{questionnaireId}/responses/{timestampId}
 spatialReports/{questionnaireId}/responses/{timestampId}
-trips/{tripId}/locations/{positionId}
+trips/{tripId}/positions/{positionId} 
 ```
-- Hierarchical model with subcollections (`responses`:  `locations`).
+- Hierarchical model with subcollections (`responses`:  `positions`).
 - `ttl_at` stored as ISO 8601 UTC timestamp.
 - `creation_datetime` in UTC + `timezone` (e.g. `Europe/Rome`).  
+- `positions` stored as time-ordered subcollection<>
 
 ---
 
