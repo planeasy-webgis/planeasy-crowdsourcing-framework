@@ -39,8 +39,8 @@ web and mobile questionnaires.
 
 | **Dataset** | **Description** | **Collection / Example Path** | **Analysis Type** |
 |--------------|-----------------|-------------------------------|-------------------|
-| **Survey Responses** | Statistical questionnaires about user profile, habits, perceptions, and attitudes. | `surveyResponses/{questionnaire_id}/responses/{timestampId}` | Non-spatial (statistical) |
-| **Spatial Reports** | Geo-located questionnaires describing infrastructure, parking, or safety issues. | `spatialReports/{questionnaire_id}/responses/{timestampId}` | Spatial (GIS-based) |
+| **Survey Responses** | Statistical questionnaires about user profile, habits, perceptions, and attitudes. | `surveyResponses/{questionnaireId}/responses/{timestampId}` | Non-spatial (statistical) |
+| **Spatial Reports** | Geo-located questionnaires describing infrastructure, parking, or safety issues. | `spatialReports/{questionnaireId}/responses/{timestampId}` | Spatial (GIS-based) |
 | **Trips** | GPS traces and related pre- and post-trip surveys collected via the mobile app. | `trips/{tripId}/locations/{positionId}` | Spatiotemporal (behavioural) |
 
 All datasets share the same principles:
@@ -180,8 +180,8 @@ This guarantees consistency between client-side storage, cloud synchronization, 
 🧱 Firestore Data Model
 
 ```
-surveyResponses/{questionnaire_id}/responses/{timestampId}
-spatialReports/{questionnaire_id}/responses/{timestampId}
+surveyResponses/{questionnaireId}/responses/{timestampId}
+spatialReports/{questionnaireId}/responses/{timestampId}
 trips/{tripId}/locations/{positionId}
 ```
 - Hierarchical model with subcollections (`responses`:  `locations`).
@@ -210,8 +210,8 @@ trips                   // one document per trip (positions as array)
 ---
 
 ```
-surveyResponses/{questionnaire_id}/responses/{timestampId}
-spatialReports/{questionnaire_id}/responses/{timestampId}
+surveyResponses/{questionnaireId}/responses/{timestampId}
+spatialReports/{questionnaireId}/responses/{timestampId}
 trips/{tripId}/locations/{positionId}
 ```
 - Mirrors the Firestore model to simplify synchronization.
