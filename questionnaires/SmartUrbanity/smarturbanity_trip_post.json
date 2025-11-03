@@ -1,0 +1,896 @@
+{
+	"questionnaire": {
+		"name": "After Trip Survey",
+		"questionnaire_id": "smarturbanity_trip_post",
+		"questionnaire_version": "0.0.1",
+		"project": "SmartUrbanity",
+		"options": {
+			"review_mode": true,
+			"ask_consent": true,
+			"save_user_id": true
+		},
+		"gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+		"sections": [
+			{
+				"title": "After Trip Experience",
+				"description": "",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "How would you describe the steepness of your usual travel routes?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Mostly flat"
+							},
+							{
+								"text": "A bit hilly"
+							},
+							{
+								"text": "Quite hilly"
+							},
+							{
+								"text": "Very steep / lots of hills"
+							}
+						]
+					},
+					{
+						"text": "How would you describe the condition of the walking/cycling paths you usually use?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very poor — rough and difficult to walk or cycle on"
+							},
+							{
+								"text": "Poor — many holes or damaged areas"
+							},
+							{
+								"text": "Fair — some bumps or cracks here and there"
+							},
+							{
+								"text": "Good — mostly smooth, a few small rough spots"
+							},
+							{
+								"text": "Very good — smooth and well maintained"
+							}
+						]
+					},
+					{
+						"text": "How adequate is street lighting along your routes?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very poor — mostly dark or no lights"
+							},
+							{
+								"text": "Poor — many dark areas"
+							},
+							{
+								"text": "Fair — some dark spots"
+							},
+							{
+								"text": "Good — mostly well lit"
+							},
+							{
+								"text": "Very good — well lit everywhere"
+							}
+						]
+					},
+					{
+						"text": "How would you rate the cleanliness and maintenance of the public areas along your usual routes?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very poor — very dirty or badly maintained"
+							},
+							{
+								"text": "Poor — often dirty or not maintained"
+							},
+							{
+								"text": "Fair — some litter or things need repair"
+							},
+							{
+								"text": "Good — mostly clean, minor issues sometimes"
+							},
+							{
+								"text": "Very good — clean and well maintained"
+							}
+						]
+					},
+					{
+						"text": "How often do you see or pass by green spaces (parks, gardens, trees) along your routes?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Never — no green spaces at all"
+							},
+							{
+								"text": "Rarely — only in a few spots"
+							},
+							{
+								"text": "Sometimes — here and there"
+							},
+							{
+								"text": "Often — on many parts of my route"
+							},
+							{
+								"text": "Very often — almost everywhere"
+							}
+						]
+					},
+					{
+						"text": "Are there enough benches or places to rest along your usual routes?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "None at all"
+							},
+							{
+								"text": "Very few places to rest"
+							},
+							{
+								"text": "Some places, but not enough"
+							},
+							{
+								"text": "Yes, plenty of places to rest"
+							}
+						]
+					},
+					{
+						"text": "How well connected are the walking and cycling paths in your area?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very poor — paths don’t connect at all"
+							},
+							{
+								"text": "Poor — many breaks in the paths"
+							},
+							{
+								"text": "Okay — connected in some parts"
+							},
+							{
+								"text": "Good — mostly connected, a few gaps"
+							},
+							{
+								"text": "Very good — paths join up everywhere"
+							}
+						]
+					},
+					{
+						"text": "How would you describe the noise levels along your usual routes?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very noisy — hard to relax or concentrate"
+							},
+							{
+								"text": "Quite noisy — often loud or disturbing"
+							},
+							{
+								"text": "Moderate — sometimes noisy but tolerable"
+							},
+							{
+								"text": "Mostly quiet — some noise, not disturbing"
+							},
+							{
+								"text": "Very quiet — almost no noise"
+							}
+						]
+					},
+					{
+						"text": "How busy was the traffic on the routes you take?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Extremely busy"
+							},
+							{
+								"text": "Very busy"
+							},
+							{
+								"text": "Moderately busy"
+							},
+							{
+								"text": "A little busy"
+							},
+							{
+								"text": "Not busy at all"
+							}
+						]
+					},
+					{
+						"text": "How would you describe your comfort level from road traffic while walking?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very uncomfortable"
+							},
+							{
+								"text": "Somewhat uncomfortable"
+							},
+							{
+								"text": "Neither comfortable nor uncomfortable"
+							},
+							{
+								"text": "Somewhat comfortable"
+							},
+							{
+								"text": "Very comfortable"
+							}
+						]
+					},
+					{
+						"text": "How would you describe your comfort level from crime while walking?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very uncomfortable"
+							},
+							{
+								"text": "Somewhat uncomfortable"
+							},
+							{
+								"text": "Neither comfortable nor uncomfortable"
+							},
+							{
+								"text": "Somewhat comfortable"
+							},
+							{
+								"text": "Very comfortable"
+							}
+						]
+					},
+					{
+						"text": "How would you describe your comfort level in areas with poor lighting while walking?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very uncomfortable"
+							},
+							{
+								"text": "Somewhat uncomfortable"
+							},
+							{
+								"text": "Neither comfortable nor uncomfortable"
+							},
+							{
+								"text": "Somewhat comfortable"
+							},
+							{
+								"text": "Very comfortable"
+							}
+						]
+					},
+					{
+						"text": "How would you describe your comfort level regarding harassment while walking?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very uncomfortable"
+							},
+							{
+								"text": "Somewhat uncomfortable"
+							},
+							{
+								"text": "Neither comfortable nor uncomfortable"
+							},
+							{
+								"text": "Somewhat comfortable"
+							},
+							{
+								"text": "Very comfortable"
+							}
+						]
+					},
+					{
+						"text": "During your trip, did you encounter any physical barriers, like stairs or curbs, that made walking difficult?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							}
+						]
+					},
+					{
+						"text": "If you answered Yes earlier, how difficult did these barriers make your walking?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Extremely difficult"
+							},
+							{
+								"text": "Very difficult"
+							},
+							{
+								"text": "Moderately difficult"
+							},
+							{
+								"text": "Slightly difficult"
+							},
+							{
+								"text": "Not difficult at all"
+							}
+						]
+					},
+					{
+						"text": "While walking, how often did you come across shaded areas?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "I didn’t see any shaded areas"
+							},
+							{
+								"text": "Hardly any shaded areas"
+							},
+							{
+								"text": "Some shaded areas"
+							},
+							{
+								"text": "Many shaded areas"
+							},
+							{
+								"text": "Plenty of shaded areas"
+							}
+						]
+					},
+					{
+						"text": "Was the trip longer or shorter than you expected?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Much longer than expected"
+							},
+							{
+								"text": "Slightly longer than expected"
+							},
+							{
+								"text": "About what I expected"
+							},
+							{
+								"text": "Slightly shorter than expected"
+							},
+							{
+								"text": "Much shorter than expected"
+							}
+						]
+					},
+					{
+						"text": "How tired do you feel after this trip?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Extremely tired"
+							},
+							{
+								"text": "Very tired"
+							},
+							{
+								"text": "Moderately tired"
+							},
+							{
+								"text": "A little tired"
+							},
+							{
+								"text": "Not tired at all"
+							}
+						]
+					},
+					{
+						"text": "During your trip, how often did you feel anxious, insecure, or overwhelmed?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Never"
+							},
+							{
+								"text": "Rarely"
+							},
+							{
+								"text": "Sometimes"
+							},
+							{
+								"text": "Often"
+							},
+							{
+								"text": "Always"
+							}
+						]
+					},
+					{
+						"text": "During your trip, did you feel uncomfortable in your body (for example, from heat, tiredness, or pain)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Extremely – I felt very uncomfortable most of the time"
+							},
+							{
+								"text": "A lot – I often felt uncomfortable"
+							},
+							{
+								"text": "Some – I felt uncomfortable sometimes"
+							},
+							{
+								"text": "A little – I had some minor discomfort"
+							},
+							{
+								"text": "Not at all – I felt comfortable the whole time"
+							}
+						]
+					},
+					{
+						"text": "Compared to other ways you usually travel, how hard or easy was this one?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Much harder"
+							},
+							{
+								"text": "A little harder"
+							},
+							{
+								"text": "About the same"
+							},
+							{
+								"text": "A little easier"
+							},
+							{
+								"text": "Much easier"
+							}
+						]
+					},
+					{
+						"text": "During your trip, how did the weather (like temperature or rain) affect your experience?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "It made things much harder/uncomfortable"
+							},
+							{
+								"text": "It made things a little harder/uncomfortable"
+							},
+							{
+								"text": "It didn’t make much difference"
+							},
+							{
+								"text": "It made things a little easier/enjoyable"
+							},
+							{
+								"text": "It made things much easier/enjoyable"
+							}
+						]
+					},
+					{
+						"text": "How satisfied were you with your travel on this trip?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very dissatisfied"
+							},
+							{
+								"text": "Somewhat dissatisfied"
+							},
+							{
+								"text": "Neither satisfied nor dissatisfied"
+							},
+							{
+								"text": "Somewhat satisfied"
+							},
+							{
+								"text": "Very satisfied"
+							}
+						]
+					},
+					{
+						"text": "Would you take this same trip again in the future?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							},
+							{
+								"text": "Not sure"
+							}
+						]
+					},
+					{
+						"text": "What would make you want to take this trip again?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Lower cost / better value"
+							},
+							{
+								"text": "Better weather"
+							},
+							{
+								"text": "Easier travel / less effort"
+							},
+							{
+								"text": "More fun / interesting activities"
+							},
+							{
+								"text": "Social reasons (meeting others, traveling with family or friends)"
+							},
+							{
+								"text": "Safety and security along the route"
+							},
+							{
+								"text": "Habit / routine"
+							},
+							{
+								"text": "Environmental concerns (reducing emissions)"
+							},
+							{
+								"text": "Health or exercise benefits"
+							},
+							{
+								"text": "Enjoyable surroundings (e.g., trees, shops, views)"
+							},
+							{
+								"text": "Convenience or short travel time"
+							},
+							{
+								"text": "Comfort of the route"
+							},
+							{
+								"text": "Other (please specify)"
+							}
+						]
+					},
+					{
+						"text": "What changes would make you more likely to repeat this trip?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Better road or pavement quality"
+							},
+							{
+								"text": "More shaded or covered areas"
+							},
+							{
+								"text": "Better street lighting"
+							},
+							{
+								"text": "Less traffic or noise"
+							},
+							{
+								"text": "Improved safety from road traffic or crime"
+							},
+							{
+								"text": "More benches or resting areas"
+							},
+							{
+								"text": "Better weather conditions"
+							},
+							{
+								"text": "Improved access to public transport connections"
+							},
+							{
+								"text": "Availability of dedicated cycling/walking lanes"
+							},
+							{
+								"text": "Shorter travel duration"
+							},
+							{
+								"text": "Lower travel costs (e.g., cheaper public transport, parking)"
+							},
+							{
+								"text": "Easier navigation (clearer signs, apps, route maps)"
+							}
+						]
+					},
+					{
+						"text": "What factors would discourage you from repeating this trip?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Poor surface quality (holes, uneven pavements)"
+							},
+							{
+								"text": "Traffic congestion"
+							},
+							{
+								"text": "Lack of safety (road traffic, crime, harassment)"
+							},
+							{
+								"text": "Bad weather (too hot, rainy, windy)"
+							},
+							{
+								"text": "Lack of shade or rest areas"
+							},
+							{
+								"text": "Long or tiring routes"
+							},
+							{
+								"text": "Inadequate public transport options"
+							},
+							{
+								"text": "Lack of motivation or time"
+							}
+						]
+					},
+					{
+						"text": "Would you consider using a different mode of transport for the same trip if certain conditions were improved? (Examples: better public transport options, safer bike lanes, reduced travel time, lower costs, improved comfort)",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							},
+							{
+								"text": "Maybe"
+							}
+						]
+					},
+					{
+						"text": "If yes, which mode would you prefer?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Walk"
+							},
+							{
+								"text": "Cycle"
+							},
+							{
+								"text": "E-scooter"
+							},
+							{
+								"text": "Public transport"
+							},
+							{
+								"text": "Private car"
+							},
+							{
+								"text": "Other (please specify)"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"it": {},
+		"en": {
+			"code": "en",
+			"#How would you describe the steepness of your usual travel routes?": "How would you describe the steepness of your usual travel routes?",
+			"#Mostly flat": "Mostly flat",
+			"#A bit hilly": "A bit hilly",
+			"#Quite hilly": "Quite hilly",
+			"#Very steep / lots of hills": "Very steep / lots of hills",
+			"#How would you describe the condition of the walking/cycling paths you usually use?": "How would you describe the condition of the walking/cycling paths you usually use?",
+			"#Very poor — rough and difficult to walk or cycle on": "Very poor — rough and difficult to walk or cycle on",
+			"#Poor — many holes or damaged areas": "Poor — many holes or damaged areas",
+			"#Fair — some bumps or cracks here and there": "Fair — some bumps or cracks here and there",
+			"#Good — mostly smooth, a few small rough spots": "Good — mostly smooth, a few small rough spots",
+			"#Very good — smooth and well maintained": "Very good — smooth and well maintained",
+			"#How adequate is street lighting along your routes?": "How adequate is street lighting along your routes?",
+			"#Very poor — mostly dark or no lights": "Very poor — mostly dark or no lights",
+			"#Poor — many dark areas": "Poor — many dark areas",
+			"#Fair — some dark spots": "Fair — some dark spots",
+			"#Good — mostly well lit": "Good — mostly well lit",
+			"#Very good — well lit everywhere": "Very good — well lit everywhere",
+			"#How would you rate the cleanliness and maintenance of the public areas along your usual routes?": "How would you rate the cleanliness and maintenance of the public areas along your usual routes?",
+			"#Very poor — very dirty or badly maintained": "Very poor — very dirty or badly maintained",
+			"#Poor — often dirty or not maintained": "Poor — often dirty or not maintained",
+			"#Fair — some litter or things need repair": "Fair — some litter or things need repair",
+			"#Good — mostly clean, minor issues sometimes": "Good — mostly clean, minor issues sometimes",
+			"#Very good — clean and well maintained": "Very good — clean and well maintained",
+			"#How often do you see or pass by green spaces (parks, gardens, trees) along your routes?": "How often do you see or pass by green spaces (parks, gardens, trees) along your routes?",
+			"#Never — no green spaces at all": "Never — no green spaces at all",
+			"#Rarely — only in a few spots": "Rarely — only in a few spots",
+			"#Sometimes — here and there": "Sometimes — here and there",
+			"#Often — on many parts of my route": "Often — on many parts of my route",
+			"#Very often — almost everywhere": "Very often — almost everywhere",
+			"#Are there enough benches or places to rest along your usual routes?": "Are there enough benches or places to rest along your usual routes?",
+			"#None at all": "None at all",
+			"#Very few places to rest": "Very few places to rest",
+			"#Some places, but not enough": "Some places, but not enough",
+			"#Yes, plenty of places to rest": "Yes, plenty of places to rest",
+			"#How well connected are the walking and cycling paths in your area?": "How well connected are the walking and cycling paths in your area?",
+			"#Very poor — paths don’t connect at all": "Very poor — paths don’t connect at all",
+			"#Poor — many breaks in the paths": "Poor — many breaks in the paths",
+			"#Okay — connected in some parts": "Okay — connected in some parts",
+			"#Good — mostly connected, a few gaps": "Good — mostly connected, a few gaps",
+			"#Very good — paths join up everywhere": "Very good — paths join up everywhere",
+			"#How would you describe the noise levels along your usual routes?": "How would you describe the noise levels along your usual routes?",
+			"#Very noisy — hard to relax or concentrate": "Very noisy — hard to relax or concentrate",
+			"#Quite noisy — often loud or disturbing": "Quite noisy — often loud or disturbing",
+			"#Moderate — sometimes noisy but tolerable": "Moderate — sometimes noisy but tolerable",
+			"#Mostly quiet — some noise, not disturbing": "Mostly quiet — some noise, not disturbing",
+			"#Very quiet — almost no noise": "Very quiet — almost no noise",
+			"#How busy was the traffic on the routes you take?": "How busy was the traffic on the routes you take?",
+			"#Extremely busy": "Extremely busy",
+			"#Very busy": "Very busy",
+			"#Moderately busy": "Moderately busy",
+			"#A little busy": "A little busy",
+			"#Not busy at all": "Not busy at all",
+			"#How would you describe your comfort level from road traffic while walking?": "How would you describe your comfort level from road traffic while walking?",
+			"#Very uncomfortable": "Very uncomfortable",
+			"#Somewhat uncomfortable": "Somewhat uncomfortable",
+			"#Neither comfortable nor uncomfortable": "Neither comfortable nor uncomfortable",
+			"#Somewhat comfortable": "Somewhat comfortable",
+			"#Very comfortable": "Very comfortable",
+			"#How would you describe your comfort level from crime while walking?": "How would you describe your comfort level from crime while walking?",
+			"#How would you describe your comfort level in areas with poor lighting while walking?": "How would you describe your comfort level in areas with poor lighting while walking?",
+			"#How would you describe your comfort level regarding harassment while walking?": "How would you describe your comfort level regarding harassment while walking?",
+			"#During your trip, did you encounter any physical barriers, like stairs or curbs, that made walking difficult?": "During your trip, did you encounter any physical barriers, like stairs or curbs, that made walking difficult?",
+			"#Yes": "Yes",
+			"#No": "No",
+			"#If you answered Yes earlier, how difficult did these barriers make your walking?": "If you answered Yes earlier, how difficult did these barriers make your walking?",
+			"#Extremely difficult": "Extremely difficult",
+			"#Very difficult": "Very difficult",
+			"#Moderately difficult": "Moderately difficult",
+			"#Slightly difficult": "Slightly difficult",
+			"#Not difficult at all": "Not difficult at all",
+			"#While walking, how often did you come across shaded areas?": "While walking, how often did you come across shaded areas?",
+			"#I didn’t see any shaded areas": "I didn’t see any shaded areas",
+			"#Hardly any shaded areas": "Hardly any shaded areas",
+			"#Some shaded areas": "Some shaded areas",
+			"#Many shaded areas": "Many shaded areas",
+			"#Plenty of shaded areas": "Plenty of shaded areas",
+			"#Was the trip longer or shorter than you expected?": "Was the trip longer or shorter than you expected?",
+			"#Much longer than expected": "Much longer than expected",
+			"#Slightly longer than expected": "Slightly longer than expected",
+			"#About what I expected": "About what I expected",
+			"#Slightly shorter than expected": "Slightly shorter than expected",
+			"#Much shorter than expected": "Much shorter than expected",
+			"#How tired do you feel after this trip?": "How tired do you feel after this trip?",
+			"#Extremely tired": "Extremely tired",
+			"#Very tired": "Very tired",
+			"#Moderately tired": "Moderately tired",
+			"#A little tired": "A little tired",
+			"#Not tired at all": "Not tired at all",
+			"#During your trip, how often did you feel anxious, insecure, or overwhelmed?": "During your trip, how often did you feel anxious, insecure, or overwhelmed?",
+			"#Never": "Never",
+			"#Rarely": "Rarely",
+			"#Sometimes": "Sometimes",
+			"#Often": "Often",
+			"#Always": "Always",
+			"#During your trip, did you feel uncomfortable in your body (for example, from heat, tiredness, or pain)?": "During your trip, did you feel uncomfortable in your body (for example, from heat, tiredness, or pain)?",
+			"#Extremely – I felt very uncomfortable most of the time": "Extremely – I felt very uncomfortable most of the time",
+			"#A lot – I often felt uncomfortable": "A lot – I often felt uncomfortable",
+			"#Some – I felt uncomfortable sometimes": "Some – I felt uncomfortable sometimes",
+			"#A little – I had some minor discomfort": "A little – I had some minor discomfort",
+			"#Not at all – I felt comfortable the whole time": "Not at all – I felt comfortable the whole time",
+			"#Compared to other ways you usually travel, how hard or easy was this one?": "Compared to other ways you usually travel, how hard or easy was this one?",
+			"#Much harder": "Much harder",
+			"#A little harder": "A little harder",
+			"#About the same": "About the same",
+			"#A little easier": "A little easier",
+			"#Much easier": "Much easier",
+			"#During your trip, how did the weather (like temperature or rain) affect your experience?": "During your trip, how did the weather (like temperature or rain) affect your experience?",
+			"#It made things much harder/uncomfortable": "It made things much harder/uncomfortable",
+			"#It made things a little harder/uncomfortable": "It made things a little harder/uncomfortable",
+			"#It didn’t make much difference": "It didn’t make much difference",
+			"#It made things a little easier/enjoyable": "It made things a little easier/enjoyable",
+			"#It made things much easier/enjoyable": "It made things much easier/enjoyable",
+			"#How satisfied were you with your travel on this trip?": "How satisfied were you with your travel on this trip?",
+			"#Very dissatisfied": "Very dissatisfied",
+			"#Somewhat dissatisfied": "Somewhat dissatisfied",
+			"#Neither satisfied nor dissatisfied": "Neither satisfied nor dissatisfied",
+			"#Somewhat satisfied": "Somewhat satisfied",
+			"#Very satisfied": "Very satisfied",
+			"#Would you take this same trip again in the future?": "Would you take this same trip again in the future?",
+			"#Not sure": "Not sure",
+			"#What would make you want to take this trip again?": "What would make you want to take this trip again?",
+			"#Lower cost / better value": "Lower cost / better value",
+			"#Better weather": "Better weather",
+			"#Easier travel / less effort": "Easier travel / less effort",
+			"#More fun / interesting activities": "More fun / interesting activities",
+			"#Social reasons (meeting others, traveling with family or friends)": "Social reasons (meeting others, traveling with family or friends)",
+			"#Safety and security along the route": "Safety and security along the route",
+			"#Habit / routine": "Habit / routine",
+			"#Environmental concerns (reducing emissions)": "Environmental concerns (reducing emissions)",
+			"#Health or exercise benefits": "Health or exercise benefits",
+			"#Enjoyable surroundings (e.g., trees, shops, views)": "Enjoyable surroundings (e.g., trees, shops, views)",
+			"#Convenience or short travel time": "Convenience or short travel time",
+			"#Comfort of the route": "Comfort of the route",
+			"#Other (please specify)": "Other (please specify)",
+			"#What changes would make you more likely to repeat this trip?": "What changes would make you more likely to repeat this trip?",
+			"#Better road or pavement quality": "Better road or pavement quality",
+			"#More shaded or covered areas": "More shaded or covered areas",
+			"#Better street lighting": "Better street lighting",
+			"#Less traffic or noise": "Less traffic or noise",
+			"#Improved safety from road traffic or crime": "Improved safety from road traffic or crime",
+			"#More benches or resting areas": "More benches or resting areas",
+			"#Better weather conditions": "Better weather conditions",
+			"#Improved access to public transport connections": "Improved access to public transport connections",
+			"#Availability of dedicated cycling/walking lanes": "Availability of dedicated cycling/walking lanes",
+			"#Shorter travel duration": "Shorter travel duration",
+			"#Lower travel costs (e.g., cheaper public transport, parking)": "Lower travel costs (e.g., cheaper public transport, parking)",
+			"#Easier navigation (clearer signs, apps, route maps)": "Easier navigation (clearer signs, apps, route maps)",
+			"#What factors would discourage you from repeating this trip?": "What factors would discourage you from repeating this trip?",
+			"#Poor surface quality (holes, uneven pavements)": "Poor surface quality (holes, uneven pavements)",
+			"#Traffic congestion": "Traffic congestion",
+			"#Lack of safety (road traffic, crime, harassment)": "Lack of safety (road traffic, crime, harassment)",
+			"#Bad weather (too hot, rainy, windy)": "Bad weather (too hot, rainy, windy)",
+			"#Lack of shade or rest areas": "Lack of shade or rest areas",
+			"#Long or tiring routes": "Long or tiring routes",
+			"#Inadequate public transport options": "Inadequate public transport options",
+			"#Lack of motivation or time": "Lack of motivation or time",
+			"#Would you consider using a different mode of transport for the same trip if certain conditions were improved? (Examples: better public transport options, safer bike lanes, reduced travel time, lower costs, improved comfort)": "Would you consider using a different mode of transport for the same trip if certain conditions were improved? (Examples: better public transport options, safer bike lanes, reduced travel time, lower costs, improved comfort)",
+			"#Maybe": "Maybe",
+			"#If yes, which mode would you prefer?": "If yes, which mode would you prefer?",
+			"#Walk": "Walk",
+			"#Cycle": "Cycle",
+			"#E-scooter": "E-scooter",
+			"#Public transport": "Public transport",
+			"#Private car": "Private car",
+			"#After Trip Experience": "After Trip Experience",
+			"#After Trip Survey": "After Trip Survey"
+		},
+		"fa": {}
+	},
+	"id": "smarturbanity_trip_post",
+	"db_set": "questionnaires",
+	"default_language": "en"
+}

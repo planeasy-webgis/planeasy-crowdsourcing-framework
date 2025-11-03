@@ -1,0 +1,390 @@
+{
+	"questionnaire": {
+		"name": "Before Trip Survey",
+		"questionnaire_id": "smarturbanity_pre_trip",
+		"questionnaire_version": "0.0.1",
+		"project": "SmartUrbanity",
+		"options": {
+			"review_mode": true,
+			"ask_consent": true,
+			"save_user_id": true
+		},
+		"gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+		"sections": [
+			{
+				"title": "Before you start your trip",
+				"description": "Questions about travel habits, mood, and shared mobility usage",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "How do you feel today?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Happy"
+							},
+							{
+								"text": "Optimistic"
+							},
+							{
+								"text": "Tired"
+							},
+							{
+								"text": "Bored"
+							},
+							{
+								"text": "Sad"
+							},
+							{
+								"text": "Stressed"
+							},
+							{
+								"text": "I don't know"
+							}
+						]
+					},
+					{
+						"text": "How often do you use shared mobility services (bike-share, e-scooter)?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "I never use shared mobility services."
+							},
+							{
+								"text": "Once a month or less"
+							},
+							{
+								"text": "2-3 times a month"
+							},
+							{
+								"text": "1-2 times a week"
+							},
+							{
+								"text": "3-5 times a week"
+							},
+							{
+								"text": "Only at weekends"
+							},
+							{
+								"text": "Daily"
+							}
+						]
+					},
+					{
+						"text": "Who do you most often travel with?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Alone"
+							},
+							{
+								"text": "With family"
+							},
+							{
+								"text": "With dependents"
+							},
+							{
+								"text": "Others"
+							}
+						]
+					},
+					{
+						"text": "If you were given free access to a shared bicycle or e-scooter, would you use it?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							},
+							{
+								"text": "Maybe"
+							}
+						]
+					},
+					{
+						"text": "Please indicate the expensiveness of riding a bicycle or an e-scooter.",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Extremely expensive"
+							},
+							{
+								"text": "Expensive"
+							},
+							{
+								"text": "Moderately Priced"
+							},
+							{
+								"text": "Inexpensive"
+							},
+							{
+								"text": "Extremely Inexpensive"
+							}
+						]
+					},
+					{
+						"text": "What is your purpose for this trip?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Commute to work"
+							},
+							{
+								"text": "Commute to school/university/educational institutes"
+							},
+							{
+								"text": "Daily shopping (Grocery shopping)"
+							},
+							{
+								"text": "General shopping (e.g., clothes)"
+							},
+							{
+								"text": "Recreation"
+							},
+							{
+								"text": "Exercise and Fitness"
+							},
+							{
+								"text": "Health and Well-being"
+							},
+							{
+								"text": "Socializing and Events"
+							},
+							{
+								"text": "Exploration and Sightseeing"
+							},
+							{
+								"text": "Other"
+							}
+						]
+					},
+					{
+						"text": "How do you plan to travel for this trip?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Walking"
+							},
+							{
+								"text": "Bicycle / E-bike"
+							},
+							{
+								"text": "E-scooter"
+							},
+							{
+								"text": "Public transport"
+							},
+							{
+								"text": "Private car"
+							},
+							{
+								"text": "Ride-hailing (e.g., Uber, taxi)"
+							},
+							{
+								"text": "Other"
+							}
+						]
+					},
+					{
+						"text": "What factors most influence your mode choice today?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Time"
+							},
+							{
+								"text": "Cost"
+							},
+							{
+								"text": "Weather"
+							},
+							{
+								"text": "Safety"
+							},
+							{
+								"text": "Convenience"
+							},
+							{
+								"text": "Environmental impact"
+							}
+						]
+					},
+					{
+						"text": "How walkable or bike-friendly do you think your neighborhood is?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very poor"
+							},
+							{
+								"text": "Poor"
+							},
+							{
+								"text": "Moderate"
+							},
+							{
+								"text": "Good"
+							},
+							{
+								"text": "Excellent"
+							}
+						]
+					},
+					{
+						"text": "Are sidewalks, bike lanes, and crossings available on your route?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes, in good condition"
+							},
+							{
+								"text": "Yes, but not well maintained"
+							},
+							{
+								"text": "Only in some parts"
+							},
+							{
+								"text": "Not available"
+							}
+						]
+					},
+					{
+						"text": "What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
+						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Lower cost"
+							},
+							{
+								"text": "Better safety"
+							},
+							{
+								"text": "More bike/scooter lanes"
+							},
+							{
+								"text": "Better weather"
+							},
+							{
+								"text": "Shorter travel time"
+							},
+							{
+								"text": "Environmental concern"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"it": {},
+		"en": {
+			"code": "en",
+			"#Questions about travel habits, mood, and shared mobility usage": "Questions about travel habits, mood, and shared mobility usage",
+			"#How do you feel today?": "How do you feel today?",
+			"#Happy": "Happy",
+			"#Optimistic": "Optimistic",
+			"#Tired": "Tired",
+			"#Bored": "Bored",
+			"#Sad": "Sad",
+			"#Stressed": "Stressed",
+			"#I don't know": "I don't know",
+			"#How often do you use shared mobility services (bike-share, e-scooter)?": "How often do you use shared mobility services (bike-share, e-scooter)?",
+			"#I never use shared mobility services.": "I never use shared mobility services.",
+			"#Once a month or less": "Once a month or less",
+			"#2-3 times a month": "2-3 times a month",
+			"#1-2 times a week": "1-2 times a week",
+			"#3-5 times a week": "3-5 times a week",
+			"#Only at weekends": "Only at weekends",
+			"#Daily": "Daily",
+			"#Who do you most often travel with?": "Who do you most often travel with?",
+			"#Alone": "Alone",
+			"#With family": "With family",
+			"#With dependents": "With dependents",
+			"#Others": "Others",
+			"#If you were given free access to a shared bicycle or e-scooter, would you use it?": "If you were given free access to a shared bicycle or e-scooter, would you use it?",
+			"#Yes": "Yes",
+			"#No": "No",
+			"#Maybe": "Maybe",
+			"#Please indicate the expensiveness of riding a bicycle or an e-scooter.": "Please indicate the expensiveness of riding a bicycle or an e-scooter.",
+			"#Extremely expensive": "Extremely expensive",
+			"#Expensive": "Expensive",
+			"#Moderately Priced": "Moderately Priced",
+			"#Inexpensive": "Inexpensive",
+			"#Extremely Inexpensive": "Extremely Inexpensive",
+			"#What is your purpose for this trip?": "What is your purpose for this trip?",
+			"#Commute to work": "Commute to work",
+			"#Commute to school/university/educational institutes": "Commute to school/university/educational institutes",
+			"#Daily shopping (Grocery shopping)": "Daily shopping (Grocery shopping)",
+			"#General shopping (e.g., clothes)": "General shopping (e.g., clothes)",
+			"#Recreation": "Recreation",
+			"#Exercise and Fitness": "Exercise and Fitness",
+			"#Health and Well-being": "Health and Well-being",
+			"#Socializing and Events": "Socializing and Events",
+			"#Exploration and Sightseeing": "Exploration and Sightseeing",
+			"#Other": "Other",
+			"#How do you plan to travel for this trip?": "How do you plan to travel for this trip?",
+			"#Walking": "Walking",
+			"#Bicycle / E-bike": "Bicycle / E-bike",
+			"#E-scooter": "E-scooter",
+			"#Public transport": "Public transport",
+			"#Private car": "Private car",
+			"#Ride-hailing (e.g., Uber, taxi)": "Ride-hailing (e.g., Uber, taxi)",
+			"#What factors most influence your mode choice today?": "What factors most influence your mode choice today?",
+			"#Time": "Time",
+			"#Cost": "Cost",
+			"#Weather": "Weather",
+			"#Safety": "Safety",
+			"#Convenience": "Convenience",
+			"#Environmental impact": "Environmental impact",
+			"#How walkable or bike-friendly do you think your neighborhood is?": "How walkable or bike-friendly do you think your neighborhood is?",
+			"#Very poor": "Very poor",
+			"#Poor": "Poor",
+			"#Moderate": "Moderate",
+			"#Good": "Good",
+			"#Excellent": "Excellent",
+			"#Are sidewalks, bike lanes, and crossings available on your route?": "Are sidewalks, bike lanes, and crossings available on your route?",
+			"#Yes, in good condition": "Yes, in good condition",
+			"#Yes, but not well maintained": "Yes, but not well maintained",
+			"#Only in some parts": "Only in some parts",
+			"#Not available": "Not available",
+			"#What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?": "What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
+			"#Lower cost": "Lower cost",
+			"#Better safety": "Better safety",
+			"#More bike/scooter lanes": "More bike/scooter lanes",
+			"#Better weather": "Better weather",
+			"#Shorter travel time": "Shorter travel time",
+			"#Environmental concern": "Environmental concern",
+			"#Before Trip Survey": "Before Trip Survey",
+			"#Before you start your trip": "Before you start your trip"
+		},
+		"fa": {}
+	},
+	"id": "smarturbanity_pre_trip",
+	"db_set": "questionnaires",
+	"default_language": "en"
+}
