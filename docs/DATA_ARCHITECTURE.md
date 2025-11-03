@@ -101,14 +101,15 @@ Each document represents one completed questionnaire or trip record.
 
   "consent_datetime": 1761753709702,
   "consent_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  
-  "ttl_at": "2030-10-08T10:12:00Z"
+  "ttl_at": ISODate("2030-10-08T10:12:00Z")
 }
 ```
 
 - `answers`: responses matching the related questionnaire schema.  
 - `geometry`: main spatial reference (usually a Point as centroid of reported locations); used for indexing and map display.  
 - `bounding_box`: rectangular extent covering all related locations; used for spatial filters and zoom-to-fit.  
-- In MongoDB, `ttl_at` is stored as `ISODate("2030-10-08T10:12:00Z")`.
+- `ttl_at`: date indicating when the record should be automatically deleted. In MongoDB it is stored as `ISODate("2030-10-08T10:12:00Z")` (used for TTL index),  
+  while in Firestore it is stored as a `Timestamp`.  
  
 ---
 
@@ -176,7 +177,7 @@ Each document represents one completed questionnaire or trip record.
 
   "consent_datetime": 1761753709702,
   "consent_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  
-  "ttl_at": "2030-10-08T10:12:00Z"
+  "ttl_at": ISODate("2030-10-08T10:12:00Z")
 }
 ```
 
@@ -185,7 +186,8 @@ Each document represents one completed questionnaire or trip record.
 - `geometry`: main spatial reference (usually a Point as centroid of the trip path); used for indexing and map display.
 - `bounding_box`: rectangular extent covering the entire trip; used for spatial filters and zoom-to-fit.
 - `origin_geometry` and `destination_geometry`: points representing the start and end locations of the trip; both can be indexed and queried separately.
-- In MongoDB, ttl_at is stored as `ISODate("2030-10-08T10:12:00Z")`.
+- `ttl_at`: date indicating when the record should be automatically deleted. In MongoDB it is stored as `ISODate("2030-10-08T10:12:00Z")` (used for TTL index),  
+  while in Firestore it is stored as a `Timestamp`.
   
 ---
 
