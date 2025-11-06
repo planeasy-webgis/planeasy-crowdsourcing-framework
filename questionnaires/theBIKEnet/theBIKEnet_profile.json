@@ -3,12 +3,11 @@
 		"name": "1. theBIKEnet Profile - Tell us a bit about yourself",
 		"questionnaire_id": "theBIKEnet_profile",
 		"questionnaire_version": "1.0.0",
-		"feedback_mode": "true",
 		"project": "theBIKEnet",
 		"options": {
+			"review_mode": true,
 			"ask_consent": true,
-			"save_user_id": true,
-			"review_mode": true
+			"save_user_id": true
 		},
 		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
@@ -372,9 +371,7 @@
 					},
 					{
 						"text": "How many people, including yourself, live permanently in your household?",
-						"question_type": "number",
-						"prefer_not_to_say": false,
-						"add_other": false
+						"question_type": "number"
 					},
 					{
 						"text": "Are there children or minors in your household?",
@@ -478,12 +475,27 @@
 			"#Household Composition": "Household Composition",
 			"#Questions about your household and where you live, to understand the social and spatial context of your movements.": "Questions about your household and where you live, to understand the social and spatial context of your movements.",
 			"#In which Municipio of Rome do you currently live?": "In which Municipio of Rome do you currently live?",
-			"#I live outside Rome": "I live outside Rome",			
+			"#I live outside Rome": "I live outside Rome",
 			"#I don't know the number of Municipio": "I don't know the number of Municipio",
 			"#How many people, including yourself, live permanently in your household?": "How many people, including yourself, live permanently in your household?",
 			"#Are there children or minors in your household?": "Are there children or minors in your household?",
 			"#Yes": "Yes",
-			"#No": "No"
+			"#No": "No",
+			"#1": "1",
+			"#2": "2",
+			"#3": "3",
+			"#4": "4",
+			"#5": "5",
+			"#6": "6",
+			"#7": "7",
+			"#8": "8",
+			"#9": "9",
+			"#10": "10",
+			"#11": "11",
+			"#12": "12",
+			"#13": "13",
+			"#14": "14",
+			"#15": "15"
 		},
 		"it": {
 			"code": "it",
@@ -568,8 +580,8 @@
 			"#Household Composition": "Composizione del nucleo familiare",
 			"#Questions about your household and where you live, to understand the social and spatial context of your movements.": "Domande sulla tua famiglia e su dove vivi, per comprendere il contesto sociale e spaziale dei tuoi spostamenti.",
 			"#In which Municipio of Rome do you currently live?": "In quale Municipio di Roma vivi attualmente?",
-			"#I live outside Rome": "Vivo fuori Roma",	
-			"#I don't know the number of Municipio": "Non conosco il numero del Municipio",		
+			"#I live outside Rome": "Vivo fuori Roma",
+			"#I don't know the number of Municipio": "Non conosco il numero del Municipio",
 			"#How many people, including yourself, live permanently in your household?": "Quante persone, te incluso, vivono stabilmente nella tua abitazione?",
 			"#Are there children or minors in your household?": "Ci sono bambini o minori nel tuo nucleo familiare?",
 			"#Yes": "Sì",
