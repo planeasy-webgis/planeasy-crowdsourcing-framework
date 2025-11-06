@@ -3,12 +3,11 @@
 		"name": "6. Experience with Accidents and Risk Perception – Your experience with accidents or risky situations",
 		"questionnaire_id": "theBIKEnet_accidents_and_risk_factors",
 		"questionnaire_version": "1.0.0",
-		"feedback_mode": "true",
 		"project": "theBIKEnet",
 		"options": {
+			"review_mode": true,
 			"ask_consent": true,
-			"save_user_id": true,
-			"review_mode": true
+			"save_user_id": true
 		},
 		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
@@ -239,9 +238,7 @@
 					},
 					{
 						"text": "Please describe a situation where you felt particularly at risk while cycling or using an e-scooter.",
-						"question_type": "text",
-						"prefer_not_to_say": false,
-						"add_other": false
+						"question_type": "text"
 					}
 				]
 			}
