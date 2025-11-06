@@ -4,11 +4,10 @@
 		"questionnaire_id": "theBIKEnet_bike_parking_report",
 		"questionnaire_version": "1.0.2",
 		"project": "theBIKEnet",
-		"feedback_mode": "true",
 		"options": {
+			"review_mode": true,
 			"ask_consent": true,
-			"save_user_id": true,
-			"review_mode": true
+			"save_user_id": true
 		},
 		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
@@ -24,6 +23,8 @@
 					{
 						"text": "Which best describes the parking situation here?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "Secure paid parking (guarded, indoor, or monitored)"
@@ -45,6 +46,8 @@
 					{
 						"text": "How safe does it feel to leave a bicycle here for a while?",
 						"question_type": "single_option",
+						"prefer_not_to_say": false,
+						"add_other": false,
 						"options": [
 							{
 								"text": "Very safe – I would leave it even for hours"
@@ -60,6 +63,7 @@
 					{
 						"text": "What would most improve bicycle parking in this area?",
 						"question_type": "multiple_options",
+						"prefer_not_to_say": false,
 						"add_other": true,
 						"options": [
 							{
@@ -86,7 +90,25 @@
 	"languages": {
 		"en": {
 			"code": "en",
-			"#Tell us about bicycle parking in this area": "Tell us about bicycle parking in this area"
+			"#Tell us about bicycle parking in this area": "Tell us about bicycle parking in this area",
+			"#Help us map the real parking conditions for cyclists in Rome: whether there are safe, public, informal or no options at all.<br><br>🚲 <a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>": "Help us map the real parking conditions for cyclists in Rome: whether there are safe, public, informal or no options at all.<br><br>🚲 <a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>",
+			"#Approximate location (address or map point)": "Approximate location (address or map point)",
+			"#Which best describes the parking situation here?": "Which best describes the parking situation here?",
+			"#Secure paid parking (guarded, indoor, or monitored)": "Secure paid parking (guarded, indoor, or monitored)",
+			"#Secure public parking (free, racks or stands well located and visible)": "Secure public parking (free, racks or stands well located and visible)",
+			"#Public parking (racks or stands, but not secure or overcrowded)": "Public parking (racks or stands, but not secure or overcrowded)",
+			"#Improvised parking (poles, fences, etc.)": "Improvised parking (poles, fences, etc.)",
+			"#No place to park": "No place to park",
+			"#How safe does it feel to leave a bicycle here for a while?": "How safe does it feel to leave a bicycle here for a while?",
+			"#Very safe – I would leave it even for hours": "Very safe – I would leave it even for hours",
+			"#Moderately safe – for a short stop": "Moderately safe – for a short stop",
+			"#Unsafe – I would not leave it unattended": "Unsafe – I would not leave it unattended",
+			"#What would most improve bicycle parking in this area?": "What would most improve bicycle parking in this area?",
+			"#Install secure or monitored parking facilities": "Install secure or monitored parking facilities",
+			"#Add more public racks or stands": "Add more public racks or stands",
+			"#Provide covered or weather-protected spaces": "Provide covered or weather-protected spaces",
+			"#Improve lighting and visibility": "Improve lighting and visibility",
+			"#Free the space from obstacles or car parking": "Free the space from obstacles or car parking"
 		},
 		"it": {
 			"code": "it",
