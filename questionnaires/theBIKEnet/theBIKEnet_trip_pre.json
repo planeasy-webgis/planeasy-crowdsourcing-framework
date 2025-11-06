@@ -3,12 +3,11 @@
 		"name": "theBIKEnet Pre-Trip",
 		"questionnaire_id": "theBIKEnet_trip_pre",
 		"questionnaire_version": "1.0.0",
-		"feedback_mode": "true",
 		"project": "theBIKEnet",
 		"options": {
+			"review_mode": true,
 			"ask_consent": false,
-			"save_user_id": false,
-			"review_mode": true
+			"save_user_id": false
 		},
 		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
@@ -229,8 +228,7 @@
 			"#Was the weather or traffic a factor in your decision to travel now?": "Il meteo o il traffico hanno influenzato la tua decisione di viaggiare ora?",
 			"#Yes, weather": "Sì, il meteo",
 			"#Yes, traffic conditions": "Sì, le condizioni del traffico",
-			"#Both": "Entrambi",
-			"#No": "No"
+			"#Both": "Entrambi"
 		}
 	},
 	"id": "theBIKEnet_trip_pre",
