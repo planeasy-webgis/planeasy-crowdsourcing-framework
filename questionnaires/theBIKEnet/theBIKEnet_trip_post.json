@@ -3,12 +3,11 @@
 		"name": "theBIKEnet Post-Trip",
 		"questionnaire_id": "theBIKEnet_trip_post",
 		"questionnaire_version": "1.0.0",
-		"feedback_mode": "true",
 		"project": "theBIKEnet",
 		"options": {
+			"review_mode": true,
 			"ask_consent": false,
-			"save_user_id": false,
-			"review_mode": true
+			"save_user_id": false
 		},
 		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
@@ -62,9 +61,7 @@
 					},
 					{
 						"text": "If yes, please describe briefly the situation or location.",
-						"question_type": "text",
-						"prefer_not_to_say": false,
-						"add_other": false
+						"question_type": "text"
 					},
 					{
 						"text": "Did you deviate from your usual route during this trip?",
@@ -227,9 +224,7 @@
 					},
 					{
 						"text": "Any additional notes about this trip?",
-						"question_type": "text",
-						"prefer_not_to_say": false,
-						"add_other": false
+						"question_type": "text"
 					}
 				]
 			}
@@ -322,7 +317,6 @@
 			"#How secure do you feel about the parking place?": "Quanto ti senti sicuro riguardo al luogo di parcheggio?",
 			"#Very insecure": "Per niente sicuro",
 			"#Insecure": "Poco sicuro",
-			"#Neutral": "Neutro",
 			"#Secure": "Sicuro",
 			"#Very secure": "Molto sicuro",
 			"#Alternatives and Motivation": "Alternative e Motivazioni",
