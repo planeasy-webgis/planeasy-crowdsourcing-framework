@@ -3,12 +3,11 @@
 		"name": "2. theBIKEnet Context – Where and with what you move",
 		"questionnaire_id": "theBIKEnet_context",
 		"questionnaire_version": "1.0.0",
-		"feedback_mode": "true",
 		"project": "theBIKEnet",
 		"options": {
+			"review_mode": true,
 			"ask_consent": true,
-			"save_user_id": true,
-			"review_mode": true
+			"save_user_id": true
 		},
 		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
@@ -267,9 +266,7 @@
 					},
 					{
 						"text": "Is there any place in your area that you consider unsafe or uncomfortable for cycling or using e-scooters? Please describe it briefly.",
-						"question_type": "text",
-						"prefer_not_to_say": false,
-						"add_other": false
+						"question_type": "text"
 					}
 				]
 			},
@@ -280,9 +277,7 @@
 				"questions": [
 					{
 						"text": "How many bicycles/e-bikes are available in your household (including yours)?",
-						"question_type": "number",
-						"prefer_not_to_say": false,
-						"add_other": false
+						"question_type": "number"
 					},
 					{
 						"text": "Which other vehicles are available in your household?",
@@ -511,7 +506,22 @@
 			"#No, no dedicated parking available": "No, no dedicated parking available",
 			"#Do you have access to parking near other frequently visited places (shops, friends, etc.)?": "Do you have access to parking near other frequently visited places (shops, friends, etc.)?",
 			"#Yes, for bicycles or e-scooters": "Yes, for bicycles or e-scooters",
-			"#Very limited availability": "Very limited availability"
+			"#Very limited availability": "Very limited availability",
+			"#1": "1",
+			"#2": "2",
+			"#3": "3",
+			"#4": "4",
+			"#5": "5",
+			"#6": "6",
+			"#7": "7",
+			"#8": "8",
+			"#9": "9",
+			"#10": "10",
+			"#11": "11",
+			"#12": "12",
+			"#13": "13",
+			"#14": "14",
+			"#15": "15"
 		},
 		"it": {
 			"code": "it",
