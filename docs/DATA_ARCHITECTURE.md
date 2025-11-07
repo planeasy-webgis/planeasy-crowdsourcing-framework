@@ -76,9 +76,10 @@ Each document represents one completed questionnaire or trip record.
   "uid": "b04d56d191e23e94f3da6e8ccf105a5cc6c14a780a321b1ef0b235ff5e3b90e7",
 
   "creation_datetime": "2025-10-08T10:12:00Z",
-  "timezone": "Europe/Rome", 
 
   "elapsed_s": 10,
+  "answered_count": 8,
+
   "answers": {},
   
   "geometry": {
@@ -94,13 +95,17 @@ Each document represents one completed questionnaire or trip record.
 
   "meta": {
     "device_os": "web",
+    "brand": "chrome",
+    "model": "windows",
     "app_version": "1.0.0",
     "language": "it",
-    "source": "web-app"
+    "source": "web-app",
+    "timezone": "Europe/Rome"
   },
 
   "consent_datetime": 1761753709702,
-  "consent_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  
+  "consent_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  ,  
+  "consent_version": "1.0.0",
   "ttl_at": ISODate("2030-10-08T10:12:00Z")
 }
 ```
@@ -127,7 +132,6 @@ Each document represents one completed questionnaire or trip record.
   "uid": "b04d56d191e23e94f3da6e8ccf105a5cc6c14a780a321b1ef0b235ff5e3b90e7",
 
   "creation_datetime": "2025-10-08T10:12:00Z",
-  "timezone": "Europe/Rome", 
 
   "pre_trip": {},
   "post_trip": {},  
@@ -153,6 +157,16 @@ Each document represents one completed questionnaire or trip record.
      "coordinates": [ 12.3812345, 41.8991871]
   },
   
+  "start_datetime": "2025-10-08T10:15:00Z",
+  "end_datetime": "2025-10-08T11:15:00Z",  
+  "points_count": 200,
+
+  "vehicle": {
+    "vehicle_type": "folding_bike",
+    "is_electric": true,  
+    "is_shared": true,
+  },
+
   "positions": [
     {
       "t": 1761755709702,
@@ -168,15 +182,19 @@ Each document represents one completed questionnaire or trip record.
     }
   ],
 
-  "meta": {
+  "meta": {    
     "device_os": "android",
+    "brand": "samsung",
+    "model": "SM-A536B",
     "app_version": "1.0.0",
     "language": "it",
-    "source": "mobile-app"
+    "source": "mobile-app",
+    "timezone": "Europe/Rome"
   },
 
   "consent_datetime": 1761753709702,
   "consent_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  
+  "consent_version": "1.0.0",
   "ttl_at": ISODate("2030-10-08T10:12:00Z")
 }
 ```
