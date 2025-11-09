@@ -103,9 +103,12 @@ Each document represents one completed questionnaire or trip record.
     "timezone": "Europe/Rome"
   },
 
-  "consent_datetime": 1761753709702,
-  "consent_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  ,  
-  "consent_version": "1.0.0",
+  "consent": {
+    "datetime": 1761753709702,
+    "link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  ,  
+    "version": "1.0.0",
+  }
+
   "ttl_at": ISODate("2030-10-08T10:12:00Z")
 }
 ```
@@ -192,9 +195,12 @@ Each document represents one completed questionnaire or trip record.
     "timezone": "Europe/Rome"
   },
 
-  "consent_datetime": 1761753709702,
-  "consent_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  
-  "consent_version": "1.0.0",
+  "consent": {
+    "datetime": 1761753709702,
+    "link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",  ,  
+    "version": "1.0.0",
+  }
+
   "ttl_at": ISODate("2030-10-08T10:12:00Z")
 }
 ```
