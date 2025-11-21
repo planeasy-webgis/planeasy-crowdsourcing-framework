@@ -1,25 +1,62 @@
 {
 	"questionnaire": {
-		"name": "Profile",
-		"questionnaire_id": "smarturbanity_demographic_info",
+		"name": "Questionnaire_demographic info",
+		"questionnaire_id": "questionnaire_1",
 		"questionnaire_version": "0.0.1",
 		"project": "SmartUrbanity",
 		"options": {
-			"review_mode": true,
-			"ask_consent": true,
-			"save_user_id": true
+			"review_mode": false,
+			"ask_consent": false,
+			"save_user_id": false
 		},
 		"gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
 		"sections": [
 			{
-				"title": "Demographic Information",
+				"title": "Tell us about yourself",
 				"description": "",
 				"backgroundColor": "#f0f0f0",
 				"questions": [
 					{
-						"text": "What is your gender?",
+						"text": "1. What is your age group? (Participation is limited to adults aged 18 or older) remove option <18",
 						"question_type": "single_option",
-						"prefer_not_to_say": true,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Up to 18"
+							},
+							{
+								"text": "18-24"
+							},
+							{
+								"text": "25-34"
+							},
+							{
+								"text": "35-44"
+							},
+							{
+								"text": "45-54"
+							},
+							{
+								"text": "55-64"
+							},
+							{
+								"text": "65-74"
+							},
+							{
+								"text": "75-84"
+							},
+							{
+								"text": "85 or older"
+							}
+						]
+					},
+					{
+						"text": "2. What is your gender?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": true,
+						"add_i_dont_know": false,
 						"add_other": true,
 						"options": [
 							{
@@ -31,9 +68,52 @@
 						]
 					},
 					{
-						"text": "Do you experience mobility challenges while traveling?",
+						"text": "3. Do you have any condition or limitation that affects your ability to move independently?",
 						"question_type": "single_option",
-						"prefer_not_to_say": false,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes, I have a temporary condition/limitation "
+							},
+							{
+								"text": "Yes, I have a permanent mobility condition/limitation"
+							},
+							{
+								"text": "No, I can move independently"
+							}
+						]
+					},
+					{
+						"text": "4. How many adults, including yourself, live together in your household? ",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "1 (only myself)"
+							},
+							{
+								"text": "2"
+							},
+							{
+								"text": "3"
+							},
+							{
+								"text": "4"
+							},
+							{
+								"text": "5 or more"
+							}
+						]
+					},
+					{
+						"text": "5. Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
@@ -45,23 +125,10 @@
 						]
 					},
 					{
-						"text": "Do you live with dependents such as children or elderly?",
+						"text": "6. Which economic status do you think best describes your household?",
 						"question_type": "single_option",
-						"prefer_not_to_say": true,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "Which income range best describes your household?",
-						"question_type": "single_option",
-						"prefer_not_to_say": true,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
@@ -71,30 +138,37 @@
 								"text": "Can cover basic needs but have little left over"
 							},
 							{
-								"text": "Comfortable, can afford most things you need"
+								"text": "Comfortable, can afford most things I need"
 							},
 							{
-								"text": "Very comfortable, can afford extra or luxury items"
+								"text": "Very comfortable, can afford extra expenses"
 							}
 						]
 					},
 					{
-						"text": "Which best describes your status?",
+						"text": "7. Which best describes your employment status?",
 						"question_type": "single_option",
-						"prefer_not_to_say": true,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": true,
 						"options": [
 							{
 								"text": "Employed full time"
 							},
 							{
-								"text": "Employed part time"
+								"text": "Employed part-time"
 							},
 							{
-								"text": "Self employed full time"
+								"text": "Occasionally employed"
 							},
 							{
-								"text": "Self employed part time"
+								"text": "Self-employed/freelance full time"
+							},
+							{
+								"text": "Self employed/freelance part-time"
+							},							
+							{
+								"text": "Homemaker"
 							},
 							{
 								"text": "Retired"
@@ -111,9 +185,10 @@
 						]
 					},
 					{
-						"text": "Do you currently work remotely (partly or fully)?",
+						"text": "8. Do you currently work remotely (partly or fully)?",
 						"question_type": "single_option",
-						"prefer_not_to_say": false,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
@@ -128,16 +203,20 @@
 						]
 					},
 					{
-						"text": "What is your highest completed level of education?",
+						"text": "9. What is your highest completed level of education?",
 						"question_type": "single_option",
-						"prefer_not_to_say": true,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
 								"text": "No qualification"
 							},
 							{
-								"text": "High School"
+								"text": "Lower secondary school"
+							},
+							{
+								"text": "High school"
 							},
 							{
 								"text": "Bachelor degree or equivalent"
@@ -151,10 +230,69 @@
 						]
 					},
 					{
-						"text": "Do you own or have access to any of the following?",
+						"text": "21. Do you have a pet at home?",
 						"question_type": "single_option",
-						"prefer_not_to_say": false,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							}
+						]
+					},
+					{
+						"text": "22. Do you currently hold a valid driving license?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							}
+						]
+					},
+					{
+						"text": "19. Do you belong to any of these groups?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Urban planner"
+							},
+							{
+								"text": "Policymaker"
+							},
+							{
+								"text": "Environmental/sustainable mobility activist"
+							},
+							{
+								"text": "Influencer"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Access to vehicles and parking facilities",
+				"description": "",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "10. Do you own or have access to any of the following in your households?",
+						"question_type": "multiple_options",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": true,
 						"options": [
 							{
 								"text": "Car"
@@ -166,111 +304,314 @@
 								"text": "Bicycle"
 							},
 							{
-								"text": "E-scooter (Monopattino)"
-							},
-							{
-								"text": "None of the above"
+								"text": "E-scooter"
 							}
 						]
 					},
 					{
-						"text": "Do you have access to private or public parking spaces near your residence?",
+						"text": "11. Do you regularly use any of the following in your households?",
 						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "Is there a parking lot available to you (bicycle/E-scooter)?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "Which travel mode do you most often prefer for your trips?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": true,
 						"options": [
 							{
 								"text": "Car"
 							},
 							{
-								"text": "Metro/Bus/Tram"
+								"text": "Motorcycle"
 							},
 							{
 								"text": "Bicycle"
 							},
 							{
+								"text": "E-scooter"
+							}
+						]
+					},
+					{
+						"text": "12. Do you have access to parking spaces near your residence?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							}
+						]
+					},
+					{
+						"text": "13. Do you have access to parking lots for bikes near your residence?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							},
+							{
+								"text": "I don't know"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Travel behaviour and mobility choice",
+				"description": "",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "14. Which travel mode do you most often prefer for your trips?",
+						"question_type": "multiple_options",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
 								"text": "Walking"
+							},
+							{
+								"text": "Car"
+							},
+							{
+								"text": "Car sharing"
+							},
+							{
+								"text": "Public transport"
+							},
+							{
+								"text": "Bicycle/e-bike (private)"
+							},
+							{
+								"text": "Bicycle/e-bike (shared)"
+							},
+							{
+								"text": "e-scooter (private)"
+							},
+							{
+								"text": "e-scooter (shared)"
+							},
+							{
+								"text": "Taxi/similar"
 							}
 						]
 					},
 					{
-						"text": "How familiar are you with using bicycle?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
+						"text": "14a. Do you regularly use any combination of the following modes in the same trip? Thick all those you use.",
+						"question_type": "multiple_options",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
-								"text": "Not familiar at all"
+								"text": "Walking"
 							},
 							{
-								"text": "Somewhat unfamiliar"
+								"text": "Car"
 							},
 							{
-								"text": "Neither familiar nor unfamiliar"
+								"text": "Car sharing"
 							},
 							{
-								"text": "Somewhat familiar"
+								"text": "Public transport"
 							},
 							{
-								"text": "Very familiar"
+								"text": "Bicycle/e-bike (private)"
+							},
+							{
+								"text": "Bicycle/e-bike (shared)"
+							},
+							{
+								"text": "e-scooter (private)"
+							},
+							{
+								"text": "e-scooter (shared)"
+							},
+							{
+								"text": "Taxi/similar"
 							}
 						]
 					},
 					{
-						"text": "How familiar are you with using e-scooters?",
+						"text": "23. How often do you use shared mobility services (bike-share, e-scooter)?",
 						"question_type": "single_option",
-						"prefer_not_to_say": false,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
-								"text": "Not familiar at all"
+								"text": "I never use shared mobility services."
 							},
 							{
-								"text": "Somewhat unfamiliar"
+								"text": "Once a month or less"
 							},
 							{
-								"text": "Neither familiar nor unfamiliar"
+								"text": "2-3 times a month"
 							},
 							{
-								"text": "Somewhat familiar"
+								"text": "1-2 times a week"
 							},
 							{
-								"text": "Very familiar"
+								"text": "3-5 times a week"
+							},
+							{
+								"text": "Only at weekends"
+							},
+							{
+								"text": "Daily"
 							}
 						]
 					},
 					{
-						"text": "How comfortable are you with using apps for transport (e.g., route planning, ticketing)?",
+						"text": "25 . If you were given free access to a shared bicycle or e-scooter, would you use it?",
 						"question_type": "single_option",
-						"prefer_not_to_say": false,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							},
+							{
+								"text": "Maybe"
+							}
+						]
+					},
+					{
+						"text": "26. How expensive do you think it is to ride a bicycle or e-scooter?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Very expensive"
+							},
+							{
+								"text": "Expensive"
+							},
+							{
+								"text": "Moderately Priced"
+							},
+							{
+								"text": "Cheap"
+							},
+							{
+								"text": "Very cheap"
+							},
+							{
+								"text": "I don't know"
+							}
+						]
+					},
+					{
+						"text": "27. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
+						"question_type": "multiple_options",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": true,
+						"options": [
+							{
+								"text": "Lower cost"
+							},
+							{
+								"text": "Safer routes"
+							},
+							{
+								"text": "More bike/e-scooter lanes"
+							},
+							{
+								"text": "Better weather"
+							},
+							{
+								"text": "Shorter travel time"
+							},
+							{
+								"text": "Caring about the environment"
+							},
+							{
+								"text": "Feel confident using it"
+							},
+							{
+								"text": "Enjoyable trips"
+							},
+							{
+								"text": "I am not interested"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Mobility confidence and digital engagement",
+				"description": "",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "15. How confident are you riding a bicycle in your city?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Not confident at all"
+							},
+							{
+								"text": "Not very confident "
+							},
+							{
+								"text": "Indifferent"
+							},
+							{
+								"text": "Somewhat confident "
+							},
+							{
+								"text": "Very confident "
+							}
+						]
+					},
+					{
+						"text": "16. How confident are you riding e-scooters in your city?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"options": [
+							{
+								"text": "Not confident at all"
+							},
+							{
+								"text": "Not very confident "
+							},
+							{
+								"text": "Indifferent"
+							},
+							{
+								"text": "Somewhat confident "
+							},
+							{
+								"text": "Very confident "
+							}
+						]
+					},					
+					{
+						"text": "17 How comfortable are you with using apps for transport (e.g., route planning, ticketing)?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
@@ -287,17 +628,31 @@
 							},
 							{
 								"text": "Very comfortable"
-							}
+							},
+							{
+								"text": "I don't use it at all."
+							}							
 						]
-					},
+					}
+				]
+			},
+			{
+				"title": "Other",
+				"description": "",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
 					{
-						"text": "How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?",
+						"text": "18. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?",
 						"question_type": "single_option",
-						"prefer_not_to_say": false,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
-								"text": "Not connected at all"
+								"text": "Never connected"
+							},
+							{
+								"text": "Not connected yet"
 							},
 							{
 								"text": "Somewhat disconnected"
@@ -314,29 +669,10 @@
 						]
 					},
 					{
-						"text": "Do you belong to any of these groups?",
+						"text": "20. Which of these best describes you?",
 						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Urban planner"
-							},
-							{
-								"text": "Policymaker"
-							},
-							{
-								"text": "Activist"
-							},
-							{
-								"text": "None of the above"
-							}
-						]
-					},
-					{
-						"text": "Which of these best describes you?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
 							{
@@ -352,34 +688,6 @@
 								"text": "I’m here temporarily for another reason (Visitor)"
 							}
 						]
-					},
-					{
-						"text": "Do you have a pet at home?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "Do you currently hold a valid driving license?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
 					}
 				]
 			}
@@ -389,82 +697,144 @@
 		"it": {},
 		"en": {
 			"code": "en",
-			"#What is your gender?": "What is your gender?",
+			"#Questionnaire_demographic info": "Questionnaire_demographic info",
+			"#Section 1": "Section 1",
 			"#Male": "Male",
 			"#Female": "Female",
-			"#Do you experience mobility challenges while traveling?": "Do you experience mobility challenges while traveling?",
 			"#Yes": "Yes",
 			"#No": "No",
-			"#Do you live with dependents such as children or elderly?": "Do you live with dependents such as children or elderly?",
-			"#Which income range best describes your household?": "Which income range best describes your household?",
 			"#Struggling to cover basic needs": "Struggling to cover basic needs",
 			"#Can cover basic needs but have little left over": "Can cover basic needs but have little left over",
-			"#Comfortable, can afford most things you need": "Comfortable, can afford most things you need",
-			"#Very comfortable, can afford extra or luxury items": "Very comfortable, can afford extra or luxury items",
-			"#Which best describes your status?": "Which best describes your status?",
 			"#Employed full time": "Employed full time",
-			"#Employed part time": "Employed part time",
-			"#Self employed full time": "Self employed full time",
-			"#Self employed part time": "Self employed part time",
+			"#Employed part-time": "Employed part-time",
 			"#Retired": "Retired",
 			"#Unemployed looking for work": "Unemployed looking for work",
 			"#Unemployed not looking for work": "Unemployed not looking for work",
 			"#Adult learner (student)": "Adult learner (student)",
-			"#Do you currently work remotely (partly or fully)?": "Do you currently work remotely (partly or fully)?",
 			"#Occasionally": "Occasionally",
-			"#What is your highest completed level of education?": "What is your highest completed level of education?",
 			"#No qualification": "No qualification",
-			"#High School": "High School",
 			"#Bachelor degree or equivalent": "Bachelor degree or equivalent",
 			"#Master degree or equivalent": "Master degree or equivalent",
 			"#Doctorate degree": "Doctorate degree",
-			"#Do you own or have access to any of the following?": "Do you own or have access to any of the following?",
 			"#Car": "Car",
 			"#Motorcycle": "Motorcycle",
 			"#Bicycle": "Bicycle",
-			"#E-scooter (Monopattino)": "E-scooter (Monopattino)",
+			"#E-scooter": "E-scooter",
 			"#None of the above": "None of the above",
-			"#Do you have access to private or public parking spaces near your residence?": "Do you have access to private or public parking spaces near your residence?",
-			"#Is there a parking lot available to you (bicycle/E-scooter)?": "Is there a parking lot available to you (bicycle/E-scooter)?",
-			"#Which travel mode do you most often prefer for your trips?": "Which travel mode do you most often prefer for your trips?",
-			"#Metro/Bus/Tram": "Metro/Bus/Tram",
 			"#Walking": "Walking",
-			"#How familiar are you with using bicycle?": "How familiar are you with using bicycle?",
-			"#Not familiar at all": "Not familiar at all",
-			"#Somewhat unfamiliar": "Somewhat unfamiliar",
-			"#Neither familiar nor unfamiliar": "Neither familiar nor unfamiliar",
-			"#Somewhat familiar": "Somewhat familiar",
-			"#Very familiar": "Very familiar",
-			"#How familiar are you with using e-scooters?": "How familiar are you with using e-scooters?",
-			"#How comfortable are you with using apps for transport (e.g., route planning, ticketing)?": "How comfortable are you with using apps for transport (e.g., route planning, ticketing)?",
 			"#Very uncomfortable": "Very uncomfortable",
 			"#Somewhat uncomfortable": "Somewhat uncomfortable",
 			"#Neither comfortable nor uncomfortable": "Neither comfortable nor uncomfortable",
 			"#Somewhat comfortable": "Somewhat comfortable",
 			"#Very comfortable": "Very comfortable",
-			"#How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?": "How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?",
-			"#Not connected at all": "Not connected at all",
 			"#Somewhat disconnected": "Somewhat disconnected",
 			"#Neither connected nor disconnected": "Neither connected nor disconnected",
 			"#Somewhat connected": "Somewhat connected",
 			"#Very connected": "Very connected",
-			"#Do you belong to any of these groups?": "Do you belong to any of these groups?",
 			"#Urban planner": "Urban planner",
 			"#Policymaker": "Policymaker",
-			"#Activist": "Activist",
-			"#Which of these best describes you?": "Which of these best describes you?",
 			"#I live here (Resident)": "I live here (Resident)",
 			"#I travel here regularly for work or study (Commuter)": "I travel here regularly for work or study (Commuter)",
 			"#I’m visiting for leisure (Tourist)": "I’m visiting for leisure (Tourist)",
 			"#I’m here temporarily for another reason (Visitor)": "I’m here temporarily for another reason (Visitor)",
-			"#Do you have a pet at home?": "Do you have a pet at home?",
-			"#Do you currently hold a valid driving license?": "Do you currently hold a valid driving license?",
-			"#Profile": "Profile",
-			"#Demographic Information": "Demographic Information"
+			"#Up to 18": "Up to 18",
+			"#18-24": "18-24",
+			"#25-34": "25-34",
+			"#35-44": "35-44",
+			"#45-54": "45-54",
+			"#55-64": "55-64",
+			"#65-74": "65-74",
+			"#75-84": "75-84",
+			"#85 or older": "85 or older",
+			"#1 (only myself)": "1 (only myself)",
+			"#2": "2",
+			"#3": "3",
+			"#4": "4",
+			"#5 or more": "5 or more",
+			"#Comfortable, can afford most things I need": "Comfortable, can afford most things I need",
+			"#Very comfortable, can afford extra expenses": "Very comfortable, can afford extra expenses",
+			"#Taxi/similar": "Taxi/similar",
+			"#Environmental activist": "Environmental activist",
+			"#Influencer": "Influencer",
+			"#Car sharing": "Car sharing",
+			"#I never use shared mobility services.": "I never use shared mobility services.",
+			"#Once a month or less": "Once a month or less",
+			"#2-3 times a month": "2-3 times a month",
+			"#1-2 times a week": "1-2 times a week",
+			"#3-5 times a week": "3-5 times a week",
+			"#Only at weekends": "Only at weekends",
+			"#Daily": "Daily",
+			"#Alone": "Alone",
+			"#With Others": "With Others",
+			"#I don't know": "I don't know",
+			"#Yes, but not frequently": "Yes, but not frequently",
+			"#Never connected": "Never connected",
+			"#Not connected yet": "Not connected yet",
+			"#Yes, I have a temporary condition/limitation ": "Yes, I have a temporary condition/limitation ",
+			"#Yes, I have a permanent mobility condition/limitation": "Yes, I have a permanent mobility condition/limitation",
+			"#No, I can move independently": "No, I can move independently",
+			"#1. What is your age group?": "1. What is your age group?",
+			"#2. What is your gender?": "2. What is your gender?",
+			"#3. Do you have any condition or limitation that affects your ability to move independently?": "3. Do you have any condition or limitation that affects your ability to move independently?",
+			"#4. How many adults, including yourself, live together in your household? ": "4. How many adults, including yourself, live together in your household? ",
+			"#Self-employed/freelance full time": "Self-employed/freelance full time",
+			"#Self employed/freelance part-time": "Self employed/freelance part-time",
+			"#7. Which best describes your employment status?": "7. Which best describes your employment status?",
+			"#6. Which economical status do you think best describes your household?": "6. Which economical status do you think best describes your household?",
+			"#8. Do you currently work remotely (partly or fully)?": "8. Do you currently work remotely (partly or fully)?",
+			"#9. What is your highest completed level of education?": "9. What is your highest completed level of education?",
+			"#Lower secondary school": "Lower secondary school",
+			"#High school": "High school",
+			"#10. Do you own or have access to any of the following in your households?": "10. Do you own or have access to any of the following in your households?",
+			"#11. Do you regularly use any of the following in your households?": "11. Do you regularly use any of the following in your households?",
+			"#12. Do you have access to parking spaces near your residence?": "12. Do you have access to parking spaces near your residence?",
+			"#13. Do you have access to parking lots for bikes near your residence?": "13. Do you have access to parking lots for bikes near your residence?",
+			"#Public transport": "Public transport",
+			"#Bicycle/e-bike/e-scooter (private)": "Bicycle/e-bike/e-scooter (private)",
+			"#Bicycle/e-bike/e-scooter (shared)": "Bicycle/e-bike/e-scooter (shared)",
+			"#15. How confident are you riding a bicycle in your city?": "15. How confident are you riding a bicycle in your city?",
+			"#Not confident at all": "Not confident at all",
+			"#Not very confident ": "Not very confident ",
+			"#Indifferent": "Indifferent",
+			"#Somewhat confident ": "Somewhat confident ",
+			"#Very confident ": "Very confident ",
+			"#16. How confident are you riding e-scooters in your city?": "16. How confident are you riding e-scooters in your city?",
+			"#Option Text": "Option Text",
+			"#I don't use it at all.": "I don't use it at all.",
+			"#18. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?": "18. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?",
+			"#19. Do you belong to any of these groups?": "19. Do you belong to any of these groups?",
+			"#20. Which of these best describes you?": "20. Which of these best describes you?",
+			"#21. Do you have a pet at home?": "21. Do you have a pet at home?",
+			"#22. Do you currently hold a valid driving license?": "22. Do you currently hold a valid driving license?",
+			"#With family or friends": "With family or friends",
+			"#23. How often do you use shared mobility services (bike-share, e-scooter)?": "23. How often do you use shared mobility services (bike-share, e-scooter)?",
+			"#24. Who do you most often travel with? ": "24. Who do you most often travel with? ",
+			"#25 . If you were given free access to a shared bicycle or e-scooter, would you use it?": "25 . If you were given free access to a shared bicycle or e-scooter, would you use it?",
+			"#Maybe": "Maybe",
+			"#26. How expensive do you think it is to ride a bicycle or e-scooter?": "26. How expensive do you think it is to ride a bicycle or e-scooter?",
+			"#Very expensive": "Very expensive",
+			"#Expensive": "Expensive",
+			"#Moderately Priced": "Moderately Priced",
+			"#Cheap": "Cheap",
+			"#Very cheap": "Very cheap",
+			"#27. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?": "27. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
+			"#Lower cost": "Lower cost",
+			"#Safer routes": "Safer routes",
+			"#More bike/e-scooter lanes": "More bike/e-scooter lanes",
+			"#Better weather": "Better weather",
+			"#Shorter travel time": "Shorter travel time",
+			"#Caring about the environment": "Caring about the environment",
+			"#Feel confident using it": "Feel confident using it",
+			"#Enjoyable trips": "Enjoyable trips",
+			"#I am not interested": "I am not interested",
+			"#5. Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "5. Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
+			"#14. Which travel mode do you most often prefer for your trips?": "14. Which travel mode do you most often prefer for your trips?",
+			"#17.a.Do you use transport apps (e.g., for route planning or ticketing)?": "17.a.Do you use transport apps (e.g., for route planning or ticketing)?",
+			"#17.b. How comfortable are you with using apps for transport (e.g., route planning, ticketing)?": "17.b. How comfortable are you with using apps for transport (e.g., route planning, ticketing)?"
 		},
 		"fa": {}
 	},
-	"id": "smarturbanity_demographic_info",
+	"id": "questionnaire_1",
 	"db_set": "questionnaires",
 	"default_language": "en"
 }
