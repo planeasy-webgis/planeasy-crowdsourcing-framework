@@ -1,7 +1,7 @@
 {
 	"questionnaire": {
-		"name": "Questionnaire_demographic info",
-		"questionnaire_id": "questionnaire_1",
+		"name": "SmartUrbanity Demographic Info",
+		"questionnaire_id": "smarturbanity_demographic_info",
 		"questionnaire_version": "0.0.1",
 		"project": "SmartUrbanity",
 		"options": {
@@ -12,20 +12,23 @@
 		"gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
 		"sections": [
 			{
+				"title": "Welcome to the SmartUrbanity Profile Questionnaire",
+				"description": "SmartUrbanity is a European research and innovation project launched in 2025 to support the transition toward more sustainable, accessible, and people-centered cities. By promoting active travel, shared mobility, and integrated public transport, the project aims to reduce car dependency and emissions while improving access for all.\n\n This questionnaire helps us understand your background, daily travel habits, and comfort with different mobility options. Your responses will guide our analysis of mobility patterns collected later through digital tools and participatory activities. Participation is voluntary and anonymous. Your information will be used solely for scientific and educational purposes within the SmartUrbanity project.\n\n https://www.smarturbanity.com/about",
+				"backgroundColor": "#d3d3d3",
+				"questions": []
+			},
+			{
 				"title": "Tell us about yourself",
-				"description": "",
+				"description": "Questions about age, gender, education and work. They help describe who our participants are.",
 				"backgroundColor": "#f0f0f0",
 				"questions": [
 					{
-						"text": "1. What is your age group? (Participation is limited to adults aged 18 or older) remove option <18",
+						"text": "1. What is your age group? (Participation is limited to adults aged 18 or older) ",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
 						"add_other": false,
 						"options": [
-							{
-								"text": "Up to 18"
-							},
 							{
 								"text": "18-24"
 							},
@@ -153,7 +156,7 @@
 						"add_other": true,
 						"options": [
 							{
-								"text": "Employed full time"
+								"text": "Employed full-time"
 							},
 							{
 								"text": "Employed part-time"
@@ -162,11 +165,11 @@
 								"text": "Occasionally employed"
 							},
 							{
-								"text": "Self-employed/freelance full time"
+								"text": "Self-employed/freelance full-time"
 							},
 							{
 								"text": "Self employed/freelance part-time"
-							},							
+							},
 							{
 								"text": "Homemaker"
 							},
@@ -230,7 +233,7 @@
 						]
 					},
 					{
-						"text": "21. Do you have a pet at home?",
+						"text": "10. Do you have a pet at home?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -245,7 +248,7 @@
 						]
 					},
 					{
-						"text": "22. Do you currently hold a valid driving license?",
+						"text": "11. Do you currently hold a valid driving license?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -260,7 +263,7 @@
 						]
 					},
 					{
-						"text": "19. Do you belong to any of these groups?",
+						"text": "12. Do you belong to any of these groups?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -284,11 +287,11 @@
 			},
 			{
 				"title": "Access to vehicles and parking facilities",
-				"description": "",
+				"description": "This section gathers information about the availability of vehicles and parking options to better understand your transportation access and needs.",
 				"backgroundColor": "#f0f0f0",
 				"questions": [
 					{
-						"text": "10. Do you own or have access to any of the following in your households?",
+						"text": "13. Do you own or have access to any of the following in your households?",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -309,8 +312,8 @@
 						]
 					},
 					{
-						"text": "11. Do you regularly use any of the following in your households?",
-						"question_type": "single_option",
+						"text": "14. Do you regularly use any of the following in your households?",
+						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
 						"add_other": true,
@@ -330,7 +333,7 @@
 						]
 					},
 					{
-						"text": "12. Do you have access to parking spaces near your residence?",
+						"text": "15. Do you have access to parking spaces near your residence?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -345,7 +348,7 @@
 						]
 					},
 					{
-						"text": "13. Do you have access to parking lots for bikes near your residence?",
+						"text": "16. Do you have access to parking lots for bikes near your residence?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -366,11 +369,11 @@
 			},
 			{
 				"title": "Travel behaviour and mobility choice",
-				"description": "",
+				"description": "This section explores your travel habits and preferences to help us understand how you choose and use different modes of transportation.",
 				"backgroundColor": "#f0f0f0",
 				"questions": [
 					{
-						"text": "14. Which travel mode do you most often prefer for your trips?",
+						"text": "17. Which travel mode do you most often prefer for your trips?",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -406,7 +409,7 @@
 						]
 					},
 					{
-						"text": "14a. Do you regularly use any combination of the following modes in the same trip? Thick all those you use.",
+						"text": "18. Do you regularly use any combination of the following modes in the same trip? Thick all those you use.",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -442,7 +445,7 @@
 						]
 					},
 					{
-						"text": "23. How often do you use shared mobility services (bike-share, e-scooter)?",
+						"text": "19. How often do you use shared mobility services (bike-share, e-scooter)?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -472,7 +475,7 @@
 						]
 					},
 					{
-						"text": "25 . If you were given free access to a shared bicycle or e-scooter, would you use it?",
+						"text": "20 . If you were given free access to a shared bicycle or e-scooter, would you use it?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -490,7 +493,7 @@
 						]
 					},
 					{
-						"text": "26. How expensive do you think it is to ride a bicycle or e-scooter?",
+						"text": "21. How expensive do you think it is to ride a bicycle or e-scooter?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -517,7 +520,7 @@
 						]
 					},
 					{
-						"text": "27. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
+						"text": "22. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -556,11 +559,11 @@
 			},
 			{
 				"title": "Mobility confidence and digital engagement",
-				"description": "",
+				"description": "This section assesses your confidence in using different mobility modes and your comfort with digital tools that support travel.",
 				"backgroundColor": "#f0f0f0",
 				"questions": [
 					{
-						"text": "15. How confident are you riding a bicycle in your city?",
+						"text": "23. How confident are you riding a bicycle in your city?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": true,
@@ -584,7 +587,7 @@
 						]
 					},
 					{
-						"text": "16. How confident are you riding e-scooters in your city?",
+						"text": "24. How confident are you riding e-scooters in your city?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": true,
@@ -606,9 +609,9 @@
 								"text": "Very confident "
 							}
 						]
-					},					
+					},
 					{
-						"text": "17 How comfortable are you with using apps for transport (e.g., route planning, ticketing)?",
+						"text": "25. How comfortable are you with using apps for transport (e.g., route planning, ticketing)?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -631,18 +634,18 @@
 							},
 							{
 								"text": "I don't use it at all."
-							}							
+							}
 						]
 					}
 				]
 			},
 			{
-				"title": "Other",
+				"title": "Other questions",
 				"description": "",
 				"backgroundColor": "#f0f0f0",
 				"questions": [
 					{
-						"text": "18. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?",
+						"text": "26. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -669,7 +672,7 @@
 						]
 					},
 					{
-						"text": "20. Which of these best describes you?",
+						"text": "27. Which of these best describes you?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
@@ -697,15 +700,12 @@
 		"it": {},
 		"en": {
 			"code": "en",
-			"#Questionnaire_demographic info": "Questionnaire_demographic info",
-			"#Section 1": "Section 1",
 			"#Male": "Male",
 			"#Female": "Female",
 			"#Yes": "Yes",
 			"#No": "No",
 			"#Struggling to cover basic needs": "Struggling to cover basic needs",
 			"#Can cover basic needs but have little left over": "Can cover basic needs but have little left over",
-			"#Employed full time": "Employed full time",
 			"#Employed part-time": "Employed part-time",
 			"#Retired": "Retired",
 			"#Unemployed looking for work": "Unemployed looking for work",
@@ -720,7 +720,6 @@
 			"#Motorcycle": "Motorcycle",
 			"#Bicycle": "Bicycle",
 			"#E-scooter": "E-scooter",
-			"#None of the above": "None of the above",
 			"#Walking": "Walking",
 			"#Very uncomfortable": "Very uncomfortable",
 			"#Somewhat uncomfortable": "Somewhat uncomfortable",
@@ -737,7 +736,6 @@
 			"#I travel here regularly for work or study (Commuter)": "I travel here regularly for work or study (Commuter)",
 			"#I’m visiting for leisure (Tourist)": "I’m visiting for leisure (Tourist)",
 			"#I’m here temporarily for another reason (Visitor)": "I’m here temporarily for another reason (Visitor)",
-			"#Up to 18": "Up to 18",
 			"#18-24": "18-24",
 			"#25-34": "25-34",
 			"#35-44": "35-44",
@@ -754,7 +752,6 @@
 			"#Comfortable, can afford most things I need": "Comfortable, can afford most things I need",
 			"#Very comfortable, can afford extra expenses": "Very comfortable, can afford extra expenses",
 			"#Taxi/similar": "Taxi/similar",
-			"#Environmental activist": "Environmental activist",
 			"#Influencer": "Influencer",
 			"#Car sharing": "Car sharing",
 			"#I never use shared mobility services.": "I never use shared mobility services.",
@@ -764,60 +761,34 @@
 			"#3-5 times a week": "3-5 times a week",
 			"#Only at weekends": "Only at weekends",
 			"#Daily": "Daily",
-			"#Alone": "Alone",
-			"#With Others": "With Others",
 			"#I don't know": "I don't know",
-			"#Yes, but not frequently": "Yes, but not frequently",
 			"#Never connected": "Never connected",
 			"#Not connected yet": "Not connected yet",
 			"#Yes, I have a temporary condition/limitation ": "Yes, I have a temporary condition/limitation ",
 			"#Yes, I have a permanent mobility condition/limitation": "Yes, I have a permanent mobility condition/limitation",
 			"#No, I can move independently": "No, I can move independently",
-			"#1. What is your age group?": "1. What is your age group?",
 			"#2. What is your gender?": "2. What is your gender?",
 			"#3. Do you have any condition or limitation that affects your ability to move independently?": "3. Do you have any condition or limitation that affects your ability to move independently?",
 			"#4. How many adults, including yourself, live together in your household? ": "4. How many adults, including yourself, live together in your household? ",
-			"#Self-employed/freelance full time": "Self-employed/freelance full time",
 			"#Self employed/freelance part-time": "Self employed/freelance part-time",
 			"#7. Which best describes your employment status?": "7. Which best describes your employment status?",
-			"#6. Which economical status do you think best describes your household?": "6. Which economical status do you think best describes your household?",
 			"#8. Do you currently work remotely (partly or fully)?": "8. Do you currently work remotely (partly or fully)?",
 			"#9. What is your highest completed level of education?": "9. What is your highest completed level of education?",
 			"#Lower secondary school": "Lower secondary school",
 			"#High school": "High school",
-			"#10. Do you own or have access to any of the following in your households?": "10. Do you own or have access to any of the following in your households?",
-			"#11. Do you regularly use any of the following in your households?": "11. Do you regularly use any of the following in your households?",
-			"#12. Do you have access to parking spaces near your residence?": "12. Do you have access to parking spaces near your residence?",
-			"#13. Do you have access to parking lots for bikes near your residence?": "13. Do you have access to parking lots for bikes near your residence?",
 			"#Public transport": "Public transport",
-			"#Bicycle/e-bike/e-scooter (private)": "Bicycle/e-bike/e-scooter (private)",
-			"#Bicycle/e-bike/e-scooter (shared)": "Bicycle/e-bike/e-scooter (shared)",
-			"#15. How confident are you riding a bicycle in your city?": "15. How confident are you riding a bicycle in your city?",
 			"#Not confident at all": "Not confident at all",
 			"#Not very confident ": "Not very confident ",
 			"#Indifferent": "Indifferent",
 			"#Somewhat confident ": "Somewhat confident ",
 			"#Very confident ": "Very confident ",
-			"#16. How confident are you riding e-scooters in your city?": "16. How confident are you riding e-scooters in your city?",
-			"#Option Text": "Option Text",
 			"#I don't use it at all.": "I don't use it at all.",
-			"#18. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?": "18. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?",
-			"#19. Do you belong to any of these groups?": "19. Do you belong to any of these groups?",
-			"#20. Which of these best describes you?": "20. Which of these best describes you?",
-			"#21. Do you have a pet at home?": "21. Do you have a pet at home?",
-			"#22. Do you currently hold a valid driving license?": "22. Do you currently hold a valid driving license?",
-			"#With family or friends": "With family or friends",
-			"#23. How often do you use shared mobility services (bike-share, e-scooter)?": "23. How often do you use shared mobility services (bike-share, e-scooter)?",
-			"#24. Who do you most often travel with? ": "24. Who do you most often travel with? ",
-			"#25 . If you were given free access to a shared bicycle or e-scooter, would you use it?": "25 . If you were given free access to a shared bicycle or e-scooter, would you use it?",
 			"#Maybe": "Maybe",
-			"#26. How expensive do you think it is to ride a bicycle or e-scooter?": "26. How expensive do you think it is to ride a bicycle or e-scooter?",
 			"#Very expensive": "Very expensive",
 			"#Expensive": "Expensive",
 			"#Moderately Priced": "Moderately Priced",
 			"#Cheap": "Cheap",
 			"#Very cheap": "Very cheap",
-			"#27. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?": "27. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
 			"#Lower cost": "Lower cost",
 			"#Safer routes": "Safer routes",
 			"#More bike/e-scooter lanes": "More bike/e-scooter lanes",
@@ -828,13 +799,51 @@
 			"#Enjoyable trips": "Enjoyable trips",
 			"#I am not interested": "I am not interested",
 			"#5. Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "5. Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
-			"#14. Which travel mode do you most often prefer for your trips?": "14. Which travel mode do you most often prefer for your trips?",
-			"#17.a.Do you use transport apps (e.g., for route planning or ticketing)?": "17.a.Do you use transport apps (e.g., for route planning or ticketing)?",
-			"#17.b. How comfortable are you with using apps for transport (e.g., route planning, ticketing)?": "17.b. How comfortable are you with using apps for transport (e.g., route planning, ticketing)?"
+			"#Tell us about yourself": "Tell us about yourself",
+			"#6. Which economic status do you think best describes your household?": "6. Which economic status do you think best describes your household?",
+			"#Occasionally employed": "Occasionally employed",
+			"#Homemaker": "Homemaker",
+			"#Environmental/sustainable mobility activist": "Environmental/sustainable mobility activist",
+			"#Access to vehicles and parking facilities": "Access to vehicles and parking facilities",
+			"#Travel behaviour and mobility choice": "Travel behaviour and mobility choice",
+			"#Bicycle/e-bike (private)": "Bicycle/e-bike (private)",
+			"#Bicycle/e-bike (shared)": "Bicycle/e-bike (shared)",
+			"#e-scooter (private)": "e-scooter (private)",
+			"#e-scooter (shared)": "e-scooter (shared)",
+			"#Mobility confidence and digital engagement": "Mobility confidence and digital engagement",
+			"#Welcome to the SmartUrbanity Profile Questionnaire": "Welcome to the SmartUrbanity Profile Questionnaire",
+			"#SmartUrbanity is a European research and innovation project launched in 2025 to support the transition toward more sustainable, accessible, and people-centered cities. By promoting active travel, shared mobility, and integrated public transport, the project aims to reduce car dependency and emissions while improving access for all.\n\n This questionnaire helps us understand your background, daily travel habits, and comfort with different mobility options. Your responses will guide our analysis of mobility patterns collected later through digital tools and participatory activities. Participation is voluntary and anonymous. Your information will be used solely for scientific and educational purposes within the SmartUrbanity project.\n\n https://www.smarturbanity.com/about": "SmartUrbanity is a European research and innovation project launched in 2025 to support the transition toward more sustainable, accessible, and people-centered cities. By promoting active travel, shared mobility, and integrated public transport, the project aims to reduce car dependency and emissions while improving access for all.\n\n This questionnaire helps us understand your background, daily travel habits, and comfort with different mobility options. Your responses will guide our analysis of mobility patterns collected later through digital tools and participatory activities. Participation is voluntary and anonymous. Your information will be used solely for scientific and educational purposes within the SmartUrbanity project.\n\n https://www.smarturbanity.com/about",
+			"#Questions about age, gender, education and work. They help describe who our participants are.": "Questions about age, gender, education and work. They help describe who our participants are.",
+			"#10. Do you have a pet at home?": "10. Do you have a pet at home?",
+			"#11. Do you currently hold a valid driving license?": "11. Do you currently hold a valid driving license?",
+			"#12. Do you belong to any of these groups?": "12. Do you belong to any of these groups?",
+			"#13. Do you own or have access to any of the following in your households?": "13. Do you own or have access to any of the following in your households?",
+			"#14. Do you regularly use any of the following in your households?": "14. Do you regularly use any of the following in your households?",
+			"#15. Do you have access to parking spaces near your residence?": "15. Do you have access to parking spaces near your residence?",
+			"#16. Do you have access to parking lots for bikes near your residence?": "16. Do you have access to parking lots for bikes near your residence?",
+			"#17. Which travel mode do you most often prefer for your trips?": "17. Which travel mode do you most often prefer for your trips?",
+			"#18. Do you regularly use any combination of the following modes in the same trip? Thick all those you use.": "18. Do you regularly use any combination of the following modes in the same trip? Thick all those you use.",
+			"#19. How often do you use shared mobility services (bike-share, e-scooter)?": "19. How often do you use shared mobility services (bike-share, e-scooter)?",
+			"#20 . If you were given free access to a shared bicycle or e-scooter, would you use it?": "20 . If you were given free access to a shared bicycle or e-scooter, would you use it?",
+			"#21. How expensive do you think it is to ride a bicycle or e-scooter?": "21. How expensive do you think it is to ride a bicycle or e-scooter?",
+			"#22. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?": "22. What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
+			"#23. How confident are you riding a bicycle in your city?": "23. How confident are you riding a bicycle in your city?",
+			"#24. How confident are you riding e-scooters in your city?": "24. How confident are you riding e-scooters in your city?",
+			"#25. How comfortable are you with using apps for transport (e.g., route planning, ticketing)?": "25. How comfortable are you with using apps for transport (e.g., route planning, ticketing)?",
+			"#26. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?": "26. How strongly do you feel that you belong to, are part of, or have a relationship with the people and place where you live?",
+			"#27. Which of these best describes you?": "27. Which of these best describes you?",
+			"#Other questions": "Other questions",
+			"#This section gathers information about the availability of vehicles and parking options to better understand your transportation access and needs.": "This section gathers information about the availability of vehicles and parking options to better understand your transportation access and needs.",
+			"#This section explores your travel habits and preferences to help us understand how you choose and use different modes of transportation.": "This section explores your travel habits and preferences to help us understand how you choose and use different modes of transportation.",
+			"#This section assesses your confidence in using different mobility modes and your comfort with digital tools that support travel.": "This section assesses your confidence in using different mobility modes and your comfort with digital tools that support travel.",
+			"#Employed full-time": "Employed full-time",
+			"#Self-employed/freelance full-time": "Self-employed/freelance full-time",
+			"#1. What is your age group? (Participation is limited to adults aged 18 or older) ": "1. What is your age group? (Participation is limited to adults aged 18 or older) ",
+			"#SmartUrbanity Demographic Info": "SmartUrbanity Demographic Info"
 		},
 		"fa": {}
 	},
-	"id": "questionnaire_1",
+	"id": "smarturbanity_demographic_info",
 	"db_set": "questionnaires",
 	"default_language": "en"
 }
