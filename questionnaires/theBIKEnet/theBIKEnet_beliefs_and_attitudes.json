@@ -1,8 +1,8 @@
 {
 	"questionnaire": {
-		"name": "7. theBIKEnet Beliefs and Attitudes – Cycling, Wellbeing and Micromobility",
+		"name": "7. theBIKEnet Beliefs and Attitudes - Cycling, Wellbeing and Micromobility",
 		"questionnaire_id": "theBIKEnet_beliefs_and_attitudes",
-		"questionnaire_version": "1.0.0",
+		"questionnaire_version": "1.0.2",
 		"project": "theBIKEnet",
 		"options": {
 			"review_mode": true,
@@ -12,21 +12,23 @@
 		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
 			{
-				"title": "Welcome to the theBIKEnet Beliefs and Attitudes Questionnaire",
-				"description": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This seventh questionnaire focuses on <b>your beliefs, attitudes, and feelings</b> about cycling and micromobility. It looks at <b>motivations, barriers, social influences, and wellbeing</b> that shape everyday mobility choices. Understanding these aspects helps us explore <b>how cultural, emotional, and personal factors</b> influence sustainable mobility behaviour.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+				"title": "theBIKEnet Beliefs and Attitudes Questionnaire",
+				"description": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities - combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This seventh questionnaire focuses on <b>your beliefs, attitudes, and feelings</b> about micromobility (bicycles and e-scooters). It looks at <b>motivations, barriers, social influences, and wellbeing</b> that shape everyday mobility choices. Understanding these aspects helps us explore <b>how cultural, emotional, and personal factors</b> influence sustainable mobility behaviour.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>",
 				"backgroundColor": "#0c9091",
 				"questions": []
 			},
 			{
 				"title": "Perceived Advantages and Disadvantages",
-				"description": "People adopt or avoid cycling and micromobility for different reasons. This section explores both the perceived benefits and the perceived inconveniences of these modes.",
+				"description": "People adopt or avoid cycling and using e-scooters for different reasons. This section explores both the perceived benefits and the perceived inconveniences of these modes.",
 				"backgroundColor": "#0c9091",
 				"questions": [
 					{
 						"text": "In your opinion, what are the main advantages of using bicycles or e-scooters?",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": true,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Lower travel cost"
@@ -60,6 +62,9 @@
 							},
 							{
 								"text": "Pleasure of outdoor activity or open air"
+							},
+							{
+								"text": "No advantages"
 							}
 						]
 					},
@@ -67,7 +72,9 @@
 						"text": "What do you consider to be the main disadvantages or discomforts of using bicycles or e-scooters?",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": true,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Exposure to air pollution"
@@ -76,7 +83,7 @@
 								"text": "Sweating or physical effort"
 							},
 							{
-								"text": "Bad weather (rain, wind, cold)"
+								"text": "Weather (rain, wind, cold, heat)"
 							},
 							{
 								"text": "Safety risks in traffic"
@@ -92,6 +99,9 @@
 							},
 							{
 								"text": "Need to plan routes or charging for e-scooters"
+							},
+							{
+								"text": "No disadvantages"
 							}
 						]
 					},
@@ -99,13 +109,21 @@
 						"text": "Which of these advantages do you consider the most important for you personally?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
-						"add_other": true,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
-								"text": "Lower travel cost"
+								"text": "Time savings / avoiding congestion"
 							},
 							{
-								"text": "Health and fitness benefits"
+								"text": "Door-to-door accessibility"
+							},
+							{
+								"text": "Travel time reliability"
+							},
+							{
+								"text": "Independence from schedules"
 							},
 							{
 								"text": "Convenience"
@@ -114,7 +132,13 @@
 								"text": "Environmental impact"
 							},
 							{
-								"text": "Flexibility or parking"
+								"text": "Enjoyment or comfort"
+							},
+							{
+								"text": "Health and fitness"
+							},
+							{
+								"text": "None of above"
 							}
 						]
 					}
@@ -126,10 +150,28 @@
 				"backgroundColor": "#0c9091",
 				"questions": [
 					{
-						"text": "Do you think there are any cultural or social barriers that limit who uses cycling or micromobility? If so, which groups do you believe are more affected?",
+						"text": "Do you think there are any cultural or social barriers that limit who uses bicycles or e-scooters? ",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							}
+						]
+					},
+					{
+						"text": "If yes, which groups do you believe are more affected?",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": true,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "People with lower income"
@@ -141,27 +183,26 @@
 								"text": "Women"
 							},
 							{
-								"text": "People with disabilities"
+								"text": "People with physical challenges"
 							},
 							{
 								"text": "People with demanding or high-status jobs"
 							},
 							{
-								"text": "Certain cultural or ethnic communities"
+								"text": "People from ethnic or cultural minority groups "
 							},
 							{
 								"text": "No, I don’t think there are significant barriers"
-							},
-							{
-								"text": "I’m not sure"
 							}
 						]
 					},
 					{
-						"text": "To what extent do you think social or cultural barriers discourage people from cycling or using micromobility in your city?",
+						"text": "To what extent do you think social or cultural barriers discourage people from cycling or riding an e-scooter in your city?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Not at all"
@@ -179,52 +220,6 @@
 								"text": "Extremely"
 							}
 						]
-					},
-					{
-						"text": "Within your family or household, who regularly uses bicycles or e-scooters?",
-						"question_type": "multiple_options",
-						"add_prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Myself"
-							},
-							{
-								"text": "Partner or spouse"
-							},
-							{
-								"text": "Children or dependents"
-							},
-							{
-								"text": "Parents or relatives"
-							},
-							{
-								"text": "No one in my family uses them"
-							}
-						]
-					},
-					{
-						"text": "How common is cycling or e-scooter use among your close friends or peers?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Very common (≥50% of my friends)"
-							},
-							{
-								"text": "Quite common (~20–49%)"
-							},
-							{
-								"text": "Occasional (~5–19%)"
-							},
-							{
-								"text": "Rare (<5%)"
-							},
-							{
-								"text": "I don’t know"
-							}
-						]
 					}
 				]
 			},
@@ -234,10 +229,12 @@
 				"backgroundColor": "#0c9091",
 				"questions": [
 					{
-						"text": "Which of the following issues make you feel less confident or less inclined to use a bicycle or e-scooter (in the past 3 months)?",
+						"text": "Which of the following issues make you feel less inclined to use a bicycle or e-scooter (in the past 3 months)?",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": true,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Fear of theft or vandalism"
@@ -253,6 +250,9 @@
 							},
 							{
 								"text": "Lack of nearby repair or rental points"
+							},
+							{
+								"text": "No issues"
 							}
 						]
 					},
@@ -260,7 +260,9 @@
 						"text": "What challenges do you experience when combining bicycles or e-scooters with public transport?",
 						"question_type": "multiple_options",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": true,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Lack of intermodal facilities (bike racks, parking, etc.)"
@@ -276,6 +278,12 @@
 							},
 							{
 								"text": "Feeling of disturbing other passengers"
+							},
+							{
+								"text": "I do not face any challenges"
+							},
+							{
+								"text": "I do not have experience combining bicycles/e-scooters with public transport"
 							}
 						]
 					},
@@ -283,7 +291,9 @@
 						"text": "Overall, how much do these issues discourage you from using a bicycle or e-scooter?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Not at all"
@@ -306,7 +316,9 @@
 						"text": "How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Very difficult"
@@ -322,6 +334,9 @@
 							},
 							{
 								"text": "Very easy"
+							},
+							{
+								"text": "Not applicable (I do not use micromobility)"
 							}
 						]
 					}
@@ -336,7 +351,9 @@
 						"text": "How much do you think cycling affects your overall wellbeing?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Very negatively"
@@ -359,7 +376,9 @@
 						"text": "When cycling, how free and active do you feel?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Not at all"
@@ -385,33 +404,9 @@
 						"text": "When cycling, how calm and focused do you feel?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
-						"options": [
-							{
-								"text": "Not at all"
-							},
-							{
-								"text": "A little"
-							},
-							{
-								"text": "Moderately"
-							},
-							{
-								"text": "Very"
-							},
-							{
-								"text": "Extremely"
-							},
-							{
-								"text": "Not applicable (I do not currently cycle)"
-							}
-						]
-					},
-					{
-						"text": "When cycling, how experienced and cautious do you feel?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Not at all"
@@ -437,7 +432,9 @@
 						"text": "Over the past 5 years, how has your sense of safety while cycling changed?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Much worse"
@@ -463,7 +460,9 @@
 						"text": "Over the past 5 years, how has your caution when cycling changed?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Much decreased"
@@ -490,124 +489,13 @@
 		]
 	},
 	"languages": {
-		"it": {
-			"code": "it",
-			"#7. theBIKEnet Beliefs and Attitudes – Cycling, Wellbeing and Micromobility": "7. theBIKEnet Credenze e Atteggiamenti – Ciclismo, Benessere e Micromobilità",
-			"#Welcome to the theBIKEnet Beliefs and Attitudes Questionnaire": "Benvenutə al questionario theBIKEnet – Credenze e Atteggiamenti",
-			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This seventh questionnaire focuses on <b>your beliefs, attitudes, and feelings</b> about cycling and micromobility. It looks at <b>motivations, barriers, social influences, and wellbeing</b> that shape everyday mobility choices. Understanding these aspects helps us explore <b>how cultural, emotional, and personal factors</b> influence sustainable mobility behaviour.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> è un progetto di ricerca pubblica che studia come le persone si spostano in bicicletta nelle città — unendo scienza, tecnologia ed esperienza quotidiana. Il nostro obiettivo è rendere la mobilità urbana più sicura, equa e sostenibile per tutti.<br><br>Questo settimo questionario si concentra sulle <b>tue credenze, atteggiamenti ed emozioni</b> riguardo all’uso della bicicletta e della micromobilità. Analizza <b>motivazioni, barriere, influenze sociali e benessere</b> che influenzano le scelte di mobilità quotidiane. Comprendere questi aspetti ci aiuta a esplorare <b>come i fattori culturali, emotivi e personali</b> incidano sui comportamenti di mobilità sostenibile.<br><br>La partecipazione è completamente volontaria e anonima. Le informazioni fornite saranno utilizzate solo a fini scientifici ed educativi.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Scopri di più sul progetto theBIKEnet</a>",
-			"#Perceived Advantages and Disadvantages": "Vantaggi e Svantaggi Percepiti",
-			"#People adopt or avoid cycling and micromobility for different reasons. This section explores both the perceived benefits and the perceived inconveniences of these modes.": "Le persone scelgono o evitano la bicicletta e la micromobilità per diverse ragioni. Questa sezione esplora sia i benefici percepiti sia gli inconvenienti di queste modalità.",
-			"#In your opinion, what are the main advantages of using bicycles or e-scooters?": "Secondo te, quali sono i principali vantaggi dell’uso di biciclette o monopattini elettrici?",
-			"#Lower travel cost": "Costi di spostamento più bassi",
-			"#Health and physical fitness benefits": "Benefici per la salute e la forma fisica",
-			"#Convenient for short trips (e.g., under 5 km)": "Comodo per tragitti brevi (ad esempio, sotto i 5 km)",
-			"#Can be combined with public transport for longer journeys": "Può essere combinato con i mezzi pubblici per tragitti più lunghi",
-			"#Reduces air pollution and environmental impact": "Riduce l’inquinamento atmosferico e l’impatto ambientale",
-			"#No driving license required": "Non è richiesta la patente di guida",
-			"#Convenient in congested traffic areas": "Comodo nelle aree con traffico intenso",
-			"#No need for ownership (shared use)": "Non richiede possesso (uso condiviso)",
-			"#Easy parking and high flexibility": "Facile da parcheggiare e molto flessibile",
-			"#Access to narrow streets and local destinations": "Accesso a strade strette e destinazioni locali",
-			"#Pleasure of outdoor activity or open air": "Piacere dell’attività all’aperto o dell’aria aperta",
-			"#What do you consider to be the main disadvantages or discomforts of using bicycles or e-scooters?": "Quali ritieni siano i principali svantaggi o disagi dell’uso di biciclette o monopattini elettrici?",
-			"#Exposure to air pollution": "Esposizione all’inquinamento atmosferico",
-			"#Sweating or physical effort": "Sudorazione o sforzo fisico",
-			"#Bad weather (rain, wind, cold)": "Maltempo (pioggia, vento, freddo)",
-			"#Safety risks in traffic": "Rischi per la sicurezza nel traffico",
-			"#Difficulty finding safe parking": "Difficoltà a trovare parcheggi sicuri",
-			"#Carrying items or passengers is inconvenient": "Trasportare oggetti o passeggeri è scomodo",
-			"#Lack of changing or shower facilities": "Mancanza di spogliatoi o docce",
-			"#Need to plan routes or charging for e-scooters": "Necessità di pianificare i percorsi o la ricarica del monopattino",
-			"#Social and Cultural Factors": "Fattori Sociali e Culturali",
-			"#Social norms and cultural context can influence who feels encouraged or discouraged to use micromobility. This section explores perceived accessibility and representation among different groups.": "Le norme sociali e il contesto culturale possono influenzare chi si sente incoraggiato o scoraggiato a utilizzare la micromobilità. Questa sezione esplora la percezione di accessibilità e rappresentazione tra diversi gruppi di persone.",
-			"#Do you think there are any cultural or social barriers that limit who uses cycling or micromobility? If so, which groups do you believe are more affected?": "Pensi che esistano barriere culturali o sociali che limitano l’uso della bicicletta o della micromobilità? Se sì, quali gruppi credi siano più interessati?",
-			"#People with lower income": "Persone con reddito basso",
-			"#Elderly people": "Persone anziane",
-			"#Women": "Donne",
-			"#People with disabilities": "Persone con disabilità",
-			"#People with demanding or high-status jobs": "Persone con lavori impegnativi o di alto profilo",
-			"#Certain cultural or ethnic communities": "Alcune comunità culturali o etniche",
-			"#No, I don’t think there are significant barriers": "No, non penso che esistano barriere significative",
-			"#I’m not sure": "Non ne sono sicuro/a",
-			"#Within your family or household, who regularly uses bicycles or e-scooters?": "All’interno della tua famiglia o del tuo nucleo domestico, chi utilizza regolarmente biciclette o monopattini elettrici?",
-			"#Myself": "Io stesso/a",
-			"#Partner or spouse": "Partner o coniuge",
-			"#Children or dependents": "Figli o persone a carico",
-			"#Parents or relatives": "Genitori o parenti",
-			"#No one in my family uses them": "Nessuno nella mia famiglia li utilizza",
-			"#How common is cycling or e-scooter use among your close friends or peers?": "Quanto è diffuso l’uso della bicicletta o del monopattino tra i tuoi amici o conoscenti?",
-			"#Very common (≥50% of my friends)": "Molto comune (≥50% dei miei amici)",
-			"#Quite common (~20–49%)": "Abbastanza comune (~20–49%)",
-			"#Occasional (~5–19%)": "Occasionale (~5–19%)",
-			"#Rare (<5%)": "Raro (<5%)",
-			"#I don’t know": "Non so",
-			"#Perceived Risks and Practical Challenges": "Rischi e Difficoltà Percepite",
-			"#This section explores perceived barriers or difficulties that might discourage the use of bicycles or e-scooters in daily mobility.": "Questa sezione esplora le barriere o difficoltà percepite che possono scoraggiare l’uso di biciclette o monopattini nella mobilità quotidiana.",
-			"#Which of the following issues make you feel less confident or less inclined to use a bicycle or e-scooter (in the past 3 months)?": "Quali dei seguenti problemi ti hanno fatto sentire meno sicuro/a o meno propenso/a a utilizzare una bicicletta o un monopattino (negli ultimi 3 mesi)?",
-			"#Fear of theft or vandalism": "Paura di furti o atti vandalici",
-			"#Mechanical or battery problems": "Problemi meccanici o di batteria",
-			"#Difficult road or traffic conditions": "Condizioni stradali o di traffico difficili",
-			"#Unpredictable weather (rain, wind, etc.)": "Meteo imprevedibile (pioggia, vento, ecc.)",
-			"#Lack of nearby repair or rental points": "Mancanza di punti di assistenza o noleggio nelle vicinanze",
-			"#What challenges do you experience when combining bicycles or e-scooters with public transport?": "Quali difficoltà riscontri nel combinare l’uso di biciclette o monopattini con i mezzi pubblici?",
-			"#Lack of intermodal facilities (bike racks, parking, etc.)": "Mancanza di strutture intermodali (rastrelliere, parcheggi, ecc.)",
-			"#Limited space on metro/train/bus": "Spazio limitato su metropolitana, treno o autobus",
-			"#Restrictions or unclear rules for carrying bicycles": "Restrizioni o regole poco chiare per il trasporto di biciclette",
-			"#Accessibility issues (stairs, elevators, etc.)": "Problemi di accessibilità (scale, ascensori, ecc.)",
-			"#Feeling of disturbing other passengers": "Sensazione di infastidire altri passeggeri",
-			"#Overall, how much do these issues discourage you from using a bicycle or e-scooter?": "Nel complesso, quanto questi problemi ti scoraggiano dall’usare una bicicletta o un monopattino?",
-			"#Quite a lot": "Abbastanza",
-			"#How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?": "Quanto ti risulta facile integrare la micromobilità (es. bicicletta, monopattino) nella tua routine quotidiana?",
-			"#Very difficult": "Molto difficile",
-			"#Difficult": "Difficile",
-			"#Neither easy nor difficult": "Né facile né difficile",
-			"#Easy": "Facile",
-			"#Very easy": "Molto facile",
-			"#Cycling Wellbeing and Feelings": "Benessere e Sensazioni Legate al Ciclismo",
-			"#How cycling makes you feel and how your sense of safety and caution has changed over time.": "Come ti fa sentire l’andare in bicicletta e come sono cambiati nel tempo il tuo senso di sicurezza e la tua prudenza.",
-			"#How much do you think cycling affects your overall wellbeing?": "Quanto pensi che andare in bicicletta influenzi il tuo benessere complessivo?",
-			"#Very negatively": "Molto negativamente",
-			"#Somewhat negatively": "Abbastanza negativamente",
-			"#It does not affect my wellbeing": "Non influisce sul mio benessere",
-			"#Somewhat positively": "Abbastanza positivamente",
-			"#Very positively": "Molto positivamente",
-			"#When cycling, how free and active do you feel?": "Quando vai in bicicletta, quanto ti senti libero/a e attivo/a?",
-			"#Not at all": "Per niente",
-			"#A little": "Poco",
-			"#Moderately": "Moderatamente",
-			"#Very": "Molto",
-			"#Extremely": "Moltissimo",
-			"#When cycling, how calm and focused do you feel?": "Quando vai in bicicletta, quanto ti senti calmo/a e concentrato/a?",
-			"#When cycling, how experienced and cautious do you feel?": "Quando vai in bicicletta, quanto ti senti esperto/a e prudente?",
-			"#Over the past 5 years, how has your sense of safety while cycling changed?": "Negli ultimi 5 anni, come è cambiata la tua percezione di sicurezza quando vai in bicicletta?",
-			"#Much worse": "Molto peggiorata",
-			"#Slightly worse": "Leggermente peggiorata",
-			"#Unchanged": "Invariata",
-			"#Slightly improved": "Leggermente migliorata",
-			"#Much improved": "Molto migliorata",
-			"#Not applicable (I have been cycling for less than 5 years)": "Non applicabile (vado in bicicletta da meno di 5 anni)",
-			"#Over the past 5 years, how has your caution when cycling changed?": "Negli ultimi 5 anni, come è cambiata la tua prudenza quando vai in bicicletta?",
-			"#Much decreased": "Molto diminuita",
-			"#Slightly decreased": "Leggermente diminuita",
-			"#Slightly increased": "Leggermente aumentata",
-			"#Much increased": "Molto aumentata",
-			"#Not applicable (I do not currently cycle)": "Non applicabile (attualmente non vado in bicicletta)",
-			"#Which of these advantages do you consider the most important for you personally?": "Quale di questi vantaggi ritieni più importante per te personalmente?",
-			"#Health and fitness benefits": "Benefici per la salute e la forma fisica",
-			"#Convenience": "Comodità",
-			"#Environmental impact": "Impatto ambientale",
-			"#Flexibility or parking": "Flessibilità o parcheggio",
-			"#To what extent do you think social or cultural barriers discourage people from cycling or using micromobility in your city?": "In che misura pensi che le barriere sociali o culturali scoraggino le persone dall’usare la bicicletta o la micromobilità nella tua città?",
-			"#Slightly": "Poco",
-			"#Strongly": "Molto"
-		},
 		"en": {
 			"code": "en",
-			"#7. theBIKEnet Beliefs and Attitudes – Cycling, Wellbeing and Micromobility": "7. theBIKEnet Beliefs and Attitudes – Cycling, Wellbeing and Micromobility",
-			"#Welcome to the theBIKEnet Beliefs and Attitudes Questionnaire": "Welcome to the theBIKEnet Beliefs and Attitudes Questionnaire",
-			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This seventh questionnaire focuses on <b>your beliefs, attitudes, and feelings</b> about cycling and micromobility. It looks at <b>motivations, barriers, social influences, and wellbeing</b> that shape everyday mobility choices. Understanding these aspects helps us explore <b>how cultural, emotional, and personal factors</b> influence sustainable mobility behaviour.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This seventh questionnaire focuses on <b>your beliefs, attitudes, and feelings</b> about cycling and micromobility. It looks at <b>motivations, barriers, social influences, and wellbeing</b> that shape everyday mobility choices. Understanding these aspects helps us explore <b>how cultural, emotional, and personal factors</b> influence sustainable mobility behaviour.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+			"#7. theBIKEnet Beliefs and Attitudes - Cycling, Wellbeing and Micromobility": "7. theBIKEnet Beliefs and Attitudes - Cycling, Wellbeing and Micromobility",
+			"#theBIKEnet Beliefs and Attitudes Questionnaire": "theBIKEnet Beliefs and Attitudes Questionnaire",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities - combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This seventh questionnaire focuses on <b>your beliefs, attitudes, and feelings</b> about micromobility (bicycles and e-scooters). It looks at <b>motivations, barriers, social influences, and wellbeing</b> that shape everyday mobility choices. Understanding these aspects helps us explore <b>how cultural, emotional, and personal factors</b> influence sustainable mobility behaviour.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities - combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This seventh questionnaire focuses on <b>your beliefs, attitudes, and feelings</b> about micromobility (bicycles and e-scooters). It looks at <b>motivations, barriers, social influences, and wellbeing</b> that shape everyday mobility choices. Understanding these aspects helps us explore <b>how cultural, emotional, and personal factors</b> influence sustainable mobility behaviour.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>",
 			"#Perceived Advantages and Disadvantages": "Perceived Advantages and Disadvantages",
-			"#People adopt or avoid cycling and micromobility for different reasons. This section explores both the perceived benefits and the perceived inconveniences of these modes.": "People adopt or avoid cycling and micromobility for different reasons. This section explores both the perceived benefits and the perceived inconveniences of these modes.",
+			"#People adopt or avoid cycling and using e-scooters for different reasons. This section explores both the perceived benefits and the perceived inconveniences of these modes.": "People adopt or avoid cycling and using e-scooters for different reasons. This section explores both the perceived benefits and the perceived inconveniences of these modes.",
 			"#In your opinion, what are the main advantages of using bicycles or e-scooters?": "In your opinion, what are the main advantages of using bicycles or e-scooters?",
 			"#Lower travel cost": "Lower travel cost",
 			"#Health and physical fitness benefits": "Health and physical fitness benefits",
@@ -620,47 +508,73 @@
 			"#Easy parking and high flexibility": "Easy parking and high flexibility",
 			"#Access to narrow streets and local destinations": "Access to narrow streets and local destinations",
 			"#Pleasure of outdoor activity or open air": "Pleasure of outdoor activity or open air",
+			"#No advantages": "No advantages",
 			"#What do you consider to be the main disadvantages or discomforts of using bicycles or e-scooters?": "What do you consider to be the main disadvantages or discomforts of using bicycles or e-scooters?",
 			"#Exposure to air pollution": "Exposure to air pollution",
 			"#Sweating or physical effort": "Sweating or physical effort",
-			"#Bad weather (rain, wind, cold)": "Bad weather (rain, wind, cold)",
+			"#Weather (rain, wind, cold, heat)": "Weather (rain, wind, cold, heat)",
 			"#Safety risks in traffic": "Safety risks in traffic",
 			"#Difficulty finding safe parking": "Difficulty finding safe parking",
 			"#Carrying items or passengers is inconvenient": "Carrying items or passengers is inconvenient",
 			"#Lack of changing or shower facilities": "Lack of changing or shower facilities",
 			"#Need to plan routes or charging for e-scooters": "Need to plan routes or charging for e-scooters",
+			"#No disadvantages": "No disadvantages",
+			"#Which of these advantages do you consider the most important for you personally?": "Which of these advantages do you consider the most important for you personally?",
+			"#Time savings / avoiding congestion": "Time savings / avoiding congestion",
+			"#Door-to-door accessibility": "Door-to-door accessibility",
+			"#Travel time reliability": "Travel time reliability",
+			"#Independence from schedules": "Independence from schedules",
+			"#Convenience": "Convenience",
+			"#Environmental impact": "Environmental impact",
+			"#Enjoyment or comfort": "Enjoyment or comfort",
+			"#Health and fitness": "Health and fitness",
+			"#None of above": "None of above",
 			"#Social and Cultural Factors": "Social and Cultural Factors",
 			"#Social norms and cultural context can influence who feels encouraged or discouraged to use micromobility. This section explores perceived accessibility and representation among different groups.": "Social norms and cultural context can influence who feels encouraged or discouraged to use micromobility. This section explores perceived accessibility and representation among different groups.",
-			"#Do you think there are any cultural or social barriers that limit who uses cycling or micromobility? If so, which groups do you believe are more affected?": "Do you think there are any cultural or social barriers that limit who uses cycling or micromobility? If so, which groups do you believe are more affected?",
+			"#Do you think there are any cultural or social barriers that limit who uses bicycles or e-scooters? ": "Do you think there are any cultural or social barriers that limit who uses bicycles or e-scooters? ",
+			"#Yes": "Yes",
+			"#No": "No",
+			"#If yes, which groups do you believe are more affected?": "If yes, which groups do you believe are more affected?",
 			"#People with lower income": "People with lower income",
 			"#Elderly people": "Elderly people",
 			"#Women": "Women",
-			"#People with disabilities": "People with disabilities",
+			"#People with physical challenges": "People with physical challenges",
 			"#People with demanding or high-status jobs": "People with demanding or high-status jobs",
-			"#Certain cultural or ethnic communities": "Certain cultural or ethnic communities",
+			"#People from ethnic or cultural minority groups ": "People from ethnic or cultural minority groups ",
 			"#No, I don’t think there are significant barriers": "No, I don’t think there are significant barriers",
-			"#I’m not sure": "I’m not sure",
-			"#Within your family or household, who regularly uses bicycles or e-scooters?": "Within your family or household, who regularly uses bicycles or e-scooters?",
-			"#Myself": "Myself",
-			"#Partner or spouse": "Partner or spouse",
-			"#Children or dependents": "Children or dependents",
-			"#Parents or relatives": "Parents or relatives",
-			"#No one in my family uses them": "No one in my family uses them",
-			"#How common is cycling or e-scooter use among your close friends or peers?": "How common is cycling or e-scooter use among your close friends or peers?",
-			"#I don’t know": "I don’t know",
+			"#To what extent do you think social or cultural barriers discourage people from cycling or riding an e-scooter in your city?": "To what extent do you think social or cultural barriers discourage people from cycling or riding an e-scooter in your city?",
+			"#Not at all": "Not at all",
+			"#Slightly": "Slightly",
+			"#Moderately": "Moderately",
+			"#Strongly": "Strongly",
+			"#Extremely": "Extremely",
 			"#Perceived Risks and Practical Challenges": "Perceived Risks and Practical Challenges",
 			"#This section explores perceived barriers or difficulties that might discourage the use of bicycles or e-scooters in daily mobility.": "This section explores perceived barriers or difficulties that might discourage the use of bicycles or e-scooters in daily mobility.",
+			"#Which of the following issues make you feel less inclined to use a bicycle or e-scooter (in the past 3 months)?": "Which of the following issues make you feel less inclined to use a bicycle or e-scooter (in the past 3 months)?",
 			"#Fear of theft or vandalism": "Fear of theft or vandalism",
 			"#Mechanical or battery problems": "Mechanical or battery problems",
 			"#Difficult road or traffic conditions": "Difficult road or traffic conditions",
 			"#Unpredictable weather (rain, wind, etc.)": "Unpredictable weather (rain, wind, etc.)",
 			"#Lack of nearby repair or rental points": "Lack of nearby repair or rental points",
+			"#No issues": "No issues",
 			"#What challenges do you experience when combining bicycles or e-scooters with public transport?": "What challenges do you experience when combining bicycles or e-scooters with public transport?",
 			"#Lack of intermodal facilities (bike racks, parking, etc.)": "Lack of intermodal facilities (bike racks, parking, etc.)",
 			"#Limited space on metro/train/bus": "Limited space on metro/train/bus",
 			"#Restrictions or unclear rules for carrying bicycles": "Restrictions or unclear rules for carrying bicycles",
 			"#Accessibility issues (stairs, elevators, etc.)": "Accessibility issues (stairs, elevators, etc.)",
 			"#Feeling of disturbing other passengers": "Feeling of disturbing other passengers",
+			"#I do not face any challenges": "I do not face any challenges",
+			"#I do not have experience combining bicycles/e-scooters with public transport": "I do not have experience combining bicycles/e-scooters with public transport",
+			"#Overall, how much do these issues discourage you from using a bicycle or e-scooter?": "Overall, how much do these issues discourage you from using a bicycle or e-scooter?",
+			"#A little": "A little",
+			"#Quite a lot": "Quite a lot",
+			"#How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?": "How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?",
+			"#Very difficult": "Very difficult",
+			"#Difficult": "Difficult",
+			"#Neither easy nor difficult": "Neither easy nor difficult",
+			"#Easy": "Easy",
+			"#Very easy": "Very easy",
+			"#Not applicable (I do not use micromobility)": "Not applicable (I do not use micromobility)",
 			"#Cycling Wellbeing and Feelings": "Cycling Wellbeing and Feelings",
 			"#How cycling makes you feel and how your sense of safety and caution has changed over time.": "How cycling makes you feel and how your sense of safety and caution has changed over time.",
 			"#How much do you think cycling affects your overall wellbeing?": "How much do you think cycling affects your overall wellbeing?",
@@ -670,13 +584,9 @@
 			"#Somewhat positively": "Somewhat positively",
 			"#Very positively": "Very positively",
 			"#When cycling, how free and active do you feel?": "When cycling, how free and active do you feel?",
-			"#Not at all": "Not at all",
-			"#A little": "A little",
-			"#Moderately": "Moderately",
 			"#Very": "Very",
-			"#Extremely": "Extremely",
+			"#Not applicable (I do not currently cycle)": "Not applicable (I do not currently cycle)",
 			"#When cycling, how calm and focused do you feel?": "When cycling, how calm and focused do you feel?",
-			"#When cycling, how experienced and cautious do you feel?": "When cycling, how experienced and cautious do you feel?",
 			"#Over the past 5 years, how has your sense of safety while cycling changed?": "Over the past 5 years, how has your sense of safety while cycling changed?",
 			"#Much worse": "Much worse",
 			"#Slightly worse": "Slightly worse",
@@ -688,29 +598,118 @@
 			"#Much decreased": "Much decreased",
 			"#Slightly decreased": "Slightly decreased",
 			"#Slightly increased": "Slightly increased",
-			"#Much increased": "Much increased",
-			"#Which of these advantages do you consider the most important for you personally?": "Which of these advantages do you consider the most important for you personally?",
-			"#Health and fitness benefits": "Health and fitness benefits",
-			"#Convenience": "Convenience",
-			"#Environmental impact": "Environmental impact",
-			"#Flexibility or parking": "Flexibility or parking",
-			"#To what extent do you think social or cultural barriers discourage people from cycling or using micromobility in your city?": "To what extent do you think social or cultural barriers discourage people from cycling or using micromobility in your city?",
-			"#Slightly": "Slightly",
-			"#Strongly": "Strongly",
-			"#Overall, how much do these issues discourage you from using a bicycle or e-scooter?": "Overall, how much do these issues discourage you from using a bicycle or e-scooter?",
-			"#Quite a lot": "Quite a lot",
-			"#Very common (≥50% of my friends)": "Very common (≥50% of my friends)",
-			"#Quite common (~20–49%)": "Quite common (~20–49%)",
-			"#Occasional (~5–19%)": "Occasional (~5–19%)",
-			"#Rare (<5%)": "Rare (<5%)",
-			"#Which of the following issues make you feel less confident or less inclined to use a bicycle or e-scooter (in the past 3 months)?": "Which of the following issues make you feel less confident or less inclined to use a bicycle or e-scooter (in the past 3 months)?",
-			"#How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?": "How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?",
-			"#Very difficult": "Very difficult",
-			"#Difficult": "Difficult",
-			"#Neither easy nor difficult": "Neither easy nor difficult",
-			"#Easy": "Easy",
-			"#Very easy": "Very easy",
-			"#Not applicable (I do not currently cycle)": "Not applicable (I do not currently cycle)"
+			"#Much increased": "Much increased"
+		},
+		"it": {
+			"code": "it",
+			"#7. theBIKEnet Beliefs and Attitudes - Cycling, Wellbeing and Micromobility": "7. Opinioni e atteggiamenti theBIKEnet – Bici, benessere e micromobilità",
+			"#theBIKEnet Beliefs and Attitudes Questionnaire": "Questionario theBIKEnet su opinioni e atteggiamenti",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities - combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This seventh questionnaire focuses on <b>your beliefs, attitudes, and feelings</b> about micromobility (bicycles and e-scooters). It looks at <b>motivations, barriers, social influences, and wellbeing</b> that shape everyday mobility choices. Understanding these aspects helps us explore <b>how cultural, emotional, and personal factors</b> influence sustainable mobility behaviour.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> è un progetto di ricerca pubblico che esplora come le persone vanno in bicicletta e si muovono nelle città, combinando scienza, tecnologia ed esperienza quotidiana. Il nostro obiettivo è rendere la mobilità urbana più sicura, più equa e più sostenibile per tutte le persone.<br><br>Questo settimo questionario riguarda <b>le tue opinioni, i tuoi atteggiamenti e le tue sensazioni</b> sulla micromobilità (biciclette e monopattini elettrici). Esplora <b>motivazioni, barriere, influenze sociali e benessere</b> che incidono sulle scelte di mobilità quotidiana. Comprendere questi aspetti ci aiuta a capire <b>come fattori culturali, emotivi e personali</b> influenzano i comportamenti di mobilità sostenibile.<br><br>La partecipazione è completamente volontaria e anonima. Le informazioni che fornisci saranno utilizzate solo per scopi scientifici e didattici.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Scopri di più sul progetto theBIKEnet</a>",
+			"#Perceived Advantages and Disadvantages": "Vantaggi e svantaggi percepiti",
+			"#People adopt or avoid cycling and using e-scooters for different reasons. This section explores both the perceived benefits and the perceived inconveniences of these modes.": "Le persone scelgono o evitano la bicicletta e l’uso del monopattino elettrico per motivi diversi. Questa sezione esplora sia i benefici percepiti sia gli aspetti che possono risultare scomodi o svantaggiosi.",
+			"#In your opinion, what are the main advantages of using bicycles or e-scooters?": "Secondo te, quali sono i principali vantaggi di andare in bicicletta o usare un monopattino elettrico?",
+			"#Lower travel cost": "Costi di spostamento più bassi",
+			"#Health and physical fitness benefits": "Benefici per la salute e la forma fisica",
+			"#Convenient for short trips (e.g., under 5 km)": "Comodo per spostamenti brevi (es. sotto i 5 km)",
+			"#Can be combined with public transport for longer journeys": "Si può combinare con il trasporto pubblico per spostamenti più lunghi",
+			"#Reduces air pollution and environmental impact": "Riduce l’inquinamento dell’aria e l’impatto ambientale",
+			"#No driving license required": "Non serve la patente",
+			"#Convenient in congested traffic areas": "Comodo in aree con traffico congestionato",
+			"#No need for ownership (shared use)": "Non è necessario possederli (uso in sharing)",
+			"#Easy parking and high flexibility": "Parcheggio facile e grande flessibilità",
+			"#Access to narrow streets and local destinations": "Accesso a strade strette e destinazioni locali",
+			"#Pleasure of outdoor activity or open air": "Piacere di stare all’aria aperta / attività all’aperto",
+			"#No advantages": "Nessun vantaggio",
+			"#What do you consider to be the main disadvantages or discomforts of using bicycles or e-scooters?": "Quali sono, secondo te, i principali svantaggi o disagi dell’andare in bicicletta o usare un monopattino elettrico?",
+			"#Exposure to air pollution": "Esposizione all’inquinamento dell’aria",
+			"#Sweating or physical effort": "Sudorazione o sforzo fisico",
+			"#Weather (rain, wind, cold, heat)": "Meteo (pioggia, vento, freddo, caldo)",
+			"#Safety risks in traffic": "Rischi per la sicurezza nel traffico",
+			"#Difficulty finding safe parking": "Difficoltà a trovare parcheggi sicuri",
+			"#Carrying items or passengers is inconvenient": "Trasportare oggetti o passeggeri è scomodo",
+			"#Lack of changing or shower facilities": "Mancanza di spogliatoi o docce",
+			"#Need to plan routes or charging for e-scooters": "Necessità di pianificare i percorsi o la ricarica (per i monopattini elettrici)",
+			"#No disadvantages": "Nessuno svantaggio",
+			"#Which of these advantages do you consider the most important for you personally?": "Quale di questi vantaggi è più importante per te personalmente?",
+			"#Time savings / avoiding congestion": "Risparmio di tempo / evitare la congestione",
+			"#Door-to-door accessibility": "Accessibilità porta a porta",
+			"#Travel time reliability": "Affidabilità dei tempi di viaggio",
+			"#Independence from schedules": "Indipendenza dagli orari",
+			"#Convenience": "Comodità",
+			"#Environmental impact": "Impatto ambientale",
+			"#Enjoyment or comfort": "Piacere o comfort",
+			"#Health and fitness": "Salute e forma fisica",
+			"#None of above": "Nessuno di questi",
+			"#Social and Cultural Factors": "Fattori sociali e culturali",
+			"#Social norms and cultural context can influence who feels encouraged or discouraged to use micromobility. This section explores perceived accessibility and representation among different groups.": "Le norme sociali e il contesto culturale possono influenzare chi si sente incoraggiato o scoraggiato a usare la micromobilità. Questa sezione esplora l’accessibilità percepita e la rappresentazione di diversi gruppi.",
+			"#Do you think there are any cultural or social barriers that limit who uses bicycles or e-scooters? ": "Pensi che esistano barriere sociali o culturali che limitano chi usa la bicicletta o il monopattino elettrico?",
+			"#Yes": "Sì",
+			"#No": "No",
+			"#If yes, which groups do you believe are more affected?": "Se sì, quali gruppi pensi siano più interessati?",
+			"#People with lower income": "Persone con reddito più basso",
+			"#Elderly people": "Persone anziane",
+			"#Women": "Donne",
+			"#People with physical challenges": "Persone con difficoltà fisiche",
+			"#People with demanding or high-status jobs": "Persone con lavori impegnativi o di alto profilo",
+			"#People from ethnic or cultural minority groups ": "Persone appartenenti a minoranze etniche o culturali",
+			"#No, I don’t think there are significant barriers": "No, non credo ci siano barriere significative",
+			"#To what extent do you think social or cultural barriers discourage people from cycling or riding an e-scooter in your city?": "In che misura pensi che le barriere sociali o culturali scoraggino le persone dall’andare in bicicletta o usare un monopattino elettrico nella tua città?",
+			"#Not at all": "Per niente",
+			"#Slightly": "Poco",
+			"#Moderately": "Abbastanza",
+			"#Strongly": "Molto",
+			"#Extremely": "Moltissimo",
+			"#Perceived Risks and Practical Challenges": "Rischi percepiti e difficoltà pratiche",
+			"#This section explores perceived barriers or difficulties that might discourage the use of bicycles or e-scooters in daily mobility.": "Questa sezione esplora barriere o difficoltà percepite che potrebbero scoraggiare l’uso della bicicletta o del monopattino elettrico negli spostamenti quotidiani.",
+			"#Which of the following issues make you feel less inclined to use a bicycle or e-scooter (in the past 3 months)?": "Quali dei seguenti aspetti ti fanno sentire meno propensa/o a usare la bicicletta o il monopattino elettrico (negli ultimi 3 mesi)?",
+			"#Fear of theft or vandalism": "Paura di furto o vandalismo",
+			"#Mechanical or battery problems": "Problemi meccanici o di batteria",
+			"#Difficult road or traffic conditions": "Condizioni stradali o di traffico difficili",
+			"#Unpredictable weather (rain, wind, etc.)": "Meteo imprevedibile (pioggia, vento, ecc.)",
+			"#Lack of nearby repair or rental points": "Mancanza di punti di riparazione o noleggio nelle vicinanze",
+			"#No issues": "Nessun problema",
+			"#What challenges do you experience when combining bicycles or e-scooters with public transport?": "Quali difficoltà incontri quando combini bicicletta o monopattino elettrico con il trasporto pubblico?",
+			"#Lack of intermodal facilities (bike racks, parking, etc.)": "Mancanza di servizi intermodali (rastrelliere, parcheggi, ecc.)",
+			"#Limited space on metro/train/bus": "Spazio limitato su metro/treno/bus",
+			"#Restrictions or unclear rules for carrying bicycles": "Restrizioni o regole poco chiare per portare la bicicletta",
+			"#Accessibility issues (stairs, elevators, etc.)": "Problemi di accessibilità (scale, ascensori, ecc.)",
+			"#Feeling of disturbing other passengers": "Sensazione di dare fastidio ad altri passeggeri",
+			"#I do not face any challenges": "Non incontro nessuna difficoltà",
+			"#I do not have experience combining bicycles/e-scooters with public transport": "Non ho esperienza nel combinare bicicletta/monopattino elettrico con il trasporto pubblico",
+			"#Overall, how much do these issues discourage you from using a bicycle or e-scooter?": "In generale, quanto queste difficoltà ti scoraggiano dall’usare la bicicletta o il monopattino elettrico?",
+			"#A little": "Poco",
+			"#Quite a lot": "Molto",
+			"#How easy do you find it to integrate micromobility (e.g., cycling, e-scooter) into your daily routine?": "Quanto ti risulta facile integrare la micromobilità (es. bicicletta, monopattino elettrico) nella tua routine quotidiana?",
+			"#Very difficult": "Molto difficile",
+			"#Difficult": "Difficile",
+			"#Neither easy nor difficult": "Né facile né difficile",
+			"#Easy": "Facile",
+			"#Very easy": "Molto facile",
+			"#Not applicable (I do not use micromobility)": "Non applicabile (non uso la micromobilità)",
+			"#Cycling Wellbeing and Feelings": "Benessere e sensazioni in bicicletta",
+			"#How cycling makes you feel and how your sense of safety and caution has changed over time.": "Come ti fa sentire andare in bicicletta e come sono cambiati nel tempo il tuo senso di sicurezza e la tua prudenza.",
+			"#How much do you think cycling affects your overall wellbeing?": "Quanto pensi che andare in bicicletta influisca sul tuo benessere complessivo?",
+			"#Very negatively": "Molto negativamente",
+			"#Somewhat negatively": "Abbastanza negativamente",
+			"#It does not affect my wellbeing": "Non influisce sul mio benessere",
+			"#Somewhat positively": "Abbastanza positivamente",
+			"#Very positively": "Molto positivamente",
+			"#When cycling, how free and active do you feel?": "Quando vai in bicicletta, quanto ti senti libero/a e attivo/a?",
+			"#Very": "Molto",
+			"#Not applicable (I do not currently cycle)": "Non applicabile (al momento non vado in bicicletta)",
+			"#When cycling, how calm and focused do you feel?": "Quando vai in bicicletta, quanto ti senti calmo/a e concentrato/a?",
+			"#Over the past 5 years, how has your sense of safety while cycling changed?": "Negli ultimi 5 anni, come è cambiato il tuo senso di sicurezza quando vai in bicicletta?",
+			"#Much worse": "Molto peggiorato",
+			"#Slightly worse": "Leggermente peggiorato",
+			"#Unchanged": "Invariato",
+			"#Slightly improved": "Leggermente migliorato",
+			"#Much improved": "Molto migliorato",
+			"#Not applicable (I have been cycling for less than 5 years)": "Non applicabile (vado in bicicletta da meno di 5 anni)",
+			"#Over the past 5 years, how has your caution when cycling changed?": "Negli ultimi 5 anni, come è cambiata la tua prudenza quando vai in bicicletta?",
+			"#Much decreased": "Molto diminuita",
+			"#Slightly decreased": "Leggermente diminuita",
+			"#Slightly increased": "Leggermente aumentata",
+			"#Much increased": "Molto aumentata"
 		}
 	},
 	"id": "theBIKEnet_beliefs_and_attitudes",

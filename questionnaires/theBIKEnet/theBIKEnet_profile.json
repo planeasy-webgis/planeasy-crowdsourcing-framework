@@ -1,8 +1,8 @@
 {
 	"questionnaire": {
-		"name": "1. theBIKEnet Profile - Tell us a bit about yourself",
+		"name": "1. theBIKEnet Profile - Tell us about yourself",
 		"questionnaire_id": "theBIKEnet_profile",
-		"questionnaire_version": "1.0.0",
+		"questionnaire_version": "1.0.2",
 		"project": "theBIKEnet",
 		"options": {
 			"review_mode": true,
@@ -12,8 +12,8 @@
 		"gdpr_link": "https://movingprojects.github.io/thebikenet/docs/privacy.html",
 		"sections": [
 			{
-				"title": "Welcome to the theBIKEnet Profile Questionnaire",
-				"description": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This first questionnaire helps us understand <b>who our participants are</b> and how diverse cycling experiences can be. It focuses on <b>your background</b>, <b>everyday mobility</b>, and <b>how comfortable you feel</b> when cycling or using micromobility. Your responses will help us interpret travel patterns and perceptions collected later through the app and other surveys.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+				"title": "theBIKEnet Profile Questionnaire",
+				"description": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities - combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This first questionnaire helps us understand <b>who our participants are</b> and how diverse experiences can be. It focuses on <b>your background</b>, <b>everyday mobility</b>, and <b>how comfortable you feel</b> when cycling or riding an e-scooter. Your responses will help us interpret travel patterns and perceptions collected later through the app and other surveys.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>",
 				"backgroundColor": "#0c9091",
 				"questions": []
 			},
@@ -25,29 +25,34 @@
 					{
 						"text": "What is your age group? (Participation is limited to adults aged 18 or older)",
 						"question_type": "single_option",
-						"add_prefer_not_to_say": true,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
-								"text": "18–24 years"
+								"text": "18-24 years"
 							},
 							{
-								"text": "25–34 years"
+								"text": "25-34 years"
 							},
 							{
-								"text": "35–44 years"
+								"text": "35-44 years"
 							},
 							{
-								"text": "45–54 years"
+								"text": "45-54 years"
 							},
 							{
-								"text": "55–64 years"
+								"text": "55-64 years"
 							},
 							{
-								"text": "65–74 years"
+								"text": "65-74 years"
 							},
 							{
-								"text": "75 years or older"
+								"text": "75-84 years"
+							},
+							{
+								"text": "85 years or older"
 							}
 						]
 					},
@@ -55,7 +60,9 @@
 						"text": "How do you identify your gender?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": true,
+						"add_i_dont_know": false,
 						"add_other": true,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Woman"
@@ -68,11 +75,13 @@
 					{
 						"text": "What is your highest level of education completed?",
 						"question_type": "single_option",
-						"add_prefer_not_to_say": true,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": true,
+						"checks_inline": false,
 						"options": [
 							{
-								"text": "Primary school or none"
+								"text": "Primary school or no formal education"
 							},
 							{
 								"text": "Lower secondary school"
@@ -81,39 +90,97 @@
 								"text": "High school diploma"
 							},
 							{
-								"text": "Bachelor’s degree"
+								"text": "Bachelor’s degree or equivalent"
 							},
 							{
 								"text": "Master’s degree or equivalent"
 							},
 							{
-								"text": "Doctorate or postgraduate degree"
+								"text": "Doctoral degree (PhD or equivalent)"
 							}
 						]
 					},
 					{
-						"text": "What is your current employment status?",
+						"text": "Which option best describes your current work situation?",
 						"question_type": "single_option",
-						"add_prefer_not_to_say": true,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": true,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Student"
 							},
 							{
-								"text": "Employee (public or private sector)"
+								"text": "Employed, full-time"
 							},
 							{
-								"text": "Self-employed / freelance"
+								"text": "Employed, part-time"
 							},
 							{
-								"text": "Unemployed or seeking employment"
+								"text": "Occasional or temporary work"
 							},
 							{
-								"text": "Homemaker"
+								"text": "Self-employed / freelance, full-time"
+							},
+							{
+								"text": "Self-employed / freelance, part-time"
+							},
+							{
+								"text": "Homemaking or unpaid care work"
 							},
 							{
 								"text": "Retired"
+							},
+							{
+								"text": "Not employed, looking for work"
+							},
+							{
+								"text": "Not employed, not looking for work"
+							}
+						]
+					},
+					{
+						"text": "Do you currently work remotely?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							},
+							{
+								"text": "Occasionally"
+							},
+							{
+								"text": "I don't work"
+							}
+						]
+					},
+					{
+						"text": "Do you work flexible hours?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							},
+							{
+								"text": "Occasionally"
+							},
+							{
+								"text": "I don't work"
 							}
 						]
 					}
@@ -125,22 +192,24 @@
 				"backgroundColor": "#0c9091",
 				"questions": [
 					{
-						"text": "On average, how far can you comfortably walk without taking a long break? (This helps us understand general mobility and fitness levels.)",
+						"text": "On average, how far can you walk without taking a long break? (e.g. more than a few minutes)",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
-								"text": "Less than 500 meters (about 5–6 minutes walking)"
-							},
-							{
-								"text": "500 meters to 1 km (about 10–15 minutes walking)"
-							},
-							{
-								"text": "1–2 km (about 15–25 minutes walking)"
-							},
-							{
 								"text": "More than 2 km"
+							},
+							{
+								"text": "1-2 km (about 15-25 minutes walking)"
+							},
+							{
+								"text": "500 meters to 1 km (about 10-15 minutes walking)"
+							},
+							{
+								"text": "Less than 500 meters (about 5-6 minutes walking)"
 							},
 							{
 								"text": "I rarely or never walk for daily trips"
@@ -151,19 +220,21 @@
 						"text": "In a typical week, how often are you physically active (walking, cycling, or other moderate or vigorous activities) for at least 30 minutes per day?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Never"
 							},
 							{
-								"text": "1–2 days per week"
+								"text": "1-2 days per week"
 							},
 							{
-								"text": "3–4 days per week"
+								"text": "3-4 days per week"
 							},
 							{
-								"text": "5–6 days per week"
+								"text": "5-6 days per week"
 							},
 							{
 								"text": "Every day"
@@ -171,16 +242,18 @@
 						]
 					},
 					{
-						"text": "Do you have any condition or limitation that affects your ability to walk, cycle, or move independently?",
+						"text": "Do you have any condition or limitation that affects your ability to walk, cycle, ride an e-scooter, or move independently?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": true,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
-								"text": "Yes, I have a temporary condition (e.g., injury, recovery period)"
+								"text": "Yes, I have a permanent mobility limitation"
 							},
 							{
-								"text": "Yes, I have a permanent mobility limitation"
+								"text": "Yes, I have a temporary condition (e.g., injury, recovery period)"
 							},
 							{
 								"text": "No, I can move independently without limitations"
@@ -188,10 +261,12 @@
 						]
 					},
 					{
-						"text": "How physically fit do you feel compared to other people of your age?",
+						"text": "How physically fit do you feel compared to other people of your age? By “physically fit,” we mean your overall strength, endurance, and general health.",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Much fitter"
@@ -209,25 +284,52 @@
 								"text": "Much less fit"
 							}
 						]
+					},
+					{
+						"text": "What is your approximate height?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Shorter than 150 cm"
+							},
+							{
+								"text": "150-164 cm"
+							},
+							{
+								"text": "165-179 cm"
+							},
+							{
+								"text": "180-194 cm"
+							},
+							{
+								"text": "195 cm or taller"
+							}
+						]
 					}
 				]
 			},
 			{
-				"title": "Cycling Ability and Comfort",
-				"description": "Questions about your experience, comfort, and riding posture while cycling or using an e-bike.",
+				"title": "Bicycle and E-scooter Ability and Comfort",
+				"description": "Questions about your experience and comfort when cycling (including e-bikes) or riding an e-scooter, and about your riding posture on a bicycle/e-bike.",
 				"backgroundColor": "#0c9091",
 				"questions": [
 					{
-						"text": "Can you comfortably ride a bicycle (with or without electric assistance)?",
+						"text": "Can you ride a bicycle (with or without electric assistance)?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Yes, I can ride a bicycle confidently"
 							},
 							{
-								"text": "Yes, but I feel uncertain or unsteady"
+								"text": "Yes, but I feel unsteady"
 							},
 							{
 								"text": "I learned to ride but have not done so in many years"
@@ -238,10 +340,12 @@
 						]
 					},
 					{
-						"text": "How confident do you feel about keeping yourself safe while cycling or using an e-scooter in urban traffic?",
+						"text": "How confident do you feel about keeping yourself safe while cycling in urban traffic?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Not at all confident"
@@ -261,33 +365,12 @@
 						]
 					},
 					{
-						"text": "What is your approximate height?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": true,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Shorter than 150 cm"
-							},
-							{
-								"text": "150–164 cm"
-							},
-							{
-								"text": "165–179 cm"
-							},
-							{
-								"text": "180–194 cm"
-							},
-							{
-								"text": "195 cm or taller"
-							}
-						]
-					},
-					{
-						"text": "How would you describe your usual riding position or comfort when using a bicycle or e-bike?",
+						"text": "How would you describe your usual riding position when using a bicycle or e-bike?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "I prefer an upright position (city/comfort bike)"
@@ -299,7 +382,57 @@
 								"text": "I prefer a forward or aerodynamic position (road or sport bike)"
 							},
 							{
+								"text": "It depends on my physical condition"
+							},
+							{
 								"text": "I do not use a bicycle or e-bike"
+							}
+						]
+					},
+					{
+						"text": "Can you ride an e-scooter?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Yes, I can ride an e-scooter confidently"
+							},
+							{
+								"text": "Yes, but I feel unsteady"
+							},
+							{
+								"text": "Yes, but I am still learning"
+							},
+							{
+								"text": "No, I have never learned to ride an e-scooter"
+							}
+						]
+					},
+					{
+						"text": "How confident do you feel about keeping yourself safe while riding an e-scooter in urban traffic?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Not at all confident"
+							},
+							{
+								"text": "Slightly confident"
+							},
+							{
+								"text": "Moderately confident"
+							},
+							{
+								"text": "Very confident"
+							},
+							{
+								"text": "Extremely confident"
 							}
 						]
 					}
@@ -314,7 +447,9 @@
 						"text": "In which Municipio of Rome do you currently live?",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": true,
 						"options": [
 							{
 								"text": "1"
@@ -365,19 +500,42 @@
 								"text": "I live outside Rome"
 							},
 							{
-								"text": "I don't know the number of Municipio"
+								"text": "I don’t know the Municipio number"
 							}
 						]
 					},
 					{
-						"text": "How many people, including yourself, live permanently in your household?",
-						"question_type": "number"
+						"text": "How many adults, including yourself, live together in your household?",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "1 (only myself)"
+							},
+							{
+								"text": "2"
+							},
+							{
+								"text": "3"
+							},
+							{
+								"text": "4"
+							},
+							{
+								"text": "5 or more"
+							}
+						]
 					},
 					{
-						"text": "Are there children or minors in your household?",
+						"text": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
 						"question_type": "single_option",
-						"add_prefer_not_to_say": true,
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
 						"add_other": false,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Yes"
@@ -394,93 +552,102 @@
 	"languages": {
 		"en": {
 			"code": "en",
-			"#1. theBIKEnet Profile - Tell us a bit about yourself": "1. theBIKEnet Profile - Tell us a bit about yourself",
-			"#Welcome to the theBIKEnet Profile Questionnaire": "Welcome to the theBIKEnet Profile Questionnaire",
-			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This first questionnaire helps us understand <b>who our participants are</b> and how diverse cycling experiences can be. It focuses on <b>your background</b>, <b>everyday mobility</b>, and <b>how comfortable you feel</b> when cycling or using micromobility. Your responses will help us interpret travel patterns and perceptions collected later through the app and other surveys.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This first questionnaire helps us understand <b>who our participants are</b> and how diverse cycling experiences can be. It focuses on <b>your background</b>, <b>everyday mobility</b>, and <b>how comfortable you feel</b> when cycling or using micromobility. Your responses will help us interpret travel patterns and perceptions collected later through the app and other surveys.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>",
+			"#theBIKEnet Profile Questionnaire": "theBIKEnet Profile Questionnaire",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities - combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This first questionnaire helps us understand <b>who our participants are</b> and how diverse experiences can be. It focuses on <b>your background</b>, <b>everyday mobility</b>, and <b>how comfortable you feel</b> when cycling or riding an e-scooter. Your responses will help us interpret travel patterns and perceptions collected later through the app and other surveys.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities - combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This first questionnaire helps us understand <b>who our participants are</b> and how diverse experiences can be. It focuses on <b>your background</b>, <b>everyday mobility</b>, and <b>how comfortable you feel</b> when cycling or riding an e-scooter. Your responses will help us interpret travel patterns and perceptions collected later through the app and other surveys.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>",
 			"#Demographic Profile": "Demographic Profile",
 			"#Questions about age, gender, education and work. They help describe who our participants are.": "Questions about age, gender, education and work. They help describe who our participants are.",
 			"#What is your age group? (Participation is limited to adults aged 18 or older)": "What is your age group? (Participation is limited to adults aged 18 or older)",
-			"#18–24 years": "18–24 years",
-			"#25–34 years": "25–34 years",
-			"#35–44 years": "35–44 years",
-			"#45–54 years": "45–54 years",
-			"#55–64 years": "55–64 years",
-			"#65–74 years": "65–74 years",
-			"#75 years or older": "75 years or older",
+			"#18-24 years": "18-24 years",
+			"#25-34 years": "25-34 years",
+			"#35-44 years": "35-44 years",
+			"#45-54 years": "45-54 years",
+			"#55-64 years": "55-64 years",
+			"#65-74 years": "65-74 years",
+			"#75-84 years": "75-84 years",
+			"#85 years or older": "85 years or older",
 			"#How do you identify your gender?": "How do you identify your gender?",
 			"#Woman": "Woman",
 			"#Man": "Man",
 			"#What is your highest level of education completed?": "What is your highest level of education completed?",
-			"#Primary school or none": "Primary school or none",
+			"#Primary school or no formal education": "Primary school or no formal education",
 			"#Lower secondary school": "Lower secondary school",
 			"#High school diploma": "High school diploma",
-			"#Bachelor’s degree": "Bachelor’s degree",
+			"#Bachelor’s degree or equivalent": "Bachelor’s degree or equivalent",
 			"#Master’s degree or equivalent": "Master’s degree or equivalent",
-			"#Doctorate or postgraduate degree": "Doctorate or postgraduate degree",
-			"#What is your current employment status?": "What is your current employment status?",
+			"#Doctoral degree (PhD or equivalent)": "Doctoral degree (PhD or equivalent)",
+			"#Which option best describes your current work situation?": "Which option best describes your current work situation?",
 			"#Student": "Student",
-			"#Employee (public or private sector)": "Employee (public or private sector)",
-			"#Self-employed / freelance": "Self-employed / freelance",
-			"#Unemployed or seeking employment": "Unemployed or seeking employment",
-			"#Homemaker": "Homemaker",
+			"#Employed, full-time": "Employed, full-time",
+			"#Employed, part-time": "Employed, part-time",
+			"#Occasional or temporary work": "Occasional or temporary work",
+			"#Self-employed / freelance, full-time": "Self-employed / freelance, full-time",
+			"#Self-employed / freelance, part-time": "Self-employed / freelance, part-time",
+			"#Homemaking or unpaid care work": "Homemaking or unpaid care work",
 			"#Retired": "Retired",
+			"#Not employed, looking for work": "Not employed, looking for work",
+			"#Not employed, not looking for work": "Not employed, not looking for work",
+			"#Do you currently work remotely?": "Do you currently work remotely?",
+			"#Yes": "Yes",
+			"#No": "No",
+			"#Occasionally": "Occasionally",
+			"#Do you work flexible hours?": "Do you work flexible hours?",
 			"#Mobility and Physical Activity": "Mobility and Physical Activity",
 			"#General questions about mobility, walking ability, and physical activity in daily life. These help us understand inclusivity and accessibility for different users.": "General questions about mobility, walking ability, and physical activity in daily life. These help us understand inclusivity and accessibility for different users.",
-			"#On average, how far can you comfortably walk without taking a long break? (This helps us understand general mobility and fitness levels.)": "On average, how far can you comfortably walk without taking a long break? (This helps us understand general mobility and fitness levels.)",
-			"#Less than 500 meters (about 5–6 minutes walking)": "Less than 500 meters (about 5–6 minutes walking)",
-			"#500 meters to 1 km (about 10–15 minutes walking)": "500 meters to 1 km (about 10–15 minutes walking)",
-			"#1–2 km (about 15–25 minutes walking)": "1–2 km (about 15–25 minutes walking)",
+			"#On average, how far can you walk without taking a long break? (e.g. more than a few minutes)": "On average, how far can you walk without taking a long break? (e.g. more than a few minutes)",
 			"#More than 2 km": "More than 2 km",
+			"#1-2 km (about 15-25 minutes walking)": "1-2 km (about 15-25 minutes walking)",
+			"#500 meters to 1 km (about 10-15 minutes walking)": "500 meters to 1 km (about 10-15 minutes walking)",
+			"#Less than 500 meters (about 5-6 minutes walking)": "Less than 500 meters (about 5-6 minutes walking)",
 			"#I rarely or never walk for daily trips": "I rarely or never walk for daily trips",
 			"#In a typical week, how often are you physically active (walking, cycling, or other moderate or vigorous activities) for at least 30 minutes per day?": "In a typical week, how often are you physically active (walking, cycling, or other moderate or vigorous activities) for at least 30 minutes per day?",
 			"#Never": "Never",
-			"#1–2 days per week": "1–2 days per week",
-			"#3–4 days per week": "3–4 days per week",
-			"#5–6 days per week": "5–6 days per week",
+			"#1-2 days per week": "1-2 days per week",
+			"#3-4 days per week": "3-4 days per week",
+			"#5-6 days per week": "5-6 days per week",
 			"#Every day": "Every day",
-			"#Do you have any condition or limitation that affects your ability to walk, cycle, or move independently?": "Do you have any condition or limitation that affects your ability to walk, cycle, or move independently?",
-			"#Yes, I have a temporary condition (e.g., injury, recovery period)": "Yes, I have a temporary condition (e.g., injury, recovery period)",
+			"#Do you have any condition or limitation that affects your ability to walk, cycle, ride an e-scooter, or move independently?": "Do you have any condition or limitation that affects your ability to walk, cycle, ride an e-scooter, or move independently?",
 			"#Yes, I have a permanent mobility limitation": "Yes, I have a permanent mobility limitation",
+			"#Yes, I have a temporary condition (e.g., injury, recovery period)": "Yes, I have a temporary condition (e.g., injury, recovery period)",
 			"#No, I can move independently without limitations": "No, I can move independently without limitations",
-			"#How physically fit do you feel compared to other people of your age?": "How physically fit do you feel compared to other people of your age?",
+			"#How physically fit do you feel compared to other people of your age? By “physically fit,” we mean your overall strength, endurance, and general health.": "How physically fit do you feel compared to other people of your age? By “physically fit,” we mean your overall strength, endurance, and general health.",
 			"#Much fitter": "Much fitter",
 			"#Somewhat fitter": "Somewhat fitter",
 			"#About the same": "About the same",
 			"#Somewhat less fit": "Somewhat less fit",
 			"#Much less fit": "Much less fit",
-			"#Cycling Ability and Comfort": "Cycling Ability and Comfort",
-			"#Questions about your experience, comfort, and riding posture while cycling or using an e-bike.": "Questions about your experience, comfort, and riding posture while cycling or using an e-bike.",
-			"#Can you comfortably ride a bicycle (with or without electric assistance)?": "Can you comfortably ride a bicycle (with or without electric assistance)?",
+			"#Bicycle and E-scooter Ability and Comfort": "Bicycle and E-scooter Ability and Comfort",
+			"#Questions about your experience and comfort when cycling (including e-bikes) or riding an e-scooter, and about your riding posture on a bicycle/e-bike.": "Questions about your experience and comfort when cycling (including e-bikes) or riding an e-scooter, and about your riding posture on a bicycle/e-bike.",
+			"#Can you ride a bicycle (with or without electric assistance)?": "Can you ride a bicycle (with or without electric assistance)?",
 			"#Yes, I can ride a bicycle confidently": "Yes, I can ride a bicycle confidently",
-			"#Yes, but I feel uncertain or unsteady": "Yes, but I feel uncertain or unsteady",
+			"#Yes, but I feel unsteady": "Yes, but I feel unsteady",
 			"#I learned to ride but have not done so in many years": "I learned to ride but have not done so in many years",
 			"#No, I have never learned to ride a bicycle": "No, I have never learned to ride a bicycle",
-			"#How confident do you feel about keeping yourself safe while cycling or using an e-scooter in urban traffic?": "How confident do you feel about keeping yourself safe while cycling or using an e-scooter in urban traffic?",
+			"#Can you ride an e-scooter?": "Can you ride an e-scooter?",
+			"#Yes, I can ride an e-scooter confidently": "Yes, I can ride an e-scooter confidently",
+			"#Yes, but I am still learning": "Yes, but I am still learning",
+			"#No, I have never learned to ride an e-scooter": "No, I have never learned to ride an e-scooter",
+			"#How confident do you feel about keeping yourself safe while cycling in urban traffic?": "How confident do you feel about keeping yourself safe while cycling in urban traffic?",
 			"#Not at all confident": "Not at all confident",
 			"#Slightly confident": "Slightly confident",
 			"#Moderately confident": "Moderately confident",
 			"#Very confident": "Very confident",
 			"#Extremely confident": "Extremely confident",
+			"#How confident do you feel about keeping yourself safe while riding an e-scooter in urban traffic?": "How confident do you feel about keeping yourself safe while riding an e-scooter in urban traffic?",
 			"#What is your approximate height?": "What is your approximate height?",
 			"#Shorter than 150 cm": "Shorter than 150 cm",
-			"#150–164 cm": "150–164 cm",
-			"#165–179 cm": "165–179 cm",
-			"#180–194 cm": "180–194 cm",
+			"#150-164 cm": "150-164 cm",
+			"#165-179 cm": "165-179 cm",
+			"#180-194 cm": "180-194 cm",
 			"#195 cm or taller": "195 cm or taller",
-			"#How would you describe your usual riding position or comfort when using a bicycle or e-bike?": "How would you describe your usual riding position or comfort when using a bicycle or e-bike?",
+			"#How would you describe your usual riding position when using a bicycle or e-bike?": "How would you describe your usual riding position when using a bicycle or e-bike?",
 			"#I prefer an upright position (city/comfort bike)": "I prefer an upright position (city/comfort bike)",
 			"#I prefer a slightly leaning position (trekking or e-bike)": "I prefer a slightly leaning position (trekking or e-bike)",
 			"#I prefer a forward or aerodynamic position (road or sport bike)": "I prefer a forward or aerodynamic position (road or sport bike)",
+			"#It depends on my physical condition": "It depends on my physical condition",
 			"#I do not use a bicycle or e-bike": "I do not use a bicycle or e-bike",
 			"#Household Composition": "Household Composition",
 			"#Questions about your household and where you live, to understand the social and spatial context of your movements.": "Questions about your household and where you live, to understand the social and spatial context of your movements.",
 			"#In which Municipio of Rome do you currently live?": "In which Municipio of Rome do you currently live?",
-			"#I live outside Rome": "I live outside Rome",
-			"#I don't know the number of Municipio": "I don't know the number of Municipio",
-			"#How many people, including yourself, live permanently in your household?": "How many people, including yourself, live permanently in your household?",
-			"#Are there children or minors in your household?": "Are there children or minors in your household?",
-			"#Yes": "Yes",
-			"#No": "No",
 			"#1": "1",
 			"#2": "2",
 			"#3": "3",
@@ -495,97 +662,137 @@
 			"#12": "12",
 			"#13": "13",
 			"#14": "14",
-			"#15": "15"
+			"#15": "15",
+			"#I live outside Rome": "I live outside Rome",
+			"#I don’t know the Municipio number": "I don’t know the Municipio number",
+			"#How many adults, including yourself, live together in your household?": "How many adults, including yourself, live together in your household?",
+			"#1 (only myself)": "1 (only myself)",
+			"#5 or more": "5 or more",
+			"#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
+			"#1. theBIKEnet Profile - Tell us about yourself": "1. theBIKEnet Profile - Tell us about yourself",
+			"#I don't work": "I don't work"
 		},
 		"it": {
 			"code": "it",
-			"#1. theBIKEnet Profile - Tell us a bit about yourself": "1. theBIKEnet Profilo - Raccontaci qualcosa di te",
-			"#Welcome to the theBIKEnet Profile Questionnaire": "Benvenutə al questionario theBIKEnet – Profilo",
-			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities — combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This first questionnaire helps us understand <b>who our participants are</b> and how diverse cycling experiences can be. It focuses on <b>your background</b>, <b>everyday mobility</b>, and <b>how comfortable you feel</b> when cycling or using micromobility. Your responses will help us interpret travel patterns and perceptions collected later through the app and other surveys.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about the theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> è un progetto di ricerca pubblica che studia come le persone si spostano in bicicletta nelle città — unendo scienza, tecnologia ed esperienza quotidiana. Il nostro obiettivo è rendere la mobilità urbana più sicura, equa e sostenibile per tutti.<br><br>Questo primo questionario ci aiuta a comprendere <b>chi sono i partecipanti</b> e quanto siano diverse le esperienze ciclistiche. Si concentra sul <b>tuo profilo</b>, sulla <b>mobilità quotidiana</b> e su <b>quanto ti senti a tuo agio</b> nell’uso della bicicletta o della micromobilità. Le tue risposte ci aiuteranno a interpretare i modelli di spostamento e le percezioni raccolte successivamente tramite l’app e altri questionari.<br><br>La partecipazione è completamente volontaria e anonima. Le informazioni fornite saranno utilizzate solo a fini scientifici ed educativi.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Scopri di più sul progetto theBIKEnet</a>",
+			"#theBIKEnet Profile Questionnaire": "Questionario theBIKEnet - Profilo",
+			"#🚲 <b>theBIKEnet</b> is a public research project that explores how people cycle and move through cities - combining science, technology, and everyday experience. Our goal is to make urban mobility safer, fairer, and more sustainable for everyone.<br><br>This first questionnaire helps us understand <b>who our participants are</b> and how diverse experiences can be. It focuses on <b>your background</b>, <b>everyday mobility</b>, and <b>how comfortable you feel</b> when cycling or riding an e-scooter. Your responses will help us interpret travel patterns and perceptions collected later through the app and other surveys.<br><br>Participation is completely voluntary and anonymous. The information you provide will be used only for scientific and educational purposes.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Learn more about theBIKEnet project</a>": "🚲 <b>theBIKEnet</b> è un progetto di ricerca pubblica che studia come le persone si muovono in città, unendo scienza, tecnologia ed esperienza quotidiana. Il nostro obiettivo è rendere la mobilità urbana più sicura, equa e sostenibile per tutte le persone.<br><br>Questo primo questionario ci aiuta a capire <b>chi partecipa al progetto</b> e quanto siano diverse le esperienze di mobilità. Si concentra sul <b>tuo profilo</b>, sulla <b>mobilità quotidiana</b> e su <b>quanto ti senti a tuo agio</b> quando vai in bicicletta o usi un monopattino elettrico. Le tue risposte ci aiuteranno a interpretare i modelli di spostamento e le percezioni raccolte in seguito tramite l’app e altri questionari.<br><br>La partecipazione è completamente volontaria e anonima. Le informazioni fornite saranno utilizzate esclusivamente a fini scientifici ed educativi.<br><br><a href='https://movprojects.com/thebikenet' target='_blank'>Scopri di più sul progetto theBIKEnet</a>",
 			"#Demographic Profile": "Profilo demografico",
-			"#Questions about age, gender, education and work. They help describe who our participants are.": "Domande su età, genere, istruzione e lavoro. Aiutano a descrivere chi sono i nostri partecipanti.",
-			"#What is your age group? (Participation is limited to adults aged 18 or older)": "Qual è la tua fascia d’età? (La partecipazione è limitata ai maggiorenni di 18 anni o più)",
-			"#18–24 years": "18–24 anni",
-			"#25–34 years": "25–34 anni",
-			"#35–44 years": "35–44 anni",
-			"#45–54 years": "45–54 anni",
-			"#55–64 years": "55–64 anni",
-			"#65–74 years": "65–74 anni",
-			"#75 years or older": "75 anni o più",
+			"#Questions about age, gender, education and work. They help describe who our participants are.": "Domande su età, genere, istruzione e lavoro. Aiutano a descrivere chi partecipa al progetto.",
+			"#What is your age group? (Participation is limited to adults aged 18 or older)": "Qual è la tua fascia d’età? (La partecipazione è riservata alle persone di 18 anni o più)",
+			"#18-24 years": "18-24 anni",
+			"#25-34 years": "25-34 anni",
+			"#35-44 years": "35-44 anni",
+			"#45-54 years": "45-54 anni",
+			"#55-64 years": "55-64 anni",
+			"#65-74 years": "65-74 anni",
+			"#75-84 years": "75-84 anni",
+			"#85 years or older": "85 anni o più",
 			"#How do you identify your gender?": "Come identifichi il tuo genere?",
 			"#Woman": "Donna",
 			"#Man": "Uomo",
 			"#What is your highest level of education completed?": "Qual è il più alto livello di istruzione che hai completato?",
-			"#Primary school or none": "Scuola primaria o nessuna istruzione",
+			"#Primary school or no formal education": "Scuola primaria o nessuna istruzione formale",
 			"#Lower secondary school": "Scuola secondaria di primo grado",
 			"#High school diploma": "Diploma di scuola superiore",
-			"#Bachelor’s degree": "Laurea triennale",
+			"#Bachelor’s degree or equivalent": "Laurea triennale o equivalente",
 			"#Master’s degree or equivalent": "Laurea magistrale o equivalente",
-			"#Doctorate or postgraduate degree": "Dottorato o titolo post-laurea",
-			"#What is your current employment status?": "Qual è la tua situazione lavorativa attuale?",
-			"#Student": "Studente",
-			"#Employee (public or private sector)": "Dipendente (pubblico o privato)",
-			"#Self-employed / freelance": "Autonomo / libero professionista",
-			"#Unemployed or seeking employment": "Disoccupato o in cerca di lavoro",
-			"#Homemaker": "Casalingo/a",
-			"#Retired": "Pensionato/a",
+			"#Doctoral degree (PhD or equivalent)": "Dottorato di ricerca (PhD o equivalente)",
+			"#Which option best describes your current work situation?": "Quale opzione descrive meglio la tua situazione lavorativa attuale?",
+			"#Student": "Studente/Studentessa",
+			"#Employed, full-time": "Lavoro dipendente a tempo pieno",
+			"#Employed, part-time": "Lavoro dipendente part-time",
+			"#Occasional or temporary work": "Lavoro occasionale o temporaneo",
+			"#Self-employed / freelance, full-time": "Lavoro autonomo / libera professione a tempo pieno",
+			"#Self-employed / freelance, part-time": "Lavoro autonomo / libera professione part-time",
+			"#Homemaking or unpaid care work": "Lavoro domestico o di cura non retribuito",
+			"#Retired": "In pensione",
+			"#Not employed, looking for work": "Senza lavoro, in cerca di occupazione",
+			"#Not employed, not looking for work": "Senza lavoro, non in cerca di occupazione",
+			"#Do you currently work remotely?": "Attualmente lavori da remoto?",
+			"#Yes": "Sì",
+			"#No": "No",
+			"#Occasionally": "Occasionalmente",
+			"#Do you work flexible hours?": "Hai orari di lavoro flessibili?",
 			"#Mobility and Physical Activity": "Mobilità e attività fisica",
-			"#General questions about mobility, walking ability, and physical activity in daily life. These help us understand inclusivity and accessibility for different users.": "Domande generali sulla mobilità, sulla capacità di camminare e sull’attività fisica nella vita quotidiana. Aiutano a comprendere l’inclusività e l’accessibilità per utenti diversi.",
-			"#On average, how far can you comfortably walk without taking a long break? (This helps us understand general mobility and fitness levels.)": "In media, per quale distanza riesci a camminare comodamente senza fare una lunga pausa? (Ci aiuta a comprendere il tuo livello generale di mobilità e forma fisica.)",
-			"#Less than 500 meters (about 5–6 minutes walking)": "Meno di 500 metri (circa 5–6 minuti a piedi)",
-			"#500 meters to 1 km (about 10–15 minutes walking)": "Da 500 metri a 1 km (circa 10–15 minuti a piedi)",
-			"#1–2 km (about 15–25 minutes walking)": "Da 1 a 2 km (circa 15–25 minuti a piedi)",
+			"#General questions about mobility, walking ability, and physical activity in daily life. These help us understand inclusivity and accessibility for different users.": "Domande generali sulla mobilità, sulla capacità di camminare e sull’attività fisica nella vita quotidiana. Aiutano a comprendere inclusività e accessibilità per persone con esigenze diverse.",
+			"#On average, how far can you walk without taking a long break? (e.g. more than a few minutes)": "In media, per quale distanza riesci a camminare senza fare una lunga pausa (ad esempio più di qualche minuto)?",
 			"#More than 2 km": "Più di 2 km",
+			"#1-2 km (about 15-25 minutes walking)": "Da 1 a 2 km (circa 15-25 minuti a piedi)",
+			"#500 meters to 1 km (about 10-15 minutes walking)": "Da 500 metri a 1 km (circa 10-15 minuti a piedi)",
+			"#Less than 500 meters (about 5-6 minutes walking)": "Meno di 500 metri (circa 5-6 minuti a piedi)",
 			"#I rarely or never walk for daily trips": "Cammino raramente o mai per gli spostamenti quotidiani",
-			"#In a typical week, how often are you physically active (walking, cycling, or other moderate or vigorous activities) for at least 30 minutes per day?": "In una settimana tipo, quanto spesso sei fisicamente attivo (camminando, andando in bici o svolgendo altre attività moderate o intense) per almeno 30 minuti al giorno?",
+			"#In a typical week, how often are you physically active (walking, cycling, or other moderate or vigorous activities) for at least 30 minutes per day?": "In una settimana tipo, quanto spesso svolgi attività fisica per almeno 30 minuti al giorno (camminare, andare in bicicletta o altre attività di intensità moderata o elevata)?",
 			"#Never": "Mai",
-			"#1–2 days per week": "1–2 giorni a settimana",
-			"#3–4 days per week": "3–4 giorni a settimana",
-			"#5–6 days per week": "5–6 giorni a settimana",
+			"#1-2 days per week": "1-2 giorni a settimana",
+			"#3-4 days per week": "3-4 giorni a settimana",
+			"#5-6 days per week": "5-6 giorni a settimana",
 			"#Every day": "Tutti i giorni",
-			"#Do you have any condition or limitation that affects your ability to walk, cycle, or move independently?": "Hai una condizione o limitazione che influisce sulla tua capacità di camminare, andare in bici o muoverti in modo indipendente?",
-			"#Yes, I have a temporary condition (e.g., injury, recovery period)": "Sì, ho una condizione temporanea (ad esempio infortunio o periodo di recupero)",
+			"#Do you have any condition or limitation that affects your ability to walk, cycle, ride an e-scooter, or move independently?": "Hai una condizione o una limitazione che influisce sulla tua capacità di camminare, andare in bicicletta, usare un monopattino elettrico o muoverti in modo indipendente?",
 			"#Yes, I have a permanent mobility limitation": "Sì, ho una limitazione permanente della mobilità",
+			"#Yes, I have a temporary condition (e.g., injury, recovery period)": "Sì, ho una condizione temporanea (ad esempio un infortunio o un periodo di recupero)",
 			"#No, I can move independently without limitations": "No, mi muovo in modo indipendente e senza limitazioni",
-			"#How physically fit do you feel compared to other people of your age?": "Quanto ti senti in forma fisicamente rispetto ad altre persone della tua età?",
+			"#How physically fit do you feel compared to other people of your age? By “physically fit,” we mean your overall strength, endurance, and general health.": "Quanto ti senti in forma fisicamente rispetto ad altre persone della tua età? Per “in forma” intendiamo la tua forza, resistenza e il tuo stato di salute generale.",
 			"#Much fitter": "Molto più in forma",
 			"#Somewhat fitter": "Un po’ più in forma",
-			"#About the same": "Più o meno uguale",
+			"#About the same": "Più o meno allo stesso livello",
 			"#Somewhat less fit": "Un po’ meno in forma",
 			"#Much less fit": "Molto meno in forma",
-			"#Cycling Ability and Comfort": "Abilità e comfort nella guida della bicicletta",
-			"#Questions about your experience, comfort, and riding posture while cycling or using an e-bike.": "Domande sulla tua esperienza, il comfort e la postura di guida in bicicletta o e-bike.",
-			"#Can you comfortably ride a bicycle (with or without electric assistance)?": "Sai andare in bicicletta in modo confortevole (con o senza assistenza elettrica)?",
+			"#Bicycle and E-scooter Ability and Comfort": "Abilità e comfort in bicicletta e in monopattino elettrico",
+			"#Questions about your experience and comfort when cycling (including e-bikes) or riding an e-scooter, and about your riding posture on a bicycle/e-bike.": "Domande sulla tua esperienza e sul comfort quando vai in bicicletta (incluse le e-bike) o usi un monopattino elettrico, e sulla postura di guida su bicicletta/e-bike.",
+			"#Can you ride a bicycle (with or without electric assistance)?": "Sai andare in bicicletta (con o senza assistenza elettrica)?",
 			"#Yes, I can ride a bicycle confidently": "Sì, so andare in bicicletta con sicurezza",
-			"#Yes, but I feel uncertain or unsteady": "Sì, ma mi sento insicuro o instabile",
-			"#I learned to ride but have not done so in many years": "Ho imparato ad andare in bici ma non lo faccio da molti anni",
+			"#Yes, but I feel unsteady": "Sì, ma mi sento instabile",
+			"#I learned to ride but have not done so in many years": "Ho imparato ad andare in bicicletta, ma non lo faccio da molti anni",
 			"#No, I have never learned to ride a bicycle": "No, non ho mai imparato ad andare in bicicletta",
-			"#How confident do you feel about keeping yourself safe while cycling or using an e-scooter in urban traffic?": "Quanto ti senti sicuro di riuscire a proteggerti durante la guida di una bici o di un monopattino elettrico nel traffico urbano?",
-			"#Not at all confident": "Per niente sicuro",
-			"#Slightly confident": "Poco sicuro",
-			"#Moderately confident": "Abbastanza sicuro",
-			"#Very confident": "Molto sicuro",
-			"#Extremely confident": "Estremamente sicuro",
+			"#Can you ride an e-scooter?": "Sai usare un monopattino elettrico?",
+			"#Yes, I can ride an e-scooter confidently": "Sì, so usare un monopattino elettrico con sicurezza",
+			"#Yes, but I am still learning": "Sì, ma sto ancora imparando",
+			"#No, I have never learned to ride an e-scooter": "No, non ho mai imparato a usare un monopattino elettrico",
+			"#How confident do you feel about keeping yourself safe while cycling in urban traffic?": "Quanto ti senti al sicuro mentre vai in bicicletta nel traffico urbano?",
+			"#Not at all confident": "Per niente",
+			"#Slightly confident": "Poco",
+			"#Moderately confident": "Abbastanza",
+			"#Very confident": "Molto",
+			"#Extremely confident": "Moltissimo",
+			"#How confident do you feel about keeping yourself safe while riding an e-scooter in urban traffic?": "Quanto ti senti al sicuro mentre usi un monopattino elettrico nel traffico urbano?",
 			"#What is your approximate height?": "Qual è la tua altezza approssimativa?",
 			"#Shorter than 150 cm": "Inferiore a 150 cm",
-			"#150–164 cm": "150–164 cm",
-			"#165–179 cm": "165–179 cm",
-			"#180–194 cm": "180–194 cm",
+			"#150-164 cm": "150-164 cm",
+			"#165-179 cm": "165-179 cm",
+			"#180-194 cm": "180-194 cm",
 			"#195 cm or taller": "195 cm o più",
-			"#How would you describe your usual riding position or comfort when using a bicycle or e-bike?": "Come descriveresti la tua posizione abituale o il tuo comfort quando usi una bicicletta o una e-bike?",
-			"#I prefer an upright position (city/comfort bike)": "Preferisco una posizione eretta (bici da città o comfort)",
-			"#I prefer a slightly leaning position (trekking or e-bike)": "Preferisco una posizione leggermente inclinata (trekking o e-bike)",
-			"#I prefer a forward or aerodynamic position (road or sport bike)": "Preferisco una posizione più inclinata o aerodinamica (bici da corsa o sportiva)",
+			"#How would you describe your usual riding position when using a bicycle or e-bike?": "Come descriveresti la tua posizione abituale quando usi una bicicletta o una e-bike?",
+			"#I prefer an upright position (city/comfort bike)": "Preferisco una posizione eretta (bicicletta da città/comfort)",
+			"#I prefer a slightly leaning position (trekking or e-bike)": "Preferisco una posizione leggermente inclinata (bicicletta trekking o e-bike)",
+			"#I prefer a forward or aerodynamic position (road or sport bike)": "Preferisco una posizione più inclinata o aerodinamica (bicicletta da corsa o sportiva)",
+			"#It depends on my physical condition": "Dipende dalla mia condizione fisica",
 			"#I do not use a bicycle or e-bike": "Non utilizzo una bicicletta o una e-bike",
 			"#Household Composition": "Composizione del nucleo familiare",
-			"#Questions about your household and where you live, to understand the social and spatial context of your movements.": "Domande sulla tua famiglia e su dove vivi, per comprendere il contesto sociale e spaziale dei tuoi spostamenti.",
+			"#Questions about your household and where you live, to understand the social and spatial context of your movements.": "Domande sul tuo nucleo familiare e su dove vivi, per comprendere il contesto sociale e spaziale dei tuoi spostamenti.",
 			"#In which Municipio of Rome do you currently live?": "In quale Municipio di Roma vivi attualmente?",
+			"#1": "1",
+			"#2": "2",
+			"#3": "3",
+			"#4": "4",
+			"#5": "5",
+			"#6": "6",
+			"#7": "7",
+			"#8": "8",
+			"#9": "9",
+			"#10": "10",
+			"#11": "11",
+			"#12": "12",
+			"#13": "13",
+			"#14": "14",
+			"#15": "15",
 			"#I live outside Rome": "Vivo fuori Roma",
-			"#I don't know the number of Municipio": "Non conosco il numero del Municipio",
-			"#How many people, including yourself, live permanently in your household?": "Quante persone, te incluso, vivono stabilmente nella tua abitazione?",
-			"#Are there children or minors in your household?": "Ci sono bambini o minori nel tuo nucleo familiare?",
-			"#Yes": "Sì",
-			"#No": "No"
+			"#I don’t know the Municipio number": "Non conosco il numero del Municipio",
+			"#How many adults, including yourself, live together in your household?": "Quante persone adulte vivono insieme nel tuo nucleo familiare, incluso te?",
+			"#1 (only myself)": "1 (solo io)",
+			"#5 or more": "5 o più",
+			"#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Vivi attualmente con persone a carico (come bambini, anziani o altre persone che dipendono da te per l’assistenza)?",
+			"#1. theBIKEnet Profile - Tell us about yourself": "1. theBIKEnet - Profilo · Raccontaci di te",
+			"#I don't work": "Non lavoro"
 		}
 	},
 	"id": "theBIKEnet_profile",
