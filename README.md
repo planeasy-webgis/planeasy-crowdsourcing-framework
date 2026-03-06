@@ -20,10 +20,7 @@ The **PlanEasy Crowdsourcing Framework** is a core component of the **PlanEasy W
 a research and development environment for participatory mapping, mobility analysis, and citizen science.
 
 This repository defines the **data architecture**, **privacy model**, and **FAIR-compliant standards**  
-that ensure transparency, interoperability, and reproducibility across PlanEasy-based research projects.
-
-This repository defines the **data architecture**, **privacy model**, and **FAIR-compliant standards**  
-used across PlanEasy-based research projects — providing a transparent and interoperable foundation  
+used across PlanEasy-based research projects - providing a transparent and interoperable foundation  
 for collecting, managing, and sharing crowdsourced information.
 
 > 🧩 This framework does **not** include source code or operational databases.  
