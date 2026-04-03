@@ -1,0 +1,186 @@
+{
+  "questionnaire": {
+    "name": "Pedestrian Crossing Report",
+    "questionnaire_id": "report_pedestrian_crossing",
+    "questionnaire_version": "0.1.0",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html",
+    "sections": [
+      {
+        "title": "Report a pedestrian crossing",
+        "description": "<p>Help us map pedestrian crossings and understand how safe, visible, and accessible they are.</p><p>First select the crossing location, then choose the <b>main type of crossing</b>. After that, tell us which features are present and how safe the crossing feels.</p>",
+        "backgroundColor": "#75ae3d",
+        "questions": [
+          {
+            "text": "Select crossing location",
+            "question_type": "address"
+          },
+          {
+            "text": "What type of pedestrian crossing is this?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": true,
+            "checks_inline": true,
+            "options": [
+              {
+                "text": "Marked at street level"
+              },
+              {
+                "text": "Raised crossing"
+              },
+              {
+                "text": "Signalized crossing"
+              },
+              {
+                "text": "Unmarked crossing"
+              },
+              {
+                "text": "Grade-separated crossing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Crossing features",
+        "description": "<p>Select all the features that are currently present at this crossing.</p>",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Which features are available at this crossing?",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": true,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Pedestrian island"
+              },
+              {
+                "text": "Curb ramps"
+              },
+              {
+                "text": "Tactile paving"
+              },
+              {
+                "text": "Good lighting"
+              },
+              {
+                "text": "Clear sightlines"
+              },
+              {
+                "text": "Speed reduction measures"
+              },
+              {
+                "text": "Road markings clearly visible"
+              },
+              {
+                "text": "Audible signals"
+              },
+              {
+                "text": "Protective barriers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Problems and perceived safety",
+        "description": "<p>Tell us whether there are any problems and how safe this crossing feels overall.</p>",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Are there any problems at this crossing?",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": true,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Cars often block visibility"
+              },
+              {
+                "text": "Poor visibility"
+              },
+              {
+                "text": "Poor lighting"
+              },
+              {
+                "text": "Worn road markings"
+              },
+              {
+                "text": "High traffic speed"
+              },
+              {
+                "text": "Difficult accessibility"
+              },
+              {
+                "text": "Dangerous traffic behaviour"
+              },
+              {
+                "text": "Poor maintenance"
+              },
+              {
+                "text": "Flooding or water on the road"
+              }
+            ]
+          },
+          {
+            "text": "How safe does this crossing feel?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": true,
+            "options": [
+              {
+                "text": "1 - Very unsafe"
+              },
+              {
+                "text": "2 - Unsafe"
+              },
+              {
+                "text": "3 - Neutral"
+              },
+              {
+                "text": "4 - Safe"
+              },
+              {
+                "text": "5 - Very safe"
+              }
+            ]
+          },
+          {
+            "text": "Additional notes (optional)",
+            "question_type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "en": {
+      "code": "en"
+    },
+    "it": {
+      "#Report a pedestrian crossing": "Segnala un attraversamento pedonale",
+      "#Select crossing location": "Seleziona la posizione dell'attraversamento",
+      "#What type of pedestrian crossing is this?": "Che tipo di attraversamento pedonale è?",
+      "#Which features are available at this crossing?": "Quali caratteristiche sono presenti in questo attraversamento?",
+      "#Are there any problems at this crossing?": "Ci sono problemi in questo attraversamento?",
+      "#How safe does this crossing feel?": "Quanto ti sembra sicuro questo attraversamento?",
+      "#Additional notes (optional)": "Note aggiuntive (facoltativo)"
+    }
+  },
+  "id": "report_pedestrian_crossing",
+  "db_set": "questionnaires",
+  "default_language": "en"
+}

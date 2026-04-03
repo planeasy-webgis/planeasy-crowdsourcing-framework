@@ -1,0 +1,399 @@
+{
+  "questionnaire": {
+    "name": "Service Report",
+    "questionnaire_id": "report_service",
+    "questionnaire_version": "0.1.0",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html",
+    "sections": [
+      {
+        "title": "Report a place",
+        "description": "<p>Help us map the places and services available in your neighbourhood.</p><p>You can report shops, public services, community places, green spaces, and other places that people use in everyday life.</p><p><b>First select the type of place</b>, then choose its location, and finally <b>confirm what people can do there</b>. This helps us connect each place to the right opportunities for different user profiles.</p>",
+        "backgroundColor": "#75ae3d",
+        "questions": [
+          {
+            "text": "What kind of place are you reporting?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": true,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "General doctor"
+              },
+              {
+                "text": "Medical clinic"
+              },
+              {
+                "text": "Specialist doctor"
+              },
+              {
+                "text": "Hospital"
+              },
+              {
+                "text": "Dentist"
+              },
+              {
+                "text": "Pharmacy"
+              },
+              {
+                "text": "Veterinarian"
+              },
+              {
+                "text": "Childcare / daycare"
+              },
+              {
+                "text": "School"
+              },
+              {
+                "text": "University / college"
+              },
+              {
+                "text": "Training centre"
+              },
+              {
+                "text": "Library"
+              },
+              {
+                "text": "Supermarket"
+              },
+              {
+                "text": "Grocery store"
+              },
+              {
+                "text": "Bakery"
+              },
+              {
+                "text": "Market stall"
+              },
+              {
+                "text": "Restaurant"
+              },
+              {
+                "text": "Café / bar"
+              },
+              {
+                "text": "Workplace"
+              },
+              {
+                "text": "Coworking space"
+              },
+              {
+                "text": "Bank"
+              },
+              {
+                "text": "Post office"
+              },
+              {
+                "text": "Municipality office"
+              },
+              {
+                "text": "Community centre"
+              },
+              {
+                "text": "Youth centre"
+              },
+              {
+                "text": "Senior centre"
+              },
+              {
+                "text": "Cultural centre"
+              },
+              {
+                "text": "Cinema"
+              },
+              {
+                "text": "Theatre"
+              },
+              {
+                "text": "Museum"
+              },
+              {
+                "text": "Park"
+              },
+              {
+                "text": "Playground"
+              },
+              {
+                "text": "Sports facility"
+              },
+              {
+                "text": "Hairdresser / beauty"
+              },
+              {
+                "text": "Repair shop"
+              },
+              {
+                "text": "Place of worship"
+              },
+              {
+                "text": "Phone / telecom shop"
+              },
+              {
+                "text": "Print / copy shop"
+              },
+              {
+                "text": "Laundromat"
+              },
+              {
+                "text": "Hardware / household store"
+              },
+              {
+                "text": "Household services office"
+              }
+            ]
+          },
+          {
+            "text": "Select the place location",
+            "question_type": "address"
+          }
+        ]
+      },
+      {
+        "title": "What can people do here?",
+        "description": "<p>Select <b>all the opportunities</b> that this place offers.</p><p>These options are used to build filters for different mobility and user profiles. A single place can support more than one opportunity.</p>",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "What can people do here? (select all that apply)",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": true,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "General healthcare"
+              },
+              {
+                "text": "Specialist healthcare"
+              },
+              {
+                "text": "Dental care"
+              },
+              {
+                "text": "Women's health"
+              },
+              {
+                "text": "Child healthcare"
+              },
+              {
+                "text": "Medicines & pharmacy"
+              },
+              {
+                "text": "Animal care"
+              },
+              {
+                "text": "Childcare"
+              },
+              {
+                "text": "School education"
+              },
+              {
+                "text": "Higher education & training"
+              },
+              {
+                "text": "Learning & study"
+              },
+              {
+                "text": "Daily shopping"
+              },
+              {
+                "text": "Food & meals"
+              },
+              {
+                "text": "Employment"
+              },
+              {
+                "text": "Financial services"
+              },
+              {
+                "text": "Civic & administrative services"
+              },
+              {
+                "text": "Postal & parcel services"
+              },
+              {
+                "text": "Social interaction"
+              },
+              {
+                "text": "Youth activities"
+              },
+              {
+                "text": "Older adult services"
+              },
+              {
+                "text": "Cultural participation"
+              },
+              {
+                "text": "Relaxation & green spaces"
+              },
+              {
+                "text": "Play"
+              },
+              {
+                "text": "Sport & physical activity"
+              },
+              {
+                "text": "Personal care"
+              },
+              {
+                "text": "Everyday repair services"
+              },
+              {
+                "text": "Religious & spiritual life"
+              },
+              {
+                "text": "Digital services"
+              },
+              {
+                "text": "Printing & practical admin support"
+              },
+              {
+                "text": "Laundry"
+              },
+              {
+                "text": "Household goods"
+              },
+              {
+                "text": "Home maintenance"
+              },
+              {
+                "text": "Cleaning & home help"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Accessibility and quality",
+        "description": "<p>Tell us whether the place is easy to use and how good it feels overall.</p>",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Is this place accessible to everyone?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": true,
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "Partially"
+              },
+              {
+                "text": "No"
+              }
+            ]
+          },
+          {
+            "text": "How would you rate this place overall?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": true,
+            "options": [
+              {
+                "text": "1 - Very poor"
+              },
+              {
+                "text": "2 - Poor"
+              },
+              {
+                "text": "3 - Average"
+              },
+              {
+                "text": "4 - Good"
+              },
+              {
+                "text": "5 - Very good"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Issues and notes",
+        "description": "<p>You can optionally report issues, add a note, or upload a photo.</p>",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Are there any issues with this place?",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": true,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Limited accessibility"
+              },
+              {
+                "text": "Limited opening hours"
+              },
+              {
+                "text": "Poor maintenance"
+              },
+              {
+                "text": "Unsafe surroundings"
+              },
+              {
+                "text": "Too crowded"
+              },
+              {
+                "text": "Difficult to reach"
+              },
+              {
+                "text": "Poor lighting"
+              },
+              {
+                "text": "Noise"
+              }
+            ]
+          },
+          {
+            "text": "Name of the place (optional)",
+            "question_type": "text"
+          },
+          {
+            "text": "Additional notes (optional)",
+            "question_type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "en": {
+      "code": "en"
+    },
+    "it": {
+      "#Report a place": "Segnala un luogo",
+      "#What kind of place are you reporting?": "Che tipo di luogo stai segnalando?",
+      "#Select the place location": "Seleziona la posizione del luogo",
+      "#What can people do here?": "Cosa si può fare qui?",
+      "#What can people do here? (select all that apply)": "Cosa si può fare qui? (seleziona tutte le opzioni corrette)",
+      "#Is this place accessible to everyone?": "Questo luogo è accessibile a tutti?",
+      "#How would you rate this place overall?": "Come valuteresti complessivamente questo luogo?",
+      "#Are there any issues with this place?": "Ci sono problemi legati a questo luogo?",
+      "#Name of the place (optional)": "Nome del luogo (facoltativo)",
+      "#Additional notes (optional)": "Note aggiuntive (facoltativo)",
+      "#Yes": "Sì",
+      "#Partially": "Parzialmente",
+      "#No": "No"
+    }
+  },
+  "id": "report_service",
+  "db_set": "questionnaires",
+  "default_language": "en"
+}
