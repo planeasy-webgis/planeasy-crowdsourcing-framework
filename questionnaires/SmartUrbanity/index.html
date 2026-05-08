@@ -140,10 +140,8 @@
     <script>
       const RAW_BASE_URL =
         "https://raw.githubusercontent.com/planeasy-webgis/planeasy-crowdsourcing-framework/main/questionnaires/SmartUrbanity";
-      const GITHUB_BASE_URL =
-        "https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework/blob/main/questionnaires/SmartUrbanity";
       const FORM_BASE_URL = "https://smarturbanity-surveys.wemolab.eu/";
-      const IS_LOCAL_PREVIEW = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+      const IS_FILE_PREVIEW = window.location.protocol === "file:";
 
       function filenameToId(filename) {
         return filename.split(/[\\/]/).pop().replace(/\.json$/i, "");
@@ -168,23 +166,25 @@
       }
 
       async function fetchIndex() {
-        if (IS_LOCAL_PREVIEW) {
-          try {
-            return await fetchJson("./index.json", "Cannot load local SmartUrbanity questionnaire index");
-          } catch (err) {
-            console.warn("Local questionnaire index unavailable, trying GitHub raw URL.", err);
+        try {
+          return await fetchJson("./index.json", "Cannot load local SmartUrbanity questionnaire index");
+        } catch (err) {
+          if (IS_FILE_PREVIEW) {
+            throw new Error("Direct file preview cannot load local JSON. Start a local static server from the repository root.");
           }
+          console.warn("Local questionnaire index unavailable, trying GitHub raw URL.", err);
         }
         return fetchJson(`${RAW_BASE_URL}/index.json`, "Cannot load SmartUrbanity questionnaire index");
       }
 
       async function fetchQuestionnaire(filename) {
-        if (IS_LOCAL_PREVIEW) {
-          try {
-            return await fetchJson(`./${encodePath(filename)}`, `Cannot load local ${filename}`);
-          } catch (err) {
-            console.warn(`Local questionnaire ${filename} unavailable, trying GitHub raw URL.`, err);
+        try {
+          return await fetchJson(`./${encodePath(filename)}`, `Cannot load local ${filename}`);
+        } catch (err) {
+          if (IS_FILE_PREVIEW) {
+            throw new Error(`Direct file preview cannot load local JSON file: ${filename}`);
           }
+          console.warn(`Local questionnaire ${filename} unavailable, trying GitHub raw URL.`, err);
         }
         return fetchJson(`${RAW_BASE_URL}/${encodePath(filename)}`, `Cannot load ${filename}`);
       }
@@ -239,7 +239,7 @@
         const descIt = hasDefinition
           ? localize(descEn, languageMap)
           : "Definizione strutturata del questionario.";
-        const viewLink = `${GITHUB_BASE_URL}/${encodePath(filename)}`;
+        const viewLink = IS_FILE_PREVIEW ? encodePath(filename) : `./${encodePath(filename)}`;
 
         const card = document.createElement("div");
         card.className = "q-card";
@@ -341,8 +341,12 @@
           console.error(err);
           renderMessage(
             grid,
-            "Errore nel caricamento dell'indice dei questionari SmartUrbanity.",
-            "Error loading the SmartUrbanity questionnaire index."
+            IS_FILE_PREVIEW
+              ? "Per l'anteprima locale avvia un server dalla root del repository, poi apri /questionnaires/SmartUrbanity/index.html."
+              : "Errore nel caricamento dell'indice dei questionari SmartUrbanity.",
+            IS_FILE_PREVIEW
+              ? "For local preview, start a server from the repository root, then open /questionnaires/SmartUrbanity/index.html."
+              : "Error loading the SmartUrbanity questionnaire index."
           );
         }
       }
