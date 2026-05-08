@@ -53,6 +53,8 @@
         btn.textContent = l.toUpperCase();
         btn.setAttribute("aria-label", `Change language. Current: ${l === "en" ? "English" : "Italiano"}`);
       }
+
+      window.dispatchEvent(new CustomEvent("smarturbanity:langchange", { detail: { lang: l } }));
     }
 
     window.setLang = showLang;
