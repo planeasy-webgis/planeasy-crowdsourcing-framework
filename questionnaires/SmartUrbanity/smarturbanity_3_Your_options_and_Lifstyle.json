@@ -1,0 +1,217 @@
+{
+  "questionnaire": {
+    "name": "SmartUrbanity Demographic Info",
+    "questionnaire_id": "smarturbanity_demographic_info",
+    "questionnaire_version": "0.0.1",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+    "title": "Your options & Lifstyle",
+    "sections": [
+      {
+        "title": "Welcome to the SmartUrbanity Questionnaire",
+        "description": "SmartUrbanity is a European research and innovation project launched in 2025 to support the transition toward more sustainable, accessible, and people-centered cities. By promoting active travel, shared mobility, and integrated public transport, the project aims to reduce car dependency and emissions while improving access for all.\n\n This questionnaire helps us understand your background, daily travel habits, and comfort with different mobility options. Your responses will guide our analysis of mobility patterns collected later through digital tools and participatory activities. Participation is voluntary and anonymous. Your information will be used solely for scientific and educational purposes within the SmartUrbanity project.\n\n https://www.smarturbanity.com/about",
+        "backgroundColor": "#d3d3d3",
+        "questions": []
+      },
+      {
+        "title": "Physical Capability",
+        "description": "Questions about your physical capacity for active travel.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "On average, how far can you walk without taking a long break (e.g., more than a few minutes)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I rarely or never walk for daily commuting"
+              },
+              {
+                "text": "Less than 500 meters (about 5-6 minutes walk)"
+              },
+              {
+                "text": "From 500 meters to 1 km (about 10-15 minutes on foot)"
+              },
+              {
+                "text": "1 to 2 km (about 15-25 minutes on foot)"
+              },
+              {
+                "text": "More than 2 km"
+              }
+            ]
+          },
+          {
+            "text": "How physically active are you in a typical week? (Including walking for transport, cycling, or dedicated exercise)",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Physically Restricted"
+              },
+              {
+                "text": "Inactive (0 days)"
+              },
+              {
+                "text": "Occasionally Active (1 day)"
+              },
+              {
+                "text": "Moderately Active (2–3 days)"
+              },
+              {
+                "text": "Highly Active (4–5 days)"
+              },
+              {
+                "text": "Daily / Near Daily (6–7 days)"
+              }
+            ]
+          },
+          {
+            "text": "How would you describe your current level of physical fitness and stamina (strength, endurance, and overall health)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Significant Limitations"
+              },
+              {
+                "text": "Low Capability"
+              },
+              {
+                "text": "Fair Capability"
+              },
+              {
+                "text": "Good Capability"
+              },
+              {
+                "text": "High Capability"
+              }
+            ]
+          },
+          {
+            "text": "What is your approximate height?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Less than 150 cm"
+              },
+              {
+                "text": "150-164 cm"
+              },
+              {
+                "text": "165-179 cm"
+              },
+              {
+                "text": "180-194 cm"
+              },
+              {
+                "text": "195 cm or more"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preferences & Satisfaction",
+        "description": "Questions about what matters to you when choosing how to travel.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Overall, how satisfied are you with your current primary mode of transport?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very dissatisfied"
+              },
+              {
+                "text": "Dissatisfied"
+              },
+              {
+                "text": "Neither satisfied nor dissatisfied"
+              },
+              {
+                "text": "Satisfied"
+              },
+              {
+                "text": "Very satisfied"
+              }
+            ]
+          },
+          {
+            "text": "Which of the followings dissatisfies you the most with your current primary mode of transport?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Travel Time/Speed"
+              },
+              {
+                "text": "Cost/Value for money"
+              },
+              {
+                "text": "Reliability/Predictability"
+              },
+              {
+                "text": "Comfort and Safety"
+              }
+            ]
+          },
+          {
+            "text": "When deciding your mode of travel,which of the following factors matter to you the most?",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Financial Cost"
+              },
+              {
+                "text": "Physical Comfort and effort"
+              },
+              {
+                "text": "Mental Well-being"
+              },
+              {
+                "text": "Environmental Impact"
+              },
+              {
+                "text": "Reliability/Predictibility"
+              },
+              {
+                "text": "Social status"
+              },
+              {
+                "text": "Personal safety and security"
+              },
+              {
+                "text": "Time Efficiency"
+              }
+            ]
+          },
+          {
+            "text": "Which of these factors would most encourage you to use sustainable modes of transport (walking, cycling, or public transport) more often? (Select all that apply)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Better Connections"
+              },
+              {
+                "text": "Separation from Traffic"
+              },
+              {
+                "text": "A More Pleasant Environment"
+              },
+              {
+                "text": "Reliable Timing"
+              },
+              {
+                "text": "Cheaper Travel"
+              },
+              {
+                "text": "Climate-Resilient Design"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

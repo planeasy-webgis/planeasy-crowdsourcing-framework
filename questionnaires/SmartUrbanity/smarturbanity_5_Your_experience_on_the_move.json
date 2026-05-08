@@ -1,0 +1,1124 @@
+{
+  "questionnaire": {
+    "name": "SmartUrbanity Demographic Info",
+    "questionnaire_id": "smarturbanity_demographic_info",
+    "questionnaire_version": "0.0.1",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+    "title": "Your experience on the move",
+    "sections": [
+      {
+        "title": "Welcome to the SmartUrbanity Questionnaire",
+        "description": "SmartUrbanity is a European research and innovation project launched in 2025 to support the transition toward more sustainable, accessible, and people-centered cities. By promoting active travel, shared mobility, and integrated public transport, the project aims to reduce car dependency and emissions while improving access for all.\n\n This questionnaire helps us understand your background, daily travel habits, and comfort with different mobility options. Your responses will guide our analysis of mobility patterns collected later through digital tools and participatory activities. Participation is voluntary and anonymous. Your information will be used solely for scientific and educational purposes within the SmartUrbanity project.\n\n https://www.smarturbanity.com/about",
+        "backgroundColor": "#d3d3d3",
+        "questions": []
+      },
+      {
+        "title": "Emotional experience",
+        "description": "Questions about how you feel during and after your typical journey.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How would you describe your emotional state during a typical journey on a route?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very stressed"
+              },
+              {
+                "text": "Somewhat stressed"
+              },
+              {
+                "text": "Neutral"
+              },
+              {
+                "text": "Somewhat relaxed"
+              },
+              {
+                "text": "Very relaxed"
+              }
+            ]
+          },
+          {
+            "text": "Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Much shorter than expected"
+              },
+              {
+                "text": "Slightly shorter than expected"
+              },
+              {
+                "text": "Exactly as expected"
+              },
+              {
+                "text": "Slightly longer than expected"
+              },
+              {
+                "text": "Much longer than expected"
+              }
+            ]
+          },
+          {
+            "text": "How would you describe your level of tiredness or fatigue after completing your typical journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Exhausted"
+              },
+              {
+                "text": "Very tired"
+              },
+              {
+                "text": "Moderately tired"
+              },
+              {
+                "text": "Slightly tired"
+              },
+              {
+                "text": "Not at all tired"
+              }
+            ]
+          },
+          {
+            "text": "What is the main cause of your tiredness after your regular trip?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Physical effort"
+              },
+              {
+                "text": "Mental stress"
+              },
+              {
+                "text": "Environmental discomfort"
+              },
+              {
+                "text": "Waiting and standing"
+              }
+            ]
+          },
+          {
+            "text": "How often do you experience feelings of anxiety, insecurity, or overwhelm during your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Never"
+              },
+              {
+                "text": "Rarely"
+              },
+              {
+                "text": "Sometimes"
+              },
+              {
+                "text": "Frequently"
+              },
+              {
+                "text": "Constantly"
+              }
+            ]
+          },
+          {
+            "text": "What specifically makes you feel anxious or overwhelmed? (Select all that apply)",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The volume of traffic"
+              },
+              {
+                "text": "The behavior of others"
+              },
+              {
+                "text": "The complexity of the route"
+              },
+              {
+                "text": "Sensory factors"
+              },
+              {
+                "text": "Time pressure"
+              },
+              {
+                "text": "Isolation"
+              }
+            ]
+          },
+          {
+            "text": "Compared to other ways you could travel (eg, walking vs. driving), how would you rate the total effort required for your current way of travel?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "My current mode is significantly easier and more relaxing than any alternative"
+              },
+              {
+                "text": "This is a bit easier than other ways I could travel"
+              },
+              {
+                "text": "Regardless of the mode the effort feels roughly equal"
+              },
+              {
+                "text": "This takes a bit more out of me than other options would"
+              },
+              {
+                "text": "This is far more taxing (physically or mentally) than other travel methods"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          },
+          {
+            "text": "How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I actively choose routes with lively environments because they make me feel safer and more comfortable"
+              },
+              {
+                "text": "Liveliness improves my experience and mood, but does not usually affect my route choice"
+              },
+              {
+                "text": "I notice the level of activity, but it does not affect my experience or decisions"
+              },
+              {
+                "text": "Too much activity (crowds, noise) makes the journey stressful or harder to navigate"
+              },
+              {
+                "text": "Too little activity (empty or deserted areas) makes me feel uncomfortable or unsafe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Walking/Cycling",
+        "description": "Questions about the conditions you encounter on foot or by bike.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Which of the following physical barriers do you encounter on your route? (Select all that apply)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Steps or steep curbs without ramps"
+              },
+              {
+                "text": "Paths too narrow for a wheelchair stroller or two people to pass"
+              },
+              {
+                "text": "Uneven paving holes and chunks, or soft ground (grass/gravel)"
+              },
+              {
+                "text": "Parked cars trash bins or construction signs blocking the path"
+              },
+              {
+                "text": "Overhanging branches or bushes narrowing the usable space"
+              },
+              {
+                "text": "None"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "How does the quality of signs and maps on your route affect your confidence during the journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I never look at the signs or maps; their quality has no effect on my navigation"
+              },
+              {
+                "text": "I find the signs helpful if I need them but I rarely feel lost"
+              },
+              {
+                "text": "I know my way but I rely on the signs to confirm I'm on the right track or to find exits"
+              },
+              {
+                "text": "I often have to stop and double-check where I am because the signs are unclear or missing"
+              },
+              {
+                "text": "The physical signs are so poor that I cannot travel without using a GPS or phone app"
+              }
+            ]
+          },
+          {
+            "text": "How do temporary obstacles (eg, roadworks, bins, or parked scooters) typically change your behavior?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I rarely encounter obstacles that require me to change my path"
+              },
+              {
+                "text": "I have to navigate around them occasionally but it doesn't significantly impact my flow"
+              },
+              {
+                "text": "I can get past but the constant stop-and-start makes the journey frustrating and slow"
+              },
+              {
+                "text": "I often have to step into the road/traffic to get around obstacles on the sidewalk"
+              },
+              {
+                "text": "I frequently have to turn back or find a completely different street because the path is blocked"
+              }
+            ]
+          },
+          {
+            "text": "To what extent does the steepness (slopes) of your route affect your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not at all"
+              },
+              {
+                "text": "Slightly"
+              },
+              {
+                "text": "Moderately"
+              },
+              {
+                "text": "Significantly"
+              },
+              {
+                "text": "Extremely"
+              }
+            ]
+          },
+          {
+            "text": "If you encounter poor pavement (holes, chunks, or uneven surfaces), how does it typically affect your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I don't really mind the surface quality; it doesn't affect my trip at all"
+              },
+              {
+                "text": "I notice the bad surface but it doesn't significantly change my behavior or comfort"
+              },
+              {
+                "text": "I continue on the same path but it makes me feel uncomfortable stressed or tired"
+              },
+              {
+                "text": "I will swerve or switch to the other side of the road to avoid bad sections"
+              },
+              {
+                "text": "I completely avoid streets with bad pavement even if the trip takes longer"
+              }
+            ]
+          },
+          {
+            "text": "How does the quality of street lighting affect your choice of route or your decision to travel after dark?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The lighting levels have no influence on my travel choices or comfort"
+              },
+              {
+                "text": "I notice the lighting is poor but it doesn't significantly change how or when I travel"
+              },
+              {
+                "text": "I still use the route but I move faster, avoid certain spots or stay on high alert"
+              },
+              {
+                "text": "I take a much longer alternative route specifically to stay in better-lit areas"
+              },
+              {
+                "text": "I do not travel at all after dark because of the lighting"
+              }
+            ]
+          },
+          {
+            "text": "How does the presence (or lack) of green spaces (trees, parks, gardens) affect your experience or choice of this route?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The presence or absence of nature does not influence my route choice or how I feel during the trip"
+              },
+              {
+                "text": "The lack of greenery makes the trip feel gray hotter or more stressful, but I have no other choice"
+              },
+              {
+                "text": "I enjoy the green spaces but I would still take this route even if they weren't there"
+              },
+              {
+                "text": "The greenery is essential to me because it provides necessary shade or protection from wind and noise"
+              },
+              {
+                "text": "I specifically choose this route because the greenery makes the journey pleasant and restorative"
+              }
+            ]
+          },
+          {
+            "text": "How does the availability (or lack) of benches and rest areas affect your ability to complete your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The availability of seating has no influence on my travel choices or my physical stamina"
+              },
+              {
+                "text": "I notice the lack of seating makes the trip less comfortable but it doesn't change my route or my ability to finish"
+              },
+              {
+                "text": "I don't plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items"
+              },
+              {
+                "text": "I specifically choose routes with seating so I can take breaks even if it's not the most direct path"
+              },
+              {
+                "text": "I rely on these rest areas to make my journey possible; without them I could not travel this far"
+              }
+            ]
+          },
+          {
+            "text": "How do the traffic levels and congestion on your route typically affect your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The route is generally quiet or the traffic flow has no influence on my travel experience"
+              },
+              {
+                "text": "I notice the traffic but I feel physically separated/safe from it so it doesn't really bother me"
+              },
+              {
+                "text": "I factor the congestion into my schedule; it's frustrating but it doesn't change my route or my stress levels much"
+              },
+              {
+                "text": "I follow my route but the traffic makes me feel constantly anxious overwhelmed or unsafe"
+              },
+              {
+                "text": "I choose much longer routes or change my travel times specifically to avoid heavy traffic"
+              }
+            ]
+          },
+          {
+            "text": "Which categories of road users most negatively impact your sense of safety? (Select up to 3 options)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "People driving cars"
+              },
+              {
+                "text": "People driving motorcycles or scooters"
+              },
+              {
+                "text": "People driving buses"
+              },
+              {
+                "text": "Delivery people"
+              },
+              {
+                "text": "People driving taxis"
+              },
+              {
+                "text": "People on bicycles"
+              },
+              {
+                "text": "People on electric scooters"
+              },
+              {
+                "text": "People on foot"
+              },
+              {
+                "text": "None (no category of road users negatively affects my feeling of safety)"
+              },
+              {
+                "text": "Not applicable (I don't use a bicycle)"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "How safe do you feel sharing the path with different transport modes (eg, cyclists, scooters, or cars)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not safe at all"
+              },
+              {
+                "text": "Feel unsafe"
+              },
+              {
+                "text": "Neither safe nor unsafe"
+              },
+              {
+                "text": "Feel Safe"
+              },
+              {
+                "text": "Completely safe"
+              }
+            ]
+          },
+          {
+            "text": "How confident are you riding a bicycle in your city?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not confident at all"
+              },
+              {
+                "text": "Not very confident"
+              },
+              {
+                "text": "Indifferent"
+              },
+              {
+                "text": "Somewhat confident"
+              },
+              {
+                "text": "Very confident"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          },
+          {
+            "text": "How confident are you riding e-scooters in your city?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not confident at all"
+              },
+              {
+                "text": "Not very confident"
+              },
+              {
+                "text": "Indifferent"
+              },
+              {
+                "text": "Somewhat confident"
+              },
+              {
+                "text": "Very confident"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Public transport",
+        "description": "Questions about your experience using public transport.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How accessible and easy to use are the public transport stops (bus, tram, or train) on your route?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Inaccessible"
+              },
+              {
+                "text": "Difficult to access"
+              },
+              {
+                "text": "Partially accessible"
+              },
+              {
+                "text": "Mostly accessible"
+              },
+              {
+                "text": "Completely accessible"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          },
+          {
+            "text": "Which specific barriers did you face while using public transport stops?",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Physical Steps"
+              },
+              {
+                "text": "Level Boarding"
+              },
+              {
+                "text": "Narrow Spaces"
+              },
+              {
+                "text": "Maintenance Issues"
+              },
+              {
+                "text": "None"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "How does the presence of other people make you feel during your trip?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very unsafe or threatened"
+              },
+              {
+                "text": "Uneasy or anxious"
+              },
+              {
+                "text": "Neutral / Indifferent"
+              },
+              {
+                "text": "Mostly comfortable"
+              },
+              {
+                "text": "Very safe and comfortable"
+              }
+            ]
+          },
+          {
+            "text": "How does the availability of working lifts, ramps, and step-free paths affect your ability to reach the transport stop?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I cannot use this stop because there is no step-free route available"
+              },
+              {
+                "text": "I can only reach the stop if I have someone to help me navigate the barriers"
+              },
+              {
+                "text": "I can reach the stop but navigating the ramps or detours is physically exhausting"
+              },
+              {
+                "text": "I can reach the stop but only if the lifts/escalators are working; if they are broken I cannot travel"
+              },
+              {
+                "text": "I can reach the stop easily without any physical help or extra effort."
+              }
+            ]
+          },
+          {
+            "text": "How does the quality of the crossings (eg, lights, bridges, or tunnels) near the stop influence your sense of safety?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I avoid using this stop because the crossings are too dangerous or intimidating"
+              },
+              {
+                "text": "I feel in danger every time I have to cross to reach the stop"
+              },
+              {
+                "text": "I take a much longer route to find a crossing that feels safer (eg. a bridge or a light)"
+              },
+              {
+                "text": "I use the crossings but I feel I have to be extremely careful because drivers don't always stop or the signals are too short"
+              },
+              {
+                "text": "I feel completely safe and prioritized by the traffic signals and crossing design"
+              }
+            ]
+          },
+          {
+            "text": "How does the schedule and frequency of public transport on your route affect your ability to rely on it?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The service hours or frequency do not meet my basic travel needs at all"
+              },
+              {
+                "text": "The service is so infrequent or stops so early that I am afraid of being stranded"
+              },
+              {
+                "text": "I can only use it for specific trips (eg. work) because it doesn't run often enough for errands or social visits"
+              },
+              {
+                "text": "The service is reliable but I must plan my entire day around the specific arrival times"
+              },
+              {
+                "text": "The service is frequent enough that I don't need to check a timetable"
+              }
+            ]
+          },
+          {
+            "text": "How does using public transport align with your personal identity or social comfort?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I feel a strong sense of social discomfort or shame using this service, as it does not reflect the social environment I belong in"
+              },
+              {
+                "text": "I feel that using this mode of transport is a compromise to my social standing and I would prefer to avoid it if possible"
+              },
+              {
+                "text": "I occasionally feel out of place or self-conscious when using this service in certain social situations"
+              },
+              {
+                "text": "I don't feel that my choice of transport has any connection to my social standing or identity"
+              },
+              {
+                "text": "I feel that this mode of transport reflects my values and I am comfortable being seen using it"
+              }
+            ]
+          },
+          {
+            "text": "When delays or service gaps occur, how do they typically affect your daily schedule or mental state?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I have stopped relying on public transport for important trips because the risk of delay is too high"
+              },
+              {
+                "text": "The unpredictability of the service causes me significant stress or \"arrival anxiety\" throughout my trip"
+              },
+              {
+                "text": "Delays frequently cause me to be late for work, appointments or social commitments"
+              },
+              {
+                "text": "I have to leave 10–20 minutes earlier than necessary just to \"buffer\" against frequent small delays"
+              },
+              {
+                "text": "Delays are rare or so short that they never interfere with my plans"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Car",
+        "description": "Questions about your relationship with car travel and alternatives.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "What would motivate you to use sustainable travel (walk, bike, shared mobility) more often?",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Lower cost"
+              },
+              {
+                "text": "Safer routes"
+              },
+              {
+                "text": "More bike/e-scooter lanes"
+              },
+              {
+                "text": "Better weather"
+              },
+              {
+                "text": "Shorter travel time"
+              },
+              {
+                "text": "Caring about the environment"
+              },
+              {
+                "text": "Feel confident using it"
+              },
+              {
+                "text": "Enjoyable trips"
+              },
+              {
+                "text": "I am not interested"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "If you were given free access to a shared bicycle or e-scooter, would you use it?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              },
+              {
+                "text": "Maybe"
+              }
+            ]
+          },
+          {
+            "text": "When delays occur (e.g., congestion, accidents), how do they affect your daily schedule or stress levels?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No impact"
+              },
+              {
+                "text": "Slight impact"
+              },
+              {
+                "text": "Moderate impact"
+              },
+              {
+                "text": "Significant impact"
+              },
+              {
+                "text": "Severe impact"
+              }
+            ]
+          },
+          {
+            "text": "How do congestion levels influence your route choice or departure time?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not at all"
+              },
+              {
+                "text": "Slightly (occasionally adjust route or time)"
+              },
+              {
+                "text": "Moderately (sometimes change route or departure time)"
+              },
+              {
+                "text": "Strongly (frequently change route or time)"
+              },
+              {
+                "text": "Always (plan trips specifically to avoid congestion)"
+              }
+            ]
+          },
+          {
+            "text": "How would increased driving-related costs (fuel, tolls, parking) affect your car usage?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No change in usage"
+              },
+              {
+                "text": "Slight reduction in car use"
+              },
+              {
+                "text": "Moderate reduction in car use"
+              },
+              {
+                "text": "Significant reduction in car use"
+              },
+              {
+                "text": "Would stop using car for most trips"
+              }
+            ]
+          },
+          {
+            "text": "To what extent do emissions concerns influence your travel behavior?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not at all"
+              },
+              {
+                "text": "Slightly"
+              },
+              {
+                "text": "Moderately"
+              },
+              {
+                "text": "Strongly"
+              },
+              {
+                "text": "Very strongly (actively try to reduce car use)"
+              }
+            ]
+          },
+          {
+            "text": "How comfortable do you find traveling by car compared to other modes?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Much less comfortable"
+              },
+              {
+                "text": "Less comfortable"
+              },
+              {
+                "text": "About the same"
+              },
+              {
+                "text": "More comfortable"
+              },
+              {
+                "text": "Much more comfortable"
+              }
+            ]
+          },
+          {
+            "text": "To what extent is finding a parking space at your destination an issue for you?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not an Issue"
+              },
+              {
+                "text": "Minor Nuisance"
+              },
+              {
+                "text": "Significant Problem"
+              },
+              {
+                "text": "Major Barrier"
+              },
+              {
+                "text": "Critical Issue"
+              }
+            ]
+          },
+          {
+            "text": "How much does finding a parking space at your destination typically impact your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No Impact"
+              },
+              {
+                "text": "Minor Delay (1–5 minutes)"
+              },
+              {
+                "text": "Significant Delay (5–15 minutes)"
+              },
+              {
+                "text": "High Uncertainty (15+ minutes)"
+              },
+              {
+                "text": "Avoid using car"
+              }
+            ]
+          },
+          {
+            "text": "How expensive do you think it is to ride a bicycle or e-scooter?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very expensive"
+              },
+              {
+                "text": "Expensive"
+              },
+              {
+                "text": "Moderately Priced"
+              },
+              {
+                "text": "Cheap"
+              },
+              {
+                "text": "Very cheap"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Motorcycle",
+        "description": "Questions about your experience as a motorcycle or scooter rider.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How does the presence of speed bumps, rumble strips, or road markings designed for cars affect your riding comfort and safety?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Strongly negatively"
+              },
+              {
+                "text": "Negatively"
+              },
+              {
+                "text": "No effect"
+              },
+              {
+                "text": "Positively"
+              },
+              {
+                "text": "Strongly positively"
+              }
+            ]
+          },
+          {
+            "text": "How do parked cars or narrow lanes typically impact your ability to maneuver safely on your route?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Strongly negatively"
+              },
+              {
+                "text": "Negatively"
+              },
+              {
+                "text": "No effect"
+              },
+              {
+                "text": "Positively"
+              },
+              {
+                "text": "Strongly positively"
+              }
+            ]
+          },
+          {
+            "text": "How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not at all confident"
+              },
+              {
+                "text": "Slightly confident"
+              },
+              {
+                "text": "Moderately confident"
+              },
+              {
+                "text": "Quite confident"
+              },
+              {
+                "text": "Extremely confident"
+              }
+            ]
+          },
+          {
+            "text": "To what extent does the behavior of other drivers (e.g., sudden lane changes, tailgating, or not yielding) affect your stress levels during a trip?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Strongly negatively"
+              },
+              {
+                "text": "Negatively"
+              },
+              {
+                "text": "No effect"
+              },
+              {
+                "text": "Positively"
+              },
+              {
+                "text": "Strongly positively"
+              }
+            ]
+          },
+          {
+            "text": "How adequate do you find motorcycle-specific parking facilities (secure parking, designated spots near destinations) in your city?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very inadequate"
+              },
+              {
+                "text": "Inadequate"
+              },
+              {
+                "text": "Neutral"
+              },
+              {
+                "text": "Adequate"
+              },
+              {
+                "text": "Very adequate"
+              }
+            ]
+          },
+          {
+            "text": "To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Strongly negatively"
+              },
+              {
+                "text": "Negatively"
+              },
+              {
+                "text": "No effect"
+              },
+              {
+                "text": "Positively"
+              },
+              {
+                "text": "Strongly positively"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Infrastructure & Urban Quality",
+        "description": "Questions about the broader urban conditions on your route.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How does the quality of street lighting affect your choice of route or your decision to travel after dark?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The lighting levels have no influence on my travel choices or comfort"
+              },
+              {
+                "text": "I notice the lighting is poor but it doesn't significantly change how or when I travel"
+              },
+              {
+                "text": "I still use the route but I move faster, avoid certain spots or stay on high alert"
+              },
+              {
+                "text": "I take a much longer alternative route specifically to stay in better-lit areas"
+              },
+              {
+                "text": "I do not travel at all after dark because of the lighting"
+              }
+            ]
+          },
+          {
+            "text": "How do the traffic levels and congestion on your route typically affect your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The route is generally quiet or the traffic flow has no influence on my travel experience"
+              },
+              {
+                "text": "I notice the traffic but I feel physically separated/safe from it so it doesn't really bother me"
+              },
+              {
+                "text": "I factor the congestion into my schedule; it's frustrating but it doesn't change my route or my stress levels much"
+              },
+              {
+                "text": "I follow my route but the traffic makes me feel constantly anxious overwhelmed or unsafe"
+              },
+              {
+                "text": "I choose much longer routes or change my travel times specifically to avoid heavy traffic"
+              }
+            ]
+          },
+          {
+            "text": "To what extent do you feel that other path users (eg, cyclists, scooter users, or pedestrians) interfere with your comfort or safety?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No interference"
+              },
+              {
+                "text": "Minor interference"
+              },
+              {
+                "text": "Moderate interference"
+              },
+              {
+                "text": "Major interference"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
