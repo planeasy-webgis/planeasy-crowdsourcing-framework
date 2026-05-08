@@ -150,24 +150,24 @@
       const FORM_BASE_URL = "https://smarturbanity-surveys.wemolab.eu/";
       const IS_FILE_PREVIEW = window.location.protocol === "file:";
 
+      function categoryId(filename) {
+        return filename.includes("/") ? filename.split("/")[0] : "root";
+      }
+
       function filenameToId(filename) {
         return filename.split(/[\\/]/).pop().replace(/\.json$/i, "");
       }
 
-      function encodePath(path) {
-        return path.split("/").map(encodeURIComponent).join("/");
-      }
-
-      function buildFormUrl(questionnaireId, projectId) {
+      function buildFormUrl(questionnaireId, projectId, questionnairePath) {
         const url = new URL("quest", FORM_BASE_URL);
-        url.searchParams.set("id", questionnaireId);
-        url.searchParams.set("questionnaireId", questionnaireId);
-        url.searchParams.set("projectId", projectId);
+        url.searchParams.set("quest_id", questionnaireId);
+        url.searchParams.set("project_id", projectId);
+        // Extract just the category subfolder (e.g., "surveys" from "surveys/smarturbanity_about_you")
+        const category = questionnairePath ? questionnairePath.split("/")[0] : "";
+        if (category) {
+          url.searchParams.set("quest_path", category);
+        }
         return url.href;
-      }
-
-      function categoryId(filename) {
-        return filename.includes("/") ? filename.split("/")[0] : "root";
       }
 
       function categoryLabel(category, lang) {
@@ -264,6 +264,29 @@
       function localize(value, languageMap) {
         if (!value) return "";
         return languageMap[`#${value}`] || value;
+      }
+
+      async function listAllQuestionnairePathsFromQuestionnaireRepo(base, project_id, questionnaire_path) {
+        if (questionnaire_path) {
+          const file = `${questionnaire_path}.json`;
+          const fullPath = project_id ? `${project_id}/${file}` : `${file}`;
+          const url = `${base}/${fullPath}`;
+          return [{ project: project_id, file, fullPath, url }];
+        }
+
+        const repoIndexUrl = project_id ? `${base}/${project_id}/index.json` : `${base}/index.json`;
+        const indexData = await fetchJson(repoIndexUrl, "Cannot load questionnaire index");
+        
+        const list = Array.isArray(indexData.questionnaires)
+          ? indexData.questionnaires.filter((filename) => filename && filename !== "index.json")
+          : [];
+        
+        return list.map((filename) => ({
+          project: project_id || indexData.project || "SmartUrbanity",
+          file: filename,
+          fullPath: project_id ? `${project_id}/${filename}` : `${filename}`,
+          url: `${base}/${project_id ? project_id + "/" : ""}${filename}`
+        }));
       }
 
       function sanitizeDescriptionHtml(html) {
@@ -390,7 +413,7 @@
         const links = document.createElement("div");
         links.className = "q-card-links";
         links.append(
-          makeLink(buildFormUrl(questionnaireId, projectId), "Rispondi al questionario", "Fill in the questionnaire"),
+          makeLink(buildFormUrl(questionnaireId, projectId, filename), "Rispondi al questionario", "Fill in the questionnaire"),
           makeLink(viewLink, "Vedi schema JSON", "View JSON schema")
         );
 
@@ -453,26 +476,48 @@
         `;
 
         try {
-          const data = await fetchIndex();
-          const projectId = data.project || "SmartUrbanity";
-          const list = Array.isArray(data.questionnaires)
-            ? data.questionnaires.filter((filename) => filename && filename !== "index.json")
-            : [];
-          const categories = Array.isArray(data.categories)
-            ? data.categories
-            : Array.from(new Set(list.map(categoryId))).map((id) => ({ id, name: id }));
-          const categoriesById = categories.reduce((acc, category) => {
-            acc[category.id] = category;
-            return acc;
-          }, {});
+          const url = new URL(window.location);
+          const questionnairePath = url.searchParams.get("questionnaire");
+          
+          let filenames = [];
+          let projectId = "SmartUrbanity";
+          let categoriesById = {};
+          
+          if (questionnairePath) {
+            // Load specific questionnaire
+            const items = await listAllQuestionnairePathsFromQuestionnaireRepo(
+              RAW_BASE_URL.substring(0, RAW_BASE_URL.lastIndexOf("/SmartUrbanity")),
+              null,
+              questionnairePath
+            );
+            if (items.length > 0) {
+              filenames = [items[0].file];
+            }
+            // Hide category select for single questionnaire
+            if (categorySelect) categorySelect.style.display = "none";
+          } else {
+            // Load all questionnaires
+            const data = await fetchIndex();
+            projectId = data.project || "SmartUrbanity";
+            filenames = Array.isArray(data.questionnaires)
+              ? data.questionnaires.filter((filename) => filename && filename !== "index.json")
+              : [];
+            const categories = Array.isArray(data.categories)
+              ? data.categories
+              : Array.from(new Set(filenames.map(categoryId))).map((id) => ({ id, name: id }));
+            categoriesById = categories.reduce((acc, category) => {
+              acc[category.id] = category;
+              return acc;
+            }, {});
+            
+            if (categorySelect) {
+              populateCategorySelect(categorySelect, categories, categorySelect.value || defaultCategory(categories));
+            }
+          }
 
           grid.textContent = "";
 
-          if (categorySelect) {
-            populateCategorySelect(categorySelect, categories, categorySelect.value || defaultCategory(categories));
-          }
-
-          for (const filename of list) {
+          for (const filename of filenames) {
             let qJson = null;
             try {
               qJson = await fetchQuestionnaire(filename);
@@ -487,8 +532,9 @@
             return;
           }
 
-          if (categorySelect) {
+          if (categorySelect && !questionnairePath) {
             const refreshSelectLanguage = () => {
+              const categories = Array.from(new Set(filenames.map(categoryId))).map((id) => ({ id, name: id }));
               const selectedValue = categorySelect.value || defaultCategory(categories);
               populateCategorySelect(categorySelect, categories, selectedValue);
               applyCategoryFilter(grid, categorySelect.value);
