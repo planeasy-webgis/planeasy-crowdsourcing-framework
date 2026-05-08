@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartUrbanity - Questionari</title>
+
+    <meta
+      name="description"
+      content="Elenco dei questionari del progetto SmartUrbanity con caricamento automatico da GitHub e supporto multilingua."
+    />
+    <meta name="author" content="PlanEasy / SmartUrbanity" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0C9091" />
+
+    <meta property="og:title" content="SmartUrbanity - Questionnaires" />
+    <meta
+      property="og:description"
+      content="Explore the official SmartUrbanity questionnaires on behaviour, perceptions, context, safety and mobility."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/assets/SmartUrbanity/smarturbanity_logo.png"
+    />
+    <meta
+      property="og:url"
+      content="https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/questionnaires/SmartUrbanity/"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore the official SmartUrbanity questionnaires on behaviour, perceptions, context, safety and mobility."
+    />
+
+    <link rel="apple-touch-icon" href="../../docs/assets/SmartUrbanity/smarturbanity_logo.png" />
+    <link rel="icon" href="../../docs/assets/SmartUrbanity/smarturbanity_favicon.png" type="image/png" />
+
+    <style>
+      :focus-visible {
+        outline: 3px solid #f2ad2b;
+        outline-offset: 3px;
+      }
+
+      .skip-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #0c9091;
+        color: #fff;
+        padding: 0.6rem 1rem;
+        border-radius: 0 0 6px 0;
+        transform: translateY(-120%);
+        transition: transform 0.3s ease;
+        z-index: 100;
+      }
+
+      .skip-link:focus {
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="#maincontent" class="skip-link">Skip to main content</a>
+
+    <div id="smarturbanity-header"></div>
+
+    <main id="maincontent" tabindex="-1" role="main" aria-label="Questionnaires list">
+      <div data-lang="it" lang="it">
+        <section>
+          <h2>I questionari di SmartUrbanity</h2>
+          <p>
+            Il sistema di rilevazione del progetto <strong>SmartUrbanity</strong>
+            utilizza una serie di questionari tematici, disponibili in italiano e
+            inglese, pensati per capire come le persone si muovono e come vivono
+            la sicurezza sulle strade della città.
+          </p>
+
+          <p>
+            Ogni questionario affronta un aspetto diverso dell'esperienza di
+            mobilità: chi si muove, in quali contesti, quanto si sente sicuro,
+            quali comportamenti adotta, quali difficoltà incontra e come cambiano
+            le sue abitudini nel tempo. Le risposte sono anonime, trattate nel
+            rispetto del GDPR, e collegate solo attraverso un codice partecipante
+            che non permette l'identificazione.
+          </p>
+
+          <p>
+            Le informazioni raccolte contribuiscono a creare un quadro completo
+            della mobilità urbana: profilo delle persone, abitudini di viaggio,
+            percezione della sicurezza, episodi di rischio, uso dei servizi di
+            mobilità, opinioni e motivazioni, insieme ai diari di viaggio prima e
+            dopo l'esperienza.
+          </p>
+        </section>
+      </div>
+
+      <div data-lang="en" lang="en">
+        <section>
+          <h2>SmartUrbanity questionnaires</h2>
+          <p>
+            The <strong>SmartUrbanity</strong> survey system includes a suite of
+            thematic bilingual questionnaires designed to understand how people
+            move in the city: where they travel, how safe they feel, which
+            situations are challenging, and how their habits change over time.
+          </p>
+
+          <p>
+            Each module focuses on a different aspect of everyday movements: who
+            moves, travel patterns, safety perception, personal safety behaviour,
+            experiences of near misses or accidents, available mobility services,
+            attitudes and motivations, and pre-post trip diaries. All responses
+            are anonymous, GDPR-compliant, and linked only through a
+            non-identifying participant key.
+          </p>
+
+          <p>
+            Together, these modules provide a comprehensive picture of urban
+            mobility: users, places, behaviours, perceptions, risks, and
+            motivations. The data help identify where people feel safe or exposed,
+            which barriers prevent moving, and what improvements can make the
+            city's mobility network more accessible and comfortable for everyone.
+          </p>
+        </section>
+      </div>
+
+      <section aria-label="Elenco questionari GitHub">
+        <div class="q-controls">
+          <label for="q-category">
+            <span data-lang="it">Mostra categoria</span>
+            <span data-lang="en">Show category</span>
+          </label>
+          <select id="q-category" class="q-select"></select>
+        </div>
+        <div id="q-list" class="q-grid">
+          <div class="q-placeholder"></div>
+          <div class="q-placeholder"></div>
+          <div class="q-placeholder"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="smarturbanity-footer"></div>
+
+    <script src="../../docs/assets/SmartUrbanity/smarturbanity-web-init.js"></script>
+
+    <script>
+      const RAW_BASE_URL =
+        "https://raw.githubusercontent.com/planeasy-webgis/planeasy-crowdsourcing-framework/main/questionnaires/SmartUrbanity";
+      const FORM_BASE_URL = "https://smarturbanity-surveys.wemolab.eu/";
+      const IS_FILE_PREVIEW = window.location.protocol === "file:";
+
+      function filenameToId(filename) {
+        return filename.split(/[\\/]/).pop().replace(/\.json$/i, "");
+      }
+
+      function encodePath(path) {
+        return path.split("/").map(encodeURIComponent).join("/");
+      }
+
+      function buildFormUrl(questionnaireId, projectId) {
+        const url = new URL("quest", FORM_BASE_URL);
+        url.searchParams.set("id", questionnaireId);
+        url.searchParams.set("questionnaireId", questionnaireId);
+        url.searchParams.set("projectId", projectId);
+        return url.href;
+      }
+
+      function categoryId(filename) {
+        return filename.includes("/") ? filename.split("/")[0] : "root";
+      }
+
+      function categoryLabel(category, lang) {
+        const currentLang = lang || window.currentLang || "en";
+        const labels = {
+          locationReports: {
+            en: "Location reports",
+            it: "Segnalazioni geolocalizzate"
+          },
+          surveys: {
+            en: "Surveys",
+            it: "Questionari"
+          },
+          tripSurveys: {
+            en: "Trip surveys",
+            it: "Questionari di viaggio"
+          },
+          root: {
+            en: "Other",
+            it: "Altro"
+          }
+        };
+        const label = labels[category.id];
+        if (label) return label[currentLang] || label.en;
+        return category.name || category.id;
+      }
+
+      async function fetchJson(url, errorMessage) {
+        const res = await fetch(url, { cache: "no-cache" });
+        if (!res.ok) {
+          throw new Error(`${errorMessage} (${res.status})`);
+        }
+        return res.json();
+      }
+
+      async function fetchIndex() {
+        try {
+          return await fetchJson("./index.json", "Cannot load local SmartUrbanity questionnaire index");
+        } catch (err) {
+          if (IS_FILE_PREVIEW) {
+            throw new Error("Direct file preview cannot load local JSON. Start a local static server from the repository root.");
+          }
+          console.warn("Local questionnaire index unavailable, trying GitHub raw URL.", err);
+        }
+        return fetchJson(`${RAW_BASE_URL}/index.json`, "Cannot load SmartUrbanity questionnaire index");
+      }
+
+      async function fetchQuestionnaire(filename) {
+        try {
+          return await fetchJson(`./${encodePath(filename)}`, `Cannot load local ${filename}`);
+        } catch (err) {
+          if (IS_FILE_PREVIEW) {
+            throw new Error(`Direct file preview cannot load local JSON file: ${filename}`);
+          }
+          console.warn(`Local questionnaire ${filename} unavailable, trying GitHub raw URL.`, err);
+        }
+        return fetchJson(`${RAW_BASE_URL}/${encodePath(filename)}`, `Cannot load ${filename}`);
+      }
+
+      function localizedText(tagName, it, en) {
+        const fragment = document.createDocumentFragment();
+        const itNode = document.createElement(tagName);
+        const enNode = document.createElement(tagName);
+        itNode.setAttribute("data-lang", "it");
+        enNode.setAttribute("data-lang", "en");
+        itNode.textContent = it;
+        enNode.textContent = en;
+        fragment.append(itNode, enNode);
+        return fragment;
+      }
+
+      function firstDescription(qDef) {
+        const sections = Array.isArray(qDef.sections) ? qDef.sections : [];
+        const firstContentSection = sections.find((section) => {
+          return Array.isArray(section.questions) && section.questions.length > 0 && (section.description || section.title);
+        });
+        if (firstContentSection) {
+          return (
+            firstContentSection.description ||
+            firstContentSection.title ||
+            "Structured questionnaire about urban mobility."
+          );
+        }
+        if (sections.length > 0) {
+          return (
+            sections[0].description ||
+            sections[0].title ||
+            "Structured questionnaire about urban mobility."
+          );
+        }
+        return qDef.title || qDef.name || "Structured questionnaire about urban mobility.";
+      }
+
+      function localize(value, languageMap) {
+        if (!value) return "";
+        return languageMap[`#${value}`] || value;
+      }
+
+      function sanitizeDescriptionHtml(html) {
+        const template = document.createElement("template");
+        template.innerHTML = html || "";
+        const allowedTags = new Set(["A", "BR", "EM", "I", "LI", "OL", "P", "STRONG", "B", "UL"]);
+        const allowedAttrs = {
+          A: new Set(["href", "target", "rel"])
+        };
+
+        template.content.querySelectorAll("*").forEach((el) => {
+          if (!allowedTags.has(el.tagName)) {
+            el.replaceWith(document.createTextNode(el.textContent || ""));
+            return;
+          }
+
+          [...el.attributes].forEach((attr) => {
+            const allowed = allowedAttrs[el.tagName] && allowedAttrs[el.tagName].has(attr.name);
+            if (!allowed) {
+              el.removeAttribute(attr.name);
+            }
+          });
+
+          if (el.tagName === "A") {
+            const href = el.getAttribute("href") || "";
+            if (!/^https?:\/\//i.test(href) && !/^mailto:/i.test(href)) {
+              el.removeAttribute("href");
+            }
+            el.target = "_blank";
+            el.rel = "noopener";
+          }
+        });
+
+        return template.innerHTML;
+      }
+
+      function localizedHtmlBlock(tagName, it, en) {
+        const fragment = document.createDocumentFragment();
+        const itNode = document.createElement(tagName);
+        const enNode = document.createElement(tagName);
+        itNode.setAttribute("data-lang", "it");
+        enNode.setAttribute("data-lang", "en");
+        itNode.innerHTML = sanitizeDescriptionHtml(it);
+        enNode.innerHTML = sanitizeDescriptionHtml(en);
+        fragment.append(itNode, enNode);
+        return fragment;
+      }
+
+      function makeLink(href, itLabel, enLabel) {
+        const link = document.createElement("a");
+        link.href = href;
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.append(localizedText("span", itLabel, enLabel));
+        return link;
+      }
+
+      function makeQuestionnaireCard(filename, qJson, categoriesById, projectId) {
+        const baseName = filenameToId(filename);
+        const category = categoryId(filename);
+        const categoryDefinition = categoriesById[category] || { id: category, name: category };
+        const hasDefinition = Boolean(qJson && qJson.questionnaire);
+        const qDef = qJson && qJson.questionnaire ? qJson.questionnaire : {};
+        const languageMap = qJson && qJson.languages && qJson.languages.it ? qJson.languages.it : {};
+        const questionnaireId = qDef.questionnaire_id || baseName;
+        const titleEn = qDef.title || qDef.name || baseName;
+        const titleIt = localize(titleEn, languageMap);
+        const descEn = firstDescription(qDef);
+        const descIt = hasDefinition
+          ? localize(descEn, languageMap)
+          : "Definizione strutturata del questionario.";
+        const viewLink = IS_FILE_PREVIEW ? encodePath(filename) : `./${encodePath(filename)}`;
+
+        const card = document.createElement("div");
+        card.className = "q-card";
+        card.dataset.category = category;
+
+        const content = document.createElement("div");
+        const badge = document.createElement("p");
+        badge.className = "q-category";
+        badge.append(localizedText(
+          "span",
+          categoryLabel(categoryDefinition, "it"),
+          categoryLabel(categoryDefinition, "en")
+        ));
+
+        const heading = document.createElement("h3");
+        heading.append(localizedText("span", titleIt, titleEn));
+
+        const description = document.createElement("div");
+        description.className = "q-description";
+
+        const toggle = document.createElement("button");
+        toggle.type = "button";
+        toggle.className = "q-toggle";
+        toggle.setAttribute("aria-expanded", "false");
+
+        const icon = document.createElement("span");
+        icon.className = "q-toggle-icon";
+        icon.setAttribute("aria-hidden", "true");
+        icon.textContent = "▼";
+        toggle.append(icon, localizedText("span", "Descrizione", "Description"));
+
+        const descBody = document.createElement("div");
+        descBody.className = "q-desc-body";
+        descBody.hidden = true;
+        descBody.append(localizedHtmlBlock("div", descIt, descEn));
+
+        toggle.addEventListener("click", () => {
+          const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+          toggle.setAttribute("aria-expanded", String(!isExpanded));
+          descBody.hidden = isExpanded;
+          icon.textContent = isExpanded ? "▼" : "▲";
+
+          const labelIt = toggle.querySelector('span[data-lang="it"]');
+          const labelEn = toggle.querySelector('span[data-lang="en"]');
+          if (labelIt) labelIt.textContent = isExpanded ? "Descrizione" : "Nascondi";
+          if (labelEn) labelEn.textContent = isExpanded ? "Description" : "Hide";
+        });
+
+        description.append(toggle, descBody);
+        content.append(badge, heading, description);
+
+        const links = document.createElement("div");
+        links.className = "q-card-links";
+        links.append(
+          makeLink(buildFormUrl(questionnaireId, projectId), "Rispondi al questionario", "Fill in the questionnaire"),
+          makeLink(viewLink, "Vedi schema JSON", "View JSON schema")
+        );
+
+        card.append(content, links);
+        return card;
+      }
+
+      function defaultCategory(categories) {
+        if (categories.some((category) => category.id === "surveys")) {
+          return "surveys";
+        }
+        return categories.length > 0 ? categories[0].id : "";
+      }
+
+      function populateCategorySelect(select, categories, selectedValue) {
+        select.textContent = "";
+
+        categories.forEach((category) => {
+          const option = document.createElement("option");
+          option.value = category.id;
+          option.textContent = categoryLabel(category);
+          select.appendChild(option);
+        });
+
+        if (selectedValue && categories.some((category) => category.id === selectedValue)) {
+          select.value = selectedValue;
+        } else {
+          select.value = defaultCategory(categories);
+        }
+      }
+
+      function applyCategoryFilter(grid, selectedCategory) {
+        let visibleCount = 0;
+        grid.querySelectorAll(".q-card").forEach((card) => {
+          const isVisible = card.dataset.category === selectedCategory;
+          card.hidden = !isVisible;
+          card.setAttribute("aria-hidden", String(!isVisible));
+          if (isVisible) visibleCount += 1;
+        });
+        return visibleCount;
+      }
+
+      function renderMessage(grid, it, en) {
+        grid.textContent = "";
+        grid.append(localizedText("p", it, en));
+        if (window.setLang && window.currentLang) {
+          window.setLang(window.currentLang);
+        }
+      }
+
+      async function renderList() {
+        const grid = document.getElementById("q-list");
+        const categorySelect = document.getElementById("q-category");
+        if (!grid) return;
+
+        grid.innerHTML = `
+          <div class="q-placeholder"></div>
+          <div class="q-placeholder"></div>
+          <div class="q-placeholder"></div>
+        `;
+
+        try {
+          const data = await fetchIndex();
+          const projectId = data.project || "SmartUrbanity";
+          const list = Array.isArray(data.questionnaires)
+            ? data.questionnaires.filter((filename) => filename && filename !== "index.json")
+            : [];
+          const categories = Array.isArray(data.categories)
+            ? data.categories
+            : Array.from(new Set(list.map(categoryId))).map((id) => ({ id, name: id }));
+          const categoriesById = categories.reduce((acc, category) => {
+            acc[category.id] = category;
+            return acc;
+          }, {});
+
+          grid.textContent = "";
+
+          if (categorySelect) {
+            populateCategorySelect(categorySelect, categories, categorySelect.value || defaultCategory(categories));
+          }
+
+          for (const filename of list) {
+            let qJson = null;
+            try {
+              qJson = await fetchQuestionnaire(filename);
+            } catch (err) {
+              console.warn(`Error parsing questionnaire ${filename}`, err);
+            }
+            grid.appendChild(makeQuestionnaireCard(filename, qJson, categoriesById, projectId));
+          }
+
+          if (!grid.hasChildNodes()) {
+            renderMessage(grid, "Nessun questionario trovato.", "No questionnaires found.");
+            return;
+          }
+
+          if (categorySelect) {
+            const refreshSelectLanguage = () => {
+              const selectedValue = categorySelect.value || defaultCategory(categories);
+              populateCategorySelect(categorySelect, categories, selectedValue);
+              applyCategoryFilter(grid, categorySelect.value);
+            };
+
+            categorySelect.addEventListener("change", () => {
+              const count = applyCategoryFilter(grid, categorySelect.value);
+              if (count === 0) {
+                console.warn(`No questionnaires found for category: ${categorySelect.value}`);
+              }
+            });
+            window.addEventListener("smarturbanity:langchange", refreshSelectLanguage);
+            applyCategoryFilter(grid, categorySelect.value);
+          }
+
+          if (window.setLang && window.currentLang) {
+            window.setLang(window.currentLang);
+          }
+        } catch (err) {
+          console.error(err);
+          renderMessage(
+            grid,
+            IS_FILE_PREVIEW
+              ? "Per l'anteprima locale avvia un server dalla root del repository, poi apri /questionnaires/SmartUrbanity/index.html."
+              : "Errore nel caricamento dell'indice dei questionari SmartUrbanity.",
+            IS_FILE_PREVIEW
+              ? "For local preview, start a server from the repository root, then open /questionnaires/SmartUrbanity/index.html."
+              : "Error loading the SmartUrbanity questionnaire index."
+          );
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", renderList);
+    </script>
+  </body>
+</html>
