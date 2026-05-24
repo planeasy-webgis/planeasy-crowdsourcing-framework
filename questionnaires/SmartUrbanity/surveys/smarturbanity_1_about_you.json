@@ -1,0 +1,780 @@
+{
+  "questionnaire": {
+    "name": "SmartUrbanity - About You",
+    "questionnaire_id": "smarturbanity_about_you",
+    "questionnaire_version": "0.0.1",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+    "title": "1. About You",
+    "sections": [
+      {
+        "title": "Welcome to About You",
+        "description": "This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
+        "backgroundColor": "#d3d3d3",
+        "questions": []
+      },
+      {
+        "title": "Personal & Household",
+        "description": "A few background questions to help us understand who our participants are.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "What is your age group? (Participation is limited to adults aged 18 or older)",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "18-24"
+              },
+              {
+                "text": "25-34"
+              },
+              {
+                "text": "35-44"
+              },
+              {
+                "text": "45-54"
+              },
+              {
+                "text": "55-64"
+              },
+              {
+                "text": "65-74"
+              },
+              {
+                "text": "75-84"
+              },
+              {
+                "text": "85 or older"
+              }
+            ]
+          },
+          {
+            "text": "What is your gender?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Male"
+              },
+              {
+                "text": "Female"
+              },
+              {
+                "text": "Other"
+              },
+              {
+                "text": "Prefer not to say"
+              }
+            ]
+          },
+          {
+            "text": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              }
+            ]
+          },
+          {
+            "text": "How many adults, including yourself, live together in your household?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "1 (only myself)"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5 or more"
+              }
+            ]
+          },
+          {
+            "text": "What is your highest completed level of education?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No qualification"
+              },
+              {
+                "text": "Lower secondary school"
+              },
+              {
+                "text": "High school"
+              },
+              {
+                "text": "Bachelor degree or equivalent"
+              },
+              {
+                "text": "Master degree or equivalent"
+              },
+              {
+                "text": "Doctorate degree"
+              }
+            ]
+          },
+          {
+            "text": "Which economic status do you think best describes your household?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "We struggle to cover basic needs"
+              },
+              {
+                "text": "We can cover basic needs"
+              },
+              {
+                "text": "We can cover basic needs comfortably and have little money left over"
+              },
+              {
+                "text": "We can afford most things we want with occasional extra expenses"
+              },
+              {
+                "text": "We are financially very comfortable and can easily afford extra expenses"
+              }
+            ]
+          },
+          {
+            "text": "Which best describes your employment status?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Employed full-time"
+              },
+              {
+                "text": "Employed part-time"
+              },
+              {
+                "text": "Occasionally employed"
+              },
+              {
+                "text": "Self-employed/freelance full-time"
+              },
+              {
+                "text": "Self employed/freelance part-time"
+              },
+              {
+                "text": "Homemaker"
+              },
+              {
+                "text": "Retired"
+              },
+              {
+                "text": "Unemployed looking for work"
+              },
+              {
+                "text": "Unemployed not looking for work"
+              },
+              {
+                "text": "Adult learner (student)"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "Do you currently work remotely (partly or fully)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              },
+              {
+                "text": "Occasionally"
+              }
+            ]
+          },
+          {
+            "text": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              },
+              {
+                "text": "Occasionally"
+              },
+              {
+                "text": "I don't work"
+              }
+            ]
+          },
+          {
+            "text": "Do you have any condition or limitation that affects your ability to move independently?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No, I can move independently"
+              },
+              {
+                "text": "Yes, I have a temporary condition/limitation"
+              },
+              {
+                "text": "Yes, I have a permanent mobility condition/limitation"
+              }
+            ]
+          },
+          {
+            "text": "Do you have a pet at home?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              }
+            ]
+          },
+          {
+            "text": "Do you hold a valid driving license?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              }
+            ]
+          },
+          {
+            "text": "Do you belong to any of these groups?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Urban planner"
+              },
+              {
+                "text": "Policymaker"
+              },
+              {
+                "text": "Environmental/sustainable mobility activist"
+              },
+              {
+                "text": "Influencer"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Physical Capability",
+        "description": "Questions about your physical capacity for active travel.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "On average, how far can you walk without taking a long break (e.g., more than a few minutes)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I rarely or never walk"
+              },
+              {
+                "text": "Less than 500 meters (about 5-6 minutes walk)"
+              },
+              {
+                "text": "From 500 meters to 1 km (about 10-15 minutes on foot)"
+              },
+              {
+                "text": "1 to 2 km (about 15-25 minutes on foot)"
+              },
+              {
+                "text": "More than 2 km"
+              }
+            ]
+          },
+          {
+            "text": "How physically active are you in a typical week? (Including walking for transport, cycling, or dedicated exercise)",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I have a physical condition or limitation that affects my ability to be physically active "
+              },
+              {
+                "text": "Inactive (0 days)"
+              },
+              {
+                "text": "Occasionally Active (1 day)"
+              },
+              {
+                "text": "Moderately Active (2–3 days)"
+              },
+              {
+                "text": "Highly Active (4–5 days)"
+              },
+              {
+                "text": "Daily / Near Daily (6–7 days)"
+              }
+            ]
+          },
+          {
+            "text": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Significant Limitations"
+              },
+              {
+                "text": "Low Capability"
+              },
+              {
+                "text": "Fair Capability"
+              },
+              {
+                "text": "Good Capability"
+              },
+              {
+                "text": "High Capability"
+              }
+            ]
+          },
+          {
+            "text": "What is your approximate height?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Less than 150 cm"
+              },
+              {
+                "text": "150-164 cm"
+              },
+              {
+                "text": "165-179 cm"
+              },
+              {
+                "text": "180-194 cm"
+              },
+              {
+                "text": "195 cm or more"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Living context",
+        "description": "Questions about where you live and how you move around Rome.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Which of the following best describes your relationship to Municipio XII?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I live here (Resident)"
+              },
+              {
+                "text": "I travel here regularly for work or study (Commuter)"
+              },
+              {
+                "text": "I’m visiting for leisure (Tourist)"
+              },
+              {
+                "text": "I’m here temporarily for another reason (Visitor)"
+              }
+            ]
+          },
+          {
+            "text": "In which Municipio of Rome do you currently live?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "1"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5"
+              },
+              {
+                "text": "6"
+              },
+              {
+                "text": "7"
+              },
+              {
+                "text": "8"
+              },
+              {
+                "text": "9"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "11"
+              },
+              {
+                "text": "12"
+              },
+              {
+                "text": "13"
+              },
+              {
+                "text": "14"
+              },
+              {
+                "text": "15"
+              },
+              {
+                "text": "I live outside Rome"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          },
+          {
+            "text": "In which neighbourhood of municipio XII do you currently live?",
+            "question_type": "single_option",
+            "options": [
+{
+                "text": "I live outside of municipo XII"
+              },
+              {
+                "text": "BRAVETTA"
+              },
+              {
+                "text": "CASAL LUMBROSO"
+              },
+              {
+                "text": "COLLE AURELIO"
+              },
+              {
+                "text": "COLLI PORTUENSI"
+              },
+              {
+                "text": "LA PISANA"
+              },
+              {
+                "text": "MASSIMINA"
+              },
+              {
+                "text": "MONTEVERDE NUOVO"
+              },
+              {
+                "text": "MONTEVERDE VECCHIO"
+              },
+              {
+                "text": "PORTA PORTESE"
+              },
+              {
+                "text": "SANTA CECILIA"
+              },
+              {
+                "text": "VIGNACCIA"
+              },
+              {
+                "text": "VILLA TROILI"
+              },
+              {
+                "text": "VILLINI"
+              }
+              
+            ]
+          },
+          {
+            "text": "Which Municipio of Rome do you travel in most frequently (your main activity area)?",
+            "question_type": "single_option",
+            "options": [
+{
+                "text": "I mainly stay within my own Municipio"
+              },
+              {
+                "text": "I don't know"
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5"
+              },
+              {
+                "text": "6"
+              },
+              {
+                "text": "7"
+              },
+              {
+                "text": "8"
+              },
+              {
+                "text": "9"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "11"
+              },
+              {
+                "text": "12"
+              },
+              {
+                "text": "13"
+              },
+              {
+                "text": "14"
+              },
+              {
+                "text": "15"
+              }
+            ]
+          },
+          {
+            "text": "Which is the second Municipio you travel in most frequently?",
+            "question_type": "single_option",
+            "options": [
+{
+                "text": "I mainly stay within my own Municipio"
+              },
+              {
+                "text": "I don't know"
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5"
+              },
+              {
+                "text": "6"
+              },
+              {
+                "text": "7"
+              },
+              {
+                "text": "8"
+              },
+              {
+                "text": "9"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "11"
+              },
+              {
+                "text": "12"
+              },
+              {
+                "text": "13"
+              },
+              {
+                "text": "14"
+              },
+              {
+                "text": "15"
+              }
+            ]
+          },
+          {
+            "text": "Which is the third Municipio you travel in most frequently?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I mainly stay within my own Municipio"
+              },
+              {
+                "text": "I don't know"
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5"
+              },
+              {
+                "text": "6"
+              },
+              {
+                "text": "7"
+              },
+              {
+                "text": "8"
+              },
+              {
+                "text": "9"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "11"
+              },
+              {
+                "text": "12"
+              },
+              {
+                "text": "13"
+              },
+              {
+                "text": "14"
+              },
+              {
+                "text": "15"
+              }
+            ]
+          },
+          {
+            "text": "If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Work or university"
+              },
+              {
+                "text": "Grocery shopping / supermarkets"
+              },
+              {
+                "text": "Healthcare (doctor, pharmacy, hospital)"
+              },
+              {
+                "text": "Schools or childcare"
+              },
+              {
+                "text": "Leisure activities (restaurants, cafes, cinema, gym)"
+              },
+              {
+                "text": "Visiting friends or family"
+              },
+              {
+                "text": "Administrative services (banks, offices, etc.)"
+              },
+              {
+                "text": "Better prices or more choice of services elsewhere"
+              },
+              {
+                "text": "Lack of services in my neighborhood"
+              },
+              {
+                "text": "Poor quality of services in my neighborhood"
+              },
+              {
+                "text": "I prefer other neighborhoods or areas"
+              },
+              {
+                "text": "I rarely or never travel outside my neighborhood"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "How strongly do you feel connected to the place where you live and the people in your community?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not connected"
+              },
+              {
+                "text": "Somewhat disconnected"
+              },
+              {
+                "text": "Neither connected nor disconnected"
+              },
+              {
+                "text": "Somewhat connected"
+              },
+              {
+                "text": "Very connected"
+              }
+            ]
+          },
+          {
+            "text": "Do you have access to parking spaces near your residence?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          },
+          {
+            "text": "Do you have access to parking lots for bikes near your residence?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

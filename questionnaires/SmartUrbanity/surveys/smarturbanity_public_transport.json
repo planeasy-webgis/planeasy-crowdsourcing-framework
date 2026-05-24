@@ -1,0 +1,240 @@
+{
+  "questionnaire": {
+    "name": "SmartUrbanity - Your Experience on the Move",
+    "questionnaire_id": "smarturbanity_public_transport",
+    "questionnaire_version": "0.0.1",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+    "title": "4. Your experience on the move",
+    "sections": [
+      {
+        "title": "Welcome to Your Experience on the Move",
+        "description": "This SmartUrbanity questionnaire asks about how you feel and what you experience while travelling, including walking, cycling, public transport, car, motorcycle and route quality. Your answers help identify barriers and opportunities for better urban mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
+        "backgroundColor": "#d3d3d3",
+        "questions": []
+      },
+      {
+        "title": "Public transport",
+        "description": "Questions about your experience using public transport.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Do you use public transport for your daily travels at least once a week?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              }
+            ]
+          }, 
+          {
+            "text": "How accessible and easy to use are the public transport stops (bus, tram, or train) on your route?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Inaccessible"
+              },
+              {
+                "text": "Difficult to access"
+              },
+              {
+                "text": "Partially accessible"
+              },
+              {
+                "text": "Mostly accessible"
+              },
+              {
+                "text": "Completely accessible"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          },
+          {
+            "text": "Which specific barriers did you face while using public transport stops?",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Stairs or level differences"
+              },
+              {
+                "text": "Difficulty boarding or exiting the vehicle"
+              },
+              {
+                "text": "Narrow or crowded spaces"
+              },
+              {
+                "text": "Poor maintenance or damaged infrastructure"
+              },
+              {
+                "text": "Poor accessibility for mobility needs"
+              },
+              {
+                "text": "None"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "How does the presence of other people make you feel during your trip?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very uncomfortable"
+              },
+              {
+                "text": "Slightly uncomfortable"
+              },
+              {
+                "text": "Neutral / Indifferent"
+              },
+              {
+                "text": "Mostly comfortable"
+              },
+              {
+                "text": "Very comfortable"
+              }
+            ]
+          },
+          {
+            "text": "How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I cannot reach the stop if no accessible route exists"
+              },
+              {
+                "text": "I need assistance from another person to reach the stop"
+              },
+              {
+                "text": "I can reach the stop, but it requires significant physical effort"
+              },
+              {
+                "text": "I can reach the stop independently with some difficulty"
+              },
+              {
+                "text": "I can reach the stop easily and independently"
+              }
+            ]
+          },
+          {
+            "text": "How does the quality of the crossings (eg, lights, bridges, or tunnels) near the stop influence your sense of safety?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I avoid using this stop because the crossings feel unsafe"
+              },
+              {
+                "text": "I often feel unsafe when crossing to reach the stop"
+              },
+              {
+                "text": "I sometimes change my route to use crossings that feel safer"
+              },
+              {
+                "text": "I generally feel safe, but I still need to be careful when crossing"
+              },
+              {
+                "text": "I feel safe and well protected by the crossing design and traffic controls"
+              }
+            ]
+          },
+          {
+            "text": "How does the schedule and frequency of public transport on your route affect your ability to rely on it?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "The service hours or frequency do not meet my basic travel needs"
+              },
+              {
+                "text": "The service is so infrequent or limited that it makes travelling difficult or uncertain"
+              },
+              {
+                "text": "I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities"
+              },
+              {
+                "text": "The service is reliable, but I need to plan my schedule around arrival and departure times"
+              },
+              {
+                "text": "The service is frequent enough that I can use it without planning"
+              }
+            ]
+          },
+          {
+            "text": "How does using public transport align with your personal identity or social comfort?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I feel a strong sense of social discomfort or shame using this service"
+              },
+              {
+                "text": "I feel that using this mode of transport is a compromise to my social standing and I would prefer to avoid it if possible"
+              },
+              {
+                "text": "I occasionally feel out of place or self-conscious when using this service in certain social situations"
+              },
+              {
+                "text": "I don't feel that my choice of transport has any connection to my social standing or identity"
+              },
+              {
+                "text": "I feel comfortable and confident using this mode of transport in social settings"
+              }
+            ]
+          },
+          {
+            "text": "How stressful do you find unexpected delays or service disruptions during your trips?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not stressful at all"
+              },
+              {
+                "text": "Slightly stressful"
+              },
+              {
+                "text": "Moderately stressful"
+              },
+              {
+                "text": "Very stressful"
+              },
+              {
+                "text": "Extremely stressful"
+              }
+            ]
+          },
+          {
+            "text": "How do delays or unreliable service typically affect your travel behavior?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "They do not affect my behavior"
+              },
+              {
+                "text": "I leave earlier than necessary to avoid delays"
+              },
+              {
+                "text": "I avoid relying on public transport for important trips"
+              },
+              {
+                "text": "I sometimes change routes or travel times"
+              },
+              {
+                "text": "I sometimes choose another transport mode instead"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
