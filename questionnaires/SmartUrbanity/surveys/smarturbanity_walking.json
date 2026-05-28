@@ -1,8 +1,8 @@
 {
 	"questionnaire": {
-		"name": "SmartUrbanity - About You",
-		"questionnaire_id": "smarturbanity_about_you",
-		"questionnaire_version": "0.0.1",
+		"name": "SmartUrbanity - Your Experience on the Move",
+		"questionnaire_id": "smarturbanity_walking",
+		"questionnaire_version": "0.1.0",
 		"project": "SmartUrbanity",
 		"options": {
 			"review_mode": true,
@@ -12,859 +12,362 @@
 		"gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
 		"sections": [
 			{
-				"title": "Welcome to About You",
-				"description": "This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
+				"title": "Welcome to Walking",
+				"description": "This SmartUrbanity questionnaire focuses on your experience as a pedestrian. Your answers help us understand the conditions and barriers people face when walking in the city, and identify opportunities to make walking safer, more comfortable, and more enjoyable. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
 				"backgroundColor": "#d3d3d3",
 				"questions": []
 			},
 			{
-				"title": "Personal & Household",
-				"description": "A few background questions to help us understand who our participants are.",
+				"title": "Walking Habits",
+				"description": "Questions about how and when you walk as part of your daily travel.",
 				"backgroundColor": "#f0f0f0",
 				"questions": [
 					{
-						"text": "What is your age group? (Participation is limited to adults aged 18 or older)",
+						"text": "Do you walk as a primary mode of travel at least once a week? (This means walking as the main way to complete a trip, not just short transfers between other modes.)",
+						"answer_key": "main_mode",
 						"question_type": "single_option",
+						"required": true,
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
 						"add_other": false,
 						"checks_inline": false,
 						"options": [
 							{
-								"text": "18-24"
+								"text": "Yes",
+								"value": "walking"
 							},
 							{
-								"text": "25-34"
-							},
-							{
-								"text": "35-44"
-							},
-							{
-								"text": "45-54"
-							},
-							{
-								"text": "55-64"
-							},
-							{
-								"text": "65-74"
-							},
-							{
-								"text": "75-84"
-							},
-							{
-								"text": "85 or older"
-							},
-							{
-								"text": "Prefer not to say"
+								"text": "No",
+								"value": "not_walking"
 							}
 						]
 					},
 					{
-						"text": "What is your gender?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Male"
-							},
-							{
-								"text": "Female"
-							},
-							{
-								"text": "Other"
-							},
-							{
-								"text": "Prefer not to say"
-							}
-						]
-					},
-					{
-						"text": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "How many adults, including yourself, live together in your household?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "1 (only myself)"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5 or more"
-							}
-						]
-					},
-					{
-						"text": "What is your highest completed level of education?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "No qualification"
-							},
-							{
-								"text": "Lower secondary school"
-							},
-							{
-								"text": "High school"
-							},
-							{
-								"text": "Bachelor degree or equivalent"
-							},
-							{
-								"text": "Master degree or equivalent"
-							},
-							{
-								"text": "Doctorate degree"
-							}
-						]
-					},
-					{
-						"text": "Which economic status do you think best describes your household?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "We struggle to cover basic needs"
-							},
-							{
-								"text": "We can cover basic needs"
-							},
-							{
-								"text": "We can cover basic needs comfortably and have little money left over"
-							},
-							{
-								"text": "We can afford most things we want with occasional extra expenses"
-							},
-							{
-								"text": "We are financially very comfortable and can easily afford extra expenses"
-							}
-						]
-					},
-					{
-						"text": "Which best describes your employment status?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Employed full-time"
-							},
-							{
-								"text": "Employed part-time"
-							},
-							{
-								"text": "Occasionally employed"
-							},
-							{
-								"text": "Self-employed/freelance full-time"
-							},
-							{
-								"text": "Self employed/freelance part-time"
-							},
-							{
-								"text": "Homemaker"
-							},
-							{
-								"text": "Retired"
-							},
-							{
-								"text": "Unemployed looking for work"
-							},
-							{
-								"text": "Unemployed not looking for work"
-							},
-							{
-								"text": "Adult learner (student)"
-							},
-							{
-								"text": "Other"
-							}
-						]
-					},
-					{
-						"text": "Do you currently work remotely (partly or fully)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes (3+ days/week)"
-							},
-							{
-								"text": "Occasionally (1-2 days/week)"
-							},
-							{
-								"text": "No"
-							},
-							{
-								"text": "I am not currently employed"
-							}
-						]
-					},
-					{
-						"text": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "Somewhat (within a 1-2 hour window)"
-							},
-							{
-								"text": "No"
-							},
-							{
-								"text": "I am not currently employed"
-							}
-						]
-					},
-					{
-						"text": "Do you have any condition or limitation that affects your ability to move independently?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "No, I can move independently"
-							},
-							{
-								"text": "Yes, I have a temporary condition/limitation"
-							},
-							{
-								"text": "Yes, I have a permanent mobility condition/limitation"
-							}
-						]
-					},
-					{
-						"text": "Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "Do you hold a valid driving license? (Car, motorcycle or both)",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "Do you belong to any of these groups?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Urban planner"
-							},
-							{
-								"text": "Policymaker"
-							},
-							{
-								"text": "Environmental/sustainable mobility activist"
-							},
-							{
-								"text": "Content creator / communicator (social media, journalism, blogging)"
-							},
-							{
-								"text": "None"
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "Physical Capability",
-				"description": "Questions about your physical capacity for active travel.",
-				"backgroundColor": "#f0f0f0",
-				"questions": [
-					{
-						"text": "On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I rarely or never walk"
-							},
-							{
-								"text": "Less than 500 meters (about 5-6 minutes)"
-							},
-							{
-								"text": "From 500 meters to 1 km (about 10-15 minutes)"
-							},
-							{
-								"text": "1 to 2 km (about 15-25 minutes)"
-							},
-							{
-								"text": "More than 2 km"
-							}
-						]
-					},
-					{
-						"text": "How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Inactive (0 days)"
-							},
-							{
-								"text": "Occasionally Active (1 day)"
-							},
-							{
-								"text": "Moderately Active (2–3 days)"
-							},
-							{
-								"text": "Highly Active (4–5 days)"
-							},
-							{
-								"text": "Daily / Near Daily (6–7 days)"
-							}
-						]
-					},
-					{
-						"text": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Very low (sedentary, easily fatigued)"
-							},
-							{
-								"text": "Low"
-							},
-							{
-								"text": "Moderate"
-							},
-							{
-								"text": "Good"
-							},
-							{
-								"text": "High"
-							}
-						]
-					},
-					{
-						"text": "What is your approximate height?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Less than 150 cm"
-							},
-							{
-								"text": "150-164 cm"
-							},
-							{
-								"text": "165-179 cm"
-							},
-							{
-								"text": "180-194 cm"
-							},
-							{
-								"text": "195 cm or more"
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "Living context",
-				"description": "Questions about where you live and how you move around Rome.",
-				"backgroundColor": "#f0f0f0",
-				"questions": [
-					{
-						"text": "Which of the following best describes your relationship to Municipio XII?",
-						"answer_key": "residence",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I live here (Resident)",
-								"value": "live"
-							},
-							{
-								"text": "I travel here regularly for work or study (Commuter)",
-								"value": "travel"
-							},
-							{
-								"text": "I’m visiting for leisure (Tourist)",
-								"value": "visit"
-							},
-							{
-								"text": "I’m here temporarily for another reason (Visitor)",
-								"value": "reason"
-							}
-						]
-					},
-					{
-						"text": "In which Municipio of Rome do you currently live?",
-						"question_type": "single_option",
-						"show_if": {
-							"residence": [
-								"visit",
-								"reason",
-								"travel"
-							]
-						},
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							},
-							{
-								"text": "6"
-							},
-							{
-								"text": "7"
-							},
-							{
-								"text": "8"
-							},
-							{
-								"text": "9"
-							},
-							{
-								"text": "10"
-							},
-							{
-								"text": "11"
-							},
-							{
-								"text": "13"
-							},
-							{
-								"text": "14"
-							},
-							{
-								"text": "15"
-							},
-							{
-								"text": "I live outside Rome"
-							},
-							{
-								"text": "I don't know"
-							}
-						]
-					},
-					{
-						"text": "In which neighbourhood of municipio XII do you currently live?",
-						"question_type": "single_option",
-						"show_if": {
-							"residence": "live"
-						},
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "BRAVETTA"
-							},
-							{
-								"text": "CASAL LUMBROSO"
-							},
-							{
-								"text": "COLLE AURELIO"
-							},
-							{
-								"text": "COLLI PORTUENSI"
-							},
-							{
-								"text": "LA PISANA"
-							},
-							{
-								"text": "MASSIMINA"
-							},
-							{
-								"text": "MONTEVERDE NUOVO"
-							},
-							{
-								"text": "MONTEVERDE VECCHIO"
-							},
-							{
-								"text": "PORTA PORTESE"
-							},
-							{
-								"text": "SANTA CECILIA"
-							},
-							{
-								"text": "VIGNACCIA"
-							},
-							{
-								"text": "VILLA TROILI"
-							},
-							{
-								"text": "VILLINI"
-							}
-						]
-					},
-					{
-						"text": "Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?",
-						"answer_key": "travel",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I mainly stay within my own Municipio",
-								"value": "stay"
-							},
-							{
-								"text": "I don't know",
-								"value": "idk"
-							},
-							{
-								"text": "1",
-								"value": "1"
-							},
-							{
-								"text": "2",
-								"value": "2"
-							},
-							{
-								"text": "3",
-								"value": "3"
-							},
-							{
-								"text": "4",
-								"value": "4"
-							},
-							{
-								"text": "5",
-								"value": "5"
-							},
-							{
-								"text": "6",
-								"value": "6"
-							},
-							{
-								"text": "7",
-								"value": "7"
-							},
-							{
-								"text": "8",
-								"value": "8"
-							},
-							{
-								"text": "9",
-								"value": "9"
-							},
-							{
-								"text": "10",
-								"value": "10"
-							},
-							{
-								"text": "11",
-								"value": "11"
-							},
-							{
-								"text": "12",
-								"value": "12"
-							},
-							{
-								"text": "13",
-								"value": "13"
-							},
-							{
-								"text": "14",
-								"value": "14"
-							},
-							{
-								"text": "15",
-								"value": "15"
-							}
-						]
-					},
-					{
-						"text": "Which is the second Municipio you travel in most frequently?",
-						"answer_key": "second",
-						"question_type": "single_option",
-						"show_if": {
-							"travel": [
-								"1",
-								"2",
-								"3",
-								"4",
-								"5",
-								"6",
-								"7",
-								"8",
-								"9",
-								"10",
-								"11",
-								"12",
-								"13",
-								"14",
-								"15"
-							]
-						},
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I don't know",
-								"value": "idk"
-							},
-							{
-								"text": "1",
-								"value": "1"
-							},
-							{
-								"text": "2",
-								"value": "2"
-							},
-							{
-								"text": "3",
-								"value": "3"
-							},
-							{
-								"text": "4",
-								"value": "4"
-							},
-							{
-								"text": "5",
-								"value": "5"
-							},
-							{
-								"text": "6",
-								"value": "6"
-							},
-							{
-								"text": "7",
-								"value": "7"
-							},
-							{
-								"text": "8",
-								"value": "8"
-							},
-							{
-								"text": "9",
-								"value": "9"
-							},
-							{
-								"text": "10",
-								"value": "10"
-							},
-							{
-								"text": "11",
-								"value": "11"
-							},
-							{
-								"text": "12",
-								"value": "12"
-							},
-							{
-								"text": "13",
-								"value": "13"
-							},
-							{
-								"text": "14",
-								"value": "14"
-							},
-							{
-								"text": "15",
-								"value": "15"
-							}
-						]
-					},
-					{
-						"text": "Which is the third Municipio you travel in most frequently?",
-						"question_type": "single_option",
-						"show_if": {
-							"second": [
-								"1",
-								"2",
-								"3",
-								"4",
-								"5",
-								"6",
-								"7",
-								"8",
-								"9",
-								"10",
-								"11",
-								"12",
-								"13",
-								"14",
-								"15"
-							]
-						},
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I don't know",
-								"value": "idk"
-							},
-							{
-								"text": "1",
-								"value": "1"
-							},
-							{
-								"text": "2",
-								"value": "2"
-							},
-							{
-								"text": "3",
-								"value": "3"
-							},
-							{
-								"text": "4",
-								"value": "4"
-							},
-							{
-								"text": "5",
-								"value": "5"
-							},
-							{
-								"text": "6",
-								"value": "6"
-							},
-							{
-								"text": "7",
-								"value": "7"
-							},
-							{
-								"text": "8",
-								"value": "8"
-							},
-							{
-								"text": "9",
-								"value": "9"
-							},
-							{
-								"text": "10",
-								"value": "10"
-							},
-							{
-								"text": "11",
-								"value": "11"
-							},
-							{
-								"text": "12",
-								"value": "12"
-							},
-							{
-								"text": "13",
-								"value": "13"
-							},
-							{
-								"text": "14",
-								"value": "14"
-							},
-							{
-								"text": "15",
-								"value": "15"
-							}
-						]
-					},
-					{
-						"text": "If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)",
+						"text": "Which of the following physical barriers do you face on your walking route? (Select all that apply)",
 						"question_type": "multiple_options",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Steps or steep curbs without ramps"
+							},
+							{
+								"text": "Missing or broken dropped kerbs at crossings"
+							},
+							{
+								"text": "Paths too narrow for a wheelchair, stroller, or two people to pass"
+							},
+							{
+								"text": "Uneven paving, holes, or soft ground (grass or gravel)"
+							},
+							{
+								"text": "Parked cars, trash bins, or construction signs blocking the path"
+							},
+							{
+								"text": "Overhanging branches or bushes narrowing the usable space"
+							},
+							{
+								"text": "Missing or broken tactile paving (for visually impaired users)"
+							},
+							{
+								"text": "I don't face any physical barrier"
+							},
+							{
+								"text": "Other"
+							}
+						]
+					},
+					{
+						"text": "How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "It does not affect my trip at all"
+							},
+							{
+								"text": "I notice it but it does not significantly change my behaviour or comfort"
+							},
+							{
+								"text": "I continue on the same path but it makes me feel uncomfortable, stressed, or more tired"
+							},
+							{
+								"text": "I swerve or switch to the other side of the road to avoid bad sections"
+							},
+							{
+								"text": "I completely avoid streets with bad pavement, even if the trip takes longer"
+							}
+						]
+					},
+					{
+						"text": "How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "I rarely encounter obstacles that affect my movement"
+							},
+							{
+								"text": "I occasionally need to walk around obstacles, but they do not significantly affect my journey"
+							},
+							{
+								"text": "Obstacles sometimes slow me down or make walking less comfortable"
+							},
+							{
+								"text": "Obstacles frequently force me to change my path or walk closer to traffic"
+							},
+							{
+								"text": "Obstacles regularly make the route difficult, stressful, or inaccessible"
+							}
+						]
+					},
+					{
+						"text": "To what extent does the steepness of your route affect your walking?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Not at all"
+							},
+							{
+								"text": "Slightly"
+							},
+							{
+								"text": "Moderately"
+							},
+							{
+								"text": "Significantly"
+							},
+							{
+								"text": "Extremely"
+							}
+						]
+					},
+					{
+						"text": "How does the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Crossings are well placed and I feel safe using them"
+							},
+							{
+								"text": "Crossings exist but I often feel rushed or uncertain while using them"
+							},
+							{
+								"text": "Crossings are too infrequent and I sometimes have to cross in unsafe places"
+							},
+							{
+								"text": "The poor quality or lack of crossings forces me to significantly change my route"
+							},
+							{
+								"text": "I avoid certain roads entirely because I cannot cross them safely on foot"
+							}
+						]
+					},
+					{
+						"text": "How does the availability of benches and rest areas affect your ability to complete your journey?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Seating has no influence on my travel choices or physical stamina"
+							},
+							{
+								"text": "I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish"
+							},
+							{
+								"text": "I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items"
+							},
+							{
+								"text": "I specifically choose routes with seating so I can take breaks, even if it is not the most direct path"
+							},
+							{
+								"text": "I rely on rest areas to make my journey possible; without them I could not travel this far"
+							}
+						]
+					},
+					{
+						"text": "How does the quality of street lighting affect your choice of route or your decision to walk after dark?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Lighting levels have no influence on my travel choices or comfort"
+							},
+							{
+								"text": "I notice poor lighting but it does not significantly change how or when I travel"
+							},
+							{
+								"text": "I still use the route but I move faster, avoid certain spots, or stay on high alert"
+							},
+							{
+								"text": "I take a much longer alternative route specifically to stay in better-lit areas"
+							},
+							{
+								"text": "I do not walk after dark because of poor lighting"
+							}
+						]
+					},
+					{
+						"text": "How does the presence (or lack) of trees, parks, or green spaces affect your route choice?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "They do not influence my route choice at all"
+							},
+							{
+								"text": "I notice greenery, but it rarely affects the routes I choose"
+							},
+							{
+								"text": "Green spaces sometimes influence the routes I choose"
+							},
+							{
+								"text": "I often prefer routes with trees, parks, or green spaces"
+							},
+							{
+								"text": "I actively choose routes because they are greener or more pleasant"
+							}
+						]
+					},
+					{
+						"text": "How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Heat and sun have no effect on my walking journeys"
+							},
+							{
+								"text": "I feel uncomfortable in the heat but I continue as planned"
+							},
+							{
+								"text": "I adjust my departure time or choose shadier routes when possible"
+							},
+							{
+								"text": "I significantly shorten or avoid walking trips during hot weather"
+							},
+							{
+								"text": "I stop walking outdoors entirely during the hottest periods"
+							}
+						]
+					},
+					{
+						"text": "How does the quality of signs and wayfinding on your route affect your confidence as a pedestrian?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "I never look at signs; their quality has no effect on my navigation"
+							},
+							{
+								"text": "I find signs helpful if I need them but I rarely feel lost"
+							},
+							{
+								"text": "I rely on signs to confirm I am on the right track or to find exits and crossings"
+							},
+							{
+								"text": "I often have to stop and double-check my position because signs are unclear or missing"
+							},
+							{
+								"text": "Signs are so poor that I cannot navigate without using a GPS or phone app"
+							}
+						]
+					},
+					{
+						"text": "How do traffic levels and congestion on your route typically affect your walking experience?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "The route is generally quiet or traffic has no influence on my walking experience"
+							},
+							{
+								"text": "I notice the traffic but feel physically separated and safe from it"
+							},
+							{
+								"text": "The traffic is frustrating but does not significantly affect my stress levels or route"
+							},
+							{
+								"text": "Traffic makes me feel constantly anxious or unsafe during my walk"
+							},
+							{
+								"text": "I choose much longer routes or change my travel times specifically to avoid heavy traffic"
+							}
+						]
+					},
+					{
+						"text": "Which categories of road users most negatively affect your sense of safety while walking? (Select up to 3 options)",
+						"question_type": "multiple_options",
+						"show_if": {
+							"main_mode": "walking"
+						},
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
 						"add_other": false,
@@ -872,40 +375,31 @@
 						"max_answers": 3,
 						"options": [
 							{
-								"text": "Work or university"
+								"text": "Car drivers"
 							},
 							{
-								"text": "Grocery shopping / supermarkets"
+								"text": "Motorcycle or scooter riders"
 							},
 							{
-								"text": "Healthcare (doctor, pharmacy, hospital)"
+								"text": "Bus drivers"
 							},
 							{
-								"text": "Schools or childcare"
+								"text": "Delivery vehicles (vans, cargo bikes, scooters)"
 							},
 							{
-								"text": "Leisure activities (restaurants, cafes, cinema, gym)"
+								"text": "Taxi or ride-hailing drivers"
 							},
 							{
-								"text": "Visiting friends or family"
+								"text": "Cyclists"
 							},
 							{
-								"text": "Administrative services (banks, offices, etc.)"
+								"text": "E-scooter riders"
 							},
 							{
-								"text": "Better prices or more choice of services elsewhere"
+								"text": "Other pedestrians"
 							},
 							{
-								"text": "Lack of services in my neighborhood"
-							},
-							{
-								"text": "Poor quality of services in my neighborhood"
-							},
-							{
-								"text": "I prefer other neighborhoods or areas"
-							},
-							{
-								"text": "I rarely or never travel outside my neighborhood"
+								"text": "None — no category of road user negatively affects my feeling of safety"
 							},
 							{
 								"text": "Other"
@@ -913,27 +407,130 @@
 						]
 					},
 					{
-						"text": "How strongly do you feel connected to the place where you live and the people in your community?",
+						"text": "How do cyclists and e-scooter riders affect your sense of safety while walking?",
 						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
 						"add_other": false,
 						"checks_inline": false,
 						"options": [
 							{
-								"text": "Not connected"
+								"text": "They do not affect my sense of safety while walking"
 							},
 							{
-								"text": "Somewhat disconnected"
+								"text": "I notice them, but I rarely feel unsafe or uncomfortable"
 							},
 							{
-								"text": "Neither connected nor disconnected"
+								"text": "I sometimes feel the need to pay extra attention or move aside"
 							},
 							{
-								"text": "Somewhat connected"
+								"text": "I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me"
 							},
 							{
-								"text": "Very connected"
+								"text": "Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous"
+							}
+						]
+					},
+					{
+						"text": "How does walking alongside or crossing high-speed roads (e.g., main roads or highways) affect your sense of safety?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "It does not affect my sense of safety"
+							},
+							{
+								"text": "I feel slightly uncomfortable but manage"
+							},
+							{
+								"text": "I feel unsafe and try to minimise time spent near high-speed roads"
+							},
+							{
+								"text": "I take significantly longer routes to avoid walking alongside high-speed roads"
+							},
+							{
+								"text": "I avoid trips that require me to walk alongside or cross high-speed roads"
+							}
+						]
+					},
+					{
+						"text": "Does walking as part of your daily travel contribute positively to your physical or mental health?",
+						"question_type": "single_option",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Not at all — I walk out of necessity, not choice"
+							},
+							{
+								"text": "A little — I appreciate it but it is not significant"
+							},
+							{
+								"text": "Moderately — it contributes to my overall activity level"
+							},
+							{
+								"text": "Quite a lot — it is an important part of my daily physical activity"
+							},
+							{
+								"text": "Very much — walking is a key part of my physical and mental wellbeing"
+							}
+						]
+					},
+					{
+						"text": "What improvements would most encourage you to walk more often or for longer distances? (Select up to 3 options)",
+						"question_type": "multiple_options",
+						"show_if": {
+							"main_mode": "walking"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"max_answers": 3,
+						"options": [
+							{
+								"text": "Better sidewalk conditions and maintenance"
+							},
+							{
+								"text": "More shade, trees, or green spaces along routes"
+							},
+							{
+								"text": "Better street lighting"
+							},
+							{
+								"text": "Safer crossings and reduced vehicle speeds"
+							},
+							{
+								"text": "More benches and rest areas"
+							},
+							{
+								"text": "Cleaner and better-maintained public spaces"
+							},
+							{
+								"text": "Better separation from cyclists and e-scooters"
+							},
+							{
+								"text": "Clearer wayfinding signs and maps"
+							},
+							{
+								"text": "Nothing — I am satisfied with current conditions"
+							},
+							{
+								"text": "Other"
 							}
 						]
 					}
@@ -1700,161 +1297,122 @@
 		},
 		"en": {
 			"code": "en",
+			"#SmartUrbanity - Your Experience on the Move": "SmartUrbanity - Your Experience on the Move",
+			"#Welcome to Walking": "Welcome to Walking",
+			"#This SmartUrbanity questionnaire focuses on your experience as a pedestrian. Your answers help us understand the conditions and barriers people face when walking in the city, and identify opportunities to make walking safer, more comfortable, and more enjoyable. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about": "This SmartUrbanity questionnaire focuses on your experience as a pedestrian. Your answers help us understand the conditions and barriers people face when walking in the city, and identify opportunities to make walking safer, more comfortable, and more enjoyable. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
+			"#Walking Habits": "Walking Habits",
+			"#Questions about how and when you walk as part of your daily travel.": "Questions about how and when you walk as part of your daily travel.",
+			"#Do you walk as a primary mode of travel at least once a week? (This means walking as the main way to complete a trip, not just short transfers between other modes.)": "Do you walk as a primary mode of travel at least once a week? (This means walking as the main way to complete a trip, not just short transfers between other modes.)",
 			"#Yes": "Yes",
 			"#No": "No",
-			"#SmartUrbanity - About You": "SmartUrbanity - About You",
-			"#Welcome to About You": "Welcome to About You",
-			"#This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about": "This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
-			"#Personal & Household": "Personal & Household",
-			"#A few background questions to help us understand who our participants are.": "A few background questions to help us understand who our participants are.",
-			"#What is your age group? (Participation is limited to adults aged 18 or older)": "What is your age group? (Participation is limited to adults aged 18 or older)",
-			"#18-24": "18-24",
-			"#25-34": "25-34",
-			"#35-44": "35-44",
-			"#45-54": "45-54",
-			"#55-64": "55-64",
-			"#65-74": "65-74",
-			"#75-84": "75-84",
-			"#85 or older": "85 or older",
-			"#Prefer not to say": "Prefer not to say",
-			"#What is your gender?": "What is your gender?",
-			"#Male": "Male",
-			"#Female": "Female",
+			"#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "Which of the following physical barriers do you face on your walking route? (Select all that apply)",
+			"#Steps or steep curbs without ramps": "Steps or steep curbs without ramps",
+			"#Missing or broken dropped kerbs at crossings": "Missing or broken dropped kerbs at crossings",
+			"#Paths too narrow for a wheelchair, stroller, or two people to pass": "Paths too narrow for a wheelchair, stroller, or two people to pass",
+			"#Uneven paving, holes, or soft ground (grass or gravel)": "Uneven paving, holes, or soft ground (grass or gravel)",
+			"#Parked cars, trash bins, or construction signs blocking the path": "Parked cars, trash bins, or construction signs blocking the path",
+			"#Overhanging branches or bushes narrowing the usable space": "Overhanging branches or bushes narrowing the usable space",
+			"#Missing or broken tactile paving (for visually impaired users)": "Missing or broken tactile paving (for visually impaired users)",
+			"#I don't face any physical barrier": "I don't face any physical barrier",
 			"#Other": "Other",
-			"#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
-			"#How many adults, including yourself, live together in your household?": "How many adults, including yourself, live together in your household?",
-			"#1 (only myself)": "1 (only myself)",
-			"#2": "2",
-			"#3": "3",
-			"#4": "4",
-			"#5 or more": "5 or more",
-			"#What is your highest completed level of education?": "What is your highest completed level of education?",
-			"#No qualification": "No qualification",
-			"#Lower secondary school": "Lower secondary school",
-			"#High school": "High school",
-			"#Bachelor degree or equivalent": "Bachelor degree or equivalent",
-			"#Master degree or equivalent": "Master degree or equivalent",
-			"#Doctorate degree": "Doctorate degree",
-			"#Which economic status do you think best describes your household?": "Which economic status do you think best describes your household?",
-			"#We struggle to cover basic needs": "We struggle to cover basic needs",
-			"#We can cover basic needs": "We can cover basic needs",
-			"#We can cover basic needs comfortably and have little money left over": "We can cover basic needs comfortably and have little money left over",
-			"#We can afford most things we want with occasional extra expenses": "We can afford most things we want with occasional extra expenses",
-			"#We are financially very comfortable and can easily afford extra expenses": "We are financially very comfortable and can easily afford extra expenses",
-			"#Which best describes your employment status?": "Which best describes your employment status?",
-			"#Employed full-time": "Employed full-time",
-			"#Employed part-time": "Employed part-time",
-			"#Occasionally employed": "Occasionally employed",
-			"#Self-employed/freelance full-time": "Self-employed/freelance full-time",
-			"#Self employed/freelance part-time": "Self employed/freelance part-time",
-			"#Homemaker": "Homemaker",
-			"#Retired": "Retired",
-			"#Unemployed looking for work": "Unemployed looking for work",
-			"#Unemployed not looking for work": "Unemployed not looking for work",
-			"#Adult learner (student)": "Adult learner (student)",
-			"#Do you currently work remotely (partly or fully)?": "Do you currently work remotely (partly or fully)?",
-			"#Yes (3+ days/week)": "Yes (3+ days/week)",
-			"#Occasionally (1-2 days/week)": "Occasionally (1-2 days/week)",
-			"#I am not currently employed": "I am not currently employed",
-			"#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
-			"#Somewhat (within a 1-2 hour window)": "Somewhat (within a 1-2 hour window)",
-			"#Do you have any condition or limitation that affects your ability to move independently?": "Do you have any condition or limitation that affects your ability to move independently?",
-			"#No, I can move independently": "No, I can move independently",
-			"#Yes, I have a temporary condition/limitation": "Yes, I have a temporary condition/limitation",
-			"#Yes, I have a permanent mobility condition/limitation": "Yes, I have a permanent mobility condition/limitation",
-			"#Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)": "Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)",
-			"#Do you belong to any of these groups?": "Do you belong to any of these groups?",
-			"#Urban planner": "Urban planner",
-			"#Policymaker": "Policymaker",
-			"#Environmental/sustainable mobility activist": "Environmental/sustainable mobility activist",
-			"#Content creator / communicator (social media, journalism, blogging)": "Content creator / communicator (social media, journalism, blogging)",
-			"#None": "None",
-			"#Physical Capability": "Physical Capability",
-			"#Questions about your physical capacity for active travel.": "Questions about your physical capacity for active travel.",
-			"#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?",
-			"#I rarely or never walk": "I rarely or never walk",
-			"#Less than 500 meters (about 5-6 minutes)": "Less than 500 meters (about 5-6 minutes)",
-			"#From 500 meters to 1 km (about 10-15 minutes)": "From 500 meters to 1 km (about 10-15 minutes)",
-			"#1 to 2 km (about 15-25 minutes)": "1 to 2 km (about 15-25 minutes)",
-			"#More than 2 km": "More than 2 km",
-			"#How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.": "How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.",
-			"#Inactive (0 days)": "Inactive (0 days)",
-			"#Occasionally Active (1 day)": "Occasionally Active (1 day)",
-			"#Moderately Active (2–3 days)": "Moderately Active (2–3 days)",
-			"#Highly Active (4–5 days)": "Highly Active (4–5 days)",
-			"#Daily / Near Daily (6–7 days)": "Daily / Near Daily (6–7 days)",
-			"#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
-			"#Very low (sedentary, easily fatigued)": "Very low (sedentary, easily fatigued)",
-			"#Low": "Low",
-			"#Moderate": "Moderate",
-			"#Good": "Good",
-			"#High": "High",
-			"#What is your approximate height?": "What is your approximate height?",
-			"#Less than 150 cm": "Less than 150 cm",
-			"#150-164 cm": "150-164 cm",
-			"#165-179 cm": "165-179 cm",
-			"#180-194 cm": "180-194 cm",
-			"#195 cm or more": "195 cm or more",
-			"#Living context": "Living context",
-			"#Questions about where you live and how you move around Rome.": "Questions about where you live and how you move around Rome.",
-			"#Which of the following best describes your relationship to Municipio XII?": "Which of the following best describes your relationship to Municipio XII?",
-			"#I live here (Resident)": "I live here (Resident)",
-			"#I travel here regularly for work or study (Commuter)": "I travel here regularly for work or study (Commuter)",
-			"#I’m visiting for leisure (Tourist)": "I’m visiting for leisure (Tourist)",
-			"#I’m here temporarily for another reason (Visitor)": "I’m here temporarily for another reason (Visitor)",
-			"#In which Municipio of Rome do you currently live?": "In which Municipio of Rome do you currently live?",
-			"#1": "1",
-			"#5": "5",
-			"#6": "6",
-			"#7": "7",
-			"#8": "8",
-			"#9": "9",
-			"#10": "10",
-			"#11": "11",
-			"#12": "12",
-			"#13": "13",
-			"#14": "14",
-			"#15": "15",
-			"#I live outside Rome": "I live outside Rome",
-			"#I don't know": "I don't know",
-			"#In which neighbourhood of municipio XII do you currently live?": "In which neighbourhood of municipio XII do you currently live?",
-			"#BRAVETTA": "BRAVETTA",
-			"#CASAL LUMBROSO": "CASAL LUMBROSO",
-			"#COLLE AURELIO": "COLLE AURELIO",
-			"#COLLI PORTUENSI": "COLLI PORTUENSI",
-			"#LA PISANA": "LA PISANA",
-			"#MASSIMINA": "MASSIMINA",
-			"#MONTEVERDE NUOVO": "MONTEVERDE NUOVO",
-			"#MONTEVERDE VECCHIO": "MONTEVERDE VECCHIO",
-			"#PORTA PORTESE": "PORTA PORTESE",
-			"#SANTA CECILIA": "SANTA CECILIA",
-			"#VIGNACCIA": "VIGNACCIA",
-			"#VILLA TROILI": "VILLA TROILI",
-			"#VILLINI": "VILLINI",
-			"#I mainly stay within my own Municipio": "I mainly stay within my own Municipio",
-			"#Which is the second Municipio you travel in most frequently?": "Which is the second Municipio you travel in most frequently?",
-			"#Which is the third Municipio you travel in most frequently?": "Which is the third Municipio you travel in most frequently?",
-			"#If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)": "If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)",
-			"#Work or university": "Work or university",
-			"#Grocery shopping / supermarkets": "Grocery shopping / supermarkets",
-			"#Healthcare (doctor, pharmacy, hospital)": "Healthcare (doctor, pharmacy, hospital)",
-			"#Schools or childcare": "Schools or childcare",
-			"#Leisure activities (restaurants, cafes, cinema, gym)": "Leisure activities (restaurants, cafes, cinema, gym)",
-			"#Visiting friends or family": "Visiting friends or family",
-			"#Administrative services (banks, offices, etc.)": "Administrative services (banks, offices, etc.)",
-			"#Better prices or more choice of services elsewhere": "Better prices or more choice of services elsewhere",
-			"#Lack of services in my neighborhood": "Lack of services in my neighborhood",
-			"#Poor quality of services in my neighborhood": "Poor quality of services in my neighborhood",
-			"#I prefer other neighborhoods or areas": "I prefer other neighborhoods or areas",
-			"#I rarely or never travel outside my neighborhood": "I rarely or never travel outside my neighborhood",
-			"#How strongly do you feel connected to the place where you live and the people in your community?": "How strongly do you feel connected to the place where you live and the people in your community?",
-			"#Not connected": "Not connected",
-			"#Somewhat disconnected": "Somewhat disconnected",
-			"#Neither connected nor disconnected": "Neither connected nor disconnected",
-			"#Somewhat connected": "Somewhat connected",
-			"#Very connected": "Very connected",
-			"#Do you hold a valid driving license? (Car, motorcycle or both)": "Do you hold a valid driving license? (Car, motorcycle or both)",
-			"#Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?": "Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?"
+			"#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?",
+			"#It does not affect my trip at all": "It does not affect my trip at all",
+			"#I notice it but it does not significantly change my behaviour or comfort": "I notice it but it does not significantly change my behaviour or comfort",
+			"#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "I continue on the same path but it makes me feel uncomfortable, stressed, or more tired",
+			"#I swerve or switch to the other side of the road to avoid bad sections": "I swerve or switch to the other side of the road to avoid bad sections",
+			"#I completely avoid streets with bad pavement, even if the trip takes longer": "I completely avoid streets with bad pavement, even if the trip takes longer",
+			"#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?",
+			"#I rarely encounter obstacles that affect my movement": "I rarely encounter obstacles that affect my movement",
+			"#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "I occasionally need to walk around obstacles, but they do not significantly affect my journey",
+			"#Obstacles sometimes slow me down or make walking less comfortable": "Obstacles sometimes slow me down or make walking less comfortable",
+			"#Obstacles frequently force me to change my path or walk closer to traffic": "Obstacles frequently force me to change my path or walk closer to traffic",
+			"#Obstacles regularly make the route difficult, stressful, or inaccessible": "Obstacles regularly make the route difficult, stressful, or inaccessible",
+			"#To what extent does the steepness of your route affect your walking?": "To what extent does the steepness of your route affect your walking?",
+			"#Not at all": "Not at all",
+			"#Slightly": "Slightly",
+			"#Moderately": "Moderately",
+			"#Significantly": "Significantly",
+			"#Extremely": "Extremely",
+			"#How does the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "How does the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?",
+			"#Crossings are well placed and I feel safe using them": "Crossings are well placed and I feel safe using them",
+			"#Crossings exist but I often feel rushed or uncertain while using them": "Crossings exist but I often feel rushed or uncertain while using them",
+			"#Crossings are too infrequent and I sometimes have to cross in unsafe places": "Crossings are too infrequent and I sometimes have to cross in unsafe places",
+			"#The poor quality or lack of crossings forces me to significantly change my route": "The poor quality or lack of crossings forces me to significantly change my route",
+			"#I avoid certain roads entirely because I cannot cross them safely on foot": "I avoid certain roads entirely because I cannot cross them safely on foot",
+			"#How does the availability of benches and rest areas affect your ability to complete your journey?": "How does the availability of benches and rest areas affect your ability to complete your journey?",
+			"#Seating has no influence on my travel choices or physical stamina": "Seating has no influence on my travel choices or physical stamina",
+			"#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish",
+			"#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items",
+			"#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "I specifically choose routes with seating so I can take breaks, even if it is not the most direct path",
+			"#I rely on rest areas to make my journey possible; without them I could not travel this far": "I rely on rest areas to make my journey possible; without them I could not travel this far",
+			"#How does the quality of street lighting affect your choice of route or your decision to walk after dark?": "How does the quality of street lighting affect your choice of route or your decision to walk after dark?",
+			"#Lighting levels have no influence on my travel choices or comfort": "Lighting levels have no influence on my travel choices or comfort",
+			"#I notice poor lighting but it does not significantly change how or when I travel": "I notice poor lighting but it does not significantly change how or when I travel",
+			"#I still use the route but I move faster, avoid certain spots, or stay on high alert": "I still use the route but I move faster, avoid certain spots, or stay on high alert",
+			"#I take a much longer alternative route specifically to stay in better-lit areas": "I take a much longer alternative route specifically to stay in better-lit areas",
+			"#I do not walk after dark because of poor lighting": "I do not walk after dark because of poor lighting",
+			"#How does the presence (or lack) of trees, parks, or green spaces affect your route choice?": "How does the presence (or lack) of trees, parks, or green spaces affect your route choice?",
+			"#They do not influence my route choice at all": "They do not influence my route choice at all",
+			"#I notice greenery, but it rarely affects the routes I choose": "I notice greenery, but it rarely affects the routes I choose",
+			"#Green spaces sometimes influence the routes I choose": "Green spaces sometimes influence the routes I choose",
+			"#I often prefer routes with trees, parks, or green spaces": "I often prefer routes with trees, parks, or green spaces",
+			"#I actively choose routes because they are greener or more pleasant": "I actively choose routes because they are greener or more pleasant",
+			"#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?",
+			"#Heat and sun have no effect on my walking journeys": "Heat and sun have no effect on my walking journeys",
+			"#I feel uncomfortable in the heat but I continue as planned": "I feel uncomfortable in the heat but I continue as planned",
+			"#I adjust my departure time or choose shadier routes when possible": "I adjust my departure time or choose shadier routes when possible",
+			"#I significantly shorten or avoid walking trips during hot weather": "I significantly shorten or avoid walking trips during hot weather",
+			"#I stop walking outdoors entirely during the hottest periods": "I stop walking outdoors entirely during the hottest periods",
+			"#How does the quality of signs and wayfinding on your route affect your confidence as a pedestrian?": "How does the quality of signs and wayfinding on your route affect your confidence as a pedestrian?",
+			"#I never look at signs; their quality has no effect on my navigation": "I never look at signs; their quality has no effect on my navigation",
+			"#I find signs helpful if I need them but I rarely feel lost": "I find signs helpful if I need them but I rarely feel lost",
+			"#I rely on signs to confirm I am on the right track or to find exits and crossings": "I rely on signs to confirm I am on the right track or to find exits and crossings",
+			"#I often have to stop and double-check my position because signs are unclear or missing": "I often have to stop and double-check my position because signs are unclear or missing",
+			"#Signs are so poor that I cannot navigate without using a GPS or phone app": "Signs are so poor that I cannot navigate without using a GPS or phone app",
+			"#How do traffic levels and congestion on your route typically affect your walking experience?": "How do traffic levels and congestion on your route typically affect your walking experience?",
+			"#The route is generally quiet or traffic has no influence on my walking experience": "The route is generally quiet or traffic has no influence on my walking experience",
+			"#I notice the traffic but feel physically separated and safe from it": "I notice the traffic but feel physically separated and safe from it",
+			"#The traffic is frustrating but does not significantly affect my stress levels or route": "The traffic is frustrating but does not significantly affect my stress levels or route",
+			"#Traffic makes me feel constantly anxious or unsafe during my walk": "Traffic makes me feel constantly anxious or unsafe during my walk",
+			"#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "I choose much longer routes or change my travel times specifically to avoid heavy traffic",
+			"#Which categories of road users most negatively affect your sense of safety while walking? (Select up to 3 options)": "Which categories of road users most negatively affect your sense of safety while walking? (Select up to 3 options)",
+			"#Car drivers": "Car drivers",
+			"#Motorcycle or scooter riders": "Motorcycle or scooter riders",
+			"#Bus drivers": "Bus drivers",
+			"#Delivery vehicles (vans, cargo bikes, scooters)": "Delivery vehicles (vans, cargo bikes, scooters)",
+			"#Taxi or ride-hailing drivers": "Taxi or ride-hailing drivers",
+			"#Cyclists": "Cyclists",
+			"#E-scooter riders": "E-scooter riders",
+			"#Other pedestrians": "Other pedestrians",
+			"#None — no category of road user negatively affects my feeling of safety": "None — no category of road user negatively affects my feeling of safety",
+			"#How do cyclists and e-scooter riders affect your sense of safety while walking?": "How do cyclists and e-scooter riders affect your sense of safety while walking?",
+			"#They do not affect my sense of safety while walking": "They do not affect my sense of safety while walking",
+			"#I notice them, but I rarely feel unsafe or uncomfortable": "I notice them, but I rarely feel unsafe or uncomfortable",
+			"#I sometimes feel the need to pay extra attention or move aside": "I sometimes feel the need to pay extra attention or move aside",
+			"#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me",
+			"#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous",
+			"#How does walking alongside or crossing high-speed roads (e.g., main roads or highways) affect your sense of safety?": "How does walking alongside or crossing high-speed roads (e.g., main roads or highways) affect your sense of safety?",
+			"#It does not affect my sense of safety": "It does not affect my sense of safety",
+			"#I feel slightly uncomfortable but manage": "I feel slightly uncomfortable but manage",
+			"#I feel unsafe and try to minimise time spent near high-speed roads": "I feel unsafe and try to minimise time spent near high-speed roads",
+			"#I take significantly longer routes to avoid walking alongside high-speed roads": "I take significantly longer routes to avoid walking alongside high-speed roads",
+			"#I avoid trips that require me to walk alongside or cross high-speed roads": "I avoid trips that require me to walk alongside or cross high-speed roads",
+			"#Does walking as part of your daily travel contribute positively to your physical or mental health?": "Does walking as part of your daily travel contribute positively to your physical or mental health?",
+			"#Not at all — I walk out of necessity, not choice": "Not at all — I walk out of necessity, not choice",
+			"#A little — I appreciate it but it is not significant": "A little — I appreciate it but it is not significant",
+			"#Moderately — it contributes to my overall activity level": "Moderately — it contributes to my overall activity level",
+			"#Quite a lot — it is an important part of my daily physical activity": "Quite a lot — it is an important part of my daily physical activity",
+			"#Very much — walking is a key part of my physical and mental wellbeing": "Very much — walking is a key part of my physical and mental wellbeing",
+			"#What improvements would most encourage you to walk more often or for longer distances? (Select up to 3 options)": "What improvements would most encourage you to walk more often or for longer distances? (Select up to 3 options)",
+			"#Better sidewalk conditions and maintenance": "Better sidewalk conditions and maintenance",
+			"#More shade, trees, or green spaces along routes": "More shade, trees, or green spaces along routes",
+			"#Better street lighting": "Better street lighting",
+			"#Safer crossings and reduced vehicle speeds": "Safer crossings and reduced vehicle speeds",
+			"#More benches and rest areas": "More benches and rest areas",
+			"#Cleaner and better-maintained public spaces": "Cleaner and better-maintained public spaces",
+			"#Better separation from cyclists and e-scooters": "Better separation from cyclists and e-scooters",
+			"#Clearer wayfinding signs and maps": "Clearer wayfinding signs and maps",
+			"#Nothing — I am satisfied with current conditions": "Nothing — I am satisfied with current conditions"
 		},
 		"fa": {
 			"#Geocode": "ژئوکد",
@@ -2178,7 +1736,7 @@
 			"#Review mode": "حالت بازبینی"
 		}
 	},
-	"id": "smarturbanity_about_you",
+	"id": "smarturbanity_walking",
 	"db_set": "questionnaires",
 	"default_language": "en"
 }
