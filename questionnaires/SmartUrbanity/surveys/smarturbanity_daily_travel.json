@@ -1,0 +1,554 @@
+{
+  "questionnaire": {
+    "name": "SmartUrbanity - Your Daily Travel",
+    "questionnaire_id": "smarturbanity_daily_travel",
+    "questionnaire_version": "0.0.1",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+    "title": "2. Your daily travel",
+    "sections": [
+      {
+        "title": "Welcome to Your Daily Travel",
+        "description": "This SmartUrbanity questionnaire focuses on your everyday mobility habits: the modes you use, how often you combine them, and which resources are available for your trips. Your answers help us understand daily travel patterns in the city. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
+        "backgroundColor": "#d3d3d3",
+        "questions": []
+      },
+      {
+        "title": "Mobility habits",
+        "description": "Questions about how you typically get around on a day-to-day basis.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Which travel mode do you most often use for your daily trips?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Walking (as the main mode for the trip, not short access or transfer walking)"
+              },
+              {
+                "text": "Car"
+              },
+              {
+                "text": "Car sharing"
+              },
+              {
+                "text": "Motorcycle"
+              },
+              {
+                "text": "Public transport"
+              },
+              {
+                "text": "Bicycle/e-bike (private)"
+              },
+              {
+                "text": "Bicycle/e-bike (shared)"
+              },
+              {
+                "text": "e-scooter (private)"
+              },
+              {
+                "text": "e-scooter (shared)"
+              },
+              {
+                "text": "Taxi/similar (e.g. Uber,Bolt)"
+              },
+              {
+                "text": "I don't travel regularly"
+              }
+            ]
+          },
+          {
+            "text": "Do you use any combination of the following modes in the same trip at least once a week? (Select all that apply)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Walking (as the main mode for most of the trip, not short access or transfer walking)"
+              },
+              {
+                "text": "Car"
+              },
+              {
+                "text": "Car sharing"
+              },
+              {
+                "text": "Motorcycle"
+              },
+              {
+                "text": "Public transport"
+              },
+              {
+                "text": "Bicycle/e-bike (private)"
+              },
+              {
+                "text": "Bicycle/e-bike (shared)"
+              },
+              {
+                "text": "e-scooter (private)"
+              },
+              {
+                "text": "e-scooter (shared)"
+              },
+              {
+                "text": "Taxi/similar (e.g. Uber,Bolt)"
+              },
+              {
+                "text": "I don't travel regularly"
+              }
+            ]
+          },
+          {
+            "text": "what difficulties do you experience in combining different transport modes (e.g., bike + public transport, car + metro, walking + bus) ? (Select up to 3 options)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Vehicles are too crowded (e.g. no space for bike,luggage,etc.)"
+              },
+              {
+                "text": "Poor coordination between modes (long waiting times,missed connections)"
+              },
+              {
+                "text": "Lack of infrastructure (e.g.no bike parking,no bike access on transit)"
+              },
+              {
+                "text": "Complicated transfers (stations far apart,unclear routes)"
+              },
+              {
+                "text": "Travel time becomes too long"
+              },
+              {
+                "text": "Cost is too high when combining modes"
+              },
+              {
+                "text": "Safety concerns (traffic,theft,unsafe areas)"
+              },
+              {
+                "text": "Lack of reliable information (schedules,delays)"
+              },
+              {
+                "text": "Physical effort is too high (e.g. carrying bike,walking long distances)"
+              },
+              {
+                "text": "Accessibility issues (stairs, no elevators, etc.)"
+              },
+              {
+                "text": "Weather-related difficulties"
+              },
+              {
+                "text": "I do not experience significant difficulties"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "When you face these difficulties, how do you mostly respond?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I stop using one of the modes (e.g. stop bringing my bike)"
+              },
+              {
+                "text": "I switch to a single mode (e.g. only car, only public transport)"
+              },
+              {
+                "text": "I change the time of travel (e.g. avoid peak hours)"
+              },
+              {
+                "text": "I change the route or transfer point"
+              },
+              {
+                "text": "I choose a different combination of modes"
+              },
+              {
+                "text": "I continue using the same combination despite difficulties"
+              },
+              {
+                "text": "I reduce how often I make that trip"
+              },
+              {
+                "text": "I look for alternative solutions (e.g. bike sharing instead of own bike)"
+              },
+              {
+                "text": "I avoid that trip entirely if possible"
+              },
+              {
+                "text": "I do not experience significant difficulties"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "How often do you use shared mobility services (bike-share, e-scooter)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "I never use shared mobility services."
+              },
+              {
+                "text": "Once a month or less"
+              },
+              {
+                "text": "2-3 times a month"
+              },
+              {
+                "text": "1-2 times a week"
+              },
+              {
+                "text": "3-5 times a week"
+              },
+              {
+                "text": "Daily"
+              }
+            ]
+          },
+          {
+            "text": "At what times of day do you most often travel? (Select all that apply)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Before 7:00"
+              },
+              {
+                "text": "7:00-10:00 (morning rush)"
+              },
+              {
+                "text": "10:00-14:00 (midday)"
+              },
+              {
+                "text": "14:00-18:00 (afternoon rush)"
+              },
+              {
+                "text": "18:00-20:00 (evening return)"
+              },
+              {
+                "text": "After 20:00 (evening/night)"
+              }
+            ]
+          },
+          {
+            "text": "Do you usually travel alone or with other people? (in your most often trips in a week)",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Mostly alone"
+              },
+              {
+                "text": "Often with family members"
+              },
+              {
+                "text": "Often with colleagues or friends"
+              }
+            ]
+          },
+          {
+            "text": "What is the primary reason of your most frequent journey? (Think about the trip you make most often in your weekly routine)",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Work or professional business"
+              },
+              {
+                "text": "Education"
+              },
+              {
+                "text": "Shopping or daily activities"
+              },
+              {
+                "text": "Appointments (medical,legal,banking)"
+              },
+              {
+                "text": "Social/Leisure"
+              },
+              {
+                "text": "Health/Exercise"
+              },
+              {
+                "text": "Caring/Escort"
+              }
+            ]
+          },
+          {
+            "text": "On average, how often do you make your most frequent journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "5 or more days a week (Daily/Commuter)"
+              },
+              {
+                "text": "3–4 days a week (Frequent)"
+              },
+              {
+                "text": "1–2 days a week (Regular)"
+              },
+              {
+                "text": "1–3 times a month (Occasional)"
+              },
+              {
+                "text": "Less than once a month (Rarely)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Preferences & Satisfaction",
+        "description": "Questions about what matters to you when choosing how to travel.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Overall, how satisfied are you with your current primary mode of transport?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very dissatisfied"
+              },
+              {
+                "text": "Dissatisfied"
+              },
+              {
+                "text": "Neither satisfied nor dissatisfied"
+              },
+              {
+                "text": "Satisfied"
+              },
+              {
+                "text": "Very satisfied"
+              }
+            ]
+          },
+          {
+            "text": "Which of the followings dissatisfies you the most with your current primary mode of transport? (Select up to 3 options)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "I am satisfied with my current primary mode of transport"
+              },
+              {
+                "text": "Travel Time/Speed"
+              },
+              {
+                "text": "Cost/Value for money"
+              },
+              {
+                "text": "Reliability/Predictability"
+              },
+              {
+                "text": "Comfort"
+              },
+              {
+                "text": "Safety/Security"
+              },
+              {
+                "text": "Accessibility/Convenience"
+              },
+              {
+                "text": "Crowding/Availability of space"
+              },
+              {
+                "text": "Environmental impact"
+              },
+              {
+                "text": "Lack of flexibility"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "When deciding your mode of travel,which of the following factors matter to you the most? (Select up to 3 options)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Financial Cost"
+              },
+              {
+                "text": "Physical Comfort and effort"
+              },
+              {
+                "text": "Mental Well-being"
+              },
+              {
+                "text": "Environmental Impact"
+              },
+              {
+                "text": "Reliability and Predictability"
+              },
+              {
+                "text": "Social status"
+              },
+              {
+                "text": "Personal safety and security"
+              },
+              {
+                "text": "Time Efficiency"
+              },
+              {
+                "text": "Flexibility and independence"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "description": "Questions about the vehicles and tools available to you for travel.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Which of the following vehicles are available in your household? (Select all that apply)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Car"
+              },
+              {
+                "text": "Motorcycle"
+              },
+              {
+                "text": "Bicycle/e-bike"
+              },
+              {
+                "text": "E-scooter"
+              },
+              {
+                "text": "Other"
+              },
+              {
+                "text": "None of above"
+              }
+            ]
+          },
+          {
+            "text": "Which of the following do you personally use regularly? (Select all that apply)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Car"
+              },
+              {
+                "text": "Motorcycle"
+              },
+              {
+                "text": "Bicycle/e-bike"
+              },
+              {
+                "text": "E-scooter"
+              },
+              {
+                "text": "Other"
+              },
+              {
+                "text": "None of above"
+              }
+            ]
+          },
+          {
+            "text": "If any vehicle is available in your household, how easy is it for you to use it when needed?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not applicable (no vehicles available)"
+              },
+              {
+                "text": "Very difficult (rarely available)"
+              },
+              {
+                "text": "Sometimes difficult (shared or with limited availability)"
+              },
+              {
+                "text": "Easy enough"
+              },
+              {
+                "text": "Very easy (almost always available)"
+              }
+            ]
+          },
+          {
+            "text": "How comfortable are you using navigation or map apps for travel?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very uncomfortable"
+              },
+              {
+                "text": "Somewhat uncomfortable"
+              },
+              {
+                "text": "Neither comfortable nor uncomfortable"
+              },
+              {
+                "text": "Somewhat comfortable"
+              },
+              {
+                "text": "Very comfortable"
+              },
+              {
+                "text": "I don't use it at all."
+              }
+			  ]
+          },
+          {
+            "text": "How comfortable are you using apps to buy or validate public transport tickets?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very uncomfortable"
+              },
+              {
+                "text": "Somewhat uncomfortable"
+              },
+              {
+                "text": "Neither comfortable nor uncomfortable"
+              },
+              {
+                "text": "Somewhat comfortable"
+              },
+              {
+                "text": "Very comfortable"
+              },
+              {
+                "text": "I don't use it at all."
+              }
+			  ]
+          },
+          {
+            "text": "How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Very uncomfortable"
+              },
+              {
+                "text": "Somewhat uncomfortable"
+              },
+              {
+                "text": "Neither comfortable nor uncomfortable"
+              },
+              {
+                "text": "Somewhat comfortable"
+              },
+              {
+                "text": "Very comfortable"
+              },
+              {
+                "text": "I don't use it at all."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

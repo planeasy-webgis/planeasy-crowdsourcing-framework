@@ -1,0 +1,253 @@
+{
+  "questionnaire": {
+    "name": "SmartUrbanity - Safety and Environment",
+    "questionnaire_id": "smarturbanity_safety_environment",
+    "questionnaire_version": "0.0.1",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+    "title": "3. Safety & Environment",
+    "sections": [
+      {
+        "title": "Welcome to Safety and Environment",
+        "description": "This SmartUrbanity questionnaire focuses on perceived safety, security and environmental conditions during your journeys. Your answers help us understand which street and urban factors influence comfort, risk and accessibility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
+        "backgroundColor": "#d3d3d3",
+        "questions": []
+      },
+      {
+        "title": "Safety Perception",
+        "description": "Questions about how safe and secure you feel during your typical journey (the trip you most commonly make in your daily life, such as travelling to work, university, school, shopping, or other regular activities). These questions refer both to safety (protection from accidents or physical harm) and security (protection from crime, harassment, or feeling unsafe).",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How secure (e.g. crime or harassment) do you feel on your typical journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not at all secure"
+              },
+              {
+                "text": "Slightly secure"
+              },
+              {
+                "text": "Moderately secure"
+              },
+              {
+                "text": "Very secure"
+              },
+              {
+                "text": "Completely secure"
+              }
+            ]
+          },
+          {
+            "text": "What factors most reduce your sense of security? (Select up to 3 options)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Poor lighting (e.g., dark streets, underpasses)"
+              },
+              {
+                "text": "Lack of people around (isolated or deserted areas)"
+              },
+              {
+                "text": "Presence of suspicious or aggressive individuals"
+              },
+              {
+                "text": "Overcrowding or chaotic environments"
+              },
+              {
+                "text": "Poor visibility (e.g., blind corners, obstructed views)"
+              },
+              {
+                "text": "Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)"
+              },
+              {
+                "text": "Lack of surveillance or security measures (e.g., no cameras, no staff)"
+              },
+              {
+                "text": "Previous personal or reported incidents in the area"
+              },
+              {
+                "text": "I don't feel unsecure at all"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not safe at all"
+              },
+              {
+                "text": "Slightly safe"
+              },
+              {
+                "text": "Moderately safe"
+              },
+              {
+                "text": "Very safe"
+              },
+              {
+                "text": "Completely safe"
+              }
+            ]
+          },
+          {
+            "text": "Which of the following situations on a trip do you consider unsafe? (Select up to 3 options.)",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Heavy or fast-moving traffic"
+              },
+              {
+                "text": "Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)"
+              },
+              {
+                "text": "Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)"
+              },
+              {
+                "text": "Poor visibility or limited sightlines"
+              },
+              {
+                "text": "Unsafe behavior from drivers, riders, or pedestrians"
+              },
+              {
+                "text": "Crowding or conflicts with other road users"
+              },
+              {
+                "text": "Absence of emergency services "
+              },
+              {
+                "text": "I don't feel unsafe at all"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Environmental Factors",
+        "description": "Questions about how your surroundings affect your travel experience.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Thinking about your typical journey, to what extent does noise from traffic bother or annoy you?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not at all"
+              },
+              {
+                "text": "Slightly"
+              },
+              {
+                "text": "Moderately"
+              },
+              {
+                "text": "Very"
+              },
+              {
+                "text": "Extremely"
+              }
+            ]
+          },
+          {
+            "text": "How does the air quality or pollution levels (eg. exhaust fumes, dust, or unpleasant odors) affect your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No effect at all"
+              },
+              {
+                "text": "I notice it but it doesn't change my behaviour"
+              },
+              {
+                "text": "It makes me adjust how I travel (e.g. mask, closed windows)"
+              },
+              {
+                "text": "It makes me change my route or travel at a different time"
+              },
+              {
+                "text": "It makes me switch to a different mode of transport entirely"
+              }
+            ]
+          },
+          {
+            "text": "If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No effect at all"
+              },
+              {
+                "text": "It makes my journey less comfortable, but I do not change how I travel"
+              },
+              {
+                "text": "It makes me adjust how I travel (e.g., clothing, preparation, or route)"
+              },
+              {
+                "text": "It makes me postpone or avoid some trips when possible"
+              },
+              {
+                "text": "It makes me switch to a different mode of transport"
+              }
+            ]
+          },
+          {
+            "text": "How does the cleanliness or maintenance of the paths and facilities (eg, litter, smells, or broken glass) affect your journey?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No effect on how I travel"
+              },
+              {
+                "text": "I notice it but carry on as usual"
+              },
+              {
+                "text": "It makes the journey unpleasant but I still use the route"
+              },
+              {
+                "text": "It makes me avoid certain stops or sections of the route"
+              },
+              {
+                "text": "It puts me off using this route entirely"
+              }
+            ]
+          },
+          {
+            "text": "How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Not at all — I do not pay attention to the visual environment"
+              },
+              {
+                "text": "Slightly — I notice the surroundings, but they rarely affect my experience"
+              },
+              {
+                "text": "Moderately — pleasant or unpleasant surroundings sometimes affect my mood during travel"
+              },
+              {
+                "text": "Strongly — the visual environment significantly affects my travel experience"
+              },
+              {
+                "text": "Very strongly — I sometimes choose routes because they are visually appealing or interesting"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
