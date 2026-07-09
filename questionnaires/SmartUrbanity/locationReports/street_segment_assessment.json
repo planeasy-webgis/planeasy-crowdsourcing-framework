@@ -1,0 +1,1758 @@
+{
+  "questionnaire": {
+    "name": "Street Segment Assessment",
+    "questionnaire_id": "street_segment_assessment",
+    "questionnaire_version": "1.0.0",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html",
+    "sections": [
+      {
+        "title": "Your point of view",
+        "description": "Select all that apply. This helps us understand the perspective of your assessment.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "You are assessing this street segment as...",
+            "answer_key": "assessment_perspective",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Pedestrian",
+                "value": "pedestrian"
+              },
+              {
+                "text": "Cyclist",
+                "value": "cyclist"
+              },
+              {
+                "text": "Driver",
+                "value": "driver"
+              },
+              {
+                "text": "Public transport passenger",
+                "value": "public_transport_passenger"
+              },
+              {
+                "text": "Wheelchair or mobility aid user",
+                "value": "mobility_aid_user"
+              },
+              {
+                "text": "Parent or caregiver with stroller",
+                "value": "stroller_caregiver"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Describe this street segment",
+        "description": "Look at the place. Answer only what you can see.",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "Is there a place for people to walk along this street?",
+            "answer_key": "walk_facility",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No place to walk – pedestrians must walk on the road",
+                "value": "no_walk_space"
+              },
+              {
+                "text": "Road shoulder available for walking",
+                "value": "shoulder"
+              },
+              {
+                "text": "Shared pedestrian and bicycle path",
+                "value": "shared_ped_bike_path"
+              },
+              {
+                "text": "Walking area at the same level as the road",
+                "value": "level_walking_area"
+              },
+              {
+                "text": "Raised sidewalk",
+                "value": "raised_sidewalk"
+              },
+              {
+                "text": "Dedicated walking street or pedestrian area",
+                "value": "dedicated_pedestrian_area"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "pedestrian",
+                "mobility_aid_user",
+                "stroller_caregiver"
+              ]
+            }
+          },
+          {
+            "text": "If there is a raised sidewalk, how is it protected from traffic?",
+            "answer_key": "raised_sidewalk_protection",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Raised only, no extra protection",
+                "value": "raised_only"
+              },
+              {
+                "text": "Bollards",
+                "value": "bollards"
+              },
+              {
+                "text": "Guard rails or fencing",
+                "value": "guard_rails_fencing"
+              },
+              {
+                "text": "Planted strip, bushes, or planters",
+                "value": "planted_strip"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "walk_facility": "raised_sidewalk"
+            }
+          },
+          {
+            "text": "If the walking area is at road level, how is it separated from traffic?",
+            "answer_key": "level_walking_separation",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Road markings or paint only",
+                "value": "markings_only"
+              },
+              {
+                "text": "Bollards",
+                "value": "bollards"
+              },
+              {
+                "text": "Guard rail or barrier",
+                "value": "barrier"
+              },
+              {
+                "text": "Planted strip, bushes, or planters",
+                "value": "planted_strip"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "walk_facility": "level_walking_area"
+            }
+          },
+          {
+            "text": "Does this walking path include stairs?",
+            "answer_key": "walking_stairs_present",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No",
+                "value": "no"
+              },
+              {
+                "text": "Yes",
+                "value": "yes"
+              }
+            ],
+            "show_if": {
+              "walk_facility": "dedicated_pedestrian_area"
+            }
+          },
+          {
+            "text": "How many steps are there?",
+            "answer_key": "walking_stairs_extent",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "A few steps, up to about 10",
+                "value": "1_few_steps"
+              },
+              {
+                "text": "About 11–20 steps",
+                "value": "2_11_20_steps"
+              },
+              {
+                "text": "More than 20 steps",
+                "value": "3_more_than_20_steps"
+              }
+            ],
+            "show_if": {
+              "walking_stairs_present": "yes"
+            }
+          },
+          {
+            "text": "How easy is it for people to pass each other on the walking path?",
+            "answer_key": "walking_width_passability",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Only one person can walk at a time",
+                "value": "1_one_person_only"
+              },
+              {
+                "text": "Two people can pass, but one usually steps aside",
+                "value": "2_pass_with_step_aside"
+              },
+              {
+                "text": "Two people can walk side by side",
+                "value": "3_two_side_by_side"
+              },
+              {
+                "text": "Small groups can pass each other",
+                "value": "4_small_groups"
+              },
+              {
+                "text": "Very wide, free pedestrian movement",
+                "value": "5_very_wide"
+              }
+            ],
+            "show_if": {
+              "walk_facility": [
+                "shoulder",
+                "shared_ped_bike_path",
+                "level_walking_area",
+                "raised_sidewalk",
+                "dedicated_pedestrian_area"
+              ]
+            }
+          },
+          {
+            "text": "What problems affect the walking surface?",
+            "answer_key": "walking_surface_problems",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No clear problem",
+                "value": "none"
+              },
+              {
+                "text": "Uneven surface",
+                "value": "uneven_surface"
+              },
+              {
+                "text": "Cracks",
+                "value": "cracks"
+              },
+              {
+                "text": "Potholes",
+                "value": "potholes"
+              },
+              {
+                "text": "Raised edges or bumps",
+                "value": "raised_edges_bumps"
+              },
+              {
+                "text": "Tree roots",
+                "value": "tree_roots"
+              },
+              {
+                "text": "Side slope feels uncomfortable",
+                "value": "side_slope"
+              },
+              {
+                "text": "Steps or sudden level changes",
+                "value": "level_changes"
+              },
+              {
+                "text": "Slippery when wet",
+                "value": "slippery_wet"
+              },
+              {
+                "text": "Water collects after rain",
+                "value": "water_collects"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "walk_facility": [
+                "shoulder",
+                "shared_ped_bike_path",
+                "level_walking_area",
+                "raised_sidewalk",
+                "dedicated_pedestrian_area"
+              ]
+            }
+          },
+          {
+            "text": "What obstacles reduce the walking space?",
+            "answer_key": "walking_obstacles",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No clear obstacle",
+                "value": "none"
+              },
+              {
+                "text": "Parked cars",
+                "value": "parked_cars"
+              },
+              {
+                "text": "Bicycles, e-scooters, or motorcycles parked on the sidewalk",
+                "value": "micromobility_parked"
+              },
+              {
+                "text": "Trees, poles, signs, or utility boxes",
+                "value": "fixed_objects"
+              },
+              {
+                "text": "Overgrown plants or weeds",
+                "value": "vegetation"
+              },
+              {
+                "text": "Outdoor café or restaurant seating",
+                "value": "outdoor_seating"
+              },
+              {
+                "text": "Shop displays or street vendors",
+                "value": "shop_displays_vendors"
+              },
+              {
+                "text": "Waste bins or rubbish bags",
+                "value": "waste_bins_bags"
+              },
+              {
+                "text": "Dog waste",
+                "value": "dog_waste"
+              },
+              {
+                "text": "Construction works",
+                "value": "construction"
+              },
+              {
+                "text": "People waiting in queues",
+                "value": "queues"
+              },
+              {
+                "text": "Flooded areas after rain",
+                "value": "flooding"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "walk_facility": [
+                "shoulder",
+                "shared_ped_bike_path",
+                "level_walking_area",
+                "raised_sidewalk",
+                "dedicated_pedestrian_area"
+              ]
+            }
+          },
+          {
+            "text": "Which accessibility features are available?",
+            "answer_key": "walking_accessibility_features",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Suitable for wheelchair users",
+                "value": "wheelchair_suitable"
+              },
+              {
+                "text": "Suitable for strollers",
+                "value": "stroller_suitable"
+              },
+              {
+                "text": "Tactile paving for visually impaired people",
+                "value": "tactile_paving"
+              },
+              {
+                "text": "Benches or resting places",
+                "value": "resting_places"
+              },
+              {
+                "text": "None of these",
+                "value": "none"
+              }
+            ],
+            "show_if": {
+              "walk_facility": [
+                "shoulder",
+                "shared_ped_bike_path",
+                "level_walking_area",
+                "raised_sidewalk",
+                "dedicated_pedestrian_area"
+              ]
+            }
+          },
+          {
+            "text": "Is there cycling infrastructure on this street?",
+            "answer_key": "bike_facility",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No cycling facility",
+                "value": "no_bike_facility"
+              },
+              {
+                "text": "Cycling shared with other road users",
+                "value": "shared_with_traffic"
+              },
+              {
+                "text": "Dedicated cycling infrastructure",
+                "value": "dedicated_bike_facility"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "cyclist"
+              ]
+            }
+          },
+          {
+            "text": "Is the cycling infrastructure one-way or two-way?",
+            "answer_key": "bike_direction",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "One-way cycling facility",
+                "value": "one_way"
+              },
+              {
+                "text": "Two-way cycling facility",
+                "value": "two_way"
+              }
+            ],
+            "show_if": {
+              "bike_facility": "dedicated_bike_facility"
+            }
+          },
+          {
+            "text": "How is the cycling infrastructure separated from other users?",
+            "answer_key": "bike_separation",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Paint or road markings only",
+                "value": "markings_only"
+              },
+              {
+                "text": "Bollards, barriers, kerbs, or planters",
+                "value": "physical_separation"
+              },
+              {
+                "text": "Parked cars",
+                "value": "parked_cars"
+              },
+              {
+                "text": "Separate space from pedestrians, same level",
+                "value": "separate_same_level"
+              },
+              {
+                "text": "Different level or kerb from pedestrians",
+                "value": "different_level_from_pedestrians"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "bike_facility": "dedicated_bike_facility"
+            }
+          },
+          {
+            "text": "Which other users commonly enter the cycling space?",
+            "answer_key": "bike_intrusion_users",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "None",
+                "value": "none"
+              },
+              {
+                "text": "Cars",
+                "value": "cars"
+              },
+              {
+                "text": "Motorcycles",
+                "value": "motorcycles"
+              },
+              {
+                "text": "Public transport vehicles",
+                "value": "public_transport_vehicles"
+              },
+              {
+                "text": "Pedestrians",
+                "value": "pedestrians"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "bike_facility": [
+                "shared_with_traffic",
+                "dedicated_bike_facility"
+              ]
+            }
+          },
+          {
+            "text": "What surface does the cycling space have?",
+            "answer_key": "bike_surface_type",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Smooth asphalt",
+                "value": "smooth_asphalt"
+              },
+              {
+                "text": "Standard road asphalt",
+                "value": "standard_asphalt"
+              },
+              {
+                "text": "Concrete",
+                "value": "concrete"
+              },
+              {
+                "text": "Blocks or tiles",
+                "value": "blocks_tiles"
+              },
+              {
+                "text": "Cobblestones",
+                "value": "cobblestones"
+              },
+              {
+                "text": "Compacted gravel or crushed stone",
+                "value": "compacted_gravel"
+              },
+              {
+                "text": "Mixed surface types",
+                "value": "mixed"
+              },
+              {
+                "text": "Other or unclear",
+                "value": "other_unclear"
+              }
+            ],
+            "show_if": {
+              "bike_facility": [
+                "shared_with_traffic",
+                "dedicated_bike_facility"
+              ]
+            }
+          },
+          {
+            "text": "What problems affect cycling comfort?",
+            "answer_key": "bike_surface_problems",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No clear problem",
+                "value": "none"
+              },
+              {
+                "text": "Uneven surface",
+                "value": "uneven_surface"
+              },
+              {
+                "text": "Cracks",
+                "value": "cracks"
+              },
+              {
+                "text": "Potholes",
+                "value": "potholes"
+              },
+              {
+                "text": "Raised edges or bumps",
+                "value": "raised_edges_bumps"
+              },
+              {
+                "text": "Tree roots",
+                "value": "tree_roots"
+              },
+              {
+                "text": "Slippery when wet",
+                "value": "slippery_wet"
+              },
+              {
+                "text": "Loose gravel or debris",
+                "value": "loose_gravel_debris"
+              },
+              {
+                "text": "Sudden level changes",
+                "value": "level_changes"
+              },
+              {
+                "text": "Uncomfortable vibration",
+                "value": "surface_vibration"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "bike_facility": [
+                "shared_with_traffic",
+                "dedicated_bike_facility"
+              ]
+            }
+          },
+          {
+            "text": "What obstacles make cycling difficult?",
+            "answer_key": "bike_obstacles",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No clear obstacle",
+                "value": "none"
+              },
+              {
+                "text": "Narrow sections",
+                "value": "narrow_sections"
+              },
+              {
+                "text": "Parked cars",
+                "value": "parked_cars"
+              },
+              {
+                "text": "Vehicles stopping in the cycle lane",
+                "value": "vehicles_stopping"
+              },
+              {
+                "text": "E-scooters, bicycles, or motorcycles parked on the facility",
+                "value": "micromobility_parked"
+              },
+              {
+                "text": "Trees, poles, signs, or utility boxes",
+                "value": "fixed_objects"
+              },
+              {
+                "text": "Outdoor café or restaurant seating",
+                "value": "outdoor_seating"
+              },
+              {
+                "text": "Shop displays or street vendors",
+                "value": "shop_displays_vendors"
+              },
+              {
+                "text": "Waste bins or rubbish bags",
+                "value": "waste_bins_bags"
+              },
+              {
+                "text": "Construction works",
+                "value": "construction"
+              },
+              {
+                "text": "Flooded areas after rain",
+                "value": "flooding"
+              },
+              {
+                "text": "Public transport stop or people waiting",
+                "value": "pt_stop_waiting"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "bike_facility": [
+                "shared_with_traffic",
+                "dedicated_bike_facility"
+              ]
+            }
+          },
+          {
+            "text": "Are there conflict points with vehicle access?",
+            "answer_key": "bike_vehicle_conflict_points",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No clear conflict point",
+                "value": "1_no"
+              },
+              {
+                "text": "A few conflict points",
+                "value": "2_few"
+              },
+              {
+                "text": "Several conflict points",
+                "value": "3_several"
+              },
+              {
+                "text": "Conflict points are frequent",
+                "value": "4_frequent"
+              },
+              {
+                "text": "Conflict points are constant or very dangerous",
+                "value": "5_constant_dangerous"
+              }
+            ],
+            "show_if": {
+              "bike_facility": [
+                "shared_with_traffic",
+                "dedicated_bike_facility"
+              ]
+            }
+          },
+          {
+            "text": "How fast does motor traffic feel on this street?",
+            "answer_key": "traffic_speed_feeling",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Very slow or traffic-calmed",
+                "value": "1_very_slow"
+              },
+              {
+                "text": "Slow",
+                "value": "2_slow"
+              },
+              {
+                "text": "Moderate",
+                "value": "3_moderate"
+              },
+              {
+                "text": "Fast",
+                "value": "4_fast"
+              },
+              {
+                "text": "Very fast",
+                "value": "5_very_fast"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "driver",
+                "pedestrian",
+                "cyclist",
+                "mobility_aid_user",
+                "stroller_caregiver"
+              ]
+            }
+          },
+          {
+            "text": "What makes traffic interaction difficult here?",
+            "answer_key": "traffic_interaction_problems",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No clear problem",
+                "value": "none"
+              },
+              {
+                "text": "Poor visibility",
+                "value": "poor_visibility"
+              },
+              {
+                "text": "Vehicles drive too fast",
+                "value": "vehicles_too_fast"
+              },
+              {
+                "text": "Vehicles pass too close",
+                "value": "close_passing"
+              },
+              {
+                "text": "Difficult turns or side access",
+                "value": "difficult_turns_access"
+              },
+              {
+                "text": "Double parking or stopped vehicles",
+                "value": "double_parking_stopped"
+              },
+              {
+                "text": "Bus or tram interaction",
+                "value": "pt_interaction"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "driver",
+                "pedestrian",
+                "cyclist",
+                "mobility_aid_user",
+                "stroller_caregiver"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Your experience here",
+        "description": "Answer based on your experience, or choose I don't know.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Which best describes using this street segment?",
+            "answer_key": "segment_use_difficulty_experience",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "I can pass without slowing down",
+                "value": "1_no_slowing_down"
+              },
+              {
+                "text": "I need to slow down a little",
+                "value": "2_slow_down"
+              },
+              {
+                "text": "I need to be careful while passing",
+                "value": "3_be_careful"
+              },
+              {
+                "text": "I need a lot of effort or attention",
+                "value": "4_high_effort_attention"
+              },
+              {
+                "text": "I avoid using it if possible",
+                "value": "5_avoid_if_possible"
+              }
+            ]
+          },
+          {
+            "text": "How risky does it feel to use this street segment?",
+            "answer_key": "segment_perceived_risk",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Not risky",
+                "value": "1_not_risky"
+              },
+              {
+                "text": "Slightly risky",
+                "value": "2_slightly_risky"
+              },
+              {
+                "text": "Moderately risky",
+                "value": "3_moderately_risky"
+              },
+              {
+                "text": "Very risky",
+                "value": "4_very_risky"
+              },
+              {
+                "text": "Extremely risky",
+                "value": "5_extremely_risky"
+              }
+            ]
+          },
+          {
+            "text": "How stressful does it feel to use this street segment?",
+            "answer_key": "segment_perceived_stress",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Not stressful",
+                "value": "1_not_stressful"
+              },
+              {
+                "text": "Slightly stressful",
+                "value": "2_slightly_stressful"
+              },
+              {
+                "text": "Moderately stressful",
+                "value": "3_moderately_stressful"
+              },
+              {
+                "text": "Very stressful",
+                "value": "4_very_stressful"
+              },
+              {
+                "text": "Extremely stressful",
+                "value": "5_extremely_stressful"
+              }
+            ]
+          },
+          {
+            "text": "How often do surface problems slow you down or make you change path?",
+            "answer_key": "surface_problem_frequency",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Never or almost never",
+                "value": "1_never"
+              },
+              {
+                "text": "Rarely",
+                "value": "2_rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "3_sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "4_often"
+              },
+              {
+                "text": "Very often",
+                "value": "5_very_often"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "pedestrian",
+                "cyclist",
+                "mobility_aid_user",
+                "stroller_caregiver"
+              ]
+            }
+          },
+          {
+            "text": "How often do obstacles block or reduce your space?",
+            "answer_key": "obstacle_frequency",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Never or almost never",
+                "value": "1_never"
+              },
+              {
+                "text": "Rarely",
+                "value": "2_rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "3_sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "4_often"
+              },
+              {
+                "text": "Very often",
+                "value": "5_very_often"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "pedestrian",
+                "cyclist",
+                "mobility_aid_user",
+                "stroller_caregiver"
+              ]
+            }
+          },
+          {
+            "text": "How often does this segment feel too crowded?",
+            "answer_key": "crowding_frequency",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Never or almost never",
+                "value": "1_never"
+              },
+              {
+                "text": "Rarely",
+                "value": "2_rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "3_sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "4_often"
+              },
+              {
+                "text": "Very often",
+                "value": "5_very_often"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "pedestrian",
+                "mobility_aid_user",
+                "stroller_caregiver"
+              ]
+            }
+          },
+          {
+            "text": "How often do other users enter the cycling space?",
+            "answer_key": "bike_intrusion_frequency",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Never or almost never",
+                "value": "1_never"
+              },
+              {
+                "text": "Rarely",
+                "value": "2_rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "3_sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "4_often"
+              },
+              {
+                "text": "Very often",
+                "value": "5_very_often"
+              }
+            ],
+            "show_if": {
+              "bike_intrusion_users": [
+                "cars",
+                "motorcycles",
+                "public_transport_vehicles",
+                "pedestrians",
+                "other"
+              ]
+            }
+          },
+          {
+            "text": "How often do vehicles pass too close or make you feel unsafe?",
+            "answer_key": "close_passing_frequency",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Never or almost never",
+                "value": "1_never"
+              },
+              {
+                "text": "Rarely",
+                "value": "2_rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "3_sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "4_often"
+              },
+              {
+                "text": "Very often",
+                "value": "5_very_often"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "cyclist",
+                "pedestrian",
+                "mobility_aid_user",
+                "stroller_caregiver"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Improve this street segment",
+        "description": "Tell us whether improving this segment should be a priority.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How often do you use or pass this street segment?",
+            "answer_key": "segment_use_frequency",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "This is my first time",
+                "value": "1_first_time"
+              },
+              {
+                "text": "Less than once a month",
+                "value": "2_less_than_monthly"
+              },
+              {
+                "text": "A few times a month",
+                "value": "3_monthly"
+              },
+              {
+                "text": "A few times a week",
+                "value": "4_weekly"
+              },
+              {
+                "text": "Almost every day",
+                "value": "5_daily"
+              }
+            ]
+          },
+          {
+            "text": "Should a walking path be added here?",
+            "answer_key": "desired_walking_path",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No",
+                "value": "1_no"
+              },
+              {
+                "text": "Probably no",
+                "value": "2_probably_no"
+              },
+              {
+                "text": "Not sure",
+                "value": "3_not_sure"
+              },
+              {
+                "text": "Probably yes",
+                "value": "4_probably_yes"
+              },
+              {
+                "text": "Yes",
+                "value": "5_yes"
+              }
+            ],
+            "show_if": {
+              "walk_facility": "no_walk_space"
+            }
+          },
+          {
+            "text": "Should cycling infrastructure be added here?",
+            "answer_key": "desired_bike_facility",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No",
+                "value": "1_no"
+              },
+              {
+                "text": "Probably no",
+                "value": "2_probably_no"
+              },
+              {
+                "text": "Not sure",
+                "value": "3_not_sure"
+              },
+              {
+                "text": "Probably yes",
+                "value": "4_probably_yes"
+              },
+              {
+                "text": "Yes",
+                "value": "5_yes"
+              }
+            ],
+            "show_if": {
+              "bike_facility": "no_bike_facility"
+            }
+          },
+          {
+            "text": "How urgent is it to improve this street segment?",
+            "answer_key": "segment_improvement_importance",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Not urgent",
+                "value": "1_not_urgent"
+              },
+              {
+                "text": "Slightly urgent",
+                "value": "2_slightly_urgent"
+              },
+              {
+                "text": "Moderately urgent",
+                "value": "3_moderately_urgent"
+              },
+              {
+                "text": "Urgent",
+                "value": "4_urgent"
+              },
+              {
+                "text": "Very urgent",
+                "value": "5_very_urgent"
+              }
+            ]
+          },
+          {
+            "text": "What would improve this street segment most?",
+            "answer_key": "main_segment_improvements_needed",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": true,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Add or widen walking space",
+                "value": "add_widen_walking_space"
+              },
+              {
+                "text": "Add or improve cycling infrastructure",
+                "value": "add_improve_cycling_infrastructure"
+              },
+              {
+                "text": "Repair the surface",
+                "value": "repair_surface"
+              },
+              {
+                "text": "Remove obstacles",
+                "value": "remove_obstacles"
+              },
+              {
+                "text": "Improve accessibility for older or disabled people",
+                "value": "accessibility_improvement"
+              },
+              {
+                "text": "Improve lighting",
+                "value": "better_lighting"
+              },
+              {
+                "text": "Add shade or heat protection",
+                "value": "shade_heat_protection"
+              },
+              {
+                "text": "Reduce vehicle speed",
+                "value": "traffic_calming"
+              },
+              {
+                "text": "Improve separation from traffic",
+                "value": "traffic_separation"
+              },
+              {
+                "text": "Improve maintenance or cleaning",
+                "value": "maintenance_cleaning"
+              },
+              {
+                "text": "Nothing important",
+                "value": "nothing"
+              }
+            ]
+          },
+          {
+            "text": "Anything else you want to add?",
+            "answer_key": "additional_comments",
+            "question_type": "text",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "en": {
+      "code": "en",
+      "#Your point of view": "Your point of view",
+      "#Select all that apply. This helps us understand the perspective of your assessment.": "Select all that apply. This helps us understand the perspective of your assessment.",
+      "#You are assessing this street segment as...": "You are assessing this street segment as...",
+      "#Pedestrian": "Pedestrian",
+      "#Cyclist": "Cyclist",
+      "#Driver": "Driver",
+      "#Public transport passenger": "Public transport passenger",
+      "#Wheelchair or mobility aid user": "Wheelchair or mobility aid user",
+      "#Parent or caregiver with stroller": "Parent or caregiver with stroller",
+      "#Other": "Other",
+      "#Describe this street segment": "Describe this street segment",
+      "#Look at the place. Answer only what you can see.": "Look at the place. Answer only what you can see.",
+      "#Is there a place for people to walk along this street?": "Is there a place for people to walk along this street?",
+      "#No place to walk – pedestrians must walk on the road": "No place to walk – pedestrians must walk on the road",
+      "#Road shoulder available for walking": "Road shoulder available for walking",
+      "#Shared pedestrian and bicycle path": "Shared pedestrian and bicycle path",
+      "#Walking area at the same level as the road": "Walking area at the same level as the road",
+      "#Raised sidewalk": "Raised sidewalk",
+      "#Dedicated walking street or pedestrian area": "Dedicated walking street or pedestrian area",
+      "#If there is a raised sidewalk, how is it protected from traffic?": "If there is a raised sidewalk, how is it protected from traffic?",
+      "#Raised only, no extra protection": "Raised only, no extra protection",
+      "#Bollards": "Bollards",
+      "#Guard rails or fencing": "Guard rails or fencing",
+      "#Planted strip, bushes, or planters": "Planted strip, bushes, or planters",
+      "#If the walking area is at road level, how is it separated from traffic?": "If the walking area is at road level, how is it separated from traffic?",
+      "#Road markings or paint only": "Road markings or paint only",
+      "#Guard rail or barrier": "Guard rail or barrier",
+      "#Does this walking path include stairs?": "Does this walking path include stairs?",
+      "#No": "No",
+      "#Yes": "Yes",
+      "#How many steps are there?": "How many steps are there?",
+      "#A few steps, up to about 10": "A few steps, up to about 10",
+      "#About 11–20 steps": "About 11–20 steps",
+      "#More than 20 steps": "More than 20 steps",
+      "#How easy is it for people to pass each other on the walking path?": "How easy is it for people to pass each other on the walking path?",
+      "#Only one person can walk at a time": "Only one person can walk at a time",
+      "#Two people can pass, but one usually steps aside": "Two people can pass, but one usually steps aside",
+      "#Two people can walk side by side": "Two people can walk side by side",
+      "#Small groups can pass each other": "Small groups can pass each other",
+      "#Very wide, free pedestrian movement": "Very wide, free pedestrian movement",
+      "#What problems affect the walking surface?": "What problems affect the walking surface?",
+      "#No clear problem": "No clear problem",
+      "#Uneven surface": "Uneven surface",
+      "#Cracks": "Cracks",
+      "#Potholes": "Potholes",
+      "#Raised edges or bumps": "Raised edges or bumps",
+      "#Tree roots": "Tree roots",
+      "#Side slope feels uncomfortable": "Side slope feels uncomfortable",
+      "#Steps or sudden level changes": "Steps or sudden level changes",
+      "#Slippery when wet": "Slippery when wet",
+      "#Water collects after rain": "Water collects after rain",
+      "#What obstacles reduce the walking space?": "What obstacles reduce the walking space?",
+      "#No clear obstacle": "No clear obstacle",
+      "#Parked cars": "Parked cars",
+      "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Bicycles, e-scooters, or motorcycles parked on the sidewalk",
+      "#Trees, poles, signs, or utility boxes": "Trees, poles, signs, or utility boxes",
+      "#Overgrown plants or weeds": "Overgrown plants or weeds",
+      "#Outdoor café or restaurant seating": "Outdoor café or restaurant seating",
+      "#Shop displays or street vendors": "Shop displays or street vendors",
+      "#Waste bins or rubbish bags": "Waste bins or rubbish bags",
+      "#Dog waste": "Dog waste",
+      "#Construction works": "Construction works",
+      "#People waiting in queues": "People waiting in queues",
+      "#Flooded areas after rain": "Flooded areas after rain",
+      "#Which accessibility features are available?": "Which accessibility features are available?",
+      "#Suitable for wheelchair users": "Suitable for wheelchair users",
+      "#Suitable for strollers": "Suitable for strollers",
+      "#Tactile paving for visually impaired people": "Tactile paving for visually impaired people",
+      "#Benches or resting places": "Benches or resting places",
+      "#None of these": "None of these",
+      "#Is there cycling infrastructure on this street?": "Is there cycling infrastructure on this street?",
+      "#No cycling facility": "No cycling facility",
+      "#Cycling shared with other road users": "Cycling shared with other road users",
+      "#Dedicated cycling infrastructure": "Dedicated cycling infrastructure",
+      "#Is the cycling infrastructure one-way or two-way?": "Is the cycling infrastructure one-way or two-way?",
+      "#One-way cycling facility": "One-way cycling facility",
+      "#Two-way cycling facility": "Two-way cycling facility",
+      "#How is the cycling infrastructure separated from other users?": "How is the cycling infrastructure separated from other users?",
+      "#Paint or road markings only": "Paint or road markings only",
+      "#Bollards, barriers, kerbs, or planters": "Bollards, barriers, kerbs, or planters",
+      "#Separate space from pedestrians, same level": "Separate space from pedestrians, same level",
+      "#Different level or kerb from pedestrians": "Different level or kerb from pedestrians",
+      "#Which other users commonly enter the cycling space?": "Which other users commonly enter the cycling space?",
+      "#None": "None",
+      "#Cars": "Cars",
+      "#Motorcycles": "Motorcycles",
+      "#Public transport vehicles": "Public transport vehicles",
+      "#Pedestrians": "Pedestrians",
+      "#What surface does the cycling space have?": "What surface does the cycling space have?",
+      "#Smooth asphalt": "Smooth asphalt",
+      "#Standard road asphalt": "Standard road asphalt",
+      "#Concrete": "Concrete",
+      "#Blocks or tiles": "Blocks or tiles",
+      "#Cobblestones": "Cobblestones",
+      "#Compacted gravel or crushed stone": "Compacted gravel or crushed stone",
+      "#Mixed surface types": "Mixed surface types",
+      "#Other or unclear": "Other or unclear",
+      "#What problems affect cycling comfort?": "What problems affect cycling comfort?",
+      "#Loose gravel or debris": "Loose gravel or debris",
+      "#Sudden level changes": "Sudden level changes",
+      "#Uncomfortable vibration": "Uncomfortable vibration",
+      "#What obstacles make cycling difficult?": "What obstacles make cycling difficult?",
+      "#Narrow sections": "Narrow sections",
+      "#Vehicles stopping in the cycle lane": "Vehicles stopping in the cycle lane",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "E-scooters, bicycles, or motorcycles parked on the facility",
+      "#Public transport stop or people waiting": "Public transport stop or people waiting",
+      "#Are there conflict points with vehicle access?": "Are there conflict points with vehicle access?",
+      "#No clear conflict point": "No clear conflict point",
+      "#A few conflict points": "A few conflict points",
+      "#Several conflict points": "Several conflict points",
+      "#Conflict points are frequent": "Conflict points are frequent",
+      "#Conflict points are constant or very dangerous": "Conflict points are constant or very dangerous",
+      "#How fast does motor traffic feel on this street?": "How fast does motor traffic feel on this street?",
+      "#Very slow or traffic-calmed": "Very slow or traffic-calmed",
+      "#Slow": "Slow",
+      "#Moderate": "Moderate",
+      "#Fast": "Fast",
+      "#Very fast": "Very fast",
+      "#What makes traffic interaction difficult here?": "What makes traffic interaction difficult here?",
+      "#Poor visibility": "Poor visibility",
+      "#Vehicles drive too fast": "Vehicles drive too fast",
+      "#Vehicles pass too close": "Vehicles pass too close",
+      "#Difficult turns or side access": "Difficult turns or side access",
+      "#Double parking or stopped vehicles": "Double parking or stopped vehicles",
+      "#Bus or tram interaction": "Bus or tram interaction",
+      "#Your experience here": "Your experience here",
+      "#Answer based on your experience, or choose I don't know.": "Answer based on your experience, or choose I don't know.",
+      "#Which best describes using this street segment?": "Which best describes using this street segment?",
+      "#I can pass without slowing down": "I can pass without slowing down",
+      "#I need to slow down a little": "I need to slow down a little",
+      "#I need to be careful while passing": "I need to be careful while passing",
+      "#I need a lot of effort or attention": "I need a lot of effort or attention",
+      "#I avoid using it if possible": "I avoid using it if possible",
+      "#How risky does it feel to use this street segment?": "How risky does it feel to use this street segment?",
+      "#Not risky": "Not risky",
+      "#Slightly risky": "Slightly risky",
+      "#Moderately risky": "Moderately risky",
+      "#Very risky": "Very risky",
+      "#Extremely risky": "Extremely risky",
+      "#How stressful does it feel to use this street segment?": "How stressful does it feel to use this street segment?",
+      "#Not stressful": "Not stressful",
+      "#Slightly stressful": "Slightly stressful",
+      "#Moderately stressful": "Moderately stressful",
+      "#Very stressful": "Very stressful",
+      "#Extremely stressful": "Extremely stressful",
+      "#How often do surface problems slow you down or make you change path?": "How often do surface problems slow you down or make you change path?",
+      "#Never or almost never": "Never or almost never",
+      "#Rarely": "Rarely",
+      "#Sometimes": "Sometimes",
+      "#Often": "Often",
+      "#Very often": "Very often",
+      "#How often do obstacles block or reduce your space?": "How often do obstacles block or reduce your space?",
+      "#How often does this segment feel too crowded?": "How often does this segment feel too crowded?",
+      "#How often do other users enter the cycling space?": "How often do other users enter the cycling space?",
+      "#How often do vehicles pass too close or make you feel unsafe?": "How often do vehicles pass too close or make you feel unsafe?",
+      "#Improve this street segment": "Improve this street segment",
+      "#Tell us whether improving this segment should be a priority.": "Tell us whether improving this segment should be a priority.",
+      "#How often do you use or pass this street segment?": "How often do you use or pass this street segment?",
+      "#This is my first time": "This is my first time",
+      "#Less than once a month": "Less than once a month",
+      "#A few times a month": "A few times a month",
+      "#A few times a week": "A few times a week",
+      "#Almost every day": "Almost every day",
+      "#Should a walking path be added here?": "Should a walking path be added here?",
+      "#Probably no": "Probably no",
+      "#Not sure": "Not sure",
+      "#Probably yes": "Probably yes",
+      "#Should cycling infrastructure be added here?": "Should cycling infrastructure be added here?",
+      "#How urgent is it to improve this street segment?": "How urgent is it to improve this street segment?",
+      "#Not urgent": "Not urgent",
+      "#Slightly urgent": "Slightly urgent",
+      "#Moderately urgent": "Moderately urgent",
+      "#Urgent": "Urgent",
+      "#Very urgent": "Very urgent",
+      "#What would improve this street segment most?": "What would improve this street segment most?",
+      "#Add or widen walking space": "Add or widen walking space",
+      "#Add or improve cycling infrastructure": "Add or improve cycling infrastructure",
+      "#Repair the surface": "Repair the surface",
+      "#Remove obstacles": "Remove obstacles",
+      "#Improve accessibility for older or disabled people": "Improve accessibility for older or disabled people",
+      "#Improve lighting": "Improve lighting",
+      "#Add shade or heat protection": "Add shade or heat protection",
+      "#Reduce vehicle speed": "Reduce vehicle speed",
+      "#Improve separation from traffic": "Improve separation from traffic",
+      "#Improve maintenance or cleaning": "Improve maintenance or cleaning",
+      "#Nothing important": "Nothing important",
+      "#Anything else you want to add?": "Anything else you want to add?"
+    },
+    "it": {
+      "code": "it",
+      "#Your point of view": "Il tuo punto di vista",
+      "#Select all that apply. This helps us understand the perspective of your assessment.": "Select all that apply. This helps us understand the perspective of your assessment.",
+      "#You are assessing this street segment as...": "Stai valutando questo segmento stradale come...",
+      "#Pedestrian": "Pedone",
+      "#Cyclist": "Ciclista",
+      "#Driver": "Automobilista",
+      "#Public transport passenger": "Passeggero del trasporto pubblico",
+      "#Wheelchair or mobility aid user": "Persona in sedia a rotelle o con ausili alla mobilità",
+      "#Parent or caregiver with stroller": "Genitore o accompagnatore con passeggino",
+      "#Other": "Altro",
+      "#Describe this street segment": "Descrivi questo segmento stradale",
+      "#Look at the place. Answer only what you can see.": "Look at the place. Answer only what you can see.",
+      "#Is there a place for people to walk along this street?": "Is there a place for people to walk along this street?",
+      "#No place to walk – pedestrians must walk on the road": "No place to walk – pedestrians must walk on the road",
+      "#Road shoulder available for walking": "Road shoulder available for walking",
+      "#Shared pedestrian and bicycle path": "Shared pedestrian and bicycle path",
+      "#Walking area at the same level as the road": "Walking area at the same level as the road",
+      "#Raised sidewalk": "Raised sidewalk",
+      "#Dedicated walking street or pedestrian area": "Dedicated walking street or pedestrian area",
+      "#If there is a raised sidewalk, how is it protected from traffic?": "If there is a raised sidewalk, how is it protected from traffic?",
+      "#Raised only, no extra protection": "Raised only, no extra protection",
+      "#Bollards": "Bollards",
+      "#Guard rails or fencing": "Guard rails or fencing",
+      "#Planted strip, bushes, or planters": "Planted strip, bushes, or planters",
+      "#If the walking area is at road level, how is it separated from traffic?": "If the walking area is at road level, how is it separated from traffic?",
+      "#Road markings or paint only": "Road markings or paint only",
+      "#Guard rail or barrier": "Guard rail or barrier",
+      "#Does this walking path include stairs?": "Does this walking path include stairs?",
+      "#No": "No",
+      "#Yes": "Yes",
+      "#How many steps are there?": "How many steps are there?",
+      "#A few steps, up to about 10": "A few steps, up to about 10",
+      "#About 11–20 steps": "About 11–20 steps",
+      "#More than 20 steps": "More than 20 steps",
+      "#How easy is it for people to pass each other on the walking path?": "How easy is it for people to pass each other on the walking path?",
+      "#Only one person can walk at a time": "Only one person can walk at a time",
+      "#Two people can pass, but one usually steps aside": "Two people can pass, but one usually steps aside",
+      "#Two people can walk side by side": "Two people can walk side by side",
+      "#Small groups can pass each other": "Small groups can pass each other",
+      "#Very wide, free pedestrian movement": "Very wide, free pedestrian movement",
+      "#What problems affect the walking surface?": "What problems affect the walking surface?",
+      "#No clear problem": "No clear problem",
+      "#Uneven surface": "Uneven surface",
+      "#Cracks": "Cracks",
+      "#Potholes": "Potholes",
+      "#Raised edges or bumps": "Raised edges or bumps",
+      "#Tree roots": "Tree roots",
+      "#Side slope feels uncomfortable": "Side slope feels uncomfortable",
+      "#Steps or sudden level changes": "Steps or sudden level changes",
+      "#Slippery when wet": "Slippery when wet",
+      "#Water collects after rain": "Water collects after rain",
+      "#What obstacles reduce the walking space?": "What obstacles reduce the walking space?",
+      "#No clear obstacle": "No clear obstacle",
+      "#Parked cars": "Parked cars",
+      "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Bicycles, e-scooters, or motorcycles parked on the sidewalk",
+      "#Trees, poles, signs, or utility boxes": "Trees, poles, signs, or utility boxes",
+      "#Overgrown plants or weeds": "Overgrown plants or weeds",
+      "#Outdoor café or restaurant seating": "Outdoor café or restaurant seating",
+      "#Shop displays or street vendors": "Shop displays or street vendors",
+      "#Waste bins or rubbish bags": "Waste bins or rubbish bags",
+      "#Dog waste": "Dog waste",
+      "#Construction works": "Construction works",
+      "#People waiting in queues": "People waiting in queues",
+      "#Flooded areas after rain": "Flooded areas after rain",
+      "#Which accessibility features are available?": "Which accessibility features are available?",
+      "#Suitable for wheelchair users": "Suitable for wheelchair users",
+      "#Suitable for strollers": "Suitable for strollers",
+      "#Tactile paving for visually impaired people": "Tactile paving for visually impaired people",
+      "#Benches or resting places": "Benches or resting places",
+      "#None of these": "None of these",
+      "#Is there cycling infrastructure on this street?": "Is there cycling infrastructure on this street?",
+      "#No cycling facility": "No cycling facility",
+      "#Cycling shared with other road users": "Cycling shared with other road users",
+      "#Dedicated cycling infrastructure": "Dedicated cycling infrastructure",
+      "#Is the cycling infrastructure one-way or two-way?": "Is the cycling infrastructure one-way or two-way?",
+      "#One-way cycling facility": "One-way cycling facility",
+      "#Two-way cycling facility": "Two-way cycling facility",
+      "#How is the cycling infrastructure separated from other users?": "How is the cycling infrastructure separated from other users?",
+      "#Paint or road markings only": "Paint or road markings only",
+      "#Bollards, barriers, kerbs, or planters": "Bollards, barriers, kerbs, or planters",
+      "#Separate space from pedestrians, same level": "Separate space from pedestrians, same level",
+      "#Different level or kerb from pedestrians": "Different level or kerb from pedestrians",
+      "#Which other users commonly enter the cycling space?": "Which other users commonly enter the cycling space?",
+      "#None": "None",
+      "#Cars": "Cars",
+      "#Motorcycles": "Motorcycles",
+      "#Public transport vehicles": "Public transport vehicles",
+      "#Pedestrians": "Pedestrians",
+      "#What surface does the cycling space have?": "What surface does the cycling space have?",
+      "#Smooth asphalt": "Smooth asphalt",
+      "#Standard road asphalt": "Standard road asphalt",
+      "#Concrete": "Concrete",
+      "#Blocks or tiles": "Blocks or tiles",
+      "#Cobblestones": "Cobblestones",
+      "#Compacted gravel or crushed stone": "Compacted gravel or crushed stone",
+      "#Mixed surface types": "Mixed surface types",
+      "#Other or unclear": "Other or unclear",
+      "#What problems affect cycling comfort?": "What problems affect cycling comfort?",
+      "#Loose gravel or debris": "Loose gravel or debris",
+      "#Sudden level changes": "Sudden level changes",
+      "#Uncomfortable vibration": "Uncomfortable vibration",
+      "#What obstacles make cycling difficult?": "What obstacles make cycling difficult?",
+      "#Narrow sections": "Narrow sections",
+      "#Vehicles stopping in the cycle lane": "Vehicles stopping in the cycle lane",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "E-scooters, bicycles, or motorcycles parked on the facility",
+      "#Public transport stop or people waiting": "Public transport stop or people waiting",
+      "#Are there conflict points with vehicle access?": "Are there conflict points with vehicle access?",
+      "#No clear conflict point": "No clear conflict point",
+      "#A few conflict points": "A few conflict points",
+      "#Several conflict points": "Several conflict points",
+      "#Conflict points are frequent": "Conflict points are frequent",
+      "#Conflict points are constant or very dangerous": "Conflict points are constant or very dangerous",
+      "#How fast does motor traffic feel on this street?": "How fast does motor traffic feel on this street?",
+      "#Very slow or traffic-calmed": "Very slow or traffic-calmed",
+      "#Slow": "Slow",
+      "#Moderate": "Moderate",
+      "#Fast": "Fast",
+      "#Very fast": "Very fast",
+      "#What makes traffic interaction difficult here?": "What makes traffic interaction difficult here?",
+      "#Poor visibility": "Poor visibility",
+      "#Vehicles drive too fast": "Vehicles drive too fast",
+      "#Vehicles pass too close": "Vehicles pass too close",
+      "#Difficult turns or side access": "Difficult turns or side access",
+      "#Double parking or stopped vehicles": "Double parking or stopped vehicles",
+      "#Bus or tram interaction": "Bus or tram interaction",
+      "#Your experience here": "La tua esperienza qui",
+      "#Answer based on your experience, or choose I don't know.": "Answer based on your experience, or choose I don't know.",
+      "#Which best describes using this street segment?": "Quale frase descrive meglio l’uso di questo segmento stradale?",
+      "#I can pass without slowing down": "I can pass without slowing down",
+      "#I need to slow down a little": "I need to slow down a little",
+      "#I need to be careful while passing": "I need to be careful while passing",
+      "#I need a lot of effort or attention": "I need a lot of effort or attention",
+      "#I avoid using it if possible": "I avoid using it if possible",
+      "#How risky does it feel to use this street segment?": "Quanto sembra rischioso usare questo segmento stradale?",
+      "#Not risky": "Not risky",
+      "#Slightly risky": "Slightly risky",
+      "#Moderately risky": "Moderately risky",
+      "#Very risky": "Very risky",
+      "#Extremely risky": "Extremely risky",
+      "#How stressful does it feel to use this street segment?": "Quanto sembra stressante usare questo segmento stradale?",
+      "#Not stressful": "Not stressful",
+      "#Slightly stressful": "Slightly stressful",
+      "#Moderately stressful": "Moderately stressful",
+      "#Very stressful": "Very stressful",
+      "#Extremely stressful": "Extremely stressful",
+      "#How often do surface problems slow you down or make you change path?": "How often do surface problems slow you down or make you change path?",
+      "#Never or almost never": "Never or almost never",
+      "#Rarely": "Rarely",
+      "#Sometimes": "Sometimes",
+      "#Often": "Often",
+      "#Very often": "Very often",
+      "#How often do obstacles block or reduce your space?": "How often do obstacles block or reduce your space?",
+      "#How often does this segment feel too crowded?": "How often does this segment feel too crowded?",
+      "#How often do other users enter the cycling space?": "How often do other users enter the cycling space?",
+      "#How often do vehicles pass too close or make you feel unsafe?": "How often do vehicles pass too close or make you feel unsafe?",
+      "#Improve this street segment": "Migliorare questo segmento stradale",
+      "#Tell us whether improving this segment should be a priority.": "Tell us whether improving this segment should be a priority.",
+      "#How often do you use or pass this street segment?": "How often do you use or pass this street segment?",
+      "#This is my first time": "This is my first time",
+      "#Less than once a month": "Less than once a month",
+      "#A few times a month": "A few times a month",
+      "#A few times a week": "A few times a week",
+      "#Almost every day": "Almost every day",
+      "#Should a walking path be added here?": "Should a walking path be added here?",
+      "#Probably no": "Probably no",
+      "#Not sure": "Not sure",
+      "#Probably yes": "Probably yes",
+      "#Should cycling infrastructure be added here?": "Should cycling infrastructure be added here?",
+      "#How urgent is it to improve this street segment?": "Quanto è urgente migliorare questo segmento stradale?",
+      "#Not urgent": "Not urgent",
+      "#Slightly urgent": "Slightly urgent",
+      "#Moderately urgent": "Moderately urgent",
+      "#Urgent": "Urgent",
+      "#Very urgent": "Very urgent",
+      "#What would improve this street segment most?": "Cosa migliorerebbe di più questo segmento stradale?",
+      "#Add or widen walking space": "Add or widen walking space",
+      "#Add or improve cycling infrastructure": "Add or improve cycling infrastructure",
+      "#Repair the surface": "Repair the surface",
+      "#Remove obstacles": "Remove obstacles",
+      "#Improve accessibility for older or disabled people": "Improve accessibility for older or disabled people",
+      "#Improve lighting": "Improve lighting",
+      "#Add shade or heat protection": "Add shade or heat protection",
+      "#Reduce vehicle speed": "Reduce vehicle speed",
+      "#Improve separation from traffic": "Improve separation from traffic",
+      "#Improve maintenance or cleaning": "Improve maintenance or cleaning",
+      "#Nothing important": "Nothing important",
+      "#Anything else you want to add?": "Vuoi aggiungere altro?"
+    }
+  }
+}
