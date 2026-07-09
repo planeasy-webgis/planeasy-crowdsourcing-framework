@@ -1,8 +1,8 @@
 {
   "questionnaire": {
-    "name": "Street Connection Assessment V2",
-    "questionnaire_id": "street_connection_assessment_v2",
-    "questionnaire_version": "0.2.0",
+    "name": "Street Connection Assessment",
+    "questionnaire_id": "street_connection_assessment",
+    "questionnaire_version": "1.0.0",
     "project": "SmartUrbanity",
     "options": {
       "review_mode": true,
@@ -11,6 +11,52 @@
     },
     "gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html",
     "sections": [
+      {
+        "title": "Your point of view",
+        "description": "Select all that apply. This helps us understand the perspective of your assessment.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "You are assessing this place as...",
+            "answer_key": "assessment_perspective",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Pedestrian",
+                "value": "pedestrian"
+              },
+              {
+                "text": "Cyclist",
+                "value": "cyclist"
+              },
+              {
+                "text": "Driver",
+                "value": "driver"
+              },
+              {
+                "text": "Public transport passenger",
+                "value": "public_transport_passenger"
+              },
+              {
+                "text": "Wheelchair or mobility aid user",
+                "value": "mobility_aid_user"
+              },
+              {
+                "text": "Parent or caregiver with stroller",
+                "value": "stroller_caregiver"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "Describe this connection",
         "description": "Look at the place. Answer only what you can see.",
@@ -992,7 +1038,7 @@
             }
           },
           {
-            "text": "How urgente is it to improve this connection?",
+            "text": "How urgent is it to improve this connection?",
             "answer_key": "connection_improvement_importance",
             "question_type": "single_option",
             "add_prefer_not_to_say": false,
@@ -1014,7 +1060,7 @@
               },
               {
                 "text": "Urgent",
-                "value": "4_urgente"
+                "value": "4_urgent"
               },
               {
                 "text": "Very urgent",
@@ -1332,7 +1378,18 @@
       "#What would improve this connection most?": "What would improve this connection most?",
       "#Which best describes using this connection?": "Which best describes using this connection?",
       "#Who may have difficulty using this connection?": "Who may have difficulty using this connection?",
-      "#Why is it difficult to understand?": "Why is it difficult to understand?"
+      "#Why is it difficult to understand?": "Why is it difficult to understand?",
+      "#Your point of view": "Your point of view",
+      "#Select all that apply. This helps us understand the perspective of your assessment.": "Select all that apply. This helps us understand the perspective of your assessment.",
+      "#You are assessing this place as...": "You are assessing this place as...",
+      "#Pedestrian": "Pedestrian",
+      "#Cyclist": "Cyclist",
+      "#Driver": "Driver",
+      "#Public transport passenger": "Public transport passenger",
+      "#Wheelchair or mobility aid user": "Wheelchair or mobility aid user",
+      "#Parent or caregiver with stroller": "Parent or caregiver with stroller",
+      "#How urgent is it to improve this connection?": "How urgent is it to improve this connection?",
+      "#Urgent": "Urgent"
     },
     "it": {
       "code": "it",
@@ -1592,7 +1649,17 @@
       "#Easier access for older or disabled people": "Accesso più facile per persone anziane o con disabilità",
       "#Traffic calming or slower vehicles": "Veicoli più lenti o moderazione del traffico",
       "#Better maintenance or cleaning": "Migliore manutenzione o pulizia",
-      "#Nothing important": "Niente di importante"
+      "#Nothing important": "Niente di importante",
+      "#Your point of view": "Il tuo punto di vista",
+      "#Select all that apply. This helps us understand the perspective of your assessment.": "Seleziona tutte le opzioni pertinenti. Ci aiuta a capire il punto di vista della valutazione.",
+      "#You are assessing this place as...": "Stai valutando questo luogo come...",
+      "#Pedestrian": "Pedone",
+      "#Cyclist": "Ciclista",
+      "#Driver": "Automobilista",
+      "#Public transport passenger": "Passeggero del trasporto pubblico",
+      "#Wheelchair or mobility aid user": "Persona in sedia a rotelle o con ausili alla mobilità",
+      "#Parent or caregiver with stroller": "Genitore o accompagnatore con passeggino",
+      "#Urgent": "Urgente"
     }
   },
   "id": "Street Connection",
