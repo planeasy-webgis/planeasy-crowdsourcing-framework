@@ -1,8 +1,8 @@
 {
 	"questionnaire": {
-		"name": "Service Report",
-		"questionnaire_id": "report_service",
-		"questionnaire_version": "0.1.0",
+		"name": "Crossing Assessment",
+		"questionnaire_id": "crossing_assessment",
+		"questionnaire_version": "0.0.0",
 		"project": "SmartUrbanity",
 		"options": {
 			"review_mode": true,
@@ -12,287 +12,54 @@
 		"gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html",
 		"sections": [
 			{
-				"title": "Report a place",
-				"description": "<p>Help us map the places and services available in your neighbourhood.</p><p>You can report shops, public services, community places, green spaces, and other places that people use in everyday life.</p><p><b>First select the type of place</b>, then choose its location, and finally <b>confirm what people can do there</b>. This helps us connect each place to the right opportunities for different user profiles.</p>",
-				"backgroundColor": "#75ae3d",
+				"title": "Crossing facility Survey",
+				"description": "",
+				"backgroundColor": "#d3d3d3",
 				"questions": [
 					{
-						"text": "What kind of place are you reporting?",
+						"text": "Is there a crossing facility available at this location?",
+						"answer_key": "crossing",
 						"question_type": "single_option",
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
-						"add_other": true,
-						"checks_inline": true,
-						"options": [
-							{
-								"text": "General doctor"
-							},
-							{
-								"text": "Medical clinic"
-							},
-							{
-								"text": "Specialist doctor"
-							},
-							{
-								"text": "Hospital"
-							},
-							{
-								"text": "Dentist"
-							},
-							{
-								"text": "Pharmacy"
-							},
-							{
-								"text": "Veterinarian"
-							},
-							{
-								"text": "Childcare / daycare"
-							},
-							{
-								"text": "School"
-							},
-							{
-								"text": "University / college"
-							},
-							{
-								"text": "Training centre"
-							},
-							{
-								"text": "Library"
-							},
-							{
-								"text": "Supermarket"
-							},
-							{
-								"text": "Grocery store"
-							},
-							{
-								"text": "Bakery"
-							},
-							{
-								"text": "Market stall"
-							},
-							{
-								"text": "Restaurant"
-							},
-							{
-								"text": "Café / bar"
-							},
-							{
-								"text": "Workplace"
-							},
-							{
-								"text": "Coworking space"
-							},
-							{
-								"text": "Bank"
-							},
-							{
-								"text": "Post office"
-							},
-							{
-								"text": "Municipality office"
-							},
-							{
-								"text": "Community centre"
-							},
-							{
-								"text": "Youth centre"
-							},
-							{
-								"text": "Senior centre"
-							},
-							{
-								"text": "Cultural centre"
-							},
-							{
-								"text": "Cinema"
-							},
-							{
-								"text": "Theatre"
-							},
-							{
-								"text": "Museum"
-							},
-							{
-								"text": "Park"
-							},
-							{
-								"text": "Playground"
-							},
-							{
-								"text": "Sports facility"
-							},
-							{
-								"text": "Hairdresser / beauty"
-							},
-							{
-								"text": "Repair shop"
-							},
-							{
-								"text": "Place of worship"
-							},
-							{
-								"text": "Phone / telecom shop"
-							},
-							{
-								"text": "Print / copy shop"
-							},
-							{
-								"text": "Laundromat"
-							},
-							{
-								"text": "Hardware / household store"
-							},
-							{
-								"text": "Household services office"
-							}
-						]
-					},
-					{
-						"text": "Name of the place",
-						"question_type": "text"
-					},
-					{
-						"text": "Select the place location",
-						"question_type": "address"
-					}
-				]
-			},
-			{
-				"title": "What can people do here?",
-				"description": "<p>Select <b>all the opportunities</b> that this place offers.</p><p>These options are used to build filters for different mobility and user profiles. A single place can support more than one opportunity.</p>",
-				"backgroundColor": "#f0f0f0",
-				"questions": [
-					{
-						"text": "What can people do here? (select all that apply)",
-						"question_type": "multiple_options",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": true,
+						"add_other": false,
 						"checks_inline": false,
 						"options": [
 							{
-								"text": "General healthcare"
+								"text": "No designated crossing place",
+								"value": "no"
 							},
 							{
-								"text": "Specialist healthcare"
+								"text": "Zebra crossing (no traffic lights)",
+								"value": "unsignalized"
 							},
 							{
-								"text": "Dental care"
+								"text": "Zebra crossing with traffic lights",
+								"value": "signalized"
 							},
 							{
-								"text": "Women's health"
+								"text": "Underpass (tunnel)",
+								"value": "tunnel"
 							},
 							{
-								"text": "Child healthcare"
-							},
-							{
-								"text": "Medicines & pharmacy"
-							},
-							{
-								"text": "Animal care"
-							},
-							{
-								"text": "Childcare"
-							},
-							{
-								"text": "School education"
-							},
-							{
-								"text": "Higher education & training"
-							},
-							{
-								"text": "Learning & study"
-							},
-							{
-								"text": "Daily shopping"
-							},
-							{
-								"text": "Food & meals"
-							},
-							{
-								"text": "Employment"
-							},
-							{
-								"text": "Financial services"
-							},
-							{
-								"text": "Civic & administrative services"
-							},
-							{
-								"text": "Postal & parcel services"
-							},
-							{
-								"text": "Social interaction"
-							},
-							{
-								"text": "Youth activities"
-							},
-							{
-								"text": "Older adult services"
-							},
-							{
-								"text": "Cultural participation"
-							},
-							{
-								"text": "Relaxation & green spaces"
-							},
-							{
-								"text": "Play"
-							},
-							{
-								"text": "Sport & physical activity"
-							},
-							{
-								"text": "Personal care"
-							},
-							{
-								"text": "Everyday repair services"
-							},
-							{
-								"text": "Religious & spiritual life"
-							},
-							{
-								"text": "Digital services"
-							},
-							{
-								"text": "Printing & practical admin support"
-							},
-							{
-								"text": "Laundry"
-							},
-							{
-								"text": "Household goods"
-							},
-							{
-								"text": "Home maintenance"
-							},
-							{
-								"text": "Cleaning & home help"
+								"text": "Bridge/overpass",
+								"value": "bridge"
 							}
 						]
-					}
-				]
-			},
-			{
-				"title": "Accessibility and quality",
-				"description": "<p>Tell us whether the place is easy to use and how good it feels overall.</p>",
-				"backgroundColor": "#f0f0f0",
-				"questions": [
+					},
 					{
-						"text": "Is this place accessible to everyone?",
+						"text": "Would you like a crossing facility to be provided at this location?",
 						"question_type": "single_option",
+						"show_if": {
+							"crossing": "no"
+						},
 						"add_prefer_not_to_say": false,
-						"add_i_dont_know": true,
+						"add_i_dont_know": false,
 						"add_other": false,
-						"checks_inline": true,
+						"checks_inline": false,
 						"options": [
 							{
 								"text": "Yes"
-							},
-							{
-								"text": "Partially"
 							},
 							{
 								"text": "No"
@@ -300,67 +67,418 @@
 						]
 					},
 					{
-						"text": "How would you rate this place overall?",
+						"text": "Is the crossing facility also for bicycles?",
 						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": true,
-						"add_other": false,
-						"checks_inline": true,
-						"options": [
-							{
-								"text": "1 - Very poor"
-							},
-							{
-								"text": "2 - Poor"
-							},
-							{
-								"text": "3 - Average"
-							},
-							{
-								"text": "4 - Good"
-							},
-							{
-								"text": "5 - Very good"
-							}
-						]
-					},
-					{
-						"text": "Additional notes (optional)",
-						"question_type": "text"
-					},
-					{
-						"text": "Are there any issues with this place?",
-						"question_type": "multiple_options",
+						"show_if": {
+							"crossing": [
+								"signalized",
+								"unsignalized",
+								"tunnel",
+								"bridge"
+							]
+						},
 						"add_prefer_not_to_say": false,
 						"add_i_dont_know": false,
-						"add_other": true,
+						"add_other": false,
 						"checks_inline": false,
 						"options": [
 							{
-								"text": "Limited accessibility"
+								"text": "Yes"
 							},
 							{
-								"text": "Limited opening hours"
-							},
-							{
-								"text": "Poor maintenance"
-							},
-							{
-								"text": "Unsafe surroundings"
-							},
-							{
-								"text": "Too crowded"
-							},
-							{
-								"text": "Difficult to reach"
-							},
-							{
-								"text": "Poor lighting"
-							},
-							{
-								"text": "Noise"
+								"text": "No"
 							}
 						]
+					},
+					{
+						"text": "How many traffic lanes (in total) do you need to cross?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": [
+								"signalized",
+								"unsignalized"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "1 lane"
+							},
+							{
+								"text": "2 lanes"
+							},
+							{
+								"text": "3 lanes"
+							},
+							{
+								"text": "More than 3 lanes"
+							}
+						]
+					},
+					{
+						"text": "How visible are the markings (signage) for this crossing facility?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": [
+								"signalized",
+								"unsignalized"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No visible crossing markings on the road"
+							},
+							{
+								"text": "Crossing markings are faded or worn out"
+							},
+							{
+								"text": "Crossing markings are clear, but visibility is blocked by traffic congestion"
+							},
+							{
+								"text": "Crossing markings are clear, but often obstructed by vehicles waiting at traffic lights"
+							},
+							{
+								"text": "Crossing signs are clearly visible"
+							}
+						]
+					},
+					{
+						"text": "Which safety features are available at this crossing? (Select all that apply)",
+						"question_type": "multiple_options",
+						"show_if": {
+							"crossing": [
+								"signalized",
+								"unsignalized"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Illuminated crossing"
+							},
+							{
+								"text": "Raised crossing (higher than the road surface)"
+							},
+							{
+								"text": "Unprotected waiting area in the middle of the road"
+							},
+							{
+								"text": "Protected waiting area in the middle of the road (refuge island)"
+							},
+							{
+								"text": "Traffic lights specifically for pedestrians"
+							},
+							{
+								"text": "None of these"
+							}
+						]
+					},
+					{
+						"text": "Does something make it difficult to see approaching traffic or the crossing itself? (Select all that apply)",
+						"question_type": "multiple_options",
+						"show_if": {
+							"crossing": [
+								"signalized",
+								"unsignalized"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Nothing blocks the view"
+							},
+							{
+								"text": "Illegally parked vehicles"
+							},
+							{
+								"text": "Parked vehicles"
+							},
+							{
+								"text": "Trees or vegetation"
+							},
+							{
+								"text": "Road bends or curves"
+							},
+							{
+								"text": "Waste bins or containers"
+							},
+							{
+								"text": "Street furniture (signs, utility boxes, etc.)"
+							},
+							{
+								"text": "Other obstacles"
+							}
+						]
+					},
+					{
+						"text": "When you want to cross, how often do drivers give you the way?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": [
+								"unsignalized"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Drivers rarely stop; I usually wait for a gap in traffic."
+							},
+							{
+								"text": "Some drivers stop, while others continue driving."
+							},
+							{
+								"text": "Most drivers stop when they see me waiting to cross."
+							},
+							{
+								"text": "Drivers almost always stop, allowing me to cross immediately."
+							}
+						]
+					},
+					{
+						"text": "How long do you usually wait before you can cross?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": [
+								"signalized"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "I can usually cross immediately (less than 10 seconds)"
+							},
+							{
+								"text": "A short wait (10–30 seconds)"
+							},
+							{
+								"text": "A moderate wait (30–60 seconds)"
+							},
+							{
+								"text": "A long wait (1–2 minutes)"
+							},
+							{
+								"text": "A very long wait (more than 2 minutes)"
+							}
+						]
+					},
+					{
+						"text": "Is the waiting time indicated acceptable to you?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": [
+								"signalized"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Yes"
+							},
+							{
+								"text": "No"
+							}
+						]
+					},
+					{
+						"text": "How adequate is the waiting space at the crossing?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": [
+								"signalized"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No safe place to wait"
+							},
+							{
+								"text": "Too small for the number of people using it"
+							},
+							{
+								"text": "Suitable and comfortable"
+							},
+							{
+								"text": "No waiting area is needed"
+							}
+						]
+					},
+					{
+						"text": "Which accessibility features apply to this crossing? (Select all that apply)",
+						"question_type": "multiple_options",
+						"show_if": {
+							"crossing": [
+								"signalized",
+								"unsignalized",
+								"tunnel",
+								"bridge"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Suitable for wheelchair users"
+							},
+							{
+								"text": "Suitable for baby strollers"
+							},
+							{
+								"text": "Tactile paving for visually impaired people"
+							},
+							{
+								"text": "Audible crossing signal available"
+							},
+							{
+								"text": "None of these"
+							}
+						]
+					},
+					{
+						"text": "Does the bridge have any cover?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": "bridge"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No cover"
+							},
+							{
+								"text": "Covered by a roof or canopy"
+							},
+							{
+								"text": "Covered by walls or an enclosed structure"
+							},
+							{
+								"text": "Covered by glass or transparent panels"
+							},
+							{
+								"text": "Other"
+							}
+						]
+					},
+					{
+						"text": "Which of the following apply to the underpass/tunnel? (Select all that apply)",
+						"question_type": "multiple_options",
+						"show_if": {
+							"crossing": "tunnel"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Well lit"
+							},
+							{
+								"text": "Walking surface is clean and free of litter"
+							},
+							{
+								"text": "Walls and ceiling are in good condition"
+							},
+							{
+								"text": "Drainage works properly (no standing water)"
+							},
+							{
+								"text": "Elevator and/or escalator available"
+							},
+							{
+								"text": "None of the above"
+							}
+						]
+					},
+					{
+						"text": "How safe would you feel using this underpass/tunnel?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": "tunnel"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Very safe – the underpass is well lit, visibility is clear, and it appears clean and maintained."
+							},
+							{
+								"text": "Mostly safe – the underpass has adequate lighting and visibility, with only minor concerns."
+							},
+							{
+								"text": "Neutral – the underpass is usable, but some safety conditions are uncertain."
+							},
+							{
+								"text": "Somewhat unsafe – one or more conditions such as poor lighting, limited visibility, litter, or damp areas reduce the feeling of safety."
+							},
+							{
+								"text": "Very unsafe – the underpass has major safety concerns and would feel unsafe to use."
+							}
+						]
+					},
+					{
+						"text": "How safe would you feel using this bridge/overpass?",
+						"question_type": "single_option",
+						"show_if": {
+							"crossing": "bridge"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Very safe – the bridge is well lit, visibility is clear, and protective railings are secure."
+							},
+							{
+								"text": "Mostly safe – the bridge has adequate lighting and secure railings, with only minor concerns."
+							},
+							{
+								"text": "Neutral – the bridge is usable, but some safety conditions are uncertain."
+							},
+							{
+								"text": "Somewhat unsafe – one or more conditions such as poor lighting, limited visibility, or inadequate railings reduce the feeling of safety."
+							},
+							{
+								"text": "Very unsafe – the bridge has major safety concerns and would feel unsafe to use."
+							}
+						]
+					},
+					{
+						"text": "Additional Comments",
+						"question_type": "text"
 					}
 				]
 			}
@@ -374,12 +492,12 @@
 			"#Service": "Servizio",
 			"#Geocode": "Geocodifica",
 			"#geocode result": "Esito geocodifica",
-			"#longitude": "Longitudine",
-			"#latitude": "Latitudine",
-			"#address": "Indirizzo",
-			"#city": "Citta",
-			"#postal_code": "Codice postale",
-			"#notes": "Note",
+			"#longitude": "longitudine",
+			"#latitude": "latitudine",
+			"#address": "indirizzo",
+			"#city": "citta",
+			"#postal_code": "codice postale",
+			"#notes": "note",
 			"#Legend": "Legenda",
 			"#Login": "Accesso",
 			"#Logout": "Esci",
@@ -447,7 +565,7 @@
 			"#import language": "Importa lingua",
 			"#Select a Questionnaire to Answer": "Seleziona un questionario a cui rispondere",
 			"#Surveys": "Indagini",
-			"#choose the questionnaire": "Scegli il questionario",
+			"#choose the questionnaire": "scegli il questionario",
 			"#Collection": "Collezione",
 			"#collection": "collezione",
 			"#Import": "Importa",
@@ -518,6 +636,7 @@
 			"#Show Editor": "Mostra editor",
 			"#Modify": "Modifica",
 			"#Error": "Errore",
+			"#Browser-ready package loading failed": "Caricamento del pacchetto browser-ready non riuscito",
 			"#Alert": "Avviso",
 			"#IN PROGRESS": "IN CORSO",
 			"#Get info": "Ottieni informazioni",
@@ -542,6 +661,13 @@
 			"#Full Screen": "Schermo intero",
 			"#Next": "Avanti",
 			"#Welcome to": "Benvenuto in",
+			"#Import Features from CSV addresses": "Importa elementi da indirizzi CSV",
+			"#geocode features": "Geocodifica elementi",
+			"#invalid selection": "Selezione non valida",
+			"#Import completed!": "Importazione completata!",
+			"#Importing file $0/$1": "Importazione file $0/$1",
+			"#Import Features from CSV coordinates": "Importa elementi da coordinate CSV",
+			"#import points": "Importa punti",
 			"#Click on an element to see details": "Clicca un elemento per vedere i dettagli",
 			"#Geocode_address": "Geocodifica indirizzo",
 			"#Address_click": "Seleziona una posizione sulla mappa",
@@ -555,6 +681,15 @@
 			"#graph_mode_transit": "Trasporto Pubblico",
 			"#graph_mode_car": "Auto",
 			"#graph_mode_car_ltz": "Auto ZTL",
+			"#Kindergarten": "Scuola dell'infanzia",
+			"#Primary school": "Scuola primaria",
+			"#Lower secondary school": "Scuola secondaria di primo grado",
+			"#Upper secondary school": "Scuola secondaria di secondo grado",
+			"#Vocational education and training pathways": "Percorsi di istruzione e formazione professionale",
+			"#Record type": "Tipo record",
+			"#Only school sites": "Solo sedi/plessi scolastici",
+			"#Only main institutes": "Solo istituti principali",
+			"#Both": "Entrambi",
 			"#addressClickButton": "Clicca",
 			"#addressCurrentButton": "Attuale",
 			"#addressFindButton": "Cerca",
@@ -1114,115 +1249,106 @@
 			"#travel_context": "Contesto di viaggio",
 			"#individual": "Individuale",
 			"#demand_period": "Periodo di domanda",
-			"#stride_length": "Lunghezza del passo"
+			"#stride_length": "Lunghezza del passo",
+			"#Starting SmartUrbanity data loader...": "Avvio del caricatore dati SmartUrbanity...",
+			"#Loading SmartUrbanity manifest...": "Caricamento del manifest SmartUrbanity...",
+			"#Loading SmartUrbanity package...": "Caricamento del pacchetto SmartUrbanity...",
+			"#Preparing SmartUrbanity package...": "Preparazione del pacchetto SmartUrbanity...",
+			"#Loading SmartUrbanity nodes chunk $0/$1": "Caricamento del blocco nodi SmartUrbanity $0/$1",
+			"#Loading SmartUrbanity links chunk $0/$1": "Caricamento del blocco link SmartUrbanity $0/$1",
+			"#Loading SmartUrbanity lines chunk $0/$1": "Caricamento del blocco linee SmartUrbanity $0/$1",
+			"#Loading SmartUrbanity cells chunk $0/$1": "Caricamento del blocco celle SmartUrbanity $0/$1",
+			"#Loading SmartUrbanity fallback ZIP...": "Caricamento dello ZIP di fallback SmartUrbanity..."
 		},
 		"en": {
 			"code": "en",
-			"#Service Report": "Service Report",
-			"#Report a place": "Report a place",
-			"#<p>Help us map the places and services available in your neighbourhood.</p><p>You can report shops, public services, community places, green spaces, and other places that people use in everyday life.</p><p><b>First select the type of place</b>, then choose its location, and finally <b>confirm what people can do there</b>. This helps us connect each place to the right opportunities for different user profiles.</p>": "<p>Help us map the places and services available in your neighbourhood.</p><p>You can report shops, public services, community places, green spaces, and other places that people use in everyday life.</p><p><b>First select the type of place</b>, then choose its location, and finally <b>confirm what people can do there</b>. This helps us connect each place to the right opportunities for different user profiles.</p>",
-			"#What kind of place are you reporting?": "What kind of place are you reporting?",
-			"#General doctor": "General doctor",
-			"#Medical clinic": "Medical clinic",
-			"#Specialist doctor": "Specialist doctor",
-			"#Hospital": "Hospital",
-			"#Dentist": "Dentist",
-			"#Pharmacy": "Pharmacy",
-			"#Veterinarian": "Veterinarian",
-			"#Childcare / daycare": "Childcare / daycare",
-			"#School": "School",
-			"#University / college": "University / college",
-			"#Training centre": "Training centre",
-			"#Library": "Library",
-			"#Supermarket": "Supermarket",
-			"#Grocery store": "Grocery store",
-			"#Bakery": "Bakery",
-			"#Market stall": "Market stall",
-			"#Restaurant": "Restaurant",
-			"#Café / bar": "Café / bar",
-			"#Workplace": "Workplace",
-			"#Coworking space": "Coworking space",
-			"#Bank": "Bank",
-			"#Post office": "Post office",
-			"#Municipality office": "Municipality office",
-			"#Community centre": "Community centre",
-			"#Youth centre": "Youth centre",
-			"#Senior centre": "Senior centre",
-			"#Cultural centre": "Cultural centre",
-			"#Cinema": "Cinema",
-			"#Theatre": "Theatre",
-			"#Museum": "Museum",
-			"#Park": "Park",
-			"#Playground": "Playground",
-			"#Sports facility": "Sports facility",
-			"#Hairdresser / beauty": "Hairdresser / beauty",
-			"#Repair shop": "Repair shop",
-			"#Place of worship": "Place of worship",
-			"#Phone / telecom shop": "Phone / telecom shop",
-			"#Print / copy shop": "Print / copy shop",
-			"#Laundromat": "Laundromat",
-			"#Hardware / household store": "Hardware / household store",
-			"#Household services office": "Household services office",
-			"#Name of the place": "Name of the place",
-			"#Select the place location": "Select the place location",
-			"#What can people do here?": "What can people do here?",
-			"#<p>Select <b>all the opportunities</b> that this place offers.</p><p>These options are used to build filters for different mobility and user profiles. A single place can support more than one opportunity.</p>": "<p>Select <b>all the opportunities</b> that this place offers.</p><p>These options are used to build filters for different mobility and user profiles. A single place can support more than one opportunity.</p>",
-			"#What can people do here? (select all that apply)": "What can people do here? (select all that apply)",
-			"#General healthcare": "General healthcare",
-			"#Specialist healthcare": "Specialist healthcare",
-			"#Dental care": "Dental care",
-			"#Women's health": "Women's health",
-			"#Child healthcare": "Child healthcare",
-			"#Medicines & pharmacy": "Medicines & pharmacy",
-			"#Animal care": "Animal care",
-			"#Childcare": "Childcare",
-			"#School education": "School education",
-			"#Higher education & training": "Higher education & training",
-			"#Learning & study": "Learning & study",
-			"#Daily shopping": "Daily shopping",
-			"#Food & meals": "Food & meals",
-			"#Employment": "Employment",
-			"#Financial services": "Financial services",
-			"#Civic & administrative services": "Civic & administrative services",
-			"#Postal & parcel services": "Postal & parcel services",
-			"#Social interaction": "Social interaction",
-			"#Youth activities": "Youth activities",
-			"#Older adult services": "Older adult services",
-			"#Cultural participation": "Cultural participation",
-			"#Relaxation & green spaces": "Relaxation & green spaces",
-			"#Play": "Play",
-			"#Sport & physical activity": "Sport & physical activity",
-			"#Personal care": "Personal care",
-			"#Everyday repair services": "Everyday repair services",
-			"#Religious & spiritual life": "Religious & spiritual life",
-			"#Digital services": "Digital services",
-			"#Printing & practical admin support": "Printing & practical admin support",
-			"#Laundry": "Laundry",
-			"#Household goods": "Household goods",
-			"#Home maintenance": "Home maintenance",
-			"#Cleaning & home help": "Cleaning & home help",
-			"#Accessibility and quality": "Accessibility and quality",
-			"#<p>Tell us whether the place is easy to use and how good it feels overall.</p>": "<p>Tell us whether the place is easy to use and how good it feels overall.</p>",
-			"#Is this place accessible to everyone?": "Is this place accessible to everyone?",
+			"#No designated crossing place": "No designated crossing place",
+			"#Zebra crossing (no traffic lights)": "Zebra crossing (no traffic lights)",
+			"#Zebra crossing with traffic lights": "Zebra crossing with traffic lights",
+			"#Is the crossing facility also for bicycles?": "Is the crossing facility also for bicycles?",
 			"#Yes": "Yes",
-			"#Partially": "Partially",
 			"#No": "No",
-			"#How would you rate this place overall?": "How would you rate this place overall?",
-			"#1 - Very poor": "1 - Very poor",
-			"#2 - Poor": "2 - Poor",
-			"#3 - Average": "3 - Average",
-			"#4 - Good": "4 - Good",
-			"#5 - Very good": "5 - Very good",
-			"#Additional notes (optional)": "Additional notes (optional)",
-			"#Are there any issues with this place?": "Are there any issues with this place?",
-			"#Limited accessibility": "Limited accessibility",
-			"#Limited opening hours": "Limited opening hours",
-			"#Poor maintenance": "Poor maintenance",
-			"#Unsafe surroundings": "Unsafe surroundings",
-			"#Too crowded": "Too crowded",
-			"#Difficult to reach": "Difficult to reach",
-			"#Poor lighting": "Poor lighting",
-			"#Noise": "Noise"
+			"#1 lane": "1 lane",
+			"#2 lanes": "2 lanes",
+			"#3 lanes": "3 lanes",
+			"#More than 3 lanes": "More than 3 lanes",
+			"#No visible crossing markings on the road": "No visible crossing markings on the road",
+			"#Crossing markings are faded or worn out": "Crossing markings are faded or worn out",
+			"#Which safety features are available at this crossing? (Select all that apply)": "Which safety features are available at this crossing? (Select all that apply)",
+			"#Illuminated crossing": "Illuminated crossing",
+			"#Raised crossing (higher than the road surface)": "Raised crossing (higher than the road surface)",
+			"#Traffic lights specifically for pedestrians": "Traffic lights specifically for pedestrians",
+			"#None of these": "None of these",
+			"#Nothing blocks the view": "Nothing blocks the view",
+			"#Illegally parked vehicles": "Illegally parked vehicles",
+			"#Parked vehicles": "Parked vehicles",
+			"#Trees or vegetation": "Trees or vegetation",
+			"#Road bends or curves": "Road bends or curves",
+			"#Waste bins or containers": "Waste bins or containers",
+			"#Street furniture (signs, utility boxes, etc.)": "Street furniture (signs, utility boxes, etc.)",
+			"#Other obstacles": "Other obstacles",
+			"#Which accessibility features apply to this crossing? (Select all that apply)": "Which accessibility features apply to this crossing? (Select all that apply)",
+			"#Suitable for wheelchair users": "Suitable for wheelchair users",
+			"#Suitable for baby strollers": "Suitable for baby strollers",
+			"#Tactile paving for visually impaired people": "Tactile paving for visually impaired people",
+			"#Audible crossing signal available": "Audible crossing signal available",
+			"#Additional Comments": "Additional Comments",
+			"#How long do you usually wait before you can cross?": "How long do you usually wait before you can cross?",
+			"#Underpass (tunnel)": "Underpass (tunnel)",
+			"#Bridge/overpass": "Bridge/overpass",
+			"#Crossing facility Survey": "Crossing facility Survey",
+			"#Would you like a crossing facility to be provided at this location?": "Would you like a crossing facility to be provided at this location?",
+			"#Is there a crossing facility available at this location?": "Is there a crossing facility available at this location?",
+			"#Unprotected waiting area in the middle of the road": "Unprotected waiting area in the middle of the road",
+			"#Protected waiting area in the middle of the road (refuge island)": "Protected waiting area in the middle of the road (refuge island)",
+			"#Does something make it difficult to see approaching traffic or the crossing itself? (Select all that apply)": "Does something make it difficult to see approaching traffic or the crossing itself? (Select all that apply)",
+			"#Crossing signs are clearly visible": "Crossing signs are clearly visible",
+			"#When you want to cross, how often do drivers give you the way?": "When you want to cross, how often do drivers give you the way?",
+			"#How adequate is the waiting space at the crossing?": "How adequate is the waiting space at the crossing?",
+			"#No safe place to wait": "No safe place to wait",
+			"#No waiting area is needed": "No waiting area is needed",
+			"#Suitable and comfortable": "Suitable and comfortable",
+			"#Too small for the number of people using it": "Too small for the number of people using it",
+			"#Which of the following apply to the underpass/tunnel? (Select all that apply)": "Which of the following apply to the underpass/tunnel? (Select all that apply)",
+			"#Well lit": "Well lit",
+			"#None of the above": "None of the above",
+			"#Crossing markings are clear, but visibility is blocked by traffic congestion": "Crossing markings are clear, but visibility is blocked by traffic congestion",
+			"#Crossing markings are clear, but often obstructed by vehicles waiting at traffic lights": "Crossing markings are clear, but often obstructed by vehicles waiting at traffic lights",
+			"#How many traffic lanes (in total) do you need to cross?": "How many traffic lanes (in total) do you need to cross?",
+			"#How visible are the markings (signage) for this crossing facility?": "How visible are the markings (signage) for this crossing facility?",
+			"#Drivers rarely stop; I usually wait for a gap in traffic.": "Drivers rarely stop; I usually wait for a gap in traffic.",
+			"#Some drivers stop, while others continue driving.": "Some drivers stop, while others continue driving.",
+			"#Most drivers stop when they see me waiting to cross.": "Most drivers stop when they see me waiting to cross.",
+			"#Drivers almost always stop, allowing me to cross immediately.": "Drivers almost always stop, allowing me to cross immediately.",
+			"#I can usually cross immediately (less than 10 seconds)": "I can usually cross immediately (less than 10 seconds)",
+			"#A short wait (10–30 seconds)": "A short wait (10–30 seconds)",
+			"#A moderate wait (30–60 seconds)": "A moderate wait (30–60 seconds)",
+			"#A long wait (1–2 minutes)": "A long wait (1–2 minutes)",
+			"#A very long wait (more than 2 minutes)": "A very long wait (more than 2 minutes)",
+			"#Does the bridge have any cover?": "Does the bridge have any cover?",
+			"#No cover": "No cover",
+			"#Covered by a roof or canopy": "Covered by a roof or canopy",
+			"#Covered by walls or an enclosed structure": "Covered by walls or an enclosed structure",
+			"#Covered by glass or transparent panels": "Covered by glass or transparent panels",
+			"#Other": "Other",
+			"#Walking surface is clean and free of litter": "Walking surface is clean and free of litter",
+			"#Walls and ceiling are in good condition": "Walls and ceiling are in good condition",
+			"#Drainage works properly (no standing water)": "Drainage works properly (no standing water)",
+			"#Elevator and/or escalator available": "Elevator and/or escalator available",
+			"#Is the waiting time indicated acceptable to you?": "Is the waiting time indicated acceptable to you?",
+			"#How safe would you feel using this underpass/tunnel?": "How safe would you feel using this underpass/tunnel?",
+			"#Very safe – the underpass is well lit, visibility is clear, and it appears clean and maintained.": "Very safe – the underpass is well lit, visibility is clear, and it appears clean and maintained.",
+			"#Mostly safe – the underpass has adequate lighting and visibility, with only minor concerns.": "Mostly safe – the underpass has adequate lighting and visibility, with only minor concerns.",
+			"#Neutral – the underpass is usable, but some safety conditions are uncertain.": "Neutral – the underpass is usable, but some safety conditions are uncertain.",
+			"#Somewhat unsafe – one or more conditions such as poor lighting, limited visibility, litter, or damp areas reduce the feeling of safety.": "Somewhat unsafe – one or more conditions such as poor lighting, limited visibility, litter, or damp areas reduce the feeling of safety.",
+			"#Very unsafe – the underpass has major safety concerns and would feel unsafe to use.": "Very unsafe – the underpass has major safety concerns and would feel unsafe to use.",
+			"#How safe would you feel using this bridge/overpass?": "How safe would you feel using this bridge/overpass?",
+			"#Very safe – the bridge is well lit, visibility is clear, and protective railings are secure.": "Very safe – the bridge is well lit, visibility is clear, and protective railings are secure.",
+			"#Mostly safe – the bridge has adequate lighting and secure railings, with only minor concerns.": "Mostly safe – the bridge has adequate lighting and secure railings, with only minor concerns.",
+			"#Neutral – the bridge is usable, but some safety conditions are uncertain.": "Neutral – the bridge is usable, but some safety conditions are uncertain.",
+			"#Somewhat unsafe – one or more conditions such as poor lighting, limited visibility, or inadequate railings reduce the feeling of safety.": "Somewhat unsafe – one or more conditions such as poor lighting, limited visibility, or inadequate railings reduce the feeling of safety.",
+			"#Very unsafe – the bridge has major safety concerns and would feel unsafe to use.": "Very unsafe – the bridge has major safety concerns and would feel unsafe to use.",
+			"#Crossing Survey": "Crossing Survey"
 		},
 		"fa": {
 			"#Geocode": "ژئوکد",
@@ -1260,6 +1386,13 @@
 			"#Full Screen": "تمام‌صفحه",
 			"#Next": "بعدی",
 			"#Welcome to": "خوش آمدید به",
+			"#Import Features from CSV addresses": "درون‌ریزی عوارض از آدرس‌های CSV",
+			"#geocode features": "ژئوکد عوارض",
+			"#invalid selection": "انتخاب نامعتبر",
+			"#Import completed!": "درون‌ریزی کامل شد!",
+			"#Importing file $0/$1": "در حال درون‌ریزی فایل $0/$1",
+			"#Import Features from CSV coordinates": "درون‌ریزی عوارض از مختصات CSV",
+			"#import points": "درون‌ریزی نقاط",
 			"#Click on an element to see details": "روی یک عنصر کلیک کنید تا جزئیات را ببینید,",
 			"#Geocode_address": "Seleziona una posizione sulla mappa",
 			"#Address_click": "انتخاب یک مکان روی نقشه",
@@ -1539,7 +1672,7 @@
 			"#Review mode": "حالت بازبینی"
 		}
 	},
-	"id": "report_service",
+	"id": "Pedestrian Crossing",
 	"db_set": "questionnaires",
 	"default_language": "en"
 }
