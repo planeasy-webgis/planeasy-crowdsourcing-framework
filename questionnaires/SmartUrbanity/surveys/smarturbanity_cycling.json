@@ -26,18 +26,29 @@
           {
             "text": "Do you cycle (including e-bikes) as a mode of travel at least once a week?",
             "question_type": "single_option",
+            "answer_key": "main_mode",
+            "required": true,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
             "options": [
               {
-                "text": "Yes"
+                "text": "Yes",
+                "value": "cycling"
               },
               {
-                "text": "No"
+                "text": "No",
+                "value": "nocycling"
               }
             ]
           },
           {
             "text": "Which type of bicycle do you most often use?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+            },
             "options": [
               {
                 "text": "Standard pedal bicycle (private)"
@@ -59,6 +70,9 @@
           {
             "text": "How confident are you cycling in urban traffic in your city?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Not confident at all — I avoid cycling in traffic"
@@ -83,6 +97,9 @@
           {
             "text": "How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Very inadequate — little or no cycling infrastructure exists"
@@ -104,6 +121,9 @@
           {
             "text": "Which of the following physical barriers do you face on your cycling route? (Select all that apply)",
             "question_type": "multiple_options",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)"
@@ -137,6 +157,9 @@
           {
             "text": "If you encounter poor road or path surfaces (potholes, cobblestones, or uneven ground), how does it affect your cycling?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "It does not affect my cycling at all"
@@ -158,6 +181,9 @@
           {
             "text": "To what extent does the steepness of your route affect your cycling?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Not at all"
@@ -179,6 +205,9 @@
           {
             "text": "How does the quality of signs and wayfinding on your cycling route affect your journey?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Not at all — I can navigate easily regardless of signage quality"
@@ -200,6 +229,9 @@
           {
             "text": "How do traffic levels and vehicle speeds on your cycling route typically affect your journey?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Not at all — traffic does not affect my cycling experience"
@@ -221,6 +253,9 @@
           {
             "text": "Which categories of road users most negatively affect your sense of safety while cycling? (Select up to 3 options)",
             "question_type": "multiple_options",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Car drivers"
@@ -257,6 +292,9 @@
           {
             "text": "How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Not confident at all — I feel unprepared for these situations"
@@ -278,6 +316,9 @@
           {
             "text": "How does street lighting affect your decision to cycle after dark?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Lighting levels have no influence on my decision to cycle after dark"
@@ -299,6 +340,9 @@
           {
             "text": "How would you describe the availability of bicycle parking at your most frequent destination?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Very inadequate — there is nowhere secure to park my bicycle"
@@ -320,6 +364,9 @@
           {
             "text": "Has the lack of secure bicycle parking ever caused you to change your travel plans or leave your bike at home?",
             "question_type": "single_option",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "Never"
@@ -341,6 +388,9 @@
           {
             "text": "What improvements would most encourage you to cycle more often or for longer distances? (Select up to 3 options)",
             "question_type": "multiple_options",
+            "show_if": {
+              "main_mode": "cycling"
+             },
             "options": [
               {
                 "text": "More dedicated and physically separated cycle lanes"
