@@ -1,0 +1,1014 @@
+{
+  "questionnaire": {
+    "name": "Crossing Assessment",
+    "questionnaire_id": "street_connection_assessment",
+    "questionnaire_version": "0.1.0",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html",
+    "sections": [
+      {
+        "title": "Describe this crossing",
+        "description": "Simple questions about what is physically present here.",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "What kind of place is this to cross the road?",
+            "answer_key": "crossing",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "There is no place to cross",
+                "value": "none"
+              },
+              {
+                "text": "People cross here, but there is no marked crossing",
+                "value": "informal"
+              },
+              {
+                "text": "Zebra crossing",
+                "value": "unsignalized"
+              },
+              {
+                "text": "Zebra crossing with traffic lights",
+                "value": "signalized"
+              },
+              {
+                "text": "Underpass or tunnel",
+                "value": "tunnel"
+              },
+              {
+                "text": "Bridge or overpass",
+                "value": "bridge"
+              }
+            ]
+          },
+          {
+            "text": "Can people cross here by bicycle?",
+            "answer_key": "bicycle_crossing",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "signalized",
+                "unsignalized",
+                "tunnel",
+                "bridge"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes, there is a marked bicycle crossing",
+                "value": "marked_bicycle_crossing"
+              },
+              {
+                "text": "Yes, bicycles and pedestrians use the same space",
+                "value": "shared_with_pedestrians"
+              },
+              {
+                "text": "No",
+                "value": "no"
+              },
+              {
+                "text": "I do not know",
+                "value": "unknown"
+              }
+            ]
+          },
+          {
+            "text": "How many car lanes do people cross here?",
+            "answer_key": "traffic_lanes_crossed",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "signalized",
+                "unsignalized"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "1 lane",
+                "value": "1"
+              },
+              {
+                "text": "2 lanes",
+                "value": "2"
+              },
+              {
+                "text": "3 lanes",
+                "value": "3"
+              },
+              {
+                "text": "More than 3 lanes",
+                "value": "more_than_3"
+              }
+            ]
+          },
+          {
+            "text": "Can drivers and pedestrians easily see this crossing?",
+            "answer_key": "crossing_visibility",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "signalized",
+                "unsignalized"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes, very easily",
+                "value": "very_easy"
+              },
+              {
+                "text": "Mostly yes",
+                "value": "mostly_easy"
+              },
+              {
+                "text": "No, there are visibility problems",
+                "value": "visibility_problems"
+              }
+            ]
+          },
+          {
+            "text": "What makes the crossing difficult to see?",
+            "answer_key": "crossing_visibility_problems",
+            "question_type": "multiple_options",
+            "show_if": {
+              "crossing_visibility": "visibility_problems"
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "There is no crossing sign",
+                "value": "missing_sign"
+              },
+              {
+                "text": "There are no visible markings on the road",
+                "value": "missing_road_markings"
+              },
+              {
+                "text": "The road markings are faded or worn out",
+                "value": "faded_markings"
+              },
+              {
+                "text": "Parked vehicles block the view",
+                "value": "parked_vehicles"
+              },
+              {
+                "text": "Vehicles often stop on the crossing",
+                "value": "vehicles_on_crossing"
+              },
+              {
+                "text": "Trees or plants block the view",
+                "value": "vegetation"
+              },
+              {
+                "text": "Signs, poles, boxes, or street furniture block the view",
+                "value": "street_furniture"
+              },
+              {
+                "text": "The road bends or slopes",
+                "value": "road_geometry"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ]
+          },
+          {
+            "text": "What helps people cross safely here?",
+            "answer_key": "crossing_safety_features",
+            "question_type": "multiple_options",
+            "show_if": {
+              "crossing": [
+                "signalized",
+                "unsignalized"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Good lighting",
+                "value": "lighting"
+              },
+              {
+                "text": "The crossing is raised above the road",
+                "value": "raised_crossing"
+              },
+              {
+                "text": "There is a small waiting space in the middle of the road",
+                "value": "median_waiting_space"
+              },
+              {
+                "text": "There is a protected island in the middle of the road",
+                "value": "protected_island"
+              },
+              {
+                "text": "Traffic lights stop vehicles for pedestrians",
+                "value": "pedestrian_signal"
+              },
+              {
+                "text": "None of these",
+                "value": "none"
+              }
+            ]
+          },
+          {
+            "text": "When waiting to cross, can people clearly see approaching traffic?",
+            "answer_key": "approaching_traffic_visibility",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "signalized",
+                "unsignalized"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes",
+                "value": "yes"
+              },
+              {
+                "text": "No",
+                "value": "no"
+              }
+            ]
+          },
+          {
+            "text": "What blocks the view of approaching traffic?",
+            "answer_key": "approaching_traffic_visibility_obstacles",
+            "question_type": "multiple_options",
+            "show_if": {
+              "approaching_traffic_visibility": "no"
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Parked vehicles",
+                "value": "parked_vehicles"
+              },
+              {
+                "text": "Illegally parked vehicles",
+                "value": "illegal_parking"
+              },
+              {
+                "text": "Trees or plants",
+                "value": "vegetation"
+              },
+              {
+                "text": "Bins or containers",
+                "value": "bins"
+              },
+              {
+                "text": "Signs, poles, boxes, or street furniture",
+                "value": "street_furniture"
+              },
+              {
+                "text": "Road curve or slope",
+                "value": "road_geometry"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ]
+          },
+          {
+            "text": "Is there enough room to wait safely before crossing?",
+            "answer_key": "waiting_space",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "signalized"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No, there is no safe place to wait",
+                "value": "no_safe_space"
+              },
+              {
+                "text": "There is a place to wait, but it is too small",
+                "value": "too_small"
+              },
+              {
+                "text": "Yes, there is enough safe space to wait",
+                "value": "enough_space"
+              },
+              {
+                "text": "No waiting space is needed here",
+                "value": "not_needed"
+              }
+            ]
+          },
+          {
+            "text": "Who can easily use this crossing?",
+            "answer_key": "crossing_accessibility",
+            "question_type": "multiple_options",
+            "show_if": {
+              "crossing": [
+                "signalized",
+                "unsignalized",
+                "tunnel",
+                "bridge"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "People in wheelchairs",
+                "value": "wheelchair_users"
+              },
+              {
+                "text": "People with strollers",
+                "value": "stroller_users"
+              },
+              {
+                "text": "People on bicycles",
+                "value": "bicycle_users"
+              },
+              {
+                "text": "Blind or visually impaired people",
+                "value": "blind_or_visually_impaired"
+              },
+              {
+                "text": "None of these",
+                "value": "none"
+              }
+            ]
+          },
+          {
+            "text": "Is the bridge or overpass covered?",
+            "answer_key": "bridge_cover",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": "bridge"
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No, it is not covered",
+                "value": "no_cover"
+              },
+              {
+                "text": "Yes, it has a roof or canopy",
+                "value": "roof_or_canopy"
+              },
+              {
+                "text": "Yes, it is enclosed by walls or panels",
+                "value": "enclosed"
+              },
+              {
+                "text": "Yes, it has glass or transparent panels",
+                "value": "transparent_panels"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ]
+          },
+          {
+            "text": "What is the underpass or tunnel like?",
+            "answer_key": "tunnel_conditions",
+            "question_type": "multiple_options",
+            "show_if": {
+              "crossing": "tunnel"
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "It is well lit",
+                "value": "well_lit"
+              },
+              {
+                "text": "The walking surface is clean",
+                "value": "clean_surface"
+              },
+              {
+                "text": "The walls and ceiling are in good condition",
+                "value": "walls_ceiling_good"
+              },
+              {
+                "text": "There is no standing water",
+                "value": "no_standing_water"
+              },
+              {
+                "text": "There is an elevator or escalator",
+                "value": "elevator_or_escalator"
+              },
+              {
+                "text": "None of these",
+                "value": "none"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Your experience here",
+        "description": "Simple questions about how people use this crossing.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How often do you use this crossing?",
+            "answer_key": "crossing_use_frequency",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "unsignalized",
+                "signalized",
+                "tunnel",
+                "bridge"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "This is my first time",
+                "value": "first_time"
+              },
+              {
+                "text": "Less than once a month",
+                "value": "less_than_monthly"
+              },
+              {
+                "text": "A few times a month",
+                "value": "monthly"
+              },
+              {
+                "text": "A few times a week",
+                "value": "weekly"
+              },
+              {
+                "text": "Almost every day",
+                "value": "daily"
+              }
+            ]
+          },
+          {
+            "text": "When you use this crossing, do drivers usually stop for you?",
+            "answer_key": "driver_yielding",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "unsignalized"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Drivers rarely stop",
+                "value": "rarely_stop"
+              },
+              {
+                "text": "Some drivers stop, others do not",
+                "value": "some_stop"
+              },
+              {
+                "text": "Most drivers stop",
+                "value": "most_stop"
+              },
+              {
+                "text": "Drivers almost always stop",
+                "value": "almost_always_stop"
+              }
+            ]
+          },
+          {
+            "text": "How long do you usually wait for the green light?",
+            "answer_key": "signal_wait_time",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "signalized"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Almost no wait, less than 10 seconds",
+                "value": "less_than_10s"
+              },
+              {
+                "text": "A short wait, about 10–30 seconds",
+                "value": "10_30s"
+              },
+              {
+                "text": "A medium wait, about 30–60 seconds",
+                "value": "30_60s"
+              },
+              {
+                "text": "A long wait, about 1–2 minutes",
+                "value": "1_2min"
+              },
+              {
+                "text": "A very long wait, more than 2 minutes",
+                "value": "more_than_2min"
+              }
+            ]
+          },
+          {
+            "text": "Is this waiting time acceptable?",
+            "answer_key": "waiting_time_acceptable",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "signalized"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes",
+                "value": "yes"
+              },
+              {
+                "text": "No",
+                "value": "no"
+              }
+            ]
+          },
+          {
+            "text": "How safe do you feel in this underpass or tunnel?",
+            "answer_key": "tunnel_perceived_safety",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": "tunnel"
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Very safe",
+                "value": "very_safe"
+              },
+              {
+                "text": "Mostly safe",
+                "value": "mostly_safe"
+              },
+              {
+                "text": "Neither safe nor unsafe",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat unsafe",
+                "value": "somewhat_unsafe"
+              },
+              {
+                "text": "Very unsafe",
+                "value": "very_unsafe"
+              }
+            ]
+          },
+          {
+            "text": "How safe do you feel on this bridge or overpass?",
+            "answer_key": "bridge_perceived_safety",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": "bridge"
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Very safe",
+                "value": "very_safe"
+              },
+              {
+                "text": "Mostly safe",
+                "value": "mostly_safe"
+              },
+              {
+                "text": "Neither safe nor unsafe",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat unsafe",
+                "value": "somewhat_unsafe"
+              },
+              {
+                "text": "Very unsafe",
+                "value": "very_unsafe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Improve this crossing",
+        "description": "A short diagnosis of whether this crossing needs improvement.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Should a marked crossing be added here?",
+            "answer_key": "desired_marked_crossing",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "none",
+                "informal"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes",
+                "value": "yes"
+              },
+              {
+                "text": "No",
+                "value": "no"
+              }
+            ]
+          },
+          {
+            "text": "Which statement best describes this crossing?",
+            "answer_key": "crossing_overall_assessment",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing": [
+                "unsignalized",
+                "signalized",
+                "tunnel",
+                "bridge"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "It works well as it is",
+                "value": "well_designed"
+              },
+              {
+                "text": "People often use it in an unsafe way",
+                "value": "misused"
+              },
+              {
+                "text": "It is in poor condition",
+                "value": "poorly_maintained"
+              },
+              {
+                "text": "It no longer meets people's needs",
+                "value": "inadequate_design"
+              },
+              {
+                "text": "It mostly works, but it could be better",
+                "value": "could_be_improved"
+              }
+            ]
+          },
+          {
+            "text": "How important is it to improve this crossing?",
+            "answer_key": "crossing_improvement_importance",
+            "question_type": "single_option",
+            "show_if": {
+              "crossing_overall_assessment": [
+                "misused",
+                "poorly_maintained",
+                "inadequate_design",
+                "could_be_improved"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ]
+          },
+          {
+            "text": "Anything else you want to add?",
+            "answer_key": "additional_comments",
+            "question_type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "en": {
+      "code": "en",
+      "#1 lane": "1 lane",
+      "#2 lanes": "2 lanes",
+      "#3 lanes": "3 lanes",
+      "#A few times a month": "A few times a month",
+      "#A few times a week": "A few times a week",
+      "#A long wait, about 1–2 minutes": "A long wait, about 1–2 minutes",
+      "#A medium wait, about 30–60 seconds": "A medium wait, about 30–60 seconds",
+      "#A short diagnosis of whether this crossing needs improvement.": "A short diagnosis of whether this crossing needs improvement.",
+      "#A short wait, about 10–30 seconds": "A short wait, about 10–30 seconds",
+      "#A very long wait, more than 2 minutes": "A very long wait, more than 2 minutes",
+      "#Almost every day": "Almost every day",
+      "#Almost no wait, less than 10 seconds": "Almost no wait, less than 10 seconds",
+      "#Anything else you want to add?": "Anything else you want to add?",
+      "#Bins or containers": "Bins or containers",
+      "#Blind or visually impaired people": "Blind or visually impaired people",
+      "#Bridge or overpass": "Bridge or overpass",
+      "#Can drivers and pedestrians easily see this crossing?": "Can drivers and pedestrians easily see this crossing?",
+      "#Can people cross here by bicycle?": "Can people cross here by bicycle?",
+      "#Describe this crossing": "Describe this crossing",
+      "#Drivers almost always stop": "Drivers almost always stop",
+      "#Drivers rarely stop": "Drivers rarely stop",
+      "#Good lighting": "Good lighting",
+      "#How important is it to improve this crossing?": "How important is it to improve this crossing?",
+      "#How long do you usually wait for the green light?": "How long do you usually wait for the green light?",
+      "#How many car lanes do people cross here?": "How many car lanes do people cross here?",
+      "#How often do you use this crossing?": "How often do you use this crossing?",
+      "#How safe do you feel in this underpass or tunnel?": "How safe do you feel in this underpass or tunnel?",
+      "#How safe do you feel on this bridge or overpass?": "How safe do you feel on this bridge or overpass?",
+      "#I do not know": "I do not know",
+      "#Illegally parked vehicles": "Illegally parked vehicles",
+      "#Important": "Important",
+      "#Improve this crossing": "Improve this crossing",
+      "#Is the bridge or overpass covered?": "Is the bridge or overpass covered?",
+      "#Is there enough room to wait safely before crossing?": "Is there enough room to wait safely before crossing?",
+      "#Is this waiting time acceptable?": "Is this waiting time acceptable?",
+      "#It is in poor condition": "It is in poor condition",
+      "#It is well lit": "It is well lit",
+      "#It mostly works, but it could be better": "It mostly works, but it could be better",
+      "#It no longer meets people's needs": "It no longer meets people's needs",
+      "#It works well as it is": "It works well as it is",
+      "#Less than once a month": "Less than once a month",
+      "#Moderately important": "Moderately important",
+      "#More than 3 lanes": "More than 3 lanes",
+      "#Most drivers stop": "Most drivers stop",
+      "#Mostly safe": "Mostly safe",
+      "#Mostly yes": "Mostly yes",
+      "#Neither safe nor unsafe": "Neither safe nor unsafe",
+      "#No": "No",
+      "#No waiting space is needed here": "No waiting space is needed here",
+      "#No, it is not covered": "No, it is not covered",
+      "#No, there are visibility problems": "No, there are visibility problems",
+      "#No, there is no safe place to wait": "No, there is no safe place to wait",
+      "#None of these": "None of these",
+      "#Not important": "Not important",
+      "#Other": "Other",
+      "#Parked vehicles": "Parked vehicles",
+      "#Parked vehicles block the view": "Parked vehicles block the view",
+      "#People cross here, but there is no marked crossing": "People cross here, but there is no marked crossing",
+      "#People in wheelchairs": "People in wheelchairs",
+      "#People often use it in an unsafe way": "People often use it in an unsafe way",
+      "#People on bicycles": "People on bicycles",
+      "#People with strollers": "People with strollers",
+      "#Road curve or slope": "Road curve or slope",
+      "#Should a marked crossing be added here?": "Should a marked crossing be added here?",
+      "#Signs, poles, boxes, or street furniture": "Signs, poles, boxes, or street furniture",
+      "#Signs, poles, boxes, or street furniture block the view": "Signs, poles, boxes, or street furniture block the view",
+      "#Simple questions about how people use this crossing.": "Simple questions about how people use this crossing.",
+      "#Simple questions about what is physically present here.": "Simple questions about what is physically present here.",
+      "#Slightly important": "Slightly important",
+      "#Some drivers stop, others do not": "Some drivers stop, others do not",
+      "#Somewhat unsafe": "Somewhat unsafe",
+      "#The crossing is raised above the road": "The crossing is raised above the road",
+      "#The road bends or slopes": "The road bends or slopes",
+      "#The road markings are faded or worn out": "The road markings are faded or worn out",
+      "#The walking surface is clean": "The walking surface is clean",
+      "#The walls and ceiling are in good condition": "The walls and ceiling are in good condition",
+      "#There are no visible markings on the road": "There are no visible markings on the road",
+      "#There is a place to wait, but it is too small": "There is a place to wait, but it is too small",
+      "#There is a protected island in the middle of the road": "There is a protected island in the middle of the road",
+      "#There is a small waiting space in the middle of the road": "There is a small waiting space in the middle of the road",
+      "#There is an elevator or escalator": "There is an elevator or escalator",
+      "#There is no crossing sign": "There is no crossing sign",
+      "#There is no place to cross": "There is no place to cross",
+      "#There is no standing water": "There is no standing water",
+      "#This is my first time": "This is my first time",
+      "#Traffic lights stop vehicles for pedestrians": "Traffic lights stop vehicles for pedestrians",
+      "#Trees or plants": "Trees or plants",
+      "#Trees or plants block the view": "Trees or plants block the view",
+      "#Underpass or tunnel": "Underpass or tunnel",
+      "#Vehicles often stop on the crossing": "Vehicles often stop on the crossing",
+      "#Very important": "Very important",
+      "#Very safe": "Very safe",
+      "#Very unsafe": "Very unsafe",
+      "#What blocks the view of approaching traffic?": "What blocks the view of approaching traffic?",
+      "#What helps people cross safely here?": "What helps people cross safely here?",
+      "#What is the underpass or tunnel like?": "What is the underpass or tunnel like?",
+      "#What kind of place is this to cross the road?": "What kind of place is this to cross the road?",
+      "#What makes the crossing difficult to see?": "What makes the crossing difficult to see?",
+      "#When waiting to cross, can people clearly see approaching traffic?": "When waiting to cross, can people clearly see approaching traffic?",
+      "#When you use this crossing, do drivers usually stop for you?": "When you use this crossing, do drivers usually stop for you?",
+      "#Which statement best describes this crossing?": "Which statement best describes this crossing?",
+      "#Who can easily use this crossing?": "Who can easily use this crossing?",
+      "#Yes": "Yes",
+      "#Yes, bicycles and pedestrians use the same space": "Yes, bicycles and pedestrians use the same space",
+      "#Yes, it has a roof or canopy": "Yes, it has a roof or canopy",
+      "#Yes, it has glass or transparent panels": "Yes, it has glass or transparent panels",
+      "#Yes, it is enclosed by walls or panels": "Yes, it is enclosed by walls or panels",
+      "#Yes, there is a marked bicycle crossing": "Yes, there is a marked bicycle crossing",
+      "#Yes, there is enough safe space to wait": "Yes, there is enough safe space to wait",
+      "#Yes, very easily": "Yes, very easily",
+      "#Your experience here": "Your experience here",
+      "#Zebra crossing": "Zebra crossing",
+      "#Zebra crossing with traffic lights": "Zebra crossing with traffic lights"
+    },
+    "it": {
+      "code": "it",
+      "#1 lane": "1 corsia",
+      "#2 lanes": "2 corsie",
+      "#3 lanes": "3 corsie",
+      "#A few times a month": "Alcune volte al mese",
+      "#A few times a week": "Alcune volte a settimana",
+      "#A long wait, about 1–2 minutes": "Lunga attesa, circa 1–2 minuti",
+      "#A medium wait, about 30–60 seconds": "Attesa media, circa 30–60 secondi",
+      "#A short diagnosis of whether this crossing needs improvement.": "Una valutazione sintetica per capire se questo attraversamento va migliorato.",
+      "#A short wait, about 10–30 seconds": "Breve attesa, circa 10–30 secondi",
+      "#A very long wait, more than 2 minutes": "Attesa molto lunga, più di 2 minuti",
+      "#Almost every day": "Quasi ogni giorno",
+      "#Almost no wait, less than 10 seconds": "Quasi nessuna attesa, meno di 10 secondi",
+      "#Anything else you want to add?": "Vuoi aggiungere altro?",
+      "#Bins or containers": "Cassonetti o contenitori",
+      "#Blind or visually impaired people": "Persone cieche o ipovedenti",
+      "#Bridge or overpass": "Ponte o sovrappasso",
+      "#Can drivers and pedestrians easily see this crossing?": "Automobilisti e pedoni vedono facilmente questo attraversamento?",
+      "#Can people cross here by bicycle?": "Le persone possono attraversare qui in bicicletta?",
+      "#Describe this crossing": "Descrivi questo attraversamento",
+      "#Drivers almost always stop": "I conducenti si fermano quasi sempre",
+      "#Drivers rarely stop": "I conducenti si fermano raramente",
+      "#Good lighting": "Buona illuminazione",
+      "#How important is it to improve this crossing?": "Quanto è importante migliorare questo attraversamento?",
+      "#How long do you usually wait for the green light?": "Quanto tempo aspetti di solito il verde?",
+      "#How many car lanes do people cross here?": "Quante corsie per auto si attraversano qui?",
+      "#How often do you use this crossing?": "Quanto spesso usi questo attraversamento?",
+      "#How safe do you feel in this underpass or tunnel?": "Quanto ti senti al sicuro in questo sottopasso?",
+      "#How safe do you feel on this bridge or overpass?": "Quanto ti senti al sicuro su questo ponte o sovrappasso?",
+      "#I do not know": "Non lo so",
+      "#Illegally parked vehicles": "Veicoli parcheggiati in modo irregolare",
+      "#Important": "Importante",
+      "#Improve this crossing": "Migliorare questo attraversamento",
+      "#Is the bridge or overpass covered?": "Il ponte o sovrappasso è coperto?",
+      "#Is there enough room to wait safely before crossing?": "C’è abbastanza spazio per aspettare in sicurezza prima di attraversare?",
+      "#Is this waiting time acceptable?": "Questo tempo di attesa è accettabile?",
+      "#It is in poor condition": "È in cattive condizioni",
+      "#It is well lit": "È ben illuminato",
+      "#It mostly works, but it could be better": "Funziona abbastanza, ma potrebbe essere migliore",
+      "#It no longer meets people's needs": "Non risponde più ai bisogni delle persone",
+      "#It works well as it is": "Funziona bene così com’è",
+      "#Less than once a month": "Meno di una volta al mese",
+      "#Moderately important": "Abbastanza importante",
+      "#More than 3 lanes": "Più di 3 corsie",
+      "#Most drivers stop": "La maggior parte dei conducenti si ferma",
+      "#Mostly safe": "Abbastanza sicuro",
+      "#Mostly yes": "Abbastanza sì",
+      "#Neither safe nor unsafe": "Né sicuro né insicuro",
+      "#No": "No",
+      "#No waiting space is needed here": "Qui non serve uno spazio di attesa",
+      "#No, it is not covered": "No, non è coperto",
+      "#No, there are visibility problems": "No, ci sono problemi di visibilità",
+      "#No, there is no safe place to wait": "No, non c’è un posto sicuro dove aspettare",
+      "#None of these": "Nessuna di queste",
+      "#Not important": "Non importante",
+      "#Other": "Altro",
+      "#Parked vehicles": "Veicoli parcheggiati",
+      "#Parked vehicles block the view": "Veicoli parcheggiati bloccano la visuale",
+      "#People cross here, but there is no marked crossing": "Le persone attraversano qui, ma non ci sono strisce o segni",
+      "#People in wheelchairs": "Persone in sedia a rotelle",
+      "#People often use it in an unsafe way": "Le persone spesso lo usano in modo poco sicuro",
+      "#People on bicycles": "Persone in bicicletta",
+      "#People with strollers": "Persone con passeggini",
+      "#Road curve or slope": "Curva o pendenza della strada",
+      "#Should a marked crossing be added here?": "Qui dovrebbe essere aggiunto un attraversamento segnalato?",
+      "#Signs, poles, boxes, or street furniture": "Cartelli, pali, centraline o arredi",
+      "#Signs, poles, boxes, or street furniture block the view": "Cartelli, pali, centraline o arredi bloccano la visuale",
+      "#Simple questions about how people use this crossing.": "Domande semplici su come viene usato questo attraversamento.",
+      "#Simple questions about what is physically present here.": "Domande semplici su ciò che è presente qui.",
+      "#Slightly important": "Poco importante",
+      "#Some drivers stop, others do not": "Alcuni conducenti si fermano, altri no",
+      "#Somewhat unsafe": "Abbastanza insicuro",
+      "#The crossing is raised above the road": "L’attraversamento è rialzato rispetto alla strada",
+      "#The road bends or slopes": "La strada curva o è in pendenza",
+      "#The road markings are faded or worn out": "I segni sulla strada sono sbiaditi o consumati",
+      "#The walking surface is clean": "La superficie è pulita",
+      "#The walls and ceiling are in good condition": "Pareti e soffitto sono in buone condizioni",
+      "#There are no visible markings on the road": "Non ci sono segni visibili sulla strada",
+      "#There is a place to wait, but it is too small": "C’è uno spazio per aspettare, ma è troppo piccolo",
+      "#There is a protected island in the middle of the road": "C’è un’isola protetta al centro della strada",
+      "#There is a small waiting space in the middle of the road": "C’è un piccolo spazio di attesa al centro della strada",
+      "#There is an elevator or escalator": "C’è un ascensore o una scala mobile",
+      "#There is no crossing sign": "Non c’è un cartello dell’attraversamento",
+      "#There is no place to cross": "Non c’è un punto per attraversare",
+      "#There is no standing water": "Non ci sono ristagni d’acqua",
+      "#This is my first time": "È la prima volta",
+      "#Traffic lights stop vehicles for pedestrians": "Il semaforo ferma i veicoli per far passare i pedoni",
+      "#Trees or plants": "Alberi o piante",
+      "#Trees or plants block the view": "Alberi o piante bloccano la visuale",
+      "#Underpass or tunnel": "Sottopasso",
+      "#Vehicles often stop on the crossing": "I veicoli spesso si fermano sopra l’attraversamento",
+      "#Very important": "Molto importante",
+      "#Very safe": "Molto sicuro",
+      "#Very unsafe": "Molto insicuro",
+      "#What blocks the view of approaching traffic?": "Cosa blocca la visuale dei veicoli in arrivo?",
+      "#What helps people cross safely here?": "Cosa aiuta le persone ad attraversare in sicurezza qui?",
+      "#What is the underpass or tunnel like?": "Com’è il sottopasso?",
+      "#What kind of place is this to cross the road?": "Che tipo di attraversamento c’è qui?",
+      "#What makes the crossing difficult to see?": "Cosa rende difficile vedere l’attraversamento?",
+      "#When waiting to cross, can people clearly see approaching traffic?": "Quando aspettano di attraversare, le persone vedono bene i veicoli in arrivo?",
+      "#When you use this crossing, do drivers usually stop for you?": "Quando usi questo attraversamento, i conducenti di solito si fermano per farti passare?",
+      "#Which statement best describes this crossing?": "Quale frase descrive meglio questo attraversamento?",
+      "#Who can easily use this crossing?": "Chi può usare facilmente questo attraversamento?",
+      "#Yes": "Sì",
+      "#Yes, bicycles and pedestrians use the same space": "Sì, biciclette e pedoni usano lo stesso spazio",
+      "#Yes, it has a roof or canopy": "Sì, ha una tettoia o copertura",
+      "#Yes, it has glass or transparent panels": "Sì, ha vetri o pannelli trasparenti",
+      "#Yes, it is enclosed by walls or panels": "Sì, è chiuso da pareti o pannelli",
+      "#Yes, there is a marked bicycle crossing": "Sì, c’è un attraversamento segnalato per biciclette",
+      "#Yes, there is enough safe space to wait": "Sì, c’è abbastanza spazio sicuro per aspettare",
+      "#Yes, very easily": "Sì, molto facilmente",
+      "#Your experience here": "La tua esperienza qui",
+      "#Zebra crossing": "Strisce pedonali",
+      "#Zebra crossing with traffic lights": "Strisce pedonali con semaforo"
+    }
+  },
+  "id": "Pedestrian Crossing",
+  "db_set": "questionnaires",
+  "default_language": "en"
+}
