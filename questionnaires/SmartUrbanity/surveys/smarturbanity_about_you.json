@@ -1,2185 +1,2338 @@
 {
-	"questionnaire": {
-		"name": "SmartUrbanity - About You",
-		"questionnaire_id": "smarturbanity_about_you",
-		"questionnaire_version": "0.0.1",
-		"project": "SmartUrbanity",
-		"options": {
-			"review_mode": true,
-			"ask_consent": false,
-			"save_user_id": false
-		},
-		"gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
+  "questionnaire": {
+    "name": "SmartUrbanity - About You",
+    "questionnaire_id": "smarturbanity_about_you",
+    "questionnaire_version": "0.0.1",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/guidelines/docs/transparency.html",
     "title": "1. About You",
-		"sections": [
-			{
-				"title": "1. Welcome to About You",
-				"description": "This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
-				"backgroundColor": "#d3d3d3",
-				"questions": []
-			},
-			{
-				"title": "Personal & Household",
-				"description": "A few background questions to help us understand who our participants are.",
-				"backgroundColor": "#f0f0f0",
-				"questions": [
-					{
-						"text": "What is your age group? (Participation is limited to adults aged 18 or older)",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "18-24"
-							},
-							{
-								"text": "25-34"
-							},
-							{
-								"text": "35-44"
-							},
-							{
-								"text": "45-54"
-							},
-							{
-								"text": "55-64"
-							},
-							{
-								"text": "65-74"
-							},
-							{
-								"text": "75-84"
-							},
-							{
-								"text": "85 or older"
-							},
-							{
-								"text": "Prefer not to say"
-							}
-						]
-					},
-					{
-						"text": "What is your gender?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Male"
-							},
-							{
-								"text": "Female"
-							},
-							{
-								"text": "Other"
-							},
-							{
-								"text": "Prefer not to say"
-							}
-						]
-					},
-					{
-						"text": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "How many adults, including yourself, live together in your household?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "1 (only myself)"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5 or more"
-							}
-						]
-					},
-					{
-						"text": "What is your highest completed level of education?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "No qualification"
-							},
-							{
-								"text": "Lower secondary school"
-							},
-							{
-								"text": "High school"
-							},
-							{
-								"text": "Bachelor degree or equivalent"
-							},
-							{
-								"text": "Master degree or equivalent"
-							},
-							{
-								"text": "Doctorate degree"
-							}
-						]
-					},
-					{
-						"text": "Which economic status do you think best describes your household?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "We struggle to cover basic needs"
-							},
-							{
-								"text": "We can cover basic needs"
-							},
-							{
-								"text": "We can cover basic needs comfortably and have little money left over"
-							},
-							{
-								"text": "We can afford most things we want with occasional extra expenses"
-							},
-							{
-								"text": "We are financially very comfortable and can easily afford extra expenses"
-							}
-						]
-					},
-					{
-						"text": "Which best describes your employment status?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Employed full-time"
-							},
-							{
-								"text": "Employed part-time"
-							},
-							{
-								"text": "Occasionally employed"
-							},
-							{
-								"text": "Self-employed/freelance full-time"
-							},
-							{
-								"text": "Self employed/freelance part-time"
-							},
-							{
-								"text": "Homemaker"
-							},
-							{
-								"text": "Retired"
-							},
-							{
-								"text": "Unemployed looking for work"
-							},
-							{
-								"text": "Unemployed not looking for work"
-							},
-							{
-								"text": "Adult learner (student)"
-							},
-							{
-								"text": "Other"
-							}
-						]
-					},
-					{
-						"text": "Do you currently work remotely (partly or fully)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes (3 days or more in a week)"
-							},
-							{
-								"text": "Yes, occasionally (1-2 days in a week)"
-							},
-							{
-								"text": "No"
-							},
-							{
-								"text": "I am not currently employed"
-							}
-						]
-					},
-					{
-						"text": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "Somewhat (within a 1-2 hour window)"
-							},
-							{
-								"text": "No"
-							},
-							{
-								"text": "I am not currently employed"
-							}
-						]
-					},
-					{
-						"text": "Do you have any condition or limitation that affects your ability to move independently?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "No, I can move independently"
-							},
-							{
-								"text": "Yes, I have a temporary condition/limitation"
-							},
-							{
-								"text": "Yes, I have a permanent mobility condition/limitation"
-							}
-						]
-					},
-					{
-						"text": "Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "Do you hold a valid driving license? (Car, motorcycle or both)",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "No"
-							}
-						]
-					},
-					{
-						"text": "Do you belong to any of these groups?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Urban planner"
-							},
-							{
-								"text": "Policymaker"
-							},
-							{
-								"text": "Environmental/sustainable mobility activist"
-							},
-							{
-								"text": "Content creator / communicator (social media, journalism, blogging)"
-							},
-							{
-								"text": "None"
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "Physical Capability",
-				"description": "Questions about your physical capacity for active travel.",
-				"backgroundColor": "#f0f0f0",
-				"questions": [
-					{
-						"text": "On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I rarely or never walk"
-							},
-							{
-								"text": "Less than 500 meters (about 5-6 minutes)"
-							},
-							{
-								"text": "From 500 meters to 1 km (about 10-15 minutes)"
-							},
-							{
-								"text": "1 to 2 km (about 15-25 minutes)"
-							},
-							{
-								"text": "More than 2 km"
-							}
-						]
-					},
-					{
-						"text": "How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Inactive (0 days)"
-							},
-							{
-								"text": "Occasionally Active (1 day)"
-							},
-							{
-								"text": "Moderately Active (2–3 days)"
-							},
-							{
-								"text": "Highly Active (4–5 days)"
-							},
-							{
-								"text": "Daily / Near Daily (6–7 days)"
-							}
-						]
-					},
-					{
-						"text": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Very low (sedentary, easily fatigued)"
-							},
-							{
-								"text": "Low"
-							},
-							{
-								"text": "Moderate"
-							},
-							{
-								"text": "Good"
-							},
-							{
-								"text": "High"
-							}
-						]
-					},
-					{
-						"text": "What is your approximate height?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Less than 150 cm"
-							},
-							{
-								"text": "150-164 cm"
-							},
-							{
-								"text": "165-179 cm"
-							},
-							{
-								"text": "180-194 cm"
-							},
-							{
-								"text": "195 cm or more"
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "Living context",
-				"description": "Questions about where you live and how you move around Rome.",
-				"backgroundColor": "#f0f0f0",
-				"questions": [
-					{
-						"text": "Which of the following best describes your relationship to Municipio XII?",
-						"answer_key": "residence",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I live here (Resident)",
-								"value": "live"
-							},
-							{
-								"text": "I travel here regularly for work or study (Commuter)",
-								"value": "travel"
-							},
-							{
-								"text": "I’m visiting for leisure (Tourist)",
-								"value": "visit"
-							},
-							{
-								"text": "I’m here temporarily for another reason (Visitor)",
-								"value": "reason"
-							}
-						]
-					},
-					{
-						"text": "In which Municipio of Rome do you currently live?",
-						"question_type": "single_option",
-						"show_if": {
-							"residence": [
-								"visit",
-								"reason",
-								"travel"
-							]
-						},
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							},
-							{
-								"text": "6"
-							},
-							{
-								"text": "7"
-							},
-							{
-								"text": "8"
-							},
-							{
-								"text": "9"
-							},
-							{
-								"text": "10"
-							},
-							{
-								"text": "11"
-							},
-							{
-								"text": "13"
-							},
-							{
-								"text": "14"
-							},
-							{
-								"text": "15"
-							},
-							{
-								"text": "I live outside Rome"
-							},
-							{
-								"text": "I don't know"
-							}
-						]
-					},
-					{
-						"text": "In which neighbourhood of municipio XII do you currently live?",
-						"question_type": "single_option",
-						"show_if": {
-							"residence": "live"
-						},
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "BRAVETTA"
-							},
-							{
-								"text": "CASAL LUMBROSO"
-							},
-							{
-								"text": "COLLE AURELIO"
-							},
-							{
-								"text": "COLLI PORTUENSI"
-							},
-							{
-								"text": "LA PISANA"
-							},
-							{
-								"text": "MASSIMINA"
-							},
-							{
-								"text": "MONTEVERDE NUOVO"
-							},
-							{
-								"text": "MONTEVERDE VECCHIO"
-							},
-							{
-								"text": "PORTA PORTESE"
-							},
-							{
-								"text": "SANTA CECILIA"
-							},
-							{
-								"text": "VIGNACCIA"
-							},
-							{
-								"text": "VILLA TROILI"
-							},
-							{
-								"text": "VILLINI"
-							}
-						]
-					},
-					{
-						"text": "Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?",
-						"answer_key": "travel",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I mainly stay within my own Municipio",
-								"value": "stay"
-							},
-							{
-								"text": "I don't know",
-								"value": "idk"
-							},
-							{
-								"text": "1",
-								"value": "1"
-							},
-							{
-								"text": "2",
-								"value": "2"
-							},
-							{
-								"text": "3",
-								"value": "3"
-							},
-							{
-								"text": "4",
-								"value": "4"
-							},
-							{
-								"text": "5",
-								"value": "5"
-							},
-							{
-								"text": "6",
-								"value": "6"
-							},
-							{
-								"text": "7",
-								"value": "7"
-							},
-							{
-								"text": "8",
-								"value": "8"
-							},
-							{
-								"text": "9",
-								"value": "9"
-							},
-							{
-								"text": "10",
-								"value": "10"
-							},
-							{
-								"text": "11",
-								"value": "11"
-							},
-							{
-								"text": "12",
-								"value": "12"
-							},
-							{
-								"text": "13",
-								"value": "13"
-							},
-							{
-								"text": "14",
-								"value": "14"
-							},
-							{
-								"text": "15",
-								"value": "15"
-							}
-						]
-					},
-					{
-						"text": "Which is the second Municipio you travel in most frequently?",
-						"answer_key": "second",
-						"question_type": "single_option",
-						"show_if": {
-							"travel": [
-								"1",
-								"2",
-								"3",
-								"4",
-								"5",
-								"6",
-								"7",
-								"8",
-								"9",
-								"10",
-								"11",
-								"12",
-								"13",
-								"14",
-								"15"
-							]
-						},
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I don't know",
-								"value": "idk"
-							},
-							{
-								"text": "1",
-								"value": "1"
-							},
-							{
-								"text": "2",
-								"value": "2"
-							},
-							{
-								"text": "3",
-								"value": "3"
-							},
-							{
-								"text": "4",
-								"value": "4"
-							},
-							{
-								"text": "5",
-								"value": "5"
-							},
-							{
-								"text": "6",
-								"value": "6"
-							},
-							{
-								"text": "7",
-								"value": "7"
-							},
-							{
-								"text": "8",
-								"value": "8"
-							},
-							{
-								"text": "9",
-								"value": "9"
-							},
-							{
-								"text": "10",
-								"value": "10"
-							},
-							{
-								"text": "11",
-								"value": "11"
-							},
-							{
-								"text": "12",
-								"value": "12"
-							},
-							{
-								"text": "13",
-								"value": "13"
-							},
-							{
-								"text": "14",
-								"value": "14"
-							},
-							{
-								"text": "15",
-								"value": "15"
-							}
-						]
-					},
-					{
-						"text": "Which is the third Municipio you travel in most frequently?",
-						"question_type": "single_option",
-						"show_if": {
-							"second": [
-								"1",
-								"2",
-								"3",
-								"4",
-								"5",
-								"6",
-								"7",
-								"8",
-								"9",
-								"10",
-								"11",
-								"12",
-								"13",
-								"14",
-								"15"
-							]
-						},
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "I don't know",
-								"value": "idk"
-							},
-							{
-								"text": "1",
-								"value": "1"
-							},
-							{
-								"text": "2",
-								"value": "2"
-							},
-							{
-								"text": "3",
-								"value": "3"
-							},
-							{
-								"text": "4",
-								"value": "4"
-							},
-							{
-								"text": "5",
-								"value": "5"
-							},
-							{
-								"text": "6",
-								"value": "6"
-							},
-							{
-								"text": "7",
-								"value": "7"
-							},
-							{
-								"text": "8",
-								"value": "8"
-							},
-							{
-								"text": "9",
-								"value": "9"
-							},
-							{
-								"text": "10",
-								"value": "10"
-							},
-							{
-								"text": "11",
-								"value": "11"
-							},
-							{
-								"text": "12",
-								"value": "12"
-							},
-							{
-								"text": "13",
-								"value": "13"
-							},
-							{
-								"text": "14",
-								"value": "14"
-							},
-							{
-								"text": "15",
-								"value": "15"
-							}
-						]
-					},
-					{
-						"text": "If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)",
-						"question_type": "multiple_options",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"max_answers": 3,
-						"options": [
-							{
-								"text": "Work or university"
-							},
-							{
-								"text": "Grocery shopping / supermarkets"
-							},
-							{
-								"text": "Healthcare (doctor, pharmacy, hospital)"
-							},
-							{
-								"text": "Schools or childcare"
-							},
-							{
-								"text": "Leisure activities (restaurants, cafes, cinema, gym)"
-							},
-							{
-								"text": "Visiting friends or family"
-							},
-							{
-								"text": "Administrative services (banks, offices, etc.)"
-							},
-							{
-								"text": "Better prices or more choice of services elsewhere"
-							},
-							{
-								"text": "Lack of services in my neighborhood"
-							},
-							{
-								"text": "Poor quality of services in my neighborhood"
-							},
-							{
-								"text": "I prefer other neighborhoods or areas"
-							},
-							{
-								"text": "I rarely or never travel outside my neighborhood"
-							},
-							{
-								"text": "Other"
-							}
-						]
-					},
-					{
-						"text": "How strongly do you feel connected to the place where you live and the people in your community?",
-						"question_type": "single_option",
-						"add_prefer_not_to_say": false,
-						"add_i_dont_know": false,
-						"add_other": false,
-						"checks_inline": false,
-						"options": [
-							{
-								"text": "Not connected"
-							},
-							{
-								"text": "Somewhat disconnected"
-							},
-							{
-								"text": "Neither connected nor disconnected"
-							},
-							{
-								"text": "Somewhat connected"
-							},
-							{
-								"text": "Very connected"
-							}
-						]
-					}
-				]
-			}
-		]
-	},
-	"languages": {
-		"it": {
-			"#User": "Utente",
-			"#User email": "Email utente",
-			"#Username": "Nome utente",
-			"#Service": "Servizio",
-			"#Geocode": "Geocodifica",
-			"#geocode result": "Esito geocodifica",
-			"#longitude": "longitudine",
-			"#latitude": "latitudine",
-			"#address": "indirizzo",
-			"#city": "citta",
-			"#postal_code": "codice postale",
-			"#notes": "note",
-			"#Legend": "Legenda",
-			"#Login": "Accesso",
-			"#Logout": "Esci",
-			"#Sign Out": "Esci",
-			"#Sign in": "Accedi",
-			"#Sign in to continue": "Accedi per continuare",
-			"#Choose how to sign in": "Scegli come accedere",
-			"#Not logged in": "Non autenticato",
-			"#Guest user": "Utente ospite",
-			"#Registered user - limited access": "Utente registrato - accesso limitato",
-			"#Registered user": "Utente registrato",
-			"#Role": "Ruolo",
-			"#Group": "Gruppo",
-			"#Admin": "Amministratore",
-			"#Mock user": "Utente simulato",
-			"#Email": "Email",
-			"#Password": "Password",
-			"#Code": "Codice",
-			"#Remember me": "Ricordami",
-			"#Register new user": "Registra nuovo utente",
-			"#Forgot my password": "Ho dimenticato la password",
-			"#Set my password": "Imposta la mia password",
-			"#Email me a code to set my password": "Inviami un codice per impostare la password",
-			"#Register my email and send a code to set my password": "Registra la mia email e inviami un codice per impostare la password",
-			"#The server is not responding": "Il server non sta rispondendo",
-			"#An email has been sent to $0 containing a code to set your password": "E stata inviata un'email a $0 contenente un codice per impostare la password",
-			"#It was not possible to send an email to $0": "Non e stato possibile inviare un'email a $0",
-			"#Invalid credentials. Login again!": "Credenziali non valide. Accedi di nuovo!",
-			"#Password successfully set": "Password impostata correttamente",
-			"#Cannot login": "Impossibile accedere",
-			"#Please select a service": "Seleziona un servizio",
-			"#email address not found": "Indirizzo email non trovato",
-			"#Update Role": "Aggiorna ruolo",
-			"#User successfully created or updated": "Utente creato o aggiornato correttamente",
-			"#You cannot update the group of the user": "Non puoi aggiornare il gruppo dell'utente",
-			"#You cannot update the role of the user": "Non puoi aggiornare il ruolo dell'utente",
-			"#You have entered an empty code": "Hai inserito un codice vuoto",
-			"#You have entered an empty group": "Hai inserito un gruppo vuoto",
-			"#You have entered an empty password": "Hai inserito una password vuota",
-			"#You have entered an empty role": "Hai inserito un ruolo vuoto",
-			"#You have entered an empty username": "Hai inserito un nome utente vuoto",
-			"#You have entered an existing username": "Hai inserito un nome utente gia esistente",
-			"#You have entered an expired code": "Hai inserito un codice scaduto",
-			"#You have entered an invalid code": "Hai inserito un codice non valido",
-			"#You have entered an invalid password": "Hai inserito una password non valida",
-			"#You have entered an unauthorized username": "Hai inserito un nome utente non autorizzato",
-			"#Create New Language": "Crea nuova lingua",
-			"#Language": "Lingua",
-			"#change language": "Cambia lingua",
-			"#change questionnaire language": "Cambia lingua del questionario",
-			"#Enter the code of the language to create": "Inserisci il codice della lingua da creare",
-			"#Cannot create language $0": "Impossibile creare la lingua $0",
-			"#Cannot delete language $0": "Impossibile eliminare la lingua $0",
-			"#Cannot import language $0": "Impossibile importare la lingua $0",
-			"#Language $0 created": "Lingua $0 creata",
-			"#Language $0 deleted": "Lingua $0 eliminata",
-			"#Language $0 imported": "Lingua $0 importata",
-			"#Language '$0' successfully saved to $1": "Lingua '$0' salvata correttamente in $1",
-			"#code": "Codice",
-			"#create language": "Crea lingua",
-			"#delete language": "Elimina lingua",
-			"#delete word": "Elimina parola",
-			"#edit languages": "Modifica lingue",
-			"#download language": "Scarica lingua",
-			"#import language": "Importa lingua",
-			"#Select a Questionnaire to Answer": "Seleziona un questionario a cui rispondere",
-			"#Surveys": "Indagini",
-			"#choose the questionnaire": "scegli il questionario",
-			"#Collection": "Collezione",
-			"#collection": "collezione",
-			"#Import": "Importa",
-			"#Load": "Carica",
-			"#Save": "Salva",
-			"#Upload": "Carica",
-			"#Upload on firebase": "Carica su Firebase",
-			"#upload collections": "Carica collezioni",
-			"#clean collections": "Pulisci collezioni",
-			"#Import configuration": "Configurazione di importazione",
-			"#Import configuration map": "Mappa configurazione di importazione",
-			"#Select an import configuration": "Seleziona una configurazione di importazione",
-			"#Please enter a name to save configuration": "Inserisci un nome per salvare la configurazione",
-			"#Please enter a name to save": "Inserisci un nome per salvare",
-			"#Name not valid": "Nome non valido",
-			"#no import collection specified": "Nessuna collezione di importazione specificata",
-			"#Configuration not valid for this data!": "Configurazione non valida per questi dati!",
-			"#Import CSV before": "Importa prima il CSV",
-			"#File $0 does not contain data!": "Il file $0 non contiene dati!",
-			"#elements_doesn't_exist": "Gli elementi non esistono",
-			"#create import config": "Crea configurazione di importazione",
-			"#delete import config": "Elimina configurazione di importazione",
-			"#save configuration": "Salva configurazione",
-			"#load CSV": "Carica CSV",
-			"#load GeoJSON Layer": "Carica layer GeoJSON",
-			"#import data": "Importa dati",
-			"#field": "campo",
-			"#format": "formato",
-			"#default": "predefinito",
-			"#Project loaded!": "Progetto caricato!",
-			"#Project saved!": "Progetto salvato!",
-			"#This will replace your current data. Do you want to continue?": "Questo sostituira i dati correnti. Vuoi continuare?",
-			"#Search": "Cerca",
-			"#Showing _START_ to _END_ of _TOTAL_ entries": "Visualizzazione da _START_ a _END_ di _TOTAL_ elementi",
-			"#infoEmpty": "Nessun dato disponibile",
-			"#clearAll": "Cancella tutto",
-			"#deleteTitle": "Elimina regola",
-			"#leftTitle": "Sposta a sinistra",
-			"#rightTitle": "Sposta a destra",
-			"#logicAnd": "E",
-			"#logicOr": "Oppure",
-			"#condition": "condizione",
-			"#value": "valore",
-			"#title": "titolo",
-			"#left": "sinistra",
-			"#right": "destra",
-			"#delete": "elimina",
-			"#data": "dati",
-			"#add": "aggiungi",
-			"#item of": "elemento di",
-			"#Duplicate view": "Duplica vista",
-			"#Toggle width": "Cambia larghezza",
-			"#Remove widget": "Rimuovi widget",
-			"#No data": "Nessun dato",
-			"#No categories selected": "Nessuna categoria selezionata",
-			"#No location data": "Nessun dato di posizione",
-			"#Question without position": "Domanda senza posizione",
-			"#Drag and drop below to view widgets": "Trascina e rilascia qui sotto per visualizzare i widget",
-			"#KPI": "Indicatore",
-			"#Backward": "Indietro",
-			"#Forward": "Avanti",
-			"#Play": "Avvia",
-			"#Pause": "Pausa",
-			"#Run": "Esegui",
-			"#Close": "Chiudi",
-			"#Delete Runs": "Elimina esecuzioni",
-			"#Duplicate Runs": "Duplica esecuzioni",
-			"#Show Editor": "Mostra editor",
-			"#Modify": "Modifica",
-			"#Error": "Errore",
-			"#Alert": "Avviso",
-			"#IN PROGRESS": "IN CORSO",
-			"#Get info": "Ottieni informazioni",
-			"#Settings": "Impostazioni",
-			"#go to home page": "Vai alla home page",
-			"#show settings": "Mostra impostazioni",
-			"#hide settings": "Nascondi impostazioni",
-			"#Filters": "Filtri",
-			"#ToggleFilters": "Attiva o disattiva filtri",
-			"#Max Accuracy (m)": "Accuratezza massima (m)",
-			"#Min Speed (m/s)": "Velocita minima (m/s)",
-			"#Max Speed (m/s)": "Velocita massima (m/s)",
-			"#Min Distance (m)": "Distanza minima (m)",
-			"#Max Distance (m)": "Distanza massima (m)",
-			"#Min Time Î” (s)": "Delta tempo minimo (s)",
-			"#Max Time Î” (s)": "Delta tempo massimo (s)",
-			"#Print Completed!": "Stampa completata!",
-			"#submit_to_storage_fails": "Invio allo storage non riuscito",
-			"#Id field not defined $0": "Campo ID non definito $0",
-			"#Id fields not defined": "Campi ID non definiti",
-			"#answer_missing": "Risposta mancante",
-			"#Full Screen": "Schermo intero",
-			"#Next": "Avanti",
-			"#Welcome to": "Benvenuto in",
-			"#Import Features from CSV addresses": "Importa elementi da indirizzi CSV",
-			"#geocode features": "Geocodifica elementi",
-			"#invalid selection": "Selezione non valida",
-			"#Import completed!": "Importazione completata!",
-			"#Importing file $0/$1": "Importazione file $0/$1",
-			"#Import Features from CSV coordinates": "Importa elementi da coordinate CSV",
-			"#import points": "Importa punti",
-			"#Click on an element to see details": "Clicca un elemento per vedere i dettagli",
-			"#Geocode_address": "Geocodifica indirizzo",
-			"#Address_click": "Seleziona una posizione sulla mappa",
-			"#User_position": "Mostra la posizione del browser sulla mappa",
-			"#No data, load the database!": "Nessun dato, carica il database!",
-			"#Upload database": "Carica dati",
-			"#graph_type_modal": "Modale",
-			"#graph_type_street": "Urbano",
-			"#graph_mode_bike": "Bicicletta",
-			"#graph_mode_walk": "Pedone",
-			"#graph_mode_transit": "Trasporto Pubblico",
-			"#graph_mode_car": "Auto",
-			"#graph_mode_car_ltz": "Auto ZTL",
-			"#addressClickButton": "Clicca",
-			"#addressCurrentButton": "Attuale",
-			"#addressFindButton": "Cerca",
-			"#addressInputLabel": "Indirizzo",
-			"#closedCheckLabel": "Risolte",
-			"#fromDateInput": "Dal giorno",
-			"#infoContent": "<h3>Istruzioni</h3> <h4>Autenticazione</h4> <p> L'utente deve autenticarsi tramite un suo account Google, oppure registrandosi tramite email e password. </p> <h4>Aggiungere</h4> <p> Per aggiungre una segnalazione, cliccare sul relativo tasto nella barra in alto.<br> Si apre un form in cui bisogna:<br> a) scegliere il tema dal menù a tendina;<br> b) indicare il luogo, che può essere quello dalla propria posizione (tasto Attuale), oppure un punto sulla mappa (tasto Clicca), oppure un indirizzo in formato testuale che deve però essere validato (tasto Cerca);<br> c) descrivere in modo succinto il problema nella casella Testo;<br> d) selezionare (opzionale) una immagine (tasto Foto);<br> e) riempire altri eventuali campi richiesti (che potrebbero trovarsi scorrendo lo schermo verso il basso).<br> Infine, inviare la segnalazione cliccando sul tasto Salva in alto. </p> <h4>Consultare</h4> <p> Per consultare una segnalazione, cliccare il relativo segnaposto sulla mappa. Comparirà un popup con le relative informazioni. </p> <h4>Modificare</h4> <p> Solo l'autore e gli amministratori del sistema possono modificare una segnalazione.<br> Al momento è possibile solo eliminare e chiudere (tasto Risolto) una segnalazione. </p> <h4>Filtrare</h4> <p> Per visualizzare un sotto insieme delle segnalazioni, cliccare sul tasto Filtra nella barra in alto.<br> Si apre un form in cui bisogna:<br> a) scegliere la data iniziale e finale dell'intervallo di validità;<br> b) scegliere la zona di interesse;<br> c) scegliere gli stati di interesse (aperte, risolte, eliminate; nuove, presentate);<br> Le segnalazioni non selezionate appaiono in trasparenza.<br> d) selezionare i temi dal bottone in alto a destra.<br> I temi non selezionati vengono nascosti.<br> </p> <h4>Stampare</h4> <p> Cliccando sul tasto Stampa viene scaricato un file pdf con le sole segnalazioni selezionate. </p> <h4>Presentare</h4> <p> La stampa viene memorizzata nel sistema e può essere in seguito selezionata dal menù a tendina al fine di presentatare le segnalazioni ivi contenute cliccando sul relativo tasto a fianco. </p> <h4>La mappa</h4> <p> Per ritornare alla mappa, cliccare il relativo tasto nella barra in alto.<br> E' possibile sceglere tra diverse mappe di sfondo dal bottone in alto a destra. </p>",
-			"#js_address_notfound": "Non trovato",
-			"#js_popup_report": "",
-			"#js_printed_on": "Stampa del ",
-			"#js_report_presented_confirm": "Marcare le segnalazioni come presentatec?",
-			"#js_report_remove_confirm": "Rimuovere la segnalazione?",
-			"#js_report_save_confirm": "Inviare la segnalazione?",
-			"#latitudeSpan": "Latitudine",
-			"#layersDropDownLabel": "Tema",
-			"#loadZonesButton": "Zone",
-			"#loginTilteHead": "SegnalAzione",
-			"#loginTitleFoot": "Questa è una app di test per segnalare specifici problemi del teritorio su base geografica.",
-			"#longitudeSpan": "Longitudine",
-			"#newCheckLabel": "Nuove",
-			"#openCheckLabel": "Aperte",
-			"#popup_answers": "Info: ",
-			"#popup_author": "Autore: ",
-			"#popup_chats": "Commenti: ",
-			"#popup_date": "Data: ",
-			"#popup_from": " da ",
-			"#popup_layer": "Tema: ",
-			"#popup_rating": "Valutazione: ",
-			"#popup_report_close": "Risolto",
-			"#popup_report_remove": "Elimina",
-			"#popup_states": "Stati: ",
-			"#popup_text": "Testo: ",
-			"#presentedCheckLabel": "Presentate",
-			"#printReportsButton": "Stampa",
-			"#printsButton": "Presenta",
-			"#profile_save_confirm": "Salvare il profilo utente?",
-			"#quest_save_confirm": "Salva su db?",
-			"#ratingNegativeLabel": "",
-			"#ratingNeutralLabel": "",
-			"#ratingPositiveLabel": "",
-			"#ratingUrgentLabel": "",
-			"#rating_negative": "Negativa",
-			"#rating_neutral": "Neutrale",
-			"#rating_positive": "Positiva",
-			"#rating_urgent": "Urgente",
-			"#removedCheckLabel": "Eliminate",
-			"#reportPhotoButton": "Foto",
-			"#reportSaveButton": "Salva",
-			"#report_change_state_confirm": "Cambiare lo stato segnalazione?",
-			"#report_incomplete_address": "Segnalazione incompleta! Indirizzo non specificato.",
-			"#report_incomplete_layer": "Segnalazione incompleta! Tema non specificato.",
-			"#report_incomplete_text": "Segnalazione incompleta! Testo non specificato.",
-			"#report_like_confirm": "Confermi la segnalazione?",
-			"#report_share_confirm": "Condividi la segnalazione?",
-			"#setReportFormButton": "SegnalAzione",
-			"#textSpan": "Testo",
-			"#toDateInput": "Al giorno",
-			"#zonesDropDownLabel": "Zona",
-			"#kpi_dist": "distanza totale di viaggio (km)",
-			"#kpi_dist_road": "distanza percorsa guidando (km)",
-			"#kpi_dist_walk": "distanza percorsa camminando (km)",
-			"#kpi_dist_ride": "distanza percorsa a bordo delle linee (km)",
-			"#kpi_npax_wait": "numero di attese alle fermate (n°)",
-			"#kpi_dist_conn": "distanza percorsa in linea d'aria per accesso/egresso (km)",
-			"#kpi_time": "tempo totale di viaggio (h)",
-			"#kpi_time_road": "tempo trascorso guidando (h)",
-			"#kpi_time_walk": "tempo trascorso camminando (h)",
-			"#kpi_time_ride": "tempo trascorso a bordo delle linee (h)",
-			"#kpi_time_wait": "tempo trascorso in attesa alle fermate (h)",
-			"#kpi_time_conn": "tempo trascorso per accesso/egresso (h)",
-			"#kpi_cost": "costo generalizzato totale di viaggio (€)",
-			"#kpi_cost_road": "costo generalizzato speso guidando (€)",
-			"#kpi_cost_walk": "costo generalizzato speso camminando (€)",
-			"#kpi_cost_ride": "costo generalizzato speso a bordo delle linee (€)",
-			"#kpi_cost_wait": "costo generalizzato speso in attesa alle fermate (€)",
-			"#kpi_cost_conn": "costo generalizzato speso per accesso/egresso (€)",
-			"#kpi_road_km": "estensione della rete stradale (km)",
-			"#kpi_conn_km": "estensione della rete di accesso/egresso (km)",
-			"#kpi_walk_km": "estensione della rete pedonale (km)",
-			"#kpi_veh_km": "produzione del servizio (veh*km)",
-			"#kpi_pax_km": "utilizzo del servizio (pax*km)",
-			"#kpi_speed": "velocità media di viaggio (km/h)",
-			"#kpi_speed_road": "velocità media guidando (km/h)",
-			"#kpi_speed_walk": "velocità media camminando (km/h)",
-			"#kpi_speed_ride": "velocità media a bordo delle linee (km/h)",
-			"#kpi_speed_conn": "velocità media per accesso/egresso (km/h)",
-			"#kpi_lines": "numero di linee (n°)",
-			"#kpi_stops": "numero di fermate (n°)",
-			"#kpi_trips": "numero di viaggi (n°)",
-			"#kpi_trip_dist": "distanza di percorrenza media per viaggio (km)",
-			"#kpi_trip_time": "tempo di percorrenza medio per viaggio (h)",
-			"#kpi_trip_cost": "costo generalizzato medio per viaggio (€)",
-			"#Page $0 of $1": "Pagina $0 di $1",
-			"#Map": "Mappa",
-			"#Layers": "Strati",
-			"#Views": "Viste",
-			"#Tiles": "Sfondi",
-			"#Change Language": "Cambia Lingua",
-			"#Show Chart": "Mostra Grafico",
-			"#Show Map": "Mostra Mappa",
-			"#Processing: iteration $0 of $1; user $2 of $3; zone $4 of $5 ...": "Calcola: iterazione $0 di $1; utente $2 di $3; zona $4 di $5 ...",
-			"#Simulate the Calendar Date: it can take about one minute": "Simula il Giorno del Calendario: può impiegare circa un minuto",
-			"#Simulate": "Simula",
-			"#Results": "Risultati",
-			"#Date": "Data",
-			"#Line": "Linea",
-			"#Link": "Arco",
-			"#Demand Matrix": "Matrice Domanda",
-			"#Skim Matrix": "Matrice Offerta",
-			"#Cost Distribution": "Distribuzione Costi",
-			"#Return Back": "Ritorno",
-			"#Calendar": "Calendario",
-			"#Clock": "Orologio",
-			"#Assignment completed!": "Assegnazione completata!",
-			"#Dowload the Daily Report": "Scarica il Rapporto Giornaliero",
-			"#Dowload the Daily Matrix": "Scarica la Matrice Giornaliera",
-			"#Shortest Path": "Calcola Percorso",
-			"#Time Filter": "Filtro Temporale",
-			"#File": "File",
-			"#Open": "Apri",
-			"#New": "Nuovo",
-			"#Server": "Server",
-			"#Import Layer": "Importa Strato",
-			"#GeoJson File": "File GeoJson",
-			"#GeoJson Folder": "Cartella di File GeoJson",
-			"#Shape Zip File": "File Shape Zip",
-			"#Shape Folder": "Cartella di File Shape",
-			"#Csv File": "File Csv",
-			"#Csv Folder": "Cartella di File Csv",
-			"#Csv File No Layer": "File Csv Senza Strato",
-			"#Csv Points": "File Csv di Punti",
-			"#Export as Zip": "Esporta come Zip",
-			"#Export Layer as Zip": "Esporta strati come Zip",
-			"#Export to Visum": "Esporta come Visum",
-			"#Import Netw": "Importa Netw",
-			"#Edit Objects": "Modifica Oggetti",
-			"#Decks": "Stili",
-			"#Queries": "Query",
-			"#Types": "Tipi",
-			"#Users": "Utenti",
-			"#Predefined": "Predefinite",
-			"#Zone Procedures": "Procedure per Zone",
-			"#Connect Centroids": "Connessione dei Centroidi",
-			"#Connect Stops": "Connessione delle Fermate",
-			"#Populate Zones": "Popolazione delle Zone",
-			"#Import Pairs": "Importazione delle Coppie",
-			"#Create Zones": "Creazione delle Zone",
-			"#Cluster Cells": "Clusterizzazione delle Celle",
-			"#Generete Paths OD": "Genera Percorsi OD",
-			"#Compute Zone Skims": "Calcola Matrici di Costo",
-			"#Compute Demand": "Calcola Matrici di Domanda",
-			"#Network Procedures": "Procedure di Rete",
-			"#Incremental Deterministic Assignment": "Assegnazione Incrementale Deterministica",
-			"#Compute All from OSM": "Calcola tutto da OSM",
-			"#Vehicle Routing": "Percorsi dei Veicoli",
-			"#Server Procedures": "Procedure per Server",
-			"#Download Server": "Scarica il Server",
-			"#Simulate Graph": "Simula il Grafo",
-			"#Simulate Network": "Simula la Rete",
-			"#From Date": "Da Data",
-			"#To Date": "A Data",
-			"#From Time": "Da Ora",
-			"#To Time": "A Ora",
-			"#Isochrones": "Isocrone",
-			"#Origin": "Origine",
-			"#Destination": "Destinazione",
-			"#Add Connections": "Aggingi Connessioni",
-			"#Mode": "Modo",
-			"#Infos": "Informazioni sul File",
-			"#All On": "Accendi Tutto",
-			"#All Off": "Spegni Tutto",
-			"#Expand": "Espandi Tutto",
-			"#Collapse": "Collassa Tutto",
-			"#Clean Filters": "Pulisci Filtri",
-			"#New Layer": "Nuovo Strato",
-			"#Delete Layer": "Elimina Strato",
-			"#Clone Layer": "Clona Strato",
-			"#Edit Layer": "Modifica Strato",
-			"#Query Layer": "Interroga Strato",
-			"#Edit Deck": "Modifica Stile",
-			"#Density Deck": "Stile di Densità",
-			"#Undo": "Indietro",
-			"#Redo": "Avanti",
-			"#Clear": "Pulisci",
-			"#Create": "Crea",
-			"#Delete": "Elimina",
-			"#Edit": "Modifica",
-			"#One Way": "Senso Unico",
-			"#Screenshot": "Screenshot",
-			"#Save View": "Salva Vista",
-			"#Query Builder": "Costruttore di Query",
-			"#Column Visibility": "Visibilità delle Colonne",
-			"#Download Excel": "Scarica Excel",
-			"#Prune Table": "Riduci Tabella",
-			"#Show Selected Rows": "Mostra Righe Selezionate",
-			"#Query": "Query",
-			"#Presets": "Predefinite",
-			"#Apply": "Apllica",
-			"#Javascript code, with variables: f = feature, r = f.properties, file, map": "Codice Javascript, con  variabili: f = feature, r = f.properties, file, map",
-			"#Apply query to layer": "Applica query allo strato",
-			"#Save query to presets": "Salva query nelle predefinite",
-			"#Model": "Modello",
-			"#Export": "Esportazione",
-			"#Save Online": "Salva Online",
-			"#Show Infos": "Mostra Info",
-			"#Open JSON": "Apri JSON",
-			"#Save JSON": "Salva JSON",
-			"#Open ZIP": "Apri ZIP",
-			"#Save ZIP": "Salva ZIP",
-			"#ShowChart": "mostra grafici",
-			"#no selection": "nessuna selezione",
-			"#tiles": "mappe di base",
-			"#Legends": "Legenda",
-			"#light": "chiara",
-			"#dark": "scura",
-			"#terrain": "terreno",
-			"#no_map": "nessuna",
-			"#roadmap": "strade",
-			"#hybrid": "irbida",
-			"#atlas": "atlante",
-			"#cycle": "ciclabile",
-			"#landscape": "paesaggio",
-			"#pioneer": "cartografica",
-			"#transport": "trasporto pubblico",
-			"#Add Layer to Zones": "Aggiungi strato alle zone",
-			"#Aggregate Cells in Zones": "Aggrega celle nelle zone",
-			"#Aggregate layers": "Aggrega strati",
-			"#Alglib Test": "Test Alglib",
-			"#All completed!": "Tutto completato!",
-			"#Build Grid Network": "Crea rete a griglia",
-			"#Build Linear Schedule Based Network": "Crea rete lineare basata su orario",
-			"#Cell clustering done!": "Clusterizzazione celle completata!",
-			"#Cells not imported": "Celle non importate",
-			"#Cells successfully aggregated!": "Celle aggregate correttamente!",
-			"#Cluster Shape Layer to Zones": "Clusterizza strato shape nelle zone",
-			"#cluster zones": "clusterizza zone",
-			"#Computation of demand models completed!": "Calcolo dei modelli di domanda completato!",
-			"#Computation of paths completed!": "Calcolo dei percorsi completato!",
-			"#Compute a path before": "Calcola prima un percorso",
-			"#Connect Stops to nodes": "Connetti fermate ai nodi",
-			"#Csv Addresses": "File CSV indirizzi",
-			"#Csv Addresses Folder": "Cartella di file CSV indirizzi",
-			"#Csv Points Folder": "Cartella di file CSV punti",
-			"#Delete Layer Column": "Elimina colonna dello strato",
-			"#Digital Elevation Model form OpenTopography": "Modello digitale di elevazione da OpenTopography",
-			"#Distance Matrix Tests": "Test matrice distanze",
-			"#Download and Save Server": "Scarica e salva server",
-			"#Draw Polygon": "Disegna poligono",
-			"#Edit Decks": "Modifica stili",
-			"#Export Decks as JSON": "Esporta stili in JSON",
-			"#Export Layers as Zip": "Esporta strati come ZIP",
-			"#Ferrovie OSM": "Ferrovie OSM",
-			"#File $0 does not contain features!": "Il file $0 non contiene feature!",
-			"#File $0 successfully saved to $1": "File $0 salvato correttamente in $1",
-			"#File $0 successfully saved!": "File $0 salvato correttamente!",
-			"#Floyd Algorithm GPU": "Algoritmo di Floyd su GPU",
-			"#Generate Paths OD": "Genera percorsi OD",
-			"#Get Links Elevation": "Recupera elevazione archi",
-			"#Get Nodes Elevation": "Recupera elevazione nodi",
-			"#GIS": "GIS",
-			"#GIS2": "GIS 2",
-			"#Grafo": "Grafo",
-			"#GTFS fare_rules - undefined fare id: $0": "GTFS fare_rules - fare id non definito: $0",
-			"#GTFS fare_rules - undefined route id: $0": "GTFS fare_rules - route id non definito: $0",
-			"#GTFS frequencies - undefined trip id: $0": "GTFS frequencies - trip id non definito: $0",
-			"#GTFS Pb (Transit)": "GTFS Pb (Transito)",
-			"#GTFS stop_times - undefined trip id: $0": "GTFS stop_times - trip id non definito: $0",
-			"#GTFS trips - undefined route id: $0": "GTFS trips - route id non definito: $0",
-			"#GTFS trips - undefined service id: $0": "GTFS trips - service id non definito: $0",
-			"#GTFS trips - undefined shape id: $0": "GTFS trips - shape id non definito: $0",
-			"#GTFS Zip (Transit)": "GTFS ZIP (Transito)",
-			"#Highs Tests": "Test HiGHS",
-			"#Import Decks from JSON": "Importa stili da JSON",
-			"#Import Layers as Zip": "Importa strati come ZIP",
-			"#Import Network": "Importa rete",
-			"#Import OSM from Api": "Importa OSM da API",
-			"#ISTAT Zip": "ZIP ISTAT",
-			"#ISTAT Zip (Cells)": "ZIP ISTAT (celle)",
-			"#Kmz File": "File KMZ",
-			"#Layer $0 not found!": "Strato $0 non trovato!",
-			"#LPSolver Test": "Test LPSolver",
-			"#Ltyps": "Tipi di arco",
-			"#Many Points": "Molti punti",
-			"#Matrix Multiplication GPU": "Moltiplicazione matrici su GPU",
-			"#Memory Tests": "Test memoria",
-			"#Network not imported": "Rete non importata",
-			"#Network Objects": "Oggetti di rete",
-			"#No .net file found!": "Nessun file .net trovato!",
-			"#No modal graph selected!": "Nessun grafo modale selezionato!",
-			"#Node $0 is used by $1 links": "Il nodo $0 è usato da $1 archi",
-			"#Number of connections created: $0": "Numero di connessioni create: $0",
-			"#Open GeoTiff": "Apri GeoTiff",
-			"#OpenStreetMap": "OpenStreetMap",
-			"#OpenStreetMap (Roads, Transit, Demand)": "OpenStreetMap (strade, transito, domanda)",
-			"#OpenStreetMap Network": "Rete OpenStreetMap",
-			"#Orario Trenitalia": "Orario Trenitalia",
-			"#OSM Api Selection Area": "Area selezione API OSM",
-			"#OSM network successfully imported!": "Rete OSM importata correttamente!",
-			"#Pairs imported!": "Coppie importate!",
-			"#Processing element $0 of $1 ...": "Elaborazione elemento $0 di $1 ...",
-			"#Reading the Visum .dmd file": "Lettura del file Visum .dmd",
-			"#Reading the Visum .net file": "Lettura del file Visum .net",
-			"#Reading the Visum .xml file": "Lettura del file Visum .xml",
-			"#Reset Decks to Default": "Ripristina stili predefiniti",
-			"#Road Collisions Zip": "ZIP incidenti stradali",
-			"#Rome road crashes successfully imported!": "Incidenti stradali di Roma importati correttamente!",
-			"#Save As GeoJson": "Salva come GeoJSON",
-			"#Save Path": "Salva percorso",
-			"#Scens": "Scenari",
-			"#Server not found!": "Server non trovato!",
-			"#Set Layer Id Column": "Imposta colonna ID dello strato",
-			"#Simple Distance Tests": "Test distanze semplici",
-			"#Simplify Network": "Semplifica rete",
-			"#Simulation completed!": "Simulazione completata!",
-			"#Simulation failed! ": "Simulazione fallita! ",
-			"#Static GTFS successfully imported from $0": "GTFS statico importato correttamente da $0",
-			"#Stazioni Trenitalia": "Stazioni Trenitalia",
-			"#Stops successfully connected!": "Fermate collegate correttamente!",
-			"#Swap Origin Destination": "Scambia origine e destinazione",
-			"#Switch for Isochrones to Paths": "Passa da isocrone a percorsi",
-			"#Switch for Paths to Isochrones": "Passa da percorsi a isocrone",
-			"#Taxi Roma": "Taxi Roma",
-			"#Tensor Flow Test": "Test TensorFlow",
-			"#Test": "Test",
-			"#Tests": "Test",
-			"#the name of a city or region ...": "il nome di una città o regione ...",
-			"#Tpros": "Profili temporali",
-			"#Transport Model Documentation": "Documentazione Transport Model",
-			"#Ttyps": "Tipi di transito",
-			"#Use Projections": "Usa proiezioni",
-			"#Vehicle routing completed!": "Instradamento veicoli completato!",
-			"#Visum Dmd (Demand)": "Visum Dmd (domanda)",
-			"#Visum file $0 successfully imported!": "File Visum $0 importato correttamente!",
-			"#Visum Folder (Roads, Transit, Demand)": "Cartella Visum (strade, transito, domanda)",
-			"#Visum Net (Roads, Transit)": "Visum Net (strade, transito)",
-			"#Visum network error!": "Errore rete Visum!",
-			"#Zone skims completed!": "Matrici di costo zonali completate!",
-			"#Zones created!": "Zone create!",
-			"#Zones imported!": "Zone importate!",
-			"#Other": "Altro",
-			"#Prefer not to say": "Preferisco non rispondere",
-			"#I don't know": "Non lo so",
-			"#Back": "Indietro",
-			"#Submit": "Invia",
-			"#Questionnaire": "Questionario",
-			"#Questionnaires": "Questionari",
-			"#choose the questionnaire to view": "scegli il questionario da visualizzare",
-			"#Build Questionnaire": "Crea Questionario",
-			"#Data Protection and Consent": "Protezione dei Dati e Consenso",
-			"#I agree": "Accetto",
-			"#This survey is part of an extended research effort that combines multiple questionnaires and GPS data (for those who use the app). Together, these help us design safer and more inclusive urban spaces.": "Questo questionario fa parte di un più ampio progetto di ricerca che combina più questionari e dati GPS (per chi utilizza l’app). Insieme, questi strumenti ci aiutano a progettare spazi urbani più sicuri e inclusivi.",
-			"#You may optionally provide your email address to generate an anonymous participation code. This allows us to link your responses across surveys for longitudinal analysis, without ever storing your real email.": "Puoi, se lo desideri, fornire il tuo indirizzo email per generare un codice di partecipazione anonimo. Questo ci permette di collegare le tue risposte tra diversi questionari per analisi longitudinali, senza mai memorizzare la tua email reale.",
-			"#To learn more about how we collect and protect data, read <a href='$0' target='_blank'>our transparency and data protection overview</a>.": "Per saperne di più su come raccogliamo e proteggiamo i dati, leggi la nostra <a href='$0' target='_blank'>pagina di trasparenza e protezione dei dati</a>.",
-			"#I have read and agree to the privacy notice describing how my data are collected and used for research purposes.": "Ho letto e accetto l’informativa sulla privacy che descrive come i miei dati vengono raccolti e utilizzati a fini di ricerca.",
-			"#<a href='$0' target='_blank'>Privacy notice</a>": "<a href='$0' target='_blank'>Informativa sulla privacy</a>",
-			"#Would you like to provide your email address to generate an anonymous participation code? (optional)": "Vuoi fornire il tuo indirizzo email per generare un codice di partecipazione anonimo? (facoltativo)",
-			"#Add a note if this question needs review or correction.": "Aggiungi una nota se questa domanda necessita di revisione o correzione.",
-			"#Review mode": "Modalità revisione",
-			"#Inspect Responses": "Ispeziona le Risposte",
-			"#Thank you!": "Grazie!",
-			"#Your submission has been recorded.": "La tua risposta è stata registrata.",
-			"#Return to home": "Torna all'home",
-			"#Please confirm your consent to data processing before continuing.": "Per favore conferma il tuo consenso al trattamento dati prima di continuare.",
-			"#Select Mode": "Seleziona Modalità",
-			"#Select Threshold Metric": "Seleziona Metrica",
-			"#Select Mobility Profile": "Seleziona Profilo di Mobilità",
-			"#Select Target Service": "Seleziona Servizi",
-			"#Edit mobility profile": "Modifica profilo di mobilità",
-			"#Edit target service profile": "Modifica servizi",
-			"#Distance": "Distanza",
-			"#Time": "Tempo",
-			"#walk": "A piedi",
-			"#bike": "Bicicletta",
-			"#transit": "Trasporto pubblico",
-			"#road": "Strada/auto",
-			"#Expand all categories": "Espandi tutte le categorie",
-			"#Collapse all categories": "Comprimi tutte le categorie",
-			"#Add to collection": "Aggiungi alla collezione",
-			"#Delete from collection": "Rimuovi dalla collezione",
-			"#Show category": "Mostra categoria",
-			"#Hide category": "Nascondi categoria",
-			"#show description": "Mostra descrizione",
-			"#hide description": "Nascondi descrizione",
-			"#download mobility profile": "scarica profilo di mobilità",
-			"#create a new mobility profile": "crea un nuovo profilo di mobilità",
-			"#import mobility profile": "importa profilo di mobilità",
-			"#show mobility profile description": "mostra descrizione del profilo di mobilità",
-			"#download target service": "scarica servizi",
-			"#import target service": "importa servizi",
-			"#create a new target service": "crea un nuovo servizio",
-			"#show target service description": "mostra descrizione dei servizi",
-			"#Compute for current selections": "Calcola con le selezioni correnti",
-			"#Refresh": "Aggiorna",
-			"#mobility_profile_description": "Descrizione profilo di mobilità",
-			"#new_mobility_profile": "Nuovo profilo di mobilità",
-			"#travel_time": "Quando ti sposti",
-			"#light_condition": "Luce",
-			"#light_daylight": "Giorno",
-			"#light_night": "Notte",
-			"#traffic_period": "Periodo di traffico",
-			"#traffic_peak": "Ore di punta",
-			"#traffic_off_peak": "Fuori punta",
-			"#season_condition": "Stagione",
-			"#season_summer_heat": "Estate (caldo)",
-			"#season_winter_cold": "Inverno (freddo)",
-			"#user_profile": "Chi sei",
-			"#age_group": "Età",
-			"#age_under_18": "Meno di 18",
-			"#age_18_25": "18–25",
-			"#age_26_40": "26–40",
-			"#age_41_60": "41–60",
-			"#age_61_75": "61–75",
-			"#age_over_75": "Più di 75",
-			"#gender": "Genere",
-			"#gender_male": "Maschio",
-			"#gender_female": "Femmina",
-			"#gender_other": "Altro",
-			"#land_status": "Status di residenza",
-			"#long_term_resident": "Residente di lungo periodo",
-			"#new_resident": "Nuovo residente",
-			"#daily_visitor": "Visitatore giornaliero",
-			"#temporary_visitor": "Visitatore temporaneo",
-			"#socioeconomic_status": "Condizione economica",
-			"#low_income": "Basso reddito",
-			"#middle_income": "Reddito medio",
-			"#high_income": "Alto reddito",
-			"#social_equity": "Equità sociale",
-			"#general_population": "Popolazione generale",
-			"#minority_background": "Appartenenza a minoranza",
-			"#vulnerable_group": "Gruppo vulnerabile",
-			"#physical_profile": "Come ti muovi",
-			"#mobility_ability": "Capacità di mobilità",
-			"#fully_able": "Completamente abile",
-			"#limited_mobility": "Mobilità limitata",
-			"#wheelchair_user": "Utente in sedia a rotelle",
-			"#fitness_level": "Forma fisica",
-			"#athletic": "Allenato",
-			"#average_shape": "Forma media",
-			"#easily_tired": "Si stanca facilmente",
-			"#body_stature": "Lunghezza del passo",
-			"#short_steps": "Passi corti",
-			"#average_height": "Altezza media",
-			"#long_steps": "Passi lunghi",
-			"#mobility_attitudes": "Come ti senti rispetto alla mobilità",
-			"#risk_aversion": "Avversione al rischio",
-			"#unconcerned": "Non preoccupato",
-			"#cautious": "Cauto",
-			"#avoid_risky_areas": "Evita aree rischiose",
-			"#safety_feeling": "Percezione di sicurezza",
-			"#always_safe": "Sempre sicuro",
-			"#mostly_safe": "Per lo più sicuro",
-			"#feel_unsafe": "Mi sento insicuro",
-			"#comfort_sensitivity": "Comfort",
-			"#comfortable": "Comodo",
-			"#sometimes_uncomfortable": "A volte scomodo",
-			"#often_uncomfortable": "Spesso scomodo",
-			"#crowd_aversion": "Avversione alla folla",
-			"#comfortable_in_crowds": "Comodo tra la folla",
-			"#prefer_space": "Preferisco spazio",
-			"#avoid_crowds": "Evito la folla",
-			"#wait_aversion": "Avversione all'attesa",
-			"#waiting_ok": "Attesa accettabile",
-			"#dislike_waiting": "Non mi piace aspettare",
-			"#avoid_waiting": "Evito di aspettare",
-			"#transfer_aversion": "Avversione ai trasferimenti",
-			"#comfortable_with_transfers": "Comodo con i trasferimenti",
-			"#prefer_few_transfers": "Preferisco pochi trasferimenti",
-			"#avoid_transfers": "Evito i trasferimenti",
-			"#heat_sensitivity": "Sensibilità al caldo",
-			"#comfortable_in_heat": "A proprio agio col caldo",
-			"#sensitive_to_heat": "Sensibile al caldo",
-			"#struggle_in_heat": "Soffre il caldo",
-			"#noise_sensitivity": "Sensibilità al rumore",
-			"#tolerant_of_noise": "Tollerante al rumore",
-			"#sensitive_to_noise": "Sensibile al rumore",
-			"#avoid_noisy_areas": "Evito aree rumorose",
-			"#air_quality_sensitivity": "Sensibilità alla qualità dell'aria",
-			"#does_not_matter": "Non importa",
-			"#prefer_clean_air": "Preferisco aria pulita",
-			"#service_selection": "Selezione servizi",
-			"#daily_needs": "Beni di prima necessità",
-			"#grocery_store": "Negozio di alimentari",
-			"#supermarket": "Supermercato",
-			"#pharmacy": "Farmacia",
-			"#bakery": "Panificio",
-			"#market": "Mercato",
-			"#health": "Salute",
-			"#clinic": "Ambulatorio/Clinica",
-			"#hospital": "Ospedale",
-			"#doctor": "Medico",
-			"#dentist": "Dentista",
-			"#veterinarian": "Veterinario",
-			"#education": "Istruzione",
-			"#kindergarten": "Scuola dell'infanzia",
-			"#school_primary": "Scuola primaria",
-			"#school_secondary": "Scuola secondaria",
-			"#university": "Università",
-			"#library": "Biblioteca",
-			"#mobility": "Mobilità",
-			"#bus_stop": "Fermata bus",
-			"#metro_station": "Stazione metro",
-			"#train_station": "Stazione ferroviaria",
-			"#bike_sharing": "Bike sharing",
-			"#car_sharing": "Car sharing",
-			"#parking": "Parcheggio",
-			"#leisure": "Tempo libero",
-			"#park": "Parco",
-			"#playground": "Area giochi",
-			"#sports_center": "Centro sportivo",
-			"#cinema": "Cinema",
-			"#theatre": "Teatro",
-			"#museum": "Museo",
-			"#services": "Servizi",
-			"#post_office": "Ufficio postale",
-			"#bank": "Banca",
-			"#municipality_office": "Ufficio comunale",
-			"#community_center": "Centro civico",
-			"#work": "Lavoro",
-			"#coworking": "Coworking",
-			"#office_area": "Area uffici",
-			"#industrial_area": "Area industriale",
-			"#threshold_selection": "Selezione soglia indicatori",
-			"#max_limit_5_min": "5 minuti",
-			"#max_limit_10_min": "10 minuti",
-			"#max_limit_15_min": "15 minuti",
-			"#max_limit_25_min": "25 minuti",
-			"#max_limit_over_25_min": "no soglia",
-			"#max_limit_300_m": "300 metri",
-			"#max_limit_800_m": "800 metri",
-			"#max_limit_1400_m": "1,4 chilometri",
-			"#max_limit_over_7000_m": "no soglia",
-			"#demand_peak": "Domanda di punta",
-			"#demand_off_peak": "Fuori punta",
-			"#season_nice_to_be_outside": "Bel tempo per stare fuori",
-			"#season_is_raining_a_lot": "Giornate piovose",
-			"#high_visibility": "Alta visibilità",
-			"#hard_to_see": "Difficile da vedere",
-			"#parent_role": "Con bambini",
-			"#caregiver_role": "In veste di caregiver",
-			"#with_pet": "Con animale domestico",
-			"#equity_status": "Condizione di equità",
-			"#trip_description": "Condizioni del viaggio",
-			"#carried_load": "Carico trasportato",
-			"#none": "Nessun carico",
-			"#backpack": "Zaino",
-			"#stroller": "Passeggino",
-			"#heavy_bags": "Borse pesanti",
-			"#footwear": "Calzature",
-			"#sporty": "Sportive",
-			"#normal": "Normali",
-			"#uncomfortable": "Scomode",
-			"#weather_gear": "Attrezzatura per il meteo",
-			"#prepared": "Ben equipaggiato",
-			"#average": "Equipaggiamento medio",
-			"#unprepared": "Non equipaggiato",
-			"#visibility": "Visibilità",
-			"#travel_context": "Contesto di viaggio",
-			"#individual": "Individuale",
-			"#demand_period": "Periodo di domanda",
-			"#stride_length": "Lunghezza del passo"
-		},
-		"en": {
-			"code": "en",
-			"#Yes": "Yes",
-			"#No": "No",
-			"#SmartUrbanity - About You": "SmartUrbanity - About You",
-			"#Welcome to About You": "Welcome to About You",
-			"#This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about": "This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
-			"#Personal & Household": "Personal & Household",
-			"#A few background questions to help us understand who our participants are.": "A few background questions to help us understand who our participants are.",
-			"#What is your age group? (Participation is limited to adults aged 18 or older)": "What is your age group? (Participation is limited to adults aged 18 or older)",
-			"#18-24": "18-24",
-			"#25-34": "25-34",
-			"#35-44": "35-44",
-			"#45-54": "45-54",
-			"#55-64": "55-64",
-			"#65-74": "65-74",
-			"#75-84": "75-84",
-			"#85 or older": "85 or older",
-			"#Prefer not to say": "Prefer not to say",
-			"#What is your gender?": "What is your gender?",
-			"#Male": "Male",
-			"#Female": "Female",
-			"#Other": "Other",
-			"#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
-			"#How many adults, including yourself, live together in your household?": "How many adults, including yourself, live together in your household?",
-			"#1 (only myself)": "1 (only myself)",
-			"#2": "2",
-			"#3": "3",
-			"#4": "4",
-			"#5 or more": "5 or more",
-			"#What is your highest completed level of education?": "What is your highest completed level of education?",
-			"#No qualification": "No qualification",
-			"#Lower secondary school": "Lower secondary school",
-			"#High school": "High school",
-			"#Bachelor degree or equivalent": "Bachelor degree or equivalent",
-			"#Master degree or equivalent": "Master degree or equivalent",
-			"#Doctorate degree": "Doctorate degree",
-			"#Which economic status do you think best describes your household?": "Which economic status do you think best describes your household?",
-			"#We struggle to cover basic needs": "We struggle to cover basic needs",
-			"#We can cover basic needs": "We can cover basic needs",
-			"#We can cover basic needs comfortably and have little money left over": "We can cover basic needs comfortably and have little money left over",
-			"#We can afford most things we want with occasional extra expenses": "We can afford most things we want with occasional extra expenses",
-			"#We are financially very comfortable and can easily afford extra expenses": "We are financially very comfortable and can easily afford extra expenses",
-			"#Which best describes your employment status?": "Which best describes your employment status?",
-			"#Employed full-time": "Employed full-time",
-			"#Employed part-time": "Employed part-time",
-			"#Occasionally employed": "Occasionally employed",
-			"#Self-employed/freelance full-time": "Self-employed/freelance full-time",
-			"#Self employed/freelance part-time": "Self employed/freelance part-time",
-			"#Homemaker": "Homemaker",
-			"#Retired": "Retired",
-			"#Unemployed looking for work": "Unemployed looking for work",
-			"#Unemployed not looking for work": "Unemployed not looking for work",
-			"#Adult learner (student)": "Adult learner (student)",
-			"#Do you currently work remotely (partly or fully)?": "Do you currently work remotely (partly or fully)?",
-			"#Yes (3+ days/week)": "Yes (3+ days/week)",
-			"#Occasionally (1-2 days/week)": "Occasionally (1-2 days/week)",
-			"#I am not currently employed": "I am not currently employed",
-			"#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
-			"#Somewhat (within a 1-2 hour window)": "Somewhat (within a 1-2 hour window)",
-			"#Do you have any condition or limitation that affects your ability to move independently?": "Do you have any condition or limitation that affects your ability to move independently?",
-			"#No, I can move independently": "No, I can move independently",
-			"#Yes, I have a temporary condition/limitation": "Yes, I have a temporary condition/limitation",
-			"#Yes, I have a permanent mobility condition/limitation": "Yes, I have a permanent mobility condition/limitation",
-			"#Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)": "Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)",
-			"#Do you belong to any of these groups?": "Do you belong to any of these groups?",
-			"#Urban planner": "Urban planner",
-			"#Policymaker": "Policymaker",
-			"#Environmental/sustainable mobility activist": "Environmental/sustainable mobility activist",
-			"#Content creator / communicator (social media, journalism, blogging)": "Content creator / communicator (social media, journalism, blogging)",
-			"#None": "None",
-			"#Physical Capability": "Physical Capability",
-			"#Questions about your physical capacity for active travel.": "Questions about your physical capacity for active travel.",
-			"#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?",
-			"#I rarely or never walk": "I rarely or never walk",
-			"#Less than 500 meters (about 5-6 minutes)": "Less than 500 meters (about 5-6 minutes)",
-			"#From 500 meters to 1 km (about 10-15 minutes)": "From 500 meters to 1 km (about 10-15 minutes)",
-			"#1 to 2 km (about 15-25 minutes)": "1 to 2 km (about 15-25 minutes)",
-			"#More than 2 km": "More than 2 km",
-			"#How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.": "How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.",
-			"#Inactive (0 days)": "Inactive (0 days)",
-			"#Occasionally Active (1 day)": "Occasionally Active (1 day)",
-			"#Moderately Active (2–3 days)": "Moderately Active (2–3 days)",
-			"#Highly Active (4–5 days)": "Highly Active (4–5 days)",
-			"#Daily / Near Daily (6–7 days)": "Daily / Near Daily (6–7 days)",
-			"#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
-			"#Very low (sedentary, easily fatigued)": "Very low (sedentary, easily fatigued)",
-			"#Low": "Low",
-			"#Moderate": "Moderate",
-			"#Good": "Good",
-			"#High": "High",
-			"#What is your approximate height?": "What is your approximate height?",
-			"#Less than 150 cm": "Less than 150 cm",
-			"#150-164 cm": "150-164 cm",
-			"#165-179 cm": "165-179 cm",
-			"#180-194 cm": "180-194 cm",
-			"#195 cm or more": "195 cm or more",
-			"#Living context": "Living context",
-			"#Questions about where you live and how you move around Rome.": "Questions about where you live and how you move around Rome.",
-			"#Which of the following best describes your relationship to Municipio XII?": "Which of the following best describes your relationship to Municipio XII?",
-			"#I live here (Resident)": "I live here (Resident)",
-			"#I travel here regularly for work or study (Commuter)": "I travel here regularly for work or study (Commuter)",
-			"#I’m visiting for leisure (Tourist)": "I’m visiting for leisure (Tourist)",
-			"#I’m here temporarily for another reason (Visitor)": "I’m here temporarily for another reason (Visitor)",
-			"#In which Municipio of Rome do you currently live?": "In which Municipio of Rome do you currently live?",
-			"#1": "1",
-			"#5": "5",
-			"#6": "6",
-			"#7": "7",
-			"#8": "8",
-			"#9": "9",
-			"#10": "10",
-			"#11": "11",
-			"#12": "12",
-			"#13": "13",
-			"#14": "14",
-			"#15": "15",
-			"#I live outside Rome": "I live outside Rome",
-			"#I don't know": "I don't know",
-			"#In which neighbourhood of municipio XII do you currently live?": "In which neighbourhood of municipio XII do you currently live?",
-			"#BRAVETTA": "BRAVETTA",
-			"#CASAL LUMBROSO": "CASAL LUMBROSO",
-			"#COLLE AURELIO": "COLLE AURELIO",
-			"#COLLI PORTUENSI": "COLLI PORTUENSI",
-			"#LA PISANA": "LA PISANA",
-			"#MASSIMINA": "MASSIMINA",
-			"#MONTEVERDE NUOVO": "MONTEVERDE NUOVO",
-			"#MONTEVERDE VECCHIO": "MONTEVERDE VECCHIO",
-			"#PORTA PORTESE": "PORTA PORTESE",
-			"#SANTA CECILIA": "SANTA CECILIA",
-			"#VIGNACCIA": "VIGNACCIA",
-			"#VILLA TROILI": "VILLA TROILI",
-			"#VILLINI": "VILLINI",
-			"#I mainly stay within my own Municipio": "I mainly stay within my own Municipio",
-			"#Which is the second Municipio you travel in most frequently?": "Which is the second Municipio you travel in most frequently?",
-			"#Which is the third Municipio you travel in most frequently?": "Which is the third Municipio you travel in most frequently?",
-			"#If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)": "If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)",
-			"#Work or university": "Work or university",
-			"#Grocery shopping / supermarkets": "Grocery shopping / supermarkets",
-			"#Healthcare (doctor, pharmacy, hospital)": "Healthcare (doctor, pharmacy, hospital)",
-			"#Schools or childcare": "Schools or childcare",
-			"#Leisure activities (restaurants, cafes, cinema, gym)": "Leisure activities (restaurants, cafes, cinema, gym)",
-			"#Visiting friends or family": "Visiting friends or family",
-			"#Administrative services (banks, offices, etc.)": "Administrative services (banks, offices, etc.)",
-			"#Better prices or more choice of services elsewhere": "Better prices or more choice of services elsewhere",
-			"#Lack of services in my neighborhood": "Lack of services in my neighborhood",
-			"#Poor quality of services in my neighborhood": "Poor quality of services in my neighborhood",
-			"#I prefer other neighborhoods or areas": "I prefer other neighborhoods or areas",
-			"#I rarely or never travel outside my neighborhood": "I rarely or never travel outside my neighborhood",
-			"#How strongly do you feel connected to the place where you live and the people in your community?": "How strongly do you feel connected to the place where you live and the people in your community?",
-			"#Not connected": "Not connected",
-			"#Somewhat disconnected": "Somewhat disconnected",
-			"#Neither connected nor disconnected": "Neither connected nor disconnected",
-			"#Somewhat connected": "Somewhat connected",
-			"#Very connected": "Very connected",
-			"#Do you hold a valid driving license? (Car, motorcycle or both)": "Do you hold a valid driving license? (Car, motorcycle or both)",
-			"#Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?": "Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?"
-		},
-		"fa": {
-			"#Geocode": "ژئوکد",
-			"#geocode result": "نتیجه ژئوکد",
-			"#longitude": "طول جغرافیایی",
-			"#latitude": "عرض جغرافیایی",
-			"#address": "آدرس",
-			"#city": "شهر",
-			"#postal_code": "کد پستی",
-			"#notes": "یادداشت‌ها",
-			"#Login": "ورود",
-			"#Logout": "خروج",
-			"#Sign Out": "خروج",
-			"#Create New Language": "ایجاد زبان جدید",
-			"#Language": "زبان",
-			"#change language": "تغییر زبان",
-			"#change questionnaire language": "تغییر زبان پرسشنامه",
-			"#Enter the code of the language to create": "کد زبان جدید را وارد کنید",
-			"#Cannot create language $0": "ایجاد زبان $0 ممکن نیست",
-			"#Cannot delete language $0": "حذف زبان $0 ممکن نیست",
-			"#Cannot import language $0": "درون‌ریزی زبان $0 ممکن نیست",
-			"#Language $0 created": "زبان $0 ایجاد شد",
-			"#Language $0 deleted": "زبان $0 حذف شد",
-			"#Language $0 imported": "زبان $0 درون‌ریزی شد",
-			"#Language '$0' successfully saved to $1": "زبان '$0' با موفقیت در $1 ذخیره شد",
-			"#code": "کد",
-			"#create language": "ایجاد زبان",
-			"#delete language": "حذف زبان",
-			"#delete word": "حذف واژه",
-			"#edit languages": "ویرایش زبان‌ها",
-			"#download language": "دانلود زبان",
-			"#import language": "درون‌ریزی زبان",
-			"#Get info": "دریافت اطلاعات",
-			"#Settings": "تنظیمات",
-			"#Full Screen": "تمام‌صفحه",
-			"#Next": "بعدی",
-			"#Welcome to": "خوش آمدید به",
-			"#Import Features from CSV addresses": "درون‌ریزی عوارض از آدرس‌های CSV",
-			"#geocode features": "ژئوکد عوارض",
-			"#invalid selection": "انتخاب نامعتبر",
-			"#Import completed!": "درون‌ریزی کامل شد!",
-			"#Importing file $0/$1": "در حال درون‌ریزی فایل $0/$1",
-			"#Import Features from CSV coordinates": "درون‌ریزی عوارض از مختصات CSV",
-			"#import points": "درون‌ریزی نقاط",
-			"#Click on an element to see details": "روی یک عنصر کلیک کنید تا جزئیات را ببینید,",
-			"#Geocode_address": "Seleziona una posizione sulla mappa",
-			"#Address_click": "انتخاب یک مکان روی نقشه",
-			"#User_position": "نمایش موقعیت مرورگر روی نقشه",
-			"#Map": "نقشه",
-			"#Layers": "لایه‌ها",
-			"#Views": "نماها",
-			"#Tiles": "نقشه‌های پایه",
-			"#User": "کاربر",
-			"#Change Language": "تغییر زبان",
-			"#Show Chart": "نمایش نمودار",
-			"#Show Map": "نمایش نقشه",
-			"#Results": "نتایج",
-			"#Date": "تاریخ",
-			"#Line": "خط",
-			"#Link": "یال",
-			"#Demand Matrix": "ماتریس تقاضا",
-			"#Skim Matrix": "ماتریس هزینه",
-			"#Cost Distribution": "توزیع هزینه",
-			"#Return Back": "بازگشت",
-			"#Calendar": "تقویم",
-			"#Clock": "ساعت",
-			"#Assignment completed!": "تخصیص تکمیل شد!",
-			"#Dowload the Daily Report": "دانلود گزارش روزانه",
-			"#Dowload the Daily Matrix": "دانلود ماتریس روزانه",
-			"#Shortest Path": "کوتاه‌ترین مسیر",
-			"#Time Filter": "فیلتر زمانی",
-			"#File": "فایل",
-			"#Open": "باز کردن",
-			"#Save": "ذخیره",
-			"#New": "جدید",
-			"#Server": "سرور",
-			"#Import Layer": "درون‌ریزی لایه",
-			"#GeoJson File": "فایل GeoJSON",
-			"#GeoJson Folder": "پوشه فایل‌های GeoJSON",
-			"#Shape Zip File": "فایل ZIP شیپ",
-			"#Shape Folder": "پوشه فایل‌های شیپ",
-			"#Csv File": "فایل CSV",
-			"#Csv Folder": "پوشه فایل‌های CSV",
-			"#Csv File No Layer": "فایل CSV بدون لایه",
-			"#Csv Points": "نقاط CSV",
-			"#Export as Zip": "برون‌ریزی به ZIP",
-			"#Export Layer as Zip": "برون‌ریزی لایه به ZIP",
-			"#Export to Visum": "برون‌ریزی به Visum",
-			"#Import Netw": "درون‌ریزی شبکه",
-			"#Edit Objects": "ویرایش اشیا",
-			"#Decks": "سبک‌ها",
-			"#Queries": "پرس‌وجوها",
-			"#Types": "انواع",
-			"#Users": "کاربران",
-			"#Predefined": "از پیش تعریف‌شده",
-			"#Zone Procedures": "روال‌های ناحیه",
-			"#Connect Centroids": "اتصال centroidها",
-			"#Connect Stops": "اتصال ایستگاه‌ها",
-			"#Populate Zones": "پر کردن ناحیه‌ها",
-			"#Import Pairs": "درون‌ریزی زوج‌ها",
-			"#Create Zones": "ایجاد ناحیه‌ها",
-			"#Cluster Cells": "خوشه‌بندی سلول‌ها",
-			"#Generete Paths OD": "تولید مسیرهای OD",
-			"#Compute Zone Skims": "محاسبه skim ناحیه‌ها",
-			"#Compute Demand": "محاسبه تقاضا",
-			"#Network Procedures": "روال‌های شبکه",
-			"#Incremental Deterministic Assignment": "تخصیص قطعی افزایشی",
-			"#Compute All from OSM": "محاسبه همه‌چیز از OSM",
-			"#Vehicle Routing": "مسیریابی وسایل نقلیه",
-			"#Server Procedures": "روال‌های سرور",
-			"#Download Server": "دانلود سرور",
-			"#Simulate Graph": "شبیه‌سازی گراف",
-			"#Simulate Network": "شبیه‌سازی شبکه",
-			"#From Date": "از تاریخ",
-			"#To Date": "تا تاریخ",
-			"#From Time": "از زمان",
-			"#To Time": "تا زمان",
-			"#Play": "اجرا",
-			"#Isochrones": "ایزوکرون‌ها",
-			"#Origin": "مبدا",
-			"#Destination": "مقصد",
-			"#Add Connections": "افزودن اتصال‌ها",
-			"#Mode": "حالت",
-			"#Infos": "اطلاعات",
-			"#All On": "روشن کردن همه",
-			"#All Off": "خاموش کردن همه",
-			"#Expand": "گسترش",
-			"#Collapse": "جمع کردن",
-			"#Clean Filters": "پاک کردن فیلترها",
-			"#New Layer": "لایه جدید",
-			"#Delete Layer": "حذف لایه",
-			"#Clone Layer": "کپی لایه",
-			"#Edit Layer": "ویرایش لایه",
-			"#Query Layer": "پرس‌وجوی لایه",
-			"#Edit Deck": "ویرایش سبک",
-			"#Density Deck": "سبک چگالی",
-			"#Undo": "واگرد",
-			"#Redo": "از نو",
-			"#Clear": "پاک کردن",
-			"#Create": "ایجاد",
-			"#Delete": "حذف",
-			"#Edit": "ویرایش",
-			"#One Way": "یک‌طرفه",
-			"#Screenshot": "اسکرین‌شات",
-			"#Save View": "ذخیره نما",
-			"#Query Builder": "سازنده پرس‌وجو",
-			"#Column Visibility": "نمایش ستون‌ها",
-			"#Download Excel": "دانلود اکسل",
-			"#Prune Table": "هرس جدول",
-			"#Show Selected Rows": "نمایش ردیف‌های انتخاب‌شده",
-			"#Search": "جستجو",
-			"#Query": "پرس‌وجو",
-			"#Presets": "پیش‌تنظیم‌ها",
-			"#Apply": "اعمال",
-			"#Apply query to layer": "اعمال پرس‌وجو به لایه",
-			"#Save query to presets": "ذخیره پرس‌وجو در پیش‌تنظیم‌ها",
-			"#Model": "مدل",
-			"#Export": "برون‌ریزی",
-			"#Save Online": "ذخیره آنلاین",
-			"#Show Infos": "نمایش اطلاعات",
-			"#Open JSON": "باز کردن JSON",
-			"#Save JSON": "ذخیره JSON",
-			"#Open ZIP": "باز کردن ZIP",
-			"#Save ZIP": "ذخیره ZIP",
-			"#ShowChart": "نمایش نمودارها",
-			"#no selection": "بدون انتخاب",
-			"#tiles": "نقشه‌های پایه",
-			"#Legends": "راهنما",
-			"#light": "روشن",
-			"#dark": "تیره",
-			"#terrain": "توپوگرافی",
-			"#no_map": "بدون نقشه",
-			"#roadmap": "جاده‌ای",
-			"#hybrid": "ترکیبی",
-			"#atlas": "اطلس",
-			"#cycle": "دوچرخه",
-			"#landscape": "چشم‌انداز",
-			"#pioneer": "کارتوگرافی",
-			"#transport": "حمل‌ونقل عمومی",
-			"#Add Layer to Zones": "افزودن لایه به ناحیه‌ها",
-			"#Aggregate Cells in Zones": "تجمیع سلول‌ها در ناحیه‌ها",
-			"#Aggregate layers": "تجمیع لایه‌ها",
-			"#Alglib Test": "آزمون Alglib",
-			"#All completed!": "همه مراحل تکمیل شد!",
-			"#Build Grid Network": "ساخت شبکه شطرنجی",
-			"#Build Linear Schedule Based Network": "ساخت شبکه خطی مبتنی بر زمان‌بندی",
-			"#Cell clustering done!": "خوشه‌بندی سلول‌ها انجام شد!",
-			"#Cells not imported": "سلول‌ها وارد نشده‌اند",
-			"#Cells successfully aggregated!": "سلول‌ها با موفقیت تجمیع شدند!",
-			"#Cluster Shape Layer to Zones": "خوشه‌بندی لایه shape به ناحیه‌ها",
-			"#cluster zones": "خوشه‌بندی ناحیه‌ها",
-			"#Computation of demand models completed!": "محاسبه مدل‌های تقاضا کامل شد!",
-			"#Computation of paths completed!": "محاسبه مسیرها کامل شد!",
-			"#Compute a path before": "ابتدا یک مسیر محاسبه کنید",
-			"#Connect Stops to nodes": "اتصال ایستگاه‌ها به گره‌ها",
-			"#Csv Addresses": "CSV آدرس‌ها",
-			"#Csv Addresses Folder": "پوشه CSV آدرس‌ها",
-			"#Csv Points Folder": "پوشه CSV نقاط",
-			"#Delete Layer Column": "حذف ستون لایه",
-			"#Digital Elevation Model form OpenTopography": "مدل ارتفاعی دیجیتال از OpenTopography",
-			"#Distance Matrix Tests": "آزمون‌های ماتریس فاصله",
-			"#Download and Save Server": "دانلود و ذخیره سرور",
-			"#Draw Polygon": "رسم چندضلعی",
-			"#Edit Decks": "ویرایش سبک‌ها",
-			"#Export Decks as JSON": "برون‌ریزی سبک‌ها به JSON",
-			"#Export Layers as Zip": "برون‌ریزی لایه‌ها به ZIP",
-			"#Ferrovie OSM": "راه‌آهن OSM",
-			"#File $0 does not contain features!": "فایل $0 هیچ featureی ندارد!",
-			"#File $0 successfully saved to $1": "فایل $0 با موفقیت در $1 ذخیره شد",
-			"#File $0 successfully saved!": "فایل $0 با موفقیت ذخیره شد!",
-			"#Floyd Algorithm GPU": "الگوریتم فلوید روی GPU",
-			"#Generate Paths OD": "تولید مسیرهای OD",
-			"#Get Links Elevation": "دریافت ارتفاع یال‌ها",
-			"#Get Nodes Elevation": "دریافت ارتفاع گره‌ها",
-			"#GIS": "GIS",
-			"#GIS2": "GIS 2",
-			"#Grafo": "گراف",
-			"#graph_mode_bike": "دوچرخه",
-			"#graph_mode_car": "خودرو",
-			"#graph_mode_transit": "حمل‌ونقل عمومی",
-			"#graph_mode_walk": "پیاده",
-			"#graph_type_modal": "مدال",
-			"#graph_type_street": "خیابانی",
-			"#GTFS fare_rules - undefined fare id: $0": "GTFS fare_rules - fare id تعریف نشده: $0",
-			"#GTFS fare_rules - undefined route id: $0": "GTFS fare_rules - route id تعریف نشده: $0",
-			"#GTFS frequencies - undefined trip id: $0": "GTFS frequencies - trip id تعریف نشده: $0",
-			"#GTFS Pb (Transit)": "GTFS Pb (ترانزیت)",
-			"#GTFS stop_times - undefined trip id: $0": "GTFS stop_times - trip id تعریف نشده: $0",
-			"#GTFS trips - undefined route id: $0": "GTFS trips - route id تعریف نشده: $0",
-			"#GTFS trips - undefined service id: $0": "GTFS trips - service id تعریف نشده: $0",
-			"#GTFS trips - undefined shape id: $0": "GTFS trips - shape id تعریف نشده: $0",
-			"#GTFS Zip (Transit)": "GTFS ZIP (ترانزیت)",
-			"#Highs Tests": "آزمون‌های HiGHS",
-			"#Import Decks from JSON": "درون‌ریزی سبک‌ها از JSON",
-			"#Import Layers as Zip": "درون‌ریزی لایه‌ها از ZIP",
-			"#Import Network": "درون‌ریزی شبکه",
-			"#Import OSM from Api": "درون‌ریزی OSM از API",
-			"#ISTAT Zip": "ZIP ISTAT",
-			"#ISTAT Zip (Cells)": "ZIP ISTAT (سلول‌ها)",
-			"#Kmz File": "فایل KMZ",
-			"#Layer $0 not found!": "لایه $0 پیدا نشد!",
-			"#LPSolver Test": "آزمون LPSolver",
-			"#Ltyps": "انواع یال",
-			"#Many Points": "نقاط زیاد",
-			"#Matrix Multiplication GPU": "ضرب ماتریسی روی GPU",
-			"#Memory Tests": "آزمون‌های حافظه",
-			"#Network not imported": "شبکه وارد نشده است",
-			"#Network Objects": "اشیای شبکه",
-			"#No .net file found!": "هیچ فایل .net پیدا نشد!",
-			"#No modal graph selected!": "هیچ گراف مدالی انتخاب نشده است!",
-			"#Node $0 is used by $1 links": "گره $0 توسط $1 یال استفاده می‌شود",
-			"#Number of connections created: $0": "تعداد اتصال‌های ایجادشده: $0",
-			"#Open GeoTiff": "باز کردن GeoTiff",
-			"#OpenStreetMap": "OpenStreetMap",
-			"#OpenStreetMap (Roads, Transit, Demand)": "OpenStreetMap (جاده، ترانزیت، تقاضا)",
-			"#OpenStreetMap Network": "شبکه OpenStreetMap",
-			"#Orario Trenitalia": "زمان‌بندی Trenitalia",
-			"#OSM Api Selection Area": "ناحیه انتخاب API در OSM",
-			"#OSM network successfully imported!": "شبکه OSM با موفقیت وارد شد!",
-			"#Pairs imported!": "زوج‌ها وارد شدند!",
-			"#Please enter a name to save": "یک نام برای ذخیره وارد کنید",
-			"#Processing element $0 of $1 ...": "در حال پردازش عنصر $0 از $1 ...",
-			"#Reading the Visum .dmd file": "در حال خواندن فایل Visum .dmd",
-			"#Reading the Visum .net file": "در حال خواندن فایل Visum .net",
-			"#Reading the Visum .xml file": "در حال خواندن فایل Visum .xml",
-			"#Reset Decks to Default": "بازنشانی سبک‌ها به حالت پیش‌فرض",
-			"#Road Collisions Zip": "ZIP تصادف‌های جاده‌ای",
-			"#Rome road crashes successfully imported!": "تصادف‌های جاده‌ای رم با موفقیت وارد شدند!",
-			"#Save As GeoJson": "ذخیره به صورت GeoJSON",
-			"#Save Path": "ذخیره مسیر",
-			"#Scens": "سناریوها",
-			"#Server not found!": "سرور پیدا نشد!",
-			"#Set Layer Id Column": "تنظیم ستون شناسه لایه",
-			"#Simple Distance Tests": "آزمون‌های ساده فاصله",
-			"#Simplify Network": "ساده‌سازی شبکه",
-			"#Simulation completed!": "شبیه‌سازی کامل شد!",
-			"#Simulation failed! ": "شبیه‌سازی ناموفق بود! ",
-			"#Static GTFS successfully imported from $0": "GTFS ایستا با موفقیت از $0 وارد شد",
-			"#Stazioni Trenitalia": "ایستگاه‌های Trenitalia",
-			"#Stops successfully connected!": "ایستگاه‌ها با موفقیت متصل شدند!",
-			"#Swap Origin Destination": "جابه‌جایی مبدا و مقصد",
-			"#Switch for Isochrones to Paths": "تغییر از ایزوکرون به مسیر",
-			"#Switch for Paths to Isochrones": "تغییر از مسیر به ایزوکرون",
-			"#Taxi Roma": "تاکسی رم",
-			"#Tensor Flow Test": "آزمون TensorFlow",
-			"#Test": "آزمون",
-			"#Tests": "آزمون‌ها",
-			"#the name of a city or region ...": "نام یک شهر یا منطقه ...",
-			"#Tpros": "پروفایل‌های زمانی",
-			"#Transport Model Documentation": "مستندات Transport Model",
-			"#Ttyps": "انواع ترانزیت",
-			"#Use Projections": "استفاده از projectionها",
-			"#Vehicle routing completed!": "مسیریابی وسایل نقلیه کامل شد!",
-			"#Visum Dmd (Demand)": "Visum Dmd (تقاضا)",
-			"#Visum file $0 successfully imported!": "فایل Visum $0 با موفقیت وارد شد!",
-			"#Visum Folder (Roads, Transit, Demand)": "پوشه Visum (جاده، ترانزیت، تقاضا)",
-			"#Visum Net (Roads, Transit)": "Visum Net (جاده، ترانزیت)",
-			"#Visum network error!": "خطای شبکه Visum!",
-			"#Zone skims completed!": "skimهای ناحیه‌ای کامل شدند!",
-			"#Zones created!": "ناحیه‌ها ایجاد شدند!",
-			"#Zones imported!": "ناحیه‌ها وارد شدند!",
-			"#Other": "سایر",
-			"#I don't know": "I don't know",
-			"#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
-			"#Back": "قبلی",
-			"#Submit": "ارسال",
-			"#Questionnaire": "پرسشنامه",
-			"#Questionnaires": "پرسشنامه‌ها",
-			"#choose the questionnaire to view": "پرسشنامه‌ای را برای مشاهده انتخاب کنید",
-			"#Build Questionnaire": "ساخت پرسشنامه",
-			"#Data Protection and Consent": "حفاظت از داده‌ها و رضایت‌نامه",
-			"#I agree": "موافقم",
-			"#This survey is part of an extended research effort that combines multiple questionnaires and GPS data (for those who use the app). Together, these help us design safer and more inclusive urban spaces.": "این پرسشنامه بخشی از یک پروژه پژوهشی گسترده‌تر است که چندین پرسشنامه و داده‌های موقعیت‌یاب GPS (برای افرادی که از برنامه استفاده می‌کنند) را ترکیب می‌کند. این اطلاعات به ما کمک می‌کند تا فضاهای شهری ایمن‌تر و فراگیرتری طراحی کنیم.",
-			"#You may optionally provide your email address to generate an anonymous participation code. This allows us to link your responses across surveys for longitudinal analysis, without ever storing your real email.": "شما می‌توانید به صورت اختیاری نشانی ایمیل خود را وارد کنید تا یک کد ناشناس شرکت در پژوهش تولید شود. این کار به ما امکان می‌دهد پاسخ‌های شما را در پرسشنامه‌های مختلف برای تحلیل‌های طولی به هم پیوند دهیم، بدون آنکه ایمیل واقعی شما ذخیره شود.",
-			"#To learn more about how we collect and protect data, read <a href='$0' target='_blank'>our transparency and data protection overview</a>.": "برای آگاهی بیشتر درباره نحوه جمع‌آوری و حفاظت از داده‌ها، <a href='$0' target='_blank'>مرور کلی شفافیت و حفاظت از داده‌های ما</a> را بخوانید.",
-			"#I have read and agree to the privacy notice describing how my data are collected and used for research purposes.": "من اطلاعیه حریم خصوصی را خوانده‌ام و با نحوه جمع‌آوری و استفاده از داده‌هایم برای اهداف پژوهشی موافقم.",
-			"#<a href='$0' target='_blank'>Privacy notice</a>": "<a href='$0' target='_blank'>اطلاعیه حریم خصوصی</a>",
-			"#Would you like to provide your email address to generate an anonymous participation code? (optional)": "آیا مایل هستید برای ایجاد یک کد مشارکت ناشناس، آدرس ایمیل خود را وارد کنید؟ (اختیاری)",
-			"#Page $0 of $1": "صفحه $0 از $1",
-			"#Add a note if this question needs review or correction.": "در صورتی که این سؤال نیاز به بازبینی یا اصلاح دارد، یادداشتی اضافه کنید.",
-			"#Review mode": "حالت بازبینی"
-		}
-	},
-	"id": "smarturbanity_about_you",
-	"db_set": "questionnaires",
-	"default_language": "en"
+    "sections": [
+      {
+        "title": "1. Welcome to About You",
+        "description": "This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
+        "backgroundColor": "#d3d3d3",
+        "questions": []
+      },
+      {
+        "title": "Personal & Household",
+        "description": "A few background questions to help us understand who our participants are.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "What is your age group? (Participation is limited to adults aged 18 or older)",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "18-24"
+              },
+              {
+                "text": "25-34"
+              },
+              {
+                "text": "35-44"
+              },
+              {
+                "text": "45-54"
+              },
+              {
+                "text": "55-64"
+              },
+              {
+                "text": "65-74"
+              },
+              {
+                "text": "75-84"
+              },
+              {
+                "text": "85 or older"
+              },
+              {
+                "text": "Prefer not to say"
+              }
+            ]
+          },
+          {
+            "text": "What is your gender?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Male"
+              },
+              {
+                "text": "Female"
+              },
+              {
+                "text": "Other"
+              },
+              {
+                "text": "Prefer not to say"
+              }
+            ]
+          },
+          {
+            "text": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              }
+            ]
+          },
+          {
+            "text": "How many adults, including yourself, live together in your household?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "1 (only myself)"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5 or more"
+              }
+            ]
+          },
+          {
+            "text": "What is your highest completed level of education?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No qualification"
+              },
+              {
+                "text": "Lower secondary school"
+              },
+              {
+                "text": "High school"
+              },
+              {
+                "text": "Bachelor degree or equivalent"
+              },
+              {
+                "text": "Master degree or equivalent"
+              },
+              {
+                "text": "Doctorate degree"
+              }
+            ]
+          },
+          {
+            "text": "Which economic status do you think best describes your household?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "We struggle to cover basic needs"
+              },
+              {
+                "text": "We can cover basic needs"
+              },
+              {
+                "text": "We can cover basic needs comfortably and have little money left over"
+              },
+              {
+                "text": "We can afford most things we want with occasional extra expenses"
+              },
+              {
+                "text": "We are financially very comfortable and can easily afford extra expenses"
+              }
+            ]
+          },
+          {
+            "text": "Which best describes your employment status?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Employed full-time"
+              },
+              {
+                "text": "Employed part-time"
+              },
+              {
+                "text": "Occasionally employed"
+              },
+              {
+                "text": "Self-employed/freelance full-time"
+              },
+              {
+                "text": "Self employed/freelance part-time"
+              },
+              {
+                "text": "Homemaker"
+              },
+              {
+                "text": "Retired"
+              },
+              {
+                "text": "Unemployed looking for work"
+              },
+              {
+                "text": "Unemployed not looking for work"
+              },
+              {
+                "text": "Adult learner (student)"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "Do you currently work remotely (partly or fully)?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes (3 days or more in a week)"
+              },
+              {
+                "text": "Yes, occasionally (1-2 days in a week)"
+              },
+              {
+                "text": "No"
+              },
+              {
+                "text": "I am not currently employed"
+              }
+            ]
+          },
+          {
+            "text": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "Somewhat (within a 1-2 hour window)"
+              },
+              {
+                "text": "No"
+              },
+              {
+                "text": "I am not currently employed"
+              }
+            ]
+          },
+          {
+            "text": "Do you have any condition or limitation that affects your ability to move independently?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No, I can move independently"
+              },
+              {
+                "text": "Yes, I have a temporary condition/limitation"
+              },
+              {
+                "text": "Yes, I have a permanent mobility condition/limitation"
+              }
+            ]
+          },
+          {
+            "text": "Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              }
+            ]
+          },
+          {
+            "text": "Do you hold a valid driving license? (Car, motorcycle or both)",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              }
+            ]
+          },
+          {
+            "text": "Do you belong to any of these groups?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Urban planner"
+              },
+              {
+                "text": "Policymaker"
+              },
+              {
+                "text": "Environmental/sustainable mobility activist"
+              },
+              {
+                "text": "Content creator / communicator (social media, journalism, blogging)"
+              },
+              {
+                "text": "None"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Physical Capability",
+        "description": "Questions about your physical capacity for active travel.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "I rarely or never walk"
+              },
+              {
+                "text": "Less than 500 meters (about 5-6 minutes)"
+              },
+              {
+                "text": "From 500 meters to 1 km (about 10-15 minutes)"
+              },
+              {
+                "text": "1 to 2 km (about 15-25 minutes)"
+              },
+              {
+                "text": "More than 2 km"
+              }
+            ]
+          },
+          {
+            "text": "How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Inactive (0 days)"
+              },
+              {
+                "text": "Occasionally Active (1 day)"
+              },
+              {
+                "text": "Moderately Active (2–3 days)"
+              },
+              {
+                "text": "Highly Active (4–5 days)"
+              },
+              {
+                "text": "Daily / Near Daily (6–7 days)"
+              }
+            ]
+          },
+          {
+            "text": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Very low (sedentary, easily fatigued)"
+              },
+              {
+                "text": "Low"
+              },
+              {
+                "text": "Moderate"
+              },
+              {
+                "text": "Good"
+              },
+              {
+                "text": "High"
+              }
+            ]
+          },
+          {
+            "text": "What is your approximate height?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Less than 150 cm"
+              },
+              {
+                "text": "150-164 cm"
+              },
+              {
+                "text": "165-179 cm"
+              },
+              {
+                "text": "180-194 cm"
+              },
+              {
+                "text": "195 cm or more"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Living context",
+        "description": "Questions about where you live and how you move around Rome.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Which of the following best describes your relationship to Municipio XII?",
+            "answer_key": "residence",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "I live here (Resident)",
+                "value": "live"
+              },
+              {
+                "text": "I travel here regularly for work or study (Commuter)",
+                "value": "travel"
+              },
+              {
+                "text": "I’m visiting for leisure (Tourist)",
+                "value": "visit"
+              },
+              {
+                "text": "I’m here temporarily for another reason (Visitor)",
+                "value": "reason"
+              }
+            ]
+          },
+          {
+            "text": "In which Municipio of Rome do you currently live?",
+            "question_type": "single_option",
+            "show_if": {
+              "residence": [
+                "visit",
+                "reason",
+                "travel"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "1"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5"
+              },
+              {
+                "text": "6"
+              },
+              {
+                "text": "7"
+              },
+              {
+                "text": "8"
+              },
+              {
+                "text": "9"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "11"
+              },
+              {
+                "text": "13"
+              },
+              {
+                "text": "14"
+              },
+              {
+                "text": "15"
+              },
+              {
+                "text": "I live outside Rome"
+              },
+              {
+                "text": "I don't know"
+              }
+            ]
+          },
+          {
+            "text": "In which neighbourhood of municipio XII do you currently live?",
+            "question_type": "single_option",
+            "show_if": {
+              "residence": "live"
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "BRAVETTA"
+              },
+              {
+                "text": "CASAL LUMBROSO"
+              },
+              {
+                "text": "COLLE AURELIO"
+              },
+              {
+                "text": "COLLI PORTUENSI"
+              },
+              {
+                "text": "LA PISANA"
+              },
+              {
+                "text": "MASSIMINA"
+              },
+              {
+                "text": "MONTEVERDE NUOVO"
+              },
+              {
+                "text": "MONTEVERDE VECCHIO"
+              },
+              {
+                "text": "PORTA PORTESE"
+              },
+              {
+                "text": "SANTA CECILIA"
+              },
+              {
+                "text": "VIGNACCIA"
+              },
+              {
+                "text": "VILLA TROILI"
+              },
+              {
+                "text": "VILLINI"
+              }
+            ]
+          },
+          {
+            "text": "Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?",
+            "answer_key": "travel",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "I mainly stay within my own Municipio",
+                "value": "stay"
+              },
+              {
+                "text": "I don't know",
+                "value": "idk"
+              },
+              {
+                "text": "1",
+                "value": "1"
+              },
+              {
+                "text": "2",
+                "value": "2"
+              },
+              {
+                "text": "3",
+                "value": "3"
+              },
+              {
+                "text": "4",
+                "value": "4"
+              },
+              {
+                "text": "5",
+                "value": "5"
+              },
+              {
+                "text": "6",
+                "value": "6"
+              },
+              {
+                "text": "7",
+                "value": "7"
+              },
+              {
+                "text": "8",
+                "value": "8"
+              },
+              {
+                "text": "9",
+                "value": "9"
+              },
+              {
+                "text": "10",
+                "value": "10"
+              },
+              {
+                "text": "11",
+                "value": "11"
+              },
+              {
+                "text": "12",
+                "value": "12"
+              },
+              {
+                "text": "13",
+                "value": "13"
+              },
+              {
+                "text": "14",
+                "value": "14"
+              },
+              {
+                "text": "15",
+                "value": "15"
+              }
+            ]
+          },
+          {
+            "text": "Which is the second Municipio you travel in most frequently?",
+            "answer_key": "second",
+            "question_type": "single_option",
+            "show_if": {
+              "travel": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "I don't know",
+                "value": "idk"
+              },
+              {
+                "text": "1",
+                "value": "1"
+              },
+              {
+                "text": "2",
+                "value": "2"
+              },
+              {
+                "text": "3",
+                "value": "3"
+              },
+              {
+                "text": "4",
+                "value": "4"
+              },
+              {
+                "text": "5",
+                "value": "5"
+              },
+              {
+                "text": "6",
+                "value": "6"
+              },
+              {
+                "text": "7",
+                "value": "7"
+              },
+              {
+                "text": "8",
+                "value": "8"
+              },
+              {
+                "text": "9",
+                "value": "9"
+              },
+              {
+                "text": "10",
+                "value": "10"
+              },
+              {
+                "text": "11",
+                "value": "11"
+              },
+              {
+                "text": "12",
+                "value": "12"
+              },
+              {
+                "text": "13",
+                "value": "13"
+              },
+              {
+                "text": "14",
+                "value": "14"
+              },
+              {
+                "text": "15",
+                "value": "15"
+              }
+            ]
+          },
+          {
+            "text": "Which is the third Municipio you travel in most frequently?",
+            "question_type": "single_option",
+            "show_if": {
+              "second": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+              ]
+            },
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "I don't know",
+                "value": "idk"
+              },
+              {
+                "text": "1",
+                "value": "1"
+              },
+              {
+                "text": "2",
+                "value": "2"
+              },
+              {
+                "text": "3",
+                "value": "3"
+              },
+              {
+                "text": "4",
+                "value": "4"
+              },
+              {
+                "text": "5",
+                "value": "5"
+              },
+              {
+                "text": "6",
+                "value": "6"
+              },
+              {
+                "text": "7",
+                "value": "7"
+              },
+              {
+                "text": "8",
+                "value": "8"
+              },
+              {
+                "text": "9",
+                "value": "9"
+              },
+              {
+                "text": "10",
+                "value": "10"
+              },
+              {
+                "text": "11",
+                "value": "11"
+              },
+              {
+                "text": "12",
+                "value": "12"
+              },
+              {
+                "text": "13",
+                "value": "13"
+              },
+              {
+                "text": "14",
+                "value": "14"
+              },
+              {
+                "text": "15",
+                "value": "15"
+              }
+            ]
+          },
+          {
+            "text": "If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "max_answers": 3,
+            "options": [
+              {
+                "text": "Work or university"
+              },
+              {
+                "text": "Grocery shopping / supermarkets"
+              },
+              {
+                "text": "Healthcare (doctor, pharmacy, hospital)"
+              },
+              {
+                "text": "Schools or childcare"
+              },
+              {
+                "text": "Leisure activities (restaurants, cafes, cinema, gym)"
+              },
+              {
+                "text": "Visiting friends or family"
+              },
+              {
+                "text": "Administrative services (banks, offices, etc.)"
+              },
+              {
+                "text": "Better prices or more choice of services elsewhere"
+              },
+              {
+                "text": "Lack of services in my neighborhood"
+              },
+              {
+                "text": "Poor quality of services in my neighborhood"
+              },
+              {
+                "text": "I prefer other neighborhoods or areas"
+              },
+              {
+                "text": "I rarely or never travel outside my neighborhood"
+              },
+              {
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "text": "How strongly do you feel connected to the place where you live and the people in your community?",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Not connected"
+              },
+              {
+                "text": "Somewhat disconnected"
+              },
+              {
+                "text": "Neither connected nor disconnected"
+              },
+              {
+                "text": "Somewhat connected"
+              },
+              {
+                "text": "Very connected"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "it": {
+      "#User": "Utente",
+      "#User email": "Email utente",
+      "#Username": "Nome utente",
+      "#Service": "Servizio",
+      "#Geocode": "Geocodifica",
+      "#geocode result": "Esito geocodifica",
+      "#longitude": "longitudine",
+      "#latitude": "latitudine",
+      "#address": "indirizzo",
+      "#city": "citta",
+      "#postal_code": "codice postale",
+      "#notes": "note",
+      "#Legend": "Legenda",
+      "#Login": "Accesso",
+      "#Logout": "Esci",
+      "#Sign Out": "Esci",
+      "#Sign in": "Accedi",
+      "#Sign in to continue": "Accedi per continuare",
+      "#Choose how to sign in": "Scegli come accedere",
+      "#Not logged in": "Non autenticato",
+      "#Guest user": "Utente ospite",
+      "#Registered user - limited access": "Utente registrato - accesso limitato",
+      "#Registered user": "Utente registrato",
+      "#Role": "Ruolo",
+      "#Group": "Gruppo",
+      "#Admin": "Amministratore",
+      "#Mock user": "Utente simulato",
+      "#Email": "Email",
+      "#Password": "Password",
+      "#Code": "Codice",
+      "#Remember me": "Ricordami",
+      "#Register new user": "Registra nuovo utente",
+      "#Forgot my password": "Ho dimenticato la password",
+      "#Set my password": "Imposta la mia password",
+      "#Email me a code to set my password": "Inviami un codice per impostare la password",
+      "#Register my email and send a code to set my password": "Registra la mia email e inviami un codice per impostare la password",
+      "#The server is not responding": "Il server non sta rispondendo",
+      "#An email has been sent to $0 containing a code to set your password": "E stata inviata un'email a $0 contenente un codice per impostare la password",
+      "#It was not possible to send an email to $0": "Non e stato possibile inviare un'email a $0",
+      "#Invalid credentials. Login again!": "Credenziali non valide. Accedi di nuovo!",
+      "#Password successfully set": "Password impostata correttamente",
+      "#Cannot login": "Impossibile accedere",
+      "#Please select a service": "Seleziona un servizio",
+      "#email address not found": "Indirizzo email non trovato",
+      "#Update Role": "Aggiorna ruolo",
+      "#User successfully created or updated": "Utente creato o aggiornato correttamente",
+      "#You cannot update the group of the user": "Non puoi aggiornare il gruppo dell'utente",
+      "#You cannot update the role of the user": "Non puoi aggiornare il ruolo dell'utente",
+      "#You have entered an empty code": "Hai inserito un codice vuoto",
+      "#You have entered an empty group": "Hai inserito un gruppo vuoto",
+      "#You have entered an empty password": "Hai inserito una password vuota",
+      "#You have entered an empty role": "Hai inserito un ruolo vuoto",
+      "#You have entered an empty username": "Hai inserito un nome utente vuoto",
+      "#You have entered an existing username": "Hai inserito un nome utente gia esistente",
+      "#You have entered an expired code": "Hai inserito un codice scaduto",
+      "#You have entered an invalid code": "Hai inserito un codice non valido",
+      "#You have entered an invalid password": "Hai inserito una password non valida",
+      "#You have entered an unauthorized username": "Hai inserito un nome utente non autorizzato",
+      "#Create New Language": "Crea nuova lingua",
+      "#Language": "Lingua",
+      "#change language": "Cambia lingua",
+      "#change questionnaire language": "Cambia lingua del questionario",
+      "#Enter the code of the language to create": "Inserisci il codice della lingua da creare",
+      "#Cannot create language $0": "Impossibile creare la lingua $0",
+      "#Cannot delete language $0": "Impossibile eliminare la lingua $0",
+      "#Cannot import language $0": "Impossibile importare la lingua $0",
+      "#Language $0 created": "Lingua $0 creata",
+      "#Language $0 deleted": "Lingua $0 eliminata",
+      "#Language $0 imported": "Lingua $0 importata",
+      "#Language '$0' successfully saved to $1": "Lingua '$0' salvata correttamente in $1",
+      "#code": "Codice",
+      "#create language": "Crea lingua",
+      "#delete language": "Elimina lingua",
+      "#delete word": "Elimina parola",
+      "#edit languages": "Modifica lingue",
+      "#download language": "Scarica lingua",
+      "#import language": "Importa lingua",
+      "#Select a Questionnaire to Answer": "Seleziona un questionario a cui rispondere",
+      "#Surveys": "Indagini",
+      "#choose the questionnaire": "scegli il questionario",
+      "#Collection": "Collezione",
+      "#collection": "collezione",
+      "#Import": "Importa",
+      "#Load": "Carica",
+      "#Save": "Salva",
+      "#Upload": "Carica",
+      "#Upload on firebase": "Carica su Firebase",
+      "#upload collections": "Carica collezioni",
+      "#clean collections": "Pulisci collezioni",
+      "#Import configuration": "Configurazione di importazione",
+      "#Import configuration map": "Mappa configurazione di importazione",
+      "#Select an import configuration": "Seleziona una configurazione di importazione",
+      "#Please enter a name to save configuration": "Inserisci un nome per salvare la configurazione",
+      "#Please enter a name to save": "Inserisci un nome per salvare",
+      "#Name not valid": "Nome non valido",
+      "#no import collection specified": "Nessuna collezione di importazione specificata",
+      "#Configuration not valid for this data!": "Configurazione non valida per questi dati!",
+      "#Import CSV before": "Importa prima il CSV",
+      "#File $0 does not contain data!": "Il file $0 non contiene dati!",
+      "#elements_doesn't_exist": "Gli elementi non esistono",
+      "#create import config": "Crea configurazione di importazione",
+      "#delete import config": "Elimina configurazione di importazione",
+      "#save configuration": "Salva configurazione",
+      "#load CSV": "Carica CSV",
+      "#load GeoJSON Layer": "Carica layer GeoJSON",
+      "#import data": "Importa dati",
+      "#field": "campo",
+      "#format": "formato",
+      "#default": "predefinito",
+      "#Project loaded!": "Progetto caricato!",
+      "#Project saved!": "Progetto salvato!",
+      "#This will replace your current data. Do you want to continue?": "Questo sostituira i dati correnti. Vuoi continuare?",
+      "#Search": "Cerca",
+      "#Showing _START_ to _END_ of _TOTAL_ entries": "Visualizzazione da _START_ a _END_ di _TOTAL_ elementi",
+      "#infoEmpty": "Nessun dato disponibile",
+      "#clearAll": "Cancella tutto",
+      "#deleteTitle": "Elimina regola",
+      "#leftTitle": "Sposta a sinistra",
+      "#rightTitle": "Sposta a destra",
+      "#logicAnd": "E",
+      "#logicOr": "Oppure",
+      "#condition": "condizione",
+      "#value": "valore",
+      "#title": "titolo",
+      "#left": "sinistra",
+      "#right": "destra",
+      "#delete": "elimina",
+      "#data": "dati",
+      "#add": "aggiungi",
+      "#item of": "elemento di",
+      "#Duplicate view": "Duplica vista",
+      "#Toggle width": "Cambia larghezza",
+      "#Remove widget": "Rimuovi widget",
+      "#No data": "Nessun dato",
+      "#No categories selected": "Nessuna categoria selezionata",
+      "#No location data": "Nessun dato di posizione",
+      "#Question without position": "Domanda senza posizione",
+      "#Drag and drop below to view widgets": "Trascina e rilascia qui sotto per visualizzare i widget",
+      "#KPI": "Indicatore",
+      "#Backward": "Indietro",
+      "#Forward": "Avanti",
+      "#Play": "Avvia",
+      "#Pause": "Pausa",
+      "#Run": "Esegui",
+      "#Close": "Chiudi",
+      "#Delete Runs": "Elimina esecuzioni",
+      "#Duplicate Runs": "Duplica esecuzioni",
+      "#Show Editor": "Mostra editor",
+      "#Modify": "Modifica",
+      "#Error": "Errore",
+      "#Alert": "Avviso",
+      "#IN PROGRESS": "IN CORSO",
+      "#Get info": "Ottieni informazioni",
+      "#Settings": "Impostazioni",
+      "#go to home page": "Vai alla home page",
+      "#show settings": "Mostra impostazioni",
+      "#hide settings": "Nascondi impostazioni",
+      "#Filters": "Filtri",
+      "#ToggleFilters": "Attiva o disattiva filtri",
+      "#Max Accuracy (m)": "Accuratezza massima (m)",
+      "#Min Speed (m/s)": "Velocita minima (m/s)",
+      "#Max Speed (m/s)": "Velocita massima (m/s)",
+      "#Min Distance (m)": "Distanza minima (m)",
+      "#Max Distance (m)": "Distanza massima (m)",
+      "#Min Time Î” (s)": "Delta tempo minimo (s)",
+      "#Max Time Î” (s)": "Delta tempo massimo (s)",
+      "#Print Completed!": "Stampa completata!",
+      "#submit_to_storage_fails": "Invio allo storage non riuscito",
+      "#Id field not defined $0": "Campo ID non definito $0",
+      "#Id fields not defined": "Campi ID non definiti",
+      "#answer_missing": "Risposta mancante",
+      "#Full Screen": "Schermo intero",
+      "#Next": "Avanti",
+      "#Welcome to": "Benvenuto in",
+      "#Import Features from CSV addresses": "Importa elementi da indirizzi CSV",
+      "#geocode features": "Geocodifica elementi",
+      "#invalid selection": "Selezione non valida",
+      "#Import completed!": "Importazione completata!",
+      "#Importing file $0/$1": "Importazione file $0/$1",
+      "#Import Features from CSV coordinates": "Importa elementi da coordinate CSV",
+      "#import points": "Importa punti",
+      "#Click on an element to see details": "Clicca un elemento per vedere i dettagli",
+      "#Geocode_address": "Geocodifica indirizzo",
+      "#Address_click": "Seleziona una posizione sulla mappa",
+      "#User_position": "Mostra la posizione del browser sulla mappa",
+      "#No data, load the database!": "Nessun dato, carica il database!",
+      "#Upload database": "Carica dati",
+      "#graph_type_modal": "Modale",
+      "#graph_type_street": "Urbano",
+      "#graph_mode_bike": "Bicicletta",
+      "#graph_mode_walk": "Pedone",
+      "#graph_mode_transit": "Trasporto Pubblico",
+      "#graph_mode_car": "Auto",
+      "#graph_mode_car_ltz": "Auto ZTL",
+      "#addressClickButton": "Clicca",
+      "#addressCurrentButton": "Attuale",
+      "#addressFindButton": "Cerca",
+      "#addressInputLabel": "Indirizzo",
+      "#closedCheckLabel": "Risolte",
+      "#fromDateInput": "Dal giorno",
+      "#infoContent": "<h3>Istruzioni</h3> <h4>Autenticazione</h4> <p> L'utente deve autenticarsi tramite un suo account Google, oppure registrandosi tramite email e password. </p> <h4>Aggiungere</h4> <p> Per aggiungre una segnalazione, cliccare sul relativo tasto nella barra in alto.<br> Si apre un form in cui bisogna:<br> a) scegliere il tema dal menù a tendina;<br> b) indicare il luogo, che può essere quello dalla propria posizione (tasto Attuale), oppure un punto sulla mappa (tasto Clicca), oppure un indirizzo in formato testuale che deve però essere validato (tasto Cerca);<br> c) descrivere in modo succinto il problema nella casella Testo;<br> d) selezionare (opzionale) una immagine (tasto Foto);<br> e) riempire altri eventuali campi richiesti (che potrebbero trovarsi scorrendo lo schermo verso il basso).<br> Infine, inviare la segnalazione cliccando sul tasto Salva in alto. </p> <h4>Consultare</h4> <p> Per consultare una segnalazione, cliccare il relativo segnaposto sulla mappa. Comparirà un popup con le relative informazioni. </p> <h4>Modificare</h4> <p> Solo l'autore e gli amministratori del sistema possono modificare una segnalazione.<br> Al momento è possibile solo eliminare e chiudere (tasto Risolto) una segnalazione. </p> <h4>Filtrare</h4> <p> Per visualizzare un sotto insieme delle segnalazioni, cliccare sul tasto Filtra nella barra in alto.<br> Si apre un form in cui bisogna:<br> a) scegliere la data iniziale e finale dell'intervallo di validità;<br> b) scegliere la zona di interesse;<br> c) scegliere gli stati di interesse (aperte, risolte, eliminate; nuove, presentate);<br> Le segnalazioni non selezionate appaiono in trasparenza.<br> d) selezionare i temi dal bottone in alto a destra.<br> I temi non selezionati vengono nascosti.<br> </p> <h4>Stampare</h4> <p> Cliccando sul tasto Stampa viene scaricato un file pdf con le sole segnalazioni selezionate. </p> <h4>Presentare</h4> <p> La stampa viene memorizzata nel sistema e può essere in seguito selezionata dal menù a tendina al fine di presentatare le segnalazioni ivi contenute cliccando sul relativo tasto a fianco. </p> <h4>La mappa</h4> <p> Per ritornare alla mappa, cliccare il relativo tasto nella barra in alto.<br> E' possibile sceglere tra diverse mappe di sfondo dal bottone in alto a destra. </p>",
+      "#js_address_notfound": "Non trovato",
+      "#js_popup_report": "",
+      "#js_printed_on": "Stampa del ",
+      "#js_report_presented_confirm": "Marcare le segnalazioni come presentatec?",
+      "#js_report_remove_confirm": "Rimuovere la segnalazione?",
+      "#js_report_save_confirm": "Inviare la segnalazione?",
+      "#latitudeSpan": "Latitudine",
+      "#layersDropDownLabel": "Tema",
+      "#loadZonesButton": "Zone",
+      "#loginTilteHead": "SegnalAzione",
+      "#loginTitleFoot": "Questa è una app di test per segnalare specifici problemi del teritorio su base geografica.",
+      "#longitudeSpan": "Longitudine",
+      "#newCheckLabel": "Nuove",
+      "#openCheckLabel": "Aperte",
+      "#popup_answers": "Info: ",
+      "#popup_author": "Autore: ",
+      "#popup_chats": "Commenti: ",
+      "#popup_date": "Data: ",
+      "#popup_from": " da ",
+      "#popup_layer": "Tema: ",
+      "#popup_rating": "Valutazione: ",
+      "#popup_report_close": "Risolto",
+      "#popup_report_remove": "Elimina",
+      "#popup_states": "Stati: ",
+      "#popup_text": "Testo: ",
+      "#presentedCheckLabel": "Presentate",
+      "#printReportsButton": "Stampa",
+      "#printsButton": "Presenta",
+      "#profile_save_confirm": "Salvare il profilo utente?",
+      "#quest_save_confirm": "Salva su db?",
+      "#ratingNegativeLabel": "",
+      "#ratingNeutralLabel": "",
+      "#ratingPositiveLabel": "",
+      "#ratingUrgentLabel": "",
+      "#rating_negative": "Negativa",
+      "#rating_neutral": "Neutrale",
+      "#rating_positive": "Positiva",
+      "#rating_urgent": "Urgente",
+      "#removedCheckLabel": "Eliminate",
+      "#reportPhotoButton": "Foto",
+      "#reportSaveButton": "Salva",
+      "#report_change_state_confirm": "Cambiare lo stato segnalazione?",
+      "#report_incomplete_address": "Segnalazione incompleta! Indirizzo non specificato.",
+      "#report_incomplete_layer": "Segnalazione incompleta! Tema non specificato.",
+      "#report_incomplete_text": "Segnalazione incompleta! Testo non specificato.",
+      "#report_like_confirm": "Confermi la segnalazione?",
+      "#report_share_confirm": "Condividi la segnalazione?",
+      "#setReportFormButton": "SegnalAzione",
+      "#textSpan": "Testo",
+      "#toDateInput": "Al giorno",
+      "#zonesDropDownLabel": "Zona",
+      "#kpi_dist": "distanza totale di viaggio (km)",
+      "#kpi_dist_road": "distanza percorsa guidando (km)",
+      "#kpi_dist_walk": "distanza percorsa camminando (km)",
+      "#kpi_dist_ride": "distanza percorsa a bordo delle linee (km)",
+      "#kpi_npax_wait": "numero di attese alle fermate (n°)",
+      "#kpi_dist_conn": "distanza percorsa in linea d'aria per accesso/egresso (km)",
+      "#kpi_time": "tempo totale di viaggio (h)",
+      "#kpi_time_road": "tempo trascorso guidando (h)",
+      "#kpi_time_walk": "tempo trascorso camminando (h)",
+      "#kpi_time_ride": "tempo trascorso a bordo delle linee (h)",
+      "#kpi_time_wait": "tempo trascorso in attesa alle fermate (h)",
+      "#kpi_time_conn": "tempo trascorso per accesso/egresso (h)",
+      "#kpi_cost": "costo generalizzato totale di viaggio (€)",
+      "#kpi_cost_road": "costo generalizzato speso guidando (€)",
+      "#kpi_cost_walk": "costo generalizzato speso camminando (€)",
+      "#kpi_cost_ride": "costo generalizzato speso a bordo delle linee (€)",
+      "#kpi_cost_wait": "costo generalizzato speso in attesa alle fermate (€)",
+      "#kpi_cost_conn": "costo generalizzato speso per accesso/egresso (€)",
+      "#kpi_road_km": "estensione della rete stradale (km)",
+      "#kpi_conn_km": "estensione della rete di accesso/egresso (km)",
+      "#kpi_walk_km": "estensione della rete pedonale (km)",
+      "#kpi_veh_km": "produzione del servizio (veh*km)",
+      "#kpi_pax_km": "utilizzo del servizio (pax*km)",
+      "#kpi_speed": "velocità media di viaggio (km/h)",
+      "#kpi_speed_road": "velocità media guidando (km/h)",
+      "#kpi_speed_walk": "velocità media camminando (km/h)",
+      "#kpi_speed_ride": "velocità media a bordo delle linee (km/h)",
+      "#kpi_speed_conn": "velocità media per accesso/egresso (km/h)",
+      "#kpi_lines": "numero di linee (n°)",
+      "#kpi_stops": "numero di fermate (n°)",
+      "#kpi_trips": "numero di viaggi (n°)",
+      "#kpi_trip_dist": "distanza di percorrenza media per viaggio (km)",
+      "#kpi_trip_time": "tempo di percorrenza medio per viaggio (h)",
+      "#kpi_trip_cost": "costo generalizzato medio per viaggio (€)",
+      "#Page $0 of $1": "Pagina $0 di $1",
+      "#Map": "Mappa",
+      "#Layers": "Strati",
+      "#Views": "Viste",
+      "#Tiles": "Sfondi",
+      "#Change Language": "Cambia Lingua",
+      "#Show Chart": "Mostra Grafico",
+      "#Show Map": "Mostra Mappa",
+      "#Processing: iteration $0 of $1; user $2 of $3; zone $4 of $5 ...": "Calcola: iterazione $0 di $1; utente $2 di $3; zona $4 di $5 ...",
+      "#Simulate the Calendar Date: it can take about one minute": "Simula il Giorno del Calendario: può impiegare circa un minuto",
+      "#Simulate": "Simula",
+      "#Results": "Risultati",
+      "#Date": "Data",
+      "#Line": "Linea",
+      "#Link": "Arco",
+      "#Demand Matrix": "Matrice Domanda",
+      "#Skim Matrix": "Matrice Offerta",
+      "#Cost Distribution": "Distribuzione Costi",
+      "#Return Back": "Ritorno",
+      "#Calendar": "Calendario",
+      "#Clock": "Orologio",
+      "#Assignment completed!": "Assegnazione completata!",
+      "#Dowload the Daily Report": "Scarica il Rapporto Giornaliero",
+      "#Dowload the Daily Matrix": "Scarica la Matrice Giornaliera",
+      "#Shortest Path": "Calcola Percorso",
+      "#Time Filter": "Filtro Temporale",
+      "#File": "File",
+      "#Open": "Apri",
+      "#New": "Nuovo",
+      "#Server": "Server",
+      "#Import Layer": "Importa Strato",
+      "#GeoJson File": "File GeoJson",
+      "#GeoJson Folder": "Cartella di File GeoJson",
+      "#Shape Zip File": "File Shape Zip",
+      "#Shape Folder": "Cartella di File Shape",
+      "#Csv File": "File Csv",
+      "#Csv Folder": "Cartella di File Csv",
+      "#Csv File No Layer": "File Csv Senza Strato",
+      "#Csv Points": "File Csv di Punti",
+      "#Export as Zip": "Esporta come Zip",
+      "#Export Layer as Zip": "Esporta strati come Zip",
+      "#Export to Visum": "Esporta come Visum",
+      "#Import Netw": "Importa Netw",
+      "#Edit Objects": "Modifica Oggetti",
+      "#Decks": "Stili",
+      "#Queries": "Query",
+      "#Types": "Tipi",
+      "#Users": "Utenti",
+      "#Predefined": "Predefinite",
+      "#Zone Procedures": "Procedure per Zone",
+      "#Connect Centroids": "Connessione dei Centroidi",
+      "#Connect Stops": "Connessione delle Fermate",
+      "#Populate Zones": "Popolazione delle Zone",
+      "#Import Pairs": "Importazione delle Coppie",
+      "#Create Zones": "Creazione delle Zone",
+      "#Cluster Cells": "Clusterizzazione delle Celle",
+      "#Generete Paths OD": "Genera Percorsi OD",
+      "#Compute Zone Skims": "Calcola Matrici di Costo",
+      "#Compute Demand": "Calcola Matrici di Domanda",
+      "#Network Procedures": "Procedure di Rete",
+      "#Incremental Deterministic Assignment": "Assegnazione Incrementale Deterministica",
+      "#Compute All from OSM": "Calcola tutto da OSM",
+      "#Vehicle Routing": "Percorsi dei Veicoli",
+      "#Server Procedures": "Procedure per Server",
+      "#Download Server": "Scarica il Server",
+      "#Simulate Graph": "Simula il Grafo",
+      "#Simulate Network": "Simula la Rete",
+      "#From Date": "Da Data",
+      "#To Date": "A Data",
+      "#From Time": "Da Ora",
+      "#To Time": "A Ora",
+      "#Isochrones": "Isocrone",
+      "#Origin": "Origine",
+      "#Destination": "Destinazione",
+      "#Add Connections": "Aggingi Connessioni",
+      "#Mode": "Modo",
+      "#Infos": "Informazioni sul File",
+      "#All On": "Accendi Tutto",
+      "#All Off": "Spegni Tutto",
+      "#Expand": "Espandi Tutto",
+      "#Collapse": "Collassa Tutto",
+      "#Clean Filters": "Pulisci Filtri",
+      "#New Layer": "Nuovo Strato",
+      "#Delete Layer": "Elimina Strato",
+      "#Clone Layer": "Clona Strato",
+      "#Edit Layer": "Modifica Strato",
+      "#Query Layer": "Interroga Strato",
+      "#Edit Deck": "Modifica Stile",
+      "#Density Deck": "Stile di Densità",
+      "#Undo": "Indietro",
+      "#Redo": "Avanti",
+      "#Clear": "Pulisci",
+      "#Create": "Crea",
+      "#Delete": "Elimina",
+      "#Edit": "Modifica",
+      "#One Way": "Senso Unico",
+      "#Screenshot": "Screenshot",
+      "#Save View": "Salva Vista",
+      "#Query Builder": "Costruttore di Query",
+      "#Column Visibility": "Visibilità delle Colonne",
+      "#Download Excel": "Scarica Excel",
+      "#Prune Table": "Riduci Tabella",
+      "#Show Selected Rows": "Mostra Righe Selezionate",
+      "#Query": "Query",
+      "#Presets": "Predefinite",
+      "#Apply": "Apllica",
+      "#Javascript code, with variables: f = feature, r = f.properties, file, map": "Codice Javascript, con  variabili: f = feature, r = f.properties, file, map",
+      "#Apply query to layer": "Applica query allo strato",
+      "#Save query to presets": "Salva query nelle predefinite",
+      "#Model": "Modello",
+      "#Export": "Esportazione",
+      "#Save Online": "Salva Online",
+      "#Show Infos": "Mostra Info",
+      "#Open JSON": "Apri JSON",
+      "#Save JSON": "Salva JSON",
+      "#Open ZIP": "Apri ZIP",
+      "#Save ZIP": "Salva ZIP",
+      "#ShowChart": "mostra grafici",
+      "#no selection": "nessuna selezione",
+      "#tiles": "mappe di base",
+      "#Legends": "Legenda",
+      "#light": "chiara",
+      "#dark": "scura",
+      "#terrain": "terreno",
+      "#no_map": "nessuna",
+      "#roadmap": "strade",
+      "#hybrid": "irbida",
+      "#atlas": "atlante",
+      "#cycle": "ciclabile",
+      "#landscape": "paesaggio",
+      "#pioneer": "cartografica",
+      "#transport": "trasporto pubblico",
+      "#Add Layer to Zones": "Aggiungi strato alle zone",
+      "#Aggregate Cells in Zones": "Aggrega celle nelle zone",
+      "#Aggregate layers": "Aggrega strati",
+      "#Alglib Test": "Test Alglib",
+      "#All completed!": "Tutto completato!",
+      "#Build Grid Network": "Crea rete a griglia",
+      "#Build Linear Schedule Based Network": "Crea rete lineare basata su orario",
+      "#Cell clustering done!": "Clusterizzazione celle completata!",
+      "#Cells not imported": "Celle non importate",
+      "#Cells successfully aggregated!": "Celle aggregate correttamente!",
+      "#Cluster Shape Layer to Zones": "Clusterizza strato shape nelle zone",
+      "#cluster zones": "clusterizza zone",
+      "#Computation of demand models completed!": "Calcolo dei modelli di domanda completato!",
+      "#Computation of paths completed!": "Calcolo dei percorsi completato!",
+      "#Compute a path before": "Calcola prima un percorso",
+      "#Connect Stops to nodes": "Connetti fermate ai nodi",
+      "#Csv Addresses": "File CSV indirizzi",
+      "#Csv Addresses Folder": "Cartella di file CSV indirizzi",
+      "#Csv Points Folder": "Cartella di file CSV punti",
+      "#Delete Layer Column": "Elimina colonna dello strato",
+      "#Digital Elevation Model form OpenTopography": "Modello digitale di elevazione da OpenTopography",
+      "#Distance Matrix Tests": "Test matrice distanze",
+      "#Download and Save Server": "Scarica e salva server",
+      "#Draw Polygon": "Disegna poligono",
+      "#Edit Decks": "Modifica stili",
+      "#Export Decks as JSON": "Esporta stili in JSON",
+      "#Export Layers as Zip": "Esporta strati come ZIP",
+      "#Ferrovie OSM": "Ferrovie OSM",
+      "#File $0 does not contain features!": "Il file $0 non contiene feature!",
+      "#File $0 successfully saved to $1": "File $0 salvato correttamente in $1",
+      "#File $0 successfully saved!": "File $0 salvato correttamente!",
+      "#Floyd Algorithm GPU": "Algoritmo di Floyd su GPU",
+      "#Generate Paths OD": "Genera percorsi OD",
+      "#Get Links Elevation": "Recupera elevazione archi",
+      "#Get Nodes Elevation": "Recupera elevazione nodi",
+      "#GIS": "GIS",
+      "#GIS2": "GIS 2",
+      "#Grafo": "Grafo",
+      "#GTFS fare_rules - undefined fare id: $0": "GTFS fare_rules - fare id non definito: $0",
+      "#GTFS fare_rules - undefined route id: $0": "GTFS fare_rules - route id non definito: $0",
+      "#GTFS frequencies - undefined trip id: $0": "GTFS frequencies - trip id non definito: $0",
+      "#GTFS Pb (Transit)": "GTFS Pb (Transito)",
+      "#GTFS stop_times - undefined trip id: $0": "GTFS stop_times - trip id non definito: $0",
+      "#GTFS trips - undefined route id: $0": "GTFS trips - route id non definito: $0",
+      "#GTFS trips - undefined service id: $0": "GTFS trips - service id non definito: $0",
+      "#GTFS trips - undefined shape id: $0": "GTFS trips - shape id non definito: $0",
+      "#GTFS Zip (Transit)": "GTFS ZIP (Transito)",
+      "#Highs Tests": "Test HiGHS",
+      "#Import Decks from JSON": "Importa stili da JSON",
+      "#Import Layers as Zip": "Importa strati come ZIP",
+      "#Import Network": "Importa rete",
+      "#Import OSM from Api": "Importa OSM da API",
+      "#ISTAT Zip": "ZIP ISTAT",
+      "#ISTAT Zip (Cells)": "ZIP ISTAT (celle)",
+      "#Kmz File": "File KMZ",
+      "#Layer $0 not found!": "Strato $0 non trovato!",
+      "#LPSolver Test": "Test LPSolver",
+      "#Ltyps": "Tipi di arco",
+      "#Many Points": "Molti punti",
+      "#Matrix Multiplication GPU": "Moltiplicazione matrici su GPU",
+      "#Memory Tests": "Test memoria",
+      "#Network not imported": "Rete non importata",
+      "#Network Objects": "Oggetti di rete",
+      "#No .net file found!": "Nessun file .net trovato!",
+      "#No modal graph selected!": "Nessun grafo modale selezionato!",
+      "#Node $0 is used by $1 links": "Il nodo $0 è usato da $1 archi",
+      "#Number of connections created: $0": "Numero di connessioni create: $0",
+      "#Open GeoTiff": "Apri GeoTiff",
+      "#OpenStreetMap": "OpenStreetMap",
+      "#OpenStreetMap (Roads, Transit, Demand)": "OpenStreetMap (strade, transito, domanda)",
+      "#OpenStreetMap Network": "Rete OpenStreetMap",
+      "#Orario Trenitalia": "Orario Trenitalia",
+      "#OSM Api Selection Area": "Area selezione API OSM",
+      "#OSM network successfully imported!": "Rete OSM importata correttamente!",
+      "#Pairs imported!": "Coppie importate!",
+      "#Processing element $0 of $1 ...": "Elaborazione elemento $0 di $1 ...",
+      "#Reading the Visum .dmd file": "Lettura del file Visum .dmd",
+      "#Reading the Visum .net file": "Lettura del file Visum .net",
+      "#Reading the Visum .xml file": "Lettura del file Visum .xml",
+      "#Reset Decks to Default": "Ripristina stili predefiniti",
+      "#Road Collisions Zip": "ZIP incidenti stradali",
+      "#Rome road crashes successfully imported!": "Incidenti stradali di Roma importati correttamente!",
+      "#Save As GeoJson": "Salva come GeoJSON",
+      "#Save Path": "Salva percorso",
+      "#Scens": "Scenari",
+      "#Server not found!": "Server non trovato!",
+      "#Set Layer Id Column": "Imposta colonna ID dello strato",
+      "#Simple Distance Tests": "Test distanze semplici",
+      "#Simplify Network": "Semplifica rete",
+      "#Simulation completed!": "Simulazione completata!",
+      "#Simulation failed! ": "Simulazione fallita! ",
+      "#Static GTFS successfully imported from $0": "GTFS statico importato correttamente da $0",
+      "#Stazioni Trenitalia": "Stazioni Trenitalia",
+      "#Stops successfully connected!": "Fermate collegate correttamente!",
+      "#Swap Origin Destination": "Scambia origine e destinazione",
+      "#Switch for Isochrones to Paths": "Passa da isocrone a percorsi",
+      "#Switch for Paths to Isochrones": "Passa da percorsi a isocrone",
+      "#Taxi Roma": "Taxi Roma",
+      "#Tensor Flow Test": "Test TensorFlow",
+      "#Test": "Test",
+      "#Tests": "Test",
+      "#the name of a city or region ...": "il nome di una città o regione ...",
+      "#Tpros": "Profili temporali",
+      "#Transport Model Documentation": "Documentazione Transport Model",
+      "#Ttyps": "Tipi di transito",
+      "#Use Projections": "Usa proiezioni",
+      "#Vehicle routing completed!": "Instradamento veicoli completato!",
+      "#Visum Dmd (Demand)": "Visum Dmd (domanda)",
+      "#Visum file $0 successfully imported!": "File Visum $0 importato correttamente!",
+      "#Visum Folder (Roads, Transit, Demand)": "Cartella Visum (strade, transito, domanda)",
+      "#Visum Net (Roads, Transit)": "Visum Net (strade, transito)",
+      "#Visum network error!": "Errore rete Visum!",
+      "#Zone skims completed!": "Matrici di costo zonali completate!",
+      "#Zones created!": "Zone create!",
+      "#Zones imported!": "Zone importate!",
+      "#Other": "Altro",
+      "#Prefer not to say": "Preferisco non rispondere",
+      "#I don't know": "Non lo so",
+      "#Back": "Indietro",
+      "#Submit": "Invia",
+      "#Questionnaire": "Questionario",
+      "#Questionnaires": "Questionari",
+      "#choose the questionnaire to view": "scegli il questionario da visualizzare",
+      "#Build Questionnaire": "Crea Questionario",
+      "#Data Protection and Consent": "Protezione dei Dati e Consenso",
+      "#I agree": "Accetto",
+      "#This survey is part of an extended research effort that combines multiple questionnaires and GPS data (for those who use the app). Together, these help us design safer and more inclusive urban spaces.": "Questo questionario fa parte di un più ampio progetto di ricerca che combina più questionari e dati GPS (per chi utilizza l’app). Insieme, questi strumenti ci aiutano a progettare spazi urbani più sicuri e inclusivi.",
+      "#You may optionally provide your email address to generate an anonymous participation code. This allows us to link your responses across surveys for longitudinal analysis, without ever storing your real email.": "Puoi, se lo desideri, fornire il tuo indirizzo email per generare un codice di partecipazione anonimo. Questo ci permette di collegare le tue risposte tra diversi questionari per analisi longitudinali, senza mai memorizzare la tua email reale.",
+      "#To learn more about how we collect and protect data, read <a href='$0' target='_blank'>our transparency and data protection overview</a>.": "Per saperne di più su come raccogliamo e proteggiamo i dati, leggi la nostra <a href='$0' target='_blank'>pagina di trasparenza e protezione dei dati</a>.",
+      "#I have read and agree to the privacy notice describing how my data are collected and used for research purposes.": "Ho letto e accetto l’informativa sulla privacy che descrive come i miei dati vengono raccolti e utilizzati a fini di ricerca.",
+      "#<a href='$0' target='_blank'>Privacy notice</a>": "<a href='$0' target='_blank'>Informativa sulla privacy</a>",
+      "#Would you like to provide your email address to generate an anonymous participation code? (optional)": "Vuoi fornire il tuo indirizzo email per generare un codice di partecipazione anonimo? (facoltativo)",
+      "#Add a note if this question needs review or correction.": "Aggiungi una nota se questa domanda necessita di revisione o correzione.",
+      "#Review mode": "Modalità revisione",
+      "#Inspect Responses": "Ispeziona le Risposte",
+      "#Thank you!": "Grazie!",
+      "#Your submission has been recorded.": "La tua risposta è stata registrata.",
+      "#Return to home": "Torna all'home",
+      "#Please confirm your consent to data processing before continuing.": "Per favore conferma il tuo consenso al trattamento dati prima di continuare.",
+      "#Select Mode": "Seleziona Modalità",
+      "#Select Threshold Metric": "Seleziona Metrica",
+      "#Select Mobility Profile": "Seleziona Profilo di Mobilità",
+      "#Select Target Service": "Seleziona Servizi",
+      "#Edit mobility profile": "Modifica profilo di mobilità",
+      "#Edit target service profile": "Modifica servizi",
+      "#Distance": "Distanza",
+      "#Time": "Tempo",
+      "#walk": "A piedi",
+      "#bike": "Bicicletta",
+      "#transit": "Trasporto pubblico",
+      "#road": "Strada/auto",
+      "#Expand all categories": "Espandi tutte le categorie",
+      "#Collapse all categories": "Comprimi tutte le categorie",
+      "#Add to collection": "Aggiungi alla collezione",
+      "#Delete from collection": "Rimuovi dalla collezione",
+      "#Show category": "Mostra categoria",
+      "#Hide category": "Nascondi categoria",
+      "#show description": "Mostra descrizione",
+      "#hide description": "Nascondi descrizione",
+      "#download mobility profile": "scarica profilo di mobilità",
+      "#create a new mobility profile": "crea un nuovo profilo di mobilità",
+      "#import mobility profile": "importa profilo di mobilità",
+      "#show mobility profile description": "mostra descrizione del profilo di mobilità",
+      "#download target service": "scarica servizi",
+      "#import target service": "importa servizi",
+      "#create a new target service": "crea un nuovo servizio",
+      "#show target service description": "mostra descrizione dei servizi",
+      "#Compute for current selections": "Calcola con le selezioni correnti",
+      "#Refresh": "Aggiorna",
+      "#mobility_profile_description": "Descrizione profilo di mobilità",
+      "#new_mobility_profile": "Nuovo profilo di mobilità",
+      "#travel_time": "Quando ti sposti",
+      "#light_condition": "Luce",
+      "#light_daylight": "Giorno",
+      "#light_night": "Notte",
+      "#traffic_period": "Periodo di traffico",
+      "#traffic_peak": "Ore di punta",
+      "#traffic_off_peak": "Fuori punta",
+      "#season_condition": "Stagione",
+      "#season_summer_heat": "Estate (caldo)",
+      "#season_winter_cold": "Inverno (freddo)",
+      "#user_profile": "Chi sei",
+      "#age_group": "Età",
+      "#age_under_18": "Meno di 18",
+      "#age_18_25": "18–25",
+      "#age_26_40": "26–40",
+      "#age_41_60": "41–60",
+      "#age_61_75": "61–75",
+      "#age_over_75": "Più di 75",
+      "#gender": "Genere",
+      "#gender_male": "Maschio",
+      "#gender_female": "Femmina",
+      "#gender_other": "Altro",
+      "#land_status": "Status di residenza",
+      "#long_term_resident": "Residente di lungo periodo",
+      "#new_resident": "Nuovo residente",
+      "#daily_visitor": "Visitatore giornaliero",
+      "#temporary_visitor": "Visitatore temporaneo",
+      "#socioeconomic_status": "Condizione economica",
+      "#low_income": "Basso reddito",
+      "#middle_income": "Reddito medio",
+      "#high_income": "Alto reddito",
+      "#social_equity": "Equità sociale",
+      "#general_population": "Popolazione generale",
+      "#minority_background": "Appartenenza a minoranza",
+      "#vulnerable_group": "Gruppo vulnerabile",
+      "#physical_profile": "Come ti muovi",
+      "#mobility_ability": "Capacità di mobilità",
+      "#fully_able": "Completamente abile",
+      "#limited_mobility": "Mobilità limitata",
+      "#wheelchair_user": "Utente in sedia a rotelle",
+      "#fitness_level": "Forma fisica",
+      "#athletic": "Allenato",
+      "#average_shape": "Forma media",
+      "#easily_tired": "Si stanca facilmente",
+      "#body_stature": "Lunghezza del passo",
+      "#short_steps": "Passi corti",
+      "#average_height": "Altezza media",
+      "#long_steps": "Passi lunghi",
+      "#mobility_attitudes": "Come ti senti rispetto alla mobilità",
+      "#risk_aversion": "Avversione al rischio",
+      "#unconcerned": "Non preoccupato",
+      "#cautious": "Cauto",
+      "#avoid_risky_areas": "Evita aree rischiose",
+      "#safety_feeling": "Percezione di sicurezza",
+      "#always_safe": "Sempre sicuro",
+      "#mostly_safe": "Per lo più sicuro",
+      "#feel_unsafe": "Mi sento insicuro",
+      "#comfort_sensitivity": "Comfort",
+      "#comfortable": "Comodo",
+      "#sometimes_uncomfortable": "A volte scomodo",
+      "#often_uncomfortable": "Spesso scomodo",
+      "#crowd_aversion": "Avversione alla folla",
+      "#comfortable_in_crowds": "Comodo tra la folla",
+      "#prefer_space": "Preferisco spazio",
+      "#avoid_crowds": "Evito la folla",
+      "#wait_aversion": "Avversione all'attesa",
+      "#waiting_ok": "Attesa accettabile",
+      "#dislike_waiting": "Non mi piace aspettare",
+      "#avoid_waiting": "Evito di aspettare",
+      "#transfer_aversion": "Avversione ai trasferimenti",
+      "#comfortable_with_transfers": "Comodo con i trasferimenti",
+      "#prefer_few_transfers": "Preferisco pochi trasferimenti",
+      "#avoid_transfers": "Evito i trasferimenti",
+      "#heat_sensitivity": "Sensibilità al caldo",
+      "#comfortable_in_heat": "A proprio agio col caldo",
+      "#sensitive_to_heat": "Sensibile al caldo",
+      "#struggle_in_heat": "Soffre il caldo",
+      "#noise_sensitivity": "Sensibilità al rumore",
+      "#tolerant_of_noise": "Tollerante al rumore",
+      "#sensitive_to_noise": "Sensibile al rumore",
+      "#avoid_noisy_areas": "Evito aree rumorose",
+      "#air_quality_sensitivity": "Sensibilità alla qualità dell'aria",
+      "#does_not_matter": "Non importa",
+      "#prefer_clean_air": "Preferisco aria pulita",
+      "#service_selection": "Selezione servizi",
+      "#daily_needs": "Beni di prima necessità",
+      "#grocery_store": "Negozio di alimentari",
+      "#supermarket": "Supermercato",
+      "#pharmacy": "Farmacia",
+      "#bakery": "Panificio",
+      "#market": "Mercato",
+      "#health": "Salute",
+      "#clinic": "Ambulatorio/Clinica",
+      "#hospital": "Ospedale",
+      "#doctor": "Medico",
+      "#dentist": "Dentista",
+      "#veterinarian": "Veterinario",
+      "#education": "Istruzione",
+      "#kindergarten": "Scuola dell'infanzia",
+      "#school_primary": "Scuola primaria",
+      "#school_secondary": "Scuola secondaria",
+      "#university": "Università",
+      "#library": "Biblioteca",
+      "#mobility": "Mobilità",
+      "#bus_stop": "Fermata bus",
+      "#metro_station": "Stazione metro",
+      "#train_station": "Stazione ferroviaria",
+      "#bike_sharing": "Bike sharing",
+      "#car_sharing": "Car sharing",
+      "#parking": "Parcheggio",
+      "#leisure": "Tempo libero",
+      "#park": "Parco",
+      "#playground": "Area giochi",
+      "#sports_center": "Centro sportivo",
+      "#cinema": "Cinema",
+      "#theatre": "Teatro",
+      "#museum": "Museo",
+      "#services": "Servizi",
+      "#post_office": "Ufficio postale",
+      "#bank": "Banca",
+      "#municipality_office": "Ufficio comunale",
+      "#community_center": "Centro civico",
+      "#work": "Lavoro",
+      "#coworking": "Coworking",
+      "#office_area": "Area uffici",
+      "#industrial_area": "Area industriale",
+      "#threshold_selection": "Selezione soglia indicatori",
+      "#max_limit_5_min": "5 minuti",
+      "#max_limit_10_min": "10 minuti",
+      "#max_limit_15_min": "15 minuti",
+      "#max_limit_25_min": "25 minuti",
+      "#max_limit_over_25_min": "no soglia",
+      "#max_limit_300_m": "300 metri",
+      "#max_limit_800_m": "800 metri",
+      "#max_limit_1400_m": "1,4 chilometri",
+      "#max_limit_over_7000_m": "no soglia",
+      "#demand_peak": "Domanda di punta",
+      "#demand_off_peak": "Fuori punta",
+      "#season_nice_to_be_outside": "Bel tempo per stare fuori",
+      "#season_is_raining_a_lot": "Giornate piovose",
+      "#high_visibility": "Alta visibilità",
+      "#hard_to_see": "Difficile da vedere",
+      "#parent_role": "Con bambini",
+      "#caregiver_role": "In veste di caregiver",
+      "#with_pet": "Con animale domestico",
+      "#equity_status": "Condizione di equità",
+      "#trip_description": "Condizioni del viaggio",
+      "#carried_load": "Carico trasportato",
+      "#none": "Nessun carico",
+      "#backpack": "Zaino",
+      "#stroller": "Passeggino",
+      "#heavy_bags": "Borse pesanti",
+      "#footwear": "Calzature",
+      "#sporty": "Sportive",
+      "#normal": "Normali",
+      "#uncomfortable": "Scomode",
+      "#weather_gear": "Attrezzatura per il meteo",
+      "#prepared": "Ben equipaggiato",
+      "#average": "Equipaggiamento medio",
+      "#unprepared": "Non equipaggiato",
+      "#visibility": "Visibilità",
+      "#travel_context": "Contesto di viaggio",
+      "#individual": "Individuale",
+      "#demand_period": "Periodo di domanda",
+      "#stride_length": "Lunghezza del passo",
+      "#SmartUrbanity - About You": "SmartUrbanity - Informazioni su di te",
+      "#1. About You": "1. Informazioni su di te",
+      "#1. Welcome to About You": "1. Benvenuto/a nella sezione Informazioni su di te",
+      "#This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about": "Questo questionario SmartUrbanity raccoglie informazioni di base sulla persona, sul nucleo familiare e sul contesto abitativo. Le tue risposte ci aiutano a descrivere chi partecipa allo studio e in che modo le diverse condizioni urbane possono influenzare la mobilità quotidiana. La partecipazione è volontaria e anonima.\n\nhttps://www.smarturbanity.com/about",
+      "#Personal & Household": "Informazioni personali e nucleo familiare",
+      "#A few background questions to help us understand who our participants are.": "Alcune domande generali per aiutarci a comprendere meglio chi partecipa allo studio.",
+      "#What is your age group? (Participation is limited to adults aged 18 or older)": "Qual è la tua fascia d’età? (La partecipazione è riservata alle persone di almeno 18 anni)",
+      "#18-24": "18-24",
+      "#25-34": "25-34",
+      "#35-44": "35-44",
+      "#45-54": "45-54",
+      "#55-64": "55-64",
+      "#65-74": "65-74",
+      "#75-84": "75-84",
+      "#85 or older": "85 anni o più",
+      "#What is your gender?": "Qual è il tuo genere?",
+      "#Male": "Uomo",
+      "#Female": "Donna",
+      "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Vivi attualmente con persone a carico, come bambini, persone anziane o altre persone che dipendono dalla tua assistenza?",
+      "#Yes": "Sì",
+      "#No": "No",
+      "#How many adults, including yourself, live together in your household?": "Quanti adulti, te compreso/a, vivono nel tuo nucleo familiare?",
+      "#1 (only myself)": "1 (solo io)",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 or more": "5 o più",
+      "#What is your highest completed level of education?": "Qual è il livello di istruzione più alto che hai completato?",
+      "#No qualification": "Nessun titolo di studio",
+      "#Lower secondary school": "Scuola secondaria di primo grado",
+      "#High school": "Scuola secondaria di secondo grado",
+      "#Bachelor degree or equivalent": "Laurea triennale o titolo equivalente",
+      "#Master degree or equivalent": "Laurea magistrale o titolo equivalente",
+      "#Doctorate degree": "Dottorato di ricerca",
+      "#Which economic status do you think best describes your household?": "Quale situazione economica descrive meglio il tuo nucleo familiare?",
+      "#We struggle to cover basic needs": "Abbiamo difficoltà a coprire le necessità di base",
+      "#We can cover basic needs": "Riusciamo a coprire le necessità di base",
+      "#We can cover basic needs comfortably and have little money left over": "Riusciamo a coprire comodamente le necessità di base e ci rimane una piccola somma",
+      "#We can afford most things we want with occasional extra expenses": "Possiamo permetterci la maggior parte delle cose che desideriamo e occasionalmente alcune spese extra",
+      "#We are financially very comfortable and can easily afford extra expenses": "Siamo in una situazione economica molto agiata e possiamo permetterci facilmente spese extra",
+      "#Which best describes your employment status?": "Quale delle seguenti opzioni descrive meglio la tua condizione lavorativa?",
+      "#Employed full-time": "Lavoratore/lavoratrice a tempo pieno",
+      "#Employed part-time": "Lavoratore/lavoratrice a tempo parziale",
+      "#Occasionally employed": "Lavoratore/lavoratrice occasionale",
+      "#Self-employed/freelance full-time": "Lavoratore/lavoratrice autonomo/a o freelance a tempo pieno",
+      "#Self employed/freelance part-time": "Lavoratore/lavoratrice autonomo/a o freelance a tempo parziale",
+      "#Homemaker": "Persona che si occupa della casa",
+      "#Retired": "Pensionato/a",
+      "#Unemployed looking for work": "Disoccupato/a in cerca di lavoro",
+      "#Unemployed not looking for work": "Disoccupato/a non in cerca di lavoro",
+      "#Adult learner (student)": "Studente/studentessa adulto/a",
+      "#Do you currently work remotely (partly or fully)?": "Attualmente lavori da remoto, parzialmente o completamente?",
+      "#Yes (3 days or more in a week)": "Sì (3 o più giorni alla settimana)",
+      "#Yes, occasionally (1-2 days in a week)": "Sì, occasionalmente (1-2 giorni alla settimana)",
+      "#I am not currently employed": "Attualmente non lavoro",
+      "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Hai un orario di lavoro flessibile, cioè puoi scegliere o modificare l’orario di inizio e fine?",
+      "#Somewhat (within a 1-2 hour window)": "Parzialmente (entro una fascia di 1-2 ore)",
+      "#Do you have any condition or limitation that affects your ability to move independently?": "Hai una condizione o una limitazione che influisce sulla tua capacità di muoverti autonomamente?",
+      "#No, I can move independently": "No, posso muovermi autonomamente",
+      "#Yes, I have a temporary condition/limitation": "Sì, ho una condizione o limitazione temporanea",
+      "#Yes, I have a permanent mobility condition/limitation": "Sì, ho una condizione o limitazione permanente della mobilità",
+      "#Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)": "Hai un animale domestico? (Animali che possono comportare ulteriori spostamenti a piedi, ad esempio i cani)",
+      "#Do you hold a valid driving license? (Car, motorcycle or both)": "Possiedi una patente di guida valida? (Auto, moto o entrambe)",
+      "#Do you belong to any of these groups?": "Appartieni a uno dei seguenti gruppi?",
+      "#Urban planner": "Urbanista",
+      "#Policymaker": "Decisore pubblico",
+      "#Environmental/sustainable mobility activist": "Attivista ambientale o per la mobilità sostenibile",
+      "#Content creator / communicator (social media, journalism, blogging)": "Content creator o comunicatore/comunicatrice (social media, giornalismo, blog)",
+      "#None": "Nessuno",
+      "#Physical Capability": "Capacità fisica",
+      "#Questions about your physical capacity for active travel.": "Domande sulla tua capacità fisica negli spostamenti attivi.",
+      "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "In media, quanto riesci a camminare senza fare una pausa lunga, ad esempio superiore a 5 minuti?",
+      "#I rarely or never walk": "Cammino raramente o mai",
+      "#Less than 500 meters (about 5-6 minutes)": "Meno di 500 metri (circa 5-6 minuti)",
+      "#From 500 meters to 1 km (about 10-15 minutes)": "Da 500 metri a 1 km (circa 10-15 minuti)",
+      "#1 to 2 km (about 15-25 minutes)": "Da 1 a 2 km (circa 15-25 minuti)",
+      "#More than 2 km": "Più di 2 km",
+      "#How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.": "Quanto sei fisicamente attivo/a durante una settimana tipica? (Considera gli spostamenti a piedi, in bicicletta o l’attività fisica dedicata). Se hai una condizione che influisce sulla mobilità, seleziona il livello che descrive meglio la tua situazione.",
+      "#Inactive (0 days)": "Inattivo/a (0 giorni)",
+      "#Occasionally Active (1 day)": "Occasionalmente attivo/a (1 giorno)",
+      "#Moderately Active (2–3 days)": "Moderatamente attivo/a (2-3 giorni)",
+      "#Highly Active (4–5 days)": "Molto attivo/a (4-5 giorni)",
+      "#Daily / Near Daily (6–7 days)": "Ogni giorno o quasi (6-7 giorni)",
+      "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "Come descriveresti il tuo attuale livello di forma fisica, considerando forza, resistenza e salute generale?",
+      "#Very low (sedentary, easily fatigued)": "Molto basso (vita sedentaria, facile affaticamento)",
+      "#Low": "Basso",
+      "#Moderate": "Moderato",
+      "#Good": "Buono",
+      "#High": "Alto",
+      "#What is your approximate height?": "Qual è approssimativamente la tua altezza?",
+      "#Less than 150 cm": "Meno di 150 cm",
+      "#150-164 cm": "150-164 cm",
+      "#165-179 cm": "165-179 cm",
+      "#180-194 cm": "180-194 cm",
+      "#195 cm or more": "195 cm o più",
+      "#Living context": "Contesto abitativo",
+      "#Questions about where you live and how you move around Rome.": "Domande sul luogo in cui vivi e su come ti sposti a Roma.",
+      "#Which of the following best describes your relationship to Municipio XII?": "Quale delle seguenti opzioni descrive meglio il tuo rapporto con il Municipio XII?",
+      "#I live here (Resident)": "Vivo qui (residente)",
+      "#I travel here regularly for work or study (Commuter)": "Vengo qui regolarmente per lavoro o studio (pendolare)",
+      "#I’m visiting for leisure (Tourist)": "Sono qui per turismo o svago (turista)",
+      "#I’m here temporarily for another reason (Visitor)": "Sono qui temporaneamente per un altro motivo (visitatore/visitatrice)",
+      "#In which Municipio of Rome do you currently live?": "In quale Municipio di Roma vivi attualmente?",
+      "#1": "1",
+      "#5": "5",
+      "#6": "6",
+      "#7": "7",
+      "#8": "8",
+      "#9": "9",
+      "#10": "10",
+      "#11": "11",
+      "#12": "12",
+      "#13": "13",
+      "#14": "14",
+      "#15": "15",
+      "#I live outside Rome": "Vivo fuori Roma",
+      "#In which neighbourhood of municipio XII do you currently live?": "In quale quartiere del Municipio XII vivi attualmente?",
+      "#BRAVETTA": "BRAVETTA",
+      "#CASAL LUMBROSO": "CASAL LUMBROSO",
+      "#COLLE AURELIO": "COLLE AURELIO",
+      "#COLLI PORTUENSI": "COLLI PORTUENSI",
+      "#LA PISANA": "LA PISANA",
+      "#MASSIMINA": "MASSIMINA",
+      "#MONTEVERDE NUOVO": "MONTEVERDE NUOVO",
+      "#MONTEVERDE VECCHIO": "MONTEVERDE VECCHIO",
+      "#PORTA PORTESE": "PORTA PORTESE",
+      "#SANTA CECILIA": "SANTA CECILIA",
+      "#VIGNACCIA": "VIGNACCIA",
+      "#VILLA TROILI": "VILLA TROILI",
+      "#VILLINI": "VILLINI",
+      "#Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?": "Oltre al tuo Municipio di riferimento, qual è il Municipio di Roma in cui ti rechi più frequentemente?",
+      "#I mainly stay within my own Municipio": "Rimango principalmente nel mio Municipio",
+      "#Which is the second Municipio you travel in most frequently?": "Qual è il secondo Municipio in cui ti rechi più frequentemente?",
+      "#Which is the third Municipio you travel in most frequently?": "Qual è il terzo Municipio in cui ti rechi più frequentemente?",
+      "#If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)": "Se ti sposti fuori dal tuo quartiere, quali sono i motivi principali? (Seleziona fino a 3 opzioni)",
+      "#Work or university": "Lavoro o università",
+      "#Grocery shopping / supermarkets": "Spesa alimentare o supermercati",
+      "#Healthcare (doctor, pharmacy, hospital)": "Assistenza sanitaria (medico, farmacia, ospedale)",
+      "#Schools or childcare": "Scuola o servizi per l’infanzia",
+      "#Leisure activities (restaurants, cafes, cinema, gym)": "Attività nel tempo libero (ristoranti, bar, cinema, palestra)",
+      "#Visiting friends or family": "Visite ad amici o familiari",
+      "#Administrative services (banks, offices, etc.)": "Servizi amministrativi (banche, uffici ecc.)",
+      "#Better prices or more choice of services elsewhere": "Prezzi migliori o una maggiore scelta di servizi altrove",
+      "#Lack of services in my neighborhood": "Mancanza di servizi nel mio quartiere",
+      "#Poor quality of services in my neighborhood": "Scarsa qualità dei servizi nel mio quartiere",
+      "#I prefer other neighborhoods or areas": "Preferisco altri quartieri o altre zone",
+      "#I rarely or never travel outside my neighborhood": "Mi sposto raramente o mai fuori dal mio quartiere",
+      "#How strongly do you feel connected to the place where you live and the people in your community?": "Quanto ti senti legato/a al luogo in cui vivi e alle persone della tua comunità?",
+      "#Not connected": "Per niente legato/a",
+      "#Somewhat disconnected": "Poco legato/a",
+      "#Neither connected nor disconnected": "Né legato/a né distaccato/a",
+      "#Somewhat connected": "Abbastanza legato/a",
+      "#Very connected": "Molto legato/a"
+    },
+    "en": {
+      "code": "en",
+      "#Yes": "Yes",
+      "#No": "No",
+      "#SmartUrbanity - About You": "SmartUrbanity - About You",
+      "#Welcome to About You": "Welcome to About You",
+      "#This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about": "This SmartUrbanity questionnaire collects basic personal, household and living-context information. Your answers help describe who participates in the study and how different urban conditions may affect daily mobility. Participation is voluntary and anonymous.\n\nhttps://www.smarturbanity.com/about",
+      "#Personal & Household": "Personal & Household",
+      "#A few background questions to help us understand who our participants are.": "A few background questions to help us understand who our participants are.",
+      "#What is your age group? (Participation is limited to adults aged 18 or older)": "What is your age group? (Participation is limited to adults aged 18 or older)",
+      "#18-24": "18-24",
+      "#25-34": "25-34",
+      "#35-44": "35-44",
+      "#45-54": "45-54",
+      "#55-64": "55-64",
+      "#65-74": "65-74",
+      "#75-84": "75-84",
+      "#85 or older": "85 or older",
+      "#Prefer not to say": "Prefer not to say",
+      "#What is your gender?": "What is your gender?",
+      "#Male": "Male",
+      "#Female": "Female",
+      "#Other": "Other",
+      "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
+      "#How many adults, including yourself, live together in your household?": "How many adults, including yourself, live together in your household?",
+      "#1 (only myself)": "1 (only myself)",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 or more": "5 or more",
+      "#What is your highest completed level of education?": "What is your highest completed level of education?",
+      "#No qualification": "No qualification",
+      "#Lower secondary school": "Lower secondary school",
+      "#High school": "High school",
+      "#Bachelor degree or equivalent": "Bachelor degree or equivalent",
+      "#Master degree or equivalent": "Master degree or equivalent",
+      "#Doctorate degree": "Doctorate degree",
+      "#Which economic status do you think best describes your household?": "Which economic status do you think best describes your household?",
+      "#We struggle to cover basic needs": "We struggle to cover basic needs",
+      "#We can cover basic needs": "We can cover basic needs",
+      "#We can cover basic needs comfortably and have little money left over": "We can cover basic needs comfortably and have little money left over",
+      "#We can afford most things we want with occasional extra expenses": "We can afford most things we want with occasional extra expenses",
+      "#We are financially very comfortable and can easily afford extra expenses": "We are financially very comfortable and can easily afford extra expenses",
+      "#Which best describes your employment status?": "Which best describes your employment status?",
+      "#Employed full-time": "Employed full-time",
+      "#Employed part-time": "Employed part-time",
+      "#Occasionally employed": "Occasionally employed",
+      "#Self-employed/freelance full-time": "Self-employed/freelance full-time",
+      "#Self employed/freelance part-time": "Self employed/freelance part-time",
+      "#Homemaker": "Homemaker",
+      "#Retired": "Retired",
+      "#Unemployed looking for work": "Unemployed looking for work",
+      "#Unemployed not looking for work": "Unemployed not looking for work",
+      "#Adult learner (student)": "Adult learner (student)",
+      "#Do you currently work remotely (partly or fully)?": "Do you currently work remotely (partly or fully)?",
+      "#Yes (3+ days/week)": "Yes (3+ days/week)",
+      "#Occasionally (1-2 days/week)": "Occasionally (1-2 days/week)",
+      "#I am not currently employed": "I am not currently employed",
+      "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
+      "#Somewhat (within a 1-2 hour window)": "Somewhat (within a 1-2 hour window)",
+      "#Do you have any condition or limitation that affects your ability to move independently?": "Do you have any condition or limitation that affects your ability to move independently?",
+      "#No, I can move independently": "No, I can move independently",
+      "#Yes, I have a temporary condition/limitation": "Yes, I have a temporary condition/limitation",
+      "#Yes, I have a permanent mobility condition/limitation": "Yes, I have a permanent mobility condition/limitation",
+      "#Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)": "Do you have a pet at home? (Pets that can generate additional walking trips, e.g. Dogs)",
+      "#Do you belong to any of these groups?": "Do you belong to any of these groups?",
+      "#Urban planner": "Urban planner",
+      "#Policymaker": "Policymaker",
+      "#Environmental/sustainable mobility activist": "Environmental/sustainable mobility activist",
+      "#Content creator / communicator (social media, journalism, blogging)": "Content creator / communicator (social media, journalism, blogging)",
+      "#None": "None",
+      "#Physical Capability": "Physical Capability",
+      "#Questions about your physical capacity for active travel.": "Questions about your physical capacity for active travel.",
+      "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?",
+      "#I rarely or never walk": "I rarely or never walk",
+      "#Less than 500 meters (about 5-6 minutes)": "Less than 500 meters (about 5-6 minutes)",
+      "#From 500 meters to 1 km (about 10-15 minutes)": "From 500 meters to 1 km (about 10-15 minutes)",
+      "#1 to 2 km (about 15-25 minutes)": "1 to 2 km (about 15-25 minutes)",
+      "#More than 2 km": "More than 2 km",
+      "#How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.": "How physically active are you in a typical week?(Including walking for transport, cycling, or dedicated exercise)-If you have a condition affecting your mobility, please select the level that best applies to you.",
+      "#Inactive (0 days)": "Inactive (0 days)",
+      "#Occasionally Active (1 day)": "Occasionally Active (1 day)",
+      "#Moderately Active (2–3 days)": "Moderately Active (2–3 days)",
+      "#Highly Active (4–5 days)": "Highly Active (4–5 days)",
+      "#Daily / Near Daily (6–7 days)": "Daily / Near Daily (6–7 days)",
+      "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
+      "#Very low (sedentary, easily fatigued)": "Very low (sedentary, easily fatigued)",
+      "#Low": "Low",
+      "#Moderate": "Moderate",
+      "#Good": "Good",
+      "#High": "High",
+      "#What is your approximate height?": "What is your approximate height?",
+      "#Less than 150 cm": "Less than 150 cm",
+      "#150-164 cm": "150-164 cm",
+      "#165-179 cm": "165-179 cm",
+      "#180-194 cm": "180-194 cm",
+      "#195 cm or more": "195 cm or more",
+      "#Living context": "Living context",
+      "#Questions about where you live and how you move around Rome.": "Questions about where you live and how you move around Rome.",
+      "#Which of the following best describes your relationship to Municipio XII?": "Which of the following best describes your relationship to Municipio XII?",
+      "#I live here (Resident)": "I live here (Resident)",
+      "#I travel here regularly for work or study (Commuter)": "I travel here regularly for work or study (Commuter)",
+      "#I’m visiting for leisure (Tourist)": "I’m visiting for leisure (Tourist)",
+      "#I’m here temporarily for another reason (Visitor)": "I’m here temporarily for another reason (Visitor)",
+      "#In which Municipio of Rome do you currently live?": "In which Municipio of Rome do you currently live?",
+      "#1": "1",
+      "#5": "5",
+      "#6": "6",
+      "#7": "7",
+      "#8": "8",
+      "#9": "9",
+      "#10": "10",
+      "#11": "11",
+      "#12": "12",
+      "#13": "13",
+      "#14": "14",
+      "#15": "15",
+      "#I live outside Rome": "I live outside Rome",
+      "#I don't know": "I don't know",
+      "#In which neighbourhood of municipio XII do you currently live?": "In which neighbourhood of municipio XII do you currently live?",
+      "#BRAVETTA": "BRAVETTA",
+      "#CASAL LUMBROSO": "CASAL LUMBROSO",
+      "#COLLE AURELIO": "COLLE AURELIO",
+      "#COLLI PORTUENSI": "COLLI PORTUENSI",
+      "#LA PISANA": "LA PISANA",
+      "#MASSIMINA": "MASSIMINA",
+      "#MONTEVERDE NUOVO": "MONTEVERDE NUOVO",
+      "#MONTEVERDE VECCHIO": "MONTEVERDE VECCHIO",
+      "#PORTA PORTESE": "PORTA PORTESE",
+      "#SANTA CECILIA": "SANTA CECILIA",
+      "#VIGNACCIA": "VIGNACCIA",
+      "#VILLA TROILI": "VILLA TROILI",
+      "#VILLINI": "VILLINI",
+      "#I mainly stay within my own Municipio": "I mainly stay within my own Municipio",
+      "#Which is the second Municipio you travel in most frequently?": "Which is the second Municipio you travel in most frequently?",
+      "#Which is the third Municipio you travel in most frequently?": "Which is the third Municipio you travel in most frequently?",
+      "#If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)": "If you travel outside your neighborhood, what are the main reasons?(Select up to 3 options)",
+      "#Work or university": "Work or university",
+      "#Grocery shopping / supermarkets": "Grocery shopping / supermarkets",
+      "#Healthcare (doctor, pharmacy, hospital)": "Healthcare (doctor, pharmacy, hospital)",
+      "#Schools or childcare": "Schools or childcare",
+      "#Leisure activities (restaurants, cafes, cinema, gym)": "Leisure activities (restaurants, cafes, cinema, gym)",
+      "#Visiting friends or family": "Visiting friends or family",
+      "#Administrative services (banks, offices, etc.)": "Administrative services (banks, offices, etc.)",
+      "#Better prices or more choice of services elsewhere": "Better prices or more choice of services elsewhere",
+      "#Lack of services in my neighborhood": "Lack of services in my neighborhood",
+      "#Poor quality of services in my neighborhood": "Poor quality of services in my neighborhood",
+      "#I prefer other neighborhoods or areas": "I prefer other neighborhoods or areas",
+      "#I rarely or never travel outside my neighborhood": "I rarely or never travel outside my neighborhood",
+      "#How strongly do you feel connected to the place where you live and the people in your community?": "How strongly do you feel connected to the place where you live and the people in your community?",
+      "#Not connected": "Not connected",
+      "#Somewhat disconnected": "Somewhat disconnected",
+      "#Neither connected nor disconnected": "Neither connected nor disconnected",
+      "#Somewhat connected": "Somewhat connected",
+      "#Very connected": "Very connected",
+      "#Do you hold a valid driving license? (Car, motorcycle or both)": "Do you hold a valid driving license? (Car, motorcycle or both)",
+      "#Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?": "Apart from your own municipality (your main area of ​​activity), which municipality in Rome do you travel to the most?"
+    },
+    "fa": {
+      "#Geocode": "ژئوکد",
+      "#geocode result": "نتیجه ژئوکد",
+      "#longitude": "طول جغرافیایی",
+      "#latitude": "عرض جغرافیایی",
+      "#address": "آدرس",
+      "#city": "شهر",
+      "#postal_code": "کد پستی",
+      "#notes": "یادداشت‌ها",
+      "#Login": "ورود",
+      "#Logout": "خروج",
+      "#Sign Out": "خروج",
+      "#Create New Language": "ایجاد زبان جدید",
+      "#Language": "زبان",
+      "#change language": "تغییر زبان",
+      "#change questionnaire language": "تغییر زبان پرسشنامه",
+      "#Enter the code of the language to create": "کد زبان جدید را وارد کنید",
+      "#Cannot create language $0": "ایجاد زبان $0 ممکن نیست",
+      "#Cannot delete language $0": "حذف زبان $0 ممکن نیست",
+      "#Cannot import language $0": "درون‌ریزی زبان $0 ممکن نیست",
+      "#Language $0 created": "زبان $0 ایجاد شد",
+      "#Language $0 deleted": "زبان $0 حذف شد",
+      "#Language $0 imported": "زبان $0 درون‌ریزی شد",
+      "#Language '$0' successfully saved to $1": "زبان '$0' با موفقیت در $1 ذخیره شد",
+      "#code": "کد",
+      "#create language": "ایجاد زبان",
+      "#delete language": "حذف زبان",
+      "#delete word": "حذف واژه",
+      "#edit languages": "ویرایش زبان‌ها",
+      "#download language": "دانلود زبان",
+      "#import language": "درون‌ریزی زبان",
+      "#Get info": "دریافت اطلاعات",
+      "#Settings": "تنظیمات",
+      "#Full Screen": "تمام‌صفحه",
+      "#Next": "بعدی",
+      "#Welcome to": "خوش آمدید به",
+      "#Import Features from CSV addresses": "درون‌ریزی عوارض از آدرس‌های CSV",
+      "#geocode features": "ژئوکد عوارض",
+      "#invalid selection": "انتخاب نامعتبر",
+      "#Import completed!": "درون‌ریزی کامل شد!",
+      "#Importing file $0/$1": "در حال درون‌ریزی فایل $0/$1",
+      "#Import Features from CSV coordinates": "درون‌ریزی عوارض از مختصات CSV",
+      "#import points": "درون‌ریزی نقاط",
+      "#Click on an element to see details": "روی یک عنصر کلیک کنید تا جزئیات را ببینید,",
+      "#Geocode_address": "Seleziona una posizione sulla mappa",
+      "#Address_click": "انتخاب یک مکان روی نقشه",
+      "#User_position": "نمایش موقعیت مرورگر روی نقشه",
+      "#Map": "نقشه",
+      "#Layers": "لایه‌ها",
+      "#Views": "نماها",
+      "#Tiles": "نقشه‌های پایه",
+      "#User": "کاربر",
+      "#Change Language": "تغییر زبان",
+      "#Show Chart": "نمایش نمودار",
+      "#Show Map": "نمایش نقشه",
+      "#Results": "نتایج",
+      "#Date": "تاریخ",
+      "#Line": "خط",
+      "#Link": "یال",
+      "#Demand Matrix": "ماتریس تقاضا",
+      "#Skim Matrix": "ماتریس هزینه",
+      "#Cost Distribution": "توزیع هزینه",
+      "#Return Back": "بازگشت",
+      "#Calendar": "تقویم",
+      "#Clock": "ساعت",
+      "#Assignment completed!": "تخصیص تکمیل شد!",
+      "#Dowload the Daily Report": "دانلود گزارش روزانه",
+      "#Dowload the Daily Matrix": "دانلود ماتریس روزانه",
+      "#Shortest Path": "کوتاه‌ترین مسیر",
+      "#Time Filter": "فیلتر زمانی",
+      "#File": "فایل",
+      "#Open": "باز کردن",
+      "#Save": "ذخیره",
+      "#New": "جدید",
+      "#Server": "سرور",
+      "#Import Layer": "درون‌ریزی لایه",
+      "#GeoJson File": "فایل GeoJSON",
+      "#GeoJson Folder": "پوشه فایل‌های GeoJSON",
+      "#Shape Zip File": "فایل ZIP شیپ",
+      "#Shape Folder": "پوشه فایل‌های شیپ",
+      "#Csv File": "فایل CSV",
+      "#Csv Folder": "پوشه فایل‌های CSV",
+      "#Csv File No Layer": "فایل CSV بدون لایه",
+      "#Csv Points": "نقاط CSV",
+      "#Export as Zip": "برون‌ریزی به ZIP",
+      "#Export Layer as Zip": "برون‌ریزی لایه به ZIP",
+      "#Export to Visum": "برون‌ریزی به Visum",
+      "#Import Netw": "درون‌ریزی شبکه",
+      "#Edit Objects": "ویرایش اشیا",
+      "#Decks": "سبک‌ها",
+      "#Queries": "پرس‌وجوها",
+      "#Types": "انواع",
+      "#Users": "کاربران",
+      "#Predefined": "از پیش تعریف‌شده",
+      "#Zone Procedures": "روال‌های ناحیه",
+      "#Connect Centroids": "اتصال centroidها",
+      "#Connect Stops": "اتصال ایستگاه‌ها",
+      "#Populate Zones": "پر کردن ناحیه‌ها",
+      "#Import Pairs": "درون‌ریزی زوج‌ها",
+      "#Create Zones": "ایجاد ناحیه‌ها",
+      "#Cluster Cells": "خوشه‌بندی سلول‌ها",
+      "#Generete Paths OD": "تولید مسیرهای OD",
+      "#Compute Zone Skims": "محاسبه skim ناحیه‌ها",
+      "#Compute Demand": "محاسبه تقاضا",
+      "#Network Procedures": "روال‌های شبکه",
+      "#Incremental Deterministic Assignment": "تخصیص قطعی افزایشی",
+      "#Compute All from OSM": "محاسبه همه‌چیز از OSM",
+      "#Vehicle Routing": "مسیریابی وسایل نقلیه",
+      "#Server Procedures": "روال‌های سرور",
+      "#Download Server": "دانلود سرور",
+      "#Simulate Graph": "شبیه‌سازی گراف",
+      "#Simulate Network": "شبیه‌سازی شبکه",
+      "#From Date": "از تاریخ",
+      "#To Date": "تا تاریخ",
+      "#From Time": "از زمان",
+      "#To Time": "تا زمان",
+      "#Play": "اجرا",
+      "#Isochrones": "ایزوکرون‌ها",
+      "#Origin": "مبدا",
+      "#Destination": "مقصد",
+      "#Add Connections": "افزودن اتصال‌ها",
+      "#Mode": "حالت",
+      "#Infos": "اطلاعات",
+      "#All On": "روشن کردن همه",
+      "#All Off": "خاموش کردن همه",
+      "#Expand": "گسترش",
+      "#Collapse": "جمع کردن",
+      "#Clean Filters": "پاک کردن فیلترها",
+      "#New Layer": "لایه جدید",
+      "#Delete Layer": "حذف لایه",
+      "#Clone Layer": "کپی لایه",
+      "#Edit Layer": "ویرایش لایه",
+      "#Query Layer": "پرس‌وجوی لایه",
+      "#Edit Deck": "ویرایش سبک",
+      "#Density Deck": "سبک چگالی",
+      "#Undo": "واگرد",
+      "#Redo": "از نو",
+      "#Clear": "پاک کردن",
+      "#Create": "ایجاد",
+      "#Delete": "حذف",
+      "#Edit": "ویرایش",
+      "#One Way": "یک‌طرفه",
+      "#Screenshot": "اسکرین‌شات",
+      "#Save View": "ذخیره نما",
+      "#Query Builder": "سازنده پرس‌وجو",
+      "#Column Visibility": "نمایش ستون‌ها",
+      "#Download Excel": "دانلود اکسل",
+      "#Prune Table": "هرس جدول",
+      "#Show Selected Rows": "نمایش ردیف‌های انتخاب‌شده",
+      "#Search": "جستجو",
+      "#Query": "پرس‌وجو",
+      "#Presets": "پیش‌تنظیم‌ها",
+      "#Apply": "اعمال",
+      "#Apply query to layer": "اعمال پرس‌وجو به لایه",
+      "#Save query to presets": "ذخیره پرس‌وجو در پیش‌تنظیم‌ها",
+      "#Model": "مدل",
+      "#Export": "برون‌ریزی",
+      "#Save Online": "ذخیره آنلاین",
+      "#Show Infos": "نمایش اطلاعات",
+      "#Open JSON": "باز کردن JSON",
+      "#Save JSON": "ذخیره JSON",
+      "#Open ZIP": "باز کردن ZIP",
+      "#Save ZIP": "ذخیره ZIP",
+      "#ShowChart": "نمایش نمودارها",
+      "#no selection": "بدون انتخاب",
+      "#tiles": "نقشه‌های پایه",
+      "#Legends": "راهنما",
+      "#light": "روشن",
+      "#dark": "تیره",
+      "#terrain": "توپوگرافی",
+      "#no_map": "بدون نقشه",
+      "#roadmap": "جاده‌ای",
+      "#hybrid": "ترکیبی",
+      "#atlas": "اطلس",
+      "#cycle": "دوچرخه",
+      "#landscape": "چشم‌انداز",
+      "#pioneer": "کارتوگرافی",
+      "#transport": "حمل‌ونقل عمومی",
+      "#Add Layer to Zones": "افزودن لایه به ناحیه‌ها",
+      "#Aggregate Cells in Zones": "تجمیع سلول‌ها در ناحیه‌ها",
+      "#Aggregate layers": "تجمیع لایه‌ها",
+      "#Alglib Test": "آزمون Alglib",
+      "#All completed!": "همه مراحل تکمیل شد!",
+      "#Build Grid Network": "ساخت شبکه شطرنجی",
+      "#Build Linear Schedule Based Network": "ساخت شبکه خطی مبتنی بر زمان‌بندی",
+      "#Cell clustering done!": "خوشه‌بندی سلول‌ها انجام شد!",
+      "#Cells not imported": "سلول‌ها وارد نشده‌اند",
+      "#Cells successfully aggregated!": "سلول‌ها با موفقیت تجمیع شدند!",
+      "#Cluster Shape Layer to Zones": "خوشه‌بندی لایه shape به ناحیه‌ها",
+      "#cluster zones": "خوشه‌بندی ناحیه‌ها",
+      "#Computation of demand models completed!": "محاسبه مدل‌های تقاضا کامل شد!",
+      "#Computation of paths completed!": "محاسبه مسیرها کامل شد!",
+      "#Compute a path before": "ابتدا یک مسیر محاسبه کنید",
+      "#Connect Stops to nodes": "اتصال ایستگاه‌ها به گره‌ها",
+      "#Csv Addresses": "CSV آدرس‌ها",
+      "#Csv Addresses Folder": "پوشه CSV آدرس‌ها",
+      "#Csv Points Folder": "پوشه CSV نقاط",
+      "#Delete Layer Column": "حذف ستون لایه",
+      "#Digital Elevation Model form OpenTopography": "مدل ارتفاعی دیجیتال از OpenTopography",
+      "#Distance Matrix Tests": "آزمون‌های ماتریس فاصله",
+      "#Download and Save Server": "دانلود و ذخیره سرور",
+      "#Draw Polygon": "رسم چندضلعی",
+      "#Edit Decks": "ویرایش سبک‌ها",
+      "#Export Decks as JSON": "برون‌ریزی سبک‌ها به JSON",
+      "#Export Layers as Zip": "برون‌ریزی لایه‌ها به ZIP",
+      "#Ferrovie OSM": "راه‌آهن OSM",
+      "#File $0 does not contain features!": "فایل $0 هیچ featureی ندارد!",
+      "#File $0 successfully saved to $1": "فایل $0 با موفقیت در $1 ذخیره شد",
+      "#File $0 successfully saved!": "فایل $0 با موفقیت ذخیره شد!",
+      "#Floyd Algorithm GPU": "الگوریتم فلوید روی GPU",
+      "#Generate Paths OD": "تولید مسیرهای OD",
+      "#Get Links Elevation": "دریافت ارتفاع یال‌ها",
+      "#Get Nodes Elevation": "دریافت ارتفاع گره‌ها",
+      "#GIS": "GIS",
+      "#GIS2": "GIS 2",
+      "#Grafo": "گراف",
+      "#graph_mode_bike": "دوچرخه",
+      "#graph_mode_car": "خودرو",
+      "#graph_mode_transit": "حمل‌ونقل عمومی",
+      "#graph_mode_walk": "پیاده",
+      "#graph_type_modal": "مدال",
+      "#graph_type_street": "خیابانی",
+      "#GTFS fare_rules - undefined fare id: $0": "GTFS fare_rules - fare id تعریف نشده: $0",
+      "#GTFS fare_rules - undefined route id: $0": "GTFS fare_rules - route id تعریف نشده: $0",
+      "#GTFS frequencies - undefined trip id: $0": "GTFS frequencies - trip id تعریف نشده: $0",
+      "#GTFS Pb (Transit)": "GTFS Pb (ترانزیت)",
+      "#GTFS stop_times - undefined trip id: $0": "GTFS stop_times - trip id تعریف نشده: $0",
+      "#GTFS trips - undefined route id: $0": "GTFS trips - route id تعریف نشده: $0",
+      "#GTFS trips - undefined service id: $0": "GTFS trips - service id تعریف نشده: $0",
+      "#GTFS trips - undefined shape id: $0": "GTFS trips - shape id تعریف نشده: $0",
+      "#GTFS Zip (Transit)": "GTFS ZIP (ترانزیت)",
+      "#Highs Tests": "آزمون‌های HiGHS",
+      "#Import Decks from JSON": "درون‌ریزی سبک‌ها از JSON",
+      "#Import Layers as Zip": "درون‌ریزی لایه‌ها از ZIP",
+      "#Import Network": "درون‌ریزی شبکه",
+      "#Import OSM from Api": "درون‌ریزی OSM از API",
+      "#ISTAT Zip": "ZIP ISTAT",
+      "#ISTAT Zip (Cells)": "ZIP ISTAT (سلول‌ها)",
+      "#Kmz File": "فایل KMZ",
+      "#Layer $0 not found!": "لایه $0 پیدا نشد!",
+      "#LPSolver Test": "آزمون LPSolver",
+      "#Ltyps": "انواع یال",
+      "#Many Points": "نقاط زیاد",
+      "#Matrix Multiplication GPU": "ضرب ماتریسی روی GPU",
+      "#Memory Tests": "آزمون‌های حافظه",
+      "#Network not imported": "شبکه وارد نشده است",
+      "#Network Objects": "اشیای شبکه",
+      "#No .net file found!": "هیچ فایل .net پیدا نشد!",
+      "#No modal graph selected!": "هیچ گراف مدالی انتخاب نشده است!",
+      "#Node $0 is used by $1 links": "گره $0 توسط $1 یال استفاده می‌شود",
+      "#Number of connections created: $0": "تعداد اتصال‌های ایجادشده: $0",
+      "#Open GeoTiff": "باز کردن GeoTiff",
+      "#OpenStreetMap": "OpenStreetMap",
+      "#OpenStreetMap (Roads, Transit, Demand)": "OpenStreetMap (جاده، ترانزیت، تقاضا)",
+      "#OpenStreetMap Network": "شبکه OpenStreetMap",
+      "#Orario Trenitalia": "زمان‌بندی Trenitalia",
+      "#OSM Api Selection Area": "ناحیه انتخاب API در OSM",
+      "#OSM network successfully imported!": "شبکه OSM با موفقیت وارد شد!",
+      "#Pairs imported!": "زوج‌ها وارد شدند!",
+      "#Please enter a name to save": "یک نام برای ذخیره وارد کنید",
+      "#Processing element $0 of $1 ...": "در حال پردازش عنصر $0 از $1 ...",
+      "#Reading the Visum .dmd file": "در حال خواندن فایل Visum .dmd",
+      "#Reading the Visum .net file": "در حال خواندن فایل Visum .net",
+      "#Reading the Visum .xml file": "در حال خواندن فایل Visum .xml",
+      "#Reset Decks to Default": "بازنشانی سبک‌ها به حالت پیش‌فرض",
+      "#Road Collisions Zip": "ZIP تصادف‌های جاده‌ای",
+      "#Rome road crashes successfully imported!": "تصادف‌های جاده‌ای رم با موفقیت وارد شدند!",
+      "#Save As GeoJson": "ذخیره به صورت GeoJSON",
+      "#Save Path": "ذخیره مسیر",
+      "#Scens": "سناریوها",
+      "#Server not found!": "سرور پیدا نشد!",
+      "#Set Layer Id Column": "تنظیم ستون شناسه لایه",
+      "#Simple Distance Tests": "آزمون‌های ساده فاصله",
+      "#Simplify Network": "ساده‌سازی شبکه",
+      "#Simulation completed!": "شبیه‌سازی کامل شد!",
+      "#Simulation failed! ": "شبیه‌سازی ناموفق بود! ",
+      "#Static GTFS successfully imported from $0": "GTFS ایستا با موفقیت از $0 وارد شد",
+      "#Stazioni Trenitalia": "ایستگاه‌های Trenitalia",
+      "#Stops successfully connected!": "ایستگاه‌ها با موفقیت متصل شدند!",
+      "#Swap Origin Destination": "جابه‌جایی مبدا و مقصد",
+      "#Switch for Isochrones to Paths": "تغییر از ایزوکرون به مسیر",
+      "#Switch for Paths to Isochrones": "تغییر از مسیر به ایزوکرون",
+      "#Taxi Roma": "تاکسی رم",
+      "#Tensor Flow Test": "آزمون TensorFlow",
+      "#Test": "آزمون",
+      "#Tests": "آزمون‌ها",
+      "#the name of a city or region ...": "نام یک شهر یا منطقه ...",
+      "#Tpros": "پروفایل‌های زمانی",
+      "#Transport Model Documentation": "مستندات Transport Model",
+      "#Ttyps": "انواع ترانزیت",
+      "#Use Projections": "استفاده از projectionها",
+      "#Vehicle routing completed!": "مسیریابی وسایل نقلیه کامل شد!",
+      "#Visum Dmd (Demand)": "Visum Dmd (تقاضا)",
+      "#Visum file $0 successfully imported!": "فایل Visum $0 با موفقیت وارد شد!",
+      "#Visum Folder (Roads, Transit, Demand)": "پوشه Visum (جاده، ترانزیت، تقاضا)",
+      "#Visum Net (Roads, Transit)": "Visum Net (جاده، ترانزیت)",
+      "#Visum network error!": "خطای شبکه Visum!",
+      "#Zone skims completed!": "skimهای ناحیه‌ای کامل شدند!",
+      "#Zones created!": "ناحیه‌ها ایجاد شدند!",
+      "#Zones imported!": "ناحیه‌ها وارد شدند!",
+      "#Other": "سایر",
+      "#I don't know": "I don't know",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#Back": "قبلی",
+      "#Submit": "ارسال",
+      "#Questionnaire": "پرسشنامه",
+      "#Questionnaires": "پرسشنامه‌ها",
+      "#choose the questionnaire to view": "پرسشنامه‌ای را برای مشاهده انتخاب کنید",
+      "#Build Questionnaire": "ساخت پرسشنامه",
+      "#Data Protection and Consent": "حفاظت از داده‌ها و رضایت‌نامه",
+      "#I agree": "موافقم",
+      "#This survey is part of an extended research effort that combines multiple questionnaires and GPS data (for those who use the app). Together, these help us design safer and more inclusive urban spaces.": "این پرسشنامه بخشی از یک پروژه پژوهشی گسترده‌تر است که چندین پرسشنامه و داده‌های موقعیت‌یاب GPS (برای افرادی که از برنامه استفاده می‌کنند) را ترکیب می‌کند. این اطلاعات به ما کمک می‌کند تا فضاهای شهری ایمن‌تر و فراگیرتری طراحی کنیم.",
+      "#You may optionally provide your email address to generate an anonymous participation code. This allows us to link your responses across surveys for longitudinal analysis, without ever storing your real email.": "شما می‌توانید به صورت اختیاری نشانی ایمیل خود را وارد کنید تا یک کد ناشناس شرکت در پژوهش تولید شود. این کار به ما امکان می‌دهد پاسخ‌های شما را در پرسشنامه‌های مختلف برای تحلیل‌های طولی به هم پیوند دهیم، بدون آنکه ایمیل واقعی شما ذخیره شود.",
+      "#To learn more about how we collect and protect data, read <a href='$0' target='_blank'>our transparency and data protection overview</a>.": "برای آگاهی بیشتر درباره نحوه جمع‌آوری و حفاظت از داده‌ها، <a href='$0' target='_blank'>مرور کلی شفافیت و حفاظت از داده‌های ما</a> را بخوانید.",
+      "#I have read and agree to the privacy notice describing how my data are collected and used for research purposes.": "من اطلاعیه حریم خصوصی را خوانده‌ام و با نحوه جمع‌آوری و استفاده از داده‌هایم برای اهداف پژوهشی موافقم.",
+      "#<a href='$0' target='_blank'>Privacy notice</a>": "<a href='$0' target='_blank'>اطلاعیه حریم خصوصی</a>",
+      "#Would you like to provide your email address to generate an anonymous participation code? (optional)": "آیا مایل هستید برای ایجاد یک کد مشارکت ناشناس، آدرس ایمیل خود را وارد کنید؟ (اختیاری)",
+      "#Page $0 of $1": "صفحه $0 از $1",
+      "#Add a note if this question needs review or correction.": "در صورتی که این سؤال نیاز به بازبینی یا اصلاح دارد، یادداشتی اضافه کنید.",
+      "#Review mode": "حالت بازبینی"
+    }
+  },
+  "id": "smarturbanity_about_you",
+  "db_set": "questionnaires",
+  "default_language": "en"
 }
