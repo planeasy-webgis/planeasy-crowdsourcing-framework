@@ -4,37 +4,7 @@
 	"description": "Structured and versioned research questionnaires on 15-minute cities.",
 	"license": "CC BY-NC 4.0",
 	"website": "https://www.smarturbanity.com/",
-	"questionnaires": [
-		"surveys/smarturbanity_about_you.json",
-		"surveys/smarturbanity_daily_travel.json",
-		"surveys/smarturbanity_safety_environment.json",
-		"surveys/smarturbanity_experience_on_the_move.json",
-		"surveys/smarturbanity_public_transport.json",
-		"surveys/smarturbanity_motorcycle.json",
-		"surveys/smarturbanity_car.json",
-		"surveys/smarturbanity_cycling.json",
-		"surveys/smarturbanity_walking.json",
-		"locationReports/crossing_assessment.json",
-		"locationReports/segment_assessment_pedestrian.json",
-		"locationReports/segment_assessment_bike.json"
-	],
-	"categories": [
-		{
-			"id": "locationReports",
-			"name": "Location reports",
-			"path": "locationReports/index.json"
-		},
-		{
-			"id": "surveys",
-			"name": "Surveys",
-			"path": "surveys/index.json"
-		},
-		{
-			"id": "tripSurveys",
-			"name": "Trip surveys",
-			"path": "tripSurveys/index.json"
-		}
-	],
+	"directories": ["locationReports", "surveys", "tripSurveys"],
 	"metadata": {
 		"version": "1.0.0",
 		"last_updated": "2026-05-08",
