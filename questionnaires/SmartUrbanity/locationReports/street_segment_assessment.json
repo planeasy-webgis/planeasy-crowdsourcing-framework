@@ -1,0 +1,3244 @@
+{
+	"questionnaire": {
+		"name": "Street Segment Assessment",
+		"questionnaire_id": "street_segment_assessment",
+		"questionnaire_version": "0.1.2",
+		"project": "SmartUrbanity",
+		"options": {
+			"review_mode": true,
+			"ask_consent": false,
+			"save_user_id": false
+		},
+		"gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html",
+		"sections": [
+			{
+				"title": "Your point of view",
+				"description": "Select walking, cycling, or both. Questions will adapt to your selection.",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "How are you assessing this place today?",
+						"answer_key": "assessment_perspective",
+						"question_type": "multiple_options",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Person walking or rolling",
+								"value": "pedestrian"
+							},
+							{
+								"text": "Person cycling",
+								"value": "cyclist"
+							}
+						],
+						"show_if": {}
+					},
+					{
+						"text": "Which of these describe your trip today?",
+						"answer_key": "journey_context",
+						"question_type": "multiple_options",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Connecting to or from public transport",
+								"value": "public_transport_connection"
+							},
+							{
+								"text": "Connecting to or from a parked car",
+								"value": "parked_car_connection"
+							},
+							{
+								"text": "Connecting to or from bicycle parking",
+								"value": "bicycle_parking_connection"
+							},
+							{
+								"text": "Using a wheelchair or mobility aid",
+								"value": "mobility_aid"
+							},
+							{
+								"text": "Travelling with a stroller",
+								"value": "stroller"
+							},
+							{
+								"text": "None of these",
+								"value": "none"
+							}
+						],
+						"show_if": {}
+					},
+					{
+						"text": "How often do you use or pass this street segment?",
+						"answer_key": "segment_use_frequency",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "This is my first time",
+								"value": "1_first_time"
+							},
+							{
+								"text": "Less than once a month",
+								"value": "2_less_than_monthly"
+							},
+							{
+								"text": "A few times a month",
+								"value": "3_monthly"
+							},
+							{
+								"text": "A few times a week",
+								"value": "4_weekly"
+							},
+							{
+								"text": "Almost every day",
+								"value": "5_daily"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Describe this street segment",
+				"description": "Look at the place. Answer only what you can see.",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "Is there a place for people to walk along this street?",
+						"answer_key": "walk_facility",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No walking space – people must walk on the road",
+								"value": "no_walk_space"
+							},
+							{
+								"text": "Road shoulder available for walking",
+								"value": "shoulder"
+							},
+							{
+								"text": "Shared walking and cycling path",
+								"value": "shared_ped_bike_path"
+							},
+							{
+								"text": "Walking area at the same level as the road",
+								"value": "level_walking_area"
+							},
+							{
+								"text": "Raised sidewalk",
+								"value": "raised_sidewalk"
+							},
+							{
+								"text": "Dedicated walking street or area",
+								"value": "dedicated_pedestrian_area"
+							}
+						]
+					},
+					{
+						"text": "How easy is it for people to pass each other on the walking path?",
+						"answer_key": "walking_width_passability",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walk_facility": [
+								"shoulder",
+								"shared_ped_bike_path",
+								"level_walking_area",
+								"raised_sidewalk",
+								"dedicated_pedestrian_area"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Only one person can walk at a time",
+								"value": "1_one_person_only"
+							},
+							{
+								"text": "Two people can pass, but one usually steps aside",
+								"value": "2_pass_with_step_aside"
+							},
+							{
+								"text": "Two people can walk side by side",
+								"value": "3_two_side_by_side"
+							},
+							{
+								"text": "Small groups can pass each other",
+								"value": "4_small_groups"
+							},
+							{
+								"text": "Very wide, with plenty of room to move",
+								"value": "5_very_wide"
+							}
+						]
+					},
+					{
+						"text": "Is there cycling infrastructure on this street?",
+						"answer_key": "bike_facility",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No cycling facility",
+								"value": "no_bike_facility"
+							},
+							{
+								"text": "Cycling shared with other road users",
+								"value": "shared_with_traffic"
+							},
+							{
+								"text": "Dedicated cycling infrastructure",
+								"value": "dedicated_bike_facility"
+							}
+						]
+					},
+					{
+						"text": "How is the cycling space separated from walking or motor traffic?",
+						"answer_key": "bike_separation",
+						"question_type": "multiple_options",
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							],
+							"bike_facility": "dedicated_bike_facility"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Paint or road markings only",
+								"value": "markings_only"
+							},
+							{
+								"text": "Bollards, barriers, kerbs, or planters",
+								"value": "physical_separation"
+							},
+							{
+								"text": "Parked cars",
+								"value": "parked_cars"
+							},
+							{
+								"text": "Separate from people walking, at the same level",
+								"value": "separate_same_level"
+							},
+							{
+								"text": "Different level or kerb from people walking",
+								"value": "different_level_from_pedestrians"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					},
+					{
+						"text": "Who else commonly uses the cycling space?",
+						"answer_key": "bike_intrusion_users",
+						"question_type": "multiple_options",
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							],
+							"bike_facility": [
+								"shared_with_traffic",
+								"dedicated_bike_facility"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "None",
+								"value": "none"
+							},
+							{
+								"text": "Cars",
+								"value": "cars"
+							},
+							{
+								"text": "Motorcycles",
+								"value": "motorcycles"
+							},
+							{
+								"text": "Public transport vehicles",
+								"value": "public_transport_vehicles"
+							},
+							{
+								"text": "People walking",
+								"value": "pedestrians"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					},
+					{
+						"text": "How fast does motor traffic feel on this street?",
+						"answer_key": "traffic_speed_feeling",
+						"question_type": "single_option",
+						"show_if": {},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Very slow or traffic-calmed",
+								"value": "1_very_slow"
+							},
+							{
+								"text": "Slow",
+								"value": "2_slow"
+							},
+							{
+								"text": "Moderate",
+								"value": "3_moderate"
+							},
+							{
+								"text": "Fast",
+								"value": "4_fast"
+							},
+							{
+								"text": "Very fast",
+								"value": "5_very_fast"
+							}
+						]
+					},
+					{
+						"text": "What makes traffic interaction difficult here?",
+						"answer_key": "traffic_interaction_problems",
+						"question_type": "multiple_options",
+						"show_if": {},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No clear problem",
+								"value": "none"
+							},
+							{
+								"text": "Poor visibility",
+								"value": "poor_visibility"
+							},
+							{
+								"text": "Vehicles drive too fast",
+								"value": "vehicles_too_fast"
+							},
+							{
+								"text": "Vehicles pass too close",
+								"value": "close_passing"
+							},
+							{
+								"text": "Difficult turns or side access",
+								"value": "difficult_turns_access"
+							},
+							{
+								"text": "Double parking or stopped vehicles",
+								"value": "double_parking_stopped"
+							},
+							{
+								"text": "Bus or tram interaction",
+								"value": "pt_interaction"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Your experience here",
+				"description": "Answer based on your experience. Walking and cycling questions appear according to your selection.",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "Which best describes using this street segment while walking?",
+						"answer_key": "pedestrian_use_difficulty",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "I can pass without slowing down",
+								"value": "1_no_slowing_down"
+							},
+							{
+								"text": "I need to slow down a little",
+								"value": "2_slow_down"
+							},
+							{
+								"text": "I need to be careful while passing",
+								"value": "3_be_careful"
+							},
+							{
+								"text": "I need a lot of effort or attention",
+								"value": "4_high_effort_attention"
+							},
+							{
+								"text": "I avoid using it if possible",
+								"value": "5_avoid_if_possible"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						],
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							]
+						}
+					},
+					{
+						"text": "How risky does it feel to use this street segment while walking?",
+						"answer_key": "pedestrian_perceived_risk",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Not risky",
+								"value": "1_not_risky"
+							},
+							{
+								"text": "Slightly risky",
+								"value": "2_slightly_risky"
+							},
+							{
+								"text": "Moderately risky",
+								"value": "3_moderately_risky"
+							},
+							{
+								"text": "Very risky",
+								"value": "4_very_risky"
+							},
+							{
+								"text": "Extremely risky",
+								"value": "5_extremely_risky"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						],
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							]
+						}
+					},
+					{
+						"text": "How often do surface problems slow you down or make you change path while walking?",
+						"answer_key": "pedestrian_surface_problem_frequency",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Never or almost never",
+								"value": "1_never"
+							},
+							{
+								"text": "Rarely",
+								"value": "2_rarely"
+							},
+							{
+								"text": "Sometimes",
+								"value": "3_sometimes"
+							},
+							{
+								"text": "Often",
+								"value": "4_often"
+							},
+							{
+								"text": "Very often",
+								"value": "5_very_often"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "How often do obstacles block or reduce your space while walking?",
+						"answer_key": "pedestrian_obstacle_frequency",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Never or almost never",
+								"value": "1_never"
+							},
+							{
+								"text": "Rarely",
+								"value": "2_rarely"
+							},
+							{
+								"text": "Sometimes",
+								"value": "3_sometimes"
+							},
+							{
+								"text": "Often",
+								"value": "4_often"
+							},
+							{
+								"text": "Very often",
+								"value": "5_very_often"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "How often does this segment feel too crowded?",
+						"answer_key": "crowding_frequency",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Never or almost never",
+								"value": "1_never"
+							},
+							{
+								"text": "Rarely",
+								"value": "2_rarely"
+							},
+							{
+								"text": "Sometimes",
+								"value": "3_sometimes"
+							},
+							{
+								"text": "Often",
+								"value": "4_often"
+							},
+							{
+								"text": "Very often",
+								"value": "5_very_often"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "How often do motor vehicles pass too close while you are walking?",
+						"answer_key": "pedestrian_close_passing_frequency",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Never or almost never",
+								"value": "1_never"
+							},
+							{
+								"text": "Rarely",
+								"value": "2_rarely"
+							},
+							{
+								"text": "Sometimes",
+								"value": "3_sometimes"
+							},
+							{
+								"text": "Often",
+								"value": "4_often"
+							},
+							{
+								"text": "Very often",
+								"value": "5_very_often"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "Which best describes using this street segment while cycling?",
+						"answer_key": "cyclist_use_difficulty",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "I can pass without slowing down",
+								"value": "1_no_slowing_down"
+							},
+							{
+								"text": "I need to slow down a little",
+								"value": "2_slow_down"
+							},
+							{
+								"text": "I need to be careful while passing",
+								"value": "3_be_careful"
+							},
+							{
+								"text": "I need a lot of effort or attention",
+								"value": "4_high_effort_attention"
+							},
+							{
+								"text": "I avoid using it if possible",
+								"value": "5_avoid_if_possible"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						],
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							]
+						}
+					},
+					{
+						"text": "How risky does it feel to use this street segment while cycling?",
+						"answer_key": "cyclist_perceived_risk",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Not risky",
+								"value": "1_not_risky"
+							},
+							{
+								"text": "Slightly risky",
+								"value": "2_slightly_risky"
+							},
+							{
+								"text": "Moderately risky",
+								"value": "3_moderately_risky"
+							},
+							{
+								"text": "Very risky",
+								"value": "4_very_risky"
+							},
+							{
+								"text": "Extremely risky",
+								"value": "5_extremely_risky"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						],
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							]
+						}
+					},
+					{
+						"text": "How often do surface problems slow you down or make you change path while cycling?",
+						"answer_key": "cyclist_surface_problem_frequency",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Never or almost never",
+								"value": "1_never"
+							},
+							{
+								"text": "Rarely",
+								"value": "2_rarely"
+							},
+							{
+								"text": "Sometimes",
+								"value": "3_sometimes"
+							},
+							{
+								"text": "Often",
+								"value": "4_often"
+							},
+							{
+								"text": "Very often",
+								"value": "5_very_often"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "How often do obstacles block or reduce your space while cycling?",
+						"answer_key": "cyclist_obstacle_frequency",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Never or almost never",
+								"value": "1_never"
+							},
+							{
+								"text": "Rarely",
+								"value": "2_rarely"
+							},
+							{
+								"text": "Sometimes",
+								"value": "3_sometimes"
+							},
+							{
+								"text": "Often",
+								"value": "4_often"
+							},
+							{
+								"text": "Very often",
+								"value": "5_very_often"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "How often is the cycling space shared with other people or vehicles?",
+						"answer_key": "bike_intrusion_frequency",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							],
+							"bike_intrusion_users": [
+								"cars",
+								"motorcycles",
+								"public_transport_vehicles",
+								"pedestrians",
+								"other"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Never or almost never",
+								"value": "1_never"
+							},
+							{
+								"text": "Rarely",
+								"value": "2_rarely"
+							},
+							{
+								"text": "Sometimes",
+								"value": "3_sometimes"
+							},
+							{
+								"text": "Often",
+								"value": "4_often"
+							},
+							{
+								"text": "Very often",
+								"value": "5_very_often"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "How often do motor vehicles pass too close while you are cycling?",
+						"answer_key": "cyclist_close_passing_frequency",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Never or almost never",
+								"value": "1_never"
+							},
+							{
+								"text": "Rarely",
+								"value": "2_rarely"
+							},
+							{
+								"text": "Sometimes",
+								"value": "3_sometimes"
+							},
+							{
+								"text": "Often",
+								"value": "4_often"
+							},
+							{
+								"text": "Very often",
+								"value": "5_very_often"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Improve this street segment",
+				"description": "Tell us whether improving this segment should be a priority.",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "Should a walking path be added here?",
+						"answer_key": "desired_walking_path",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walk_facility": "no_walk_space"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No",
+								"value": "1_no"
+							},
+							{
+								"text": "Probably no",
+								"value": "2_probably_no"
+							},
+							{
+								"text": "Not sure",
+								"value": "3_not_sure"
+							},
+							{
+								"text": "Probably yes",
+								"value": "4_probably_yes"
+							},
+							{
+								"text": "Yes",
+								"value": "5_yes"
+							}
+						]
+					},
+					{
+						"text": "Should cycling infrastructure be added here?",
+						"answer_key": "desired_bike_facility",
+						"question_type": "single_option",
+						"show_if": {
+							"assessment_perspective": [
+								"cyclist"
+							],
+							"bike_facility": "no_bike_facility"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No",
+								"value": "1_no"
+							},
+							{
+								"text": "Probably no",
+								"value": "2_probably_no"
+							},
+							{
+								"text": "Not sure",
+								"value": "3_not_sure"
+							},
+							{
+								"text": "Probably yes",
+								"value": "4_probably_yes"
+							},
+							{
+								"text": "Yes",
+								"value": "5_yes"
+							}
+						]
+					},
+					{
+						"text": "How urgent is it to improve this street segment?",
+						"answer_key": "segment_improvement_importance",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Not urgent",
+								"value": "1_not_urgent"
+							},
+							{
+								"text": "Slightly urgent",
+								"value": "2_slightly_urgent"
+							},
+							{
+								"text": "Moderately urgent",
+								"value": "3_moderately_urgent"
+							},
+							{
+								"text": "Urgent",
+								"value": "4_urgent"
+							},
+							{
+								"text": "Very urgent",
+								"value": "5_very_urgent"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "What would improve this street segment most?",
+						"answer_key": "main_segment_improvements_needed",
+						"question_type": "multiple_options",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Add or widen walking space",
+								"value": "add_widen_walking_space"
+							},
+							{
+								"text": "Add or improve cycling infrastructure",
+								"value": "add_improve_cycling_infrastructure"
+							},
+							{
+								"text": "Repair the surface",
+								"value": "repair_surface"
+							},
+							{
+								"text": "Remove obstacles",
+								"value": "remove_obstacles"
+							},
+							{
+								"text": "Improve access for people with different mobility needs",
+								"value": "accessibility_improvement"
+							},
+							{
+								"text": "Improve lighting",
+								"value": "better_lighting"
+							},
+							{
+								"text": "Add shade or heat protection",
+								"value": "shade_heat_protection"
+							},
+							{
+								"text": "Reduce vehicle speed",
+								"value": "traffic_calming"
+							},
+							{
+								"text": "Improve separation from traffic",
+								"value": "traffic_separation"
+							},
+							{
+								"text": "Improve maintenance or cleaning",
+								"value": "maintenance_cleaning"
+							},
+							{
+								"text": "Nothing important",
+								"value": "nothing"
+							},
+							{
+								"text": "I don't know",
+								"value": "dont_know"
+							}
+						]
+					},
+					{
+						"text": "Anything else you want to add?",
+						"answer_key": "additional_comments",
+						"question_type": "text"
+					},
+					{
+						"text": "Would you like to add a few optional details?",
+						"answer_key": "continue_audit",
+						"question_type": "single_option",
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": false,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No, finish the assessment",
+								"value": "no_finish"
+							},
+							{
+								"text": "Yes, add optional details",
+								"value": "yes_audit"
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Optional details",
+				"description": "These questions are optional and help us understand what should be improved.",
+				"backgroundColor": "#f0f0f0",
+				"questions": [
+					{
+						"text": "If there is a raised sidewalk, how is it protected from traffic?",
+						"answer_key": "raised_sidewalk_protection",
+						"question_type": "single_option",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walk_facility": "raised_sidewalk"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Raised only, no extra protection",
+								"value": "raised_only"
+							},
+							{
+								"text": "Bollards",
+								"value": "bollards"
+							},
+							{
+								"text": "Guard rails or fencing",
+								"value": "guard_rails_fencing"
+							},
+							{
+								"text": "Planted strip, bushes, or planters",
+								"value": "planted_strip"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					},
+					{
+						"text": "If the walking area is at road level, how is it separated from traffic?",
+						"answer_key": "level_walking_separation",
+						"question_type": "single_option",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walk_facility": "level_walking_area"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Road markings or paint only",
+								"value": "markings_only"
+							},
+							{
+								"text": "Bollards",
+								"value": "bollards"
+							},
+							{
+								"text": "Guard rail or barrier",
+								"value": "barrier"
+							},
+							{
+								"text": "Planted strip, bushes, or planters",
+								"value": "planted_strip"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					},
+					{
+						"text": "Does this walking path include stairs?",
+						"answer_key": "walking_stairs_present",
+						"question_type": "single_option",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walk_facility": "dedicated_pedestrian_area"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No",
+								"value": "no"
+							},
+							{
+								"text": "Yes",
+								"value": "yes"
+							}
+						]
+					},
+					{
+						"text": "How many steps are there?",
+						"answer_key": "walking_stairs_extent",
+						"question_type": "single_option",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walking_stairs_present": "yes"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "A few steps, up to about 10",
+								"value": "1_few_steps"
+							},
+							{
+								"text": "About 11–20 steps",
+								"value": "2_11_20_steps"
+							},
+							{
+								"text": "More than 20 steps",
+								"value": "3_more_than_20_steps"
+							}
+						]
+					},
+					{
+						"text": "What problems affect the walking surface?",
+						"answer_key": "walking_surface_problems",
+						"question_type": "multiple_options",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walk_facility": [
+								"shoulder",
+								"shared_ped_bike_path",
+								"level_walking_area",
+								"raised_sidewalk",
+								"dedicated_pedestrian_area"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No clear problem",
+								"value": "none"
+							},
+							{
+								"text": "Uneven surface",
+								"value": "uneven_surface"
+							},
+							{
+								"text": "Cracks",
+								"value": "cracks"
+							},
+							{
+								"text": "Potholes",
+								"value": "potholes"
+							},
+							{
+								"text": "Raised edges or bumps",
+								"value": "raised_edges_bumps"
+							},
+							{
+								"text": "Tree roots",
+								"value": "tree_roots"
+							},
+							{
+								"text": "Side slope feels uncomfortable",
+								"value": "side_slope"
+							},
+							{
+								"text": "Steps or sudden level changes",
+								"value": "level_changes"
+							},
+							{
+								"text": "Slippery when wet",
+								"value": "slippery_wet"
+							},
+							{
+								"text": "Water collects after rain",
+								"value": "water_collects"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					},
+					{
+						"text": "What obstacles reduce the walking space?",
+						"answer_key": "walking_obstacles",
+						"question_type": "multiple_options",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walk_facility": [
+								"shoulder",
+								"shared_ped_bike_path",
+								"level_walking_area",
+								"raised_sidewalk",
+								"dedicated_pedestrian_area"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No clear obstacle",
+								"value": "none"
+							},
+							{
+								"text": "Parked cars",
+								"value": "parked_cars"
+							},
+							{
+								"text": "Bicycles, e-scooters, or motorcycles parked on the sidewalk",
+								"value": "micromobility_parked"
+							},
+							{
+								"text": "Trees, poles, signs, or utility boxes",
+								"value": "fixed_objects"
+							},
+							{
+								"text": "Overgrown plants or weeds",
+								"value": "vegetation"
+							},
+							{
+								"text": "Outdoor café or restaurant seating",
+								"value": "outdoor_seating"
+							},
+							{
+								"text": "Shop displays or street vendors",
+								"value": "shop_displays_vendors"
+							},
+							{
+								"text": "Waste bins or rubbish bags",
+								"value": "waste_bins_bags"
+							},
+							{
+								"text": "Dog waste",
+								"value": "dog_waste"
+							},
+							{
+								"text": "Construction works",
+								"value": "construction"
+							},
+							{
+								"text": "People waiting in queues",
+								"value": "queues"
+							},
+							{
+								"text": "Flooded areas after rain",
+								"value": "flooding"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					},
+					{
+						"text": "Which accessibility features are available?",
+						"answer_key": "walking_accessibility_features",
+						"question_type": "multiple_options",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"pedestrian"
+							],
+							"walk_facility": [
+								"shoulder",
+								"shared_ped_bike_path",
+								"level_walking_area",
+								"raised_sidewalk",
+								"dedicated_pedestrian_area"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Suitable for wheelchair users",
+								"value": "wheelchair_suitable"
+							},
+							{
+								"text": "Suitable for strollers",
+								"value": "stroller_suitable"
+							},
+							{
+								"text": "Tactile paving for blind or visually impaired people",
+								"value": "tactile_paving"
+							},
+							{
+								"text": "Benches or resting places",
+								"value": "resting_places"
+							},
+							{
+								"text": "None of these",
+								"value": "none"
+							}
+						]
+					},
+					{
+						"text": "Is the cycling infrastructure one-way or two-way?",
+						"answer_key": "bike_direction",
+						"question_type": "single_option",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"cyclist"
+							],
+							"bike_facility": "dedicated_bike_facility"
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "One-way cycling facility",
+								"value": "one_way"
+							},
+							{
+								"text": "Two-way cycling facility",
+								"value": "two_way"
+							}
+						]
+					},
+					{
+						"text": "What surface does the cycling infrastructure have?",
+						"answer_key": "bike_surface_type",
+						"question_type": "single_option",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"cyclist"
+							],
+							"bike_facility": [
+								"shared_with_traffic",
+								"dedicated_bike_facility"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "Smooth asphalt",
+								"value": "smooth_asphalt"
+							},
+							{
+								"text": "Standard road asphalt",
+								"value": "standard_asphalt"
+							},
+							{
+								"text": "Concrete",
+								"value": "concrete"
+							},
+							{
+								"text": "Blocks or tiles",
+								"value": "blocks_tiles"
+							},
+							{
+								"text": "Cobblestones",
+								"value": "cobblestones"
+							},
+							{
+								"text": "Compacted gravel or crushed stone",
+								"value": "compacted_gravel"
+							},
+							{
+								"text": "Mixed surface types",
+								"value": "mixed"
+							},
+							{
+								"text": "Other or unclear",
+								"value": "other_unclear"
+							}
+						]
+					},
+					{
+						"text": "What problems affect cycling comfort?",
+						"answer_key": "bike_surface_problems",
+						"question_type": "multiple_options",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"cyclist"
+							],
+							"bike_facility": [
+								"shared_with_traffic",
+								"dedicated_bike_facility"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No clear problem",
+								"value": "none"
+							},
+							{
+								"text": "Uneven surface",
+								"value": "uneven_surface"
+							},
+							{
+								"text": "Cracks",
+								"value": "cracks"
+							},
+							{
+								"text": "Potholes",
+								"value": "potholes"
+							},
+							{
+								"text": "Raised edges or bumps",
+								"value": "raised_edges_bumps"
+							},
+							{
+								"text": "Tree roots",
+								"value": "tree_roots"
+							},
+							{
+								"text": "Slippery when wet",
+								"value": "slippery_wet"
+							},
+							{
+								"text": "Loose gravel or debris",
+								"value": "loose_gravel_debris"
+							},
+							{
+								"text": "Sudden level changes",
+								"value": "level_changes"
+							},
+							{
+								"text": "Uncomfortable vibration",
+								"value": "surface_vibration"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					},
+					{
+						"text": "What obstacles make cycling difficult?",
+						"answer_key": "bike_obstacles",
+						"question_type": "multiple_options",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"cyclist"
+							],
+							"bike_facility": [
+								"shared_with_traffic",
+								"dedicated_bike_facility"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "No clear obstacle",
+								"value": "none"
+							},
+							{
+								"text": "Narrow sections",
+								"value": "narrow_sections"
+							},
+							{
+								"text": "Parked cars",
+								"value": "parked_cars"
+							},
+							{
+								"text": "Vehicles stopping in the cycle lane",
+								"value": "vehicles_stopping"
+							},
+							{
+								"text": "E-scooters, bicycles, or motorcycles parked on the facility",
+								"value": "micromobility_parked"
+							},
+							{
+								"text": "Trees, poles, signs, or utility boxes",
+								"value": "fixed_objects"
+							},
+							{
+								"text": "Outdoor café or restaurant seating",
+								"value": "outdoor_seating"
+							},
+							{
+								"text": "Shop displays or street vendors",
+								"value": "shop_displays_vendors"
+							},
+							{
+								"text": "Waste bins or rubbish bags",
+								"value": "waste_bins_bags"
+							},
+							{
+								"text": "Construction works",
+								"value": "construction"
+							},
+							{
+								"text": "Flooded areas after rain",
+								"value": "flooding"
+							},
+							{
+								"text": "Public transport stop or people waiting",
+								"value": "pt_stop_waiting"
+							},
+							{
+								"text": "Other",
+								"value": "other"
+							}
+						]
+					},
+					{
+						"text": "How many places are there where motor vehicles cross or enter the cycling space?",
+						"answer_key": "bike_vehicle_conflict_points",
+						"question_type": "single_option",
+						"show_if": {
+							"continue_audit": "yes_audit",
+							"assessment_perspective": [
+								"cyclist"
+							]
+						},
+						"add_prefer_not_to_say": false,
+						"add_i_dont_know": true,
+						"add_other": false,
+						"checks_inline": false,
+						"options": [
+							{
+								"text": "None",
+								"value": "1_none"
+							},
+							{
+								"text": "One",
+								"value": "2_one"
+							},
+							{
+								"text": "Two or three",
+								"value": "3_two_three"
+							},
+							{
+								"text": "Four or five",
+								"value": "4_four_five"
+							},
+							{
+								"text": "Six or more",
+								"value": "5_six_or_more"
+							},
+							{
+								"text": "I cannot tell",
+								"value": "dont_know"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"languages": {
+		"en": {
+			"#Your point of view": "Your point of view",
+			"#Select walking, cycling, or both. Questions will adapt to your selection.": "Select walking, cycling, or both. Questions will adapt to your selection.",
+			"#How are you assessing this place today?": "How are you assessing this place today?",
+			"#Person walking or rolling": "Person walking or rolling",
+			"#Person cycling": "Person cycling",
+			"#Which of these describe your trip today?": "Which of these describe your trip today?",
+			"#Connecting to or from public transport": "Connecting to or from public transport",
+			"#Connecting to or from a parked car": "Connecting to or from a parked car",
+			"#Connecting to or from bicycle parking": "Connecting to or from bicycle parking",
+			"#Using a wheelchair or mobility aid": "Using a wheelchair or mobility aid",
+			"#Travelling with a stroller": "Travelling with a stroller",
+			"#None of these": "None of these",
+			"#How often do you use or pass this street segment?": "How often do you use or pass this street segment?",
+			"#This is my first time": "This is my first time",
+			"#Less than once a month": "Less than once a month",
+			"#A few times a month": "A few times a month",
+			"#A few times a week": "A few times a week",
+			"#Almost every day": "Almost every day",
+			"#Describe this street segment": "Describe this street segment",
+			"#Look at the place. Answer only what you can see.": "Look at the place. Answer only what you can see.",
+			"#Is there a place for people to walk along this street?": "Is there a place for people to walk along this street?",
+			"#No walking space – people must walk on the road": "No walking space – people must walk on the road",
+			"#Road shoulder available for walking": "Road shoulder available for walking",
+			"#Shared walking and cycling path": "Shared walking and cycling path",
+			"#Walking area at the same level as the road": "Walking area at the same level as the road",
+			"#Raised sidewalk": "Raised sidewalk",
+			"#Dedicated walking street or area": "Dedicated walking street or area",
+			"#How easy is it for people to pass each other on the walking path?": "How easy is it for people to pass each other on the walking path?",
+			"#Only one person can walk at a time": "Only one person can walk at a time",
+			"#Two people can pass, but one usually steps aside": "Two people can pass, but one usually steps aside",
+			"#Two people can walk side by side": "Two people can walk side by side",
+			"#Small groups can pass each other": "Small groups can pass each other",
+			"#Very wide, with plenty of room to move": "Very wide, with plenty of room to move",
+			"#Is there cycling infrastructure on this street?": "Is there cycling infrastructure on this street?",
+			"#No cycling facility": "No cycling facility",
+			"#Cycling shared with other road users": "Cycling shared with other road users",
+			"#Dedicated cycling infrastructure": "Dedicated cycling infrastructure",
+			"#How is the cycling space separated from walking or motor traffic?": "How is the cycling space separated from walking or motor traffic?",
+			"#Paint or road markings only": "Paint or road markings only",
+			"#Bollards, barriers, kerbs, or planters": "Bollards, barriers, kerbs, or planters",
+			"#Parked cars": "Parked cars",
+			"#Separate from people walking, at the same level": "Separate from people walking, at the same level",
+			"#Different level or kerb from people walking": "Different level or kerb from people walking",
+			"#Other": "Other",
+			"#Who else commonly uses the cycling space?": "Who else commonly uses the cycling space?",
+			"#None": "None",
+			"#Cars": "Cars",
+			"#Motorcycles": "Motorcycles",
+			"#Public transport vehicles": "Public transport vehicles",
+			"#People walking": "People walking",
+			"#How fast does motor traffic feel on this street?": "How fast does motor traffic feel on this street?",
+			"#Very slow or traffic-calmed": "Very slow or traffic-calmed",
+			"#Slow": "Slow",
+			"#Moderate": "Moderate",
+			"#Fast": "Fast",
+			"#Very fast": "Very fast",
+			"#What makes traffic interaction difficult here?": "What makes traffic interaction difficult here?",
+			"#No clear problem": "No clear problem",
+			"#Poor visibility": "Poor visibility",
+			"#Vehicles drive too fast": "Vehicles drive too fast",
+			"#Vehicles pass too close": "Vehicles pass too close",
+			"#Difficult turns or side access": "Difficult turns or side access",
+			"#Double parking or stopped vehicles": "Double parking or stopped vehicles",
+			"#Bus or tram interaction": "Bus or tram interaction",
+			"#Your experience here": "Your experience here",
+			"#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Answer based on your experience. Walking and cycling questions appear according to your selection.",
+			"#Which best describes using this street segment while walking?": "Which best describes using this street segment while walking?",
+			"#I can pass without slowing down": "I can pass without slowing down",
+			"#I need to slow down a little": "I need to slow down a little",
+			"#I need to be careful while passing": "I need to be careful while passing",
+			"#I need a lot of effort or attention": "I need a lot of effort or attention",
+			"#I avoid using it if possible": "I avoid using it if possible",
+			"#I don't know": "I don't know",
+			"#How risky does it feel to use this street segment while walking?": "How risky does it feel to use this street segment while walking?",
+			"#Not risky": "Not risky",
+			"#Slightly risky": "Slightly risky",
+			"#Moderately risky": "Moderately risky",
+			"#Very risky": "Very risky",
+			"#Extremely risky": "Extremely risky",
+			"#How often do surface problems slow you down or make you change path while walking?": "How often do surface problems slow you down or make you change path while walking?",
+			"#Never or almost never": "Never or almost never",
+			"#Rarely": "Rarely",
+			"#Sometimes": "Sometimes",
+			"#Often": "Often",
+			"#Very often": "Very often",
+			"#How often do obstacles block or reduce your space while walking?": "How often do obstacles block or reduce your space while walking?",
+			"#How often does this segment feel too crowded?": "How often does this segment feel too crowded?",
+			"#How often do motor vehicles pass too close while you are walking?": "How often do motor vehicles pass too close while you are walking?",
+			"#Which best describes using this street segment while cycling?": "Which best describes using this street segment while cycling?",
+			"#How risky does it feel to use this street segment while cycling?": "How risky does it feel to use this street segment while cycling?",
+			"#How often do surface problems slow you down or make you change path while cycling?": "How often do surface problems slow you down or make you change path while cycling?",
+			"#How often do obstacles block or reduce your space while cycling?": "How often do obstacles block or reduce your space while cycling?",
+			"#How often is the cycling space shared with other people or vehicles?": "How often is the cycling space shared with other people or vehicles?",
+			"#How often do motor vehicles pass too close while you are cycling?": "How often do motor vehicles pass too close while you are cycling?",
+			"#Improve this street segment": "Improve this street segment",
+			"#Tell us whether improving this segment should be a priority.": "Tell us whether improving this segment should be a priority.",
+			"#Should a walking path be added here?": "Should a walking path be added here?",
+			"#No": "No",
+			"#Probably no": "Probably no",
+			"#Not sure": "Not sure",
+			"#Probably yes": "Probably yes",
+			"#Yes": "Yes",
+			"#Should cycling infrastructure be added here?": "Should cycling infrastructure be added here?",
+			"#How urgent is it to improve this street segment?": "How urgent is it to improve this street segment?",
+			"#Not urgent": "Not urgent",
+			"#Slightly urgent": "Slightly urgent",
+			"#Moderately urgent": "Moderately urgent",
+			"#Urgent": "Urgent",
+			"#Very urgent": "Very urgent",
+			"#What would improve this street segment most?": "What would improve this street segment most?",
+			"#Add or widen walking space": "Add or widen walking space",
+			"#Add or improve cycling infrastructure": "Add or improve cycling infrastructure",
+			"#Repair the surface": "Repair the surface",
+			"#Remove obstacles": "Remove obstacles",
+			"#Improve access for people with different mobility needs": "Improve access for people with different mobility needs",
+			"#Improve lighting": "Improve lighting",
+			"#Add shade or heat protection": "Add shade or heat protection",
+			"#Reduce vehicle speed": "Reduce vehicle speed",
+			"#Improve separation from traffic": "Improve separation from traffic",
+			"#Improve maintenance or cleaning": "Improve maintenance or cleaning",
+			"#Nothing important": "Nothing important",
+			"#Anything else you want to add?": "Anything else you want to add?",
+			"#Would you like to add a few optional details?": "Would you like to add a few optional details?",
+			"#No, finish the assessment": "No, finish the assessment",
+			"#Yes, add optional details": "Yes, add optional details",
+			"#Optional details": "Optional details",
+			"#These questions are optional and help us understand what should be improved.": "These questions are optional and help us understand what should be improved.",
+			"#If there is a raised sidewalk, how is it protected from traffic?": "If there is a raised sidewalk, how is it protected from traffic?",
+			"#Raised only, no extra protection": "Raised only, no extra protection",
+			"#Bollards": "Bollards",
+			"#Guard rails or fencing": "Guard rails or fencing",
+			"#Planted strip, bushes, or planters": "Planted strip, bushes, or planters",
+			"#If the walking area is at road level, how is it separated from traffic?": "If the walking area is at road level, how is it separated from traffic?",
+			"#Road markings or paint only": "Road markings or paint only",
+			"#Guard rail or barrier": "Guard rail or barrier",
+			"#Does this walking path include stairs?": "Does this walking path include stairs?",
+			"#How many steps are there?": "How many steps are there?",
+			"#A few steps, up to about 10": "A few steps, up to about 10",
+			"#About 11–20 steps": "About 11–20 steps",
+			"#More than 20 steps": "More than 20 steps",
+			"#What problems affect the walking surface?": "What problems affect the walking surface?",
+			"#Uneven surface": "Uneven surface",
+			"#Cracks": "Cracks",
+			"#Potholes": "Potholes",
+			"#Raised edges or bumps": "Raised edges or bumps",
+			"#Tree roots": "Tree roots",
+			"#Side slope feels uncomfortable": "Side slope feels uncomfortable",
+			"#Steps or sudden level changes": "Steps or sudden level changes",
+			"#Slippery when wet": "Slippery when wet",
+			"#Water collects after rain": "Water collects after rain",
+			"#What obstacles reduce the walking space?": "What obstacles reduce the walking space?",
+			"#No clear obstacle": "No clear obstacle",
+			"#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Bicycles, e-scooters, or motorcycles parked on the sidewalk",
+			"#Trees, poles, signs, or utility boxes": "Trees, poles, signs, or utility boxes",
+			"#Overgrown plants or weeds": "Overgrown plants or weeds",
+			"#Outdoor café or restaurant seating": "Outdoor café or restaurant seating",
+			"#Shop displays or street vendors": "Shop displays or street vendors",
+			"#Waste bins or rubbish bags": "Waste bins or rubbish bags",
+			"#Dog waste": "Dog waste",
+			"#Construction works": "Construction works",
+			"#People waiting in queues": "People waiting in queues",
+			"#Flooded areas after rain": "Flooded areas after rain",
+			"#Which accessibility features are available?": "Which accessibility features are available?",
+			"#Suitable for wheelchair users": "Suitable for wheelchair users",
+			"#Suitable for strollers": "Suitable for strollers",
+			"#Tactile paving for blind or visually impaired people": "Tactile paving for blind or visually impaired people",
+			"#Benches or resting places": "Benches or resting places",
+			"#Is the cycling infrastructure one-way or two-way?": "Is the cycling infrastructure one-way or two-way?",
+			"#One-way cycling facility": "One-way cycling facility",
+			"#Two-way cycling facility": "Two-way cycling facility",
+			"#What surface does the cycling infrastructure have?": "What surface does the cycling infrastructure have?",
+			"#Smooth asphalt": "Smooth asphalt",
+			"#Standard road asphalt": "Standard road asphalt",
+			"#Concrete": "Concrete",
+			"#Blocks or tiles": "Blocks or tiles",
+			"#Cobblestones": "Cobblestones",
+			"#Compacted gravel or crushed stone": "Compacted gravel or crushed stone",
+			"#Mixed surface types": "Mixed surface types",
+			"#Other or unclear": "Other or unclear",
+			"#What problems affect cycling comfort?": "What problems affect cycling comfort?",
+			"#Loose gravel or debris": "Loose gravel or debris",
+			"#Sudden level changes": "Sudden level changes",
+			"#Uncomfortable vibration": "Uncomfortable vibration",
+			"#What obstacles make cycling difficult?": "What obstacles make cycling difficult?",
+			"#Narrow sections": "Narrow sections",
+			"#Vehicles stopping in the cycle lane": "Vehicles stopping in the cycle lane",
+			"#E-scooters, bicycles, or motorcycles parked on the facility": "E-scooters, bicycles, or motorcycles parked on the facility",
+			"#Public transport stop or people waiting": "Public transport stop or people waiting",
+			"#How many places are there where motor vehicles cross or enter the cycling space?": "How many places are there where motor vehicles cross or enter the cycling space?",
+			"#One": "One",
+			"#Two or three": "Two or three",
+			"#Four or five": "Four or five",
+			"#Six or more": "Six or more",
+			"#I cannot tell": "I cannot tell"
+		},
+		"it": {
+			"#Your point of view": "Il tuo punto di vista",
+			"#Select walking, cycling, or both. Questions will adapt to your selection.": "Seleziona a piedi, in bicicletta o entrambe le modalità. Le domande si adatteranno alla tua scelta.",
+			"#How are you assessing this place today?": "Come stai valutando questo luogo oggi?",
+			"#Person walking or rolling": "Persona a piedi o con ausili alla mobilità",
+			"#Person cycling": "Persona in bicicletta",
+			"#Which of these describe your trip today?": "Quali di queste situazioni descrivono il tuo spostamento di oggi?",
+			"#Connecting to or from public transport": "Collegamento da o verso il trasporto pubblico",
+			"#Connecting to or from a parked car": "Collegamento da o verso un'automobile parcheggiata",
+			"#Connecting to or from bicycle parking": "Collegamento da o verso un parcheggio per biciclette",
+			"#Using a wheelchair or mobility aid": "Uso di una sedia a rotelle o di altri ausili alla mobilità",
+			"#Travelling with a stroller": "Spostamento con passeggino",
+			"#None of these": "Nessuna di queste",
+			"#How often do you use or pass this street segment?": "Quanto spesso usi o attraversi questo tratto di strada?",
+			"#This is my first time": "È la prima volta",
+			"#Less than once a month": "Meno di una volta al mese",
+			"#A few times a month": "Alcune volte al mese",
+			"#A few times a week": "Alcune volte a settimana",
+			"#Almost every day": "Quasi ogni giorno",
+			"#Describe this street segment": "Descrivi questo tratto di strada",
+			"#Look at the place. Answer only what you can see.": "Osserva il luogo e rispondi solo in base a ciò che puoi vedere.",
+			"#Is there a place for people to walk along this street?": "C'è uno spazio in cui camminare lungo questa strada?",
+			"#No walking space – people must walk on the road": "Non c'è uno spazio pedonale: occorre camminare sulla carreggiata",
+			"#Road shoulder available for walking": "Banchina stradale utilizzabile a piedi",
+			"#Shared walking and cycling path": "Percorso condiviso da persone a piedi e in bicicletta",
+			"#Walking area at the same level as the road": "Spazio pedonale allo stesso livello della carreggiata",
+			"#Raised sidewalk": "Marciapiede rialzato",
+			"#Dedicated walking street or area": "Strada o area riservata alle persone a piedi",
+			"#How easy is it for people to pass each other on the walking path?": "Quanto è facile passare contemporaneamente in direzioni opposte sul percorso pedonale?",
+			"#Only one person can walk at a time": "Può passare una sola persona alla volta",
+			"#Two people can pass, but one usually steps aside": "Due persone possono incrociarsi, ma una deve spostarsi di lato",
+			"#Two people can walk side by side": "Due persone possono camminare affiancate",
+			"#Small groups can pass each other": "Piccoli gruppi possono incrociarsi",
+			"#Very wide, with plenty of room to move": "Molto ampio, con molto spazio per muoversi",
+			"#Is there cycling infrastructure on this street?": "C'è uno spazio destinato alle biciclette su questa strada?",
+			"#No cycling facility": "Nessuno spazio ciclabile",
+			"#Cycling shared with other road users": "Spazio condiviso con altri veicoli",
+			"#Dedicated cycling infrastructure": "Spazio dedicato alle biciclette",
+			"#How is the cycling space separated from walking or motor traffic?": "Come è separato lo spazio ciclabile dalle persone a piedi o dal traffico motorizzato?",
+			"#Paint or road markings only": "Solo vernice o segnaletica orizzontale",
+			"#Bollards, barriers, kerbs, or planters": "Dissuasori, barriere, cordoli o fioriere",
+			"#Parked cars": "Automobili parcheggiate",
+			"#Separate from people walking, at the same level": "Separato dalle persone a piedi, allo stesso livello",
+			"#Different level or kerb from people walking": "Livello diverso o cordolo rispetto allo spazio pedonale",
+			"#Other": "Altro",
+			"#Who else commonly uses the cycling space?": "Chi altro usa abitualmente lo spazio ciclabile?",
+			"#None": "Nessuno",
+			"#Cars": "Automobili",
+			"#Motorcycles": "Motocicli",
+			"#Public transport vehicles": "Mezzi di trasporto pubblico",
+			"#People walking": "Persone a piedi",
+			"#How fast does motor traffic feel on this street?": "Quanto sembra veloce il traffico motorizzato su questa strada?",
+			"#Very slow or traffic-calmed": "Molto lento o già rallentato da interventi stradali",
+			"#Slow": "Lento",
+			"#Moderate": "Moderato",
+			"#Fast": "Veloce",
+			"#Very fast": "Molto veloce",
+			"#What makes traffic interaction difficult here?": "Quali situazioni rendono difficile interagire con il traffico?",
+			"#No clear problem": "Nessun problema evidente",
+			"#Poor visibility": "Scarsa visibilità",
+			"#Vehicles drive too fast": "Veicoli troppo veloci",
+			"#Vehicles pass too close": "Veicoli che passano troppo vicino",
+			"#Difficult turns or side access": "Svolte o accessi laterali difficili",
+			"#Double parking or stopped vehicles": "Veicoli in doppia fila o fermi",
+			"#Bus or tram interaction": "Interazione con autobus o tram",
+			"#Your experience here": "La tua esperienza qui",
+			"#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Rispondi in base alla tua esperienza. Le domande a piedi e in bicicletta compariranno in base alla tua scelta.",
+			"#Which best describes using this street segment while walking?": "Quale frase descrive meglio la tua esperienza a piedi su questo tratto di strada?",
+			"#I can pass without slowing down": "Posso passare senza rallentare",
+			"#I need to slow down a little": "Devo rallentare un po'",
+			"#I need to be careful while passing": "Devo prestare attenzione mentre passo",
+			"#I need a lot of effort or attention": "Ho bisogno di molto sforzo o attenzione",
+			"#I avoid using it if possible": "Evito questo tratto quando posso",
+			"#I don't know": "Non lo so",
+			"#How risky does it feel to use this street segment while walking?": "Quanto ti sembra rischioso usare questo tratto di strada a piedi?",
+			"#Not risky": "Per niente rischioso",
+			"#Slightly risky": "Poco rischioso",
+			"#Moderately risky": "Abbastanza rischioso",
+			"#Very risky": "Molto rischioso",
+			"#Extremely risky": "Estremamente rischioso",
+			"#How often do surface problems slow you down or make you change path while walking?": "Quanto spesso i problemi della superficie ti rallentano o ti fanno cambiare percorso mentre vai a piedi?",
+			"#Never or almost never": "Mai o quasi mai",
+			"#Rarely": "Raramente",
+			"#Sometimes": "A volte",
+			"#Often": "Spesso",
+			"#Very often": "Molto spesso",
+			"#How often do obstacles block or reduce your space while walking?": "Quanto spesso gli ostacoli bloccano o riducono il tuo spazio mentre vai a piedi?",
+			"#How often does this segment feel too crowded?": "Quanto spesso questo tratto ti sembra troppo affollato?",
+			"#How often do motor vehicles pass too close while you are walking?": "Quanto spesso i veicoli a motore passano troppo vicino mentre vai a piedi?",
+			"#Which best describes using this street segment while cycling?": "Quale frase descrive meglio la tua esperienza in bicicletta su questo tratto di strada?",
+			"#How risky does it feel to use this street segment while cycling?": "Quanto ti sembra rischioso usare questo tratto di strada in bicicletta?",
+			"#How often do surface problems slow you down or make you change path while cycling?": "Quanto spesso i problemi della superficie ti rallentano o ti fanno cambiare percorso mentre vai in bicicletta?",
+			"#How often do obstacles block or reduce your space while cycling?": "Quanto spesso gli ostacoli bloccano o riducono il tuo spazio mentre vai in bicicletta?",
+			"#How often is the cycling space shared with other people or vehicles?": "Quanto spesso lo spazio ciclabile è condiviso con altre persone o veicoli?",
+			"#How often do motor vehicles pass too close while you are cycling?": "Quanto spesso i veicoli a motore passano troppo vicino mentre vai in bicicletta?",
+			"#Improve this street segment": "Migliora questo tratto di strada",
+			"#Tell us whether improving this segment should be a priority.": "Indicaci quanto dovrebbe essere prioritario migliorare questo tratto.",
+			"#Should a walking path be added here?": "Dovrebbe essere aggiunto uno spazio per camminare?",
+			"#No": "No",
+			"#Probably no": "Probabilmente no",
+			"#Not sure": "Non saprei",
+			"#Probably yes": "Probabilmente sì",
+			"#Yes": "Sì",
+			"#Should cycling infrastructure be added here?": "Dovrebbe essere aggiunto uno spazio ciclabile?",
+			"#How urgent is it to improve this street segment?": "Quanto è urgente migliorare questo tratto di strada?",
+			"#Not urgent": "Per niente urgente",
+			"#Slightly urgent": "Poco urgente",
+			"#Moderately urgent": "Abbastanza urgente",
+			"#Urgent": "Urgente",
+			"#Very urgent": "Molto urgente",
+			"#What would improve this street segment most?": "Cosa migliorerebbe maggiormente questo tratto di strada?",
+			"#Add or widen walking space": "Aggiungere o allargare lo spazio per camminare",
+			"#Add or improve cycling infrastructure": "Aggiungere o migliorare lo spazio ciclabile",
+			"#Repair the surface": "Riparare la superficie",
+			"#Remove obstacles": "Rimuovere gli ostacoli",
+			"#Improve access for people with different mobility needs": "Migliorare l'accesso per persone con diverse esigenze di mobilità",
+			"#Improve lighting": "Migliorare l'illuminazione",
+			"#Add shade or heat protection": "Aggiungere ombra o protezione dal caldo",
+			"#Reduce vehicle speed": "Ridurre la velocità dei veicoli",
+			"#Improve separation from traffic": "Migliorare la separazione dal traffico",
+			"#Improve maintenance or cleaning": "Migliorare la manutenzione o la pulizia",
+			"#Nothing important": "Niente di importante",
+			"#Anything else you want to add?": "Vuoi aggiungere altro?",
+			"#Would you like to add a few optional details?": "Vuoi aggiungere qualche dettaglio facoltativo?",
+			"#No, finish the assessment": "No, termina la valutazione",
+			"#Yes, add optional details": "Sì, aggiungi dettagli facoltativi",
+			"#Optional details": "Dettagli facoltativi",
+			"#These questions are optional and help us understand what should be improved.": "Queste domande sono facoltative e aiutano a capire cosa migliorare.",
+			"#If there is a raised sidewalk, how is it protected from traffic?": "Se c'è un marciapiede rialzato, come è protetto dal traffico?",
+			"#Raised only, no extra protection": "Solo rialzato, senza altre protezioni",
+			"#Bollards": "Dissuasori",
+			"#Guard rails or fencing": "Guardrail o recinzione",
+			"#Planted strip, bushes, or planters": "Fascia verde, cespugli o fioriere",
+			"#If the walking area is at road level, how is it separated from traffic?": "Se lo spazio pedonale è a livello strada, come è separato dal traffico?",
+			"#Road markings or paint only": "Solo segnaletica orizzontale o vernice",
+			"#Guard rail or barrier": "Guardrail o barriera",
+			"#Does this walking path include stairs?": "Questo percorso pedonale comprende delle scale?",
+			"#How many steps are there?": "Quanti gradini ci sono?",
+			"#A few steps, up to about 10": "Pochi gradini, fino a circa 10",
+			"#About 11–20 steps": "Circa 11–20 gradini",
+			"#More than 20 steps": "Più di 20 gradini",
+			"#What problems affect the walking surface?": "Quali problemi presenta la superficie del percorso pedonale?",
+			"#Uneven surface": "Superficie irregolare",
+			"#Cracks": "Crepe",
+			"#Potholes": "Buche",
+			"#Raised edges or bumps": "Bordi rialzati o dossi",
+			"#Tree roots": "Radici degli alberi",
+			"#Side slope feels uncomfortable": "Pendenza laterale scomoda",
+			"#Steps or sudden level changes": "Gradini o cambi di quota improvvisi",
+			"#Slippery when wet": "Scivolosa quando è bagnata",
+			"#Water collects after rain": "Accumuli d'acqua dopo la pioggia",
+			"#What obstacles reduce the walking space?": "Quali ostacoli riducono lo spazio per camminare?",
+			"#No clear obstacle": "Nessun ostacolo evidente",
+			"#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Biciclette, monopattini o motocicli parcheggiati sul marciapiede",
+			"#Trees, poles, signs, or utility boxes": "Alberi, pali, cartelli o centraline",
+			"#Overgrown plants or weeds": "Vegetazione o erbacce non curate",
+			"#Outdoor café or restaurant seating": "Tavoli esterni di bar o ristoranti",
+			"#Shop displays or street vendors": "Espositori di negozi o venditori ambulanti",
+			"#Waste bins or rubbish bags": "Cassonetti o sacchi dei rifiuti",
+			"#Dog waste": "Deiezioni canine",
+			"#Construction works": "Lavori in corso",
+			"#People waiting in queues": "Persone in attesa o in coda",
+			"#Flooded areas after rain": "Zone allagate dopo la pioggia",
+			"#Which accessibility features are available?": "Quali elementi di accessibilità sono presenti?",
+			"#Suitable for wheelchair users": "Adatto a persone che usano una sedia a rotelle",
+			"#Suitable for strollers": "Adatto al passaggio con passeggini",
+			"#Tactile paving for blind or visually impaired people": "Percorso tattile per persone cieche o ipovedenti",
+			"#Benches or resting places": "Panchine o punti di riposo",
+			"#Is the cycling infrastructure one-way or two-way?": "Lo spazio ciclabile è a senso unico o a doppio senso?",
+			"#One-way cycling facility": "Spazio ciclabile a senso unico",
+			"#Two-way cycling facility": "Spazio ciclabile a doppio senso",
+			"#What surface does the cycling infrastructure have?": "Che tipo di superficie ha lo spazio ciclabile?",
+			"#Smooth asphalt": "Asfalto liscio",
+			"#Standard road asphalt": "Asfalto stradale comune",
+			"#Concrete": "Calcestruzzo",
+			"#Blocks or tiles": "Masselli o piastrelle",
+			"#Cobblestones": "Pavé o ciottoli",
+			"#Compacted gravel or crushed stone": "Ghiaia o pietrisco compattato",
+			"#Mixed surface types": "Superfici di tipo diverso",
+			"#Other or unclear": "Altro o non riconoscibile",
+			"#What problems affect cycling comfort?": "Quali problemi rendono meno confortevole l'uso della bicicletta?",
+			"#Loose gravel or debris": "Ghiaia o detriti mobili",
+			"#Sudden level changes": "Cambi di quota improvvisi",
+			"#Uncomfortable vibration": "Vibrazioni scomode",
+			"#What obstacles make cycling difficult?": "Quali ostacoli rendono difficile passare in bicicletta?",
+			"#Narrow sections": "Tratti stretti",
+			"#Vehicles stopping in the cycle lane": "Veicoli fermi nello spazio ciclabile",
+			"#E-scooters, bicycles, or motorcycles parked on the facility": "Monopattini, biciclette o motocicli parcheggiati nello spazio ciclabile",
+			"#Public transport stop or people waiting": "Fermata del trasporto pubblico o persone in attesa",
+			"#How many places are there where motor vehicles cross or enter the cycling space?": "Quanti punti ci sono in cui i veicoli a motore attraversano o entrano nello spazio ciclabile?",
+			"#One": "Uno",
+			"#Two or three": "Due o tre",
+			"#Four or five": "Quattro o cinque",
+			"#Six or more": "Sei o più",
+			"#I cannot tell": "Non riesco a stabilirlo"
+		},
+		"fr": {
+			"#Your point of view": "Votre point de vue",
+			"#Select walking, cycling, or both. Questions will adapt to your selection.": "Sélectionnez la marche, le vélo ou les deux. Les questions s’adapteront à votre sélection.",
+			"#How are you assessing this place today?": "De quel point de vue évaluez-vous ce lieu aujourd’hui ?",
+			"#Person walking or rolling": "Personne à pied ou se déplaçant avec une aide à la mobilité",
+			"#Person cycling": "Personne à vélo",
+			"#Which of these describe your trip today?": "Lesquelles de ces situations décrivent votre trajet aujourd’hui ?",
+			"#Connecting to or from public transport": "Correspondance avec les transports en commun",
+			"#Connecting to or from a parked car": "Trajet depuis ou vers une voiture stationnée",
+			"#Connecting to or from bicycle parking": "Trajet depuis ou vers un stationnement pour vélos",
+			"#Using a wheelchair or mobility aid": "Utilisation d’un fauteuil roulant ou d’une aide à la mobilité",
+			"#Travelling with a stroller": "Déplacement avec une poussette",
+			"#None of these": "Aucun de ces éléments",
+			"#How often do you use or pass this street segment?": "À quelle fréquence utilisez-vous ou empruntez-vous ce tronçon de rue ?",
+			"#This is my first time": "C’est la première fois",
+			"#Less than once a month": "Moins d’une fois par mois",
+			"#A few times a month": "Quelques fois par mois",
+			"#A few times a week": "Quelques fois par semaine",
+			"#Almost every day": "Presque tous les jours",
+			"#Describe this street segment": "Décrivez ce tronçon de rue",
+			"#Look at the place. Answer only what you can see.": "Observez le lieu. Répondez uniquement à ce que vous pouvez voir.",
+			"#Is there a place for people to walk along this street?": "Y a-t-il un espace où les personnes peuvent marcher le long de cette rue ?",
+			"#No walking space – people must walk on the road": "Aucun espace piéton : il faut marcher sur la chaussée",
+			"#Road shoulder available for walking": "Accotement disponible pour marcher",
+			"#Shared walking and cycling path": "Chemin partagé pour la marche et le vélo",
+			"#Walking area at the same level as the road": "Espace piéton au même niveau que la chaussée",
+			"#Raised sidewalk": "Trottoir surélevé",
+			"#Dedicated walking street or area": "Rue ou zone réservée aux piétons",
+			"#How easy is it for people to pass each other on the walking path?": "Est-il facile de se croiser sur le chemin piéton ?",
+			"#Only one person can walk at a time": "Une seule personne peut passer à la fois",
+			"#Two people can pass, but one usually steps aside": "Deux personnes peuvent se croiser, mais l’une doit généralement s’écarter",
+			"#Two people can walk side by side": "Deux personnes peuvent marcher côte à côte",
+			"#Small groups can pass each other": "De petits groupes peuvent se croiser",
+			"#Very wide, with plenty of room to move": "Très large, avec beaucoup d’espace pour se déplacer",
+			"#Is there cycling infrastructure on this street?": "Y a-t-il un aménagement cyclable dans cette rue ?",
+			"#No cycling facility": "Aucun aménagement cyclable",
+			"#Cycling shared with other road users": "Espace cyclable partagé avec d’autres usagers de la route",
+			"#Dedicated cycling infrastructure": "Aménagement cyclable réservé",
+			"#How is the cycling space separated from walking or motor traffic?": "Comment l’espace cyclable est-il séparé des piétons ou de la circulation motorisée ?",
+			"#Paint or road markings only": "Peinture ou marquages au sol uniquement",
+			"#Bollards, barriers, kerbs, or planters": "Potelets, barrières, bordures ou jardinières",
+			"#Parked cars": "Voitures stationnées",
+			"#Separate from people walking, at the same level": "Séparé des piétons, au même niveau",
+			"#Different level or kerb from people walking": "Niveau différent ou bordure par rapport aux piétons",
+			"#Other": "Autre",
+			"#Who else commonly uses the cycling space?": "Qui d’autre utilise couramment l’espace cyclable ?",
+			"#None": "Aucun",
+			"#Cars": "Voitures",
+			"#Motorcycles": "Motos et scooters",
+			"#Public transport vehicles": "Véhicules de transport en commun",
+			"#People walking": "Personnes à pied",
+			"#How fast does motor traffic feel on this street?": "À quelle vitesse la circulation motorisée semble-t-elle rouler dans cette rue ?",
+			"#Very slow or traffic-calmed": "Très lente ou apaisée",
+			"#Slow": "Lente",
+			"#Moderate": "Modérée",
+			"#Fast": "Rapide",
+			"#Very fast": "Très rapide",
+			"#What makes traffic interaction difficult here?": "Qu’est-ce qui rend l’interaction avec la circulation difficile ici ?",
+			"#No clear problem": "Aucun problème évident",
+			"#Poor visibility": "Mauvaise visibilité",
+			"#Vehicles drive too fast": "Les véhicules roulent trop vite",
+			"#Vehicles pass too close": "Les véhicules passent trop près",
+			"#Difficult turns or side access": "Virages ou accès latéraux difficiles",
+			"#Double parking or stopped vehicles": "Double stationnement ou véhicules arrêtés",
+			"#Bus or tram interaction": "Interaction avec un bus ou un tram",
+			"#Your experience here": "Votre expérience ici",
+			"#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Répondez selon votre expérience. Les questions sur la marche et le vélo apparaissent selon votre sélection.",
+			"#Which best describes using this street segment while walking?": "Quelle phrase décrit le mieux l’utilisation de ce tronçon à pied ?",
+			"#I can pass without slowing down": "Je peux passer sans ralentir",
+			"#I need to slow down a little": "Je dois ralentir un peu",
+			"#I need to be careful while passing": "Je dois faire attention en passant",
+			"#I need a lot of effort or attention": "Cela me demande beaucoup d’effort ou d’attention",
+			"#I avoid using it if possible": "J’évite de l’utiliser si possible",
+			"#I don't know": "Je ne sais pas",
+			"#How risky does it feel to use this street segment while walking?": "À quel point ce tronçon vous semble-t-il risqué à pied ?",
+			"#Not risky": "Pas risqué",
+			"#Slightly risky": "Légèrement risqué",
+			"#Moderately risky": "Modérément risqué",
+			"#Very risky": "Très risqué",
+			"#Extremely risky": "Extrêmement risqué",
+			"#How often do surface problems slow you down or make you change path while walking?": "À quelle fréquence les problèmes de surface vous ralentissent-ils ou vous obligent-ils à changer de chemin à pied ?",
+			"#Never or almost never": "Jamais ou presque jamais",
+			"#Rarely": "Rarement",
+			"#Sometimes": "Parfois",
+			"#Often": "Souvent",
+			"#Very often": "Très souvent",
+			"#How often do obstacles block or reduce your space while walking?": "À quelle fréquence des obstacles bloquent-ils ou réduisent-ils votre espace à pied ?",
+			"#How often does this segment feel too crowded?": "À quelle fréquence ce tronçon vous semble-t-il trop encombré ?",
+			"#How often do motor vehicles pass too close while you are walking?": "À quelle fréquence des véhicules motorisés passent-ils trop près de vous lorsque vous marchez ?",
+			"#Which best describes using this street segment while cycling?": "Quelle phrase décrit le mieux l’utilisation de ce tronçon à vélo ?",
+			"#How risky does it feel to use this street segment while cycling?": "À quel point ce tronçon vous semble-t-il risqué à vélo ?",
+			"#How often do surface problems slow you down or make you change path while cycling?": "À quelle fréquence les problèmes de surface vous ralentissent-ils ou vous obligent-ils à changer de trajectoire à vélo ?",
+			"#How often do obstacles block or reduce your space while cycling?": "À quelle fréquence des obstacles bloquent-ils ou réduisent-ils votre espace à vélo ?",
+			"#How often is the cycling space shared with other people or vehicles?": "À quelle fréquence l’espace cyclable est-il partagé avec d’autres personnes ou véhicules ?",
+			"#How often do motor vehicles pass too close while you are cycling?": "À quelle fréquence des véhicules motorisés passent-ils trop près de vous lorsque vous êtes à vélo ?",
+			"#Improve this street segment": "Améliorer ce tronçon de rue",
+			"#Tell us whether improving this segment should be a priority.": "Indiquez-nous si l’amélioration de ce tronçon devrait être prioritaire.",
+			"#Should a walking path be added here?": "Faut-il ajouter un chemin piéton ici ?",
+			"#No": "Non",
+			"#Probably no": "Probablement pas",
+			"#Not sure": "Je ne sais pas",
+			"#Probably yes": "Probablement oui",
+			"#Yes": "Oui",
+			"#Should cycling infrastructure be added here?": "Faut-il ajouter un aménagement cyclable ici ?",
+			"#How urgent is it to improve this street segment?": "À quel point est-il urgent d’améliorer ce tronçon de rue ?",
+			"#Not urgent": "Pas urgent",
+			"#Slightly urgent": "Peu urgent",
+			"#Moderately urgent": "Modérément urgent",
+			"#Urgent": "Urgent",
+			"#Very urgent": "Très urgent",
+			"#What would improve this street segment most?": "Qu’est-ce qui améliorerait le plus ce tronçon de rue ?",
+			"#Add or widen walking space": "Ajouter ou élargir l’espace piéton",
+			"#Add or improve cycling infrastructure": "Ajouter ou améliorer l’aménagement cyclable",
+			"#Repair the surface": "Réparer la surface",
+			"#Remove obstacles": "Retirer les obstacles",
+			"#Improve access for people with different mobility needs": "Améliorer l’accès pour les personnes ayant différents besoins de mobilité",
+			"#Improve lighting": "Améliorer l’éclairage",
+			"#Add shade or heat protection": "Ajouter de l’ombre ou une protection contre la chaleur",
+			"#Reduce vehicle speed": "Réduire la vitesse des véhicules",
+			"#Improve separation from traffic": "Améliorer la séparation avec la circulation",
+			"#Improve maintenance or cleaning": "Améliorer l’entretien ou le nettoyage",
+			"#Nothing important": "Rien d’important",
+			"#Anything else you want to add?": "Souhaitez-vous ajouter autre chose ?",
+			"#Would you like to add a few optional details?": "Souhaitez-vous ajouter quelques détails facultatifs ?",
+			"#No, finish the assessment": "Non, terminer l’évaluation",
+			"#Yes, add optional details": "Oui, ajouter des détails facultatifs",
+			"#Optional details": "Détails facultatifs",
+			"#These questions are optional and help us understand what should be improved.": "Ces questions sont facultatives et nous aident à comprendre ce qui devrait être amélioré.",
+			"#If there is a raised sidewalk, how is it protected from traffic?": "S’il y a un trottoir surélevé, comment est-il protégé de la circulation ?",
+			"#Raised only, no extra protection": "Surélevé uniquement, sans protection supplémentaire",
+			"#Bollards": "Potelets",
+			"#Guard rails or fencing": "Glissières ou clôtures",
+			"#Planted strip, bushes, or planters": "Bande plantée, arbustes ou jardinières",
+			"#If the walking area is at road level, how is it separated from traffic?": "Si l’espace piéton est au niveau de la chaussée, comment est-il séparé de la circulation ?",
+			"#Road markings or paint only": "Marquages routiers ou peinture uniquement",
+			"#Guard rail or barrier": "Garde-corps ou barrière",
+			"#Does this walking path include stairs?": "Ce chemin piéton comprend-il des escaliers ?",
+			"#How many steps are there?": "Combien y a-t-il de marches ?",
+			"#A few steps, up to about 10": "Quelques marches, jusqu’à environ 10",
+			"#About 11–20 steps": "Environ 11 à 20 marches",
+			"#More than 20 steps": "Plus de 20 marches",
+			"#What problems affect the walking surface?": "Quels problèmes affectent la surface piétonne ?",
+			"#Uneven surface": "Surface irrégulière",
+			"#Cracks": "Fissures",
+			"#Potholes": "Nids-de-poule",
+			"#Raised edges or bumps": "Bords surélevés ou bosses",
+			"#Tree roots": "Racines d'arbres",
+			"#Side slope feels uncomfortable": "La pente transversale est inconfortable",
+			"#Steps or sudden level changes": "Marches ou changements brusques de niveau",
+			"#Slippery when wet": "Glissant lorsqu'il est mouillé",
+			"#Water collects after rain": "L'eau s'accumule après la pluie",
+			"#What obstacles reduce the walking space?": "Quels obstacles réduisent l’espace piéton ?",
+			"#No clear obstacle": "Aucun obstacle évident",
+			"#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Vélos, trottinettes ou motos stationnés sur le trottoir",
+			"#Trees, poles, signs, or utility boxes": "Arbres, poteaux, panneaux ou boîtiers techniques",
+			"#Overgrown plants or weeds": "Plantes ou mauvaises herbes envahissantes",
+			"#Outdoor café or restaurant seating": "Terrasses de cafés ou de restaurants",
+			"#Shop displays or street vendors": "Étalages de magasins ou vendeurs ambulants",
+			"#Waste bins or rubbish bags": "Poubelles ou sacs de déchets",
+			"#Dog waste": "Déjections canines",
+			"#Construction works": "Travaux en cours",
+			"#People waiting in queues": "Personnes faisant la queue",
+			"#Flooded areas after rain": "Zones inondées après la pluie",
+			"#Which accessibility features are available?": "Quels équipements d’accessibilité sont disponibles ?",
+			"#Suitable for wheelchair users": "Adapté aux personnes en fauteuil roulant",
+			"#Suitable for strollers": "Adapté aux poussettes",
+			"#Tactile paving for blind or visually impaired people": "Bande d’éveil à la vigilance pour les personnes aveugles ou malvoyantes",
+			"#Benches or resting places": "Bancs ou espaces de repos",
+			"#Is the cycling infrastructure one-way or two-way?": "L'aménagement cyclable est-il à sens unique ou à double sens ?",
+			"#One-way cycling facility": "Aménagement cyclable à sens unique",
+			"#Two-way cycling facility": "Aménagement cyclable à double sens",
+			"#What surface does the cycling infrastructure have?": "Quel est le revêtement de l’aménagement cyclable ?",
+			"#Smooth asphalt": "Asphalte lisse",
+			"#Standard road asphalt": "Asphalte routier standard",
+			"#Concrete": "Béton",
+			"#Blocks or tiles": "Pavés ou dalles",
+			"#Cobblestones": "Pavés en pierre",
+			"#Compacted gravel or crushed stone": "Gravier compacté ou pierre concassée",
+			"#Mixed surface types": "Revêtements mixtes",
+			"#Other or unclear": "Autre ou peu clair",
+			"#What problems affect cycling comfort?": "Quels problèmes nuisent au confort à vélo ?",
+			"#Loose gravel or debris": "Gravier ou débris au sol",
+			"#Sudden level changes": "Changements brusques de niveau",
+			"#Uncomfortable vibration": "Vibrations inconfortables",
+			"#What obstacles make cycling difficult?": "Quels obstacles rendent la circulation à vélo difficile ?",
+			"#Narrow sections": "Sections étroites",
+			"#Vehicles stopping in the cycle lane": "Véhicules arrêtés sur la piste/bande cyclable",
+			"#E-scooters, bicycles, or motorcycles parked on the facility": "Trottinettes électriques, vélos ou motos stationnés sur l’aménagement",
+			"#Public transport stop or people waiting": "Arrêt de transport en commun ou personnes en attente",
+			"#How many places are there where motor vehicles cross or enter the cycling space?": "Combien d’endroits permettent aux véhicules motorisés de traverser ou d’entrer dans l’espace cyclable ?",
+			"#One": "Un",
+			"#Two or three": "Deux ou trois",
+			"#Four or five": "Quatre ou cinq",
+			"#Six or more": "Six ou plus",
+			"#I cannot tell": "Je ne peux pas le déterminer"
+		},
+		"de": {
+			"#Your point of view": "Ihre Perspektive",
+			"#Select walking, cycling, or both. Questions will adapt to your selection.": "Wählen Sie zu Fuß, mit dem Fahrrad oder beides. Die Fragen passen sich Ihrer Auswahl an.",
+			"#How are you assessing this place today?": "Aus welcher Perspektive bewerten Sie diesen Ort heute?",
+			"#Person walking or rolling": "Person zu Fuß oder mit Mobilitätshilfe",
+			"#Person cycling": "Person mit dem Fahrrad",
+			"#Which of these describe your trip today?": "Welche dieser Situationen beschreiben Ihren heutigen Weg?",
+			"#Connecting to or from public transport": "Umstieg zu oder von öffentlichen Verkehrsmitteln",
+			"#Connecting to or from a parked car": "Weg zu oder von einem geparkten Auto",
+			"#Connecting to or from bicycle parking": "Weg zu oder von einem Fahrradabstellplatz",
+			"#Using a wheelchair or mobility aid": "Nutzung eines Rollstuhls oder einer Mobilitätshilfe",
+			"#Travelling with a stroller": "Unterwegs mit einem Kinderwagen",
+			"#None of these": "Keine davon",
+			"#How often do you use or pass this street segment?": "Wie oft nutzen oder passieren Sie diesen Straßenabschnitt?",
+			"#This is my first time": "Das ist mein erstes Mal",
+			"#Less than once a month": "Weniger als einmal im Monat",
+			"#A few times a month": "Einige Male im Monat",
+			"#A few times a week": "Einige Male pro Woche",
+			"#Almost every day": "Fast jeden Tag",
+			"#Describe this street segment": "Diesen Straßenabschnitt beschreiben",
+			"#Look at the place. Answer only what you can see.": "Sehen Sie sich den Ort an. Beantworten Sie nur, was Sie sehen können.",
+			"#Is there a place for people to walk along this street?": "Gibt es entlang dieser Straße einen Bereich zum Gehen?",
+			"#No walking space – people must walk on the road": "Kein Gehbereich – Personen müssen auf der Fahrbahn gehen",
+			"#Road shoulder available for walking": "Straßenrand/Seitenstreifen zum Gehen vorhanden",
+			"#Shared walking and cycling path": "Gemeinsamer Geh- und Radweg",
+			"#Walking area at the same level as the road": "Gehbereich auf gleicher Höhe wie die Fahrbahn",
+			"#Raised sidewalk": "Erhöhter Gehweg",
+			"#Dedicated walking street or area": "Eigene Fußgängerstraße oder eigener Fußgängerbereich",
+			"#How easy is it for people to pass each other on the walking path?": "Wie leicht können sich Personen auf dem Gehweg begegnen?",
+			"#Only one person can walk at a time": "Nur eine Person kann gleichzeitig gehen",
+			"#Two people can pass, but one usually steps aside": "Zwei Personen können aneinander vorbeigehen, aber eine muss meist ausweichen",
+			"#Two people can walk side by side": "Zwei Personen können nebeneinander gehen",
+			"#Small groups can pass each other": "Kleine Gruppen können aneinander vorbeigehen",
+			"#Very wide, with plenty of room to move": "Sehr breit, mit viel Bewegungsraum",
+			"#Is there cycling infrastructure on this street?": "Gibt es in dieser Straße Radinfrastruktur?",
+			"#No cycling facility": "Keine Radinfrastruktur",
+			"#Cycling shared with other road users": "Radverkehr gemeinsam mit anderen Verkehrsteilnehmenden",
+			"#Dedicated cycling infrastructure": "Eigene Radinfrastruktur",
+			"#How is the cycling space separated from walking or motor traffic?": "Wie ist der Radbereich vom Fuß- oder Kraftfahrzeugverkehr getrennt?",
+			"#Paint or road markings only": "Nur Farbe oder Fahrbahnmarkierungen",
+			"#Bollards, barriers, kerbs, or planters": "Poller, Barrieren, Bordsteine oder Pflanzkübel",
+			"#Parked cars": "Geparkte Autos",
+			"#Separate from people walking, at the same level": "Vom Fußverkehr getrennt, auf gleicher Höhe",
+			"#Different level or kerb from people walking": "Andere Höhe oder Bordstein gegenüber dem Fußverkehr",
+			"#Other": "Sonstiges",
+			"#Who else commonly uses the cycling space?": "Wer nutzt den Radbereich sonst noch häufig?",
+			"#None": "Keine",
+			"#Cars": "Autos",
+			"#Motorcycles": "Motorräder",
+			"#Public transport vehicles": "Fahrzeuge des öffentlichen Verkehrs",
+			"#People walking": "Personen zu Fuß",
+			"#How fast does motor traffic feel on this street?": "Wie schnell fühlt sich der Kraftfahrzeugverkehr auf dieser Straße an?",
+			"#Very slow or traffic-calmed": "Sehr langsam oder verkehrsberuhigt",
+			"#Slow": "Langsam",
+			"#Moderate": "Mittel",
+			"#Fast": "Schnell",
+			"#Very fast": "Sehr schnell",
+			"#What makes traffic interaction difficult here?": "Was erschwert hier die Interaktion mit dem Verkehr?",
+			"#No clear problem": "Kein eindeutiges Problem",
+			"#Poor visibility": "Schlechte Sicht",
+			"#Vehicles drive too fast": "Fahrzeuge fahren zu schnell",
+			"#Vehicles pass too close": "Fahrzeuge fahren zu dicht vorbei",
+			"#Difficult turns or side access": "Schwierige Kurven oder seitliche Zufahrten",
+			"#Double parking or stopped vehicles": "Parken in zweiter Reihe oder haltende Fahrzeuge",
+			"#Bus or tram interaction": "Interaktion mit Bus oder Straßenbahn",
+			"#Your experience here": "Ihre Erfahrung hier",
+			"#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Antworten Sie aus eigener Erfahrung. Fragen zum Gehen und Radfahren erscheinen entsprechend Ihrer Auswahl.",
+			"#Which best describes using this street segment while walking?": "Welche Aussage beschreibt die Nutzung dieses Straßenabschnitts zu Fuß am besten?",
+			"#I can pass without slowing down": "Ich kann passieren, ohne langsamer zu werden",
+			"#I need to slow down a little": "Ich muss etwas langsamer werden",
+			"#I need to be careful while passing": "Ich muss beim Passieren vorsichtig sein",
+			"#I need a lot of effort or attention": "Ich brauche viel Kraft oder Aufmerksamkeit",
+			"#I avoid using it if possible": "Ich vermeide die Nutzung, wenn möglich",
+			"#I don't know": "Ich weiß es nicht",
+			"#How risky does it feel to use this street segment while walking?": "Wie riskant fühlt sich dieser Straßenabschnitt zu Fuß an?",
+			"#Not risky": "Nicht riskant",
+			"#Slightly risky": "Etwas riskant",
+			"#Moderately risky": "Mäßig riskant",
+			"#Very risky": "Sehr riskant",
+			"#Extremely risky": "Extrem riskant",
+			"#How often do surface problems slow you down or make you change path while walking?": "Wie oft bremsen Oberflächenprobleme Sie beim Gehen oder zwingen Sie zu einem anderen Weg?",
+			"#Never or almost never": "Nie oder fast nie",
+			"#Rarely": "Selten",
+			"#Sometimes": "Manchmal",
+			"#Often": "Oft",
+			"#Very often": "Sehr oft",
+			"#How often do obstacles block or reduce your space while walking?": "Wie oft blockieren oder verringern Hindernisse Ihren Platz beim Gehen?",
+			"#How often does this segment feel too crowded?": "Wie oft fühlt sich dieser Abschnitt zu voll an?",
+			"#How often do motor vehicles pass too close while you are walking?": "Wie oft fahren Kraftfahrzeuge beim Gehen zu dicht an Ihnen vorbei?",
+			"#Which best describes using this street segment while cycling?": "Welche Aussage beschreibt die Nutzung dieses Straßenabschnitts mit dem Fahrrad am besten?",
+			"#How risky does it feel to use this street segment while cycling?": "Wie riskant fühlt sich dieser Straßenabschnitt mit dem Fahrrad an?",
+			"#How often do surface problems slow you down or make you change path while cycling?": "Wie oft bremsen Oberflächenprobleme Sie beim Radfahren oder zwingen Sie zu einer anderen Strecke?",
+			"#How often do obstacles block or reduce your space while cycling?": "Wie oft blockieren oder verringern Hindernisse Ihren Platz beim Radfahren?",
+			"#How often is the cycling space shared with other people or vehicles?": "Wie oft wird der Radbereich mit anderen Personen oder Fahrzeugen geteilt?",
+			"#How often do motor vehicles pass too close while you are cycling?": "Wie oft fahren Kraftfahrzeuge beim Radfahren zu dicht an Ihnen vorbei?",
+			"#Improve this street segment": "Diesen Straßenabschnitt verbessern",
+			"#Tell us whether improving this segment should be a priority.": "Sagen Sie uns, ob die Verbesserung dieses Abschnitts Vorrang haben sollte.",
+			"#Should a walking path be added here?": "Sollte hier ein Gehweg angelegt werden?",
+			"#No": "Nein",
+			"#Probably no": "Eher nein",
+			"#Not sure": "Nicht sicher",
+			"#Probably yes": "Eher ja",
+			"#Yes": "Ja",
+			"#Should cycling infrastructure be added here?": "Sollte hier Radinfrastruktur angelegt werden?",
+			"#How urgent is it to improve this street segment?": "Wie dringend sollte dieser Straßenabschnitt verbessert werden?",
+			"#Not urgent": "Nicht dringend",
+			"#Slightly urgent": "Wenig dringend",
+			"#Moderately urgent": "Mäßig dringend",
+			"#Urgent": "Dringend",
+			"#Very urgent": "Sehr dringend",
+			"#What would improve this street segment most?": "Was würde diesen Straßenabschnitt am meisten verbessern?",
+			"#Add or widen walking space": "Gehbereich anlegen oder verbreitern",
+			"#Add or improve cycling infrastructure": "Radinfrastruktur anlegen oder verbessern",
+			"#Repair the surface": "Oberfläche reparieren",
+			"#Remove obstacles": "Hindernisse entfernen",
+			"#Improve access for people with different mobility needs": "Zugang für Personen mit unterschiedlichen Mobilitätsbedürfnissen verbessern",
+			"#Improve lighting": "Beleuchtung verbessern",
+			"#Add shade or heat protection": "Schatten oder Hitzeschutz schaffen",
+			"#Reduce vehicle speed": "Fahrzeuggeschwindigkeit reduzieren",
+			"#Improve separation from traffic": "Trennung vom Verkehr verbessern",
+			"#Improve maintenance or cleaning": "Wartung oder Reinigung verbessern",
+			"#Nothing important": "Nichts Wesentliches",
+			"#Anything else you want to add?": "Möchten Sie noch etwas hinzufügen?",
+			"#Would you like to add a few optional details?": "Möchten Sie einige optionale Details hinzufügen?",
+			"#No, finish the assessment": "Nein, Bewertung abschließen",
+			"#Yes, add optional details": "Ja, optionale Details hinzufügen",
+			"#Optional details": "Optionale Details",
+			"#These questions are optional and help us understand what should be improved.": "Diese Fragen sind optional und helfen uns zu verstehen, was verbessert werden sollte.",
+			"#If there is a raised sidewalk, how is it protected from traffic?": "Wie ist ein erhöhter Gehweg vom Verkehr geschützt?",
+			"#Raised only, no extra protection": "Nur erhöht, ohne zusätzlichen Schutz",
+			"#Bollards": "Poller",
+			"#Guard rails or fencing": "Schutzgeländer oder Zäune",
+			"#Planted strip, bushes, or planters": "Bepflanzter Streifen, Büsche oder Pflanzkübel",
+			"#If the walking area is at road level, how is it separated from traffic?": "Wie ist ein Gehbereich auf Fahrbahnniveau vom Verkehr getrennt?",
+			"#Road markings or paint only": "Nur Fahrbahnmarkierungen oder Farbe",
+			"#Guard rail or barrier": "Leitplanke oder Barriere",
+			"#Does this walking path include stairs?": "Enthält dieser Gehweg Treppen?",
+			"#How many steps are there?": "Wie viele Stufen gibt es?",
+			"#A few steps, up to about 10": "Einige Stufen, bis etwa 10",
+			"#About 11–20 steps": "Etwa 11–20 Stufen",
+			"#More than 20 steps": "Mehr als 20 Stufen",
+			"#What problems affect the walking surface?": "Welche Probleme betreffen die Gehoberfläche?",
+			"#Uneven surface": "Unebene Oberfläche",
+			"#Cracks": "Risse",
+			"#Potholes": "Schlaglöcher",
+			"#Raised edges or bumps": "Erhöhte Kanten oder Unebenheiten",
+			"#Tree roots": "Baumwurzeln",
+			"#Side slope feels uncomfortable": "Die Querneigung fühlt sich unangenehm an",
+			"#Steps or sudden level changes": "Stufen oder plötzliche Höhenunterschiede",
+			"#Slippery when wet": "Bei Nässe rutschig",
+			"#Water collects after rain": "Nach Regen sammelt sich Wasser",
+			"#What obstacles reduce the walking space?": "Welche Hindernisse verringern den Gehbereich?",
+			"#No clear obstacle": "Kein eindeutiges Hindernis",
+			"#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Fahrräder, E-Scooter oder Motorräder auf dem Gehweg geparkt",
+			"#Trees, poles, signs, or utility boxes": "Bäume, Pfosten, Schilder oder Versorgungskästen",
+			"#Overgrown plants or weeds": "Überwachsene Pflanzen oder Unkraut",
+			"#Outdoor café or restaurant seating": "Außensitzplätze von Cafés oder Restaurants",
+			"#Shop displays or street vendors": "Warenauslagen oder Straßenverkauf",
+			"#Waste bins or rubbish bags": "Mülltonnen oder Müllsäcke",
+			"#Dog waste": "Hundekot",
+			"#Construction works": "Baustellen",
+			"#People waiting in queues": "Wartende Personen in Schlangen",
+			"#Flooded areas after rain": "Überflutete Bereiche nach Regen",
+			"#Which accessibility features are available?": "Welche barrierefreien Einrichtungen sind vorhanden?",
+			"#Suitable for wheelchair users": "Für Rollstuhlnutzer geeignet",
+			"#Suitable for strollers": "Für Kinderwagen geeignet",
+			"#Tactile paving for blind or visually impaired people": "Taktile Leitelemente für blinde oder sehbehinderte Personen",
+			"#Benches or resting places": "Bänke oder Rastplätze",
+			"#Is the cycling infrastructure one-way or two-way?": "Ist die Radinfrastruktur ein- oder zweirichtungsgeführt?",
+			"#One-way cycling facility": "Einrichtungs-Radinfrastruktur",
+			"#Two-way cycling facility": "Zweirichtungs-Radinfrastruktur",
+			"#What surface does the cycling infrastructure have?": "Welchen Belag hat die Radinfrastruktur?",
+			"#Smooth asphalt": "Glatter Asphalt",
+			"#Standard road asphalt": "Normaler Straßenasphalt",
+			"#Concrete": "Beton",
+			"#Blocks or tiles": "Pflastersteine oder Platten",
+			"#Cobblestones": "Kopfsteinpflaster",
+			"#Compacted gravel or crushed stone": "Verdichteter Kies oder Schotter",
+			"#Mixed surface types": "Gemischte Oberflächen",
+			"#Other or unclear": "Anderer oder unklarer Belag",
+			"#What problems affect cycling comfort?": "Welche Probleme beeinträchtigen den Fahrkomfort?",
+			"#Loose gravel or debris": "Loser Kies oder Schutt",
+			"#Sudden level changes": "Plötzliche Höhenunterschiede",
+			"#Uncomfortable vibration": "Unangenehme Vibrationen",
+			"#What obstacles make cycling difficult?": "Welche Hindernisse erschweren das Radfahren?",
+			"#Narrow sections": "Enge Abschnitte",
+			"#Vehicles stopping in the cycle lane": "Fahrzeuge, die im Radweg halten",
+			"#E-scooters, bicycles, or motorcycles parked on the facility": "E-Scooter, Fahrräder oder Motorräder auf der Anlage abgestellt",
+			"#Public transport stop or people waiting": "Haltestelle des öffentlichen Verkehrs oder wartende Personen",
+			"#How many places are there where motor vehicles cross or enter the cycling space?": "An wie vielen Stellen kreuzen Kraftfahrzeuge den Radbereich oder fahren hinein?",
+			"#One": "Eine",
+			"#Two or three": "Zwei oder drei",
+			"#Four or five": "Vier oder fünf",
+			"#Six or more": "Sechs oder mehr",
+			"#I cannot tell": "Ich kann es nicht beurteilen"
+		},
+		"tr": {
+			"#Your point of view": "Bakış açınız",
+			"#Select walking, cycling, or both. Questions will adapt to your selection.": "Yürümeyi, bisiklete binmeyi veya her ikisini seçin. Sorular seçiminize göre uyarlanacaktır.",
+			"#How are you assessing this place today?": "Bugün bu yeri hangi açıdan değerlendiriyorsunuz?",
+			"#Person walking or rolling": "Yürüyen veya hareketlilik desteğiyle ilerleyen kişi",
+			"#Person cycling": "Bisiklet süren kişi",
+			"#Which of these describe your trip today?": "Bunlardan hangileri bugünkü yolculuğunuzu tanımlıyor?",
+			"#Connecting to or from public transport": "Toplu taşımaya veya toplu taşımadan bağlantı",
+			"#Connecting to or from a parked car": "Park edilmiş bir araca veya araçtan bağlantı",
+			"#Connecting to or from bicycle parking": "Bisiklet parkına veya parkından bağlantı",
+			"#Using a wheelchair or mobility aid": "Tekerlekli sandalye veya hareketlilik desteği kullanma",
+			"#Travelling with a stroller": "Bebek arabasıyla yolculuk",
+			"#None of these": "Bunların hiçbiri",
+			"#How often do you use or pass this street segment?": "Bu sokak kesimini ne sıklıkla kullanıyor veya buradan geçiyorsunuz?",
+			"#This is my first time": "Burayı ilk kez kullanıyorum",
+			"#Less than once a month": "Ayda birden az",
+			"#A few times a month": "Ayda birkaç kez",
+			"#A few times a week": "Haftada birkaç kez",
+			"#Almost every day": "Neredeyse her gün",
+			"#Describe this street segment": "Bu sokak kesimini tanımlayın",
+			"#Look at the place. Answer only what you can see.": "Yere bakın. Yalnızca görebildiğiniz şeyleri yanıtlayın.",
+			"#Is there a place for people to walk along this street?": "Bu sokak boyunca insanların yürüyebileceği bir alan var mı?",
+			"#No walking space – people must walk on the road": "Yürüme alanı yok – insanlar yolda yürümek zorunda",
+			"#Road shoulder available for walking": "Yol kenarı yürümek için kullanılabilir",
+			"#Shared walking and cycling path": "Ortak yaya ve bisiklet yolu",
+			"#Walking area at the same level as the road": "Yürüyüş alanı yol ile aynı seviyede",
+			"#Raised sidewalk": "Yükseltilmiş kaldırım",
+			"#Dedicated walking street or area": "Yürümeye ayrılmış sokak veya alan",
+			"#How easy is it for people to pass each other on the walking path?": "Yaya yolunda insanların birbirini geçmesi ne kadar kolay?",
+			"#Only one person can walk at a time": "Aynı anda yalnızca bir kişi yürüyebilir",
+			"#Two people can pass, but one usually steps aside": "İki kişi geçebilir, ancak biri genellikle kenara çekilir",
+			"#Two people can walk side by side": "İki kişi yan yana yürüyebilir",
+			"#Small groups can pass each other": "Küçük gruplar birbirini geçebilir",
+			"#Very wide, with plenty of room to move": "Çok geniş, hareket etmek için bol alan var",
+			"#Is there cycling infrastructure on this street?": "Bu sokakta bisiklet altyapısı var mı?",
+			"#No cycling facility": "Bisiklet altyapısı yok",
+			"#Cycling shared with other road users": "Diğer yol kullanıcılarıyla ortak bisiklet alanı",
+			"#Dedicated cycling infrastructure": "Ayrılmış bisiklet altyapısı",
+			"#How is the cycling space separated from walking or motor traffic?": "Bisiklet alanı yayalardan veya motorlu trafikten nasıl ayrılmış?",
+			"#Paint or road markings only": "Yalnızca boya veya yol çizgileri",
+			"#Bollards, barriers, kerbs, or planters": "Dubalar, bariyerler, bordürler veya saksılar",
+			"#Parked cars": "Park etmiş arabalar",
+			"#Separate from people walking, at the same level": "Yürüyen kişilerden ayrı, aynı seviyede",
+			"#Different level or kerb from people walking": "Yürüyen kişilerden farklı seviyede veya bordürle ayrılmış",
+			"#Other": "Diğer",
+			"#Who else commonly uses the cycling space?": "Bisiklet alanını başka kimler sık kullanıyor?",
+			"#None": "Hiçbiri",
+			"#Cars": "Arabalar",
+			"#Motorcycles": "Motosikletler",
+			"#Public transport vehicles": "Toplu taşıma araçları",
+			"#People walking": "Yürüyen kişiler",
+			"#How fast does motor traffic feel on this street?": "Bu sokaktaki motorlu trafik ne kadar hızlı geliyor?",
+			"#Very slow or traffic-calmed": "Çok yavaş veya trafik sakinleştirilmiş",
+			"#Slow": "Yavaş",
+			"#Moderate": "Orta",
+			"#Fast": "Hızlı",
+			"#Very fast": "Çok hızlı",
+			"#What makes traffic interaction difficult here?": "Burada trafikle etkileşimi ne zorlaştırıyor?",
+			"#No clear problem": "Belirgin bir sorun yok",
+			"#Poor visibility": "Yetersiz görüş",
+			"#Vehicles drive too fast": "Araçlar çok hızlı gidiyor",
+			"#Vehicles pass too close": "Araçlar çok yakından geçiyor",
+			"#Difficult turns or side access": "Zor dönüşler veya yan girişler",
+			"#Double parking or stopped vehicles": "Çift sıra park veya durmuş araçlar",
+			"#Bus or tram interaction": "Otobüs veya tramvayla etkileşim",
+			"#Your experience here": "Buradaki deneyiminiz",
+			"#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Deneyiminize göre yanıtlayın. Yürüme ve bisiklet soruları seçiminize göre gösterilir.",
+			"#Which best describes using this street segment while walking?": "Bu sokak kesimini yürürken kullanmayı en iyi hangisi tanımlar?",
+			"#I can pass without slowing down": "Yavaşlamadan geçebilirim",
+			"#I need to slow down a little": "Biraz yavaşlamam gerekir",
+			"#I need to be careful while passing": "Geçerken dikkatli olmam gerekir",
+			"#I need a lot of effort or attention": "Çok çaba veya dikkat göstermem gerekir",
+			"#I avoid using it if possible": "Mümkünse kullanmaktan kaçınırım",
+			"#I don't know": "Bilmiyorum",
+			"#How risky does it feel to use this street segment while walking?": "Bu sokak kesimini yürürken kullanmak ne kadar riskli geliyor?",
+			"#Not risky": "Riskli değil",
+			"#Slightly risky": "Biraz riskli",
+			"#Moderately risky": "Orta derecede riskli",
+			"#Very risky": "Çok riskli",
+			"#Extremely risky": "Son derece riskli",
+			"#How often do surface problems slow you down or make you change path while walking?": "Yüzey sorunları yürürken sizi ne sıklıkla yavaşlatıyor veya yolunuzu değiştirmenize neden oluyor?",
+			"#Never or almost never": "Hiçbir zaman veya neredeyse hiçbir zaman",
+			"#Rarely": "Nadiren",
+			"#Sometimes": "Bazen",
+			"#Often": "Sık sık",
+			"#Very often": "Çok sık",
+			"#How often do obstacles block or reduce your space while walking?": "Engeller yürürken alanınızı ne sıklıkla kapatıyor veya daraltıyor?",
+			"#How often does this segment feel too crowded?": "Bu kesim ne sıklıkla fazla kalabalık geliyor?",
+			"#How often do motor vehicles pass too close while you are walking?": "Yürürken motorlu araçlar ne sıklıkla size çok yakın geçiyor?",
+			"#Which best describes using this street segment while cycling?": "Bu sokak kesimini bisikletle kullanmayı en iyi hangisi tanımlar?",
+			"#How risky does it feel to use this street segment while cycling?": "Bu sokak kesimini bisikletle kullanmak ne kadar riskli geliyor?",
+			"#How often do surface problems slow you down or make you change path while cycling?": "Yüzey sorunları bisiklet sürerken sizi ne sıklıkla yavaşlatıyor veya rotanızı değiştirmenize neden oluyor?",
+			"#How often do obstacles block or reduce your space while cycling?": "Engeller bisiklet sürerken alanınızı ne sıklıkla kapatıyor veya daraltıyor?",
+			"#How often is the cycling space shared with other people or vehicles?": "Bisiklet alanı başka kişiler veya araçlarla ne sıklıkla paylaşılıyor?",
+			"#How often do motor vehicles pass too close while you are cycling?": "Bisiklet sürerken motorlu araçlar ne sıklıkla size çok yakın geçiyor?",
+			"#Improve this street segment": "Bu sokak kesimini iyileştirin",
+			"#Tell us whether improving this segment should be a priority.": "Bu kesimin iyileştirilmesinin öncelikli olup olmadığını belirtin.",
+			"#Should a walking path be added here?": "Buraya bir yaya yolu eklenmeli mi?",
+			"#No": "Hayır",
+			"#Probably no": "Muhtemelen hayır",
+			"#Not sure": "Emin değilim",
+			"#Probably yes": "Muhtemelen evet",
+			"#Yes": "Evet",
+			"#Should cycling infrastructure be added here?": "Buraya bisiklet altyapısı eklenmeli mi?",
+			"#How urgent is it to improve this street segment?": "Bu sokak kesimini iyileştirmek ne kadar acil?",
+			"#Not urgent": "Acil değil",
+			"#Slightly urgent": "Biraz acil",
+			"#Moderately urgent": "Orta derecede acil",
+			"#Urgent": "Acil",
+			"#Very urgent": "Çok acil",
+			"#What would improve this street segment most?": "Bu sokak kesimini en çok ne iyileştirir?",
+			"#Add or widen walking space": "Yürüme alanı eklemek veya genişletmek",
+			"#Add or improve cycling infrastructure": "Bisiklet altyapısı eklemek veya iyileştirmek",
+			"#Repair the surface": "Yüzeyi onarmak",
+			"#Remove obstacles": "Engelleri kaldırmak",
+			"#Improve access for people with different mobility needs": "Farklı hareketlilik ihtiyaçları olan kişiler için erişimi iyileştirmek",
+			"#Improve lighting": "Aydınlatmayı iyileştirmek",
+			"#Add shade or heat protection": "Gölge veya sıcaktan korunma eklemek",
+			"#Reduce vehicle speed": "Araç hızını azaltmak",
+			"#Improve separation from traffic": "Trafikten ayrımı iyileştirmek",
+			"#Improve maintenance or cleaning": "Bakım veya temizliği iyileştirmek",
+			"#Nothing important": "Önemli bir şey yok",
+			"#Anything else you want to add?": "Eklemek istediğiniz başka bir şey var mı?",
+			"#Would you like to add a few optional details?": "Birkaç isteğe bağlı ayrıntı eklemek ister misiniz?",
+			"#No, finish the assessment": "Hayır, değerlendirmeyi bitir",
+			"#Yes, add optional details": "Evet, isteğe bağlı ayrıntılar ekle",
+			"#Optional details": "İsteğe bağlı ayrıntılar",
+			"#These questions are optional and help us understand what should be improved.": "Bu sorular isteğe bağlıdır ve nelerin iyileştirilmesi gerektiğini anlamamıza yardımcı olur.",
+			"#If there is a raised sidewalk, how is it protected from traffic?": "Yükseltilmiş bir kaldırım varsa trafikten nasıl korunuyor?",
+			"#Raised only, no extra protection": "Yalnızca yükseltilmiş, ek koruma yok",
+			"#Bollards": "Dubalar",
+			"#Guard rails or fencing": "Korkuluklar veya çitler",
+			"#Planted strip, bushes, or planters": "Bitkili şerit, çalılar veya saksılar",
+			"#If the walking area is at road level, how is it separated from traffic?": "Yürüme alanı yol seviyesindeyse trafikten nasıl ayrılıyor?",
+			"#Road markings or paint only": "Yalnızca yol çizgileri veya boya",
+			"#Guard rail or barrier": "Korkuluk veya bariyer",
+			"#Does this walking path include stairs?": "Bu yaya yolunda merdiven var mı?",
+			"#How many steps are there?": "Kaç basamak var?",
+			"#A few steps, up to about 10": "Birkaç basamak, yaklaşık 10'a kadar",
+			"#About 11–20 steps": "Yaklaşık 11–20 basamak",
+			"#More than 20 steps": "20'den fazla basamak",
+			"#What problems affect the walking surface?": "Yürüme yüzeyini hangi sorunlar etkiliyor?",
+			"#Uneven surface": "Bozuk/düzensiz yüzey",
+			"#Cracks": "Çatlaklar",
+			"#Potholes": "Çukurlar",
+			"#Raised edges or bumps": "Yükselmiş kenarlar veya tümsekler",
+			"#Tree roots": "Ağaç kökleri",
+			"#Side slope feels uncomfortable": "Yan eğim rahatsız edici geliyor",
+			"#Steps or sudden level changes": "Basamaklar veya ani seviye değişiklikleri",
+			"#Slippery when wet": "Islakken kaygan",
+			"#Water collects after rain": "Yağmurdan sonra su birikiyor",
+			"#What obstacles reduce the walking space?": "Yürüme alanını hangi engeller daraltıyor?",
+			"#No clear obstacle": "Belirgin bir engel yok",
+			"#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Kaldırıma park edilmiş bisiklet, e-scooter veya motosikletler",
+			"#Trees, poles, signs, or utility boxes": "Ağaçlar, direkler, işaretler veya elektrik kutuları",
+			"#Overgrown plants or weeds": "Aşırı büyümüş bitkiler veya yabani otlar",
+			"#Outdoor café or restaurant seating": "Kafe veya restoranların dış oturma alanları",
+			"#Shop displays or street vendors": "Mağaza teşhirleri veya seyyar satıcılar",
+			"#Waste bins or rubbish bags": "Çöp kutuları veya çöp torbaları",
+			"#Dog waste": "Köpek dışkısı",
+			"#Construction works": "İnşaat/çalışma alanları",
+			"#People waiting in queues": "Kuyrukta bekleyen insanlar",
+			"#Flooded areas after rain": "Yağmurdan sonra su basan alanlar",
+			"#Which accessibility features are available?": "Hangi erişilebilirlik özellikleri mevcut?",
+			"#Suitable for wheelchair users": "Tekerlekli sandalye kullanıcıları için uygun",
+			"#Suitable for strollers": "Bebek arabaları için uygun",
+			"#Tactile paving for blind or visually impaired people": "Kör veya görme engelli kişiler için hissedilebilir yüzey",
+			"#Benches or resting places": "Banklar veya dinlenme yerleri",
+			"#Is the cycling infrastructure one-way or two-way?": "Bisiklet altyapısı tek yönlü mü, çift yönlü mü?",
+			"#One-way cycling facility": "Tek yönlü bisiklet yolu",
+			"#Two-way cycling facility": "Çift yönlü bisiklet yolu",
+			"#What surface does the cycling infrastructure have?": "Bisiklet altyapısının yüzeyi nedir?",
+			"#Smooth asphalt": "Düz asfalt",
+			"#Standard road asphalt": "Standart yol asfaltı",
+			"#Concrete": "Beton",
+			"#Blocks or tiles": "Blok taş veya karo",
+			"#Cobblestones": "Arnavut kaldırımı",
+			"#Compacted gravel or crushed stone": "Sıkıştırılmış çakıl veya kırma taş",
+			"#Mixed surface types": "Karışık yüzey türleri",
+			"#Other or unclear": "Diğer veya belirsiz",
+			"#What problems affect cycling comfort?": "Bisiklet konforunu hangi sorunlar etkiliyor?",
+			"#Loose gravel or debris": "Gevşek çakıl veya döküntü",
+			"#Sudden level changes": "Ani seviye değişiklikleri",
+			"#Uncomfortable vibration": "Rahatsız edici titreşim",
+			"#What obstacles make cycling difficult?": "Hangi engeller bisiklet sürmeyi zorlaştırıyor?",
+			"#Narrow sections": "Dar bölümler",
+			"#Vehicles stopping in the cycle lane": "Bisiklet şeridinde duran araçlar",
+			"#E-scooters, bicycles, or motorcycles parked on the facility": "Tesise park edilmiş e-scooter, bisiklet veya motosikletler",
+			"#Public transport stop or people waiting": "Toplu taşıma durağı veya bekleyen kişiler",
+			"#How many places are there where motor vehicles cross or enter the cycling space?": "Motorlu araçların bisiklet alanını kestiği veya alana girdiği kaç yer var?",
+			"#One": "Bir",
+			"#Two or three": "İki veya üç",
+			"#Four or five": "Dört veya beş",
+			"#Six or more": "Altı veya daha fazla",
+			"#I cannot tell": "Anlayamıyorum"
+		},
+		"fa": {
+			"#Your point of view": "دیدگاه شما",
+			"#Select walking, cycling, or both. Questions will adapt to your selection.": "پیاده‌روی، دوچرخه‌سواری یا هر دو را انتخاب کنید. پرسش‌ها با انتخاب شما سازگار می‌شوند.",
+			"#How are you assessing this place today?": "امروز این مکان را از چه دیدگاهی ارزیابی می‌کنید؟",
+			"#Person walking or rolling": "فردی که پیاده یا با وسیله کمک‌حرکتی جابه‌جا می‌شود",
+			"#Person cycling": "فرد دوچرخه‌سوار",
+			"#Which of these describe your trip today?": "کدام‌یک از این موارد سفر امروز شما را توصیف می‌کند؟",
+			"#Connecting to or from public transport": "اتصال به حمل‌ونقل عمومی یا از آن",
+			"#Connecting to or from a parked car": "رفتن به خودروی پارک‌شده یا آمدن از آن",
+			"#Connecting to or from bicycle parking": "رفتن به محل پارک دوچرخه یا آمدن از آن",
+			"#Using a wheelchair or mobility aid": "استفاده از ویلچر یا وسیله کمک‌حرکتی",
+			"#Travelling with a stroller": "جابه‌جایی با کالسکه کودک",
+			"#None of these": "هیچ‌کدام از این‌ها",
+			"#How often do you use or pass this street segment?": "هر چند وقت یک‌بار از این بخش خیابان استفاده می‌کنید یا از آن می‌گذرید؟",
+			"#This is my first time": "این نخستین بار من است",
+			"#Less than once a month": "کمتر از ماهی یک‌بار",
+			"#A few times a month": "چند بار در ماه",
+			"#A few times a week": "چند بار در هفته",
+			"#Almost every day": "تقریباً هر روز",
+			"#Describe this street segment": "این بخش خیابان را توصیف کنید",
+			"#Look at the place. Answer only what you can see.": "به مکان نگاه کنید. فقط درباره چیزهایی پاسخ دهید که می‌بینید.",
+			"#Is there a place for people to walk along this street?": "آیا در امتداد این خیابان فضایی برای پیاده‌روی وجود دارد؟",
+			"#No walking space – people must walk on the road": "فضای پیاده وجود ندارد – مردم باید در جاده راه بروند",
+			"#Road shoulder available for walking": "شانه خیابان برای پیاده‌روی قابل استفاده است",
+			"#Shared walking and cycling path": "مسیر مشترک پیاده و دوچرخه",
+			"#Walking area at the same level as the road": "فضای پیاده در همان سطح خیابان",
+			"#Raised sidewalk": "پیاده‌رو مرتفع",
+			"#Dedicated walking street or area": "خیابان یا محدوده اختصاصی پیاده",
+			"#How easy is it for people to pass each other on the walking path?": "عبور افراد از کنار یکدیگر در مسیر پیاده چقدر آسان است؟",
+			"#Only one person can walk at a time": "فقط یک نفر در هر لحظه می‌تواند عبور کند",
+			"#Two people can pass, but one usually steps aside": "دو نفر می‌توانند رد شوند، اما معمولاً یکی باید کنار برود",
+			"#Two people can walk side by side": "دو نفر می‌توانند کنار هم راه بروند",
+			"#Small groups can pass each other": "گروه‌های کوچک می‌توانند از کنار هم عبور کنند",
+			"#Very wide, with plenty of room to move": "بسیار پهن، با فضای فراوان برای حرکت",
+			"#Is there cycling infrastructure on this street?": "آیا در این خیابان زیرساخت دوچرخه وجود دارد؟",
+			"#No cycling facility": "زیرساخت دوچرخه وجود ندارد",
+			"#Cycling shared with other road users": "دوچرخه‌سواری مشترک با دیگر کاربران راه",
+			"#Dedicated cycling infrastructure": "زیرساخت اختصاصی دوچرخه",
+			"#How is the cycling space separated from walking or motor traffic?": "فضای دوچرخه چگونه از عابران پیاده یا ترافیک موتوری جدا شده است؟",
+			"#Paint or road markings only": "فقط رنگ یا خط‌کشی جاده",
+			"#Bollards, barriers, kerbs, or planters": "میله‌ها، موانع، جدول‌ها یا گلدان‌ها",
+			"#Parked cars": "خودروهای پارک‌شده",
+			"#Separate from people walking, at the same level": "جدا از عابران پیاده و هم‌سطح با آنان",
+			"#Different level or kerb from people walking": "سطح متفاوت یا جدول جداکننده از عابران پیاده",
+			"#Other": "سایر",
+			"#Who else commonly uses the cycling space?": "چه کسانی دیگر معمولاً از فضای دوچرخه استفاده می‌کنند؟",
+			"#None": "هیچ‌کدام",
+			"#Cars": "خودروها",
+			"#Motorcycles": "موتورسیکلت‌ها",
+			"#Public transport vehicles": "وسایل حمل‌ونقل عمومی",
+			"#People walking": "افراد پیاده",
+			"#How fast does motor traffic feel on this street?": "سرعت ترافیک موتوری در این خیابان چگونه به نظر می‌رسد؟",
+			"#Very slow or traffic-calmed": "بسیار کند یا آرام‌سازی‌شده",
+			"#Slow": "کند",
+			"#Moderate": "متوسط",
+			"#Fast": "تند",
+			"#Very fast": "بسیار تند",
+			"#What makes traffic interaction difficult here?": "چه چیزی تعامل با ترافیک را در اینجا دشوار می‌کند؟",
+			"#No clear problem": "مشکل روشنی وجود ندارد",
+			"#Poor visibility": "دید ضعیف",
+			"#Vehicles drive too fast": "خودروها بسیار سریع حرکت می‌کنند",
+			"#Vehicles pass too close": "خودروها خیلی نزدیک عبور می‌کنند",
+			"#Difficult turns or side access": "پیچ‌ها یا دسترسی‌های جانبی دشوار",
+			"#Double parking or stopped vehicles": "توقف دوبله یا خودروهای متوقف",
+			"#Bus or tram interaction": "تعامل با اتوبوس یا تراموا",
+			"#Your experience here": "تجربه شما در اینجا",
+			"#Answer based on your experience. Walking and cycling questions appear according to your selection.": "بر پایه تجربه خود پاسخ دهید. پرسش‌های پیاده‌روی و دوچرخه‌سواری مطابق انتخاب شما نمایش داده می‌شوند.",
+			"#Which best describes using this street segment while walking?": "کدام عبارت استفاده پیاده از این بخش خیابان را بهتر توصیف می‌کند؟",
+			"#I can pass without slowing down": "می‌توانم بدون کم‌کردن سرعت عبور کنم",
+			"#I need to slow down a little": "باید کمی آهسته‌تر حرکت کنم",
+			"#I need to be careful while passing": "هنگام عبور باید مراقب باشم",
+			"#I need a lot of effort or attention": "به تلاش یا توجه زیادی نیاز دارم",
+			"#I avoid using it if possible": "اگر ممکن باشد از استفاده از آن پرهیز می‌کنم",
+			"#I don't know": "نمی‌دانم",
+			"#How risky does it feel to use this street segment while walking?": "استفاده پیاده از این بخش خیابان چقدر پرخطر به نظر می‌رسد؟",
+			"#Not risky": "بدون خطر",
+			"#Slightly risky": "کمی پرخطر",
+			"#Moderately risky": "با خطر متوسط",
+			"#Very risky": "بسیار پرخطر",
+			"#Extremely risky": "به‌شدت پرخطر",
+			"#How often do surface problems slow you down or make you change path while walking?": "مشکلات سطح هنگام پیاده‌روی هر چند وقت یک‌بار شما را کند یا وادار به تغییر مسیر می‌کند؟",
+			"#Never or almost never": "هرگز یا تقریباً هرگز",
+			"#Rarely": "به‌ندرت",
+			"#Sometimes": "گاهی",
+			"#Often": "اغلب",
+			"#Very often": "بسیار اغلب",
+			"#How often do obstacles block or reduce your space while walking?": "موانع هنگام پیاده‌روی هر چند وقت یک‌بار فضای شما را مسدود یا کم می‌کند؟",
+			"#How often does this segment feel too crowded?": "این بخش هر چند وقت یک‌بار بیش از حد شلوغ به نظر می‌رسد؟",
+			"#How often do motor vehicles pass too close while you are walking?": "خودروهای موتوری هنگام پیاده‌روی هر چند وقت یک‌بار خیلی نزدیک از کنار شما می‌گذرند؟",
+			"#Which best describes using this street segment while cycling?": "کدام عبارت استفاده با دوچرخه از این بخش خیابان را بهتر توصیف می‌کند؟",
+			"#How risky does it feel to use this street segment while cycling?": "استفاده با دوچرخه از این بخش خیابان چقدر پرخطر به نظر می‌رسد؟",
+			"#How often do surface problems slow you down or make you change path while cycling?": "مشکلات سطح هنگام دوچرخه‌سواری هر چند وقت یک‌بار شما را کند یا وادار به تغییر مسیر می‌کند؟",
+			"#How often do obstacles block or reduce your space while cycling?": "موانع هنگام دوچرخه‌سواری هر چند وقت یک‌بار فضای شما را مسدود یا کم می‌کند؟",
+			"#How often is the cycling space shared with other people or vehicles?": "فضای دوچرخه هر چند وقت یک‌بار با افراد یا خودروهای دیگر مشترک است؟",
+			"#How often do motor vehicles pass too close while you are cycling?": "خودروهای موتوری هنگام دوچرخه‌سواری هر چند وقت یک‌بار خیلی نزدیک از کنار شما می‌گذرند؟",
+			"#Improve this street segment": "بهبود این بخش خیابان",
+			"#Tell us whether improving this segment should be a priority.": "به ما بگویید آیا بهبود این بخش باید در اولویت باشد.",
+			"#Should a walking path be added here?": "آیا باید در اینجا مسیر پیاده اضافه شود؟",
+			"#No": "خیر",
+			"#Probably no": "احتمالاً خیر",
+			"#Not sure": "مطمئن نیستم",
+			"#Probably yes": "احتمالاً بله",
+			"#Yes": "بله",
+			"#Should cycling infrastructure be added here?": "آیا باید در اینجا زیرساخت دوچرخه اضافه شود؟",
+			"#How urgent is it to improve this street segment?": "بهبود این بخش خیابان چقدر فوری است؟",
+			"#Not urgent": "فوری نیست",
+			"#Slightly urgent": "کمی فوری",
+			"#Moderately urgent": "با فوریت متوسط",
+			"#Urgent": "فوری",
+			"#Very urgent": "بسیار فوری",
+			"#What would improve this street segment most?": "چه چیزی بیش از همه این بخش خیابان را بهتر می‌کند؟",
+			"#Add or widen walking space": "افزودن یا پهن‌کردن فضای پیاده",
+			"#Add or improve cycling infrastructure": "افزودن یا بهبود زیرساخت دوچرخه",
+			"#Repair the surface": "تعمیر سطح",
+			"#Remove obstacles": "برداشتن موانع",
+			"#Improve access for people with different mobility needs": "بهبود دسترسی برای افراد با نیازهای حرکتی متفاوت",
+			"#Improve lighting": "بهبود روشنایی",
+			"#Add shade or heat protection": "افزودن سایه یا محافظت در برابر گرما",
+			"#Reduce vehicle speed": "کاهش سرعت خودروها",
+			"#Improve separation from traffic": "بهبود جداسازی از ترافیک",
+			"#Improve maintenance or cleaning": "بهبود نگهداری یا نظافت",
+			"#Nothing important": "هیچ مورد مهمی نیست",
+			"#Anything else you want to add?": "آیا می‌خواهید چیز دیگری اضافه کنید؟",
+			"#Would you like to add a few optional details?": "آیا می‌خواهید چند جزئیات اختیاری اضافه کنید؟",
+			"#No, finish the assessment": "خیر، پایان ارزیابی",
+			"#Yes, add optional details": "بله، افزودن جزئیات اختیاری",
+			"#Optional details": "جزئیات اختیاری",
+			"#These questions are optional and help us understand what should be improved.": "این پرسش‌ها اختیاری هستند و به ما کمک می‌کنند بفهمیم چه چیزی باید بهبود یابد.",
+			"#If there is a raised sidewalk, how is it protected from traffic?": "اگر پیاده‌رو برجسته است، چگونه از ترافیک محافظت می‌شود؟",
+			"#Raised only, no extra protection": "فقط برجسته، بدون محافظت بیشتر",
+			"#Bollards": "بولارد",
+			"#Guard rails or fencing": "نرده محافظ یا حصار",
+			"#Planted strip, bushes, or planters": "نوار کاشته‌شده، بوته یا گلدان",
+			"#If the walking area is at road level, how is it separated from traffic?": "اگر محدوده پیاده هم‌سطح جاده است، چگونه از ترافیک جدا می‌شود؟",
+			"#Road markings or paint only": "فقط خط‌کشی یا رنگ جاده",
+			"#Guard rail or barrier": "گاردریل یا مانع",
+			"#Does this walking path include stairs?": "آیا این مسیر پیاده دارای پله است؟",
+			"#How many steps are there?": "چند پله وجود دارد؟",
+			"#A few steps, up to about 10": "چند پله، تا حدود ۱۰ پله",
+			"#About 11–20 steps": "حدود ۱۱ تا ۲۰ پله",
+			"#More than 20 steps": "بیش از ۲۰ پله",
+			"#What problems affect the walking surface?": "چه مشکلاتی بر سطح پیاده اثر می‌گذارد؟",
+			"#Uneven surface": "سطح ناهموار",
+			"#Cracks": "ترک‌ها",
+			"#Potholes": "چاله‌ها",
+			"#Raised edges or bumps": "لبه‌های برجسته یا برآمدگی‌ها",
+			"#Tree roots": "ریشه درختان",
+			"#Side slope feels uncomfortable": "شیب عرضی ناراحت‌کننده است",
+			"#Steps or sudden level changes": "پله یا تغییر ناگهانی سطح",
+			"#Slippery when wet": "در حالت خیس لغزنده است",
+			"#Water collects after rain": "پس از باران آب جمع می‌شود",
+			"#What obstacles reduce the walking space?": "چه موانعی فضای پیاده را کاهش می‌دهد؟",
+			"#No clear obstacle": "مانع مشخصی وجود ندارد",
+			"#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "دوچرخه، اسکوتر برقی یا موتورسیکلت پارک‌شده روی پیاده‌رو",
+			"#Trees, poles, signs, or utility boxes": "درختان، تیرها، تابلوها یا جعبه‌های تأسیسات",
+			"#Overgrown plants or weeds": "گیاهان یا علف‌های هرز بیش‌ازحد رشدکرده",
+			"#Outdoor café or restaurant seating": "میز و صندلی بیرونی کافه یا رستوران",
+			"#Shop displays or street vendors": "اجناس بیرون مغازه یا دستفروشان",
+			"#Waste bins or rubbish bags": "سطل یا کیسه زباله",
+			"#Dog waste": "مدفوعات سگ",
+			"#Construction works": "عملیات ساختمانی",
+			"#People waiting in queues": "افراد در صف",
+			"#Flooded areas after rain": "بخش‌های آب‌گرفته پس از باران",
+			"#Which accessibility features are available?": "کدام امکانات دسترس‌پذیری موجود است؟",
+			"#Suitable for wheelchair users": "مناسب برای کاربران ویلچر",
+			"#Suitable for strollers": "مناسب برای کالسکه کودک",
+			"#Tactile paving for blind or visually impaired people": "کف‌پوش لمسی برای افراد نابینا یا کم‌بینا",
+			"#Benches or resting places": "نیمکت یا محل استراحت",
+			"#Is the cycling infrastructure one-way or two-way?": "مسیر دوچرخه یک‌طرفه است یا دوطرفه؟",
+			"#One-way cycling facility": "مسیر دوچرخه یک‌طرفه",
+			"#Two-way cycling facility": "مسیر دوچرخه دوطرفه",
+			"#What surface does the cycling infrastructure have?": "سطح زیرساخت دوچرخه چیست؟",
+			"#Smooth asphalt": "آسفالت صاف",
+			"#Standard road asphalt": "آسفالت معمولی خیابان",
+			"#Concrete": "بتن",
+			"#Blocks or tiles": "بلوک یا کاشی",
+			"#Cobblestones": "سنگ‌فرش",
+			"#Compacted gravel or crushed stone": "شن فشرده یا سنگ خردشده",
+			"#Mixed surface types": "ترکیبی از چند نوع سطح",
+			"#Other or unclear": "موارد دیگر یا نامشخص",
+			"#What problems affect cycling comfort?": "چه مشکلاتی بر راحتی دوچرخه‌سواری اثر می‌گذارد؟",
+			"#Loose gravel or debris": "شن یا خرده‌ریز پراکنده",
+			"#Sudden level changes": "تغییر ناگهانی سطح",
+			"#Uncomfortable vibration": "لرزش ناراحت‌کننده",
+			"#What obstacles make cycling difficult?": "چه موانعی دوچرخه‌سواری را دشوار می‌کند؟",
+			"#Narrow sections": "بخش‌های باریک",
+			"#Vehicles stopping in the cycle lane": "خودروهای متوقف در مسیر دوچرخه",
+			"#E-scooters, bicycles, or motorcycles parked on the facility": "اسکوتر برقی، دوچرخه یا موتورسیکلت پارک‌شده روی مسیر",
+			"#Public transport stop or people waiting": "ایستگاه حمل‌ونقل عمومی یا افراد منتظر",
+			"#How many places are there where motor vehicles cross or enter the cycling space?": "چند محل وجود دارد که خودروهای موتوری فضای دوچرخه را قطع می‌کنند یا وارد آن می‌شوند؟",
+			"#One": "یک",
+			"#Two or three": "دو یا سه",
+			"#Four or five": "چهار یا پنج",
+			"#Six or more": "شش یا بیشتر",
+			"#I cannot tell": "نمی‌توانم تشخیص دهم"
+		},
+		"hu": {
+			"#Your point of view": "Az Ön nézőpontja",
+			"#Select walking, cycling, or both. Questions will adapt to your selection.": "Válassza a gyaloglást, a kerékpározást vagy mindkettőt. A kérdések a választásához igazodnak.",
+			"#How are you assessing this place today?": "Milyen nézőpontból értékeli ma ezt a helyet?",
+			"#Person walking or rolling": "Gyalogosan vagy mozgást segítő eszközzel közlekedő személy",
+			"#Person cycling": "Kerékpárral közlekedő személy",
+			"#Which of these describe your trip today?": "Melyik állítás írja le a mai útját?",
+			"#Connecting to or from public transport": "Csatlakozás tömegközlekedéshez vagy onnan",
+			"#Connecting to or from a parked car": "Út parkoló autóhoz vagy onnan",
+			"#Connecting to or from bicycle parking": "Út kerékpártárolóhoz vagy onnan",
+			"#Using a wheelchair or mobility aid": "Kerekesszék vagy mozgást segítő eszköz használata",
+			"#Travelling with a stroller": "Közlekedés babakocsival",
+			"#None of these": "Ezek közül egyik sem",
+			"#How often do you use or pass this street segment?": "Milyen gyakran használja ezt az utcaszakaszt vagy halad át rajta?",
+			"#This is my first time": "Most járok itt először",
+			"#Less than once a month": "Havonta ritkábban mint egyszer",
+			"#A few times a month": "Havonta néhányszor",
+			"#A few times a week": "Hetente néhányszor",
+			"#Almost every day": "Szinte minden nap",
+			"#Describe this street segment": "Az utcaszakasz leírása",
+			"#Look at the place. Answer only what you can see.": "Nézze meg a helyet. Csak arra válaszoljon, amit lát.",
+			"#Is there a place for people to walk along this street?": "Van gyaloglásra alkalmas hely ezen az utcán?",
+			"#No walking space – people must walk on the road": "Nincs gyalogos tér – az úttesten kell gyalogolni",
+			"#Road shoulder available for walking": "Útpadka használható gyaloglásra",
+			"#Shared walking and cycling path": "Közös gyalog- és kerékpárút",
+			"#Walking area at the same level as the road": "Gyalogos terület az úttal azonos szinten",
+			"#Raised sidewalk": "Megemelt járda",
+			"#Dedicated walking street or area": "Kijelölt gyalogos utca vagy terület",
+			"#How easy is it for people to pass each other on the walking path?": "Mennyire könnyű egymás mellett elhaladni a gyalogúton?",
+			"#Only one person can walk at a time": "Egyszerre csak egy ember fér el",
+			"#Two people can pass, but one usually steps aside": "Két ember elfér egymás mellett, de egyiküknek általában félre kell állnia",
+			"#Two people can walk side by side": "Két ember egymás mellett tud gyalogolni",
+			"#Small groups can pass each other": "Kisebb csoportok el tudnak haladni egymás mellett",
+			"#Very wide, with plenty of room to move": "Nagyon széles, sok hely van a mozgáshoz",
+			"#Is there cycling infrastructure on this street?": "Van kerékpáros infrastruktúra ezen az utcán?",
+			"#No cycling facility": "Nincs kerékpáros infrastruktúra",
+			"#Cycling shared with other road users": "Más úthasználókkal közös kerékpáros tér",
+			"#Dedicated cycling infrastructure": "Kijelölt kerékpáros infrastruktúra",
+			"#How is the cycling space separated from walking or motor traffic?": "Hogyan választják el a kerékpáros teret a gyalogos vagy gépjárműforgalomtól?",
+			"#Paint or road markings only": "Csak festés vagy burkolati jel",
+			"#Bollards, barriers, kerbs, or planters": "Oszlopok, korlátok, szegélyek vagy növényládák",
+			"#Parked cars": "Parkoló autók",
+			"#Separate from people walking, at the same level": "A gyalogosoktól elválasztva, azonos szinten",
+			"#Different level or kerb from people walking": "A gyalogosoktól eltérő szinten vagy szegéllyel elválasztva",
+			"#Other": "Egyéb",
+			"#Who else commonly uses the cycling space?": "Kik használják még rendszeresen a kerékpáros teret?",
+			"#None": "Senki",
+			"#Cars": "Autók",
+			"#Motorcycles": "Motorkerékpárok",
+			"#Public transport vehicles": "Tömegközlekedési járművek",
+			"#People walking": "Gyalogosan közlekedők",
+			"#How fast does motor traffic feel on this street?": "Milyen gyorsnak érződik a gépjárműforgalom ezen az utcán?",
+			"#Very slow or traffic-calmed": "Nagyon lassú vagy forgalomcsillapított",
+			"#Slow": "Lassú",
+			"#Moderate": "Közepes",
+			"#Fast": "Gyors",
+			"#Very fast": "Nagyon gyors",
+			"#What makes traffic interaction difficult here?": "Mi nehezíti itt a forgalommal való együttműködést?",
+			"#No clear problem": "Nincs egyértelmű probléma",
+			"#Poor visibility": "Rossz beláthatóság",
+			"#Vehicles drive too fast": "A járművek túl gyorsan haladnak",
+			"#Vehicles pass too close": "A járművek túl közel haladnak el",
+			"#Difficult turns or side access": "Nehéz kanyarok vagy oldalsó behajtók",
+			"#Double parking or stopped vehicles": "Dupla parkolás vagy megálló járművek",
+			"#Bus or tram interaction": "Busz- vagy villamosforgalom",
+			"#Your experience here": "Az Ön tapasztalata ezen a helyen",
+			"#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Saját tapasztalata alapján válaszoljon. A gyalogos és kerékpáros kérdések a választásának megfelelően jelennek meg.",
+			"#Which best describes using this street segment while walking?": "Melyik írja le legjobban e szakasz gyalogos használatát?",
+			"#I can pass without slowing down": "Lassítás nélkül át tudok haladni",
+			"#I need to slow down a little": "Kissé le kell lassítanom",
+			"#I need to be careful while passing": "Áthaladáskor óvatosnak kell lennem",
+			"#I need a lot of effort or attention": "Sok erőfeszítésre vagy figyelemre van szükségem",
+			"#I avoid using it if possible": "Ha lehet, kerülöm a használatát",
+			"#I don't know": "Nem tudom",
+			"#How risky does it feel to use this street segment while walking?": "Mennyire tűnik kockázatosnak e szakasz gyalogos használata?",
+			"#Not risky": "Nem kockázatos",
+			"#Slightly risky": "Kissé kockázatos",
+			"#Moderately risky": "Közepesen kockázatos",
+			"#Very risky": "Nagyon kockázatos",
+			"#Extremely risky": "Rendkívül kockázatos",
+			"#How often do surface problems slow you down or make you change path while walking?": "Milyen gyakran lassítják le a felületi hibák vagy késztetik útvonala megváltoztatására gyaloglás közben?",
+			"#Never or almost never": "Soha vagy szinte soha",
+			"#Rarely": "Ritkán",
+			"#Sometimes": "Néha",
+			"#Often": "Gyakran",
+			"#Very often": "Nagyon gyakran",
+			"#How often do obstacles block or reduce your space while walking?": "Milyen gyakran zárják el vagy szűkítik az akadályok a helyét gyaloglás közben?",
+			"#How often does this segment feel too crowded?": "Milyen gyakran tűnik ez a szakasz túl zsúfoltnak?",
+			"#How often do motor vehicles pass too close while you are walking?": "Milyen gyakran haladnak el túl közel gépjárművek, miközben Ön gyalogol?",
+			"#Which best describes using this street segment while cycling?": "Melyik írja le legjobban e szakasz kerékpáros használatát?",
+			"#How risky does it feel to use this street segment while cycling?": "Mennyire tűnik kockázatosnak e szakasz kerékpáros használata?",
+			"#How often do surface problems slow you down or make you change path while cycling?": "Milyen gyakran lassítják le a felületi hibák vagy késztetik útvonala megváltoztatására kerékpározás közben?",
+			"#How often do obstacles block or reduce your space while cycling?": "Milyen gyakran zárják el vagy szűkítik az akadályok a helyét kerékpározás közben?",
+			"#How often is the cycling space shared with other people or vehicles?": "Milyen gyakran használják más személyek vagy járművek is a kerékpáros teret?",
+			"#How often do motor vehicles pass too close while you are cycling?": "Milyen gyakran haladnak el túl közel gépjárművek, miközben Ön kerékpározik?",
+			"#Improve this street segment": "Az utcaszakasz javítása",
+			"#Tell us whether improving this segment should be a priority.": "Mondja el, hogy e szakasz javítása elsőbbséget élvezzen-e.",
+			"#Should a walking path be added here?": "Kellene itt gyalogutat kialakítani?",
+			"#No": "Nem",
+			"#Probably no": "Valószínűleg nem",
+			"#Not sure": "Nem biztos",
+			"#Probably yes": "Valószínűleg igen",
+			"#Yes": "Igen",
+			"#Should cycling infrastructure be added here?": "Kellene itt kerékpáros infrastruktúrát kialakítani?",
+			"#How urgent is it to improve this street segment?": "Mennyire sürgős ennek az utcaszakasznak a javítása?",
+			"#Not urgent": "Nem sürgős",
+			"#Slightly urgent": "Kissé sürgős",
+			"#Moderately urgent": "Közepesen sürgős",
+			"#Urgent": "Sürgős",
+			"#Very urgent": "Nagyon sürgős",
+			"#What would improve this street segment most?": "Mi javítaná leginkább ezt az utcaszakaszt?",
+			"#Add or widen walking space": "Gyalogos tér kialakítása vagy szélesítése",
+			"#Add or improve cycling infrastructure": "Kerékpáros infrastruktúra kialakítása vagy javítása",
+			"#Repair the surface": "A felület javítása",
+			"#Remove obstacles": "Akadályok eltávolítása",
+			"#Improve access for people with different mobility needs": "Az eltérő mobilitási igényű személyek hozzáférésének javítása",
+			"#Improve lighting": "A világítás javítása",
+			"#Add shade or heat protection": "Árnyék vagy hővédelem kialakítása",
+			"#Reduce vehicle speed": "A járművek sebességének csökkentése",
+			"#Improve separation from traffic": "A forgalomtól való elválasztás javítása",
+			"#Improve maintenance or cleaning": "A karbantartás vagy takarítás javítása",
+			"#Nothing important": "Semmi lényeges",
+			"#Anything else you want to add?": "Szeretne még valamit hozzátenni?",
+			"#Would you like to add a few optional details?": "Szeretne néhány választható részletet megadni?",
+			"#No, finish the assessment": "Nem, az értékelés befejezése",
+			"#Yes, add optional details": "Igen, választható részletek hozzáadása",
+			"#Optional details": "Választható részletek",
+			"#These questions are optional and help us understand what should be improved.": "Ezek a kérdések választhatók, és segítenek megérteni, min kellene javítani.",
+			"#If there is a raised sidewalk, how is it protected from traffic?": "Ha van megemelt járda, hogyan védik a forgalomtól?",
+			"#Raised only, no extra protection": "Csak megemelt, további védelem nélkül",
+			"#Bollards": "Oszlopok",
+			"#Guard rails or fencing": "Védőkorlátok vagy kerítés",
+			"#Planted strip, bushes, or planters": "Növényzettel beültetett sáv, bokrok vagy növényládák",
+			"#If the walking area is at road level, how is it separated from traffic?": "Ha a gyalogos terület az úttest szintjén van, hogyan választják el a forgalomtól?",
+			"#Road markings or paint only": "Csak burkolati jel vagy festés",
+			"#Guard rail or barrier": "Korlát vagy akadály",
+			"#Does this walking path include stairs?": "Van lépcső ezen a gyalogúton?",
+			"#How many steps are there?": "Hány lépcsőfok van?",
+			"#A few steps, up to about 10": "Néhány lépcsőfok, körülbelül 10-ig",
+			"#About 11–20 steps": "Körülbelül 11–20 lépcsőfok",
+			"#More than 20 steps": "Több mint 20 lépcsőfok",
+			"#What problems affect the walking surface?": "Milyen problémák érintik a gyalogos felületet?",
+			"#Uneven surface": "Egyenetlen burkolat",
+			"#Cracks": "Repedések",
+			"#Potholes": "Kátyúk",
+			"#Raised edges or bumps": "Kiemelkedő szélek vagy bukkanók",
+			"#Tree roots": "Fagyökerek",
+			"#Side slope feels uncomfortable": "Az oldallejtés kényelmetlen",
+			"#Steps or sudden level changes": "Lépcsők vagy hirtelen szintkülönbségek",
+			"#Slippery when wet": "Nedvesen csúszós",
+			"#Water collects after rain": "Eső után megáll a víz",
+			"#What obstacles reduce the walking space?": "Milyen akadályok szűkítik a gyalogos teret?",
+			"#No clear obstacle": "Nincs egyértelmű akadály",
+			"#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "A járdán parkoló kerékpárok, rollerek vagy motorok",
+			"#Trees, poles, signs, or utility boxes": "Fák, oszlopok, táblák vagy közműszekrények",
+			"#Overgrown plants or weeds": "Túlburjánzott növények vagy gyomok",
+			"#Outdoor café or restaurant seating": "Kávézók vagy éttermek kültéri ülőhelyei",
+			"#Shop displays or street vendors": "Bolti kihelyezések vagy utcai árusok",
+			"#Waste bins or rubbish bags": "Hulladékgyűjtők vagy szemeteszsákok",
+			"#Dog waste": "Kutyapiszok",
+			"#Construction works": "Építési munkák",
+			"#People waiting in queues": "Sorban álló emberek",
+			"#Flooded areas after rain": "Eső után elöntött területek",
+			"#Which accessibility features are available?": "Milyen akadálymentesítési elemek állnak rendelkezésre?",
+			"#Suitable for wheelchair users": "Kerekesszékkel használható",
+			"#Suitable for strollers": "Babakocsihoz alkalmas",
+			"#Tactile paving for blind or visually impaired people": "Taktilis burkolat vak vagy gyengénlátó személyeknek",
+			"#Benches or resting places": "Padok vagy pihenőhelyek",
+			"#Is the cycling infrastructure one-way or two-way?": "A kerékpáros infrastruktúra egy- vagy kétirányú?",
+			"#One-way cycling facility": "Egyirányú kerékpáros infrastruktúra",
+			"#Two-way cycling facility": "Kétirányú kerékpáros infrastruktúra",
+			"#What surface does the cycling infrastructure have?": "Milyen a kerékpáros infrastruktúra burkolata?",
+			"#Smooth asphalt": "Sima aszfalt",
+			"#Standard road asphalt": "Szabványos útaszfalt",
+			"#Concrete": "Beton",
+			"#Blocks or tiles": "Térkő vagy lapburkolat",
+			"#Cobblestones": "Macskakő",
+			"#Compacted gravel or crushed stone": "Tömörített kavics vagy zúzott kő",
+			"#Mixed surface types": "Vegyes burkolattípusok",
+			"#Other or unclear": "Egyéb vagy nem egyértelmű",
+			"#What problems affect cycling comfort?": "Milyen problémák rontják a kerékpározás kényelmét?",
+			"#Loose gravel or debris": "Laza kavics vagy törmelék",
+			"#Sudden level changes": "Hirtelen szintkülönbségek",
+			"#Uncomfortable vibration": "Kellemetlen rezgés",
+			"#What obstacles make cycling difficult?": "Milyen akadályok nehezítik a kerékpározást?",
+			"#Narrow sections": "Keskeny szakaszok",
+			"#Vehicles stopping in the cycle lane": "A kerékpársávban megálló járművek",
+			"#E-scooters, bicycles, or motorcycles parked on the facility": "A létesítményen parkoló e-rollerek, kerékpárok vagy motorkerékpárok",
+			"#Public transport stop or people waiting": "Tömegközlekedési megálló vagy várakozó emberek",
+			"#How many places are there where motor vehicles cross or enter the cycling space?": "Hány helyen keresztezik a gépjárművek a kerékpáros teret vagy hajtanak be oda?",
+			"#One": "Egy",
+			"#Two or three": "Kettő vagy három",
+			"#Four or five": "Négy vagy öt",
+			"#Six or more": "Hat vagy több",
+			"#I cannot tell": "Nem tudom megállapítani"
+		},
+		"ar": {
+			"#Your point of view": "وجهة نظرك",
+			"#Select walking, cycling, or both. Questions will adapt to your selection.": "اختر المشي أو ركوب الدراجة أو كليهما. ستتكيّف الأسئلة مع اختيارك.",
+			"#How are you assessing this place today?": "من أي منظور تقيّم هذا المكان اليوم؟",
+			"#Person walking or rolling": "شخص يمشي أو يتنقل باستخدام وسيلة مساعدة",
+			"#Person cycling": "شخص يركب دراجة",
+			"#Which of these describe your trip today?": "أي من هذه الحالات يصف رحلتك اليوم؟",
+			"#Connecting to or from public transport": "الانتقال إلى وسائل النقل العام أو منها",
+			"#Connecting to or from a parked car": "الانتقال إلى سيارة متوقفة أو منها",
+			"#Connecting to or from bicycle parking": "الانتقال إلى موقف دراجات أو منه",
+			"#Using a wheelchair or mobility aid": "استخدام كرسي متحرك أو وسيلة مساعدة على التنقل",
+			"#Travelling with a stroller": "التنقل بعربة أطفال",
+			"#None of these": "لا شيء مما سبق",
+			"#How often do you use or pass this street segment?": "كم مرة تستخدم هذا المقطع من الشارع أو تمر عبره؟",
+			"#This is my first time": "هذه مرتي الأولى",
+			"#Less than once a month": "أقل من مرة في الشهر",
+			"#A few times a month": "بضع مرات في الشهر",
+			"#A few times a week": "بضع مرات في الأسبوع",
+			"#Almost every day": "كل يوم تقريبًا",
+			"#Describe this street segment": "صِف هذا المقطع من الشارع",
+			"#Look at the place. Answer only what you can see.": "انظر إلى المكان. أجب فقط عما يمكنك رؤيته.",
+			"#Is there a place for people to walk along this street?": "هل توجد مساحة للمشي على طول هذا الشارع؟",
+			"#No walking space – people must walk on the road": "لا توجد مساحة للمشي – يجب على الناس المشي في الطريق",
+			"#Road shoulder available for walking": "كتف الطريق متاح للمشي",
+			"#Shared walking and cycling path": "مسار مشترك للمشي وركوب الدراجات",
+			"#Walking area at the same level as the road": "مساحة مشاة على نفس مستوى الطريق",
+			"#Raised sidewalk": "رصيف مرتفع",
+			"#Dedicated walking street or area": "شارع أو منطقة مخصصة للمشي",
+			"#How easy is it for people to pass each other on the walking path?": "ما مدى سهولة مرور الأشخاص بجانب بعضهم على مسار المشي؟",
+			"#Only one person can walk at a time": "يمكن لشخص واحد فقط المرور في كل مرة",
+			"#Two people can pass, but one usually steps aside": "يمكن لشخصين المرور، لكن غالبًا ما يضطر أحدهما إلى التنحي جانبًا",
+			"#Two people can walk side by side": "يمكن لشخصين المشي جنبًا إلى جنب",
+			"#Small groups can pass each other": "يمكن للمجموعات الصغيرة المرور بجانب بعضها",
+			"#Very wide, with plenty of room to move": "واسع جدًا، مع مساحة كبيرة للحركة",
+			"#Is there cycling infrastructure on this street?": "هل توجد بنية تحتية للدراجات في هذا الشارع؟",
+			"#No cycling facility": "لا توجد بنية تحتية للدراجات",
+			"#Cycling shared with other road users": "ركوب الدراجات بمشاركة مستخدمي الطريق الآخرين",
+			"#Dedicated cycling infrastructure": "بنية تحتية مخصصة للدراجات",
+			"#How is the cycling space separated from walking or motor traffic?": "كيف تفصل مساحة الدراجات عن المشاة أو حركة المركبات؟",
+			"#Paint or road markings only": "طلاء أو علامات طريق فقط",
+			"#Bollards, barriers, kerbs, or planters": "أعمدة أو حواجز أو حواف أو أحواض نباتات",
+			"#Parked cars": "سيارات متوقفة",
+			"#Separate from people walking, at the same level": "منفصلة عن المشاة وعلى المستوى نفسه",
+			"#Different level or kerb from people walking": "مستوى مختلف أو حافة فاصلة عن المشاة",
+			"#Other": "أخرى",
+			"#Who else commonly uses the cycling space?": "من يستخدم مساحة الدراجات أيضًا بصورة شائعة؟",
+			"#None": "لا أحد",
+			"#Cars": "سيارات",
+			"#Motorcycles": "دراجات نارية",
+			"#Public transport vehicles": "مركبات النقل العام",
+			"#People walking": "أشخاص يمشون",
+			"#How fast does motor traffic feel on this street?": "ما مدى سرعة حركة المركبات في هذا الشارع؟",
+			"#Very slow or traffic-calmed": "بطيئة جدًا أو مهدأة",
+			"#Slow": "بطيئة",
+			"#Moderate": "متوسطة",
+			"#Fast": "سريعة",
+			"#Very fast": "سريعة جدًا",
+			"#What makes traffic interaction difficult here?": "ما الذي يجعل التعامل مع حركة المرور صعبًا هنا؟",
+			"#No clear problem": "لا توجد مشكلة واضحة",
+			"#Poor visibility": "رؤية ضعيفة",
+			"#Vehicles drive too fast": "المركبات تسير بسرعة كبيرة",
+			"#Vehicles pass too close": "المركبات تمر على مسافة قريبة جدًا",
+			"#Difficult turns or side access": "منعطفات أو مداخل جانبية صعبة",
+			"#Double parking or stopped vehicles": "اصطفاف مزدوج أو مركبات متوقفة",
+			"#Bus or tram interaction": "التعامل مع الحافلات أو الترام",
+			"#Your experience here": "تجربتك هنا",
+			"#Answer based on your experience. Walking and cycling questions appear according to your selection.": "أجب بناءً على تجربتك. تظهر أسئلة المشي وركوب الدراجة وفقًا لاختيارك.",
+			"#Which best describes using this street segment while walking?": "أي عبارة تصف استخدام هذا المقطع سيرًا على أفضل وجه؟",
+			"#I can pass without slowing down": "يمكنني المرور دون إبطاء",
+			"#I need to slow down a little": "أحتاج إلى الإبطاء قليلًا",
+			"#I need to be careful while passing": "أحتاج إلى الحذر أثناء المرور",
+			"#I need a lot of effort or attention": "أحتاج إلى جهد أو انتباه كبير",
+			"#I avoid using it if possible": "أتجنب استخدامه إن أمكن",
+			"#I don't know": "لا أعرف",
+			"#How risky does it feel to use this street segment while walking?": "ما مدى خطورة استخدام هذا المقطع سيرًا؟",
+			"#Not risky": "غير خطير",
+			"#Slightly risky": "خطير قليلًا",
+			"#Moderately risky": "متوسط الخطورة",
+			"#Very risky": "خطير جدًا",
+			"#Extremely risky": "شديد الخطورة",
+			"#How often do surface problems slow you down or make you change path while walking?": "كم مرة تبطئك مشكلات السطح أو تجبرك على تغيير المسار أثناء المشي؟",
+			"#Never or almost never": "أبدًا أو نادرًا جدًا",
+			"#Rarely": "نادرًا",
+			"#Sometimes": "أحيانًا",
+			"#Often": "غالبًا",
+			"#Very often": "غالبًا جدًا",
+			"#How often do obstacles block or reduce your space while walking?": "كم مرة تحجب العوائق مساحتك أو تقللها أثناء المشي؟",
+			"#How often does this segment feel too crowded?": "كم مرة يبدو هذا المقطع مزدحمًا أكثر من اللازم؟",
+			"#How often do motor vehicles pass too close while you are walking?": "كم مرة تمر المركبات الآلية على مسافة قريبة جدًا منك أثناء المشي؟",
+			"#Which best describes using this street segment while cycling?": "أي عبارة تصف استخدام هذا المقطع بالدراجة على أفضل وجه؟",
+			"#How risky does it feel to use this street segment while cycling?": "ما مدى خطورة استخدام هذا المقطع بالدراجة؟",
+			"#How often do surface problems slow you down or make you change path while cycling?": "كم مرة تبطئك مشكلات السطح أو تجبرك على تغيير المسار أثناء ركوب الدراجة؟",
+			"#How often do obstacles block or reduce your space while cycling?": "كم مرة تحجب العوائق مساحتك أو تقللها أثناء ركوب الدراجة؟",
+			"#How often is the cycling space shared with other people or vehicles?": "كم مرة تُشارك مساحة الدراجات مع أشخاص أو مركبات أخرى؟",
+			"#How often do motor vehicles pass too close while you are cycling?": "كم مرة تمر المركبات الآلية على مسافة قريبة جدًا منك أثناء ركوب الدراجة؟",
+			"#Improve this street segment": "تحسين هذا المقطع من الشارع",
+			"#Tell us whether improving this segment should be a priority.": "أخبرنا ما إذا كان تحسين هذا المقطع ينبغي أن يكون أولوية.",
+			"#Should a walking path be added here?": "هل ينبغي إضافة مسار للمشي هنا؟",
+			"#No": "لا",
+			"#Probably no": "على الأرجح لا",
+			"#Not sure": "غير متأكد",
+			"#Probably yes": "على الأرجح نعم",
+			"#Yes": "نعم",
+			"#Should cycling infrastructure be added here?": "هل ينبغي إضافة بنية تحتية للدراجات هنا؟",
+			"#How urgent is it to improve this street segment?": "ما مدى إلحاح تحسين هذا المقطع من الشارع؟",
+			"#Not urgent": "غير عاجل",
+			"#Slightly urgent": "عاجل قليلًا",
+			"#Moderately urgent": "متوسط الإلحاح",
+			"#Urgent": "عاجل",
+			"#Very urgent": "عاجل جدًا",
+			"#What would improve this street segment most?": "ما الذي سيحسن هذا المقطع من الشارع أكثر؟",
+			"#Add or widen walking space": "إضافة مساحة للمشي أو توسيعها",
+			"#Add or improve cycling infrastructure": "إضافة بنية تحتية للدراجات أو تحسينها",
+			"#Repair the surface": "إصلاح السطح",
+			"#Remove obstacles": "إزالة العوائق",
+			"#Improve access for people with different mobility needs": "تحسين وصول ذوي احتياجات التنقل المختلفة",
+			"#Improve lighting": "تحسين الإضاءة",
+			"#Add shade or heat protection": "إضافة ظل أو حماية من الحرارة",
+			"#Reduce vehicle speed": "خفض سرعة المركبات",
+			"#Improve separation from traffic": "تحسين الفصل عن حركة المرور",
+			"#Improve maintenance or cleaning": "تحسين الصيانة أو التنظيف",
+			"#Nothing important": "لا شيء مهم",
+			"#Anything else you want to add?": "هل تريد إضافة شيء آخر؟",
+			"#Would you like to add a few optional details?": "هل ترغب في إضافة بعض التفاصيل الاختيارية؟",
+			"#No, finish the assessment": "لا، إنهاء التقييم",
+			"#Yes, add optional details": "نعم، إضافة تفاصيل اختيارية",
+			"#Optional details": "تفاصيل اختيارية",
+			"#These questions are optional and help us understand what should be improved.": "هذه الأسئلة اختيارية وتساعدنا على فهم ما ينبغي تحسينه.",
+			"#If there is a raised sidewalk, how is it protected from traffic?": "إذا كان هناك رصيف مرتفع، فكيف يُحمى من حركة المرور؟",
+			"#Raised only, no extra protection": "مرتفع فقط، دون حماية إضافية",
+			"#Bollards": "أعمدة قصيرة",
+			"#Guard rails or fencing": "حواجز حماية أو سياج",
+			"#Planted strip, bushes, or planters": "شريط مزروع أو شجيرات أو أحواض نباتات",
+			"#If the walking area is at road level, how is it separated from traffic?": "إذا كانت منطقة المشي على مستوى الطريق، فكيف تُفصل عن حركة المرور؟",
+			"#Road markings or paint only": "علامات طريق أو طلاء فقط",
+			"#Guard rail or barrier": "حاجز أو سياج واقٍ",
+			"#Does this walking path include stairs?": "هل يتضمن مسار المشي هذا درجًا؟",
+			"#How many steps are there?": "كم عدد الدرجات؟",
+			"#A few steps, up to about 10": "بضع درجات، حتى نحو 10",
+			"#About 11–20 steps": "نحو 11–20 درجة",
+			"#More than 20 steps": "أكثر من 20 درجة",
+			"#What problems affect the walking surface?": "ما المشكلات التي تؤثر في سطح المشي؟",
+			"#Uneven surface": "سطح غير مستوٍ",
+			"#Cracks": "شقوق",
+			"#Potholes": "حفر في الطريق",
+			"#Raised edges or bumps": "حواف مرتفعة أو نتوءات",
+			"#Tree roots": "جذور الأشجار",
+			"#Side slope feels uncomfortable": "الميل الجانبي غير مريح",
+			"#Steps or sudden level changes": "درجات أو تغيرات مفاجئة في المستوى",
+			"#Slippery when wet": "زلق عند البلل",
+			"#Water collects after rain": "تتجمع المياه بعد المطر",
+			"#What obstacles reduce the walking space?": "ما العوائق التي تقلل مساحة المشي؟",
+			"#No clear obstacle": "لا يوجد عائق واضح",
+			"#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "دراجات أو سكوترات كهربائية أو نارية متوقفة على الرصيف",
+			"#Trees, poles, signs, or utility boxes": "أشجار أو أعمدة أو لافتات أو صناديق خدمات",
+			"#Overgrown plants or weeds": "نباتات أو أعشاب متضخمة",
+			"#Outdoor café or restaurant seating": "جلسات خارجية للمقاهي أو المطاعم",
+			"#Shop displays or street vendors": "معروضات المتاجر أو الباعة المتجولون",
+			"#Waste bins or rubbish bags": "حاويات أو أكياس نفايات",
+			"#Dog waste": "فضلات الكلاب",
+			"#Construction works": "أعمال إنشاء",
+			"#People waiting in queues": "أشخاص ينتظرون في طوابير",
+			"#Flooded areas after rain": "مناطق مغمورة بالمياه بعد المطر",
+			"#Which accessibility features are available?": "ما تجهيزات سهولة الوصول المتاحة؟",
+			"#Suitable for wheelchair users": "مناسب لمستخدمي الكراسي المتحركة",
+			"#Suitable for strollers": "مناسب لعربات الأطفال",
+			"#Tactile paving for blind or visually impaired people": "رصف لمسي للمكفوفين أو ضعاف البصر",
+			"#Benches or resting places": "مقاعد أو أماكن للراحة",
+			"#Is the cycling infrastructure one-way or two-way?": "هل مسار الدراجات باتجاه واحد أم باتجاهين؟",
+			"#One-way cycling facility": "مسار دراجات باتجاه واحد",
+			"#Two-way cycling facility": "مسار دراجات باتجاهين",
+			"#What surface does the cycling infrastructure have?": "ما سطح البنية التحتية للدراجات؟",
+			"#Smooth asphalt": "أسفلت أملس",
+			"#Standard road asphalt": "أسفلت طريق عادي",
+			"#Concrete": "خرسانة",
+			"#Blocks or tiles": "قوالب أو بلاط",
+			"#Cobblestones": "حجارة رصف",
+			"#Compacted gravel or crushed stone": "حصى مضغوط أو حجر مكسر",
+			"#Mixed surface types": "أنواع أسطح مختلطة",
+			"#Other or unclear": "غير ذلك أو غير واضح",
+			"#What problems affect cycling comfort?": "ما المشكلات التي تؤثر في راحة ركوب الدراجة؟",
+			"#Loose gravel or debris": "حصى أو مخلفات سائبة",
+			"#Sudden level changes": "تغيرات مفاجئة في المستوى",
+			"#Uncomfortable vibration": "اهتزاز غير مريح",
+			"#What obstacles make cycling difficult?": "ما العوائق التي تجعل ركوب الدراجة صعبًا؟",
+			"#Narrow sections": "مقاطع ضيقة",
+			"#Vehicles stopping in the cycle lane": "مركبات متوقفة في مسار الدراجات",
+			"#E-scooters, bicycles, or motorcycles parked on the facility": "دراجات كهربائية صغيرة أو دراجات أو دراجات نارية متوقفة على المرفق",
+			"#Public transport stop or people waiting": "موقف نقل عام أو أشخاص ينتظرون",
+			"#How many places are there where motor vehicles cross or enter the cycling space?": "كم موقعًا تعبر فيه المركبات الآلية مساحة الدراجات أو تدخل إليها؟",
+			"#One": "واحد",
+			"#Two or three": "اثنان أو ثلاثة",
+			"#Four or five": "أربعة أو خمسة",
+			"#Six or more": "ستة أو أكثر",
+			"#I cannot tell": "لا أستطيع التحديد"
+		}
+	},
+	"id": "street_segment_assessment",
+	"db_set": "questionnaires",
+	"response_format": "planeasy.response",
+	"response_schema_version": "2.0",
+	"response_kind": "spatial_contribution",
+	"response_contract": {"entity": {}, "related_entities": [], "geometry": "LineString", "privacy": {"email": "sha256_only", "remove_user_id_supported": true}, "id_strategy": "generated_response_id", "subcollection": "spatialReports/{questionnaireId}/responses/{responseId}"},
+	"default_language": "en"
+}

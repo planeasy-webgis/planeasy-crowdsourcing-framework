@@ -1,0 +1,221 @@
+{
+  "questionnaire": {
+    "name": "Geolocated Perception Report",
+    "questionnaire_id": "smarturbanity_geolocated_perception_report",
+    "questionnaire_version": "0.1.0",
+    "project": "SmartUrbanity",
+    "options": {"review_mode": true, "ask_consent": false, "save_user_id": false},
+    "sections": [
+      {
+        "title": "Your experience at this location",
+        "description": "Rate how you experience the selected place. The point identifies where the observation applies; it is not itself an infrastructure object.",
+        "questions": [
+          {
+            "text": "From which perspective are you assessing this place today?",
+            "answer_key": "assessment_perspective",
+            "question_type": "multiple_options",
+            "required": true,
+            "options": [
+              {"text": "Walking", "value": "pedestrian"},
+              {"text": "Cycling", "value": "cyclist"},
+              {"text": "Using public transport", "value": "public_transport_user"},
+              {"text": "Using a car or motorcycle", "value": "motor_vehicle_user"},
+              {"text": "Staying in or passing through the area", "value": "place_user"}
+            ]
+          },
+          {
+            "text": "How often do you visit or pass this location?",
+            "answer_key": "location_use_frequency",
+            "question_type": "single_option",
+            "required": true,
+            "options": [
+              {"text": "First time", "value": "1_first_time"},
+              {"text": "Less than monthly", "value": "2_less_than_monthly"},
+              {"text": "Monthly", "value": "3_monthly"},
+              {"text": "Weekly", "value": "4_weekly"},
+              {"text": "Daily or almost daily", "value": "5_daily"}
+            ]
+          },
+          {
+            "text": "How safe from crime or harassment do you feel at this location?",
+            "answer_key": "personal_security_rating",
+            "question_type": "single_option",
+            "required": true,
+            "options": [
+              {"text": "Very unsafe", "value": "1_very_negative"},
+              {"text": "Unsafe", "value": "2_negative"},
+              {"text": "Neither safe nor unsafe", "value": "3_neutral"},
+              {"text": "Safe", "value": "4_positive"},
+              {"text": "Very safe", "value": "5_very_positive"},
+              {"text": "Do not know / prefer not to answer", "value": "dont_know"}
+            ]
+          },
+          {
+            "text": "How safe from traffic conflicts or accidents do you feel at this location?",
+            "answer_key": "traffic_safety_rating",
+            "question_type": "single_option",
+            "required": true,
+            "options": [
+              {"text": "Very unsafe", "value": "1_very_negative"},
+              {"text": "Unsafe", "value": "2_negative"},
+              {"text": "Neither safe nor unsafe", "value": "3_neutral"},
+              {"text": "Safe", "value": "4_positive"},
+              {"text": "Very safe", "value": "5_very_positive"},
+              {"text": "Not applicable / do not know", "value": "not_applicable"}
+            ]
+          },
+          {
+            "text": "How comfortable and accessible is this location for you?",
+            "answer_key": "comfort_accessibility_rating",
+            "question_type": "single_option",
+            "required": true,
+            "options": [
+              {"text": "Very poor", "value": "1_very_negative"},
+              {"text": "Poor", "value": "2_negative"},
+              {"text": "Neither poor nor good", "value": "3_neutral"},
+              {"text": "Good", "value": "4_positive"},
+              {"text": "Very good", "value": "5_very_positive"},
+              {"text": "Not applicable / do not know", "value": "not_applicable"}
+            ]
+          },
+          {
+            "text": "How would you rate the environmental quality here, including noise, air, heat and greenery?",
+            "answer_key": "environmental_quality_rating",
+            "question_type": "single_option",
+            "required": true,
+            "options": [
+              {"text": "Very poor", "value": "1_very_negative"},
+              {"text": "Poor", "value": "2_negative"},
+              {"text": "Neither poor nor good", "value": "3_neutral"},
+              {"text": "Good", "value": "4_positive"},
+              {"text": "Very good", "value": "5_very_positive"},
+              {"text": "Not applicable / do not know", "value": "not_applicable"}
+            ]
+          },
+          {
+            "text": "How would you rate cleanliness and maintenance at this location?",
+            "answer_key": "maintenance_cleanliness_rating",
+            "question_type": "single_option",
+            "required": true,
+            "options": [
+              {"text": "Very poor", "value": "1_very_negative"},
+              {"text": "Poor", "value": "2_negative"},
+              {"text": "Neither poor nor good", "value": "3_neutral"},
+              {"text": "Good", "value": "4_positive"},
+              {"text": "Very good", "value": "5_very_positive"},
+              {"text": "Not applicable / do not know", "value": "not_applicable"}
+            ]
+          },
+          {
+            "text": "Overall, how positively or negatively does this location affect your experience?",
+            "answer_key": "overall_place_impact_rating",
+            "question_type": "single_option",
+            "required": true,
+            "options": [
+              {"text": "Very negatively", "value": "1_very_negative"},
+              {"text": "Negatively", "value": "2_negative"},
+              {"text": "Neither negatively nor positively", "value": "3_neutral"},
+              {"text": "Positively", "value": "4_positive"},
+              {"text": "Very positively", "value": "5_very_positive"},
+              {"text": "Do not know / prefer not to answer", "value": "dont_know"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Optional context",
+        "description": "Add context without changing the structured ratings above.",
+        "questions": [
+          {
+            "text": "Which conditions most influenced your ratings?",
+            "answer_key": "perception_context_factors",
+            "question_type": "multiple_options",
+            "add_other": true,
+            "options": [
+              {"text": "Lighting", "value": "lighting"},
+              {"text": "Traffic speed or volume", "value": "traffic"},
+              {"text": "Visibility", "value": "visibility"},
+              {"text": "Crowding or isolation", "value": "crowding_isolation"},
+              {"text": "Obstacles or barriers", "value": "obstacles_barriers"},
+              {"text": "Noise or air pollution", "value": "noise_air_pollution"},
+              {"text": "Weather, heat or lack of shade", "value": "weather_heat"},
+              {"text": "Cleanliness or maintenance", "value": "cleanliness_maintenance"},
+              {"text": "Greenery or public-space quality", "value": "greenery_public_space"},
+              {"text": "None in particular", "value": "none"}
+            ]
+          },
+          {
+            "text": "Anything else you want to add about this location?",
+            "answer_key": "additional_comments",
+            "question_type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "en": {"code": "en"},
+    "it": {
+      "code": "it",
+      "#Geolocated Perception Report": "Valutazione geolocalizzata della percezione",
+      "#Your experience at this location": "La tua esperienza in questo luogo",
+      "#Rate how you experience the selected place. The point identifies where the observation applies; it is not itself an infrastructure object.": "Valuta la tua esperienza nel luogo selezionato. Il punto indica dove si applica l'osservazione; non rappresenta un elemento infrastrutturale.",
+      "#From which perspective are you assessing this place today?": "Da quale prospettiva stai valutando questo luogo oggi?",
+      "#Walking": "A piedi",
+      "#Cycling": "In bicicletta",
+      "#Using public transport": "Con il trasporto pubblico",
+      "#Using a car or motorcycle": "In auto o moto",
+      "#Staying in or passing through the area": "Fermandomi o attraversando l'area",
+      "#How often do you visit or pass this location?": "Quanto spesso frequenti o attraversi questo luogo?",
+      "#First time": "Prima volta",
+      "#Less than monthly": "Meno di una volta al mese",
+      "#Monthly": "Mensilmente",
+      "#Weekly": "Settimanalmente",
+      "#Daily or almost daily": "Ogni giorno o quasi",
+      "#How safe from crime or harassment do you feel at this location?": "Quanto ti senti al sicuro da criminalità o molestie in questo luogo?",
+      "#How safe from traffic conflicts or accidents do you feel at this location?": "Quanto ti senti al sicuro da conflitti con il traffico o incidenti in questo luogo?",
+      "#Very unsafe": "Per nulla al sicuro",
+      "#Unsafe": "Poco al sicuro",
+      "#Neither safe nor unsafe": "Né al sicuro né in pericolo",
+      "#Safe": "Al sicuro",
+      "#Very safe": "Molto al sicuro",
+      "#How comfortable and accessible is this location for you?": "Quanto è confortevole e accessibile questo luogo per te?",
+      "#How would you rate the environmental quality here, including noise, air, heat and greenery?": "Come valuti la qualità ambientale, considerando rumore, aria, calore e verde?",
+      "#How would you rate cleanliness and maintenance at this location?": "Come valuti pulizia e manutenzione in questo luogo?",
+      "#Very poor": "Molto scarsa",
+      "#Poor": "Scarsa",
+      "#Neither poor nor good": "Né scarsa né buona",
+      "#Good": "Buona",
+      "#Very good": "Molto buona",
+      "#Not applicable / do not know": "Non applicabile / non so",
+      "#Do not know / prefer not to answer": "Non so / preferisco non rispondere",
+      "#Overall, how positively or negatively does this location affect your experience?": "Nel complesso, quanto questo luogo influisce positivamente o negativamente sulla tua esperienza?",
+      "#Very negatively": "Molto negativamente",
+      "#Negatively": "Negativamente",
+      "#Neither negatively nor positively": "Né negativamente né positivamente",
+      "#Positively": "Positivamente",
+      "#Very positively": "Molto positivamente",
+      "#Optional context": "Contesto facoltativo",
+      "#Add context without changing the structured ratings above.": "Aggiungi informazioni senza modificare le valutazioni strutturate precedenti.",
+      "#Which conditions most influenced your ratings?": "Quali condizioni hanno influenzato maggiormente le tue valutazioni?",
+      "#Lighting": "Illuminazione",
+      "#Traffic speed or volume": "Velocità o volume del traffico",
+      "#Visibility": "Visibilità",
+      "#Crowding or isolation": "Affollamento o isolamento",
+      "#Obstacles or barriers": "Ostacoli o barriere",
+      "#Noise or air pollution": "Rumore o inquinamento dell'aria",
+      "#Weather, heat or lack of shade": "Meteo, caldo o mancanza di ombra",
+      "#Cleanliness or maintenance": "Pulizia o manutenzione",
+      "#Greenery or public-space quality": "Verde o qualità dello spazio pubblico",
+      "#None in particular": "Nessuna in particolare",
+      "#Anything else you want to add about this location?": "Vuoi aggiungere altro su questo luogo?"
+    }
+  },
+  "id": "smarturbanity_geolocated_perception_report",
+  "db_set": "questionnaires",
+  "response_format": "planeasy.response",
+  "response_schema_version": "2.0",
+  "response_kind": "spatial_contribution",
+  "response_contract": {"entity": {}, "related_entities": [], "geometry": "Point", "privacy": {"email": "sha256_only", "remove_user_id_supported": true}, "id_strategy": "generated_response_id", "subcollection": "spatialReports/{questionnaireId}/responses/{responseId}"},
+  "default_language": "en"
+}

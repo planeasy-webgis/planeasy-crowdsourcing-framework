@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SmartUrbanity - Questionari</title>
+    <title>SmartUrbanity - Configuration</title>
 
     <meta
       name="description"
@@ -32,8 +32,8 @@
       content="Explore the official SmartUrbanity questionnaires on behaviour, perceptions, context, safety and mobility."
     />
 
-    <link rel="apple-touch-icon" href="../../docs/assets/SmartUrbanity/smarturbanity_logo.png" />
-    <link rel="icon" href="../../docs/assets/SmartUrbanity/smarturbanity_favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="../docs/assets/SmartUrbanity/smarturbanity_logo.png" />
+    <link rel="icon" href="../docs/assets/SmartUrbanity/smarturbanity_favicon.png" type="image/png" />
 
     <style>
       :focus-visible {
@@ -95,7 +95,7 @@
         </section>
       </div>
 
-      <div data-lang="en" lang="en">
+      <div data-lang="en fr de tr fa hu ar" lang="en">
         <section>
           <h2>SmartUrbanity questionnaires</h2>
           <p>
@@ -142,11 +142,11 @@
 
     <div id="smarturbanity-footer"></div>
 
-    <script src="../../docs/assets/SmartUrbanity/smarturbanity-web-init.js"></script>
+    <script src="../docs/assets/SmartUrbanity/smarturbanity-web-init.js"></script>
 
     <script>
       const RAW_BASE_URL =
-        "https://raw.githubusercontent.com/planeasy-webgis/planeasy-crowdsourcing-framework/main/questionnaires/SmartUrbanity";
+        "https://raw.githubusercontent.com/smarturbanity/smarturbanity-configuration/main/forms";
       const FORM_BASE_URL = "https://smarturbanity-surveys.wemolab.eu/";
       const IS_FILE_PREVIEW = window.location.protocol === "file:";
 
@@ -212,7 +212,7 @@
           }
           console.warn("Local questionnaire index unavailable, trying GitHub raw URL.", err);
         }
-        return fetchJson(`${RAW_BASE_URL}/index.json`, "Cannot load SmartUrbanity questionnaire index");
+          return fetchJson(`${RAW_BASE_URL}/index.json`, "Cannot load SmartUrbanity questionnaire index");
       }
 
       async function fetchQuestionnaire(filename) {
@@ -495,15 +495,15 @@
         try {
           const url = new URL(window.location);
           const questionnairePath = url.searchParams.get("questionnaire");
-          
+
           let filenames = [];
           let projectId = "SmartUrbanity";
           let categoriesById = {};
-          
+
           if (questionnairePath) {
             // Load specific questionnaire
             const items = await listAllQuestionnairePathsFromQuestionnaireRepo(
-              RAW_BASE_URL.substring(0, RAW_BASE_URL.lastIndexOf("/SmartUrbanity")),
+              RAW_BASE_URL,
               null,
               questionnairePath
             );
@@ -526,7 +526,7 @@
               acc[category.id] = category;
               return acc;
             }, {});
-            
+
             if (categorySelect) {
               populateCategorySelect(categorySelect, categories, categorySelect.value || defaultCategory(categories));
             }

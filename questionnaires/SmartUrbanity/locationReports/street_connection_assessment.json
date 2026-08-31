@@ -1,0 +1,2972 @@
+{
+  "questionnaire": {
+    "name": "Street Connection Assessment – User Friendly",
+    "questionnaire_id": "street_connection_assessment",
+    "questionnaire_version": "0.1.2",
+    "project": "SmartUrbanity",
+    "options": {
+      "review_mode": true,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html",
+    "sections": [
+      {
+        "title": "Your point of view",
+        "description": "Select walking, cycling, or both. Questions will adapt to your selection.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How are you assessing this place today?",
+            "answer_key": "assessment_perspective",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Person walking or rolling",
+                "value": "pedestrian"
+              },
+              {
+                "text": "Person cycling",
+                "value": "cyclist"
+              }
+            ],
+            "show_if": {}
+          },
+          {
+            "text": "Which of these describe your trip today?",
+            "answer_key": "journey_context",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Connecting to or from public transport",
+                "value": "public_transport_connection"
+              },
+              {
+                "text": "Connecting to or from a parked car",
+                "value": "parked_car_connection"
+              },
+              {
+                "text": "Connecting to or from bicycle parking",
+                "value": "bicycle_parking_connection"
+              },
+              {
+                "text": "Using a wheelchair or mobility aid",
+                "value": "mobility_aid"
+              },
+              {
+                "text": "Travelling with a stroller",
+                "value": "stroller"
+              },
+              {
+                "text": "None of these",
+                "value": "none"
+              }
+            ],
+            "show_if": {}
+          },
+          {
+            "text": "How often do you use or pass this connection?",
+            "answer_key": "connection_use_frequency",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "This is my first time",
+                "value": "1_first_time"
+              },
+              {
+                "text": "Less than once a month",
+                "value": "2_less_than_monthly"
+              },
+              {
+                "text": "A few times a month",
+                "value": "3_monthly"
+              },
+              {
+                "text": "A few times a week",
+                "value": "4_weekly"
+              },
+              {
+                "text": "Almost every day",
+                "value": "5_daily"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Describe this connection",
+        "description": "Look at the place. Answer only what you can see.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "What kind of connection is this?",
+            "answer_key": "connection_form",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "At street level",
+                "value": "street_level"
+              },
+              {
+                "text": "Under the road / underpass",
+                "value": "under_road"
+              },
+              {
+                "text": "Over the road / bridge",
+                "value": "over_road"
+              },
+              {
+                "text": "Change in level, such as stairs, ramp, elevator or escalator",
+                "value": "level_change"
+              },
+              {
+                "text": "Other type of connection",
+                "value": "other"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ]
+          },
+          {
+            "text": "Can people walking use this connection?",
+            "answer_key": "pedestrian_access",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes, clearly and comfortably",
+                "value": "yes_clear"
+              },
+              {
+                "text": "Yes, but it is not very clear",
+                "value": "yes_unclear"
+              },
+              {
+                "text": "Yes, but with difficulty",
+                "value": "yes_difficult"
+              },
+              {
+                "text": "No, pedestrians cannot or should not use it",
+                "value": "not_possible"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "pedestrian"
+              ]
+            }
+          },
+          {
+            "text": "Can bicycles use this connection?",
+            "answer_key": "bicycle_access",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes, with a dedicated bicycle space",
+                "value": "dedicated_bicycle_space"
+              },
+              {
+                "text": "Yes, shared with people walking",
+                "value": "shared_with_pedestrians"
+              },
+              {
+                "text": "Yes, shared with traffic",
+                "value": "shared_with_traffic"
+              },
+              {
+                "text": "Yes, but people cycling probably need to dismount",
+                "value": "dismount_needed"
+              },
+              {
+                "text": "No, bicycles cannot or should not use it",
+                "value": "not_possible"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "cyclist"
+              ]
+            }
+          },
+          {
+            "text": "Which elements are part of this connection?",
+            "answer_key": "connection_elements",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Stairs",
+                "value": "stairs"
+              },
+              {
+                "text": "Ramp",
+                "value": "ramp"
+              },
+              {
+                "text": "Elevator",
+                "value": "elevator"
+              },
+              {
+                "text": "Escalator",
+                "value": "escalator"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "connection_form": [
+                "under_road",
+                "over_road",
+                "level_change",
+                "other"
+              ]
+            }
+          },
+          {
+            "text": "When people use this connection, how is crossing controlled?",
+            "answer_key": "traffic_control",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "There is no signal or clear priority",
+                "value": "no_control"
+              },
+              {
+                "text": "Vehicles should give way, but there is no signal",
+                "value": "priority_no_signal"
+              },
+              {
+                "text": "There is a signal and conflicting vehicles are stopped when people cross",
+                "value": "protected_signal"
+              },
+              {
+                "text": "There is a signal, but turning vehicles may still cross the path",
+                "value": "permissive_signal_with_turning_conflict"
+              },
+              {
+                "text": "There is a signal, but priority is unclear",
+                "value": "unclear_signal_priority"
+              },
+              {
+                "text": "I don't know / I cannot tell",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "connection_form": "street_level"
+            }
+          },
+          {
+            "text": "How many traffic lanes must people cross here?",
+            "answer_key": "lanes_crossed",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "1 lane",
+                "value": "1"
+              },
+              {
+                "text": "2 lanes",
+                "value": "2"
+              },
+              {
+                "text": "3 lanes",
+                "value": "3"
+              },
+              {
+                "text": "4 lanes",
+                "value": "4"
+              },
+              {
+                "text": "5 or more lanes",
+                "value": "5_plus"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "connection_form": "street_level"
+            }
+          },
+          {
+            "text": "How easy is it to understand where people should go?",
+            "answer_key": "connection_clarity",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Very easy",
+                "value": "1_very_easy"
+              },
+              {
+                "text": "Easy",
+                "value": "2_easy"
+              },
+              {
+                "text": "Neither easy nor difficult",
+                "value": "3_neutral"
+              },
+              {
+                "text": "Difficult",
+                "value": "4_difficult"
+              },
+              {
+                "text": "Very difficult",
+                "value": "5_very_difficult"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ]
+          },
+          {
+            "text": "Before crossing, can people clearly see approaching vehicles or bicycles?",
+            "answer_key": "street_level_visibility",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes, clearly",
+                "value": "1_clear"
+              },
+              {
+                "text": "Partly",
+                "value": "2_partly"
+              },
+              {
+                "text": "No, visibility is poor",
+                "value": "3_poor"
+              },
+              {
+                "text": "Not relevant / I cannot tell",
+                "value": "not_relevant_or_dont_know"
+              }
+            ],
+            "show_if": {
+              "connection_form": "street_level"
+            }
+          },
+          {
+            "text": "Can people clearly see the path and the exit?",
+            "answer_key": "spatial_visibility",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Yes, the path and exit are clearly visible",
+                "value": "1_clear"
+              },
+              {
+                "text": "Partly, some areas are hidden",
+                "value": "2_partly"
+              },
+              {
+                "text": "No, there are blind corners or hidden areas",
+                "value": "3_poor"
+              },
+              {
+                "text": "Not relevant / I cannot tell",
+                "value": "not_relevant_or_dont_know"
+              }
+            ],
+            "show_if": {
+              "connection_form": [
+                "under_road",
+                "over_road",
+                "level_change",
+                "other"
+              ]
+            }
+          },
+          {
+            "text": "Is there enough room to wait or stop safely?",
+            "answer_key": "waiting_or_stopping_space",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No safe place",
+                "value": "1_no_safe_space"
+              },
+              {
+                "text": "A place exists, but it is too small",
+                "value": "2_too_small"
+              },
+              {
+                "text": "Enough safe space",
+                "value": "3_enough_space"
+              },
+              {
+                "text": "No waiting or stopping space is needed here",
+                "value": "not_needed"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ]
+          },
+          {
+            "text": "Who might face barriers when using this connection?",
+            "answer_key": "users_with_difficulty",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "People using wheelchairs",
+                "value": "wheelchair_users"
+              },
+              {
+                "text": "People using a walker or walking aid",
+                "value": "walking_aid_users"
+              },
+              {
+                "text": "People with strollers",
+                "value": "stroller_users"
+              },
+              {
+                "text": "People on bicycles",
+                "value": "bicycle_users"
+              },
+              {
+                "text": "Blind or visually impaired people",
+                "value": "blind_or_visually_impaired"
+              },
+              {
+                "text": "Older people or people who need more time",
+                "value": "older_slow_walkers"
+              },
+              {
+                "text": "No one in particular",
+                "value": "none"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Your experience here",
+        "description": "Answer based on your experience. Walking and cycling questions appear according to your selection.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Which best describes using this connection while walking?",
+            "answer_key": "pedestrian_use_difficulty",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "I can pass without slowing down",
+                "value": "1_no_slowing_down"
+              },
+              {
+                "text": "I need to slow down a little",
+                "value": "2_slow_down"
+              },
+              {
+                "text": "I need to be careful while passing",
+                "value": "3_be_careful"
+              },
+              {
+                "text": "I need a lot of effort or attention",
+                "value": "4_high_effort_attention"
+              },
+              {
+                "text": "I avoid using it if possible",
+                "value": "5_avoid_if_possible"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "pedestrian"
+              ]
+            }
+          },
+          {
+            "text": "How risky does it feel to use this connection while walking?",
+            "answer_key": "pedestrian_perceived_risk",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Not risky",
+                "value": "1_not_risky"
+              },
+              {
+                "text": "Slightly risky",
+                "value": "2_slightly_risky"
+              },
+              {
+                "text": "Moderately risky",
+                "value": "3_moderately_risky"
+              },
+              {
+                "text": "Very risky",
+                "value": "4_very_risky"
+              },
+              {
+                "text": "Extremely risky",
+                "value": "5_extremely_risky"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "pedestrian"
+              ]
+            }
+          },
+          {
+            "text": "Which best describes using this connection while cycling?",
+            "answer_key": "cyclist_use_difficulty",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "I can pass without slowing down",
+                "value": "1_no_slowing_down"
+              },
+              {
+                "text": "I need to slow down a little",
+                "value": "2_slow_down"
+              },
+              {
+                "text": "I need to be careful while passing",
+                "value": "3_be_careful"
+              },
+              {
+                "text": "I need a lot of effort or attention",
+                "value": "4_high_effort_attention"
+              },
+              {
+                "text": "I avoid using it if possible",
+                "value": "5_avoid_if_possible"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "cyclist"
+              ]
+            }
+          },
+          {
+            "text": "How risky does it feel to use this connection while cycling?",
+            "answer_key": "cyclist_perceived_risk",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Not risky",
+                "value": "1_not_risky"
+              },
+              {
+                "text": "Slightly risky",
+                "value": "2_slightly_risky"
+              },
+              {
+                "text": "Moderately risky",
+                "value": "3_moderately_risky"
+              },
+              {
+                "text": "Very risky",
+                "value": "4_very_risky"
+              },
+              {
+                "text": "Extremely risky",
+                "value": "5_extremely_risky"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "assessment_perspective": [
+                "cyclist"
+              ]
+            }
+          },
+          {
+            "text": "When there is no signal, how often do people driving stop for people using this connection?",
+            "answer_key": "driver_yielding",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Never",
+                "value": "1_never"
+              },
+              {
+                "text": "Rarely",
+                "value": "2_rarely"
+              },
+              {
+                "text": "About half of the time",
+                "value": "3_half"
+              },
+              {
+                "text": "Usually",
+                "value": "4_usually"
+              },
+              {
+                "text": "Always or almost always",
+                "value": "5_always"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "traffic_control": "priority_no_signal"
+            }
+          },
+          {
+            "text": "At the signal, how long do people usually wait for green?",
+            "answer_key": "signal_wait_time",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Less than 10 seconds",
+                "value": "1_less_than_10s"
+              },
+              {
+                "text": "10–30 seconds",
+                "value": "2_10_30s"
+              },
+              {
+                "text": "30–60 seconds",
+                "value": "3_30_60s"
+              },
+              {
+                "text": "1–2 minutes",
+                "value": "4_1_2min"
+              },
+              {
+                "text": "More than 2 minutes",
+                "value": "5_more_than_2min"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "traffic_control": [
+                "protected_signal",
+                "permissive_signal_with_turning_conflict",
+                "unclear_signal_priority"
+              ]
+            }
+          },
+          {
+            "text": "How safe do you feel in this underpass?",
+            "answer_key": "tunnel_perceived_safety",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Very safe",
+                "value": "1_very_safe"
+              },
+              {
+                "text": "Safe",
+                "value": "2_safe"
+              },
+              {
+                "text": "Neither safe nor unsafe",
+                "value": "3_neutral"
+              },
+              {
+                "text": "Unsafe",
+                "value": "4_unsafe"
+              },
+              {
+                "text": "Very unsafe",
+                "value": "5_very_unsafe"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "connection_form": "under_road"
+            }
+          },
+          {
+            "text": "How safe do you feel on this bridge?",
+            "answer_key": "bridge_perceived_safety",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Very safe",
+                "value": "1_very_safe"
+              },
+              {
+                "text": "Safe",
+                "value": "2_safe"
+              },
+              {
+                "text": "Neither safe nor unsafe",
+                "value": "3_neutral"
+              },
+              {
+                "text": "Unsafe",
+                "value": "4_unsafe"
+              },
+              {
+                "text": "Very unsafe",
+                "value": "5_very_unsafe"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "connection_form": "over_road"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Improve this connection",
+        "description": "Tell us whether improving this place should be a priority.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "How urgent is it to improve this connection?",
+            "answer_key": "connection_improvement_importance",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Not urgent",
+                "value": "1_not_urgent"
+              },
+              {
+                "text": "Slightly urgent",
+                "value": "2_slightly_urgent"
+              },
+              {
+                "text": "Moderately urgent",
+                "value": "3_moderately_urgent"
+              },
+              {
+                "text": "Urgent",
+                "value": "4_urgent"
+              },
+              {
+                "text": "Very urgent",
+                "value": "5_very_urgent"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ]
+          },
+          {
+            "text": "What would improve this connection most?",
+            "answer_key": "main_improvements_needed",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Clearer signs or markings",
+                "value": "clearer_signs_markings"
+              },
+              {
+                "text": "Better lighting",
+                "value": "better_lighting"
+              },
+              {
+                "text": "Better visibility",
+                "value": "better_visibility"
+              },
+              {
+                "text": "Safer waiting or stopping space",
+                "value": "safer_waiting_space"
+              },
+              {
+                "text": "Better access for people with different mobility needs",
+                "value": "accessibility_improvement"
+              },
+              {
+                "text": "Traffic calming or slower vehicles",
+                "value": "traffic_calming"
+              },
+              {
+                "text": "Better maintenance or cleaning",
+                "value": "maintenance_cleaning"
+              },
+              {
+                "text": "Nothing important",
+                "value": "nothing"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ]
+          },
+          {
+            "text": "Anything else you want to add?",
+            "answer_key": "additional_comments",
+            "question_type": "text",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          },
+          {
+            "text": "Would you like to add a few optional details?",
+            "answer_key": "continue_audit",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No, finish the assessment",
+                "value": "no_finish"
+              },
+              {
+                "text": "Yes, add optional details",
+                "value": "yes_audit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Optional details",
+        "description": "These questions are optional and help us understand what should be improved.",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Why is it difficult to understand?",
+            "answer_key": "connection_clarity_problems",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Signs are missing",
+                "value": "missing_signs"
+              },
+              {
+                "text": "Markings are missing",
+                "value": "missing_markings"
+              },
+              {
+                "text": "Markings are faded",
+                "value": "faded_markings"
+              },
+              {
+                "text": "The connection is hard to recognize",
+                "value": "hard_to_recognize"
+              },
+              {
+                "text": "It is not clear if people can walk here",
+                "value": "pedestrian_use_unclear"
+              },
+              {
+                "text": "It is not clear if people can cycle here",
+                "value": "cycling_use_unclear"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit",
+              "connection_clarity": [
+                "4_difficult",
+                "5_very_difficult"
+              ]
+            }
+          },
+          {
+            "text": "What blocks the view, if anything?",
+            "answer_key": "visibility_obstacles",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Parked vehicles",
+                "value": "parked_vehicles"
+              },
+              {
+                "text": "Stopped vehicles",
+                "value": "stopped_vehicles"
+              },
+              {
+                "text": "Trees or plants",
+                "value": "vegetation"
+              },
+              {
+                "text": "Bins or containers",
+                "value": "bins"
+              },
+              {
+                "text": "Signs, poles, boxes, or street furniture",
+                "value": "street_furniture"
+              },
+              {
+                "text": "Wall, fence, or building corner",
+                "value": "wall_fence_corner"
+              },
+              {
+                "text": "Road curve or slope",
+                "value": "road_geometry"
+              },
+              {
+                "text": "Blind corner or hidden area",
+                "value": "blind_corner_hidden_area"
+              },
+              {
+                "text": "Nothing / not relevant",
+                "value": "none_or_not_relevant"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit"
+            }
+          },
+          {
+            "text": "What helps people use this connection safely?",
+            "answer_key": "safety_features",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Good lighting",
+                "value": "lighting"
+              },
+              {
+                "text": "Raised crossing or raised surface",
+                "value": "raised_surface"
+              },
+              {
+                "text": "Different color or material on the ground",
+                "value": "colored_or_different_surface"
+              },
+              {
+                "text": "Protected island or safe place to stop",
+                "value": "protected_island_or_safe_stop"
+              },
+              {
+                "text": "Curb ramp",
+                "value": "curb_ramp"
+              },
+              {
+                "text": "Tactile paving",
+                "value": "tactile_paving"
+              },
+              {
+                "text": "Handrail",
+                "value": "handrail"
+              },
+              {
+                "text": "Non-slip surface",
+                "value": "non_slip_surface"
+              },
+              {
+                "text": "None of these",
+                "value": "none"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit"
+            }
+          },
+          {
+            "text": "What problems do you see in this underpass?",
+            "answer_key": "tunnel_problems",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Poor lighting",
+                "value": "poor_lighting"
+              },
+              {
+                "text": "Dirty surface or litter",
+                "value": "dirty_surface"
+              },
+              {
+                "text": "Walls or ceiling in poor condition",
+                "value": "walls_ceiling_poor"
+              },
+              {
+                "text": "Standing water",
+                "value": "standing_water"
+              },
+              {
+                "text": "No clear problem",
+                "value": "none"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit",
+              "connection_form": "under_road"
+            }
+          },
+          {
+            "text": "Is this bridge covered?",
+            "answer_key": "bridge_cover",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "No cover",
+                "value": "no_cover"
+              },
+              {
+                "text": "Roof or canopy",
+                "value": "roof_or_canopy"
+              },
+              {
+                "text": "Enclosed by walls or panels",
+                "value": "enclosed"
+              },
+              {
+                "text": "Glass or transparent panels",
+                "value": "transparent_panels"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit",
+              "connection_form": "over_road"
+            }
+          },
+          {
+            "text": "For stairs, what helps people use them?",
+            "answer_key": "stairs_features",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Handrail",
+                "value": "handrail"
+              },
+              {
+                "text": "Good lighting",
+                "value": "lighting"
+              },
+              {
+                "text": "Regular and visible steps",
+                "value": "regular_visible_steps"
+              },
+              {
+                "text": "Non-slip surface",
+                "value": "non_slip_surface"
+              },
+              {
+                "text": "Bike rail or channel",
+                "value": "bike_channel"
+              },
+              {
+                "text": "Resting place nearby",
+                "value": "resting_place"
+              },
+              {
+                "text": "None of these",
+                "value": "none"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit",
+              "connection_elements": [
+                "stairs"
+              ]
+            }
+          },
+          {
+            "text": "For a ramp, what helps people use it?",
+            "answer_key": "ramp_features",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Gentle slope",
+                "value": "gentle_slope"
+              },
+              {
+                "text": "Handrail",
+                "value": "handrail"
+              },
+              {
+                "text": "Good lighting",
+                "value": "lighting"
+              },
+              {
+                "text": "Non-slip surface",
+                "value": "non_slip_surface"
+              },
+              {
+                "text": "Wide enough for wheelchairs or strollers",
+                "value": "wide_enough"
+              },
+              {
+                "text": "Resting place nearby",
+                "value": "resting_place"
+              },
+              {
+                "text": "None of these",
+                "value": "none"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit",
+              "connection_elements": [
+                "ramp"
+              ]
+            }
+          },
+          {
+            "text": "How often do you observe potentially conflicting uses of this connection?",
+            "answer_key": "unsafe_use_observed",
+            "question_type": "single_option",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "Never or almost never",
+                "value": "1_never"
+              },
+              {
+                "text": "Rarely",
+                "value": "2_rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "3_sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "4_often"
+              },
+              {
+                "text": "Very often",
+                "value": "5_very_often"
+              },
+              {
+                "text": "I don't know",
+                "value": "dont_know"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit"
+            }
+          },
+          {
+            "text": "Which situations do you observe?",
+            "answer_key": "unsafe_use_type",
+            "question_type": "multiple_options",
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "options": [
+              {
+                "text": "People cross outside the marked place",
+                "value": "outside_marked_place"
+              },
+              {
+                "text": "People cross against the red light",
+                "value": "red_light_crossing"
+              },
+              {
+                "text": "People cycle in pedestrian-only space",
+                "value": "cyclists_in_ped_space"
+              },
+              {
+                "text": "People walk in bicycle-only space",
+                "value": "pedestrians_in_bike_space"
+              },
+              {
+                "text": "Vehicles stop or park on the connection",
+                "value": "vehicles_block_connection"
+              },
+              {
+                "text": "Other",
+                "value": "other"
+              }
+            ],
+            "show_if": {
+              "continue_audit": "yes_audit",
+              "unsafe_use_observed": [
+                "3_sometimes",
+                "4_often",
+                "5_very_often"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "en": {
+      "#Your point of view": "Your point of view",
+      "#Select walking, cycling, or both. Questions will adapt to your selection.": "Select walking, cycling, or both. Questions will adapt to your selection.",
+      "#How are you assessing this place today?": "How are you assessing this place today?",
+      "#Person walking or rolling": "Person walking or rolling",
+      "#Person cycling": "Person cycling",
+      "#Which of these describe your trip today?": "Which of these describe your trip today?",
+      "#Connecting to or from public transport": "Connecting to or from public transport",
+      "#Connecting to or from a parked car": "Connecting to or from a parked car",
+      "#Connecting to or from bicycle parking": "Connecting to or from bicycle parking",
+      "#Using a wheelchair or mobility aid": "Using a wheelchair or mobility aid",
+      "#Travelling with a stroller": "Travelling with a stroller",
+      "#None of these": "None of these",
+      "#How often do you use or pass this connection?": "How often do you use or pass this connection?",
+      "#This is my first time": "This is my first time",
+      "#Less than once a month": "Less than once a month",
+      "#A few times a month": "A few times a month",
+      "#A few times a week": "A few times a week",
+      "#Almost every day": "Almost every day",
+      "#Describe this connection": "Describe this connection",
+      "#Look at the place. Answer only what you can see.": "Look at the place. Answer only what you can see.",
+      "#What kind of connection is this?": "What kind of connection is this?",
+      "#At street level": "At street level",
+      "#Under the road / underpass": "Under the road / underpass",
+      "#Over the road / bridge": "Over the road / bridge",
+      "#Change in level, such as stairs, ramp, elevator or escalator": "Change in level, such as stairs, ramp, elevator or escalator",
+      "#Other type of connection": "Other type of connection",
+      "#I don't know": "I don't know",
+      "#Can people walking use this connection?": "Can people walking use this connection?",
+      "#Yes, clearly and comfortably": "Yes, clearly and comfortably",
+      "#Yes, but it is not very clear": "Yes, but it is not very clear",
+      "#Yes, but with difficulty": "Yes, but with difficulty",
+      "#No, pedestrians cannot or should not use it": "No, pedestrians cannot or should not use it",
+      "#Can bicycles use this connection?": "Can bicycles use this connection?",
+      "#Yes, with a dedicated bicycle space": "Yes, with a dedicated bicycle space",
+      "#Yes, shared with people walking": "Yes, shared with people walking",
+      "#Yes, shared with traffic": "Yes, shared with traffic",
+      "#Yes, but people cycling probably need to dismount": "Yes, but people cycling probably need to dismount",
+      "#No, bicycles cannot or should not use it": "No, bicycles cannot or should not use it",
+      "#Which elements are part of this connection?": "Which elements are part of this connection?",
+      "#Stairs": "Stairs",
+      "#Ramp": "Ramp",
+      "#Elevator": "Elevator",
+      "#Escalator": "Escalator",
+      "#Other": "Other",
+      "#When people use this connection, how is crossing controlled?": "When people use this connection, how is crossing controlled?",
+      "#There is no signal or clear priority": "There is no signal or clear priority",
+      "#Vehicles should give way, but there is no signal": "Vehicles should give way, but there is no signal",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "There is a signal and conflicting vehicles are stopped when people cross",
+      "#There is a signal, but turning vehicles may still cross the path": "There is a signal, but turning vehicles may still cross the path",
+      "#There is a signal, but priority is unclear": "There is a signal, but priority is unclear",
+      "#I don't know / I cannot tell": "I don't know / I cannot tell",
+      "#How many traffic lanes must people cross here?": "How many traffic lanes must people cross here?",
+      "#1 lane": "1 lane",
+      "#2 lanes": "2 lanes",
+      "#3 lanes": "3 lanes",
+      "#4 lanes": "4 lanes",
+      "#5 or more lanes": "5 or more lanes",
+      "#How easy is it to understand where people should go?": "How easy is it to understand where people should go?",
+      "#Very easy": "Very easy",
+      "#Easy": "Easy",
+      "#Neither easy nor difficult": "Neither easy nor difficult",
+      "#Difficult": "Difficult",
+      "#Very difficult": "Very difficult",
+      "#Before crossing, can people clearly see approaching vehicles or bicycles?": "Before crossing, can people clearly see approaching vehicles or bicycles?",
+      "#Yes, clearly": "Yes, clearly",
+      "#Partly": "Partly",
+      "#No, visibility is poor": "No, visibility is poor",
+      "#Not relevant / I cannot tell": "Not relevant / I cannot tell",
+      "#Can people clearly see the path and the exit?": "Can people clearly see the path and the exit?",
+      "#Yes, the path and exit are clearly visible": "Yes, the path and exit are clearly visible",
+      "#Partly, some areas are hidden": "Partly, some areas are hidden",
+      "#No, there are blind corners or hidden areas": "No, there are blind corners or hidden areas",
+      "#Is there enough room to wait or stop safely?": "Is there enough room to wait or stop safely?",
+      "#No safe place": "No safe place",
+      "#A place exists, but it is too small": "A place exists, but it is too small",
+      "#Enough safe space": "Enough safe space",
+      "#No waiting or stopping space is needed here": "No waiting or stopping space is needed here",
+      "#Who might face barriers when using this connection?": "Who might face barriers when using this connection?",
+      "#People using wheelchairs": "People using wheelchairs",
+      "#People using a walker or walking aid": "People using a walker or walking aid",
+      "#People with strollers": "People with strollers",
+      "#People on bicycles": "People on bicycles",
+      "#Blind or visually impaired people": "Blind or visually impaired people",
+      "#Older people or people who need more time": "Older people or people who need more time",
+      "#No one in particular": "No one in particular",
+      "#Your experience here": "Your experience here",
+      "#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Answer based on your experience. Walking and cycling questions appear according to your selection.",
+      "#Which best describes using this connection while walking?": "Which best describes using this connection while walking?",
+      "#I can pass without slowing down": "I can pass without slowing down",
+      "#I need to slow down a little": "I need to slow down a little",
+      "#I need to be careful while passing": "I need to be careful while passing",
+      "#I need a lot of effort or attention": "I need a lot of effort or attention",
+      "#I avoid using it if possible": "I avoid using it if possible",
+      "#How risky does it feel to use this connection while walking?": "How risky does it feel to use this connection while walking?",
+      "#Not risky": "Not risky",
+      "#Slightly risky": "Slightly risky",
+      "#Moderately risky": "Moderately risky",
+      "#Very risky": "Very risky",
+      "#Extremely risky": "Extremely risky",
+      "#Which best describes using this connection while cycling?": "Which best describes using this connection while cycling?",
+      "#How risky does it feel to use this connection while cycling?": "How risky does it feel to use this connection while cycling?",
+      "#When there is no signal, how often do people driving stop for people using this connection?": "When there is no signal, how often do people driving stop for people using this connection?",
+      "#Never": "Never",
+      "#Rarely": "Rarely",
+      "#About half of the time": "About half of the time",
+      "#Usually": "Usually",
+      "#Always or almost always": "Always or almost always",
+      "#At the signal, how long do people usually wait for green?": "At the signal, how long do people usually wait for green?",
+      "#Less than 10 seconds": "Less than 10 seconds",
+      "#10–30 seconds": "10–30 seconds",
+      "#30–60 seconds": "30–60 seconds",
+      "#1–2 minutes": "1–2 minutes",
+      "#More than 2 minutes": "More than 2 minutes",
+      "#How safe do you feel in this underpass?": "How safe do you feel in this underpass?",
+      "#Very safe": "Very safe",
+      "#Safe": "Safe",
+      "#Neither safe nor unsafe": "Neither safe nor unsafe",
+      "#Unsafe": "Unsafe",
+      "#Very unsafe": "Very unsafe",
+      "#How safe do you feel on this bridge?": "How safe do you feel on this bridge?",
+      "#Improve this connection": "Improve this connection",
+      "#Tell us whether improving this place should be a priority.": "Tell us whether improving this place should be a priority.",
+      "#How urgent is it to improve this connection?": "How urgent is it to improve this connection?",
+      "#Not urgent": "Not urgent",
+      "#Slightly urgent": "Slightly urgent",
+      "#Moderately urgent": "Moderately urgent",
+      "#Urgent": "Urgent",
+      "#Very urgent": "Very urgent",
+      "#What would improve this connection most?": "What would improve this connection most?",
+      "#Clearer signs or markings": "Clearer signs or markings",
+      "#Better lighting": "Better lighting",
+      "#Better visibility": "Better visibility",
+      "#Safer waiting or stopping space": "Safer waiting or stopping space",
+      "#Better access for people with different mobility needs": "Better access for people with different mobility needs",
+      "#Traffic calming or slower vehicles": "Traffic calming or slower vehicles",
+      "#Better maintenance or cleaning": "Better maintenance or cleaning",
+      "#Nothing important": "Nothing important",
+      "#Anything else you want to add?": "Anything else you want to add?",
+      "#Would you like to add a few optional details?": "Would you like to add a few optional details?",
+      "#No, finish the assessment": "No, finish the assessment",
+      "#Yes, add optional details": "Yes, add optional details",
+      "#Optional details": "Optional details",
+      "#These questions are optional and help us understand what should be improved.": "These questions are optional and help us understand what should be improved.",
+      "#Why is it difficult to understand?": "Why is it difficult to understand?",
+      "#Signs are missing": "Signs are missing",
+      "#Markings are missing": "Markings are missing",
+      "#Markings are faded": "Markings are faded",
+      "#The connection is hard to recognize": "The connection is hard to recognize",
+      "#It is not clear if people can walk here": "It is not clear if people can walk here",
+      "#It is not clear if people can cycle here": "It is not clear if people can cycle here",
+      "#What blocks the view, if anything?": "What blocks the view, if anything?",
+      "#Parked vehicles": "Parked vehicles",
+      "#Stopped vehicles": "Stopped vehicles",
+      "#Trees or plants": "Trees or plants",
+      "#Bins or containers": "Bins or containers",
+      "#Signs, poles, boxes, or street furniture": "Signs, poles, boxes, or street furniture",
+      "#Wall, fence, or building corner": "Wall, fence, or building corner",
+      "#Road curve or slope": "Road curve or slope",
+      "#Blind corner or hidden area": "Blind corner or hidden area",
+      "#Nothing / not relevant": "Nothing / not relevant",
+      "#What helps people use this connection safely?": "What helps people use this connection safely?",
+      "#Good lighting": "Good lighting",
+      "#Raised crossing or raised surface": "Raised crossing or raised surface",
+      "#Different color or material on the ground": "Different color or material on the ground",
+      "#Protected island or safe place to stop": "Protected island or safe place to stop",
+      "#Curb ramp": "Curb ramp",
+      "#Tactile paving": "Tactile paving",
+      "#Handrail": "Handrail",
+      "#Non-slip surface": "Non-slip surface",
+      "#What problems do you see in this underpass?": "What problems do you see in this underpass?",
+      "#Poor lighting": "Poor lighting",
+      "#Dirty surface or litter": "Dirty surface or litter",
+      "#Walls or ceiling in poor condition": "Walls or ceiling in poor condition",
+      "#Standing water": "Standing water",
+      "#No clear problem": "No clear problem",
+      "#Is this bridge covered?": "Is this bridge covered?",
+      "#No cover": "No cover",
+      "#Roof or canopy": "Roof or canopy",
+      "#Enclosed by walls or panels": "Enclosed by walls or panels",
+      "#Glass or transparent panels": "Glass or transparent panels",
+      "#For stairs, what helps people use them?": "For stairs, what helps people use them?",
+      "#Regular and visible steps": "Regular and visible steps",
+      "#Bike rail or channel": "Bike rail or channel",
+      "#Resting place nearby": "Resting place nearby",
+      "#For a ramp, what helps people use it?": "For a ramp, what helps people use it?",
+      "#Gentle slope": "Gentle slope",
+      "#Wide enough for wheelchairs or strollers": "Wide enough for wheelchairs or strollers",
+      "#How often do you observe potentially conflicting uses of this connection?": "How often do you observe potentially conflicting uses of this connection?",
+      "#Never or almost never": "Never or almost never",
+      "#Sometimes": "Sometimes",
+      "#Often": "Often",
+      "#Very often": "Very often",
+      "#Which situations do you observe?": "Which situations do you observe?",
+      "#People cross outside the marked place": "People cross outside the marked place",
+      "#People cross against the red light": "People cross against the red light",
+      "#People cycle in pedestrian-only space": "People cycle in pedestrian-only space",
+      "#People walk in bicycle-only space": "People walk in bicycle-only space",
+      "#Vehicles stop or park on the connection": "Vehicles stop or park on the connection"
+    },
+    "it": {
+      "#Your point of view": "Il tuo punto di vista",
+      "#Select walking, cycling, or both. Questions will adapt to your selection.": "Seleziona a piedi, in bicicletta o entrambe le modalità. Le domande si adatteranno alla tua scelta.",
+      "#How are you assessing this place today?": "Come stai valutando questo luogo oggi?",
+      "#Person walking or rolling": "Persona a piedi o con ausili alla mobilità",
+      "#Person cycling": "Persona in bicicletta",
+      "#Which of these describe your trip today?": "Quali di queste situazioni descrivono il tuo spostamento di oggi?",
+      "#Connecting to or from public transport": "Collegamento da o verso il trasporto pubblico",
+      "#Connecting to or from a parked car": "Collegamento da o verso un'automobile parcheggiata",
+      "#Connecting to or from bicycle parking": "Collegamento da o verso un parcheggio per biciclette",
+      "#Using a wheelchair or mobility aid": "Uso di una sedia a rotelle o di altri ausili alla mobilità",
+      "#Travelling with a stroller": "Spostamento con passeggino",
+      "#None of these": "Nessuna di queste",
+      "#How often do you use or pass this connection?": "Quanto spesso usi o attraversi questo collegamento?",
+      "#This is my first time": "È la prima volta",
+      "#Less than once a month": "Meno di una volta al mese",
+      "#A few times a month": "Alcune volte al mese",
+      "#A few times a week": "Alcune volte a settimana",
+      "#Almost every day": "Quasi ogni giorno",
+      "#Describe this connection": "Descrivi questo collegamento",
+      "#Look at the place. Answer only what you can see.": "Osserva il luogo. Rispondi solo a ciò che puoi vedere.",
+      "#What kind of connection is this?": "Che tipo di collegamento è?",
+      "#At street level": "A livello strada",
+      "#Under the road / underpass": "Sotto la strada / sottopasso",
+      "#Over the road / bridge": "Sopra la strada / ponte",
+      "#Change in level, such as stairs, ramp, elevator or escalator": "Cambio di quota, come scale, rampa, ascensore o scala mobile",
+      "#Other type of connection": "Altro tipo di collegamento",
+      "#I don't know": "Non lo so",
+      "#Can people walking use this connection?": "Questo collegamento può essere usato da chi si sposta a piedi?",
+      "#Yes, clearly and comfortably": "Sì, in modo chiaro e comodo",
+      "#Yes, but it is not very clear": "Sì, ma non è molto chiaro",
+      "#Yes, but with difficulty": "Sì, ma con difficoltà",
+      "#No, pedestrians cannot or should not use it": "No, non può o non dovrebbe essere usato a piedi",
+      "#Can bicycles use this connection?": "Questo collegamento può essere usato in bicicletta?",
+      "#Yes, with a dedicated bicycle space": "Sì, con uno spazio dedicato alle biciclette",
+      "#Yes, shared with people walking": "Sì, condiviso con persone a piedi",
+      "#Yes, shared with traffic": "Sì, condiviso con il traffico",
+      "#Yes, but people cycling probably need to dismount": "Sì, ma probabilmente occorre scendere dalla bicicletta",
+      "#No, bicycles cannot or should not use it": "No, non può o non dovrebbe essere usato in bicicletta",
+      "#Which elements are part of this connection?": "Quali elementi fanno parte di questo collegamento?",
+      "#Stairs": "Scale",
+      "#Ramp": "Rampa",
+      "#Elevator": "Ascensore",
+      "#Escalator": "Scala mobile",
+      "#Other": "Altro",
+      "#When people use this connection, how is crossing controlled?": "Come è regolato l'attraversamento di questo collegamento?",
+      "#There is no signal or clear priority": "Non c'è semaforo né precedenza chiara",
+      "#Vehicles should give way, but there is no signal": "I veicoli dovrebbero dare precedenza, ma non c'è semaforo",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "C'è un semaforo e i veicoli in conflitto sono fermi quando le persone attraversano",
+      "#There is a signal, but turning vehicles may still cross the path": "C'è un semaforo, ma i veicoli in svolta possono ancora attraversare il percorso",
+      "#There is a signal, but priority is unclear": "C'è un semaforo, ma la precedenza non è chiara",
+      "#I don't know / I cannot tell": "Non lo so / non riesco a capirlo",
+      "#How many traffic lanes must people cross here?": "Quante corsie di traffico devono attraversare le persone qui?",
+      "#1 lane": "1 corsia",
+      "#2 lanes": "2 corsie",
+      "#3 lanes": "3 corsie",
+      "#4 lanes": "4 corsie",
+      "#5 or more lanes": "5 o più corsie",
+      "#How easy is it to understand where people should go?": "Quanto è facile capire dove devono passare le persone?",
+      "#Very easy": "Molto facile",
+      "#Easy": "Facile",
+      "#Neither easy nor difficult": "Né facile né difficile",
+      "#Difficult": "Difficile",
+      "#Very difficult": "Molto difficile",
+      "#Before crossing, can people clearly see approaching vehicles or bicycles?": "Prima di attraversare, si vedono chiaramente i veicoli o le biciclette in arrivo?",
+      "#Yes, clearly": "Sì, chiaramente",
+      "#Partly": "In parte",
+      "#No, visibility is poor": "No, la visibilità è scarsa",
+      "#Not relevant / I cannot tell": "Non rilevante / non riesco a capirlo",
+      "#Can people clearly see the path and the exit?": "Le persone vedono chiaramente il percorso e l'uscita?",
+      "#Yes, the path and exit are clearly visible": "Sì, il percorso e l'uscita sono ben visibili",
+      "#Partly, some areas are hidden": "In parte, alcune zone sono nascoste",
+      "#No, there are blind corners or hidden areas": "No, ci sono angoli ciechi o zone nascoste",
+      "#Is there enough room to wait or stop safely?": "C'è abbastanza spazio per aspettare o fermarsi in sicurezza?",
+      "#No safe place": "Nessun posto sicuro",
+      "#A place exists, but it is too small": "C'è uno spazio, ma è troppo piccolo",
+      "#Enough safe space": "C'è abbastanza spazio sicuro",
+      "#No waiting or stopping space is needed here": "Qui non serve uno spazio di attesa o fermata",
+      "#Who might face barriers when using this connection?": "Per quali persone questo collegamento potrebbe presentare ostacoli?",
+      "#People using wheelchairs": "Persone che usano una sedia a rotelle",
+      "#People using a walker or walking aid": "Persone con deambulatore o ausili per camminare",
+      "#People with strollers": "Persone con passeggini",
+      "#People on bicycles": "Persone in bicicletta",
+      "#Blind or visually impaired people": "Persone cieche o ipovedenti",
+      "#Older people or people who need more time": "Persone anziane o che hanno bisogno di più tempo",
+      "#No one in particular": "Nessuno in particolare",
+      "#Your experience here": "La tua esperienza qui",
+      "#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Rispondi in base alla tua esperienza. Le domande a piedi e in bicicletta compariranno in base alla tua scelta.",
+      "#Which best describes using this connection while walking?": "Quale frase descrive meglio la tua esperienza a piedi su questo collegamento?",
+      "#I can pass without slowing down": "Posso passare senza rallentare",
+      "#I need to slow down a little": "Devo rallentare un po'",
+      "#I need to be careful while passing": "Devo fare attenzione mentre passo",
+      "#I need a lot of effort or attention": "Serve molto sforzo o molta attenzione",
+      "#I avoid using it if possible": "Evito di usarlo quando posso",
+      "#How risky does it feel to use this connection while walking?": "Quanto ti sembra rischioso usare questo collegamento a piedi?",
+      "#Not risky": "Per niente rischioso",
+      "#Slightly risky": "Poco rischioso",
+      "#Moderately risky": "Abbastanza rischioso",
+      "#Very risky": "Molto rischioso",
+      "#Extremely risky": "Estremamente rischioso",
+      "#Which best describes using this connection while cycling?": "Quale frase descrive meglio la tua esperienza in bicicletta su questo collegamento?",
+      "#How risky does it feel to use this connection while cycling?": "Quanto ti sembra rischioso usare questo collegamento in bicicletta?",
+      "#When there is no signal, how often do people driving stop for people using this connection?": "Quando non c'è semaforo, quanto spesso chi guida si ferma per lasciare passare?",
+      "#Never": "Mai",
+      "#Rarely": "Raramente",
+      "#About half of the time": "Circa metà delle volte",
+      "#Usually": "Di solito",
+      "#Always or almost always": "Sempre o quasi sempre",
+      "#At the signal, how long do people usually wait for green?": "Al semaforo, quanto aspettano di solito le persone per il verde?",
+      "#Less than 10 seconds": "Meno di 10 secondi",
+      "#10–30 seconds": "10–30 secondi",
+      "#30–60 seconds": "30–60 secondi",
+      "#1–2 minutes": "1–2 minuti",
+      "#More than 2 minutes": "Più di 2 minuti",
+      "#How safe do you feel in this underpass?": "Quanto ti senti in sicurezza in questo sottopasso?",
+      "#Very safe": "Mi sento completamente in sicurezza",
+      "#Safe": "Mi sento in sicurezza",
+      "#Neither safe nor unsafe": "Non mi sento né in sicurezza né in pericolo",
+      "#Unsafe": "Mi sento in pericolo",
+      "#Very unsafe": "Mi sento molto in pericolo",
+      "#How safe do you feel on this bridge?": "Quanto ti senti in sicurezza su questo ponte?",
+      "#Improve this connection": "Migliora questo collegamento",
+      "#Tell us whether improving this place should be a priority.": "Aiutaci a capire se migliorare questo punto dovrebbe essere una priorità.",
+      "#How urgent is it to improve this connection?": "Quanto è urgente migliorare questo collegamento?",
+      "#Not urgent": "Non urgente",
+      "#Slightly urgent": "Poco urgente",
+      "#Moderately urgent": "Abbastanza urgente",
+      "#Urgent": "Urgente",
+      "#Very urgent": "Molto urgente",
+      "#What would improve this connection most?": "Cosa migliorerebbe maggiormente questo collegamento?",
+      "#Clearer signs or markings": "Segnali o strisce più chiari",
+      "#Better lighting": "Migliore illuminazione",
+      "#Better visibility": "Migliore visibilità",
+      "#Safer waiting or stopping space": "Spazio di attesa o fermata più sicuro",
+      "#Better access for people with different mobility needs": "Accesso migliore per persone con diverse esigenze di mobilità",
+      "#Traffic calming or slower vehicles": "Interventi per rallentare i veicoli",
+      "#Better maintenance or cleaning": "Migliore manutenzione o pulizia",
+      "#Nothing important": "Niente di importante",
+      "#Anything else you want to add?": "Vuoi aggiungere altro?",
+      "#Would you like to add a few optional details?": "Vuoi aggiungere qualche dettaglio facoltativo?",
+      "#No, finish the assessment": "No, termina la valutazione",
+      "#Yes, add optional details": "Sì, aggiungi dettagli facoltativi",
+      "#Optional details": "Dettagli facoltativi",
+      "#These questions are optional and help us understand what should be improved.": "Queste domande sono facoltative e aiutano a capire cosa migliorare.",
+      "#Why is it difficult to understand?": "Perché è difficile da capire?",
+      "#Signs are missing": "Mancano i segnali",
+      "#Markings are missing": "Mancano le strisce o i segni a terra",
+      "#Markings are faded": "Le strisce o i segni a terra sono sbiaditi",
+      "#The connection is hard to recognize": "Il collegamento è difficile da riconoscere",
+      "#It is not clear if people can walk here": "Non è chiaro se qui si può passare a piedi",
+      "#It is not clear if people can cycle here": "Non è chiaro se qui si può passare in bicicletta",
+      "#What blocks the view, if anything?": "Cosa blocca la visuale, se c'è qualcosa?",
+      "#Parked vehicles": "Veicoli parcheggiati",
+      "#Stopped vehicles": "Veicoli fermi",
+      "#Trees or plants": "Alberi o piante",
+      "#Bins or containers": "Cassonetti o contenitori",
+      "#Signs, poles, boxes, or street furniture": "Cartelli, pali, centraline o arredi",
+      "#Wall, fence, or building corner": "Muro, recinzione o angolo di edificio",
+      "#Road curve or slope": "Curva o pendenza della strada",
+      "#Blind corner or hidden area": "Angolo cieco o zona nascosta",
+      "#Nothing / not relevant": "Niente / non rilevante",
+      "#What helps people use this connection safely?": "Cosa aiuta a usare questo collegamento in sicurezza?",
+      "#Good lighting": "Buona illuminazione",
+      "#Raised crossing or raised surface": "Attraversamento o superficie rialzata",
+      "#Different color or material on the ground": "Colore o materiale diverso a terra",
+      "#Protected island or safe place to stop": "Isola protetta o punto sicuro dove fermarsi",
+      "#Curb ramp": "Scivolo del marciapiede",
+      "#Tactile paving": "Percorso tattile",
+      "#Handrail": "Corrimano",
+      "#Non-slip surface": "Superficie antiscivolo",
+      "#What problems do you see in this underpass?": "Quali problemi vedi in questo sottopasso?",
+      "#Poor lighting": "Scarsa illuminazione",
+      "#Dirty surface or litter": "Superficie sporca o rifiuti",
+      "#Walls or ceiling in poor condition": "Pareti o soffitto in cattive condizioni",
+      "#Standing water": "Ristagni d'acqua",
+      "#No clear problem": "Nessun problema evidente",
+      "#Is this bridge covered?": "Questo ponte è coperto?",
+      "#No cover": "Nessuna copertura",
+      "#Roof or canopy": "Tettoia o copertura",
+      "#Enclosed by walls or panels": "Chiuso da pareti o pannelli",
+      "#Glass or transparent panels": "Vetri o pannelli trasparenti",
+      "#For stairs, what helps people use them?": "Per le scale, cosa aiuta le persone a usarle?",
+      "#Regular and visible steps": "Gradini regolari e visibili",
+      "#Bike rail or channel": "Canalina per biciclette",
+      "#Resting place nearby": "Punto di riposo vicino",
+      "#For a ramp, what helps people use it?": "Per una rampa, cosa aiuta le persone a usarla?",
+      "#Gentle slope": "Pendenza lieve",
+      "#Wide enough for wheelchairs or strollers": "Abbastanza larga per sedie a rotelle o passeggini",
+      "#How often do you observe potentially conflicting uses of this connection?": "Quanto spesso osservi usi del collegamento che possono creare conflitti?",
+      "#Never or almost never": "Mai o quasi mai",
+      "#Sometimes": "A volte",
+      "#Often": "Spesso",
+      "#Very often": "Molto spesso",
+      "#Which situations do you observe?": "Quali situazioni osservi?",
+      "#People cross outside the marked place": "Le persone attraversano fuori dal punto segnalato",
+      "#People cross against the red light": "Le persone attraversano con il rosso",
+      "#People cycle in pedestrian-only space": "Persone in bicicletta usano spazi riservati a chi va a piedi",
+      "#People walk in bicycle-only space": "Persone a piedi usano spazi riservati alle biciclette",
+      "#Vehicles stop or park on the connection": "I veicoli si fermano o parcheggiano sul collegamento"
+    },
+    "fr": {
+      "#Your point of view": "Votre point de vue",
+      "#Select walking, cycling, or both. Questions will adapt to your selection.": "Sélectionnez la marche, le vélo ou les deux. Les questions s’adapteront à votre sélection.",
+      "#How are you assessing this place today?": "De quel point de vue évaluez-vous ce lieu aujourd’hui ?",
+      "#Person walking or rolling": "Personne à pied ou se déplaçant avec une aide à la mobilité",
+      "#Person cycling": "Personne à vélo",
+      "#Which of these describe your trip today?": "Lesquelles de ces situations décrivent votre trajet aujourd’hui ?",
+      "#Connecting to or from public transport": "Correspondance avec les transports en commun",
+      "#Connecting to or from a parked car": "Trajet depuis ou vers une voiture stationnée",
+      "#Connecting to or from bicycle parking": "Trajet depuis ou vers un stationnement pour vélos",
+      "#Using a wheelchair or mobility aid": "Utilisation d’un fauteuil roulant ou d’une aide à la mobilité",
+      "#Travelling with a stroller": "Déplacement avec une poussette",
+      "#None of these": "Aucun de ces éléments",
+      "#How often do you use or pass this connection?": "À quelle fréquence utilisez-vous ou empruntez-vous cette liaison ?",
+      "#This is my first time": "C’est la première fois",
+      "#Less than once a month": "Moins d’une fois par mois",
+      "#A few times a month": "Quelques fois par mois",
+      "#A few times a week": "Quelques fois par semaine",
+      "#Almost every day": "Presque tous les jours",
+      "#Describe this connection": "Décrivez cette liaison",
+      "#Look at the place. Answer only what you can see.": "Observez le lieu. Répondez uniquement à ce que vous pouvez voir.",
+      "#What kind of connection is this?": "De quel type de liaison s’agit-il ?",
+      "#At street level": "Au niveau de la rue",
+      "#Under the road / underpass": "Sous la route / passage souterrain",
+      "#Over the road / bridge": "Au-dessus de la route / passerelle",
+      "#Change in level, such as stairs, ramp, elevator or escalator": "Changement de niveau, par exemple escalier, rampe, ascenseur ou escalator",
+      "#Other type of connection": "Autre type de liaison",
+      "#I don't know": "Je ne sais pas",
+      "#Can people walking use this connection?": "Les personnes à pied peuvent-elles utiliser cette liaison ?",
+      "#Yes, clearly and comfortably": "Oui, clairement et confortablement",
+      "#Yes, but it is not very clear": "Oui, mais ce n’est pas très clair",
+      "#Yes, but with difficulty": "Oui, mais avec difficulté",
+      "#No, pedestrians cannot or should not use it": "Non, les personnes à pied ne peuvent pas ou ne devraient pas l’utiliser",
+      "#Can bicycles use this connection?": "Les vélos peuvent-ils utiliser cette liaison ?",
+      "#Yes, with a dedicated bicycle space": "Oui, avec un espace réservé aux vélos",
+      "#Yes, shared with people walking": "Oui, dans un espace partagé avec les personnes à pied",
+      "#Yes, shared with traffic": "Oui, dans un espace partagé avec la circulation",
+      "#Yes, but people cycling probably need to dismount": "Oui, mais les personnes à vélo doivent probablement descendre de leur vélo",
+      "#No, bicycles cannot or should not use it": "Non, les vélos ne peuvent pas ou ne devraient pas l’utiliser",
+      "#Which elements are part of this connection?": "Quels éléments font partie de cette liaison ?",
+      "#Stairs": "Escaliers",
+      "#Ramp": "Rampe",
+      "#Elevator": "Ascenseur",
+      "#Escalator": "Escalator",
+      "#Other": "Autre",
+      "#When people use this connection, how is crossing controlled?": "Lorsque des personnes utilisent cette liaison, comment la traversée est-elle régulée ?",
+      "#There is no signal or clear priority": "Il n’y a ni signalisation ni priorité claire",
+      "#Vehicles should give way, but there is no signal": "Les véhicules devraient céder le passage, mais il n’y a pas de signalisation",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "Il y a un feu et les véhicules en conflit sont arrêtés pendant la traversée",
+      "#There is a signal, but turning vehicles may still cross the path": "Il y a un feu, mais les véhicules qui tournent peuvent encore couper le passage",
+      "#There is a signal, but priority is unclear": "Il y a un feu, mais la priorité n’est pas claire",
+      "#I don't know / I cannot tell": "Je ne sais pas / je ne peux pas le déterminer",
+      "#How many traffic lanes must people cross here?": "Combien de voies de circulation faut-il traverser ici ?",
+      "#1 lane": "1 voie",
+      "#2 lanes": "2 voies",
+      "#3 lanes": "3 voies",
+      "#4 lanes": "4 voies",
+      "#5 or more lanes": "5 voies ou plus",
+      "#How easy is it to understand where people should go?": "Est-il facile de comprendre où les personnes doivent aller ?",
+      "#Very easy": "Très facile",
+      "#Easy": "Facile",
+      "#Neither easy nor difficult": "Ni facile ni difficile",
+      "#Difficult": "Difficile",
+      "#Very difficult": "Très difficile",
+      "#Before crossing, can people clearly see approaching vehicles or bicycles?": "Avant de traverser, voit-on clairement les véhicules ou vélos qui approchent ?",
+      "#Yes, clearly": "Oui, clairement",
+      "#Partly": "En partie",
+      "#No, visibility is poor": "Non, la visibilité est mauvaise",
+      "#Not relevant / I cannot tell": "Sans objet / je ne peux pas le déterminer",
+      "#Can people clearly see the path and the exit?": "Peut-on clairement voir le chemin et la sortie ?",
+      "#Yes, the path and exit are clearly visible": "Oui, le chemin et la sortie sont clairement visibles",
+      "#Partly, some areas are hidden": "En partie, certaines zones sont cachées",
+      "#No, there are blind corners or hidden areas": "Non, il y a des angles morts ou des zones cachées",
+      "#Is there enough room to wait or stop safely?": "Y a-t-il assez de place pour attendre ou s’arrêter en sécurité ?",
+      "#No safe place": "Aucun endroit sûr",
+      "#A place exists, but it is too small": "Il existe un espace, mais il est trop petit",
+      "#Enough safe space": "Assez d’espace sûr",
+      "#No waiting or stopping space is needed here": "Aucun espace d’attente ou d’arrêt n’est nécessaire ici",
+      "#Who might face barriers when using this connection?": "Qui pourrait rencontrer des obstacles en utilisant cette liaison ?",
+      "#People using wheelchairs": "Personnes en fauteuil roulant",
+      "#People using a walker or walking aid": "Personnes utilisant un déambulateur ou une aide à la marche",
+      "#People with strollers": "Personnes avec une poussette",
+      "#People on bicycles": "Personnes à vélo",
+      "#Blind or visually impaired people": "Personnes aveugles ou malvoyantes",
+      "#Older people or people who need more time": "Personnes âgées ou ayant besoin de plus de temps",
+      "#No one in particular": "Personne en particulier",
+      "#Your experience here": "Votre expérience ici",
+      "#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Répondez selon votre expérience. Les questions sur la marche et le vélo apparaissent selon votre sélection.",
+      "#Which best describes using this connection while walking?": "Quelle phrase décrit le mieux l’utilisation de cette liaison à pied ?",
+      "#I can pass without slowing down": "Je peux passer sans ralentir",
+      "#I need to slow down a little": "Je dois ralentir un peu",
+      "#I need to be careful while passing": "Je dois faire attention en passant",
+      "#I need a lot of effort or attention": "Cela me demande beaucoup d’effort ou d’attention",
+      "#I avoid using it if possible": "J’évite de l’utiliser si possible",
+      "#How risky does it feel to use this connection while walking?": "À quel point cette liaison vous semble-t-elle risquée à pied ?",
+      "#Not risky": "Pas risqué",
+      "#Slightly risky": "Légèrement risqué",
+      "#Moderately risky": "Modérément risqué",
+      "#Very risky": "Très risqué",
+      "#Extremely risky": "Extrêmement risqué",
+      "#Which best describes using this connection while cycling?": "Quelle phrase décrit le mieux l’utilisation de cette liaison à vélo ?",
+      "#How risky does it feel to use this connection while cycling?": "À quel point cette liaison vous semble-t-elle risquée à vélo ?",
+      "#When there is no signal, how often do people driving stop for people using this connection?": "Lorsqu’il n’y a pas de feu, à quelle fréquence les personnes au volant s’arrêtent-elles pour les personnes qui utilisent cette liaison ?",
+      "#Never": "Jamais",
+      "#Rarely": "Rarement",
+      "#About half of the time": "Environ la moitié du temps",
+      "#Usually": "Généralement",
+      "#Always or almost always": "Toujours ou presque toujours",
+      "#At the signal, how long do people usually wait for green?": "Au feu, combien de temps attend-on généralement le vert ?",
+      "#Less than 10 seconds": "Moins de 10 secondes",
+      "#10–30 seconds": "10 à 30 secondes",
+      "#30–60 seconds": "30 à 60 secondes",
+      "#1–2 minutes": "1 à 2 minutes",
+      "#More than 2 minutes": "Plus de 2 minutes",
+      "#How safe do you feel in this underpass?": "Vous sentez-vous en sécurité dans ce passage souterrain ?",
+      "#Very safe": "Tout à fait en sécurité",
+      "#Safe": "En sécurité",
+      "#Neither safe nor unsafe": "Ni en sécurité ni en danger",
+      "#Unsafe": "En danger",
+      "#Very unsafe": "Tout à fait en danger",
+      "#How safe do you feel on this bridge?": "Vous sentez-vous en sécurité sur cette passerelle ?",
+      "#Improve this connection": "Améliorer cette liaison",
+      "#Tell us whether improving this place should be a priority.": "Indiquez-nous si l’amélioration de ce lieu devrait être prioritaire.",
+      "#How urgent is it to improve this connection?": "À quel point est-il urgent d’améliorer cette liaison ?",
+      "#Not urgent": "Pas urgent",
+      "#Slightly urgent": "Peu urgent",
+      "#Moderately urgent": "Modérément urgent",
+      "#Urgent": "Urgent",
+      "#Very urgent": "Très urgent",
+      "#What would improve this connection most?": "Qu’est-ce qui améliorerait le plus cette liaison ?",
+      "#Clearer signs or markings": "Signalisation ou marquages plus clairs",
+      "#Better lighting": "Meilleur éclairage",
+      "#Better visibility": "Meilleure visibilité",
+      "#Safer waiting or stopping space": "Espace d’attente ou d’arrêt plus sûr",
+      "#Better access for people with different mobility needs": "Meilleur accès pour les personnes ayant différents besoins de mobilité",
+      "#Traffic calming or slower vehicles": "Circulation apaisée ou véhicules plus lents",
+      "#Better maintenance or cleaning": "Meilleur entretien ou nettoyage",
+      "#Nothing important": "Rien d’important",
+      "#Anything else you want to add?": "Souhaitez-vous ajouter autre chose ?",
+      "#Would you like to add a few optional details?": "Souhaitez-vous ajouter quelques détails facultatifs ?",
+      "#No, finish the assessment": "Non, terminer l’évaluation",
+      "#Yes, add optional details": "Oui, ajouter des détails facultatifs",
+      "#Optional details": "Détails facultatifs",
+      "#These questions are optional and help us understand what should be improved.": "Ces questions sont facultatives et nous aident à comprendre ce qui devrait être amélioré.",
+      "#Why is it difficult to understand?": "Pourquoi est-ce difficile à comprendre ?",
+      "#Signs are missing": "La signalisation est absente",
+      "#Markings are missing": "Les marquages sont absents",
+      "#Markings are faded": "Les marquages sont effacés",
+      "#The connection is hard to recognize": "La liaison est difficile à reconnaître",
+      "#It is not clear if people can walk here": "Il n’est pas clair que l’on puisse marcher ici",
+      "#It is not clear if people can cycle here": "Il n’est pas clair que l’on puisse circuler à vélo ici",
+      "#What blocks the view, if anything?": "Qu’est-ce qui bloque la vue, le cas échéant ?",
+      "#Parked vehicles": "Véhicules stationnés",
+      "#Stopped vehicles": "Véhicules arrêtés",
+      "#Trees or plants": "Arbres ou végétation",
+      "#Bins or containers": "Poubelles ou conteneurs",
+      "#Signs, poles, boxes, or street furniture": "Panneaux, poteaux, coffrets ou mobilier urbain",
+      "#Wall, fence, or building corner": "Mur, clôture ou angle de bâtiment",
+      "#Road curve or slope": "Virage ou pente de la route",
+      "#Blind corner or hidden area": "Angle mort ou zone cachée",
+      "#Nothing / not relevant": "Rien / sans objet",
+      "#What helps people use this connection safely?": "Qu’est-ce qui aide à utiliser cette liaison en sécurité ?",
+      "#Good lighting": "Bon éclairage",
+      "#Raised crossing or raised surface": "Passage ou surface surélevés",
+      "#Different color or material on the ground": "Couleur ou matériau différent au sol",
+      "#Protected island or safe place to stop": "Îlot protégé ou endroit sûr pour s’arrêter",
+      "#Curb ramp": "Bateau de trottoir",
+      "#Tactile paving": "Bande d’éveil à la vigilance",
+      "#Handrail": "Main courante",
+      "#Non-slip surface": "Surface antidérapante",
+      "#What problems do you see in this underpass?": "Quels problèmes voyez-vous dans ce passage souterrain ?",
+      "#Poor lighting": "Éclairage insuffisant",
+      "#Dirty surface or litter": "Surface sale ou déchets",
+      "#Walls or ceiling in poor condition": "Murs ou plafond en mauvais état",
+      "#Standing water": "Eau stagnante",
+      "#No clear problem": "Aucun problème évident",
+      "#Is this bridge covered?": "Cette passerelle est-elle couverte ?",
+      "#No cover": "Aucune couverture",
+      "#Roof or canopy": "Toit ou auvent",
+      "#Enclosed by walls or panels": "Fermée par des murs ou des panneaux",
+      "#Glass or transparent panels": "Panneaux en verre ou transparents",
+      "#For stairs, what helps people use them?": "Pour les escaliers, qu’est-ce qui facilite leur utilisation ?",
+      "#Regular and visible steps": "Marches régulières et visibles",
+      "#Bike rail or channel": "Rail ou goulotte pour vélo",
+      "#Resting place nearby": "Espace de repos à proximité",
+      "#For a ramp, what helps people use it?": "Pour une rampe, qu’est-ce qui facilite son utilisation ?",
+      "#Gentle slope": "Pente douce",
+      "#Wide enough for wheelchairs or strollers": "Assez large pour les fauteuils roulants ou les poussettes",
+      "#How often do you observe potentially conflicting uses of this connection?": "À quelle fréquence observez-vous des usages potentiellement conflictuels de cette liaison ?",
+      "#Never or almost never": "Jamais ou presque jamais",
+      "#Sometimes": "Parfois",
+      "#Often": "Souvent",
+      "#Very often": "Très souvent",
+      "#Which situations do you observe?": "Quelles situations observez-vous ?",
+      "#People cross outside the marked place": "Des personnes traversent en dehors du passage marqué",
+      "#People cross against the red light": "Des personnes traversent au feu rouge",
+      "#People cycle in pedestrian-only space": "Des personnes circulent à vélo dans un espace réservé aux piétons",
+      "#People walk in bicycle-only space": "Des personnes marchent dans un espace réservé aux vélos",
+      "#Vehicles stop or park on the connection": "Des véhicules s’arrêtent ou stationnent sur la liaison"
+    },
+    "de": {
+      "#Your point of view": "Ihre Perspektive",
+      "#Select walking, cycling, or both. Questions will adapt to your selection.": "Wählen Sie zu Fuß, mit dem Fahrrad oder beides. Die Fragen passen sich Ihrer Auswahl an.",
+      "#How are you assessing this place today?": "Aus welcher Perspektive bewerten Sie diesen Ort heute?",
+      "#Person walking or rolling": "Person zu Fuß oder mit Mobilitätshilfe",
+      "#Person cycling": "Person mit dem Fahrrad",
+      "#Which of these describe your trip today?": "Welche dieser Situationen beschreiben Ihren heutigen Weg?",
+      "#Connecting to or from public transport": "Umstieg zu oder von öffentlichen Verkehrsmitteln",
+      "#Connecting to or from a parked car": "Weg zu oder von einem geparkten Auto",
+      "#Connecting to or from bicycle parking": "Weg zu oder von einem Fahrradabstellplatz",
+      "#Using a wheelchair or mobility aid": "Nutzung eines Rollstuhls oder einer Mobilitätshilfe",
+      "#Travelling with a stroller": "Unterwegs mit einem Kinderwagen",
+      "#None of these": "Keine davon",
+      "#How often do you use or pass this connection?": "Wie oft nutzen oder passieren Sie diese Verbindung?",
+      "#This is my first time": "Das ist mein erstes Mal",
+      "#Less than once a month": "Weniger als einmal im Monat",
+      "#A few times a month": "Einige Male im Monat",
+      "#A few times a week": "Einige Male pro Woche",
+      "#Almost every day": "Fast jeden Tag",
+      "#Describe this connection": "Diese Verbindung beschreiben",
+      "#Look at the place. Answer only what you can see.": "Sehen Sie sich den Ort an. Beantworten Sie nur, was Sie sehen können.",
+      "#What kind of connection is this?": "Um welche Art von Verbindung handelt es sich?",
+      "#At street level": "Auf Straßenniveau",
+      "#Under the road / underpass": "Unter der Straße / Unterführung",
+      "#Over the road / bridge": "Über der Straße / Brücke",
+      "#Change in level, such as stairs, ramp, elevator or escalator": "Höhenwechsel, etwa Treppe, Rampe, Aufzug oder Rolltreppe",
+      "#Other type of connection": "Andere Art von Verbindung",
+      "#I don't know": "Ich weiß es nicht",
+      "#Can people walking use this connection?": "Können Personen zu Fuß diese Verbindung nutzen?",
+      "#Yes, clearly and comfortably": "Ja, eindeutig und bequem",
+      "#Yes, but it is not very clear": "Ja, aber es ist nicht ganz eindeutig",
+      "#Yes, but with difficulty": "Ja, aber nur mit Schwierigkeiten",
+      "#No, pedestrians cannot or should not use it": "Nein, zu Fuß kann oder sollte sie nicht genutzt werden",
+      "#Can bicycles use this connection?": "Können Fahrräder diese Verbindung nutzen?",
+      "#Yes, with a dedicated bicycle space": "Ja, mit einem eigenen Fahrradbereich",
+      "#Yes, shared with people walking": "Ja, gemeinsam mit Personen zu Fuß",
+      "#Yes, shared with traffic": "Ja, gemeinsam mit dem Verkehr",
+      "#Yes, but people cycling probably need to dismount": "Ja, aber Radfahrende müssen wahrscheinlich absteigen",
+      "#No, bicycles cannot or should not use it": "Nein, Fahrräder können oder sollten sie nicht nutzen",
+      "#Which elements are part of this connection?": "Welche Elemente gehören zu dieser Verbindung?",
+      "#Stairs": "Treppen",
+      "#Ramp": "Rampe",
+      "#Elevator": "Aufzug",
+      "#Escalator": "Rolltreppe",
+      "#Other": "Sonstiges",
+      "#When people use this connection, how is crossing controlled?": "Wie wird die Querung geregelt, wenn Personen diese Verbindung nutzen?",
+      "#There is no signal or clear priority": "Es gibt kein Signal und keinen klaren Vorrang",
+      "#Vehicles should give way, but there is no signal": "Fahrzeuge sollten Vorfahrt gewähren, aber es gibt kein Signal",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "Es gibt ein Signal, und kreuzende Fahrzeuge werden während der Querung angehalten",
+      "#There is a signal, but turning vehicles may still cross the path": "Es gibt ein Signal, aber abbiegende Fahrzeuge können den Weg weiterhin kreuzen",
+      "#There is a signal, but priority is unclear": "Es gibt ein Signal, aber der Vorrang ist unklar",
+      "#I don't know / I cannot tell": "Ich weiß es nicht / ich kann es nicht beurteilen",
+      "#How many traffic lanes must people cross here?": "Wie viele Fahrspuren müssen hier überquert werden?",
+      "#1 lane": "1 Fahrspur",
+      "#2 lanes": "2 Fahrspuren",
+      "#3 lanes": "3 Fahrspuren",
+      "#4 lanes": "4 Fahrspuren",
+      "#5 or more lanes": "5 oder mehr Fahrspuren",
+      "#How easy is it to understand where people should go?": "Wie leicht ist zu erkennen, wohin man gehen oder fahren soll?",
+      "#Very easy": "Sehr leicht",
+      "#Easy": "Leicht",
+      "#Neither easy nor difficult": "Weder leicht noch schwierig",
+      "#Difficult": "Schwierig",
+      "#Very difficult": "Sehr schwierig",
+      "#Before crossing, can people clearly see approaching vehicles or bicycles?": "Sind herannahende Fahrzeuge oder Fahrräder vor dem Queren gut zu sehen?",
+      "#Yes, clearly": "Ja, deutlich",
+      "#Partly": "Teilweise",
+      "#No, visibility is poor": "Nein, die Sicht ist schlecht",
+      "#Not relevant / I cannot tell": "Nicht relevant / ich kann es nicht beurteilen",
+      "#Can people clearly see the path and the exit?": "Sind der Weg und der Ausgang deutlich zu sehen?",
+      "#Yes, the path and exit are clearly visible": "Ja, Weg und Ausgang sind deutlich sichtbar",
+      "#Partly, some areas are hidden": "Teilweise, einige Bereiche sind verdeckt",
+      "#No, there are blind corners or hidden areas": "Nein, es gibt uneinsehbare Ecken oder verdeckte Bereiche",
+      "#Is there enough room to wait or stop safely?": "Gibt es genug Platz, um sicher zu warten oder anzuhalten?",
+      "#No safe place": "Kein sicherer Platz",
+      "#A place exists, but it is too small": "Es gibt einen Platz, aber er ist zu klein",
+      "#Enough safe space": "Ausreichend sicherer Platz",
+      "#No waiting or stopping space is needed here": "Hier wird kein Warte- oder Haltebereich benötigt",
+      "#Who might face barriers when using this connection?": "Wer könnte bei der Nutzung dieser Verbindung auf Hindernisse stoßen?",
+      "#People using wheelchairs": "Personen im Rollstuhl",
+      "#People using a walker or walking aid": "Personen mit Rollator oder Gehhilfe",
+      "#People with strollers": "Personen mit Kinderwagen",
+      "#People on bicycles": "Personen auf Fahrrädern",
+      "#Blind or visually impaired people": "Blinde oder sehbehinderte Personen",
+      "#Older people or people who need more time": "Ältere Personen oder Personen, die mehr Zeit benötigen",
+      "#No one in particular": "Niemand im Besonderen",
+      "#Your experience here": "Ihre Erfahrung hier",
+      "#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Antworten Sie aus eigener Erfahrung. Fragen zum Gehen und Radfahren erscheinen entsprechend Ihrer Auswahl.",
+      "#Which best describes using this connection while walking?": "Welche Aussage beschreibt die Nutzung dieser Verbindung zu Fuß am besten?",
+      "#I can pass without slowing down": "Ich kann passieren, ohne langsamer zu werden",
+      "#I need to slow down a little": "Ich muss etwas langsamer werden",
+      "#I need to be careful while passing": "Ich muss beim Passieren vorsichtig sein",
+      "#I need a lot of effort or attention": "Ich brauche viel Kraft oder Aufmerksamkeit",
+      "#I avoid using it if possible": "Ich vermeide die Nutzung, wenn möglich",
+      "#How risky does it feel to use this connection while walking?": "Wie riskant fühlt sich die Nutzung dieser Verbindung zu Fuß an?",
+      "#Not risky": "Nicht riskant",
+      "#Slightly risky": "Etwas riskant",
+      "#Moderately risky": "Mäßig riskant",
+      "#Very risky": "Sehr riskant",
+      "#Extremely risky": "Extrem riskant",
+      "#Which best describes using this connection while cycling?": "Welche Aussage beschreibt die Nutzung dieser Verbindung mit dem Fahrrad am besten?",
+      "#How risky does it feel to use this connection while cycling?": "Wie riskant fühlt sich die Nutzung dieser Verbindung mit dem Fahrrad an?",
+      "#When there is no signal, how often do people driving stop for people using this connection?": "Wie oft halten Autofahrende ohne Signal für Personen an, die diese Verbindung nutzen?",
+      "#Never": "Nie",
+      "#Rarely": "Selten",
+      "#About half of the time": "Etwa in der Hälfte der Fälle",
+      "#Usually": "Meistens",
+      "#Always or almost always": "Immer oder fast immer",
+      "#At the signal, how long do people usually wait for green?": "Wie lange wartet man am Signal normalerweise auf Grün?",
+      "#Less than 10 seconds": "Weniger als 10 Sekunden",
+      "#10–30 seconds": "10–30 Sekunden",
+      "#30–60 seconds": "30–60 Sekunden",
+      "#1–2 minutes": "1–2 Minuten",
+      "#More than 2 minutes": "Mehr als 2 Minuten",
+      "#How safe do you feel in this underpass?": "Wie sicher fühlen Sie sich in dieser Unterführung?",
+      "#Very safe": "Sehr sicher",
+      "#Safe": "Sicher",
+      "#Neither safe nor unsafe": "Weder sicher noch unsicher",
+      "#Unsafe": "Unsicher",
+      "#Very unsafe": "Sehr unsicher",
+      "#How safe do you feel on this bridge?": "Wie sicher fühlen Sie sich auf dieser Brücke?",
+      "#Improve this connection": "Diese Verbindung verbessern",
+      "#Tell us whether improving this place should be a priority.": "Sagen Sie uns, ob die Verbesserung dieses Ortes Vorrang haben sollte.",
+      "#How urgent is it to improve this connection?": "Wie dringend sollte diese Verbindung verbessert werden?",
+      "#Not urgent": "Nicht dringend",
+      "#Slightly urgent": "Wenig dringend",
+      "#Moderately urgent": "Mäßig dringend",
+      "#Urgent": "Dringend",
+      "#Very urgent": "Sehr dringend",
+      "#What would improve this connection most?": "Was würde diese Verbindung am meisten verbessern?",
+      "#Clearer signs or markings": "Klarere Schilder oder Markierungen",
+      "#Better lighting": "Bessere Beleuchtung",
+      "#Better visibility": "Bessere Sicht",
+      "#Safer waiting or stopping space": "Sichererer Warte- oder Haltebereich",
+      "#Better access for people with different mobility needs": "Besserer Zugang für Personen mit unterschiedlichen Mobilitätsbedürfnissen",
+      "#Traffic calming or slower vehicles": "Verkehrsberuhigung oder langsamere Fahrzeuge",
+      "#Better maintenance or cleaning": "Bessere Wartung oder Reinigung",
+      "#Nothing important": "Nichts Wesentliches",
+      "#Anything else you want to add?": "Möchten Sie noch etwas hinzufügen?",
+      "#Would you like to add a few optional details?": "Möchten Sie einige optionale Details hinzufügen?",
+      "#No, finish the assessment": "Nein, Bewertung abschließen",
+      "#Yes, add optional details": "Ja, optionale Details hinzufügen",
+      "#Optional details": "Optionale Details",
+      "#These questions are optional and help us understand what should be improved.": "Diese Fragen sind optional und helfen uns zu verstehen, was verbessert werden sollte.",
+      "#Why is it difficult to understand?": "Warum ist es schwer zu verstehen?",
+      "#Signs are missing": "Schilder fehlen",
+      "#Markings are missing": "Markierungen fehlen",
+      "#Markings are faded": "Markierungen sind verblasst",
+      "#The connection is hard to recognize": "Die Verbindung ist schwer zu erkennen",
+      "#It is not clear if people can walk here": "Es ist nicht klar, ob man hier zu Fuß gehen darf",
+      "#It is not clear if people can cycle here": "Es ist nicht klar, ob man hier Rad fahren darf",
+      "#What blocks the view, if anything?": "Was versperrt gegebenenfalls die Sicht?",
+      "#Parked vehicles": "Geparkte Fahrzeuge",
+      "#Stopped vehicles": "Haltende Fahrzeuge",
+      "#Trees or plants": "Bäume oder Pflanzen",
+      "#Bins or containers": "Abfallbehälter oder Container",
+      "#Signs, poles, boxes, or street furniture": "Schilder, Pfosten, Kästen oder Straßenmobiliar",
+      "#Wall, fence, or building corner": "Mauer, Zaun oder Gebäudeecke",
+      "#Road curve or slope": "Straßenkurve oder Gefälle",
+      "#Blind corner or hidden area": "Uneinsehbare Ecke oder verdeckter Bereich",
+      "#Nothing / not relevant": "Nichts / nicht relevant",
+      "#What helps people use this connection safely?": "Was hilft, diese Verbindung sicher zu nutzen?",
+      "#Good lighting": "Gute Beleuchtung",
+      "#Raised crossing or raised surface": "Erhöhte Querung oder erhöhte Fläche",
+      "#Different color or material on the ground": "Andere Farbe oder anderes Material am Boden",
+      "#Protected island or safe place to stop": "Geschützte Insel oder sicherer Haltebereich",
+      "#Curb ramp": "Abgesenkter Bordstein",
+      "#Tactile paving": "Taktiles Leitsystem",
+      "#Handrail": "Handlauf",
+      "#Non-slip surface": "Rutschfeste Oberfläche",
+      "#What problems do you see in this underpass?": "Welche Probleme sehen Sie in dieser Unterführung?",
+      "#Poor lighting": "Schlechte Beleuchtung",
+      "#Dirty surface or litter": "Verschmutzte Oberfläche oder Abfall",
+      "#Walls or ceiling in poor condition": "Wände oder Decke in schlechtem Zustand",
+      "#Standing water": "Stehendes Wasser",
+      "#No clear problem": "Kein eindeutiges Problem",
+      "#Is this bridge covered?": "Ist diese Brücke überdacht?",
+      "#No cover": "Keine Überdachung",
+      "#Roof or canopy": "Dach oder Überdachung",
+      "#Enclosed by walls or panels": "Durch Wände oder Paneele geschlossen",
+      "#Glass or transparent panels": "Glas oder transparente Paneele",
+      "#For stairs, what helps people use them?": "Was erleichtert die Nutzung der Treppe?",
+      "#Regular and visible steps": "Gleichmäßige und gut sichtbare Stufen",
+      "#Bike rail or channel": "Fahrradschiene oder -rinne",
+      "#Resting place nearby": "Rastmöglichkeit in der Nähe",
+      "#For a ramp, what helps people use it?": "Was erleichtert die Nutzung einer Rampe?",
+      "#Gentle slope": "Geringe Neigung",
+      "#Wide enough for wheelchairs or strollers": "Breit genug für Rollstühle oder Kinderwagen",
+      "#How often do you observe potentially conflicting uses of this connection?": "Wie oft beobachten Sie potenziell konfliktträchtige Nutzungen dieser Verbindung?",
+      "#Never or almost never": "Nie oder fast nie",
+      "#Sometimes": "Manchmal",
+      "#Often": "Oft",
+      "#Very often": "Sehr oft",
+      "#Which situations do you observe?": "Welche Situationen beobachten Sie?",
+      "#People cross outside the marked place": "Personen queren außerhalb der Markierung",
+      "#People cross against the red light": "Personen queren bei Rot",
+      "#People cycle in pedestrian-only space": "Personen fahren im reinen Fußgängerbereich Rad",
+      "#People walk in bicycle-only space": "Personen gehen im reinen Fahrradbereich zu Fuß",
+      "#Vehicles stop or park on the connection": "Fahrzeuge halten oder parken auf der Verbindung"
+    },
+    "tr": {
+      "#Your point of view": "Bakış açınız",
+      "#Select walking, cycling, or both. Questions will adapt to your selection.": "Yürümeyi, bisiklete binmeyi veya her ikisini seçin. Sorular seçiminize göre uyarlanacaktır.",
+      "#How are you assessing this place today?": "Bugün bu yeri hangi açıdan değerlendiriyorsunuz?",
+      "#Person walking or rolling": "Yürüyen veya hareketlilik desteğiyle ilerleyen kişi",
+      "#Person cycling": "Bisiklet süren kişi",
+      "#Which of these describe your trip today?": "Bunlardan hangileri bugünkü yolculuğunuzu tanımlıyor?",
+      "#Connecting to or from public transport": "Toplu taşımaya veya toplu taşımadan bağlantı",
+      "#Connecting to or from a parked car": "Park edilmiş bir araca veya araçtan bağlantı",
+      "#Connecting to or from bicycle parking": "Bisiklet parkına veya parkından bağlantı",
+      "#Using a wheelchair or mobility aid": "Tekerlekli sandalye veya hareketlilik desteği kullanma",
+      "#Travelling with a stroller": "Bebek arabasıyla yolculuk",
+      "#None of these": "Bunların hiçbiri",
+      "#How often do you use or pass this connection?": "Bu bağlantıyı ne sıklıkla kullanıyor veya buradan geçiyorsunuz?",
+      "#This is my first time": "Burayı ilk kez kullanıyorum",
+      "#Less than once a month": "Ayda birden az",
+      "#A few times a month": "Ayda birkaç kez",
+      "#A few times a week": "Haftada birkaç kez",
+      "#Almost every day": "Neredeyse her gün",
+      "#Describe this connection": "Bu bağlantıyı tanımlayın",
+      "#Look at the place. Answer only what you can see.": "Yere bakın. Yalnızca görebildiğiniz şeyleri yanıtlayın.",
+      "#What kind of connection is this?": "Bu ne tür bir bağlantıdır?",
+      "#At street level": "Sokak seviyesinde",
+      "#Under the road / underpass": "Yolun altında / alt geçit",
+      "#Over the road / bridge": "Yolun üstünde / köprü",
+      "#Change in level, such as stairs, ramp, elevator or escalator": "Merdiven, rampa, asansör veya yürüyen merdiven gibi seviye değişikliği",
+      "#Other type of connection": "Başka bir bağlantı türü",
+      "#I don't know": "Bilmiyorum",
+      "#Can people walking use this connection?": "Yürüyen kişiler bu bağlantıyı kullanabilir mi?",
+      "#Yes, clearly and comfortably": "Evet, açık ve rahat biçimde",
+      "#Yes, but it is not very clear": "Evet, ancak çok açık değil",
+      "#Yes, but with difficulty": "Evet, ancak güçlükle",
+      "#No, pedestrians cannot or should not use it": "Hayır, yayalar bunu kullanamaz veya kullanmamalıdır",
+      "#Can bicycles use this connection?": "Bisikletler bu bağlantıyı kullanabilir mi?",
+      "#Yes, with a dedicated bicycle space": "Evet, ayrılmış bir bisiklet alanıyla",
+      "#Yes, shared with people walking": "Evet, yürüyen kişilerle ortak",
+      "#Yes, shared with traffic": "Evet, trafikle ortak",
+      "#Yes, but people cycling probably need to dismount": "Evet, ancak bisiklet sürenlerin muhtemelen inmesi gerekir",
+      "#No, bicycles cannot or should not use it": "Hayır, bisikletler bunu kullanamaz veya kullanmamalıdır",
+      "#Which elements are part of this connection?": "Bu bağlantıda hangi unsurlar bulunuyor?",
+      "#Stairs": "Merdiven",
+      "#Ramp": "Rampa",
+      "#Elevator": "Asansör",
+      "#Escalator": "Yürüyen merdiven",
+      "#Other": "Diğer",
+      "#When people use this connection, how is crossing controlled?": "İnsanlar bu bağlantıyı kullanırken geçiş nasıl kontrol ediliyor?",
+      "#There is no signal or clear priority": "Sinyal veya açık bir geçiş önceliği yok",
+      "#Vehicles should give way, but there is no signal": "Araçlar yol vermeli, ancak sinyal yok",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "Sinyal var ve insanlar geçerken çakışan araçlar durduruluyor",
+      "#There is a signal, but turning vehicles may still cross the path": "Sinyal var, ancak dönen araçlar yolu kesmeye devam edebilir",
+      "#There is a signal, but priority is unclear": "Sinyal var, ancak geçiş önceliği belirsiz",
+      "#I don't know / I cannot tell": "Bilmiyorum / anlayamıyorum",
+      "#How many traffic lanes must people cross here?": "Burada kaç trafik şeridi geçilmelidir?",
+      "#1 lane": "1 şerit",
+      "#2 lanes": "2 şerit",
+      "#3 lanes": "3 şerit",
+      "#4 lanes": "4 şerit",
+      "#5 or more lanes": "5 veya daha fazla şerit",
+      "#How easy is it to understand where people should go?": "İnsanların nereye gitmesi gerektiğini anlamak ne kadar kolay?",
+      "#Very easy": "Çok kolay",
+      "#Easy": "Kolay",
+      "#Neither easy nor difficult": "Ne kolay ne zor",
+      "#Difficult": "Zor",
+      "#Very difficult": "Çok zor",
+      "#Before crossing, can people clearly see approaching vehicles or bicycles?": "Geçmeden önce yaklaşan araçlar veya bisikletler açıkça görülebiliyor mu?",
+      "#Yes, clearly": "Evet, açıkça",
+      "#Partly": "Kısmen",
+      "#No, visibility is poor": "Hayır, görüş zayıf",
+      "#Not relevant / I cannot tell": "İlgili değil / anlayamıyorum",
+      "#Can people clearly see the path and the exit?": "Yol ve çıkış açıkça görülebiliyor mu?",
+      "#Yes, the path and exit are clearly visible": "Evet, yol ve çıkış açıkça görülüyor",
+      "#Partly, some areas are hidden": "Kısmen, bazı alanlar gizli",
+      "#No, there are blind corners or hidden areas": "Hayır, kör köşeler veya gizli alanlar var",
+      "#Is there enough room to wait or stop safely?": "Güvenle beklemek veya durmak için yeterli yer var mı?",
+      "#No safe place": "Güvenli bir yer yok",
+      "#A place exists, but it is too small": "Bir yer var, ancak çok küçük",
+      "#Enough safe space": "Yeterli güvenli alan",
+      "#No waiting or stopping space is needed here": "Burada bekleme veya durma alanı gerekmiyor",
+      "#Who might face barriers when using this connection?": "Bu bağlantıyı kullanırken kimler engellerle karşılaşabilir?",
+      "#People using wheelchairs": "Tekerlekli sandalye kullanan kişiler",
+      "#People using a walker or walking aid": "Yürüteç veya yürüme desteği kullanan kişiler",
+      "#People with strollers": "Bebek arabalı kişiler",
+      "#People on bicycles": "Bisikletli kişiler",
+      "#Blind or visually impaired people": "Kör veya görme engelli kişiler",
+      "#Older people or people who need more time": "Yaşlılar veya daha fazla zamana ihtiyaç duyan kişiler",
+      "#No one in particular": "Özellikle hiç kimse",
+      "#Your experience here": "Buradaki deneyiminiz",
+      "#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Deneyiminize göre yanıtlayın. Yürüme ve bisiklet soruları seçiminize göre gösterilir.",
+      "#Which best describes using this connection while walking?": "Bu bağlantıyı yürürken kullanmayı en iyi hangisi tanımlar?",
+      "#I can pass without slowing down": "Yavaşlamadan geçebilirim",
+      "#I need to slow down a little": "Biraz yavaşlamam gerekir",
+      "#I need to be careful while passing": "Geçerken dikkatli olmam gerekir",
+      "#I need a lot of effort or attention": "Çok çaba veya dikkat göstermem gerekir",
+      "#I avoid using it if possible": "Mümkünse kullanmaktan kaçınırım",
+      "#How risky does it feel to use this connection while walking?": "Bu bağlantıyı yürürken kullanmak ne kadar riskli geliyor?",
+      "#Not risky": "Riskli değil",
+      "#Slightly risky": "Biraz riskli",
+      "#Moderately risky": "Orta derecede riskli",
+      "#Very risky": "Çok riskli",
+      "#Extremely risky": "Son derece riskli",
+      "#Which best describes using this connection while cycling?": "Bu bağlantıyı bisikletle kullanmayı en iyi hangisi tanımlar?",
+      "#How risky does it feel to use this connection while cycling?": "Bu bağlantıyı bisikletle kullanmak ne kadar riskli geliyor?",
+      "#When there is no signal, how often do people driving stop for people using this connection?": "Sinyal olmadığında araç kullananlar bu bağlantıyı kullanan kişiler için ne sıklıkla duruyor?",
+      "#Never": "Hiçbir zaman",
+      "#Rarely": "Nadiren",
+      "#About half of the time": "Yaklaşık yarısında",
+      "#Usually": "Genellikle",
+      "#Always or almost always": "Her zaman veya neredeyse her zaman",
+      "#At the signal, how long do people usually wait for green?": "Sinyalde insanlar yeşil ışığı genellikle ne kadar bekliyor?",
+      "#Less than 10 seconds": "10 saniyeden az",
+      "#10–30 seconds": "10–30 saniye",
+      "#30–60 seconds": "30–60 saniye",
+      "#1–2 minutes": "1–2 dakika",
+      "#More than 2 minutes": "2 dakikadan fazla",
+      "#How safe do you feel in this underpass?": "Bu alt geçitte kendinizi ne kadar güvende hissediyorsunuz?",
+      "#Very safe": "Çok güvende",
+      "#Safe": "Güvende",
+      "#Neither safe nor unsafe": "Ne güvende ne güvensiz",
+      "#Unsafe": "Güvensiz",
+      "#Very unsafe": "Çok güvensiz",
+      "#How safe do you feel on this bridge?": "Bu köprüde kendinizi ne kadar güvende hissediyorsunuz?",
+      "#Improve this connection": "Bu bağlantıyı iyileştirin",
+      "#Tell us whether improving this place should be a priority.": "Bu yerin iyileştirilmesinin öncelikli olup olmadığını belirtin.",
+      "#How urgent is it to improve this connection?": "Bu bağlantıyı iyileştirmek ne kadar acil?",
+      "#Not urgent": "Acil değil",
+      "#Slightly urgent": "Biraz acil",
+      "#Moderately urgent": "Orta derecede acil",
+      "#Urgent": "Acil",
+      "#Very urgent": "Çok acil",
+      "#What would improve this connection most?": "Bu bağlantıyı en çok ne iyileştirir?",
+      "#Clearer signs or markings": "Daha açık işaretler veya çizgiler",
+      "#Better lighting": "Daha iyi aydınlatma",
+      "#Better visibility": "Daha iyi görüş",
+      "#Safer waiting or stopping space": "Daha güvenli bekleme veya durma alanı",
+      "#Better access for people with different mobility needs": "Farklı hareketlilik ihtiyaçları olan kişiler için daha iyi erişim",
+      "#Traffic calming or slower vehicles": "Trafik sakinleştirme veya daha yavaş araçlar",
+      "#Better maintenance or cleaning": "Daha iyi bakım veya temizlik",
+      "#Nothing important": "Önemli bir şey yok",
+      "#Anything else you want to add?": "Eklemek istediğiniz başka bir şey var mı?",
+      "#Would you like to add a few optional details?": "Birkaç isteğe bağlı ayrıntı eklemek ister misiniz?",
+      "#No, finish the assessment": "Hayır, değerlendirmeyi bitir",
+      "#Yes, add optional details": "Evet, isteğe bağlı ayrıntılar ekle",
+      "#Optional details": "İsteğe bağlı ayrıntılar",
+      "#These questions are optional and help us understand what should be improved.": "Bu sorular isteğe bağlıdır ve nelerin iyileştirilmesi gerektiğini anlamamıza yardımcı olur.",
+      "#Why is it difficult to understand?": "Anlamak neden zor?",
+      "#Signs are missing": "İşaretler eksik",
+      "#Markings are missing": "Yol çizgileri eksik",
+      "#Markings are faded": "Yol çizgileri solmuş",
+      "#The connection is hard to recognize": "Bağlantıyı fark etmek zor",
+      "#It is not clear if people can walk here": "Burada yürünüp yürünemeyeceği açık değil",
+      "#It is not clear if people can cycle here": "Burada bisiklet sürülüp sürülemeyeceği açık değil",
+      "#What blocks the view, if anything?": "Varsa görüşü ne engelliyor?",
+      "#Parked vehicles": "Park etmiş araçlar",
+      "#Stopped vehicles": "Durmuş araçlar",
+      "#Trees or plants": "Ağaçlar veya bitkiler",
+      "#Bins or containers": "Çöp kutuları veya konteynerler",
+      "#Signs, poles, boxes, or street furniture": "İşaretler, direkler, kutular veya sokak mobilyaları",
+      "#Wall, fence, or building corner": "Duvar, çit veya bina köşesi",
+      "#Road curve or slope": "Yol virajı veya eğimi",
+      "#Blind corner or hidden area": "Kör köşe veya gizli alan",
+      "#Nothing / not relevant": "Hiçbiri / ilgili değil",
+      "#What helps people use this connection safely?": "İnsanların bu bağlantıyı güvenle kullanmasına ne yardımcı oluyor?",
+      "#Good lighting": "İyi aydınlatma",
+      "#Raised crossing or raised surface": "Yükseltilmiş geçit veya yüzey",
+      "#Different color or material on the ground": "Zeminde farklı renk veya malzeme",
+      "#Protected island or safe place to stop": "Korumalı ada veya güvenli durma yeri",
+      "#Curb ramp": "Bordür rampası",
+      "#Tactile paving": "Hissedilebilir yüzey",
+      "#Handrail": "Küpeşte",
+      "#Non-slip surface": "Kaymaz yüzey",
+      "#What problems do you see in this underpass?": "Bu alt geçitte hangi sorunları görüyorsunuz?",
+      "#Poor lighting": "Yetersiz aydınlatma",
+      "#Dirty surface or litter": "Kirli yüzey veya çöp",
+      "#Walls or ceiling in poor condition": "Duvarlar veya tavan kötü durumda",
+      "#Standing water": "Su birikintisi",
+      "#No clear problem": "Belirgin bir sorun yok",
+      "#Is this bridge covered?": "Bu köprü kapalı mı?",
+      "#No cover": "Üstü açık",
+      "#Roof or canopy": "Çatı veya sundurma",
+      "#Enclosed by walls or panels": "Duvarlar veya panellerle kapalı",
+      "#Glass or transparent panels": "Cam veya şeffaf paneller",
+      "#For stairs, what helps people use them?": "Merdivenlerin kullanılmasını ne kolaylaştırıyor?",
+      "#Regular and visible steps": "Düzenli ve görünür basamaklar",
+      "#Bike rail or channel": "Bisiklet rayı veya kanalı",
+      "#Resting place nearby": "Yakında dinlenme yeri",
+      "#For a ramp, what helps people use it?": "Bir rampanın kullanılmasını ne kolaylaştırıyor?",
+      "#Gentle slope": "Hafif eğim",
+      "#Wide enough for wheelchairs or strollers": "Tekerlekli sandalyeler veya bebek arabaları için yeterince geniş",
+      "#How often do you observe potentially conflicting uses of this connection?": "Bu bağlantıda olası çatışmalı kullanımları ne sıklıkla gözlemliyorsunuz?",
+      "#Never or almost never": "Hiçbir zaman veya neredeyse hiçbir zaman",
+      "#Sometimes": "Bazen",
+      "#Often": "Sık sık",
+      "#Very often": "Çok sık",
+      "#Which situations do you observe?": "Hangi durumları gözlemliyorsunuz?",
+      "#People cross outside the marked place": "İnsanlar işaretli yerin dışında geçiyor",
+      "#People cross against the red light": "İnsanlar kırmızı ışıkta geçiyor",
+      "#People cycle in pedestrian-only space": "İnsanlar yalnızca yayalara ayrılmış alanda bisiklet sürüyor",
+      "#People walk in bicycle-only space": "İnsanlar yalnızca bisiklete ayrılmış alanda yürüyor",
+      "#Vehicles stop or park on the connection": "Araçlar bağlantı üzerinde duruyor veya park ediyor"
+    },
+    "fa": {
+      "#Your point of view": "دیدگاه شما",
+      "#Select walking, cycling, or both. Questions will adapt to your selection.": "پیاده‌روی، دوچرخه‌سواری یا هر دو را انتخاب کنید. پرسش‌ها با انتخاب شما سازگار می‌شوند.",
+      "#How are you assessing this place today?": "امروز این مکان را از چه دیدگاهی ارزیابی می‌کنید؟",
+      "#Person walking or rolling": "فردی که پیاده یا با وسیله کمک‌حرکتی جابه‌جا می‌شود",
+      "#Person cycling": "فرد دوچرخه‌سوار",
+      "#Which of these describe your trip today?": "کدام‌یک از این موارد سفر امروز شما را توصیف می‌کند؟",
+      "#Connecting to or from public transport": "اتصال به حمل‌ونقل عمومی یا از آن",
+      "#Connecting to or from a parked car": "رفتن به خودروی پارک‌شده یا آمدن از آن",
+      "#Connecting to or from bicycle parking": "رفتن به محل پارک دوچرخه یا آمدن از آن",
+      "#Using a wheelchair or mobility aid": "استفاده از ویلچر یا وسیله کمک‌حرکتی",
+      "#Travelling with a stroller": "جابه‌جایی با کالسکه کودک",
+      "#None of these": "هیچ‌کدام از این‌ها",
+      "#How often do you use or pass this connection?": "هر چند وقت یک‌بار از این ارتباط استفاده می‌کنید یا از آن می‌گذرید؟",
+      "#This is my first time": "این نخستین بار من است",
+      "#Less than once a month": "کمتر از ماهی یک‌بار",
+      "#A few times a month": "چند بار در ماه",
+      "#A few times a week": "چند بار در هفته",
+      "#Almost every day": "تقریباً هر روز",
+      "#Describe this connection": "این ارتباط را توصیف کنید",
+      "#Look at the place. Answer only what you can see.": "به مکان نگاه کنید. فقط درباره چیزهایی پاسخ دهید که می‌بینید.",
+      "#What kind of connection is this?": "این چه نوع ارتباطی است؟",
+      "#At street level": "هم‌سطح خیابان",
+      "#Under the road / underpass": "زیر جاده / زیرگذر",
+      "#Over the road / bridge": "بالای جاده / پل",
+      "#Change in level, such as stairs, ramp, elevator or escalator": "تغییر سطح، مانند پله، رمپ، آسانسور یا پله‌برقی",
+      "#Other type of connection": "نوع دیگری از ارتباط",
+      "#I don't know": "نمی‌دانم",
+      "#Can people walking use this connection?": "آیا افراد پیاده می‌توانند از این ارتباط استفاده کنند؟",
+      "#Yes, clearly and comfortably": "بله، به‌روشنی و راحتی",
+      "#Yes, but it is not very clear": "بله، اما چندان روشن نیست",
+      "#Yes, but with difficulty": "بله، اما با دشواری",
+      "#No, pedestrians cannot or should not use it": "خیر، عابران پیاده نمی‌توانند یا نباید از آن استفاده کنند",
+      "#Can bicycles use this connection?": "آیا دوچرخه‌ها می‌توانند از این ارتباط استفاده کنند؟",
+      "#Yes, with a dedicated bicycle space": "بله، با فضای اختصاصی دوچرخه",
+      "#Yes, shared with people walking": "بله، مشترک با افراد پیاده",
+      "#Yes, shared with traffic": "بله، مشترک با ترافیک",
+      "#Yes, but people cycling probably need to dismount": "بله، اما دوچرخه‌سواران احتمالاً باید پیاده شوند",
+      "#No, bicycles cannot or should not use it": "خیر، دوچرخه‌ها نمی‌توانند یا نباید از آن استفاده کنند",
+      "#Which elements are part of this connection?": "کدام عناصر بخشی از این ارتباط هستند؟",
+      "#Stairs": "پله",
+      "#Ramp": "رمپ",
+      "#Elevator": "آسانسور",
+      "#Escalator": "پله‌برقی",
+      "#Other": "سایر",
+      "#When people use this connection, how is crossing controlled?": "هنگام استفاده مردم از این ارتباط، عبور چگونه کنترل می‌شود؟",
+      "#There is no signal or clear priority": "هیچ چراغ یا حق‌تقدم روشنی وجود ندارد",
+      "#Vehicles should give way, but there is no signal": "خودروها باید راه بدهند، اما چراغی وجود ندارد",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "چراغ وجود دارد و هنگام عبور مردم، خودروهای متعارض متوقف می‌شوند",
+      "#There is a signal, but turning vehicles may still cross the path": "چراغ وجود دارد، اما خودروهای در حال گردش ممکن است همچنان مسیر را قطع کنند",
+      "#There is a signal, but priority is unclear": "چراغ وجود دارد، اما حق‌تقدم روشن نیست",
+      "#I don't know / I cannot tell": "نمی‌دانم / نمی‌توانم تشخیص دهم",
+      "#How many traffic lanes must people cross here?": "در اینجا چند خط عبور خودرو باید طی شود؟",
+      "#1 lane": "۱ خط",
+      "#2 lanes": "۲ خط",
+      "#3 lanes": "۳ خط",
+      "#4 lanes": "۴ خط",
+      "#5 or more lanes": "۵ خط یا بیشتر",
+      "#How easy is it to understand where people should go?": "فهمیدن اینکه مردم باید از کجا بروند چقدر آسان است؟",
+      "#Very easy": "بسیار آسان",
+      "#Easy": "آسان",
+      "#Neither easy nor difficult": "نه آسان و نه دشوار",
+      "#Difficult": "دشوار",
+      "#Very difficult": "بسیار دشوار",
+      "#Before crossing, can people clearly see approaching vehicles or bicycles?": "پیش از عبور، آیا خودروها یا دوچرخه‌های نزدیک‌شونده به‌وضوح دیده می‌شوند؟",
+      "#Yes, clearly": "بله، به‌وضوح",
+      "#Partly": "تا حدی",
+      "#No, visibility is poor": "خیر، دید ضعیف است",
+      "#Not relevant / I cannot tell": "مرتبط نیست / نمی‌توانم تشخیص دهم",
+      "#Can people clearly see the path and the exit?": "آیا مسیر و خروجی به‌وضوح دیده می‌شوند؟",
+      "#Yes, the path and exit are clearly visible": "بله، مسیر و خروجی به‌وضوح دیده می‌شوند",
+      "#Partly, some areas are hidden": "تا حدی، بعضی بخش‌ها پنهان هستند",
+      "#No, there are blind corners or hidden areas": "خیر، گوشه‌های کور یا بخش‌های پنهان وجود دارد",
+      "#Is there enough room to wait or stop safely?": "آیا فضای کافی برای انتظار یا توقف ایمن وجود دارد؟",
+      "#No safe place": "هیچ جای امنی نیست",
+      "#A place exists, but it is too small": "جایی وجود دارد، اما خیلی کوچک است",
+      "#Enough safe space": "فضای امن کافی",
+      "#No waiting or stopping space is needed here": "در اینجا فضای انتظار یا توقف لازم نیست",
+      "#Who might face barriers when using this connection?": "چه کسانی ممکن است هنگام استفاده از این ارتباط با مانع روبه‌رو شوند؟",
+      "#People using wheelchairs": "افراد استفاده‌کننده از ویلچر",
+      "#People using a walker or walking aid": "افراد استفاده‌کننده از واکر یا وسیله کمک‌راه‌رفتن",
+      "#People with strollers": "افراد دارای کالسکه کودک",
+      "#People on bicycles": "افراد دوچرخه‌سوار",
+      "#Blind or visually impaired people": "افراد نابینا یا کم‌بینا",
+      "#Older people or people who need more time": "سالمندان یا افرادی که به زمان بیشتری نیاز دارند",
+      "#No one in particular": "هیچ‌کس به‌طور خاص",
+      "#Your experience here": "تجربه شما در اینجا",
+      "#Answer based on your experience. Walking and cycling questions appear according to your selection.": "بر پایه تجربه خود پاسخ دهید. پرسش‌های پیاده‌روی و دوچرخه‌سواری مطابق انتخاب شما نمایش داده می‌شوند.",
+      "#Which best describes using this connection while walking?": "کدام عبارت استفاده پیاده از این ارتباط را بهتر توصیف می‌کند؟",
+      "#I can pass without slowing down": "می‌توانم بدون کم‌کردن سرعت عبور کنم",
+      "#I need to slow down a little": "باید کمی آهسته‌تر حرکت کنم",
+      "#I need to be careful while passing": "هنگام عبور باید مراقب باشم",
+      "#I need a lot of effort or attention": "به تلاش یا توجه زیادی نیاز دارم",
+      "#I avoid using it if possible": "اگر ممکن باشد از استفاده از آن پرهیز می‌کنم",
+      "#How risky does it feel to use this connection while walking?": "استفاده پیاده از این ارتباط چقدر پرخطر به نظر می‌رسد؟",
+      "#Not risky": "بدون خطر",
+      "#Slightly risky": "کمی پرخطر",
+      "#Moderately risky": "با خطر متوسط",
+      "#Very risky": "بسیار پرخطر",
+      "#Extremely risky": "به‌شدت پرخطر",
+      "#Which best describes using this connection while cycling?": "کدام عبارت استفاده با دوچرخه از این ارتباط را بهتر توصیف می‌کند؟",
+      "#How risky does it feel to use this connection while cycling?": "استفاده با دوچرخه از این ارتباط چقدر پرخطر به نظر می‌رسد؟",
+      "#When there is no signal, how often do people driving stop for people using this connection?": "وقتی چراغی نیست، رانندگان هر چند وقت یک‌بار برای استفاده‌کنندگان این ارتباط توقف می‌کنند؟",
+      "#Never": "هرگز",
+      "#Rarely": "به‌ندرت",
+      "#About half of the time": "حدود نیمی از مواقع",
+      "#Usually": "معمولاً",
+      "#Always or almost always": "همیشه یا تقریباً همیشه",
+      "#At the signal, how long do people usually wait for green?": "در چراغ، مردم معمولاً چه مدت برای سبزشدن منتظر می‌مانند؟",
+      "#Less than 10 seconds": "کمتر از ۱۰ ثانیه",
+      "#10–30 seconds": "۱۰ تا ۳۰ ثانیه",
+      "#30–60 seconds": "۳۰ تا ۶۰ ثانیه",
+      "#1–2 minutes": "۱ تا ۲ دقیقه",
+      "#More than 2 minutes": "بیش از ۲ دقیقه",
+      "#How safe do you feel in this underpass?": "در این زیرگذر چقدر احساس امنیت می‌کنید؟",
+      "#Very safe": "بسیار امن",
+      "#Safe": "امن",
+      "#Neither safe nor unsafe": "نه امن و نه ناامن",
+      "#Unsafe": "ناامن",
+      "#Very unsafe": "بسیار ناامن",
+      "#How safe do you feel on this bridge?": "روی این پل چقدر احساس امنیت می‌کنید؟",
+      "#Improve this connection": "بهبود این ارتباط",
+      "#Tell us whether improving this place should be a priority.": "به ما بگویید آیا بهبود این مکان باید در اولویت باشد.",
+      "#How urgent is it to improve this connection?": "بهبود این ارتباط چقدر فوری است؟",
+      "#Not urgent": "فوری نیست",
+      "#Slightly urgent": "کمی فوری",
+      "#Moderately urgent": "با فوریت متوسط",
+      "#Urgent": "فوری",
+      "#Very urgent": "بسیار فوری",
+      "#What would improve this connection most?": "چه چیزی بیش از همه این ارتباط را بهتر می‌کند؟",
+      "#Clearer signs or markings": "تابلوها یا خط‌کشی‌های روشن‌تر",
+      "#Better lighting": "روشنایی بهتر",
+      "#Better visibility": "دید بهتر",
+      "#Safer waiting or stopping space": "فضای امن‌تر برای انتظار یا توقف",
+      "#Better access for people with different mobility needs": "دسترسی بهتر برای افراد با نیازهای حرکتی متفاوت",
+      "#Traffic calming or slower vehicles": "آرام‌سازی ترافیک یا خودروهای کندتر",
+      "#Better maintenance or cleaning": "نگهداری یا نظافت بهتر",
+      "#Nothing important": "هیچ مورد مهمی نیست",
+      "#Anything else you want to add?": "آیا می‌خواهید چیز دیگری اضافه کنید؟",
+      "#Would you like to add a few optional details?": "آیا می‌خواهید چند جزئیات اختیاری اضافه کنید؟",
+      "#No, finish the assessment": "خیر، پایان ارزیابی",
+      "#Yes, add optional details": "بله، افزودن جزئیات اختیاری",
+      "#Optional details": "جزئیات اختیاری",
+      "#These questions are optional and help us understand what should be improved.": "این پرسش‌ها اختیاری هستند و به ما کمک می‌کنند بفهمیم چه چیزی باید بهبود یابد.",
+      "#Why is it difficult to understand?": "چرا فهمیدن آن دشوار است؟",
+      "#Signs are missing": "تابلوها وجود ندارند",
+      "#Markings are missing": "خط‌کشی‌ها وجود ندارند",
+      "#Markings are faded": "خط‌کشی‌ها کم‌رنگ شده‌اند",
+      "#The connection is hard to recognize": "تشخیص ارتباط دشوار است",
+      "#It is not clear if people can walk here": "روشن نیست که آیا می‌توان اینجا پیاده رفت",
+      "#It is not clear if people can cycle here": "روشن نیست که آیا می‌توان اینجا دوچرخه‌سواری کرد",
+      "#What blocks the view, if anything?": "در صورت وجود، چه چیزی دید را مسدود می‌کند؟",
+      "#Parked vehicles": "خودروهای پارک‌شده",
+      "#Stopped vehicles": "خودروهای متوقف",
+      "#Trees or plants": "درختان یا گیاهان",
+      "#Bins or containers": "سطل‌ها یا مخزن‌ها",
+      "#Signs, poles, boxes, or street furniture": "تابلوها، تیرها، جعبه‌ها یا مبلمان شهری",
+      "#Wall, fence, or building corner": "دیوار، حصار یا گوشه ساختمان",
+      "#Road curve or slope": "پیچ یا شیب جاده",
+      "#Blind corner or hidden area": "گوشه کور یا بخش پنهان",
+      "#Nothing / not relevant": "هیچ‌چیز / مرتبط نیست",
+      "#What helps people use this connection safely?": "چه چیزی به استفاده ایمن مردم از این ارتباط کمک می‌کند؟",
+      "#Good lighting": "روشنایی خوب",
+      "#Raised crossing or raised surface": "گذرگاه یا سطح برجسته",
+      "#Different color or material on the ground": "رنگ یا جنس متفاوت روی زمین",
+      "#Protected island or safe place to stop": "جزیره محافظت‌شده یا محل امن توقف",
+      "#Curb ramp": "رمپ لبه پیاده‌رو",
+      "#Tactile paving": "کف‌پوش لمسی",
+      "#Handrail": "دستگیره",
+      "#Non-slip surface": "سطح غیرلغزنده",
+      "#What problems do you see in this underpass?": "چه مشکلاتی در این زیرگذر می‌بینید؟",
+      "#Poor lighting": "روشنایی ضعیف",
+      "#Dirty surface or litter": "سطح کثیف یا زباله",
+      "#Walls or ceiling in poor condition": "دیوارها یا سقف در وضعیت نامناسب",
+      "#Standing water": "آب راکد",
+      "#No clear problem": "مشکل روشنی وجود ندارد",
+      "#Is this bridge covered?": "آیا این پل پوشیده است؟",
+      "#No cover": "بدون پوشش",
+      "#Roof or canopy": "سقف یا سایبان",
+      "#Enclosed by walls or panels": "محصور با دیوار یا پنل",
+      "#Glass or transparent panels": "شیشه یا پنل‌های شفاف",
+      "#For stairs, what helps people use them?": "چه چیزی استفاده از پله را آسان‌تر می‌کند؟",
+      "#Regular and visible steps": "پله‌های منظم و قابل‌دید",
+      "#Bike rail or channel": "ریل یا شیار دوچرخه",
+      "#Resting place nearby": "محل استراحت در نزدیکی",
+      "#For a ramp, what helps people use it?": "چه چیزی استفاده از رمپ را آسان‌تر می‌کند؟",
+      "#Gentle slope": "شیب ملایم",
+      "#Wide enough for wheelchairs or strollers": "به‌اندازه کافی پهن برای ویلچر یا کالسکه کودک",
+      "#How often do you observe potentially conflicting uses of this connection?": "هر چند وقت یک‌بار استفاده‌های بالقوه متعارض از این ارتباط را مشاهده می‌کنید؟",
+      "#Never or almost never": "هرگز یا تقریباً هرگز",
+      "#Sometimes": "گاهی",
+      "#Often": "اغلب",
+      "#Very often": "بسیار اغلب",
+      "#Which situations do you observe?": "چه وضعیت‌هایی را مشاهده می‌کنید؟",
+      "#People cross outside the marked place": "مردم بیرون از محل علامت‌گذاری‌شده عبور می‌کنند",
+      "#People cross against the red light": "مردم با چراغ قرمز عبور می‌کنند",
+      "#People cycle in pedestrian-only space": "مردم در فضای ویژه عابر پیاده دوچرخه‌سواری می‌کنند",
+      "#People walk in bicycle-only space": "مردم در فضای ویژه دوچرخه پیاده راه می‌روند",
+      "#Vehicles stop or park on the connection": "خودروها روی ارتباط توقف یا پارک می‌کنند"
+    },
+    "hu": {
+      "#Your point of view": "Az Ön nézőpontja",
+      "#Select walking, cycling, or both. Questions will adapt to your selection.": "Válassza a gyaloglást, a kerékpározást vagy mindkettőt. A kérdések a választásához igazodnak.",
+      "#How are you assessing this place today?": "Milyen nézőpontból értékeli ma ezt a helyet?",
+      "#Person walking or rolling": "Gyalogosan vagy mozgást segítő eszközzel közlekedő személy",
+      "#Person cycling": "Kerékpárral közlekedő személy",
+      "#Which of these describe your trip today?": "Melyik állítás írja le a mai útját?",
+      "#Connecting to or from public transport": "Csatlakozás tömegközlekedéshez vagy onnan",
+      "#Connecting to or from a parked car": "Út parkoló autóhoz vagy onnan",
+      "#Connecting to or from bicycle parking": "Út kerékpártárolóhoz vagy onnan",
+      "#Using a wheelchair or mobility aid": "Kerekesszék vagy mozgást segítő eszköz használata",
+      "#Travelling with a stroller": "Közlekedés babakocsival",
+      "#None of these": "Ezek közül egyik sem",
+      "#How often do you use or pass this connection?": "Milyen gyakran használja ezt a kapcsolatot vagy halad át rajta?",
+      "#This is my first time": "Most járok itt először",
+      "#Less than once a month": "Havonta ritkábban mint egyszer",
+      "#A few times a month": "Havonta néhányszor",
+      "#A few times a week": "Hetente néhányszor",
+      "#Almost every day": "Szinte minden nap",
+      "#Describe this connection": "A kapcsolat leírása",
+      "#Look at the place. Answer only what you can see.": "Nézze meg a helyet. Csak arra válaszoljon, amit lát.",
+      "#What kind of connection is this?": "Milyen típusú ez a kapcsolat?",
+      "#At street level": "Utcaszinten",
+      "#Under the road / underpass": "Az út alatt / aluljáró",
+      "#Over the road / bridge": "Az út felett / híd",
+      "#Change in level, such as stairs, ramp, elevator or escalator": "Szintkülönbség, például lépcső, rámpa, lift vagy mozgólépcső",
+      "#Other type of connection": "Más típusú kapcsolat",
+      "#I don't know": "Nem tudom",
+      "#Can people walking use this connection?": "Használhatják ezt a kapcsolatot a gyalogosan közlekedők?",
+      "#Yes, clearly and comfortably": "Igen, egyértelműen és kényelmesen",
+      "#Yes, but it is not very clear": "Igen, de nem teljesen egyértelmű",
+      "#Yes, but with difficulty": "Igen, de nehézséggel",
+      "#No, pedestrians cannot or should not use it": "Nem, gyalogosan nem lehet vagy nem szabad használni",
+      "#Can bicycles use this connection?": "Használhatják ezt a kapcsolatot kerékpárok?",
+      "#Yes, with a dedicated bicycle space": "Igen, külön kerékpáros térrel",
+      "#Yes, shared with people walking": "Igen, a gyalogosan közlekedőkkel közösen",
+      "#Yes, shared with traffic": "Igen, a forgalommal közösen",
+      "#Yes, but people cycling probably need to dismount": "Igen, de a kerékpározóknak valószínűleg le kell szállniuk",
+      "#No, bicycles cannot or should not use it": "Nem, kerékpárral nem lehet vagy nem szabad használni",
+      "#Which elements are part of this connection?": "Mely elemek részei ennek a kapcsolatnak?",
+      "#Stairs": "Lépcső",
+      "#Ramp": "Rámpa",
+      "#Elevator": "Lift",
+      "#Escalator": "Mozgólépcső",
+      "#Other": "Egyéb",
+      "#When people use this connection, how is crossing controlled?": "Hogyan szabályozzák az átkelést, amikor az emberek ezt a kapcsolatot használják?",
+      "#There is no signal or clear priority": "Nincs jelzés vagy egyértelmű elsőbbség",
+      "#Vehicles should give way, but there is no signal": "A járműveknek elsőbbséget kellene adniuk, de nincs jelzés",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "Van jelzés, és átkeléskor a keresztező járművek megállnak",
+      "#There is a signal, but turning vehicles may still cross the path": "Van jelzés, de a kanyarodó járművek még keresztezhetik az útvonalat",
+      "#There is a signal, but priority is unclear": "Van jelzés, de az elsőbbség nem egyértelmű",
+      "#I don't know / I cannot tell": "Nem tudom / nem tudom megállapítani",
+      "#How many traffic lanes must people cross here?": "Hány forgalmi sávot kell itt keresztezni?",
+      "#1 lane": "1 sáv",
+      "#2 lanes": "2 sáv",
+      "#3 lanes": "3 sáv",
+      "#4 lanes": "4 sáv",
+      "#5 or more lanes": "5 vagy több sáv",
+      "#How easy is it to understand where people should go?": "Mennyire könnyű megérteni, merre kell haladni?",
+      "#Very easy": "Nagyon könnyű",
+      "#Easy": "Könnyű",
+      "#Neither easy nor difficult": "Se nem könnyű, se nem nehéz",
+      "#Difficult": "Nehéz",
+      "#Very difficult": "Nagyon nehéz",
+      "#Before crossing, can people clearly see approaching vehicles or bicycles?": "Átkelés előtt jól láthatók a közeledő járművek vagy kerékpárok?",
+      "#Yes, clearly": "Igen, jól",
+      "#Partly": "Részben",
+      "#No, visibility is poor": "Nem, rossz a kilátás",
+      "#Not relevant / I cannot tell": "Nem releváns / nem tudom megállapítani",
+      "#Can people clearly see the path and the exit?": "Jól látható az útvonal és a kijárat?",
+      "#Yes, the path and exit are clearly visible": "Igen, az útvonal és a kijárat jól látható",
+      "#Partly, some areas are hidden": "Részben, egyes területek takarásban vannak",
+      "#No, there are blind corners or hidden areas": "Nem, vannak beláthatatlan sarkok vagy takart területek",
+      "#Is there enough room to wait or stop safely?": "Van elég hely a biztonságos várakozáshoz vagy megálláshoz?",
+      "#No safe place": "Nincs biztonságos hely",
+      "#A place exists, but it is too small": "Van hely, de túl kicsi",
+      "#Enough safe space": "Elegendő biztonságos hely",
+      "#No waiting or stopping space is needed here": "Itt nincs szükség várakozó- vagy megállóhelyre",
+      "#Who might face barriers when using this connection?": "Kik ütközhetnek akadályokba e kapcsolat használatakor?",
+      "#People using wheelchairs": "Kerekesszéket használók",
+      "#People using a walker or walking aid": "Járókeretet vagy járást segítő eszközt használók",
+      "#People with strollers": "Babakocsival közlekedők",
+      "#People on bicycles": "Kerékpárral közlekedők",
+      "#Blind or visually impaired people": "Vak vagy gyengénlátó személyek",
+      "#Older people or people who need more time": "Idősebbek vagy több időt igénylő személyek",
+      "#No one in particular": "Senki különösebben",
+      "#Your experience here": "Az Ön tapasztalata ezen a helyen",
+      "#Answer based on your experience. Walking and cycling questions appear according to your selection.": "Saját tapasztalata alapján válaszoljon. A gyalogos és kerékpáros kérdések a választásának megfelelően jelennek meg.",
+      "#Which best describes using this connection while walking?": "Melyik írja le legjobban e kapcsolat gyalogos használatát?",
+      "#I can pass without slowing down": "Lassítás nélkül át tudok haladni",
+      "#I need to slow down a little": "Kissé le kell lassítanom",
+      "#I need to be careful while passing": "Áthaladáskor óvatosnak kell lennem",
+      "#I need a lot of effort or attention": "Sok erőfeszítésre vagy figyelemre van szükségem",
+      "#I avoid using it if possible": "Ha lehet, kerülöm a használatát",
+      "#How risky does it feel to use this connection while walking?": "Mennyire tűnik kockázatosnak e kapcsolat gyalogos használata?",
+      "#Not risky": "Nem kockázatos",
+      "#Slightly risky": "Kissé kockázatos",
+      "#Moderately risky": "Közepesen kockázatos",
+      "#Very risky": "Nagyon kockázatos",
+      "#Extremely risky": "Rendkívül kockázatos",
+      "#Which best describes using this connection while cycling?": "Melyik írja le legjobban e kapcsolat kerékpáros használatát?",
+      "#How risky does it feel to use this connection while cycling?": "Mennyire tűnik kockázatosnak e kapcsolat kerékpáros használata?",
+      "#When there is no signal, how often do people driving stop for people using this connection?": "Jelzés hiányában milyen gyakran állnak meg az autóvezetők az ezt a kapcsolatot használók számára?",
+      "#Never": "Soha",
+      "#Rarely": "Ritkán",
+      "#About half of the time": "Az esetek körülbelül felében",
+      "#Usually": "Általában",
+      "#Always or almost always": "Mindig vagy majdnem mindig",
+      "#At the signal, how long do people usually wait for green?": "A jelzésnél általában mennyit kell várni a zöldre?",
+      "#Less than 10 seconds": "Kevesebb mint 10 másodperc",
+      "#10–30 seconds": "10–30 másodperc",
+      "#30–60 seconds": "30–60 másodperc",
+      "#1–2 minutes": "1–2 perc",
+      "#More than 2 minutes": "Több mint 2 perc",
+      "#How safe do you feel in this underpass?": "Mennyire érzi magát biztonságban ebben az aluljáróban?",
+      "#Very safe": "Nagyon biztonságban",
+      "#Safe": "Biztonságban",
+      "#Neither safe nor unsafe": "Se nem biztonságban, se nem veszélyben",
+      "#Unsafe": "Veszélyben",
+      "#Very unsafe": "Nagyon veszélyben",
+      "#How safe do you feel on this bridge?": "Mennyire érzi magát biztonságban ezen a hídon?",
+      "#Improve this connection": "A kapcsolat javítása",
+      "#Tell us whether improving this place should be a priority.": "Mondja el, hogy e hely javítása elsőbbséget élvezzen-e.",
+      "#How urgent is it to improve this connection?": "Mennyire sürgős e kapcsolat javítása?",
+      "#Not urgent": "Nem sürgős",
+      "#Slightly urgent": "Kissé sürgős",
+      "#Moderately urgent": "Közepesen sürgős",
+      "#Urgent": "Sürgős",
+      "#Very urgent": "Nagyon sürgős",
+      "#What would improve this connection most?": "Mi javítaná leginkább ezt a kapcsolatot?",
+      "#Clearer signs or markings": "Egyértelműbb táblák vagy burkolati jelek",
+      "#Better lighting": "Jobb világítás",
+      "#Better visibility": "Jobb beláthatóság",
+      "#Safer waiting or stopping space": "Biztonságosabb várakozó- vagy megállóhely",
+      "#Better access for people with different mobility needs": "Jobb hozzáférés az eltérő mobilitási igényű személyeknek",
+      "#Traffic calming or slower vehicles": "Forgalomcsillapítás vagy lassabb járművek",
+      "#Better maintenance or cleaning": "Jobb karbantartás vagy takarítás",
+      "#Nothing important": "Semmi lényeges",
+      "#Anything else you want to add?": "Szeretne még valamit hozzátenni?",
+      "#Would you like to add a few optional details?": "Szeretne néhány választható részletet megadni?",
+      "#No, finish the assessment": "Nem, az értékelés befejezése",
+      "#Yes, add optional details": "Igen, választható részletek hozzáadása",
+      "#Optional details": "Választható részletek",
+      "#These questions are optional and help us understand what should be improved.": "Ezek a kérdések választhatók, és segítenek megérteni, min kellene javítani.",
+      "#Why is it difficult to understand?": "Miért nehéz megérteni?",
+      "#Signs are missing": "Hiányoznak a táblák",
+      "#Markings are missing": "Hiányoznak a burkolati jelek",
+      "#Markings are faded": "A burkolati jelek megkoptak",
+      "#The connection is hard to recognize": "A kapcsolat nehezen felismerhető",
+      "#It is not clear if people can walk here": "Nem egyértelmű, hogy itt lehet-e gyalogolni",
+      "#It is not clear if people can cycle here": "Nem egyértelmű, hogy itt lehet-e kerékpározni",
+      "#What blocks the view, if anything?": "Mi akadályozza a kilátást, ha van ilyen?",
+      "#Parked vehicles": "Parkoló járművek",
+      "#Stopped vehicles": "Megálló járművek",
+      "#Trees or plants": "Fák vagy növények",
+      "#Bins or containers": "Kukák vagy konténerek",
+      "#Signs, poles, boxes, or street furniture": "Táblák, oszlopok, dobozok vagy utcabútorok",
+      "#Wall, fence, or building corner": "Fal, kerítés vagy épületsarok",
+      "#Road curve or slope": "Útkanyarulat vagy lejtő",
+      "#Blind corner or hidden area": "Beláthatatlan sarok vagy takart terület",
+      "#Nothing / not relevant": "Semmi / nem releváns",
+      "#What helps people use this connection safely?": "Mi segíti e kapcsolat biztonságos használatát?",
+      "#Good lighting": "Jó világítás",
+      "#Raised crossing or raised surface": "Megemelt átkelő vagy felület",
+      "#Different color or material on the ground": "Eltérő szín vagy anyag a talajon",
+      "#Protected island or safe place to stop": "Védett sziget vagy biztonságos megállóhely",
+      "#Curb ramp": "Szegélyrámpa",
+      "#Tactile paving": "Taktilis burkolat",
+      "#Handrail": "Korlát",
+      "#Non-slip surface": "Csúszásmentes felület",
+      "#What problems do you see in this underpass?": "Milyen problémákat lát ebben az aluljáróban?",
+      "#Poor lighting": "Rossz világítás",
+      "#Dirty surface or litter": "Piszkos felület vagy szemét",
+      "#Walls or ceiling in poor condition": "Rossz állapotú falak vagy mennyezet",
+      "#Standing water": "Állóvíz",
+      "#No clear problem": "Nincs egyértelmű probléma",
+      "#Is this bridge covered?": "Fedett ez a híd?",
+      "#No cover": "Nincs fedés",
+      "#Roof or canopy": "Tető vagy előtető",
+      "#Enclosed by walls or panels": "Fal vagy panel zárja körül",
+      "#Glass or transparent panels": "Üveg vagy átlátszó panelek",
+      "#For stairs, what helps people use them?": "Mi könnyíti meg a lépcső használatát?",
+      "#Regular and visible steps": "Szabályos és jól látható lépcsőfokok",
+      "#Bike rail or channel": "Kerékpársín vagy -vályú",
+      "#Resting place nearby": "Pihenőhely a közelben",
+      "#For a ramp, what helps people use it?": "Mi könnyíti meg egy rámpa használatát?",
+      "#Gentle slope": "Enyhe lejtés",
+      "#Wide enough for wheelchairs or strollers": "Elég széles kerekesszékhez vagy babakocsihoz",
+      "#How often do you observe potentially conflicting uses of this connection?": "Milyen gyakran figyel meg lehetséges konfliktust okozó használatot ezen a kapcsolaton?",
+      "#Never or almost never": "Soha vagy szinte soha",
+      "#Sometimes": "Néha",
+      "#Often": "Gyakran",
+      "#Very often": "Nagyon gyakran",
+      "#Which situations do you observe?": "Milyen helyzeteket figyel meg?",
+      "#People cross outside the marked place": "Az emberek a kijelölt helyen kívül kelnek át",
+      "#People cross against the red light": "Az emberek piros jelzésnél kelnek át",
+      "#People cycle in pedestrian-only space": "Az emberek csak gyalogosoknak fenntartott helyen kerékpároznak",
+      "#People walk in bicycle-only space": "Az emberek csak kerékpárosoknak fenntartott helyen gyalogolnak",
+      "#Vehicles stop or park on the connection": "Járművek állnak meg vagy parkolnak a kapcsolaton"
+    },
+    "ar": {
+      "#Your point of view": "وجهة نظرك",
+      "#Select walking, cycling, or both. Questions will adapt to your selection.": "اختر المشي أو ركوب الدراجة أو كليهما. ستتكيّف الأسئلة مع اختيارك.",
+      "#How are you assessing this place today?": "من أي منظور تقيّم هذا المكان اليوم؟",
+      "#Person walking or rolling": "شخص يمشي أو يتنقل باستخدام وسيلة مساعدة",
+      "#Person cycling": "شخص يركب دراجة",
+      "#Which of these describe your trip today?": "أي من هذه الحالات يصف رحلتك اليوم؟",
+      "#Connecting to or from public transport": "الانتقال إلى وسائل النقل العام أو منها",
+      "#Connecting to or from a parked car": "الانتقال إلى سيارة متوقفة أو منها",
+      "#Connecting to or from bicycle parking": "الانتقال إلى موقف دراجات أو منه",
+      "#Using a wheelchair or mobility aid": "استخدام كرسي متحرك أو وسيلة مساعدة على التنقل",
+      "#Travelling with a stroller": "التنقل بعربة أطفال",
+      "#None of these": "لا شيء مما سبق",
+      "#How often do you use or pass this connection?": "كم مرة تستخدم هذا الرابط أو تمر عبره؟",
+      "#This is my first time": "هذه مرتي الأولى",
+      "#Less than once a month": "أقل من مرة في الشهر",
+      "#A few times a month": "بضع مرات في الشهر",
+      "#A few times a week": "بضع مرات في الأسبوع",
+      "#Almost every day": "كل يوم تقريبًا",
+      "#Describe this connection": "صِف هذا الرابط",
+      "#Look at the place. Answer only what you can see.": "انظر إلى المكان. أجب فقط عما يمكنك رؤيته.",
+      "#What kind of connection is this?": "ما نوع هذا الرابط؟",
+      "#At street level": "على مستوى الشارع",
+      "#Under the road / underpass": "تحت الطريق / نفق سفلي",
+      "#Over the road / bridge": "فوق الطريق / جسر",
+      "#Change in level, such as stairs, ramp, elevator or escalator": "تغيّر في المستوى، مثل درج أو منحدر أو مصعد أو سلم متحرك",
+      "#Other type of connection": "نوع آخر من الروابط",
+      "#I don't know": "لا أعرف",
+      "#Can people walking use this connection?": "هل يستطيع الأشخاص سيرًا استخدام هذا الرابط؟",
+      "#Yes, clearly and comfortably": "نعم، بوضوح وراحة",
+      "#Yes, but it is not very clear": "نعم، لكنه غير واضح تمامًا",
+      "#Yes, but with difficulty": "نعم، ولكن بصعوبة",
+      "#No, pedestrians cannot or should not use it": "لا، لا يستطيع المشاة استخدامه أو لا ينبغي لهم ذلك",
+      "#Can bicycles use this connection?": "هل تستطيع الدراجات استخدام هذا الرابط؟",
+      "#Yes, with a dedicated bicycle space": "نعم، مع مساحة مخصصة للدراجات",
+      "#Yes, shared with people walking": "نعم، بمشاركة الأشخاص سيرًا",
+      "#Yes, shared with traffic": "نعم، بمشاركة حركة المرور",
+      "#Yes, but people cycling probably need to dismount": "نعم، لكن راكبي الدراجات سيحتاجون غالبًا إلى النزول عنها",
+      "#No, bicycles cannot or should not use it": "لا، لا تستطيع الدراجات استخدامه أو لا ينبغي لها ذلك",
+      "#Which elements are part of this connection?": "ما العناصر التي يتضمنها هذا الرابط؟",
+      "#Stairs": "درج",
+      "#Ramp": "منحدر",
+      "#Elevator": "مصعد",
+      "#Escalator": "سلم متحرك",
+      "#Other": "أخرى",
+      "#When people use this connection, how is crossing controlled?": "كيف يُنظَّم العبور عند استخدام الأشخاص لهذا الرابط؟",
+      "#There is no signal or clear priority": "لا توجد إشارة أو أولوية واضحة",
+      "#Vehicles should give way, but there is no signal": "ينبغي للمركبات إعطاء الأولوية، لكن لا توجد إشارة",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "توجد إشارة وتتوقف المركبات المتعارضة أثناء عبور الأشخاص",
+      "#There is a signal, but turning vehicles may still cross the path": "توجد إشارة، لكن المركبات المنعطفة قد تظل تقطع المسار",
+      "#There is a signal, but priority is unclear": "توجد إشارة، لكن الأولوية غير واضحة",
+      "#I don't know / I cannot tell": "لا أعرف / لا أستطيع التحديد",
+      "#How many traffic lanes must people cross here?": "كم مسارًا مروريًا يجب عبوره هنا؟",
+      "#1 lane": "مسار واحد",
+      "#2 lanes": "مساران",
+      "#3 lanes": "3 مسارات",
+      "#4 lanes": "4 مسارات",
+      "#5 or more lanes": "5 مسارات أو أكثر",
+      "#How easy is it to understand where people should go?": "ما مدى سهولة فهم الاتجاه الذي ينبغي للناس سلوكه؟",
+      "#Very easy": "سهل جدًا",
+      "#Easy": "سهل",
+      "#Neither easy nor difficult": "ليس سهلًا ولا صعبًا",
+      "#Difficult": "صعب",
+      "#Very difficult": "صعب جدًا",
+      "#Before crossing, can people clearly see approaching vehicles or bicycles?": "قبل العبور، هل يمكن رؤية المركبات أو الدراجات القادمة بوضوح؟",
+      "#Yes, clearly": "نعم، بوضوح",
+      "#Partly": "جزئيًا",
+      "#No, visibility is poor": "لا، الرؤية ضعيفة",
+      "#Not relevant / I cannot tell": "غير ذي صلة / لا أستطيع التحديد",
+      "#Can people clearly see the path and the exit?": "هل يمكن رؤية المسار والمخرج بوضوح؟",
+      "#Yes, the path and exit are clearly visible": "نعم، المسار والمخرج واضحان",
+      "#Partly, some areas are hidden": "جزئيًا، بعض المناطق محجوبة",
+      "#No, there are blind corners or hidden areas": "لا، توجد زوايا عمياء أو مناطق محجوبة",
+      "#Is there enough room to wait or stop safely?": "هل توجد مساحة كافية للانتظار أو التوقف بأمان؟",
+      "#No safe place": "لا يوجد مكان آمن",
+      "#A place exists, but it is too small": "يوجد مكان، لكنه صغير جدًا",
+      "#Enough safe space": "مساحة آمنة كافية",
+      "#No waiting or stopping space is needed here": "لا حاجة إلى مساحة انتظار أو توقف هنا",
+      "#Who might face barriers when using this connection?": "من قد يواجه عوائق عند استخدام هذا الرابط؟",
+      "#People using wheelchairs": "مستخدمو الكراسي المتحركة",
+      "#People using a walker or walking aid": "مستخدمو المشاية أو وسائل المساعدة على المشي",
+      "#People with strollers": "أشخاص معهم عربات أطفال",
+      "#People on bicycles": "أشخاص على دراجات",
+      "#Blind or visually impaired people": "أشخاص مكفوفون أو ضعاف البصر",
+      "#Older people or people who need more time": "كبار السن أو من يحتاجون إلى وقت أطول",
+      "#No one in particular": "لا أحد بوجه خاص",
+      "#Your experience here": "تجربتك هنا",
+      "#Answer based on your experience. Walking and cycling questions appear according to your selection.": "أجب بناءً على تجربتك. تظهر أسئلة المشي وركوب الدراجة وفقًا لاختيارك.",
+      "#Which best describes using this connection while walking?": "أي عبارة تصف استخدام هذا الرابط سيرًا على أفضل وجه؟",
+      "#I can pass without slowing down": "يمكنني المرور دون إبطاء",
+      "#I need to slow down a little": "أحتاج إلى الإبطاء قليلًا",
+      "#I need to be careful while passing": "أحتاج إلى الحذر أثناء المرور",
+      "#I need a lot of effort or attention": "أحتاج إلى جهد أو انتباه كبير",
+      "#I avoid using it if possible": "أتجنب استخدامه إن أمكن",
+      "#How risky does it feel to use this connection while walking?": "ما مدى خطورة استخدام هذا الرابط سيرًا؟",
+      "#Not risky": "غير خطير",
+      "#Slightly risky": "خطير قليلًا",
+      "#Moderately risky": "متوسط الخطورة",
+      "#Very risky": "خطير جدًا",
+      "#Extremely risky": "شديد الخطورة",
+      "#Which best describes using this connection while cycling?": "أي عبارة تصف استخدام هذا الرابط بالدراجة على أفضل وجه؟",
+      "#How risky does it feel to use this connection while cycling?": "ما مدى خطورة استخدام هذا الرابط بالدراجة؟",
+      "#When there is no signal, how often do people driving stop for people using this connection?": "عند عدم وجود إشارة، كم مرة يتوقف السائقون للأشخاص الذين يستخدمون هذا الرابط؟",
+      "#Never": "أبدًا",
+      "#Rarely": "نادرًا",
+      "#About half of the time": "في نحو نصف المرات",
+      "#Usually": "عادةً",
+      "#Always or almost always": "دائمًا أو دائمًا تقريبًا",
+      "#At the signal, how long do people usually wait for green?": "عند الإشارة، كم ينتظر الأشخاص عادةً حتى تصبح خضراء؟",
+      "#Less than 10 seconds": "أقل من 10 ثوانٍ",
+      "#10–30 seconds": "10–30 ثانية",
+      "#30–60 seconds": "30–60 ثانية",
+      "#1–2 minutes": "1–2 دقيقة",
+      "#More than 2 minutes": "أكثر من دقيقتين",
+      "#How safe do you feel in this underpass?": "ما مدى شعورك بالأمان في هذا النفق السفلي؟",
+      "#Very safe": "آمن جدًا",
+      "#Safe": "آمن",
+      "#Neither safe nor unsafe": "لا آمن ولا غير آمن",
+      "#Unsafe": "غير آمن",
+      "#Very unsafe": "غير آمن جدًا",
+      "#How safe do you feel on this bridge?": "ما مدى شعورك بالأمان على هذا الجسر؟",
+      "#Improve this connection": "تحسين هذا الرابط",
+      "#Tell us whether improving this place should be a priority.": "أخبرنا ما إذا كان تحسين هذا المكان ينبغي أن يكون أولوية.",
+      "#How urgent is it to improve this connection?": "ما مدى إلحاح تحسين هذا الرابط؟",
+      "#Not urgent": "غير عاجل",
+      "#Slightly urgent": "عاجل قليلًا",
+      "#Moderately urgent": "متوسط الإلحاح",
+      "#Urgent": "عاجل",
+      "#Very urgent": "عاجل جدًا",
+      "#What would improve this connection most?": "ما الذي سيحسن هذا الرابط أكثر؟",
+      "#Clearer signs or markings": "لافتات أو علامات أوضح",
+      "#Better lighting": "إضاءة أفضل",
+      "#Better visibility": "رؤية أفضل",
+      "#Safer waiting or stopping space": "مساحة انتظار أو توقف أكثر أمانًا",
+      "#Better access for people with different mobility needs": "وصول أفضل لذوي احتياجات التنقل المختلفة",
+      "#Traffic calming or slower vehicles": "تهدئة حركة المرور أو إبطاء المركبات",
+      "#Better maintenance or cleaning": "صيانة أو تنظيف أفضل",
+      "#Nothing important": "لا شيء مهم",
+      "#Anything else you want to add?": "هل تريد إضافة شيء آخر؟",
+      "#Would you like to add a few optional details?": "هل ترغب في إضافة بعض التفاصيل الاختيارية؟",
+      "#No, finish the assessment": "لا، إنهاء التقييم",
+      "#Yes, add optional details": "نعم، إضافة تفاصيل اختيارية",
+      "#Optional details": "تفاصيل اختيارية",
+      "#These questions are optional and help us understand what should be improved.": "هذه الأسئلة اختيارية وتساعدنا على فهم ما ينبغي تحسينه.",
+      "#Why is it difficult to understand?": "لماذا يصعب فهمه؟",
+      "#Signs are missing": "اللافتات مفقودة",
+      "#Markings are missing": "العلامات مفقودة",
+      "#Markings are faded": "العلامات باهتة",
+      "#The connection is hard to recognize": "يصعب التعرف على الرابط",
+      "#It is not clear if people can walk here": "ليس واضحًا ما إذا كان يمكن للناس المشي هنا",
+      "#It is not clear if people can cycle here": "ليس واضحًا ما إذا كان يمكن للناس ركوب الدراجة هنا",
+      "#What blocks the view, if anything?": "ما الذي يحجب الرؤية، إن وُجد؟",
+      "#Parked vehicles": "مركبات متوقفة",
+      "#Stopped vehicles": "مركبات متوقفة",
+      "#Trees or plants": "أشجار أو نباتات",
+      "#Bins or containers": "صناديق قمامة أو حاويات",
+      "#Signs, poles, boxes, or street furniture": "لافتات أو أعمدة أو صناديق أو أثاث شارع",
+      "#Wall, fence, or building corner": "جدار أو سياج أو زاوية مبنى",
+      "#Road curve or slope": "منحنى أو انحدار في الطريق",
+      "#Blind corner or hidden area": "زاوية عمياء أو منطقة محجوبة",
+      "#Nothing / not relevant": "لا شيء / غير ذي صلة",
+      "#What helps people use this connection safely?": "ما الذي يساعد الناس على استخدام هذا الرابط بأمان؟",
+      "#Good lighting": "إضاءة جيدة",
+      "#Raised crossing or raised surface": "معبر مرتفع أو سطح مرتفع",
+      "#Different color or material on the ground": "لون أو مادة مختلفة على الأرض",
+      "#Protected island or safe place to stop": "جزيرة محمية أو مكان آمن للتوقف",
+      "#Curb ramp": "منحدر عند حافة الرصيف",
+      "#Tactile paving": "رصف لمسي",
+      "#Handrail": "درابزين",
+      "#Non-slip surface": "سطح غير زلق",
+      "#What problems do you see in this underpass?": "ما المشكلات التي تراها في هذا النفق السفلي؟",
+      "#Poor lighting": "إضاءة ضعيفة",
+      "#Dirty surface or litter": "سطح متسخ أو نفايات",
+      "#Walls or ceiling in poor condition": "جدران أو سقف بحالة سيئة",
+      "#Standing water": "مياه راكدة",
+      "#No clear problem": "لا توجد مشكلة واضحة",
+      "#Is this bridge covered?": "هل هذا الجسر مغطى؟",
+      "#No cover": "غير مغطى",
+      "#Roof or canopy": "سقف أو مظلة",
+      "#Enclosed by walls or panels": "مغلق بجدران أو ألواح",
+      "#Glass or transparent panels": "زجاج أو ألواح شفافة",
+      "#For stairs, what helps people use them?": "ما الذي يساعد الناس على استخدام الدرج؟",
+      "#Regular and visible steps": "درجات منتظمة وواضحة",
+      "#Bike rail or channel": "مجرى أو قناة للدراجة",
+      "#Resting place nearby": "مكان للراحة قريب",
+      "#For a ramp, what helps people use it?": "ما الذي يساعد الناس على استخدام المنحدر؟",
+      "#Gentle slope": "ميل خفيف",
+      "#Wide enough for wheelchairs or strollers": "واسع بما يكفي للكراسي المتحركة أو عربات الأطفال",
+      "#How often do you observe potentially conflicting uses of this connection?": "كم مرة تلاحظ استخدامات قد تسبب تعارضًا في هذا الرابط؟",
+      "#Never or almost never": "أبدًا أو نادرًا جدًا",
+      "#Sometimes": "أحيانًا",
+      "#Often": "غالبًا",
+      "#Very often": "غالبًا جدًا",
+      "#Which situations do you observe?": "ما الحالات التي تلاحظها؟",
+      "#People cross outside the marked place": "يعبر الناس خارج المكان المحدد",
+      "#People cross against the red light": "يعبر الناس مع الإشارة الحمراء",
+      "#People cycle in pedestrian-only space": "يركب الناس الدراجات في مساحة مخصصة للمشاة فقط",
+      "#People walk in bicycle-only space": "يمشي الناس في مساحة مخصصة للدراجات فقط",
+      "#Vehicles stop or park on the connection": "تتوقف المركبات أو تصطف على الرابط"
+    }
+  },
+  "id": "Street Connection",
+  "db_set": "questionnaires",
+  "response_format": "planeasy.response",
+  "response_schema_version": "2.0",
+  "response_kind": "spatial_contribution",
+  "response_contract": {"entity": {}, "related_entities": [], "geometry": "Point", "privacy": {"email": "sha256_only", "remove_user_id_supported": true}, "id_strategy": "generated_response_id", "subcollection": "spatialReports/{questionnaireId}/responses/{responseId}"},
+  "default_language": "en"
+}

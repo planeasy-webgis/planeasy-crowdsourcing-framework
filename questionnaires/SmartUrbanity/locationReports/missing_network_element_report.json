@@ -1,0 +1,42 @@
+{
+  "questionnaire": {
+    "name": "Missing Network Element Report",
+    "questionnaire_id": "smarturbanity_missing_network_element_report",
+    "questionnaire_version": "1.0.0",
+    "project": "SmartUrbanity",
+    "options": {"review_mode": true, "ask_consent": false, "save_user_id": false},
+    "sections": [{
+      "title": "Missing network element",
+      "description": "Describe what is missing at the selected location. The report type is set by the chosen Access Hub action.",
+      "questions": [{
+        "text": "What should reviewers know about this location?",
+        "answer_key": "observation_details",
+        "question_type": "text",
+        "required": true
+      }]
+    }]
+  },
+  "languages": {
+    "en": {
+      "code": "en",
+      "#Missing Network Element Report": "Missing Network Element Report",
+      "#Missing network element": "Missing network element",
+      "#Describe what is missing at the selected location. The report type is set by the chosen Access Hub action.": "Describe what is missing at the selected location. The report type is set by the chosen Access Hub action.",
+      "#What should reviewers know about this location?": "What should reviewers know about this location?"
+    },
+    "it": {
+      "code": "it",
+      "#Missing Network Element Report": "Segnalazione di elemento di rete mancante",
+      "#Missing network element": "Elemento di rete mancante",
+      "#Describe what is missing at the selected location. The report type is set by the chosen Access Hub action.": "Descrivi cosa manca nel punto selezionato. Il tipo di segnalazione è determinato dall'azione scelta in Access Hub.",
+      "#What should reviewers know about this location?": "Cosa dovrebbero sapere i revisori su questo luogo?"
+    }
+  },
+  "id": "smarturbanity_missing_network_element_report",
+  "db_set": "questionnaires",
+  "response_format": "planeasy.response",
+  "response_schema_version": "2.0",
+  "response_kind": "spatial_contribution",
+  "response_contract": {"entity": {}, "related_entities": [], "geometry": "Point", "privacy": {"email": "sha256_only", "remove_user_id_supported": true}, "id_strategy": "generated_response_id", "subcollection": "spatialReports/{questionnaireId}/responses/{responseId}"},
+  "default_language": "en"
+}
