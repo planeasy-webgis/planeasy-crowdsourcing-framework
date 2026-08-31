@@ -422,6 +422,10 @@
     }
   },
   "id": "smarturbanity_safety_environment",
-  "db_set": "questionnaires",
+	"db_set": "questionnaires",
+	"response_format": "planeasy.response",
+	"response_schema_version": "2.0",
+	"response_kind": "survey",
+	"response_contract": {"entity": {}, "related_entities": [], "geometry": null, "privacy": {"email": "sha256_only", "remove_user_id_supported": true}, "id_strategy": "generated_response_id", "subcollection": "surveyResponses/{questionnaireId}/responses/{responseId}"},
   "default_language": "en"
 }

@@ -279,3 +279,34 @@ ensuring that all research data are *Findable, Accessible, Interoperable,* and *
 | **Reusable** | Standardized metadata — such as `project`, `campaign`, and `timezone` — ensure reproducibility and enable long-term research use. |
 
 [⬆ Back to documentation index](../README.md)
+
+## PlanEasy response v2
+
+All new responses use one project-agnostic envelope:
+
+```json
+{
+  "schema": "planeasy.response",
+  "schema_version": "2.0",
+  "response_kind": "survey | spatial_contribution | trip",
+  "entity": {},
+  "related_entities": [],
+  "geometry": {},
+  "answers": {},
+  "meta": {"project": {}, "flow": {}, "user": {}, "device": {}}
+}
+```
+
+`answers` remains nested and human-readable; canonical answer keys may use the `#` prefix. `entity` describes the primary object (for example a crossing or trip), while `related_entities` links contextual objects without inventing technical identifiers. `response_kind` is semantic and is independent from `db_set`, which is only a technical destination selector.
+
+Responses are stored in these Firestore/local subcollections:
+
+```text
+surveyResponses/{questionnaireId}/responses/{responseId}
+spatialReports/{questionnaireId}/responses/{responseId}
+trips/{questionnaireId}/responses/{responseId}
+```
+
+Optional email input is transformed to SHA-256 before persistence; raw email must never be saved or logged. Aggregate/CTLUp exports may remove both `uid` and `meta.user.user_id`. A pre-hashed Movesion identifier is treated as an identifier and is never interpreted as an email.
+
+The loader/normalizer may temporarily accept response v1 and map its flat fields into this envelope. New questionnaire definitions and new responses must not contain a `legacy` block. Questionnaires define collection instruments; the framework defines the contract; `db_set` and the destination configuration define where data is written.

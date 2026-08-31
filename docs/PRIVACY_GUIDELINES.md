@@ -121,7 +121,7 @@ You are identified by a random internal ID or, if you choose to provide an email
 Your name or real email address is stored **only for authenticated app users** and is never linked to your survey responses.
 
 #### 🔧 How it works
-1. You enter your email (e.g., `alex@example.com`).  
+1. You optionally enter an email address.
 2. The app securely computes:  
    `hash = SHA256(PROJECT_SALT + email.toLowerCase().trim())`
 3. Only the resulting hash (e.g., `7d4a8e3f1b2c...`) is stored with your responses.  
@@ -184,8 +184,13 @@ by contacting the research team running the specific project.
 ## 📬 Contact
 
 For feedback, collaborations, or questions:  
-📧 **Lory Michelle Bresciani Miristice** — [lorymichellebrescianimiristice@uniroma1.it](mailto:lorymichellebrescianimiristice@uniroma1.it)  
+📧 Contact the repository maintainers through the project channels.
 
 ---
 
 [⬆ Back to documentation index](../README.md)
+# PlanEasy response v2 privacy rules
+
+Use pseudonymous identifiers only. Raw email addresses must never be persisted or logged: when an optional email is supplied, store only its SHA-256 digest. For aggregate or CTLUp destinations, remove `uid` and `meta.user.user_id`. IDs received already hashed (including Movesion IDs) must remain opaque identifiers and must not be processed as email addresses.
+
+The v2 response envelope is shared by surveys, spatial contributions, and trips. Compatibility with v1 belongs exclusively to the framework loader/normalizer; migrated questionnaire JSON must not add a `legacy` response block.

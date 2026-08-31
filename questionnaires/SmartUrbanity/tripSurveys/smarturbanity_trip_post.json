@@ -892,5 +892,10 @@
 	},
 	"id": "smarturbanity_trip_post",
 	"db_set": "questionnaires",
+	"response_format": "planeasy.response",
+	"response_schema_version": "2.0",
+	"response_kind": "trip",
+	"flow": "post_trip",
+	"response_contract": {"entity": {"type": "trip"}, "related_entities": ["participant", "pre_trip_response"], "geometry": null, "privacy": {"email": "sha256_only", "remove_user_id_supported": true}, "id_strategy": "generated_response_id", "subcollection": "trips/{questionnaireId}/responses/{responseId}"},
 	"default_language": "en"
 }
