@@ -2,7 +2,7 @@
 
 Rules for every agent and LLM provider working in this repository. It holds
 documentation, questionnaire schemas (`questionnaires/`) and the GitHub Pages site
-(`docs/`, including the SmartUrbanity privacy pages). There is no build or test
+(`docs/`). There is no build or test
 tooling; verify changes by reading the diff and rendering the affected pages.
 
 ## Git and delivery
@@ -56,5 +56,5 @@ there; do not redraw or recolour them here.
   `#Plan the city together` in the CityMaaS `languages/*.json`).
 - The Markdown pages of the Pages site get the favicon, `theme-color` and link
   colours from `docs/_includes/head-custom.html`.
-- SmartUrbanity pages (`docs/*smarturbanity*.html`, `docs/assets/SmartUrbanity/`)
-  use the SmartUrbanity project brand, not PlanEasy's.
+- SmartUrbanity pages and questionnaires belong to the smarturbanity-configuration
+  repository; do not add copies here.
