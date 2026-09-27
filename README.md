@@ -130,7 +130,7 @@ Any reuse or adaptation must:
 ## 🧠 Citation
 
 > Bresciani Miristice, L. M., & Gentile, G. (2025). *PlanEasy Crowdsourcing Framework.*  
-> [https://github.com/planeasy-crowdsourcing-framework](https://github.com/planeasy-crowdsourcing-framework)
+> [https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework)
 
 ---
 
@@ -144,6 +144,6 @@ You may share and adapt this material with appropriate credit for non-commercial
 ## 📬 Contact
 
 📧 **Lory Michelle Bresciani Miristice**  
-[lorymichellebrescianimiristice@uniroma1.it](mailto:lorymichellebrescianimiristice@uniroma1.it)
+[lorymichelle.brescianimiristice@uniroma1.it](mailto:lorymichelle.brescianimiristice@uniroma1.it)
 
 ---
