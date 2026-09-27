@@ -4,11 +4,12 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
     <tr style="border:1px solid transparent;">
       <td style="border:1px solid transparent; vertical-align: middle; padding-right: 16px;">
-        <img src="https://github.com/planeasy-webgis.png" width="80" alt="PlanEasy logo">
+        <img src="docs/assets/PlanEasy/planeasy_splash.svg" width="120" height="80" alt="PlanEasy logo">
       </td>
       <td style="border:1px solid transparent; vertical-align: middle;">
         <h1 style="margin: 0; padding: 0;">PlanEasy Crowdsourcing Framework</h1>
         <p><strong>Data Architecture, Privacy Model, and FAIR Standards for Participatory Research</strong></p>
+        <p><em>Plan the city together</em></p>
       </td>
     </tr>
   </table>
@@ -129,7 +130,7 @@ Any reuse or adaptation must:
 ## 🧠 Citation
 
 > Bresciani Miristice, L. M., & Gentile, G. (2025). *PlanEasy Crowdsourcing Framework.*  
-> [https://github.com/planeasy-crowdsourcing-framework](https://github.com/planeasy-crowdsourcing-framework)
+> [https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework)
 
 ---
 
@@ -143,6 +144,6 @@ You may share and adapt this material with appropriate credit for non-commercial
 ## 📬 Contact
 
 📧 **Lory Michelle Bresciani Miristice**  
-[lorymichellebrescianimiristice@uniroma1.it](mailto:lorymichellebrescianimiristice@uniroma1.it)
+[lorymichelle.brescianimiristice@uniroma1.it](mailto:lorymichelle.brescianimiristice@uniroma1.it)
 
 ---
