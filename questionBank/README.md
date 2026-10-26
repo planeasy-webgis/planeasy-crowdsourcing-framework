@@ -26,6 +26,11 @@ The infrastructure branch preserves the active baseline question wording and
 answers from SmartUrbanity configuration revision `769e4af`. Proposed editorial
 variants are a separate change on `lory/question-pool-content`.
 
+This is a new collection: legacy answer-key aliases have been removed at the
+owner's request. `source.json` retains each original source `sha256` and records
+the transformed `canonicalSha256` of the canonical UTF-8 content with LF endings.
+All other schemas, translations, IDs and versions remain unchanged.
+
 Before accepting changes, validate every JSON file, unique IDs, canonical file
 names, index/feed equality, and references when compiling a consuming project's
 flows. Keep versions and all translations together. No response data belongs here.
