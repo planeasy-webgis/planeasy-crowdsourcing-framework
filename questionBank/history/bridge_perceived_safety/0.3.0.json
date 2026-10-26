@@ -1,0 +1,128 @@
+{
+  "question_id": "bridge_perceived_safety",
+  "key": "bridge_perceived_safety",
+  "project": "shared",
+  "version": "0.3.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?",
+    "answer_key": "bridge_perceived_safety",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Very safe",
+        "value": "1_very_safe"
+      },
+      {
+        "text": "Fairly safe",
+        "value": "2_safe"
+      },
+      {
+        "text": "Neither safe nor unsafe",
+        "value": "3_neutral"
+      },
+      {
+        "text": "Not very safe",
+        "value": "4_unsafe"
+      },
+      {
+        "text": "Not safe at all",
+        "value": "5_very_unsafe"
+      },
+      {
+        "text": "I do not go there in the evening",
+        "value": "avoid_in_evening"
+      }
+    ],
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "en": {
+      "#Very safe": "Very safe",
+      "#Fairly safe": "Fairly safe",
+      "#Neither safe nor unsafe": "Neither safe nor unsafe",
+      "#Not very safe": "Not very safe",
+      "#Not safe at all": "Not safe at all",
+      "#I do not go there in the evening": "I do not go there in the evening",
+      "#How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?": "How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#Very safe": "Molto al sicuro",
+      "#Fairly safe": "Abbastanza al sicuro",
+      "#Neither safe nor unsafe": "Né al sicuro né insicuro",
+      "#Not very safe": "Poco al sicuro",
+      "#Not safe at all": "Per niente al sicuro",
+      "#I do not go there in the evening": "Non ci passo di sera",
+      "#How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?": "Quanto ti senti al sicuro da molestie o aggressioni su questo ponte o passerella, anche di sera?",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#Very safe": "Tout à fait en sécurité",
+      "#Fairly safe": "Plutôt en sécurité",
+      "#Neither safe nor unsafe": "Ni en sécurité ni en insécurité",
+      "#Not very safe": "Peu en sécurité",
+      "#Not safe at all": "Pas du tout en sécurité",
+      "#I do not go there in the evening": "Je n'y passe pas le soir",
+      "#How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?": "Dans quelle mesure vous sentez-vous à l'abri du harcèlement ou des agressions sur ce pont ou cette passerelle, y compris le soir ?",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#Very safe": "Sehr sicher",
+      "#Fairly safe": "Eher sicher",
+      "#Neither safe nor unsafe": "Weder sicher noch unsicher",
+      "#Not very safe": "Eher unsicher",
+      "#Not safe at all": "Überhaupt nicht sicher",
+      "#I do not go there in the evening": "Abends gehe ich dort nicht hin",
+      "#How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?": "Wie sicher vor Belästigung oder Übergriffen fühlen Sie sich auf dieser Brücke oder Fußgängerbrücke, auch abends?",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#Very safe": "Çok güvende",
+      "#Fairly safe": "Oldukça güvende",
+      "#Neither safe nor unsafe": "Ne güvende ne güvensiz",
+      "#Not very safe": "Pek güvende değil",
+      "#Not safe at all": "Hiç güvende değil",
+      "#I do not go there in the evening": "Akşamları oradan geçmiyorum",
+      "#How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?": "Bu köprüde veya yaya köprüsünde, akşamları da dahil, taciz veya saldırıya karşı kendinizi ne kadar güvende hissediyorsunuz?",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#Very safe": "بسیار امن",
+      "#Fairly safe": "نسبتاً امن",
+      "#Neither safe nor unsafe": "نه امن و نه ناامن",
+      "#Not very safe": "چندان امن نیست",
+      "#Not safe at all": "اصلاً امن نیست",
+      "#I do not go there in the evening": "عصرها و شب‌ها از آنجا عبور نمی‌کنم",
+      "#How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?": "روی این پل یا پل عابر پیاده، حتی در عصر و شب، چقدر از آزار یا حمله احساس امنیت می‌کنید؟",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#Very safe": "Nagyon biztonságban",
+      "#Fairly safe": "Inkább biztonságban",
+      "#Neither safe nor unsafe": "Se nem biztonságban, se nem veszélyben",
+      "#Not very safe": "Kevéssé biztonságban",
+      "#Not safe at all": "Egyáltalán nem biztonságban",
+      "#I do not go there in the evening": "Este nem járok arra",
+      "#How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?": "Mennyire érzi magát biztonságban zaklatástól vagy támadástól ezen a hídon vagy felüljárón, este is?",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#Very safe": "آمن جدًا",
+      "#Fairly safe": "آمن إلى حد ما",
+      "#Neither safe nor unsafe": "لا آمن ولا غير آمن",
+      "#Not very safe": "قليل الأمان",
+      "#Not safe at all": "غير آمن على الإطلاق",
+      "#I do not go there in the evening": "لا أمرّ من هناك في المساء",
+      "#How safe from harassment or assault do you feel on this bridge or footbridge, also in the evening?": "ما مدى شعورك بالأمان من التحرش أو الاعتداء على هذا الجسر أو جسر المشاة، بما في ذلك في المساء؟",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

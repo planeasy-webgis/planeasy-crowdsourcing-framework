@@ -1,0 +1,55 @@
+{
+  "question_id": "place_environment_quality",
+  "key": "place_environment_quality",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "schema": {
+    "text": "How would you rate the environmental quality here, including noise, air, heat and greenery?",
+    "answer_key": "environmental_quality_rating",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Very poor",
+        "value": "1_very_negative"
+      },
+      {
+        "text": "Poor",
+        "value": "2_negative"
+      },
+      {
+        "text": "Neither poor nor good",
+        "value": "3_neutral"
+      },
+      {
+        "text": "Good",
+        "value": "4_positive"
+      },
+      {
+        "text": "Very good",
+        "value": "5_very_positive"
+      },
+      {
+        "text": "Not applicable / do not know",
+        "value": "not_applicable"
+      }
+    ],
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "it": {
+      "#How would you rate the environmental quality here, including noise, air, heat and greenery?": "Come valuti la qualità ambientale, considerando rumore, aria, calore e verde?",
+      "#Very poor": "Molto scarsa",
+      "#Poor": "Scarsa",
+      "#Neither poor nor good": "Né scarsa né buona",
+      "#Good": "Buona",
+      "#Very good": "Molto buona",
+      "#Not applicable / do not know": "Non applicabile / non so"
+    }
+  }
+}

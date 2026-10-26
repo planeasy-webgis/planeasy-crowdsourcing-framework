@@ -1,0 +1,80 @@
+{
+  "question_id": "bike_direction",
+  "key": "bike_direction",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "active_in_source_main": true,
+  "origin_questionnaire": "street_segment_assessment",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Is the cycling infrastructure one-way or two-way?",
+    "answer_key": "bike_direction",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "One-way cycling facility",
+        "value": "one_way"
+      },
+      {
+        "text": "Two-way cycling facility",
+        "value": "two_way"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#I don't know": "I don't know",
+      "#Is the cycling infrastructure one-way or two-way?": "Is the cycling infrastructure one-way or two-way?",
+      "#One-way cycling facility": "One-way cycling facility",
+      "#Two-way cycling facility": "Two-way cycling facility"
+    },
+    "it": {
+      "#I don't know": "Non lo so",
+      "#Is the cycling infrastructure one-way or two-way?": "Lo spazio ciclabile è a senso unico o a doppio senso?",
+      "#One-way cycling facility": "Spazio ciclabile a senso unico",
+      "#Two-way cycling facility": "Spazio ciclabile a doppio senso"
+    },
+    "fr": {
+      "#I don't know": "Je ne sais pas",
+      "#Is the cycling infrastructure one-way or two-way?": "L'aménagement cyclable est-il à sens unique ou à double sens ?",
+      "#One-way cycling facility": "Aménagement cyclable à sens unique",
+      "#Two-way cycling facility": "Aménagement cyclable à double sens"
+    },
+    "de": {
+      "#I don't know": "Ich weiß es nicht",
+      "#Is the cycling infrastructure one-way or two-way?": "Ist die Radinfrastruktur ein- oder zweirichtungsgeführt?",
+      "#One-way cycling facility": "Einrichtungs-Radinfrastruktur",
+      "#Two-way cycling facility": "Zweirichtungs-Radinfrastruktur"
+    },
+    "tr": {
+      "#I don't know": "Bilmiyorum",
+      "#Is the cycling infrastructure one-way or two-way?": "Bisiklet altyapısı tek yönlü mü, çift yönlü mü?",
+      "#One-way cycling facility": "Tek yönlü bisiklet yolu",
+      "#Two-way cycling facility": "Çift yönlü bisiklet yolu"
+    },
+    "fa": {
+      "#I don't know": "نمی‌دانم",
+      "#Is the cycling infrastructure one-way or two-way?": "مسیر دوچرخه یک‌طرفه است یا دوطرفه؟",
+      "#One-way cycling facility": "مسیر دوچرخه یک‌طرفه",
+      "#Two-way cycling facility": "مسیر دوچرخه دوطرفه"
+    },
+    "hu": {
+      "#I don't know": "Nem tudom",
+      "#Is the cycling infrastructure one-way or two-way?": "A kerékpáros infrastruktúra egy- vagy kétirányú?",
+      "#One-way cycling facility": "Egyirányú kerékpáros infrastruktúra",
+      "#Two-way cycling facility": "Kétirányú kerékpáros infrastruktúra"
+    },
+    "ar": {
+      "#I don't know": "لا أعرف",
+      "#Is the cycling infrastructure one-way or two-way?": "هل مسار الدراجات باتجاه واحد أم باتجاهين؟",
+      "#One-way cycling facility": "مسار دراجات باتجاه واحد",
+      "#Two-way cycling facility": "مسار دراجات باتجاهين"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "question_id": "pedestrian_use_difficulty",
+  "key": "pedestrian_use_difficulty",
+  "project": "shared",
+  "version": "0.3.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_segment_assessment",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Which best describes using this street segment while walking?",
+    "answer_key": "pedestrian_use_difficulty",
+    "question_type": "single_option",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": true,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "I can pass without slowing down",
+        "value": "1_no_slowing_down"
+      },
+      {
+        "text": "I need to slow down a little",
+        "value": "2_slow_down"
+      },
+      {
+        "text": "I need to be careful while passing",
+        "value": "3_be_careful"
+      },
+      {
+        "text": "I need a lot of effort or attention",
+        "value": "4_high_effort_attention"
+      },
+      {
+        "text": "I avoid using it if possible",
+        "value": "5_avoid_if_possible"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Which best describes using this street segment while walking?": "Which best describes using this street segment while walking?",
+      "#I can pass without slowing down": "I can pass without slowing down",
+      "#I need to slow down a little": "I need to slow down a little",
+      "#I need to be careful while passing": "I need to be careful while passing",
+      "#I need a lot of effort or attention": "I need a lot of effort or attention",
+      "#I avoid using it if possible": "I avoid using it if possible",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#Which best describes using this street segment while walking?": "Quale frase descrive meglio la tua esperienza a piedi su questo tratto di strada?",
+      "#I can pass without slowing down": "Posso passare senza rallentare",
+      "#I need to slow down a little": "Devo rallentare un po'",
+      "#I need to be careful while passing": "Devo prestare attenzione mentre passo",
+      "#I need a lot of effort or attention": "Ho bisogno di molto sforzo o attenzione",
+      "#I avoid using it if possible": "Evito questo tratto quando posso",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#Which best describes using this street segment while walking?": "Quelle phrase décrit le mieux l’utilisation de ce tronçon à pied ?",
+      "#I can pass without slowing down": "Je peux passer sans ralentir",
+      "#I need to slow down a little": "Je dois ralentir un peu",
+      "#I need to be careful while passing": "Je dois faire attention en passant",
+      "#I need a lot of effort or attention": "Cela me demande beaucoup d’effort ou d’attention",
+      "#I avoid using it if possible": "J’évite de l’utiliser si possible",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#Which best describes using this street segment while walking?": "Welche Aussage beschreibt die Nutzung dieses Straßenabschnitts zu Fuß am besten?",
+      "#I can pass without slowing down": "Ich kann passieren, ohne langsamer zu werden",
+      "#I need to slow down a little": "Ich muss etwas langsamer werden",
+      "#I need to be careful while passing": "Ich muss beim Passieren vorsichtig sein",
+      "#I need a lot of effort or attention": "Ich brauche viel Kraft oder Aufmerksamkeit",
+      "#I avoid using it if possible": "Ich vermeide die Nutzung, wenn möglich",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#Which best describes using this street segment while walking?": "Bu sokak kesimini yürürken kullanmayı en iyi hangisi tanımlar?",
+      "#I can pass without slowing down": "Yavaşlamadan geçebilirim",
+      "#I need to slow down a little": "Biraz yavaşlamam gerekir",
+      "#I need to be careful while passing": "Geçerken dikkatli olmam gerekir",
+      "#I need a lot of effort or attention": "Çok çaba veya dikkat göstermem gerekir",
+      "#I avoid using it if possible": "Mümkünse kullanmaktan kaçınırım",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#Which best describes using this street segment while walking?": "کدام عبارت استفاده پیاده از این بخش خیابان را بهتر توصیف می‌کند؟",
+      "#I can pass without slowing down": "می‌توانم بدون کم‌کردن سرعت عبور کنم",
+      "#I need to slow down a little": "باید کمی آهسته‌تر حرکت کنم",
+      "#I need to be careful while passing": "هنگام عبور باید مراقب باشم",
+      "#I need a lot of effort or attention": "به تلاش یا توجه زیادی نیاز دارم",
+      "#I avoid using it if possible": "اگر ممکن باشد از استفاده از آن پرهیز می‌کنم",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#Which best describes using this street segment while walking?": "Melyik írja le legjobban e szakasz gyalogos használatát?",
+      "#I can pass without slowing down": "Lassítás nélkül át tudok haladni",
+      "#I need to slow down a little": "Kissé le kell lassítanom",
+      "#I need to be careful while passing": "Áthaladáskor óvatosnak kell lennem",
+      "#I need a lot of effort or attention": "Sok erőfeszítésre vagy figyelemre van szükségem",
+      "#I avoid using it if possible": "Ha lehet, kerülöm a használatát",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#Which best describes using this street segment while walking?": "أي عبارة تصف استخدام هذا المقطع سيرًا على أفضل وجه؟",
+      "#I can pass without slowing down": "يمكنني المرور دون إبطاء",
+      "#I need to slow down a little": "أحتاج إلى الإبطاء قليلًا",
+      "#I need to be careful while passing": "أحتاج إلى الحذر أثناء المرور",
+      "#I need a lot of effort or attention": "أحتاج إلى جهد أو انتباه كبير",
+      "#I avoid using it if possible": "أتجنب استخدامه إن أمكن",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

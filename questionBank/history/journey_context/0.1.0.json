@@ -1,0 +1,123 @@
+{
+  "question_id": "journey_context",
+  "key": "journey_context",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Which of these describe your trip today?",
+    "answer_key": "journey_context",
+    "question_type": "multiple_options",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": false,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Connecting to or from public transport",
+        "value": "public_transport_connection"
+      },
+      {
+        "text": "Connecting to or from a parked car",
+        "value": "parked_car_connection"
+      },
+      {
+        "text": "Connecting to or from bicycle parking",
+        "value": "bicycle_parking_connection"
+      },
+      {
+        "text": "Using a wheelchair or mobility aid",
+        "value": "mobility_aid"
+      },
+      {
+        "text": "Travelling with a stroller",
+        "value": "stroller"
+      },
+      {
+        "text": "None of these",
+        "value": "none"
+      }
+    ],
+    "privacy_classification": "special_category_health"
+  },
+  "translations": {
+    "en": {
+      "#Which of these describe your trip today?": "Which of these describe your trip today?",
+      "#Connecting to or from public transport": "Connecting to or from public transport",
+      "#Connecting to or from a parked car": "Connecting to or from a parked car",
+      "#Connecting to or from bicycle parking": "Connecting to or from bicycle parking",
+      "#Using a wheelchair or mobility aid": "Using a wheelchair or mobility aid",
+      "#Travelling with a stroller": "Travelling with a stroller",
+      "#None of these": "None of these"
+    },
+    "it": {
+      "#Which of these describe your trip today?": "Quali di queste situazioni descrivono il tuo spostamento di oggi?",
+      "#Connecting to or from public transport": "Collegamento da o verso il trasporto pubblico",
+      "#Connecting to or from a parked car": "Collegamento da o verso un'automobile parcheggiata",
+      "#Connecting to or from bicycle parking": "Collegamento da o verso un parcheggio per biciclette",
+      "#Using a wheelchair or mobility aid": "Uso di una sedia a rotelle o di altri ausili alla mobilità",
+      "#Travelling with a stroller": "Spostamento con passeggino",
+      "#None of these": "Nessuna di queste"
+    },
+    "fr": {
+      "#Which of these describe your trip today?": "Lesquelles de ces situations décrivent votre trajet aujourd’hui ?",
+      "#Connecting to or from public transport": "Correspondance avec les transports en commun",
+      "#Connecting to or from a parked car": "Trajet depuis ou vers une voiture stationnée",
+      "#Connecting to or from bicycle parking": "Trajet depuis ou vers un stationnement pour vélos",
+      "#Using a wheelchair or mobility aid": "Utilisation d’un fauteuil roulant ou d’une aide à la mobilité",
+      "#Travelling with a stroller": "Déplacement avec une poussette",
+      "#None of these": "Aucun de ces éléments"
+    },
+    "de": {
+      "#Which of these describe your trip today?": "Welche dieser Situationen beschreiben Ihren heutigen Weg?",
+      "#Connecting to or from public transport": "Umstieg zu oder von öffentlichen Verkehrsmitteln",
+      "#Connecting to or from a parked car": "Weg zu oder von einem geparkten Auto",
+      "#Connecting to or from bicycle parking": "Weg zu oder von einem Fahrradabstellplatz",
+      "#Using a wheelchair or mobility aid": "Nutzung eines Rollstuhls oder einer Mobilitätshilfe",
+      "#Travelling with a stroller": "Unterwegs mit einem Kinderwagen",
+      "#None of these": "Keine davon"
+    },
+    "tr": {
+      "#Which of these describe your trip today?": "Bunlardan hangileri bugünkü yolculuğunuzu tanımlıyor?",
+      "#Connecting to or from public transport": "Toplu taşımaya veya toplu taşımadan bağlantı",
+      "#Connecting to or from a parked car": "Park edilmiş bir araca veya araçtan bağlantı",
+      "#Connecting to or from bicycle parking": "Bisiklet parkına veya parkından bağlantı",
+      "#Using a wheelchair or mobility aid": "Tekerlekli sandalye veya hareketlilik desteği kullanma",
+      "#Travelling with a stroller": "Bebek arabasıyla yolculuk",
+      "#None of these": "Bunların hiçbiri"
+    },
+    "fa": {
+      "#Which of these describe your trip today?": "کدام‌یک از این موارد سفر امروز شما را توصیف می‌کند؟",
+      "#Connecting to or from public transport": "اتصال به حمل‌ونقل عمومی یا از آن",
+      "#Connecting to or from a parked car": "رفتن به خودروی پارک‌شده یا آمدن از آن",
+      "#Connecting to or from bicycle parking": "رفتن به محل پارک دوچرخه یا آمدن از آن",
+      "#Using a wheelchair or mobility aid": "استفاده از ویلچر یا وسیله کمک‌حرکتی",
+      "#Travelling with a stroller": "جابه‌جایی با کالسکه کودک",
+      "#None of these": "هیچ‌کدام از این‌ها"
+    },
+    "hu": {
+      "#Which of these describe your trip today?": "Melyik állítás írja le a mai útját?",
+      "#Connecting to or from public transport": "Csatlakozás tömegközlekedéshez vagy onnan",
+      "#Connecting to or from a parked car": "Út parkoló autóhoz vagy onnan",
+      "#Connecting to or from bicycle parking": "Út kerékpártárolóhoz vagy onnan",
+      "#Using a wheelchair or mobility aid": "Kerekesszék vagy mozgást segítő eszköz használata",
+      "#Travelling with a stroller": "Közlekedés babakocsival",
+      "#None of these": "Ezek közül egyik sem"
+    },
+    "ar": {
+      "#Which of these describe your trip today?": "أي من هذه الحالات يصف رحلتك اليوم؟",
+      "#Connecting to or from public transport": "الانتقال إلى وسائل النقل العام أو منها",
+      "#Connecting to or from a parked car": "الانتقال إلى سيارة متوقفة أو منها",
+      "#Connecting to or from bicycle parking": "الانتقال إلى موقف دراجات أو منه",
+      "#Using a wheelchair or mobility aid": "استخدام كرسي متحرك أو وسيلة مساعدة على التنقل",
+      "#Travelling with a stroller": "التنقل بعربة أطفال",
+      "#None of these": "لا شيء مما سبق"
+    }
+  }
+}

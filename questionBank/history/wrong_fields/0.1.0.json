@@ -1,0 +1,65 @@
+{
+  "question_id": "wrong_fields",
+  "key": "wrong_fields",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_service_correction_report",
+  "source_questionnaires": [
+    "smarturbanity_service_correction_report"
+  ],
+  "schema": {
+    "text": "Which information is wrong?",
+    "answer_key": "wrong_fields",
+    "question_type": "multiple_options",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Name",
+        "value": "name"
+      },
+      {
+        "text": "Type of service",
+        "value": "service_type"
+      },
+      {
+        "text": "Opening hours",
+        "value": "opening_hours"
+      },
+      {
+        "text": "Contact",
+        "value": "contact"
+      },
+      {
+        "text": "Accessibility",
+        "value": "accessibility"
+      },
+      {
+        "text": "Other",
+        "value": "other"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Other": "Other",
+      "#Which information is wrong?": "Which information is wrong?",
+      "#Name": "Name",
+      "#Type of service": "Type of service",
+      "#Opening hours": "Opening hours",
+      "#Contact": "Contact",
+      "#Accessibility": "Accessibility"
+    },
+    "it": {
+      "#Other": "Altro",
+      "#Which information is wrong?": "Quali informazioni sono sbagliate?",
+      "#Name": "Nome",
+      "#Type of service": "Tipo di servizio",
+      "#Opening hours": "Orari di apertura",
+      "#Contact": "Contatti",
+      "#Accessibility": "Accessibilità"
+    }
+  }
+}

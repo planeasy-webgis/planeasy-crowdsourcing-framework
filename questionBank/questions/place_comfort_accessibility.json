@@ -1,0 +1,55 @@
+{
+  "question_id": "place_comfort_accessibility",
+  "key": "place_comfort_accessibility",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "schema": {
+    "text": "How comfortable and accessible is this location for you?",
+    "answer_key": "comfort_accessibility_rating",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Very poor",
+        "value": "1_very_negative"
+      },
+      {
+        "text": "Poor",
+        "value": "2_negative"
+      },
+      {
+        "text": "Neither poor nor good",
+        "value": "3_neutral"
+      },
+      {
+        "text": "Good",
+        "value": "4_positive"
+      },
+      {
+        "text": "Very good",
+        "value": "5_very_positive"
+      },
+      {
+        "text": "Not applicable / do not know",
+        "value": "not_applicable"
+      }
+    ],
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "it": {
+      "#How comfortable and accessible is this location for you?": "Quanto è confortevole e accessibile questo luogo per te?",
+      "#Very poor": "Molto scarsa",
+      "#Poor": "Scarsa",
+      "#Neither poor nor good": "Né scarsa né buona",
+      "#Good": "Buona",
+      "#Very good": "Molto buona",
+      "#Not applicable / do not know": "Non applicabile / non so"
+    }
+  }
+}

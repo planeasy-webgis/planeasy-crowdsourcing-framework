@@ -1,0 +1,55 @@
+{
+  "question_id": "place_cleanliness",
+  "key": "place_cleanliness",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "schema": {
+    "text": "How would you rate cleanliness and maintenance at this location?",
+    "answer_key": "maintenance_cleanliness_rating",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Very poor",
+        "value": "1_very_negative"
+      },
+      {
+        "text": "Poor",
+        "value": "2_negative"
+      },
+      {
+        "text": "Neither poor nor good",
+        "value": "3_neutral"
+      },
+      {
+        "text": "Good",
+        "value": "4_positive"
+      },
+      {
+        "text": "Very good",
+        "value": "5_very_positive"
+      },
+      {
+        "text": "Not applicable / do not know",
+        "value": "not_applicable"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "it": {
+      "#How would you rate cleanliness and maintenance at this location?": "Come valuti pulizia e manutenzione in questo luogo?",
+      "#Very poor": "Molto scarsa",
+      "#Poor": "Scarsa",
+      "#Neither poor nor good": "Né scarsa né buona",
+      "#Good": "Buona",
+      "#Very good": "Molto buona",
+      "#Not applicable / do not know": "Non applicabile / non so"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "question_id": "connection_elements_operating_status",
+  "key": "connection_elements_operating_status",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "Today, are the stairs, elevator or escalator open and working?",
+    "answer_key": "elements_open_working",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Yes, open and working",
+        "value": "open_working"
+      },
+      {
+        "text": "No, broken or out of service",
+        "value": "out_of_service"
+      },
+      {
+        "text": "No, closed (by a gate or at certain hours)",
+        "value": "closed"
+      }
+    ],
+    "add_i_dont_know": true,
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "en": {
+      "#Today, are the stairs, elevator or escalator open and working?": "Today, are the stairs, elevator or escalator open and working?",
+      "#Yes, open and working": "Yes, open and working",
+      "#No, broken or out of service": "No, broken or out of service",
+      "#No, closed (by a gate or at certain hours)": "No, closed (by a gate or at certain hours)",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#Today, are the stairs, elevator or escalator open and working?": "Oggi le scale, l'ascensore o la scala mobile sono aperti e funzionanti?",
+      "#Yes, open and working": "Sì, aperti e funzionanti",
+      "#No, broken or out of service": "No, guasti o fuori servizio",
+      "#No, closed (by a gate or at certain hours)": "No, chiusi (da un cancello o in certi orari)",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#Today, are the stairs, elevator or escalator open and working?": "Aujourd'hui, les escaliers, l'ascenseur ou l'escalator sont-ils ouverts et en état de marche ?",
+      "#Yes, open and working": "Oui, ouverts et en état de marche",
+      "#No, broken or out of service": "Non, en panne ou hors service",
+      "#No, closed (by a gate or at certain hours)": "Non, fermés (par une grille ou à certaines heures)",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#Today, are the stairs, elevator or escalator open and working?": "Sind Treppe, Aufzug oder Rolltreppe heute offen und in Betrieb?",
+      "#Yes, open and working": "Ja, offen und in Betrieb",
+      "#No, broken or out of service": "Nein, kaputt oder außer Betrieb",
+      "#No, closed (by a gate or at certain hours)": "Nein, geschlossen (durch ein Tor oder zu bestimmten Zeiten)",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#Today, are the stairs, elevator or escalator open and working?": "Bugün merdiven, asansör veya yürüyen merdiven açık ve çalışıyor mu?",
+      "#Yes, open and working": "Evet, açık ve çalışıyor",
+      "#No, broken or out of service": "Hayır, arızalı veya hizmet dışı",
+      "#No, closed (by a gate or at certain hours)": "Hayır, kapalı (bir kapıyla veya belirli saatlerde)",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#Today, are the stairs, elevator or escalator open and working?": "آیا امروز پله، آسانسور یا پله برقی باز و فعال است؟",
+      "#Yes, open and working": "بله، باز و فعال است",
+      "#No, broken or out of service": "خیر، خراب یا از کار افتاده است",
+      "#No, closed (by a gate or at certain hours)": "خیر، بسته است (با دروازه یا در ساعات مشخص)",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#Today, are the stairs, elevator or escalator open and working?": "Ma nyitva van és működik a lépcső, a lift vagy a mozgólépcső?",
+      "#Yes, open and working": "Igen, nyitva van és működik",
+      "#No, broken or out of service": "Nem, elromlott vagy nem üzemel",
+      "#No, closed (by a gate or at certain hours)": "Nem, zárva van (kapuval vagy bizonyos órákban)",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#Today, are the stairs, elevator or escalator open and working?": "هل الدرج أو المصعد أو السلم المتحرك مفتوح ويعمل اليوم؟",
+      "#Yes, open and working": "نعم، مفتوح ويعمل",
+      "#No, broken or out of service": "لا، معطل أو خارج الخدمة",
+      "#No, closed (by a gate or at certain hours)": "لا، مغلق (ببوابة أو في ساعات معينة)",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

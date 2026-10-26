@@ -1,0 +1,95 @@
+{
+  "question_id": "location_distance",
+  "key": "location_distance",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "active_in_source_main": true,
+  "origin_questionnaire": "smarturbanity_service_correction_report",
+  "source_questionnaires": [
+    "smarturbanity_service_correction_report"
+  ],
+  "schema": {
+    "text": "How far is it from the marked place?",
+    "answer_key": "location_distance",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "On the same street, a few steps away",
+        "value": "same_street"
+      },
+      {
+        "text": "Nearby, within 200 m",
+        "value": "within_200m"
+      },
+      {
+        "text": "Farther away",
+        "value": "farther"
+      },
+      {
+        "text": "I don't know",
+        "value": "unknown"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#I don't know": "I don't know",
+      "#How far is it from the marked place?": "How far is it from the marked place?",
+      "#On the same street, a few steps away": "On the same street, a few steps away",
+      "#Nearby, within 200 m": "Nearby, within 200 m",
+      "#Farther away": "Farther away"
+    },
+    "it": {
+      "#I don't know": "Non lo so",
+      "#How far is it from the marked place?": "Quanto dista dal punto segnato?",
+      "#On the same street, a few steps away": "Nella stessa strada, a pochi passi",
+      "#Nearby, within 200 m": "Nelle vicinanze, entro 200 m",
+      "#Farther away": "Più lontano"
+    },
+    "fr": {
+      "#I don't know": "Je ne sais pas",
+      "#How far is it from the marked place?": "À quelle distance se trouve-t-il du point indiqué ?",
+      "#On the same street, a few steps away": "Dans la même rue, à quelques pas",
+      "#Nearby, within 200 m": "À proximité, à moins de 200 m",
+      "#Farther away": "Plus loin"
+    },
+    "de": {
+      "#I don't know": "Ich weiß nicht",
+      "#How far is it from the marked place?": "Wie weit ist er von der markierten Stelle entfernt?",
+      "#On the same street, a few steps away": "In derselben Straße, wenige Schritte entfernt",
+      "#Nearby, within 200 m": "In der Nähe, im Umkreis von 200 m",
+      "#Farther away": "Weiter entfernt"
+    },
+    "tr": {
+      "#I don't know": "Bilmiyorum",
+      "#How far is it from the marked place?": "İşaretlenen yerden ne kadar uzakta?",
+      "#On the same street, a few steps away": "Aynı sokakta, birkaç adım ötede",
+      "#Nearby, within 200 m": "Yakında, 200 m içinde",
+      "#Farther away": "Daha uzakta"
+    },
+    "fa": {
+      "#I don't know": "نمی‌دانم",
+      "#How far is it from the marked place?": "از مکان مشخص‌شده چقدر فاصله دارد؟",
+      "#On the same street, a few steps away": "در همان خیابان، چند قدم آن‌طرف‌تر",
+      "#Nearby, within 200 m": "در نزدیکی، کمتر از ۲۰۰ متر",
+      "#Farther away": "دورتر"
+    },
+    "hu": {
+      "#I don't know": "Nem tudom",
+      "#How far is it from the marked place?": "Milyen messze van a megjelölt helytől?",
+      "#On the same street, a few steps away": "Ugyanabban az utcában, néhány lépésre",
+      "#Nearby, within 200 m": "A közelben, 200 m-en belül",
+      "#Farther away": "Távolabb"
+    },
+    "ar": {
+      "#I don't know": "لا أعرف",
+      "#How far is it from the marked place?": "كم تبعد عن المكان المحدد؟",
+      "#On the same street, a few steps away": "في الشارع نفسه، على بُعد خطوات",
+      "#Nearby, within 200 m": "قريبًا، ضمن 200 م",
+      "#Farther away": "أبعد من ذلك"
+    }
+  }
+}

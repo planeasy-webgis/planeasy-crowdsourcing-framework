@@ -1,0 +1,37 @@
+{
+  "question_id": "service_opportunities",
+  "key": "service_opportunities",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_service_opportunities",
+  "source_questionnaires": [
+    "smarturbanity_service_opportunities"
+  ],
+  "schema": {
+    "text": "Which opportunities does this service provide?",
+    "answer_key": "service_opportunities",
+    "question_type": "matrix",
+    "row_source": "opportunities",
+    "row_filter": {
+      "mapping_source": "service_opportunity_mapping",
+      "relation": "provides_opportunity"
+    },
+    "add_other": true,
+    "columns": [
+      {
+        "key": "exists",
+        "label": "Does this opportunity exist?",
+        "type": "boolean"
+      },
+      {
+        "key": "desired_here",
+        "label": "Would you like this opportunity to be available here?",
+        "type": "boolean"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {}
+}

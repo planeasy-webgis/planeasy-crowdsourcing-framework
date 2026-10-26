@@ -1,0 +1,92 @@
+{
+  "question_id": "bike_facility",
+  "key": "bike_facility",
+  "project": "shared",
+  "version": "0.2.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_segment_assessment",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Is there cycling infrastructure on this street?",
+    "answer_key": "bike_facility",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "No cycling facility",
+        "value": "no_bike_facility"
+      },
+      {
+        "text": "Cycling shared with other road users",
+        "value": "shared_with_traffic"
+      },
+      {
+        "text": "Dedicated cycling infrastructure",
+        "value": "dedicated_bike_facility"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Is there cycling infrastructure on this street?": "Is there cycling infrastructure on this street?",
+      "#No cycling facility": "No cycling facility",
+      "#Cycling shared with other road users": "Cycling shared with other road users",
+      "#Dedicated cycling infrastructure": "Dedicated cycling infrastructure",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#Is there cycling infrastructure on this street?": "C'è uno spazio destinato alle biciclette su questa strada?",
+      "#No cycling facility": "Nessuno spazio ciclabile",
+      "#Cycling shared with other road users": "Spazio condiviso con altri veicoli",
+      "#Dedicated cycling infrastructure": "Spazio dedicato alle biciclette",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#Is there cycling infrastructure on this street?": "Y a-t-il un aménagement cyclable dans cette rue ?",
+      "#No cycling facility": "Aucun aménagement cyclable",
+      "#Cycling shared with other road users": "Espace cyclable partagé avec d’autres usagers de la route",
+      "#Dedicated cycling infrastructure": "Aménagement cyclable réservé",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#Is there cycling infrastructure on this street?": "Gibt es in dieser Straße Radinfrastruktur?",
+      "#No cycling facility": "Keine Radinfrastruktur",
+      "#Cycling shared with other road users": "Radverkehr gemeinsam mit anderen Verkehrsteilnehmenden",
+      "#Dedicated cycling infrastructure": "Eigene Radinfrastruktur",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#Is there cycling infrastructure on this street?": "Bu sokakta bisiklet altyapısı var mı?",
+      "#No cycling facility": "Bisiklet altyapısı yok",
+      "#Cycling shared with other road users": "Diğer yol kullanıcılarıyla ortak bisiklet alanı",
+      "#Dedicated cycling infrastructure": "Ayrılmış bisiklet altyapısı",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#Is there cycling infrastructure on this street?": "آیا در این خیابان زیرساخت دوچرخه وجود دارد؟",
+      "#No cycling facility": "زیرساخت دوچرخه وجود ندارد",
+      "#Cycling shared with other road users": "دوچرخه‌سواری مشترک با دیگر کاربران راه",
+      "#Dedicated cycling infrastructure": "زیرساخت اختصاصی دوچرخه",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#Is there cycling infrastructure on this street?": "Van kerékpáros infrastruktúra ezen az utcán?",
+      "#No cycling facility": "Nincs kerékpáros infrastruktúra",
+      "#Cycling shared with other road users": "Más úthasználókkal közös kerékpáros tér",
+      "#Dedicated cycling infrastructure": "Kijelölt kerékpáros infrastruktúra",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#Is there cycling infrastructure on this street?": "هل توجد بنية تحتية للدراجات في هذا الشارع؟",
+      "#No cycling facility": "لا توجد بنية تحتية للدراجات",
+      "#Cycling shared with other road users": "ركوب الدراجات بمشاركة مستخدمي الطريق الآخرين",
+      "#Dedicated cycling infrastructure": "بنية تحتية مخصصة للدراجات",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

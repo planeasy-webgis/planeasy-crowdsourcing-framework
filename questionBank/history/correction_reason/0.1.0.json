@@ -1,0 +1,56 @@
+{
+  "question_id": "correction_reason",
+  "key": "correction_reason",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_service_correction_report",
+  "source_questionnaires": [
+    "smarturbanity_service_correction_report"
+  ],
+  "schema": {
+    "text": "Why doesn't this service exist?",
+    "answer_key": "correction_reason",
+    "question_type": "single_option",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": false,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "This service no longer exists",
+        "value": "no_longer_exists"
+      },
+      {
+        "text": "This is the wrong location",
+        "value": "wrong_location"
+      },
+      {
+        "text": "This is a duplicate entry",
+        "value": "duplicate_entry"
+      },
+      {
+        "text": "Other",
+        "value": "other"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Why doesn't this service exist?": "Why doesn't this service exist?",
+      "#This service no longer exists": "This service no longer exists",
+      "#This is the wrong location": "This is the wrong location",
+      "#This is a duplicate entry": "This is a duplicate entry",
+      "#Other": "Other"
+    },
+    "it": {
+      "#Why doesn't this service exist?": "Perché questo servizio non esiste?",
+      "#This service no longer exists": "Questo servizio non esiste più",
+      "#This is the wrong location": "Questa è la posizione sbagliata",
+      "#This is a duplicate entry": "Questa è una voce duplicata",
+      "#Other": "Altro"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question_id": "place_rating_factors",
+  "key": "place_rating_factors",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "schema": {
+    "text": "Which conditions most influenced your ratings?",
+    "answer_key": "perception_context_factors",
+    "question_type": "multiple_options",
+    "add_other": true,
+    "options": [
+      {
+        "text": "Lighting",
+        "value": "lighting"
+      },
+      {
+        "text": "Traffic speed or volume",
+        "value": "traffic"
+      },
+      {
+        "text": "Visibility",
+        "value": "visibility"
+      },
+      {
+        "text": "Crowding or isolation",
+        "value": "crowding_isolation"
+      },
+      {
+        "text": "Obstacles or barriers",
+        "value": "obstacles_barriers"
+      },
+      {
+        "text": "Noise or air pollution",
+        "value": "noise_air_pollution"
+      },
+      {
+        "text": "Weather, heat or lack of shade",
+        "value": "weather_heat"
+      },
+      {
+        "text": "Cleanliness or maintenance",
+        "value": "cleanliness_maintenance"
+      },
+      {
+        "text": "Greenery or public-space quality",
+        "value": "greenery_public_space"
+      },
+      {
+        "text": "None in particular",
+        "value": "none"
+      }
+    ],
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "it": {
+      "#Which conditions most influenced your ratings?": "Quali condizioni hanno influenzato maggiormente le tue valutazioni?",
+      "#Lighting": "Illuminazione",
+      "#Traffic speed or volume": "Velocità o volume del traffico",
+      "#Visibility": "Visibilità",
+      "#Crowding or isolation": "Affollamento o isolamento",
+      "#Obstacles or barriers": "Ostacoli o barriere",
+      "#Noise or air pollution": "Rumore o inquinamento dell'aria",
+      "#Weather, heat or lack of shade": "Meteo, caldo o mancanza di ombra",
+      "#Cleanliness or maintenance": "Pulizia o manutenzione",
+      "#Greenery or public-space quality": "Verde o qualità dello spazio pubblico",
+      "#None in particular": "Nessuna in particolare"
+    }
+  }
+}

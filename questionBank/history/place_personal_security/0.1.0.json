@@ -1,0 +1,55 @@
+{
+  "question_id": "place_personal_security",
+  "key": "place_personal_security",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "schema": {
+    "text": "How safe from crime or harassment do you feel at this location?",
+    "answer_key": "personal_security_rating",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Very unsafe",
+        "value": "1_very_negative"
+      },
+      {
+        "text": "Unsafe",
+        "value": "2_negative"
+      },
+      {
+        "text": "Neither safe nor unsafe",
+        "value": "3_neutral"
+      },
+      {
+        "text": "Safe",
+        "value": "4_positive"
+      },
+      {
+        "text": "Very safe",
+        "value": "5_very_positive"
+      },
+      {
+        "text": "Do not know / prefer not to answer",
+        "value": "dont_know"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "it": {
+      "#How safe from crime or harassment do you feel at this location?": "Quanto ti senti al sicuro da criminalità o molestie in questo luogo?",
+      "#Very unsafe": "Per nulla al sicuro",
+      "#Unsafe": "Poco al sicuro",
+      "#Neither safe nor unsafe": "Né al sicuro né in pericolo",
+      "#Safe": "Al sicuro",
+      "#Very safe": "Molto al sicuro",
+      "#Do not know / prefer not to answer": "Non so / preferisco non rispondere"
+    }
+  }
+}

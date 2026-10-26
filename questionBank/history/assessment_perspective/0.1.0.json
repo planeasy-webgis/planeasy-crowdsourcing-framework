@@ -1,0 +1,75 @@
+{
+  "question_id": "assessment_perspective",
+  "key": "assessment_perspective",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "How are you assessing this place today?",
+    "answer_key": "assessment_perspective",
+    "question_type": "multiple_options",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": false,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Person walking or rolling",
+        "value": "pedestrian"
+      },
+      {
+        "text": "Person cycling",
+        "value": "cyclist"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#How are you assessing this place today?": "How are you assessing this place today?",
+      "#Person walking or rolling": "Person walking or rolling",
+      "#Person cycling": "Person cycling"
+    },
+    "it": {
+      "#How are you assessing this place today?": "Come stai valutando questo luogo oggi?",
+      "#Person walking or rolling": "Persona a piedi o con ausili alla mobilità",
+      "#Person cycling": "Persona in bicicletta"
+    },
+    "fr": {
+      "#How are you assessing this place today?": "De quel point de vue évaluez-vous ce lieu aujourd’hui ?",
+      "#Person walking or rolling": "Personne à pied ou se déplaçant avec une aide à la mobilité",
+      "#Person cycling": "Personne à vélo"
+    },
+    "de": {
+      "#How are you assessing this place today?": "Aus welcher Perspektive bewerten Sie diesen Ort heute?",
+      "#Person walking or rolling": "Person zu Fuß oder mit Mobilitätshilfe",
+      "#Person cycling": "Person mit dem Fahrrad"
+    },
+    "tr": {
+      "#How are you assessing this place today?": "Bugün bu yeri hangi açıdan değerlendiriyorsunuz?",
+      "#Person walking or rolling": "Yürüyen veya hareketlilik desteğiyle ilerleyen kişi",
+      "#Person cycling": "Bisiklet süren kişi"
+    },
+    "fa": {
+      "#How are you assessing this place today?": "امروز این مکان را از چه دیدگاهی ارزیابی می‌کنید؟",
+      "#Person walking or rolling": "فردی که پیاده یا با وسیله کمک‌حرکتی جابه‌جا می‌شود",
+      "#Person cycling": "فرد دوچرخه‌سوار"
+    },
+    "hu": {
+      "#How are you assessing this place today?": "Milyen nézőpontból értékeli ma ezt a helyet?",
+      "#Person walking or rolling": "Gyalogosan vagy mozgást segítő eszközzel közlekedő személy",
+      "#Person cycling": "Kerékpárral közlekedő személy"
+    },
+    "ar": {
+      "#How are you assessing this place today?": "من أي منظور تقيّم هذا المكان اليوم؟",
+      "#Person walking or rolling": "شخص يمشي أو يتنقل باستخدام وسيلة مساعدة",
+      "#Person cycling": "شخص يركب دراجة"
+    }
+  }
+}

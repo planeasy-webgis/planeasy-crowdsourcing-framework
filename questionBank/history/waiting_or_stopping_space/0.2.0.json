@@ -1,0 +1,104 @@
+{
+  "question_id": "waiting_or_stopping_space",
+  "key": "waiting_or_stopping_space",
+  "project": "shared",
+  "version": "0.2.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "Is there enough room to wait or stop safely?",
+    "answer_key": "waiting_or_stopping_space",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "No safe place",
+        "value": "1_no_safe_space"
+      },
+      {
+        "text": "A place exists, but it is too small",
+        "value": "2_too_small"
+      },
+      {
+        "text": "Enough safe space",
+        "value": "3_enough_space"
+      },
+      {
+        "text": "No waiting or stopping space is needed here",
+        "value": "not_needed"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#I don't know": "I don't know",
+      "#Is there enough room to wait or stop safely?": "Is there enough room to wait or stop safely?",
+      "#No safe place": "No safe place",
+      "#A place exists, but it is too small": "A place exists, but it is too small",
+      "#Enough safe space": "Enough safe space",
+      "#No waiting or stopping space is needed here": "No waiting or stopping space is needed here"
+    },
+    "it": {
+      "#I don't know": "Non lo so",
+      "#Is there enough room to wait or stop safely?": "C'è abbastanza spazio per aspettare o fermarsi in sicurezza?",
+      "#No safe place": "Nessun posto sicuro",
+      "#A place exists, but it is too small": "C'è uno spazio, ma è troppo piccolo",
+      "#Enough safe space": "C'è abbastanza spazio sicuro",
+      "#No waiting or stopping space is needed here": "Qui non serve uno spazio di attesa o fermata"
+    },
+    "fr": {
+      "#I don't know": "Je ne sais pas",
+      "#Is there enough room to wait or stop safely?": "Y a-t-il assez de place pour attendre ou s’arrêter en sécurité ?",
+      "#No safe place": "Aucun endroit sûr",
+      "#A place exists, but it is too small": "Il existe un espace, mais il est trop petit",
+      "#Enough safe space": "Assez d’espace sûr",
+      "#No waiting or stopping space is needed here": "Aucun espace d’attente ou d’arrêt n’est nécessaire ici"
+    },
+    "de": {
+      "#I don't know": "Ich weiß es nicht",
+      "#Is there enough room to wait or stop safely?": "Gibt es genug Platz, um sicher zu warten oder anzuhalten?",
+      "#No safe place": "Kein sicherer Platz",
+      "#A place exists, but it is too small": "Es gibt einen Platz, aber er ist zu klein",
+      "#Enough safe space": "Ausreichend sicherer Platz",
+      "#No waiting or stopping space is needed here": "Hier wird kein Warte- oder Haltebereich benötigt"
+    },
+    "tr": {
+      "#I don't know": "Bilmiyorum",
+      "#Is there enough room to wait or stop safely?": "Güvenle beklemek veya durmak için yeterli yer var mı?",
+      "#No safe place": "Güvenli bir yer yok",
+      "#A place exists, but it is too small": "Bir yer var, ancak çok küçük",
+      "#Enough safe space": "Yeterli güvenli alan",
+      "#No waiting or stopping space is needed here": "Burada bekleme veya durma alanı gerekmiyor"
+    },
+    "fa": {
+      "#I don't know": "نمی‌دانم",
+      "#Is there enough room to wait or stop safely?": "آیا فضای کافی برای انتظار یا توقف ایمن وجود دارد؟",
+      "#No safe place": "هیچ جای امنی نیست",
+      "#A place exists, but it is too small": "جایی وجود دارد، اما خیلی کوچک است",
+      "#Enough safe space": "فضای امن کافی",
+      "#No waiting or stopping space is needed here": "در اینجا فضای انتظار یا توقف لازم نیست"
+    },
+    "hu": {
+      "#I don't know": "Nem tudom",
+      "#Is there enough room to wait or stop safely?": "Van elég hely a biztonságos várakozáshoz vagy megálláshoz?",
+      "#No safe place": "Nincs biztonságos hely",
+      "#A place exists, but it is too small": "Van hely, de túl kicsi",
+      "#Enough safe space": "Elegendő biztonságos hely",
+      "#No waiting or stopping space is needed here": "Itt nincs szükség várakozó- vagy megállóhelyre"
+    },
+    "ar": {
+      "#I don't know": "لا أعرف",
+      "#Is there enough room to wait or stop safely?": "هل توجد مساحة كافية للانتظار أو التوقف بأمان؟",
+      "#No safe place": "لا يوجد مكان آمن",
+      "#A place exists, but it is too small": "يوجد مكان، لكنه صغير جدًا",
+      "#Enough safe space": "مساحة آمنة كافية",
+      "#No waiting or stopping space is needed here": "لا حاجة إلى مساحة انتظار أو توقف هنا"
+    }
+  }
+}

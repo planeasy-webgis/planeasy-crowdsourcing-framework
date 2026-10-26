@@ -1,0 +1,118 @@
+{
+  "question_id": "walking_width_passability",
+  "key": "walking_width_passability",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_segment_assessment",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "How easy is it for people to pass each other on the walking path?",
+    "answer_key": "walking_width_passability",
+    "question_type": "single_option",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": true,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Only one person can walk at a time",
+        "value": "1_one_person_only"
+      },
+      {
+        "text": "Two people can pass, but one usually steps aside",
+        "value": "2_pass_with_step_aside"
+      },
+      {
+        "text": "Two people can walk side by side",
+        "value": "3_two_side_by_side"
+      },
+      {
+        "text": "Small groups can pass each other",
+        "value": "4_small_groups"
+      },
+      {
+        "text": "Very wide, with plenty of room to move",
+        "value": "5_very_wide"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#How easy is it for people to pass each other on the walking path?": "How easy is it for people to pass each other on the walking path?",
+      "#Only one person can walk at a time": "Only one person can walk at a time",
+      "#Two people can pass, but one usually steps aside": "Two people can pass, but one usually steps aside",
+      "#Two people can walk side by side": "Two people can walk side by side",
+      "#Small groups can pass each other": "Small groups can pass each other",
+      "#Very wide, with plenty of room to move": "Very wide, with plenty of room to move",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#How easy is it for people to pass each other on the walking path?": "Quanto è facile passare contemporaneamente in direzioni opposte sul percorso pedonale?",
+      "#Only one person can walk at a time": "Può passare una sola persona alla volta",
+      "#Two people can pass, but one usually steps aside": "Due persone possono incrociarsi, ma una deve spostarsi di lato",
+      "#Two people can walk side by side": "Due persone possono camminare affiancate",
+      "#Small groups can pass each other": "Piccoli gruppi possono incrociarsi",
+      "#Very wide, with plenty of room to move": "Molto ampio, con molto spazio per muoversi",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#How easy is it for people to pass each other on the walking path?": "Est-il facile de se croiser sur le chemin piéton ?",
+      "#Only one person can walk at a time": "Une seule personne peut passer à la fois",
+      "#Two people can pass, but one usually steps aside": "Deux personnes peuvent se croiser, mais l’une doit généralement s’écarter",
+      "#Two people can walk side by side": "Deux personnes peuvent marcher côte à côte",
+      "#Small groups can pass each other": "De petits groupes peuvent se croiser",
+      "#Very wide, with plenty of room to move": "Très large, avec beaucoup d’espace pour se déplacer",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#How easy is it for people to pass each other on the walking path?": "Wie leicht können sich Personen auf dem Gehweg begegnen?",
+      "#Only one person can walk at a time": "Nur eine Person kann gleichzeitig gehen",
+      "#Two people can pass, but one usually steps aside": "Zwei Personen können aneinander vorbeigehen, aber eine muss meist ausweichen",
+      "#Two people can walk side by side": "Zwei Personen können nebeneinander gehen",
+      "#Small groups can pass each other": "Kleine Gruppen können aneinander vorbeigehen",
+      "#Very wide, with plenty of room to move": "Sehr breit, mit viel Bewegungsraum",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#How easy is it for people to pass each other on the walking path?": "Yaya yolunda insanların birbirini geçmesi ne kadar kolay?",
+      "#Only one person can walk at a time": "Aynı anda yalnızca bir kişi yürüyebilir",
+      "#Two people can pass, but one usually steps aside": "İki kişi geçebilir, ancak biri genellikle kenara çekilir",
+      "#Two people can walk side by side": "İki kişi yan yana yürüyebilir",
+      "#Small groups can pass each other": "Küçük gruplar birbirini geçebilir",
+      "#Very wide, with plenty of room to move": "Çok geniş, hareket etmek için bol alan var",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#How easy is it for people to pass each other on the walking path?": "عبور افراد از کنار یکدیگر در مسیر پیاده چقدر آسان است؟",
+      "#Only one person can walk at a time": "فقط یک نفر در هر لحظه می‌تواند عبور کند",
+      "#Two people can pass, but one usually steps aside": "دو نفر می‌توانند رد شوند، اما معمولاً یکی باید کنار برود",
+      "#Two people can walk side by side": "دو نفر می‌توانند کنار هم راه بروند",
+      "#Small groups can pass each other": "گروه‌های کوچک می‌توانند از کنار هم عبور کنند",
+      "#Very wide, with plenty of room to move": "بسیار پهن، با فضای فراوان برای حرکت",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#How easy is it for people to pass each other on the walking path?": "Mennyire könnyű egymás mellett elhaladni a gyalogúton?",
+      "#Only one person can walk at a time": "Egyszerre csak egy ember fér el",
+      "#Two people can pass, but one usually steps aside": "Két ember elfér egymás mellett, de egyiküknek általában félre kell állnia",
+      "#Two people can walk side by side": "Két ember egymás mellett tud gyalogolni",
+      "#Small groups can pass each other": "Kisebb csoportok el tudnak haladni egymás mellett",
+      "#Very wide, with plenty of room to move": "Nagyon széles, sok hely van a mozgáshoz",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#How easy is it for people to pass each other on the walking path?": "ما مدى سهولة مرور الأشخاص بجانب بعضهم على مسار المشي؟",
+      "#Only one person can walk at a time": "يمكن لشخص واحد فقط المرور في كل مرة",
+      "#Two people can pass, but one usually steps aside": "يمكن لشخصين المرور، لكن غالبًا ما يضطر أحدهما إلى التنحي جانبًا",
+      "#Two people can walk side by side": "يمكن لشخصين المشي جنبًا إلى جنب",
+      "#Small groups can pass each other": "يمكن للمجموعات الصغيرة المرور بجانب بعضها",
+      "#Very wide, with plenty of room to move": "واسع جدًا، مع مساحة كبيرة للحركة",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "question_id": "traffic_control",
+  "key": "traffic_control",
+  "project": "shared",
+  "version": "0.3.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "How does this crossing work?",
+    "answer_key": "traffic_control",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "There is no zebra crossing and no traffic light",
+        "value": "no_control"
+      },
+      {
+        "text": "Zebra crossing without a traffic light",
+        "value": "priority_no_signal"
+      },
+      {
+        "text": "Traffic light: when it is green for me, the cars are stopped",
+        "value": "protected_signal"
+      },
+      {
+        "text": "Traffic light, but turning cars still pass",
+        "value": "permissive_signal_with_turning_conflict"
+      },
+      {
+        "text": "There is a traffic light, but it is unclear who should go",
+        "value": "unclear_signal_priority"
+      },
+      {
+        "text": "The traffic light is broken or switched off",
+        "value": "signal_broken"
+      }
+    ],
+    "add_i_dont_know": true,
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#How does this crossing work?": "How does this crossing work?",
+      "#There is no zebra crossing and no traffic light": "There is no zebra crossing and no traffic light",
+      "#Zebra crossing without a traffic light": "Zebra crossing without a traffic light",
+      "#Traffic light: when it is green for me, the cars are stopped": "Traffic light: when it is green for me, the cars are stopped",
+      "#Traffic light, but turning cars still pass": "Traffic light, but turning cars still pass",
+      "#There is a traffic light, but it is unclear who should go": "There is a traffic light, but it is unclear who should go",
+      "#The traffic light is broken or switched off": "The traffic light is broken or switched off",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#How does this crossing work?": "Come funziona questo attraversamento?",
+      "#There is no zebra crossing and no traffic light": "Non ci sono né strisce pedonali né semaforo",
+      "#Zebra crossing without a traffic light": "Strisce pedonali senza semaforo",
+      "#Traffic light: when it is green for me, the cars are stopped": "Semaforo: quando è verde per me, le auto sono ferme",
+      "#Traffic light, but turning cars still pass": "Semaforo, ma le auto che girano passano lo stesso",
+      "#There is a traffic light, but it is unclear who should go": "C'è un semaforo, ma non si capisce chi deve passare",
+      "#The traffic light is broken or switched off": "Il semaforo è guasto o spento",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#How does this crossing work?": "Comment fonctionne cette traversée ?",
+      "#There is no zebra crossing and no traffic light": "Il n'y a ni passage piéton ni feu",
+      "#Zebra crossing without a traffic light": "Passage piéton sans feu",
+      "#Traffic light: when it is green for me, the cars are stopped": "Feu : quand il est vert pour moi, les voitures sont arrêtées",
+      "#Traffic light, but turning cars still pass": "Feu, mais les voitures qui tournent passent quand même",
+      "#There is a traffic light, but it is unclear who should go": "Il y a un feu, mais on ne comprend pas qui doit passer",
+      "#The traffic light is broken or switched off": "Le feu est en panne ou éteint",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#How does this crossing work?": "Wie funktioniert dieser Übergang?",
+      "#There is no zebra crossing and no traffic light": "Es gibt weder Zebrastreifen noch Ampel",
+      "#Zebra crossing without a traffic light": "Zebrastreifen ohne Ampel",
+      "#Traffic light: when it is green for me, the cars are stopped": "Ampel: Wenn ich Grün habe, stehen die Autos",
+      "#Traffic light, but turning cars still pass": "Ampel, aber abbiegende Autos fahren trotzdem",
+      "#There is a traffic light, but it is unclear who should go": "Es gibt eine Ampel, aber es ist unklar, wer gehen oder fahren darf",
+      "#The traffic light is broken or switched off": "Die Ampel ist kaputt oder ausgeschaltet",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#How does this crossing work?": "Bu geçit nasıl işliyor?",
+      "#There is no zebra crossing and no traffic light": "Ne yaya geçidi çizgisi ne de trafik ışığı var",
+      "#Zebra crossing without a traffic light": "Trafik ışığı olmayan yaya geçidi",
+      "#Traffic light: when it is green for me, the cars are stopped": "Trafik ışığı: benim için yeşil yandığında arabalar duruyor",
+      "#Traffic light, but turning cars still pass": "Trafik ışığı var, ama dönen arabalar yine de geçiyor",
+      "#There is a traffic light, but it is unclear who should go": "Trafik ışığı var, ama kimin geçeceği belli değil",
+      "#The traffic light is broken or switched off": "Trafik ışığı arızalı veya kapalı",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#How does this crossing work?": "این گذرگاه چگونه کار می‌کند؟",
+      "#There is no zebra crossing and no traffic light": "نه خط عابر پیاده هست و نه چراغ راهنمایی",
+      "#Zebra crossing without a traffic light": "خط عابر پیاده بدون چراغ راهنمایی",
+      "#Traffic light: when it is green for me, the cars are stopped": "چراغ راهنمایی: وقتی برای من سبز است، خودروها متوقف‌اند",
+      "#Traffic light, but turning cars still pass": "چراغ راهنمایی هست، اما خودروهای در حال گردش باز هم عبور می‌کنند",
+      "#There is a traffic light, but it is unclear who should go": "چراغ راهنمایی هست، اما معلوم نیست چه کسی باید عبور کند",
+      "#The traffic light is broken or switched off": "چراغ راهنمایی خراب یا خاموش است",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#How does this crossing work?": "Hogyan működik ez az átkelő?",
+      "#There is no zebra crossing and no traffic light": "Nincs se zebra, se jelzőlámpa",
+      "#Zebra crossing without a traffic light": "Zebra jelzőlámpa nélkül",
+      "#Traffic light: when it is green for me, the cars are stopped": "Jelzőlámpa: amikor nekem zöld, az autók állnak",
+      "#Traffic light, but turning cars still pass": "Jelzőlámpa, de a kanyarodó autók így is áthaladnak",
+      "#There is a traffic light, but it is unclear who should go": "Van jelzőlámpa, de nem egyértelmű, ki mehet",
+      "#The traffic light is broken or switched off": "A jelzőlámpa elromlott vagy ki van kapcsolva",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#How does this crossing work?": "كيف يعمل هذا المعبر؟",
+      "#There is no zebra crossing and no traffic light": "لا يوجد ممر مشاة ولا إشارة ضوئية",
+      "#Zebra crossing without a traffic light": "ممر مشاة بدون إشارة ضوئية",
+      "#Traffic light: when it is green for me, the cars are stopped": "إشارة ضوئية: عندما تكون خضراء لي، تكون السيارات متوقفة",
+      "#Traffic light, but turning cars still pass": "إشارة ضوئية، لكن السيارات التي تنعطف تمر رغم ذلك",
+      "#There is a traffic light, but it is unclear who should go": "توجد إشارة ضوئية، لكن من غير الواضح من يجب أن يمر",
+      "#The traffic light is broken or switched off": "الإشارة الضوئية معطلة أو مطفأة",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

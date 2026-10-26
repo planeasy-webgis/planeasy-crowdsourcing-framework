@@ -1,0 +1,53 @@
+{
+  "question_id": "closed_source",
+  "key": "closed_source",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_service_correction_report",
+  "source_questionnaires": [
+    "smarturbanity_service_correction_report"
+  ],
+  "schema": {
+    "text": "How do you know?",
+    "answer_key": "closed_source",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "I saw it on site",
+        "value": "on_site"
+      },
+      {
+        "text": "Local knowledge",
+        "value": "local_knowledge"
+      },
+      {
+        "text": "Official source or website",
+        "value": "official_source"
+      },
+      {
+        "text": "Other",
+        "value": "other"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Other": "Other",
+      "#How do you know?": "How do you know?",
+      "#I saw it on site": "I saw it on site",
+      "#Local knowledge": "Local knowledge",
+      "#Official source or website": "Official source or website"
+    },
+    "it": {
+      "#Other": "Altro",
+      "#How do you know?": "Come lo sai?",
+      "#I saw it on site": "L'ho visto di persona",
+      "#Local knowledge": "Lo so perché conosco la zona",
+      "#Official source or website": "Fonte ufficiale o sito web"
+    }
+  }
+}
