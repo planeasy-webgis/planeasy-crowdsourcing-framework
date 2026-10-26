@@ -127,6 +127,9 @@ Any reuse or adaptation must:
 
 ---
 
+Reusable individual question definitions are maintained in the
+[question pool](questionBank/README.md), separately from complete questionnaires.
+
 ## 🧠 Citation
 
 > Bresciani Miristice, L. M., & Gentile, G. (2025). *PlanEasy Crowdsourcing Framework.*  

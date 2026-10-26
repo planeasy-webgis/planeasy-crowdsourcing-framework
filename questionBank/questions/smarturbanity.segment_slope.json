@@ -1,0 +1,111 @@
+{
+  "question_id": "smarturbanity.segment_slope",
+  "project": "SmartUrbanity",
+  "key": "segment_slope",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How steep is the climb on this stretch?",
+        "answer_key": "segment_slope",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Flat",
+            "value": "1_flat"
+          },
+          {
+            "text": "Slight climb",
+            "value": "2_slight_climb"
+          },
+          {
+            "text": "Tiring climb",
+            "value": "3_tiring_climb"
+          },
+          {
+            "text": "Very steep climb, you need to stop",
+            "value": "4_very_steep"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#How steep is the climb on this stretch?": "How steep is the climb on this stretch?",
+          "#Flat": "Flat",
+          "#Slight climb": "Slight climb",
+          "#Tiring climb": "Tiring climb",
+          "#Very steep climb, you need to stop": "Very steep climb, you need to stop",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How steep is the climb on this stretch?": "Quanto è ripida la salita in questo tratto?",
+          "#Flat": "In piano",
+          "#Slight climb": "Leggera salita",
+          "#Tiring climb": "Salita faticosa",
+          "#Very steep climb, you need to stop": "Salita molto ripida, serve fermarsi",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How steep is the climb on this stretch?": "À quel point la montée est-elle raide sur ce tronçon ?",
+          "#Flat": "Plat",
+          "#Slight climb": "Légère montée",
+          "#Tiring climb": "Montée fatigante",
+          "#Very steep climb, you need to stop": "Montée très raide, il faut s'arrêter",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How steep is the climb on this stretch?": "Wie steil ist die Steigung auf diesem Abschnitt?",
+          "#Flat": "Eben",
+          "#Slight climb": "Leichte Steigung",
+          "#Tiring climb": "Anstrengende Steigung",
+          "#Very steep climb, you need to stop": "Sehr steile Steigung, man muss anhalten",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How steep is the climb on this stretch?": "Bu kesimdeki yokuş ne kadar dik?",
+          "#Flat": "Düz",
+          "#Slight climb": "Hafif yokuş",
+          "#Tiring climb": "Yorucu yokuş",
+          "#Very steep climb, you need to stop": "Çok dik yokuş, durmak gerekiyor",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How steep is the climb on this stretch?": "سربالایی در این بخش چقدر تند است؟",
+          "#Flat": "مسطح",
+          "#Slight climb": "سربالایی ملایم",
+          "#Tiring climb": "سربالایی خسته‌کننده",
+          "#Very steep climb, you need to stop": "سربالایی بسیار تند، باید توقف کرد",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How steep is the climb on this stretch?": "Mennyire meredek az emelkedő ezen a szakaszon?",
+          "#Flat": "Sík",
+          "#Slight climb": "Enyhe emelkedő",
+          "#Tiring climb": "Fárasztó emelkedő",
+          "#Very steep climb, you need to stop": "Nagyon meredek emelkedő, meg kell állni",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How steep is the climb on this stretch?": "ما مدى انحدار الصعود في هذا المقطع؟",
+          "#Flat": "مستوٍ",
+          "#Slight climb": "صعود خفيف",
+          "#Tiring climb": "صعود مُتعِب",
+          "#Very steep climb, you need to stop": "صعود شديد الانحدار، يجب التوقف",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

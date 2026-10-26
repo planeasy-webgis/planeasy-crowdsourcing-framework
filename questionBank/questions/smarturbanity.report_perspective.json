@@ -1,0 +1,178 @@
+{
+  "question_id": "smarturbanity.report_perspective",
+  "project": "SmartUrbanity",
+  "key": "report_perspective",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How are you experiencing this place? (Select all that apply)",
+        "answer_key": "report_perspective",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "On foot",
+            "value": "pedestrian"
+          },
+          {
+            "text": "In a wheelchair or mobility scooter",
+            "value": "wheelchair",
+            "special_category": "health",
+            "privacy_classification": "special_category_health"
+          },
+          {
+            "text": "With a pushchair or a shopping trolley",
+            "value": "pram"
+          },
+          {
+            "text": "With a walker or a walking stick, or walking with difficulty",
+            "value": "walking_aid",
+            "special_category": "health"
+          },
+          {
+            "text": "With a visual impairment (white cane, guide dog)",
+            "value": "visually_impaired",
+            "special_category": "health"
+          },
+          {
+            "text": "Accompanying children",
+            "value": "with_children"
+          },
+          {
+            "text": "By bike or e-scooter",
+            "value": "cyclist"
+          },
+          {
+            "text": "Waiting for or using public transport",
+            "value": "pt_user"
+          },
+          {
+            "text": "By car or motorcycle",
+            "value": "driver"
+          },
+          {
+            "text": "Spending time here",
+            "value": "staying"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How are you experiencing this place? (Select all that apply)": "How are you experiencing this place? (Select all that apply)",
+          "#On foot": "On foot",
+          "#In a wheelchair or mobility scooter": "In a wheelchair or mobility scooter",
+          "#With a pushchair or a shopping trolley": "With a pushchair or a shopping trolley",
+          "#With a walker or a walking stick, or walking with difficulty": "With a walker or a walking stick, or walking with difficulty",
+          "#With a visual impairment (white cane, guide dog)": "With a visual impairment (white cane, guide dog)",
+          "#Accompanying children": "Accompanying children",
+          "#By bike or e-scooter": "By bike or e-scooter",
+          "#Waiting for or using public transport": "Waiting for or using public transport",
+          "#By car or motorcycle": "By car or motorcycle",
+          "#Spending time here": "Spending time here"
+        },
+        "it": {
+          "#How are you experiencing this place? (Select all that apply)": "Come vivi questo luogo? (Puoi sceglierne più di uno)",
+          "#On foot": "A piedi",
+          "#In a wheelchair or mobility scooter": "In sedia a rotelle o con scooter elettrico per la mobilità",
+          "#With a pushchair or a shopping trolley": "Con passeggino o carrello della spesa",
+          "#With a walker or a walking stick, or walking with difficulty": "Con deambulatore o bastone per camminare, o camminando con difficoltà",
+          "#With a visual impairment (white cane, guide dog)": "Con disabilità visiva (bastone bianco, cane guida)",
+          "#Accompanying children": "Accompagnando bambini",
+          "#By bike or e-scooter": "In bici o in monopattino",
+          "#Waiting for or using public transport": "Aspettando o usando i mezzi pubblici",
+          "#By car or motorcycle": "In auto o in moto",
+          "#Spending time here": "Trascorrendo del tempo qui"
+        },
+        "fr": {
+          "#How are you experiencing this place? (Select all that apply)": "Comment vivez-vous cet endroit ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#On foot": "À pied",
+          "#In a wheelchair or mobility scooter": "En fauteuil roulant ou scooter de mobilité",
+          "#With a pushchair or a shopping trolley": "Avec une poussette ou un chariot de courses",
+          "#With a walker or a walking stick, or walking with difficulty": "Avec un déambulateur ou une canne de marche, ou en marchant avec difficulté",
+          "#With a visual impairment (white cane, guide dog)": "Avec une déficience visuelle (canne blanche, chien guide)",
+          "#Accompanying children": "En accompagnant des enfants",
+          "#By bike or e-scooter": "À vélo ou en trottinette électrique",
+          "#Waiting for or using public transport": "En attendant ou en utilisant les transports en commun",
+          "#By car or motorcycle": "En voiture ou à moto",
+          "#Spending time here": "En passant du temps ici"
+        },
+        "de": {
+          "#How are you experiencing this place? (Select all that apply)": "Wie erleben Sie diesen Ort? (Alle zutreffenden Antworten auswählen)",
+          "#On foot": "Zu Fuß",
+          "#In a wheelchair or mobility scooter": "Im Rollstuhl oder Elektromobil",
+          "#With a pushchair or a shopping trolley": "Mit Kinderwagen oder Einkaufstrolley",
+          "#With a walker or a walking stick, or walking with difficulty": "Mit Rollator oder Gehstock oder mühsam gehend",
+          "#With a visual impairment (white cane, guide dog)": "Mit Sehbehinderung (Blindenstock, Blindenführhund)",
+          "#Accompanying children": "In Begleitung von Kindern",
+          "#By bike or e-scooter": "Mit dem Fahrrad oder E-Scooter",
+          "#Waiting for or using public transport": "Beim Warten auf oder Nutzen von öffentlichen Verkehrsmitteln",
+          "#By car or motorcycle": "Mit dem Auto oder Motorrad",
+          "#Spending time here": "Beim Verweilen hier"
+        },
+        "tr": {
+          "#How are you experiencing this place? (Select all that apply)": "Bu yeri nasıl deneyimliyorsunuz? (Uygun olanların tümünü seçin)",
+          "#On foot": "Yürüyerek",
+          "#In a wheelchair or mobility scooter": "Tekerlekli sandalye veya akülü engelli aracıyla",
+          "#With a pushchair or a shopping trolley": "Bebek arabası veya alışveriş arabasıyla",
+          "#With a walker or a walking stick, or walking with difficulty": "Yürüteç veya yürüme bastonu ile ya da güçlükle yürüyerek",
+          "#With a visual impairment (white cane, guide dog)": "Görme engeliyle (beyaz baston, rehber köpek)",
+          "#Accompanying children": "Çocuklara eşlik ederek",
+          "#By bike or e-scooter": "Bisiklet veya elektrikli scooterla",
+          "#Waiting for or using public transport": "Toplu taşıma beklerken veya kullanırken",
+          "#By car or motorcycle": "Araba veya motosikletle",
+          "#Spending time here": "Burada vakit geçirirken"
+        },
+        "fa": {
+          "#How are you experiencing this place? (Select all that apply)": "این مکان را چگونه تجربه می‌کنید؟ (همه موارد مناسب را انتخاب کنید)",
+          "#On foot": "پیاده",
+          "#In a wheelchair or mobility scooter": "با ویلچر یا اسکوتر برقی معلولان",
+          "#With a pushchair or a shopping trolley": "با کالسکه یا چرخ خرید",
+          "#With a walker or a walking stick, or walking with difficulty": "با واکر یا عصای راه‌رفتن، یا با دشواری در راه رفتن",
+          "#With a visual impairment (white cane, guide dog)": "با آسیب بینایی (عصای سفید، سگ راهنما)",
+          "#Accompanying children": "همراه با کودکان",
+          "#By bike or e-scooter": "با دوچرخه یا اسکوتر برقی",
+          "#Waiting for or using public transport": "در انتظار یا هنگام استفاده از حمل‌ونقل عمومی",
+          "#By car or motorcycle": "با خودرو یا موتورسیکلت",
+          "#Spending time here": "هنگام گذراندن وقت در اینجا"
+        },
+        "hu": {
+          "#How are you experiencing this place? (Select all that apply)": "Hogyan éli meg ezt a helyet? (Jelölje meg az összes megfelelőt)",
+          "#On foot": "Gyalog",
+          "#In a wheelchair or mobility scooter": "Kerekesszékkel vagy elektromos mopeddel",
+          "#With a pushchair or a shopping trolley": "Babakocsival vagy bevásárlókocsival",
+          "#With a walker or a walking stick, or walking with difficulty": "Járókerettel vagy sétabottal, vagy nehezen járva",
+          "#With a visual impairment (white cane, guide dog)": "Látássérültként (fehér bot, vakvezető kutya)",
+          "#Accompanying children": "Gyerekeket kísérve",
+          "#By bike or e-scooter": "Kerékpárral vagy elektromos rollerrel",
+          "#Waiting for or using public transport": "Tömegközlekedésre várva vagy azt használva",
+          "#By car or motorcycle": "Autóval vagy motorkerékpárral",
+          "#Spending time here": "Itt töltve az időt"
+        },
+        "ar": {
+          "#How are you experiencing this place? (Select all that apply)": "كيف تختبر هذا المكان؟ (اختر كل ما ينطبق)",
+          "#On foot": "سيرًا على الأقدام",
+          "#In a wheelchair or mobility scooter": "بكرسي متحرك أو سكوتر كهربائي لذوي الإعاقة",
+          "#With a pushchair or a shopping trolley": "مع عربة أطفال أو عربة تسوّق",
+          "#With a walker or a walking stick, or walking with difficulty": "باستخدام مشّاية أو عصا للمشي، أو المشي بصعوبة",
+          "#With a visual impairment (white cane, guide dog)": "مع إعاقة بصرية (عصا بيضاء، كلب مرشد)",
+          "#Accompanying children": "برفقة أطفال",
+          "#By bike or e-scooter": "بالدراجة أو السكوتر الكهربائي",
+          "#Waiting for or using public transport": "أثناء انتظار النقل العام أو استخدامه",
+          "#By car or motorcycle": "بالسيارة أو الدراجة النارية",
+          "#Spending time here": "أثناء قضاء الوقت هنا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

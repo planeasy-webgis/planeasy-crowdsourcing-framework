@@ -1,0 +1,113 @@
+{
+  "question_id": "smarturbanity.economic_status",
+  "project": "SmartUrbanity",
+  "key": "economic_status",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which economic status do you think best describes your household?",
+        "answer_key": "economic_status",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "We struggle to cover basic needs",
+            "value": "struggle"
+          },
+          {
+            "text": "We can cover basic needs",
+            "value": "basic"
+          },
+          {
+            "text": "We can cover basic needs comfortably and have little money left over",
+            "value": "comfortable_basic"
+          },
+          {
+            "text": "We can afford most things we want with occasional extra expenses",
+            "value": "most_things"
+          },
+          {
+            "text": "We are financially very comfortable and can easily afford extra expenses",
+            "value": "very_comfortable"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which economic status do you think best describes your household?": "Which economic status do you think best describes your household?",
+          "#We struggle to cover basic needs": "We struggle to cover basic needs",
+          "#We can cover basic needs": "We can cover basic needs",
+          "#We can cover basic needs comfortably and have little money left over": "We can cover basic needs comfortably and have little money left over",
+          "#We can afford most things we want with occasional extra expenses": "We can afford most things we want with occasional extra expenses",
+          "#We are financially very comfortable and can easily afford extra expenses": "We are financially very comfortable and can easily afford extra expenses"
+        },
+        "it": {
+          "#Which economic status do you think best describes your household?": "Quale situazione economica descrive meglio il tuo nucleo familiare?",
+          "#We struggle to cover basic needs": "Abbiamo difficoltà a coprire le necessità di base",
+          "#We can cover basic needs": "Riusciamo a coprire le necessità di base",
+          "#We can cover basic needs comfortably and have little money left over": "Riusciamo a coprire comodamente le necessità di base e ci rimane una piccola somma",
+          "#We can afford most things we want with occasional extra expenses": "Possiamo permetterci la maggior parte delle cose che desideriamo e occasionalmente alcune spese extra",
+          "#We are financially very comfortable and can easily afford extra expenses": "Siamo in una situazione economica molto agiata e possiamo permetterci facilmente spese extra"
+        },
+        "fr": {
+          "#Which economic status do you think best describes your household?": "Quelle situation économique décrit le mieux votre foyer, selon vous ?",
+          "#We struggle to cover basic needs": "Nous avons du mal à couvrir nos besoins essentiels",
+          "#We can cover basic needs": "Nous pouvons couvrir nos besoins essentiels",
+          "#We can cover basic needs comfortably and have little money left over": "Nous couvrons facilement nos besoins essentiels, mais il nous reste peu d’argent",
+          "#We can afford most things we want with occasional extra expenses": "Nous pouvons nous permettre la plupart des choses que nous souhaitons, avec quelques dépenses supplémentaires occasionnelles",
+          "#We are financially very comfortable and can easily afford extra expenses": "Nous sommes très à l’aise financièrement et pouvons facilement faire face à des dépenses supplémentaires"
+        },
+        "de": {
+          "#Which economic status do you think best describes your household?": "Welche wirtschaftliche Situation beschreibt Ihren Haushalt Ihrer Meinung nach am besten?",
+          "#We struggle to cover basic needs": "Wir haben Schwierigkeiten, unsere grundlegenden Bedürfnisse zu bezahlen",
+          "#We can cover basic needs": "Wir können unsere grundlegenden Bedürfnisse bezahlen",
+          "#We can cover basic needs comfortably and have little money left over": "Wir können unsere grundlegenden Bedürfnisse gut bezahlen, aber es bleibt nur wenig Geld übrig",
+          "#We can afford most things we want with occasional extra expenses": "Wir können uns die meisten Dinge leisten, die wir möchten, und gelegentliche zusätzliche Ausgaben tragen",
+          "#We are financially very comfortable and can easily afford extra expenses": "Wir sind finanziell sehr gut aufgestellt und können zusätzliche Ausgaben problemlos tragen"
+        },
+        "tr": {
+          "#Which economic status do you think best describes your household?": "Sizce hanenizin ekonomik durumunu aşağıdakilerden hangisi en iyi tanımlar?",
+          "#We struggle to cover basic needs": "Temel ihtiyaçlarımızı karşılamakta zorlanıyoruz",
+          "#We can cover basic needs": "Temel ihtiyaçlarımızı karşılayabiliyoruz",
+          "#We can cover basic needs comfortably and have little money left over": "Temel ihtiyaçlarımızı rahatça karşılayabiliyoruz, ancak geriye çok az para kalıyor",
+          "#We can afford most things we want with occasional extra expenses": "İstediğimiz çoğu şeyi karşılayabiliyoruz ve ara sıra ek harcamalar yapabiliyoruz",
+          "#We are financially very comfortable and can easily afford extra expenses": "Maddi açıdan çok rahatız ve ek harcamaları kolayca karşılayabiliyoruz"
+        },
+        "fa": {
+          "#Which economic status do you think best describes your household?": "به نظر شما کدام گزینه وضعیت اقتصادی خانوارتان را بهتر توصیف می‌کند؟",
+          "#We struggle to cover basic needs": "برای تأمین نیازهای اولیه مشکل داریم",
+          "#We can cover basic needs": "می‌توانیم نیازهای اولیه را تأمین کنیم",
+          "#We can cover basic needs comfortably and have little money left over": "می‌توانیم نیازهای اولیه را به‌راحتی تأمین کنیم، اما پول کمی باقی می‌ماند",
+          "#We can afford most things we want with occasional extra expenses": "می‌توانیم بیشتر چیزهایی را که می‌خواهیم تهیه کنیم و گاهی هزینه‌های اضافی هم داشته باشیم",
+          "#We are financially very comfortable and can easily afford extra expenses": "از نظر مالی بسیار راحت هستیم و می‌توانیم هزینه‌های اضافی را به‌راحتی پرداخت کنیم"
+        },
+        "hu": {
+          "#Which economic status do you think best describes your household?": "Ön szerint melyik állítás írja le legjobban a háztartása anyagi helyzetét?",
+          "#We struggle to cover basic needs": "Nehézséget okoz az alapvető szükségletek fedezése",
+          "#We can cover basic needs": "Az alapvető szükségleteket fedezni tudjuk",
+          "#We can cover basic needs comfortably and have little money left over": "Az alapvető szükségleteket kényelmesen fedezzük, de kevés pénz marad",
+          "#We can afford most things we want with occasional extra expenses": "A legtöbb dolgot megengedhetjük magunknak, és időnként extra kiadásokat is vállalhatunk",
+          "#We are financially very comfortable and can easily afford extra expenses": "Anyagilag nagyon kényelmes helyzetben vagyunk, és az extra kiadásokat is könnyen fedezzük"
+        },
+        "ar": {
+          "#Which economic status do you think best describes your household?": "أي وصف يعبر بشكل أفضل عن الوضع الاقتصادي لأسرتك من وجهة نظرك؟",
+          "#We struggle to cover basic needs": "نواجه صعوبة في تغطية الاحتياجات الأساسية",
+          "#We can cover basic needs": "يمكننا تغطية الاحتياجات الأساسية",
+          "#We can cover basic needs comfortably and have little money left over": "يمكننا تغطية الاحتياجات الأساسية بسهولة، لكن لا يتبقى لدينا إلا القليل من المال",
+          "#We can afford most things we want with occasional extra expenses": "يمكننا تحمل تكلفة معظم الأشياء التي نريدها وبعض المصروفات الإضافية أحيانًا",
+          "#We are financially very comfortable and can easily afford extra expenses": "وضعنا المالي مريح جدًا ويمكننا تحمل المصروفات الإضافية بسهولة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    }
+  }
+}

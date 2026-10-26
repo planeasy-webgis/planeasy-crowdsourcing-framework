@@ -1,0 +1,274 @@
+{
+  "question_id": "smarturbanity.place_factors",
+  "project": "SmartUrbanity",
+  "key": "place_factors",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What influenced your answers most, for better or worse? (Up to 3)",
+        "answer_key": "place_factors",
+        "question_type": "multiple_options",
+        "max_answers": 3,
+        "add_other": true,
+        "other_input": {
+          "text": "What else influenced your answers?",
+          "answer_key": "place_factors_other",
+          "type": "text",
+          "required": true
+        },
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Nothing in particular",
+            "value": "none"
+          },
+          {
+            "text": "Lighting",
+            "value": "lighting"
+          },
+          {
+            "text": "Traffic speed or volume",
+            "value": "traffic"
+          },
+          {
+            "text": "Visibility between people and vehicles",
+            "value": "visibility"
+          },
+          {
+            "text": "Pavement or space to walk",
+            "value": "walking_space"
+          },
+          {
+            "text": "Obstacles on the pavement, such as parked cars or bins",
+            "value": "obstacles"
+          },
+          {
+            "text": "Potholes or a damaged surface",
+            "value": "surface"
+          },
+          {
+            "text": "Slopes, stairs or steps",
+            "value": "slopes_stairs"
+          },
+          {
+            "text": "Crossings",
+            "value": "crossings"
+          },
+          {
+            "text": "Roadworks",
+            "value": "roadworks"
+          },
+          {
+            "text": "Waiting for public transport",
+            "value": "pt_waiting"
+          },
+          {
+            "text": "Lack of benches or places to sit",
+            "value": "no_seating"
+          },
+          {
+            "text": "How many people are around (too few or too many)",
+            "value": "number_of_people"
+          },
+          {
+            "text": "How people behave",
+            "value": "behaviour"
+          },
+          {
+            "text": "Heat, shade or greenery",
+            "value": "shade_greenery"
+          },
+          {
+            "text": "Noise or polluted air",
+            "value": "noise_air"
+          },
+          {
+            "text": "Cleanliness and maintenance",
+            "value": "cleanliness"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What influenced your answers most, for better or worse? (Up to 3)": "What influenced your answers most, for better or worse? (Up to 3)",
+          "#What else influenced your answers?": "What else influenced your answers?",
+          "#Nothing in particular": "Nothing in particular",
+          "#Lighting": "Lighting",
+          "#Traffic speed or volume": "Traffic speed or volume",
+          "#Visibility between people and vehicles": "Visibility between people and vehicles",
+          "#Pavement or space to walk": "Pavement or space to walk",
+          "#Obstacles on the pavement, such as parked cars or bins": "Obstacles on the pavement, such as parked cars or bins",
+          "#Potholes or a damaged surface": "Potholes or a damaged surface",
+          "#Slopes, stairs or steps": "Slopes, stairs or steps",
+          "#Crossings": "Crossings",
+          "#Roadworks": "Roadworks",
+          "#Waiting for public transport": "Waiting for public transport",
+          "#Lack of benches or places to sit": "Lack of benches or places to sit",
+          "#How many people are around (too few or too many)": "How many people are around (too few or too many)",
+          "#How people behave": "How people behave",
+          "#Heat, shade or greenery": "Heat, shade or greenery",
+          "#Noise or polluted air": "Noise or polluted air",
+          "#Cleanliness and maintenance": "Cleanliness and maintenance"
+        },
+        "it": {
+          "#What influenced your answers most, for better or worse? (Up to 3)": "Cosa ha influito di più sulle tue risposte, in bene o in male? (Al massimo 3)",
+          "#What else influenced your answers?": "Cos'altro ha influito sulle tue risposte?",
+          "#Nothing in particular": "Niente di particolare",
+          "#Lighting": "Illuminazione",
+          "#Traffic speed or volume": "Velocità o quantità del traffico",
+          "#Visibility between people and vehicles": "Visibilità tra persone e veicoli",
+          "#Pavement or space to walk": "Marciapiede o spazio per camminare",
+          "#Obstacles on the pavement, such as parked cars or bins": "Ostacoli sul marciapiede, come auto parcheggiate o cassonetti",
+          "#Potholes or a damaged surface": "Buche o pavimentazione rovinata",
+          "#Slopes, stairs or steps": "Salite, scale o gradini",
+          "#Crossings": "Attraversamenti",
+          "#Roadworks": "Cantieri",
+          "#Waiting for public transport": "Attesa dei mezzi pubblici",
+          "#Lack of benches or places to sit": "Mancanza di panchine o posti a sedere",
+          "#How many people are around (too few or too many)": "Quante persone ci sono (troppo poche o troppe)",
+          "#How people behave": "Il comportamento delle persone",
+          "#Heat, shade or greenery": "Caldo, ombra o verde",
+          "#Noise or polluted air": "Rumore o aria inquinata",
+          "#Cleanliness and maintenance": "Pulizia e manutenzione"
+        },
+        "fr": {
+          "#What influenced your answers most, for better or worse? (Up to 3)": "Qu’est-ce qui a le plus influencé vos réponses, en bien ou en mal ? (3 au maximum)",
+          "#What else influenced your answers?": "Qu’est-ce qui a influencé d’autre vos réponses ?",
+          "#Nothing in particular": "Rien de particulier",
+          "#Lighting": "Éclairage",
+          "#Traffic speed or volume": "Vitesse ou volume de la circulation",
+          "#Visibility between people and vehicles": "Visibilité entre les personnes et les véhicules",
+          "#Pavement or space to walk": "Trottoir ou espace pour marcher",
+          "#Obstacles on the pavement, such as parked cars or bins": "Obstacles sur le trottoir, comme des voitures garées ou des poubelles",
+          "#Potholes or a damaged surface": "Nids-de-poule ou revêtement abîmé",
+          "#Slopes, stairs or steps": "Pentes, escaliers ou marches",
+          "#Crossings": "Passages piétons",
+          "#Roadworks": "Travaux",
+          "#Waiting for public transport": "Attente des transports en commun",
+          "#Lack of benches or places to sit": "Manque de bancs ou d’endroits pour s’asseoir",
+          "#How many people are around (too few or too many)": "Le nombre de personnes (trop peu ou trop)",
+          "#How people behave": "Le comportement des gens",
+          "#Heat, shade or greenery": "Chaleur, ombre ou verdure",
+          "#Noise or polluted air": "Bruit ou air pollué",
+          "#Cleanliness and maintenance": "Propreté et entretien"
+        },
+        "de": {
+          "#What influenced your answers most, for better or worse? (Up to 3)": "Was hat Ihre Antworten am meisten beeinflusst, im Guten wie im Schlechten? (Bis zu 3)",
+          "#What else influenced your answers?": "Was hat Ihre Antworten sonst noch beeinflusst?",
+          "#Nothing in particular": "Nichts Bestimmtes",
+          "#Lighting": "Beleuchtung",
+          "#Traffic speed or volume": "Geschwindigkeit oder Menge des Verkehrs",
+          "#Visibility between people and vehicles": "Sicht zwischen Menschen und Fahrzeugen",
+          "#Pavement or space to walk": "Gehweg oder Platz zum Gehen",
+          "#Obstacles on the pavement, such as parked cars or bins": "Hindernisse auf dem Gehweg, zum Beispiel parkende Autos oder Mülltonnen",
+          "#Potholes or a damaged surface": "Schlaglöcher oder beschädigter Belag",
+          "#Slopes, stairs or steps": "Steigungen, Treppen oder Stufen",
+          "#Crossings": "Querungen",
+          "#Roadworks": "Baustellen",
+          "#Waiting for public transport": "Warten auf öffentliche Verkehrsmittel",
+          "#Lack of benches or places to sit": "Fehlende Bänke oder Sitzgelegenheiten",
+          "#How many people are around (too few or too many)": "Wie viele Menschen da sind (zu wenige oder zu viele)",
+          "#How people behave": "Das Verhalten der Menschen",
+          "#Heat, shade or greenery": "Hitze, Schatten oder Grün",
+          "#Noise or polluted air": "Lärm oder schlechte Luft",
+          "#Cleanliness and maintenance": "Sauberkeit und Instandhaltung"
+        },
+        "tr": {
+          "#What influenced your answers most, for better or worse? (Up to 3)": "Yanıtlarınızı iyi ya da kötü yönde en çok ne etkiledi? (En fazla 3)",
+          "#What else influenced your answers?": "Yanıtlarınızı başka ne etkiledi?",
+          "#Nothing in particular": "Özel bir şey yok",
+          "#Lighting": "Aydınlatma",
+          "#Traffic speed or volume": "Trafiğin hızı veya yoğunluğu",
+          "#Visibility between people and vehicles": "İnsanlar ile araçlar arasındaki görünürlük",
+          "#Pavement or space to walk": "Kaldırım veya yürüme alanı",
+          "#Obstacles on the pavement, such as parked cars or bins": "Kaldırımdaki engeller, örneğin park etmiş arabalar veya çöp konteynerleri",
+          "#Potholes or a damaged surface": "Çukurlar veya bozuk zemin",
+          "#Slopes, stairs or steps": "Yokuşlar, merdivenler veya basamaklar",
+          "#Crossings": "Geçitler",
+          "#Roadworks": "Yol çalışmaları",
+          "#Waiting for public transport": "Toplu taşıma beklemek",
+          "#Lack of benches or places to sit": "Bank veya oturacak yer eksikliği",
+          "#How many people are around (too few or too many)": "Etraftaki insan sayısı (çok az veya çok fazla)",
+          "#How people behave": "İnsanların davranışları",
+          "#Heat, shade or greenery": "Sıcak, gölge veya yeşillik",
+          "#Noise or polluted air": "Gürültü veya kirli hava",
+          "#Cleanliness and maintenance": "Temizlik ve bakım"
+        },
+        "fa": {
+          "#What influenced your answers most, for better or worse? (Up to 3)": "چه چیزی بیش از همه بر پاسخ‌های شما اثر گذاشت، چه مثبت چه منفی؟ (حداکثر ۳ مورد)",
+          "#What else influenced your answers?": "چه چیز دیگری بر پاسخ‌هایتان اثر گذاشت؟",
+          "#Nothing in particular": "هیچ مورد خاصی",
+          "#Lighting": "روشنایی",
+          "#Traffic speed or volume": "سرعت یا حجم ترافیک",
+          "#Visibility between people and vehicles": "دیده‌شدن متقابل افراد و وسایل نقلیه",
+          "#Pavement or space to walk": "پیاده‌رو یا فضای پیاده‌روی",
+          "#Obstacles on the pavement, such as parked cars or bins": "موانع روی پیاده‌رو، مانند خودروهای پارک‌شده یا سطل‌های زباله",
+          "#Potholes or a damaged surface": "چاله یا سطح آسیب‌دیده",
+          "#Slopes, stairs or steps": "شیب‌ها، پلکان یا پله‌ها",
+          "#Crossings": "گذرگاه‌ها",
+          "#Roadworks": "کارهای عمرانی",
+          "#Waiting for public transport": "انتظار برای حمل‌ونقل عمومی",
+          "#Lack of benches or places to sit": "نبود نیمکت یا جای نشستن",
+          "#How many people are around (too few or too many)": "تعداد افراد در اطراف (خیلی کم یا خیلی زیاد)",
+          "#How people behave": "رفتار مردم",
+          "#Heat, shade or greenery": "گرما، سایه یا فضای سبز",
+          "#Noise or polluted air": "سروصدا یا هوای آلوده",
+          "#Cleanliness and maintenance": "نظافت و نگهداری"
+        },
+        "hu": {
+          "#What influenced your answers most, for better or worse? (Up to 3)": "Mi befolyásolta leginkább a válaszait, akár jó, akár rossz irányban? (Legfeljebb 3)",
+          "#What else influenced your answers?": "Mi más befolyásolta még a válaszait?",
+          "#Nothing in particular": "Semmi különös",
+          "#Lighting": "Világítás",
+          "#Traffic speed or volume": "A forgalom sebessége vagy mennyisége",
+          "#Visibility between people and vehicles": "Láthatóság az emberek és a járművek között",
+          "#Pavement or space to walk": "Járda vagy gyalogos tér",
+          "#Obstacles on the pavement, such as parked cars or bins": "Akadályok a járdán, például parkoló autók vagy kukák",
+          "#Potholes or a damaged surface": "Kátyúk vagy sérült burkolat",
+          "#Slopes, stairs or steps": "Emelkedők, lépcsők vagy lépcsőfokok",
+          "#Crossings": "Átkelőhelyek",
+          "#Roadworks": "Útépítés, építkezés",
+          "#Waiting for public transport": "Várakozás a tömegközlekedésre",
+          "#Lack of benches or places to sit": "Padok vagy ülőhelyek hiánya",
+          "#How many people are around (too few or too many)": "Hány ember van a környéken (túl kevés vagy túl sok)",
+          "#How people behave": "Az emberek viselkedése",
+          "#Heat, shade or greenery": "Hőség, árnyék vagy zöldfelület",
+          "#Noise or polluted air": "Zaj vagy szennyezett levegő",
+          "#Cleanliness and maintenance": "Tisztaság és karbantartás"
+        },
+        "ar": {
+          "#What influenced your answers most, for better or worse? (Up to 3)": "ما الذي أثّر في إجاباتك أكثر من غيره، سلبًا أو إيجابًا؟ (3 على الأكثر)",
+          "#What else influenced your answers?": "ما الذي أثّر أيضًا في إجاباتك؟",
+          "#Nothing in particular": "لا شيء بعينه",
+          "#Lighting": "الإضاءة",
+          "#Traffic speed or volume": "سرعة حركة المرور أو كثافتها",
+          "#Visibility between people and vehicles": "الرؤية بين الأشخاص والمركبات",
+          "#Pavement or space to walk": "الرصيف أو مساحة المشي",
+          "#Obstacles on the pavement, such as parked cars or bins": "عوائق على الرصيف، مثل السيارات المركونة أو حاويات القمامة",
+          "#Potholes or a damaged surface": "حُفر أو سطح متضرر",
+          "#Slopes, stairs or steps": "منحدرات أو سلالم أو درجات",
+          "#Crossings": "المعابر",
+          "#Roadworks": "أعمال الطرق",
+          "#Waiting for public transport": "انتظار وسائل النقل العام",
+          "#Lack of benches or places to sit": "نقص المقاعد أو أماكن الجلوس",
+          "#How many people are around (too few or too many)": "عدد الناس حولك (قليل جدًا أو كثير جدًا)",
+          "#How people behave": "سلوك الناس",
+          "#Heat, shade or greenery": "الحرارة أو الظل أو المساحات الخضراء",
+          "#Noise or polluted air": "الضوضاء أو الهواء الملوث",
+          "#Cleanliness and maintenance": "النظافة والصيانة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "question_id": "smarturbanity.vehicle_ease",
+  "project": "SmartUrbanity",
+  "key": "vehicle_ease",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_daily_travel"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "If any vehicle is available in your household, how easy is it for you to use it when needed?",
+        "answer_key": "vehicle_ease",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very difficult (rarely available)",
+            "value": "very_difficult"
+          },
+          {
+            "text": "Difficult (often unavailable or shared)",
+            "value": "difficult"
+          },
+          {
+            "text": "Neither easy nor difficult",
+            "value": "neutral"
+          },
+          {
+            "text": "Easy (usually available)",
+            "value": "easy"
+          },
+          {
+            "text": "Very easy (almost always available)",
+            "value": "very_easy"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#If any vehicle is available in your household, how easy is it for you to use it when needed?": "If any vehicle is available in your household, how easy is it for you to use it when needed?",
+          "#Very difficult (rarely available)": "Very difficult (rarely available)",
+          "#Difficult (often unavailable or shared)": "Difficult (often unavailable or shared)",
+          "#Neither easy nor difficult": "Neither easy nor difficult",
+          "#Easy (usually available)": "Easy (usually available)",
+          "#Very easy (almost always available)": "Very easy (almost always available)"
+        },
+        "it": {
+          "#If any vehicle is available in your household, how easy is it for you to use it when needed?": "Se nel tuo nucleo familiare è disponibile un veicolo, quanto è facile per te utilizzarlo quando ne hai bisogno?",
+          "#Very difficult (rarely available)": "Molto difficile (raramente disponibile)",
+          "#Difficult (often unavailable or shared)": "Difficile (spesso non disponibile o condiviso)",
+          "#Neither easy nor difficult": "Né facile né difficile",
+          "#Easy (usually available)": "Facile (solitamente disponibile)",
+          "#Very easy (almost always available)": "Molto facile (quasi sempre disponibile)"
+        },
+        "fr": {
+          "#If any vehicle is available in your household, how easy is it for you to use it when needed?": "Si un véhicule est disponible dans votre foyer, est-il facile pour vous de l’utiliser lorsque vous en avez besoin ?",
+          "#Very difficult (rarely available)": "Très difficile (rarement disponible)",
+          "#Difficult (often unavailable or shared)": "Difficile (souvent indisponible ou partagé)",
+          "#Neither easy nor difficult": "Ni facile ni difficile",
+          "#Easy (usually available)": "Facile (généralement disponible)",
+          "#Very easy (almost always available)": "Très facile (presque toujours disponible)"
+        },
+        "de": {
+          "#If any vehicle is available in your household, how easy is it for you to use it when needed?": "Wenn in Ihrem Haushalt ein Fahrzeug verfügbar ist: Wie leicht können Sie es nutzen, wenn Sie es brauchen?",
+          "#Very difficult (rarely available)": "Sehr schwierig (selten verfügbar)",
+          "#Difficult (often unavailable or shared)": "Schwierig (oft nicht verfügbar oder wird geteilt)",
+          "#Neither easy nor difficult": "Weder leicht noch schwierig",
+          "#Easy (usually available)": "Leicht (meist verfügbar)",
+          "#Very easy (almost always available)": "Sehr leicht (fast immer verfügbar)"
+        },
+        "tr": {
+          "#If any vehicle is available in your household, how easy is it for you to use it when needed?": "Hanenizde herhangi bir araç varsa, ihtiyaç duyduğunuzda onu kullanmanız ne kadar kolay?",
+          "#Very difficult (rarely available)": "Çok zor (nadiren kullanılabilir)",
+          "#Difficult (often unavailable or shared)": "Zor (sık sık kullanılamıyor veya başkalarıyla paylaşılıyor)",
+          "#Neither easy nor difficult": "Ne kolay ne zor",
+          "#Easy (usually available)": "Kolay (genellikle kullanılabilir)",
+          "#Very easy (almost always available)": "Çok kolay (neredeyse her zaman kullanılabilir)"
+        },
+        "fa": {
+          "#If any vehicle is available in your household, how easy is it for you to use it when needed?": "اگر وسیله‌ای در خانوار شما وجود دارد، وقتی به آن نیاز دارید استفاده از آن چقدر آسان است؟",
+          "#Very difficult (rarely available)": "بسیار دشوار (به ندرت در دسترس است)",
+          "#Difficult (often unavailable or shared)": "دشوار (اغلب در دسترس نیست یا مشترک است)",
+          "#Neither easy nor difficult": "نه آسان و نه دشوار",
+          "#Easy (usually available)": "آسان (معمولاً در دسترس است)",
+          "#Very easy (almost always available)": "بسیار آسان (تقریباً همیشه در دسترس است)"
+        },
+        "hu": {
+          "#If any vehicle is available in your household, how easy is it for you to use it when needed?": "Ha van jármű a háztartásában, mennyire könnyű használnia, amikor szüksége van rá?",
+          "#Very difficult (rarely available)": "Nagyon nehéz (ritkán elérhető)",
+          "#Difficult (often unavailable or shared)": "Nehéz (gyakran nem elérhető vagy meg kell osztani)",
+          "#Neither easy nor difficult": "Sem könnyű, sem nehéz",
+          "#Easy (usually available)": "Könnyű (általában elérhető)",
+          "#Very easy (almost always available)": "Nagyon könnyű (szinte mindig elérhető)"
+        },
+        "ar": {
+          "#If any vehicle is available in your household, how easy is it for you to use it when needed?": "إذا كانت هناك مركبة متاحة في أسرتك، فما مدى سهولة استخدامها عندما تحتاج إليها؟",
+          "#Very difficult (rarely available)": "صعب جدًا (نادراً ما تكون متاحة)",
+          "#Difficult (often unavailable or shared)": "صعب (غالبًا غير متاحة أو مشتركة مع شخص آخر)",
+          "#Neither easy nor difficult": "ليس سهلًا ولا صعبًا",
+          "#Easy (usually available)": "سهل (متاحة عادةً)",
+          "#Very easy (almost always available)": "سهل جدًا (متاحة تقريبًا دائمًا)"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_daily_travel"
+      ]
+    }
+  }
+}

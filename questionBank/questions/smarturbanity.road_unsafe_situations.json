@@ -1,0 +1,162 @@
+{
+  "question_id": "smarturbanity.road_unsafe_situations",
+  "project": "SmartUrbanity",
+  "key": "road_unsafe_situations",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_safety_environment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_safety_environment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which of the following situations on a trip do you consider unsafe?",
+        "answer_key": "road_unsafe_situations",
+        "question_type": "multiple_options",
+        "options": [
+          {
+            "text": "Heavy or fast-moving traffic",
+            "value": "heavy_or_fast_moving_traffic"
+          },
+          {
+            "text": "Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)",
+            "value": "lack_of_safe_or_adequate_infrastructure"
+          },
+          {
+            "text": "Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)",
+            "value": "poor_road_or_pathway_conditions_e_g_poth"
+          },
+          {
+            "text": "Poor visibility or limited sightlines",
+            "value": "poor_visibility_or_limited_sightlines"
+          },
+          {
+            "text": "Unsafe behavior from drivers, riders, or pedestrians",
+            "value": "unsafe_behavior_from_drivers_riders_or_p"
+          },
+          {
+            "text": "Crowding or conflicts with other road users",
+            "value": "crowding_or_conflicts_with_other_road_us"
+          },
+          {
+            "text": "Absence of emergency services",
+            "value": "absence_of_emergency_services"
+          },
+          {
+            "text": "I don't feel unsafe at all",
+            "value": "i_don_t_feel_unsafe_at_all"
+          }
+        ],
+        "max_answers": 3,
+        "add_other": true,
+        "legacy_answer_keys": [
+          "road_unsafe_situations_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which of the following situations on a trip do you consider unsafe?": "Which of the following situations on a trip do you consider unsafe?",
+          "#Heavy or fast-moving traffic": "Heavy or fast-moving traffic",
+          "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)",
+          "#Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)": "Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)",
+          "#Poor visibility or limited sightlines": "Poor visibility or limited sightlines",
+          "#Unsafe behavior from drivers, riders, or pedestrians": "Unsafe behavior from drivers, riders, or pedestrians",
+          "#Crowding or conflicts with other road users": "Crowding or conflicts with other road users",
+          "#Absence of emergency services": "Absence of emergency services",
+          "#I don't feel unsafe at all": "I don't feel unsafe at all",
+          "#Other": "Other"
+        },
+        "it": {
+          "#Which of the following situations on a trip do you consider unsafe?": "Quali delle seguenti situazioni durante uno spostamento consideri pericolose?",
+          "#Heavy or fast-moving traffic": "Traffico intenso o ad alta velocità",
+          "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Mancanza di infrastrutture sicure o adeguate (ad es. marciapiedi, attraversamenti, piste ciclabili, illuminazione)",
+          "#Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)": "Cattive condizioni della strada o dei percorsi (ad es. buche, detriti, superfici irregolari)",
+          "#Poor visibility or limited sightlines": "Scarsa visibilità o visuale limitata",
+          "#Unsafe behavior from drivers, riders, or pedestrians": "Comportamenti pericolosi di automobilisti, conducenti di altri veicoli o pedoni",
+          "#Crowding or conflicts with other road users": "Affollamento o conflitti con altri utenti della strada",
+          "#Absence of emergency services": "Assenza di servizi di emergenza",
+          "#I don't feel unsafe at all": "Non mi sento affatto in pericolo",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#Which of the following situations on a trip do you consider unsafe?": "Parmi les situations suivantes, lesquelles vous semblent dangereuses pendant un déplacement ?",
+          "#Heavy or fast-moving traffic": "Trafic dense ou véhicules roulant vite",
+          "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Manque d’infrastructures sûres ou adaptées (par ex. trottoirs, traversées, pistes cyclables, éclairage)",
+          "#Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)": "Routes ou chemins en mauvais état (par ex. nids-de-poule, débris, surfaces irrégulières)",
+          "#Poor visibility or limited sightlines": "Mauvaise visibilité ou champ de vision limité",
+          "#Unsafe behavior from drivers, riders, or pedestrians": "Comportement dangereux de conducteurs, cyclistes, usagers de deux-roues ou piétons",
+          "#Crowding or conflicts with other road users": "Forte affluence ou conflits avec d’autres usagers de la route",
+          "#Absence of emergency services": "Absence de services d’urgence",
+          "#I don't feel unsafe at all": "Je ne me sens jamais en danger",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#Which of the following situations on a trip do you consider unsafe?": "Welche der folgenden Situationen empfinden Sie während eines Weges als unsicher?",
+          "#Heavy or fast-moving traffic": "Starker oder schnell fahrender Verkehr",
+          "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Fehlende sichere oder geeignete Infrastruktur (z. B. Gehwege, Querungen, Radwege, Beleuchtung)",
+          "#Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)": "Schlechter Zustand von Straßen oder Wegen (z. B. Schlaglöcher, Schmutz, unebene Flächen)",
+          "#Poor visibility or limited sightlines": "Schlechte Sicht oder eingeschränkte Sichtweite",
+          "#Unsafe behavior from drivers, riders, or pedestrians": "Gefährliches Verhalten von Autofahrern, Zweiradfahrern oder Fußgängern",
+          "#Crowding or conflicts with other road users": "Überfüllung oder Konflikte mit anderen Verkehrsteilnehmenden",
+          "#Absence of emergency services": "Fehlende Notfalldienste",
+          "#I don't feel unsafe at all": "Ich fühle mich überhaupt nicht gefährdet",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#Which of the following situations on a trip do you consider unsafe?": "Aşağıdaki durumlardan hangilerini yolculuk sırasında tehlikeli buluyorsunuz?",
+          "#Heavy or fast-moving traffic": "Yoğun veya hızlı akan trafik",
+          "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Güvenli veya yeterli altyapının olmaması (ör. kaldırımlar, geçişler, bisiklet yolları, aydınlatma)",
+          "#Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)": "Yol veya patikaların kötü durumda olması (ör. çukurlar, moloz, düzensiz yüzeyler)",
+          "#Poor visibility or limited sightlines": "Kötü görüş veya sınırlı görüş mesafesi",
+          "#Unsafe behavior from drivers, riders, or pedestrians": "Sürücülerin, iki tekerlekli araç kullanıcılarının veya yayaların tehlikeli davranışları",
+          "#Crowding or conflicts with other road users": "Kalabalık veya diğer yol kullanıcılarıyla çatışma",
+          "#Absence of emergency services": "Acil durum hizmetlerinin olmaması",
+          "#I don't feel unsafe at all": "Kendimi hiç tehlikede hissetmiyorum",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#Which of the following situations on a trip do you consider unsafe?": "کدام یک از موقعیت‌های زیر را در طول سفر خطرناک می‌دانید؟",
+          "#Heavy or fast-moving traffic": "ترافیک سنگین یا خودروهای پرسرعت",
+          "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "نبود زیرساخت ایمن یا مناسب (مثلاً پیاده‌رو، گذرگاه، مسیر دوچرخه، روشنایی)",
+          "#Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)": "وضعیت نامناسب خیابان یا مسیر (مثلاً چاله، زباله، سطح ناهموار)",
+          "#Poor visibility or limited sightlines": "دید ضعیف یا میدان دید محدود",
+          "#Unsafe behavior from drivers, riders, or pedestrians": "رفتار خطرناک رانندگان، موتورسواران، دوچرخه‌سواران یا عابران",
+          "#Crowding or conflicts with other road users": "شلوغی یا برخورد و تعارض با سایر کاربران راه",
+          "#Absence of emergency services": "نبود خدمات امدادی",
+          "#I don't feel unsafe at all": "اصلاً احساس خطر نمی‌کنم",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#Which of the following situations on a trip do you consider unsafe?": "Az alábbi helyzetek közül melyeket tartja veszélyesnek utazás közben?",
+          "#Heavy or fast-moving traffic": "Erős vagy gyors forgalom",
+          "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Biztonságos vagy megfelelő infrastruktúra hiánya (pl. járdák, átkelőhelyek, kerékpárutak, világítás)",
+          "#Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)": "Rossz út- vagy járdaviszonyok (pl. kátyúk, törmelék, egyenetlen felületek)",
+          "#Poor visibility or limited sightlines": "Rossz látási viszonyok vagy korlátozott beláthatóság",
+          "#Unsafe behavior from drivers, riders, or pedestrians": "Járművezetők, kétkerekű járművek használói vagy gyalogosok veszélyes viselkedése",
+          "#Crowding or conflicts with other road users": "Zsúfoltság vagy konfliktus más közlekedőkkel",
+          "#Absence of emergency services": "Sürgősségi szolgáltatások hiánya",
+          "#I don't feel unsafe at all": "Egyáltalán nem érzem magam veszélyben",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#Which of the following situations on a trip do you consider unsafe?": "أي من المواقف التالية تعتبره غير آمن أثناء التنقل؟",
+          "#Heavy or fast-moving traffic": "حركة مرور كثيفة أو سريعة",
+          "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "غياب بنية تحتية آمنة أو مناسبة (مثل الأرصفة، المعابر، مسارات الدراجات، الإضاءة)",
+          "#Poor road or pathway conditions (e.g. potholes, debris, uneven surfaces)": "سوء حالة الطريق أو المسار (مثل الحفر أو المخلفات أو الأسطح غير المستوية)",
+          "#Poor visibility or limited sightlines": "ضعف الرؤية أو محدودية مجال النظر",
+          "#Unsafe behavior from drivers, riders, or pedestrians": "سلوك خطير من السائقين أو مستخدمي المركبات ذات العجلتين أو المشاة",
+          "#Crowding or conflicts with other road users": "الازدحام أو التعارض مع مستخدمي الطريق الآخرين",
+          "#Absence of emergency services": "غياب خدمات الطوارئ",
+          "#I don't feel unsafe at all": "لا أشعر بالخطر إطلاقًا",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_safety_environment"
+      ]
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "question_id": "smarturbanity.place_improvements",
+  "project": "SmartUrbanity",
+  "key": "place_improvements",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What would improve this place most? (Up to 3)",
+        "answer_key": "place_improvements",
+        "question_type": "multiple_options",
+        "max_answers": 3,
+        "add_other": true,
+        "other_input": {
+          "text": "What else would improve this place?",
+          "answer_key": "place_improvements_other",
+          "type": "text",
+          "required": true
+        },
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Nothing, it's fine",
+            "value": "nothing"
+          },
+          {
+            "text": "Better lighting",
+            "value": "lighting"
+          },
+          {
+            "text": "A safer crossing",
+            "value": "safer_crossing"
+          },
+          {
+            "text": "More green time to cross at traffic lights",
+            "value": "longer_green"
+          },
+          {
+            "text": "Slower traffic",
+            "value": "slower_traffic"
+          },
+          {
+            "text": "A wider or clearer pavement",
+            "value": "free_pavement"
+          },
+          {
+            "text": "Repairing potholes and the road surface",
+            "value": "repair_surface"
+          },
+          {
+            "text": "Ramps or fewer steps",
+            "value": "ramps"
+          },
+          {
+            "text": "Reopening closed stairs or passages",
+            "value": "reopen_passages"
+          },
+          {
+            "text": "A better stop or better public transport",
+            "value": "better_pt"
+          },
+          {
+            "text": "Trees or shade",
+            "value": "trees_shade"
+          },
+          {
+            "text": "Benches",
+            "value": "benches"
+          },
+          {
+            "text": "More cleaning and maintenance",
+            "value": "cleaning"
+          },
+          {
+            "text": "More people around or more supervision",
+            "value": "more_presence"
+          },
+          {
+            "text": "More shops or activities",
+            "value": "activities"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What would improve this place most? (Up to 3)": "What would improve this place most? (Up to 3)",
+          "#What else would improve this place?": "What else would improve this place?",
+          "#Nothing, it's fine": "Nothing, it's fine",
+          "#Better lighting": "Better lighting",
+          "#A safer crossing": "A safer crossing",
+          "#More green time to cross at traffic lights": "More green time to cross at traffic lights",
+          "#Slower traffic": "Slower traffic",
+          "#A wider or clearer pavement": "A wider or clearer pavement",
+          "#Repairing potholes and the road surface": "Repairing potholes and the road surface",
+          "#Ramps or fewer steps": "Ramps or fewer steps",
+          "#Reopening closed stairs or passages": "Reopening closed stairs or passages",
+          "#A better stop or better public transport": "A better stop or better public transport",
+          "#Trees or shade": "Trees or shade",
+          "#Benches": "Benches",
+          "#More cleaning and maintenance": "More cleaning and maintenance",
+          "#More people around or more supervision": "More people around or more supervision",
+          "#More shops or activities": "More shops or activities"
+        },
+        "it": {
+          "#What would improve this place most? (Up to 3)": "Cosa migliorerebbe di più questo luogo? (Al massimo 3)",
+          "#What else would improve this place?": "Cos'altro migliorerebbe questo luogo?",
+          "#Nothing, it's fine": "Niente, va bene così",
+          "#Better lighting": "Illuminazione migliore",
+          "#A safer crossing": "Un attraversamento più sicuro",
+          "#More green time to cross at traffic lights": "Più tempo di verde per attraversare al semaforo",
+          "#Slower traffic": "Traffico più lento",
+          "#A wider or clearer pavement": "Un marciapiede più largo o più libero",
+          "#Repairing potholes and the road surface": "Riparare buche e pavimentazione",
+          "#Ramps or fewer steps": "Rampe o meno gradini",
+          "#Reopening closed stairs or passages": "Riaprire scale o passaggi chiusi",
+          "#A better stop or better public transport": "Una fermata o mezzi pubblici migliori",
+          "#Trees or shade": "Alberi o ombra",
+          "#Benches": "Panchine",
+          "#More cleaning and maintenance": "Più pulizia e manutenzione",
+          "#More people around or more supervision": "Più presenza di persone o di controllo",
+          "#More shops or activities": "Più negozi o attività"
+        },
+        "fr": {
+          "#What would improve this place most? (Up to 3)": "Qu’est-ce qui améliorerait le plus cet endroit ? (Jusqu’à 3)",
+          "#What else would improve this place?": "Qu’est-ce qui améliorerait encore ce lieu ?",
+          "#Nothing, it's fine": "Rien, c’est bien ainsi",
+          "#Better lighting": "Meilleur éclairage",
+          "#A safer crossing": "Un passage piéton plus sûr",
+          "#More green time to cross at traffic lights": "Plus de temps au vert pour traverser aux feux",
+          "#Slower traffic": "Une circulation plus lente",
+          "#A wider or clearer pavement": "Un trottoir plus large ou plus dégagé",
+          "#Repairing potholes and the road surface": "Réparer les nids-de-poule et le revêtement",
+          "#Ramps or fewer steps": "Des rampes ou moins de marches",
+          "#Reopening closed stairs or passages": "Rouvrir des escaliers ou passages fermés",
+          "#A better stop or better public transport": "Un meilleur arrêt ou de meilleurs transports en commun",
+          "#Trees or shade": "Des arbres ou de l’ombre",
+          "#Benches": "Des bancs",
+          "#More cleaning and maintenance": "Plus de nettoyage et d’entretien",
+          "#More people around or more supervision": "Plus de monde ou plus de surveillance",
+          "#More shops or activities": "Plus de commerces ou d’activités"
+        },
+        "de": {
+          "#What would improve this place most? (Up to 3)": "Was würde diesen Ort am meisten verbessern? (Bis zu 3)",
+          "#What else would improve this place?": "Was würde diesen Ort sonst noch verbessern?",
+          "#Nothing, it's fine": "Nichts, es ist gut so",
+          "#Better lighting": "Bessere Beleuchtung",
+          "#A safer crossing": "Eine sicherere Querung",
+          "#More green time to cross at traffic lights": "Längere Grünphase zum Überqueren an der Ampel",
+          "#Slower traffic": "Langsamerer Verkehr",
+          "#A wider or clearer pavement": "Ein breiterer oder freierer Gehweg",
+          "#Repairing potholes and the road surface": "Schlaglöcher und Belag reparieren",
+          "#Ramps or fewer steps": "Rampen oder weniger Stufen",
+          "#Reopening closed stairs or passages": "Gesperrte Treppen oder Durchgänge wieder öffnen",
+          "#A better stop or better public transport": "Eine bessere Haltestelle oder besserer öffentlicher Verkehr",
+          "#Trees or shade": "Bäume oder Schatten",
+          "#Benches": "Bänke",
+          "#More cleaning and maintenance": "Mehr Reinigung und Wartung",
+          "#More people around or more supervision": "Mehr Menschen vor Ort oder mehr Aufsicht",
+          "#More shops or activities": "Mehr Geschäfte oder Aktivitäten"
+        },
+        "tr": {
+          "#What would improve this place most? (Up to 3)": "Bu yeri en çok ne iyileştirirdi? (En fazla 3)",
+          "#What else would improve this place?": "Bu yeri başka ne iyileştirir?",
+          "#Nothing, it's fine": "Hiçbir şey, böyle iyi",
+          "#Better lighting": "Daha iyi aydınlatma",
+          "#A safer crossing": "Daha güvenli bir geçit",
+          "#More green time to cross at traffic lights": "Trafik ışıklarında karşıya geçmek için daha uzun yeşil süre",
+          "#Slower traffic": "Daha yavaş trafik",
+          "#A wider or clearer pavement": "Daha geniş veya daha açık bir kaldırım",
+          "#Repairing potholes and the road surface": "Çukurları ve yol yüzeyini onarmak",
+          "#Ramps or fewer steps": "Rampalar veya daha az basamak",
+          "#Reopening closed stairs or passages": "Kapalı merdivenleri veya geçitleri yeniden açmak",
+          "#A better stop or better public transport": "Daha iyi bir durak veya daha iyi toplu taşıma",
+          "#Trees or shade": "Ağaçlar veya gölge",
+          "#Benches": "Banklar",
+          "#More cleaning and maintenance": "Daha fazla temizlik ve bakım",
+          "#More people around or more supervision": "Daha fazla insan veya daha fazla gözetim",
+          "#More shops or activities": "Daha fazla dükkân veya etkinlik"
+        },
+        "fa": {
+          "#What would improve this place most? (Up to 3)": "چه چیزی این مکان را بیش از همه بهتر می‌کند؟ (حداکثر ۳ مورد)",
+          "#What else would improve this place?": "چه چیز دیگری این مکان را بهتر می‌کند؟",
+          "#Nothing, it's fine": "هیچ‌چیز، همین‌طور خوب است",
+          "#Better lighting": "روشنایی بهتر",
+          "#A safer crossing": "گذرگاه امن‌تر",
+          "#More green time to cross at traffic lights": "زمان سبز بیشتر برای عبور در چراغ راهنمایی",
+          "#Slower traffic": "ترافیک کندتر",
+          "#A wider or clearer pavement": "پیاده‌رو پهن‌تر یا بازتر",
+          "#Repairing potholes and the road surface": "تعمیر چاله‌ها و سطح معبر",
+          "#Ramps or fewer steps": "رمپ یا پله‌های کمتر",
+          "#Reopening closed stairs or passages": "بازگشایی پله‌ها یا گذرگاه‌های بسته",
+          "#A better stop or better public transport": "ایستگاه بهتر یا حمل‌ونقل عمومی بهتر",
+          "#Trees or shade": "درختان یا سایه",
+          "#Benches": "نیمکت",
+          "#More cleaning and maintenance": "نظافت و نگهداری بیشتر",
+          "#More people around or more supervision": "حضور افراد بیشتر یا نظارت بیشتر",
+          "#More shops or activities": "مغازه‌ها یا فعالیت‌های بیشتر"
+        },
+        "hu": {
+          "#What would improve this place most? (Up to 3)": "Mi javítana leginkább ezen a helyen? (Legfeljebb 3)",
+          "#What else would improve this place?": "Mi más tenné jobbá ezt a helyet?",
+          "#Nothing, it's fine": "Semmi, így jó",
+          "#Better lighting": "Jobb világítás",
+          "#A safer crossing": "Biztonságosabb átkelő",
+          "#More green time to cross at traffic lights": "Hosszabb zöld a gyalogos átkeléshez a lámpánál",
+          "#Slower traffic": "Lassabb forgalom",
+          "#A wider or clearer pavement": "Szélesebb vagy szabadabb járda",
+          "#Repairing potholes and the road surface": "A kátyúk és a burkolat javítása",
+          "#Ramps or fewer steps": "Rámpák vagy kevesebb lépcső",
+          "#Reopening closed stairs or passages": "Lezárt lépcsők vagy átjárók újranyitása",
+          "#A better stop or better public transport": "Jobb megálló vagy jobb tömegközlekedés",
+          "#Trees or shade": "Fák vagy árnyék",
+          "#Benches": "Padok",
+          "#More cleaning and maintenance": "Több takarítás és karbantartás",
+          "#More people around or more supervision": "Több ember vagy több felügyelet",
+          "#More shops or activities": "Több üzlet vagy tevékenység"
+        },
+        "ar": {
+          "#What would improve this place most? (Up to 3)": "ما الذي يحسّن هذا المكان أكثر من غيره؟ (حتى 3 خيارات)",
+          "#What else would improve this place?": "ما الذي قد يحسّن هذا المكان أيضًا؟",
+          "#Nothing, it's fine": "لا شيء، الوضع جيد",
+          "#Better lighting": "إضاءة أفضل",
+          "#A safer crossing": "معبر أكثر أمانًا",
+          "#More green time to cross at traffic lights": "وقت أطول للإشارة الخضراء لعبور الطريق",
+          "#Slower traffic": "حركة مرور أبطأ",
+          "#A wider or clearer pavement": "رصيف أوسع أو أكثر خلوًا",
+          "#Repairing potholes and the road surface": "إصلاح الحُفر وسطح الطريق",
+          "#Ramps or fewer steps": "منحدرات أو درجات أقل",
+          "#Reopening closed stairs or passages": "إعادة فتح السلالم أو الممرات المغلقة",
+          "#A better stop or better public transport": "محطة أفضل أو نقل عام أفضل",
+          "#Trees or shade": "أشجار أو ظل",
+          "#Benches": "مقاعد",
+          "#More cleaning and maintenance": "مزيد من التنظيف والصيانة",
+          "#More people around or more supervision": "مزيد من الناس أو مزيد من الرقابة",
+          "#More shops or activities": "مزيد من المتاجر أو الأنشطة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

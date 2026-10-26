@@ -1,0 +1,161 @@
+{
+  "question_id": "smarturbanity.bike_barriers",
+  "project": "SmartUrbanity",
+  "key": "bike_barriers",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_cycling",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_cycling"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which of the following physical barriers do you face on your cycling route? (Select all that apply)",
+        "answer_key": "bike_barriers",
+        "question_type": "multiple_options",
+        "options": [
+          {
+            "text": "Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)",
+            "value": "uneven_or_poorly_maintained_road_surface"
+          },
+          {
+            "text": "Steep or sudden changes in gradient",
+            "value": "steep_or_sudden_changes_in_gradient"
+          },
+          {
+            "text": "Parked cars or vehicles blocking cycle lanes",
+            "value": "parked_cars_or_vehicles_blocking_cycle_l"
+          },
+          {
+            "text": "Pedestrians or e-scooters using cycle lanes",
+            "value": "pedestrians_or_e_scooters_using_cycle_la"
+          },
+          {
+            "text": "Road furniture blocking cycle paths (bins, signage, advertising boards)",
+            "value": "road_furniture_blocking_cycle_paths_bins"
+          },
+          {
+            "text": "Lack of cycle-friendly crossings or traffic signals",
+            "value": "lack_of_cycle_friendly_crossings_or_traf"
+          },
+          {
+            "text": "Poorly designed junctions or roundabouts",
+            "value": "poorly_designed_junctions_or_roundabouts"
+          },
+          {
+            "text": "I don't face any physical barrier",
+            "value": "i_don_t_face_any_physical_barrier"
+          }
+        ],
+        "add_other": true,
+        "legacy_answer_keys": [
+          "bike_barriers_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which of the following physical barriers do you face on your cycling route? (Select all that apply)": "Which of the following physical barriers do you face on your cycling route? (Select all that apply)",
+          "#Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)": "Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)",
+          "#Steep or sudden changes in gradient": "Steep or sudden changes in gradient",
+          "#Parked cars or vehicles blocking cycle lanes": "Parked cars or vehicles blocking cycle lanes",
+          "#Pedestrians or e-scooters using cycle lanes": "Pedestrians or e-scooters using cycle lanes",
+          "#Road furniture blocking cycle paths (bins, signage, advertising boards)": "Road furniture blocking cycle paths (bins, signage, advertising boards)",
+          "#Lack of cycle-friendly crossings or traffic signals": "Lack of cycle-friendly crossings or traffic signals",
+          "#Poorly designed junctions or roundabouts": "Poorly designed junctions or roundabouts",
+          "#I don't face any physical barrier": "I don't face any physical barrier",
+          "#Other": "Other"
+        },
+        "it": {
+          "#Which of the following physical barriers do you face on your cycling route? (Select all that apply)": "Quali dei seguenti ostacoli fisici incontri lungo il tuo percorso in bicicletta? (Seleziona tutte le opzioni applicabili)",
+          "#Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)": "Pavimentazione irregolare o in cattive condizioni (buche, rattoppi, sampietrini)",
+          "#Steep or sudden changes in gradient": "Pendenze elevate o variazioni improvvise della pendenza",
+          "#Parked cars or vehicles blocking cycle lanes": "Auto o altri veicoli parcheggiati che bloccano le piste ciclabili",
+          "#Pedestrians or e-scooters using cycle lanes": "Pedoni o monopattini elettrici sulle piste ciclabili",
+          "#Road furniture blocking cycle paths (bins, signage, advertising boards)": "Arredo urbano che ostacola i percorsi ciclabili (cassonetti, segnaletica, cartelloni pubblicitari)",
+          "#Lack of cycle-friendly crossings or traffic signals": "Mancanza di attraversamenti o semafori adatti ai ciclisti",
+          "#Poorly designed junctions or roundabouts": "Incroci o rotatorie mal progettati",
+          "#I don't face any physical barrier": "Non incontro alcun ostacolo fisico",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#Which of the following physical barriers do you face on your cycling route? (Select all that apply)": "Quels obstacles physiques rencontrez-vous sur votre trajet à vélo ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)": "Chaussée irrégulière ou mal entretenue (nids-de-poule, réparations, pavés)",
+          "#Steep or sudden changes in gradient": "Pentes fortes ou changements brusques de pente",
+          "#Parked cars or vehicles blocking cycle lanes": "Voitures ou autres véhicules garés qui bloquent les pistes cyclables",
+          "#Pedestrians or e-scooters using cycle lanes": "Piétons ou trottinettes électriques sur les pistes cyclables",
+          "#Road furniture blocking cycle paths (bins, signage, advertising boards)": "Mobilier urbain qui bloque les pistes cyclables (poubelles, panneaux, affiches publicitaires)",
+          "#Lack of cycle-friendly crossings or traffic signals": "Manque de traversées ou de feux adaptés aux cyclistes",
+          "#Poorly designed junctions or roundabouts": "Carrefours ou ronds-points mal conçus",
+          "#I don't face any physical barrier": "Je ne rencontre aucun obstacle physique",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#Which of the following physical barriers do you face on your cycling route? (Select all that apply)": "Welche baulichen oder körperlichen Hindernisse begegnen Ihnen auf Ihrer Radstrecke? (Wählen Sie alles Zutreffende aus)",
+          "#Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)": "Unebene oder schlecht gepflegte Straßenoberflächen (Schlaglöcher, Reparaturstellen, Kopfsteinpflaster)",
+          "#Steep or sudden changes in gradient": "Steile oder plötzlich wechselnde Steigungen",
+          "#Parked cars or vehicles blocking cycle lanes": "Geparkte Autos oder andere Fahrzeuge, die Radwege blockieren",
+          "#Pedestrians or e-scooters using cycle lanes": "Fußgänger oder E-Scooter auf Radwegen",
+          "#Road furniture blocking cycle paths (bins, signage, advertising boards)": "Gegenstände oder Stadtmöbel, die Radwege blockieren (Mülltonnen, Schilder, Werbetafeln)",
+          "#Lack of cycle-friendly crossings or traffic signals": "Fehlende fahrradfreundliche Querungen oder Ampeln",
+          "#Poorly designed junctions or roundabouts": "Schlecht gestaltete Kreuzungen oder Kreisverkehre",
+          "#I don't face any physical barrier": "Ich habe keine solchen körperlichen Hindernisse",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#Which of the following physical barriers do you face on your cycling route? (Select all that apply)": "Bisiklet güzergâhınızda aşağıdaki fiziksel engellerden hangileriyle karşılaşıyorsunuz? (Uygun olanların tümünü seçin)",
+          "#Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)": "Düzensiz veya bakımsız yol yüzeyi (çukurlar, yamalar, taş döşeme)",
+          "#Steep or sudden changes in gradient": "Dik veya ani eğim değişiklikleri",
+          "#Parked cars or vehicles blocking cycle lanes": "Bisiklet şeritlerini kapatan park etmiş otomobiller veya diğer araçlar",
+          "#Pedestrians or e-scooters using cycle lanes": "Bisiklet şeritlerini kullanan yayalar veya e-scooter’lar",
+          "#Road furniture blocking cycle paths (bins, signage, advertising boards)": "Bisiklet yollarını kapatan kent mobilyaları veya nesneler (çöp kutuları, tabelalar, reklam panoları)",
+          "#Lack of cycle-friendly crossings or traffic signals": "Bisikletlilere uygun geçit veya trafik ışıklarının olmaması",
+          "#Poorly designed junctions or roundabouts": "Kötü tasarlanmış kavşaklar veya dönel kavşaklar",
+          "#I don't face any physical barrier": "Herhangi bir fiziksel engelle karşılaşmıyorum",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#Which of the following physical barriers do you face on your cycling route? (Select all that apply)": "در مسیر دوچرخه‌سواری با کدام موانع فیزیکی روبه‌رو می‌شوید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+          "#Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)": "سطح ناهموار یا بد نگهداری‌شده خیابان (چاله، وصله، سنگفرش)",
+          "#Steep or sudden changes in gradient": "شیب زیاد یا تغییر ناگهانی شیب",
+          "#Parked cars or vehicles blocking cycle lanes": "خودروهای پارک‌شده که مسیر یا خط دوچرخه را می‌بندند",
+          "#Pedestrians or e-scooters using cycle lanes": "عابران پیاده یا اسکوترهای برقی در مسیر دوچرخه",
+          "#Road furniture blocking cycle paths (bins, signage, advertising boards)": "موانع شهری در مسیر دوچرخه (سطل زباله، تابلو، بیلبورد)",
+          "#Lack of cycle-friendly crossings or traffic signals": "نبود گذرگاه یا چراغ مناسب برای دوچرخه",
+          "#Poorly designed junctions or roundabouts": "تقاطع یا میدان با طراحی نامناسب",
+          "#I don't face any physical barrier": "با هیچ مانع فیزیکی روبه‌رو نمی‌شوم",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#Which of the following physical barriers do you face on your cycling route? (Select all that apply)": "Milyen fizikai akadályokkal találkozik kerékpáros útvonalán? (Jelölje meg az összes megfelelőt)",
+          "#Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)": "Egyenetlen vagy rosszul karbantartott útburkolat (kátyúk, javítások, macskakő)",
+          "#Steep or sudden changes in gradient": "Meredek vagy hirtelen változó emelkedők",
+          "#Parked cars or vehicles blocking cycle lanes": "Kerékpársávot elzáró parkoló autók vagy más járművek",
+          "#Pedestrians or e-scooters using cycle lanes": "Kerékpársávot használó gyalogosok vagy elektromos rollerek",
+          "#Road furniture blocking cycle paths (bins, signage, advertising boards)": "Kerékpárutat elzáró utcabútorok vagy tárgyak (kukák, táblák, reklámfelületek)",
+          "#Lack of cycle-friendly crossings or traffic signals": "Kerékpárosbarát átkelőhelyek vagy jelzőlámpák hiánya",
+          "#Poorly designed junctions or roundabouts": "Rosszul kialakított kereszteződések vagy körforgalmak",
+          "#I don't face any physical barrier": "Nem találkozom fizikai akadállyal",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#Which of the following physical barriers do you face on your cycling route? (Select all that apply)": "ما العوائق المادية التي تواجهها على طريقك بالدراجة؟ (اختر كل ما ينطبق)",
+          "#Uneven or poorly maintained road surfaces (potholes, patches, cobblestones)": "سطح طريق غير مستوٍ أو سيئ الصيانة (حفر، ترقيعات، حجارة رصف)",
+          "#Steep or sudden changes in gradient": "منحدرات شديدة أو تغيرات مفاجئة في الميل",
+          "#Parked cars or vehicles blocking cycle lanes": "سيارات أو مركبات متوقفة تسد حارات الدراجات",
+          "#Pedestrians or e-scooters using cycle lanes": "مشاة أو مستخدمو سكوتر كهربائي في حارات الدراجات",
+          "#Road furniture blocking cycle paths (bins, signage, advertising boards)": "أثاث أو عناصر في الشارع تسد مسارات الدراجات (حاويات نفايات، لافتات، لوحات إعلانية)",
+          "#Lack of cycle-friendly crossings or traffic signals": "غياب معابر أو إشارات مرور مناسبة للدراجات",
+          "#Poorly designed junctions or roundabouts": "تقاطعات أو دوارات سيئة التصميم",
+          "#I don't face any physical barrier": "لا أواجه أي عائق مادي",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_cycling"
+      ]
+    }
+  }
+}

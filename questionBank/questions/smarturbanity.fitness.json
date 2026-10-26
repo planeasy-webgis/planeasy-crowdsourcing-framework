@@ -1,0 +1,118 @@
+{
+  "question_id": "smarturbanity.fitness",
+  "project": "SmartUrbanity",
+  "key": "fitness",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
+        "answer_key": "fitness",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very low (sedentary, easily fatigued)",
+            "value": "very_low_sedentary_easily_fatigued"
+          },
+          {
+            "text": "Low",
+            "value": "low"
+          },
+          {
+            "text": "Moderate",
+            "value": "moderate"
+          },
+          {
+            "text": "Good",
+            "value": "good"
+          },
+          {
+            "text": "High",
+            "value": "high"
+          }
+        ],
+        "privacy_classification": "special_category_health",
+        "special_category": "health",
+        "legacy_answer_keys": [
+          "fitness_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "How would you describe your current level of physical fitness (strength, endurance, and overall health)?",
+          "#Very low (sedentary, easily fatigued)": "Very low (sedentary, easily fatigued)",
+          "#Low": "Low",
+          "#Moderate": "Moderate",
+          "#Good": "Good",
+          "#High": "High"
+        },
+        "it": {
+          "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "Come descriveresti il tuo attuale livello di forma fisica, considerando forza, resistenza e salute generale?",
+          "#Very low (sedentary, easily fatigued)": "Molto basso (vita sedentaria, facile affaticamento)",
+          "#Low": "Basso",
+          "#Moderate": "Moderato",
+          "#Good": "Buono",
+          "#High": "Alto"
+        },
+        "fr": {
+          "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "Comment décririez-vous votre condition physique actuelle, notamment votre force, votre endurance et votre état de santé général ?",
+          "#Very low (sedentary, easily fatigued)": "Très faible (mode de vie sédentaire, fatigue facile)",
+          "#Low": "Faible",
+          "#Moderate": "Moyenne",
+          "#Good": "Bonne",
+          "#High": "Élevée"
+        },
+        "de": {
+          "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "Wie würden Sie Ihre derzeitige körperliche Fitness beschreiben, zum Beispiel Kraft, Ausdauer und allgemeinen Gesundheitszustand?",
+          "#Very low (sedentary, easily fatigued)": "Sehr niedrig (wenig Bewegung, schnell müde)",
+          "#Low": "Niedrig",
+          "#Moderate": "Mittel",
+          "#Good": "Gut",
+          "#High": "Hoch"
+        },
+        "tr": {
+          "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "Mevcut fiziksel kondisyonunuzu nasıl tanımlarsınız? Güç, dayanıklılık ve genel sağlık durumunuzu düşünün.",
+          "#Very low (sedentary, easily fatigued)": "Çok düşük (hareketsiz yaşam, çabuk yorulma)",
+          "#Low": "Düşük",
+          "#Moderate": "Orta",
+          "#Good": "İyi",
+          "#High": "Yüksek"
+        },
+        "fa": {
+          "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "وضعیت آمادگی جسمانی فعلی خود را چگونه توصیف می‌کنید؟ قدرت، استقامت و سلامت عمومی را در نظر بگیرید.",
+          "#Very low (sedentary, easily fatigued)": "بسیار پایین (کم‌تحرک، زود خسته می‌شوم)",
+          "#Low": "پایین",
+          "#Moderate": "متوسط",
+          "#Good": "خوب",
+          "#High": "بالا"
+        },
+        "hu": {
+          "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "Hogyan jellemezné jelenlegi fizikai állapotát, például erejét, állóképességét és általános egészségi állapotát?",
+          "#Very low (sedentary, easily fatigued)": "Nagyon alacsony (ülő életmód, könnyen elfáradok)",
+          "#Low": "Alacsony",
+          "#Moderate": "Közepes",
+          "#Good": "Jó",
+          "#High": "Magas"
+        },
+        "ar": {
+          "#How would you describe your current level of physical fitness (strength, endurance, and overall health)?": "كيف تصف مستوى لياقتك البدنية حاليًا، مثل القوة والقدرة على التحمل والصحة العامة؟",
+          "#Very low (sedentary, easily fatigued)": "منخفض جدًا (قليل الحركة، أتعب بسهولة)",
+          "#Low": "منخفض",
+          "#Moderate": "متوسط",
+          "#Good": "جيد",
+          "#High": "مرتفع"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    }
+  }
+}

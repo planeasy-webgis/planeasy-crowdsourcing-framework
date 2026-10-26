@@ -1,0 +1,128 @@
+{
+  "question_id": "smarturbanity.nm_your_mode",
+  "project": "SmartUrbanity",
+  "key": "nm_your_mode",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_near_miss_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_near_miss_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How were you travelling?",
+        "answer_key": "nm_your_mode",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "On foot",
+            "value": "walk"
+          },
+          {
+            "text": "In a wheelchair or mobility scooter",
+            "value": "wheelchair",
+            "special_category": "health",
+            "privacy_classification": "special_category_health"
+          },
+          {
+            "text": "By bike",
+            "value": "bike"
+          },
+          {
+            "text": "By e-scooter",
+            "value": "escooter"
+          },
+          {
+            "text": "By motorcycle or moped",
+            "value": "motorcycle"
+          },
+          {
+            "text": "By car",
+            "value": "car"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How were you travelling?": "How were you travelling?",
+          "#On foot": "On foot",
+          "#In a wheelchair or mobility scooter": "In a wheelchair or mobility scooter",
+          "#By bike": "By bike",
+          "#By e-scooter": "By e-scooter",
+          "#By motorcycle or moped": "By motorcycle or moped",
+          "#By car": "By car"
+        },
+        "it": {
+          "#How were you travelling?": "Come ti stavi spostando?",
+          "#On foot": "A piedi",
+          "#In a wheelchair or mobility scooter": "In sedia a rotelle o con scooter per disabili",
+          "#By bike": "In bici",
+          "#By e-scooter": "In monopattino",
+          "#By motorcycle or moped": "In moto o scooter",
+          "#By car": "In auto"
+        },
+        "fr": {
+          "#How were you travelling?": "Comment vous déplaciez-vous ?",
+          "#On foot": "À pied",
+          "#In a wheelchair or mobility scooter": "En fauteuil roulant ou scooter de mobilité",
+          "#By bike": "À vélo",
+          "#By e-scooter": "En trottinette électrique",
+          "#By motorcycle or moped": "À moto ou en scooter",
+          "#By car": "En voiture"
+        },
+        "de": {
+          "#How were you travelling?": "Wie waren Sie unterwegs?",
+          "#On foot": "Zu Fuß",
+          "#In a wheelchair or mobility scooter": "Im Rollstuhl oder Elektromobil",
+          "#By bike": "Mit dem Fahrrad",
+          "#By e-scooter": "Mit dem E-Scooter",
+          "#By motorcycle or moped": "Mit dem Motorrad oder Motorroller",
+          "#By car": "Mit dem Auto"
+        },
+        "tr": {
+          "#How were you travelling?": "Nasıl yolculuk ediyordunuz?",
+          "#On foot": "Yürüyerek",
+          "#In a wheelchair or mobility scooter": "Tekerlekli sandalye veya akülü engelli aracıyla",
+          "#By bike": "Bisikletle",
+          "#By e-scooter": "Elektrikli scooterla",
+          "#By motorcycle or moped": "Motosiklet veya mopedle",
+          "#By car": "Arabayla"
+        },
+        "fa": {
+          "#How were you travelling?": "چگونه در حال جابه‌جایی بودید؟",
+          "#On foot": "پیاده",
+          "#In a wheelchair or mobility scooter": "با ویلچر یا اسکوتر برقی معلولان",
+          "#By bike": "با دوچرخه",
+          "#By e-scooter": "با اسکوتر برقی",
+          "#By motorcycle or moped": "با موتورسیکلت یا موتور گازی",
+          "#By car": "با خودرو"
+        },
+        "hu": {
+          "#How were you travelling?": "Hogyan közlekedett?",
+          "#On foot": "Gyalog",
+          "#In a wheelchair or mobility scooter": "Kerekesszékkel vagy elektromos mopeddel",
+          "#By bike": "Kerékpárral",
+          "#By e-scooter": "Elektromos rollerrel",
+          "#By motorcycle or moped": "Motorkerékpárral vagy robogóval",
+          "#By car": "Autóval"
+        },
+        "ar": {
+          "#How were you travelling?": "كيف كنت تتنقل؟",
+          "#On foot": "سيرًا على الأقدام",
+          "#In a wheelchair or mobility scooter": "بكرسي متحرك أو سكوتر كهربائي لذوي الإعاقة",
+          "#By bike": "بالدراجة",
+          "#By e-scooter": "بالسكوتر الكهربائي",
+          "#By motorcycle or moped": "بالدراجة النارية أو السكوتر",
+          "#By car": "بالسيارة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_near_miss_report"
+      ]
+    }
+  }
+}

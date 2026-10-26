@@ -1,0 +1,142 @@
+{
+  "question_id": "smarturbanity.continue_audit",
+  "project": "SmartUrbanity",
+  "key": "continue_audit",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "review_required": true,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).",
+        "answer_key": "continue_audit",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No, finish the assessment",
+            "value": "no_finish"
+          },
+          {
+            "text": "Yes, add optional details",
+            "value": "yes_audit"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).": "Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).",
+          "#No, finish the assessment": "No, finish the assessment",
+          "#Yes, add optional details": "Yes, add optional details"
+        },
+        "it": {
+          "#Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).": "Vuoi aggiungere altri dettagli? Sono da circa 10 a 22 domande facoltative, secondo il luogo e il modo in cui ti sposti (circa 3–7 minuti).",
+          "#No, finish the assessment": "No, termina la valutazione",
+          "#Yes, add optional details": "Sì, aggiungi dettagli facoltativi"
+        },
+        "fr": {
+          "#Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).": "Souhaitez-vous ajouter d’autres détails ? Il y a environ 10 à 22 questions facultatives, selon le lieu et votre façon de vous déplacer (environ 3 à 7 minutes).",
+          "#No, finish the assessment": "Non, terminer l’évaluation",
+          "#Yes, add optional details": "Oui, ajouter des détails facultatifs"
+        },
+        "de": {
+          "#Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).": "Möchten Sie weitere Details hinzufügen? Es sind etwa 10 bis 22 optionale Fragen, je nach Ort und Art der Fortbewegung (etwa 3–7 Minuten).",
+          "#No, finish the assessment": "Nein, Bewertung abschließen",
+          "#Yes, add optional details": "Ja, optionale Details hinzufügen"
+        },
+        "tr": {
+          "#Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).": "Daha fazla ayrıntı eklemek ister misiniz? Yere ve nasıl hareket ettiğinize bağlı olarak yaklaşık 10 ila 22 isteğe bağlı soru var (yaklaşık 3–7 dakika).",
+          "#No, finish the assessment": "Hayır, değerlendirmeyi bitir",
+          "#Yes, add optional details": "Evet, isteğe bağlı ayrıntılar ekle"
+        },
+        "fa": {
+          "#Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).": "آیا می‌خواهید جزئیات بیشتری اضافه کنید؟ بسته به مکان و نحوه رفت‌وآمد شما، حدود ۱۰ تا ۲۲ پرسش اختیاری است (حدود ۳ تا ۷ دقیقه).",
+          "#No, finish the assessment": "خیر، پایان ارزیابی",
+          "#Yes, add optional details": "بله، افزودن جزئیات اختیاری"
+        },
+        "hu": {
+          "#Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).": "Szeretne további részleteket megadni? A helytől és a közlekedési módtól függően körülbelül 10–22 választható kérdés következik (kb. 3–7 perc).",
+          "#No, finish the assessment": "Nem, az értékelés befejezése",
+          "#Yes, add optional details": "Igen, választható részletek hozzáadása"
+        },
+        "ar": {
+          "#Would you like to add more details? There are about 10 to 22 optional questions, depending on the place and on how you move (about 3–7 minutes).": "هل ترغب في إضافة مزيد من التفاصيل؟ هناك نحو 10 إلى 22 سؤالًا اختياريًا، بحسب المكان وطريقة تنقلك (نحو 3 إلى 7 دقائق).",
+          "#No, finish the assessment": "لا، إنهاء التقييم",
+          "#Yes, add optional details": "نعم، إضافة تفاصيل اختيارية"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    },
+    "street_segment_assessment": {
+      "schema": {
+        "text": "Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).",
+        "answer_key": "continue_audit",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No, finish the assessment",
+            "value": "no_finish"
+          },
+          {
+            "text": "Yes, add optional details",
+            "value": "yes_audit"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).": "Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).",
+          "#No, finish the assessment": "No, finish the assessment",
+          "#Yes, add optional details": "Yes, add optional details"
+        },
+        "it": {
+          "#Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).": "Vuoi aggiungere altri dettagli? Sono da circa 10 a 20 domande facoltative per un modo di spostarsi, e fino a circa 30 se li hai scelti entrambi (circa 4–10 minuti).",
+          "#No, finish the assessment": "No, termina la valutazione",
+          "#Yes, add optional details": "Sì, aggiungi dettagli facoltativi"
+        },
+        "fr": {
+          "#Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).": "Souhaitez-vous ajouter d’autres détails ? Il y a environ 10 à 20 questions facultatives pour un mode de déplacement, et jusqu’à environ 30 si vous avez choisi les deux (environ 4 à 10 minutes).",
+          "#No, finish the assessment": "Non, terminer l’évaluation",
+          "#Yes, add optional details": "Oui, ajouter des détails facultatifs"
+        },
+        "de": {
+          "#Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).": "Möchten Sie weitere Details hinzufügen? Es sind etwa 10 bis 20 optionale Fragen für eine Fortbewegungsart und bis zu etwa 30, wenn Sie beide gewählt haben (etwa 4–10 Minuten).",
+          "#No, finish the assessment": "Nein, Bewertung abschließen",
+          "#Yes, add optional details": "Ja, optionale Details hinzufügen"
+        },
+        "tr": {
+          "#Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).": "Daha fazla ayrıntı eklemek ister misiniz? Tek bir ulaşım şekli için yaklaşık 10 ila 20, ikisini de seçtiyseniz yaklaşık 30’a kadar isteğe bağlı soru var (yaklaşık 4–10 dakika).",
+          "#No, finish the assessment": "Hayır, değerlendirmeyi bitir",
+          "#Yes, add optional details": "Evet, isteğe bağlı ayrıntılar ekle"
+        },
+        "fa": {
+          "#Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).": "آیا می‌خواهید جزئیات بیشتری اضافه کنید؟ برای یک شیوه رفت‌وآمد حدود ۱۰ تا ۲۰ پرسش اختیاری است و اگر هر دو را انتخاب کرده باشید تا حدود ۳۰ پرسش (حدود ۴ تا ۱۰ دقیقه).",
+          "#No, finish the assessment": "خیر، پایان ارزیابی",
+          "#Yes, add optional details": "بله، افزودن جزئیات اختیاری"
+        },
+        "hu": {
+          "#Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).": "Szeretne további részleteket megadni? Egy közlekedési módnál körülbelül 10–20 választható kérdés következik, ha mindkettőt választotta, akár kb. 30 (kb. 4–10 perc).",
+          "#No, finish the assessment": "Nem, az értékelés befejezése",
+          "#Yes, add optional details": "Igen, választható részletek hozzáadása"
+        },
+        "ar": {
+          "#Would you like to add more details? There are about 10 to 20 optional questions for one way of moving, and up to about 30 if you chose both (about 4–10 minutes).": "هل ترغب في إضافة مزيد من التفاصيل؟ هناك نحو 10 إلى 20 سؤالًا اختياريًا لطريقة تنقل واحدة، وحتى نحو 30 إذا اخترت الطريقتين (نحو 4 إلى 10 دقائق).",
+          "#No, finish the assessment": "لا، إنهاء التقييم",
+          "#Yes, add optional details": "نعم، إضافة تفاصيل اختيارية"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

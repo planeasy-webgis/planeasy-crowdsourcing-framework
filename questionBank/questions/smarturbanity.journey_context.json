@@ -1,0 +1,142 @@
+{
+  "question_id": "smarturbanity.journey_context",
+  "project": "SmartUrbanity",
+  "key": "journey_context",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which of these situations apply to your trip today?",
+        "answer_key": "journey_context",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Going to or from a bus, tram or metro stop",
+            "value": "public_transport_connection"
+          },
+          {
+            "text": "Going to or from a parked car",
+            "value": "parked_car_connection"
+          },
+          {
+            "text": "Going to or from bicycle parking",
+            "value": "bicycle_parking_connection"
+          },
+          {
+            "text": "Accompanying a child (for example to school)",
+            "value": "accompanying_child"
+          },
+          {
+            "text": "Using a wheelchair, walker, cane or other mobility aid",
+            "value": "mobility_aid",
+            "special_category": "health",
+            "privacy_classification": "special_category_health"
+          },
+          {
+            "text": "Pushing a stroller",
+            "value": "stroller"
+          },
+          {
+            "text": "None of these",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which of these situations apply to your trip today?": "Which of these situations apply to your trip today?",
+          "#Going to or from a bus, tram or metro stop": "Going to or from a bus, tram or metro stop",
+          "#Going to or from a parked car": "Going to or from a parked car",
+          "#Going to or from bicycle parking": "Going to or from bicycle parking",
+          "#Accompanying a child (for example to school)": "Accompanying a child (for example to school)",
+          "#Using a wheelchair, walker, cane or other mobility aid": "Using a wheelchair, walker, cane or other mobility aid",
+          "#Pushing a stroller": "Pushing a stroller",
+          "#None of these": "None of these"
+        },
+        "it": {
+          "#Which of these situations apply to your trip today?": "Quali di queste situazioni valgono per il tuo spostamento di oggi?",
+          "#Going to or from a bus, tram or metro stop": "Vado o torno da una fermata del bus, del tram o della metro",
+          "#Going to or from a parked car": "Vado o torno dall'auto parcheggiata",
+          "#Going to or from bicycle parking": "Vado o torno dal parcheggio delle bici",
+          "#Accompanying a child (for example to school)": "Accompagno un bambino (per esempio a scuola)",
+          "#Using a wheelchair, walker, cane or other mobility aid": "Uso una sedia a rotelle, un deambulatore, un bastone o un altro ausilio",
+          "#Pushing a stroller": "Spingo un passeggino",
+          "#None of these": "Nessuna di queste"
+        },
+        "fr": {
+          "#Which of these situations apply to your trip today?": "Lesquelles de ces situations s'appliquent à votre déplacement d'aujourd'hui ?",
+          "#Going to or from a bus, tram or metro stop": "Je vais à un arrêt de bus, de tram ou de métro, ou j'en reviens",
+          "#Going to or from a parked car": "Je vais à une voiture garée ou j'en reviens",
+          "#Going to or from bicycle parking": "Je vais à un stationnement vélo ou j'en reviens",
+          "#Accompanying a child (for example to school)": "J'accompagne un enfant (par exemple à l'école)",
+          "#Using a wheelchair, walker, cane or other mobility aid": "J'utilise un fauteuil roulant, un déambulateur, une canne ou une autre aide à la mobilité",
+          "#Pushing a stroller": "Je pousse une poussette",
+          "#None of these": "Aucun de ces éléments"
+        },
+        "de": {
+          "#Which of these situations apply to your trip today?": "Welche dieser Situationen treffen auf Ihren heutigen Weg zu?",
+          "#Going to or from a bus, tram or metro stop": "Ich gehe zu einer Bus-, Straßenbahn- oder U-Bahn-Haltestelle oder komme von dort",
+          "#Going to or from a parked car": "Ich gehe zu einem geparkten Auto oder komme von dort",
+          "#Going to or from bicycle parking": "Ich gehe zu einem Fahrradabstellplatz oder komme von dort",
+          "#Accompanying a child (for example to school)": "Ich begleite ein Kind (zum Beispiel zur Schule)",
+          "#Using a wheelchair, walker, cane or other mobility aid": "Ich nutze einen Rollstuhl, Rollator, Gehstock oder eine andere Mobilitätshilfe",
+          "#Pushing a stroller": "Ich schiebe einen Kinderwagen",
+          "#None of these": "Keine davon"
+        },
+        "tr": {
+          "#Which of these situations apply to your trip today?": "Bu durumlardan hangileri bugünkü yolculuğunuz için geçerli?",
+          "#Going to or from a bus, tram or metro stop": "Otobüs, tramvay veya metro durağına gidiyor ya da oradan geliyorum",
+          "#Going to or from a parked car": "Park edilmiş bir arabaya gidiyor ya da oradan geliyorum",
+          "#Going to or from bicycle parking": "Bisiklet parkına gidiyor ya da oradan geliyorum",
+          "#Accompanying a child (for example to school)": "Bir çocuğa eşlik ediyorum (örneğin okula)",
+          "#Using a wheelchair, walker, cane or other mobility aid": "Tekerlekli sandalye, yürüteç, baston veya başka bir hareket desteği kullanıyorum",
+          "#Pushing a stroller": "Bebek arabası itiyorum",
+          "#None of these": "Bunların hiçbiri"
+        },
+        "fa": {
+          "#Which of these situations apply to your trip today?": "کدام یک از این موقعیت‌ها درباره سفر امروز شما صدق می‌کند؟",
+          "#Going to or from a bus, tram or metro stop": "به ایستگاه اتوبوس، تراموا یا مترو می‌روم یا از آن برمی‌گردم",
+          "#Going to or from a parked car": "به خودروی پارک‌شده می‌روم یا از آن برمی‌گردم",
+          "#Going to or from bicycle parking": "به محل پارک دوچرخه می‌روم یا از آن برمی‌گردم",
+          "#Accompanying a child (for example to school)": "کودکی را همراهی می‌کنم (برای مثال به مدرسه)",
+          "#Using a wheelchair, walker, cane or other mobility aid": "از ویلچر، واکر، عصا یا وسیله کمک‌حرکتی دیگری استفاده می‌کنم",
+          "#Pushing a stroller": "کالسکه بچه را هل می‌دهم",
+          "#None of these": "هیچ‌کدام از این‌ها"
+        },
+        "hu": {
+          "#Which of these situations apply to your trip today?": "Ezek közül melyik helyzet igaz az Ön mai útjára?",
+          "#Going to or from a bus, tram or metro stop": "Busz-, villamos- vagy metrómegállóhoz megyek, vagy onnan jövök",
+          "#Going to or from a parked car": "Parkoló autóhoz megyek, vagy onnan jövök",
+          "#Going to or from bicycle parking": "Kerékpártárolóhoz megyek, vagy onnan jövök",
+          "#Accompanying a child (for example to school)": "Gyereket kísérek (például iskolába)",
+          "#Using a wheelchair, walker, cane or other mobility aid": "Kerekesszéket, járókeretet, botot vagy más mozgást segítő eszközt használok",
+          "#Pushing a stroller": "Babakocsit tolok",
+          "#None of these": "Ezek közül egyik sem"
+        },
+        "ar": {
+          "#Which of these situations apply to your trip today?": "أيّ من هذه الحالات تنطبق على تنقّلك اليوم؟",
+          "#Going to or from a bus, tram or metro stop": "أذهب إلى محطة حافلة أو ترام أو مترو أو أعود منها",
+          "#Going to or from a parked car": "أذهب إلى سيارة مركونة أو أعود منها",
+          "#Going to or from bicycle parking": "أذهب إلى موقف الدراجات أو أعود منه",
+          "#Accompanying a child (for example to school)": "أرافق طفلًا (مثلًا إلى المدرسة)",
+          "#Using a wheelchair, walker, cane or other mobility aid": "أستخدم كرسيًا متحركًا أو مشاية أو عصا أو وسيلة مساعدة أخرى على الحركة",
+          "#Pushing a stroller": "أدفع عربة أطفال",
+          "#None of these": "لا شيء مما سبق"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment",
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "question_id": "smarturbanity.spatial_visibility",
+  "project": "SmartUrbanity",
+  "key": "spatial_visibility",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Can people clearly see the path and the exit?",
+        "answer_key": "spatial_visibility",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes, the path and exit are clearly visible",
+            "value": "1_clear"
+          },
+          {
+            "text": "Partly, some areas are hidden",
+            "value": "2_partly"
+          },
+          {
+            "text": "No, there are blind corners or hidden areas",
+            "value": "3_poor"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#Can people clearly see the path and the exit?": "Can people clearly see the path and the exit?",
+          "#Yes, the path and exit are clearly visible": "Yes, the path and exit are clearly visible",
+          "#Partly, some areas are hidden": "Partly, some areas are hidden",
+          "#No, there are blind corners or hidden areas": "No, there are blind corners or hidden areas",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Can people clearly see the path and the exit?": "Le persone vedono chiaramente il percorso e l'uscita?",
+          "#Yes, the path and exit are clearly visible": "Sì, il percorso e l'uscita sono ben visibili",
+          "#Partly, some areas are hidden": "In parte, alcune zone sono nascoste",
+          "#No, there are blind corners or hidden areas": "No, ci sono angoli ciechi o zone nascoste",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Can people clearly see the path and the exit?": "Peut-on clairement voir le chemin et la sortie ?",
+          "#Yes, the path and exit are clearly visible": "Oui, le chemin et la sortie sont clairement visibles",
+          "#Partly, some areas are hidden": "En partie, certaines zones sont cachées",
+          "#No, there are blind corners or hidden areas": "Non, il y a des angles morts ou des zones cachées",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Can people clearly see the path and the exit?": "Sind der Weg und der Ausgang deutlich zu sehen?",
+          "#Yes, the path and exit are clearly visible": "Ja, Weg und Ausgang sind deutlich sichtbar",
+          "#Partly, some areas are hidden": "Teilweise, einige Bereiche sind verdeckt",
+          "#No, there are blind corners or hidden areas": "Nein, es gibt uneinsehbare Ecken oder verdeckte Bereiche",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Can people clearly see the path and the exit?": "Yol ve çıkış açıkça görülebiliyor mu?",
+          "#Yes, the path and exit are clearly visible": "Evet, yol ve çıkış açıkça görülüyor",
+          "#Partly, some areas are hidden": "Kısmen, bazı alanlar gizli",
+          "#No, there are blind corners or hidden areas": "Hayır, kör köşeler veya gizli alanlar var",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Can people clearly see the path and the exit?": "آیا مسیر و خروجی به‌وضوح دیده می‌شوند؟",
+          "#Yes, the path and exit are clearly visible": "بله، مسیر و خروجی به‌وضوح دیده می‌شوند",
+          "#Partly, some areas are hidden": "تا حدی، بعضی بخش‌ها پنهان هستند",
+          "#No, there are blind corners or hidden areas": "خیر، گوشه‌های کور یا بخش‌های پنهان وجود دارد",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Can people clearly see the path and the exit?": "Jól látható az útvonal és a kijárat?",
+          "#Yes, the path and exit are clearly visible": "Igen, az útvonal és a kijárat jól látható",
+          "#Partly, some areas are hidden": "Részben, egyes területek takarásban vannak",
+          "#No, there are blind corners or hidden areas": "Nem, vannak beláthatatlan sarkok vagy takart területek",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Can people clearly see the path and the exit?": "هل يمكن رؤية المسار والمخرج بوضوح؟",
+          "#Yes, the path and exit are clearly visible": "نعم، المسار والمخرج واضحان",
+          "#Partly, some areas are hidden": "جزئيًا، بعض المناطق محجوبة",
+          "#No, there are blind corners or hidden areas": "لا، توجد زوايا عمياء أو مناطق محجوبة",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

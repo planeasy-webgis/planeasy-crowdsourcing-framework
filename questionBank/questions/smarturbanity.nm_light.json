@@ -1,0 +1,103 @@
+{
+  "question_id": "smarturbanity.nm_light",
+  "project": "SmartUrbanity",
+  "key": "nm_light",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_near_miss_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_near_miss_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What was the light like?",
+        "answer_key": "nm_light",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Daylight",
+            "value": "daylight"
+          },
+          {
+            "text": "Dawn or dusk",
+            "value": "dusk"
+          },
+          {
+            "text": "Dark, on a lit street",
+            "value": "dark_lit"
+          },
+          {
+            "text": "Dark, on an unlit street",
+            "value": "dark_unlit"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What was the light like?": "What was the light like?",
+          "#Daylight": "Daylight",
+          "#Dawn or dusk": "Dawn or dusk",
+          "#Dark, on a lit street": "Dark, on a lit street",
+          "#Dark, on an unlit street": "Dark, on an unlit street"
+        },
+        "it": {
+          "#What was the light like?": "Com'era la luce?",
+          "#Daylight": "Luce del giorno",
+          "#Dawn or dusk": "Alba o tramonto",
+          "#Dark, on a lit street": "Buio, in una strada illuminata",
+          "#Dark, on an unlit street": "Buio, in una strada non illuminata"
+        },
+        "fr": {
+          "#What was the light like?": "Quelles étaient les conditions de luminosité ?",
+          "#Daylight": "Plein jour",
+          "#Dawn or dusk": "Aube ou crépuscule",
+          "#Dark, on a lit street": "Nuit, dans une rue éclairée",
+          "#Dark, on an unlit street": "Dans l’obscurité, dans une rue non éclairée"
+        },
+        "de": {
+          "#What was the light like?": "Wie waren die Lichtverhältnisse?",
+          "#Daylight": "Tageslicht",
+          "#Dawn or dusk": "Morgen- oder Abenddämmerung",
+          "#Dark, on a lit street": "Dunkel, auf einer beleuchteten Straße",
+          "#Dark, on an unlit street": "Dunkel, auf einer unbeleuchteten Straße"
+        },
+        "tr": {
+          "#What was the light like?": "Işık koşulları nasıldı?",
+          "#Daylight": "Gün ışığı",
+          "#Dawn or dusk": "Şafak veya alacakaranlık",
+          "#Dark, on a lit street": "Karanlık, aydınlatılmış bir sokakta",
+          "#Dark, on an unlit street": "Karanlıkta, aydınlatılmamış bir sokakta"
+        },
+        "fa": {
+          "#What was the light like?": "وضعیت نور چگونه بود؟",
+          "#Daylight": "روشنایی روز",
+          "#Dawn or dusk": "سپیده‌دم یا غروب",
+          "#Dark, on a lit street": "تاریک، در خیابانی روشن",
+          "#Dark, on an unlit street": "تاریک، در خیابانی بدون روشنایی"
+        },
+        "hu": {
+          "#What was the light like?": "Milyenek voltak a fényviszonyok?",
+          "#Daylight": "Nappali fény",
+          "#Dawn or dusk": "Hajnal vagy alkonyat",
+          "#Dark, on a lit street": "Sötét, kivilágított utcán",
+          "#Dark, on an unlit street": "Sötétben, kivilágítatlan utcán"
+        },
+        "ar": {
+          "#What was the light like?": "كيف كانت الإضاءة؟",
+          "#Daylight": "ضوء النهار",
+          "#Dawn or dusk": "الفجر أو الغسق",
+          "#Dark, on a lit street": "ظلام، في شارع مضاء",
+          "#Dark, on an unlit street": "في الظلام، في شارع غير مضاء"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_near_miss_report"
+      ]
+    }
+  }
+}

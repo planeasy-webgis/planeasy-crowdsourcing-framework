@@ -1,0 +1,92 @@
+{
+  "question_id": "smarturbanity.freq_trip_company",
+  "project": "SmartUrbanity",
+  "key": "freq_trip_company",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_daily_travel"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "On the trips you make most often during a typical week, do you usually travel alone or with other people?",
+        "answer_key": "freq_trip_company",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Mostly alone",
+            "value": "mostly_alone"
+          },
+          {
+            "text": "Often with family members",
+            "value": "often_with_family_members"
+          },
+          {
+            "text": "Often with colleagues or friends",
+            "value": "often_with_colleagues_or_friends"
+          }
+        ],
+        "legacy_answer_keys": [
+          "freq_trip_company_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#On the trips you make most often during a typical week, do you usually travel alone or with other people?": "On the trips you make most often during a typical week, do you usually travel alone or with other people?",
+          "#Mostly alone": "Mostly alone",
+          "#Often with family members": "Often with family members",
+          "#Often with colleagues or friends": "Often with colleagues or friends"
+        },
+        "it": {
+          "#On the trips you make most often during a typical week, do you usually travel alone or with other people?": "Negli spostamenti che effettui più spesso durante una settimana tipica, viaggi di solito da solo/a o con altre persone?",
+          "#Mostly alone": "Principalmente da solo/a",
+          "#Often with family members": "Spesso con familiari",
+          "#Often with colleagues or friends": "Spesso con colleghi o amici"
+        },
+        "fr": {
+          "#On the trips you make most often during a typical week, do you usually travel alone or with other people?": "Pour les trajets que vous faites le plus souvent pendant une semaine habituelle, voyagez-vous généralement seul(e) ou avec d’autres personnes ?",
+          "#Mostly alone": "Le plus souvent seul(e)",
+          "#Often with family members": "Souvent avec des membres de ma famille",
+          "#Often with colleagues or friends": "Souvent avec des collègues ou des amis"
+        },
+        "de": {
+          "#On the trips you make most often during a typical week, do you usually travel alone or with other people?": "Bei den Wegen, die Sie in einer typischen Woche am häufigsten machen: Sind Sie dabei normalerweise allein oder mit anderen Personen unterwegs?",
+          "#Mostly alone": "Meist allein",
+          "#Often with family members": "Oft mit Familienmitgliedern",
+          "#Often with colleagues or friends": "Oft mit Kollegen oder Freunden"
+        },
+        "tr": {
+          "#On the trips you make most often during a typical week, do you usually travel alone or with other people?": "Tipik bir haftada en sık yaptığınız yolculuklarda genellikle yalnız mı yoksa başka kişilerle mi seyahat edersiniz?",
+          "#Mostly alone": "Çoğunlukla yalnız",
+          "#Often with family members": "Sık sık aile üyeleriyle",
+          "#Often with colleagues or friends": "Sık sık iş arkadaşları veya arkadaşlarla"
+        },
+        "fa": {
+          "#On the trips you make most often during a typical week, do you usually travel alone or with other people?": "در سفرهایی که در یک هفته معمولی بیشتر انجام می‌دهید، معمولاً تنها سفر می‌کنید یا با دیگران؟",
+          "#Mostly alone": "بیشتر تنها",
+          "#Often with family members": "اغلب با اعضای خانواده",
+          "#Often with colleagues or friends": "اغلب با همکاران یا دوستان"
+        },
+        "hu": {
+          "#On the trips you make most often during a typical week, do you usually travel alone or with other people?": "Egy tipikus héten a leggyakoribb utazásai során általában egyedül vagy másokkal közlekedik?",
+          "#Mostly alone": "Többnyire egyedül",
+          "#Often with family members": "Gyakran családtagokkal",
+          "#Often with colleagues or friends": "Gyakran kollégákkal vagy barátokkal"
+        },
+        "ar": {
+          "#On the trips you make most often during a typical week, do you usually travel alone or with other people?": "في الرحلات التي تقوم بها غالبًا خلال أسبوع عادي، هل تتنقل عادةً وحدك أم مع أشخاص آخرين؟",
+          "#Mostly alone": "غالبًا وحدي",
+          "#Often with family members": "غالبًا مع أفراد العائلة",
+          "#Often with colleagues or friends": "غالبًا مع الزملاء أو الأصدقاء"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_daily_travel"
+      ]
+    }
+  }
+}

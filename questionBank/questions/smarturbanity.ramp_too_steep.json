@@ -1,0 +1,87 @@
+{
+  "question_id": "smarturbanity.ramp_too_steep",
+  "project": "SmartUrbanity",
+  "key": "ramp_too_steep",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Is the ramp too steep for a wheelchair or stroller?",
+        "answer_key": "ramp_too_steep",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No",
+            "value": "no"
+          },
+          {
+            "text": "Yes",
+            "value": "yes"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#Is the ramp too steep for a wheelchair or stroller?": "Is the ramp too steep for a wheelchair or stroller?",
+          "#No": "No",
+          "#Yes": "Yes",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Is the ramp too steep for a wheelchair or stroller?": "La rampa è troppo ripida per una sedia a rotelle o un passeggino?",
+          "#No": "No",
+          "#Yes": "Sì",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Is the ramp too steep for a wheelchair or stroller?": "La rampe est-elle trop raide pour un fauteuil roulant ou une poussette ?",
+          "#No": "Non",
+          "#Yes": "Oui",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Is the ramp too steep for a wheelchair or stroller?": "Ist die Rampe zu steil für einen Rollstuhl oder Kinderwagen?",
+          "#No": "Nein",
+          "#Yes": "Ja",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Is the ramp too steep for a wheelchair or stroller?": "Rampa tekerlekli sandalye veya bebek arabası için çok mu dik?",
+          "#No": "Hayır",
+          "#Yes": "Evet",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Is the ramp too steep for a wheelchair or stroller?": "آیا رمپ برای ویلچر یا کالسکه بیش از حد شیب‌دار است؟",
+          "#No": "خیر",
+          "#Yes": "بله",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Is the ramp too steep for a wheelchair or stroller?": "Túl meredek-e a rámpa kerekesszékhez vagy babakocsihoz?",
+          "#No": "Nem",
+          "#Yes": "Igen",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Is the ramp too steep for a wheelchair or stroller?": "هل المنحدر شديد الانحدار بالنسبة إلى كرسي متحرك أو عربة أطفال؟",
+          "#No": "لا",
+          "#Yes": "نعم",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

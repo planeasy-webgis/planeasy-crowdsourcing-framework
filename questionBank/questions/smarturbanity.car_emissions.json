@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.car_emissions",
+  "project": "SmartUrbanity",
+  "key": "car_emissions",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_car",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_car"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "To what extent do emissions concerns influence your travel behavior?",
+        "answer_key": "car_emissions",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not at all, emissions concerns do not influence my travel choices",
+            "value": "not_at_all_emissions_concerns_do_not_inf"
+          },
+          {
+            "text": "Slightly, I occasionally think about emissions when choosing how to travel",
+            "value": "slightly_i_occasionally_think_about_emis"
+          },
+          {
+            "text": "Moderately, emissions concerns sometimes influence my travel decisions",
+            "value": "moderately_emissions_concerns_sometimes"
+          },
+          {
+            "text": "Strongly, emissions concerns regularly affect how I travel",
+            "value": "strongly_emissions_concerns_regularly_af"
+          },
+          {
+            "text": "Very strongly, I actively try to reduce car use because of emissions concerns",
+            "value": "very_strongly_i_actively_try_to_reduce_c"
+          }
+        ],
+        "legacy_answer_keys": [
+          "car_emissions_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#To what extent do emissions concerns influence your travel behavior?": "To what extent do emissions concerns influence your travel behavior?",
+          "#Not at all, emissions concerns do not influence my travel choices": "Not at all, emissions concerns do not influence my travel choices",
+          "#Slightly, I occasionally think about emissions when choosing how to travel": "Slightly, I occasionally think about emissions when choosing how to travel",
+          "#Moderately, emissions concerns sometimes influence my travel decisions": "Moderately, emissions concerns sometimes influence my travel decisions",
+          "#Strongly, emissions concerns regularly affect how I travel": "Strongly, emissions concerns regularly affect how I travel",
+          "#Very strongly, I actively try to reduce car use because of emissions concerns": "Very strongly, I actively try to reduce car use because of emissions concerns"
+        },
+        "it": {
+          "#To what extent do emissions concerns influence your travel behavior?": "In che misura le preoccupazioni relative alle emissioni influenzano le tue scelte di viaggio?",
+          "#Not at all, emissions concerns do not influence my travel choices": "Per niente, le preoccupazioni relative alle emissioni non influenzano le mie scelte di viaggio",
+          "#Slightly, I occasionally think about emissions when choosing how to travel": "Poco, occasionalmente penso alle emissioni quando scelgo come spostarmi",
+          "#Moderately, emissions concerns sometimes influence my travel decisions": "Moderatamente, le preoccupazioni relative alle emissioni a volte influenzano le mie decisioni di viaggio",
+          "#Strongly, emissions concerns regularly affect how I travel": "Molto, le preoccupazioni relative alle emissioni influenzano regolarmente il mio modo di spostarmi",
+          "#Very strongly, I actively try to reduce car use because of emissions concerns": "Moltissimo, cerco attivamente di ridurre l'uso dell'auto a causa delle preoccupazioni relative alle emissioni"
+        },
+        "fr": {
+          "#To what extent do emissions concerns influence your travel behavior?": "Dans quelle mesure les émissions polluantes influencent-elles vos choix de déplacement ?",
+          "#Not at all, emissions concerns do not influence my travel choices": "Pas du tout : les émissions n’influencent pas mes choix de déplacement",
+          "#Slightly, I occasionally think about emissions when choosing how to travel": "Un peu : je pense parfois aux émissions quand je choisis comment me déplacer",
+          "#Moderately, emissions concerns sometimes influence my travel decisions": "Modérément : les émissions influencent parfois mes décisions de déplacement",
+          "#Strongly, emissions concerns regularly affect how I travel": "Beaucoup : les émissions influencent régulièrement ma façon de me déplacer",
+          "#Very strongly, I actively try to reduce car use because of emissions concerns": "Énormément : j’essaie activement de moins utiliser la voiture à cause des émissions"
+        },
+        "de": {
+          "#To what extent do emissions concerns influence your travel behavior?": "Wie stark beeinflussen Bedenken wegen Emissionen Ihre Verkehrsmittelwahl?",
+          "#Not at all, emissions concerns do not influence my travel choices": "Gar nicht: Emissionen beeinflussen meine Wahl nicht",
+          "#Slightly, I occasionally think about emissions when choosing how to travel": "Etwas: Ich denke gelegentlich an Emissionen, wenn ich entscheide, wie ich fahre",
+          "#Moderately, emissions concerns sometimes influence my travel decisions": "Mäßig: Emissionen beeinflussen manchmal meine Entscheidungen",
+          "#Strongly, emissions concerns regularly affect how I travel": "Stark: Emissionen beeinflussen regelmäßig, wie ich mich fortbewege",
+          "#Very strongly, I actively try to reduce car use because of emissions concerns": "Sehr stark: Wegen der Emissionen versuche ich aktiv, weniger Auto zu fahren"
+        },
+        "tr": {
+          "#To what extent do emissions concerns influence your travel behavior?": "Emisyonlarla ilgili kaygılar ulaşım tercihlerinizi ne ölçüde etkiler?",
+          "#Not at all, emissions concerns do not influence my travel choices": "Hiç etkilemez: emisyon kaygıları ulaşım tercihlerimi değiştirmez",
+          "#Slightly, I occasionally think about emissions when choosing how to travel": "Biraz etkiler: nasıl gideceğime karar verirken bazen emisyonları düşünürüm",
+          "#Moderately, emissions concerns sometimes influence my travel decisions": "Orta düzeyde etkiler: emisyon kaygıları bazen kararlarımı etkiler",
+          "#Strongly, emissions concerns regularly affect how I travel": "Çok etkiler: emisyon kaygıları ulaşım şeklimi düzenli olarak etkiler",
+          "#Very strongly, I actively try to reduce car use because of emissions concerns": "Çok güçlü etkiler: emisyonlar nedeniyle otomobil kullanımımı azaltmaya özellikle çalışırım"
+        },
+        "fa": {
+          "#To what extent do emissions concerns influence your travel behavior?": "نگرانی درباره آلایندگی تا چه اندازه بر انتخاب‌های سفر شما اثر می‌گذارد؟",
+          "#Not at all, emissions concerns do not influence my travel choices": "اصلاً؛ نگرانی درباره آلایندگی بر انتخاب من اثر ندارد",
+          "#Slightly, I occasionally think about emissions when choosing how to travel": "کمی؛ گاهی هنگام انتخاب روش سفر به آلایندگی فکر می‌کنم",
+          "#Moderately, emissions concerns sometimes influence my travel decisions": "تا حد متوسط؛ نگرانی درباره آلایندگی گاهی بر تصمیم من اثر می‌گذارد",
+          "#Strongly, emissions concerns regularly affect how I travel": "زیاد؛ نگرانی درباره آلایندگی مرتب بر نحوه رفت‌وآمد من اثر می‌گذارد",
+          "#Very strongly, I actively try to reduce car use because of emissions concerns": "خیلی زیاد؛ به دلیل نگرانی درباره آلایندگی تلاش می‌کنم استفاده از خودرو را کاهش دهم"
+        },
+        "hu": {
+          "#To what extent do emissions concerns influence your travel behavior?": "Mennyire befolyásolják a károsanyag-kibocsátással kapcsolatos szempontok az utazási döntéseit?",
+          "#Not at all, emissions concerns do not influence my travel choices": "Egyáltalán nem: a kibocsátás nem befolyásolja az utazási döntéseimet",
+          "#Slightly, I occasionally think about emissions when choosing how to travel": "Kissé: néha gondolok a kibocsátásra, amikor eldöntöm, hogyan utazzak",
+          "#Moderately, emissions concerns sometimes influence my travel decisions": "Közepesen: a kibocsátás néha befolyásolja a döntéseimet",
+          "#Strongly, emissions concerns regularly affect how I travel": "Erősen: a kibocsátás rendszeresen befolyásolja, hogyan közlekedem",
+          "#Very strongly, I actively try to reduce car use because of emissions concerns": "Nagyon erősen: a kibocsátás miatt tudatosan próbálom csökkenteni az autóhasználatot"
+        },
+        "ar": {
+          "#To what extent do emissions concerns influence your travel behavior?": "إلى أي مدى تؤثر مخاوف الانبعاثات في اختياراتك للتنقل؟",
+          "#Not at all, emissions concerns do not influence my travel choices": "لا تؤثر إطلاقًا؛ مخاوف الانبعاثات لا تغير اختياراتي",
+          "#Slightly, I occasionally think about emissions when choosing how to travel": "تؤثر قليلًا؛ أفكر أحيانًا في الانبعاثات عندما أقرر كيف أتنقل",
+          "#Moderately, emissions concerns sometimes influence my travel decisions": "تؤثر بدرجة متوسطة؛ مخاوف الانبعاثات تؤثر أحيانًا في قراراتي",
+          "#Strongly, emissions concerns regularly affect how I travel": "تؤثر كثيرًا؛ مخاوف الانبعاثات تؤثر بانتظام في طريقة تنقلي",
+          "#Very strongly, I actively try to reduce car use because of emissions concerns": "تؤثر كثيرًا جدًا؛ أحاول بوعي تقليل استخدام السيارة بسبب الانبعاثات"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_car"
+      ]
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "question_id": "smarturbanity.avoided_reasons",
+  "project": "SmartUrbanity",
+  "key": "avoided_reasons",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Why did you avoid it? (Select all that apply. You can then mark it on the map.)",
+        "answer_key": "avoided_reasons",
+        "question_type": "multiple_options",
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Heavy or fast traffic",
+            "value": "traffic"
+          },
+          {
+            "text": "A dangerous crossing",
+            "value": "dangerous_crossing"
+          },
+          {
+            "text": "Bad pavement or road surface",
+            "value": "bad_surface"
+          },
+          {
+            "text": "Obstacles or roadworks",
+            "value": "obstacles"
+          },
+          {
+            "text": "Too dark",
+            "value": "dark"
+          },
+          {
+            "text": "Empty or isolated",
+            "value": "isolated"
+          },
+          {
+            "text": "Too crowded",
+            "value": "crowded"
+          },
+          {
+            "text": "Slopes or stairs",
+            "value": "slope"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Why did you avoid it? (Select all that apply. You can then mark it on the map.)": "Why did you avoid it? (Select all that apply. You can then mark it on the map.)",
+          "#Heavy or fast traffic": "Heavy or fast traffic",
+          "#A dangerous crossing": "A dangerous crossing",
+          "#Bad pavement or road surface": "Bad pavement or road surface",
+          "#Obstacles or roadworks": "Obstacles or roadworks",
+          "#Too dark": "Too dark",
+          "#Empty or isolated": "Empty or isolated",
+          "#Too crowded": "Too crowded",
+          "#Slopes or stairs": "Slopes or stairs"
+        },
+        "it": {
+          "#Why did you avoid it? (Select all that apply. You can then mark it on the map.)": "Perché l'hai evitato? (Puoi sceglierne più di uno. Dopo puoi segnarlo sulla mappa.)",
+          "#Heavy or fast traffic": "Traffico intenso o veloce",
+          "#A dangerous crossing": "Un attraversamento pericoloso",
+          "#Bad pavement or road surface": "Marciapiede o fondo stradale rovinato",
+          "#Obstacles or roadworks": "Ostacoli o lavori in corso",
+          "#Too dark": "Troppo buio",
+          "#Empty or isolated": "Vuoto o isolato",
+          "#Too crowded": "Troppo affollato",
+          "#Slopes or stairs": "Salite o scale"
+        },
+        "fr": {
+          "#Why did you avoid it? (Select all that apply. You can then mark it on the map.)": "Pourquoi l’avez-vous évité ? (Sélectionnez toutes les réponses qui s’appliquent. Vous pourrez ensuite le marquer sur la carte.)",
+          "#Heavy or fast traffic": "Circulation dense ou rapide",
+          "#A dangerous crossing": "Un passage dangereux",
+          "#Bad pavement or road surface": "Mauvais trottoir ou chaussée en mauvais état",
+          "#Obstacles or roadworks": "Obstacles ou travaux",
+          "#Too dark": "Trop sombre",
+          "#Empty or isolated": "Vide ou isolé",
+          "#Too crowded": "Trop de monde",
+          "#Slopes or stairs": "Pentes ou escaliers"
+        },
+        "de": {
+          "#Why did you avoid it? (Select all that apply. You can then mark it on the map.)": "Warum haben Sie ihn gemieden? (Alle zutreffenden auswählen. Sie können ihn anschließend auf der Karte markieren.)",
+          "#Heavy or fast traffic": "Dichter oder schneller Verkehr",
+          "#A dangerous crossing": "Eine gefährliche Querung",
+          "#Bad pavement or road surface": "Schlechter Gehweg oder schlechte Fahrbahn",
+          "#Obstacles or roadworks": "Hindernisse oder Baustellen",
+          "#Too dark": "Zu dunkel",
+          "#Empty or isolated": "Leer oder abgelegen",
+          "#Too crowded": "Zu voll",
+          "#Slopes or stairs": "Steigungen oder Treppen"
+        },
+        "tr": {
+          "#Why did you avoid it? (Select all that apply. You can then mark it on the map.)": "Neden kaçındınız? (Uygun olanların tümünü seçin. Ardından haritada işaretleyebilirsiniz.)",
+          "#Heavy or fast traffic": "Yoğun veya hızlı trafik",
+          "#A dangerous crossing": "Tehlikeli bir geçit",
+          "#Bad pavement or road surface": "Bozuk kaldırım veya yol yüzeyi",
+          "#Obstacles or roadworks": "Engeller veya yol çalışması",
+          "#Too dark": "Çok karanlık",
+          "#Empty or isolated": "Boş veya ıssız",
+          "#Too crowded": "Çok kalabalık",
+          "#Slopes or stairs": "Eğimler veya merdivenler"
+        },
+        "fa": {
+          "#Why did you avoid it? (Select all that apply. You can then mark it on the map.)": "چرا از آن دوری کردید؟ (همه موارد مربوط را انتخاب کنید. سپس می‌توانید آن را روی نقشه علامت بزنید.)",
+          "#Heavy or fast traffic": "ترافیک سنگین یا پرسرعت",
+          "#A dangerous crossing": "گذرگاه خطرناک",
+          "#Bad pavement or road surface": "پیاده‌رو یا سطح جاده خراب",
+          "#Obstacles or roadworks": "موانع یا عملیات جاده‌ای",
+          "#Too dark": "بیش از حد تاریک",
+          "#Empty or isolated": "خالی یا دورافتاده",
+          "#Too crowded": "بیش از حد شلوغ",
+          "#Slopes or stairs": "شیب یا پله"
+        },
+        "hu": {
+          "#Why did you avoid it? (Select all that apply. You can then mark it on the map.)": "Miért kerülte el? (Jelölje meg az összes megfelelőt. Ezután megjelölheti a térképen.)",
+          "#Heavy or fast traffic": "Sűrű vagy gyors forgalom",
+          "#A dangerous crossing": "Veszélyes átkelő",
+          "#Bad pavement or road surface": "Rossz járda vagy útburkolat",
+          "#Obstacles or roadworks": "Akadályok vagy útfelújítás",
+          "#Too dark": "Túl sötét",
+          "#Empty or isolated": "Kihalt vagy elszigetelt",
+          "#Too crowded": "Túl zsúfolt",
+          "#Slopes or stairs": "Emelkedők vagy lépcsők"
+        },
+        "ar": {
+          "#Why did you avoid it? (Select all that apply. You can then mark it on the map.)": "لماذا تجنبته؟ (اختر كل ما ينطبق. يمكنك بعد ذلك تحديده على الخريطة.)",
+          "#Heavy or fast traffic": "حركة مرور كثيفة أو سريعة",
+          "#A dangerous crossing": "معبر خطير",
+          "#Bad pavement or road surface": "رصيف أو سطح طريق سيئ",
+          "#Obstacles or roadworks": "عوائق أو أشغال طرق",
+          "#Too dark": "مظلم جدًا",
+          "#Empty or isolated": "خالٍ أو معزول",
+          "#Too crowded": "مزدحم جدًا",
+          "#Slopes or stairs": "منحدرات أو درج"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_post_trip"
+      ]
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.bike_hazard_confidence",
+  "project": "SmartUrbanity",
+  "key": "bike_hazard_confidence",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_cycling",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_cycling"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?",
+        "answer_key": "bike_hazard_confidence",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not confident at all — I feel unprepared for these situations",
+            "value": "not_confident_at_all_i_feel_unprepared_f"
+          },
+          {
+            "text": "Slightly confident — I am aware of the risks but often feel caught off guard",
+            "value": "slightly_confident_i_am_aware_of_the_ris"
+          },
+          {
+            "text": "Moderately confident — I manage most situations but some still worry me",
+            "value": "moderately_confident_i_manage_most_situa"
+          },
+          {
+            "text": "Quite confident — I anticipate most hazards and respond well",
+            "value": "quite_confident_i_anticipate_most_hazard"
+          },
+          {
+            "text": "Very confident — I feel well prepared for all typical cycling hazards",
+            "value": "very_confident_i_feel_well_prepared_for"
+          }
+        ],
+        "legacy_answer_keys": [
+          "bike_hazard_confidence_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?",
+          "#Not confident at all — I feel unprepared for these situations": "Not confident at all — I feel unprepared for these situations",
+          "#Slightly confident — I am aware of the risks but often feel caught off guard": "Slightly confident — I am aware of the risks but often feel caught off guard",
+          "#Moderately confident — I manage most situations but some still worry me": "Moderately confident — I manage most situations but some still worry me",
+          "#Quite confident — I anticipate most hazards and respond well": "Quite confident — I anticipate most hazards and respond well",
+          "#Very confident — I feel well prepared for all typical cycling hazards": "Very confident — I feel well prepared for all typical cycling hazards"
+        },
+        "it": {
+          "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Quanto ti senti sicuro/a della tua capacità di prevedere e affrontare situazioni pericolose mentre pedali, ad esempio porte di auto che si aprono improvvisamente, veicoli che tagliano la strada o incroci con scarsa visibilità?",
+          "#Not confident at all — I feel unprepared for these situations": "Per niente sicuro/a — mi sento impreparato/a ad affrontare queste situazioni",
+          "#Slightly confident — I am aware of the risks but often feel caught off guard": "Poco sicuro/a — sono consapevole dei rischi, ma spesso vengo colto/a di sorpresa",
+          "#Moderately confident — I manage most situations but some still worry me": "Moderatamente sicuro/a — gestisco la maggior parte delle situazioni, ma alcune mi preoccupano ancora",
+          "#Quite confident — I anticipate most hazards and respond well": "Abbastanza sicuro/a — prevedo la maggior parte dei pericoli e reagisco bene",
+          "#Very confident — I feel well prepared for all typical cycling hazards": "Molto sicuro/a — mi sento ben preparato/a ad affrontare i pericoli tipici della mobilità ciclistica"
+        },
+        "fr": {
+          "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "À quel point vous sentez-vous capable d’anticiper et de réagir aux situations dangereuses à vélo, par exemple une portière qui s’ouvre soudainement, un véhicule qui coupe votre trajectoire ou un carrefour avec mauvaise visibilité ?",
+          "#Not confident at all — I feel unprepared for these situations": "Pas du tout en confiance — je ne me sens pas préparé(e) à ces situations",
+          "#Slightly confident — I am aware of the risks but often feel caught off guard": "Un peu en confiance — je connais les risques, mais je suis souvent surpris(e)",
+          "#Moderately confident — I manage most situations but some still worry me": "Modérément en confiance — je gère la plupart des situations, mais certaines m’inquiètent encore",
+          "#Quite confident — I anticipate most hazards and respond well": "Plutôt en confiance — j’anticipe la plupart des dangers et je réagis correctement",
+          "#Very confident — I feel well prepared for all typical cycling hazards": "Très en confiance — je me sens bien préparé(e) aux dangers habituels à vélo"
+        },
+        "de": {
+          "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Wie sicher fühlen Sie sich darin, gefährliche Situationen beim Radfahren früh zu erkennen und darauf zu reagieren, zum Beispiel plötzlich geöffnete Autotüren, abbiegende Fahrzeuge oder unübersichtliche Kreuzungen?",
+          "#Not confident at all — I feel unprepared for these situations": "Gar nicht sicher — ich fühle mich auf solche Situationen nicht vorbereitet",
+          "#Slightly confident — I am aware of the risks but often feel caught off guard": "Etwas sicher — ich kenne die Risiken, werde aber oft überrascht",
+          "#Moderately confident — I manage most situations but some still worry me": "Mäßig sicher — ich komme mit den meisten Situationen zurecht, manche machen mir aber noch Sorgen",
+          "#Quite confident — I anticipate most hazards and respond well": "Ziemlich sicher — ich erkenne die meisten Gefahren früh und reagiere gut",
+          "#Very confident — I feel well prepared for all typical cycling hazards": "Sehr sicher — ich fühle mich auf die typischen Gefahren beim Radfahren gut vorbereitet"
+        },
+        "tr": {
+          "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Bisiklet sürerken tehlikeli durumları önceden fark edip tepki verme konusunda kendinizi ne kadar güvende hissediyorsunuz? Örneğin aniden açılan otomobil kapıları, önünüzü kesen araçlar veya görüşü kısıtlı kavşaklar.",
+          "#Not confident at all — I feel unprepared for these situations": "Hiç güvende hissetmiyorum — bu durumlara hazırlıklı hissetmiyorum",
+          "#Slightly confident — I am aware of the risks but often feel caught off guard": "Biraz güvende hissediyorum — riskleri biliyorum ama sık sık hazırlıksız yakalanıyorum",
+          "#Moderately confident — I manage most situations but some still worry me": "Orta düzeyde güvende hissediyorum — çoğu durumla başa çıkıyorum ama bazıları hâlâ beni endişelendiriyor",
+          "#Quite confident — I anticipate most hazards and respond well": "Oldukça güvende hissediyorum — çoğu tehlikeyi önceden fark edip uygun şekilde tepki veriyorum",
+          "#Very confident — I feel well prepared for all typical cycling hazards": "Çok güvende hissediyorum — bisiklet kullanırken karşılaşılabilecek tipik tehlikelere iyi hazırlandığımı düşünüyorum"
+        },
+        "fa": {
+          "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "در پیش‌بینی و واکنش به موقعیت‌های خطرناک هنگام دوچرخه‌سواری چقدر به توانایی خود اطمینان دارید؟ مثلاً باز شدن ناگهانی در خودرو، پیچیدن خودرو جلوی شما یا تقاطع با دید محدود.",
+          "#Not confident at all — I feel unprepared for these situations": "اصلاً مطمئن نیستم — برای این موقعیت‌ها آماده نیستم",
+          "#Slightly confident — I am aware of the risks but often feel caught off guard": "کمی مطمئنم — خطرها را می‌شناسم اما اغلب غافلگیر می‌شوم",
+          "#Moderately confident — I manage most situations but some still worry me": "تا حد متوسط مطمئنم — بیشتر موقعیت‌ها را مدیریت می‌کنم، اما بعضی هنوز نگرانم می‌کنند",
+          "#Quite confident — I anticipate most hazards and respond well": "نسبتاً مطمئنم — بیشتر خطرها را از قبل تشخیص می‌دهم و خوب واکنش نشان می‌دهم",
+          "#Very confident — I feel well prepared for all typical cycling hazards": "خیلی مطمئنم — برای خطرهای معمول دوچرخه‌سواری آمادگی خوبی دارم"
+        },
+        "hu": {
+          "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Mennyire érzi magát magabiztosnak abban, hogy előre felismeri és kezeli a veszélyes helyzeteket kerékpározás közben, például hirtelen kinyíló autóajtót, elé forduló járművet vagy beláthatatlan kereszteződést?",
+          "#Not confident at all — I feel unprepared for these situations": "Egyáltalán nem vagyok magabiztos — nem érzem magam felkészültnek ezekre a helyzetekre",
+          "#Slightly confident — I am aware of the risks but often feel caught off guard": "Kissé magabiztos vagyok — ismerem a kockázatokat, de gyakran váratlanul érnek",
+          "#Moderately confident — I manage most situations but some still worry me": "Közepesen magabiztos vagyok — a legtöbb helyzetet kezelem, de néhány még aggaszt",
+          "#Quite confident — I anticipate most hazards and respond well": "Elég magabiztos vagyok — a legtöbb veszélyt előre észreveszem és megfelelően reagálok",
+          "#Very confident — I feel well prepared for all typical cycling hazards": "Nagyon magabiztos vagyok — jól felkészültnek érzem magam a kerékpározás tipikus veszélyeire"
+        },
+        "ar": {
+          "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "ما مدى ثقتك في قدرتك على توقع المواقف الخطرة والتعامل معها أثناء ركوب الدراجة، مثل فتح باب سيارة فجأة أو قطع مركبة لطريقك أو تقاطع محدود الرؤية؟",
+          "#Not confident at all — I feel unprepared for these situations": "لست واثقًا إطلاقًا — لا أشعر أنني مستعد لهذه المواقف",
+          "#Slightly confident — I am aware of the risks but often feel caught off guard": "واثق قليلًا — أعرف المخاطر لكنني أفاجأ بها كثيرًا",
+          "#Moderately confident — I manage most situations but some still worry me": "واثق بدرجة متوسطة — أتعامل مع معظم المواقف لكن بعضها ما زال يقلقني",
+          "#Quite confident — I anticipate most hazards and respond well": "واثق إلى حد كبير — أتوقع معظم المخاطر وأستجيب جيدًا",
+          "#Very confident — I feel well prepared for all typical cycling hazards": "واثق جدًا — أشعر أنني مستعد جيدًا للمخاطر المعتادة عند ركوب الدراجة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_cycling"
+      ]
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "question_id": "smarturbanity.lanes_crossed",
+  "project": "SmartUrbanity",
+  "key": "lanes_crossed",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How many traffic lanes must people cross here?",
+        "help": "A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.",
+        "answer_key": "lanes_crossed",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "1 lane",
+            "value": "1"
+          },
+          {
+            "text": "2 lanes",
+            "value": "2"
+          },
+          {
+            "text": "3 lanes",
+            "value": "3"
+          },
+          {
+            "text": "4 lanes",
+            "value": "4"
+          },
+          {
+            "text": "5 or more lanes",
+            "value": "5_plus"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How many traffic lanes must people cross here?": "How many traffic lanes must people cross here?",
+          "#A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.": "A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.",
+          "#1 lane": "1 lane",
+          "#2 lanes": "2 lanes",
+          "#3 lanes": "3 lanes",
+          "#4 lanes": "4 lanes",
+          "#5 or more lanes": "5 or more lanes",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How many traffic lanes must people cross here?": "Quante corsie di traffico devono attraversare le persone qui?",
+          "#A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.": "Una corsia è una fascia di strada per una fila di veicoli in movimento. Le corsie degli autobus contano, i posti auto no.",
+          "#1 lane": "1 corsia",
+          "#2 lanes": "2 corsie",
+          "#3 lanes": "3 corsie",
+          "#4 lanes": "4 corsie",
+          "#5 or more lanes": "5 o più corsie",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How many traffic lanes must people cross here?": "Combien de voies de circulation faut-il traverser ici ?",
+          "#A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.": "Une voie de circulation est une bande de route pour une file de véhicules en mouvement. Les voies de bus comptent, les places de stationnement non.",
+          "#1 lane": "1 voie",
+          "#2 lanes": "2 voies",
+          "#3 lanes": "3 voies",
+          "#4 lanes": "4 voies",
+          "#5 or more lanes": "5 voies ou plus",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How many traffic lanes must people cross here?": "Wie viele Fahrspuren müssen hier überquert werden?",
+          "#A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.": "Eine Fahrspur ist ein Fahrbahnstreifen für eine Reihe fahrender Fahrzeuge. Busspuren zählen mit, Parkplätze nicht.",
+          "#1 lane": "1 Fahrspur",
+          "#2 lanes": "2 Fahrspuren",
+          "#3 lanes": "3 Fahrspuren",
+          "#4 lanes": "4 Fahrspuren",
+          "#5 or more lanes": "5 oder mehr Fahrspuren",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How many traffic lanes must people cross here?": "Burada kaç trafik şeridi geçilmelidir?",
+          "#A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.": "Trafik şeridi, hareket hâlindeki tek sıra araç için ayrılmış yol şerididir. Otobüs şeritleri sayılır, park yerleri sayılmaz.",
+          "#1 lane": "1 şerit",
+          "#2 lanes": "2 şerit",
+          "#3 lanes": "3 şerit",
+          "#4 lanes": "4 şerit",
+          "#5 or more lanes": "5 veya daha fazla şerit",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How many traffic lanes must people cross here?": "در اینجا چند خط عبور خودرو باید طی شود؟",
+          "#A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.": "خط عبور نواری از خیابان برای یک ردیف خودروی در حال حرکت است. خط اتوبوس حساب می‌شود، جای پارک نه.",
+          "#1 lane": "۱ خط",
+          "#2 lanes": "۲ خط",
+          "#3 lanes": "۳ خط",
+          "#4 lanes": "۴ خط",
+          "#5 or more lanes": "۵ خط یا بیشتر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How many traffic lanes must people cross here?": "Hány forgalmi sávot kell itt keresztezni?",
+          "#A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.": "A forgalmi sáv az úttest egy sávja egy sor haladó jármű számára. A buszsávok számítanak, a parkolóhelyek nem.",
+          "#1 lane": "1 sáv",
+          "#2 lanes": "2 sáv",
+          "#3 lanes": "3 sáv",
+          "#4 lanes": "4 sáv",
+          "#5 or more lanes": "5 vagy több sáv",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How many traffic lanes must people cross here?": "كم مسارًا مروريًا يجب عبوره هنا؟",
+          "#A traffic lane is a strip of road for one line of moving vehicles. Bus lanes count, parking spaces do not.": "حارة السير شريط من الطريق لصف واحد من المركبات المتحركة. تُحسب حارات الحافلات، ولا تُحسب أماكن الوقوف.",
+          "#1 lane": "مسار واحد",
+          "#2 lanes": "مساران",
+          "#3 lanes": "3 مسارات",
+          "#4 lanes": "4 مسارات",
+          "#5 or more lanes": "5 مسارات أو أكثر",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

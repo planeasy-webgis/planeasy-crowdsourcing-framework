@@ -1,0 +1,123 @@
+{
+  "question_id": "smarturbanity.desired_bike_facility",
+  "project": "SmartUrbanity",
+  "key": "desired_bike_facility",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Should a continuous cycle lane or path be added here?",
+        "help": "A continuous cycle lane or path runs along the whole stretch without gaps.",
+        "answer_key": "desired_bike_facility",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No",
+            "value": "1_no"
+          },
+          {
+            "text": "Probably not",
+            "value": "2_probably_no"
+          },
+          {
+            "text": "Not sure",
+            "value": "3_not_sure"
+          },
+          {
+            "text": "Probably yes",
+            "value": "4_probably_yes"
+          },
+          {
+            "text": "Yes",
+            "value": "5_yes"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Should a continuous cycle lane or path be added here?": "Should a continuous cycle lane or path be added here?",
+          "#A continuous cycle lane or path runs along the whole stretch without gaps.": "A continuous cycle lane or path runs along the whole stretch without gaps.",
+          "#No": "No",
+          "#Probably not": "Probably not",
+          "#Not sure": "Not sure",
+          "#Probably yes": "Probably yes",
+          "#Yes": "Yes"
+        },
+        "it": {
+          "#Should a continuous cycle lane or path be added here?": "Servirebbe qui una corsia o pista ciclabile continua?",
+          "#A continuous cycle lane or path runs along the whole stretch without gaps.": "Una corsia o pista ciclabile continua percorre tutto il tratto senza interruzioni.",
+          "#No": "No",
+          "#Probably not": "Probabilmente no",
+          "#Not sure": "Non saprei",
+          "#Probably yes": "Probabilmente sì",
+          "#Yes": "Sì"
+        },
+        "fr": {
+          "#Should a continuous cycle lane or path be added here?": "Faudrait-il ajouter ici une bande ou piste cyclable continue ?",
+          "#A continuous cycle lane or path runs along the whole stretch without gaps.": "Une bande ou piste cyclable continue suit tout le tronçon sans interruption.",
+          "#No": "Non",
+          "#Probably not": "Probablement pas",
+          "#Not sure": "Je ne sais pas",
+          "#Probably yes": "Probablement oui",
+          "#Yes": "Oui"
+        },
+        "de": {
+          "#Should a continuous cycle lane or path be added here?": "Sollte hier ein durchgehender Radfahrstreifen oder Radweg angelegt werden?",
+          "#A continuous cycle lane or path runs along the whole stretch without gaps.": "Ein durchgehender Radstreifen oder Radweg verläuft ohne Lücken über den ganzen Abschnitt.",
+          "#No": "Nein",
+          "#Probably not": "Eher nein",
+          "#Not sure": "Nicht sicher",
+          "#Probably yes": "Eher ja",
+          "#Yes": "Ja"
+        },
+        "tr": {
+          "#Should a continuous cycle lane or path be added here?": "Buraya kesintisiz bir bisiklet şeridi veya yolu eklenmeli mi?",
+          "#A continuous cycle lane or path runs along the whole stretch without gaps.": "Kesintisiz bisiklet şeridi veya yolu, bölüm boyunca hiç kesilmeden devam eder.",
+          "#No": "Hayır",
+          "#Probably not": "Muhtemelen hayır",
+          "#Not sure": "Emin değilim",
+          "#Probably yes": "Muhtemelen evet",
+          "#Yes": "Evet"
+        },
+        "fa": {
+          "#Should a continuous cycle lane or path be added here?": "آیا باید اینجا یک خط یا مسیر دوچرخه پیوسته اضافه شود؟",
+          "#A continuous cycle lane or path runs along the whole stretch without gaps.": "خط یا مسیر دوچرخهٔ پیوسته بدون قطعی در تمام این بخش امتداد دارد.",
+          "#No": "خیر",
+          "#Probably not": "احتمالاً خیر",
+          "#Not sure": "مطمئن نیستم",
+          "#Probably yes": "احتمالاً بله",
+          "#Yes": "بله"
+        },
+        "hu": {
+          "#Should a continuous cycle lane or path be added here?": "Kellene-e itt folyamatos kerékpársávot vagy -utat kialakítani?",
+          "#A continuous cycle lane or path runs along the whole stretch without gaps.": "A folyamatos kerékpársáv vagy kerékpárút megszakítás nélkül fut végig a teljes szakaszon.",
+          "#No": "Nem",
+          "#Probably not": "Valószínűleg nem",
+          "#Not sure": "Nem biztos",
+          "#Probably yes": "Valószínűleg igen",
+          "#Yes": "Igen"
+        },
+        "ar": {
+          "#Should a continuous cycle lane or path be added here?": "هل يجب إضافة مسار أو ممر متصل للدراجات هنا؟",
+          "#A continuous cycle lane or path runs along the whole stretch without gaps.": "حارة أو مسار الدراجات المتصل يمتد على طول المقطع كله بلا انقطاع.",
+          "#No": "لا",
+          "#Probably not": "على الأرجح لا",
+          "#Not sure": "غير متأكد",
+          "#Probably yes": "على الأرجح نعم",
+          "#Yes": "نعم"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

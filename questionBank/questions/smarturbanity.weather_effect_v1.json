@@ -1,0 +1,113 @@
+{
+  "question_id": "smarturbanity.weather_effect_v1",
+  "project": "SmartUrbanity",
+  "key": "weather_effect_v1",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_safety_environment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_safety_environment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?",
+        "answer_key": "weather_effect_v1",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "No effect at all",
+            "value": "no_effect_at_all"
+          },
+          {
+            "text": "It makes my journey less comfortable, but I do not change how I travel",
+            "value": "it_makes_my_journey_less_comfortable_but"
+          },
+          {
+            "text": "It makes me adjust how I travel (e.g., clothing, preparation, or route)",
+            "value": "it_makes_me_adjust_how_i_travel_e_g_clot"
+          },
+          {
+            "text": "It makes me postpone or avoid some trips when possible",
+            "value": "it_makes_me_postpone_or_avoid_some_trips"
+          },
+          {
+            "text": "It makes me switch to a different mode of transport",
+            "value": "it_makes_me_switch_to_a_different_mode_o"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?": "If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?",
+          "#No effect at all": "No effect at all",
+          "#It makes my journey less comfortable, but I do not change how I travel": "It makes my journey less comfortable, but I do not change how I travel",
+          "#It makes me adjust how I travel (e.g., clothing, preparation, or route)": "It makes me adjust how I travel (e.g., clothing, preparation, or route)",
+          "#It makes me postpone or avoid some trips when possible": "It makes me postpone or avoid some trips when possible",
+          "#It makes me switch to a different mode of transport": "It makes me switch to a different mode of transport"
+        },
+        "it": {
+          "#If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?": "In caso di condizioni meteorologiche sfavorevoli (ad es. pioggia, vento, freddo, caldo estremo o umidità), in che modo viene influenzato il tuo spostamento abituale?",
+          "#No effect at all": "Nessun effetto",
+          "#It makes my journey less comfortable, but I do not change how I travel": "Rende il mio spostamento meno confortevole, ma non cambio il modo in cui viaggio",
+          "#It makes me adjust how I travel (e.g., clothing, preparation, or route)": "Mi porta a modificare il modo in cui viaggio (ad es. abbigliamento, preparazione o percorso)",
+          "#It makes me postpone or avoid some trips when possible": "Mi porta a rimandare o evitare alcuni spostamenti quando possibile",
+          "#It makes me switch to a different mode of transport": "Mi porta a scegliere una modalità di trasporto diversa"
+        },
+        "fr": {
+          "#If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?": "Quand il fait mauvais, par exemple pluie, vent, froid, forte chaleur ou humidité, comment cela influence-t-il votre trajet habituel ?",
+          "#No effect at all": "Aucun effet",
+          "#It makes my journey less comfortable, but I do not change how I travel": "Cela rend mon trajet moins confortable, mais je ne change pas ma façon de me déplacer",
+          "#It makes me adjust how I travel (e.g., clothing, preparation, or route)": "Cela me fait adapter ma façon de me déplacer, par exemple mes vêtements, ma préparation ou mon itinéraire",
+          "#It makes me postpone or avoid some trips when possible": "Cela me fait reporter ou éviter certains déplacements quand c’est possible",
+          "#It makes me switch to a different mode of transport": "Cela me fait choisir un autre mode de transport"
+        },
+        "de": {
+          "#If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?": "Wenn das Wetter schlecht ist, zum Beispiel Regen, Wind, Kälte, starke Hitze oder hohe Luftfeuchtigkeit: Wie beeinflusst das Ihren typischen Weg?",
+          "#No effect at all": "Gar nicht",
+          "#It makes my journey less comfortable, but I do not change how I travel": "Es macht meinen Weg weniger angenehm, aber ich ändere nicht, wie ich unterwegs bin",
+          "#It makes me adjust how I travel (e.g., clothing, preparation, or route)": "Ich passe meine Art zu reisen an, zum Beispiel Kleidung, Vorbereitung oder Route",
+          "#It makes me postpone or avoid some trips when possible": "Ich verschiebe oder vermeide manche Wege, wenn es möglich ist",
+          "#It makes me switch to a different mode of transport": "Ich wechsle zu einem anderen Verkehrsmittel"
+        },
+        "tr": {
+          "#If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?": "Hava kötü olduğunda, örneğin yağmur, rüzgâr, soğuk, aşırı sıcak veya nem varsa, tipik yolculuğunuz nasıl etkilenir?",
+          "#No effect at all": "Hiç etkisi yok",
+          "#It makes my journey less comfortable, but I do not change how I travel": "Yolculuğumu daha az konforlu yapar ama nasıl seyahat ettiğimi değiştirmem",
+          "#It makes me adjust how I travel (e.g., clothing, preparation, or route)": "Nasıl seyahat ettiğimi değiştiririm; örneğin kıyafetimi, hazırlığımı veya güzergâhımı değiştiririm",
+          "#It makes me postpone or avoid some trips when possible": "Mümkün olduğunda bazı yolculukları erteler veya yapmam",
+          "#It makes me switch to a different mode of transport": "Başka bir ulaşım seçeneğine geçerim"
+        },
+        "fa": {
+          "#If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?": "اگر هوا نامساعد باشد، مثلاً باران، باد، سرما، گرمای شدید یا رطوبت، سفر معمول شما چگونه تحت تأثیر قرار می‌گیرد؟",
+          "#No effect at all": "اصلاً اثری ندارد",
+          "#It makes my journey less comfortable, but I do not change how I travel": "سفرم را کمتر راحت می‌کند، اما روش رفت‌وآمدم را تغییر نمی‌دهم",
+          "#It makes me adjust how I travel (e.g., clothing, preparation, or route)": "باعث می‌شود نحوه سفرم را تغییر دهم، مثلاً لباس، آمادگی یا مسیر را عوض کنم",
+          "#It makes me postpone or avoid some trips when possible": "اگر ممکن باشد بعضی سفرها را عقب می‌اندازم یا انجام نمی‌دهم",
+          "#It makes me switch to a different mode of transport": "به روش دیگری برای رفت‌وآمد تغییر می‌دهم"
+        },
+        "hu": {
+          "#If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?": "Ha rossz az idő, például eső, szél, hideg, nagy hőség vagy magas páratartalom van, hogyan befolyásolja ez a tipikus utazását?",
+          "#No effect at all": "Egyáltalán nincs hatása",
+          "#It makes my journey less comfortable, but I do not change how I travel": "Kényelmetlenebbé teszi az utat, de nem változtatom meg, hogyan közlekedem",
+          "#It makes me adjust how I travel (e.g., clothing, preparation, or route)": "Módosítom a közlekedésemet, például az öltözetet, a felkészülést vagy az útvonalat",
+          "#It makes me postpone or avoid some trips when possible": "Ha lehet, elhalasztok vagy elkerülök bizonyos utakat",
+          "#It makes me switch to a different mode of transport": "Más közlekedési módra váltok"
+        },
+        "ar": {
+          "#If the weather is poor (e.g., rain, wind, cold, extreme heat or humidity), how does it affect your typical journey?": "إذا كان الطقس سيئًا، مثل المطر أو الرياح أو البرد أو الحر الشديد أو الرطوبة، كيف يؤثر ذلك في رحلتك المعتادة؟",
+          "#No effect at all": "لا تأثير إطلاقًا",
+          "#It makes my journey less comfortable, but I do not change how I travel": "يجعل الرحلة أقل راحة، لكنني لا أغيّر طريقة تنقلي",
+          "#It makes me adjust how I travel (e.g., clothing, preparation, or route)": "يجعلني أعدّل طريقة التنقل، مثل الملابس أو الاستعداد أو الطريق",
+          "#It makes me postpone or avoid some trips when possible": "يجعلني أؤجل بعض الرحلات أو أتجنبها عندما يكون ذلك ممكنًا",
+          "#It makes me switch to a different mode of transport": "يجعلني أختار وسيلة نقل أخرى"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_safety_environment"
+      ]
+    }
+  }
+}

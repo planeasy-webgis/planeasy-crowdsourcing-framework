@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.bike_type",
+  "project": "SmartUrbanity",
+  "key": "bike_type",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_cycling",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_cycling"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which type of bicycle do you most often use?",
+        "answer_key": "bike_type",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Standard pedal bicycle (private)",
+            "value": "standard_pedal_bicycle_private"
+          },
+          {
+            "text": "Electric bicycle / e-bike (private)",
+            "value": "electric_bicycle_e_bike_private"
+          },
+          {
+            "text": "Shared / hire bicycle (docked or dockless)",
+            "value": "shared_hire_bicycle_docked_or_dockless"
+          },
+          {
+            "text": "Shared / hire e-bike",
+            "value": "shared_hire_e_bike"
+          },
+          {
+            "text": "Cargo bike or adapted bike",
+            "value": "cargo_bike_or_adapted_bike"
+          }
+        ],
+        "legacy_answer_keys": [
+          "bike_type_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which type of bicycle do you most often use?": "Which type of bicycle do you most often use?",
+          "#Standard pedal bicycle (private)": "Standard pedal bicycle (private)",
+          "#Electric bicycle / e-bike (private)": "Electric bicycle / e-bike (private)",
+          "#Shared / hire bicycle (docked or dockless)": "Shared / hire bicycle (docked or dockless)",
+          "#Shared / hire e-bike": "Shared / hire e-bike",
+          "#Cargo bike or adapted bike": "Cargo bike or adapted bike"
+        },
+        "it": {
+          "#Which type of bicycle do you most often use?": "Quale tipo di bicicletta utilizzi più frequentemente?",
+          "#Standard pedal bicycle (private)": "Bicicletta tradizionale a pedali (privata)",
+          "#Electric bicycle / e-bike (private)": "Bicicletta elettrica / e-bike (privata)",
+          "#Shared / hire bicycle (docked or dockless)": "Bicicletta condivisa / a noleggio (con o senza stazione)",
+          "#Shared / hire e-bike": "E-bike condivisa / a noleggio",
+          "#Cargo bike or adapted bike": "Cargo bike o bicicletta adattata"
+        },
+        "fr": {
+          "#Which type of bicycle do you most often use?": "Quel type de vélo utilisez-vous le plus souvent ?",
+          "#Standard pedal bicycle (private)": "Vélo classique à pédales (personnel)",
+          "#Electric bicycle / e-bike (private)": "Vélo électrique / e-bike (personnel)",
+          "#Shared / hire bicycle (docked or dockless)": "Vélo partagé / de location (avec ou sans station)",
+          "#Shared / hire e-bike": "Vélo électrique partagé / de location",
+          "#Cargo bike or adapted bike": "Vélo cargo ou vélo adapté"
+        },
+        "de": {
+          "#Which type of bicycle do you most often use?": "Welche Art von Fahrrad nutzen Sie am häufigsten?",
+          "#Standard pedal bicycle (private)": "Normales Fahrrad ohne Motor (privat)",
+          "#Electric bicycle / e-bike (private)": "E-Bike (privat)",
+          "#Shared / hire bicycle (docked or dockless)": "Leih- oder Sharing-Fahrrad (mit oder ohne Station)",
+          "#Shared / hire e-bike": "Leih- oder Sharing-E-Bike",
+          "#Cargo bike or adapted bike": "Lastenrad oder angepasstes Fahrrad"
+        },
+        "tr": {
+          "#Which type of bicycle do you most often use?": "En sık hangi tür bisikleti kullanıyorsunuz?",
+          "#Standard pedal bicycle (private)": "Standart pedallı bisiklet (kişisel)",
+          "#Electric bicycle / e-bike (private)": "Elektrikli bisiklet / e-bike (kişisel)",
+          "#Shared / hire bicycle (docked or dockless)": "Paylaşımlı / kiralık bisiklet (istasyonlu veya istasyonsuz)",
+          "#Shared / hire e-bike": "Paylaşımlı / kiralık elektrikli bisiklet",
+          "#Cargo bike or adapted bike": "Kargo bisikleti veya uyarlanmış bisiklet"
+        },
+        "fa": {
+          "#Which type of bicycle do you most often use?": "بیشتر از چه نوع دوچرخه‌ای استفاده می‌کنید؟",
+          "#Standard pedal bicycle (private)": "دوچرخه معمولی پدالی (شخصی)",
+          "#Electric bicycle / e-bike (private)": "دوچرخه برقی / ای‌بایک (شخصی)",
+          "#Shared / hire bicycle (docked or dockless)": "دوچرخه اشتراکی / کرایه‌ای (با ایستگاه یا بدون ایستگاه)",
+          "#Shared / hire e-bike": "دوچرخه برقی اشتراکی / کرایه‌ای",
+          "#Cargo bike or adapted bike": "دوچرخه باری یا دوچرخه مناسب‌سازی‌شده"
+        },
+        "hu": {
+          "#Which type of bicycle do you most often use?": "Milyen típusú kerékpárt használ a leggyakrabban?",
+          "#Standard pedal bicycle (private)": "Hagyományos kerékpár (saját)",
+          "#Electric bicycle / e-bike (private)": "Elektromos kerékpár / e-bike (saját)",
+          "#Shared / hire bicycle (docked or dockless)": "Közösségi / bérelt kerékpár (dokkolós vagy dokkoló nélküli)",
+          "#Shared / hire e-bike": "Közösségi / bérelt elektromos kerékpár",
+          "#Cargo bike or adapted bike": "Teherkerékpár vagy speciálisan átalakított kerékpár"
+        },
+        "ar": {
+          "#Which type of bicycle do you most often use?": "ما نوع الدراجة التي تستخدمها غالبًا؟",
+          "#Standard pedal bicycle (private)": "دراجة عادية بدواسات (شخصية)",
+          "#Electric bicycle / e-bike (private)": "دراجة كهربائية / e-bike (شخصية)",
+          "#Shared / hire bicycle (docked or dockless)": "دراجة مشتركة / للإيجار (بمحطة أو من دون محطة)",
+          "#Shared / hire e-bike": "دراجة كهربائية مشتركة / للإيجار",
+          "#Cargo bike or adapted bike": "دراجة شحن أو دراجة معدلة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_cycling"
+      ]
+    }
+  }
+}

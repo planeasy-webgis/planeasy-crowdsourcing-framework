@@ -1,0 +1,192 @@
+{
+  "question_id": "smarturbanity.bike_surface_problems",
+  "project": "SmartUrbanity",
+  "key": "bike_surface_problems",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What problems make riding a bicycle or e-scooter less comfortable here?",
+        "answer_key": "bike_surface_problems",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Uneven surface",
+            "value": "uneven_surface"
+          },
+          {
+            "text": "Cracks",
+            "value": "cracks"
+          },
+          {
+            "text": "Potholes",
+            "value": "potholes"
+          },
+          {
+            "text": "Raised edges or bumps",
+            "value": "raised_edges_bumps"
+          },
+          {
+            "text": "Tree roots",
+            "value": "tree_roots"
+          },
+          {
+            "text": "Slippery when wet",
+            "value": "slippery_wet"
+          },
+          {
+            "text": "Loose gravel or debris",
+            "value": "loose_gravel_debris"
+          },
+          {
+            "text": "Sudden level changes",
+            "value": "level_changes"
+          },
+          {
+            "text": "Uncomfortable vibration",
+            "value": "surface_vibration"
+          },
+          {
+            "text": "No clear problem",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What problems make riding a bicycle or e-scooter less comfortable here?": "What problems make riding a bicycle or e-scooter less comfortable here?",
+          "#Uneven surface": "Uneven surface",
+          "#Cracks": "Cracks",
+          "#Potholes": "Potholes",
+          "#Raised edges or bumps": "Raised edges or bumps",
+          "#Tree roots": "Tree roots",
+          "#Slippery when wet": "Slippery when wet",
+          "#Loose gravel or debris": "Loose gravel or debris",
+          "#Sudden level changes": "Sudden level changes",
+          "#Uncomfortable vibration": "Uncomfortable vibration",
+          "#No clear problem": "No clear problem",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What problems make riding a bicycle or e-scooter less comfortable here?": "Quali problemi rendono meno comodo andare qui in bici o in monopattino?",
+          "#Uneven surface": "Superficie irregolare",
+          "#Cracks": "Crepe",
+          "#Potholes": "Buche",
+          "#Raised edges or bumps": "Bordi rialzati o dossi",
+          "#Tree roots": "Radici degli alberi",
+          "#Slippery when wet": "Scivolosa quando è bagnata",
+          "#Loose gravel or debris": "Ghiaia o detriti mobili",
+          "#Sudden level changes": "Dislivelli improvvisi",
+          "#Uncomfortable vibration": "Vibrazioni scomode",
+          "#No clear problem": "Nessun problema evidente",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What problems make riding a bicycle or e-scooter less comfortable here?": "Quels problèmes rendent ici le vélo ou la trottinette électrique moins confortable ?",
+          "#Uneven surface": "Surface irrégulière",
+          "#Cracks": "Fissures",
+          "#Potholes": "Nids-de-poule",
+          "#Raised edges or bumps": "Bords surélevés ou bosses",
+          "#Tree roots": "Racines d'arbres",
+          "#Slippery when wet": "Glissant lorsqu'il est mouillé",
+          "#Loose gravel or debris": "Gravier ou débris au sol",
+          "#Sudden level changes": "Changements brusques de niveau",
+          "#Uncomfortable vibration": "Vibrations inconfortables",
+          "#No clear problem": "Aucun problème évident",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What problems make riding a bicycle or e-scooter less comfortable here?": "Welche Probleme machen das Fahren mit Fahrrad oder E-Scooter hier unbequemer?",
+          "#Uneven surface": "Unebene Oberfläche",
+          "#Cracks": "Risse",
+          "#Potholes": "Schlaglöcher",
+          "#Raised edges or bumps": "Erhöhte Kanten oder Unebenheiten",
+          "#Tree roots": "Baumwurzeln",
+          "#Slippery when wet": "Bei Nässe rutschig",
+          "#Loose gravel or debris": "Loser Kies oder Schutt",
+          "#Sudden level changes": "Plötzliche Höhenunterschiede",
+          "#Uncomfortable vibration": "Unangenehme Vibrationen",
+          "#No clear problem": "Kein eindeutiges Problem",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What problems make riding a bicycle or e-scooter less comfortable here?": "Burada bisiklet veya elektrikli scooter sürmeyi hangi sorunlar daha az konforlu hale getiriyor?",
+          "#Uneven surface": "Bozuk/düzensiz yüzey",
+          "#Cracks": "Çatlaklar",
+          "#Potholes": "Çukurlar",
+          "#Raised edges or bumps": "Yükselmiş kenarlar veya tümsekler",
+          "#Tree roots": "Ağaç kökleri",
+          "#Slippery when wet": "Islakken kaygan",
+          "#Loose gravel or debris": "Gevşek çakıl veya döküntü",
+          "#Sudden level changes": "Ani seviye değişiklikleri",
+          "#Uncomfortable vibration": "Rahatsız edici titreşim",
+          "#No clear problem": "Belirgin bir sorun yok",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What problems make riding a bicycle or e-scooter less comfortable here?": "چه مشکلاتی دوچرخه‌سواری یا اسکوترسواری را در اینجا ناراحت‌تر می‌کند؟",
+          "#Uneven surface": "سطح ناهموار",
+          "#Cracks": "ترک‌ها",
+          "#Potholes": "چاله‌ها",
+          "#Raised edges or bumps": "لبه‌های برجسته یا برآمدگی‌ها",
+          "#Tree roots": "ریشه درختان",
+          "#Slippery when wet": "در حالت خیس لغزنده است",
+          "#Loose gravel or debris": "شن یا خرده‌ریز پراکنده",
+          "#Sudden level changes": "تغییر ناگهانی سطح",
+          "#Uncomfortable vibration": "لرزش ناراحت‌کننده",
+          "#No clear problem": "مشکل روشنی وجود ندارد",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What problems make riding a bicycle or e-scooter less comfortable here?": "Milyen problémák teszik itt kényelmetlenebbé a kerékpározást vagy a rollerezést?",
+          "#Uneven surface": "Egyenetlen burkolat",
+          "#Cracks": "Repedések",
+          "#Potholes": "Kátyúk",
+          "#Raised edges or bumps": "Kiemelkedő szélek vagy bukkanók",
+          "#Tree roots": "Fagyökerek",
+          "#Slippery when wet": "Nedvesen csúszós",
+          "#Loose gravel or debris": "Laza kavics vagy törmelék",
+          "#Sudden level changes": "Hirtelen szintkülönbségek",
+          "#Uncomfortable vibration": "Kellemetlen rezgés",
+          "#No clear problem": "Nincs egyértelmű probléma",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What problems make riding a bicycle or e-scooter less comfortable here?": "ما المشكلات التي تجعل ركوب الدراجة أو السكوتر الكهربائي هنا أقل راحة؟",
+          "#Uneven surface": "سطح غير مستوٍ",
+          "#Cracks": "شقوق",
+          "#Potholes": "حفر في الطريق",
+          "#Raised edges or bumps": "حواف مرتفعة أو نتوءات",
+          "#Tree roots": "جذور الأشجار",
+          "#Slippery when wet": "زلق عند البلل",
+          "#Loose gravel or debris": "حصى أو مخلفات سائبة",
+          "#Sudden level changes": "تغيرات مفاجئة في المستوى",
+          "#Uncomfortable vibration": "اهتزاز غير مريح",
+          "#No clear problem": "لا توجد مشكلة واضحة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "question_id": "smarturbanity.trip_incidents",
+  "project": "SmartUrbanity",
+  "key": "trip_incidents",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Did any of these happen on this trip? (Select all that apply)",
+        "answer_key": "trip_incidents",
+        "question_type": "multiple_options",
+        "add_prefer_not_to_say": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Nothing in particular",
+            "value": "none"
+          },
+          {
+            "text": "I was nearly hit by a vehicle",
+            "value": "near_miss_vehicle"
+          },
+          {
+            "text": "A close call with a bike or e-scooter",
+            "value": "close_call_bike_scooter"
+          },
+          {
+            "text": "I tripped or fell",
+            "value": "fall"
+          },
+          {
+            "text": "I was harassed or felt threatened",
+            "value": "harassment"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Did any of these happen on this trip? (Select all that apply)": "Did any of these happen on this trip? (Select all that apply)",
+          "#Nothing in particular": "Nothing in particular",
+          "#I was nearly hit by a vehicle": "I was nearly hit by a vehicle",
+          "#A close call with a bike or e-scooter": "A close call with a bike or e-scooter",
+          "#I tripped or fell": "I tripped or fell",
+          "#I was harassed or felt threatened": "I was harassed or felt threatened"
+        },
+        "it": {
+          "#Did any of these happen on this trip? (Select all that apply)": "Durante questo spostamento è successo qualcuno di questi episodi? (Puoi sceglierne più di uno)",
+          "#Nothing in particular": "Niente di particolare",
+          "#I was nearly hit by a vehicle": "Ho rischiato di essere investito/a",
+          "#A close call with a bike or e-scooter": "Ho rischiato uno scontro con una bici o un monopattino",
+          "#I tripped or fell": "Sono inciampato/a o caduto/a",
+          "#I was harassed or felt threatened": "Ho subito molestie o mi sono sentito/a minacciato/a"
+        },
+        "fr": {
+          "#Did any of these happen on this trip? (Select all that apply)": "L’une de ces situations s’est-elle produite pendant ce trajet ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#Nothing in particular": "Rien de particulier",
+          "#I was nearly hit by a vehicle": "J’ai failli être renversé/renversée par un véhicule",
+          "#A close call with a bike or e-scooter": "J’ai failli entrer en collision avec un vélo ou une trottinette électrique",
+          "#I tripped or fell": "J’ai trébuché ou je suis tombé/tombée",
+          "#I was harassed or felt threatened": "J’ai été harcelé/harcelée ou je me suis senti/sentie menacé/menacée"
+        },
+        "de": {
+          "#Did any of these happen on this trip? (Select all that apply)": "Ist auf diesem Weg etwas davon passiert? (Alle zutreffenden auswählen)",
+          "#Nothing in particular": "Nichts Bestimmtes",
+          "#I was nearly hit by a vehicle": "Ich wäre fast von einem Fahrzeug angefahren worden",
+          "#A close call with a bike or e-scooter": "Beinahe-Zusammenstoß mit einem Fahrrad oder E-Scooter",
+          "#I tripped or fell": "Ich bin gestolpert oder gestürzt",
+          "#I was harassed or felt threatened": "Ich wurde belästigt oder habe mich bedroht gefühlt"
+        },
+        "tr": {
+          "#Did any of these happen on this trip? (Select all that apply)": "Bu yolculukta bunlardan herhangi biri oldu mu? (Uygun olanların tümünü seçin)",
+          "#Nothing in particular": "Özel bir şey yok",
+          "#I was nearly hit by a vehicle": "Az kalsın bir araç bana çarpıyordu",
+          "#A close call with a bike or e-scooter": "Bir bisiklet veya elektrikli scooter ile çarpışmaktan kıl payı kurtuldum",
+          "#I tripped or fell": "Tökezledim veya düştüm",
+          "#I was harassed or felt threatened": "Tacize uğradım veya kendimi tehdit altında hissettim"
+        },
+        "fa": {
+          "#Did any of these happen on this trip? (Select all that apply)": "آیا در این سفر یکی از این موارد رخ داد؟ (همه موارد مربوط را انتخاب کنید)",
+          "#Nothing in particular": "هیچ مورد خاصی",
+          "#I was nearly hit by a vehicle": "نزدیک بود یک خودرو با من برخورد کند",
+          "#A close call with a bike or e-scooter": "نزدیک بود با یک دوچرخه یا اسکوتر برقی برخورد کنم",
+          "#I tripped or fell": "سکندری خوردم یا زمین خوردم",
+          "#I was harassed or felt threatened": "مورد مزاحمت قرار گرفتم یا احساس تهدید کردم"
+        },
+        "hu": {
+          "#Did any of these happen on this trip? (Select all that apply)": "Történt ezek közül valamelyik ezen az úton? (Jelölje meg az összes megfelelőt)",
+          "#Nothing in particular": "Semmi különös",
+          "#I was nearly hit by a vehicle": "Majdnem elütött egy jármű",
+          "#A close call with a bike or e-scooter": "Majdnem összeütköztem egy kerékpárral vagy e-rollerrel",
+          "#I tripped or fell": "Megbotlottam vagy elestem",
+          "#I was harassed or felt threatened": "Zaklattak vagy fenyegetve éreztem magam"
+        },
+        "ar": {
+          "#Did any of these happen on this trip? (Select all that apply)": "هل حدث أي من هذه الأمور في هذه الرحلة؟ (اختر كل ما ينطبق)",
+          "#Nothing in particular": "لا شيء بعينه",
+          "#I was nearly hit by a vehicle": "كدت أن تصدمني مركبة",
+          "#A close call with a bike or e-scooter": "كدت أن أصطدم بدراجة أو سكوتر كهربائي",
+          "#I tripped or fell": "تعثرت أو سقطت",
+          "#I was harassed or felt threatened": "تعرضت للتحرش أو شعرت بالتهديد"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_post_trip"
+      ]
+    }
+  }
+}

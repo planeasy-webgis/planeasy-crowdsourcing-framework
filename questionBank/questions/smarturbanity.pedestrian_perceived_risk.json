@@ -1,0 +1,232 @@
+{
+  "question_id": "smarturbanity.pedestrian_perceived_risk",
+  "project": "SmartUrbanity",
+  "key": "pedestrian_perceived_risk",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "review_required": true,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?",
+        "answer_key": "pedestrian_perceived_risk",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not risky",
+            "value": "1_not_risky"
+          },
+          {
+            "text": "Slightly risky",
+            "value": "2_slightly_risky"
+          },
+          {
+            "text": "Moderately risky",
+            "value": "3_moderately_risky"
+          },
+          {
+            "text": "Very risky",
+            "value": "4_very_risky"
+          },
+          {
+            "text": "Extremely risky",
+            "value": "5_extremely_risky"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?": "Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?",
+          "#Not risky": "Not risky",
+          "#Slightly risky": "Slightly risky",
+          "#Moderately risky": "Moderately risky",
+          "#Very risky": "Very risky",
+          "#Extremely risky": "Extremely risky",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?": "Per il traffico (auto, moto, bici), quanto ti sembra rischioso usare questo luogo a piedi?",
+          "#Not risky": "Per niente rischioso",
+          "#Slightly risky": "Poco rischioso",
+          "#Moderately risky": "Abbastanza rischioso",
+          "#Very risky": "Molto rischioso",
+          "#Extremely risky": "Estremamente rischioso",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?": "À cause de la circulation (voitures, motos, vélos), à quel point vous semble-t-il risqué d'utiliser ce lieu à pied ?",
+          "#Not risky": "Pas risqué",
+          "#Slightly risky": "Légèrement risqué",
+          "#Moderately risky": "Modérément risqué",
+          "#Very risky": "Très risqué",
+          "#Extremely risky": "Extrêmement risqué",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?": "Wie riskant fühlt es sich wegen des Verkehrs (Autos, Motorräder, Fahrräder) an, diesen Ort zu Fuß zu nutzen?",
+          "#Not risky": "Nicht riskant",
+          "#Slightly risky": "Etwas riskant",
+          "#Moderately risky": "Mäßig riskant",
+          "#Very risky": "Sehr riskant",
+          "#Extremely risky": "Extrem riskant",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?": "Trafik nedeniyle (arabalar, motosikletler, bisikletler) bu yeri yürüyerek kullanmak ne kadar riskli geliyor?",
+          "#Not risky": "Riskli değil",
+          "#Slightly risky": "Biraz riskli",
+          "#Moderately risky": "Orta derecede riskli",
+          "#Very risky": "Çok riskli",
+          "#Extremely risky": "Son derece riskli",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?": "به‌خاطر ترافیک (خودرو، موتورسیکلت، دوچرخه)، استفاده پیاده از این مکان چقدر پرخطر به نظر می‌رسد؟",
+          "#Not risky": "بدون خطر",
+          "#Slightly risky": "کمی پرخطر",
+          "#Moderately risky": "با خطر متوسط",
+          "#Very risky": "بسیار پرخطر",
+          "#Extremely risky": "به‌شدت پرخطر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?": "A forgalom (autók, motorok, kerékpárok) miatt mennyire érzi kockázatosnak gyalogosan használni ezt a helyet?",
+          "#Not risky": "Nem kockázatos",
+          "#Slightly risky": "Kissé kockázatos",
+          "#Moderately risky": "Közepesen kockázatos",
+          "#Very risky": "Nagyon kockázatos",
+          "#Extremely risky": "Rendkívül kockázatos",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this place on foot?": "بسبب حركة المرور (السيارات والدراجات النارية والدراجات)، ما مدى خطورة استخدام هذا المكان سيرًا على الأقدام في رأيك؟",
+          "#Not risky": "غير خطير",
+          "#Slightly risky": "خطير قليلًا",
+          "#Moderately risky": "متوسط الخطورة",
+          "#Very risky": "خطير جدًا",
+          "#Extremely risky": "شديد الخطورة",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    },
+    "street_segment_assessment": {
+      "schema": {
+        "text": "Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?",
+        "answer_key": "pedestrian_perceived_risk",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not risky",
+            "value": "1_not_risky"
+          },
+          {
+            "text": "Slightly risky",
+            "value": "2_slightly_risky"
+          },
+          {
+            "text": "Moderately risky",
+            "value": "3_moderately_risky"
+          },
+          {
+            "text": "Very risky",
+            "value": "4_very_risky"
+          },
+          {
+            "text": "Extremely risky",
+            "value": "5_extremely_risky"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?": "Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?",
+          "#Not risky": "Not risky",
+          "#Slightly risky": "Slightly risky",
+          "#Moderately risky": "Moderately risky",
+          "#Very risky": "Very risky",
+          "#Extremely risky": "Extremely risky",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?": "Per il traffico (auto, moto, bici), quanto ti sembra rischioso percorrere a piedi questo tratto di strada?",
+          "#Not risky": "Per niente rischioso",
+          "#Slightly risky": "Poco rischioso",
+          "#Moderately risky": "Abbastanza rischioso",
+          "#Very risky": "Molto rischioso",
+          "#Extremely risky": "Estremamente rischioso",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?": "À cause de la circulation (voitures, motos, vélos), à quel point vous semble-t-il risqué de parcourir ce tronçon de rue à pied ?",
+          "#Not risky": "Pas risqué",
+          "#Slightly risky": "Légèrement risqué",
+          "#Moderately risky": "Modérément risqué",
+          "#Very risky": "Très risqué",
+          "#Extremely risky": "Extrêmement risqué",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?": "Wie riskant fühlt es sich wegen des Verkehrs (Autos, Motorräder, Fahrräder) an, diesen Straßenabschnitt zu Fuß zu nutzen?",
+          "#Not risky": "Nicht riskant",
+          "#Slightly risky": "Etwas riskant",
+          "#Moderately risky": "Mäßig riskant",
+          "#Very risky": "Sehr riskant",
+          "#Extremely risky": "Extrem riskant",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?": "Trafik nedeniyle (arabalar, motosikletler, bisikletler) bu sokak kesimini yürüyerek kullanmak ne kadar riskli geliyor?",
+          "#Not risky": "Riskli değil",
+          "#Slightly risky": "Biraz riskli",
+          "#Moderately risky": "Orta derecede riskli",
+          "#Very risky": "Çok riskli",
+          "#Extremely risky": "Son derece riskli",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?": "به‌خاطر ترافیک (خودرو، موتورسیکلت، دوچرخه)، پیمودن این بخش از خیابان با پای پیاده چقدر پرخطر به نظر می‌رسد؟",
+          "#Not risky": "بدون خطر",
+          "#Slightly risky": "کمی پرخطر",
+          "#Moderately risky": "با خطر متوسط",
+          "#Very risky": "بسیار پرخطر",
+          "#Extremely risky": "به‌شدت پرخطر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?": "A forgalom (autók, motorok, kerékpárok) miatt mennyire érzi kockázatosnak gyalogosan használni ezt az utcaszakaszt?",
+          "#Not risky": "Nem kockázatos",
+          "#Slightly risky": "Kissé kockázatos",
+          "#Moderately risky": "Közepesen kockázatos",
+          "#Very risky": "Nagyon kockázatos",
+          "#Extremely risky": "Rendkívül kockázatos",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Because of traffic (cars, motorcycles, bicycles), how risky does it feel to use this street segment on foot?": "بسبب حركة المرور (السيارات والدراجات النارية والدراجات)، ما مدى خطورة استخدام هذا المقطع من الشارع سيرًا على الأقدام في رأيك؟",
+          "#Not risky": "غير خطير",
+          "#Slightly risky": "خطير قليلًا",
+          "#Moderately risky": "متوسط الخطورة",
+          "#Very risky": "خطير جدًا",
+          "#Extremely risky": "شديد الخطورة",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

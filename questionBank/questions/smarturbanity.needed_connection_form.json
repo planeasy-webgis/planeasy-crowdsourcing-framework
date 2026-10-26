@@ -1,0 +1,148 @@
+{
+  "question_id": "smarturbanity.needed_connection_form",
+  "project": "SmartUrbanity",
+  "key": "needed_connection_form",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_missing_connection_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_missing_connection_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What kind of connection is needed here?",
+        "help": "A connection lets you get past a barrier, such as a road, a railway or a difference in level.",
+        "answer_key": "needed_connection_form",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "A crossing on the road (zebra crossing, traffic light, traffic island)",
+            "value": "street_level"
+          },
+          {
+            "text": "An underpass",
+            "value": "under_road"
+          },
+          {
+            "text": "A bridge or footbridge",
+            "value": "over_road"
+          },
+          {
+            "text": "A ramp or a lift, without steps",
+            "value": "ramp_or_lift"
+          },
+          {
+            "text": "Stairs or an escalator",
+            "value": "stairs"
+          },
+          {
+            "text": "There is one already, but it is closed or cannot be used",
+            "value": "exists_closed"
+          },
+          {
+            "text": "Other type of connection",
+            "value": "other"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What kind of connection is needed here?": "What kind of connection is needed here?",
+          "#A connection lets you get past a barrier, such as a road, a railway or a difference in level.": "A connection lets you get past a barrier, such as a road, a railway or a difference in level.",
+          "#A crossing on the road (zebra crossing, traffic light, traffic island)": "A crossing on the road (zebra crossing, traffic light, traffic island)",
+          "#An underpass": "An underpass",
+          "#A bridge or footbridge": "A bridge or footbridge",
+          "#A ramp or a lift, without steps": "A ramp or a lift, without steps",
+          "#Stairs or an escalator": "Stairs or an escalator",
+          "#There is one already, but it is closed or cannot be used": "There is one already, but it is closed or cannot be used",
+          "#Other type of connection": "Other type of connection"
+        },
+        "it": {
+          "#What kind of connection is needed here?": "Che tipo di collegamento servirebbe qui?",
+          "#A connection lets you get past a barrier, such as a road, a railway or a difference in level.": "Un collegamento ti permette di superare una barriera, come una strada, una ferrovia o un dislivello.",
+          "#A crossing on the road (zebra crossing, traffic light, traffic island)": "Un attraversamento sulla strada (strisce pedonali, semaforo, isola salvagente)",
+          "#An underpass": "Un sottopassaggio",
+          "#A bridge or footbridge": "Un ponte o una passerella",
+          "#A ramp or a lift, without steps": "Una rampa o un ascensore, senza gradini",
+          "#Stairs or an escalator": "Una scala o una scala mobile",
+          "#There is one already, but it is closed or cannot be used": "Esiste già, ma è chiuso o non si può usare",
+          "#Other type of connection": "Altro tipo di collegamento"
+        },
+        "fr": {
+          "#What kind of connection is needed here?": "Quel type de liaison faudrait-il ici ?",
+          "#A connection lets you get past a barrier, such as a road, a railway or a difference in level.": "Un passage permet de franchir un obstacle, comme une route, une voie ferrée ou une différence de niveau.",
+          "#A crossing on the road (zebra crossing, traffic light, traffic island)": "Une traversée sur la chaussée (passage piéton, feu, refuge)",
+          "#An underpass": "Un passage souterrain",
+          "#A bridge or footbridge": "Un pont ou une passerelle",
+          "#A ramp or a lift, without steps": "Une rampe ou un ascenseur, sans marches",
+          "#Stairs or an escalator": "Un escalier ou un escalator",
+          "#There is one already, but it is closed or cannot be used": "Il en existe déjà un, mais il est fermé ou inutilisable",
+          "#Other type of connection": "Autre type de liaison"
+        },
+        "de": {
+          "#What kind of connection is needed here?": "Welche Art von Verbindung wird hier gebraucht?",
+          "#A connection lets you get past a barrier, such as a road, a railway or a difference in level.": "Eine Verbindung ermöglicht es, ein Hindernis zu überwinden, etwa eine Straße, eine Bahnlinie oder einen Höhenunterschied.",
+          "#A crossing on the road (zebra crossing, traffic light, traffic island)": "Ein Übergang auf der Fahrbahn (Zebrastreifen, Ampel, Verkehrsinsel)",
+          "#An underpass": "Eine Unterführung",
+          "#A bridge or footbridge": "Eine Brücke oder ein Fußgängersteg",
+          "#A ramp or a lift, without steps": "Eine Rampe oder ein Aufzug, ohne Stufen",
+          "#Stairs or an escalator": "Eine Treppe oder Rolltreppe",
+          "#There is one already, but it is closed or cannot be used": "Es gibt bereits einen, aber er ist gesperrt oder nicht benutzbar",
+          "#Other type of connection": "Andere Art von Verbindung"
+        },
+        "tr": {
+          "#What kind of connection is needed here?": "Burada ne tür bir bağlantıya ihtiyaç var?",
+          "#A connection lets you get past a barrier, such as a road, a railway or a difference in level.": "Bağlantı, bir yol, demiryolu veya kot farkı gibi bir engeli aşmanızı sağlar.",
+          "#A crossing on the road (zebra crossing, traffic light, traffic island)": "Yol üzerinde bir geçit (yaya geçidi, trafik ışığı, refüj)",
+          "#An underpass": "Bir alt geçit",
+          "#A bridge or footbridge": "Bir köprü veya yaya üst geçidi",
+          "#A ramp or a lift, without steps": "Basamaksız bir rampa veya asansör",
+          "#Stairs or an escalator": "Merdiven veya yürüyen merdiven",
+          "#There is one already, but it is closed or cannot be used": "Zaten var, ancak kapalı veya kullanılamıyor",
+          "#Other type of connection": "Başka bir bağlantı türü"
+        },
+        "fa": {
+          "#What kind of connection is needed here?": "اینجا چه نوع ارتباطی لازم است؟",
+          "#A connection lets you get past a barrier, such as a road, a railway or a difference in level.": "یک اتصال به شما امکان می‌دهد از یک مانع بگذرید، مانند خیابان، خط راه‌آهن یا اختلاف ارتفاع.",
+          "#A crossing on the road (zebra crossing, traffic light, traffic island)": "گذرگاهی روی خیابان (خط عابر پیاده، چراغ راهنمایی، جزیره‌ی ایمنی)",
+          "#An underpass": "زیرگذر",
+          "#A bridge or footbridge": "پل یا پل عابر پیاده",
+          "#A ramp or a lift, without steps": "رمپ یا آسانسور، بدون پله",
+          "#Stairs or an escalator": "پله یا پله‌برقی",
+          "#There is one already, but it is closed or cannot be used": "از قبل وجود دارد، اما بسته است یا قابل استفاده نیست",
+          "#Other type of connection": "نوع دیگری از ارتباط"
+        },
+        "hu": {
+          "#What kind of connection is needed here?": "Milyen kapcsolatra lenne itt szükség?",
+          "#A connection lets you get past a barrier, such as a road, a railway or a difference in level.": "Az átkelés lehetővé teszi, hogy túljusson egy akadályon, például egy úton, egy vasútvonalon vagy egy szintkülönbségen.",
+          "#A crossing on the road (zebra crossing, traffic light, traffic island)": "Átkelő az úttesten (zebra, jelzőlámpa, járdasziget)",
+          "#An underpass": "Aluljáró",
+          "#A bridge or footbridge": "Híd vagy gyaloghíd",
+          "#A ramp or a lift, without steps": "Rámpa vagy lift, lépcső nélkül",
+          "#Stairs or an escalator": "Lépcső vagy mozgólépcső",
+          "#There is one already, but it is closed or cannot be used": "Már van, de le van zárva vagy nem használható",
+          "#Other type of connection": "Más típusú kapcsolat"
+        },
+        "ar": {
+          "#What kind of connection is needed here?": "ما نوع الرابط المطلوب هنا؟",
+          "#A connection lets you get past a barrier, such as a road, a railway or a difference in level.": "يتيح لك الممر تجاوز عائق، مثل طريق أو سكة حديد أو فرق في المستوى.",
+          "#A crossing on the road (zebra crossing, traffic light, traffic island)": "معبر على الطريق (ممر مشاة مخطط، إشارة ضوئية، جزيرة أمان)",
+          "#An underpass": "نفق للمشاة",
+          "#A bridge or footbridge": "جسر أو جسر للمشاة",
+          "#A ramp or a lift, without steps": "منحدر أو مصعد، دون درجات",
+          "#Stairs or an escalator": "درج أو سلّم متحرك",
+          "#There is one already, but it is closed or cannot be used": "يوجد واحد بالفعل، لكنه مغلق أو غير صالح للاستخدام",
+          "#Other type of connection": "نوع آخر من الروابط"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_missing_connection_report"
+      ]
+    }
+  }
+}

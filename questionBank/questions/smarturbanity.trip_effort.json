@@ -1,0 +1,114 @@
+{
+  "question_id": "smarturbanity.trip_effort",
+  "project": "SmartUrbanity",
+  "key": "trip_effort",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How tiring was this trip?",
+        "answer_key": "trip_effort",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not at all",
+            "value": "not_at_all"
+          },
+          {
+            "text": "Slightly",
+            "value": "slightly"
+          },
+          {
+            "text": "Moderately",
+            "value": "moderately"
+          },
+          {
+            "text": "A lot",
+            "value": "very"
+          },
+          {
+            "text": "Extremely",
+            "value": "extremely"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How tiring was this trip?": "How tiring was this trip?",
+          "#Not at all": "Not at all",
+          "#Slightly": "Slightly",
+          "#Moderately": "Moderately",
+          "#A lot": "A lot",
+          "#Extremely": "Extremely"
+        },
+        "it": {
+          "#How tiring was this trip?": "Quanto è stato faticoso questo spostamento?",
+          "#Not at all": "Per niente",
+          "#Slightly": "Poco",
+          "#Moderately": "Abbastanza",
+          "#A lot": "Molto",
+          "#Extremely": "Moltissimo"
+        },
+        "fr": {
+          "#How tiring was this trip?": "Ce trajet a-t-il été fatigant ?",
+          "#Not at all": "Pas du tout",
+          "#Slightly": "Légèrement",
+          "#Moderately": "Modérément",
+          "#A lot": "Beaucoup",
+          "#Extremely": "Énormément"
+        },
+        "de": {
+          "#How tiring was this trip?": "Wie anstrengend war dieser Weg?",
+          "#Not at all": "Überhaupt nicht",
+          "#Slightly": "Etwas",
+          "#Moderately": "Mäßig",
+          "#A lot": "Stark",
+          "#Extremely": "Extrem"
+        },
+        "tr": {
+          "#How tiring was this trip?": "Bu yolculuk ne kadar yorucuydu?",
+          "#Not at all": "Hiç",
+          "#Slightly": "Biraz",
+          "#Moderately": "Orta derecede",
+          "#A lot": "Çok",
+          "#Extremely": "Son derece"
+        },
+        "fa": {
+          "#How tiring was this trip?": "این سفر چقدر خسته‌کننده بود؟",
+          "#Not at all": "اصلاً",
+          "#Slightly": "کمی",
+          "#Moderately": "تا حدی",
+          "#A lot": "زیاد",
+          "#Extremely": "به‌شدت"
+        },
+        "hu": {
+          "#How tiring was this trip?": "Mennyire volt fárasztó ez az út?",
+          "#Not at all": "Egyáltalán nem",
+          "#Slightly": "Kissé",
+          "#Moderately": "Közepesen",
+          "#A lot": "Nagyon",
+          "#Extremely": "Rendkívül"
+        },
+        "ar": {
+          "#How tiring was this trip?": "كم كانت هذه الرحلة متعبة؟",
+          "#Not at all": "على الإطلاق",
+          "#Slightly": "قليلًا",
+          "#Moderately": "بدرجة متوسطة",
+          "#A lot": "كثيرًا",
+          "#Extremely": "للغاية"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_post_trip"
+      ]
+    }
+  }
+}

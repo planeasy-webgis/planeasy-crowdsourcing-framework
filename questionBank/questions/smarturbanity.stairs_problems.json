@@ -1,0 +1,134 @@
+{
+  "question_id": "smarturbanity.stairs_problems",
+  "project": "SmartUrbanity",
+  "key": "stairs_problems",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What problems do the stairs have?",
+        "answer_key": "stairs_problems",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Too steep or too long",
+            "value": "too_steep_long"
+          },
+          {
+            "text": "Broken or uneven steps",
+            "value": "broken_uneven_steps"
+          },
+          {
+            "text": "Closed by a gate or at certain hours",
+            "value": "closed_gate_hours"
+          },
+          {
+            "text": "No alternative without steps nearby",
+            "value": "no_step_free_alternative"
+          },
+          {
+            "text": "No clear problem",
+            "value": "none"
+          }
+        ],
+        "add_other": true,
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#What problems do the stairs have?": "What problems do the stairs have?",
+          "#Too steep or too long": "Too steep or too long",
+          "#Broken or uneven steps": "Broken or uneven steps",
+          "#Closed by a gate or at certain hours": "Closed by a gate or at certain hours",
+          "#No alternative without steps nearby": "No alternative without steps nearby",
+          "#No clear problem": "No clear problem",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What problems do the stairs have?": "Quali problemi hanno le scale?",
+          "#Too steep or too long": "Troppo ripide o troppo lunghe",
+          "#Broken or uneven steps": "Gradini rotti o irregolari",
+          "#Closed by a gate or at certain hours": "Chiuse da un cancello o in certi orari",
+          "#No alternative without steps nearby": "Non c'è un'alternativa senza scale nelle vicinanze",
+          "#No clear problem": "Nessun problema evidente",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What problems do the stairs have?": "Quels problèmes présentent les escaliers ?",
+          "#Too steep or too long": "Trop raides ou trop longs",
+          "#Broken or uneven steps": "Marches cassées ou irrégulières",
+          "#Closed by a gate or at certain hours": "Fermés par une grille ou à certaines heures",
+          "#No alternative without steps nearby": "Pas d'alternative sans marches à proximité",
+          "#No clear problem": "Aucun problème évident",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What problems do the stairs have?": "Welche Probleme hat die Treppe?",
+          "#Too steep or too long": "Zu steil oder zu lang",
+          "#Broken or uneven steps": "Kaputte oder unregelmäßige Stufen",
+          "#Closed by a gate or at certain hours": "Durch ein Tor oder zu bestimmten Zeiten geschlossen",
+          "#No alternative without steps nearby": "Keine stufenlose Alternative in der Nähe",
+          "#No clear problem": "Kein eindeutiges Problem",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What problems do the stairs have?": "Merdivenlerin ne gibi sorunları var?",
+          "#Too steep or too long": "Çok dik veya çok uzun",
+          "#Broken or uneven steps": "Kırık veya düzensiz basamaklar",
+          "#Closed by a gate or at certain hours": "Bir kapıyla veya belirli saatlerde kapalı",
+          "#No alternative without steps nearby": "Yakında basamaksız bir alternatif yok",
+          "#No clear problem": "Belirgin bir sorun yok",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What problems do the stairs have?": "پله‌ها چه مشکلاتی دارند؟",
+          "#Too steep or too long": "بیش از حد شیب‌دار یا طولانی",
+          "#Broken or uneven steps": "پله‌های شکسته یا ناهموار",
+          "#Closed by a gate or at certain hours": "با دروازه یا در ساعات مشخص بسته است",
+          "#No alternative without steps nearby": "در نزدیکی جایگزینی بدون پله وجود ندارد",
+          "#No clear problem": "مشکل روشنی وجود ندارد",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What problems do the stairs have?": "Milyen problémák vannak a lépcsővel?",
+          "#Too steep or too long": "Túl meredek vagy túl hosszú",
+          "#Broken or uneven steps": "Törött vagy egyenetlen lépcsőfokok",
+          "#Closed by a gate or at certain hours": "Kapuval vagy bizonyos órákban lezárva",
+          "#No alternative without steps nearby": "Nincs a közelben lépcső nélküli alternatíva",
+          "#No clear problem": "Nincs egyértelmű probléma",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What problems do the stairs have?": "ما المشكلات الموجودة في الدرج؟",
+          "#Too steep or too long": "شديدة الانحدار أو طويلة جدًا",
+          "#Broken or uneven steps": "درجات مكسورة أو غير منتظمة",
+          "#Closed by a gate or at certain hours": "مغلق ببوابة أو في ساعات معينة",
+          "#No alternative without steps nearby": "لا يوجد بديل بدون درجات في الجوار",
+          "#No clear problem": "لا توجد مشكلة واضحة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment",
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

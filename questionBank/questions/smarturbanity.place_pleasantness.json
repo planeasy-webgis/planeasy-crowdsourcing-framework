@@ -1,0 +1,115 @@
+{
+  "question_id": "smarturbanity.place_pleasantness",
+  "project": "SmartUrbanity",
+  "key": "place_pleasantness",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How nice is it to be here (how it looks and feels)?",
+        "answer_key": "place_pleasantness",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Very unpleasant",
+            "value": "very_unpleasant"
+          },
+          {
+            "text": "Unpleasant",
+            "value": "unpleasant"
+          },
+          {
+            "text": "Neither pleasant nor unpleasant",
+            "value": "neutral"
+          },
+          {
+            "text": "Pleasant",
+            "value": "pleasant"
+          },
+          {
+            "text": "Very pleasant",
+            "value": "very_pleasant"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How nice is it to be here (how it looks and feels)?": "How nice is it to be here (how it looks and feels)?",
+          "#Very unpleasant": "Very unpleasant",
+          "#Unpleasant": "Unpleasant",
+          "#Neither pleasant nor unpleasant": "Neither pleasant nor unpleasant",
+          "#Pleasant": "Pleasant",
+          "#Very pleasant": "Very pleasant"
+        },
+        "it": {
+          "#How nice is it to be here (how it looks and feels)?": "Quanto è bello o gradevole stare qui (aspetto e atmosfera)?",
+          "#Very unpleasant": "Molto sgradevole",
+          "#Unpleasant": "Sgradevole",
+          "#Neither pleasant nor unpleasant": "Né piacevole né sgradevole",
+          "#Pleasant": "Piacevole",
+          "#Very pleasant": "Molto piacevole"
+        },
+        "fr": {
+          "#How nice is it to be here (how it looks and feels)?": "À quel point est-il agréable d’être ici (aspect et ambiance) ?",
+          "#Very unpleasant": "Très désagréable",
+          "#Unpleasant": "Désagréable",
+          "#Neither pleasant nor unpleasant": "Ni agréable ni désagréable",
+          "#Pleasant": "Agréable",
+          "#Very pleasant": "Très agréable"
+        },
+        "de": {
+          "#How nice is it to be here (how it looks and feels)?": "Wie schön ist es, hier zu sein (Aussehen und Atmosphäre)?",
+          "#Very unpleasant": "Sehr unangenehm",
+          "#Unpleasant": "Unangenehm",
+          "#Neither pleasant nor unpleasant": "Weder angenehm noch unangenehm",
+          "#Pleasant": "Angenehm",
+          "#Very pleasant": "Sehr angenehm"
+        },
+        "tr": {
+          "#How nice is it to be here (how it looks and feels)?": "Burada bulunmak ne kadar hoş (görünüm ve atmosfer)?",
+          "#Very unpleasant": "Çok nahoş",
+          "#Unpleasant": "Nahoş",
+          "#Neither pleasant nor unpleasant": "Ne hoş ne nahoş",
+          "#Pleasant": "Hoş",
+          "#Very pleasant": "Çok hoş"
+        },
+        "fa": {
+          "#How nice is it to be here (how it looks and feels)?": "بودن در اینجا چقدر دلپذیر است (ظاهر و حال‌وهوا)؟",
+          "#Very unpleasant": "بسیار ناخوشایند",
+          "#Unpleasant": "ناخوشایند",
+          "#Neither pleasant nor unpleasant": "نه خوشایند و نه ناخوشایند",
+          "#Pleasant": "خوشایند",
+          "#Very pleasant": "بسیار خوشایند"
+        },
+        "hu": {
+          "#How nice is it to be here (how it looks and feels)?": "Mennyire jó itt lenni (külső és hangulat)?",
+          "#Very unpleasant": "Nagyon kellemetlen",
+          "#Unpleasant": "Kellemetlen",
+          "#Neither pleasant nor unpleasant": "Se nem kellemes, se nem kellemetlen",
+          "#Pleasant": "Kellemes",
+          "#Very pleasant": "Nagyon kellemes"
+        },
+        "ar": {
+          "#How nice is it to be here (how it looks and feels)?": "ما مدى لطف التواجد هنا (المظهر والأجواء)؟",
+          "#Very unpleasant": "مزعج جدًا",
+          "#Unpleasant": "مزعج",
+          "#Neither pleasant nor unpleasant": "لا لطيف ولا مزعج",
+          "#Pleasant": "لطيف",
+          "#Very pleasant": "لطيف جدًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

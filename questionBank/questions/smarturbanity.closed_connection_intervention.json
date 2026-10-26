@@ -1,0 +1,106 @@
+{
+  "question_id": "smarturbanity.closed_connection_intervention",
+  "project": "SmartUrbanity",
+  "key": "closed_connection_intervention",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_missing_connection_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_missing_connection_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What is needed to make it usable? (Select all that apply)",
+        "answer_key": "closed_connection_intervention",
+        "question_type": "multiple_options",
+        "add_other": true,
+        "other_input": {
+          "text": "What else is needed?",
+          "answer_key": "closed_connection_intervention_other",
+          "type": "text",
+          "required": true
+        },
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Reopening it",
+            "value": "reopen"
+          },
+          {
+            "text": "Repairing it",
+            "value": "repair"
+          },
+          {
+            "text": "Making it accessible, for example with a ramp or a lift",
+            "value": "make_accessible"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What is needed to make it usable? (Select all that apply)": "What is needed to make it usable? (Select all that apply)",
+          "#What else is needed?": "What else is needed?",
+          "#Reopening it": "Reopening it",
+          "#Repairing it": "Repairing it",
+          "#Making it accessible, for example with a ramp or a lift": "Making it accessible, for example with a ramp or a lift"
+        },
+        "it": {
+          "#What is needed to make it usable? (Select all that apply)": "Cosa servirebbe per poterlo usare? (Puoi sceglierne più di uno)",
+          "#What else is needed?": "Cos'altro servirebbe?",
+          "#Reopening it": "Riaprirlo",
+          "#Repairing it": "Ripararlo",
+          "#Making it accessible, for example with a ramp or a lift": "Renderlo accessibile, per esempio con una rampa o un ascensore"
+        },
+        "fr": {
+          "#What is needed to make it usable? (Select all that apply)": "Que faudrait-il pour pouvoir l’utiliser ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#What else is needed?": "Que faudrait-il d’autre ?",
+          "#Reopening it": "Le rouvrir",
+          "#Repairing it": "Le réparer",
+          "#Making it accessible, for example with a ramp or a lift": "Le rendre accessible, par exemple avec une rampe ou un ascenseur"
+        },
+        "de": {
+          "#What is needed to make it usable? (Select all that apply)": "Was wäre nötig, damit man ihn nutzen kann? (Alle zutreffenden Antworten auswählen)",
+          "#What else is needed?": "Was wäre sonst noch nötig?",
+          "#Reopening it": "Ihn wieder öffnen",
+          "#Repairing it": "Ihn reparieren",
+          "#Making it accessible, for example with a ramp or a lift": "Ihn barrierefrei machen, zum Beispiel mit einer Rampe oder einem Aufzug"
+        },
+        "tr": {
+          "#What is needed to make it usable? (Select all that apply)": "Kullanılabilmesi için ne gerekir? (Uygun olanların tümünü seçin)",
+          "#What else is needed?": "Başka ne gerekir?",
+          "#Reopening it": "Yeniden açılması",
+          "#Repairing it": "Onarılması",
+          "#Making it accessible, for example with a ramp or a lift": "Erişilebilir hâle getirilmesi, örneğin bir rampa veya asansörle"
+        },
+        "fa": {
+          "#What is needed to make it usable? (Select all that apply)": "برای قابل استفاده شدن آن چه لازم است؟ (همه موارد مناسب را انتخاب کنید)",
+          "#What else is needed?": "چه چیز دیگری لازم است؟",
+          "#Reopening it": "بازگشایی دوباره‌ی آن",
+          "#Repairing it": "تعمیر آن",
+          "#Making it accessible, for example with a ramp or a lift": "دسترس‌پذیر کردن آن، برای مثال با رمپ یا آسانسور"
+        },
+        "hu": {
+          "#What is needed to make it usable? (Select all that apply)": "Mi kellene ahhoz, hogy használható legyen? (Jelölje meg az összes megfelelőt)",
+          "#What else is needed?": "Mi másra lenne szükség?",
+          "#Reopening it": "Újra megnyitni",
+          "#Repairing it": "Megjavítani",
+          "#Making it accessible, for example with a ramp or a lift": "Akadálymentessé tenni, például rámpával vagy lifttel"
+        },
+        "ar": {
+          "#What is needed to make it usable? (Select all that apply)": "ما المطلوب ليصبح صالحًا للاستخدام؟ (اختر كل ما ينطبق)",
+          "#What else is needed?": "ما الذي يلزم أيضًا؟",
+          "#Reopening it": "إعادة فتحه",
+          "#Repairing it": "إصلاحه",
+          "#Making it accessible, for example with a ramp or a lift": "جعله ميسّر الوصول، مثلًا بمنحدر أو مصعد"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_missing_connection_report"
+      ]
+    }
+  }
+}

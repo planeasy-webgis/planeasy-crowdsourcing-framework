@@ -1,0 +1,142 @@
+{
+  "question_id": "smarturbanity.raised_sidewalk_protection",
+  "project": "SmartUrbanity",
+  "key": "raised_sidewalk_protection",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "If there is a raised sidewalk, how is it protected from traffic?",
+        "help": "Bollards are short posts that stop vehicles from entering the walking area.",
+        "answer_key": "raised_sidewalk_protection",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Raised only, no extra protection",
+            "value": "raised_only",
+            "exclusive": true
+          },
+          {
+            "text": "Bollards",
+            "value": "bollards"
+          },
+          {
+            "text": "Guard rails or fencing",
+            "value": "guard_rails_fencing"
+          },
+          {
+            "text": "Planted strip, bushes, or planters",
+            "value": "planted_strip"
+          },
+          {
+            "text": "Parked cars between the sidewalk and the road",
+            "value": "parked_cars"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#If there is a raised sidewalk, how is it protected from traffic?": "If there is a raised sidewalk, how is it protected from traffic?",
+          "#Bollards are short posts that stop vehicles from entering the walking area.": "Bollards are short posts that stop vehicles from entering the walking area.",
+          "#Raised only, no extra protection": "Raised only, no extra protection",
+          "#Bollards": "Bollards",
+          "#Guard rails or fencing": "Guard rails or fencing",
+          "#Planted strip, bushes, or planters": "Planted strip, bushes, or planters",
+          "#Parked cars between the sidewalk and the road": "Parked cars between the sidewalk and the road",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#If there is a raised sidewalk, how is it protected from traffic?": "Se c'è un marciapiede rialzato, come è protetto dal traffico?",
+          "#Bollards are short posts that stop vehicles from entering the walking area.": "I dissuasori sono paletti bassi che impediscono ai veicoli di entrare nello spazio pedonale.",
+          "#Raised only, no extra protection": "Solo rialzato, senza altre protezioni",
+          "#Bollards": "Dissuasori",
+          "#Guard rails or fencing": "Guardrail o recinzione",
+          "#Planted strip, bushes, or planters": "Fascia verde, cespugli o fioriere",
+          "#Parked cars between the sidewalk and the road": "Auto parcheggiate tra marciapiede e strada",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#If there is a raised sidewalk, how is it protected from traffic?": "S’il y a un trottoir surélevé, comment est-il protégé de la circulation ?",
+          "#Bollards are short posts that stop vehicles from entering the walking area.": "Les potelets sont de petits poteaux qui empêchent les véhicules d’entrer dans l’espace piéton.",
+          "#Raised only, no extra protection": "Surélevé uniquement, sans protection supplémentaire",
+          "#Bollards": "Potelets",
+          "#Guard rails or fencing": "Glissières ou clôtures",
+          "#Planted strip, bushes, or planters": "Bande plantée, arbustes ou jardinières",
+          "#Parked cars between the sidewalk and the road": "Voitures garées entre le trottoir et la chaussée",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#If there is a raised sidewalk, how is it protected from traffic?": "Wie ist ein erhöhter Gehweg vom Verkehr geschützt?",
+          "#Bollards are short posts that stop vehicles from entering the walking area.": "Poller sind niedrige Pfosten, die Fahrzeuge daran hindern, in den Gehbereich zu fahren.",
+          "#Raised only, no extra protection": "Nur erhöht, ohne zusätzlichen Schutz",
+          "#Bollards": "Poller",
+          "#Guard rails or fencing": "Schutzgeländer oder Zäune",
+          "#Planted strip, bushes, or planters": "Bepflanzter Streifen, Büsche oder Pflanzkübel",
+          "#Parked cars between the sidewalk and the road": "Parkende Autos zwischen Gehweg und Fahrbahn",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#If there is a raised sidewalk, how is it protected from traffic?": "Yükseltilmiş bir kaldırım varsa trafikten nasıl korunuyor?",
+          "#Bollards are short posts that stop vehicles from entering the walking area.": "Babalar, araçların yürüme alanına girmesini önleyen kısa direklerdir.",
+          "#Raised only, no extra protection": "Yalnızca yükseltilmiş, ek koruma yok",
+          "#Bollards": "Dubalar",
+          "#Guard rails or fencing": "Korkuluklar veya çitler",
+          "#Planted strip, bushes, or planters": "Bitkili şerit, çalılar veya saksılar",
+          "#Parked cars between the sidewalk and the road": "Kaldırımla yol arasında park etmiş arabalar",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#If there is a raised sidewalk, how is it protected from traffic?": "اگر پیاده‌رو برجسته است، چگونه از ترافیک محافظت می‌شود؟",
+          "#Bollards are short posts that stop vehicles from entering the walking area.": "استوبرها تیرک‌های کوتاهی هستند که مانع ورود خودروها به فضای پیاده می‌شوند.",
+          "#Raised only, no extra protection": "فقط برجسته، بدون محافظت بیشتر",
+          "#Bollards": "بولارد",
+          "#Guard rails or fencing": "نرده محافظ یا حصار",
+          "#Planted strip, bushes, or planters": "نوار کاشته‌شده، بوته یا گلدان",
+          "#Parked cars between the sidewalk and the road": "خودروهای پارک‌شده میان پیاده‌رو و خیابان",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#If there is a raised sidewalk, how is it protected from traffic?": "Ha van megemelt járda, hogyan védik a forgalomtól?",
+          "#Bollards are short posts that stop vehicles from entering the walking area.": "A terelőoszlopok alacsony oszlopok, amelyek megakadályozzák, hogy a járművek a gyalogos területre hajtsanak.",
+          "#Raised only, no extra protection": "Csak megemelt, további védelem nélkül",
+          "#Bollards": "Oszlopok",
+          "#Guard rails or fencing": "Védőkorlátok vagy kerítés",
+          "#Planted strip, bushes, or planters": "Növényzettel beültetett sáv, bokrok vagy növényládák",
+          "#Parked cars between the sidewalk and the road": "A járda és az úttest között parkoló autók",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#If there is a raised sidewalk, how is it protected from traffic?": "إذا كان هناك رصيف مرتفع، فكيف يُحمى من حركة المرور؟",
+          "#Bollards are short posts that stop vehicles from entering the walking area.": "الأعمدة الحاجزة أعمدة قصيرة تمنع المركبات من دخول منطقة المشي.",
+          "#Raised only, no extra protection": "مرتفع فقط، دون حماية إضافية",
+          "#Bollards": "أعمدة قصيرة",
+          "#Guard rails or fencing": "حواجز حماية أو سياج",
+          "#Planted strip, bushes, or planters": "شريط مزروع أو شجيرات أو أحواض نباتات",
+          "#Parked cars between the sidewalk and the road": "سيارات مركونة بين الرصيف والطريق",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

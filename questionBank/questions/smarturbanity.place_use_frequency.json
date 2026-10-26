@@ -1,0 +1,114 @@
+{
+  "question_id": "smarturbanity.place_use_frequency",
+  "project": "SmartUrbanity",
+  "key": "place_use_frequency",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How often do you come here or pass by?",
+        "answer_key": "place_use_frequency",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "This is the first time",
+            "value": "first_time"
+          },
+          {
+            "text": "Less than once a month",
+            "value": "lt_monthly"
+          },
+          {
+            "text": "A few times a month",
+            "value": "monthly"
+          },
+          {
+            "text": "Every week",
+            "value": "weekly"
+          },
+          {
+            "text": "Every day or almost",
+            "value": "daily"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How often do you come here or pass by?": "How often do you come here or pass by?",
+          "#This is the first time": "This is the first time",
+          "#Less than once a month": "Less than once a month",
+          "#A few times a month": "A few times a month",
+          "#Every week": "Every week",
+          "#Every day or almost": "Every day or almost"
+        },
+        "it": {
+          "#How often do you come here or pass by?": "Quanto spesso vieni o passi di qui?",
+          "#This is the first time": "È la prima volta",
+          "#Less than once a month": "Meno di una volta al mese",
+          "#A few times a month": "Qualche volta al mese",
+          "#Every week": "Ogni settimana",
+          "#Every day or almost": "Ogni giorno o quasi"
+        },
+        "fr": {
+          "#How often do you come here or pass by?": "À quelle fréquence venez-vous ou passez-vous ici ?",
+          "#This is the first time": "C’est la première fois",
+          "#Less than once a month": "Moins d’une fois par mois",
+          "#A few times a month": "Quelques fois par mois",
+          "#Every week": "Chaque semaine",
+          "#Every day or almost": "Tous les jours ou presque"
+        },
+        "de": {
+          "#How often do you come here or pass by?": "Wie oft kommen Sie hierher oder kommen hier vorbei?",
+          "#This is the first time": "Das ist das erste Mal",
+          "#Less than once a month": "Weniger als einmal im Monat",
+          "#A few times a month": "Einige Male im Monat",
+          "#Every week": "Jede Woche",
+          "#Every day or almost": "Jeden Tag oder fast jeden Tag"
+        },
+        "tr": {
+          "#How often do you come here or pass by?": "Buraya ne sıklıkla geliyor veya buradan geçiyorsunuz?",
+          "#This is the first time": "İlk kez geliyorum",
+          "#Less than once a month": "Ayda birden az",
+          "#A few times a month": "Ayda birkaç kez",
+          "#Every week": "Her hafta",
+          "#Every day or almost": "Her gün veya neredeyse her gün"
+        },
+        "fa": {
+          "#How often do you come here or pass by?": "چند وقت یک‌بار به اینجا می‌آیید یا از اینجا می‌گذرید؟",
+          "#This is the first time": "این نخستین بار است",
+          "#Less than once a month": "کمتر از ماهی یک‌بار",
+          "#A few times a month": "چند بار در ماه",
+          "#Every week": "هر هفته",
+          "#Every day or almost": "هر روز یا تقریباً هر روز"
+        },
+        "hu": {
+          "#How often do you come here or pass by?": "Milyen gyakran jár ide vagy halad el itt?",
+          "#This is the first time": "Most járok itt először",
+          "#Less than once a month": "Havonta ritkábban mint egyszer",
+          "#A few times a month": "Havonta néhányszor",
+          "#Every week": "Minden héten",
+          "#Every day or almost": "Minden nap vagy majdnem"
+        },
+        "ar": {
+          "#How often do you come here or pass by?": "كم مرة تأتي إلى هنا أو تمر من هنا؟",
+          "#This is the first time": "هذه هي المرة الأولى",
+          "#Less than once a month": "أقل من مرة في الشهر",
+          "#A few times a month": "بضع مرات في الشهر",
+          "#Every week": "كل أسبوع",
+          "#Every day or almost": "كل يوم أو تقريبًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

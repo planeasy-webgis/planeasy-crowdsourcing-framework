@@ -1,0 +1,113 @@
+{
+  "question_id": "smarturbanity.freq_trip_frequency",
+  "project": "SmartUrbanity",
+  "key": "freq_trip_frequency",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_daily_travel"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "On average, how often do you make your most frequent journey?",
+        "answer_key": "freq_trip_frequency",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "5 or more days a week (Daily/Commuter)",
+            "value": "5_plus_week"
+          },
+          {
+            "text": "3–4 days a week (Frequent)",
+            "value": "3_4_week"
+          },
+          {
+            "text": "1–2 days a week (Regular)",
+            "value": "1_2_week"
+          },
+          {
+            "text": "1–3 times a month (Occasional)",
+            "value": "1_3_month"
+          },
+          {
+            "text": "Less than once a month (Rarely)",
+            "value": "lt_monthly"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#On average, how often do you make your most frequent journey?": "On average, how often do you make your most frequent journey?",
+          "#5 or more days a week (Daily/Commuter)": "5 or more days a week (Daily/Commuter)",
+          "#3–4 days a week (Frequent)": "3–4 days a week (Frequent)",
+          "#1–2 days a week (Regular)": "1–2 days a week (Regular)",
+          "#1–3 times a month (Occasional)": "1–3 times a month (Occasional)",
+          "#Less than once a month (Rarely)": "Less than once a month (Rarely)"
+        },
+        "it": {
+          "#On average, how often do you make your most frequent journey?": "In media, con quale frequenza effettui il tuo spostamento più frequente?",
+          "#5 or more days a week (Daily/Commuter)": "5 o più giorni alla settimana (quotidiano/pendolare)",
+          "#3–4 days a week (Frequent)": "3-4 giorni alla settimana (frequente)",
+          "#1–2 days a week (Regular)": "1-2 giorni alla settimana (regolare)",
+          "#1–3 times a month (Occasional)": "1-3 volte al mese (occasionale)",
+          "#Less than once a month (Rarely)": "Meno di una volta al mese (raramente)"
+        },
+        "fr": {
+          "#On average, how often do you make your most frequent journey?": "En moyenne, à quelle fréquence faites-vous votre trajet le plus fréquent ?",
+          "#5 or more days a week (Daily/Commuter)": "5 jours ou plus par semaine (quotidien / domicile-travail)",
+          "#3–4 days a week (Frequent)": "3 à 4 jours par semaine (fréquent)",
+          "#1–2 days a week (Regular)": "1 à 2 jours par semaine (régulier)",
+          "#1–3 times a month (Occasional)": "1 à 3 fois par mois (occasionnel)",
+          "#Less than once a month (Rarely)": "Moins d’une fois par mois (rare)"
+        },
+        "de": {
+          "#On average, how often do you make your most frequent journey?": "Wie oft machen Sie im Durchschnitt Ihren häufigsten Weg?",
+          "#5 or more days a week (Daily/Commuter)": "5 oder mehr Tage pro Woche (täglich / Pendeln)",
+          "#3–4 days a week (Frequent)": "3-4 Tage pro Woche (häufig)",
+          "#1–2 days a week (Regular)": "1-2 Tage pro Woche (regelmäßig)",
+          "#1–3 times a month (Occasional)": "1-3 Mal pro Monat (gelegentlich)",
+          "#Less than once a month (Rarely)": "Weniger als einmal im Monat (selten)"
+        },
+        "tr": {
+          "#On average, how often do you make your most frequent journey?": "En sık yaptığınız yolculuğu ortalama ne sıklıkta yaparsınız?",
+          "#5 or more days a week (Daily/Commuter)": "Haftada 5 gün veya daha fazla (günlük / işe gidip gelme)",
+          "#3–4 days a week (Frequent)": "Haftada 3-4 gün (sık)",
+          "#1–2 days a week (Regular)": "Haftada 1-2 gün (düzenli)",
+          "#1–3 times a month (Occasional)": "Ayda 1-3 kez (ara sıra)",
+          "#Less than once a month (Rarely)": "Ayda birden az (nadiren)"
+        },
+        "fa": {
+          "#On average, how often do you make your most frequent journey?": "به طور متوسط پرتکرارترین سفر خود را چند وقت یک بار انجام می‌دهید؟",
+          "#5 or more days a week (Daily/Commuter)": "هفته‌ای ۵ روز یا بیشتر (روزانه / رفت‌وآمد کاری)",
+          "#3–4 days a week (Frequent)": "هفته‌ای ۳ تا ۴ روز (زیاد)",
+          "#1–2 days a week (Regular)": "هفته‌ای ۱ تا ۲ روز (منظم)",
+          "#1–3 times a month (Occasional)": "ماهی ۱ تا ۳ بار (گاهی)",
+          "#Less than once a month (Rarely)": "کمتر از ماهی یک بار (به ندرت)"
+        },
+        "hu": {
+          "#On average, how often do you make your most frequent journey?": "Átlagosan milyen gyakran teszi meg a leggyakoribb útját?",
+          "#5 or more days a week (Daily/Commuter)": "Hetente 5 vagy több napon (napi / ingázás)",
+          "#3–4 days a week (Frequent)": "Hetente 3-4 napon (gyakran)",
+          "#1–2 days a week (Regular)": "Hetente 1-2 napon (rendszeresen)",
+          "#1–3 times a month (Occasional)": "Havonta 1-3 alkalommal (alkalmanként)",
+          "#Less than once a month (Rarely)": "Havonta kevesebb mint egyszer (ritkán)"
+        },
+        "ar": {
+          "#On average, how often do you make your most frequent journey?": "في المتوسط، كم مرة تقوم برحلتك الأكثر تكرارًا؟",
+          "#5 or more days a week (Daily/Commuter)": "5 أيام أو أكثر في الأسبوع (يوميًا / تنقل للعمل)",
+          "#3–4 days a week (Frequent)": "3-4 أيام في الأسبوع (متكرر)",
+          "#1–2 days a week (Regular)": "1-2 يوم في الأسبوع (منتظم)",
+          "#1–3 times a month (Occasional)": "1-3 مرات في الشهر (أحيانًا)",
+          "#Less than once a month (Rarely)": "أقل من مرة في الشهر (نادرًا)"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_daily_travel"
+      ]
+    }
+  }
+}

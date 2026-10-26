@@ -1,0 +1,87 @@
+{
+  "question_id": "smarturbanity.refuge_island",
+  "project": "SmartUrbanity",
+  "key": "refuge_island",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Is there a refuge island where people can stop between traffic lanes?",
+        "answer_key": "refuge_island",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#Is there a refuge island where people can stop between traffic lanes?": "Is there a refuge island where people can stop between traffic lanes?",
+          "#Yes": "Yes",
+          "#No": "No",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Is there a refuge island where people can stop between traffic lanes?": "È presente un’isola salvagente dove fermarsi tra le corsie?",
+          "#Yes": "Sì",
+          "#No": "No",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Is there a refuge island where people can stop between traffic lanes?": "Y a-t-il un îlot refuge où s’arrêter entre les voies de circulation ?",
+          "#Yes": "Oui",
+          "#No": "Non",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Is there a refuge island where people can stop between traffic lanes?": "Gibt es eine Schutzinsel, auf der man zwischen den Fahrspuren warten kann?",
+          "#Yes": "Ja",
+          "#No": "Nein",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Is there a refuge island where people can stop between traffic lanes?": "Trafik şeritleri arasında beklenebilecek bir refüj adası var mı?",
+          "#Yes": "Evet",
+          "#No": "Hayır",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Is there a refuge island where people can stop between traffic lanes?": "آیا جزیرهٔ میانی برای توقف بین خط‌های عبور خودروها وجود دارد؟",
+          "#Yes": "بله",
+          "#No": "خیر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Is there a refuge island where people can stop between traffic lanes?": "Van menedéksziget, ahol meg lehet állni a forgalmi sávok között?",
+          "#Yes": "Igen",
+          "#No": "Nem",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Is there a refuge island where people can stop between traffic lanes?": "هل توجد جزيرة أمان يمكن الوقوف عليها بين مسارات المركبات؟",
+          "#Yes": "نعم",
+          "#No": "لا",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

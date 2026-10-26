@@ -1,0 +1,132 @@
+{
+  "question_id": "smarturbanity.bike_separation",
+  "project": "SmartUrbanity",
+  "key": "bike_separation",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How is the cycling space separated from walking or motor traffic?",
+        "answer_key": "bike_separation",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Paint or road markings only",
+            "value": "markings_only"
+          },
+          {
+            "text": "Bollards, barriers, kerbs, or planters",
+            "value": "physical_separation"
+          },
+          {
+            "text": "Parked cars",
+            "value": "parked_cars"
+          },
+          {
+            "text": "Separate from people walking, at the same level",
+            "value": "separate_same_level"
+          },
+          {
+            "text": "Different level or kerb from people walking",
+            "value": "different_level_from_pedestrians"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How is the cycling space separated from walking or motor traffic?": "How is the cycling space separated from walking or motor traffic?",
+          "#Paint or road markings only": "Paint or road markings only",
+          "#Bollards, barriers, kerbs, or planters": "Bollards, barriers, kerbs, or planters",
+          "#Parked cars": "Parked cars",
+          "#Separate from people walking, at the same level": "Separate from people walking, at the same level",
+          "#Different level or kerb from people walking": "Different level or kerb from people walking",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How is the cycling space separated from walking or motor traffic?": "Come è separato lo spazio ciclabile dalle persone a piedi o dal traffico motorizzato?",
+          "#Paint or road markings only": "Solo strisce dipinte a terra",
+          "#Bollards, barriers, kerbs, or planters": "Dissuasori, barriere, cordoli o fioriere",
+          "#Parked cars": "Automobili parcheggiate",
+          "#Separate from people walking, at the same level": "Separato dalle persone a piedi, allo stesso livello",
+          "#Different level or kerb from people walking": "Livello diverso o cordolo rispetto allo spazio pedonale",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How is the cycling space separated from walking or motor traffic?": "Comment l’espace cyclable est-il séparé des piétons ou de la circulation motorisée ?",
+          "#Paint or road markings only": "Peinture ou marquages au sol uniquement",
+          "#Bollards, barriers, kerbs, or planters": "Potelets, barrières, bordures ou jardinières",
+          "#Parked cars": "Voitures stationnées",
+          "#Separate from people walking, at the same level": "Séparé des piétons, au même niveau",
+          "#Different level or kerb from people walking": "Niveau différent ou bordure par rapport aux piétons",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How is the cycling space separated from walking or motor traffic?": "Wie ist der Radbereich vom Fuß- oder Kraftfahrzeugverkehr getrennt?",
+          "#Paint or road markings only": "Nur Farbe oder Fahrbahnmarkierungen",
+          "#Bollards, barriers, kerbs, or planters": "Poller, Barrieren, Bordsteine oder Pflanzkübel",
+          "#Parked cars": "Geparkte Autos",
+          "#Separate from people walking, at the same level": "Vom Fußverkehr getrennt, auf gleicher Höhe",
+          "#Different level or kerb from people walking": "Andere Höhe oder Bordstein gegenüber dem Fußverkehr",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How is the cycling space separated from walking or motor traffic?": "Bisiklet alanı yayalardan veya motorlu trafikten nasıl ayrılmış?",
+          "#Paint or road markings only": "Yalnızca boya veya yol çizgileri",
+          "#Bollards, barriers, kerbs, or planters": "Dubalar, bariyerler, bordürler veya saksılar",
+          "#Parked cars": "Park etmiş arabalar",
+          "#Separate from people walking, at the same level": "Yürüyen kişilerden ayrı, aynı seviyede",
+          "#Different level or kerb from people walking": "Yürüyen kişilerden farklı seviyede veya bordürle ayrılmış",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How is the cycling space separated from walking or motor traffic?": "فضای دوچرخه چگونه از عابران پیاده یا ترافیک موتوری جدا شده است؟",
+          "#Paint or road markings only": "فقط رنگ یا خط‌کشی جاده",
+          "#Bollards, barriers, kerbs, or planters": "میله‌ها، موانع، جدول‌ها یا گلدان‌ها",
+          "#Parked cars": "خودروهای پارک‌شده",
+          "#Separate from people walking, at the same level": "جدا از عابران پیاده و هم‌سطح با آنان",
+          "#Different level or kerb from people walking": "سطح متفاوت یا جدول جداکننده از عابران پیاده",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How is the cycling space separated from walking or motor traffic?": "Hogyan választják el a kerékpáros teret a gyalogos vagy gépjárműforgalomtól?",
+          "#Paint or road markings only": "Csak festés vagy burkolati jel",
+          "#Bollards, barriers, kerbs, or planters": "Oszlopok, korlátok, szegélyek vagy növényládák",
+          "#Parked cars": "Parkoló autók",
+          "#Separate from people walking, at the same level": "A gyalogosoktól elválasztva, azonos szinten",
+          "#Different level or kerb from people walking": "A gyalogosoktól eltérő szinten vagy szegéllyel elválasztva",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How is the cycling space separated from walking or motor traffic?": "كيف تفصل مساحة الدراجات عن المشاة أو حركة المركبات؟",
+          "#Paint or road markings only": "طلاء أو علامات طريق فقط",
+          "#Bollards, barriers, kerbs, or planters": "أعمدة أو حواجز أو حواف أو أحواض نباتات",
+          "#Parked cars": "سيارات متوقفة",
+          "#Separate from people walking, at the same level": "منفصلة عن المشاة وعلى المستوى نفسه",
+          "#Different level or kerb from people walking": "مستوى مختلف أو حافة فاصلة عن المشاة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

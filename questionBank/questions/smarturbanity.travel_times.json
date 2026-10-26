@@ -1,0 +1,125 @@
+{
+  "question_id": "smarturbanity.travel_times",
+  "project": "SmartUrbanity",
+  "key": "travel_times",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_daily_travel"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "At what times of day do you most often travel? (Select all that apply)",
+        "answer_key": "travel_times",
+        "question_type": "multiple_options",
+        "options": [
+          {
+            "text": "Before 7:00",
+            "value": "before_7"
+          },
+          {
+            "text": "7:00-10:00 (morning rush)",
+            "value": "7_10"
+          },
+          {
+            "text": "10:00-14:00 (midday)",
+            "value": "10_14"
+          },
+          {
+            "text": "14:00-18:00 (afternoon rush)",
+            "value": "14_18"
+          },
+          {
+            "text": "18:00-20:00 (evening return)",
+            "value": "18_20"
+          },
+          {
+            "text": "After 20:00 (evening/night)",
+            "value": "after_20"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#At what times of day do you most often travel? (Select all that apply)": "At what times of day do you most often travel? (Select all that apply)",
+          "#Before 7:00": "Before 7:00",
+          "#7:00-10:00 (morning rush)": "7:00-10:00 (morning rush)",
+          "#10:00-14:00 (midday)": "10:00-14:00 (midday)",
+          "#14:00-18:00 (afternoon rush)": "14:00-18:00 (afternoon rush)",
+          "#18:00-20:00 (evening return)": "18:00-20:00 (evening return)",
+          "#After 20:00 (evening/night)": "After 20:00 (evening/night)"
+        },
+        "it": {
+          "#At what times of day do you most often travel? (Select all that apply)": "In quali momenti della giornata ti sposti più frequentemente? (Seleziona tutte le opzioni applicabili)",
+          "#Before 7:00": "Prima delle 7:00",
+          "#7:00-10:00 (morning rush)": "7:00-10:00 (ora di punta mattutina)",
+          "#10:00-14:00 (midday)": "10:00-14:00 (metà giornata)",
+          "#14:00-18:00 (afternoon rush)": "14:00-18:00 (ora di punta pomeridiana)",
+          "#18:00-20:00 (evening return)": "18:00-20:00 (rientro serale)",
+          "#After 20:00 (evening/night)": "Dopo le 20:00 (sera/notte)"
+        },
+        "fr": {
+          "#At what times of day do you most often travel? (Select all that apply)": "À quels moments de la journée vous déplacez-vous le plus souvent ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#Before 7:00": "Avant 7 h",
+          "#7:00-10:00 (morning rush)": "7 h-10 h (heure de pointe du matin)",
+          "#10:00-14:00 (midday)": "10 h-14 h (milieu de journée)",
+          "#14:00-18:00 (afternoon rush)": "14 h-18 h (après-midi)",
+          "#18:00-20:00 (evening return)": "18 h-20 h (retour du soir)",
+          "#After 20:00 (evening/night)": "Après 20 h (soir / nuit)"
+        },
+        "de": {
+          "#At what times of day do you most often travel? (Select all that apply)": "Zu welchen Tageszeiten sind Sie am häufigsten unterwegs? (Wählen Sie alles Zutreffende aus)",
+          "#Before 7:00": "Vor 7:00 Uhr",
+          "#7:00-10:00 (morning rush)": "7:00-10:00 Uhr (morgendliche Stoßzeit)",
+          "#10:00-14:00 (midday)": "10:00-14:00 Uhr (Mittagszeit)",
+          "#14:00-18:00 (afternoon rush)": "14:00-18:00 Uhr (Nachmittag)",
+          "#18:00-20:00 (evening return)": "18:00-20:00 Uhr (Abendlicher Rückweg)",
+          "#After 20:00 (evening/night)": "Nach 20:00 Uhr (Abend / Nacht)"
+        },
+        "tr": {
+          "#At what times of day do you most often travel? (Select all that apply)": "En sık günün hangi saatlerinde yolculuk yaparsınız? (Uygun olanların tümünü seçin)",
+          "#Before 7:00": "07.00’den önce",
+          "#7:00-10:00 (morning rush)": "07.00-10.00 (sabah yoğunluğu)",
+          "#10:00-14:00 (midday)": "10.00-14.00 (öğle saatleri)",
+          "#14:00-18:00 (afternoon rush)": "14.00-18.00 (öğleden sonra)",
+          "#18:00-20:00 (evening return)": "18.00-20.00 (akşam dönüşü)",
+          "#After 20:00 (evening/night)": "20.00’den sonra (akşam / gece)"
+        },
+        "fa": {
+          "#At what times of day do you most often travel? (Select all that apply)": "بیشتر در چه ساعت‌هایی از روز سفر می‌کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+          "#Before 7:00": "قبل از ۷:۰۰",
+          "#7:00-10:00 (morning rush)": "۷:۰۰ تا ۱۰:۰۰ (ساعت شلوغی صبح)",
+          "#10:00-14:00 (midday)": "۱۰:۰۰ تا ۱۴:۰۰ (میانه روز)",
+          "#14:00-18:00 (afternoon rush)": "۱۴:۰۰ تا ۱۸:۰۰ (بعدازظهر)",
+          "#18:00-20:00 (evening return)": "۱۸:۰۰ تا ۲۰:۰۰ (بازگشت عصر)",
+          "#After 20:00 (evening/night)": "بعد از ۲۰:۰۰ (عصر / شب)"
+        },
+        "hu": {
+          "#At what times of day do you most often travel? (Select all that apply)": "A nap mely időszakaiban közlekedik leggyakrabban? (Jelölje meg az összes megfelelőt)",
+          "#Before 7:00": "7:00 előtt",
+          "#7:00-10:00 (morning rush)": "7:00-10:00 (reggeli csúcsidő)",
+          "#10:00-14:00 (midday)": "10:00-14:00 (napközben)",
+          "#14:00-18:00 (afternoon rush)": "14:00-18:00 (délután)",
+          "#18:00-20:00 (evening return)": "18:00-20:00 (esti hazatérés)",
+          "#After 20:00 (evening/night)": "20:00 után (este / éjszaka)"
+        },
+        "ar": {
+          "#At what times of day do you most often travel? (Select all that apply)": "في أي أوقات من اليوم تتنقل غالبًا؟ (اختر كل ما ينطبق)",
+          "#Before 7:00": "قبل الساعة 7:00",
+          "#7:00-10:00 (morning rush)": "7:00-10:00 (ذروة الصباح)",
+          "#10:00-14:00 (midday)": "10:00-14:00 (منتصف اليوم)",
+          "#14:00-18:00 (afternoon rush)": "14:00-18:00 (بعد الظهر)",
+          "#18:00-20:00 (evening return)": "18:00-20:00 (العودة مساءً)",
+          "#After 20:00 (evening/night)": "بعد 20:00 (المساء / الليل)"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_daily_travel"
+      ]
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "question_id": "smarturbanity.trip_time_vs_expected",
+  "project": "SmartUrbanity",
+  "key": "trip_time_vs_expected",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Compared to what you expected, how long did this trip feel?",
+        "answer_key": "trip_time_vs_expected",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Much shorter than expected",
+            "value": "much_shorter"
+          },
+          {
+            "text": "A little shorter than expected",
+            "value": "shorter"
+          },
+          {
+            "text": "As expected",
+            "value": "as_expected"
+          },
+          {
+            "text": "A little longer than expected",
+            "value": "longer"
+          },
+          {
+            "text": "Much longer than expected",
+            "value": "much_longer"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Compared to what you expected, how long did this trip feel?": "Compared to what you expected, how long did this trip feel?",
+          "#Much shorter than expected": "Much shorter than expected",
+          "#A little shorter than expected": "A little shorter than expected",
+          "#As expected": "As expected",
+          "#A little longer than expected": "A little longer than expected",
+          "#Much longer than expected": "Much longer than expected"
+        },
+        "it": {
+          "#Compared to what you expected, how long did this trip feel?": "Rispetto a quanto ti aspettavi, quanto ti è sembrato lungo questo spostamento?",
+          "#Much shorter than expected": "Molto più breve del previsto",
+          "#A little shorter than expected": "Un po' più breve del previsto",
+          "#As expected": "Come previsto",
+          "#A little longer than expected": "Un po' più lungo del previsto",
+          "#Much longer than expected": "Molto più lungo del previsto"
+        },
+        "fr": {
+          "#Compared to what you expected, how long did this trip feel?": "Par rapport à ce que vous attendiez, ce trajet vous a-t-il semblé long ?",
+          "#Much shorter than expected": "Beaucoup moins longtemps que prévu",
+          "#A little shorter than expected": "Un peu moins longtemps que prévu",
+          "#As expected": "Comme prévu",
+          "#A little longer than expected": "Un peu plus long que prévu",
+          "#Much longer than expected": "Beaucoup plus long que prévu"
+        },
+        "de": {
+          "#Compared to what you expected, how long did this trip feel?": "Wie lang hat sich dieser Weg im Vergleich zu Ihrer Erwartung angefühlt?",
+          "#Much shorter than expected": "Viel kürzer als erwartet",
+          "#A little shorter than expected": "Etwas kürzer als erwartet",
+          "#As expected": "Wie erwartet",
+          "#A little longer than expected": "Etwas länger als erwartet",
+          "#Much longer than expected": "Viel länger als erwartet"
+        },
+        "tr": {
+          "#Compared to what you expected, how long did this trip feel?": "Beklediğinize kıyasla bu yolculuk size ne kadar uzun geldi?",
+          "#Much shorter than expected": "Beklenenden çok daha kısa",
+          "#A little shorter than expected": "Beklenenden biraz daha kısa",
+          "#As expected": "Beklendiği gibi",
+          "#A little longer than expected": "Beklenenden biraz daha uzun",
+          "#Much longer than expected": "Beklenenden çok daha uzun"
+        },
+        "fa": {
+          "#Compared to what you expected, how long did this trip feel?": "در مقایسه با انتظارتان، این سفر چقدر طولانی به نظر رسید؟",
+          "#Much shorter than expected": "بسیار کوتاه‌تر از انتظار",
+          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
+          "#As expected": "مطابق انتظار",
+          "#A little longer than expected": "کمی طولانی‌تر از حد انتظار",
+          "#Much longer than expected": "بسیار طولانی‌تر از حد انتظار"
+        },
+        "hu": {
+          "#Compared to what you expected, how long did this trip feel?": "Ahhoz képest, amire számított, mennyire tűnt hosszúnak ez az út?",
+          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
+          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
+          "#As expected": "A vártnak megfelelően",
+          "#A little longer than expected": "Kicsit hosszabb a vártnál",
+          "#Much longer than expected": "Sokkal hosszabb a vártnál"
+        },
+        "ar": {
+          "#Compared to what you expected, how long did this trip feel?": "مقارنةً بما توقعته، كم بدت لك هذه الرحلة طويلة؟",
+          "#Much shorter than expected": "أقصر بكثير من المتوقع",
+          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
+          "#As expected": "كما هو متوقع",
+          "#A little longer than expected": "أطول قليلًا مما توقعت",
+          "#Much longer than expected": "أطول بكثير مما توقعت"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_post_trip"
+      ]
+    }
+  }
+}

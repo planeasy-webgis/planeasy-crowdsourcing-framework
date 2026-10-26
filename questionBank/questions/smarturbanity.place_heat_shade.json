@@ -1,0 +1,115 @@
+{
+  "question_id": "smarturbanity.place_heat_shade",
+  "project": "SmartUrbanity",
+  "key": "place_heat_shade",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What is it like here on hot days?",
+        "answer_key": "place_heat_shade",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Very hot, no shade",
+            "value": "very_hot"
+          },
+          {
+            "text": "Hot, little shade",
+            "value": "hot"
+          },
+          {
+            "text": "Bearable",
+            "value": "bearable"
+          },
+          {
+            "text": "Cool, some shade",
+            "value": "cool"
+          },
+          {
+            "text": "Cool, plenty of shade",
+            "value": "very_cool"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What is it like here on hot days?": "What is it like here on hot days?",
+          "#Very hot, no shade": "Very hot, no shade",
+          "#Hot, little shade": "Hot, little shade",
+          "#Bearable": "Bearable",
+          "#Cool, some shade": "Cool, some shade",
+          "#Cool, plenty of shade": "Cool, plenty of shade"
+        },
+        "it": {
+          "#What is it like here on hot days?": "Com'è questo luogo nei giorni caldi?",
+          "#Very hot, no shade": "Molto caldo, niente ombra",
+          "#Hot, little shade": "Caldo, poca ombra",
+          "#Bearable": "Sopportabile",
+          "#Cool, some shade": "Fresco, un po' d'ombra",
+          "#Cool, plenty of shade": "Fresco, tanta ombra"
+        },
+        "fr": {
+          "#What is it like here on hot days?": "Comment est cet endroit les jours de chaleur ?",
+          "#Very hot, no shade": "Très chaud, pas d’ombre",
+          "#Hot, little shade": "Chaud, peu d’ombre",
+          "#Bearable": "Supportable",
+          "#Cool, some shade": "Frais, un peu d’ombre",
+          "#Cool, plenty of shade": "Frais, beaucoup d’ombre"
+        },
+        "de": {
+          "#What is it like here on hot days?": "Wie ist es hier an heißen Tagen?",
+          "#Very hot, no shade": "Sehr heiß, kein Schatten",
+          "#Hot, little shade": "Heiß, wenig Schatten",
+          "#Bearable": "Erträglich",
+          "#Cool, some shade": "Kühl, etwas Schatten",
+          "#Cool, plenty of shade": "Kühl, viel Schatten"
+        },
+        "tr": {
+          "#What is it like here on hot days?": "Sıcak günlerde burası nasıl?",
+          "#Very hot, no shade": "Çok sıcak, gölge yok",
+          "#Hot, little shade": "Sıcak, az gölge",
+          "#Bearable": "Katlanılabilir",
+          "#Cool, some shade": "Serin, biraz gölge",
+          "#Cool, plenty of shade": "Serin, bol gölgeli"
+        },
+        "fa": {
+          "#What is it like here on hot days?": "این مکان در روزهای گرم چگونه است؟",
+          "#Very hot, no shade": "بسیار گرم، بدون سایه",
+          "#Hot, little shade": "گرم، سایه کم",
+          "#Bearable": "قابل تحمل",
+          "#Cool, some shade": "خنک، کمی سایه",
+          "#Cool, plenty of shade": "خنک، با سایه فراوان"
+        },
+        "hu": {
+          "#What is it like here on hot days?": "Milyen itt a forró napokon?",
+          "#Very hot, no shade": "Nagyon meleg, nincs árnyék",
+          "#Hot, little shade": "Meleg, kevés árnyék",
+          "#Bearable": "Elviselhető",
+          "#Cool, some shade": "Hűvös, némi árnyék",
+          "#Cool, plenty of shade": "Hűvös, sok árnyék"
+        },
+        "ar": {
+          "#What is it like here on hot days?": "كيف يكون هذا المكان في الأيام الحارة؟",
+          "#Very hot, no shade": "حار جدًا، لا يوجد ظل",
+          "#Hot, little shade": "حار، ظل قليل",
+          "#Bearable": "محتمل",
+          "#Cool, some shade": "منعش، بعض الظل",
+          "#Cool, plenty of shade": "بارد، ظل وافر"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

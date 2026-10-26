@@ -1,0 +1,90 @@
+{
+  "question_id": "smarturbanity.route_familiarity",
+  "project": "SmartUrbanity",
+  "key": "route_familiarity",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which route did you take?",
+        "answer_key": "route_familiarity",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "My usual route",
+            "value": "usual"
+          },
+          {
+            "text": "A route I know, but not my usual one",
+            "value": "known"
+          },
+          {
+            "text": "A route that was new to me",
+            "value": "new"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which route did you take?": "Which route did you take?",
+          "#My usual route": "My usual route",
+          "#A route I know, but not my usual one": "A route I know, but not my usual one",
+          "#A route that was new to me": "A route that was new to me"
+        },
+        "it": {
+          "#Which route did you take?": "Che percorso hai fatto?",
+          "#My usual route": "Il mio percorso abituale",
+          "#A route I know, but not my usual one": "Un percorso che conosco, ma non quello abituale",
+          "#A route that was new to me": "Un percorso nuovo per me"
+        },
+        "fr": {
+          "#Which route did you take?": "Quel itinéraire avez-vous pris ?",
+          "#My usual route": "Mon itinéraire habituel",
+          "#A route I know, but not my usual one": "Un itinéraire que je connais, mais pas mon itinéraire habituel",
+          "#A route that was new to me": "Un itinéraire nouveau pour moi"
+        },
+        "de": {
+          "#Which route did you take?": "Welche Route haben Sie genommen?",
+          "#My usual route": "Meine übliche Route",
+          "#A route I know, but not my usual one": "Eine Route, die ich kenne, aber nicht meine übliche",
+          "#A route that was new to me": "Eine für mich neue Route"
+        },
+        "tr": {
+          "#Which route did you take?": "Hangi güzergâhı kullandınız?",
+          "#My usual route": "Her zamanki güzergâhım",
+          "#A route I know, but not my usual one": "Bildiğim ama her zamanki olmayan bir güzergâh",
+          "#A route that was new to me": "Benim için yeni bir güzergâh"
+        },
+        "fa": {
+          "#Which route did you take?": "کدام مسیر را رفتید؟",
+          "#My usual route": "مسیر همیشگی من",
+          "#A route I know, but not my usual one": "مسیری که می‌شناسم، اما مسیر همیشگی‌ام نیست",
+          "#A route that was new to me": "مسیری که برایم تازه بود"
+        },
+        "hu": {
+          "#Which route did you take?": "Melyik útvonalat választotta?",
+          "#My usual route": "A szokásos útvonalam",
+          "#A route I know, but not my usual one": "Egy ismert, de nem a szokásos útvonalam",
+          "#A route that was new to me": "Egy számomra új útvonal"
+        },
+        "ar": {
+          "#Which route did you take?": "أي مسار سلكت؟",
+          "#My usual route": "مساري المعتاد",
+          "#A route I know, but not my usual one": "مسار أعرفه، لكنه ليس مساري المعتاد",
+          "#A route that was new to me": "مسار جديد بالنسبة لي"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_post_trip"
+      ]
+    }
+  }
+}

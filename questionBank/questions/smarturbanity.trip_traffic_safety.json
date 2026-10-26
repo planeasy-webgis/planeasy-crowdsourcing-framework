@@ -1,0 +1,114 @@
+{
+  "question_id": "smarturbanity.trip_traffic_safety",
+  "project": "SmartUrbanity",
+  "key": "trip_traffic_safety",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How safe from traffic did you feel on this trip?",
+        "answer_key": "trip_traffic_safety",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not at all safe",
+            "value": "not_safe"
+          },
+          {
+            "text": "Slightly safe",
+            "value": "slightly_safe"
+          },
+          {
+            "text": "Moderately safe",
+            "value": "moderately_safe"
+          },
+          {
+            "text": "Very safe",
+            "value": "very_safe"
+          },
+          {
+            "text": "Completely safe",
+            "value": "completely_safe"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How safe from traffic did you feel on this trip?": "How safe from traffic did you feel on this trip?",
+          "#Not at all safe": "Not at all safe",
+          "#Slightly safe": "Slightly safe",
+          "#Moderately safe": "Moderately safe",
+          "#Very safe": "Very safe",
+          "#Completely safe": "Completely safe"
+        },
+        "it": {
+          "#How safe from traffic did you feel on this trip?": "Quanto ti sei sentito/a al sicuro dal traffico durante questo spostamento?",
+          "#Not at all safe": "Per niente al sicuro",
+          "#Slightly safe": "Poco al sicuro",
+          "#Moderately safe": "Abbastanza al sicuro",
+          "#Very safe": "Molto al sicuro",
+          "#Completely safe": "Del tutto al sicuro"
+        },
+        "fr": {
+          "#How safe from traffic did you feel on this trip?": "Vous êtes-vous senti/sentie en sécurité par rapport à la circulation pendant ce trajet ?",
+          "#Not at all safe": "Pas du tout en sécurité",
+          "#Slightly safe": "Un peu en sécurité",
+          "#Moderately safe": "Modérément en sécurité",
+          "#Very safe": "Tout à fait en sécurité",
+          "#Completely safe": "Complètement en sécurité"
+        },
+        "de": {
+          "#How safe from traffic did you feel on this trip?": "Wie sicher vor dem Verkehr haben Sie sich auf diesem Weg gefühlt?",
+          "#Not at all safe": "Überhaupt nicht sicher",
+          "#Slightly safe": "Etwas sicher",
+          "#Moderately safe": "Mäßig sicher",
+          "#Very safe": "Sehr sicher",
+          "#Completely safe": "Vollkommen sicher"
+        },
+        "tr": {
+          "#How safe from traffic did you feel on this trip?": "Bu yolculukta kendinizi trafiğe karşı ne kadar güvende hissettiniz?",
+          "#Not at all safe": "Hiç güvende değil",
+          "#Slightly safe": "Biraz güvende",
+          "#Moderately safe": "Orta derecede güvende",
+          "#Very safe": "Çok güvende",
+          "#Completely safe": "Tamamen güvende"
+        },
+        "fa": {
+          "#How safe from traffic did you feel on this trip?": "در این سفر چقدر خود را در برابر ترافیک در امان احساس کردید؟",
+          "#Not at all safe": "اصلاً امن نیست",
+          "#Slightly safe": "کمی امن",
+          "#Moderately safe": "نسبتاً امن",
+          "#Very safe": "بسیار امن",
+          "#Completely safe": "کاملاً امن"
+        },
+        "hu": {
+          "#How safe from traffic did you feel on this trip?": "Mennyire érezte magát biztonságban a forgalomtól ezen az úton?",
+          "#Not at all safe": "Egyáltalán nem biztonságban",
+          "#Slightly safe": "Kissé biztonságban",
+          "#Moderately safe": "Közepesen biztonságban",
+          "#Very safe": "Nagyon biztonságban",
+          "#Completely safe": "Teljesen biztonságban"
+        },
+        "ar": {
+          "#How safe from traffic did you feel on this trip?": "إلى أي مدى شعرت بالأمان من حركة المرور في هذه الرحلة؟",
+          "#Not at all safe": "غير آمن/آمنة على الإطلاق",
+          "#Slightly safe": "آمن/آمنة قليلًا",
+          "#Moderately safe": "آمن/آمنة إلى حد ما",
+          "#Very safe": "آمن/آمنة جدًا",
+          "#Completely safe": "آمن/آمنة تمامًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_post_trip"
+      ]
+    }
+  }
+}

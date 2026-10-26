@@ -1,0 +1,113 @@
+{
+  "question_id": "smarturbanity.street_preference_v1",
+  "project": "SmartUrbanity",
+  "key": "street_preference_v1",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_experience_on_the_move",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_experience_on_the_move"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?",
+        "answer_key": "street_preference_v1",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very positively, lively environments make me feel safer or more comfortable",
+            "value": "very_positively_lively_environments_make"
+          },
+          {
+            "text": "Somewhat positively, lively environments improve my travel experience",
+            "value": "somewhat_positively_lively_environments"
+          },
+          {
+            "text": "Neutral, the level of activity does not affect my journey",
+            "value": "neutral_the_level_of_activity_does_not_a"
+          },
+          {
+            "text": "Somewhat negatively, quiet or empty areas can make me feel uncomfortable",
+            "value": "somewhat_negatively_quiet_or_empty_areas"
+          },
+          {
+            "text": "Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate",
+            "value": "very_negatively_overly_busy_or_crowded_a"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?": "How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?",
+          "#Very positively, lively environments make me feel safer or more comfortable": "Very positively, lively environments make me feel safer or more comfortable",
+          "#Somewhat positively, lively environments improve my travel experience": "Somewhat positively, lively environments improve my travel experience",
+          "#Neutral, the level of activity does not affect my journey": "Neutral, the level of activity does not affect my journey",
+          "#Somewhat negatively, quiet or empty areas can make me feel uncomfortable": "Somewhat negatively, quiet or empty areas can make me feel uncomfortable",
+          "#Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate": "Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate"
+        },
+        "it": {
+          "#How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?": "In che modo il livello di «vivacità» del percorso, cioè la presenza di altre persone, negozi e attività, influisce sul tuo spostamento?",
+          "#Very positively, lively environments make me feel safer or more comfortable": "Molto positivamente: gli ambienti vivaci mi fanno sentire più sicuro/a o a mio agio",
+          "#Somewhat positively, lively environments improve my travel experience": "Abbastanza positivamente: gli ambienti vivaci migliorano la mia esperienza di viaggio",
+          "#Neutral, the level of activity does not affect my journey": "In modo neutro: il livello di attività non influisce sul mio spostamento",
+          "#Somewhat negatively, quiet or empty areas can make me feel uncomfortable": "Abbastanza negativamente: le zone tranquille o deserte possono farmi sentire a disagio",
+          "#Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate": "Molto negativamente: le zone eccessivamente trafficate o affollate rendono lo spostamento stressante o difficile da affrontare"
+        },
+        "fr": {
+          "#How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?": "Comment le niveau d’animation de votre itinéraire, c’est-à-dire la présence d’autres personnes, de commerces et d’activités, influence-t-il votre trajet ?",
+          "#Very positively, lively environments make me feel safer or more comfortable": "Très positivement : les endroits animés me font sentir plus en sécurité ou plus à l’aise",
+          "#Somewhat positively, lively environments improve my travel experience": "Plutôt positivement : les endroits animés améliorent mon expérience de déplacement",
+          "#Neutral, the level of activity does not affect my journey": "De façon neutre : le niveau d’activité n’influence pas mon trajet",
+          "#Somewhat negatively, quiet or empty areas can make me feel uncomfortable": "Plutôt négativement : les endroits calmes ou vides peuvent me mettre mal à l’aise",
+          "#Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate": "Très négativement : les endroits trop fréquentés ou bondés rendent le trajet stressant ou difficile"
+        },
+        "de": {
+          "#How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?": "Wie beeinflusst die Belebtheit Ihrer Strecke, also die Anwesenheit anderer Menschen, Geschäfte und Aktivitäten, Ihren Weg?",
+          "#Very positively, lively environments make me feel safer or more comfortable": "Sehr positiv: Belebte Orte geben mir mehr Sicherheit oder Komfort",
+          "#Somewhat positively, lively environments improve my travel experience": "Eher positiv: Belebte Orte verbessern mein Erlebnis unterwegs",
+          "#Neutral, the level of activity does not affect my journey": "Neutral: Die Belebtheit beeinflusst meinen Weg nicht",
+          "#Somewhat negatively, quiet or empty areas can make me feel uncomfortable": "Eher negativ: Ruhige oder leere Bereiche können dazu führen, dass ich mich unwohl fühle",
+          "#Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate": "Sehr negativ: Sehr belebte oder überfüllte Bereiche machen den Weg stressig oder schwer überschaubar"
+        },
+        "tr": {
+          "#How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?": "Güzergâhınızdaki canlılık düzeyi, yani başka insanların, dükkânların ve etkinliklerin varlığı, yolculuğunuzu nasıl etkiler?",
+          "#Very positively, lively environments make me feel safer or more comfortable": "Çok olumlu: canlı yerler kendimi daha güvende veya rahat hissettirir",
+          "#Somewhat positively, lively environments improve my travel experience": "Biraz olumlu: canlı yerler yolculuk deneyimimi iyileştirir",
+          "#Neutral, the level of activity does not affect my journey": "Nötr: çevredeki hareketlilik yolculuğumu etkilemez",
+          "#Somewhat negatively, quiet or empty areas can make me feel uncomfortable": "Biraz olumsuz: sessiz veya boş alanlar beni rahatsız edebilir",
+          "#Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate": "Çok olumsuz: aşırı yoğun veya kalabalık alanlar yolculuğu stresli veya yön bulmayı zor hale getirir"
+        },
+        "fa": {
+          "#How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?": "میزان «زندگی و فعالیت» در مسیر شما، یعنی حضور افراد، فروشگاه‌ها و فعالیت‌ها، چگونه بر سفرتان اثر می‌گذارد؟",
+          "#Very positively, lively environments make me feel safer or more comfortable": "بسیار مثبت؛ محیط‌های پررفت‌وآمد باعث می‌شوند احساس امنیت یا راحتی بیشتری کنم",
+          "#Somewhat positively, lively environments improve my travel experience": "تا حدی مثبت؛ محیط‌های پررفت‌وآمد تجربه سفر مرا بهتر می‌کنند",
+          "#Neutral, the level of activity does not affect my journey": "خنثی؛ میزان فعالیت اطراف بر سفرم اثری ندارد",
+          "#Somewhat negatively, quiet or empty areas can make me feel uncomfortable": "تا حدی منفی؛ مناطق آرام یا خالی ممکن است باعث ناراحتی من شوند",
+          "#Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate": "بسیار منفی؛ مناطق بسیار شلوغ یا پرازدحام سفر را پراسترس یا جهت‌یابی را دشوار می‌کنند"
+        },
+        "hu": {
+          "#How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?": "Hogyan befolyásolja az útvonal „élettelisége”, vagyis más emberek, üzletek és tevékenységek jelenléte az utazását?",
+          "#Very positively, lively environments make me feel safer or more comfortable": "Nagyon pozitívan: az élénk környezet biztonságosabbá vagy kényelmesebbé teszi számomra az utat",
+          "#Somewhat positively, lively environments improve my travel experience": "Inkább pozitívan: az élénk környezet javítja az utazási élményemet",
+          "#Neutral, the level of activity does not affect my journey": "Semlegesen: a környezet aktivitása nem befolyásolja az utazásomat",
+          "#Somewhat negatively, quiet or empty areas can make me feel uncomfortable": "Inkább negatívan: a csendes vagy üres területek kényelmetlen érzést kelthetnek",
+          "#Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate": "Nagyon negatívan: a túl forgalmas vagy zsúfolt területek stresszessé vagy nehezen áttekinthetővé teszik az utat"
+        },
+        "ar": {
+          "#How does the level of 'liveliness' (the presence of other people, shops, and activity) on your route affect your journey?": "كيف يؤثر مستوى النشاط والحيوية على طريقك، أي وجود أشخاص ومتاجر وأنشطة، في رحلتك؟",
+          "#Very positively, lively environments make me feel safer or more comfortable": "بشكل إيجابي جدًا: الأماكن الحيوية تجعلني أشعر بأمان أو راحة أكبر",
+          "#Somewhat positively, lively environments improve my travel experience": "بشكل إيجابي إلى حد ما: الأماكن الحيوية تحسن تجربة التنقل",
+          "#Neutral, the level of activity does not affect my journey": "بشكل محايد: مستوى النشاط لا يؤثر في رحلتي",
+          "#Somewhat negatively, quiet or empty areas can make me feel uncomfortable": "بشكل سلبي إلى حد ما: الأماكن الهادئة أو الخالية قد تجعلني غير مرتاح",
+          "#Very negatively, overly busy or crowded areas make the journey stressful or difficult to navigate": "بشكل سلبي جدًا: الأماكن شديدة الازدحام تجعل الرحلة مرهقة أو تجعل معرفة الطريق أصعب"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_experience_on_the_move"
+      ]
+    }
+  }
+}

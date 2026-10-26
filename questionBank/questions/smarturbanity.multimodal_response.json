@@ -1,0 +1,185 @@
+{
+  "question_id": "smarturbanity.multimodal_response",
+  "project": "SmartUrbanity",
+  "key": "multimodal_response",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_daily_travel"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "When you face these difficulties, how do you mostly respond?",
+        "answer_key": "multimodal_response",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "I stop using one of the modes (e.g. stop bringing my bike)",
+            "value": "i_stop_using_one_of_the_modes_e_g_stop_b"
+          },
+          {
+            "text": "I switch to a single mode (e.g. only car, only public transport)",
+            "value": "i_switch_to_a_single_mode_e_g_only_car_o"
+          },
+          {
+            "text": "I change the time of travel (e.g. avoid peak hours)",
+            "value": "i_change_the_time_of_travel_e_g_avoid_pe"
+          },
+          {
+            "text": "I change the route or transfer point",
+            "value": "i_change_the_route_or_transfer_point"
+          },
+          {
+            "text": "I choose a different combination of modes",
+            "value": "i_choose_a_different_combination_of_mode"
+          },
+          {
+            "text": "I continue using the same combination despite difficulties",
+            "value": "i_continue_using_the_same_combination_de"
+          },
+          {
+            "text": "I reduce how often I make that trip",
+            "value": "i_reduce_how_often_i_make_that_trip"
+          },
+          {
+            "text": "I look for alternative solutions (e.g. bike sharing instead of own bike)",
+            "value": "i_look_for_alternative_solutions_e_g_bik"
+          },
+          {
+            "text": "I avoid that trip entirely if possible",
+            "value": "i_avoid_that_trip_entirely_if_possible"
+          },
+          {
+            "text": "I do not experience significant difficulties",
+            "value": "i_do_not_experience_significant_difficul"
+          }
+        ],
+        "add_other": true,
+        "legacy_answer_keys": [
+          "multimodal_response_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#When you face these difficulties, how do you mostly respond?": "When you face these difficulties, how do you mostly respond?",
+          "#I stop using one of the modes (e.g. stop bringing my bike)": "I stop using one of the modes (e.g. stop bringing my bike)",
+          "#I switch to a single mode (e.g. only car, only public transport)": "I switch to a single mode (e.g. only car, only public transport)",
+          "#I change the time of travel (e.g. avoid peak hours)": "I change the time of travel (e.g. avoid peak hours)",
+          "#I change the route or transfer point": "I change the route or transfer point",
+          "#I choose a different combination of modes": "I choose a different combination of modes",
+          "#I continue using the same combination despite difficulties": "I continue using the same combination despite difficulties",
+          "#I reduce how often I make that trip": "I reduce how often I make that trip",
+          "#I look for alternative solutions (e.g. bike sharing instead of own bike)": "I look for alternative solutions (e.g. bike sharing instead of own bike)",
+          "#I avoid that trip entirely if possible": "I avoid that trip entirely if possible",
+          "#I do not experience significant difficulties": "I do not experience significant difficulties",
+          "#Other": "Other"
+        },
+        "it": {
+          "#When you face these difficulties, how do you mostly respond?": "Quando incontri queste difficoltà, come reagisci principalmente?",
+          "#I stop using one of the modes (e.g. stop bringing my bike)": "Smetto di utilizzare uno dei mezzi (ad es. non porto più la mia bicicletta)",
+          "#I switch to a single mode (e.g. only car, only public transport)": "Passo a un'unica modalità di trasporto (ad es. solo auto o solo trasporto pubblico)",
+          "#I change the time of travel (e.g. avoid peak hours)": "Cambio l'orario dello spostamento (ad es. evito le ore di punta)",
+          "#I change the route or transfer point": "Cambio il percorso o il punto di interscambio",
+          "#I choose a different combination of modes": "Scelgo una diversa combinazione di mezzi",
+          "#I continue using the same combination despite difficulties": "Continuo a utilizzare la stessa combinazione nonostante le difficoltà",
+          "#I reduce how often I make that trip": "Riduco la frequenza con cui effettuo quello spostamento",
+          "#I look for alternative solutions (e.g. bike sharing instead of own bike)": "Cerco soluzioni alternative (ad es. bike sharing invece della mia bicicletta)",
+          "#I avoid that trip entirely if possible": "Evito completamente quello spostamento, se possibile",
+          "#I do not experience significant difficulties": "Non incontro difficoltà significative",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#When you face these difficulties, how do you mostly respond?": "Quand vous rencontrez ces difficultés, que faites-vous le plus souvent ?",
+          "#I stop using one of the modes (e.g. stop bringing my bike)": "J’arrête d’utiliser l’un des modes (par ex. je ne prends plus mon vélo)",
+          "#I switch to a single mode (e.g. only car, only public transport)": "Je passe à un seul mode de transport (par ex. uniquement la voiture ou uniquement les transports publics)",
+          "#I change the time of travel (e.g. avoid peak hours)": "Je change mon heure de déplacement (par ex. j’évite les heures de pointe)",
+          "#I change the route or transfer point": "Je change d’itinéraire ou de lieu de correspondance",
+          "#I choose a different combination of modes": "Je choisis une autre combinaison de modes",
+          "#I continue using the same combination despite difficulties": "Je continue à utiliser la même combinaison malgré les difficultés",
+          "#I reduce how often I make that trip": "Je fais ce trajet moins souvent",
+          "#I look for alternative solutions (e.g. bike sharing instead of own bike)": "Je cherche une autre solution (par ex. vélo partagé au lieu de mon propre vélo)",
+          "#I avoid that trip entirely if possible": "J’évite complètement ce trajet si c’est possible",
+          "#I do not experience significant difficulties": "Je ne rencontre pas de difficulté importante",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#When you face these difficulties, how do you mostly respond?": "Wie reagieren Sie normalerweise, wenn diese Schwierigkeiten auftreten?",
+          "#I stop using one of the modes (e.g. stop bringing my bike)": "Ich nutze eines der Verkehrsmittel nicht mehr (z. B. nehme ich mein Fahrrad nicht mehr mit)",
+          "#I switch to a single mode (e.g. only car, only public transport)": "Ich wechsle zu nur einem Verkehrsmittel (z. B. nur Auto oder nur öffentlicher Verkehr)",
+          "#I change the time of travel (e.g. avoid peak hours)": "Ich ändere meine Fahrzeit (z. B. vermeide ich Stoßzeiten)",
+          "#I change the route or transfer point": "Ich ändere Route oder Umsteigepunkt",
+          "#I choose a different combination of modes": "Ich wähle eine andere Kombination von Verkehrsmitteln",
+          "#I continue using the same combination despite difficulties": "Ich nutze trotz der Schwierigkeiten weiterhin dieselbe Kombination",
+          "#I reduce how often I make that trip": "Ich mache diesen Weg seltener",
+          "#I look for alternative solutions (e.g. bike sharing instead of own bike)": "Ich suche nach einer anderen Lösung (z. B. Leihrad statt eigenes Fahrrad)",
+          "#I avoid that trip entirely if possible": "Ich vermeide diesen Weg ganz, wenn es möglich ist",
+          "#I do not experience significant difficulties": "Ich habe keine größeren Schwierigkeiten",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#When you face these difficulties, how do you mostly respond?": "Bu güçlüklerle karşılaştığınızda genellikle ne yaparsınız?",
+          "#I stop using one of the modes (e.g. stop bringing my bike)": "Ulaşım seçeneklerinden birini kullanmayı bırakırım (ör. bisikletimi yanımda götürmem)",
+          "#I switch to a single mode (e.g. only car, only public transport)": "Tek bir ulaşım seçeneğine geçerim (ör. yalnızca otomobil veya yalnızca toplu taşıma)",
+          "#I change the time of travel (e.g. avoid peak hours)": "Yolculuk saatimi değiştiririm (ör. yoğun saatlerden kaçınırım)",
+          "#I change the route or transfer point": "Güzergâhı veya aktarma noktasını değiştiririm",
+          "#I choose a different combination of modes": "Farklı bir ulaşım seçeneği kombinasyonu kullanırım",
+          "#I continue using the same combination despite difficulties": "Güçlüklere rağmen aynı kombinasyonu kullanmaya devam ederim",
+          "#I reduce how often I make that trip": "O yolculuğu daha seyrek yaparım",
+          "#I look for alternative solutions (e.g. bike sharing instead of own bike)": "Alternatif çözüm ararım (ör. kendi bisikletim yerine paylaşımlı bisiklet kullanırım)",
+          "#I avoid that trip entirely if possible": "Mümkünse o yolculuğu tamamen yapmam",
+          "#I do not experience significant difficulties": "Önemli bir güçlük yaşamıyorum",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#When you face these difficulties, how do you mostly respond?": "وقتی با این مشکلات روبه‌رو می‌شوید معمولاً چه کار می‌کنید؟",
+          "#I stop using one of the modes (e.g. stop bringing my bike)": "استفاده از یکی از روش‌ها را کنار می‌گذارم (مثلاً دیگر دوچرخه‌ام را نمی‌برم)",
+          "#I switch to a single mode (e.g. only car, only public transport)": "فقط از یک روش استفاده می‌کنم (مثلاً فقط خودرو یا فقط حمل‌ونقل عمومی)",
+          "#I change the time of travel (e.g. avoid peak hours)": "زمان سفر را تغییر می‌دهم (مثلاً از ساعت شلوغی دوری می‌کنم)",
+          "#I change the route or transfer point": "مسیر یا محل تعویض وسیله را تغییر می‌دهم",
+          "#I choose a different combination of modes": "ترکیب دیگری از روش‌های رفت‌وآمد را انتخاب می‌کنم",
+          "#I continue using the same combination despite difficulties": "با وجود مشکلات، همان ترکیب را ادامه می‌دهم",
+          "#I reduce how often I make that trip": "آن سفر را کمتر انجام می‌دهم",
+          "#I look for alternative solutions (e.g. bike sharing instead of own bike)": "راه دیگری پیدا می‌کنم (مثلاً به جای دوچرخه شخصی از دوچرخه اشتراکی استفاده می‌کنم)",
+          "#I avoid that trip entirely if possible": "اگر ممکن باشد آن سفر را انجام نمی‌دهم",
+          "#I do not experience significant difficulties": "مشکل قابل توجهی ندارم",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#When you face these difficulties, how do you mostly respond?": "Mit tesz általában, amikor ilyen nehézségekkel találkozik?",
+          "#I stop using one of the modes (e.g. stop bringing my bike)": "Abbahagyom az egyik közlekedési mód használatát (pl. nem viszem magammal a kerékpárt)",
+          "#I switch to a single mode (e.g. only car, only public transport)": "Egyetlen közlekedési módra váltok (pl. csak autó vagy csak tömegközlekedés)",
+          "#I change the time of travel (e.g. avoid peak hours)": "Megváltoztatom az utazás időpontját (pl. kerülöm a csúcsidőt)",
+          "#I change the route or transfer point": "Megváltoztatom az útvonalat vagy az átszállási pontot",
+          "#I choose a different combination of modes": "Más közlekedési módokat kombinálok",
+          "#I continue using the same combination despite difficulties": "A nehézségek ellenére ugyanazt a kombinációt használom",
+          "#I reduce how often I make that trip": "Ritkábban teszem meg azt az utat",
+          "#I look for alternative solutions (e.g. bike sharing instead of own bike)": "Más megoldást keresek (pl. saját kerékpár helyett közösségi kerékpárt használok)",
+          "#I avoid that trip entirely if possible": "Ha lehet, teljesen elkerülöm azt az utat",
+          "#I do not experience significant difficulties": "Nem tapasztalok jelentős nehézséget",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#When you face these difficulties, how do you mostly respond?": "عندما تواجه هذه الصعوبات، ماذا تفعل عادةً؟",
+          "#I stop using one of the modes (e.g. stop bringing my bike)": "أتوقف عن استخدام إحدى الوسائل (مثل عدم أخذ الدراجة معي)",
+          "#I switch to a single mode (e.g. only car, only public transport)": "أنتقل إلى وسيلة واحدة فقط (مثل السيارة فقط أو النقل العام فقط)",
+          "#I change the time of travel (e.g. avoid peak hours)": "أغيّر وقت الرحلة (مثل تجنب ساعات الذروة)",
+          "#I change the route or transfer point": "أغيّر الطريق أو نقطة التبديل",
+          "#I choose a different combination of modes": "أختار مزيجًا مختلفًا من وسائل التنقل",
+          "#I continue using the same combination despite difficulties": "أواصل استخدام المزيج نفسه رغم الصعوبات",
+          "#I reduce how often I make that trip": "أقلل عدد مرات القيام بهذه الرحلة",
+          "#I look for alternative solutions (e.g. bike sharing instead of own bike)": "أبحث عن حل بديل (مثل استخدام دراجة مشتركة بدلًا من دراجتي)",
+          "#I avoid that trip entirely if possible": "أتجنب الرحلة تمامًا إذا كان ذلك ممكنًا",
+          "#I do not experience significant difficulties": "لا أواجه صعوبات كبيرة",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_daily_travel"
+      ]
+    }
+  }
+}

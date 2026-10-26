@@ -1,0 +1,153 @@
+{
+  "question_id": "smarturbanity.trip_purpose",
+  "project": "SmartUrbanity",
+  "key": "trip_purpose",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_pre_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_pre_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What is this trip for?",
+        "answer_key": "trip_purpose",
+        "question_type": "single_option",
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Going home",
+            "value": "home"
+          },
+          {
+            "text": "Work",
+            "value": "work"
+          },
+          {
+            "text": "Study",
+            "value": "study"
+          },
+          {
+            "text": "Shopping or errands",
+            "value": "shopping"
+          },
+          {
+            "text": "Taking or picking someone up",
+            "value": "escort"
+          },
+          {
+            "text": "Doctor or health appointment",
+            "value": "health",
+            "privacy_classification": "special_category_health"
+          },
+          {
+            "text": "Leisure or visiting people",
+            "value": "leisure"
+          },
+          {
+            "text": "A walk or exercise (no fixed destination)",
+            "value": "walk_exercise"
+          }
+        ],
+        "privacy_classification": "heightened_personal"
+      },
+      "translations": {
+        "en": {
+          "#What is this trip for?": "What is this trip for?",
+          "#Going home": "Going home",
+          "#Work": "Work",
+          "#Study": "Study",
+          "#Shopping or errands": "Shopping or errands",
+          "#Taking or picking someone up": "Taking or picking someone up",
+          "#Doctor or health appointment": "Doctor or health appointment",
+          "#Leisure or visiting people": "Leisure or visiting people",
+          "#A walk or exercise (no fixed destination)": "A walk or exercise (no fixed destination)"
+        },
+        "it": {
+          "#What is this trip for?": "Qual è lo scopo di questo spostamento?",
+          "#Going home": "Torno a casa",
+          "#Work": "Lavoro",
+          "#Study": "Studio",
+          "#Shopping or errands": "Spesa o commissioni",
+          "#Taking or picking someone up": "Accompagnare o prendere qualcuno",
+          "#Doctor or health appointment": "Medico o visita",
+          "#Leisure or visiting people": "Svago o visite a persone",
+          "#A walk or exercise (no fixed destination)": "Passeggiata o attività fisica (senza una meta precisa)"
+        },
+        "fr": {
+          "#What is this trip for?": "Quel est le but de ce trajet ?",
+          "#Going home": "Rentrer chez moi",
+          "#Work": "Travail",
+          "#Study": "Études",
+          "#Shopping or errands": "Courses ou démarches",
+          "#Taking or picking someone up": "Accompagner ou aller chercher quelqu’un",
+          "#Doctor or health appointment": "Rendez-vous médical ou de santé",
+          "#Leisure or visiting people": "Loisirs ou visites à des proches",
+          "#A walk or exercise (no fixed destination)": "Une promenade ou de l’exercice (sans destination précise)"
+        },
+        "de": {
+          "#What is this trip for?": "Wozu dient dieser Weg?",
+          "#Going home": "Nach Hause",
+          "#Work": "Arbeit",
+          "#Study": "Ausbildung/Studium",
+          "#Shopping or errands": "Einkaufen oder Besorgungen",
+          "#Taking or picking someone up": "Jemanden bringen oder abholen",
+          "#Doctor or health appointment": "Arzt- oder Gesundheitstermin",
+          "#Leisure or visiting people": "Freizeit oder Besuche",
+          "#A walk or exercise (no fixed destination)": "Spaziergang oder Bewegung (ohne festes Ziel)"
+        },
+        "tr": {
+          "#What is this trip for?": "Bu yolculuğun amacı nedir?",
+          "#Going home": "Eve dönüş",
+          "#Work": "İş",
+          "#Study": "Eğitim",
+          "#Shopping or errands": "Alışveriş veya günlük işler",
+          "#Taking or picking someone up": "Birini bırakmak veya almak",
+          "#Doctor or health appointment": "Doktor veya sağlık randevusu",
+          "#Leisure or visiting people": "Boş zaman veya ziyaret",
+          "#A walk or exercise (no fixed destination)": "Yürüyüş veya egzersiz (belirli bir varış noktası olmadan)"
+        },
+        "fa": {
+          "#What is this trip for?": "هدف این سفر چیست؟",
+          "#Going home": "بازگشت به خانه",
+          "#Work": "کار",
+          "#Study": "تحصیل",
+          "#Shopping or errands": "خرید یا کارهای روزمره",
+          "#Taking or picking someone up": "رساندن یا آوردن کسی",
+          "#Doctor or health appointment": "نوبت پزشک یا درمانی",
+          "#Leisure or visiting people": "تفریح یا دیدار با دیگران",
+          "#A walk or exercise (no fixed destination)": "پیاده‌روی یا ورزش (بدون مقصد مشخص)"
+        },
+        "hu": {
+          "#What is this trip for?": "Mi a célja ennek az útnak?",
+          "#Going home": "Hazamegyek",
+          "#Work": "Munka",
+          "#Study": "Tanulás",
+          "#Shopping or errands": "Vásárlás vagy ügyintézés",
+          "#Taking or picking someone up": "Valakit elkísérni vagy érte menni",
+          "#Doctor or health appointment": "Orvosi vagy egészségügyi időpont",
+          "#Leisure or visiting people": "Szabadidő vagy látogatás",
+          "#A walk or exercise (no fixed destination)": "Séta vagy testmozgás (konkrét úti cél nélkül)"
+        },
+        "ar": {
+          "#What is this trip for?": "ما الغرض من هذه الرحلة؟",
+          "#Going home": "العودة إلى المنزل",
+          "#Work": "العمل",
+          "#Study": "الدراسة",
+          "#Shopping or errands": "التسوق أو قضاء الحاجات",
+          "#Taking or picking someone up": "توصيل شخص أو اصطحابه",
+          "#Doctor or health appointment": "موعد طبي أو صحي",
+          "#Leisure or visiting people": "الترفيه أو زيارة الأشخاص",
+          "#A walk or exercise (no fixed destination)": "نزهة أو تمرين (دون وجهة محددة)"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_pre_trip"
+      ]
+    }
+  }
+}

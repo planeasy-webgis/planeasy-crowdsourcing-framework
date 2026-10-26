@@ -1,0 +1,94 @@
+{
+  "question_id": "smarturbanity.mobility_limitation",
+  "project": "SmartUrbanity",
+  "key": "mobility_limitation",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Do you have any condition or limitation that affects your ability to move independently?",
+        "answer_key": "mobility_limitation",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "No, I can move independently",
+            "value": "no_i_can_move_independently"
+          },
+          {
+            "text": "Yes, I have a temporary condition/limitation",
+            "value": "yes_i_have_a_temporary_condition_limitat"
+          },
+          {
+            "text": "Yes, I have a permanent mobility condition/limitation",
+            "value": "yes_i_have_a_permanent_mobility_conditio"
+          }
+        ],
+        "privacy_classification": "special_category_health",
+        "special_category": "health",
+        "legacy_answer_keys": [
+          "mobility_limitation_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Do you have any condition or limitation that affects your ability to move independently?": "Do you have any condition or limitation that affects your ability to move independently?",
+          "#No, I can move independently": "No, I can move independently",
+          "#Yes, I have a temporary condition/limitation": "Yes, I have a temporary condition/limitation",
+          "#Yes, I have a permanent mobility condition/limitation": "Yes, I have a permanent mobility condition/limitation"
+        },
+        "it": {
+          "#Do you have any condition or limitation that affects your ability to move independently?": "Hai una condizione o una limitazione che influisce sulla tua capacità di muoverti autonomamente?",
+          "#No, I can move independently": "No, posso muovermi autonomamente",
+          "#Yes, I have a temporary condition/limitation": "Sì, ho una condizione o limitazione temporanea",
+          "#Yes, I have a permanent mobility condition/limitation": "Sì, ho una condizione o limitazione permanente della mobilità"
+        },
+        "fr": {
+          "#Do you have any condition or limitation that affects your ability to move independently?": "Avez-vous une condition ou une limitation qui réduit votre capacité à vous déplacer de façon autonome ?",
+          "#No, I can move independently": "Non, je peux me déplacer de façon autonome",
+          "#Yes, I have a temporary condition/limitation": "Oui, j’ai une condition ou une limitation temporaire",
+          "#Yes, I have a permanent mobility condition/limitation": "Oui, j’ai une condition ou une limitation permanente de mobilité"
+        },
+        "de": {
+          "#Do you have any condition or limitation that affects your ability to move independently?": "Haben Sie eine Erkrankung oder Einschränkung, die Ihre Fähigkeit beeinträchtigt, sich selbstständig fortzubewegen?",
+          "#No, I can move independently": "Nein, ich kann mich selbstständig fortbewegen",
+          "#Yes, I have a temporary condition/limitation": "Ja, ich habe eine vorübergehende Erkrankung oder Einschränkung",
+          "#Yes, I have a permanent mobility condition/limitation": "Ja, ich habe eine dauerhafte Mobilitätseinschränkung"
+        },
+        "tr": {
+          "#Do you have any condition or limitation that affects your ability to move independently?": "Bağımsız hareket etme becerinizi etkileyen bir sağlık durumu veya kısıtlılığınız var mı?",
+          "#No, I can move independently": "Hayır, bağımsız hareket edebiliyorum",
+          "#Yes, I have a temporary condition/limitation": "Evet, geçici bir sağlık durumum veya kısıtlılığım var",
+          "#Yes, I have a permanent mobility condition/limitation": "Evet, kalıcı bir hareket kısıtlılığım var"
+        },
+        "fa": {
+          "#Do you have any condition or limitation that affects your ability to move independently?": "آیا بیماری یا محدودیتی دارید که توانایی شما برای جابه‌جایی مستقل را تحت تأثیر قرار دهد؟",
+          "#No, I can move independently": "خیر، می‌توانم مستقل جابه‌جا شوم",
+          "#Yes, I have a temporary condition/limitation": "بله، یک بیماری یا محدودیت موقت دارم",
+          "#Yes, I have a permanent mobility condition/limitation": "بله، یک محدودیت حرکتی دائمی دارم"
+        },
+        "hu": {
+          "#Do you have any condition or limitation that affects your ability to move independently?": "Van olyan állapota vagy korlátozottsága, amely befolyásolja az önálló közlekedését?",
+          "#No, I can move independently": "Nincs, önállóan tudok közlekedni",
+          "#Yes, I have a temporary condition/limitation": "Igen, átmeneti állapotom vagy korlátozottságom van",
+          "#Yes, I have a permanent mobility condition/limitation": "Igen, tartós mozgáskorlátozottságom van"
+        },
+        "ar": {
+          "#Do you have any condition or limitation that affects your ability to move independently?": "هل لديك حالة صحية أو قيد يؤثر في قدرتك على التنقل بشكل مستقل؟",
+          "#No, I can move independently": "لا، أستطيع التنقل بشكل مستقل",
+          "#Yes, I have a temporary condition/limitation": "نعم، لدي حالة أو قيد مؤقت",
+          "#Yes, I have a permanent mobility condition/limitation": "نعم، لدي قيد دائم على الحركة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    }
+  }
+}

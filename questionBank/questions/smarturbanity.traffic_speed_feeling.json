@@ -1,0 +1,135 @@
+{
+  "question_id": "smarturbanity.traffic_speed_feeling",
+  "project": "SmartUrbanity",
+  "key": "traffic_speed_feeling",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How fast does motor traffic feel on this street?",
+        "answer_key": "traffic_speed_feeling",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Very slow",
+            "value": "1_very_slow"
+          },
+          {
+            "text": "Slow",
+            "value": "2_slow"
+          },
+          {
+            "text": "Moderate",
+            "value": "3_moderate"
+          },
+          {
+            "text": "Fast",
+            "value": "4_fast"
+          },
+          {
+            "text": "Very fast",
+            "value": "5_very_fast"
+          },
+          {
+            "text": "No vehicles pass here",
+            "value": "no_vehicles"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How fast does motor traffic feel on this street?": "How fast does motor traffic feel on this street?",
+          "#Very slow": "Very slow",
+          "#Slow": "Slow",
+          "#Moderate": "Moderate",
+          "#Fast": "Fast",
+          "#Very fast": "Very fast",
+          "#No vehicles pass here": "No vehicles pass here",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How fast does motor traffic feel on this street?": "Quanto sembra veloce il traffico motorizzato su questa strada?",
+          "#Very slow": "Molto lento",
+          "#Slow": "Lento",
+          "#Moderate": "Moderato",
+          "#Fast": "Veloce",
+          "#Very fast": "Molto veloce",
+          "#No vehicles pass here": "Qui non passano veicoli",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How fast does motor traffic feel on this street?": "À quelle vitesse la circulation motorisée semble-t-elle rouler dans cette rue ?",
+          "#Very slow": "Très lente",
+          "#Slow": "Lente",
+          "#Moderate": "Modérée",
+          "#Fast": "Rapide",
+          "#Very fast": "Très rapide",
+          "#No vehicles pass here": "Aucun véhicule ne passe ici",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How fast does motor traffic feel on this street?": "Wie schnell fühlt sich der Kraftfahrzeugverkehr auf dieser Straße an?",
+          "#Very slow": "Sehr langsam",
+          "#Slow": "Langsam",
+          "#Moderate": "Mittel",
+          "#Fast": "Schnell",
+          "#Very fast": "Sehr schnell",
+          "#No vehicles pass here": "Hier fahren keine Fahrzeuge",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How fast does motor traffic feel on this street?": "Bu sokaktaki motorlu trafik ne kadar hızlı geliyor?",
+          "#Very slow": "Çok yavaş",
+          "#Slow": "Yavaş",
+          "#Moderate": "Orta",
+          "#Fast": "Hızlı",
+          "#Very fast": "Çok hızlı",
+          "#No vehicles pass here": "Buradan araç geçmiyor",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How fast does motor traffic feel on this street?": "سرعت ترافیک موتوری در این خیابان چگونه به نظر می‌رسد؟",
+          "#Very slow": "بسیار کند",
+          "#Slow": "کند",
+          "#Moderate": "متوسط",
+          "#Fast": "تند",
+          "#Very fast": "بسیار تند",
+          "#No vehicles pass here": "از اینجا هیچ وسیله نقلیه‌ای عبور نمی‌کند",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How fast does motor traffic feel on this street?": "Milyen gyorsnak érződik a gépjárműforgalom ezen az utcán?",
+          "#Very slow": "Nagyon lassú",
+          "#Slow": "Lassú",
+          "#Moderate": "Közepes",
+          "#Fast": "Gyors",
+          "#Very fast": "Nagyon gyors",
+          "#No vehicles pass here": "Itt nem járnak járművek",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How fast does motor traffic feel on this street?": "ما مدى سرعة حركة المركبات في هذا الشارع؟",
+          "#Very slow": "بطيئة جدًا",
+          "#Slow": "بطيئة",
+          "#Moderate": "متوسطة",
+          "#Fast": "سريعة",
+          "#Very fast": "سريعة جدًا",
+          "#No vehicles pass here": "لا تمر مركبات من هنا",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

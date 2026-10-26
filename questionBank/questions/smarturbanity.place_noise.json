@@ -1,0 +1,115 @@
+{
+  "question_id": "smarturbanity.place_noise",
+  "project": "SmartUrbanity",
+  "key": "place_noise",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How noisy is it here?",
+        "answer_key": "place_noise",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Very noisy",
+            "value": "very_noisy"
+          },
+          {
+            "text": "Noisy",
+            "value": "noisy"
+          },
+          {
+            "text": "Neither noisy nor quiet",
+            "value": "neutral"
+          },
+          {
+            "text": "Quiet",
+            "value": "quiet"
+          },
+          {
+            "text": "Very quiet",
+            "value": "very_quiet"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How noisy is it here?": "How noisy is it here?",
+          "#Very noisy": "Very noisy",
+          "#Noisy": "Noisy",
+          "#Neither noisy nor quiet": "Neither noisy nor quiet",
+          "#Quiet": "Quiet",
+          "#Very quiet": "Very quiet"
+        },
+        "it": {
+          "#How noisy is it here?": "Quanto è rumoroso qui?",
+          "#Very noisy": "Molto rumoroso",
+          "#Noisy": "Rumoroso",
+          "#Neither noisy nor quiet": "Né rumoroso né silenzioso",
+          "#Quiet": "Silenzioso",
+          "#Very quiet": "Molto silenzioso"
+        },
+        "fr": {
+          "#How noisy is it here?": "Quel est le niveau de bruit ici ?",
+          "#Very noisy": "Très bruyant",
+          "#Noisy": "Bruyant",
+          "#Neither noisy nor quiet": "Ni bruyant ni calme",
+          "#Quiet": "Calme",
+          "#Very quiet": "Très calme"
+        },
+        "de": {
+          "#How noisy is it here?": "Wie laut ist es hier?",
+          "#Very noisy": "Sehr laut",
+          "#Noisy": "Laut",
+          "#Neither noisy nor quiet": "Weder laut noch ruhig",
+          "#Quiet": "Ruhig",
+          "#Very quiet": "Sehr ruhig"
+        },
+        "tr": {
+          "#How noisy is it here?": "Burası ne kadar gürültülü?",
+          "#Very noisy": "Çok gürültülü",
+          "#Noisy": "Gürültülü",
+          "#Neither noisy nor quiet": "Ne gürültülü ne sessiz",
+          "#Quiet": "Sessiz",
+          "#Very quiet": "Çok sessiz"
+        },
+        "fa": {
+          "#How noisy is it here?": "اینجا چقدر پر سر و صداست؟",
+          "#Very noisy": "بسیار پر سر و صدا",
+          "#Noisy": "پر سر و صدا",
+          "#Neither noisy nor quiet": "نه پر سر و صدا و نه آرام",
+          "#Quiet": "ساکت",
+          "#Very quiet": "بسیار ساکت"
+        },
+        "hu": {
+          "#How noisy is it here?": "Mennyire zajos ez a hely?",
+          "#Very noisy": "Nagyon zajos",
+          "#Noisy": "Zajos",
+          "#Neither noisy nor quiet": "Se nem zajos, se nem csendes",
+          "#Quiet": "Csendes",
+          "#Very quiet": "Nagyon csendes"
+        },
+        "ar": {
+          "#How noisy is it here?": "ما مدى الضجيج هنا؟",
+          "#Very noisy": "صاخب جدًا",
+          "#Noisy": "صاخب",
+          "#Neither noisy nor quiet": "لا صاخب ولا هادئ",
+          "#Quiet": "هادئ",
+          "#Very quiet": "هادئ جدًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

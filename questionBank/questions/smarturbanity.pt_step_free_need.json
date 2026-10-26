@@ -1,0 +1,117 @@
+{
+  "question_id": "smarturbanity.pt_step_free_need",
+  "project": "SmartUrbanity",
+  "key": "pt_step_free_need",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_public_transport",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_public_transport"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?",
+        "answer_key": "pt_step_free_need",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "I cannot reach the stop if no accessible route exists",
+            "value": "i_cannot_reach_the_stop_if_no_accessible"
+          },
+          {
+            "text": "I need assistance from another person to reach the stop",
+            "value": "i_need_assistance_from_another_person_to"
+          },
+          {
+            "text": "I can reach the stop, but it requires significant physical effort",
+            "value": "i_can_reach_the_stop_but_it_requires_sig"
+          },
+          {
+            "text": "I can reach the stop independently with some difficulty",
+            "value": "i_can_reach_the_stop_independently_with"
+          },
+          {
+            "text": "I can reach the stop easily and independently",
+            "value": "i_can_reach_the_stop_easily_and_independ"
+          }
+        ],
+        "privacy_classification": "special_category_health",
+        "legacy_answer_keys": [
+          "pt_step_free_need_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?": "How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?",
+          "#I cannot reach the stop if no accessible route exists": "I cannot reach the stop if no accessible route exists",
+          "#I need assistance from another person to reach the stop": "I need assistance from another person to reach the stop",
+          "#I can reach the stop, but it requires significant physical effort": "I can reach the stop, but it requires significant physical effort",
+          "#I can reach the stop independently with some difficulty": "I can reach the stop independently with some difficulty",
+          "#I can reach the stop easily and independently": "I can reach the stop easily and independently"
+        },
+        "it": {
+          "#How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?": "In che modo la disponibilità di ascensori funzionanti, rampe e percorsi senza gradini influisce sulla tua capacità di raggiungere la fermata?",
+          "#I cannot reach the stop if no accessible route exists": "Non posso raggiungere la fermata se non esiste un percorso accessibile",
+          "#I need assistance from another person to reach the stop": "Ho bisogno dell'assistenza di un'altra persona per raggiungere la fermata",
+          "#I can reach the stop, but it requires significant physical effort": "Posso raggiungere la fermata, ma ciò richiede un notevole sforzo fisico",
+          "#I can reach the stop independently with some difficulty": "Posso raggiungere la fermata autonomamente, ma con qualche difficoltà",
+          "#I can reach the stop easily and independently": "Posso raggiungere la fermata facilmente e in autonomia"
+        },
+        "fr": {
+          "#How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?": "Comment la présence d’ascenseurs en état de marche, de rampes et de parcours sans marches influence-t-elle votre capacité à rejoindre l’arrêt ?",
+          "#I cannot reach the stop if no accessible route exists": "Je ne peux pas atteindre l’arrêt s’il n’existe pas de parcours accessible",
+          "#I need assistance from another person to reach the stop": "J’ai besoin de l’aide d’une autre personne pour atteindre l’arrêt",
+          "#I can reach the stop, but it requires significant physical effort": "Je peux atteindre l’arrêt, mais cela demande un effort physique important",
+          "#I can reach the stop independently with some difficulty": "Je peux atteindre l’arrêt seul(e), mais avec quelques difficultés",
+          "#I can reach the stop easily and independently": "Je peux atteindre l’arrêt facilement et de façon autonome"
+        },
+        "de": {
+          "#How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?": "Wie beeinflussen funktionierende Aufzüge, Rampen und stufenfreie Wege Ihre Möglichkeit, die Haltestelle zu erreichen?",
+          "#I cannot reach the stop if no accessible route exists": "Ich kann die Haltestelle nicht erreichen, wenn es keinen barrierefreien Weg gibt",
+          "#I need assistance from another person to reach the stop": "Ich brauche Hilfe von einer anderen Person, um die Haltestelle zu erreichen",
+          "#I can reach the stop, but it requires significant physical effort": "Ich kann die Haltestelle erreichen, aber es kostet mich viel körperliche Kraft",
+          "#I can reach the stop independently with some difficulty": "Ich kann die Haltestelle selbstständig erreichen, aber nur mit einigen Schwierigkeiten",
+          "#I can reach the stop easily and independently": "Ich kann die Haltestelle leicht und selbstständig erreichen"
+        },
+        "tr": {
+          "#How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?": "Çalışan asansörlerin, rampaların ve basamaksız güzergâhların olması durağa ulaşma becerinizi nasıl etkiler?",
+          "#I cannot reach the stop if no accessible route exists": "Erişilebilir bir güzergâh yoksa durağa ulaşamam",
+          "#I need assistance from another person to reach the stop": "Durağa ulaşmak için başka bir kişinin yardımına ihtiyaç duyarım",
+          "#I can reach the stop, but it requires significant physical effort": "Durağa ulaşabilirim, ancak ciddi fiziksel çaba gerektirir",
+          "#I can reach the stop independently with some difficulty": "Durağa kendi başıma ulaşabilirim, ancak biraz zorlanırım",
+          "#I can reach the stop easily and independently": "Durağa kolayca ve bağımsız olarak ulaşabilirim"
+        },
+        "fa": {
+          "#How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?": "وجود آسانسور سالم، رمپ و مسیر بدون پله چه اثری بر توانایی شما برای رسیدن به ایستگاه دارد؟",
+          "#I cannot reach the stop if no accessible route exists": "اگر مسیر دسترس‌پذیر وجود نداشته باشد، نمی‌توانم به ایستگاه برسم",
+          "#I need assistance from another person to reach the stop": "برای رسیدن به ایستگاه به کمک فرد دیگری نیاز دارم",
+          "#I can reach the stop, but it requires significant physical effort": "می‌توانم به ایستگاه برسم، اما تلاش جسمی زیادی لازم است",
+          "#I can reach the stop independently with some difficulty": "می‌توانم مستقل به ایستگاه برسم، اما با کمی دشواری",
+          "#I can reach the stop easily and independently": "می‌توانم به‌راحتی و مستقل به ایستگاه برسم"
+        },
+        "hu": {
+          "#How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?": "Hogyan befolyásolja a működő liftek, rámpák és lépcsőmentes útvonalak megléte azt, hogy el tudja-e érni a megállót?",
+          "#I cannot reach the stop if no accessible route exists": "Nem tudom elérni a megállót, ha nincs akadálymentes útvonal",
+          "#I need assistance from another person to reach the stop": "Más személy segítségére van szükségem a megálló eléréséhez",
+          "#I can reach the stop, but it requires significant physical effort": "El tudom érni a megállót, de ehhez jelentős fizikai erőfeszítés kell",
+          "#I can reach the stop independently with some difficulty": "Önállóan el tudom érni a megállót, de némi nehézséggel",
+          "#I can reach the stop easily and independently": "Könnyen és önállóan el tudom érni a megállót"
+        },
+        "ar": {
+          "#How does the availability of working lifts, ramps, and step-free routes affect your ability to reach the transport stop?": "كيف يؤثر وجود مصاعد تعمل، ومنحدرات، وطرق من دون درجات في قدرتك على الوصول إلى المحطة؟",
+          "#I cannot reach the stop if no accessible route exists": "لا أستطيع الوصول إلى المحطة إذا لم يوجد طريق سهل الوصول",
+          "#I need assistance from another person to reach the stop": "أحتاج إلى مساعدة شخص آخر للوصول إلى المحطة",
+          "#I can reach the stop, but it requires significant physical effort": "أستطيع الوصول إلى المحطة، لكن ذلك يتطلب مجهودًا بدنيًا كبيرًا",
+          "#I can reach the stop independently with some difficulty": "أستطيع الوصول إلى المحطة بمفردي، لكن مع بعض الصعوبة",
+          "#I can reach the stop easily and independently": "أستطيع الوصول إلى المحطة بسهولة وبشكل مستقل"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_public_transport"
+      ]
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.bike_skip_dark",
+  "project": "SmartUrbanity",
+  "key": "bike_skip_dark",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_cycling",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_cycling"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How does street lighting affect your decision to cycle after dark?",
+        "answer_key": "bike_skip_dark",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Lighting levels have no influence on my decision to cycle after dark",
+            "value": "lighting_levels_have_no_influence_on_my"
+          },
+          {
+            "text": "I notice poor lighting but it does not change when or where I cycle",
+            "value": "i_notice_poor_lighting_but_it_does_not_c"
+          },
+          {
+            "text": "I cycle at reduced speed or stay on higher-lit roads in poorly lit areas",
+            "value": "i_cycle_at_reduced_speed_or_stay_on_high"
+          },
+          {
+            "text": "I take significantly longer routes to stay in well-lit areas",
+            "value": "i_take_significantly_longer_routes_to_st"
+          },
+          {
+            "text": "I do not cycle after dark because of poor lighting",
+            "value": "i_do_not_cycle_after_dark_because_of_poo"
+          }
+        ],
+        "legacy_answer_keys": [
+          "bike_skip_dark_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How does street lighting affect your decision to cycle after dark?": "How does street lighting affect your decision to cycle after dark?",
+          "#Lighting levels have no influence on my decision to cycle after dark": "Lighting levels have no influence on my decision to cycle after dark",
+          "#I notice poor lighting but it does not change when or where I cycle": "I notice poor lighting but it does not change when or where I cycle",
+          "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "I cycle at reduced speed or stay on higher-lit roads in poorly lit areas",
+          "#I take significantly longer routes to stay in well-lit areas": "I take significantly longer routes to stay in well-lit areas",
+          "#I do not cycle after dark because of poor lighting": "I do not cycle after dark because of poor lighting"
+        },
+        "it": {
+          "#How does street lighting affect your decision to cycle after dark?": "In che modo l’illuminazione stradale influisce sulla tua decisione di usare la bicicletta dopo il tramonto?",
+          "#Lighting levels have no influence on my decision to cycle after dark": "Il livello di illuminazione non influisce sulla mia decisione di andare in bicicletta dopo il tramonto",
+          "#I notice poor lighting but it does not change when or where I cycle": "Noto la scarsa illuminazione, ma non cambia quando o dove uso la bicicletta",
+          "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Nelle zone poco illuminate pedalo più lentamente o scelgo strade meglio illuminate",
+          "#I take significantly longer routes to stay in well-lit areas": "Scelgo percorsi significativamente più lunghi per rimanere in zone ben illuminate",
+          "#I do not cycle after dark because of poor lighting": "Non uso la bicicletta dopo il tramonto a causa della scarsa illuminazione"
+        },
+        "fr": {
+          "#How does street lighting affect your decision to cycle after dark?": "Quel effet l’éclairage public a-t-il sur votre décision de faire du vélo après la tombée de la nuit ?",
+          "#Lighting levels have no influence on my decision to cycle after dark": "Le niveau d’éclairage n’influence pas ma décision de faire du vélo après la tombée de la nuit",
+          "#I notice poor lighting but it does not change when or where I cycle": "Je remarque quand l’éclairage est mauvais, mais cela ne change ni l’heure ni l’endroit où je fais du vélo",
+          "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Je roule moins vite ou je reste sur des rues mieux éclairées dans les zones sombres",
+          "#I take significantly longer routes to stay in well-lit areas": "Je prends des itinéraires nettement plus longs pour rester dans des zones bien éclairées",
+          "#I do not cycle after dark because of poor lighting": "Je ne fais pas de vélo après la tombée de la nuit à cause du mauvais éclairage"
+        },
+        "de": {
+          "#How does street lighting affect your decision to cycle after dark?": "Wie beeinflusst die Straßenbeleuchtung Ihre Entscheidung, nach Einbruch der Dunkelheit Fahrrad zu fahren?",
+          "#Lighting levels have no influence on my decision to cycle after dark": "Die Beleuchtung beeinflusst meine Entscheidung nicht",
+          "#I notice poor lighting but it does not change when or where I cycle": "Ich bemerke schlechte Beleuchtung, ändere aber weder Zeit noch Strecke",
+          "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Ich fahre langsamer oder nutze in schlecht beleuchteten Bereichen besser beleuchtete Straßen",
+          "#I take significantly longer routes to stay in well-lit areas": "Ich nehme deutlich längere Wege, um in gut beleuchteten Bereichen zu bleiben",
+          "#I do not cycle after dark because of poor lighting": "Ich fahre wegen schlechter Beleuchtung nach Einbruch der Dunkelheit nicht Fahrrad"
+        },
+        "tr": {
+          "#How does street lighting affect your decision to cycle after dark?": "Sokak aydınlatması hava karardıktan sonra bisiklet kullanma kararınızı nasıl etkiler?",
+          "#Lighting levels have no influence on my decision to cycle after dark": "Aydınlatma düzeyi hava karardıktan sonra bisiklet kullanma kararımı etkilemez",
+          "#I notice poor lighting but it does not change when or where I cycle": "Yetersiz aydınlatmayı fark ederim ama ne zaman veya nerede bisiklet kullandığımı değiştirmem",
+          "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Az aydınlatılmış yerlerde daha yavaş gider veya daha iyi aydınlatılmış yolları tercih ederim",
+          "#I take significantly longer routes to stay in well-lit areas": "İyi aydınlatılmış bölgelerde kalmak için belirgin şekilde daha uzun güzergâhlar kullanırım",
+          "#I do not cycle after dark because of poor lighting": "Yetersiz aydınlatma nedeniyle hava karardıktan sonra bisiklet kullanmam"
+        },
+        "fa": {
+          "#How does street lighting affect your decision to cycle after dark?": "روشنایی خیابان چگونه بر تصمیم شما برای دوچرخه‌سواری بعد از تاریکی هوا اثر می‌گذارد؟",
+          "#Lighting levels have no influence on my decision to cycle after dark": "میزان روشنایی بر تصمیم من برای دوچرخه‌سواری بعد از تاریکی اثر ندارد",
+          "#I notice poor lighting but it does not change when or where I cycle": "روشنایی کم را متوجه می‌شوم، اما زمان یا مسیرم را تغییر نمی‌دهم",
+          "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "در مناطق کم‌نور آهسته‌تر می‌روم یا خیابان‌های روشن‌تر را انتخاب می‌کنم",
+          "#I take significantly longer routes to stay in well-lit areas": "برای ماندن در مناطق روشن، مسیرهای بسیار طولانی‌تری انتخاب می‌کنم",
+          "#I do not cycle after dark because of poor lighting": "به دلیل روشنایی کم، بعد از تاریکی هوا دوچرخه‌سواری نمی‌کنم"
+        },
+        "hu": {
+          "#How does street lighting affect your decision to cycle after dark?": "Hogyan befolyásolja a közvilágítás azt, hogy sötétedés után kerékpárra ül-e?",
+          "#Lighting levels have no influence on my decision to cycle after dark": "A világítás szintje nem befolyásolja a döntésemet",
+          "#I notice poor lighting but it does not change when or where I cycle": "Észreveszem a rossz világítást, de nem változtatom meg sem az időpontot, sem az útvonalat",
+          "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Rosszul megvilágított területen lassabban haladok vagy világosabb utcákat választok",
+          "#I take significantly longer routes to stay in well-lit areas": "Jelentősen hosszabb útvonalat választok, hogy jól megvilágított területen maradjak",
+          "#I do not cycle after dark because of poor lighting": "Rossz világítás miatt sötétedés után nem kerékpározom"
+        },
+        "ar": {
+          "#How does street lighting affect your decision to cycle after dark?": "كيف تؤثر إضاءة الشارع في قرارك ركوب الدراجة بعد حلول الظلام؟",
+          "#Lighting levels have no influence on my decision to cycle after dark": "مستوى الإضاءة لا يؤثر في قراري",
+          "#I notice poor lighting but it does not change when or where I cycle": "ألاحظ ضعف الإضاءة لكنه لا يغير وقت أو مكان ركوب الدراجة",
+          "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "أقود بسرعة أقل أو أختار شوارع أكثر إضاءة في المناطق المظلمة",
+          "#I take significantly longer routes to stay in well-lit areas": "أختار طرقًا أطول بكثير للبقاء في مناطق جيدة الإضاءة",
+          "#I do not cycle after dark because of poor lighting": "لا أركب الدراجة بعد حلول الظلام بسبب ضعف الإضاءة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_cycling"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "question_id": "smarturbanity.driving_licence",
+  "project": "SmartUrbanity",
+  "key": "driving_licence",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Do you hold a valid driving license? (Car, motorcycle or both)",
+        "answer_key": "driving_licence",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Do you hold a valid driving license? (Car, motorcycle or both)",
+          "#Yes": "Yes",
+          "#No": "No"
+        },
+        "it": {
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Possiedi una patente di guida valida? (Auto, moto o entrambe)",
+          "#Yes": "Sì",
+          "#No": "No"
+        },
+        "fr": {
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Avez-vous un permis de conduire valide ? (Voiture, moto ou les deux)",
+          "#Yes": "Oui",
+          "#No": "Non"
+        },
+        "de": {
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Haben Sie einen gültigen Führerschein? (Auto, Motorrad oder beides)",
+          "#Yes": "Ja",
+          "#No": "Nein"
+        },
+        "tr": {
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Geçerli bir sürücü belgeniz var mı? (Otomobil, motosiklet veya her ikisi)",
+          "#Yes": "Evet",
+          "#No": "Hayır"
+        },
+        "fa": {
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "آیا گواهینامه رانندگی معتبر دارید؟ (خودرو، موتورسیکلت یا هر دو)",
+          "#Yes": "بله",
+          "#No": "خیر"
+        },
+        "hu": {
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Van érvényes vezetői engedélye? (Autóra, motorkerékpárra vagy mindkettőre)",
+          "#Yes": "Igen",
+          "#No": "Nem"
+        },
+        "ar": {
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "هل لديك رخصة قيادة سارية؟ (للسيارة أو الدراجة النارية أو كليهما)",
+          "#Yes": "نعم",
+          "#No": "لا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    }
+  }
+}

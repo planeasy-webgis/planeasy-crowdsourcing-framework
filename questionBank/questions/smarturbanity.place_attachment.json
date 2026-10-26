@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.place_attachment",
+  "project": "SmartUrbanity",
+  "key": "place_attachment",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How strongly do you feel connected to the place where you live and the people in your community?",
+        "answer_key": "place_attachment",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not connected",
+            "value": "not_connected"
+          },
+          {
+            "text": "Somewhat disconnected",
+            "value": "somewhat_disconnected"
+          },
+          {
+            "text": "Neither connected nor disconnected",
+            "value": "neither_connected_nor_disconnected"
+          },
+          {
+            "text": "Somewhat connected",
+            "value": "somewhat_connected"
+          },
+          {
+            "text": "Very connected",
+            "value": "very_connected"
+          }
+        ],
+        "legacy_answer_keys": [
+          "place_attachment_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How strongly do you feel connected to the place where you live and the people in your community?": "How strongly do you feel connected to the place where you live and the people in your community?",
+          "#Not connected": "Not connected",
+          "#Somewhat disconnected": "Somewhat disconnected",
+          "#Neither connected nor disconnected": "Neither connected nor disconnected",
+          "#Somewhat connected": "Somewhat connected",
+          "#Very connected": "Very connected"
+        },
+        "it": {
+          "#How strongly do you feel connected to the place where you live and the people in your community?": "Quanto ti senti legato/a al luogo in cui vivi e alle persone della tua comunità?",
+          "#Not connected": "Per niente legato/a",
+          "#Somewhat disconnected": "Poco legato/a",
+          "#Neither connected nor disconnected": "Né legato/a né distaccato/a",
+          "#Somewhat connected": "Abbastanza legato/a",
+          "#Very connected": "Molto legato/a"
+        },
+        "fr": {
+          "#How strongly do you feel connected to the place where you live and the people in your community?": "À quel point vous sentez-vous attaché(e) à l’endroit où vous vivez et aux personnes de votre communauté ?",
+          "#Not connected": "Pas du tout attaché(e)",
+          "#Somewhat disconnected": "Plutôt peu attaché(e)",
+          "#Neither connected nor disconnected": "Ni attaché(e) ni détaché(e)",
+          "#Somewhat connected": "Plutôt attaché(e)",
+          "#Very connected": "Très attaché(e)"
+        },
+        "de": {
+          "#How strongly do you feel connected to the place where you live and the people in your community?": "Wie stark fühlen Sie sich mit Ihrem Wohnort und den Menschen in Ihrer Gemeinschaft verbunden?",
+          "#Not connected": "Gar nicht verbunden",
+          "#Somewhat disconnected": "Eher wenig verbunden",
+          "#Neither connected nor disconnected": "Weder verbunden noch unverbunden",
+          "#Somewhat connected": "Eher verbunden",
+          "#Very connected": "Sehr verbunden"
+        },
+        "tr": {
+          "#How strongly do you feel connected to the place where you live and the people in your community?": "Yaşadığınız yere ve çevrenizdeki insanlara kendinizi ne kadar bağlı hissediyorsunuz?",
+          "#Not connected": "Hiç bağlı hissetmiyorum",
+          "#Somewhat disconnected": "Pek bağlı hissetmiyorum",
+          "#Neither connected nor disconnected": "Ne bağlı ne de kopuk hissediyorum",
+          "#Somewhat connected": "Oldukça bağlı hissediyorum",
+          "#Very connected": "Çok bağlı hissediyorum"
+        },
+        "fa": {
+          "#How strongly do you feel connected to the place where you live and the people in your community?": "تا چه اندازه به محل زندگی خود و افراد جامعه محلی‌تان احساس تعلق دارید؟",
+          "#Not connected": "اصلاً احساس تعلق ندارم",
+          "#Somewhat disconnected": "کمی احساس بی‌تعلقی می‌کنم",
+          "#Neither connected nor disconnected": "نه احساس تعلق دارم نه بی‌تعلقی",
+          "#Somewhat connected": "تا حدی احساس تعلق دارم",
+          "#Very connected": "احساس تعلق زیادی دارم"
+        },
+        "hu": {
+          "#How strongly do you feel connected to the place where you live and the people in your community?": "Mennyire érzi magát kötődőnek a lakóhelyéhez és a helyi közösség tagjaihoz?",
+          "#Not connected": "Egyáltalán nem kötődöm",
+          "#Somewhat disconnected": "Inkább nem kötődöm",
+          "#Neither connected nor disconnected": "Sem kötődőnek, sem távolságtartónak nem érzem magam",
+          "#Somewhat connected": "Inkább kötődöm",
+          "#Very connected": "Nagyon kötődöm"
+        },
+        "ar": {
+          "#How strongly do you feel connected to the place where you live and the people in your community?": "ما مدى شعورك بالارتباط بالمكان الذي تعيش فيه وبأفراد مجتمعك المحلي؟",
+          "#Not connected": "لا أشعر بأي ارتباط",
+          "#Somewhat disconnected": "أشعر بارتباط ضعيف",
+          "#Neither connected nor disconnected": "لا أشعر بالارتباط ولا بالانفصال",
+          "#Somewhat connected": "أشعر بقدر من الارتباط",
+          "#Very connected": "أشعر بارتباط قوي"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    }
+  }
+}

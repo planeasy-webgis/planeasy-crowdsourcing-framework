@@ -1,0 +1,113 @@
+{
+  "question_id": "smarturbanity.pt_reliability_v1",
+  "project": "SmartUrbanity",
+  "key": "pt_reliability_v1",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_public_transport",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_public_transport"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How does the schedule and frequency of public transport on your route affect your ability to rely on it?",
+        "answer_key": "pt_reliability_v1",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "The service is so infrequent or unreliable that it does not meet my basic travel needs",
+            "value": "the_service_is_so_infrequent_or_unreliab"
+          },
+          {
+            "text": "I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities",
+            "value": "i_can_only_use_it_for_specific_trips_e_g"
+          },
+          {
+            "text": "I can use it for planned trips but it's not flexible enough for unplanned travel",
+            "value": "i_can_use_it_for_planned_trips_but_it_s"
+          },
+          {
+            "text": "The service is reliable, but I need to plan my schedule around arrival and departure times",
+            "value": "the_service_is_reliable_but_i_need_to_pl"
+          },
+          {
+            "text": "The service is frequent enough that I can use it without planning",
+            "value": "the_service_is_frequent_enough_that_i_ca"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How does the schedule and frequency of public transport on your route affect your ability to rely on it?": "How does the schedule and frequency of public transport on your route affect your ability to rely on it?",
+          "#The service is so infrequent or unreliable that it does not meet my basic travel needs": "The service is so infrequent or unreliable that it does not meet my basic travel needs",
+          "#I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities": "I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities",
+          "#I can use it for planned trips but it's not flexible enough for unplanned travel": "I can use it for planned trips but it's not flexible enough for unplanned travel",
+          "#The service is reliable, but I need to plan my schedule around arrival and departure times": "The service is reliable, but I need to plan my schedule around arrival and departure times",
+          "#The service is frequent enough that I can use it without planning": "The service is frequent enough that I can use it without planning"
+        },
+        "it": {
+          "#How does the schedule and frequency of public transport on your route affect your ability to rely on it?": "In che modo gli orari e la frequenza del trasporto pubblico lungo il tuo percorso influiscono sulla possibilità di farvi affidamento?",
+          "#The service is so infrequent or unreliable that it does not meet my basic travel needs": "Il servizio è così poco frequente o inaffidabile da non soddisfare le mie esigenze di mobilità di base",
+          "#I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities": "Posso utilizzarlo solo per spostamenti specifici (ad es. lavoro o scuola), perché non è abbastanza frequente da consentire flessibilità nelle attività quotidiane",
+          "#I can use it for planned trips but it's not flexible enough for unplanned travel": "Posso utilizzarlo per gli spostamenti pianificati, ma non è abbastanza flessibile per quelli non programmati",
+          "#The service is reliable, but I need to plan my schedule around arrival and departure times": "Il servizio è affidabile, ma devo organizzare i miei impegni in base agli orari di arrivo e partenza",
+          "#The service is frequent enough that I can use it without planning": "Il servizio è abbastanza frequente da poterlo utilizzare senza pianificare in anticipo"
+        },
+        "fr": {
+          "#How does the schedule and frequency of public transport on your route affect your ability to rely on it?": "Comment les horaires et la fréquence des transports publics sur votre trajet influencent-ils votre capacité à compter sur ce service ?",
+          "#The service is so infrequent or unreliable that it does not meet my basic travel needs": "Le service est si peu fréquent ou peu fiable qu’il ne répond pas à mes besoins de déplacement essentiels",
+          "#I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities": "Je peux l’utiliser seulement pour certains trajets, par exemple le travail ou l’école, car il n’est pas assez fréquent pour les activités quotidiennes plus flexibles",
+          "#I can use it for planned trips but it's not flexible enough for unplanned travel": "Je peux l’utiliser pour des trajets prévus, mais il n’est pas assez flexible pour les déplacements imprévus",
+          "#The service is reliable, but I need to plan my schedule around arrival and departure times": "Le service est fiable, mais je dois organiser mon emploi du temps en fonction des heures d’arrivée et de départ",
+          "#The service is frequent enough that I can use it without planning": "Le service est assez fréquent pour que je puisse l’utiliser sans devoir planifier"
+        },
+        "de": {
+          "#How does the schedule and frequency of public transport on your route affect your ability to rely on it?": "Wie beeinflussen Fahrplan und Häufigkeit der öffentlichen Verkehrsmittel auf Ihrer Strecke, ob Sie sich darauf verlassen können?",
+          "#The service is so infrequent or unreliable that it does not meet my basic travel needs": "Das Angebot ist so selten oder unzuverlässig, dass es meine grundlegenden Mobilitätsbedürfnisse nicht erfüllt",
+          "#I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities": "Ich kann es nur für bestimmte Wege nutzen, zum Beispiel Arbeit oder Schule, weil es für flexible Alltagsaktivitäten nicht häufig genug fährt",
+          "#I can use it for planned trips but it's not flexible enough for unplanned travel": "Ich kann es für geplante Wege nutzen, aber für spontane Wege ist es nicht flexibel genug",
+          "#The service is reliable, but I need to plan my schedule around arrival and departure times": "Das Angebot ist zuverlässig, aber ich muss meinen Tagesablauf an Ankunfts- und Abfahrtszeiten anpassen",
+          "#The service is frequent enough that I can use it without planning": "Das Angebot ist häufig genug, sodass ich es ohne große Planung nutzen kann"
+        },
+        "tr": {
+          "#How does the schedule and frequency of public transport on your route affect your ability to rely on it?": "Güzergâhınızdaki toplu taşımanın sefer saatleri ve sıklığı, bu hizmete güvenebilmenizi nasıl etkiler?",
+          "#The service is so infrequent or unreliable that it does not meet my basic travel needs": "Hizmet o kadar seyrek veya güvenilmez ki temel ulaşım ihtiyaçlarımı karşılamıyor",
+          "#I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities": "Esnek günlük işler için yeterince sık olmadığı için yalnızca iş veya okul gibi belirli yolculuklarda kullanabiliyorum",
+          "#I can use it for planned trips but it's not flexible enough for unplanned travel": "Planlı yolculuklarda kullanabiliyorum, ancak plansız yolculuklar için yeterince esnek değil",
+          "#The service is reliable, but I need to plan my schedule around arrival and departure times": "Hizmet güvenilir, ancak programımı varış ve kalkış saatlerine göre ayarlamam gerekiyor",
+          "#The service is frequent enough that I can use it without planning": "Hizmet yeterince sık; önceden planlama yapmadan kullanabiliyorum"
+        },
+        "fa": {
+          "#How does the schedule and frequency of public transport on your route affect your ability to rely on it?": "برنامه زمانی و تعداد سرویس‌های حمل‌ونقل عمومی در مسیر شما چگونه بر قابل اتکا بودن آن اثر می‌گذارد؟",
+          "#The service is so infrequent or unreliable that it does not meet my basic travel needs": "سرویس آن‌قدر کم یا نامطمئن است که نیازهای اصلی رفت‌وآمد مرا برآورده نمی‌کند",
+          "#I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities": "فقط برای سفرهای مشخص مانند کار یا مدرسه می‌توانم از آن استفاده کنم، چون برای کارهای روزمره انعطاف‌پذیر به اندازه کافی پرتکرار نیست",
+          "#I can use it for planned trips but it's not flexible enough for unplanned travel": "برای سفرهای برنامه‌ریزی‌شده می‌توانم استفاده کنم، اما برای سفرهای ناگهانی انعطاف کافی ندارد",
+          "#The service is reliable, but I need to plan my schedule around arrival and departure times": "سرویس قابل اعتماد است، اما باید برنامه روزانه‌ام را با زمان ورود و حرکت هماهنگ کنم",
+          "#The service is frequent enough that I can use it without planning": "سرویس به اندازه کافی پرتکرار است و می‌توانم بدون برنامه‌ریزی زیاد از آن استفاده کنم"
+        },
+        "hu": {
+          "#How does the schedule and frequency of public transport on your route affect your ability to rely on it?": "Hogyan befolyásolja az útvonalán a tömegközlekedés menetrendje és gyakorisága azt, hogy mennyire tud rá támaszkodni?",
+          "#The service is so infrequent or unreliable that it does not meet my basic travel needs": "A szolgáltatás annyira ritka vagy megbízhatatlan, hogy nem elégíti ki az alapvető közlekedési igényeimet",
+          "#I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities": "Csak bizonyos utakra, például munkába vagy iskolába tudom használni, mert a rugalmas napi tevékenységekhez nem jár elég gyakran",
+          "#I can use it for planned trips but it's not flexible enough for unplanned travel": "Tervezett utakra tudom használni, de váratlan utazásokhoz nem elég rugalmas",
+          "#The service is reliable, but I need to plan my schedule around arrival and departure times": "A szolgáltatás megbízható, de a napirendemet az érkezési és indulási időkhöz kell igazítanom",
+          "#The service is frequent enough that I can use it without planning": "A szolgáltatás elég gyakori ahhoz, hogy külön tervezés nélkül is használjam"
+        },
+        "ar": {
+          "#How does the schedule and frequency of public transport on your route affect your ability to rely on it?": "كيف يؤثر جدول مواعيد النقل العام وتكرار الخدمة على طريقك في قدرتك على الاعتماد عليها؟",
+          "#The service is so infrequent or unreliable that it does not meet my basic travel needs": "الخدمة قليلة جدًا أو غير موثوقة لدرجة أنها لا تلبي احتياجات التنقل الأساسية لدي",
+          "#I can only use it for specific trips (e.g., work or school) because it is not frequent enough for flexible daily activities": "أستطيع استخدامها فقط في رحلات محددة، مثل العمل أو المدرسة، لأنها لا تعمل بتكرار كافٍ للأنشطة اليومية المرنة",
+          "#I can use it for planned trips but it's not flexible enough for unplanned travel": "أستطيع استخدامها للرحلات المخطط لها، لكنها ليست مرنة بما يكفي للرحلات غير المخطط لها",
+          "#The service is reliable, but I need to plan my schedule around arrival and departure times": "الخدمة موثوقة، لكن عليّ تنظيم يومي وفق أوقات الوصول والمغادرة",
+          "#The service is frequent enough that I can use it without planning": "الخدمة متكررة بما يكفي لأستخدمها من دون تخطيط مسبق كبير"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_public_transport"
+      ]
+    }
+  }
+}

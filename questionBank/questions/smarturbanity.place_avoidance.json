@@ -1,0 +1,102 @@
+{
+  "question_id": "smarturbanity.place_avoidance",
+  "project": "SmartUrbanity",
+  "key": "place_avoidance",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Do you avoid this place?",
+        "answer_key": "place_avoidance",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No, never",
+            "value": "never"
+          },
+          {
+            "text": "No, I would avoid it, but it is the only way",
+            "value": "only_way"
+          },
+          {
+            "text": "Yes, at certain times or in certain situations",
+            "value": "some_times"
+          },
+          {
+            "text": "Yes, whenever I can",
+            "value": "always"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Do you avoid this place?": "Do you avoid this place?",
+          "#No, never": "No, never",
+          "#No, I would avoid it, but it is the only way": "No, I would avoid it, but it is the only way",
+          "#Yes, at certain times or in certain situations": "Yes, at certain times or in certain situations",
+          "#Yes, whenever I can": "Yes, whenever I can"
+        },
+        "it": {
+          "#Do you avoid this place?": "Eviti questo luogo?",
+          "#No, never": "No, mai",
+          "#No, I would avoid it, but it is the only way": "No, lo eviterei ma è l'unica strada",
+          "#Yes, at certain times or in certain situations": "Sì, in certi orari o in certe situazioni",
+          "#Yes, whenever I can": "Sì, ogni volta che posso"
+        },
+        "fr": {
+          "#Do you avoid this place?": "Évitez-vous ce lieu ?",
+          "#No, never": "Non, jamais",
+          "#No, I would avoid it, but it is the only way": "Non, je l’éviterais, mais c’est le seul chemin",
+          "#Yes, at certain times or in certain situations": "Oui, à certains moments ou dans certaines situations",
+          "#Yes, whenever I can": "Oui, dès que je le peux"
+        },
+        "de": {
+          "#Do you avoid this place?": "Meiden Sie diesen Ort?",
+          "#No, never": "Nein, nie",
+          "#No, I would avoid it, but it is the only way": "Nein, ich würde ihn meiden, aber es ist der einzige Weg",
+          "#Yes, at certain times or in certain situations": "Ja, zu bestimmten Zeiten oder in bestimmten Situationen",
+          "#Yes, whenever I can": "Ja, wann immer ich kann"
+        },
+        "tr": {
+          "#Do you avoid this place?": "Bu yerden kaçınıyor musunuz?",
+          "#No, never": "Hayır, hiçbir zaman",
+          "#No, I would avoid it, but it is the only way": "Hayır, kaçınırdım ama tek yol bu",
+          "#Yes, at certain times or in certain situations": "Evet, belirli saatlerde veya belirli durumlarda",
+          "#Yes, whenever I can": "Evet, mümkün olan her durumda"
+        },
+        "fa": {
+          "#Do you avoid this place?": "آیا از این مکان دوری می‌کنید؟",
+          "#No, never": "خیر، هرگز",
+          "#No, I would avoid it, but it is the only way": "نه، از آن دوری می‌کردم، اما تنها راه است",
+          "#Yes, at certain times or in certain situations": "بله، در برخی ساعت‌ها یا در برخی موقعیت‌ها",
+          "#Yes, whenever I can": "بله، هر وقت بتوانم"
+        },
+        "hu": {
+          "#Do you avoid this place?": "Elkerüli ezt a helyet?",
+          "#No, never": "Nem, soha",
+          "#No, I would avoid it, but it is the only way": "Nem, elkerülném, de ez az egyetlen út",
+          "#Yes, at certain times or in certain situations": "Igen, bizonyos időpontokban vagy helyzetekben",
+          "#Yes, whenever I can": "Igen, amikor csak tehetem"
+        },
+        "ar": {
+          "#Do you avoid this place?": "هل تتجنب هذا المكان؟",
+          "#No, never": "لا، أبدًا",
+          "#No, I would avoid it, but it is the only way": "لا، كنت سأتجنبه، لكنه الطريق الوحيد",
+          "#Yes, at certain times or in certain situations": "نعم، في أوقات أو مواقف معيّنة",
+          "#Yes, whenever I can": "نعم، كلما أمكنني ذلك"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

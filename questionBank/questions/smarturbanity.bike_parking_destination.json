@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.bike_parking_destination",
+  "project": "SmartUrbanity",
+  "key": "bike_parking_destination",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_cycling",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_cycling"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How would you describe the availability of bicycle parking at your most frequent destination?",
+        "answer_key": "bike_parking_destination",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very inadequate — there is nowhere secure to park my bicycle",
+            "value": "very_inadequate_there_is_nowhere_secure"
+          },
+          {
+            "text": "Inadequate — parking exists but is too limited or too far from my destination",
+            "value": "inadequate_parking_exists_but_is_too_lim"
+          },
+          {
+            "text": "Partially adequate — parking is available but not always convenient or secure",
+            "value": "partially_adequate_parking_is_available"
+          },
+          {
+            "text": "Mostly adequate — I can usually find a suitable place to park",
+            "value": "mostly_adequate_i_can_usually_find_a_sui"
+          },
+          {
+            "text": "Very adequate — secure and convenient parking is always available",
+            "value": "very_adequate_secure_and_convenient_park"
+          }
+        ],
+        "legacy_answer_keys": [
+          "bike_parking_destination_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How would you describe the availability of bicycle parking at your most frequent destination?": "How would you describe the availability of bicycle parking at your most frequent destination?",
+          "#Very inadequate — there is nowhere secure to park my bicycle": "Very inadequate — there is nowhere secure to park my bicycle",
+          "#Inadequate — parking exists but is too limited or too far from my destination": "Inadequate — parking exists but is too limited or too far from my destination",
+          "#Partially adequate — parking is available but not always convenient or secure": "Partially adequate — parking is available but not always convenient or secure",
+          "#Mostly adequate — I can usually find a suitable place to park": "Mostly adequate — I can usually find a suitable place to park",
+          "#Very adequate — secure and convenient parking is always available": "Very adequate — secure and convenient parking is always available"
+        },
+        "it": {
+          "#How would you describe the availability of bicycle parking at your most frequent destination?": "Come descriveresti la disponibilità di parcheggi per biciclette presso la tua destinazione più frequente?",
+          "#Very inadequate — there is nowhere secure to park my bicycle": "Del tutto inadeguata — non esiste un luogo sicuro in cui parcheggiare la bicicletta",
+          "#Inadequate — parking exists but is too limited or too far from my destination": "Inadeguata — i parcheggi esistono, ma sono troppo pochi o troppo lontani dalla destinazione",
+          "#Partially adequate — parking is available but not always convenient or secure": "Parzialmente adeguata — il parcheggio è disponibile, ma non sempre è comodo o sicuro",
+          "#Mostly adequate — I can usually find a suitable place to park": "Per lo più adeguata — di solito riesco a trovare un posto adatto",
+          "#Very adequate — secure and convenient parking is always available": "Molto adeguata — è sempre disponibile un parcheggio sicuro e comodo"
+        },
+        "fr": {
+          "#How would you describe the availability of bicycle parking at your most frequent destination?": "Comment décririez-vous la disponibilité du stationnement pour vélos à votre destination la plus fréquente ?",
+          "#Very inadequate — there is nowhere secure to park my bicycle": "Très insuffisante — il n’y a aucun endroit sûr pour garer mon vélo",
+          "#Inadequate — parking exists but is too limited or too far from my destination": "Insuffisante — il y a du stationnement, mais il est trop limité ou trop loin de ma destination",
+          "#Partially adequate — parking is available but not always convenient or secure": "Partiellement adaptée — il y a du stationnement, mais il n’est pas toujours pratique ou sûr",
+          "#Mostly adequate — I can usually find a suitable place to park": "Plutôt adaptée — je trouve généralement un endroit convenable pour garer mon vélo",
+          "#Very adequate — secure and convenient parking is always available": "Très adaptée — un stationnement sûr et pratique est toujours disponible"
+        },
+        "de": {
+          "#How would you describe the availability of bicycle parking at your most frequent destination?": "Wie würden Sie die Verfügbarkeit von Fahrradabstellplätzen an Ihrem häufigsten Ziel beschreiben?",
+          "#Very inadequate — there is nowhere secure to park my bicycle": "Sehr schlecht — es gibt keinen sicheren Platz für mein Fahrrad",
+          "#Inadequate — parking exists but is too limited or too far from my destination": "Schlecht — es gibt Abstellplätze, aber zu wenige oder zu weit vom Ziel entfernt",
+          "#Partially adequate — parking is available but not always convenient or secure": "Teilweise ausreichend — es gibt Abstellplätze, aber sie sind nicht immer praktisch oder sicher",
+          "#Mostly adequate — I can usually find a suitable place to park": "Meist ausreichend — ich finde normalerweise einen geeigneten Abstellplatz",
+          "#Very adequate — secure and convenient parking is always available": "Sehr gut — sichere und praktische Abstellplätze sind immer vorhanden"
+        },
+        "tr": {
+          "#How would you describe the availability of bicycle parking at your most frequent destination?": "En sık gittiğiniz yerde bisiklet parkı imkânlarını nasıl değerlendirirsiniz?",
+          "#Very inadequate — there is nowhere secure to park my bicycle": "Çok yetersiz — bisikletimi güvenli şekilde bırakabileceğim bir yer yok",
+          "#Inadequate — parking exists but is too limited or too far from my destination": "Yetersiz — park yeri var ama çok az veya gideceğim yere çok uzak",
+          "#Partially adequate — parking is available but not always convenient or secure": "Kısmen yeterli — park yeri var ama her zaman kullanışlı veya güvenli değil",
+          "#Mostly adequate — I can usually find a suitable place to park": "Büyük ölçüde yeterli — genellikle uygun bir park yeri bulabiliyorum",
+          "#Very adequate — secure and convenient parking is always available": "Çok yeterli — güvenli ve kullanışlı park yeri her zaman var"
+        },
+        "fa": {
+          "#How would you describe the availability of bicycle parking at your most frequent destination?": "امکان پارک دوچرخه در مقصدی که بیشتر به آن می‌روید چگونه است؟",
+          "#Very inadequate — there is nowhere secure to park my bicycle": "بسیار نامناسب — هیچ جای امنی برای پارک دوچرخه ندارم",
+          "#Inadequate — parking exists but is too limited or too far from my destination": "نامناسب — جای پارک هست، اما کم است یا از مقصد دور است",
+          "#Partially adequate — parking is available but not always convenient or secure": "تا حدی مناسب — جای پارک هست، اما همیشه راحت یا امن نیست",
+          "#Mostly adequate — I can usually find a suitable place to park": "بیشتر مناسب — معمولاً جای مناسبی برای پارک پیدا می‌کنم",
+          "#Very adequate — secure and convenient parking is always available": "بسیار مناسب — همیشه جای پارک امن و مناسب وجود دارد"
+        },
+        "hu": {
+          "#How would you describe the availability of bicycle parking at your most frequent destination?": "Hogyan értékelné a kerékpárparkolási lehetőségeket annál a célnál, ahová a leggyakrabban jár?",
+          "#Very inadequate — there is nowhere secure to park my bicycle": "Nagyon rossz — nincs biztonságos hely a kerékpáromnak",
+          "#Inadequate — parking exists but is too limited or too far from my destination": "Rossz — van parkoló, de kevés vagy túl messze van a céltól",
+          "#Partially adequate — parking is available but not always convenient or secure": "Részben megfelelő — van parkoló, de nem mindig kényelmes vagy biztonságos",
+          "#Mostly adequate — I can usually find a suitable place to park": "Többnyire megfelelő — általában találok megfelelő helyet",
+          "#Very adequate — secure and convenient parking is always available": "Nagyon jó — mindig van biztonságos és kényelmes parkolóhely"
+        },
+        "ar": {
+          "#How would you describe the availability of bicycle parking at your most frequent destination?": "كيف تصف توفر أماكن لوقوف الدراجات عند الوجهة التي تذهب إليها غالبًا؟",
+          "#Very inadequate — there is nowhere secure to park my bicycle": "غير كافٍ جدًا — لا يوجد مكان آمن لترك دراجتي",
+          "#Inadequate — parking exists but is too limited or too far from my destination": "غير كافٍ — توجد مواقف لكنها قليلة أو بعيدة جدًا عن الوجهة",
+          "#Partially adequate — parking is available but not always convenient or secure": "كافٍ جزئيًا — توجد مواقف لكنها ليست دائمًا مريحة أو آمنة",
+          "#Mostly adequate — I can usually find a suitable place to park": "كافٍ في معظم الأحيان — أجد عادةً مكانًا مناسبًا",
+          "#Very adequate — secure and convenient parking is always available": "كافٍ جدًا — يوجد دائمًا موقف آمن ومريح"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_cycling"
+      ]
+    }
+  }
+}

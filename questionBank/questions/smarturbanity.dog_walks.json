@@ -1,0 +1,77 @@
+{
+  "question_id": "smarturbanity.dog_walks",
+  "project": "SmartUrbanity",
+  "key": "dog_walks",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Do you have a pet at home that may generate additional walking trips (e.g. a dog)?",
+        "answer_key": "dog_walks",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Do you have a pet at home that may generate additional walking trips (e.g. a dog)?",
+          "#Yes": "Yes",
+          "#No": "No"
+        },
+        "it": {
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Hai un animale domestico che può comportare ulteriori spostamenti a piedi (ad es. un cane)?",
+          "#Yes": "Sì",
+          "#No": "No"
+        },
+        "fr": {
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Avez-vous un animal domestique qui peut entraîner des déplacements supplémentaires à pied, par exemple un chien ?",
+          "#Yes": "Oui",
+          "#No": "Non"
+        },
+        "de": {
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Haben Sie ein Haustier, das zusätzliche Wege zu Fuß verursachen kann, zum Beispiel einen Hund?",
+          "#Yes": "Ja",
+          "#No": "Nein"
+        },
+        "tr": {
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Evde ek yürüme ihtiyacı doğurabilecek bir evcil hayvanınız var mı? Örneğin bir köpek.",
+          "#Yes": "Evet",
+          "#No": "Hayır"
+        },
+        "fa": {
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "آیا حیوان خانگی دارید که باعث شود بیشتر پیاده‌روی کنید، مثلاً سگ؟",
+          "#Yes": "بله",
+          "#No": "خیر"
+        },
+        "hu": {
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Van olyan háziállata, amely miatt többet kell gyalogolnia, például kutya?",
+          "#Yes": "Igen",
+          "#No": "Nem"
+        },
+        "ar": {
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "هل لديك حيوان أليف قد يجعلك تقوم بمزيد من المشي، مثل الكلب؟",
+          "#Yes": "نعم",
+          "#No": "لا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    }
+  }
+}

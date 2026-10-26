@@ -1,0 +1,213 @@
+{
+  "question_id": "smarturbanity.walking_surface_problems",
+  "project": "SmartUrbanity",
+  "key": "walking_surface_problems",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What problems affect the walking surface?",
+        "help": "A side slope is when the walking surface tilts sideways, across the direction of walking.",
+        "answer_key": "walking_surface_problems",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Uneven surface",
+            "value": "uneven_surface"
+          },
+          {
+            "text": "Cracks",
+            "value": "cracks"
+          },
+          {
+            "text": "Potholes",
+            "value": "potholes"
+          },
+          {
+            "text": "Raised edges or bumps",
+            "value": "raised_edges_bumps"
+          },
+          {
+            "text": "Tree roots",
+            "value": "tree_roots"
+          },
+          {
+            "text": "Side slope feels uncomfortable",
+            "value": "side_slope"
+          },
+          {
+            "text": "Steps or sudden level changes",
+            "value": "level_changes"
+          },
+          {
+            "text": "No curb ramp to get on or off the sidewalk",
+            "value": "missing_curb_ramp"
+          },
+          {
+            "text": "Slippery when wet",
+            "value": "slippery_wet"
+          },
+          {
+            "text": "Water collects after rain",
+            "value": "water_collects"
+          },
+          {
+            "text": "No clear problem",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What problems affect the walking surface?": "What problems affect the walking surface?",
+          "#A side slope is when the walking surface tilts sideways, across the direction of walking.": "A side slope is when the walking surface tilts sideways, across the direction of walking.",
+          "#Uneven surface": "Uneven surface",
+          "#Cracks": "Cracks",
+          "#Potholes": "Potholes",
+          "#Raised edges or bumps": "Raised edges or bumps",
+          "#Tree roots": "Tree roots",
+          "#Side slope feels uncomfortable": "Side slope feels uncomfortable",
+          "#Steps or sudden level changes": "Steps or sudden level changes",
+          "#No curb ramp to get on or off the sidewalk": "No curb ramp to get on or off the sidewalk",
+          "#Slippery when wet": "Slippery when wet",
+          "#Water collects after rain": "Water collects after rain",
+          "#No clear problem": "No clear problem",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What problems affect the walking surface?": "Quali problemi presenta la superficie del percorso pedonale?",
+          "#A side slope is when the walking surface tilts sideways, across the direction of walking.": "La pendenza laterale è quando la superficie pedonale è inclinata di lato, trasversalmente alla direzione di marcia.",
+          "#Uneven surface": "Superficie irregolare",
+          "#Cracks": "Crepe",
+          "#Potholes": "Buche",
+          "#Raised edges or bumps": "Bordi rialzati o dossi",
+          "#Tree roots": "Radici degli alberi",
+          "#Side slope feels uncomfortable": "Pendenza laterale scomoda",
+          "#Steps or sudden level changes": "Gradini o dislivelli improvvisi",
+          "#No curb ramp to get on or off the sidewalk": "Manca lo scivolo per scendere o salire dal marciapiede",
+          "#Slippery when wet": "Scivolosa quando è bagnata",
+          "#Water collects after rain": "Accumuli d'acqua dopo la pioggia",
+          "#No clear problem": "Nessun problema evidente",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What problems affect the walking surface?": "Quels problèmes affectent la surface piétonne ?",
+          "#A side slope is when the walking surface tilts sideways, across the direction of walking.": "Le dévers, c’est quand la surface de marche penche sur le côté, perpendiculairement au sens de la marche.",
+          "#Uneven surface": "Surface irrégulière",
+          "#Cracks": "Fissures",
+          "#Potholes": "Nids-de-poule",
+          "#Raised edges or bumps": "Bords surélevés ou bosses",
+          "#Tree roots": "Racines d'arbres",
+          "#Side slope feels uncomfortable": "La pente transversale est inconfortable",
+          "#Steps or sudden level changes": "Marches ou changements brusques de niveau",
+          "#No curb ramp to get on or off the sidewalk": "Pas de bateau pour monter sur le trottoir ou en descendre",
+          "#Slippery when wet": "Glissant lorsqu'il est mouillé",
+          "#Water collects after rain": "L'eau s'accumule après la pluie",
+          "#No clear problem": "Aucun problème évident",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What problems affect the walking surface?": "Welche Probleme betreffen die Gehoberfläche?",
+          "#A side slope is when the walking surface tilts sideways, across the direction of walking.": "Quergefälle bedeutet, dass die Gehfläche seitlich geneigt ist, quer zur Gehrichtung.",
+          "#Uneven surface": "Unebene Oberfläche",
+          "#Cracks": "Risse",
+          "#Potholes": "Schlaglöcher",
+          "#Raised edges or bumps": "Erhöhte Kanten oder Unebenheiten",
+          "#Tree roots": "Baumwurzeln",
+          "#Side slope feels uncomfortable": "Die Querneigung fühlt sich unangenehm an",
+          "#Steps or sudden level changes": "Stufen oder plötzliche Höhenunterschiede",
+          "#No curb ramp to get on or off the sidewalk": "Kein abgesenkter Bordstein, um auf den Gehweg oder herunter zu kommen",
+          "#Slippery when wet": "Bei Nässe rutschig",
+          "#Water collects after rain": "Nach Regen sammelt sich Wasser",
+          "#No clear problem": "Kein eindeutiges Problem",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What problems affect the walking surface?": "Yürüme yüzeyini hangi sorunlar etkiliyor?",
+          "#A side slope is when the walking surface tilts sideways, across the direction of walking.": "Yan eğim, yürüme yüzeyinin yürüyüş yönüne dik olarak yana doğru eğik olmasıdır.",
+          "#Uneven surface": "Bozuk/düzensiz yüzey",
+          "#Cracks": "Çatlaklar",
+          "#Potholes": "Çukurlar",
+          "#Raised edges or bumps": "Yükselmiş kenarlar veya tümsekler",
+          "#Tree roots": "Ağaç kökleri",
+          "#Side slope feels uncomfortable": "Yan eğim rahatsız edici geliyor",
+          "#Steps or sudden level changes": "Basamaklar veya ani seviye değişiklikleri",
+          "#No curb ramp to get on or off the sidewalk": "Kaldırıma inip çıkmak için bordür rampası yok",
+          "#Slippery when wet": "Islakken kaygan",
+          "#Water collects after rain": "Yağmurdan sonra su birikiyor",
+          "#No clear problem": "Belirgin bir sorun yok",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What problems affect the walking surface?": "چه مشکلاتی بر سطح پیاده اثر می‌گذارد؟",
+          "#A side slope is when the walking surface tilts sideways, across the direction of walking.": "شیب عرضی یعنی سطح پیاده‌رو به پهلو و عمود بر جهت حرکت کج شده است.",
+          "#Uneven surface": "سطح ناهموار",
+          "#Cracks": "ترک‌ها",
+          "#Potholes": "چاله‌ها",
+          "#Raised edges or bumps": "لبه‌های برجسته یا برآمدگی‌ها",
+          "#Tree roots": "ریشه درختان",
+          "#Side slope feels uncomfortable": "شیب عرضی ناراحت‌کننده است",
+          "#Steps or sudden level changes": "پله یا تغییر ناگهانی سطح",
+          "#No curb ramp to get on or off the sidewalk": "رمپی برای بالا یا پایین رفتن از پیاده‌رو نیست",
+          "#Slippery when wet": "در حالت خیس لغزنده است",
+          "#Water collects after rain": "پس از باران آب جمع می‌شود",
+          "#No clear problem": "مشکل روشنی وجود ندارد",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What problems affect the walking surface?": "Milyen problémák érintik a gyalogos felületet?",
+          "#A side slope is when the walking surface tilts sideways, across the direction of walking.": "Oldalesésről akkor beszélünk, ha a járófelület oldalirányban, a haladási irányra merőlegesen lejt.",
+          "#Uneven surface": "Egyenetlen burkolat",
+          "#Cracks": "Repedések",
+          "#Potholes": "Kátyúk",
+          "#Raised edges or bumps": "Kiemelkedő szélek vagy bukkanók",
+          "#Tree roots": "Fagyökerek",
+          "#Side slope feels uncomfortable": "Az oldallejtés kényelmetlen",
+          "#Steps or sudden level changes": "Lépcsők vagy hirtelen szintkülönbségek",
+          "#No curb ramp to get on or off the sidewalk": "Nincs szegélyrámpa a járdára fel- vagy lelépéshez",
+          "#Slippery when wet": "Nedvesen csúszós",
+          "#Water collects after rain": "Eső után megáll a víz",
+          "#No clear problem": "Nincs egyértelmű probléma",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What problems affect the walking surface?": "ما المشكلات التي تؤثر في سطح المشي؟",
+          "#A side slope is when the walking surface tilts sideways, across the direction of walking.": "الميل الجانبي يعني أن سطح المشي مائل إلى الجانب، بشكل عمودي على اتجاه المشي.",
+          "#Uneven surface": "سطح غير مستوٍ",
+          "#Cracks": "شقوق",
+          "#Potholes": "حفر في الطريق",
+          "#Raised edges or bumps": "حواف مرتفعة أو نتوءات",
+          "#Tree roots": "جذور الأشجار",
+          "#Side slope feels uncomfortable": "الميل الجانبي غير مريح",
+          "#Steps or sudden level changes": "درجات أو تغيرات مفاجئة في المستوى",
+          "#No curb ramp to get on or off the sidewalk": "لا يوجد منحدر للنزول من الرصيف أو الصعود إليه",
+          "#Slippery when wet": "زلق عند البلل",
+          "#Water collects after rain": "تتجمع المياه بعد المطر",
+          "#No clear problem": "لا توجد مشكلة واضحة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

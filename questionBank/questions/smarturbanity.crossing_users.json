@@ -1,0 +1,111 @@
+{
+  "question_id": "smarturbanity.crossing_users",
+  "project": "SmartUrbanity",
+  "key": "crossing_users",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Who is this crossing for?",
+        "answer_key": "crossing_users",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Only for people walking",
+            "value": "pedestrians_only"
+          },
+          {
+            "text": "Shared: bicycles and pedestrians together",
+            "value": "shared_ped_bike"
+          },
+          {
+            "text": "There are separate markings for bicycles next to the pedestrian ones",
+            "value": "separate_bike_lane"
+          },
+          {
+            "text": "Not marked for bicycles, but bicycles use it",
+            "value": "bikes_not_marked"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Who is this crossing for?": "Who is this crossing for?",
+          "#Only for people walking": "Only for people walking",
+          "#Shared: bicycles and pedestrians together": "Shared: bicycles and pedestrians together",
+          "#There are separate markings for bicycles next to the pedestrian ones": "There are separate markings for bicycles next to the pedestrian ones",
+          "#Not marked for bicycles, but bicycles use it": "Not marked for bicycles, but bicycles use it",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Who is this crossing for?": "Per chi è questo attraversamento?",
+          "#Only for people walking": "Solo per chi va a piedi",
+          "#Shared: bicycles and pedestrians together": "Ciclopedonale: bici e pedoni insieme",
+          "#There are separate markings for bicycles next to the pedestrian ones": "Ci sono strisce a parte per le bici, accanto a quelle pedonali",
+          "#Not marked for bicycles, but bicycles use it": "Non è segnato per le bici, ma le bici ci passano",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Who is this crossing for?": "À qui ce passage est-il destiné ?",
+          "#Only for people walking": "Seulement pour les personnes à pied",
+          "#Shared: bicycles and pedestrians together": "Mixte : vélos et piétons ensemble",
+          "#There are separate markings for bicycles next to the pedestrian ones": "Il y a un marquage séparé pour les vélos, à côté de celui des piétons",
+          "#Not marked for bicycles, but bicycles use it": "Pas marqué pour les vélos, mais les vélos y passent",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Who is this crossing for?": "Für wen ist dieser Übergang gedacht?",
+          "#Only for people walking": "Nur für Menschen zu Fuß",
+          "#Shared: bicycles and pedestrians together": "Gemeinsam: Fahrräder und Fußgänger zusammen",
+          "#There are separate markings for bicycles next to the pedestrian ones": "Es gibt eigene Markierungen für Fahrräder neben denen für Fußgänger",
+          "#Not marked for bicycles, but bicycles use it": "Nicht für Fahrräder markiert, aber Fahrräder fahren hier",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Who is this crossing for?": "Bu geçit kimler için?",
+          "#Only for people walking": "Yalnızca yürüyenler için",
+          "#Shared: bicycles and pedestrians together": "Ortak: bisikletler ve yayalar birlikte",
+          "#There are separate markings for bicycles next to the pedestrian ones": "Yaya çizgilerinin yanında bisikletler için ayrı çizgiler var",
+          "#Not marked for bicycles, but bicycles use it": "Bisikletler için işaretli değil, ama bisikletler buradan geçiyor",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Who is this crossing for?": "این گذرگاه برای چه کسانی است؟",
+          "#Only for people walking": "فقط برای کسانی که پیاده می‌روند",
+          "#Shared: bicycles and pedestrians together": "مشترک: دوچرخه و عابر پیاده با هم",
+          "#There are separate markings for bicycles next to the pedestrian ones": "کنار خط‌کشی عابر پیاده، خط‌کشی جداگانه‌ای برای دوچرخه هست",
+          "#Not marked for bicycles, but bicycles use it": "برای دوچرخه علامت‌گذاری نشده، اما دوچرخه‌ها از آن رد می‌شوند",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Who is this crossing for?": "Kinek szól ez az átkelő?",
+          "#Only for people walking": "Csak gyalogosoknak",
+          "#Shared: bicycles and pedestrians together": "Közös: kerékpárosok és gyalogosok együtt",
+          "#There are separate markings for bicycles next to the pedestrian ones": "A gyalogos felfestés mellett külön felfestés van a kerékpárosoknak",
+          "#Not marked for bicycles, but bicycles use it": "Nincs kerékpárosoknak felfestve, de a kerékpárosok itt kelnek át",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Who is this crossing for?": "لمن هذا المعبر؟",
+          "#Only for people walking": "للمشاة فقط",
+          "#Shared: bicycles and pedestrians together": "مشترك: الدراجات والمشاة معًا",
+          "#There are separate markings for bicycles next to the pedestrian ones": "توجد خطوط منفصلة للدراجات بجانب خطوط المشاة",
+          "#Not marked for bicycles, but bicycles use it": "غير مُعلَّم للدراجات، لكن الدراجات تمر منه",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

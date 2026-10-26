@@ -1,0 +1,216 @@
+{
+  "question_id": "smarturbanity.walking_obstacles",
+  "project": "SmartUrbanity",
+  "key": "walking_obstacles",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What obstacles reduce the walking space?",
+        "answer_key": "walking_obstacles",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Parked cars",
+            "value": "parked_cars"
+          },
+          {
+            "text": "Bicycles, e-scooters, or motorcycles parked on the sidewalk",
+            "value": "micromobility_parked"
+          },
+          {
+            "text": "Trees, poles, signs, or utility boxes",
+            "value": "fixed_objects"
+          },
+          {
+            "text": "Overgrown plants or weeds",
+            "value": "vegetation"
+          },
+          {
+            "text": "Outdoor café or restaurant seating",
+            "value": "outdoor_seating"
+          },
+          {
+            "text": "Shop displays or street vendors",
+            "value": "shop_displays_vendors"
+          },
+          {
+            "text": "Waste bins or rubbish bags",
+            "value": "waste_bins_bags"
+          },
+          {
+            "text": "Dog waste",
+            "value": "dog_waste"
+          },
+          {
+            "text": "Construction works",
+            "value": "construction"
+          },
+          {
+            "text": "People waiting in queues",
+            "value": "queues"
+          },
+          {
+            "text": "Flooded areas after rain",
+            "value": "flooding"
+          },
+          {
+            "text": "No clear obstacle",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What obstacles reduce the walking space?": "What obstacles reduce the walking space?",
+          "#Parked cars": "Parked cars",
+          "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Bicycles, e-scooters, or motorcycles parked on the sidewalk",
+          "#Trees, poles, signs, or utility boxes": "Trees, poles, signs, or utility boxes",
+          "#Overgrown plants or weeds": "Overgrown plants or weeds",
+          "#Outdoor café or restaurant seating": "Outdoor café or restaurant seating",
+          "#Shop displays or street vendors": "Shop displays or street vendors",
+          "#Waste bins or rubbish bags": "Waste bins or rubbish bags",
+          "#Dog waste": "Dog waste",
+          "#Construction works": "Construction works",
+          "#People waiting in queues": "People waiting in queues",
+          "#Flooded areas after rain": "Flooded areas after rain",
+          "#No clear obstacle": "No clear obstacle",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What obstacles reduce the walking space?": "Quali ostacoli riducono lo spazio per camminare?",
+          "#Parked cars": "Automobili parcheggiate",
+          "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Biciclette, monopattini o motocicli parcheggiati sul marciapiede",
+          "#Trees, poles, signs, or utility boxes": "Alberi, pali, cartelli o centraline",
+          "#Overgrown plants or weeds": "Vegetazione o erbacce non curate",
+          "#Outdoor café or restaurant seating": "Tavoli esterni di bar o ristoranti",
+          "#Shop displays or street vendors": "Espositori di negozi o venditori ambulanti",
+          "#Waste bins or rubbish bags": "Cassonetti o sacchi dei rifiuti",
+          "#Dog waste": "Escrementi di cane",
+          "#Construction works": "Lavori in corso",
+          "#People waiting in queues": "Persone in attesa o in coda",
+          "#Flooded areas after rain": "Zone allagate dopo la pioggia",
+          "#No clear obstacle": "Nessun ostacolo evidente",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What obstacles reduce the walking space?": "Quels obstacles réduisent l’espace piéton ?",
+          "#Parked cars": "Voitures stationnées",
+          "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Vélos, trottinettes ou motos stationnés sur le trottoir",
+          "#Trees, poles, signs, or utility boxes": "Arbres, poteaux, panneaux ou boîtiers techniques",
+          "#Overgrown plants or weeds": "Plantes ou mauvaises herbes envahissantes",
+          "#Outdoor café or restaurant seating": "Terrasses de cafés ou de restaurants",
+          "#Shop displays or street vendors": "Étalages de magasins ou vendeurs ambulants",
+          "#Waste bins or rubbish bags": "Poubelles ou sacs de déchets",
+          "#Dog waste": "Déjections canines",
+          "#Construction works": "Travaux en cours",
+          "#People waiting in queues": "Personnes faisant la queue",
+          "#Flooded areas after rain": "Zones inondées après la pluie",
+          "#No clear obstacle": "Aucun obstacle évident",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What obstacles reduce the walking space?": "Welche Hindernisse verringern den Gehbereich?",
+          "#Parked cars": "Geparkte Autos",
+          "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Fahrräder, E-Scooter oder Motorräder auf dem Gehweg geparkt",
+          "#Trees, poles, signs, or utility boxes": "Bäume, Pfosten, Schilder oder Versorgungskästen",
+          "#Overgrown plants or weeds": "Überwachsene Pflanzen oder Unkraut",
+          "#Outdoor café or restaurant seating": "Außensitzplätze von Cafés oder Restaurants",
+          "#Shop displays or street vendors": "Warenauslagen oder Straßenverkauf",
+          "#Waste bins or rubbish bags": "Mülltonnen oder Müllsäcke",
+          "#Dog waste": "Hundekot",
+          "#Construction works": "Baustellen",
+          "#People waiting in queues": "Wartende Personen in Schlangen",
+          "#Flooded areas after rain": "Überflutete Bereiche nach Regen",
+          "#No clear obstacle": "Kein eindeutiges Hindernis",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What obstacles reduce the walking space?": "Yürüme alanını hangi engeller daraltıyor?",
+          "#Parked cars": "Park etmiş arabalar",
+          "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "Kaldırıma park edilmiş bisiklet, e-scooter veya motosikletler",
+          "#Trees, poles, signs, or utility boxes": "Ağaçlar, direkler, işaretler veya elektrik kutuları",
+          "#Overgrown plants or weeds": "Aşırı büyümüş bitkiler veya yabani otlar",
+          "#Outdoor café or restaurant seating": "Kafe veya restoranların dış oturma alanları",
+          "#Shop displays or street vendors": "Mağaza teşhirleri veya seyyar satıcılar",
+          "#Waste bins or rubbish bags": "Çöp kutuları veya çöp torbaları",
+          "#Dog waste": "Köpek dışkısı",
+          "#Construction works": "İnşaat/çalışma alanları",
+          "#People waiting in queues": "Kuyrukta bekleyen insanlar",
+          "#Flooded areas after rain": "Yağmurdan sonra su basan alanlar",
+          "#No clear obstacle": "Belirgin bir engel yok",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What obstacles reduce the walking space?": "چه موانعی فضای پیاده را کاهش می‌دهد؟",
+          "#Parked cars": "خودروهای پارک‌شده",
+          "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "دوچرخه، اسکوتر برقی یا موتورسیکلت پارک‌شده روی پیاده‌رو",
+          "#Trees, poles, signs, or utility boxes": "درختان، تیرها، تابلوها یا جعبه‌های تأسیسات",
+          "#Overgrown plants or weeds": "گیاهان یا علف‌های هرز بیش‌ازحد رشدکرده",
+          "#Outdoor café or restaurant seating": "میز و صندلی بیرونی کافه یا رستوران",
+          "#Shop displays or street vendors": "اجناس بیرون مغازه یا دستفروشان",
+          "#Waste bins or rubbish bags": "سطل یا کیسه زباله",
+          "#Dog waste": "مدفوعات سگ",
+          "#Construction works": "عملیات ساختمانی",
+          "#People waiting in queues": "افراد در صف",
+          "#Flooded areas after rain": "بخش‌های آب‌گرفته پس از باران",
+          "#No clear obstacle": "مانع مشخصی وجود ندارد",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What obstacles reduce the walking space?": "Milyen akadályok szűkítik a gyalogos teret?",
+          "#Parked cars": "Parkoló autók",
+          "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "A járdán parkoló kerékpárok, rollerek vagy motorok",
+          "#Trees, poles, signs, or utility boxes": "Fák, oszlopok, táblák vagy közműszekrények",
+          "#Overgrown plants or weeds": "Túlburjánzott növények vagy gyomok",
+          "#Outdoor café or restaurant seating": "Kávézók vagy éttermek kültéri ülőhelyei",
+          "#Shop displays or street vendors": "Bolti kihelyezések vagy utcai árusok",
+          "#Waste bins or rubbish bags": "Hulladékgyűjtők vagy szemeteszsákok",
+          "#Dog waste": "Kutyapiszok",
+          "#Construction works": "Építési munkák",
+          "#People waiting in queues": "Sorban álló emberek",
+          "#Flooded areas after rain": "Eső után elöntött területek",
+          "#No clear obstacle": "Nincs egyértelmű akadály",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What obstacles reduce the walking space?": "ما العوائق التي تقلل مساحة المشي؟",
+          "#Parked cars": "سيارات متوقفة",
+          "#Bicycles, e-scooters, or motorcycles parked on the sidewalk": "دراجات أو سكوترات كهربائية أو نارية متوقفة على الرصيف",
+          "#Trees, poles, signs, or utility boxes": "أشجار أو أعمدة أو لافتات أو صناديق خدمات",
+          "#Overgrown plants or weeds": "نباتات أو أعشاب متضخمة",
+          "#Outdoor café or restaurant seating": "جلسات خارجية للمقاهي أو المطاعم",
+          "#Shop displays or street vendors": "معروضات المتاجر أو الباعة المتجولون",
+          "#Waste bins or rubbish bags": "حاويات أو أكياس نفايات",
+          "#Dog waste": "فضلات الكلاب",
+          "#Construction works": "أعمال إنشاء",
+          "#People waiting in queues": "أشخاص ينتظرون في طوابير",
+          "#Flooded areas after rain": "مناطق مغمورة بالمياه بعد المطر",
+          "#No clear obstacle": "لا يوجد عائق واضح",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

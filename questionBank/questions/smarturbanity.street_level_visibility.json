@@ -1,0 +1,99 @@
+{
+  "question_id": "smarturbanity.street_level_visibility",
+  "project": "SmartUrbanity",
+  "key": "street_level_visibility",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?",
+        "answer_key": "street_level_visibility",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes, clearly",
+            "value": "1_clear"
+          },
+          {
+            "text": "Partly",
+            "value": "2_partly"
+          },
+          {
+            "text": "No, visibility is poor",
+            "value": "3_poor"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?": "Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?",
+          "#Yes, clearly": "Yes, clearly",
+          "#Partly": "Partly",
+          "#No, visibility is poor": "No, visibility is poor",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?": "Prima di attraversare, si vedono bene i veicoli o le biciclette in arrivo, anche all'altezza di un bambino o di una persona in sedia a rotelle?",
+          "#Yes, clearly": "Sì, chiaramente",
+          "#Partly": "In parte",
+          "#No, visibility is poor": "No, la visibilità è scarsa",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?": "Avant de traverser, voit-on bien les véhicules ou les vélos qui arrivent, y compris à hauteur d'un enfant ou d'une personne en fauteuil roulant ?",
+          "#Yes, clearly": "Oui, clairement",
+          "#Partly": "En partie",
+          "#No, visibility is poor": "Non, la visibilité est mauvaise",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?": "Sieht man vor dem Überqueren herannahende Fahrzeuge oder Fahrräder gut, auch aus der Höhe eines Kindes oder einer Person im Rollstuhl?",
+          "#Yes, clearly": "Ja, deutlich",
+          "#Partly": "Teilweise",
+          "#No, visibility is poor": "Nein, die Sicht ist schlecht",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?": "Karşıya geçmeden önce, bir çocuğun veya tekerlekli sandalye kullanan birinin göz hizasından da, yaklaşan araçlar veya bisikletler açıkça görülebiliyor mu?",
+          "#Yes, clearly": "Evet, açıkça",
+          "#Partly": "Kısmen",
+          "#No, visibility is poor": "Hayır, görüş zayıf",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?": "پیش از عبور، آیا وسایل نقلیه یا دوچرخه‌هایی که نزدیک می‌شوند به‌خوبی دیده می‌شوند، حتی از ارتفاع دید یک کودک یا فردی روی ویلچر؟",
+          "#Yes, clearly": "بله، به‌وضوح",
+          "#Partly": "تا حدی",
+          "#No, visibility is poor": "خیر، دید ضعیف است",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?": "Átkelés előtt jól látszanak-e a közeledő járművek vagy kerékpárok, egy gyerek vagy egy kerekesszékes ember szemmagasságából is?",
+          "#Yes, clearly": "Igen, jól",
+          "#Partly": "Részben",
+          "#No, visibility is poor": "Nem, rossz a kilátás",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Before crossing, can you clearly see approaching vehicles or bicycles, also at the height of a child or a wheelchair user?": "قبل العبور، هل يمكن رؤية المركبات أو الدراجات القادمة بوضوح، حتى من مستوى نظر طفل أو شخص على كرسي متحرك؟",
+          "#Yes, clearly": "نعم، بوضوح",
+          "#Partly": "جزئيًا",
+          "#No, visibility is poor": "لا، الرؤية ضعيفة",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

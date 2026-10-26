@@ -1,0 +1,213 @@
+{
+  "question_id": "smarturbanity.traffic_interaction_problems",
+  "project": "SmartUrbanity",
+  "key": "traffic_interaction_problems",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What makes things difficult with traffic here?",
+        "help": "Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.",
+        "answer_key": "traffic_interaction_problems",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Poor visibility",
+            "value": "poor_visibility"
+          },
+          {
+            "text": "Vehicles drive too fast",
+            "value": "vehicles_too_fast"
+          },
+          {
+            "text": "Vehicles pass too close",
+            "value": "close_passing"
+          },
+          {
+            "text": "Cars or motorcycles do not stop at the zebra crossing",
+            "value": "drivers_not_stopping"
+          },
+          {
+            "text": "Vehicles go through the red light",
+            "value": "vehicles_running_red"
+          },
+          {
+            "text": "Bicycles, e-scooters or motorcycles on the sidewalk",
+            "value": "bikes_scooters_on_sidewalk"
+          },
+          {
+            "text": "The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths",
+            "value": "bike_path_crosses_sidewalk"
+          },
+          {
+            "text": "Difficult turns or side access",
+            "value": "difficult_turns_access"
+          },
+          {
+            "text": "Double parking or stopped vehicles",
+            "value": "double_parking_stopped"
+          },
+          {
+            "text": "Bus or tram interaction",
+            "value": "pt_interaction"
+          },
+          {
+            "text": "No clear problem",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What makes things difficult with traffic here?": "What makes things difficult with traffic here?",
+          "#Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.": "Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.",
+          "#Poor visibility": "Poor visibility",
+          "#Vehicles drive too fast": "Vehicles drive too fast",
+          "#Vehicles pass too close": "Vehicles pass too close",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Cars or motorcycles do not stop at the zebra crossing",
+          "#Vehicles go through the red light": "Vehicles go through the red light",
+          "#Bicycles, e-scooters or motorcycles on the sidewalk": "Bicycles, e-scooters or motorcycles on the sidewalk",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths",
+          "#Difficult turns or side access": "Difficult turns or side access",
+          "#Double parking or stopped vehicles": "Double parking or stopped vehicles",
+          "#Bus or tram interaction": "Bus or tram interaction",
+          "#No clear problem": "No clear problem",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What makes things difficult with traffic here?": "Cosa ti mette in difficoltà con il traffico qui?",
+          "#Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.": "Per accessi laterali si intendono passi carrabili, ingressi di garage o vie laterali da cui i veicoli entrano o escono dalla strada.",
+          "#Poor visibility": "Scarsa visibilità",
+          "#Vehicles drive too fast": "Veicoli troppo veloci",
+          "#Vehicles pass too close": "Veicoli che passano troppo vicino",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Auto o moto che non si fermano alle strisce pedonali",
+          "#Vehicles go through the red light": "Veicoli che passano col rosso",
+          "#Bicycles, e-scooters or motorcycles on the sidewalk": "Bici, monopattini o moto sul marciapiede",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "La ciclabile taglia il marciapiede: bici e pedoni si incrociano",
+          "#Difficult turns or side access": "Svolte o accessi laterali difficili",
+          "#Double parking or stopped vehicles": "Veicoli in doppia fila o fermi",
+          "#Bus or tram interaction": "Difficoltà con autobus o tram",
+          "#No clear problem": "Nessun problema evidente",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What makes things difficult with traffic here?": "Qu'est-ce qui vous met en difficulté avec la circulation ici ?",
+          "#Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.": "Les accès latéraux désignent les entrées charretières, entrées de garage ou rues latérales par lesquelles les véhicules entrent dans la rue ou en sortent.",
+          "#Poor visibility": "Mauvaise visibilité",
+          "#Vehicles drive too fast": "Les véhicules roulent trop vite",
+          "#Vehicles pass too close": "Les véhicules passent trop près",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Les voitures ou les motos ne s'arrêtent pas au passage piéton",
+          "#Vehicles go through the red light": "Des véhicules passent au feu rouge",
+          "#Bicycles, e-scooters or motorcycles on the sidewalk": "Vélos, trottinettes électriques ou motos sur le trottoir",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "La piste cyclable coupe le trottoir : vélos et piétons se croisent",
+          "#Difficult turns or side access": "Virages ou accès latéraux difficiles",
+          "#Double parking or stopped vehicles": "Double stationnement ou véhicules arrêtés",
+          "#Bus or tram interaction": "Interaction avec un bus ou un tram",
+          "#No clear problem": "Aucun problème évident",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What makes things difficult with traffic here?": "Was macht Ihnen hier den Umgang mit dem Verkehr schwer?",
+          "#Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.": "Seitliche Zufahrten sind Einfahrten, Garagenzufahrten oder Seitenstraßen, über die Fahrzeuge in die Straße ein- oder aus ihr ausfahren.",
+          "#Poor visibility": "Schlechte Sicht",
+          "#Vehicles drive too fast": "Fahrzeuge fahren zu schnell",
+          "#Vehicles pass too close": "Fahrzeuge fahren zu dicht vorbei",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Autos oder Motorräder halten am Zebrastreifen nicht an",
+          "#Vehicles go through the red light": "Fahrzeuge fahren bei Rot",
+          "#Bicycles, e-scooters or motorcycles on the sidewalk": "Fahrräder, E-Scooter oder Motorräder auf dem Gehweg",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "Der Radweg schneidet den Gehweg: Fahrräder und Fußgänger kreuzen sich",
+          "#Difficult turns or side access": "Schwierige Kurven oder seitliche Zufahrten",
+          "#Double parking or stopped vehicles": "Parken in zweiter Reihe oder haltende Fahrzeuge",
+          "#Bus or tram interaction": "Interaktion mit Bus oder Straßenbahn",
+          "#No clear problem": "Kein eindeutiges Problem",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What makes things difficult with traffic here?": "Burada trafikle ilgili sizi ne zorluyor?",
+          "#Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.": "Yan girişler, araçların sokağa girip çıktığı araç girişleri, garaj girişleri veya yan sokaklardır.",
+          "#Poor visibility": "Yetersiz görüş",
+          "#Vehicles drive too fast": "Araçlar çok hızlı gidiyor",
+          "#Vehicles pass too close": "Araçlar çok yakından geçiyor",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Arabalar veya motosikletler yaya geçidinde durmuyor",
+          "#Vehicles go through the red light": "Araçlar kırmızı ışıkta geçiyor",
+          "#Bicycles, e-scooters or motorcycles on the sidewalk": "Kaldırımda bisikletler, elektrikli scooterlar veya motosikletler",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "Bisiklet yolu kaldırımı kesiyor: bisikletler ve yayalar kesişiyor",
+          "#Difficult turns or side access": "Zor dönüşler veya yan girişler",
+          "#Double parking or stopped vehicles": "Çift sıra park veya durmuş araçlar",
+          "#Bus or tram interaction": "Otobüs veya tramvayla etkileşim",
+          "#No clear problem": "Belirgin bir sorun yok",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What makes things difficult with traffic here?": "در اینجا چه چیزی کنار آمدن با ترافیک را برایتان دشوار می‌کند؟",
+          "#Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.": "دسترسی‌های جانبی یعنی ورودی‌های خودرو، ورودی پارکینگ‌ها یا کوچه‌های فرعی که خودروها از آن‌ها وارد خیابان یا از آن خارج می‌شوند.",
+          "#Poor visibility": "دید ضعیف",
+          "#Vehicles drive too fast": "خودروها بسیار سریع حرکت می‌کنند",
+          "#Vehicles pass too close": "خودروها خیلی نزدیک عبور می‌کنند",
+          "#Cars or motorcycles do not stop at the zebra crossing": "خودروها یا موتورسیکلت‌ها پشت خط عابر پیاده نمی‌ایستند",
+          "#Vehicles go through the red light": "وسایل نقلیه از چراغ قرمز عبور می‌کنند",
+          "#Bicycles, e-scooters or motorcycles on the sidewalk": "دوچرخه، اسکوتر برقی یا موتورسیکلت روی پیاده‌رو",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "مسیر دوچرخه پیاده‌رو را قطع می‌کند: دوچرخه‌ها و عابران با هم تلاقی می‌کنند",
+          "#Difficult turns or side access": "پیچ‌ها یا دسترسی‌های جانبی دشوار",
+          "#Double parking or stopped vehicles": "توقف دوبله یا خودروهای متوقف",
+          "#Bus or tram interaction": "تعامل با اتوبوس یا تراموا",
+          "#No clear problem": "مشکل روشنی وجود ندارد",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What makes things difficult with traffic here?": "Mi nehezíti meg itt a forgalommal való boldogulást?",
+          "#Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.": "Oldalsó behajtók alatt kapubejárókat, garázsbejáratokat vagy mellékutcákat értünk, ahol a járművek be- vagy kihajtanak az utcából.",
+          "#Poor visibility": "Rossz beláthatóság",
+          "#Vehicles drive too fast": "A járművek túl gyorsan haladnak",
+          "#Vehicles pass too close": "A járművek túl közel haladnak el",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Az autók vagy motorok nem állnak meg a zebránál",
+          "#Vehicles go through the red light": "Járművek áthajtanak a piroson",
+          "#Bicycles, e-scooters or motorcycles on the sidewalk": "Kerékpárok, elektromos rollerek vagy motorok a járdán",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "A kerékpárút átvágja a járdát: kerékpárosok és gyalogosok keresztezik egymást",
+          "#Difficult turns or side access": "Nehéz kanyarok vagy oldalsó behajtók",
+          "#Double parking or stopped vehicles": "Dupla parkolás vagy megálló járművek",
+          "#Bus or tram interaction": "Busz- vagy villamosforgalom",
+          "#No clear problem": "Nincs egyértelmű probléma",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What makes things difficult with traffic here?": "ما الذي يصعّب عليك التعامل مع حركة المرور هنا؟",
+          "#Side access means driveways, garage entrances or side streets where vehicles enter or leave the street.": "المداخل الجانبية هي مداخل السيارات أو مداخل المرائب أو الشوارع الفرعية التي تدخل منها المركبات إلى الشارع أو تخرج منه.",
+          "#Poor visibility": "رؤية ضعيفة",
+          "#Vehicles drive too fast": "المركبات تسير بسرعة كبيرة",
+          "#Vehicles pass too close": "المركبات تمر على مسافة قريبة جدًا",
+          "#Cars or motorcycles do not stop at the zebra crossing": "السيارات أو الدراجات النارية لا تتوقف عند ممر المشاة",
+          "#Vehicles go through the red light": "مركبات تتجاوز الإشارة الحمراء",
+          "#Bicycles, e-scooters or motorcycles on the sidewalk": "دراجات أو سكوترات كهربائية أو دراجات نارية على الرصيف",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "مسار الدراجات يقطع الرصيف: الدراجات والمشاة يتقاطعون",
+          "#Difficult turns or side access": "منعطفات أو مداخل جانبية صعبة",
+          "#Double parking or stopped vehicles": "اصطفاف مزدوج أو مركبات متوقفة",
+          "#Bus or tram interaction": "التعامل مع الحافلات أو الترام",
+          "#No clear problem": "لا توجد مشكلة واضحة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "question_id": "smarturbanity.nm_location_type",
+  "project": "SmartUrbanity",
+  "key": "nm_location_type",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_near_miss_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_near_miss_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Where exactly were you?",
+        "answer_key": "nm_location_type",
+        "question_type": "single_option",
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "On a zebra crossing without traffic lights",
+            "value": "zebra"
+          },
+          {
+            "text": "At a crossing with traffic lights",
+            "value": "signal"
+          },
+          {
+            "text": "Crossing where there was no crossing",
+            "value": "no_crossing"
+          },
+          {
+            "text": "On the pavement",
+            "value": "pavement"
+          },
+          {
+            "text": "Along the edge of the road",
+            "value": "road_edge"
+          },
+          {
+            "text": "In a cycle lane",
+            "value": "cycle_lane"
+          },
+          {
+            "text": "On a cycle or shared cycle-pedestrian crossing",
+            "value": "cycle_crossing"
+          },
+          {
+            "text": "At a driveway or garage exit",
+            "value": "driveway"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Where exactly were you?": "Where exactly were you?",
+          "#On a zebra crossing without traffic lights": "On a zebra crossing without traffic lights",
+          "#At a crossing with traffic lights": "At a crossing with traffic lights",
+          "#Crossing where there was no crossing": "Crossing where there was no crossing",
+          "#On the pavement": "On the pavement",
+          "#Along the edge of the road": "Along the edge of the road",
+          "#In a cycle lane": "In a cycle lane",
+          "#On a cycle or shared cycle-pedestrian crossing": "On a cycle or shared cycle-pedestrian crossing",
+          "#At a driveway or garage exit": "At a driveway or garage exit"
+        },
+        "it": {
+          "#Where exactly were you?": "Dove ti trovavi esattamente?",
+          "#On a zebra crossing without traffic lights": "Sulle strisce senza semaforo",
+          "#At a crossing with traffic lights": "A un attraversamento con semaforo",
+          "#Crossing where there was no crossing": "Attraversando dove non c'erano strisce",
+          "#On the pavement": "Sul marciapiede",
+          "#Along the edge of the road": "Al bordo della carreggiata",
+          "#In a cycle lane": "Su una pista ciclabile",
+          "#On a cycle or shared cycle-pedestrian crossing": "Su un attraversamento ciclabile o ciclopedonale",
+          "#At a driveway or garage exit": "All'uscita di un passo carrabile o di un garage"
+        },
+        "fr": {
+          "#Where exactly were you?": "Où étiez-vous exactement ?",
+          "#On a zebra crossing without traffic lights": "Sur un passage piéton sans feux",
+          "#At a crossing with traffic lights": "À un passage avec feux",
+          "#Crossing where there was no crossing": "En traversant là où il n’y avait pas de passage",
+          "#On the pavement": "Sur le trottoir",
+          "#Along the edge of the road": "Au bord de la chaussée",
+          "#In a cycle lane": "Sur une piste ou bande cyclable",
+          "#On a cycle or shared cycle-pedestrian crossing": "Sur un passage pour vélos ou mixte vélos-piétons",
+          "#At a driveway or garage exit": "À la sortie d’une allée ou d’un garage"
+        },
+        "de": {
+          "#Where exactly were you?": "Wo genau waren Sie?",
+          "#On a zebra crossing without traffic lights": "Auf einem Zebrastreifen ohne Ampel",
+          "#At a crossing with traffic lights": "An einer Querung mit Ampel",
+          "#Crossing where there was no crossing": "Beim Überqueren an einer Stelle ohne Querung",
+          "#On the pavement": "Auf dem Gehweg",
+          "#Along the edge of the road": "Am Straßenrand",
+          "#In a cycle lane": "Auf einem Radweg oder Radstreifen",
+          "#On a cycle or shared cycle-pedestrian crossing": "Auf einer Radfahrer- oder gemeinsamen Rad- und Fußgängerfurt",
+          "#At a driveway or garage exit": "An einer Einfahrt oder Garagenausfahrt"
+        },
+        "tr": {
+          "#Where exactly were you?": "Tam olarak neredeydiniz?",
+          "#On a zebra crossing without traffic lights": "Trafik ışığı olmayan bir yaya geçidinde",
+          "#At a crossing with traffic lights": "Trafik ışıklı bir geçitte",
+          "#Crossing where there was no crossing": "Geçit olmayan bir yerden karşıya geçerken",
+          "#On the pavement": "Kaldırımda",
+          "#Along the edge of the road": "Yolun kenarında",
+          "#In a cycle lane": "Bir bisiklet yolunda",
+          "#On a cycle or shared cycle-pedestrian crossing": "Bir bisiklet ya da ortak bisiklet-yaya geçidinde",
+          "#At a driveway or garage exit": "Bir araç girişi veya garaj çıkışında"
+        },
+        "fa": {
+          "#Where exactly were you?": "دقیقاً کجا بودید؟",
+          "#On a zebra crossing without traffic lights": "روی خط عابر پیاده بدون چراغ راهنمایی",
+          "#At a crossing with traffic lights": "در گذرگاهی با چراغ راهنمایی",
+          "#Crossing where there was no crossing": "هنگام عبور از جایی که گذرگاه نبود",
+          "#On the pavement": "روی پیاده‌رو",
+          "#Along the edge of the road": "در حاشیه خیابان",
+          "#In a cycle lane": "در مسیر دوچرخه",
+          "#On a cycle or shared cycle-pedestrian crossing": "روی گذرگاه دوچرخه یا گذرگاه مشترک دوچرخه و پیاده",
+          "#At a driveway or garage exit": "در ورودی خانه یا خروجی پارکینگ"
+        },
+        "hu": {
+          "#Where exactly were you?": "Pontosan hol volt Ön?",
+          "#On a zebra crossing without traffic lights": "Jelzőlámpa nélküli zebrán",
+          "#At a crossing with traffic lights": "Jelzőlámpás átkelőnél",
+          "#Crossing where there was no crossing": "Átkelés közben ott, ahol nem volt átkelő",
+          "#On the pavement": "A járdán",
+          "#Along the edge of the road": "Az úttest szélén",
+          "#In a cycle lane": "Kerékpársávon",
+          "#On a cycle or shared cycle-pedestrian crossing": "Kerékpáros vagy közös kerékpáros-gyalogos átkelőn",
+          "#At a driveway or garage exit": "Kocsibehajtónál vagy garázskijáratnál"
+        },
+        "ar": {
+          "#Where exactly were you?": "أين كنت بالضبط؟",
+          "#On a zebra crossing without traffic lights": "على معبر مشاة بدون إشارة ضوئية",
+          "#At a crossing with traffic lights": "عند معبر بإشارة ضوئية",
+          "#Crossing where there was no crossing": "أثناء العبور في مكان لا يوجد فيه معبر",
+          "#On the pavement": "على الرصيف",
+          "#Along the edge of the road": "على حافة الطريق",
+          "#In a cycle lane": "في مسار للدراجات",
+          "#On a cycle or shared cycle-pedestrian crossing": "على معبر للدراجات أو معبر مشترك للدراجات والمشاة",
+          "#At a driveway or garage exit": "عند مدخل مركبات أو مخرج مرآب"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_near_miss_report"
+      ]
+    }
+  }
+}

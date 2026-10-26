@@ -1,0 +1,185 @@
+{
+  "question_id": "smarturbanity.employment",
+  "project": "SmartUrbanity",
+  "key": "employment",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which best describes your employment status?",
+        "answer_key": "employment",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Employed full-time",
+            "value": "employed_full_time"
+          },
+          {
+            "text": "Employed part-time",
+            "value": "employed_part_time"
+          },
+          {
+            "text": "Occasionally employed",
+            "value": "occasionally_employed"
+          },
+          {
+            "text": "Self-employed/freelance full-time",
+            "value": "self_employed_freelance_full_time"
+          },
+          {
+            "text": "Self employed/freelance part-time",
+            "value": "self_employed_freelance_part_time"
+          },
+          {
+            "text": "Homemaker",
+            "value": "homemaker"
+          },
+          {
+            "text": "Retired",
+            "value": "retired"
+          },
+          {
+            "text": "Unemployed looking for work",
+            "value": "unemployed_looking_for_work"
+          },
+          {
+            "text": "Unemployed not looking for work",
+            "value": "unemployed_not_looking_for_work"
+          },
+          {
+            "text": "Adult learner (student)",
+            "value": "adult_learner_student"
+          }
+        ],
+        "add_other": true,
+        "legacy_answer_keys": [
+          "employment_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which best describes your employment status?": "Which best describes your employment status?",
+          "#Employed full-time": "Employed full-time",
+          "#Employed part-time": "Employed part-time",
+          "#Occasionally employed": "Occasionally employed",
+          "#Self-employed/freelance full-time": "Self-employed/freelance full-time",
+          "#Self employed/freelance part-time": "Self employed/freelance part-time",
+          "#Homemaker": "Homemaker",
+          "#Retired": "Retired",
+          "#Unemployed looking for work": "Unemployed looking for work",
+          "#Unemployed not looking for work": "Unemployed not looking for work",
+          "#Adult learner (student)": "Adult learner (student)",
+          "#Other": "Other"
+        },
+        "it": {
+          "#Which best describes your employment status?": "Quale delle seguenti opzioni descrive meglio la tua condizione lavorativa?",
+          "#Employed full-time": "Lavoratore/lavoratrice a tempo pieno",
+          "#Employed part-time": "Lavoratore/lavoratrice a tempo parziale",
+          "#Occasionally employed": "Lavoratore/lavoratrice occasionale",
+          "#Self-employed/freelance full-time": "Lavoratore/lavoratrice autonomo/a o freelance a tempo pieno",
+          "#Self employed/freelance part-time": "Lavoratore/lavoratrice autonomo/a o freelance a tempo parziale",
+          "#Homemaker": "Persona che si occupa della casa",
+          "#Retired": "Pensionato/a",
+          "#Unemployed looking for work": "Disoccupato/a in cerca di lavoro",
+          "#Unemployed not looking for work": "Disoccupato/a non in cerca di lavoro",
+          "#Adult learner (student)": "Studente/studentessa adulto/a",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#Which best describes your employment status?": "Quelle situation décrit le mieux votre activité professionnelle ?",
+          "#Employed full-time": "Salarié(e) à temps plein",
+          "#Employed part-time": "Salarié(e) à temps partiel",
+          "#Occasionally employed": "Emploi occasionnel",
+          "#Self-employed/freelance full-time": "Indépendant(e) / freelance à temps plein",
+          "#Self employed/freelance part-time": "Indépendant(e) / freelance à temps partiel",
+          "#Homemaker": "Personne au foyer",
+          "#Retired": "Retraité(e)",
+          "#Unemployed looking for work": "Sans emploi et à la recherche d’un emploi",
+          "#Unemployed not looking for work": "Sans emploi et ne recherchant pas d’emploi",
+          "#Adult learner (student)": "Étudiant(e) adulte",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#Which best describes your employment status?": "Welche Beschreibung passt am besten zu Ihrer beruflichen Situation?",
+          "#Employed full-time": "Vollzeit beschäftigt",
+          "#Employed part-time": "Teilzeit beschäftigt",
+          "#Occasionally employed": "Gelegentlich beschäftigt",
+          "#Self-employed/freelance full-time": "Selbstständig / freiberuflich in Vollzeit",
+          "#Self employed/freelance part-time": "Selbstständig / freiberuflich in Teilzeit",
+          "#Homemaker": "Im Haushalt tätig",
+          "#Retired": "Im Ruhestand",
+          "#Unemployed looking for work": "Arbeitslos und auf Arbeitssuche",
+          "#Unemployed not looking for work": "Arbeitslos und nicht auf Arbeitssuche",
+          "#Adult learner (student)": "Erwachsene Person in Ausbildung oder Studium",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#Which best describes your employment status?": "Çalışma durumunuzu aşağıdakilerden hangisi en iyi tanımlar?",
+          "#Employed full-time": "Tam zamanlı çalışıyorum",
+          "#Employed part-time": "Yarı zamanlı çalışıyorum",
+          "#Occasionally employed": "Ara sıra çalışıyorum",
+          "#Self-employed/freelance full-time": "Tam zamanlı serbest / kendi hesabıma çalışıyorum",
+          "#Self employed/freelance part-time": "Yarı zamanlı serbest / kendi hesabıma çalışıyorum",
+          "#Homemaker": "Ev işleriyle ilgileniyorum",
+          "#Retired": "Emekliyim",
+          "#Unemployed looking for work": "İşsizim ve iş arıyorum",
+          "#Unemployed not looking for work": "İşsizim ve iş aramıyorum",
+          "#Adult learner (student)": "Yetişkin öğrenci",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#Which best describes your employment status?": "کدام گزینه وضعیت شغلی شما را بهتر توصیف می‌کند؟",
+          "#Employed full-time": "شاغل تمام‌وقت",
+          "#Employed part-time": "شاغل پاره‌وقت",
+          "#Occasionally employed": "شاغل به‌صورت موردی",
+          "#Self-employed/freelance full-time": "خوداشتغال / فریلنسر تمام‌وقت",
+          "#Self employed/freelance part-time": "خوداشتغال / فریلنسر پاره‌وقت",
+          "#Homemaker": "خانه‌دار",
+          "#Retired": "بازنشسته",
+          "#Unemployed looking for work": "بیکار و در جست‌وجوی کار",
+          "#Unemployed not looking for work": "بیکار و در حال حاضر جویای کار نیستم",
+          "#Adult learner (student)": "دانشجو یا هنرجوی بزرگسال",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#Which best describes your employment status?": "Melyik írja le legjobban az Ön foglalkoztatási helyzetét?",
+          "#Employed full-time": "Teljes munkaidőben dolgozom",
+          "#Employed part-time": "Részmunkaidőben dolgozom",
+          "#Occasionally employed": "Alkalmi munkát végzek",
+          "#Self-employed/freelance full-time": "Teljes munkaidőben önfoglalkoztató / szabadúszó vagyok",
+          "#Self employed/freelance part-time": "Részmunkaidőben önfoglalkoztató / szabadúszó vagyok",
+          "#Homemaker": "Háztartásbeli vagyok",
+          "#Retired": "Nyugdíjas vagyok",
+          "#Unemployed looking for work": "Munkanélküli vagyok és munkát keresek",
+          "#Unemployed not looking for work": "Munkanélküli vagyok és jelenleg nem keresek munkát",
+          "#Adult learner (student)": "Felnőtt tanuló / hallgató",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#Which best describes your employment status?": "أي وصف يعبر بشكل أفضل عن وضعك المهني؟",
+          "#Employed full-time": "أعمل بدوام كامل",
+          "#Employed part-time": "أعمل بدوام جزئي",
+          "#Occasionally employed": "أعمل بشكل متقطع",
+          "#Self-employed/freelance full-time": "أعمل لحسابي الخاص / مستقل بدوام كامل",
+          "#Self employed/freelance part-time": "أعمل لحسابي الخاص / مستقل بدوام جزئي",
+          "#Homemaker": "أتولى شؤون المنزل",
+          "#Retired": "متقاعد",
+          "#Unemployed looking for work": "عاطل عن العمل وأبحث عن عمل",
+          "#Unemployed not looking for work": "عاطل عن العمل ولا أبحث عن عمل حاليًا",
+          "#Adult learner (student)": "طالب بالغ",
+          "#Other": "آخر"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "question_id": "smarturbanity.walk_health_benefit",
+  "project": "SmartUrbanity",
+  "key": "walk_health_benefit",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_walking",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_walking"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Does walking as part of your daily travel contribute positively to your physical or mental health?",
+        "answer_key": "walk_health_benefit",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not at all, I walk out of necessity, not choice",
+            "value": "not_at_all_i_walk_out_of_necessity_not_c"
+          },
+          {
+            "text": "A little, I appreciate it but it is not significant",
+            "value": "a_little_i_appreciate_it_but_it_is_not_s"
+          },
+          {
+            "text": "Moderately, it contributes to my overall activity level",
+            "value": "moderately_it_contributes_to_my_overall"
+          },
+          {
+            "text": "Quite a lot, it is an important part of my daily physical activity",
+            "value": "quite_a_lot_it_is_an_important_part_of_m"
+          },
+          {
+            "text": "Very much, walking is a key part of my physical and mental wellbeing",
+            "value": "very_much_walking_is_a_key_part_of_my_ph"
+          }
+        ],
+        "privacy_classification": "heightened_personal",
+        "special_category": "health",
+        "legacy_answer_keys": [
+          "v1_does_walking_as_part_of_your_daily_t"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Does walking as part of your daily travel contribute positively to your physical or mental health?": "Does walking as part of your daily travel contribute positively to your physical or mental health?",
+          "#Not at all, I walk out of necessity, not choice": "Not at all, I walk out of necessity, not choice",
+          "#A little, I appreciate it but it is not significant": "A little, I appreciate it but it is not significant",
+          "#Moderately, it contributes to my overall activity level": "Moderately, it contributes to my overall activity level",
+          "#Quite a lot, it is an important part of my daily physical activity": "Quite a lot, it is an important part of my daily physical activity",
+          "#Very much, walking is a key part of my physical and mental wellbeing": "Very much, walking is a key part of my physical and mental wellbeing"
+        },
+        "it": {
+          "#Does walking as part of your daily travel contribute positively to your physical or mental health?": "Camminare nell'ambito dei tuoi spostamenti quotidiani contribuisce positivamente alla tua salute fisica o mentale?",
+          "#Not at all, I walk out of necessity, not choice": "Per niente, cammino per necessità e non per scelta",
+          "#A little, I appreciate it but it is not significant": "Un po', lo apprezzo ma il contributo non è significativo",
+          "#Moderately, it contributes to my overall activity level": "Moderatamente, contribuisce al mio livello complessivo di attività fisica",
+          "#Quite a lot, it is an important part of my daily physical activity": "Abbastanza, è una parte importante della mia attività fisica quotidiana",
+          "#Very much, walking is a key part of my physical and mental wellbeing": "Moltissimo, camminare è una componente fondamentale del mio benessere fisico e mentale"
+        },
+        "fr": {
+          "#Does walking as part of your daily travel contribute positively to your physical or mental health?": "Le fait de marcher dans vos déplacements quotidiens a-t-il un effet positif sur votre santé physique ou mentale ?",
+          "#Not at all, I walk out of necessity, not choice": "Pas du tout : je marche par nécessité, pas par choix",
+          "#A little, I appreciate it but it is not significant": "Un peu : j’apprécie la marche, mais son effet n’est pas important",
+          "#Moderately, it contributes to my overall activity level": "Modérément : la marche contribue à mon niveau général d’activité physique",
+          "#Quite a lot, it is an important part of my daily physical activity": "Beaucoup : la marche est une partie importante de mon activité physique quotidienne",
+          "#Very much, walking is a key part of my physical and mental wellbeing": "Énormément : la marche est essentielle à mon bien-être physique et mental"
+        },
+        "de": {
+          "#Does walking as part of your daily travel contribute positively to your physical or mental health?": "Hat das Gehen im Alltag einen positiven Einfluss auf Ihre körperliche oder psychische Gesundheit?",
+          "#Not at all, I walk out of necessity, not choice": "Gar nicht — ich gehe aus Notwendigkeit zu Fuß, nicht weil ich es möchte",
+          "#A little, I appreciate it but it is not significant": "Etwas — ich schätze das Gehen, aber der Einfluss ist nicht groß",
+          "#Moderately, it contributes to my overall activity level": "Mäßig — das Gehen trägt zu meiner allgemeinen körperlichen Aktivität bei",
+          "#Quite a lot, it is an important part of my daily physical activity": "Stark — das Gehen ist ein wichtiger Teil meiner täglichen Bewegung",
+          "#Very much, walking is a key part of my physical and mental wellbeing": "Sehr stark — das Gehen ist ein wichtiger Teil meines körperlichen und psychischen Wohlbefindens"
+        },
+        "tr": {
+          "#Does walking as part of your daily travel contribute positively to your physical or mental health?": "Günlük yolculuklarınızda yürümenin fiziksel veya ruhsal sağlığınıza olumlu katkısı oluyor mu?",
+          "#Not at all, I walk out of necessity, not choice": "Hiç olmuyor — isteyerek değil, zorunlu olduğum için yürüyorum",
+          "#A little, I appreciate it but it is not significant": "Biraz oluyor — yürümeyi seviyorum ama etkisi çok büyük değil",
+          "#Moderately, it contributes to my overall activity level": "Orta düzeyde — genel fiziksel aktiviteme katkı sağlıyor",
+          "#Quite a lot, it is an important part of my daily physical activity": "Oldukça fazla — günlük fiziksel aktivitemin önemli bir parçası",
+          "#Very much, walking is a key part of my physical and mental wellbeing": "Çok fazla — yürümek fiziksel ve ruhsal iyi oluşumun önemli bir parçası"
+        },
+        "fa": {
+          "#Does walking as part of your daily travel contribute positively to your physical or mental health?": "آیا پیاده‌روی در رفت‌وآمد روزانه اثر مثبتی بر سلامت جسمی یا روانی شما دارد؟",
+          "#Not at all, I walk out of necessity, not choice": "اصلاً؛ از روی اجبار پیاده می‌روم نه انتخاب",
+          "#A little, I appreciate it but it is not significant": "کمی؛ پیاده‌روی را دوست دارم اما اثر آن زیاد نیست",
+          "#Moderately, it contributes to my overall activity level": "تا حد متوسط؛ به میزان فعالیت جسمی کلی من کمک می‌کند",
+          "#Quite a lot, it is an important part of my daily physical activity": "زیاد؛ بخش مهمی از فعالیت جسمی روزانه من است",
+          "#Very much, walking is a key part of my physical and mental wellbeing": "خیلی زیاد؛ پیاده‌روی بخش مهمی از سلامت جسمی و روانی من است"
+        },
+        "hu": {
+          "#Does walking as part of your daily travel contribute positively to your physical or mental health?": "Pozitívan hat a fizikai vagy lelki egészségére, hogy a mindennapi közlekedés részeként gyalogol?",
+          "#Not at all, I walk out of necessity, not choice": "Egyáltalán nem — szükségből gyalogolok, nem azért, mert ezt választom",
+          "#A little, I appreciate it but it is not significant": "Kissé — szeretem a gyaloglást, de a hatása nem jelentős",
+          "#Moderately, it contributes to my overall activity level": "Közepesen — hozzájárul az általános fizikai aktivitásomhoz",
+          "#Quite a lot, it is an important part of my daily physical activity": "Elég sokat — a napi testmozgásom fontos része",
+          "#Very much, walking is a key part of my physical and mental wellbeing": "Nagyon sokat — a gyaloglás fontos része a fizikai és lelki jóllétemnek"
+        },
+        "ar": {
+          "#Does walking as part of your daily travel contribute positively to your physical or mental health?": "هل يساهم المشي ضمن تنقلاتك اليومية بشكل إيجابي في صحتك البدنية أو النفسية؟",
+          "#Not at all, I walk out of necessity, not choice": "لا إطلاقًا — أمشي للضرورة وليس لأنه خياري",
+          "#A little, I appreciate it but it is not significant": "قليلًا — أقدّر المشي لكن أثره ليس كبيرًا",
+          "#Moderately, it contributes to my overall activity level": "بدرجة متوسطة — يساهم في مستوى نشاطي البدني العام",
+          "#Quite a lot, it is an important part of my daily physical activity": "بدرجة كبيرة — هو جزء مهم من نشاطي البدني اليومي",
+          "#Very much, walking is a key part of my physical and mental wellbeing": "بدرجة كبيرة جدًا — المشي جزء أساسي من صحتي البدنية والنفسية"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_walking"
+      ]
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "question_id": "smarturbanity.connection_elements",
+  "project": "SmartUrbanity",
+  "key": "connection_elements",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which elements are part of this place?",
+        "answer_key": "connection_elements",
+        "question_type": "multiple_options",
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Stairs",
+            "value": "stairs"
+          },
+          {
+            "text": "Ramp",
+            "value": "ramp"
+          },
+          {
+            "text": "Elevator",
+            "value": "elevator"
+          },
+          {
+            "text": "Escalator",
+            "value": "escalator"
+          },
+          {
+            "text": "None of these elements",
+            "value": "none"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#Which elements are part of this place?": "Which elements are part of this place?",
+          "#Stairs": "Stairs",
+          "#Ramp": "Ramp",
+          "#Elevator": "Elevator",
+          "#Escalator": "Escalator",
+          "#None of these elements": "None of these elements",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Which elements are part of this place?": "Quali elementi fanno parte di questo luogo?",
+          "#Stairs": "Scale",
+          "#Ramp": "Rampa",
+          "#Elevator": "Ascensore",
+          "#Escalator": "Scala mobile",
+          "#None of these elements": "Nessuno di questi elementi",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Which elements are part of this place?": "Quels éléments font partie de ce lieu ?",
+          "#Stairs": "Escaliers",
+          "#Ramp": "Rampe",
+          "#Elevator": "Ascenseur",
+          "#Escalator": "Escalator",
+          "#None of these elements": "Aucun de ces éléments",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Which elements are part of this place?": "Welche Elemente gehören zu diesem Ort?",
+          "#Stairs": "Treppen",
+          "#Ramp": "Rampe",
+          "#Elevator": "Aufzug",
+          "#Escalator": "Rolltreppe",
+          "#None of these elements": "Keines dieser Elemente",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Which elements are part of this place?": "Bu yerin hangi unsurları var?",
+          "#Stairs": "Merdiven",
+          "#Ramp": "Rampa",
+          "#Elevator": "Asansör",
+          "#Escalator": "Yürüyen merdiven",
+          "#None of these elements": "Bunların hiçbiri",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Which elements are part of this place?": "کدام اجزا بخشی از این مکان هستند؟",
+          "#Stairs": "پله",
+          "#Ramp": "رمپ",
+          "#Elevator": "آسانسور",
+          "#Escalator": "پله‌برقی",
+          "#None of these elements": "هیچ‌کدام از این موارد",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Which elements are part of this place?": "Mely elemek tartoznak ehhez a helyhez?",
+          "#Stairs": "Lépcső",
+          "#Ramp": "Rámpa",
+          "#Elevator": "Lift",
+          "#Escalator": "Mozgólépcső",
+          "#None of these elements": "Egyik sem ezek közül",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Which elements are part of this place?": "ما العناصر التي يتضمنها هذا المكان؟",
+          "#Stairs": "درج",
+          "#Ramp": "منحدر",
+          "#Elevator": "مصعد",
+          "#Escalator": "سلم متحرك",
+          "#None of these elements": "لا شيء من هذه العناصر",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

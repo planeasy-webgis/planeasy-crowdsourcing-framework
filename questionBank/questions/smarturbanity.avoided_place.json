@@ -1,0 +1,78 @@
+{
+  "question_id": "smarturbanity.avoided_place",
+  "project": "SmartUrbanity",
+  "key": "avoided_place",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Did you deliberately avoid a street, crossing or place on this trip?",
+        "answer_key": "avoided_place",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Did you deliberately avoid a street, crossing or place on this trip?": "Did you deliberately avoid a street, crossing or place on this trip?",
+          "#Yes": "Yes",
+          "#No": "No"
+        },
+        "it": {
+          "#Did you deliberately avoid a street, crossing or place on this trip?": "Durante questo spostamento hai evitato di proposito una strada, un attraversamento o un luogo?",
+          "#Yes": "Sì",
+          "#No": "No"
+        },
+        "fr": {
+          "#Did you deliberately avoid a street, crossing or place on this trip?": "Avez-vous délibérément évité une rue, un passage ou un lieu pendant ce trajet ?",
+          "#Yes": "Oui",
+          "#No": "Non"
+        },
+        "de": {
+          "#Did you deliberately avoid a street, crossing or place on this trip?": "Haben Sie auf diesem Weg bewusst eine Straße, eine Querung oder einen Ort gemieden?",
+          "#Yes": "Ja",
+          "#No": "Nein"
+        },
+        "tr": {
+          "#Did you deliberately avoid a street, crossing or place on this trip?": "Bu yolculukta bilerek bir sokaktan, geçitten veya yerden kaçındınız mı?",
+          "#Yes": "Evet",
+          "#No": "Hayır"
+        },
+        "fa": {
+          "#Did you deliberately avoid a street, crossing or place on this trip?": "آیا در این سفر عمداً از خیابان، گذرگاه یا مکانی دوری کردید؟",
+          "#Yes": "بله",
+          "#No": "خیر"
+        },
+        "hu": {
+          "#Did you deliberately avoid a street, crossing or place on this trip?": "Szándékosan elkerült egy utcát, átkelőt vagy helyet ezen az úton?",
+          "#Yes": "Igen",
+          "#No": "Nem"
+        },
+        "ar": {
+          "#Did you deliberately avoid a street, crossing or place on this trip?": "هل تجنبت عمدًا شارعًا أو معبرًا أو مكانًا في هذه الرحلة؟",
+          "#Yes": "نعم",
+          "#No": "لا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_post_trip"
+      ]
+    }
+  }
+}

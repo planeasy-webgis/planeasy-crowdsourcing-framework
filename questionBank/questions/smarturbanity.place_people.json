@@ -1,0 +1,115 @@
+{
+  "question_id": "smarturbanity.place_people",
+  "project": "SmartUrbanity",
+  "key": "place_people",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How many people are usually around at that time?",
+        "answer_key": "place_people",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Almost nobody",
+            "value": "nobody"
+          },
+          {
+            "text": "A few",
+            "value": "few"
+          },
+          {
+            "text": "A normal number",
+            "value": "normal"
+          },
+          {
+            "text": "Many",
+            "value": "many"
+          },
+          {
+            "text": "Crowded",
+            "value": "crowded"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How many people are usually around at that time?": "How many people are usually around at that time?",
+          "#Almost nobody": "Almost nobody",
+          "#A few": "A few",
+          "#A normal number": "A normal number",
+          "#Many": "Many",
+          "#Crowded": "Crowded"
+        },
+        "it": {
+          "#How many people are usually around at that time?": "Quante persone ci sono di solito in quel momento?",
+          "#Almost nobody": "Quasi nessuno",
+          "#A few": "Poche",
+          "#A normal number": "Un numero normale",
+          "#Many": "Molte",
+          "#Crowded": "È affollato"
+        },
+        "fr": {
+          "#How many people are usually around at that time?": "Combien de personnes y a-t-il habituellement à ce moment-là ?",
+          "#Almost nobody": "Presque personne",
+          "#A few": "Quelques-unes",
+          "#A normal number": "Un nombre normal",
+          "#Many": "Beaucoup",
+          "#Crowded": "Il y a foule"
+        },
+        "de": {
+          "#How many people are usually around at that time?": "Wie viele Menschen sind zu dieser Zeit normalerweise hier?",
+          "#Almost nobody": "Fast niemand",
+          "#A few": "Wenige",
+          "#A normal number": "Eine normale Anzahl",
+          "#Many": "Viele",
+          "#Crowded": "Überfüllt"
+        },
+        "tr": {
+          "#How many people are usually around at that time?": "O saatte burada genellikle kaç kişi olur?",
+          "#Almost nobody": "Neredeyse kimse",
+          "#A few": "Az sayıda",
+          "#A normal number": "Normal sayıda",
+          "#Many": "Çok sayıda",
+          "#Crowded": "Kalabalık"
+        },
+        "fa": {
+          "#How many people are usually around at that time?": "در آن زمان معمولاً چند نفر اینجا هستند؟",
+          "#Almost nobody": "تقریباً هیچ‌کس",
+          "#A few": "تعداد کمی",
+          "#A normal number": "تعداد معمولی",
+          "#Many": "تعداد زیادی",
+          "#Crowded": "شلوغ"
+        },
+        "hu": {
+          "#How many people are usually around at that time?": "Általában hányan vannak itt abban az időszakban?",
+          "#Almost nobody": "Szinte senki",
+          "#A few": "Néhány",
+          "#A normal number": "Átlagos számú ember",
+          "#Many": "Sok",
+          "#Crowded": "Zsúfolt"
+        },
+        "ar": {
+          "#How many people are usually around at that time?": "كم عدد الأشخاص الموجودين هنا عادةً في ذلك الوقت؟",
+          "#Almost nobody": "لا أحد تقريبًا",
+          "#A few": "قليلون",
+          "#A normal number": "عدد عادي",
+          "#Many": "كثيرون",
+          "#Crowded": "مزدحم"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

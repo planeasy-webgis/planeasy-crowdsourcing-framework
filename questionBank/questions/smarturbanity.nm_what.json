@@ -1,0 +1,165 @@
+{
+  "question_id": "smarturbanity.nm_what",
+  "project": "SmartUrbanity",
+  "key": "nm_what",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_near_miss_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_near_miss_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What did the other vehicle or person do? (Up to 3)",
+        "answer_key": "nm_what",
+        "question_type": "multiple_options",
+        "max_answers": 3,
+        "add_i_dont_know": true,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Didn't stop at the crossing",
+            "value": "no_stop"
+          },
+          {
+            "text": "Was turning",
+            "value": "turning"
+          },
+          {
+            "text": "Was going too fast",
+            "value": "speeding"
+          },
+          {
+            "text": "Went through a red light",
+            "value": "red_light"
+          },
+          {
+            "text": "Was reversing or parking",
+            "value": "reversing"
+          },
+          {
+            "text": "Passed too close",
+            "value": "close_pass"
+          },
+          {
+            "text": "A car door opened",
+            "value": "door"
+          },
+          {
+            "text": "Was riding on the pavement",
+            "value": "on_pavement"
+          },
+          {
+            "text": "We couldn't see each other (e.g. parked cars)",
+            "value": "not_seen"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What did the other vehicle or person do? (Up to 3)": "What did the other vehicle or person do? (Up to 3)",
+          "#Didn't stop at the crossing": "Didn't stop at the crossing",
+          "#Was turning": "Was turning",
+          "#Was going too fast": "Was going too fast",
+          "#Went through a red light": "Went through a red light",
+          "#Was reversing or parking": "Was reversing or parking",
+          "#Passed too close": "Passed too close",
+          "#A car door opened": "A car door opened",
+          "#Was riding on the pavement": "Was riding on the pavement",
+          "#We couldn't see each other (e.g. parked cars)": "We couldn't see each other (e.g. parked cars)"
+        },
+        "it": {
+          "#What did the other vehicle or person do? (Up to 3)": "Cosa ha fatto l'altro veicolo o l'altra persona? (Al massimo 3)",
+          "#Didn't stop at the crossing": "Non si è fermato alle strisce",
+          "#Was turning": "Stava svoltando",
+          "#Was going too fast": "Andava troppo veloce",
+          "#Went through a red light": "È passato col rosso",
+          "#Was reversing or parking": "Stava facendo retromarcia o parcheggiando",
+          "#Passed too close": "È passato troppo vicino",
+          "#A car door opened": "Si è aperta una portiera",
+          "#Was riding on the pavement": "Andava sul marciapiede",
+          "#We couldn't see each other (e.g. parked cars)": "Non ci vedevamo (ad es. per le auto parcheggiate)"
+        },
+        "fr": {
+          "#What did the other vehicle or person do? (Up to 3)": "Qu’a fait l’autre véhicule ou l’autre personne ? (Jusqu’à 3)",
+          "#Didn't stop at the crossing": "Ne s’est pas arrêté au passage piéton",
+          "#Was turning": "Était en train de tourner",
+          "#Was going too fast": "Allait trop vite",
+          "#Went through a red light": "A grillé un feu rouge",
+          "#Was reversing or parking": "Était en train de reculer ou de se garer",
+          "#Passed too close": "Est passé trop près",
+          "#A car door opened": "Une portière de voiture s’est ouverte",
+          "#Was riding on the pavement": "Roulait sur le trottoir",
+          "#We couldn't see each other (e.g. parked cars)": "Nous ne pouvions pas nous voir (par ex. à cause de voitures stationnées)"
+        },
+        "de": {
+          "#What did the other vehicle or person do? (Up to 3)": "Was hat das andere Fahrzeug oder die andere Person getan? (Bis zu 3)",
+          "#Didn't stop at the crossing": "Hat an der Querung nicht angehalten",
+          "#Was turning": "War beim Abbiegen",
+          "#Was going too fast": "War zu schnell unterwegs",
+          "#Went through a red light": "Ist bei Rot gefahren",
+          "#Was reversing or parking": "War beim Rückwärtsfahren oder Einparken",
+          "#Passed too close": "Ist zu dicht vorbeigefahren",
+          "#A car door opened": "Eine Autotür wurde geöffnet",
+          "#Was riding on the pavement": "Ist auf dem Gehweg gefahren",
+          "#We couldn't see each other (e.g. parked cars)": "Wir konnten uns nicht sehen (z. B. wegen geparkter Autos)"
+        },
+        "tr": {
+          "#What did the other vehicle or person do? (Up to 3)": "Diğer araç veya kişi ne yaptı? (En fazla 3)",
+          "#Didn't stop at the crossing": "Geçitte durmadı",
+          "#Was turning": "Dönüş yapıyordu",
+          "#Was going too fast": "Çok hızlı gidiyordu",
+          "#Went through a red light": "Kırmızı ışıkta geçti",
+          "#Was reversing or parking": "Geri geri gidiyor veya park ediyordu",
+          "#Passed too close": "Çok yakından geçti",
+          "#A car door opened": "Bir araba kapısı açıldı",
+          "#Was riding on the pavement": "Kaldırımda sürüyordu",
+          "#We couldn't see each other (e.g. parked cars)": "Birbirimizi göremiyorduk (örn. park etmiş arabalar yüzünden)"
+        },
+        "fa": {
+          "#What did the other vehicle or person do? (Up to 3)": "خودرو یا فرد دیگر چه کرد؟ (حداکثر ۳ مورد)",
+          "#Didn't stop at the crossing": "در گذرگاه توقف نکرد",
+          "#Was turning": "در حال پیچیدن بود",
+          "#Was going too fast": "خیلی سریع می‌رفت",
+          "#Went through a red light": "از چراغ قرمز رد شد",
+          "#Was reversing or parking": "در حال دنده‌عقب یا پارک کردن بود",
+          "#Passed too close": "خیلی نزدیک عبور کرد",
+          "#A car door opened": "در یک خودرو باز شد",
+          "#Was riding on the pavement": "روی پیاده‌رو می‌راند",
+          "#We couldn't see each other (e.g. parked cars)": "نمی‌توانستیم یکدیگر را ببینیم (مثلاً به‌خاطر خودروهای پارک‌شده)"
+        },
+        "hu": {
+          "#What did the other vehicle or person do? (Up to 3)": "Mit tett a másik jármű vagy személy? (Legfeljebb 3)",
+          "#Didn't stop at the crossing": "Nem állt meg az átkelőnél",
+          "#Was turning": "Éppen kanyarodott",
+          "#Was going too fast": "Túl gyorsan haladt",
+          "#Went through a red light": "Áthajtott a piroson",
+          "#Was reversing or parking": "Éppen tolatott vagy parkolt",
+          "#Passed too close": "Túl közel haladt el",
+          "#A car door opened": "Kinyílt egy autóajtó",
+          "#Was riding on the pavement": "A járdán hajtott",
+          "#We couldn't see each other (e.g. parked cars)": "Nem láttuk egymást (pl. parkoló autók miatt)"
+        },
+        "ar": {
+          "#What did the other vehicle or person do? (Up to 3)": "ماذا فعلت المركبة الأخرى أو الشخص الآخر؟ (حتى 3)",
+          "#Didn't stop at the crossing": "لم يتوقف عند المعبر",
+          "#Was turning": "كان ينعطف",
+          "#Was going too fast": "كان يسير بسرعة كبيرة",
+          "#Went through a red light": "تجاوز الإشارة الحمراء",
+          "#Was reversing or parking": "كان يرجع للخلف أو يركن",
+          "#Passed too close": "مرّ على مسافة قريبة جدًا",
+          "#A car door opened": "فُتح باب سيارة",
+          "#Was riding on the pavement": "كان يسير على الرصيف",
+          "#We couldn't see each other (e.g. parked cars)": "لم نتمكن من رؤية بعضنا (مثلًا بسبب سيارات متوقفة)"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_near_miss_report"
+      ]
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "question_id": "smarturbanity.needed_path_type",
+  "project": "SmartUrbanity",
+  "key": "needed_path_type",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_missing_path_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_missing_path_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What kind of path is needed here?",
+        "help": "A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.",
+        "answer_key": "needed_path_type",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "A pavement, even without kerb ramps",
+            "value": "raised_sidewalk"
+          },
+          {
+            "text": "An accessible pavement, with kerb ramps and no steps",
+            "value": "accessible_sidewalk"
+          },
+          {
+            "text": "A protected space to walk at the edge of the road",
+            "value": "level_walking_area"
+          },
+          {
+            "text": "A pedestrian street or area",
+            "value": "dedicated_pedestrian_area"
+          },
+          {
+            "text": "A passage through a park, a courtyard or an abandoned area",
+            "value": "passage_through_area"
+          },
+          {
+            "text": "A cycle lane or cycle path",
+            "value": "dedicated_bike_facility"
+          },
+          {
+            "text": "A path shared by people walking and cycling",
+            "value": "shared_ped_bike_path"
+          },
+          {
+            "text": "Another kind of path",
+            "value": "other"
+          },
+          {
+            "text": "I don't know, I just need to be able to get through safely",
+            "value": "dont_know"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What kind of path is needed here?": "What kind of path is needed here?",
+          "#A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.": "A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.",
+          "#A pavement, even without kerb ramps": "A pavement, even without kerb ramps",
+          "#An accessible pavement, with kerb ramps and no steps": "An accessible pavement, with kerb ramps and no steps",
+          "#A protected space to walk at the edge of the road": "A protected space to walk at the edge of the road",
+          "#A pedestrian street or area": "A pedestrian street or area",
+          "#A passage through a park, a courtyard or an abandoned area": "A passage through a park, a courtyard or an abandoned area",
+          "#A cycle lane or cycle path": "A cycle lane or cycle path",
+          "#A path shared by people walking and cycling": "A path shared by people walking and cycling",
+          "#Another kind of path": "Another kind of path",
+          "#I don't know, I just need to be able to get through safely": "I don't know, I just need to be able to get through safely"
+        },
+        "it": {
+          "#What kind of path is needed here?": "Che tipo di percorso servirebbe qui?",
+          "#A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.": "Per percorso intendiamo qualsiasi spazio dove puoi camminare o andare in bici, come un marciapiede, un passaggio o una pista ciclabile. Un passaggio attraversa un’area invece di seguire una strada.",
+          "#A pavement, even without kerb ramps": "Un marciapiede, anche senza scivoli",
+          "#An accessible pavement, with kerb ramps and no steps": "Un marciapiede accessibile, con scivoli e senza gradini",
+          "#A protected space to walk at the edge of the road": "Uno spazio protetto per camminare sul bordo della strada",
+          "#A pedestrian street or area": "Una strada o zona pedonale",
+          "#A passage through a park, a courtyard or an abandoned area": "Un passaggio attraverso un parco, un cortile o un'area abbandonata",
+          "#A cycle lane or cycle path": "Una corsia o pista ciclabile",
+          "#A path shared by people walking and cycling": "Un percorso condiviso da pedoni e biciclette",
+          "#Another kind of path": "Un altro tipo di percorso",
+          "#I don't know, I just need to be able to get through safely": "Non lo so, mi basta poter passare in sicurezza"
+        },
+        "fr": {
+          "#What kind of path is needed here?": "Quel type de cheminement faudrait-il ici ?",
+          "#A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.": "Un cheminement est tout espace où l’on peut marcher ou rouler à vélo, comme un trottoir, un passage ou une piste cyclable. Un passage traverse un espace au lieu de longer une rue.",
+          "#A pavement, even without kerb ramps": "Un trottoir, même sans bateaux",
+          "#An accessible pavement, with kerb ramps and no steps": "Un trottoir accessible, avec des bateaux et sans marches",
+          "#A protected space to walk at the edge of the road": "Un espace protégé pour marcher au bord de la route",
+          "#A pedestrian street or area": "Une rue ou zone piétonne",
+          "#A passage through a park, a courtyard or an abandoned area": "Un passage à travers un parc, une cour ou un terrain abandonné",
+          "#A cycle lane or cycle path": "Une bande ou piste cyclable",
+          "#A path shared by people walking and cycling": "Un chemin partagé entre piétons et cyclistes",
+          "#Another kind of path": "Un autre type de chemin",
+          "#I don't know, I just need to be able to get through safely": "Je ne sais pas, il me faut juste pouvoir passer en sécurité"
+        },
+        "de": {
+          "#What kind of path is needed here?": "Welche Art von Weg wird hier gebraucht?",
+          "#A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.": "Ein Weg ist jeder Raum, in dem man gehen oder Rad fahren kann, etwa ein Gehweg, ein Durchgang oder ein Radweg. Ein Durchgang führt durch ein Gelände statt entlang einer Straße.",
+          "#A pavement, even without kerb ramps": "Ein Gehweg, auch ohne Bordsteinabsenkungen",
+          "#An accessible pavement, with kerb ramps and no steps": "Ein barrierefreier Gehweg mit Bordsteinabsenkungen und ohne Stufen",
+          "#A protected space to walk at the edge of the road": "Ein geschützter Bereich zum Gehen am Straßenrand",
+          "#A pedestrian street or area": "Eine Fußgängerstraße oder -zone",
+          "#A passage through a park, a courtyard or an abandoned area": "Ein Durchgang durch einen Park, einen Hof oder ein brachliegendes Gelände",
+          "#A cycle lane or cycle path": "Ein Radfahrstreifen oder Radweg",
+          "#A path shared by people walking and cycling": "Ein gemeinsamer Weg für Fußgänger und Radfahrende",
+          "#Another kind of path": "Eine andere Art von Weg",
+          "#I don't know, I just need to be able to get through safely": "Ich weiß nicht, ich muss nur sicher durchkommen können"
+        },
+        "tr": {
+          "#What kind of path is needed here?": "Burada ne tür bir yola ihtiyaç var?",
+          "#A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.": "Yol, kaldırım, geçit veya bisiklet yolu gibi yürüyebileceğiniz ya da bisiklet sürebileceğiniz her alandır. Geçit, bir sokak boyunca değil, bir alanın içinden geçen yoldur.",
+          "#A pavement, even without kerb ramps": "Rampası olmasa da bir kaldırım",
+          "#An accessible pavement, with kerb ramps and no steps": "Rampaları olan, basamaksız erişilebilir bir kaldırım",
+          "#A protected space to walk at the edge of the road": "Yol kenarında yürümek için korunaklı bir alan",
+          "#A pedestrian street or area": "Bir yaya sokağı veya yaya bölgesi",
+          "#A passage through a park, a courtyard or an abandoned area": "Bir parkın, avlunun veya terk edilmiş bir alanın içinden geçen bir yol",
+          "#A cycle lane or cycle path": "Bir bisiklet şeridi veya bisiklet yolu",
+          "#A path shared by people walking and cycling": "Yayaların ve bisikletlilerin birlikte kullandığı bir yol",
+          "#Another kind of path": "Başka türde bir yol",
+          "#I don't know, I just need to be able to get through safely": "Bilmiyorum, sadece güvenle geçebilmem yeterli"
+        },
+        "fa": {
+          "#What kind of path is needed here?": "اینجا چه نوع مسیری لازم است؟",
+          "#A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.": "منظور از مسیر هر فضایی است که بتوان در آن پیاده رفت یا دوچرخه‌سواری کرد، مانند پیاده‌رو، گذرگاه یا مسیر دوچرخه. گذرگاه راهی است که به‌جای کنار خیابان، از میان یک محوطه می‌گذرد.",
+          "#A pavement, even without kerb ramps": "پیاده‌رو، حتی بدون رمپ لبه‌ی جدول",
+          "#An accessible pavement, with kerb ramps and no steps": "پیاده‌روی دسترس‌پذیر، با رمپ لبه‌ی جدول و بدون پله",
+          "#A protected space to walk at the edge of the road": "فضایی محافظت‌شده برای پیاده‌روی در لبه‌ی خیابان",
+          "#A pedestrian street or area": "خیابان یا محدوده‌ی پیاده",
+          "#A passage through a park, a courtyard or an abandoned area": "راه عبوری از میان پارک، حیاط یا زمینی متروکه",
+          "#A cycle lane or cycle path": "خط یا مسیر دوچرخه",
+          "#A path shared by people walking and cycling": "مسیری مشترک برای عابران پیاده و دوچرخه‌سواران",
+          "#Another kind of path": "نوع دیگری از مسیر",
+          "#I don't know, I just need to be able to get through safely": "نمی‌دانم، فقط باید بتوانم با امنیت عبور کنم"
+        },
+        "hu": {
+          "#What kind of path is needed here?": "Milyen útvonalra lenne itt szükség?",
+          "#A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.": "Útvonal minden olyan tér, ahol lehet gyalogolni vagy kerékpározni, például járda, átjáró vagy kerékpársáv. Az átjáró egy területen keresztül vezet, nem az utca mentén.",
+          "#A pavement, even without kerb ramps": "Járda, akár szegélylejtők nélkül is",
+          "#An accessible pavement, with kerb ramps and no steps": "Akadálymentes járda, szegélylejtőkkel és lépcső nélkül",
+          "#A protected space to walk at the edge of the road": "Védett sáv a gyalogláshoz az út szélén",
+          "#A pedestrian street or area": "Gyalogos utca vagy terület",
+          "#A passage through a park, a courtyard or an abandoned area": "Átjáró egy parkon, udvaron vagy elhagyott területen át",
+          "#A cycle lane or cycle path": "Kerékpársáv vagy kerékpárút",
+          "#A path shared by people walking and cycling": "Gyalogosok és kerékpárosok által közösen használt út",
+          "#Another kind of path": "Másfajta út",
+          "#I don't know, I just need to be able to get through safely": "Nem tudom, csak biztonságosan át kell tudnom jutni"
+        },
+        "ar": {
+          "#What kind of path is needed here?": "ما نوع المسار المطلوب هنا؟",
+          "#A path is any space where you can walk or cycle, such as a pavement, a passage or a cycle lane. A passage is a way through an area rather than along a street.": "المسار هو أي مساحة يمكنك فيها المشي أو ركوب الدراجة، مثل الرصيف أو الممر أو مسار الدراجات. الممر طريق يعبر منطقة ما بدلًا من السير بمحاذاة الشارع.",
+          "#A pavement, even without kerb ramps": "رصيف، حتى من دون منحدرات عند الحافة",
+          "#An accessible pavement, with kerb ramps and no steps": "رصيف ميسّر الوصول، بمنحدرات عند الحافة ودون درجات",
+          "#A protected space to walk at the edge of the road": "مساحة محمية للمشي على حافة الطريق",
+          "#A pedestrian street or area": "شارع أو منطقة للمشاة",
+          "#A passage through a park, a courtyard or an abandoned area": "ممر عبر حديقة أو فناء أو منطقة مهجورة",
+          "#A cycle lane or cycle path": "حارة أو مسار للدراجات",
+          "#A path shared by people walking and cycling": "مسار مشترك للمشاة وراكبي الدراجات",
+          "#Another kind of path": "نوع آخر من المسارات",
+          "#I don't know, I just need to be able to get through safely": "لا أعرف، أحتاج فقط إلى أن أتمكن من المرور بأمان"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_missing_path_report"
+      ]
+    }
+  }
+}

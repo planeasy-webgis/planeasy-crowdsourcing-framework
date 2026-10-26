@@ -1,0 +1,102 @@
+{
+  "question_id": "smarturbanity.nm_when",
+  "project": "SmartUrbanity",
+  "key": "nm_when",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_near_miss_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_near_miss_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "When did it happen?",
+        "answer_key": "nm_when",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Just now",
+            "value": "just_now"
+          },
+          {
+            "text": "Earlier today",
+            "value": "today"
+          },
+          {
+            "text": "In the last 7 days",
+            "value": "this_week"
+          },
+          {
+            "text": "Longer ago",
+            "value": "earlier"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#When did it happen?": "When did it happen?",
+          "#Just now": "Just now",
+          "#Earlier today": "Earlier today",
+          "#In the last 7 days": "In the last 7 days",
+          "#Longer ago": "Longer ago"
+        },
+        "it": {
+          "#When did it happen?": "Quando è successo?",
+          "#Just now": "Proprio adesso",
+          "#Earlier today": "Oggi, qualche ora fa",
+          "#In the last 7 days": "Negli ultimi 7 giorni",
+          "#Longer ago": "Più tempo fa"
+        },
+        "fr": {
+          "#When did it happen?": "Quand cela s’est-il produit ?",
+          "#Just now": "À l’instant",
+          "#Earlier today": "Plus tôt aujourd’hui",
+          "#In the last 7 days": "Au cours des 7 derniers jours",
+          "#Longer ago": "Il y a plus longtemps"
+        },
+        "de": {
+          "#When did it happen?": "Wann ist es passiert?",
+          "#Just now": "Gerade eben",
+          "#Earlier today": "Früher am heutigen Tag",
+          "#In the last 7 days": "In den letzten 7 Tagen",
+          "#Longer ago": "Länger her"
+        },
+        "tr": {
+          "#When did it happen?": "Ne zaman oldu?",
+          "#Just now": "Az önce",
+          "#Earlier today": "Bugün, daha önce",
+          "#In the last 7 days": "Son 7 gün içinde",
+          "#Longer ago": "Daha uzun süre önce"
+        },
+        "fa": {
+          "#When did it happen?": "چه زمانی اتفاق افتاد؟",
+          "#Just now": "همین الان",
+          "#Earlier today": "امروز، چند ساعت پیش",
+          "#In the last 7 days": "در ۷ روز گذشته",
+          "#Longer ago": "مدت‌ها پیش"
+        },
+        "hu": {
+          "#When did it happen?": "Mikor történt?",
+          "#Just now": "Az imént",
+          "#Earlier today": "Ma, korábban",
+          "#In the last 7 days": "Az elmúlt 7 napban",
+          "#Longer ago": "Régebben"
+        },
+        "ar": {
+          "#When did it happen?": "متى حدث ذلك؟",
+          "#Just now": "للتو",
+          "#Earlier today": "في وقت سابق اليوم",
+          "#In the last 7 days": "خلال الأيام السبعة الماضية",
+          "#Longer ago": "قبل ذلك بوقت أطول"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_near_miss_report"
+      ]
+    }
+  }
+}

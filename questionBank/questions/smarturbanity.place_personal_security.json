@@ -1,0 +1,125 @@
+{
+  "question_id": "smarturbanity.place_personal_security",
+  "project": "SmartUrbanity",
+  "key": "place_personal_security",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How safe from theft, assault or harassment do you feel here?",
+        "help": "We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.",
+        "answer_key": "place_personal_security",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "add_prefer_not_to_say": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not at all safe",
+            "value": "not_safe"
+          },
+          {
+            "text": "Not very safe",
+            "value": "slightly_safe"
+          },
+          {
+            "text": "Neither safe nor unsafe",
+            "value": "neutral"
+          },
+          {
+            "text": "Quite safe",
+            "value": "quite_safe"
+          },
+          {
+            "text": "Completely safe",
+            "value": "completely_safe"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How safe from theft, assault or harassment do you feel here?": "How safe from theft, assault or harassment do you feel here?",
+          "#We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.": "We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.",
+          "#Not at all safe": "Not at all safe",
+          "#Not very safe": "Not very safe",
+          "#Neither safe nor unsafe": "Neither safe nor unsafe",
+          "#Quite safe": "Quite safe",
+          "#Completely safe": "Completely safe"
+        },
+        "it": {
+          "#How safe from theft, assault or harassment do you feel here?": "Quanto ti senti al sicuro da furti, aggressioni o molestie qui?",
+          "#We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.": "Lo chiediamo per capire dove le persone si sentono al sicuro o insicure. Se preferisci, puoi scegliere «Preferisco non rispondere». La tua risposta non è collegata al tuo nome e non è una denuncia.",
+          "#Not at all safe": "Per niente al sicuro",
+          "#Not very safe": "Poco al sicuro",
+          "#Neither safe nor unsafe": "Né sicuro né insicuro",
+          "#Quite safe": "Abbastanza al sicuro",
+          "#Completely safe": "Del tutto al sicuro"
+        },
+        "fr": {
+          "#How safe from theft, assault or harassment do you feel here?": "Dans quelle mesure vous sentez-vous en sécurité face aux vols, agressions ou harcèlement ici ?",
+          "#We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.": "Nous posons cette question pour comprendre où les gens se sentent en sécurité ou non. Si vous préférez, vous pouvez choisir « Je préfère ne pas répondre ». Votre réponse n’est pas liée à votre nom et n’est pas une plainte à la police.",
+          "#Not at all safe": "Pas du tout en sécurité",
+          "#Not very safe": "Pas très en sécurité",
+          "#Neither safe nor unsafe": "Ni en sécurité ni en insécurité",
+          "#Quite safe": "Plutôt en sécurité",
+          "#Completely safe": "Complètement en sécurité"
+        },
+        "de": {
+          "#How safe from theft, assault or harassment do you feel here?": "Wie sicher fühlen Sie sich hier vor Diebstahl, Übergriffen oder Belästigung?",
+          "#We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.": "Wir fragen dies, um zu verstehen, wo sich Menschen sicher oder unsicher fühlen. Wenn Sie möchten, können Sie „Keine Angabe“ wählen. Ihre Antwort ist nicht mit Ihrem Namen verbunden und keine Anzeige bei der Polizei.",
+          "#Not at all safe": "Überhaupt nicht sicher",
+          "#Not very safe": "Nicht sehr sicher",
+          "#Neither safe nor unsafe": "Weder sicher noch unsicher",
+          "#Quite safe": "Ziemlich sicher",
+          "#Completely safe": "Vollkommen sicher"
+        },
+        "tr": {
+          "#How safe from theft, assault or harassment do you feel here?": "Burada hırsızlık, saldırı veya tacizden ne kadar güvende hissediyorsunuz?",
+          "#We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.": "Bunu, insanların nerede kendilerini güvende ya da güvensiz hissettiğini anlamak için soruyoruz. İsterseniz “Belirtmek istemiyorum” seçeneğini seçebilirsiniz. Yanıtınız adınızla ilişkilendirilmez ve polise yapılan bir şikâyet değildir.",
+          "#Not at all safe": "Hiç güvende değil",
+          "#Not very safe": "Pek güvende değil",
+          "#Neither safe nor unsafe": "Ne güvende ne güvensiz",
+          "#Quite safe": "Oldukça güvende",
+          "#Completely safe": "Tamamen güvende"
+        },
+        "fa": {
+          "#How safe from theft, assault or harassment do you feel here?": "در اینجا تا چه اندازه از سرقت، حمله یا آزار احساس امنیت می‌کنید؟",
+          "#We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.": "این را می‌پرسیم تا بفهمیم مردم کجا احساس امنیت یا ناامنی می‌کنند. اگر ترجیح می‌دهید، می‌توانید «ترجیح می‌دهم پاسخ ندهم» را انتخاب کنید. پاسخ شما به نام شما مرتبط نمی‌شود و شکایت به پلیس نیست.",
+          "#Not at all safe": "اصلاً امن نیست",
+          "#Not very safe": "چندان امن نیست",
+          "#Neither safe nor unsafe": "نه امن و نه ناامن",
+          "#Quite safe": "تا حد زیادی امن",
+          "#Completely safe": "کاملاً امن"
+        },
+        "hu": {
+          "#How safe from theft, assault or harassment do you feel here?": "Mennyire érzi magát biztonságban lopástól, támadástól vagy zaklatástól itt?",
+          "#We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.": "Azért kérdezzük, hogy megértsük, hol érzik magukat az emberek biztonságban vagy bizonytalanul. Ha szeretné, választhatja az „Inkább nem válaszolok” lehetőséget. A válasza nincs összekapcsolva a nevével, és nem rendőrségi feljelentés.",
+          "#Not at all safe": "Egyáltalán nem biztonságban",
+          "#Not very safe": "Nem nagyon biztonságban",
+          "#Neither safe nor unsafe": "Se nem biztonságos, se nem veszélyes",
+          "#Quite safe": "Eléggé biztonságban",
+          "#Completely safe": "Teljesen biztonságban"
+        },
+        "ar": {
+          "#How safe from theft, assault or harassment do you feel here?": "إلى أي مدى تشعر بالأمان من السرقة أو الاعتداء أو التحرش هنا؟",
+          "#We ask this to understand where people feel safe or unsafe. If you prefer, you can choose “Prefer not to say”. Your answer is not linked to your name and it is not a police report.": "نسأل عن ذلك لنفهم أين يشعر الناس بالأمان أو بعدمه. إذا كنت تفضّل، يمكنك اختيار «أفضّل عدم الإجابة». إجابتك غير مرتبطة باسمك وليست بلاغًا للشرطة.",
+          "#Not at all safe": "غير آمن/آمنة على الإطلاق",
+          "#Not very safe": "غير آمن/آمنة كثيرًا",
+          "#Neither safe nor unsafe": "لا آمن ولا غير آمن",
+          "#Quite safe": "آمن/آمنة إلى حد كبير",
+          "#Completely safe": "آمن/آمنة تمامًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

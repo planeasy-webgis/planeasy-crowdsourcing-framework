@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.nm_outcome",
+  "project": "SmartUrbanity",
+  "key": "nm_outcome",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_near_miss_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_near_miss_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What happened to you?",
+        "answer_key": "nm_outcome",
+        "question_type": "single_option",
+        "add_prefer_not_to_say": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Nothing, but I got a fright",
+            "value": "fright"
+          },
+          {
+            "text": "I had to stop or jump back suddenly",
+            "value": "sudden_move"
+          },
+          {
+            "text": "There was contact, but no injury",
+            "value": "contact"
+          },
+          {
+            "text": "I fell",
+            "value": "fell"
+          },
+          {
+            "text": "I was injured",
+            "value": "injured"
+          }
+        ],
+        "privacy_classification": "special_category_health"
+      },
+      "translations": {
+        "en": {
+          "#What happened to you?": "What happened to you?",
+          "#Nothing, but I got a fright": "Nothing, but I got a fright",
+          "#I had to stop or jump back suddenly": "I had to stop or jump back suddenly",
+          "#There was contact, but no injury": "There was contact, but no injury",
+          "#I fell": "I fell",
+          "#I was injured": "I was injured"
+        },
+        "it": {
+          "#What happened to you?": "Cosa ti è successo?",
+          "#Nothing, but I got a fright": "Niente, ma mi sono spaventato/a",
+          "#I had to stop or jump back suddenly": "Ho dovuto fermarmi o spostarmi di colpo",
+          "#There was contact, but no injury": "C'è stato un contatto, ma senza ferite",
+          "#I fell": "Sono caduto/a",
+          "#I was injured": "Mi sono fatto/a male"
+        },
+        "fr": {
+          "#What happened to you?": "Que vous est-il arrivé ?",
+          "#Nothing, but I got a fright": "Rien, mais j’ai eu peur",
+          "#I had to stop or jump back suddenly": "J’ai dû m’arrêter ou reculer brusquement",
+          "#There was contact, but no injury": "Il y a eu un contact, mais pas de blessure",
+          "#I fell": "Je suis tombé/tombée",
+          "#I was injured": "J’ai été blessé/blessée"
+        },
+        "de": {
+          "#What happened to you?": "Was ist Ihnen passiert?",
+          "#Nothing, but I got a fright": "Nichts, aber ich habe mich erschrocken",
+          "#I had to stop or jump back suddenly": "Ich musste plötzlich anhalten oder zurückspringen",
+          "#There was contact, but no injury": "Es gab eine Berührung, aber keine Verletzung",
+          "#I fell": "Ich bin gestürzt",
+          "#I was injured": "Ich wurde verletzt"
+        },
+        "tr": {
+          "#What happened to you?": "Size ne oldu?",
+          "#Nothing, but I got a fright": "Hiçbir şey, ama korktum",
+          "#I had to stop or jump back suddenly": "Aniden durmak veya geri çekilmek zorunda kaldım",
+          "#There was contact, but no injury": "Temas oldu, ama yaralanma olmadı",
+          "#I fell": "Düştüm",
+          "#I was injured": "Yaralandım"
+        },
+        "fa": {
+          "#What happened to you?": "برای شما چه اتفاقی افتاد؟",
+          "#Nothing, but I got a fright": "هیچ، اما ترسیدم",
+          "#I had to stop or jump back suddenly": "مجبور شدم ناگهان بایستم یا عقب بپرم",
+          "#There was contact, but no injury": "برخورد شد، اما آسیبی ندیدم",
+          "#I fell": "زمین خوردم",
+          "#I was injured": "آسیب دیدم"
+        },
+        "hu": {
+          "#What happened to you?": "Mi történt Önnel?",
+          "#Nothing, but I got a fright": "Semmi, de megijedtem",
+          "#I had to stop or jump back suddenly": "Hirtelen meg kellett állnom vagy hátra kellett ugranom",
+          "#There was contact, but no injury": "Volt érintkezés, de nem sérültem meg",
+          "#I fell": "Elestem",
+          "#I was injured": "Megsérültem"
+        },
+        "ar": {
+          "#What happened to you?": "ماذا حدث لك؟",
+          "#Nothing, but I got a fright": "لا شيء، لكنني أُصبت بالفزع",
+          "#I had to stop or jump back suddenly": "اضطررت إلى التوقف أو القفز للخلف فجأة",
+          "#There was contact, but no injury": "حدث تلامس، لكن دون إصابة",
+          "#I fell": "سقطتُ",
+          "#I was injured": "أُصبتُ"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_near_miss_report"
+      ]
+    }
+  }
+}

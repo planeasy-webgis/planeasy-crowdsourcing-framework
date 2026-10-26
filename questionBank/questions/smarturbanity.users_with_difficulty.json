@@ -1,0 +1,159 @@
+{
+  "question_id": "smarturbanity.users_with_difficulty",
+  "project": "SmartUrbanity",
+  "key": "users_with_difficulty",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Who might find it hard or impossible to use this place?",
+        "answer_key": "users_with_difficulty",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "People using wheelchairs",
+            "value": "wheelchair_users"
+          },
+          {
+            "text": "People using a walker or walking aid",
+            "value": "walking_aid_users"
+          },
+          {
+            "text": "People with strollers",
+            "value": "stroller_users"
+          },
+          {
+            "text": "Blind or visually impaired people",
+            "value": "blind_or_visually_impaired"
+          },
+          {
+            "text": "Children (for example walking alone to school)",
+            "value": "children"
+          },
+          {
+            "text": "People who walk slowly or need more time (for example older people)",
+            "value": "older_slow_walkers"
+          },
+          {
+            "text": "People who find it hard to find their way or understand signs",
+            "value": "orientation_difficulty"
+          },
+          {
+            "text": "No one in particular",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Who might find it hard or impossible to use this place?": "Who might find it hard or impossible to use this place?",
+          "#People using wheelchairs": "People using wheelchairs",
+          "#People using a walker or walking aid": "People using a walker or walking aid",
+          "#People with strollers": "People with strollers",
+          "#Blind or visually impaired people": "Blind or visually impaired people",
+          "#Children (for example walking alone to school)": "Children (for example walking alone to school)",
+          "#People who walk slowly or need more time (for example older people)": "People who walk slowly or need more time (for example older people)",
+          "#People who find it hard to find their way or understand signs": "People who find it hard to find their way or understand signs",
+          "#No one in particular": "No one in particular",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Who might find it hard or impossible to use this place?": "Per chi potrebbe essere difficile o impossibile usare questo luogo?",
+          "#People using wheelchairs": "Persone che usano una sedia a rotelle",
+          "#People using a walker or walking aid": "Persone con deambulatore o ausili per camminare",
+          "#People with strollers": "Persone con passeggini",
+          "#Blind or visually impaired people": "Persone cieche o ipovedenti",
+          "#Children (for example walking alone to school)": "Bambini (per esempio che vanno a scuola da soli)",
+          "#People who walk slowly or need more time (for example older people)": "Persone che camminano lentamente o hanno bisogno di più tempo (per esempio persone anziane)",
+          "#People who find it hard to find their way or understand signs": "Persone che hanno difficoltà a orientarsi o a capire i segnali",
+          "#No one in particular": "Nessuno in particolare",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Who might find it hard or impossible to use this place?": "Pour qui l'utilisation de ce lieu pourrait-elle être difficile ou impossible ?",
+          "#People using wheelchairs": "Personnes en fauteuil roulant",
+          "#People using a walker or walking aid": "Personnes utilisant un déambulateur ou une aide à la marche",
+          "#People with strollers": "Personnes avec une poussette",
+          "#Blind or visually impaired people": "Personnes aveugles ou malvoyantes",
+          "#Children (for example walking alone to school)": "Enfants (par exemple qui vont seuls à l'école)",
+          "#People who walk slowly or need more time (for example older people)": "Personnes qui marchent lentement ou ont besoin de plus de temps (par exemple les personnes âgées)",
+          "#People who find it hard to find their way or understand signs": "Personnes qui ont du mal à s'orienter ou à comprendre les panneaux",
+          "#No one in particular": "Personne en particulier",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Who might find it hard or impossible to use this place?": "Für wen könnte es schwierig oder unmöglich sein, diesen Ort zu nutzen?",
+          "#People using wheelchairs": "Personen im Rollstuhl",
+          "#People using a walker or walking aid": "Personen mit Rollator oder Gehhilfe",
+          "#People with strollers": "Personen mit Kinderwagen",
+          "#Blind or visually impaired people": "Blinde oder sehbehinderte Personen",
+          "#Children (for example walking alone to school)": "Kinder (zum Beispiel, die allein zur Schule gehen)",
+          "#People who walk slowly or need more time (for example older people)": "Menschen, die langsam gehen oder mehr Zeit brauchen (zum Beispiel ältere Menschen)",
+          "#People who find it hard to find their way or understand signs": "Menschen, denen die Orientierung oder das Verstehen von Schildern schwerfällt",
+          "#No one in particular": "Niemand im Besonderen",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Who might find it hard or impossible to use this place?": "Bu yeri kullanmak kimler için zor veya imkânsız olabilir?",
+          "#People using wheelchairs": "Tekerlekli sandalye kullanan kişiler",
+          "#People using a walker or walking aid": "Yürüteç veya yürüme desteği kullanan kişiler",
+          "#People with strollers": "Bebek arabalı kişiler",
+          "#Blind or visually impaired people": "Kör veya görme engelli kişiler",
+          "#Children (for example walking alone to school)": "Çocuklar (örneğin okula yalnız gidenler)",
+          "#People who walk slowly or need more time (for example older people)": "Yavaş yürüyen veya daha fazla zamana ihtiyaç duyan kişiler (örneğin yaşlılar)",
+          "#People who find it hard to find their way or understand signs": "Yolunu bulmakta veya işaretleri anlamakta zorlanan kişiler",
+          "#No one in particular": "Özellikle hiç kimse",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Who might find it hard or impossible to use this place?": "استفاده از این مکان برای چه کسانی ممکن است دشوار یا ناممکن باشد؟",
+          "#People using wheelchairs": "افراد استفاده‌کننده از ویلچر",
+          "#People using a walker or walking aid": "افراد استفاده‌کننده از واکر یا وسیله کمک‌راه‌رفتن",
+          "#People with strollers": "افراد دارای کالسکه کودک",
+          "#Blind or visually impaired people": "افراد نابینا یا کم‌بینا",
+          "#Children (for example walking alone to school)": "کودکان (برای مثال کودکانی که تنها به مدرسه می‌روند)",
+          "#People who walk slowly or need more time (for example older people)": "افرادی که آهسته راه می‌روند یا به زمان بیشتری نیاز دارند (برای مثال سالمندان)",
+          "#People who find it hard to find their way or understand signs": "افرادی که در جهت‌یابی یا فهم تابلوها مشکل دارند",
+          "#No one in particular": "هیچ‌کس به‌طور خاص",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Who might find it hard or impossible to use this place?": "Kinek lehet nehéz vagy lehetetlen használni ezt a helyet?",
+          "#People using wheelchairs": "Kerekesszéket használók",
+          "#People using a walker or walking aid": "Járókeretet vagy járást segítő eszközt használók",
+          "#People with strollers": "Babakocsival közlekedők",
+          "#Blind or visually impaired people": "Vak vagy gyengénlátó személyek",
+          "#Children (for example walking alone to school)": "Gyerekek (például akik egyedül mennek iskolába)",
+          "#People who walk slowly or need more time (for example older people)": "Lassan járó vagy több időt igénylő emberek (például idősek)",
+          "#People who find it hard to find their way or understand signs": "Akiknek nehéz tájékozódni vagy megérteni a jelzéseket",
+          "#No one in particular": "Senki különösebben",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Who might find it hard or impossible to use this place?": "لمن قد يكون استخدام هذا المكان صعبًا أو مستحيلًا؟",
+          "#People using wheelchairs": "مستخدمو الكراسي المتحركة",
+          "#People using a walker or walking aid": "مستخدمو المشاية أو وسائل المساعدة على المشي",
+          "#People with strollers": "أشخاص معهم عربات أطفال",
+          "#Blind or visually impaired people": "أشخاص مكفوفون أو ضعاف البصر",
+          "#Children (for example walking alone to school)": "الأطفال (مثلًا من يذهبون إلى المدرسة بمفردهم)",
+          "#People who walk slowly or need more time (for example older people)": "الأشخاص الذين يمشون ببطء أو يحتاجون إلى وقت أطول (مثل كبار السن)",
+          "#People who find it hard to find their way or understand signs": "الأشخاص الذين يجدون صعوبة في تحديد الاتجاه أو فهم الإشارات",
+          "#No one in particular": "لا أحد بوجه خاص",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

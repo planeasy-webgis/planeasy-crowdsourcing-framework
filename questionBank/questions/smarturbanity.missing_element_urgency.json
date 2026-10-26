@@ -1,0 +1,216 @@
+{
+  "question_id": "smarturbanity.missing_element_urgency",
+  "project": "SmartUrbanity",
+  "key": "missing_element_urgency",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_missing_connection_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_missing_connection_report",
+    "smarturbanity_missing_path_report"
+  ],
+  "review_required": true,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How urgent is it to act on this connection?",
+        "answer_key": "missing_element_urgency",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not urgent",
+            "value": "1_not_urgent"
+          },
+          {
+            "text": "Slightly urgent",
+            "value": "2_slightly_urgent"
+          },
+          {
+            "text": "Moderately urgent",
+            "value": "3_moderately_urgent"
+          },
+          {
+            "text": "Urgent",
+            "value": "4_urgent"
+          },
+          {
+            "text": "Very urgent",
+            "value": "5_very_urgent"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How urgent is it to act on this connection?": "How urgent is it to act on this connection?",
+          "#Not urgent": "Not urgent",
+          "#Slightly urgent": "Slightly urgent",
+          "#Moderately urgent": "Moderately urgent",
+          "#Urgent": "Urgent",
+          "#Very urgent": "Very urgent"
+        },
+        "it": {
+          "#How urgent is it to act on this connection?": "Quanto è urgente intervenire su questo collegamento?",
+          "#Not urgent": "Non urgente",
+          "#Slightly urgent": "Poco urgente",
+          "#Moderately urgent": "Abbastanza urgente",
+          "#Urgent": "Urgente",
+          "#Very urgent": "Molto urgente"
+        },
+        "fr": {
+          "#How urgent is it to act on this connection?": "À quel point est-il urgent d’intervenir sur cette liaison ?",
+          "#Not urgent": "Pas urgent",
+          "#Slightly urgent": "Peu urgent",
+          "#Moderately urgent": "Modérément urgent",
+          "#Urgent": "Urgent",
+          "#Very urgent": "Très urgent"
+        },
+        "de": {
+          "#How urgent is it to act on this connection?": "Wie dringend muss bei dieser Verbindung etwas getan werden?",
+          "#Not urgent": "Nicht dringend",
+          "#Slightly urgent": "Wenig dringend",
+          "#Moderately urgent": "Mäßig dringend",
+          "#Urgent": "Dringend",
+          "#Very urgent": "Sehr dringend"
+        },
+        "tr": {
+          "#How urgent is it to act on this connection?": "Bu bağlantıyla ilgili müdahale ne kadar acil?",
+          "#Not urgent": "Acil değil",
+          "#Slightly urgent": "Biraz acil",
+          "#Moderately urgent": "Orta derecede acil",
+          "#Urgent": "Acil",
+          "#Very urgent": "Çok acil"
+        },
+        "fa": {
+          "#How urgent is it to act on this connection?": "اقدام درباره‌ی این ارتباط چقدر فوری است؟",
+          "#Not urgent": "فوری نیست",
+          "#Slightly urgent": "کمی فوری",
+          "#Moderately urgent": "با فوریت متوسط",
+          "#Urgent": "فوری",
+          "#Very urgent": "بسیار فوری"
+        },
+        "hu": {
+          "#How urgent is it to act on this connection?": "Mennyire sürgős beavatkozni ennél a kapcsolatnál?",
+          "#Not urgent": "Nem sürgős",
+          "#Slightly urgent": "Kissé sürgős",
+          "#Moderately urgent": "Közepesen sürgős",
+          "#Urgent": "Sürgős",
+          "#Very urgent": "Nagyon sürgős"
+        },
+        "ar": {
+          "#How urgent is it to act on this connection?": "ما مدى إلحاح التدخل في هذا الرابط؟",
+          "#Not urgent": "غير عاجل",
+          "#Slightly urgent": "عاجل قليلًا",
+          "#Moderately urgent": "متوسط الإلحاح",
+          "#Urgent": "عاجل",
+          "#Very urgent": "عاجل جدًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_missing_connection_report"
+      ]
+    },
+    "smarturbanity_missing_path_report": {
+      "schema": {
+        "text": "How urgent is it to add this path?",
+        "answer_key": "missing_element_urgency",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not urgent",
+            "value": "1_not_urgent"
+          },
+          {
+            "text": "Slightly urgent",
+            "value": "2_slightly_urgent"
+          },
+          {
+            "text": "Moderately urgent",
+            "value": "3_moderately_urgent"
+          },
+          {
+            "text": "Urgent",
+            "value": "4_urgent"
+          },
+          {
+            "text": "Very urgent",
+            "value": "5_very_urgent"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How urgent is it to add this path?": "How urgent is it to add this path?",
+          "#Not urgent": "Not urgent",
+          "#Slightly urgent": "Slightly urgent",
+          "#Moderately urgent": "Moderately urgent",
+          "#Urgent": "Urgent",
+          "#Very urgent": "Very urgent"
+        },
+        "it": {
+          "#How urgent is it to add this path?": "Quanto è urgente aggiungere questo percorso?",
+          "#Not urgent": "Non urgente",
+          "#Slightly urgent": "Poco urgente",
+          "#Moderately urgent": "Abbastanza urgente",
+          "#Urgent": "Urgente",
+          "#Very urgent": "Molto urgente"
+        },
+        "fr": {
+          "#How urgent is it to add this path?": "À quel point est-il urgent d’ajouter ce cheminement ?",
+          "#Not urgent": "Pas urgent",
+          "#Slightly urgent": "Peu urgent",
+          "#Moderately urgent": "Modérément urgent",
+          "#Urgent": "Urgent",
+          "#Very urgent": "Très urgent"
+        },
+        "de": {
+          "#How urgent is it to add this path?": "Wie dringend sollte dieser Weg geschaffen werden?",
+          "#Not urgent": "Nicht dringend",
+          "#Slightly urgent": "Wenig dringend",
+          "#Moderately urgent": "Mäßig dringend",
+          "#Urgent": "Dringend",
+          "#Very urgent": "Sehr dringend"
+        },
+        "tr": {
+          "#How urgent is it to add this path?": "Bu yolu eklemek ne kadar acil?",
+          "#Not urgent": "Acil değil",
+          "#Slightly urgent": "Biraz acil",
+          "#Moderately urgent": "Orta derecede acil",
+          "#Urgent": "Acil",
+          "#Very urgent": "Çok acil"
+        },
+        "fa": {
+          "#How urgent is it to add this path?": "افزودن این مسیر چقدر فوری است؟",
+          "#Not urgent": "فوری نیست",
+          "#Slightly urgent": "کمی فوری",
+          "#Moderately urgent": "با فوریت متوسط",
+          "#Urgent": "فوری",
+          "#Very urgent": "بسیار فوری"
+        },
+        "hu": {
+          "#How urgent is it to add this path?": "Mennyire sürgős ennek az útvonalnak a kiépítése?",
+          "#Not urgent": "Nem sürgős",
+          "#Slightly urgent": "Kissé sürgős",
+          "#Moderately urgent": "Közepesen sürgős",
+          "#Urgent": "Sürgős",
+          "#Very urgent": "Nagyon sürgős"
+        },
+        "ar": {
+          "#How urgent is it to add this path?": "ما مدى إلحاح إضافة هذا المسار؟",
+          "#Not urgent": "غير عاجل",
+          "#Slightly urgent": "عاجل قليلًا",
+          "#Moderately urgent": "متوسط الإلحاح",
+          "#Urgent": "عاجل",
+          "#Very urgent": "عاجل جدًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_missing_path_report"
+      ]
+    }
+  }
+}

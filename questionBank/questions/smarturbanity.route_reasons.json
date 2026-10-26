@@ -1,0 +1,188 @@
+{
+  "question_id": "smarturbanity.route_reasons",
+  "project": "SmartUrbanity",
+  "key": "route_reasons",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Why did you choose this route? (Up to 2)",
+        "answer_key": "route_reasons",
+        "question_type": "multiple_options",
+        "max_answers": 2,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "It's the quickest or shortest",
+            "value": "fastest"
+          },
+          {
+            "text": "It's safer from traffic",
+            "value": "safer_traffic"
+          },
+          {
+            "text": "It's better lit",
+            "value": "better_lit"
+          },
+          {
+            "text": "There are more people around",
+            "value": "more_people"
+          },
+          {
+            "text": "It's nicer or greener",
+            "value": "pleasant"
+          },
+          {
+            "text": "It has more shade",
+            "value": "shade"
+          },
+          {
+            "text": "It has fewer slopes or stairs",
+            "value": "flatter"
+          },
+          {
+            "text": "Better pavements or cycle lanes",
+            "value": "better_surface"
+          },
+          {
+            "text": "To stop somewhere on the way",
+            "value": "stop_on_way"
+          },
+          {
+            "text": "A navigation app suggested it",
+            "value": "app"
+          },
+          {
+            "text": "Out of habit",
+            "value": "habit"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Why did you choose this route? (Up to 2)": "Why did you choose this route? (Up to 2)",
+          "#It's the quickest or shortest": "It's the quickest or shortest",
+          "#It's safer from traffic": "It's safer from traffic",
+          "#It's better lit": "It's better lit",
+          "#There are more people around": "There are more people around",
+          "#It's nicer or greener": "It's nicer or greener",
+          "#It has more shade": "It has more shade",
+          "#It has fewer slopes or stairs": "It has fewer slopes or stairs",
+          "#Better pavements or cycle lanes": "Better pavements or cycle lanes",
+          "#To stop somewhere on the way": "To stop somewhere on the way",
+          "#A navigation app suggested it": "A navigation app suggested it",
+          "#Out of habit": "Out of habit"
+        },
+        "it": {
+          "#Why did you choose this route? (Up to 2)": "Perché hai scelto questo percorso? (Al massimo 2)",
+          "#It's the quickest or shortest": "È il più veloce o il più breve",
+          "#It's safer from traffic": "È più sicuro rispetto al traffico",
+          "#It's better lit": "È più illuminato",
+          "#There are more people around": "Ci sono più persone in giro",
+          "#It's nicer or greener": "È più bello o più verde",
+          "#It has more shade": "Ha più ombra",
+          "#It has fewer slopes or stairs": "Ha meno salite o scale",
+          "#Better pavements or cycle lanes": "Marciapiedi o piste ciclabili migliori",
+          "#To stop somewhere on the way": "Per fermarmi da qualche parte lungo la strada",
+          "#A navigation app suggested it": "Me l'ha suggerito un'app di navigazione",
+          "#Out of habit": "Per abitudine"
+        },
+        "fr": {
+          "#Why did you choose this route? (Up to 2)": "Pourquoi avez-vous choisi cet itinéraire ? (2 au maximum)",
+          "#It's the quickest or shortest": "C’est le plus rapide ou le plus court",
+          "#It's safer from traffic": "Il est plus sûr par rapport à la circulation",
+          "#It's better lit": "Il est mieux éclairé",
+          "#There are more people around": "Il y a plus de monde",
+          "#It's nicer or greener": "Il est plus agréable ou plus vert",
+          "#It has more shade": "Il y a plus d’ombre",
+          "#It has fewer slopes or stairs": "Il y a moins de pentes ou d’escaliers",
+          "#Better pavements or cycle lanes": "De meilleurs trottoirs ou pistes cyclables",
+          "#To stop somewhere on the way": "Pour m’arrêter quelque part en chemin",
+          "#A navigation app suggested it": "Une application de navigation me l’a suggéré",
+          "#Out of habit": "Par habitude"
+        },
+        "de": {
+          "#Why did you choose this route? (Up to 2)": "Warum haben Sie diese Route gewählt? (Bis zu 2)",
+          "#It's the quickest or shortest": "Sie ist die schnellste oder kürzeste",
+          "#It's safer from traffic": "Sie ist sicherer vor dem Verkehr",
+          "#It's better lit": "Sie ist besser beleuchtet",
+          "#There are more people around": "Es sind mehr Menschen unterwegs",
+          "#It's nicer or greener": "Sie ist schöner oder grüner",
+          "#It has more shade": "Sie hat mehr Schatten",
+          "#It has fewer slopes or stairs": "Sie hat weniger Steigungen oder Treppen",
+          "#Better pavements or cycle lanes": "Bessere Gehwege oder Radwege",
+          "#To stop somewhere on the way": "Um unterwegs irgendwo anzuhalten",
+          "#A navigation app suggested it": "Eine Navigations-App hat sie vorgeschlagen",
+          "#Out of habit": "Aus Gewohnheit"
+        },
+        "tr": {
+          "#Why did you choose this route? (Up to 2)": "Bu güzergâhı neden seçtiniz? (En fazla 2)",
+          "#It's the quickest or shortest": "En hızlı veya en kısa olan bu",
+          "#It's safer from traffic": "Trafiğe karşı daha güvenli",
+          "#It's better lit": "Daha iyi aydınlatılmış",
+          "#There are more people around": "Etrafta daha çok insan var",
+          "#It's nicer or greener": "Daha güzel veya daha yeşil",
+          "#It has more shade": "Daha çok gölge var",
+          "#It has fewer slopes or stairs": "Daha az eğim veya merdiven var",
+          "#Better pavements or cycle lanes": "Daha iyi kaldırımlar veya bisiklet yolları",
+          "#To stop somewhere on the way": "Yolda bir yere uğramak için",
+          "#A navigation app suggested it": "Bir navigasyon uygulaması önerdi",
+          "#Out of habit": "Alışkanlıktan"
+        },
+        "fa": {
+          "#Why did you choose this route? (Up to 2)": "چرا این مسیر را انتخاب کردید؟ (حداکثر ۲ مورد)",
+          "#It's the quickest or shortest": "سریع‌ترین یا کوتاه‌ترین است",
+          "#It's safer from traffic": "در برابر ترافیک امن‌تر است",
+          "#It's better lit": "روشنایی بهتری دارد",
+          "#There are more people around": "افراد بیشتری در اطراف هستند",
+          "#It's nicer or greener": "زیباتر یا سرسبزتر است",
+          "#It has more shade": "سایه بیشتری دارد",
+          "#It has fewer slopes or stairs": "شیب یا پله کمتری دارد",
+          "#Better pavements or cycle lanes": "پیاده‌روها یا مسیرهای دوچرخه بهتر",
+          "#To stop somewhere on the way": "برای توقف در جایی در طول مسیر",
+          "#A navigation app suggested it": "یک برنامه مسیریاب پیشنهاد داد",
+          "#Out of habit": "از روی عادت"
+        },
+        "hu": {
+          "#Why did you choose this route? (Up to 2)": "Miért ezt az útvonalat választotta? (Legfeljebb 2)",
+          "#It's the quickest or shortest": "Ez a leggyorsabb vagy a legrövidebb",
+          "#It's safer from traffic": "Biztonságosabb a forgalomtól",
+          "#It's better lit": "Jobban meg van világítva",
+          "#There are more people around": "Több ember van a környéken",
+          "#It's nicer or greener": "Szebb vagy zöldebb",
+          "#It has more shade": "Több az árnyék",
+          "#It has fewer slopes or stairs": "Kevesebb az emelkedő vagy a lépcső",
+          "#Better pavements or cycle lanes": "Jobb járdák vagy kerékpársávok",
+          "#To stop somewhere on the way": "Hogy útközben megálljak valahol",
+          "#A navigation app suggested it": "Egy navigációs alkalmazás javasolta",
+          "#Out of habit": "Megszokásból"
+        },
+        "ar": {
+          "#Why did you choose this route? (Up to 2)": "لماذا اخترت هذا المسار؟ (حتى خيارين)",
+          "#It's the quickest or shortest": "إنه الأسرع أو الأقصر",
+          "#It's safer from traffic": "إنه أكثر أمانًا من حركة المرور",
+          "#It's better lit": "إضاءته أفضل",
+          "#There are more people around": "يوجد ناس أكثر حوله",
+          "#It's nicer or greener": "إنه أجمل أو أكثر خضرة",
+          "#It has more shade": "فيه ظل أكثر",
+          "#It has fewer slopes or stairs": "فيه منحدرات أو درج أقل",
+          "#Better pavements or cycle lanes": "أرصفة أو مسارات دراجات أفضل",
+          "#To stop somewhere on the way": "للتوقف في مكان ما في الطريق",
+          "#A navigation app suggested it": "اقترحه تطبيق ملاحة",
+          "#Out of habit": "بحكم العادة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_post_trip"
+      ]
+    }
+  }
+}

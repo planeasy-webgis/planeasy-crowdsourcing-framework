@@ -1,0 +1,140 @@
+{
+  "question_id": "smarturbanity.missing_element_destination",
+  "project": "SmartUrbanity",
+  "key": "missing_element_destination",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_missing_connection_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_missing_connection_report",
+    "smarturbanity_missing_path_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Where would it help you get to? (Select all that apply)",
+        "answer_key": "missing_element_destination",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "To school",
+            "value": "school"
+          },
+          {
+            "text": "To a public transport stop",
+            "value": "pt_stop"
+          },
+          {
+            "text": "To shops or services",
+            "value": "services"
+          },
+          {
+            "text": "To a park or green area",
+            "value": "park"
+          },
+          {
+            "text": "Home",
+            "value": "home"
+          },
+          {
+            "text": "To work",
+            "value": "work"
+          },
+          {
+            "text": "Somewhere else",
+            "value": "other"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Where would it help you get to? (Select all that apply)": "Where would it help you get to? (Select all that apply)",
+          "#To school": "To school",
+          "#To a public transport stop": "To a public transport stop",
+          "#To shops or services": "To shops or services",
+          "#To a park or green area": "To a park or green area",
+          "#Home": "Home",
+          "#To work": "To work",
+          "#Somewhere else": "Somewhere else"
+        },
+        "it": {
+          "#Where would it help you get to? (Select all that apply)": "Dove ti aiuterebbe ad arrivare? (Puoi sceglierne più di uno)",
+          "#To school": "A scuola",
+          "#To a public transport stop": "A una fermata dei mezzi pubblici",
+          "#To shops or services": "A negozi o servizi",
+          "#To a park or green area": "A un parco o un'area verde",
+          "#Home": "A casa",
+          "#To work": "Al lavoro",
+          "#Somewhere else": "Altrove"
+        },
+        "fr": {
+          "#Where would it help you get to? (Select all that apply)": "Où cela vous aiderait-il à vous rendre ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#To school": "À l’école",
+          "#To a public transport stop": "À un arrêt de transport en commun",
+          "#To shops or services": "Aux commerces ou services",
+          "#To a park or green area": "À un parc ou un espace vert",
+          "#Home": "Chez moi",
+          "#To work": "Au travail",
+          "#Somewhere else": "Ailleurs"
+        },
+        "de": {
+          "#Where would it help you get to? (Select all that apply)": "Wohin würde es Ihnen helfen zu gelangen? (Alle zutreffenden Antworten auswählen)",
+          "#To school": "Zur Schule",
+          "#To a public transport stop": "Zu einer Haltestelle",
+          "#To shops or services": "Zu Geschäften oder Dienstleistungen",
+          "#To a park or green area": "Zu einem Park oder einer Grünfläche",
+          "#Home": "Nach Hause",
+          "#To work": "Zur Arbeit",
+          "#Somewhere else": "Woandershin"
+        },
+        "tr": {
+          "#Where would it help you get to? (Select all that apply)": "Nereye ulaşmanıza yardımcı olur? (Uygun olanların tümünü seçin)",
+          "#To school": "Okula",
+          "#To a public transport stop": "Bir toplu taşıma durağına",
+          "#To shops or services": "Dükkânlara veya hizmetlere",
+          "#To a park or green area": "Bir parka veya yeşil alana",
+          "#Home": "Eve",
+          "#To work": "İşe",
+          "#Somewhere else": "Başka bir yere"
+        },
+        "fa": {
+          "#Where would it help you get to? (Select all that apply)": "به شما کمک می‌کند به کجا برسید؟ (همه موارد مناسب را انتخاب کنید)",
+          "#To school": "به مدرسه",
+          "#To a public transport stop": "به ایستگاه حمل‌ونقل عمومی",
+          "#To shops or services": "به فروشگاه‌ها یا خدمات",
+          "#To a park or green area": "به پارک یا فضای سبز",
+          "#Home": "به خانه",
+          "#To work": "به محل کار",
+          "#Somewhere else": "جای دیگری"
+        },
+        "hu": {
+          "#Where would it help you get to? (Select all that apply)": "Hová segítene eljutnia? (Jelölje meg az összes megfelelőt)",
+          "#To school": "Iskolába",
+          "#To a public transport stop": "Megállóhoz",
+          "#To shops or services": "Üzletekhez vagy szolgáltatásokhoz",
+          "#To a park or green area": "Parkba vagy zöldterületre",
+          "#Home": "Haza",
+          "#To work": "Munkába",
+          "#Somewhere else": "Máshová"
+        },
+        "ar": {
+          "#Where would it help you get to? (Select all that apply)": "إلى أين سيساعدك على الوصول؟ (اختر كل ما ينطبق)",
+          "#To school": "إلى المدرسة",
+          "#To a public transport stop": "إلى محطة نقل عام",
+          "#To shops or services": "إلى المتاجر أو الخدمات",
+          "#To a park or green area": "إلى حديقة أو مساحة خضراء",
+          "#Home": "إلى المنزل",
+          "#To work": "إلى العمل",
+          "#Somewhere else": "إلى مكان آخر"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_missing_connection_report",
+        "smarturbanity_missing_path_report"
+      ]
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "question_id": "smarturbanity.cyclist_use_difficulty",
+  "project": "SmartUrbanity",
+  "key": "cyclist_use_difficulty",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "review_required": true,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Which best describes using this place by bicycle or e-scooter?",
+        "answer_key": "cyclist_use_difficulty",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "I can pass without slowing down",
+            "value": "1_no_slowing_down"
+          },
+          {
+            "text": "I need to slow down a little",
+            "value": "2_slow_down"
+          },
+          {
+            "text": "I need to be careful while passing",
+            "value": "3_be_careful"
+          },
+          {
+            "text": "It takes a lot of effort or attention",
+            "value": "4_high_effort_attention"
+          },
+          {
+            "text": "I avoid using it if possible",
+            "value": "5_avoid_if_possible"
+          },
+          {
+            "text": "I cannot get through by bicycle or e-scooter",
+            "value": "6_cannot_get_through"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which best describes using this place by bicycle or e-scooter?": "Which best describes using this place by bicycle or e-scooter?",
+          "#I can pass without slowing down": "I can pass without slowing down",
+          "#I need to slow down a little": "I need to slow down a little",
+          "#I need to be careful while passing": "I need to be careful while passing",
+          "#It takes a lot of effort or attention": "It takes a lot of effort or attention",
+          "#I avoid using it if possible": "I avoid using it if possible",
+          "#I cannot get through by bicycle or e-scooter": "I cannot get through by bicycle or e-scooter",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Which best describes using this place by bicycle or e-scooter?": "Quale frase descrive meglio la tua esperienza in bici o in monopattino in questo luogo?",
+          "#I can pass without slowing down": "Posso passare senza rallentare",
+          "#I need to slow down a little": "Devo rallentare un po'",
+          "#I need to be careful while passing": "Devo fare attenzione mentre passo",
+          "#It takes a lot of effort or attention": "Mi costa molta fatica o molta attenzione",
+          "#I avoid using it if possible": "Lo evito quando posso",
+          "#I cannot get through by bicycle or e-scooter": "Non riesco a passare in bici o in monopattino",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Which best describes using this place by bicycle or e-scooter?": "Quelle phrase décrit le mieux votre expérience à vélo ou en trottinette électrique dans ce lieu ?",
+          "#I can pass without slowing down": "Je peux passer sans ralentir",
+          "#I need to slow down a little": "Je dois ralentir un peu",
+          "#I need to be careful while passing": "Je dois faire attention en passant",
+          "#It takes a lot of effort or attention": "Cela me demande beaucoup d'effort ou d'attention",
+          "#I avoid using it if possible": "J’évite de l’utiliser si possible",
+          "#I cannot get through by bicycle or e-scooter": "Je ne peux pas passer à vélo ou en trottinette électrique",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Which best describes using this place by bicycle or e-scooter?": "Welcher Satz beschreibt am besten, wie Sie diesen Ort mit dem Fahrrad oder E-Scooter nutzen?",
+          "#I can pass without slowing down": "Ich kann passieren, ohne langsamer zu werden",
+          "#I need to slow down a little": "Ich muss etwas langsamer werden",
+          "#I need to be careful while passing": "Ich muss beim Passieren vorsichtig sein",
+          "#It takes a lot of effort or attention": "Es kostet mich viel Kraft oder Aufmerksamkeit",
+          "#I avoid using it if possible": "Ich vermeide die Nutzung, wenn möglich",
+          "#I cannot get through by bicycle or e-scooter": "Mit dem Fahrrad oder E-Scooter komme ich nicht durch",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Which best describes using this place by bicycle or e-scooter?": "Bu yeri bisikletle veya elektrikli scooterla kullanmanızı en iyi hangisi anlatıyor?",
+          "#I can pass without slowing down": "Yavaşlamadan geçebilirim",
+          "#I need to slow down a little": "Biraz yavaşlamam gerekir",
+          "#I need to be careful while passing": "Geçerken dikkatli olmam gerekir",
+          "#It takes a lot of effort or attention": "Çok çaba veya dikkat gerektiriyor",
+          "#I avoid using it if possible": "Mümkünse kullanmaktan kaçınırım",
+          "#I cannot get through by bicycle or e-scooter": "Bisikletle veya elektrikli scooterla geçemiyorum",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Which best describes using this place by bicycle or e-scooter?": "کدام جمله تجربه شما با دوچرخه یا اسکوتر برقی در این مکان را بهتر توصیف می‌کند؟",
+          "#I can pass without slowing down": "می‌توانم بدون کم‌کردن سرعت عبور کنم",
+          "#I need to slow down a little": "باید کمی آهسته‌تر حرکت کنم",
+          "#I need to be careful while passing": "هنگام عبور باید مراقب باشم",
+          "#It takes a lot of effort or attention": "تلاش یا دقت زیادی از من می‌طلبد",
+          "#I avoid using it if possible": "اگر ممکن باشد از استفاده از آن پرهیز می‌کنم",
+          "#I cannot get through by bicycle or e-scooter": "با دوچرخه یا اسکوتر برقی نمی‌توانم عبور کنم",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Which best describes using this place by bicycle or e-scooter?": "Melyik mondat írja le legjobban, milyen kerékpárral vagy elektromos rollerrel használni ezt a helyet?",
+          "#I can pass without slowing down": "Lassítás nélkül át tudok haladni",
+          "#I need to slow down a little": "Kissé le kell lassítanom",
+          "#I need to be careful while passing": "Áthaladáskor óvatosnak kell lennem",
+          "#It takes a lot of effort or attention": "Sok erőfeszítést vagy figyelmet igényel",
+          "#I avoid using it if possible": "Ha lehet, kerülöm a használatát",
+          "#I cannot get through by bicycle or e-scooter": "Kerékpárral vagy elektromos rollerrel nem tudok átjutni",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Which best describes using this place by bicycle or e-scooter?": "أي عبارة تصف بشكل أفضل استخدامك لهذا المكان بالدراجة أو السكوتر الكهربائي؟",
+          "#I can pass without slowing down": "يمكنني المرور دون إبطاء",
+          "#I need to slow down a little": "أحتاج إلى الإبطاء قليلًا",
+          "#I need to be careful while passing": "أحتاج إلى الحذر أثناء المرور",
+          "#It takes a lot of effort or attention": "يتطلب مني جهدًا أو انتباهًا كبيرًا",
+          "#I avoid using it if possible": "أتجنب استخدامه إن أمكن",
+          "#I cannot get through by bicycle or e-scooter": "لا أستطيع المرور بالدراجة أو السكوتر الكهربائي",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    },
+    "street_segment_assessment": {
+      "schema": {
+        "text": "Which best describes using this street segment by bicycle or e-scooter?",
+        "answer_key": "cyclist_use_difficulty",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "I can pass without slowing down",
+            "value": "1_no_slowing_down"
+          },
+          {
+            "text": "I need to slow down a little",
+            "value": "2_slow_down"
+          },
+          {
+            "text": "I need to be careful while passing",
+            "value": "3_be_careful"
+          },
+          {
+            "text": "It takes a lot of effort or attention",
+            "value": "4_high_effort_attention"
+          },
+          {
+            "text": "I avoid using it if possible",
+            "value": "5_avoid_if_possible"
+          },
+          {
+            "text": "I cannot get through by bicycle or e-scooter",
+            "value": "6_cannot_get_through"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which best describes using this street segment by bicycle or e-scooter?": "Which best describes using this street segment by bicycle or e-scooter?",
+          "#I can pass without slowing down": "I can pass without slowing down",
+          "#I need to slow down a little": "I need to slow down a little",
+          "#I need to be careful while passing": "I need to be careful while passing",
+          "#It takes a lot of effort or attention": "It takes a lot of effort or attention",
+          "#I avoid using it if possible": "I avoid using it if possible",
+          "#I cannot get through by bicycle or e-scooter": "I cannot get through by bicycle or e-scooter",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Which best describes using this street segment by bicycle or e-scooter?": "Quale frase descrive meglio la tua esperienza in bici o in monopattino su questo tratto di strada?",
+          "#I can pass without slowing down": "Posso passare senza rallentare",
+          "#I need to slow down a little": "Devo rallentare un po'",
+          "#I need to be careful while passing": "Devo fare attenzione mentre passo",
+          "#It takes a lot of effort or attention": "Mi costa molta fatica o molta attenzione",
+          "#I avoid using it if possible": "Lo evito quando posso",
+          "#I cannot get through by bicycle or e-scooter": "Non riesco a passare in bici o in monopattino",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Which best describes using this street segment by bicycle or e-scooter?": "Quelle phrase décrit le mieux l’utilisation de ce tronçon à vélo ou en trottinette électrique ?",
+          "#I can pass without slowing down": "Je peux passer sans ralentir",
+          "#I need to slow down a little": "Je dois ralentir un peu",
+          "#I need to be careful while passing": "Je dois faire attention en passant",
+          "#It takes a lot of effort or attention": "Cela me demande beaucoup d'effort ou d'attention",
+          "#I avoid using it if possible": "J’évite de l’utiliser si possible",
+          "#I cannot get through by bicycle or e-scooter": "Je ne peux pas passer à vélo ou en trottinette électrique",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Which best describes using this street segment by bicycle or e-scooter?": "Welche Aussage beschreibt die Nutzung dieses Straßenabschnitts mit dem Fahrrad oder E-Scooter am besten?",
+          "#I can pass without slowing down": "Ich kann passieren, ohne langsamer zu werden",
+          "#I need to slow down a little": "Ich muss etwas langsamer werden",
+          "#I need to be careful while passing": "Ich muss beim Passieren vorsichtig sein",
+          "#It takes a lot of effort or attention": "Es kostet mich viel Kraft oder Aufmerksamkeit",
+          "#I avoid using it if possible": "Ich vermeide die Nutzung, wenn möglich",
+          "#I cannot get through by bicycle or e-scooter": "Mit dem Fahrrad oder E-Scooter komme ich nicht durch",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Which best describes using this street segment by bicycle or e-scooter?": "Bu sokak kesimini bisikletle veya elektrikli scooterla kullanmayı en iyi hangisi tanımlar?",
+          "#I can pass without slowing down": "Yavaşlamadan geçebilirim",
+          "#I need to slow down a little": "Biraz yavaşlamam gerekir",
+          "#I need to be careful while passing": "Geçerken dikkatli olmam gerekir",
+          "#It takes a lot of effort or attention": "Çok çaba veya dikkat gerektiriyor",
+          "#I avoid using it if possible": "Mümkünse kullanmaktan kaçınırım",
+          "#I cannot get through by bicycle or e-scooter": "Bisikletle veya elektrikli scooterla geçemiyorum",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Which best describes using this street segment by bicycle or e-scooter?": "کدام عبارت استفاده با دوچرخه یا اسکوتر برقی از این بخش خیابان را بهتر توصیف می‌کند؟",
+          "#I can pass without slowing down": "می‌توانم بدون کم‌کردن سرعت عبور کنم",
+          "#I need to slow down a little": "باید کمی آهسته‌تر حرکت کنم",
+          "#I need to be careful while passing": "هنگام عبور باید مراقب باشم",
+          "#It takes a lot of effort or attention": "تلاش یا دقت زیادی از من می‌طلبد",
+          "#I avoid using it if possible": "اگر ممکن باشد از استفاده از آن پرهیز می‌کنم",
+          "#I cannot get through by bicycle or e-scooter": "با دوچرخه یا اسکوتر برقی نمی‌توانم عبور کنم",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Which best describes using this street segment by bicycle or e-scooter?": "Melyik írja le legjobban e szakasz kerékpáros vagy elektromos rolleres használatát?",
+          "#I can pass without slowing down": "Lassítás nélkül át tudok haladni",
+          "#I need to slow down a little": "Kissé le kell lassítanom",
+          "#I need to be careful while passing": "Áthaladáskor óvatosnak kell lennem",
+          "#It takes a lot of effort or attention": "Sok erőfeszítést vagy figyelmet igényel",
+          "#I avoid using it if possible": "Ha lehet, kerülöm a használatát",
+          "#I cannot get through by bicycle or e-scooter": "Kerékpárral vagy elektromos rollerrel nem tudok átjutni",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Which best describes using this street segment by bicycle or e-scooter?": "أي عبارة تصف استخدام هذا المقطع بالدراجة أو السكوتر الكهربائي على أفضل وجه؟",
+          "#I can pass without slowing down": "يمكنني المرور دون إبطاء",
+          "#I need to slow down a little": "أحتاج إلى الإبطاء قليلًا",
+          "#I need to be careful while passing": "أحتاج إلى الحذر أثناء المرور",
+          "#It takes a lot of effort or attention": "يتطلب مني جهدًا أو انتباهًا كبيرًا",
+          "#I avoid using it if possible": "أتجنب استخدامه إن أمكن",
+          "#I cannot get through by bicycle or e-scooter": "لا أستطيع المرور بالدراجة أو السكوتر الكهربائي",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

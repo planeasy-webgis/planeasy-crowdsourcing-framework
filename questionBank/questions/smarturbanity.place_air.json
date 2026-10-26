@@ -1,0 +1,115 @@
+{
+  "question_id": "smarturbanity.place_air",
+  "project": "SmartUrbanity",
+  "key": "place_air",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How is the air here?",
+        "answer_key": "place_air",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Very poor",
+            "value": "very_poor"
+          },
+          {
+            "text": "Poor",
+            "value": "poor"
+          },
+          {
+            "text": "Average",
+            "value": "average"
+          },
+          {
+            "text": "Good",
+            "value": "good"
+          },
+          {
+            "text": "Very good",
+            "value": "very_good"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How is the air here?": "How is the air here?",
+          "#Very poor": "Very poor",
+          "#Poor": "Poor",
+          "#Average": "Average",
+          "#Good": "Good",
+          "#Very good": "Very good"
+        },
+        "it": {
+          "#How is the air here?": "Com'è l'aria qui?",
+          "#Very poor": "Pessima",
+          "#Poor": "Cattiva",
+          "#Average": "Nella media",
+          "#Good": "Buona",
+          "#Very good": "Ottima"
+        },
+        "fr": {
+          "#How is the air here?": "Comment est l’air ici ?",
+          "#Very poor": "Très mauvais",
+          "#Poor": "Mauvais",
+          "#Average": "Moyen",
+          "#Good": "Bon",
+          "#Very good": "Très bon"
+        },
+        "de": {
+          "#How is the air here?": "Wie ist die Luft hier?",
+          "#Very poor": "Sehr schlecht",
+          "#Poor": "Schlecht",
+          "#Average": "Durchschnittlich",
+          "#Good": "Gut",
+          "#Very good": "Sehr gut"
+        },
+        "tr": {
+          "#How is the air here?": "Buranın havası nasıl?",
+          "#Very poor": "Çok kötü",
+          "#Poor": "Kötü",
+          "#Average": "Orta",
+          "#Good": "İyi",
+          "#Very good": "Çok iyi"
+        },
+        "fa": {
+          "#How is the air here?": "هوای اینجا چگونه است؟",
+          "#Very poor": "بسیار بد",
+          "#Poor": "بد",
+          "#Average": "متوسط",
+          "#Good": "خوب",
+          "#Very good": "بسیار خوب"
+        },
+        "hu": {
+          "#How is the air here?": "Milyen itt a levegő?",
+          "#Very poor": "Nagyon rossz",
+          "#Poor": "Rossz",
+          "#Average": "Átlagos",
+          "#Good": "Jó",
+          "#Very good": "Nagyon jó"
+        },
+        "ar": {
+          "#How is the air here?": "كيف الهواء هنا؟",
+          "#Very poor": "سيئ جدًا",
+          "#Poor": "سيئ",
+          "#Average": "متوسط",
+          "#Good": "جيد",
+          "#Very good": "جيد جدًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

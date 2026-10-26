@@ -1,0 +1,115 @@
+{
+  "question_id": "smarturbanity.place_cleanliness",
+  "project": "SmartUrbanity",
+  "key": "place_cleanliness",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How clean and well maintained is this place?",
+        "answer_key": "place_cleanliness",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not at all clean or cared for",
+            "value": "very_poor"
+          },
+          {
+            "text": "Not very clean or cared for",
+            "value": "poor"
+          },
+          {
+            "text": "Average",
+            "value": "average"
+          },
+          {
+            "text": "Quite clean and cared for",
+            "value": "good"
+          },
+          {
+            "text": "Very clean and cared for",
+            "value": "very_good"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How clean and well maintained is this place?": "How clean and well maintained is this place?",
+          "#Not at all clean or cared for": "Not at all clean or cared for",
+          "#Not very clean or cared for": "Not very clean or cared for",
+          "#Average": "Average",
+          "#Quite clean and cared for": "Quite clean and cared for",
+          "#Very clean and cared for": "Very clean and cared for"
+        },
+        "it": {
+          "#How clean and well maintained is this place?": "Quanto è pulito e ben tenuto questo luogo?",
+          "#Not at all clean or cared for": "Per niente pulito e curato",
+          "#Not very clean or cared for": "Poco pulito e curato",
+          "#Average": "Nella media",
+          "#Quite clean and cared for": "Abbastanza pulito e curato",
+          "#Very clean and cared for": "Molto pulito e curato"
+        },
+        "fr": {
+          "#How clean and well maintained is this place?": "Cet endroit est-il propre et bien entretenu ?",
+          "#Not at all clean or cared for": "Pas du tout propre ni entretenu",
+          "#Not very clean or cared for": "Peu propre et peu entretenu",
+          "#Average": "Moyen",
+          "#Quite clean and cared for": "Assez propre et entretenu",
+          "#Very clean and cared for": "Très propre et bien entretenu"
+        },
+        "de": {
+          "#How clean and well maintained is this place?": "Wie sauber und gepflegt ist dieser Ort?",
+          "#Not at all clean or cared for": "Überhaupt nicht sauber und gepflegt",
+          "#Not very clean or cared for": "Wenig sauber und gepflegt",
+          "#Average": "Durchschnittlich",
+          "#Quite clean and cared for": "Ziemlich sauber und gepflegt",
+          "#Very clean and cared for": "Sehr sauber und gepflegt"
+        },
+        "tr": {
+          "#How clean and well maintained is this place?": "Burası ne kadar temiz ve bakımlı?",
+          "#Not at all clean or cared for": "Hiç temiz ve bakımlı değil",
+          "#Not very clean or cared for": "Pek temiz ve bakımlı değil",
+          "#Average": "Orta",
+          "#Quite clean and cared for": "Oldukça temiz ve bakımlı",
+          "#Very clean and cared for": "Çok temiz ve bakımlı"
+        },
+        "fa": {
+          "#How clean and well maintained is this place?": "این مکان چقدر تمیز و خوب نگهداری‌شده است؟",
+          "#Not at all clean or cared for": "اصلاً تمیز و رسیدگی‌شده نیست",
+          "#Not very clean or cared for": "چندان تمیز و رسیدگی‌شده نیست",
+          "#Average": "متوسط",
+          "#Quite clean and cared for": "نسبتاً تمیز و رسیدگی‌شده",
+          "#Very clean and cared for": "بسیار تمیز و رسیدگی‌شده"
+        },
+        "hu": {
+          "#How clean and well maintained is this place?": "Mennyire tiszta és gondozott ez a hely?",
+          "#Not at all clean or cared for": "Egyáltalán nem tiszta és gondozott",
+          "#Not very clean or cared for": "Kevéssé tiszta és gondozott",
+          "#Average": "Átlagos",
+          "#Quite clean and cared for": "Elég tiszta és gondozott",
+          "#Very clean and cared for": "Nagyon tiszta és gondozott"
+        },
+        "ar": {
+          "#How clean and well maintained is this place?": "ما مدى نظافة هذا المكان وحسن صيانته؟",
+          "#Not at all clean or cared for": "غير نظيف ولا معتنى به إطلاقًا",
+          "#Not very clean or cared for": "قليل النظافة والعناية",
+          "#Average": "متوسط",
+          "#Quite clean and cared for": "نظيف ومعتنى به إلى حد ما",
+          "#Very clean and cared for": "نظيف جدًا ومعتنى به"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

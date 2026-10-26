@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.report_when",
+  "project": "SmartUrbanity",
+  "key": "report_when",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "When does your answer apply? (Select all that apply)",
+        "answer_key": "report_when",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Only right now, it is today's situation",
+            "value": "now",
+            "exclusive": true
+          },
+          {
+            "text": "During the day",
+            "value": "day"
+          },
+          {
+            "text": "In the evening or at night",
+            "value": "night"
+          },
+          {
+            "text": "Early in the morning, while it is still dark",
+            "value": "early_morning"
+          },
+          {
+            "text": "At any time",
+            "value": "always",
+            "exclusive": true
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#When does your answer apply? (Select all that apply)": "When does your answer apply? (Select all that apply)",
+          "#Only right now, it is today's situation": "Only right now, it is today's situation",
+          "#During the day": "During the day",
+          "#In the evening or at night": "In the evening or at night",
+          "#Early in the morning, while it is still dark": "Early in the morning, while it is still dark",
+          "#At any time": "At any time"
+        },
+        "it": {
+          "#When does your answer apply? (Select all that apply)": "Quando vale la tua risposta? (Puoi sceglierne più di uno)",
+          "#Only right now, it is today's situation": "Solo adesso, è una situazione di oggi",
+          "#During the day": "Di giorno",
+          "#In the evening or at night": "Di sera o di notte",
+          "#Early in the morning, while it is still dark": "La mattina presto, quando è ancora buio",
+          "#At any time": "In qualsiasi momento"
+        },
+        "fr": {
+          "#When does your answer apply? (Select all that apply)": "Quand votre réponse s’applique-t-elle ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#Only right now, it is today's situation": "Seulement maintenant, c’est la situation d’aujourd’hui",
+          "#During the day": "Pendant la journée",
+          "#In the evening or at night": "Le soir ou la nuit",
+          "#Early in the morning, while it is still dark": "Tôt le matin, quand il fait encore nuit",
+          "#At any time": "À tout moment"
+        },
+        "de": {
+          "#When does your answer apply? (Select all that apply)": "Wann gilt Ihre Antwort? (Alle zutreffenden Antworten auswählen)",
+          "#Only right now, it is today's situation": "Nur jetzt, es ist die heutige Situation",
+          "#During the day": "Tagsüber",
+          "#In the evening or at night": "Abends oder nachts",
+          "#Early in the morning, while it is still dark": "Früh am Morgen, solange es noch dunkel ist",
+          "#At any time": "Zu jeder Zeit"
+        },
+        "tr": {
+          "#When does your answer apply? (Select all that apply)": "Yanıtınız ne zaman geçerli? (Uygun olanların tümünü seçin)",
+          "#Only right now, it is today's situation": "Sadece şu an, bugünkü duruma ait",
+          "#During the day": "Gündüz",
+          "#In the evening or at night": "Akşam veya gece",
+          "#Early in the morning, while it is still dark": "Sabah erkenden, hava henüz karanlıkken",
+          "#At any time": "Her zaman"
+        },
+        "fa": {
+          "#When does your answer apply? (Select all that apply)": "پاسخ شما برای چه زمانی است؟ (همه موارد مناسب را انتخاب کنید)",
+          "#Only right now, it is today's situation": "فقط همین حالا، وضعیت امروز است",
+          "#During the day": "در طول روز",
+          "#In the evening or at night": "عصر یا شب",
+          "#Early in the morning, while it is still dark": "صبح زود، وقتی هوا هنوز تاریک است",
+          "#At any time": "در هر زمانی"
+        },
+        "hu": {
+          "#When does your answer apply? (Select all that apply)": "Mikorra vonatkozik a válasza? (Jelölje meg az összes megfelelőt)",
+          "#Only right now, it is today's situation": "Csak most, ez a mai helyzet",
+          "#During the day": "Napközben",
+          "#In the evening or at night": "Este vagy éjjel",
+          "#Early in the morning, while it is still dark": "Kora reggel, amikor még sötét van",
+          "#At any time": "Bármikor"
+        },
+        "ar": {
+          "#When does your answer apply? (Select all that apply)": "متى تنطبق إجابتك؟ (اختر كل ما ينطبق)",
+          "#Only right now, it is today's situation": "الآن فقط، إنه وضع اليوم",
+          "#During the day": "خلال النهار",
+          "#In the evening or at night": "في المساء أو الليل",
+          "#Early in the morning, while it is still dark": "في الصباح الباكر، حين يكون الجو لا يزال مظلمًا",
+          "#At any time": "في أي وقت"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}

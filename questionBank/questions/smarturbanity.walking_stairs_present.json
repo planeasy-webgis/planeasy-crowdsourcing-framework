@@ -1,0 +1,87 @@
+{
+  "question_id": "smarturbanity.walking_stairs_present",
+  "project": "SmartUrbanity",
+  "key": "walking_stairs_present",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Are there steps or stairs along this path?",
+        "answer_key": "walking_stairs_present",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No",
+            "value": "no"
+          },
+          {
+            "text": "Yes",
+            "value": "yes"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Are there steps or stairs along this path?": "Are there steps or stairs along this path?",
+          "#No": "No",
+          "#Yes": "Yes",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Are there steps or stairs along this path?": "Ci sono gradini o scale lungo questo percorso?",
+          "#No": "No",
+          "#Yes": "Sì",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Are there steps or stairs along this path?": "Y a-t-il des marches ou des escaliers sur ce chemin ?",
+          "#No": "Non",
+          "#Yes": "Oui",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Are there steps or stairs along this path?": "Gibt es auf diesem Weg Stufen oder Treppen?",
+          "#No": "Nein",
+          "#Yes": "Ja",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Are there steps or stairs along this path?": "Bu yol boyunca basamak veya merdiven var mı?",
+          "#No": "Hayır",
+          "#Yes": "Evet",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Are there steps or stairs along this path?": "آیا در طول این مسیر پله وجود دارد؟",
+          "#No": "خیر",
+          "#Yes": "بله",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Are there steps or stairs along this path?": "Vannak lépcsőfokok vagy lépcsők ezen az úton?",
+          "#No": "Nem",
+          "#Yes": "Igen",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Are there steps or stairs along this path?": "هل توجد درجات أو أدراج على طول هذا المسار؟",
+          "#No": "لا",
+          "#Yes": "نعم",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_segment_assessment"
+      ]
+    }
+  }
+}

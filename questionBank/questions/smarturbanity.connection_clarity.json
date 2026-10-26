@@ -1,0 +1,123 @@
+{
+  "question_id": "smarturbanity.connection_clarity",
+  "project": "SmartUrbanity",
+  "key": "connection_clarity",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How easy is it to understand where people should go?",
+        "answer_key": "connection_clarity",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Very easy",
+            "value": "1_very_easy"
+          },
+          {
+            "text": "Easy",
+            "value": "2_easy"
+          },
+          {
+            "text": "Neither easy nor difficult",
+            "value": "3_neutral"
+          },
+          {
+            "text": "Difficult",
+            "value": "4_difficult"
+          },
+          {
+            "text": "Very difficult",
+            "value": "5_very_difficult"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How easy is it to understand where people should go?": "How easy is it to understand where people should go?",
+          "#Very easy": "Very easy",
+          "#Easy": "Easy",
+          "#Neither easy nor difficult": "Neither easy nor difficult",
+          "#Difficult": "Difficult",
+          "#Very difficult": "Very difficult",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How easy is it to understand where people should go?": "Quanto è facile capire dove devono passare le persone?",
+          "#Very easy": "Molto facile",
+          "#Easy": "Facile",
+          "#Neither easy nor difficult": "Né facile né difficile",
+          "#Difficult": "Difficile",
+          "#Very difficult": "Molto difficile",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How easy is it to understand where people should go?": "Est-il facile de comprendre où les personnes doivent aller ?",
+          "#Very easy": "Très facile",
+          "#Easy": "Facile",
+          "#Neither easy nor difficult": "Ni facile ni difficile",
+          "#Difficult": "Difficile",
+          "#Very difficult": "Très difficile",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How easy is it to understand where people should go?": "Wie leicht ist zu erkennen, wohin man gehen oder fahren soll?",
+          "#Very easy": "Sehr leicht",
+          "#Easy": "Leicht",
+          "#Neither easy nor difficult": "Weder leicht noch schwierig",
+          "#Difficult": "Schwierig",
+          "#Very difficult": "Sehr schwierig",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How easy is it to understand where people should go?": "İnsanların nereye gitmesi gerektiğini anlamak ne kadar kolay?",
+          "#Very easy": "Çok kolay",
+          "#Easy": "Kolay",
+          "#Neither easy nor difficult": "Ne kolay ne zor",
+          "#Difficult": "Zor",
+          "#Very difficult": "Çok zor",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How easy is it to understand where people should go?": "فهمیدن اینکه مردم باید از کجا بروند چقدر آسان است؟",
+          "#Very easy": "بسیار آسان",
+          "#Easy": "آسان",
+          "#Neither easy nor difficult": "نه آسان و نه دشوار",
+          "#Difficult": "دشوار",
+          "#Very difficult": "بسیار دشوار",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How easy is it to understand where people should go?": "Mennyire könnyű megérteni, merre kell haladni?",
+          "#Very easy": "Nagyon könnyű",
+          "#Easy": "Könnyű",
+          "#Neither easy nor difficult": "Se nem könnyű, se nem nehéz",
+          "#Difficult": "Nehéz",
+          "#Very difficult": "Nagyon nehéz",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How easy is it to understand where people should go?": "ما مدى سهولة فهم الاتجاه الذي ينبغي للناس سلوكه؟",
+          "#Very easy": "سهل جدًا",
+          "#Easy": "سهل",
+          "#Neither easy nor difficult": "ليس سهلًا ولا صعبًا",
+          "#Difficult": "صعب",
+          "#Very difficult": "صعب جدًا",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "question_id": "smarturbanity.bridge_cover",
+  "project": "SmartUrbanity",
+  "key": "bridge_cover",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Is this bridge covered?",
+        "answer_key": "bridge_cover",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No cover",
+            "value": "no_cover"
+          },
+          {
+            "text": "Roof or canopy",
+            "value": "roof_or_canopy"
+          },
+          {
+            "text": "Enclosed by walls or panels",
+            "value": "enclosed"
+          },
+          {
+            "text": "Glass or transparent panels",
+            "value": "transparent_panels"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Is this bridge covered?": "Is this bridge covered?",
+          "#No cover": "No cover",
+          "#Roof or canopy": "Roof or canopy",
+          "#Enclosed by walls or panels": "Enclosed by walls or panels",
+          "#Glass or transparent panels": "Glass or transparent panels",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Is this bridge covered?": "Questo ponte è coperto?",
+          "#No cover": "Nessuna copertura",
+          "#Roof or canopy": "Tettoia o copertura",
+          "#Enclosed by walls or panels": "Chiuso da pareti o pannelli",
+          "#Glass or transparent panels": "Vetri o pannelli trasparenti",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Is this bridge covered?": "Cette passerelle est-elle couverte ?",
+          "#No cover": "Aucune couverture",
+          "#Roof or canopy": "Toit ou auvent",
+          "#Enclosed by walls or panels": "Fermée par des murs ou des panneaux",
+          "#Glass or transparent panels": "Panneaux en verre ou transparents",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Is this bridge covered?": "Ist diese Brücke überdacht?",
+          "#No cover": "Keine Überdachung",
+          "#Roof or canopy": "Dach oder Überdachung",
+          "#Enclosed by walls or panels": "Durch Wände oder Paneele geschlossen",
+          "#Glass or transparent panels": "Glas oder transparente Paneele",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Is this bridge covered?": "Bu köprü kapalı mı?",
+          "#No cover": "Üstü açık",
+          "#Roof or canopy": "Çatı veya sundurma",
+          "#Enclosed by walls or panels": "Duvarlar veya panellerle kapalı",
+          "#Glass or transparent panels": "Cam veya şeffaf paneller",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Is this bridge covered?": "آیا این پل پوشیده است؟",
+          "#No cover": "بدون پوشش",
+          "#Roof or canopy": "سقف یا سایبان",
+          "#Enclosed by walls or panels": "محصور با دیوار یا پنل",
+          "#Glass or transparent panels": "شیشه یا پنل‌های شفاف",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Is this bridge covered?": "Fedett ez a híd?",
+          "#No cover": "Nincs fedés",
+          "#Roof or canopy": "Tető vagy előtető",
+          "#Enclosed by walls or panels": "Fal vagy panel zárja körül",
+          "#Glass or transparent panels": "Üveg vagy átlátszó panelek",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Is this bridge covered?": "هل هذا الجسر مغطى؟",
+          "#No cover": "غير مغطى",
+          "#Roof or canopy": "سقف أو مظلة",
+          "#Enclosed by walls or panels": "مغلق بجدران أو ألواح",
+          "#Glass or transparent panels": "زجاج أو ألواح شفافة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "question_id": "smarturbanity.gender",
+  "project": "SmartUrbanity",
+  "key": "gender",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What is your gender?",
+        "answer_key": "gender",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Male",
+            "value": "male"
+          },
+          {
+            "text": "Female",
+            "value": "female"
+          }
+        ],
+        "add_other": true,
+        "add_prefer_not_to_say": true,
+        "legacy_answer_keys": [
+          "gender_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What is your gender?": "What is your gender?",
+          "#Male": "Male",
+          "#Female": "Female",
+          "#Other": "Other",
+          "#Prefer not to say": "Prefer not to say"
+        },
+        "it": {
+          "#What is your gender?": "Qual è il tuo genere?",
+          "#Male": "Uomo",
+          "#Female": "Donna",
+          "#Other": "Altro",
+          "#Prefer not to say": "Preferisco non rispondere"
+        },
+        "fr": {
+          "#What is your gender?": "Quel est votre genre ?",
+          "#Male": "Homme",
+          "#Female": "Femme",
+          "#Other": "Autre",
+          "#Prefer not to say": "Je préfère ne pas répondre"
+        },
+        "de": {
+          "#What is your gender?": "Welches Geschlecht haben Sie?",
+          "#Male": "Männlich",
+          "#Female": "Weiblich",
+          "#Other": "Anderes",
+          "#Prefer not to say": "Ich möchte nicht antworten"
+        },
+        "tr": {
+          "#What is your gender?": "Cinsiyetiniz nedir?",
+          "#Male": "Erkek",
+          "#Female": "Kadın",
+          "#Other": "Diğer",
+          "#Prefer not to say": "Yanıtlamak istemiyorum"
+        },
+        "fa": {
+          "#What is your gender?": "جنسیت شما چیست؟",
+          "#Male": "مرد",
+          "#Female": "زن",
+          "#Other": "سایر",
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم"
+        },
+        "hu": {
+          "#What is your gender?": "Mi az Ön neme?",
+          "#Male": "Férfi",
+          "#Female": "Nő",
+          "#Other": "Egyéb",
+          "#Prefer not to say": "Nem szeretnék válaszolni"
+        },
+        "ar": {
+          "#What is your gender?": "ما جنسك؟",
+          "#Male": "ذكر",
+          "#Female": "أنثى",
+          "#Other": "آخر",
+          "#Prefer not to say": "أفضل عدم الإجابة"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    }
+  }
+}

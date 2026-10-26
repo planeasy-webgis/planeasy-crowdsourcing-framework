@@ -1,0 +1,125 @@
+{
+  "question_id": "smarturbanity.effort_vs_alternatives",
+  "project": "SmartUrbanity",
+  "key": "effort_vs_alternatives",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_experience_on_the_move",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_experience_on_the_move"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?",
+        "answer_key": "effort_vs_alternatives",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "My current mode is significantly easier and more relaxing than any alternative",
+            "value": "my_current_mode_is_significantly_easier"
+          },
+          {
+            "text": "This is a bit easier than other ways I could travel",
+            "value": "this_is_a_bit_easier_than_other_ways_i_c"
+          },
+          {
+            "text": "Regardless of the mode the effort feels roughly equal",
+            "value": "regardless_of_the_mode_the_effort_feels"
+          },
+          {
+            "text": "This takes a bit more out of me than other options would",
+            "value": "this_takes_a_bit_more_out_of_me_than_oth"
+          },
+          {
+            "text": "Far more demanding than alternatives (physically or mentally)",
+            "value": "far_more_demanding_than_alternatives_phy"
+          }
+        ],
+        "add_i_dont_know": true,
+        "legacy_answer_keys": [
+          "effort_vs_alternatives_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?",
+          "#My current mode is significantly easier and more relaxing than any alternative": "My current mode is significantly easier and more relaxing than any alternative",
+          "#This is a bit easier than other ways I could travel": "This is a bit easier than other ways I could travel",
+          "#Regardless of the mode the effort feels roughly equal": "Regardless of the mode the effort feels roughly equal",
+          "#This takes a bit more out of me than other options would": "This takes a bit more out of me than other options would",
+          "#Far more demanding than alternatives (physically or mentally)": "Far more demanding than alternatives (physically or mentally)",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Rispetto alle altre modalità di trasporto a tua disposizione (ad es. a piedi, in auto, con il trasporto pubblico), come valuteresti lo sforzo complessivo richiesto dalla modalità che utilizzi abitualmente?",
+          "#My current mode is significantly easier and more relaxing than any alternative": "La modalità che utilizzo attualmente è decisamente più facile e rilassante di qualsiasi alternativa",
+          "#This is a bit easier than other ways I could travel": "È un po' più facile rispetto alle altre modalità con cui potrei spostarmi",
+          "#Regardless of the mode the effort feels roughly equal": "Indipendentemente dalla modalità, lo sforzo mi sembra più o meno equivalente",
+          "#This takes a bit more out of me than other options would": "Questa modalità richiede un po' più di energie rispetto alle altre opzioni",
+          "#Far more demanding than alternatives (physically or mentally)": "Molto più impegnativa delle alternative, dal punto di vista fisico o mentale",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Par rapport aux autres possibilités de déplacement dont vous disposez, par exemple la marche, la voiture ou les transports publics, comment évaluez-vous l’effort global demandé par votre mode de transport habituel ?",
+          "#My current mode is significantly easier and more relaxing than any alternative": "Mon mode actuel est nettement plus facile et plus reposant que toutes les autres possibilités",
+          "#This is a bit easier than other ways I could travel": "C’est un peu plus facile que les autres façons dont je pourrais me déplacer",
+          "#Regardless of the mode the effort feels roughly equal": "Quel que soit le mode, l’effort me semble à peu près le même",
+          "#This takes a bit more out of me than other options would": "Ce mode me demande un peu plus d’effort que les autres possibilités",
+          "#Far more demanding than alternatives (physically or mentally)": "Beaucoup plus exigeant que les autres possibilités, physiquement ou mentalement",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Verglichen mit anderen Möglichkeiten, die Ihnen zur Verfügung stehen, zum Beispiel Gehen, Autofahren oder öffentlicher Verkehr: Wie hoch ist der gesamte Aufwand bei Ihrem üblichen Verkehrsmittel?",
+          "#My current mode is significantly easier and more relaxing than any alternative": "Mein derzeitiges Verkehrsmittel ist deutlich einfacher und entspannter als alle Alternativen",
+          "#This is a bit easier than other ways I could travel": "Es ist etwas einfacher als andere Möglichkeiten, die ich nutzen könnte",
+          "#Regardless of the mode the effort feels roughly equal": "Unabhängig vom Verkehrsmittel fühlt sich der Aufwand ungefähr gleich an",
+          "#This takes a bit more out of me than other options would": "Dieses Verkehrsmittel kostet mich etwas mehr Kraft als andere Möglichkeiten",
+          "#Far more demanding than alternatives (physically or mentally)": "Deutlich anstrengender als die Alternativen, körperlich oder mental",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Yürüme, otomobil veya toplu taşıma gibi kullanabileceğiniz diğer seçeneklerle karşılaştırıldığında, genellikle kullandığınız ulaşım seçeneğinin gerektirdiği toplam çabayı nasıl değerlendirirsiniz?",
+          "#My current mode is significantly easier and more relaxing than any alternative": "Şu an kullandığım seçenek diğer tüm alternatiflerden belirgin şekilde daha kolay ve rahat",
+          "#This is a bit easier than other ways I could travel": "Kullanabileceğim diğer seçeneklerden biraz daha kolay",
+          "#Regardless of the mode the effort feels roughly equal": "Hangi ulaşım seçeneğini kullansam da gereken çaba yaklaşık aynı",
+          "#This takes a bit more out of me than other options would": "Bu seçenek diğerlerine göre biraz daha fazla enerji harcamamı gerektiriyor",
+          "#Far more demanding than alternatives (physically or mentally)": "Alternatiflere göre fiziksel veya zihinsel olarak çok daha yorucu",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "در مقایسه با گزینه‌های دیگر مانند پیاده‌روی، رانندگی یا حمل‌ونقل عمومی، میزان تلاش کلی موردنیاز برای روش معمول رفت‌وآمد خود را چگونه ارزیابی می‌کنید؟",
+          "#My current mode is significantly easier and more relaxing than any alternative": "روش فعلی من به‌طور محسوسی آسان‌تر و آرام‌تر از همه گزینه‌های دیگر است",
+          "#This is a bit easier than other ways I could travel": "کمی آسان‌تر از روش‌های دیگری است که می‌توانم استفاده کنم",
+          "#Regardless of the mode the effort feels roughly equal": "صرف‌نظر از روش، میزان تلاش تقریباً یکسان است",
+          "#This takes a bit more out of me than other options would": "این روش کمی بیشتر از گزینه‌های دیگر از من انرژی می‌گیرد",
+          "#Far more demanding than alternatives (physically or mentally)": "از نظر جسمی یا ذهنی بسیار سخت‌تر از گزینه‌های دیگر است",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Az Ön számára elérhető más lehetőségekhez, például gyalogláshoz, autózáshoz vagy tömegközlekedéshez képest hogyan értékeli a szokásos közlekedési módjához szükséges teljes erőfeszítést?",
+          "#My current mode is significantly easier and more relaxing than any alternative": "A jelenlegi közlekedési módom lényegesen könnyebb és nyugodtabb minden más lehetőségnél",
+          "#This is a bit easier than other ways I could travel": "Ez egy kicsit könnyebb, mint más módok, amelyeket használhatnék",
+          "#Regardless of the mode the effort feels roughly equal": "A közlekedési módtól függetlenül nagyjából ugyanakkora erőfeszítésnek érzem",
+          "#This takes a bit more out of me than other options would": "Ez valamivel több energiát vesz ki belőlem, mint a többi lehetőség",
+          "#Far more demanding than alternatives (physically or mentally)": "Sokkal megterhelőbb a többi lehetőségnél, fizikailag vagy lelkileg",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "مقارنةً بوسائل التنقل الأخرى المتاحة لك، مثل المشي أو القيادة أو النقل العام، كيف تقيّم إجمالي الجهد المطلوب لاستخدام وسيلة التنقل المعتادة لديك؟",
+          "#My current mode is significantly easier and more relaxing than any alternative": "وسيلتي الحالية أسهل وأكثر راحة بوضوح من أي بديل",
+          "#This is a bit easier than other ways I could travel": "هي أسهل قليلًا من الطرق الأخرى التي يمكنني استخدامها",
+          "#Regardless of the mode the effort feels roughly equal": "بغض النظر عن الوسيلة، أشعر أن الجهد متقارب تقريبًا",
+          "#This takes a bit more out of me than other options would": "هذه الوسيلة تتطلب مني طاقة أكبر قليلًا من الخيارات الأخرى",
+          "#Far more demanding than alternatives (physically or mentally)": "أكثر إرهاقًا بكثير من البدائل، جسديًا أو نفسيًا",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_experience_on_the_move"
+      ]
+    }
+  }
+}

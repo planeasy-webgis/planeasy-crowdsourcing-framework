@@ -1,0 +1,183 @@
+{
+  "question_id": "smarturbanity.street_crossing_problems",
+  "project": "SmartUrbanity",
+  "key": "street_crossing_problems",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What problems do you see at this crossing?",
+        "answer_key": "street_crossing_problems",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "The stripes are faded or worn away",
+            "value": "faded_markings"
+          },
+          {
+            "text": "There is no curb ramp",
+            "value": "missing_curb_ramp"
+          },
+          {
+            "text": "There is a curb ramp, but cars or motorcycles park in front of it",
+            "value": "curb_ramp_blocked"
+          },
+          {
+            "text": "The curb ramp is broken or has a step to the road",
+            "value": "curb_ramp_damaged"
+          },
+          {
+            "text": "Cars or motorcycles parked on the crossing",
+            "value": "vehicles_parked_on_crossing"
+          },
+          {
+            "text": "Tram tracks to cross",
+            "value": "tram_tracks"
+          },
+          {
+            "text": "Cobblestones, potholes or damaged paving on the crossing",
+            "value": "uneven_paving"
+          },
+          {
+            "text": "Standing water after rain",
+            "value": "water_collects"
+          },
+          {
+            "text": "The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths",
+            "value": "bike_path_crosses_sidewalk"
+          },
+          {
+            "text": "No clear problem",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What problems do you see at this crossing?": "What problems do you see at this crossing?",
+          "#The stripes are faded or worn away": "The stripes are faded or worn away",
+          "#There is no curb ramp": "There is no curb ramp",
+          "#There is a curb ramp, but cars or motorcycles park in front of it": "There is a curb ramp, but cars or motorcycles park in front of it",
+          "#The curb ramp is broken or has a step to the road": "The curb ramp is broken or has a step to the road",
+          "#Cars or motorcycles parked on the crossing": "Cars or motorcycles parked on the crossing",
+          "#Tram tracks to cross": "Tram tracks to cross",
+          "#Cobblestones, potholes or damaged paving on the crossing": "Cobblestones, potholes or damaged paving on the crossing",
+          "#Standing water after rain": "Standing water after rain",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths",
+          "#No clear problem": "No clear problem",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What problems do you see at this crossing?": "Quali problemi vedi in questo attraversamento?",
+          "#The stripes are faded or worn away": "Le strisce sono sbiadite o cancellate",
+          "#There is no curb ramp": "Manca lo scivolo del marciapiede",
+          "#There is a curb ramp, but cars or motorcycles park in front of it": "Lo scivolo c'è, ma auto o moto ci parcheggiano davanti",
+          "#The curb ramp is broken or has a step to the road": "Lo scivolo è rotto o ha un gradino con la strada",
+          "#Cars or motorcycles parked on the crossing": "Auto o moto parcheggiate sulle strisce",
+          "#Tram tracks to cross": "Binari del tram da attraversare",
+          "#Cobblestones, potholes or damaged paving on the crossing": "Sampietrini, buche o pavimentazione rovinata sull'attraversamento",
+          "#Standing water after rain": "Acqua ferma dopo la pioggia",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "La ciclabile taglia il marciapiede: bici e pedoni si incrociano",
+          "#No clear problem": "Nessun problema evidente",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What problems do you see at this crossing?": "Quels problèmes voyez-vous sur ce passage ?",
+          "#The stripes are faded or worn away": "Le marquage est effacé ou usé",
+          "#There is no curb ramp": "Il n'y a pas de bateau de trottoir",
+          "#There is a curb ramp, but cars or motorcycles park in front of it": "Il y a un bateau de trottoir, mais des voitures ou des motos se garent devant",
+          "#The curb ramp is broken or has a step to the road": "Le bateau de trottoir est abîmé ou forme une marche avec la chaussée",
+          "#Cars or motorcycles parked on the crossing": "Voitures ou motos garées sur le passage piéton",
+          "#Tram tracks to cross": "Rails de tramway à traverser",
+          "#Cobblestones, potholes or damaged paving on the crossing": "Pavés, nids-de-poule ou revêtement abîmé sur le passage",
+          "#Standing water after rain": "Eau stagnante après la pluie",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "La piste cyclable coupe le trottoir : vélos et piétons se croisent",
+          "#No clear problem": "Aucun problème évident",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What problems do you see at this crossing?": "Welche Probleme sehen Sie an diesem Übergang?",
+          "#The stripes are faded or worn away": "Die Markierungen sind verblasst oder abgenutzt",
+          "#There is no curb ramp": "Es gibt keinen abgesenkten Bordstein",
+          "#There is a curb ramp, but cars or motorcycles park in front of it": "Es gibt einen abgesenkten Bordstein, aber Autos oder Motorräder parken davor",
+          "#The curb ramp is broken or has a step to the road": "Der abgesenkte Bordstein ist kaputt oder hat eine Stufe zur Fahrbahn",
+          "#Cars or motorcycles parked on the crossing": "Autos oder Motorräder parken auf dem Übergang",
+          "#Tram tracks to cross": "Straßenbahngleise, die man überqueren muss",
+          "#Cobblestones, potholes or damaged paving on the crossing": "Kopfsteinpflaster, Schlaglöcher oder beschädigter Belag auf dem Übergang",
+          "#Standing water after rain": "Stehendes Wasser nach Regen",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "Der Radweg schneidet den Gehweg: Fahrräder und Fußgänger kreuzen sich",
+          "#No clear problem": "Kein eindeutiges Problem",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What problems do you see at this crossing?": "Bu geçitte hangi sorunları görüyorsunuz?",
+          "#The stripes are faded or worn away": "Çizgiler soluk ya da silinmiş",
+          "#There is no curb ramp": "Bordür rampası yok",
+          "#There is a curb ramp, but cars or motorcycles park in front of it": "Bordür rampası var, ama önüne araba ya da motosiklet park ediliyor",
+          "#The curb ramp is broken or has a step to the road": "Bordür rampası kırık ya da yolla arasında basamak var",
+          "#Cars or motorcycles parked on the crossing": "Geçidin üzerine park etmiş araba ya da motosikletler",
+          "#Tram tracks to cross": "Geçilmesi gereken tramvay rayları",
+          "#Cobblestones, potholes or damaged paving on the crossing": "Geçitte parke taşı, çukur ya da bozuk kaplama",
+          "#Standing water after rain": "Yağmurdan sonra biriken su",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "Bisiklet yolu kaldırımı kesiyor: bisikletler ve yayalar kesişiyor",
+          "#No clear problem": "Belirgin bir sorun yok",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What problems do you see at this crossing?": "چه مشکلاتی در این گذرگاه می‌بینید؟",
+          "#The stripes are faded or worn away": "خط‌کشی کم‌رنگ یا پاک شده است",
+          "#There is no curb ramp": "رمپ لبه پیاده‌رو وجود ندارد",
+          "#There is a curb ramp, but cars or motorcycles park in front of it": "رمپ هست، اما خودرو یا موتورسیکلت جلوی آن پارک می‌کنند",
+          "#The curb ramp is broken or has a step to the road": "رمپ خراب است یا با خیابان پله دارد",
+          "#Cars or motorcycles parked on the crossing": "خودرو یا موتورسیکلت پارک‌شده روی خط عابر پیاده",
+          "#Tram tracks to cross": "ریل تراموا که باید از آن رد شد",
+          "#Cobblestones, potholes or damaged paving on the crossing": "سنگ‌فرش، چاله یا کف خراب روی گذرگاه",
+          "#Standing water after rain": "آب ایستاده پس از باران",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "مسیر دوچرخه پیاده‌رو را قطع می‌کند: دوچرخه‌ها و عابران با هم تلاقی می‌کنند",
+          "#No clear problem": "مشکل روشنی وجود ندارد",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What problems do you see at this crossing?": "Milyen problémákat lát ennél az átkelőnél?",
+          "#The stripes are faded or worn away": "A felfestés kifakult vagy lekopott",
+          "#There is no curb ramp": "Nincs szegélyrámpa",
+          "#There is a curb ramp, but cars or motorcycles park in front of it": "Van szegélyrámpa, de autók vagy motorok parkolnak elé",
+          "#The curb ramp is broken or has a step to the road": "A szegélyrámpa törött, vagy lépcső van az úttest felé",
+          "#Cars or motorcycles parked on the crossing": "Az átkelőn parkoló autók vagy motorok",
+          "#Tram tracks to cross": "Átkelendő villamossínek",
+          "#Cobblestones, potholes or damaged paving on the crossing": "Macskakő, kátyú vagy sérült burkolat az átkelőn",
+          "#Standing water after rain": "Eső után megálló víz",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "A kerékpárút átvágja a járdát: kerékpárosok és gyalogosok keresztezik egymást",
+          "#No clear problem": "Nincs egyértelmű probléma",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What problems do you see at this crossing?": "ما المشكلات التي تراها في هذا المعبر؟",
+          "#The stripes are faded or worn away": "الخطوط باهتة أو ممسوحة",
+          "#There is no curb ramp": "لا يوجد منحدر عند حافة الرصيف",
+          "#There is a curb ramp, but cars or motorcycles park in front of it": "يوجد منحدر، لكن السيارات أو الدراجات النارية تقف أمامه",
+          "#The curb ramp is broken or has a step to the road": "المنحدر مكسور أو توجد درجة بينه وبين الطريق",
+          "#Cars or motorcycles parked on the crossing": "سيارات أو دراجات نارية متوقفة على ممر المشاة",
+          "#Tram tracks to cross": "سكك ترام يجب عبورها",
+          "#Cobblestones, potholes or damaged paving on the crossing": "حجارة رصف أو حفر أو رصف متضرر على المعبر",
+          "#Standing water after rain": "مياه راكدة بعد المطر",
+          "#The cycle path cuts across the sidewalk: bicycles and pedestrians cross paths": "مسار الدراجات يقطع الرصيف: الدراجات والمشاة يتقاطعون",
+          "#No clear problem": "لا توجد مشكلة واضحة",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

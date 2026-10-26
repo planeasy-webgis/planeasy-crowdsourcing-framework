@@ -1,0 +1,92 @@
+{
+  "question_id": "smarturbanity.observation_details",
+  "project": "SmartUrbanity",
+  "key": "observation_details",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_missing_connection_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_missing_connection_report",
+    "smarturbanity_missing_network_element_report",
+    "smarturbanity_missing_path_report"
+  ],
+  "review_required": true,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "What should the research team know about this place?",
+        "answer_key": "observation_details",
+        "question_type": "textarea",
+        "privacy_classification": "heightened_personal"
+      },
+      "translations": {
+        "en": {
+          "#What should the research team know about this place?": "What should the research team know about this place?"
+        },
+        "it": {
+          "#What should the research team know about this place?": "Cosa dovrebbe sapere il gruppo di ricerca su questo luogo?"
+        },
+        "fr": {
+          "#What should the research team know about this place?": "Que devrait savoir l’équipe de recherche sur ce lieu ?"
+        },
+        "de": {
+          "#What should the research team know about this place?": "Was sollte das Forschungsteam über diesen Ort wissen?"
+        },
+        "tr": {
+          "#What should the research team know about this place?": "Araştırma ekibi bu yer hakkında neyi bilmeli?"
+        },
+        "fa": {
+          "#What should the research team know about this place?": "تیم پژوهش درباره این مکان چه چیزی باید بداند؟"
+        },
+        "hu": {
+          "#What should the research team know about this place?": "Mit kellene tudnia a kutatócsoportnak erről a helyről?"
+        },
+        "ar": {
+          "#What should the research team know about this place?": "ما الذي ينبغي أن يعرفه فريق البحث عن هذا المكان؟"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_missing_connection_report",
+        "smarturbanity_missing_path_report"
+      ]
+    },
+    "smarturbanity_missing_network_element_report": {
+      "schema": {
+        "text": "What should reviewers know about this location?",
+        "answer_key": "observation_details",
+        "privacy_classification": "heightened_personal",
+        "question_type": "textarea"
+      },
+      "translations": {
+        "en": {
+          "#What should reviewers know about this location?": "What should reviewers know about this location?"
+        },
+        "it": {
+          "#What should reviewers know about this location?": "Cosa dovrebbero sapere i revisori su questo luogo?"
+        },
+        "fr": {
+          "#What should reviewers know about this location?": "Que devraient savoir les personnes chargées de la vérification à propos de cet endroit ?"
+        },
+        "de": {
+          "#What should reviewers know about this location?": "Was sollten die Prüfenden über diesen Ort wissen?"
+        },
+        "tr": {
+          "#What should reviewers know about this location?": "İnceleyenler bu konum hakkında ne bilmeli?"
+        },
+        "fa": {
+          "#What should reviewers know about this location?": "بازبینان باید درباره این مکان چه بدانند؟"
+        },
+        "hu": {
+          "#What should reviewers know about this location?": "Mit érdemes tudniuk az ellenőrzőknek erről a helyről?"
+        },
+        "ar": {
+          "#What should reviewers know about this location?": "ما الذي ينبغي أن يعرفه المراجعون عن هذا الموقع؟"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_missing_network_element_report"
+      ]
+    }
+  }
+}

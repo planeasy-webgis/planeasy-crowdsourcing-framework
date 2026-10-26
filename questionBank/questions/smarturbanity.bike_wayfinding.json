@@ -1,0 +1,116 @@
+{
+  "question_id": "smarturbanity.bike_wayfinding",
+  "project": "SmartUrbanity",
+  "key": "bike_wayfinding",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_cycling",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_cycling"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How does the quality of signs and wayfinding on your cycling route affect your journey?",
+        "answer_key": "bike_wayfinding",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not at all — I can navigate easily regardless of signage quality",
+            "value": "not_at_all_i_can_navigate_easily_regardl"
+          },
+          {
+            "text": "Slightly — signs are occasionally helpful",
+            "value": "slightly_signs_are_occasionally_helpful"
+          },
+          {
+            "text": "Moderately — I rely on signs to confirm my route",
+            "value": "moderately_i_rely_on_signs_to_confirm_my"
+          },
+          {
+            "text": "Significantly — unclear or missing signs sometimes disrupt my journey",
+            "value": "significantly_unclear_or_missing_signs_s"
+          },
+          {
+            "text": "Very significantly — poor signage makes navigation difficult without GPS or phone apps",
+            "value": "very_significantly_poor_signage_makes_na"
+          }
+        ],
+        "legacy_answer_keys": [
+          "bike_wayfinding_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How does the quality of signs and wayfinding on your cycling route affect your journey?": "How does the quality of signs and wayfinding on your cycling route affect your journey?",
+          "#Not at all — I can navigate easily regardless of signage quality": "Not at all — I can navigate easily regardless of signage quality",
+          "#Slightly — signs are occasionally helpful": "Slightly — signs are occasionally helpful",
+          "#Moderately — I rely on signs to confirm my route": "Moderately — I rely on signs to confirm my route",
+          "#Significantly — unclear or missing signs sometimes disrupt my journey": "Significantly — unclear or missing signs sometimes disrupt my journey",
+          "#Very significantly — poor signage makes navigation difficult without GPS or phone apps": "Very significantly — poor signage makes navigation difficult without GPS or phone apps"
+        },
+        "it": {
+          "#How does the quality of signs and wayfinding on your cycling route affect your journey?": "In che modo la qualità della segnaletica e delle indicazioni di orientamento lungo il percorso ciclabile influisce sul tuo viaggio?",
+          "#Not at all — I can navigate easily regardless of signage quality": "Per niente — riesco a orientarmi facilmente indipendentemente dalla qualità della segnaletica",
+          "#Slightly — signs are occasionally helpful": "Poco — la segnaletica è utile solo occasionalmente",
+          "#Moderately — I rely on signs to confirm my route": "Moderatamente — mi affido alla segnaletica per confermare il percorso",
+          "#Significantly — unclear or missing signs sometimes disrupt my journey": "Molto — indicazioni poco chiare o mancanti a volte rendono più difficile il mio viaggio",
+          "#Very significantly — poor signage makes navigation difficult without GPS or phone apps": "Moltissimo — una segnaletica insufficiente rende difficile orientarsi senza GPS o applicazioni sul telefono"
+        },
+        "fr": {
+          "#How does the quality of signs and wayfinding on your cycling route affect your journey?": "Quel effet la qualité des panneaux et des indications d’orientation sur votre itinéraire à vélo a-t-elle sur votre trajet ?",
+          "#Not at all — I can navigate easily regardless of signage quality": "Aucun — je peux facilement m’orienter même si la signalisation est mauvaise",
+          "#Slightly — signs are occasionally helpful": "Faible — les panneaux sont parfois utiles",
+          "#Moderately — I rely on signs to confirm my route": "Modéré — j’utilise les panneaux pour vérifier mon itinéraire",
+          "#Significantly — unclear or missing signs sometimes disrupt my journey": "Important — des panneaux peu clairs ou absents perturbent parfois mon trajet",
+          "#Very significantly — poor signage makes navigation difficult without GPS or phone apps": "Très important — une mauvaise signalisation rend l’orientation difficile sans GPS ou application sur téléphone"
+        },
+        "de": {
+          "#How does the quality of signs and wayfinding on your cycling route affect your journey?": "Wie beeinflussen Qualität und Verständlichkeit von Schildern und Wegweisung auf Ihrer Radstrecke Ihre Fahrt?",
+          "#Not at all — I can navigate easily regardless of signage quality": "Gar nicht — ich finde meinen Weg auch bei schlechter Beschilderung problemlos",
+          "#Slightly — signs are occasionally helpful": "Etwas — Schilder sind gelegentlich hilfreich",
+          "#Moderately — I rely on signs to confirm my route": "Mäßig — ich nutze Schilder, um meine Route zu bestätigen",
+          "#Significantly — unclear or missing signs sometimes disrupt my journey": "Stark — unklare oder fehlende Schilder stören manchmal meine Fahrt",
+          "#Very significantly — poor signage makes navigation difficult without GPS or phone apps": "Sehr stark — schlechte Beschilderung macht die Orientierung ohne GPS oder Handy-App schwierig"
+        },
+        "tr": {
+          "#How does the quality of signs and wayfinding on your cycling route affect your journey?": "Bisiklet güzergâhınızdaki tabela ve yönlendirmelerin kalitesi yolculuğunuzu nasıl etkiler?",
+          "#Not at all — I can navigate easily regardless of signage quality": "Hiç etkilemez — tabela kalitesi nasıl olursa olsun yönümü kolayca bulurum",
+          "#Slightly — signs are occasionally helpful": "Biraz — tabelalar bazen yardımcı olur",
+          "#Moderately — I rely on signs to confirm my route": "Orta düzeyde — güzergâhımı doğrulamak için tabelalara güvenirim",
+          "#Significantly — unclear or missing signs sometimes disrupt my journey": "Çok — belirsiz veya eksik tabelalar bazen yolculuğumu zorlaştırır",
+          "#Very significantly — poor signage makes navigation difficult without GPS or phone apps": "Çok fazla — kötü yönlendirme GPS veya telefon uygulaması olmadan yön bulmayı zorlaştırır"
+        },
+        "fa": {
+          "#How does the quality of signs and wayfinding on your cycling route affect your journey?": "کیفیت تابلوها و راهنمای مسیر در مسیر دوچرخه‌سواری چگونه بر سفر شما اثر می‌گذارد؟",
+          "#Not at all — I can navigate easily regardless of signage quality": "اصلاً — حتی با تابلوهای نامناسب هم به‌راحتی مسیرم را پیدا می‌کنم",
+          "#Slightly — signs are occasionally helpful": "کمی — تابلوها گاهی کمک می‌کنند",
+          "#Moderately — I rely on signs to confirm my route": "تا حد متوسط — برای مطمئن شدن از مسیر به تابلوها تکیه می‌کنم",
+          "#Significantly — unclear or missing signs sometimes disrupt my journey": "زیاد — تابلوهای نامشخص یا نبود تابلو گاهی سفرم را مختل می‌کند",
+          "#Very significantly — poor signage makes navigation difficult without GPS or phone apps": "خیلی زیاد — بدون GPS یا برنامه تلفن همراه، تابلوهای نامناسب جهت‌یابی را دشوار می‌کند"
+        },
+        "hu": {
+          "#How does the quality of signs and wayfinding on your cycling route affect your journey?": "Hogyan befolyásolja a kerékpáros útvonalán lévő táblák és útbaigazítások minősége az utazását?",
+          "#Not at all — I can navigate easily regardless of signage quality": "Egyáltalán nem — a jelzések minőségétől függetlenül könnyen tájékozódom",
+          "#Slightly — signs are occasionally helpful": "Kissé — a táblák néha hasznosak",
+          "#Moderately — I rely on signs to confirm my route": "Közepesen — a táblákat használom az útvonal ellenőrzésére",
+          "#Significantly — unclear or missing signs sometimes disrupt my journey": "Jelentősen — a nem egyértelmű vagy hiányzó jelzések néha megzavarják az utamat",
+          "#Very significantly — poor signage makes navigation difficult without GPS or phone apps": "Nagyon jelentősen — rossz jelzések mellett GPS vagy telefonos alkalmazás nélkül nehéz tájékozódni"
+        },
+        "ar": {
+          "#How does the quality of signs and wayfinding on your cycling route affect your journey?": "كيف تؤثر جودة اللافتات وإرشادات الطريق على مسار الدراجة في رحلتك؟",
+          "#Not at all — I can navigate easily regardless of signage quality": "لا تؤثر إطلاقًا — أستطيع معرفة طريقي بسهولة مهما كانت جودة اللافتات",
+          "#Slightly — signs are occasionally helpful": "تؤثر قليلًا — اللافتات مفيدة أحيانًا",
+          "#Moderately — I rely on signs to confirm my route": "تؤثر بدرجة متوسطة — أعتمد على اللافتات للتأكد من الطريق",
+          "#Significantly — unclear or missing signs sometimes disrupt my journey": "تؤثر كثيرًا — اللافتات غير الواضحة أو المفقودة تربك رحلتي أحيانًا",
+          "#Very significantly — poor signage makes navigation difficult without GPS or phone apps": "تؤثر كثيرًا جدًا — ضعف اللافتات يجعل معرفة الطريق صعبة من دون GPS أو تطبيق هاتف"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_cycling"
+      ]
+    }
+  }
+}

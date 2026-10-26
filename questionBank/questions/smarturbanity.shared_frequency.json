@@ -1,0 +1,128 @@
+{
+  "question_id": "smarturbanity.shared_frequency",
+  "project": "SmartUrbanity",
+  "key": "shared_frequency",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_daily_travel"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How often do you use shared mobility services (bike-share, e-scooter, car-share)?",
+        "answer_key": "shared_frequency",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "I never use shared mobility services.",
+            "value": "i_never_use_shared_mobility_services"
+          },
+          {
+            "text": "Once a month or less",
+            "value": "once_a_month_or_less"
+          },
+          {
+            "text": "2-3 times a month",
+            "value": "2_3_times_a_month"
+          },
+          {
+            "text": "1-2 times a week",
+            "value": "1_2_times_a_week"
+          },
+          {
+            "text": "3-5 times a week",
+            "value": "3_5_times_a_week"
+          },
+          {
+            "text": "Daily",
+            "value": "daily"
+          }
+        ],
+        "legacy_answer_keys": [
+          "shared_frequency_v1"
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How often do you use shared mobility services (bike-share, e-scooter, car-share)?": "How often do you use shared mobility services (bike-share, e-scooter, car-share)?",
+          "#I never use shared mobility services.": "I never use shared mobility services.",
+          "#Once a month or less": "Once a month or less",
+          "#2-3 times a month": "2-3 times a month",
+          "#1-2 times a week": "1-2 times a week",
+          "#3-5 times a week": "3-5 times a week",
+          "#Daily": "Daily"
+        },
+        "it": {
+          "#How often do you use shared mobility services (bike-share, e-scooter, car-share)?": "Con quale frequenza utilizzi servizi di mobilità condivisa (bike sharing, monopattini elettrici, car sharing)?",
+          "#I never use shared mobility services.": "Non utilizzo mai servizi di mobilità condivisa.",
+          "#Once a month or less": "Una volta al mese o meno",
+          "#2-3 times a month": "2-3 volte al mese",
+          "#1-2 times a week": "1-2 volte alla settimana",
+          "#3-5 times a week": "3-5 volte alla settimana",
+          "#Daily": "Ogni giorno"
+        },
+        "fr": {
+          "#How often do you use shared mobility services (bike-share, e-scooter, car-share)?": "À quelle fréquence utilisez-vous des services de mobilité partagée, comme le vélo partagé, la trottinette électrique ou l’autopartage ?",
+          "#I never use shared mobility services.": "Je n’utilise jamais les services de mobilité partagée.",
+          "#Once a month or less": "Une fois par mois ou moins",
+          "#2-3 times a month": "2 à 3 fois par mois",
+          "#1-2 times a week": "1 à 2 fois par semaine",
+          "#3-5 times a week": "3 à 5 fois par semaine",
+          "#Daily": "Tous les jours"
+        },
+        "de": {
+          "#How often do you use shared mobility services (bike-share, e-scooter, car-share)?": "Wie oft nutzen Sie Angebote der geteilten Mobilität, zum Beispiel Leihrad, E-Scooter oder Carsharing?",
+          "#I never use shared mobility services.": "Ich nutze solche Angebote nie.",
+          "#Once a month or less": "Einmal im Monat oder seltener",
+          "#2-3 times a month": "2-3 Mal im Monat",
+          "#1-2 times a week": "1-2 Mal pro Woche",
+          "#3-5 times a week": "3-5 Mal pro Woche",
+          "#Daily": "Täglich"
+        },
+        "tr": {
+          "#How often do you use shared mobility services (bike-share, e-scooter, car-share)?": "Bisiklet paylaşımı, e-scooter veya araç paylaşımı gibi paylaşımlı ulaşım hizmetlerini ne sıklıkta kullanıyorsunuz?",
+          "#I never use shared mobility services.": "Paylaşımlı ulaşım hizmetlerini hiç kullanmıyorum.",
+          "#Once a month or less": "Ayda bir veya daha az",
+          "#2-3 times a month": "Ayda 2-3 kez",
+          "#1-2 times a week": "Haftada 1-2 kez",
+          "#3-5 times a week": "Haftada 3-5 kez",
+          "#Daily": "Her gün"
+        },
+        "fa": {
+          "#How often do you use shared mobility services (bike-share, e-scooter, car-share)?": "هر چند وقت یک بار از خدمات جابه‌جایی اشتراکی مانند دوچرخه اشتراکی، اسکوتر برقی یا خودروی اشتراکی استفاده می‌کنید؟",
+          "#I never use shared mobility services.": "هرگز از خدمات جابه‌جایی اشتراکی استفاده نمی‌کنم.",
+          "#Once a month or less": "ماهی یک بار یا کمتر",
+          "#2-3 times a month": "ماهی ۲ تا ۳ بار",
+          "#1-2 times a week": "هفته‌ای ۱ تا ۲ بار",
+          "#3-5 times a week": "هفته‌ای ۳ تا ۵ بار",
+          "#Daily": "هر روز"
+        },
+        "hu": {
+          "#How often do you use shared mobility services (bike-share, e-scooter, car-share)?": "Milyen gyakran használ megosztott mobilitási szolgáltatásokat, például közösségi kerékpárt, elektromos rollert vagy autómegosztást?",
+          "#I never use shared mobility services.": "Soha nem használok megosztott mobilitási szolgáltatást.",
+          "#Once a month or less": "Havonta egyszer vagy ritkábban",
+          "#2-3 times a month": "Havonta 2-3 alkalommal",
+          "#1-2 times a week": "Hetente 1-2 alkalommal",
+          "#3-5 times a week": "Hetente 3-5 alkalommal",
+          "#Daily": "Naponta"
+        },
+        "ar": {
+          "#How often do you use shared mobility services (bike-share, e-scooter, car-share)?": "كم مرة تستخدم خدمات التنقل المشترك، مثل الدراجات المشتركة أو السكوتر الكهربائي أو مشاركة السيارات؟",
+          "#I never use shared mobility services.": "لا أستخدم خدمات التنقل المشترك أبدًا.",
+          "#Once a month or less": "مرة في الشهر أو أقل",
+          "#2-3 times a month": "2-3 مرات في الشهر",
+          "#1-2 times a week": "1-2 مرة في الأسبوع",
+          "#3-5 times a week": "3-5 مرات في الأسبوع",
+          "#Daily": "يوميًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_daily_travel"
+      ]
+    }
+  }
+}

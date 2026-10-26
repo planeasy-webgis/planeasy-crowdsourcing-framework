@@ -1,0 +1,99 @@
+{
+  "question_id": "smarturbanity.crossing_kind",
+  "project": "SmartUrbanity",
+  "key": "crossing_kind",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How is this crossing controlled?",
+        "answer_key": "crossing_kind",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "With a traffic light",
+            "value": "signal"
+          },
+          {
+            "text": "Zebra crossing without a traffic light",
+            "value": "marked_no_signal"
+          },
+          {
+            "text": "No zebra stripes and no traffic light",
+            "value": "unmarked"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How is this crossing controlled?": "How is this crossing controlled?",
+          "#With a traffic light": "With a traffic light",
+          "#Zebra crossing without a traffic light": "Zebra crossing without a traffic light",
+          "#No zebra stripes and no traffic light": "No zebra stripes and no traffic light",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How is this crossing controlled?": "Com'è regolato questo attraversamento?",
+          "#With a traffic light": "Con semaforo",
+          "#Zebra crossing without a traffic light": "Strisce pedonali senza semaforo",
+          "#No zebra stripes and no traffic light": "Senza strisce né semaforo",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How is this crossing controlled?": "Comment ce passage est-il régulé ?",
+          "#With a traffic light": "Avec un feu de circulation",
+          "#Zebra crossing without a traffic light": "Passage piéton sans feu",
+          "#No zebra stripes and no traffic light": "Sans marquage ni feu",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How is this crossing controlled?": "Wie ist dieser Übergang geregelt?",
+          "#With a traffic light": "Mit Ampel",
+          "#Zebra crossing without a traffic light": "Zebrastreifen ohne Ampel",
+          "#No zebra stripes and no traffic light": "Ohne Markierung und ohne Ampel",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How is this crossing controlled?": "Bu geçit nasıl düzenleniyor?",
+          "#With a traffic light": "Trafik ışıklı",
+          "#Zebra crossing without a traffic light": "Trafik ışığı olmayan yaya geçidi",
+          "#No zebra stripes and no traffic light": "Ne çizgi ne de trafik ışığı var",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How is this crossing controlled?": "این گذرگاه چگونه کنترل می‌شود؟",
+          "#With a traffic light": "با چراغ راهنمایی",
+          "#Zebra crossing without a traffic light": "خط عابر پیاده بدون چراغ راهنمایی",
+          "#No zebra stripes and no traffic light": "بدون خط‌کشی و بدون چراغ راهنمایی",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How is this crossing controlled?": "Hogyan szabályozott ez az átkelő?",
+          "#With a traffic light": "Jelzőlámpával",
+          "#Zebra crossing without a traffic light": "Zebra jelzőlámpa nélkül",
+          "#No zebra stripes and no traffic light": "Felfestés és jelzőlámpa nélkül",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How is this crossing controlled?": "كيف يُنظَّم هذا المعبر؟",
+          "#With a traffic light": "بإشارة مرور ضوئية",
+          "#Zebra crossing without a traffic light": "ممر مشاة بدون إشارة ضوئية",
+          "#No zebra stripes and no traffic light": "بدون خطوط وبدون إشارة ضوئية",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": [
+        "street_connection_assessment"
+      ]
+    }
+  }
+}

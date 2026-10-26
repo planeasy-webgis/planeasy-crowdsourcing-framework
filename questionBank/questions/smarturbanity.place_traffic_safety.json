@@ -1,0 +1,115 @@
+{
+  "question_id": "smarturbanity.place_traffic_safety",
+  "project": "SmartUrbanity",
+  "key": "place_traffic_safety",
+  "version": 1,
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "main_baseline_schema_migration",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "review_required": false,
+  "variants": {
+    "default": {
+      "schema": {
+        "text": "How safe from traffic do you feel here?",
+        "answer_key": "place_traffic_safety",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not at all safe",
+            "value": "not_safe"
+          },
+          {
+            "text": "Not very safe",
+            "value": "slightly_safe"
+          },
+          {
+            "text": "Neither safe nor unsafe",
+            "value": "neutral"
+          },
+          {
+            "text": "Quite safe",
+            "value": "quite_safe"
+          },
+          {
+            "text": "Completely safe",
+            "value": "completely_safe"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How safe from traffic do you feel here?": "How safe from traffic do you feel here?",
+          "#Not at all safe": "Not at all safe",
+          "#Not very safe": "Not very safe",
+          "#Neither safe nor unsafe": "Neither safe nor unsafe",
+          "#Quite safe": "Quite safe",
+          "#Completely safe": "Completely safe"
+        },
+        "it": {
+          "#How safe from traffic do you feel here?": "Quanto ti senti al sicuro dal traffico qui?",
+          "#Not at all safe": "Per niente al sicuro",
+          "#Not very safe": "Poco al sicuro",
+          "#Neither safe nor unsafe": "Né sicuro né insicuro",
+          "#Quite safe": "Abbastanza al sicuro",
+          "#Completely safe": "Del tutto al sicuro"
+        },
+        "fr": {
+          "#How safe from traffic do you feel here?": "Dans quelle mesure vous sentez-vous en sécurité par rapport à la circulation ici ?",
+          "#Not at all safe": "Pas du tout en sécurité",
+          "#Not very safe": "Pas très en sécurité",
+          "#Neither safe nor unsafe": "Ni en sécurité ni en insécurité",
+          "#Quite safe": "Plutôt en sécurité",
+          "#Completely safe": "Complètement en sécurité"
+        },
+        "de": {
+          "#How safe from traffic do you feel here?": "Wie sicher fühlen Sie sich hier vor dem Verkehr?",
+          "#Not at all safe": "Überhaupt nicht sicher",
+          "#Not very safe": "Nicht sehr sicher",
+          "#Neither safe nor unsafe": "Weder sicher noch unsicher",
+          "#Quite safe": "Ziemlich sicher",
+          "#Completely safe": "Vollkommen sicher"
+        },
+        "tr": {
+          "#How safe from traffic do you feel here?": "Burada trafikten ne kadar güvende hissediyorsunuz?",
+          "#Not at all safe": "Hiç güvende değil",
+          "#Not very safe": "Pek güvende değil",
+          "#Neither safe nor unsafe": "Ne güvende ne güvensiz",
+          "#Quite safe": "Oldukça güvende",
+          "#Completely safe": "Tamamen güvende"
+        },
+        "fa": {
+          "#How safe from traffic do you feel here?": "در اینجا تا چه اندازه از ترافیک احساس امنیت می‌کنید؟",
+          "#Not at all safe": "اصلاً امن نیست",
+          "#Not very safe": "چندان امن نیست",
+          "#Neither safe nor unsafe": "نه امن و نه ناامن",
+          "#Quite safe": "تا حد زیادی امن",
+          "#Completely safe": "کاملاً امن"
+        },
+        "hu": {
+          "#How safe from traffic do you feel here?": "Mennyire érzi magát biztonságban a forgalomtól itt?",
+          "#Not at all safe": "Egyáltalán nem biztonságban",
+          "#Not very safe": "Nem nagyon biztonságban",
+          "#Neither safe nor unsafe": "Se nem biztonságos, se nem veszélyes",
+          "#Quite safe": "Eléggé biztonságban",
+          "#Completely safe": "Teljesen biztonságban"
+        },
+        "ar": {
+          "#How safe from traffic do you feel here?": "إلى أي مدى تشعر بالأمان من حركة المرور هنا؟",
+          "#Not at all safe": "غير آمن/آمنة على الإطلاق",
+          "#Not very safe": "غير آمن/آمنة كثيرًا",
+          "#Neither safe nor unsafe": "لا آمن ولا غير آمن",
+          "#Quite safe": "آمن/آمنة إلى حد كبير",
+          "#Completely safe": "آمن/آمنة تمامًا"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_geolocated_perception_report"
+      ]
+    }
+  }
+}
