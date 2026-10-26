@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.signal_wait_time",
   "project": "SmartUrbanity",
   "key": "signal_wait_time",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -118,6 +117,121 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_c57f082606e8": {
+      "schema": {
+        "text": "At the traffic light, how long do you usually wait for green?",
+        "answer_key": "signal_wait_time",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Less than 10 seconds",
+            "value": "1_less_than_10s"
+          },
+          {
+            "text": "10–30 seconds",
+            "value": "2_10_30s"
+          },
+          {
+            "text": "30–60 seconds",
+            "value": "3_30_60s"
+          },
+          {
+            "text": "1–2 minutes",
+            "value": "4_1_2min"
+          },
+          {
+            "text": "More than 2 minutes",
+            "value": "5_more_than_2min"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#At the traffic light, how long do you usually wait for green?": "At the traffic light, how long do you usually wait for green?",
+          "#Less than 10 seconds": "Less than 10 seconds",
+          "#10–30 seconds": "10–30 seconds",
+          "#30–60 seconds": "30–60 seconds",
+          "#1–2 minutes": "1–2 minutes",
+          "#More than 2 minutes": "More than 2 minutes",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#At the traffic light, how long do you usually wait for green?": "Al semaforo, quanto aspetti di solito il verde?",
+          "#Less than 10 seconds": "Meno di 10 secondi",
+          "#10–30 seconds": "10–30 secondi",
+          "#30–60 seconds": "30–60 secondi",
+          "#1–2 minutes": "1–2 minuti",
+          "#More than 2 minutes": "Più di 2 minuti",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#At the traffic light, how long do you usually wait for green?": "Au feu, combien de temps attendez-vous généralement le vert ?",
+          "#Less than 10 seconds": "Moins de 10 secondes",
+          "#10–30 seconds": "10 à 30 secondes",
+          "#30–60 seconds": "30 à 60 secondes",
+          "#1–2 minutes": "1 à 2 minutes",
+          "#More than 2 minutes": "Plus de 2 minutes",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#At the traffic light, how long do you usually wait for green?": "Wie lange warten Sie an der Ampel normalerweise auf Grün?",
+          "#Less than 10 seconds": "Weniger als 10 Sekunden",
+          "#10–30 seconds": "10–30 Sekunden",
+          "#30–60 seconds": "30–60 Sekunden",
+          "#1–2 minutes": "1–2 Minuten",
+          "#More than 2 minutes": "Mehr als 2 Minuten",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#At the traffic light, how long do you usually wait for green?": "Trafik ışığında yeşil için genellikle ne kadar bekliyorsunuz?",
+          "#Less than 10 seconds": "10 saniyeden az",
+          "#10–30 seconds": "10–30 saniye",
+          "#30–60 seconds": "30–60 saniye",
+          "#1–2 minutes": "1–2 dakika",
+          "#More than 2 minutes": "2 dakikadan fazla",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#At the traffic light, how long do you usually wait for green?": "پشت چراغ راهنمایی معمولاً چقدر منتظر سبز شدن می‌مانید؟",
+          "#Less than 10 seconds": "کمتر از ۱۰ ثانیه",
+          "#10–30 seconds": "۱۰ تا ۳۰ ثانیه",
+          "#30–60 seconds": "۳۰ تا ۶۰ ثانیه",
+          "#1–2 minutes": "۱ تا ۲ دقیقه",
+          "#More than 2 minutes": "بیش از ۲ دقیقه",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#At the traffic light, how long do you usually wait for green?": "A jelzőlámpánál általában mennyit vár a zöldre?",
+          "#Less than 10 seconds": "Kevesebb mint 10 másodperc",
+          "#10–30 seconds": "10–30 másodperc",
+          "#30–60 seconds": "30–60 másodperc",
+          "#1–2 minutes": "1–2 perc",
+          "#More than 2 minutes": "Több mint 2 perc",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#At the traffic light, how long do you usually wait for green?": "عند الإشارة الضوئية، كم تنتظر عادةً حتى تصبح خضراء؟",
+          "#Less than 10 seconds": "أقل من 10 ثوانٍ",
+          "#10–30 seconds": "10–30 ثانية",
+          "#30–60 seconds": "30–60 ثانية",
+          "#1–2 minutes": "1–2 دقيقة",
+          "#More than 2 minutes": "أكثر من دقيقتين",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

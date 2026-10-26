@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.v1_how_secure_do_you_feel_on_your_typic",
   "project": "SmartUrbanity",
   "key": "v1_how_secure_do_you_feel_on_your_typic",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_safety_environment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_safety_environment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -108,6 +107,111 @@
       "source_questionnaires": [
         "smarturbanity_safety_environment"
       ]
+    },
+    "reference_707c817c0c11": {
+      "schema": {
+        "text": "How secure do you feel on your typical journey in relation to crime or harassment?",
+        "answer_key": "v1_how_secure_do_you_feel_on_your_typic",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not at all secure",
+            "value": "not_at_all_secure"
+          },
+          {
+            "text": "Slightly secure",
+            "value": "slightly_secure"
+          },
+          {
+            "text": "Moderately secure",
+            "value": "moderately_secure"
+          },
+          {
+            "text": "Very secure",
+            "value": "very_secure"
+          },
+          {
+            "text": "Completely secure",
+            "value": "completely_secure"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How secure do you feel on your typical journey in relation to crime or harassment?": "How secure do you feel on your typical journey in relation to crime or harassment?",
+          "#Not at all secure": "Not at all secure",
+          "#Slightly secure": "Slightly secure",
+          "#Moderately secure": "Moderately secure",
+          "#Very secure": "Very secure",
+          "#Completely secure": "Completely secure",
+          "#Other": "Other"
+        },
+        "it": {
+          "#How secure do you feel on your typical journey in relation to crime or harassment?": "Quanto ti senti protetto/a da criminalità o molestie durante il tuo spostamento abituale?",
+          "#Not at all secure": "Per niente protetto/a",
+          "#Slightly secure": "Poco protetto/a",
+          "#Moderately secure": "Moderatamente protetto/a",
+          "#Very secure": "Molto protetto/a",
+          "#Completely secure": "Completamente protetto/a",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#How secure do you feel on your typical journey in relation to crime or harassment?": "Pendant votre trajet habituel, à quel point vous sentez-vous en sécurité par rapport au risque de criminalité ou de harcèlement ?",
+          "#Not at all secure": "Pas du tout en sécurité",
+          "#Slightly secure": "Peu en sécurité",
+          "#Moderately secure": "Moyennement en sécurité",
+          "#Very secure": "Très en sécurité",
+          "#Completely secure": "Tout à fait en sécurité",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#How secure do you feel on your typical journey in relation to crime or harassment?": "Wie sicher fühlen Sie sich auf Ihrem typischen Weg im Hinblick auf Kriminalität oder Belästigung?",
+          "#Not at all secure": "Gar nicht sicher",
+          "#Slightly secure": "Eher unsicher",
+          "#Moderately secure": "Mäßig sicher",
+          "#Very secure": "Sehr sicher",
+          "#Completely secure": "Vollkommen sicher",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#How secure do you feel on your typical journey in relation to crime or harassment?": "Tipik yolculuğunuz sırasında suç veya taciz açısından kendinizi ne kadar güvende hissediyorsunuz?",
+          "#Not at all secure": "Hiç güvende hissetmiyorum",
+          "#Slightly secure": "Pek güvende hissetmiyorum",
+          "#Moderately secure": "Orta düzeyde güvende hissediyorum",
+          "#Very secure": "Çok güvende hissediyorum",
+          "#Completely secure": "Tamamen güvende hissediyorum",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#How secure do you feel on your typical journey in relation to crime or harassment?": "در سفر معمول خود از نظر خطر جرم یا آزار چقدر احساس امنیت می‌کنید؟",
+          "#Not at all secure": "اصلاً احساس امنیت نمی‌کنم",
+          "#Slightly secure": "کمی احساس امنیت می‌کنم",
+          "#Moderately secure": "تا حد متوسط احساس امنیت می‌کنم",
+          "#Very secure": "خیلی احساس امنیت می‌کنم",
+          "#Completely secure": "کاملاً احساس امنیت می‌کنم",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#How secure do you feel on your typical journey in relation to crime or harassment?": "Mennyire érzi magát biztonságban a tipikus utazása során bűncselekmény vagy zaklatás szempontjából?",
+          "#Not at all secure": "Egyáltalán nem érzem magam biztonságban",
+          "#Slightly secure": "Kissé érzem magam biztonságban",
+          "#Moderately secure": "Közepesen érzem magam biztonságban",
+          "#Very secure": "Nagyon biztonságban érzem magam",
+          "#Completely secure": "Teljesen biztonságban érzem magam",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#How secure do you feel on your typical journey in relation to crime or harassment?": "ما مدى شعورك بالأمان أثناء رحلتك المعتادة فيما يتعلق بخطر الجريمة أو التحرش؟",
+          "#Not at all secure": "لا أشعر بالأمان إطلاقًا",
+          "#Slightly secure": "أشعر بأمان قليل",
+          "#Moderately secure": "أشعر بأمان بدرجة متوسطة",
+          "#Very secure": "أشعر بأمان كبير",
+          "#Completely secure": "أشعر بأمان تام",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

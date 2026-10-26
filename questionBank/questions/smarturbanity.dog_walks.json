@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.dog_walks",
   "project": "SmartUrbanity",
   "key": "dog_walks",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -72,6 +71,91 @@
       "source_questionnaires": [
         "smarturbanity_about_you"
       ]
+    },
+    "reference_9c71e6f5b94a": {
+      "schema": {
+        "text": "Do you have a pet at home that may generate additional walking trips (e.g. a dog)?",
+        "answer_key": "dog_walks",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
+          "#Yes": "Yes",
+          "#No": "No",
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Do you have a pet at home that may generate additional walking trips (e.g. a dog)?",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
+          "#Yes": "Sì",
+          "#No": "No",
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Hai un animale domestico che può comportare ulteriori spostamenti a piedi (ad es. un cane)?",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
+          "#Yes": "Oui",
+          "#No": "Non",
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Avez-vous un animal domestique qui peut entraîner des déplacements supplémentaires à pied, par exemple un chien ?",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
+          "#Yes": "Ja",
+          "#No": "Nein",
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Haben Sie ein Haustier, das zusätzliche Wege zu Fuß verursachen kann, zum Beispiel einen Hund?",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
+          "#Yes": "Evet",
+          "#No": "Hayır",
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Evde ek yürüme ihtiyacı doğurabilecek bir evcil hayvanınız var mı? Örneğin bir köpek.",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
+          "#Yes": "بله",
+          "#No": "خیر",
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "آیا حیوان خانگی دارید که باعث شود بیشتر پیاده‌روی کنید، مثلاً سگ؟",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
+          "#Yes": "Igen",
+          "#No": "Nem",
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "Van olyan háziállata, amely miatt többet kell gyalogolnia, például kutya?",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
+          "#Yes": "نعم",
+          "#No": "لا",
+          "#Do you have a pet at home that may generate additional walking trips (e.g. a dog)?": "هل لديك حيوان أليف قد يجعلك تقوم بمزيد من المشي، مثل الكلب؟",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

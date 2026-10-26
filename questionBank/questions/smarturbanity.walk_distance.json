@@ -2,16 +2,115 @@
   "question_id": "smarturbanity.walk_distance",
   "project": "SmartUrbanity",
   "key": "walk_distance",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
+      "schema": {
+        "text": "At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?",
+        "answer_key": "walk_distance",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "I rarely or never walk",
+            "value": "rarely_walk"
+          },
+          {
+            "text": "Less than 500 meters",
+            "value": "lt_500m"
+          },
+          {
+            "text": "From 500 meters to 1 km",
+            "value": "500m_1km"
+          },
+          {
+            "text": "1 to 2 km",
+            "value": "1_2km"
+          },
+          {
+            "text": "More than 2 km",
+            "value": "gt_2km"
+          }
+        ],
+        "privacy_classification": "special_category_health",
+        "special_category": "health"
+      },
+      "translations": {
+        "en": {
+          "#At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?": "At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?",
+          "#I rarely or never walk": "I rarely or never walk",
+          "#Less than 500 meters": "Less than 500 meters",
+          "#From 500 meters to 1 km": "From 500 meters to 1 km",
+          "#1 to 2 km": "1 to 2 km",
+          "#More than 2 km": "More than 2 km"
+        },
+        "it": {
+          "#At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?": "Al tuo passo abituale, quanta strada riesci a percorrere prima di aver bisogno di una pausa di oltre 5 minuti?",
+          "#I rarely or never walk": "Cammino raramente o mai",
+          "#Less than 500 meters": "Meno di 500 metri",
+          "#From 500 meters to 1 km": "Da 500 metri a 1 km",
+          "#1 to 2 km": "Da 1 a 2 km",
+          "#More than 2 km": "Più di 2 km"
+        },
+        "fr": {
+          "#At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?": "À votre rythme de marche habituel, quelle distance pouvez-vous parcourir avant d’avoir besoin d’une pause de plus de 5 minutes ?",
+          "#I rarely or never walk": "Je marche rarement ou jamais",
+          "#Less than 500 meters": "Moins de 500 mètres",
+          "#From 500 meters to 1 km": "De 500 mètres à 1 km",
+          "#1 to 2 km": "De 1 à 2 km",
+          "#More than 2 km": "Plus de 2 km"
+        },
+        "de": {
+          "#At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?": "Wie weit können Sie in Ihrem üblichen Gehtempo gehen, bevor Sie eine Pause von mehr als 5 Minuten brauchen?",
+          "#I rarely or never walk": "Ich gehe selten oder nie zu Fuß",
+          "#Less than 500 meters": "Weniger als 500 Meter",
+          "#From 500 meters to 1 km": "500 Meter bis 1 km",
+          "#1 to 2 km": "1 bis 2 km",
+          "#More than 2 km": "Mehr als 2 km"
+        },
+        "tr": {
+          "#At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?": "Normal yürüme hızınızda, 5 dakikadan uzun bir mola vermeniz gerekmeden önce ne kadar yürüyebilirsiniz?",
+          "#I rarely or never walk": "Nadiren yürürüm veya hiç yürümem",
+          "#Less than 500 meters": "500 metreden az",
+          "#From 500 meters to 1 km": "500 metre ile 1 km arası",
+          "#1 to 2 km": "1 ile 2 km arası",
+          "#More than 2 km": "2 km’den fazla"
+        },
+        "fa": {
+          "#At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?": "با سرعت معمول راه رفتن خود، پیش از آن‌که به استراحتی بیش از ۵ دقیقه نیاز داشته باشید، چه مسافتی می‌توانید طی کنید؟",
+          "#I rarely or never walk": "به ندرت پیاده‌روی می‌کنم یا اصلاً پیاده نمی‌روم",
+          "#Less than 500 meters": "کمتر از ۵۰۰ متر",
+          "#From 500 meters to 1 km": "از ۵۰۰ متر تا ۱ کیلومتر",
+          "#1 to 2 km": "۱ تا ۲ کیلومتر",
+          "#More than 2 km": "بیش از ۲ کیلومتر"
+        },
+        "hu": {
+          "#At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?": "A szokásos gyaloglási tempójában mekkora távolságot tud megtenni, mielőtt 5 percnél hosszabb pihenőre lenne szüksége?",
+          "#I rarely or never walk": "Ritkán vagy soha nem gyalogolok",
+          "#Less than 500 meters": "Kevesebb mint 500 méter",
+          "#From 500 meters to 1 km": "500 métertől 1 km-ig",
+          "#1 to 2 km": "1-2 km",
+          "#More than 2 km": "Több mint 2 km"
+        },
+        "ar": {
+          "#At your usual walking pace, how far can you walk before needing a break longer than 5 minutes?": "بوتيرة مشيك المعتادة، ما المسافة التي يمكنك قطعها قبل أن تحتاج إلى استراحة تزيد عن 5 دقائق؟",
+          "#I rarely or never walk": "نادراً ما أمشي أو لا أمشي إطلاقًا",
+          "#Less than 500 meters": "أقل من 500 متر",
+          "#From 500 meters to 1 km": "من 500 متر إلى 1 كم",
+          "#1 to 2 km": "من 1 إلى 2 كم",
+          "#More than 2 km": "أكثر من 2 كم"
+        }
+      },
+      "source_questionnaires": [
+        "smarturbanity_about_you"
+      ]
+    },
+    "reference_5a717b4a604d": {
       "schema": {
         "text": "On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?",
         "answer_key": "walk_distance",
@@ -43,73 +142,96 @@
       },
       "translations": {
         "en": {
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
           "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?",
           "#I rarely or never walk": "I rarely or never walk",
           "#Less than 500 meters (about 5-6 minutes)": "Less than 500 meters (about 5-6 minutes)",
           "#From 500 meters to 1 km (about 10-15 minutes)": "From 500 meters to 1 km (about 10-15 minutes)",
           "#1 to 2 km (about 15-25 minutes)": "1 to 2 km (about 15-25 minutes)",
-          "#More than 2 km": "More than 2 km"
+          "#More than 2 km": "More than 2 km",
+          "#I don't know": "I don't know"
         },
         "it": {
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
           "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "In media, quanto riesci a camminare senza fare una pausa lunga, ad esempio superiore a 5 minuti?",
           "#I rarely or never walk": "Cammino raramente o mai",
           "#Less than 500 meters (about 5-6 minutes)": "Meno di 500 metri (circa 5-6 minuti)",
           "#From 500 meters to 1 km (about 10-15 minutes)": "Da 500 metri a 1 km (circa 10-15 minuti)",
           "#1 to 2 km (about 15-25 minutes)": "Da 1 a 2 km (circa 15-25 minuti)",
-          "#More than 2 km": "Più di 2 km"
+          "#More than 2 km": "Più di 2 km",
+          "#I don't know": "Non lo so"
         },
         "fr": {
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
           "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "En moyenne, quelle distance pouvez-vous marcher sans faire une longue pause, par exemple de plus de 5 minutes ?",
           "#I rarely or never walk": "Je marche rarement ou jamais",
           "#Less than 500 meters (about 5-6 minutes)": "Moins de 500 mètres (environ 5 à 6 minutes)",
           "#From 500 meters to 1 km (about 10-15 minutes)": "De 500 mètres à 1 km (environ 10 à 15 minutes)",
           "#1 to 2 km (about 15-25 minutes)": "De 1 à 2 km (environ 15 à 25 minutes)",
-          "#More than 2 km": "Plus de 2 km"
+          "#More than 2 km": "Plus de 2 km",
+          "#I don't know": "Je ne sais pas"
         },
         "de": {
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
           "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "Wie weit können Sie im Durchschnitt gehen, ohne eine längere Pause von zum Beispiel mehr als 5 Minuten zu machen?",
           "#I rarely or never walk": "Ich gehe selten oder nie zu Fuß",
           "#Less than 500 meters (about 5-6 minutes)": "Weniger als 500 Meter (etwa 5-6 Minuten)",
           "#From 500 meters to 1 km (about 10-15 minutes)": "500 Meter bis 1 km (etwa 10-15 Minuten)",
           "#1 to 2 km (about 15-25 minutes)": "1 bis 2 km (etwa 15-25 Minuten)",
-          "#More than 2 km": "Mehr als 2 km"
+          "#More than 2 km": "Mehr als 2 km",
+          "#I don't know": "Ich weiß es nicht"
         },
         "tr": {
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
           "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "Ortalama olarak, uzun bir mola vermeden ne kadar yürüyebilirsiniz? Örneğin 5 dakikadan uzun bir mola vermeden.",
           "#I rarely or never walk": "Nadiren yürürüm veya hiç yürümem",
           "#Less than 500 meters (about 5-6 minutes)": "500 metreden az (yaklaşık 5-6 dakika)",
           "#From 500 meters to 1 km (about 10-15 minutes)": "500 metre ile 1 km arası (yaklaşık 10-15 dakika)",
           "#1 to 2 km (about 15-25 minutes)": "1 ile 2 km arası (yaklaşık 15-25 dakika)",
-          "#More than 2 km": "2 km’den fazla"
+          "#More than 2 km": "2 km’den fazla",
+          "#I don't know": "Bilmiyorum"
         },
         "fa": {
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
           "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "به طور متوسط، بدون یک استراحت طولانی، مثلاً بیش از ۵ دقیقه، چه مسافتی می‌توانید پیاده بروید؟",
           "#I rarely or never walk": "به ندرت پیاده‌روی می‌کنم یا اصلاً پیاده نمی‌روم",
           "#Less than 500 meters (about 5-6 minutes)": "کمتر از ۵۰۰ متر (حدود ۵ تا ۶ دقیقه)",
           "#From 500 meters to 1 km (about 10-15 minutes)": "از ۵۰۰ متر تا ۱ کیلومتر (حدود ۱۰ تا ۱۵ دقیقه)",
           "#1 to 2 km (about 15-25 minutes)": "۱ تا ۲ کیلومتر (حدود ۱۵ تا ۲۵ دقیقه)",
-          "#More than 2 km": "بیش از ۲ کیلومتر"
+          "#More than 2 km": "بیش از ۲ کیلومتر",
+          "#I don't know": "نمی‌دانم"
         },
         "hu": {
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
           "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "Átlagosan milyen messzire tud gyalogolni hosszabb, például 5 percnél hosszabb pihenő nélkül?",
           "#I rarely or never walk": "Ritkán vagy soha nem gyalogolok",
           "#Less than 500 meters (about 5-6 minutes)": "Kevesebb mint 500 méter (kb. 5-6 perc)",
           "#From 500 meters to 1 km (about 10-15 minutes)": "500 métertől 1 km-ig (kb. 10-15 perc)",
           "#1 to 2 km (about 15-25 minutes)": "1-2 km (kb. 15-25 perc)",
-          "#More than 2 km": "Több mint 2 km"
+          "#More than 2 km": "Több mint 2 km",
+          "#I don't know": "Nem tudom"
         },
         "ar": {
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
           "#On average, how far can you walk without taking a long break (e.g., more than 5 minutes)?": "في المتوسط، ما المسافة التي تستطيع مشيها دون أخذ استراحة طويلة، مثل استراحة تزيد على 5 دقائق؟",
           "#I rarely or never walk": "نادراً ما أمشي أو لا أمشي إطلاقًا",
           "#Less than 500 meters (about 5-6 minutes)": "أقل من 500 متر (حوالي 5-6 دقائق)",
           "#From 500 meters to 1 km (about 10-15 minutes)": "من 500 متر إلى 1 كم (حوالي 10-15 دقيقة)",
           "#1 to 2 km (about 15-25 minutes)": "من 1 إلى 2 كم (حوالي 15-25 دقيقة)",
-          "#More than 2 km": "أكثر من 2 كم"
+          "#More than 2 km": "أكثر من 2 كم",
+          "#I don't know": "لا أعرف"
         }
       },
-      "source_questionnaires": [
-        "smarturbanity_about_you"
-      ]
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

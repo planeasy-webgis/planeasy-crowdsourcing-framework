@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.moto_charging",
   "project": "SmartUrbanity",
   "key": "moto_charging",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_motorcycle",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_motorcycle"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?",
         "answer_key": "moto_charging",
+        "legacy_answer_keys": [
+          "moto_charging_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -41,9 +43,6 @@
             "text": "Extremely influential",
             "value": "extremely_influential"
           }
-        ],
-        "legacy_answer_keys": [
-          "moto_charging_v1"
         ]
       },
       "translations": {
@@ -123,6 +122,115 @@
       "source_questionnaires": [
         "smarturbanity_motorcycle"
       ]
+    },
+    "reference_1c1497dfc6d2": {
+      "schema": {
+        "text": "To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?",
+        "answer_key": "moto_charging",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "I don't have an electric vehicle, so this doesn't apply to me",
+            "value": "i_don_t_have_an_electric_vehicle_so_this"
+          },
+          {
+            "text": "Not at all influential",
+            "value": "not_at_all_influential"
+          },
+          {
+            "text": "Slightly influential",
+            "value": "slightly_influential"
+          },
+          {
+            "text": "Moderately influential",
+            "value": "moderately_influential"
+          },
+          {
+            "text": "Very influential",
+            "value": "very_influential"
+          },
+          {
+            "text": "Extremely influential",
+            "value": "extremely_influential"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?",
+          "#I don't have an electric vehicle, so this doesn't apply to me": "I don't have an electric vehicle, so this doesn't apply to me",
+          "#Not at all influential": "Not at all influential",
+          "#Slightly influential": "Slightly influential",
+          "#Moderately influential": "Moderately influential",
+          "#Very influential": "Very influential",
+          "#Extremely influential": "Extremely influential"
+        },
+        "it": {
+          "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "In che misura la presenza di stazioni di ricarica per moto o scooter elettrici influenza la tua propensione a utilizzare il tuo veicolo?",
+          "#I don't have an electric vehicle, so this doesn't apply to me": "Non possiedo un veicolo elettrico, quindi questa domanda non si applica al mio caso",
+          "#Not at all influential": "Per niente influente",
+          "#Slightly influential": "Poco influente",
+          "#Moderately influential": "Moderatamente influente",
+          "#Very influential": "Molto influente",
+          "#Extremely influential": "Estremamente influente"
+        },
+        "fr": {
+          "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "Dans quelle mesure la présence de bornes de recharge pour motos ou scooters électriques influence-t-elle votre envie d’utiliser votre véhicule ?",
+          "#I don't have an electric vehicle, so this doesn't apply to me": "Je n’ai pas de véhicule électrique, donc cette question ne me concerne pas",
+          "#Not at all influential": "Pas du tout",
+          "#Slightly influential": "Un peu",
+          "#Moderately influential": "Modérément",
+          "#Very influential": "Beaucoup",
+          "#Extremely influential": "Énormément"
+        },
+        "de": {
+          "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "Wie stark beeinflusst das Vorhandensein von Ladestationen für elektrische Motorräder oder Roller Ihre Bereitschaft, Ihr Fahrzeug zu nutzen?",
+          "#I don't have an electric vehicle, so this doesn't apply to me": "Ich habe kein Elektrofahrzeug, daher trifft das auf mich nicht zu",
+          "#Not at all influential": "Gar nicht",
+          "#Slightly influential": "Etwas",
+          "#Moderately influential": "Mäßig",
+          "#Very influential": "Stark",
+          "#Extremely influential": "Sehr stark"
+        },
+        "tr": {
+          "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "Elektrikli motosiklet veya scooter için şarj istasyonlarının bulunması aracınızı kullanma isteğinizi ne ölçüde etkiler?",
+          "#I don't have an electric vehicle, so this doesn't apply to me": "Elektrikli aracım yok, bu nedenle bu soru benim için geçerli değil",
+          "#Not at all influential": "Hiç etkilemez",
+          "#Slightly influential": "Biraz etkiler",
+          "#Moderately influential": "Orta düzeyde etkiler",
+          "#Very influential": "Çok etkiler",
+          "#Extremely influential": "Çok güçlü etkiler"
+        },
+        "fa": {
+          "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "وجود ایستگاه شارژ برای موتورسیکلت یا اسکوتر برقی تا چه اندازه بر تمایل شما به استفاده از وسیله‌تان اثر دارد؟",
+          "#I don't have an electric vehicle, so this doesn't apply to me": "وسیله برقی ندارم، پس این موضوع برای من کاربرد ندارد",
+          "#Not at all influential": "اصلاً اثر ندارد",
+          "#Slightly influential": "کمی اثر دارد",
+          "#Moderately influential": "تا حد متوسط اثر دارد",
+          "#Very influential": "زیاد اثر دارد",
+          "#Extremely influential": "خیلی زیاد اثر دارد"
+        },
+        "hu": {
+          "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "Mennyire befolyásolja az elektromos motorkerékpárok vagy robogók töltőállomásainak elérhetősége azt, hogy szívesen használja-e a járművét?",
+          "#I don't have an electric vehicle, so this doesn't apply to me": "Nincs elektromos járművem, ezért ez nem vonatkozik rám",
+          "#Not at all influential": "Egyáltalán nem befolyásolja",
+          "#Slightly influential": "Kissé befolyásolja",
+          "#Moderately influential": "Közepesen befolyásolja",
+          "#Very influential": "Nagyon befolyásolja",
+          "#Extremely influential": "Rendkívül befolyásolja"
+        },
+        "ar": {
+          "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "إلى أي مدى يؤثر توفر محطات شحن للدراجات النارية أو السكوتر الكهربائية في رغبتك في استخدام مركبتك؟",
+          "#I don't have an electric vehicle, so this doesn't apply to me": "ليس لدي مركبة كهربائية، لذلك لا ينطبق هذا عليّ",
+          "#Not at all influential": "لا يؤثر إطلاقًا",
+          "#Slightly influential": "يؤثر قليلًا",
+          "#Moderately influential": "يؤثر بدرجة متوسطة",
+          "#Very influential": "يؤثر كثيرًا",
+          "#Extremely influential": "يؤثر بدرجة كبيرة جدًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

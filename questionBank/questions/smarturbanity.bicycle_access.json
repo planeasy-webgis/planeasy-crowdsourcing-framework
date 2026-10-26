@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.bicycle_access",
   "project": "SmartUrbanity",
   "key": "bicycle_access",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -130,6 +129,133 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_128f8d95a8fd": {
+      "schema": {
+        "text": "Can people pass through this place by bicycle or e-scooter?",
+        "answer_key": "bicycle_access",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes, with a dedicated bicycle space",
+            "value": "dedicated_bicycle_space"
+          },
+          {
+            "text": "Yes, shared with people walking",
+            "value": "shared_with_pedestrians"
+          },
+          {
+            "text": "Yes, shared with traffic",
+            "value": "shared_with_traffic"
+          },
+          {
+            "text": "Yes, but you need to get off and push the bicycle",
+            "value": "dismount_needed"
+          },
+          {
+            "text": "No, cycling is forbidden",
+            "value": "no_forbidden"
+          },
+          {
+            "text": "No, it is not possible to get through by bicycle or e-scooter",
+            "value": "no_cannot_pass"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Can people pass through this place by bicycle or e-scooter?": "Can people pass through this place by bicycle or e-scooter?",
+          "#Yes, with a dedicated bicycle space": "Yes, with a dedicated bicycle space",
+          "#Yes, shared with people walking": "Yes, shared with people walking",
+          "#Yes, shared with traffic": "Yes, shared with traffic",
+          "#Yes, but you need to get off and push the bicycle": "Yes, but you need to get off and push the bicycle",
+          "#No, cycling is forbidden": "No, cycling is forbidden",
+          "#No, it is not possible to get through by bicycle or e-scooter": "No, it is not possible to get through by bicycle or e-scooter",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Can people pass through this place by bicycle or e-scooter?": "Si può passare in bici o in monopattino in questo luogo?",
+          "#Yes, with a dedicated bicycle space": "Sì, con uno spazio dedicato alle biciclette",
+          "#Yes, shared with people walking": "Sì, condiviso con persone a piedi",
+          "#Yes, shared with traffic": "Sì, condiviso con il traffico",
+          "#Yes, but you need to get off and push the bicycle": "Sì, ma bisogna scendere e spingere la bici",
+          "#No, cycling is forbidden": "No, in bicicletta è vietato",
+          "#No, it is not possible to get through by bicycle or e-scooter": "No, in bici o in monopattino non si riesce a passare",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Can people pass through this place by bicycle or e-scooter?": "Peut-on passer à vélo ou en trottinette électrique dans ce lieu ?",
+          "#Yes, with a dedicated bicycle space": "Oui, avec un espace réservé aux vélos",
+          "#Yes, shared with people walking": "Oui, dans un espace partagé avec les personnes à pied",
+          "#Yes, shared with traffic": "Oui, dans un espace partagé avec la circulation",
+          "#Yes, but you need to get off and push the bicycle": "Oui, mais il faut descendre et pousser le vélo",
+          "#No, cycling is forbidden": "Non, le vélo est interdit",
+          "#No, it is not possible to get through by bicycle or e-scooter": "Non, il est impossible de passer à vélo ou en trottinette électrique",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Can people pass through this place by bicycle or e-scooter?": "Kann man diesen Ort mit dem Fahrrad oder E-Scooter passieren?",
+          "#Yes, with a dedicated bicycle space": "Ja, mit einem eigenen Fahrradbereich",
+          "#Yes, shared with people walking": "Ja, gemeinsam mit Personen zu Fuß",
+          "#Yes, shared with traffic": "Ja, gemeinsam mit dem Verkehr",
+          "#Yes, but you need to get off and push the bicycle": "Ja, aber man muss absteigen und das Fahrrad schieben",
+          "#No, cycling is forbidden": "Nein, Radfahren ist verboten",
+          "#No, it is not possible to get through by bicycle or e-scooter": "Nein, mit dem Fahrrad oder E-Scooter kommt man nicht durch",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Can people pass through this place by bicycle or e-scooter?": "Bu yerden bisikletle veya elektrikli scooterla geçilebilir mi?",
+          "#Yes, with a dedicated bicycle space": "Evet, ayrılmış bir bisiklet alanıyla",
+          "#Yes, shared with people walking": "Evet, yürüyen kişilerle ortak",
+          "#Yes, shared with traffic": "Evet, trafikle ortak",
+          "#Yes, but you need to get off and push the bicycle": "Evet, ama inip bisikleti itmek gerekiyor",
+          "#No, cycling is forbidden": "Hayır, bisiklet yasak",
+          "#No, it is not possible to get through by bicycle or e-scooter": "Hayır, bisikletle veya elektrikli scooterla geçmek mümkün değil",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Can people pass through this place by bicycle or e-scooter?": "آیا می‌توان با دوچرخه یا اسکوتر برقی از این مکان عبور کرد؟",
+          "#Yes, with a dedicated bicycle space": "بله، با فضای اختصاصی دوچرخه",
+          "#Yes, shared with people walking": "بله، مشترک با افراد پیاده",
+          "#Yes, shared with traffic": "بله، مشترک با ترافیک",
+          "#Yes, but you need to get off and push the bicycle": "بله، اما باید پیاده شد و دوچرخه را هل داد",
+          "#No, cycling is forbidden": "خیر، دوچرخه‌سواری ممنوع است",
+          "#No, it is not possible to get through by bicycle or e-scooter": "خیر، با دوچرخه یا اسکوتر برقی عبور ممکن نیست",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Can people pass through this place by bicycle or e-scooter?": "Át lehet-e haladni ezen a helyen kerékpárral vagy elektromos rollerrel?",
+          "#Yes, with a dedicated bicycle space": "Igen, külön kerékpáros térrel",
+          "#Yes, shared with people walking": "Igen, a gyalogosan közlekedőkkel közösen",
+          "#Yes, shared with traffic": "Igen, a forgalommal közösen",
+          "#Yes, but you need to get off and push the bicycle": "Igen, de le kell szállni és tolni kell a kerékpárt",
+          "#No, cycling is forbidden": "Nem, kerékpárral tilos",
+          "#No, it is not possible to get through by bicycle or e-scooter": "Nem, kerékpárral vagy elektromos rollerrel nem lehet átjutni",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Can people pass through this place by bicycle or e-scooter?": "هل يمكن المرور بالدراجة أو السكوتر الكهربائي في هذا المكان؟",
+          "#Yes, with a dedicated bicycle space": "نعم، مع مساحة مخصصة للدراجات",
+          "#Yes, shared with people walking": "نعم، بمشاركة الأشخاص سيرًا",
+          "#Yes, shared with traffic": "نعم، بمشاركة حركة المرور",
+          "#Yes, but you need to get off and push the bicycle": "نعم، لكن يجب النزول ودفع الدراجة",
+          "#No, cycling is forbidden": "لا، ركوب الدراجة ممنوع",
+          "#No, it is not possible to get through by bicycle or e-scooter": "لا، لا يمكن المرور بالدراجة أو السكوتر الكهربائي",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.bike_infra_adequacy",
   "project": "SmartUrbanity",
   "key": "bike_infra_adequacy",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_cycling",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_cycling"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?",
         "answer_key": "bike_infra_adequacy",
+        "legacy_answer_keys": [
+          "bike_infra_adequacy_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "Very adequate — cycling infrastructure is excellent throughout my route",
             "value": "very_adequate_cycling_infrastructure_is"
           }
-        ],
-        "legacy_answer_keys": [
-          "bike_infra_adequacy_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_cycling"
       ]
+    },
+    "reference_76635ac9d4d9": {
+      "schema": {
+        "text": "How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?",
+        "answer_key": "bike_infra_adequacy",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very inadequate — little or no cycling infrastructure exists",
+            "value": "very_inadequate_little_or_no_cycling_inf"
+          },
+          {
+            "text": "Inadequate — some provision exists but it is fragmented or poorly designed",
+            "value": "inadequate_some_provision_exists_but_it"
+          },
+          {
+            "text": "Partially adequate — infrastructure covers part of my route",
+            "value": "partially_adequate_infrastructure_covers"
+          },
+          {
+            "text": "Mostly adequate — infrastructure is reasonably good along most of my route",
+            "value": "mostly_adequate_infrastructure_is_reason"
+          },
+          {
+            "text": "Very adequate — cycling infrastructure is excellent throughout my route",
+            "value": "very_adequate_cycling_infrastructure_is"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?": "How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?",
+          "#Very inadequate — little or no cycling infrastructure exists": "Very inadequate — little or no cycling infrastructure exists",
+          "#Inadequate — some provision exists but it is fragmented or poorly designed": "Inadequate — some provision exists but it is fragmented or poorly designed",
+          "#Partially adequate — infrastructure covers part of my route": "Partially adequate — infrastructure covers part of my route",
+          "#Mostly adequate — infrastructure is reasonably good along most of my route": "Mostly adequate — infrastructure is reasonably good along most of my route",
+          "#Very adequate — cycling infrastructure is excellent throughout my route": "Very adequate — cycling infrastructure is excellent throughout my route",
+          "#Other": "Other"
+        },
+        "it": {
+          "#How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?": "Quanto è adeguata l’infrastruttura ciclabile, comprese piste, percorsi e segnaletica, lungo il tuo tragitto abituale?",
+          "#Very inadequate — little or no cycling infrastructure exists": "Del tutto inadeguata — l’infrastruttura ciclabile è scarsa o assente",
+          "#Inadequate — some provision exists but it is fragmented or poorly designed": "Inadeguata — esistono alcune infrastrutture, ma sono frammentate o mal progettate",
+          "#Partially adequate — infrastructure covers part of my route": "Parzialmente adeguata — l’infrastruttura copre solo una parte del mio percorso",
+          "#Mostly adequate — infrastructure is reasonably good along most of my route": "Per lo più adeguata — l’infrastruttura è abbastanza buona lungo gran parte del mio percorso",
+          "#Very adequate — cycling infrastructure is excellent throughout my route": "Molto adeguata — l’infrastruttura ciclabile è eccellente lungo tutto il mio percorso",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?": "Les infrastructures cyclables de votre trajet habituel, comme les pistes, les voies et la signalisation, sont-elles adaptées ?",
+          "#Very inadequate — little or no cycling infrastructure exists": "Très insuffisantes — il y a peu ou pas d’infrastructures cyclables",
+          "#Inadequate — some provision exists but it is fragmented or poorly designed": "Insuffisantes — certaines infrastructures existent, mais elles sont discontinues ou mal conçues",
+          "#Partially adequate — infrastructure covers part of my route": "Partiellement adaptées — les infrastructures couvrent une partie de mon trajet",
+          "#Mostly adequate — infrastructure is reasonably good along most of my route": "Plutôt adaptées — les infrastructures sont assez bonnes sur la majeure partie de mon trajet",
+          "#Very adequate — cycling infrastructure is excellent throughout my route": "Très adaptées — les infrastructures cyclables sont excellentes sur tout mon trajet",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?": "Wie gut ist die Fahrradinfrastruktur auf Ihrer üblichen Strecke, zum Beispiel Radwege, Fahrstreifen und Beschilderung?",
+          "#Very inadequate — little or no cycling infrastructure exists": "Sehr schlecht — es gibt kaum oder keine Fahrradinfrastruktur",
+          "#Inadequate — some provision exists but it is fragmented or poorly designed": "Schlecht — es gibt zwar Infrastruktur, aber sie ist lückenhaft oder schlecht gestaltet",
+          "#Partially adequate — infrastructure covers part of my route": "Teilweise gut — die Infrastruktur deckt einen Teil meiner Strecke ab",
+          "#Mostly adequate — infrastructure is reasonably good along most of my route": "Meist gut — auf dem größten Teil meiner Strecke ist die Infrastruktur in Ordnung",
+          "#Very adequate — cycling infrastructure is excellent throughout my route": "Sehr gut — auf meiner gesamten Strecke ist die Fahrradinfrastruktur sehr gut",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?": "Tipik güzergâhınızdaki bisiklet altyapısı, örneğin bisiklet yolları, şeritler ve yönlendirme işaretleri, ne kadar yeterli?",
+          "#Very inadequate — little or no cycling infrastructure exists": "Çok yetersiz — çok az bisiklet altyapısı var veya hiç yok",
+          "#Inadequate — some provision exists but it is fragmented or poorly designed": "Yetersiz — bazı altyapılar var, ancak kesintili veya kötü tasarlanmış",
+          "#Partially adequate — infrastructure covers part of my route": "Kısmen yeterli — altyapı güzergâhımın bir bölümünü kapsıyor",
+          "#Mostly adequate — infrastructure is reasonably good along most of my route": "Büyük ölçüde yeterli — güzergâhımın çoğunda altyapı oldukça iyi",
+          "#Very adequate — cycling infrastructure is excellent throughout my route": "Çok yeterli — güzergâhım boyunca bisiklet altyapısı çok iyi",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?": "زیرساخت دوچرخه در مسیر معمول شما، مانند مسیر دوچرخه، خط دوچرخه و تابلوها، چقدر مناسب است؟",
+          "#Very inadequate — little or no cycling infrastructure exists": "بسیار نامناسب — زیرساخت دوچرخه بسیار کم است یا وجود ندارد",
+          "#Inadequate — some provision exists but it is fragmented or poorly designed": "نامناسب — مقداری زیرساخت وجود دارد، اما پیوسته نیست یا طراحی خوبی ندارد",
+          "#Partially adequate — infrastructure covers part of my route": "تا حدی مناسب — زیرساخت بخشی از مسیر من را پوشش می‌دهد",
+          "#Mostly adequate — infrastructure is reasonably good along most of my route": "بیشتر مناسب — در بیشتر مسیر من زیرساخت نسبتاً خوب است",
+          "#Very adequate — cycling infrastructure is excellent throughout my route": "بسیار مناسب — در تمام مسیر من زیرساخت دوچرخه بسیار خوب است",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?": "Mennyire megfelelő a kerékpáros infrastruktúra a szokásos útvonalán, például a kerékpársávok, kerékpárutak és jelzések?",
+          "#Very inadequate — little or no cycling infrastructure exists": "Nagyon nem megfelelő — alig van vagy egyáltalán nincs kerékpáros infrastruktúra",
+          "#Inadequate — some provision exists but it is fragmented or poorly designed": "Nem megfelelő — van némi infrastruktúra, de szakaszos vagy rosszul kialakított",
+          "#Partially adequate — infrastructure covers part of my route": "Részben megfelelő — az infrastruktúra az útvonalam egy részét lefedi",
+          "#Mostly adequate — infrastructure is reasonably good along most of my route": "Többnyire megfelelő — az útvonalam nagy részén elég jó az infrastruktúra",
+          "#Very adequate — cycling infrastructure is excellent throughout my route": "Nagyon megfelelő — az egész útvonalon nagyon jó a kerékpáros infrastruktúra",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#How adequate is the cycling infrastructure (cycle lanes, paths, and signage) on your typical route?": "ما مدى ملاءمة البنية التحتية للدراجات على طريقك المعتاد، مثل مسارات الدراجات والحارات والإشارات؟",
+          "#Very inadequate — little or no cycling infrastructure exists": "غير ملائمة جدًا — توجد بنية تحتية قليلة جدًا أو لا توجد إطلاقًا",
+          "#Inadequate — some provision exists but it is fragmented or poorly designed": "غير ملائمة — توجد بعض التجهيزات لكنها متقطعة أو سيئة التصميم",
+          "#Partially adequate — infrastructure covers part of my route": "ملائمة جزئيًا — تغطي البنية التحتية جزءًا من طريقي",
+          "#Mostly adequate — infrastructure is reasonably good along most of my route": "ملائمة في معظم الطريق — البنية التحتية جيدة نسبيًا على معظم الطريق",
+          "#Very adequate — cycling infrastructure is excellent throughout my route": "ملائمة جدًا — البنية التحتية للدراجات ممتازة على كامل الطريق",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

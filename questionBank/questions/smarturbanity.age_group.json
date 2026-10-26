@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.age_group",
   "project": "SmartUrbanity",
   "key": "age_group",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "What is your age group? (Participation is limited to adults aged 18 or older)",
         "answer_key": "age_group",
+        "legacy_answer_keys": [
+          "age_group_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -50,10 +52,7 @@
             "value": "85_or_older"
           }
         ],
-        "add_prefer_not_to_say": true,
-        "legacy_answer_keys": [
-          "age_group_v1"
-        ]
+        "add_prefer_not_to_say": true
       },
       "translations": {
         "en": {
@@ -156,6 +155,164 @@
       "source_questionnaires": [
         "smarturbanity_about_you"
       ]
+    },
+    "reference_242cf4a1cfc1": {
+      "schema": {
+        "text": "What is your age group? (Participation is limited to adults aged 18 or older)",
+        "answer_key": "age_group",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "18-24",
+            "value": "18_24"
+          },
+          {
+            "text": "25-34",
+            "value": "25_34"
+          },
+          {
+            "text": "35-44",
+            "value": "35_44"
+          },
+          {
+            "text": "45-54",
+            "value": "45_54"
+          },
+          {
+            "text": "55-64",
+            "value": "55_64"
+          },
+          {
+            "text": "65-74",
+            "value": "65_74"
+          },
+          {
+            "text": "75-84",
+            "value": "75_84"
+          },
+          {
+            "text": "85 or older",
+            "value": "85_or_older"
+          }
+        ],
+        "add_prefer_not_to_say": true
+      },
+      "translations": {
+        "en": {
+          "#What is your age group? (Participation is limited to adults aged 18 or older)": "What is your age group? (Participation is limited to adults aged 18 or older)",
+          "#18-24": "18-24",
+          "#25-34": "25-34",
+          "#35-44": "35-44",
+          "#45-54": "45-54",
+          "#55-64": "55-64",
+          "#65-74": "65-74",
+          "#75-84": "75-84",
+          "#85 or older": "85 or older",
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What is your age group? (Participation is limited to adults aged 18 or older)": "Qual è la tua fascia d’età? (La partecipazione è riservata alle persone di almeno 18 anni)",
+          "#18-24": "18-24",
+          "#25-34": "25-34",
+          "#35-44": "35-44",
+          "#45-54": "45-54",
+          "#55-64": "55-64",
+          "#65-74": "65-74",
+          "#75-84": "75-84",
+          "#85 or older": "85 anni o più",
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What is your age group? (Participation is limited to adults aged 18 or older)": "Dans quelle tranche d’âge êtes-vous ? (La participation est réservée aux personnes de 18 ans ou plus)",
+          "#18-24": "18-24",
+          "#25-34": "25-34",
+          "#35-44": "35-44",
+          "#45-54": "45-54",
+          "#55-64": "55-64",
+          "#65-74": "65-74",
+          "#75-84": "75-84",
+          "#85 or older": "85 ans ou plus",
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What is your age group? (Participation is limited to adults aged 18 or older)": "Zu welcher Altersgruppe gehören Sie? (Teilnehmen können nur Personen ab 18 Jahren)",
+          "#18-24": "18-24",
+          "#25-34": "25-34",
+          "#35-44": "35-44",
+          "#45-54": "45-54",
+          "#55-64": "55-64",
+          "#65-74": "65-74",
+          "#75-84": "75-84",
+          "#85 or older": "85 Jahre oder älter",
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What is your age group? (Participation is limited to adults aged 18 or older)": "Hangi yaş grubundasınız? (Katılım 18 yaş ve üzerindeki yetişkinlerle sınırlıdır)",
+          "#18-24": "18-24",
+          "#25-34": "25-34",
+          "#35-44": "35-44",
+          "#45-54": "45-54",
+          "#55-64": "55-64",
+          "#65-74": "65-74",
+          "#75-84": "75-84",
+          "#85 or older": "85 yaş veya üzeri",
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What is your age group? (Participation is limited to adults aged 18 or older)": "در کدام گروه سنی هستید؟ (شرکت در این مطالعه فقط برای افراد ۱۸ ساله و بالاتر است)",
+          "#18-24": "18-24",
+          "#25-34": "25-34",
+          "#35-44": "35-44",
+          "#45-54": "45-54",
+          "#55-64": "55-64",
+          "#65-74": "65-74",
+          "#75-84": "75-84",
+          "#85 or older": "۸۵ سال یا بیشتر",
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What is your age group? (Participation is limited to adults aged 18 or older)": "Melyik korcsoportba tartozik? (A részvétel 18 éves vagy idősebb felnőttek számára lehetséges)",
+          "#18-24": "18-24",
+          "#25-34": "25-34",
+          "#35-44": "35-44",
+          "#45-54": "45-54",
+          "#55-64": "55-64",
+          "#65-74": "65-74",
+          "#75-84": "75-84",
+          "#85 or older": "85 éves vagy idősebb",
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What is your age group? (Participation is limited to adults aged 18 or older)": "ما فئتك العمرية؟ (المشاركة متاحة فقط للبالغين من عمر 18 سنة فأكثر)",
+          "#18-24": "18-24",
+          "#25-34": "25-34",
+          "#35-44": "35-44",
+          "#45-54": "45-54",
+          "#55-64": "55-64",
+          "#65-74": "65-74",
+          "#75-84": "75-84",
+          "#85 or older": "85 سنة أو أكثر",
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

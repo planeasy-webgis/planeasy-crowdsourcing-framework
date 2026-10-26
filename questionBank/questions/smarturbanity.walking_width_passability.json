@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.walking_width_passability",
   "project": "SmartUrbanity",
   "key": "walking_width_passability",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_segment_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -118,6 +117,121 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_1d875026ac3f": {
+      "schema": {
+        "text": "How wide is the space for walking?",
+        "answer_key": "walking_width_passability",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Only one person can just about pass",
+            "value": "1_barely_one_person"
+          },
+          {
+            "text": "One person can pass, but not a stroller or wheelchair",
+            "value": "2_no_stroller_wheelchair"
+          },
+          {
+            "text": "A stroller or wheelchair can pass, but people cannot pass each other",
+            "value": "3_stroller_wheelchair_no_passing"
+          },
+          {
+            "text": "Two people can pass each other",
+            "value": "4_two_people_pass"
+          },
+          {
+            "text": "Very wide, with plenty of room to move",
+            "value": "5_very_wide"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How wide is the space for walking?": "How wide is the space for walking?",
+          "#Only one person can just about pass": "Only one person can just about pass",
+          "#One person can pass, but not a stroller or wheelchair": "One person can pass, but not a stroller or wheelchair",
+          "#A stroller or wheelchair can pass, but people cannot pass each other": "A stroller or wheelchair can pass, but people cannot pass each other",
+          "#Two people can pass each other": "Two people can pass each other",
+          "#Very wide, with plenty of room to move": "Very wide, with plenty of room to move",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How wide is the space for walking?": "Quanto è largo lo spazio per camminare?",
+          "#Only one person can just about pass": "Passa a fatica una sola persona",
+          "#One person can pass, but not a stroller or wheelchair": "Passa una persona, ma non un passeggino o una sedia a rotelle",
+          "#A stroller or wheelchair can pass, but people cannot pass each other": "Passano un passeggino o una sedia a rotelle, ma non ci si incrocia",
+          "#Two people can pass each other": "Due persone si incrociano senza problemi",
+          "#Very wide, with plenty of room to move": "Molto ampio, con molto spazio per muoversi",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How wide is the space for walking?": "Quelle est la largeur de l'espace pour marcher ?",
+          "#Only one person can just about pass": "Une seule personne passe tout juste",
+          "#One person can pass, but not a stroller or wheelchair": "Une personne passe, mais pas une poussette ni un fauteuil roulant",
+          "#A stroller or wheelchair can pass, but people cannot pass each other": "Une poussette ou un fauteuil roulant passe, mais on ne peut pas se croiser",
+          "#Two people can pass each other": "Deux personnes peuvent se croiser",
+          "#Very wide, with plenty of room to move": "Très large, avec beaucoup d’espace pour se déplacer",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How wide is the space for walking?": "Wie breit ist der Bereich zum Gehen?",
+          "#Only one person can just about pass": "Gerade einmal eine Person kommt durch",
+          "#One person can pass, but not a stroller or wheelchair": "Eine Person kommt durch, aber kein Kinderwagen oder Rollstuhl",
+          "#A stroller or wheelchair can pass, but people cannot pass each other": "Ein Kinderwagen oder Rollstuhl kommt durch, aber man kann einander nicht ausweichen",
+          "#Two people can pass each other": "Zwei Personen können aneinander vorbeigehen",
+          "#Very wide, with plenty of room to move": "Sehr breit, mit viel Bewegungsraum",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How wide is the space for walking?": "Yürüme alanı ne kadar geniş?",
+          "#Only one person can just about pass": "Ancak tek bir kişi zorlukla geçebiliyor",
+          "#One person can pass, but not a stroller or wheelchair": "Bir kişi geçebiliyor, ama bebek arabası veya tekerlekli sandalye geçemiyor",
+          "#A stroller or wheelchair can pass, but people cannot pass each other": "Bebek arabası veya tekerlekli sandalye geçebiliyor, ama karşılaşan kişiler birbirinin yanından geçemiyor",
+          "#Two people can pass each other": "İki kişi rahatça karşılaşıp geçebiliyor",
+          "#Very wide, with plenty of room to move": "Çok geniş, hareket etmek için bol alan var",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How wide is the space for walking?": "فضای پیاده‌روی چقدر عریض است؟",
+          "#Only one person can just about pass": "فقط یک نفر به‌زحمت عبور می‌کند",
+          "#One person can pass, but not a stroller or wheelchair": "یک نفر عبور می‌کند، اما کالسکه یا ویلچر نه",
+          "#A stroller or wheelchair can pass, but people cannot pass each other": "کالسکه یا ویلچر عبور می‌کند، اما دو نفر نمی‌توانند از کنار هم رد شوند",
+          "#Two people can pass each other": "دو نفر می‌توانند از کنار هم عبور کنند",
+          "#Very wide, with plenty of room to move": "بسیار پهن، با فضای فراوان برای حرکت",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How wide is the space for walking?": "Milyen széles a gyalogosok helye?",
+          "#Only one person can just about pass": "Épphogy elfér egy ember",
+          "#One person can pass, but not a stroller or wheelchair": "Egy ember elfér, de babakocsi vagy kerekesszék nem",
+          "#A stroller or wheelchair can pass, but people cannot pass each other": "Babakocsi vagy kerekesszék elfér, de kikerülni nem lehet egymást",
+          "#Two people can pass each other": "Két ember el tud haladni egymás mellett",
+          "#Very wide, with plenty of room to move": "Nagyon széles, sok hely van a mozgáshoz",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How wide is the space for walking?": "ما مدى اتساع مساحة المشي؟",
+          "#Only one person can just about pass": "بالكاد يمر شخص واحد",
+          "#One person can pass, but not a stroller or wheelchair": "يمر شخص واحد، لكن لا تمر عربة أطفال أو كرسي متحرك",
+          "#A stroller or wheelchair can pass, but people cannot pass each other": "تمر عربة أطفال أو كرسي متحرك، لكن لا يمكن للأشخاص تجاوز بعضهم",
+          "#Two people can pass each other": "يمكن لشخصين أن يمرا بجانب بعضهما",
+          "#Very wide, with plenty of room to move": "واسع جدًا، مع مساحة كبيرة للحركة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

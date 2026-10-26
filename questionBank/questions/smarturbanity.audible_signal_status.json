@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.audible_signal_status",
   "project": "SmartUrbanity",
   "key": "audible_signal_status",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -94,6 +93,97 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_7242d13785d4": {
+      "schema": {
+        "text": "Does the traffic light have a sound signal for people who cannot see?",
+        "answer_key": "audible_signal_status",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes, and it works",
+            "value": "working"
+          },
+          {
+            "text": "Yes, but it does not work or can barely be heard",
+            "value": "broken"
+          },
+          {
+            "text": "No, there is none",
+            "value": "missing"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#I don't know": "I don't know",
+          "#Does the traffic light have a sound signal for people who cannot see?": "Does the traffic light have a sound signal for people who cannot see?",
+          "#Yes, and it works": "Yes, and it works",
+          "#Yes, but it does not work or can barely be heard": "Yes, but it does not work or can barely be heard",
+          "#No, there is none": "No, there is none"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#I don't know": "Non lo so",
+          "#Does the traffic light have a sound signal for people who cannot see?": "Il semaforo ha il segnale sonoro per chi non vede?",
+          "#Yes, and it works": "Sì, e funziona",
+          "#Yes, but it does not work or can barely be heard": "Sì, ma non funziona o si sente appena",
+          "#No, there is none": "No, manca"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas",
+          "#Does the traffic light have a sound signal for people who cannot see?": "Le feu a-t-il un signal sonore pour les personnes qui ne voient pas ?",
+          "#Yes, and it works": "Oui, et il fonctionne",
+          "#Yes, but it does not work or can barely be heard": "Oui, mais il ne fonctionne pas ou s'entend à peine",
+          "#No, there is none": "Non, il n'y en a pas"
+        },
+        "de": {
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht",
+          "#Does the traffic light have a sound signal for people who cannot see?": "Hat die Ampel ein Tonsignal für Menschen, die nicht sehen können?",
+          "#Yes, and it works": "Ja, und es funktioniert",
+          "#Yes, but it does not work or can barely be heard": "Ja, aber es funktioniert nicht oder ist kaum zu hören",
+          "#No, there is none": "Nein, es fehlt"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum",
+          "#Does the traffic light have a sound signal for people who cannot see?": "Trafik ışığında göremeyen kişiler için sesli sinyal var mı?",
+          "#Yes, and it works": "Evet ve çalışıyor",
+          "#Yes, but it does not work or can barely be heard": "Evet, ama çalışmıyor ya da zor duyuluyor",
+          "#No, there is none": "Hayır, yok"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم",
+          "#Does the traffic light have a sound signal for people who cannot see?": "آیا چراغ راهنمایی برای کسانی که نمی‌بینند علامت صوتی دارد؟",
+          "#Yes, and it works": "بله، و کار می‌کند",
+          "#Yes, but it does not work or can barely be heard": "بله، اما کار نمی‌کند یا به‌سختی شنیده می‌شود",
+          "#No, there is none": "نه، ندارد"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom",
+          "#Does the traffic light have a sound signal for people who cannot see?": "Van a jelzőlámpán hangjelzés azoknak, akik nem látnak?",
+          "#Yes, and it works": "Igen, és működik",
+          "#Yes, but it does not work or can barely be heard": "Igen, de nem működik, vagy alig hallható",
+          "#No, there is none": "Nem, hiányzik"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف",
+          "#Does the traffic light have a sound signal for people who cannot see?": "هل لإشارة المرور إشارة صوتية لمن لا يرون؟",
+          "#Yes, and it works": "نعم، وهي تعمل",
+          "#Yes, but it does not work or can barely be heard": "نعم، لكنها لا تعمل أو بالكاد تُسمع",
+          "#No, there is none": "لا، غير موجودة"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

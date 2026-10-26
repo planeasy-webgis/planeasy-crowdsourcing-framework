@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.safety_features",
   "project": "SmartUrbanity",
   "key": "safety_features",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -223,6 +222,226 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_549965bbdcbb": {
+      "schema": {
+        "text": "What helps people use this place safely?",
+        "help": "Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.",
+        "answer_key": "safety_features",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Good lighting",
+            "value": "lighting"
+          },
+          {
+            "text": "Raised crossing (at the same level as the sidewalk)",
+            "value": "raised_surface"
+          },
+          {
+            "text": "Different color or material on the ground",
+            "value": "colored_or_different_surface"
+          },
+          {
+            "text": "Protected island or safe place to stop",
+            "value": "protected_island_or_safe_stop"
+          },
+          {
+            "text": "Curb ramp",
+            "value": "curb_ramp"
+          },
+          {
+            "text": "Tactile paving",
+            "value": "tactile_paving"
+          },
+          {
+            "text": "Traffic light with a sound signal",
+            "value": "audible_signal"
+          },
+          {
+            "text": "Countdown showing the remaining green time",
+            "value": "countdown"
+          },
+          {
+            "text": "Handrail",
+            "value": "handrail"
+          },
+          {
+            "text": "Non-slip surface",
+            "value": "non_slip_surface"
+          },
+          {
+            "text": "Markings or colored surface for bicycles",
+            "value": "bike_crossing_markings"
+          },
+          {
+            "text": "Traffic light for bicycles",
+            "value": "bike_signal"
+          },
+          {
+            "text": "None of these",
+            "value": "none"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#None of these": "None of these",
+          "#What helps people use this place safely?": "What helps people use this place safely?",
+          "#Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.": "Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.",
+          "#Good lighting": "Good lighting",
+          "#Raised crossing (at the same level as the sidewalk)": "Raised crossing (at the same level as the sidewalk)",
+          "#Different color or material on the ground": "Different color or material on the ground",
+          "#Protected island or safe place to stop": "Protected island or safe place to stop",
+          "#Curb ramp": "Curb ramp",
+          "#Tactile paving": "Tactile paving",
+          "#Traffic light with a sound signal": "Traffic light with a sound signal",
+          "#Countdown showing the remaining green time": "Countdown showing the remaining green time",
+          "#Handrail": "Handrail",
+          "#Non-slip surface": "Non-slip surface",
+          "#Other": "Other",
+          "#I don't know": "I don't know",
+          "#Markings or colored surface for bicycles": "Markings or colored surface for bicycles",
+          "#Traffic light for bicycles": "Traffic light for bicycles"
+        },
+        "it": {
+          "#None of these": "Nessuna di queste",
+          "#What helps people use this place safely?": "Cosa aiuta a usare questo luogo in sicurezza?",
+          "#Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.": "Il percorso tattile è una pavimentazione a righe o a rilievi che le persone cieche o ipovedenti possono sentire con il bastone o con i piedi.",
+          "#Good lighting": "Buona illuminazione",
+          "#Raised crossing (at the same level as the sidewalk)": "Attraversamento rialzato (allo stesso livello del marciapiede)",
+          "#Different color or material on the ground": "Colore o materiale diverso a terra",
+          "#Protected island or safe place to stop": "Isola salvagente o punto sicuro dove fermarsi",
+          "#Curb ramp": "Scivolo del marciapiede",
+          "#Tactile paving": "Percorso tattile",
+          "#Traffic light with a sound signal": "Semaforo con segnale sonoro",
+          "#Countdown showing the remaining green time": "Conto alla rovescia che mostra il tempo di verde rimasto",
+          "#Handrail": "Corrimano",
+          "#Non-slip surface": "Superficie antiscivolo",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so",
+          "#Markings or colored surface for bicycles": "Strisce o colore a terra per le bici",
+          "#Traffic light for bicycles": "Semaforo per le bici"
+        },
+        "fr": {
+          "#None of these": "Aucun de ces éléments",
+          "#What helps people use this place safely?": "Qu'est-ce qui aide à utiliser ce lieu en sécurité ?",
+          "#Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.": "Les bandes podotactiles sont des surfaces au sol à stries ou à plots que les personnes aveugles ou malvoyantes peuvent sentir avec leur canne ou leurs pieds.",
+          "#Good lighting": "Bon éclairage",
+          "#Raised crossing (at the same level as the sidewalk)": "Traversée surélevée (au même niveau que le trottoir)",
+          "#Different color or material on the ground": "Couleur ou matériau différent au sol",
+          "#Protected island or safe place to stop": "Îlot protégé ou endroit sûr pour s’arrêter",
+          "#Curb ramp": "Bateau de trottoir",
+          "#Tactile paving": "Bande d’éveil à la vigilance",
+          "#Traffic light with a sound signal": "Feu avec signal sonore",
+          "#Countdown showing the remaining green time": "Compte à rebours indiquant le temps de vert restant",
+          "#Handrail": "Main courante",
+          "#Non-slip surface": "Surface antidérapante",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas",
+          "#Markings or colored surface for bicycles": "Marquage ou revêtement coloré pour les vélos",
+          "#Traffic light for bicycles": "Feu pour les vélos"
+        },
+        "de": {
+          "#None of these": "Keine davon",
+          "#What helps people use this place safely?": "Was hilft, diesen Ort sicher zu nutzen?",
+          "#Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.": "Taktile Leitelemente sind gerillte oder genoppte Bodenflächen, die blinde oder sehbehinderte Menschen mit dem Stock oder den Füßen ertasten können.",
+          "#Good lighting": "Gute Beleuchtung",
+          "#Raised crossing (at the same level as the sidewalk)": "Erhöhter Übergang (auf Gehweghöhe)",
+          "#Different color or material on the ground": "Andere Farbe oder anderes Material am Boden",
+          "#Protected island or safe place to stop": "Geschützte Insel oder sicherer Haltebereich",
+          "#Curb ramp": "Abgesenkter Bordstein",
+          "#Tactile paving": "Taktiles Leitsystem",
+          "#Traffic light with a sound signal": "Ampel mit akustischem Signal",
+          "#Countdown showing the remaining green time": "Countdown mit der verbleibenden Grünzeit",
+          "#Handrail": "Handlauf",
+          "#Non-slip surface": "Rutschfeste Oberfläche",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht",
+          "#Markings or colored surface for bicycles": "Markierungen oder farbiger Belag für Fahrräder",
+          "#Traffic light for bicycles": "Ampel für Fahrräder"
+        },
+        "tr": {
+          "#None of these": "Bunların hiçbiri",
+          "#What helps people use this place safely?": "Bu yeri güvenle kullanmaya ne yardımcı oluyor?",
+          "#Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.": "Hissedilebilir yüzey, görme engelli kişilerin bastonla veya ayaklarıyla hissedebildiği çizgili ya da kabarcıklı zemindir.",
+          "#Good lighting": "İyi aydınlatma",
+          "#Raised crossing (at the same level as the sidewalk)": "Yükseltilmiş geçit (kaldırımla aynı seviyede)",
+          "#Different color or material on the ground": "Zeminde farklı renk veya malzeme",
+          "#Protected island or safe place to stop": "Korumalı ada veya güvenli durma yeri",
+          "#Curb ramp": "Bordür rampası",
+          "#Tactile paving": "Hissedilebilir yüzey",
+          "#Traffic light with a sound signal": "Sesli sinyalli trafik ışığı",
+          "#Countdown showing the remaining green time": "Kalan yeşil süresini gösteren geri sayım",
+          "#Handrail": "Küpeşte",
+          "#Non-slip surface": "Kaymaz yüzey",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum",
+          "#Markings or colored surface for bicycles": "Bisikletler için çizgiler ya da renkli zemin",
+          "#Traffic light for bicycles": "Bisikletler için trafik ışığı"
+        },
+        "fa": {
+          "#None of these": "هیچ‌کدام از این‌ها",
+          "#What helps people use this place safely?": "چه چیزی به استفاده ایمن از این مکان کمک می‌کند؟",
+          "#Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.": "کف‌پوش لمسی سطحی شیاردار یا برجسته روی زمین است که افراد نابینا یا کم‌بینا می‌توانند با عصا یا پا آن را حس کنند.",
+          "#Good lighting": "روشنایی خوب",
+          "#Raised crossing (at the same level as the sidewalk)": "گذرگاه برجسته (هم‌سطح پیاده‌رو)",
+          "#Different color or material on the ground": "رنگ یا جنس متفاوت روی زمین",
+          "#Protected island or safe place to stop": "جزیره محافظت‌شده یا محل امن توقف",
+          "#Curb ramp": "رمپ لبه پیاده‌رو",
+          "#Tactile paving": "کف‌پوش لمسی",
+          "#Traffic light with a sound signal": "چراغ راهنمایی با علامت صوتی",
+          "#Countdown showing the remaining green time": "شمارش معکوس زمان باقی‌مانده چراغ سبز",
+          "#Handrail": "دستگیره",
+          "#Non-slip surface": "سطح غیرلغزنده",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم",
+          "#Markings or colored surface for bicycles": "خط‌کشی یا رنگ کف برای دوچرخه",
+          "#Traffic light for bicycles": "چراغ راهنمایی برای دوچرخه"
+        },
+        "hu": {
+          "#None of these": "Ezek közül egyik sem",
+          "#What helps people use this place safely?": "Mi segíti ennek a helynek a biztonságos használatát?",
+          "#Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.": "A taktilis burkolat bordázott vagy pöttyös talajfelület, amelyet a vak vagy gyengénlátó emberek bottal vagy a lábukkal érzékelnek.",
+          "#Good lighting": "Jó világítás",
+          "#Raised crossing (at the same level as the sidewalk)": "Kiemelt átkelő (a járdával egy szintben)",
+          "#Different color or material on the ground": "Eltérő szín vagy anyag a talajon",
+          "#Protected island or safe place to stop": "Védett sziget vagy biztonságos megállóhely",
+          "#Curb ramp": "Szegélyrámpa",
+          "#Tactile paving": "Taktilis burkolat",
+          "#Traffic light with a sound signal": "Hangjelzéses jelzőlámpa",
+          "#Countdown showing the remaining green time": "A hátralévő zöldidőt mutató visszaszámláló",
+          "#Handrail": "Korlát",
+          "#Non-slip surface": "Csúszásmentes felület",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom",
+          "#Markings or colored surface for bicycles": "Felfestés vagy színes burkolat a kerékpárosoknak",
+          "#Traffic light for bicycles": "Kerékpáros jelzőlámpa"
+        },
+        "ar": {
+          "#None of these": "لا شيء مما سبق",
+          "#What helps people use this place safely?": "ما الذي يساعد على استخدام هذا المكان بأمان؟",
+          "#Tactile paving is a ridged or dotted ground surface that blind or visually impaired people can feel with a cane or their feet.": "الرصف اللمسي سطح أرضي مضلّع أو منقّط يستطيع المكفوفون أو ضعاف البصر تحسسه بالعصا أو بأقدامهم.",
+          "#Good lighting": "إضاءة جيدة",
+          "#Raised crossing (at the same level as the sidewalk)": "معبر مرتفع (بمستوى الرصيف نفسه)",
+          "#Different color or material on the ground": "لون أو مادة مختلفة على الأرض",
+          "#Protected island or safe place to stop": "جزيرة محمية أو مكان آمن للتوقف",
+          "#Curb ramp": "منحدر عند حافة الرصيف",
+          "#Tactile paving": "رصف لمسي",
+          "#Traffic light with a sound signal": "إشارة ضوئية بإشارة صوتية",
+          "#Countdown showing the remaining green time": "عدّ تنازلي يُظهر الوقت المتبقي للإشارة الخضراء",
+          "#Handrail": "درابزين",
+          "#Non-slip surface": "سطح غير زلق",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف",
+          "#Markings or colored surface for bicycles": "خطوط أو أرضية ملونة للدراجات",
+          "#Traffic light for bicycles": "إشارة ضوئية للدراجات"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

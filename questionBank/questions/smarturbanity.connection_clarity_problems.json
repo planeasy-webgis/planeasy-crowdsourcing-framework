@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.connection_clarity_problems",
   "project": "SmartUrbanity",
   "key": "connection_clarity_problems",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -139,6 +138,142 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_701cd65d44bb": {
+      "schema": {
+        "text": "Why is it difficult to understand?",
+        "help": "Markings are lines and symbols painted on the ground. Signs are on poles or walls.",
+        "answer_key": "connection_clarity_problems",
+        "question_type": "multiple_options",
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Signs are missing",
+            "value": "missing_signs"
+          },
+          {
+            "text": "Markings are missing",
+            "value": "missing_markings"
+          },
+          {
+            "text": "Markings are faded",
+            "value": "faded_markings"
+          },
+          {
+            "text": "The crossing or passage is hard to recognize",
+            "value": "hard_to_recognize"
+          },
+          {
+            "text": "It is not clear if people can walk here",
+            "value": "pedestrian_use_unclear"
+          },
+          {
+            "text": "It is not clear if people can cycle here",
+            "value": "cycling_use_unclear"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Why is it difficult to understand?": "Why is it difficult to understand?",
+          "#Markings are lines and symbols painted on the ground. Signs are on poles or walls.": "Markings are lines and symbols painted on the ground. Signs are on poles or walls.",
+          "#Signs are missing": "Signs are missing",
+          "#Markings are missing": "Markings are missing",
+          "#Markings are faded": "Markings are faded",
+          "#The crossing or passage is hard to recognize": "The crossing or passage is hard to recognize",
+          "#It is not clear if people can walk here": "It is not clear if people can walk here",
+          "#It is not clear if people can cycle here": "It is not clear if people can cycle here",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Why is it difficult to understand?": "Perché è difficile da capire?",
+          "#Markings are lines and symbols painted on the ground. Signs are on poles or walls.": "Le strisce e i segni a terra sono linee e simboli dipinti sul suolo. I segnali sono cartelli su pali o muri.",
+          "#Signs are missing": "Mancano i segnali",
+          "#Markings are missing": "Mancano le strisce o i segni a terra",
+          "#Markings are faded": "Le strisce o i segni a terra sono sbiaditi",
+          "#The crossing or passage is hard to recognize": "L'attraversamento o il passaggio è difficile da riconoscere",
+          "#It is not clear if people can walk here": "Non è chiaro se qui si può passare a piedi",
+          "#It is not clear if people can cycle here": "Non è chiaro se qui si può passare in bicicletta",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Why is it difficult to understand?": "Pourquoi est-ce difficile à comprendre ?",
+          "#Markings are lines and symbols painted on the ground. Signs are on poles or walls.": "Le marquage désigne les lignes et symboles peints au sol. Les panneaux sont sur des poteaux ou des murs.",
+          "#Signs are missing": "La signalisation est absente",
+          "#Markings are missing": "Les marquages sont absents",
+          "#Markings are faded": "Les marquages sont effacés",
+          "#The crossing or passage is hard to recognize": "La traversée ou le passage est difficile à reconnaître",
+          "#It is not clear if people can walk here": "Il n’est pas clair que l’on puisse marcher ici",
+          "#It is not clear if people can cycle here": "Il n’est pas clair que l’on puisse circuler à vélo ici",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Why is it difficult to understand?": "Warum ist es schwer zu verstehen?",
+          "#Markings are lines and symbols painted on the ground. Signs are on poles or walls.": "Markierungen sind Linien und Symbole auf dem Boden. Schilder befinden sich an Masten oder Wänden.",
+          "#Signs are missing": "Schilder fehlen",
+          "#Markings are missing": "Markierungen fehlen",
+          "#Markings are faded": "Markierungen sind verblasst",
+          "#The crossing or passage is hard to recognize": "Der Übergang oder Durchgang ist schwer zu erkennen",
+          "#It is not clear if people can walk here": "Es ist nicht klar, ob man hier zu Fuß gehen darf",
+          "#It is not clear if people can cycle here": "Es ist nicht klar, ob man hier Rad fahren darf",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Why is it difficult to understand?": "Anlamak neden zor?",
+          "#Markings are lines and symbols painted on the ground. Signs are on poles or walls.": "Yol çizgileri, yere boyanmış çizgi ve işaretlerdir. Tabelalar direklerde veya duvarlardadır.",
+          "#Signs are missing": "İşaretler eksik",
+          "#Markings are missing": "Yol çizgileri eksik",
+          "#Markings are faded": "Yol çizgileri solmuş",
+          "#The crossing or passage is hard to recognize": "Geçit veya geçiş noktası zor fark ediliyor",
+          "#It is not clear if people can walk here": "Burada yürünüp yürünemeyeceği açık değil",
+          "#It is not clear if people can cycle here": "Burada bisiklet sürülüp sürülemeyeceği açık değil",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Why is it difficult to understand?": "چرا فهمیدن آن دشوار است؟",
+          "#Markings are lines and symbols painted on the ground. Signs are on poles or walls.": "خط‌کشی‌ها خطوط و نمادهایی هستند که روی زمین رنگ شده‌اند. تابلوها روی تیرها یا دیوارها نصب می‌شوند.",
+          "#Signs are missing": "تابلوها وجود ندارند",
+          "#Markings are missing": "خط‌کشی‌ها وجود ندارند",
+          "#Markings are faded": "خط‌کشی‌ها کم‌رنگ شده‌اند",
+          "#The crossing or passage is hard to recognize": "تشخیص گذرگاه یا معبر دشوار است",
+          "#It is not clear if people can walk here": "روشن نیست که آیا می‌توان اینجا پیاده رفت",
+          "#It is not clear if people can cycle here": "روشن نیست که آیا می‌توان اینجا دوچرخه‌سواری کرد",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Why is it difficult to understand?": "Miért nehéz megérteni?",
+          "#Markings are lines and symbols painted on the ground. Signs are on poles or walls.": "A burkolatjelek a földre festett vonalak és jelek. A táblák oszlopokon vagy falakon vannak.",
+          "#Signs are missing": "Hiányoznak a táblák",
+          "#Markings are missing": "Hiányoznak a burkolati jelek",
+          "#Markings are faded": "A burkolati jelek megkoptak",
+          "#The crossing or passage is hard to recognize": "Az átkelőt vagy átjárót nehéz felismerni",
+          "#It is not clear if people can walk here": "Nem egyértelmű, hogy itt lehet-e gyalogolni",
+          "#It is not clear if people can cycle here": "Nem egyértelmű, hogy itt lehet-e kerékpározni",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Why is it difficult to understand?": "لماذا يصعب فهمه؟",
+          "#Markings are lines and symbols painted on the ground. Signs are on poles or walls.": "العلامات الأرضية خطوط ورموز مرسومة على الأرض. أما اللافتات فتوضع على أعمدة أو جدران.",
+          "#Signs are missing": "اللافتات مفقودة",
+          "#Markings are missing": "العلامات مفقودة",
+          "#Markings are faded": "العلامات باهتة",
+          "#The crossing or passage is hard to recognize": "من الصعب التعرف على المعبر أو الممر",
+          "#It is not clear if people can walk here": "ليس واضحًا ما إذا كان يمكن للناس المشي هنا",
+          "#It is not clear if people can cycle here": "ليس واضحًا ما إذا كان يمكن للناس ركوب الدراجة هنا",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.avoid_fast_traffic",
   "project": "SmartUrbanity",
   "key": "avoid_fast_traffic",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How do traffic levels and congestion on your route typically affect your walking experience?",
         "answer_key": "avoid_fast_traffic",
+        "legacy_answer_keys": [
+          "avoid_fast_traffic_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "I choose much longer routes or change my travel times specifically to avoid heavy traffic",
             "value": "i_choose_much_longer_routes_or_change_my"
           }
-        ],
-        "legacy_answer_keys": [
-          "avoid_fast_traffic_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_63b0c191e1f5": {
+      "schema": {
+        "text": "How do traffic levels and congestion on your route typically affect your walking experience?",
+        "answer_key": "avoid_fast_traffic",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "The route is generally quiet or traffic has no influence on my walking experience",
+            "value": "the_route_is_generally_quiet_or_traffic"
+          },
+          {
+            "text": "I notice the traffic but feel physically separated and safe from it",
+            "value": "i_notice_the_traffic_but_feel_physically"
+          },
+          {
+            "text": "The traffic is frustrating but does not significantly affect my stress levels or route",
+            "value": "the_traffic_is_frustrating_but_does_not"
+          },
+          {
+            "text": "Traffic makes me feel constantly anxious or unsafe during my walk",
+            "value": "traffic_makes_me_feel_constantly_anxious"
+          },
+          {
+            "text": "I choose much longer routes or change my travel times specifically to avoid heavy traffic",
+            "value": "i_choose_much_longer_routes_or_change_my"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How do traffic levels and congestion on your route typically affect your walking experience?": "How do traffic levels and congestion on your route typically affect your walking experience?",
+          "#The route is generally quiet or traffic has no influence on my walking experience": "The route is generally quiet or traffic has no influence on my walking experience",
+          "#I notice the traffic but feel physically separated and safe from it": "I notice the traffic but feel physically separated and safe from it",
+          "#The traffic is frustrating but does not significantly affect my stress levels or route": "The traffic is frustrating but does not significantly affect my stress levels or route",
+          "#Traffic makes me feel constantly anxious or unsafe during my walk": "Traffic makes me feel constantly anxious or unsafe during my walk",
+          "#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "I choose much longer routes or change my travel times specifically to avoid heavy traffic"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How do traffic levels and congestion on your route typically affect your walking experience?": "In che modo i livelli di traffico e la congestione lungo il percorso influenzano normalmente la tua esperienza a piedi?",
+          "#The route is generally quiet or traffic has no influence on my walking experience": "Il percorso è generalmente tranquillo oppure il traffico non influisce sulla mia esperienza a piedi",
+          "#I notice the traffic but feel physically separated and safe from it": "Noto il traffico, ma mi sento fisicamente separato/a e al sicuro",
+          "#The traffic is frustrating but does not significantly affect my stress levels or route": "Il traffico è fastidioso, ma non influisce significativamente sul mio livello di stress o sul percorso",
+          "#Traffic makes me feel constantly anxious or unsafe during my walk": "Il traffico mi fa sentire costantemente ansioso/a o in pericolo mentre cammino",
+          "#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "Scelgo percorsi molto più lunghi o cambio gli orari di viaggio appositamente per evitare il traffico intenso"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How do traffic levels and congestion on your route typically affect your walking experience?": "Comment le niveau de trafic et les embouteillages sur votre itinéraire influencent-ils généralement votre expérience à pied ?",
+          "#The route is generally quiet or traffic has no influence on my walking experience": "L’itinéraire est généralement calme ou le trafic n’influence pas mon expérience à pied",
+          "#I notice the traffic but feel physically separated and safe from it": "Je remarque le trafic, mais je me sens bien séparé(e) de celui-ci et en sécurité",
+          "#The traffic is frustrating but does not significantly affect my stress levels or route": "Le trafic est gênant, mais il n’augmente pas vraiment mon stress et ne change pas mon itinéraire",
+          "#Traffic makes me feel constantly anxious or unsafe during my walk": "Le trafic me fait constamment sentir anxieux(se) ou en danger pendant que je marche",
+          "#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "Je choisis des itinéraires beaucoup plus longs ou je change mes heures de déplacement pour éviter le trafic dense"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How do traffic levels and congestion on your route typically affect your walking experience?": "Wie beeinflussen Verkehrsmenge und Stau auf Ihrer Strecke normalerweise Ihr Erlebnis beim Gehen?",
+          "#The route is generally quiet or traffic has no influence on my walking experience": "Die Strecke ist meist ruhig oder der Verkehr beeinflusst mein Gehen nicht",
+          "#I notice the traffic but feel physically separated and safe from it": "Ich bemerke den Verkehr, fühle mich aber gut davon getrennt und sicher",
+          "#The traffic is frustrating but does not significantly affect my stress levels or route": "Der Verkehr ist störend, beeinflusst meinen Stress oder meine Route aber kaum",
+          "#Traffic makes me feel constantly anxious or unsafe during my walk": "Der Verkehr führt dazu, dass ich mich beim Gehen ständig ängstlich oder unsicher fühle",
+          "#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "Ich wähle deutlich längere Wege oder ändere meine Zeiten, um starken Verkehr zu vermeiden"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How do traffic levels and congestion on your route typically affect your walking experience?": "Güzergâhınızdaki trafik yoğunluğu ve sıkışıklık yürüme deneyiminizi genellikle nasıl etkiler?",
+          "#The route is generally quiet or traffic has no influence on my walking experience": "Güzergâh genellikle sakindir veya trafik yürüme deneyimimi etkilemez",
+          "#I notice the traffic but feel physically separated and safe from it": "Trafiği fark ederim ama fiziksel olarak ondan ayrılmış ve güvende hissederim",
+          "#The traffic is frustrating but does not significantly affect my stress levels or route": "Trafik can sıkıcıdır ama stresimi veya güzergâhımı önemli ölçüde etkilemez",
+          "#Traffic makes me feel constantly anxious or unsafe during my walk": "Trafik yürürken sürekli kaygılı veya güvensiz hissetmeme neden olur",
+          "#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "Yoğun trafikten kaçınmak için çok daha uzun güzergâhlar seçer veya yolculuk saatimi değiştiririm"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How do traffic levels and congestion on your route typically affect your walking experience?": "حجم ترافیک و ازدحام در مسیر شما معمولاً چگونه بر تجربه پیاده‌روی اثر می‌گذارد؟",
+          "#The route is generally quiet or traffic has no influence on my walking experience": "مسیر معمولاً آرام است یا ترافیک بر تجربه پیاده‌روی من اثری ندارد",
+          "#I notice the traffic but feel physically separated and safe from it": "ترافیک را می‌بینم، اما احساس می‌کنم از آن جدا و در امنیت هستم",
+          "#The traffic is frustrating but does not significantly affect my stress levels or route": "ترافیک آزاردهنده است، اما استرس یا مسیرم را خیلی تغییر نمی‌دهد",
+          "#Traffic makes me feel constantly anxious or unsafe during my walk": "ترافیک باعث می‌شود هنگام پیاده‌روی دائماً احساس اضطراب یا ناامنی کنم",
+          "#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "برای دوری از ترافیک سنگین مسیر بسیار طولانی‌تر انتخاب می‌کنم یا زمان سفرم را تغییر می‌دهم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How do traffic levels and congestion on your route typically affect your walking experience?": "Hogyan befolyásolja általában a forgalom és a torlódás a gyalogos élményét az útvonalán?",
+          "#The route is generally quiet or traffic has no influence on my walking experience": "Az útvonal általában nyugodt, vagy a forgalom nem befolyásolja a gyaloglási élményemet",
+          "#I notice the traffic but feel physically separated and safe from it": "Észreveszem a forgalmat, de fizikailag elkülönülve és biztonságban érzem magam",
+          "#The traffic is frustrating but does not significantly affect my stress levels or route": "A forgalom zavaró, de nem befolyásolja jelentősen a stresszemet vagy az útvonalamat",
+          "#Traffic makes me feel constantly anxious or unsafe during my walk": "A forgalom miatt gyaloglás közben folyamatosan szorongónak vagy bizonytalannak érzem magam",
+          "#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "Jelentősen hosszabb útvonalat választok vagy módosítom az utazási időt, hogy elkerüljem az erős forgalmat"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How do traffic levels and congestion on your route typically affect your walking experience?": "كيف تؤثر كثافة حركة المرور والازدحام على طريقك عادةً في تجربة المشي؟",
+          "#The route is generally quiet or traffic has no influence on my walking experience": "الطريق هادئ عادةً أو حركة المرور لا تؤثر في تجربة المشي",
+          "#I notice the traffic but feel physically separated and safe from it": "ألاحظ حركة المرور لكنني أشعر أنني منفصل عنها وآمن",
+          "#The traffic is frustrating but does not significantly affect my stress levels or route": "حركة المرور مزعجة لكنها لا تؤثر كثيرًا في مستوى التوتر أو الطريق",
+          "#Traffic makes me feel constantly anxious or unsafe during my walk": "حركة المرور تجعلني أشعر باستمرار بالقلق أو عدم الأمان أثناء المشي",
+          "#I choose much longer routes or change my travel times specifically to avoid heavy traffic": "أختار طرقًا أطول بكثير أو أغيّر وقت الرحلة لتجنب حركة المرور الكثيفة"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.pt_stop_ease",
   "project": "SmartUrbanity",
   "key": "pt_stop_ease",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_public_transport",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_public_transport"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.",
         "answer_key": "pt_stop_ease",
+        "legacy_answer_keys": [
+          "pt_stop_ease_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -38,10 +40,7 @@
             "value": "completely_accessible"
           }
         ],
-        "add_i_dont_know": true,
-        "legacy_answer_keys": [
-          "pt_stop_ease_v1"
-        ]
+        "add_i_dont_know": true
       },
       "translations": {
         "en": {
@@ -120,6 +119,120 @@
       "source_questionnaires": [
         "smarturbanity_public_transport"
       ]
+    },
+    "reference_00a2116d3ce5": {
+      "schema": {
+        "text": "How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.",
+        "answer_key": "pt_stop_ease",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Inaccessible",
+            "value": "inaccessible"
+          },
+          {
+            "text": "Difficult to access",
+            "value": "difficult_to_access"
+          },
+          {
+            "text": "Partially accessible",
+            "value": "partially_accessible"
+          },
+          {
+            "text": "Mostly accessible",
+            "value": "mostly_accessible"
+          },
+          {
+            "text": "Completely accessible",
+            "value": "completely_accessible"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.",
+          "#Inaccessible": "Inaccessible",
+          "#Difficult to access": "Difficult to access",
+          "#Partially accessible": "Partially accessible",
+          "#Mostly accessible": "Mostly accessible",
+          "#Completely accessible": "Completely accessible",
+          "#I don't know": "I don't know",
+          "#Other": "Other"
+        },
+        "it": {
+          "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Quanto sono accessibili e facili da utilizzare le fermate del trasporto pubblico (autobus, tram o treno) lungo il tuo percorso? Considera scale, rampe e spazio disponibile.",
+          "#Inaccessible": "Inaccessibili",
+          "#Difficult to access": "Difficili da raggiungere",
+          "#Partially accessible": "Parzialmente accessibili",
+          "#Mostly accessible": "Per lo più accessibili",
+          "#Completely accessible": "Completamente accessibili",
+          "#I don't know": "Non lo so",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Les arrêts de transports publics de votre trajet, par exemple bus, tram ou train, sont-ils accessibles et faciles à utiliser ? Pensez aux marches, aux rampes et à l’espace disponible.",
+          "#Inaccessible": "Inaccessibles",
+          "#Difficult to access": "Difficiles d’accès",
+          "#Partially accessible": "Partiellement accessibles",
+          "#Mostly accessible": "Globalement accessibles",
+          "#Completely accessible": "Entièrement accessibles",
+          "#I don't know": "Je ne sais pas",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Wie zugänglich und einfach zu nutzen sind die Haltestellen auf Ihrer Strecke, zum Beispiel für Bus, Straßenbahn oder Zug? Denken Sie an Stufen, Rampen und verfügbaren Platz.",
+          "#Inaccessible": "Nicht zugänglich",
+          "#Difficult to access": "Schwer zugänglich",
+          "#Partially accessible": "Teilweise zugänglich",
+          "#Mostly accessible": "Meist gut zugänglich",
+          "#Completely accessible": "Vollständig zugänglich",
+          "#I don't know": "Ich weiß es nicht",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Güzergâhınızdaki otobüs, tramvay veya tren durakları ne kadar erişilebilir ve kullanımı ne kadar kolay? Basamakları, rampaları ve mevcut alanı düşünün.",
+          "#Inaccessible": "Erişilemez",
+          "#Difficult to access": "Erişimi zor",
+          "#Partially accessible": "Kısmen erişilebilir",
+          "#Mostly accessible": "Büyük ölçüde erişilebilir",
+          "#Completely accessible": "Tamamen erişilebilir",
+          "#I don't know": "Bilmiyorum",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "ایستگاه‌های حمل‌ونقل عمومی در مسیر شما، مانند اتوبوس، تراموا یا قطار، چقدر دسترس‌پذیر و استفاده از آن‌ها چقدر آسان است؟ پله، رمپ و فضای موجود را در نظر بگیرید.",
+          "#Inaccessible": "غیرقابل دسترس",
+          "#Difficult to access": "دسترسی دشوار",
+          "#Partially accessible": "تا حدی قابل دسترس",
+          "#Mostly accessible": "بیشتر قابل دسترس",
+          "#Completely accessible": "کاملاً قابل دسترس",
+          "#I don't know": "نمی‌دانم",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Mennyire hozzáférhetők és könnyen használhatók az útvonalán lévő tömegközlekedési megállók, például busz-, villamos- vagy vasúti megállók? Gondoljon a lépcsőkre, rámpákra és a rendelkezésre álló helyre.",
+          "#Inaccessible": "Nem hozzáférhető",
+          "#Difficult to access": "Nehezen hozzáférhető",
+          "#Partially accessible": "Részben hozzáférhető",
+          "#Mostly accessible": "Többnyire hozzáférhető",
+          "#Completely accessible": "Teljesen hozzáférhető",
+          "#I don't know": "Nem tudom",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "ما مدى سهولة الوصول إلى محطات النقل العام على طريقك، مثل الحافلة أو الترام أو القطار، واستخدامها؟ فكر في الدرج والمنحدرات والمساحة المتاحة.",
+          "#Inaccessible": "غير متاحة",
+          "#Difficult to access": "يصعب الوصول إليها",
+          "#Partially accessible": "متاحة جزئيًا",
+          "#Mostly accessible": "متاحة في الغالب",
+          "#Completely accessible": "متاحة بالكامل",
+          "#I don't know": "لا أعرف",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

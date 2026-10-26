@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.moto_weekly",
   "project": "SmartUrbanity",
   "key": "moto_weekly",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_motorcycle",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_motorcycle"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "Do you use a motorcycle or scooter for your daily travel at least once a week?",
         "answer_key": "moto_weekly",
+        "legacy_answer_keys": [
+          "v1_do_you_use_a_motorcycle_or_scooter_f"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -25,9 +27,6 @@
             "text": "No",
             "value": "no"
           }
-        ],
-        "legacy_answer_keys": [
-          "v1_do_you_use_a_motorcycle_or_scooter_f"
         ]
       },
       "translations": {
@@ -75,6 +74,67 @@
       "source_questionnaires": [
         "smarturbanity_motorcycle"
       ]
+    },
+    "reference_cf8fa284c5f6": {
+      "schema": {
+        "text": "Do you use a motorcycle or scooter for your daily travel at least once a week?",
+        "answer_key": "moto_weekly",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Do you use a motorcycle or scooter for your daily travel at least once a week?",
+          "#Yes": "Yes",
+          "#No": "No"
+        },
+        "it": {
+          "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Utilizzi una moto o uno scooter per i tuoi spostamenti quotidiani almeno una volta alla settimana?",
+          "#Yes": "Sì",
+          "#No": "No"
+        },
+        "fr": {
+          "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Utilisez-vous une moto ou un scooter pour vos déplacements quotidiens au moins une fois par semaine ?",
+          "#Yes": "Oui",
+          "#No": "Non"
+        },
+        "de": {
+          "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Nutzen Sie mindestens einmal pro Woche ein Motorrad oder einen Roller für Ihre täglichen Wege?",
+          "#Yes": "Ja",
+          "#No": "Nein"
+        },
+        "tr": {
+          "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Günlük yolculuklarınızda haftada en az bir kez motosiklet veya scooter kullanıyor musunuz?",
+          "#Yes": "Evet",
+          "#No": "Hayır"
+        },
+        "fa": {
+          "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "آیا حداقل هفته‌ای یک بار برای رفت‌وآمد روزانه از موتورسیکلت یا اسکوتر استفاده می‌کنید؟",
+          "#Yes": "بله",
+          "#No": "خیر"
+        },
+        "hu": {
+          "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Használ motorkerékpárt vagy robogót a mindennapi közlekedéshez legalább hetente egyszer?",
+          "#Yes": "Igen",
+          "#No": "Nem"
+        },
+        "ar": {
+          "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "هل تستخدم دراجة نارية أو سكوتر في تنقلاتك اليومية مرة واحدة على الأقل في الأسبوع؟",
+          "#Yes": "نعم",
+          "#No": "لا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

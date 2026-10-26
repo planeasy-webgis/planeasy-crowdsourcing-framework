@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.connection_form",
   "project": "SmartUrbanity",
   "key": "connection_form",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -127,6 +126,130 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_15c11cf5b309": {
+      "schema": {
+        "text": "What kind of crossing or passage is this?",
+        "help": "A passage is any way to get across a road, a railway or a difference in level.",
+        "answer_key": "connection_form",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "A street crossing (zebra crossing or intersection)",
+            "value": "street_level"
+          },
+          {
+            "text": "An underpass",
+            "value": "under_road"
+          },
+          {
+            "text": "A bridge or footbridge over the road",
+            "value": "over_road"
+          },
+          {
+            "text": "An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)",
+            "value": "level_change"
+          },
+          {
+            "text": "Another type of passage",
+            "value": "other"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What kind of crossing or passage is this?": "What kind of crossing or passage is this?",
+          "#A passage is any way to get across a road, a railway or a difference in level.": "A passage is any way to get across a road, a railway or a difference in level.",
+          "#A street crossing (zebra crossing or intersection)": "A street crossing (zebra crossing or intersection)",
+          "#An underpass": "An underpass",
+          "#A bridge or footbridge over the road": "A bridge or footbridge over the road",
+          "#An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)": "An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)",
+          "#Another type of passage": "Another type of passage",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What kind of crossing or passage is this?": "Che tipo di attraversamento o passaggio è?",
+          "#A passage is any way to get across a road, a railway or a difference in level.": "Per passaggio si intende qualsiasi modo per superare una strada, una ferrovia o un dislivello.",
+          "#A street crossing (zebra crossing or intersection)": "Attraversamento della strada (strisce pedonali o incrocio)",
+          "#An underpass": "Sottopasso",
+          "#A bridge or footbridge over the road": "Ponte o passerella sopra la strada",
+          "#An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)": "Ascensore, scala mobile, rampa o pochi gradini tra due livelli (una scalinata si valuta come tratto di strada)",
+          "#Another type of passage": "Altro tipo di passaggio",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What kind of crossing or passage is this?": "De quel type de traversée ou de passage s'agit-il ?",
+          "#A passage is any way to get across a road, a railway or a difference in level.": "Un passage désigne tout moyen de franchir une route, une voie ferrée ou une différence de niveau.",
+          "#A street crossing (zebra crossing or intersection)": "Une traversée de rue (passage piéton ou carrefour)",
+          "#An underpass": "Un passage souterrain",
+          "#A bridge or footbridge over the road": "Un pont ou une passerelle au-dessus de la route",
+          "#An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)": "Un ascenseur, un escalator, une rampe ou quelques marches entre deux niveaux (un long escalier s’évalue comme un tronçon de rue)",
+          "#Another type of passage": "Un autre type de passage",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What kind of crossing or passage is this?": "Um welche Art von Übergang oder Durchgang handelt es sich?",
+          "#A passage is any way to get across a road, a railway or a difference in level.": "Ein Durchgang ist jede Möglichkeit, eine Straße, eine Bahnlinie oder einen Höhenunterschied zu überwinden.",
+          "#A street crossing (zebra crossing or intersection)": "Ein Straßenübergang (Zebrastreifen oder Kreuzung)",
+          "#An underpass": "Eine Unterführung",
+          "#A bridge or footbridge over the road": "Eine Brücke oder Fußgängerbrücke über die Straße",
+          "#An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)": "Aufzug, Rolltreppe, Rampe oder wenige Stufen zwischen zwei Ebenen (eine längere Treppe wird als Straßenabschnitt bewertet)",
+          "#Another type of passage": "Eine andere Art von Durchgang",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What kind of crossing or passage is this?": "Bu ne tür bir karşıya geçiş noktası veya geçit?",
+          "#A passage is any way to get across a road, a railway or a difference in level.": "Geçit, bir yolu, demiryolunu veya kot farkını aşmanın her türlü yoludur.",
+          "#A street crossing (zebra crossing or intersection)": "Cadde geçidi (yaya geçidi veya kavşak)",
+          "#An underpass": "Alt geçit",
+          "#A bridge or footbridge over the road": "Yolun üzerinden geçen köprü veya yaya köprüsü",
+          "#An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)": "İki seviye arasında asansör, yürüyen merdiven, rampa veya birkaç basamak (uzun bir merdivenli yol sokak kesimi olarak değerlendirilir)",
+          "#Another type of passage": "Başka bir geçiş türü",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What kind of crossing or passage is this?": "این چه نوع گذرگاه یا معبری است؟",
+          "#A passage is any way to get across a road, a railway or a difference in level.": "گذرگاه هر راهی برای عبور از خیابان، راه‌آهن یا اختلاف ارتفاع است.",
+          "#A street crossing (zebra crossing or intersection)": "گذرگاه عرض خیابان (خط عابر پیاده یا تقاطع)",
+          "#An underpass": "زیرگذر",
+          "#A bridge or footbridge over the road": "پل یا پل عابر پیاده روی خیابان",
+          "#An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)": "آسانسور، پله برقی، رمپ یا چند پله میان دو سطح (پلکان طولانی به‌عنوان بخشی از خیابان ارزیابی می‌شود)",
+          "#Another type of passage": "نوع دیگری از معبر",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What kind of crossing or passage is this?": "Milyen átkelőről vagy átjáróról van szó?",
+          "#A passage is any way to get across a road, a railway or a difference in level.": "Átjáró minden olyan megoldás, amellyel át lehet jutni egy úton, vasúton vagy szintkülönbségen.",
+          "#A street crossing (zebra crossing or intersection)": "Úttesten való átkelés (zebra vagy kereszteződés)",
+          "#An underpass": "Aluljáró",
+          "#A bridge or footbridge over the road": "Híd vagy gyalogos felüljáró az út felett",
+          "#An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)": "Lift, mozgólépcső, rámpa vagy néhány lépcsőfok két szint között (a hosszabb lépcsősort utcaszakaszként kell értékelni)",
+          "#Another type of passage": "Másfajta átjáró",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What kind of crossing or passage is this?": "ما نوع هذا المعبر أو الممر؟",
+          "#A passage is any way to get across a road, a railway or a difference in level.": "الممر هو أي طريقة لعبور طريق أو سكة حديد أو فرق في المستوى.",
+          "#A street crossing (zebra crossing or intersection)": "عبور الشارع (ممر مشاة أو تقاطع)",
+          "#An underpass": "ممر سفلي",
+          "#A bridge or footbridge over the road": "جسر أو جسر مشاة فوق الطريق",
+          "#An elevator, an escalator, a ramp or a few steps between two levels (a longer stairway is assessed as a street segment)": "مصعد أو سلم متحرك أو منحدر أو بضع درجات بين مستويين (الدرج الطويل يُقيَّم كمقطع من الشارع)",
+          "#Another type of passage": "نوع آخر من الممرات",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

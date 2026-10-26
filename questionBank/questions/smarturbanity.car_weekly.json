@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.car_weekly",
   "project": "SmartUrbanity",
   "key": "car_weekly",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_car",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_car"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -72,6 +71,75 @@
       "source_questionnaires": [
         "smarturbanity_car"
       ]
+    },
+    "reference_32575f56f126": {
+      "schema": {
+        "text": "Do you use a car for your daily travel at least once a week?",
+        "answer_key": "car_weekly",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Do you use a car for your daily travel at least once a week?": "Do you use a car for your daily travel at least once a week?",
+          "#Yes": "Yes",
+          "#No": "No",
+          "#Other": "Other"
+        },
+        "it": {
+          "#Do you use a car for your daily travel at least once a week?": "Utilizzi l'auto per i tuoi spostamenti quotidiani almeno una volta alla settimana?",
+          "#Yes": "Sì",
+          "#No": "No",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#Do you use a car for your daily travel at least once a week?": "Utilisez-vous une voiture pour vos déplacements quotidiens au moins une fois par semaine ?",
+          "#Yes": "Oui",
+          "#No": "Non",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#Do you use a car for your daily travel at least once a week?": "Nutzen Sie mindestens einmal pro Woche ein Auto für Ihre täglichen Wege?",
+          "#Yes": "Ja",
+          "#No": "Nein",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#Do you use a car for your daily travel at least once a week?": "Günlük yolculuklarınızda haftada en az bir kez otomobil kullanıyor musunuz?",
+          "#Yes": "Evet",
+          "#No": "Hayır",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#Do you use a car for your daily travel at least once a week?": "آیا حداقل هفته‌ای یک بار برای رفت‌وآمد روزانه از خودرو استفاده می‌کنید؟",
+          "#Yes": "بله",
+          "#No": "خیر",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#Do you use a car for your daily travel at least once a week?": "Használ autót a mindennapi közlekedéshez legalább hetente egyszer?",
+          "#Yes": "Igen",
+          "#No": "Nem",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#Do you use a car for your daily travel at least once a week?": "هل تستخدم السيارة في تنقلاتك اليومية مرة واحدة على الأقل في الأسبوع؟",
+          "#Yes": "نعم",
+          "#No": "لا",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

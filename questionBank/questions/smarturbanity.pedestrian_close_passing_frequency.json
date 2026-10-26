@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.pedestrian_close_passing_frequency",
   "project": "SmartUrbanity",
   "key": "pedestrian_close_passing_frequency",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_segment_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -118,6 +117,121 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_6df979c3d7ba": {
+      "schema": {
+        "text": "How often do motor vehicles pass too close while you are walking?",
+        "answer_key": "pedestrian_close_passing_frequency",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Never or almost never",
+            "value": "1_never"
+          },
+          {
+            "text": "Rarely",
+            "value": "2_rarely"
+          },
+          {
+            "text": "Sometimes",
+            "value": "3_sometimes"
+          },
+          {
+            "text": "Often",
+            "value": "4_often"
+          },
+          {
+            "text": "Very often",
+            "value": "5_very_often"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Never or almost never": "Never or almost never",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#Often": "Often",
+          "#Very often": "Very often",
+          "#How often do motor vehicles pass too close while you are walking?": "How often do motor vehicles pass too close while you are walking?",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Never or almost never": "Mai o quasi mai",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#Often": "Spesso",
+          "#Very often": "Molto spesso",
+          "#How often do motor vehicles pass too close while you are walking?": "Quanto spesso i veicoli a motore passano troppo vicino mentre vai a piedi?",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Never or almost never": "Jamais ou presque jamais",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#Often": "Souvent",
+          "#Very often": "Très souvent",
+          "#How often do motor vehicles pass too close while you are walking?": "À quelle fréquence des véhicules motorisés passent-ils trop près de vous lorsque vous marchez ?",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Never or almost never": "Nie oder fast nie",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#Often": "Oft",
+          "#Very often": "Sehr oft",
+          "#How often do motor vehicles pass too close while you are walking?": "Wie oft fahren Kraftfahrzeuge beim Gehen zu dicht an Ihnen vorbei?",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Never or almost never": "Hiçbir zaman veya neredeyse hiçbir zaman",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#Often": "Sık sık",
+          "#Very often": "Çok sık",
+          "#How often do motor vehicles pass too close while you are walking?": "Yürürken motorlu araçlar ne sıklıkla size çok yakın geçiyor?",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Never or almost never": "هرگز یا تقریباً هرگز",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#Often": "اغلب",
+          "#Very often": "بسیار اغلب",
+          "#How often do motor vehicles pass too close while you are walking?": "خودروهای موتوری هنگام پیاده‌روی هر چند وقت یک‌بار خیلی نزدیک از کنار شما می‌گذرند؟",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Never or almost never": "Soha vagy szinte soha",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#Often": "Gyakran",
+          "#Very often": "Nagyon gyakran",
+          "#How often do motor vehicles pass too close while you are walking?": "Milyen gyakran haladnak el túl közel gépjárművek, miközben Ön gyalogol?",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Never or almost never": "أبدًا أو نادرًا جدًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#Often": "غالبًا",
+          "#Very often": "غالبًا جدًا",
+          "#How often do motor vehicles pass too close while you are walking?": "كم مرة تمر المركبات الآلية على مسافة قريبة جدًا منك أثناء المشي؟",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

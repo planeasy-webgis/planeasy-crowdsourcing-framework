@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.walk_heat_shade_effect",
   "project": "SmartUrbanity",
   "key": "walk_heat_shade_effect",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?",
         "answer_key": "walk_heat_shade_effect",
+        "legacy_answer_keys": [
+          "v1_how_does_shade_and_heat_e_g_from_sun"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "I stop walking outdoors entirely during the hottest periods",
             "value": "i_stop_walking_outdoors_entirely_during"
           }
-        ],
-        "legacy_answer_keys": [
-          "v1_how_does_shade_and_heat_e_g_from_sun"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_56db62d908f3": {
+      "schema": {
+        "text": "How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?",
+        "answer_key": "walk_heat_shade_effect",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Heat and sun have no effect on my walking journeys",
+            "value": "heat_and_sun_have_no_effect_on_my_walkin"
+          },
+          {
+            "text": "I feel uncomfortable in the heat but I continue as planned",
+            "value": "i_feel_uncomfortable_in_the_heat_but_i_c"
+          },
+          {
+            "text": "I adjust my departure time or choose shadier routes when possible",
+            "value": "i_adjust_my_departure_time_or_choose_sha"
+          },
+          {
+            "text": "I significantly shorten or avoid walking trips during hot weather",
+            "value": "i_significantly_shorten_or_avoid_walking"
+          },
+          {
+            "text": "I stop walking outdoors entirely during the hottest periods",
+            "value": "i_stop_walking_outdoors_entirely_during"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?",
+          "#Heat and sun have no effect on my walking journeys": "Heat and sun have no effect on my walking journeys",
+          "#I feel uncomfortable in the heat but I continue as planned": "I feel uncomfortable in the heat but I continue as planned",
+          "#I adjust my departure time or choose shadier routes when possible": "I adjust my departure time or choose shadier routes when possible",
+          "#I significantly shorten or avoid walking trips during hot weather": "I significantly shorten or avoid walking trips during hot weather",
+          "#I stop walking outdoors entirely during the hottest periods": "I stop walking outdoors entirely during the hottest periods"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "In che modo l'ombra e il caldo (ad es. dovuti all'esposizione al sole o alla pavimentazione calda) influenzano i tuoi spostamenti a piedi nei mesi più caldi?",
+          "#Heat and sun have no effect on my walking journeys": "Il caldo e il sole non influiscono sui miei spostamenti a piedi",
+          "#I feel uncomfortable in the heat but I continue as planned": "Mi sento a disagio con il caldo, ma continuo come previsto",
+          "#I adjust my departure time or choose shadier routes when possible": "Modifico l'orario di partenza o scelgo percorsi più ombreggiati quando possibile",
+          "#I significantly shorten or avoid walking trips during hot weather": "Accorcio significativamente o evito gli spostamenti a piedi quando fa caldo",
+          "#I stop walking outdoors entirely during the hottest periods": "Smetto completamente di camminare all'aperto durante i periodi più caldi"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "Pendant les mois chauds, comment l’ombre et la chaleur, par exemple le soleil ou un sol très chaud, influencent-elles vos trajets à pied ?",
+          "#Heat and sun have no effect on my walking journeys": "La chaleur et le soleil n’ont aucun effet sur mes trajets à pied",
+          "#I feel uncomfortable in the heat but I continue as planned": "La chaleur me gêne, mais je continue comme prévu",
+          "#I adjust my departure time or choose shadier routes when possible": "Je change mon heure de départ ou je choisis des itinéraires plus ombragés quand c’est possible",
+          "#I significantly shorten or avoid walking trips during hot weather": "Je réduis fortement ou j’évite les trajets à pied quand il fait très chaud",
+          "#I stop walking outdoors entirely during the hottest periods": "Je ne marche plus du tout dehors pendant les périodes les plus chaudes"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "Wie beeinflussen Schatten und Hitze, zum Beispiel direkte Sonne oder heißer Straßenbelag, Ihre Wege zu Fuß in den wärmeren Monaten?",
+          "#Heat and sun have no effect on my walking journeys": "Hitze und Sonne beeinflussen meine Wege zu Fuß nicht",
+          "#I feel uncomfortable in the heat but I continue as planned": "Die Hitze ist unangenehm, aber ich gehe wie geplant weiter",
+          "#I adjust my departure time or choose shadier routes when possible": "Ich ändere meine Abfahrtszeit oder wähle schattigere Wege, wenn es möglich ist",
+          "#I significantly shorten or avoid walking trips during hot weather": "Bei heißem Wetter verkürze oder vermeide ich Wege zu Fuß deutlich",
+          "#I stop walking outdoors entirely during the hottest periods": "In den heißesten Zeiten gehe ich draußen gar nicht zu Fuß"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "Sıcak aylarda gölge ve sıcaklık, örneğin güneş veya sıcak zemin, yürüyüşlerinizi nasıl etkiler?",
+          "#Heat and sun have no effect on my walking journeys": "Sıcaklık ve güneş yürüyüşlerimi etkilemez",
+          "#I feel uncomfortable in the heat but I continue as planned": "Sıcakta rahatsız olurum ama planladığım şekilde devam ederim",
+          "#I adjust my departure time or choose shadier routes when possible": "Mümkünse çıkış saatimi değiştirir veya daha gölgeli güzergâhlar seçerim",
+          "#I significantly shorten or avoid walking trips during hot weather": "Sıcak havalarda yürüyüşlerimi belirgin şekilde kısaltır veya yürümekten kaçınırım",
+          "#I stop walking outdoors entirely during the hottest periods": "En sıcak zamanlarda dışarıda yürümeyi tamamen bırakırım"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "در ماه‌های گرم، سایه و گرما، مثلاً آفتاب مستقیم یا سطح داغ خیابان، چگونه بر سفرهای پیاده شما اثر می‌گذارد؟",
+          "#Heat and sun have no effect on my walking journeys": "گرما و آفتاب بر سفرهای پیاده من اثری ندارد",
+          "#I feel uncomfortable in the heat but I continue as planned": "در گرما ناراحت می‌شوم، اما طبق برنامه ادامه می‌دهم",
+          "#I adjust my departure time or choose shadier routes when possible": "اگر ممکن باشد زمان حرکت را تغییر می‌دهم یا مسیر سایه‌دارتر انتخاب می‌کنم",
+          "#I significantly shorten or avoid walking trips during hot weather": "در هوای گرم سفرهای پیاده را خیلی کوتاه می‌کنم یا از آن‌ها پرهیز می‌کنم",
+          "#I stop walking outdoors entirely during the hottest periods": "در گرم‌ترین زمان‌ها اصلاً بیرون پیاده‌روی نمی‌کنم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "A melegebb hónapokban hogyan befolyásolja az árnyék és a hőség, például a közvetlen napsütés vagy a forró burkolat a gyalogos útjait?",
+          "#Heat and sun have no effect on my walking journeys": "A hőség és a napsütés nem befolyásolja a gyalogos útjaimat",
+          "#I feel uncomfortable in the heat but I continue as planned": "Kellemetlenül érzem magam a hőségben, de a tervek szerint folytatom az utat",
+          "#I adjust my departure time or choose shadier routes when possible": "Ha lehet, módosítom az indulási időt vagy árnyékosabb útvonalat választok",
+          "#I significantly shorten or avoid walking trips during hot weather": "Meleg időben jelentősen lerövidítem vagy elkerülöm a gyalogos utakat",
+          "#I stop walking outdoors entirely during the hottest periods": "A legmelegebb időszakokban egyáltalán nem gyalogolok a szabadban"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How does shade and heat (e.g., from sun exposure or hot pavement) affect your walking journeys during warmer months?": "في الأشهر الحارة، كيف يؤثر الظل والحر، مثل التعرض للشمس أو سخونة الرصيف، في رحلاتك سيرًا على الأقدام؟",
+          "#Heat and sun have no effect on my walking journeys": "الحر والشمس لا يؤثران في رحلاتي سيرًا على الأقدام",
+          "#I feel uncomfortable in the heat but I continue as planned": "أشعر بعدم الراحة في الحر لكنني أواصل كما خططت",
+          "#I adjust my departure time or choose shadier routes when possible": "أغيّر وقت الانطلاق أو أختار طرقًا أكثر ظلًا عندما يكون ذلك ممكنًا",
+          "#I significantly shorten or avoid walking trips during hot weather": "أقلل كثيرًا من رحلات المشي أو أتجنبها في الطقس الحار",
+          "#I stop walking outdoors entirely during the hottest periods": "أتوقف تمامًا عن المشي في الخارج خلال أشد فترات الحر"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

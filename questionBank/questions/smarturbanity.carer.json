@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.carer",
   "project": "SmartUrbanity",
   "key": "carer",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -72,6 +71,91 @@
       "source_questionnaires": [
         "smarturbanity_about_you"
       ]
+    },
+    "reference_95d9e953c23a": {
+      "schema": {
+        "text": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
+        "answer_key": "carer",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
+          "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?",
+          "#Yes": "Yes",
+          "#No": "No",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
+          "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Vivi attualmente con persone a carico, come bambini, persone anziane o altre persone che dipendono dalla tua assistenza?",
+          "#Yes": "Sì",
+          "#No": "No",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
+          "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Vivez-vous actuellement avec des personnes à charge, par exemple des enfants, des personnes âgées ou d’autres personnes dont vous vous occupez ?",
+          "#Yes": "Oui",
+          "#No": "Non",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
+          "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Leben Sie derzeit mit Personen zusammen, für die Sie sorgen, zum Beispiel Kindern, älteren Menschen oder anderen Personen, die auf Ihre Hilfe angewiesen sind?",
+          "#Yes": "Ja",
+          "#No": "Nein",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
+          "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Şu anda bakımınızdan sorumlu olduğunuz kişilerle birlikte mi yaşıyorsunuz? Örneğin çocuklar, yaşlılar veya bakımınızdan yararlanan diğer kişiler.",
+          "#Yes": "Evet",
+          "#No": "Hayır",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
+          "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "آیا در حال حاضر با فرد یا افرادی زندگی می‌کنید که به مراقبت شما وابسته‌اند، مانند کودک، سالمند یا فرد دیگری که از او مراقبت می‌کنید؟",
+          "#Yes": "بله",
+          "#No": "خیر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
+          "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "Él jelenleg olyan eltartott vagy gondozásra szoruló személlyel, például gyermekkel, idős emberrel vagy más személlyel, akiről Ön gondoskodik?",
+          "#Yes": "Igen",
+          "#No": "Nem",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
+          "#Do you currently live with any dependents (such as children, elderly individuals, or others who rely on you for care)?": "هل تعيش حاليًا مع أشخاص يعتمدون عليك في الرعاية، مثل الأطفال أو كبار السن أو غيرهم؟",
+          "#Yes": "نعم",
+          "#No": "لا",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

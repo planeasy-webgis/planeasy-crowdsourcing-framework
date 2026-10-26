@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.bike_vehicle_conflict_points",
   "project": "SmartUrbanity",
   "key": "bike_vehicle_conflict_points",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_segment_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -94,6 +93,97 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_8feb0768f3f7": {
+      "schema": {
+        "text": "How many places are there where motor vehicles cross or enter the cycling space?",
+        "answer_key": "bike_vehicle_conflict_points",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "None",
+            "value": "1_none"
+          },
+          {
+            "text": "Few (1–3)",
+            "value": "2_few"
+          },
+          {
+            "text": "Many (4 or more)",
+            "value": "3_many"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How many places are there where motor vehicles cross or enter the cycling space?": "How many places are there where motor vehicles cross or enter the cycling space?",
+          "#None": "None",
+          "#Few (1–3)": "Few (1–3)",
+          "#Many (4 or more)": "Many (4 or more)",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How many places are there where motor vehicles cross or enter the cycling space?": "Quanti punti ci sono in cui i veicoli a motore attraversano o entrano nello spazio ciclabile?",
+          "#None": "Nessuno",
+          "#Few (1–3)": "Pochi (1–3)",
+          "#Many (4 or more)": "Molti (4 o più)",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How many places are there where motor vehicles cross or enter the cycling space?": "Combien d’endroits permettent aux véhicules motorisés de traverser ou d’entrer dans l’espace cyclable ?",
+          "#None": "Aucun",
+          "#Few (1–3)": "Peu (1 à 3)",
+          "#Many (4 or more)": "Beaucoup (4 ou plus)",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How many places are there where motor vehicles cross or enter the cycling space?": "An wie vielen Stellen kreuzen Kraftfahrzeuge den Radbereich oder fahren hinein?",
+          "#None": "Keine",
+          "#Few (1–3)": "Wenige (1–3)",
+          "#Many (4 or more)": "Viele (4 oder mehr)",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How many places are there where motor vehicles cross or enter the cycling space?": "Motorlu araçların bisiklet alanını kestiği veya alana girdiği kaç yer var?",
+          "#None": "Hiçbiri",
+          "#Few (1–3)": "Az (1–3)",
+          "#Many (4 or more)": "Çok (4 veya daha fazla)",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How many places are there where motor vehicles cross or enter the cycling space?": "چند محل وجود دارد که خودروهای موتوری فضای دوچرخه را قطع می‌کنند یا وارد آن می‌شوند؟",
+          "#None": "هیچ‌کدام",
+          "#Few (1–3)": "کم (۱ تا ۳)",
+          "#Many (4 or more)": "زیاد (۴ یا بیشتر)",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How many places are there where motor vehicles cross or enter the cycling space?": "Hány helyen keresztezik a gépjárművek a kerékpáros teret vagy hajtanak be oda?",
+          "#None": "Senki",
+          "#Few (1–3)": "Kevés (1–3)",
+          "#Many (4 or more)": "Sok (4 vagy több)",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How many places are there where motor vehicles cross or enter the cycling space?": "كم موقعًا تعبر فيه المركبات الآلية مساحة الدراجات أو تدخل إليها؟",
+          "#None": "لا أحد",
+          "#Few (1–3)": "قليلة (1–3)",
+          "#Many (4 or more)": "كثيرة (4 أو أكثر)",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

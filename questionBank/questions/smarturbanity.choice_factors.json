@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.choice_factors",
   "project": "SmartUrbanity",
   "key": "choice_factors",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_daily_travel",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "When choosing how to travel, which factors matter most to you?",
         "answer_key": "choice_factors",
+        "legacy_answer_keys": [
+          "choice_factors_v1"
+        ],
         "question_type": "multiple_options",
         "max_answers": 3,
         "options": [
@@ -55,10 +57,7 @@
             "value": "flexibility_and_independence"
           }
         ],
-        "add_other": true,
-        "legacy_answer_keys": [
-          "choice_factors_v1"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -169,6 +168,161 @@
       "source_questionnaires": [
         "smarturbanity_daily_travel"
       ]
+    },
+    "reference_480c0d00700e": {
+      "schema": {
+        "text": "When choosing how to travel, which factors matter most to you?",
+        "answer_key": "choice_factors",
+        "question_type": "multiple_options",
+        "max_answers": 3,
+        "options": [
+          {
+            "text": "Financial Cost",
+            "value": "financial_cost"
+          },
+          {
+            "text": "Physical Comfort and effort",
+            "value": "physical_comfort_and_effort"
+          },
+          {
+            "text": "Mental Well-being",
+            "value": "mental_well_being"
+          },
+          {
+            "text": "Environmental Impact",
+            "value": "environmental_impact"
+          },
+          {
+            "text": "Reliability and Predictability",
+            "value": "reliability_and_predictability"
+          },
+          {
+            "text": "Social status",
+            "value": "social_status"
+          },
+          {
+            "text": "Personal safety and security",
+            "value": "personal_safety_and_security"
+          },
+          {
+            "text": "Time Efficiency",
+            "value": "time_efficiency"
+          },
+          {
+            "text": "Flexibility and independence",
+            "value": "flexibility_and_independence"
+          }
+        ],
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#When choosing how to travel, which factors matter most to you?": "When choosing how to travel, which factors matter most to you?",
+          "#Financial Cost": "Financial Cost",
+          "#Physical Comfort and effort": "Physical Comfort and effort",
+          "#Mental Well-being": "Mental Well-being",
+          "#Environmental Impact": "Environmental Impact",
+          "#Reliability and Predictability": "Reliability and Predictability",
+          "#Social status": "Social status",
+          "#Personal safety and security": "Personal safety and security",
+          "#Time Efficiency": "Time Efficiency",
+          "#Flexibility and independence": "Flexibility and independence"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#When choosing how to travel, which factors matter most to you?": "Quando scegli come spostarti, quali fattori sono più importanti per te?",
+          "#Financial Cost": "Costo economico",
+          "#Physical Comfort and effort": "Comfort e sforzo fisico",
+          "#Mental Well-being": "Benessere mentale",
+          "#Environmental Impact": "Impatto ambientale",
+          "#Reliability and Predictability": "Affidabilità e prevedibilità",
+          "#Social status": "Status sociale",
+          "#Personal safety and security": "Sicurezza personale",
+          "#Time Efficiency": "Efficienza in termini di tempo",
+          "#Flexibility and independence": "Flessibilità e indipendenza"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#When choosing how to travel, which factors matter most to you?": "Quand vous choisissez comment vous déplacer, quels facteurs sont les plus importants pour vous ?",
+          "#Financial Cost": "Coût",
+          "#Physical Comfort and effort": "Confort physique et effort",
+          "#Mental Well-being": "Bien-être mental",
+          "#Environmental Impact": "Impact sur l’environnement",
+          "#Reliability and Predictability": "Fiabilité et prévisibilité",
+          "#Social status": "Statut social",
+          "#Personal safety and security": "Sécurité personnelle et routière",
+          "#Time Efficiency": "Gain de temps",
+          "#Flexibility and independence": "Flexibilité et autonomie"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#When choosing how to travel, which factors matter most to you?": "Welche Faktoren sind Ihnen am wichtigsten, wenn Sie entscheiden, wie Sie sich fortbewegen?",
+          "#Financial Cost": "Kosten",
+          "#Physical Comfort and effort": "Körperlicher Komfort und Anstrengung",
+          "#Mental Well-being": "Psychisches Wohlbefinden",
+          "#Environmental Impact": "Umweltauswirkungen",
+          "#Reliability and Predictability": "Zuverlässigkeit und Planbarkeit",
+          "#Social status": "Sozialer Status",
+          "#Personal safety and security": "Persönliche Sicherheit und Verkehrssicherheit",
+          "#Time Efficiency": "Zeitersparnis",
+          "#Flexibility and independence": "Flexibilität und Unabhängigkeit"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#When choosing how to travel, which factors matter most to you?": "Nasıl seyahat edeceğinize karar verirken hangi faktörler sizin için en önemlidir?",
+          "#Financial Cost": "Maliyet",
+          "#Physical Comfort and effort": "Fiziksel konfor ve çaba",
+          "#Mental Well-being": "Ruhsal iyi oluş",
+          "#Environmental Impact": "Çevresel etki",
+          "#Reliability and Predictability": "Güvenilirlik ve öngörülebilirlik",
+          "#Social status": "Sosyal statü",
+          "#Personal safety and security": "Kişisel güvenlik ve trafik güvenliği",
+          "#Time Efficiency": "Zaman tasarrufu",
+          "#Flexibility and independence": "Esneklik ve bağımsızlık"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#When choosing how to travel, which factors matter most to you?": "هنگام انتخاب روش سفر، کدام عامل‌ها برای شما مهم‌ترند؟",
+          "#Financial Cost": "هزینه",
+          "#Physical Comfort and effort": "راحتی جسمی و میزان تلاش",
+          "#Mental Well-being": "سلامت و آرامش روانی",
+          "#Environmental Impact": "اثر بر محیط‌زیست",
+          "#Reliability and Predictability": "قابل اعتماد بودن و قابل پیش‌بینی بودن",
+          "#Social status": "جایگاه اجتماعی",
+          "#Personal safety and security": "امنیت شخصی و ایمنی ترافیکی",
+          "#Time Efficiency": "صرفه‌جویی در زمان",
+          "#Flexibility and independence": "انعطاف‌پذیری و استقلال"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#When choosing how to travel, which factors matter most to you?": "Amikor eldönti, hogyan közlekedjen, mely tényezők a legfontosabbak Önnek?",
+          "#Financial Cost": "Költség",
+          "#Physical Comfort and effort": "Fizikai kényelem és erőfeszítés",
+          "#Mental Well-being": "Lelki jóllét",
+          "#Environmental Impact": "Környezeti hatás",
+          "#Reliability and Predictability": "Megbízhatóság és kiszámíthatóság",
+          "#Social status": "Társadalmi státusz",
+          "#Personal safety and security": "Személyes biztonság és közlekedésbiztonság",
+          "#Time Efficiency": "Időmegtakarítás",
+          "#Flexibility and independence": "Rugalmasság és önállóság"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#When choosing how to travel, which factors matter most to you?": "عند اختيار طريقة التنقل، ما العوامل الأكثر أهمية بالنسبة لك؟",
+          "#Financial Cost": "التكلفة",
+          "#Physical Comfort and effort": "الراحة البدنية والجهد",
+          "#Mental Well-being": "الراحة النفسية",
+          "#Environmental Impact": "الأثر البيئي",
+          "#Reliability and Predictability": "الموثوقية وإمكانية التوقع",
+          "#Social status": "المكانة الاجتماعية",
+          "#Personal safety and security": "الأمان الشخصي والسلامة المرورية",
+          "#Time Efficiency": "توفير الوقت",
+          "#Flexibility and independence": "المرونة والاستقلالية"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

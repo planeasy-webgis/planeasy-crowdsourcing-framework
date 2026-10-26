@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.pt_crowding_comfort",
   "project": "SmartUrbanity",
   "key": "pt_crowding_comfort",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_public_transport",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_public_transport"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How does the presence of other people make you feel during your trip?",
         "answer_key": "pt_crowding_comfort",
+        "legacy_answer_keys": [
+          "pt_crowding_comfort_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "Very comfortable",
             "value": "very_comfortable"
           }
-        ],
-        "legacy_answer_keys": [
-          "pt_crowding_comfort_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,119 @@
       "source_questionnaires": [
         "smarturbanity_public_transport"
       ]
+    },
+    "reference_7d9438ba10fb": {
+      "schema": {
+        "text": "How does the presence of other people make you feel during your trip?",
+        "answer_key": "pt_crowding_comfort",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very uncomfortable",
+            "value": "very_uncomfortable"
+          },
+          {
+            "text": "Slightly uncomfortable",
+            "value": "slightly_uncomfortable"
+          },
+          {
+            "text": "Neutral / Indifferent",
+            "value": "neutral_indifferent"
+          },
+          {
+            "text": "Mostly comfortable",
+            "value": "mostly_comfortable"
+          },
+          {
+            "text": "Very comfortable",
+            "value": "very_comfortable"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#I don't know": "I don't know",
+          "#Other": "Other",
+          "#How does the presence of other people make you feel during your trip?": "How does the presence of other people make you feel during your trip?",
+          "#Very uncomfortable": "Very uncomfortable",
+          "#Slightly uncomfortable": "Slightly uncomfortable",
+          "#Neutral / Indifferent": "Neutral / Indifferent",
+          "#Mostly comfortable": "Mostly comfortable",
+          "#Very comfortable": "Very comfortable"
+        },
+        "it": {
+          "#I don't know": "Non lo so",
+          "#Other": "Altro",
+          "#How does the presence of other people make you feel during your trip?": "Come ti fa sentire la presenza di altre persone durante il viaggio?",
+          "#Very uncomfortable": "Molto a disagio",
+          "#Slightly uncomfortable": "Leggermente a disagio",
+          "#Neutral / Indifferent": "Neutrale / Indifferente",
+          "#Mostly comfortable": "Per lo più a mio agio",
+          "#Very comfortable": "Molto a mio agio"
+        },
+        "fr": {
+          "#I don't know": "Je ne sais pas",
+          "#Other": "Autre",
+          "#How does the presence of other people make you feel during your trip?": "Comment la présence d’autres personnes vous fait-elle sentir pendant votre trajet ?",
+          "#Very uncomfortable": "Très mal à l’aise",
+          "#Slightly uncomfortable": "Un peu mal à l’aise",
+          "#Neutral / Indifferent": "Neutre / indifférent(e)",
+          "#Mostly comfortable": "Plutôt à l’aise",
+          "#Very comfortable": "Très à l’aise"
+        },
+        "de": {
+          "#I don't know": "Ich weiß es nicht",
+          "#Other": "Anderes",
+          "#How does the presence of other people make you feel during your trip?": "Wie fühlen Sie sich durch die Anwesenheit anderer Menschen während Ihrer Fahrt?",
+          "#Very uncomfortable": "Sehr unwohl",
+          "#Slightly uncomfortable": "Etwas unwohl",
+          "#Neutral / Indifferent": "Neutral / gleichgültig",
+          "#Mostly comfortable": "Meist wohl",
+          "#Very comfortable": "Sehr wohl"
+        },
+        "tr": {
+          "#I don't know": "Bilmiyorum",
+          "#Other": "Diğer",
+          "#How does the presence of other people make you feel during your trip?": "Yolculuk sırasında başka insanların varlığı size nasıl hissettiriyor?",
+          "#Very uncomfortable": "Çok rahatsız",
+          "#Slightly uncomfortable": "Biraz rahatsız",
+          "#Neutral / Indifferent": "Nötr / Fark etmiyor",
+          "#Mostly comfortable": "Genellikle rahat",
+          "#Very comfortable": "Çok rahat"
+        },
+        "fa": {
+          "#I don't know": "نمی‌دانم",
+          "#Other": "سایر",
+          "#How does the presence of other people make you feel during your trip?": "حضور افراد دیگر در طول سفر چه احساسی در شما ایجاد می‌کند؟",
+          "#Very uncomfortable": "بسیار ناراحت",
+          "#Slightly uncomfortable": "کمی ناراحت",
+          "#Neutral / Indifferent": "خنثی / برایم فرقی ندارد",
+          "#Mostly comfortable": "بیشتر راحت",
+          "#Very comfortable": "بسیار راحت"
+        },
+        "hu": {
+          "#I don't know": "Nem tudom",
+          "#Other": "Egyéb",
+          "#How does the presence of other people make you feel during your trip?": "Hogyan érzi magát más emberek jelenlétében az utazás során?",
+          "#Very uncomfortable": "Nagyon kényelmetlenül",
+          "#Slightly uncomfortable": "Kissé kényelmetlenül",
+          "#Neutral / Indifferent": "Semlegesen / közömbösen",
+          "#Mostly comfortable": "Többnyire kényelmesen",
+          "#Very comfortable": "Nagyon kényelmesen"
+        },
+        "ar": {
+          "#I don't know": "لا أعرف",
+          "#Other": "أخرى",
+          "#How does the presence of other people make you feel during your trip?": "كيف يجعلك وجود أشخاص آخرين تشعر أثناء الرحلة؟",
+          "#Very uncomfortable": "غير مرتاح جدًا",
+          "#Slightly uncomfortable": "غير مرتاح قليلًا",
+          "#Neutral / Indifferent": "محايد / لا فرق لدي",
+          "#Mostly comfortable": "مرتاح في الغالب",
+          "#Very comfortable": "مرتاح جدًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

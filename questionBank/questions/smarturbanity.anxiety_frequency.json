@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.anxiety_frequency",
   "project": "SmartUrbanity",
   "key": "anxiety_frequency",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_experience_on_the_move",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_experience_on_the_move"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How often do you feel anxious or overwhelmed during your typical journey?",
         "answer_key": "anxiety_frequency",
+        "legacy_answer_keys": [
+          "anxiety_frequency_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -38,10 +40,7 @@
             "value": "constantly"
           }
         ],
-        "privacy_classification": "special_category_health",
-        "legacy_answer_keys": [
-          "anxiety_frequency_v1"
-        ]
+        "privacy_classification": "special_category_health"
       },
       "translations": {
         "en": {
@@ -112,6 +111,120 @@
       "source_questionnaires": [
         "smarturbanity_experience_on_the_move"
       ]
+    },
+    "reference_a23ca6bea015": {
+      "schema": {
+        "text": "How often do you feel anxious or overwhelmed during your typical journey?",
+        "answer_key": "anxiety_frequency",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Never",
+            "value": "never"
+          },
+          {
+            "text": "Rarely",
+            "value": "rarely"
+          },
+          {
+            "text": "Sometimes",
+            "value": "sometimes"
+          },
+          {
+            "text": "Frequently",
+            "value": "frequently"
+          },
+          {
+            "text": "Constantly",
+            "value": "constantly"
+          }
+        ],
+        "privacy_classification": "special_category_health"
+      },
+      "translations": {
+        "en": {
+          "#How often do you feel anxious or overwhelmed during your typical journey?": "How often do you feel anxious or overwhelmed during your typical journey?",
+          "#Never": "Never",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#Frequently": "Frequently",
+          "#Constantly": "Constantly",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How often do you feel anxious or overwhelmed during your typical journey?": "Con quale frequenza ti senti ansioso/a o sopraffatto/a durante il tuo spostamento abituale?",
+          "#Never": "Mai",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#Frequently": "Frequentemente",
+          "#Constantly": "Costantemente",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How often do you feel anxious or overwhelmed during your typical journey?": "À quelle fréquence vous sentez-vous anxieux(se) ou dépassé(e) pendant votre trajet habituel ?",
+          "#Never": "Jamais",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#Frequently": "Souvent",
+          "#Constantly": "Tout le temps",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How often do you feel anxious or overwhelmed during your typical journey?": "Wie oft fühlen Sie sich während Ihres typischen Weges ängstlich oder überfordert?",
+          "#Never": "Nie",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#Frequently": "Oft",
+          "#Constantly": "Ständig",
+          "#Other": "Anderes",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How often do you feel anxious or overwhelmed during your typical journey?": "Tipik yolculuğunuz sırasında ne sıklıkta kaygılı veya bunalmış hissedersiniz?",
+          "#Never": "Hiçbir zaman",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#Frequently": "Sık sık",
+          "#Constantly": "Sürekli",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How often do you feel anxious or overwhelmed during your typical journey?": "در طول سفر معمول خود چند وقت یک بار احساس اضطراب یا درماندگی می‌کنید؟",
+          "#Never": "هرگز",
+          "#Rarely": "به ندرت",
+          "#Sometimes": "گاهی",
+          "#Frequently": "اغلب",
+          "#Constantly": "همیشه",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How often do you feel anxious or overwhelmed during your typical journey?": "Milyen gyakran érzi magát szorongónak vagy túlterheltnek a tipikus utazása során?",
+          "#Never": "Soha",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#Frequently": "Gyakran",
+          "#Constantly": "Folyamatosan",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How often do you feel anxious or overwhelmed during your typical journey?": "كم مرة تشعر بالقلق أو الضغط الزائد أثناء رحلتك المعتادة؟",
+          "#Never": "أبدًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#Frequently": "غالبًا",
+          "#Constantly": "باستمرار",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

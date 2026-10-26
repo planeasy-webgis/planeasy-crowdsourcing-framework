@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.emotional_state",
   "project": "SmartUrbanity",
   "key": "emotional_state",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_experience_on_the_move",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_experience_on_the_move"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How would you describe your emotional state during a typical journey?",
         "answer_key": "emotional_state",
+        "legacy_answer_keys": [
+          "emotional_state_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -38,10 +40,7 @@
             "value": "very_relaxed"
           }
         ],
-        "privacy_classification": "heightened_personal",
-        "legacy_answer_keys": [
-          "emotional_state_v1"
-        ]
+        "privacy_classification": "heightened_personal"
       },
       "translations": {
         "en": {
@@ -112,6 +111,120 @@
       "source_questionnaires": [
         "smarturbanity_experience_on_the_move"
       ]
+    },
+    "reference_3c2463c78d41": {
+      "schema": {
+        "text": "How would you describe your emotional state during a typical journey?",
+        "answer_key": "emotional_state",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very stressed",
+            "value": "very_stressed"
+          },
+          {
+            "text": "Somewhat stressed",
+            "value": "somewhat_stressed"
+          },
+          {
+            "text": "Neutral",
+            "value": "neutral"
+          },
+          {
+            "text": "Somewhat relaxed",
+            "value": "somewhat_relaxed"
+          },
+          {
+            "text": "Very relaxed",
+            "value": "very_relaxed"
+          }
+        ],
+        "privacy_classification": "heightened_personal"
+      },
+      "translations": {
+        "en": {
+          "#How would you describe your emotional state during a typical journey?": "How would you describe your emotional state during a typical journey?",
+          "#Very stressed": "Very stressed",
+          "#Somewhat stressed": "Somewhat stressed",
+          "#Neutral": "Neutral",
+          "#Somewhat relaxed": "Somewhat relaxed",
+          "#Very relaxed": "Very relaxed",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How would you describe your emotional state during a typical journey?": "Come descriveresti il tuo stato emotivo durante uno spostamento abituale?",
+          "#Very stressed": "Molto stressato/a",
+          "#Somewhat stressed": "Abbastanza stressato/a",
+          "#Neutral": "Neutrale",
+          "#Somewhat relaxed": "Abbastanza rilassato/a",
+          "#Very relaxed": "Molto rilassato/a",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How would you describe your emotional state during a typical journey?": "Comment décririez-vous votre état émotionnel pendant un trajet habituel ?",
+          "#Very stressed": "Très stressé(e)",
+          "#Somewhat stressed": "Plutôt stressé(e)",
+          "#Neutral": "Neutre",
+          "#Somewhat relaxed": "Plutôt détendu(e)",
+          "#Very relaxed": "Très détendu(e)",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How would you describe your emotional state during a typical journey?": "Wie würden Sie Ihren Gefühlszustand während eines typischen Weges beschreiben?",
+          "#Very stressed": "Sehr gestresst",
+          "#Somewhat stressed": "Eher gestresst",
+          "#Neutral": "Neutral",
+          "#Somewhat relaxed": "Eher entspannt",
+          "#Very relaxed": "Sehr entspannt",
+          "#Other": "Anderes",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How would you describe your emotional state during a typical journey?": "Tipik bir yolculuk sırasında duygusal durumunuzu nasıl tanımlarsınız?",
+          "#Very stressed": "Çok stresli",
+          "#Somewhat stressed": "Biraz stresli",
+          "#Neutral": "Nötr",
+          "#Somewhat relaxed": "Biraz rahat",
+          "#Very relaxed": "Çok rahat",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How would you describe your emotional state during a typical journey?": "حالت روحی خود را در طول یک سفر معمول چگونه توصیف می‌کنید؟",
+          "#Very stressed": "خیلی پراسترس",
+          "#Somewhat stressed": "تا حدی پراسترس",
+          "#Neutral": "خنثی",
+          "#Somewhat relaxed": "تا حدی آرام",
+          "#Very relaxed": "خیلی آرام",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How would you describe your emotional state during a typical journey?": "Hogyan jellemezné az érzelmi állapotát egy tipikus utazás során?",
+          "#Very stressed": "Nagyon stresszes",
+          "#Somewhat stressed": "Eléggé stresszes",
+          "#Neutral": "Semleges",
+          "#Somewhat relaxed": "Eléggé nyugodt",
+          "#Very relaxed": "Nagyon nyugodt",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How would you describe your emotional state during a typical journey?": "كيف تصف حالتك النفسية أثناء رحلة معتادة؟",
+          "#Very stressed": "متوتر جدًا",
+          "#Somewhat stressed": "متوتر إلى حد ما",
+          "#Neutral": "محايد",
+          "#Somewhat relaxed": "مرتاح إلى حد ما",
+          "#Very relaxed": "مرتاح جدًا",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

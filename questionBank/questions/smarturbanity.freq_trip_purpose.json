@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.freq_trip_purpose",
   "project": "SmartUrbanity",
   "key": "freq_trip_purpose",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_daily_travel",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)",
         "answer_key": "freq_trip_purpose",
+        "legacy_answer_keys": [
+          "freq_trip_purpose_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -47,10 +49,7 @@
             "value": "caring_escort"
           }
         ],
-        "privacy_classification": "heightened_personal",
-        "legacy_answer_keys": [
-          "freq_trip_purpose_v1"
-        ]
+        "privacy_classification": "heightened_personal"
       },
       "translations": {
         "en": {
@@ -137,6 +136,137 @@
       "source_questionnaires": [
         "smarturbanity_daily_travel"
       ]
+    },
+    "reference_956ceb7a210d": {
+      "schema": {
+        "text": "What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)",
+        "answer_key": "freq_trip_purpose",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Work or professional business",
+            "value": "work_or_professional_business"
+          },
+          {
+            "text": "Education",
+            "value": "education"
+          },
+          {
+            "text": "Shopping or daily activities",
+            "value": "shopping_or_daily_activities"
+          },
+          {
+            "text": "Appointments (medical,legal,banking)",
+            "value": "appointments_medical_legal_banking"
+          },
+          {
+            "text": "Social/Leisure",
+            "value": "social_leisure"
+          },
+          {
+            "text": "Health/Exercise",
+            "value": "health_exercise",
+            "special_category": "health"
+          },
+          {
+            "text": "Caring/Escort",
+            "value": "caring_escort"
+          }
+        ],
+        "privacy_classification": "heightened_personal"
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)": "What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)",
+          "#Work or professional business": "Work or professional business",
+          "#Education": "Education",
+          "#Shopping or daily activities": "Shopping or daily activities",
+          "#Appointments (medical,legal,banking)": "Appointments (medical,legal,banking)",
+          "#Social/Leisure": "Social/Leisure",
+          "#Health/Exercise": "Health/Exercise",
+          "#Caring/Escort": "Caring/Escort"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)": "Qual è lo scopo principale del tuo spostamento più frequente? (Pensa allo spostamento che effettui più spesso durante una settimana tipica.)",
+          "#Work or professional business": "Lavoro o attività professionali",
+          "#Education": "Studio o formazione",
+          "#Shopping or daily activities": "Acquisti o attività quotidiane",
+          "#Appointments (medical,legal,banking)": "Appuntamenti (medici, legali, bancari)",
+          "#Social/Leisure": "Socialità/tempo libero",
+          "#Health/Exercise": "Salute/attività fisica",
+          "#Caring/Escort": "Assistenza/accompagnamento"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)": "Quel est le but principal de votre trajet le plus fréquent ? (Pensez au trajet que vous faites le plus souvent pendant une semaine habituelle.)",
+          "#Work or professional business": "Travail ou activité professionnelle",
+          "#Education": "Études",
+          "#Shopping or daily activities": "Achats ou activités quotidiennes",
+          "#Appointments (medical,legal,banking)": "Rendez-vous (médical, juridique, bancaire)",
+          "#Social/Leisure": "Vie sociale / loisirs",
+          "#Health/Exercise": "Santé / activité physique",
+          "#Caring/Escort": "Accompagnement ou aide à une autre personne"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)": "Was ist der Hauptzweck Ihres häufigsten Weges? (Denken Sie an den Weg, den Sie in einer typischen Woche am häufigsten machen.)",
+          "#Work or professional business": "Arbeit oder berufliche Tätigkeit",
+          "#Education": "Ausbildung oder Studium",
+          "#Shopping or daily activities": "Einkaufen oder tägliche Erledigungen",
+          "#Appointments (medical,legal,banking)": "Termine (medizinisch, rechtlich, Bank)",
+          "#Social/Leisure": "Soziale Aktivitäten / Freizeit",
+          "#Health/Exercise": "Gesundheit / Sport",
+          "#Caring/Escort": "Begleitung oder Betreuung einer anderen Person"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)": "En sık yaptığınız yolculuğun temel amacı nedir? (Tipik bir haftada en sık yaptığınız yolculuğu düşünün.)",
+          "#Work or professional business": "İş veya mesleki faaliyet",
+          "#Education": "Eğitim",
+          "#Shopping or daily activities": "Alışveriş veya günlük işler",
+          "#Appointments (medical,legal,banking)": "Randevular (sağlık, hukuk, banka)",
+          "#Social/Leisure": "Sosyal etkinlik / boş zaman",
+          "#Health/Exercise": "Sağlık / egzersiz",
+          "#Caring/Escort": "Birine bakım veya eşlik etme"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)": "هدف اصلی پرتکرارترین سفر شما چیست؟ (سفری را در نظر بگیرید که در یک هفته معمولی بیشتر انجام می‌دهید.)",
+          "#Work or professional business": "کار یا فعالیت حرفه‌ای",
+          "#Education": "تحصیل",
+          "#Shopping or daily activities": "خرید یا کارهای روزمره",
+          "#Appointments (medical,legal,banking)": "قرارها (پزشکی، حقوقی، بانکی)",
+          "#Social/Leisure": "فعالیت اجتماعی / تفریح",
+          "#Health/Exercise": "سلامت / ورزش",
+          "#Caring/Escort": "مراقبت یا همراهی فرد دیگر"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)": "Mi a leggyakoribb utazásának fő célja? (Gondoljon arra az útra, amelyet egy tipikus héten a leggyakrabban megtesz.)",
+          "#Work or professional business": "Munka vagy üzleti tevékenység",
+          "#Education": "Oktatás",
+          "#Shopping or daily activities": "Vásárlás vagy mindennapi ügyintézés",
+          "#Appointments (medical,legal,banking)": "Időpontok (orvosi, jogi, banki)",
+          "#Social/Leisure": "Társasági élet / szabadidő",
+          "#Health/Exercise": "Egészség / testmozgás",
+          "#Caring/Escort": "Gondozás vagy más személy kísérése"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#What is the main purpose of your most frequent journey? (Think about the trip you make most often in a typical week.)": "ما الغرض الرئيسي من رحلتك الأكثر تكرارًا؟ (فكر في الرحلة التي تقوم بها غالبًا خلال أسبوع عادي.)",
+          "#Work or professional business": "العمل أو نشاط مهني",
+          "#Education": "التعليم",
+          "#Shopping or daily activities": "التسوق أو الأنشطة اليومية",
+          "#Appointments (medical,legal,banking)": "المواعيد (طبية، قانونية، مصرفية)",
+          "#Social/Leisure": "نشاط اجتماعي / ترفيه",
+          "#Health/Exercise": "الصحة / الرياضة",
+          "#Caring/Escort": "رعاية شخص آخر أو مرافقته"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

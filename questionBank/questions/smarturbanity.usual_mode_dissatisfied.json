@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.usual_mode_dissatisfied",
   "project": "SmartUrbanity",
   "key": "usual_mode_dissatisfied",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_daily_travel",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "Which aspects of your current primary mode of transport are you most dissatisfied with?",
         "answer_key": "usual_mode_dissatisfied",
+        "legacy_answer_keys": [
+          "usual_mode_dissatisfied_v1"
+        ],
         "question_type": "multiple_options",
         "options": [
           {
@@ -59,10 +61,7 @@
           }
         ],
         "max_answers": 3,
-        "add_other": true,
-        "legacy_answer_keys": [
-          "usual_mode_dissatisfied_v1"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -181,6 +180,173 @@
       "source_questionnaires": [
         "smarturbanity_daily_travel"
       ]
+    },
+    "reference_f133fcf2abdf": {
+      "schema": {
+        "text": "Which aspects of your current primary mode of transport are you most dissatisfied with?",
+        "answer_key": "usual_mode_dissatisfied",
+        "question_type": "multiple_options",
+        "options": [
+          {
+            "text": "I am satisfied with my current primary mode of transport",
+            "value": "i_am_satisfied_with_my_current_primary_m"
+          },
+          {
+            "text": "Travel Time/Speed",
+            "value": "travel_time_speed"
+          },
+          {
+            "text": "Cost/Value for money",
+            "value": "cost_value_for_money"
+          },
+          {
+            "text": "Reliability/Predictability",
+            "value": "reliability_predictability"
+          },
+          {
+            "text": "Comfort",
+            "value": "comfort"
+          },
+          {
+            "text": "Safety/Security",
+            "value": "safety_security"
+          },
+          {
+            "text": "Accessibility/Convenience",
+            "value": "accessibility_convenience"
+          },
+          {
+            "text": "Crowding/Availability of space",
+            "value": "crowding_availability_of_space"
+          },
+          {
+            "text": "Environmental impact",
+            "value": "environmental_impact"
+          },
+          {
+            "text": "Lack of flexibility",
+            "value": "lack_of_flexibility"
+          }
+        ],
+        "max_answers": 3,
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#Which aspects of your current primary mode of transport are you most dissatisfied with?": "Which aspects of your current primary mode of transport are you most dissatisfied with?",
+          "#I am satisfied with my current primary mode of transport": "I am satisfied with my current primary mode of transport",
+          "#Travel Time/Speed": "Travel Time/Speed",
+          "#Cost/Value for money": "Cost/Value for money",
+          "#Reliability/Predictability": "Reliability/Predictability",
+          "#Comfort": "Comfort",
+          "#Safety/Security": "Safety/Security",
+          "#Accessibility/Convenience": "Accessibility/Convenience",
+          "#Crowding/Availability of space": "Crowding/Availability of space",
+          "#Environmental impact": "Environmental impact",
+          "#Lack of flexibility": "Lack of flexibility"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#Which aspects of your current primary mode of transport are you most dissatisfied with?": "Quali aspetti della tua attuale modalità di trasporto principale ti rendono maggiormente insoddisfatto/a?",
+          "#I am satisfied with my current primary mode of transport": "Sono soddisfatto/a della mia attuale modalità di trasporto principale",
+          "#Travel Time/Speed": "Tempo di viaggio/velocità",
+          "#Cost/Value for money": "Costo/rapporto qualità-prezzo",
+          "#Reliability/Predictability": "Affidabilità/prevedibilità",
+          "#Comfort": "Comfort",
+          "#Safety/Security": "Sicurezza personale e stradale",
+          "#Accessibility/Convenience": "Accessibilità/praticità",
+          "#Crowding/Availability of space": "Affollamento/disponibilità di spazio",
+          "#Environmental impact": "Impatto ambientale",
+          "#Lack of flexibility": "Mancanza di flessibilità"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#Which aspects of your current primary mode of transport are you most dissatisfied with?": "Quels aspects de votre principal mode de transport actuel vous satisfont le moins ?",
+          "#I am satisfied with my current primary mode of transport": "Je suis satisfait(e) de mon principal mode de transport actuel",
+          "#Travel Time/Speed": "Temps de trajet / vitesse",
+          "#Cost/Value for money": "Coût / rapport qualité-prix",
+          "#Reliability/Predictability": "Fiabilité / prévisibilité",
+          "#Comfort": "Confort",
+          "#Safety/Security": "Sécurité routière / sécurité personnelle",
+          "#Accessibility/Convenience": "Accessibilité / facilité d’utilisation",
+          "#Crowding/Availability of space": "Affluence / espace disponible",
+          "#Environmental impact": "Impact sur l’environnement",
+          "#Lack of flexibility": "Manque de flexibilité"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#Which aspects of your current primary mode of transport are you most dissatisfied with?": "Mit welchen Aspekten Ihres derzeit wichtigsten Verkehrsmittels sind Sie am unzufriedensten?",
+          "#I am satisfied with my current primary mode of transport": "Ich bin mit meinem derzeit wichtigsten Verkehrsmittel zufrieden",
+          "#Travel Time/Speed": "Fahrzeit / Geschwindigkeit",
+          "#Cost/Value for money": "Kosten / Preis-Leistungs-Verhältnis",
+          "#Reliability/Predictability": "Zuverlässigkeit / Planbarkeit",
+          "#Comfort": "Komfort",
+          "#Safety/Security": "Verkehrssicherheit / persönliche Sicherheit",
+          "#Accessibility/Convenience": "Barrierefreiheit / einfache Nutzung",
+          "#Crowding/Availability of space": "Überfüllung / verfügbarer Platz",
+          "#Environmental impact": "Umweltauswirkungen",
+          "#Lack of flexibility": "Fehlende Flexibilität"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#Which aspects of your current primary mode of transport are you most dissatisfied with?": "Şu anda en sık kullandığınız ulaşım seçeneğinin hangi yönlerinden en az memnunsunuz?",
+          "#I am satisfied with my current primary mode of transport": "Şu anda en sık kullandığım ulaşım seçeneğinden memnunum",
+          "#Travel Time/Speed": "Yolculuk süresi / hız",
+          "#Cost/Value for money": "Maliyet / ödediğim paranın karşılığı",
+          "#Reliability/Predictability": "Güvenilirlik / öngörülebilirlik",
+          "#Comfort": "Konfor",
+          "#Safety/Security": "Trafik güvenliği / kişisel güvenlik",
+          "#Accessibility/Convenience": "Erişilebilirlik / kullanım kolaylığı",
+          "#Crowding/Availability of space": "Kalabalık / mevcut alan",
+          "#Environmental impact": "Çevresel etki",
+          "#Lack of flexibility": "Esneklik eksikliği"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#Which aspects of your current primary mode of transport are you most dissatisfied with?": "از کدام بخش‌های روش اصلی رفت‌وآمد فعلی خود بیشتر ناراضی هستید؟",
+          "#I am satisfied with my current primary mode of transport": "از روش اصلی رفت‌وآمد فعلی خود راضی هستم",
+          "#Travel Time/Speed": "زمان سفر / سرعت",
+          "#Cost/Value for money": "هزینه / ارزش در برابر پول پرداختی",
+          "#Reliability/Predictability": "قابل اعتماد بودن / قابل پیش‌بینی بودن",
+          "#Comfort": "راحتی",
+          "#Safety/Security": "ایمنی ترافیکی / امنیت شخصی",
+          "#Accessibility/Convenience": "دسترس‌پذیری / سهولت استفاده",
+          "#Crowding/Availability of space": "شلوغی / فضای موجود",
+          "#Environmental impact": "اثر بر محیط‌زیست",
+          "#Lack of flexibility": "انعطاف‌پذیری کم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#Which aspects of your current primary mode of transport are you most dissatisfied with?": "Mely szempontokkal a legkevésbé elégedett a jelenleg leggyakrabban használt közlekedési módjánál?",
+          "#I am satisfied with my current primary mode of transport": "Elégedett vagyok a jelenleg leggyakrabban használt közlekedési módommal",
+          "#Travel Time/Speed": "Utazási idő / sebesség",
+          "#Cost/Value for money": "Költség / ár-érték arány",
+          "#Reliability/Predictability": "Megbízhatóság / kiszámíthatóság",
+          "#Comfort": "Kényelem",
+          "#Safety/Security": "Közlekedésbiztonság / személyes biztonság",
+          "#Accessibility/Convenience": "Akadálymentesség / könnyű használat",
+          "#Crowding/Availability of space": "Zsúfoltság / rendelkezésre álló hely",
+          "#Environmental impact": "Környezeti hatás",
+          "#Lack of flexibility": "Rugalmasság hiánya"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#Which aspects of your current primary mode of transport are you most dissatisfied with?": "ما الجوانب التي لا ترضيك أكثر في وسيلة التنقل الرئيسية التي تستخدمها حاليًا؟",
+          "#I am satisfied with my current primary mode of transport": "أنا راضٍ عن وسيلة التنقل الرئيسية التي أستخدمها حاليًا",
+          "#Travel Time/Speed": "وقت الرحلة / السرعة",
+          "#Cost/Value for money": "التكلفة / القيمة مقابل المال",
+          "#Reliability/Predictability": "الموثوقية / إمكانية التوقع",
+          "#Comfort": "الراحة",
+          "#Safety/Security": "السلامة المرورية / الأمان الشخصي",
+          "#Accessibility/Convenience": "سهولة الوصول / سهولة الاستخدام",
+          "#Crowding/Availability of space": "الازدحام / المساحة المتاحة",
+          "#Environmental impact": "الأثر البيئي",
+          "#Lack of flexibility": "قلة المرونة"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

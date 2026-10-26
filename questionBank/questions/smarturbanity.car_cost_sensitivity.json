@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.car_cost_sensitivity",
   "project": "SmartUrbanity",
   "key": "car_cost_sensitivity",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_car",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_car"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How would increased driving-related costs (fuel, tolls, parking) affect your car usage?",
         "answer_key": "car_cost_sensitivity",
+        "legacy_answer_keys": [
+          "car_cost_sensitivity_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "Would stop using car for most trips",
             "value": "would_stop_using_car_for_most_trips"
           }
-        ],
-        "legacy_answer_keys": [
-          "car_cost_sensitivity_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_car"
       ]
+    },
+    "reference_16782cd8a511": {
+      "schema": {
+        "text": "How would increased driving-related costs (fuel, tolls, parking) affect your car usage?",
+        "answer_key": "car_cost_sensitivity",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "No change in usage",
+            "value": "no_change_in_usage"
+          },
+          {
+            "text": "Slight reduction in car use",
+            "value": "slight_reduction_in_car_use"
+          },
+          {
+            "text": "Moderate reduction in car use",
+            "value": "moderate_reduction_in_car_use"
+          },
+          {
+            "text": "Significant reduction in car use",
+            "value": "significant_reduction_in_car_use"
+          },
+          {
+            "text": "Would stop using car for most trips",
+            "value": "would_stop_using_car_for_most_trips"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "How would increased driving-related costs (fuel, tolls, parking) affect your car usage?",
+          "#No change in usage": "No change in usage",
+          "#Slight reduction in car use": "Slight reduction in car use",
+          "#Moderate reduction in car use": "Moderate reduction in car use",
+          "#Significant reduction in car use": "Significant reduction in car use",
+          "#Would stop using car for most trips": "Would stop using car for most trips"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "In che modo un aumento dei costi legati all'uso dell'auto (carburante, pedaggi, parcheggio) influenzerebbe il tuo utilizzo dell'auto?",
+          "#No change in usage": "Nessun cambiamento nell'utilizzo",
+          "#Slight reduction in car use": "Leggera riduzione dell'uso dell'auto",
+          "#Moderate reduction in car use": "Moderata riduzione dell'uso dell'auto",
+          "#Significant reduction in car use": "Significativa riduzione dell'uso dell'auto",
+          "#Would stop using car for most trips": "Smetterei di utilizzare l'auto per la maggior parte degli spostamenti"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "Si les coûts liés à la conduite augmentaient, par exemple le carburant, les péages ou le stationnement, quel effet cela aurait-il sur votre usage de la voiture ?",
+          "#No change in usage": "Aucun changement",
+          "#Slight reduction in car use": "Une légère réduction de mon usage de la voiture",
+          "#Moderate reduction in car use": "Une réduction modérée de mon usage de la voiture",
+          "#Significant reduction in car use": "Une forte réduction de mon usage de la voiture",
+          "#Would stop using car for most trips": "J’arrêterais d’utiliser la voiture pour la plupart de mes déplacements"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "Wenn die Kosten des Autofahrens steigen würden, zum Beispiel Kraftstoff, Maut oder Parken: Wie würde sich das auf Ihre Autonutzung auswirken?",
+          "#No change in usage": "Keine Änderung",
+          "#Slight reduction in car use": "Ich würde das Auto etwas weniger nutzen",
+          "#Moderate reduction in car use": "Ich würde das Auto deutlich weniger nutzen",
+          "#Significant reduction in car use": "Ich würde das Auto viel weniger nutzen",
+          "#Would stop using car for most trips": "Ich würde für die meisten Wege auf das Auto verzichten"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "Yakıt, geçiş ücreti veya otopark gibi otomobil kullanma maliyetleri artsaydı otomobil kullanımınız nasıl etkilenirdi?",
+          "#No change in usage": "Kullanımım değişmezdi",
+          "#Slight reduction in car use": "Otomobili biraz daha az kullanırdım",
+          "#Moderate reduction in car use": "Otomobili orta düzeyde daha az kullanırdım",
+          "#Significant reduction in car use": "Otomobili belirgin şekilde daha az kullanırdım",
+          "#Would stop using car for most trips": "Çoğu yolculukta otomobil kullanmayı bırakırdım"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "اگر هزینه‌های رانندگی مثل سوخت، عوارض یا پارکینگ افزایش پیدا کند، استفاده شما از خودرو چگونه تغییر می‌کند؟",
+          "#No change in usage": "تغییری نمی‌کند",
+          "#Slight reduction in car use": "کمی کمتر از خودرو استفاده می‌کنم",
+          "#Moderate reduction in car use": "تا حد متوسط کمتر از خودرو استفاده می‌کنم",
+          "#Significant reduction in car use": "به‌طور قابل توجهی کمتر از خودرو استفاده می‌کنم",
+          "#Would stop using car for most trips": "برای بیشتر سفرها استفاده از خودرو را کنار می‌گذارم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "Ha nőnének az autózással kapcsolatos költségek, például az üzemanyag, útdíj vagy parkolás, hogyan változna az autóhasználata?",
+          "#No change in usage": "Nem változna",
+          "#Slight reduction in car use": "Kissé kevesebbet használnám az autót",
+          "#Moderate reduction in car use": "Közepesen csökkenteném az autóhasználatot",
+          "#Significant reduction in car use": "Jelentősen csökkenteném az autóhasználatot",
+          "#Would stop using car for most trips": "A legtöbb útra nem használnék autót"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "إذا ارتفعت تكاليف القيادة مثل الوقود أو الرسوم أو مواقف السيارات، كيف سيؤثر ذلك في استخدامك للسيارة؟",
+          "#No change in usage": "لن يتغير استخدامي",
+          "#Slight reduction in car use": "سأقلل استخدام السيارة قليلًا",
+          "#Moderate reduction in car use": "سأقلل استخدام السيارة بدرجة متوسطة",
+          "#Significant reduction in car use": "سأقلل استخدام السيارة بشكل واضح",
+          "#Would stop using car for most trips": "سأتوقف عن استخدام السيارة في معظم الرحلات"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

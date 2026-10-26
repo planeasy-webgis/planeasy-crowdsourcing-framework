@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.multimodal_difficulties",
   "project": "SmartUrbanity",
   "key": "multimodal_difficulties",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_daily_travel",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?",
         "answer_key": "multimodal_difficulties",
+        "legacy_answer_keys": [
+          "multimodal_difficulties_v1"
+        ],
         "question_type": "multiple_options",
         "max_answers": 3,
         "options": [
@@ -67,10 +69,7 @@
             "value": "i_do_not_experience_significant_difficul"
           }
         ],
-        "add_other": true,
-        "legacy_answer_keys": [
-          "multimodal_difficulties_v1"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -205,6 +204,197 @@
       "source_questionnaires": [
         "smarturbanity_daily_travel"
       ]
+    },
+    "reference_e3ffbbbd4006": {
+      "schema": {
+        "text": "What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?",
+        "answer_key": "multimodal_difficulties",
+        "question_type": "multiple_options",
+        "max_answers": 3,
+        "options": [
+          {
+            "text": "Vehicles are too crowded (e.g. no space for a bicycle or luggage)",
+            "value": "vehicles_are_too_crowded_e_g_no_space_fo"
+          },
+          {
+            "text": "Poor coordination between modes (long waiting times, missed connections)",
+            "value": "poor_coordination_between_modes_long_wai"
+          },
+          {
+            "text": "Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)",
+            "value": "lack_of_infrastructure_e_g_no_bicycle_pa"
+          },
+          {
+            "text": "Complicated transfers (stations far apart, unclear routes)",
+            "value": "complicated_transfers_stations_far_apart"
+          },
+          {
+            "text": "Travel time becomes too long",
+            "value": "travel_time_becomes_too_long"
+          },
+          {
+            "text": "Cost is too high when combining modes",
+            "value": "cost_is_too_high_when_combining_modes"
+          },
+          {
+            "text": "Safety concerns (traffic, theft, unsafe areas)",
+            "value": "safety_concerns_traffic_theft_unsafe_are"
+          },
+          {
+            "text": "Lack of reliable information (schedules, delays)",
+            "value": "lack_of_reliable_information_schedules_d"
+          },
+          {
+            "text": "Physical effort is too high (e.g. carrying a bicycle or walking long distances)",
+            "value": "physical_effort_is_too_high_e_g_carrying"
+          },
+          {
+            "text": "Accessibility issues (stairs, no elevators, etc.)",
+            "value": "accessibility_issues_stairs_no_elevators"
+          },
+          {
+            "text": "Weather-related difficulties",
+            "value": "weather_related_difficulties"
+          },
+          {
+            "text": "I do not experience significant difficulties",
+            "value": "i_do_not_experience_significant_difficul"
+          }
+        ],
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?": "What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?",
+          "#Vehicles are too crowded (e.g. no space for a bicycle or luggage)": "Vehicles are too crowded (e.g. no space for a bicycle or luggage)",
+          "#Poor coordination between modes (long waiting times, missed connections)": "Poor coordination between modes (long waiting times, missed connections)",
+          "#Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)": "Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)",
+          "#Complicated transfers (stations far apart, unclear routes)": "Complicated transfers (stations far apart, unclear routes)",
+          "#Travel time becomes too long": "Travel time becomes too long",
+          "#Cost is too high when combining modes": "Cost is too high when combining modes",
+          "#Safety concerns (traffic, theft, unsafe areas)": "Safety concerns (traffic, theft, unsafe areas)",
+          "#Lack of reliable information (schedules, delays)": "Lack of reliable information (schedules, delays)",
+          "#Physical effort is too high (e.g. carrying a bicycle or walking long distances)": "Physical effort is too high (e.g. carrying a bicycle or walking long distances)",
+          "#Accessibility issues (stairs, no elevators, etc.)": "Accessibility issues (stairs, no elevators, etc.)",
+          "#Weather-related difficulties": "Weather-related difficulties",
+          "#I do not experience significant difficulties": "I do not experience significant difficulties",
+          "#Other": "Other"
+        },
+        "it": {
+          "#What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?": "Quali difficoltà incontri nel combinare diversi mezzi di trasporto (ad es. bicicletta + trasporto pubblico, auto + metro, a piedi + autobus)?",
+          "#Vehicles are too crowded (e.g. no space for a bicycle or luggage)": "I mezzi sono troppo affollati (ad es. non c'è spazio per la bicicletta o i bagagli)",
+          "#Poor coordination between modes (long waiting times, missed connections)": "Scarso coordinamento tra i mezzi (lunghi tempi di attesa, coincidenze perse)",
+          "#Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)": "Mancanza di infrastrutture (ad es. parcheggi per biciclette o accesso delle biciclette al trasporto pubblico)",
+          "#Complicated transfers (stations far apart, unclear routes)": "Cambi complicati (stazioni distanti tra loro, percorsi poco chiari)",
+          "#Travel time becomes too long": "Il tempo di viaggio diventa troppo lungo",
+          "#Cost is too high when combining modes": "Il costo è troppo elevato quando si combinano più mezzi",
+          "#Safety concerns (traffic, theft, unsafe areas)": "Preoccupazioni per la sicurezza (traffico, furti, zone poco sicure)",
+          "#Lack of reliable information (schedules, delays)": "Mancanza di informazioni affidabili (orari, ritardi)",
+          "#Physical effort is too high (e.g. carrying a bicycle or walking long distances)": "Lo sforzo fisico è troppo elevato (ad es. trasportare una bicicletta o camminare per lunghe distanze)",
+          "#Accessibility issues (stairs, no elevators, etc.)": "Problemi di accessibilità (scale, assenza di ascensori ecc.)",
+          "#Weather-related difficulties": "Difficoltà legate alle condizioni meteorologiche",
+          "#I do not experience significant difficulties": "Non incontro difficoltà significative",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?": "Quelles difficultés rencontrez-vous lorsque vous combinez différents modes de transport, par exemple vélo + transports publics, voiture + métro ou marche + bus ?",
+          "#Vehicles are too crowded (e.g. no space for a bicycle or luggage)": "Les véhicules sont trop remplis (par ex. pas de place pour un vélo ou des bagages)",
+          "#Poor coordination between modes (long waiting times, missed connections)": "Mauvaise coordination entre les modes (longues attentes, correspondances manquées)",
+          "#Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)": "Manque d’infrastructures (par ex. pas de stationnement vélo ou vélo non autorisé dans les transports publics)",
+          "#Complicated transfers (stations far apart, unclear routes)": "Correspondances compliquées (stations éloignées, itinéraires peu clairs)",
+          "#Travel time becomes too long": "Le temps de trajet devient trop long",
+          "#Cost is too high when combining modes": "Le coût est trop élevé quand plusieurs modes sont combinés",
+          "#Safety concerns (traffic, theft, unsafe areas)": "Problèmes de sécurité (trafic, vol, zones peu sûres)",
+          "#Lack of reliable information (schedules, delays)": "Manque d’informations fiables (horaires, retards)",
+          "#Physical effort is too high (e.g. carrying a bicycle or walking long distances)": "L’effort physique est trop important (par ex. porter un vélo ou marcher longtemps)",
+          "#Accessibility issues (stairs, no elevators, etc.)": "Problèmes d’accessibilité (escaliers, absence d’ascenseur, etc.)",
+          "#Weather-related difficulties": "Difficultés liées à la météo",
+          "#I do not experience significant difficulties": "Je ne rencontre pas de difficulté importante",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?": "Welche Schwierigkeiten haben Sie, wenn Sie verschiedene Verkehrsmittel kombinieren, zum Beispiel Fahrrad + öffentlicher Verkehr, Auto + U-Bahn oder zu Fuß + Bus?",
+          "#Vehicles are too crowded (e.g. no space for a bicycle or luggage)": "Die Fahrzeuge sind zu voll (z. B. kein Platz für Fahrrad oder Gepäck)",
+          "#Poor coordination between modes (long waiting times, missed connections)": "Schlechte Abstimmung zwischen Verkehrsmitteln (lange Wartezeiten, verpasste Anschlüsse)",
+          "#Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)": "Fehlende Infrastruktur (z. B. keine Fahrradabstellplätze oder Fahrräder dürfen nicht mitgenommen werden)",
+          "#Complicated transfers (stations far apart, unclear routes)": "Kompliziertes Umsteigen (Haltestellen weit auseinander, unklare Wege)",
+          "#Travel time becomes too long": "Die gesamte Fahrzeit wird zu lang",
+          "#Cost is too high when combining modes": "Die Kosten sind beim Kombinieren mehrerer Verkehrsmittel zu hoch",
+          "#Safety concerns (traffic, theft, unsafe areas)": "Sicherheitsbedenken (Verkehr, Diebstahl, unsichere Bereiche)",
+          "#Lack of reliable information (schedules, delays)": "Fehlende verlässliche Informationen (Fahrpläne, Verspätungen)",
+          "#Physical effort is too high (e.g. carrying a bicycle or walking long distances)": "Der körperliche Aufwand ist zu hoch (z. B. Fahrrad tragen oder lange Strecken zu Fuß gehen)",
+          "#Accessibility issues (stairs, no elevators, etc.)": "Probleme mit der Barrierefreiheit (Treppen, keine Aufzüge usw.)",
+          "#Weather-related difficulties": "Schwierigkeiten durch das Wetter",
+          "#I do not experience significant difficulties": "Ich habe keine größeren Schwierigkeiten",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?": "Farklı ulaşım seçeneklerini birleştirirken ne tür güçlükler yaşıyorsunuz? Örneğin bisiklet + toplu taşıma, otomobil + metro veya yürüme + otobüs.",
+          "#Vehicles are too crowded (e.g. no space for a bicycle or luggage)": "Araçlar çok kalabalık (ör. bisiklet veya bagaj için yer yok)",
+          "#Poor coordination between modes (long waiting times, missed connections)": "Ulaşım seçenekleri arasında kötü koordinasyon var (uzun bekleme süreleri, kaçırılan bağlantılar)",
+          "#Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)": "Altyapı eksik (ör. bisiklet parkı yok veya toplu taşımaya bisikletle binilemiyor)",
+          "#Complicated transfers (stations far apart, unclear routes)": "Aktarmalar karmaşık (istasyonlar birbirinden uzak, güzergâhlar belirsiz)",
+          "#Travel time becomes too long": "Toplam yolculuk süresi çok uzuyor",
+          "#Cost is too high when combining modes": "Farklı ulaşım seçeneklerini birleştirince maliyet çok yüksek oluyor",
+          "#Safety concerns (traffic, theft, unsafe areas)": "Güvenlikle ilgili kaygılar (trafik, hırsızlık, güvensiz bölgeler)",
+          "#Lack of reliable information (schedules, delays)": "Güvenilir bilgi eksikliği (sefer saatleri, gecikmeler)",
+          "#Physical effort is too high (e.g. carrying a bicycle or walking long distances)": "Fiziksel çaba çok fazla (ör. bisikleti taşımak veya uzun mesafe yürümek)",
+          "#Accessibility issues (stairs, no elevators, etc.)": "Erişilebilirlik sorunları (merdivenler, asansör olmaması vb.)",
+          "#Weather-related difficulties": "Hava koşullarıyla ilgili güçlükler",
+          "#I do not experience significant difficulties": "Önemli bir güçlük yaşamıyorum",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?": "هنگام ترکیب روش‌های مختلف رفت‌وآمد، مثلاً دوچرخه + حمل‌ونقل عمومی، خودرو + مترو یا پیاده‌روی + اتوبوس، با چه مشکلاتی روبه‌رو می‌شوید؟",
+          "#Vehicles are too crowded (e.g. no space for a bicycle or luggage)": "وسیله‌ها خیلی شلوغ هستند (مثلاً جا برای دوچرخه یا بار وجود ندارد)",
+          "#Poor coordination between modes (long waiting times, missed connections)": "هماهنگی بین روش‌ها ضعیف است (انتظار طولانی، از دست دادن وسیله بعدی)",
+          "#Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)": "زیرساخت کافی نیست (مثلاً پارک دوچرخه وجود ندارد یا بردن دوچرخه در حمل‌ونقل عمومی ممکن نیست)",
+          "#Complicated transfers (stations far apart, unclear routes)": "تعویض وسیله پیچیده است (ایستگاه‌ها از هم دورند، مسیرها نامشخص‌اند)",
+          "#Travel time becomes too long": "زمان کل سفر خیلی طولانی می‌شود",
+          "#Cost is too high when combining modes": "هزینه ترکیب چند روش خیلی زیاد است",
+          "#Safety concerns (traffic, theft, unsafe areas)": "نگرانی‌های ایمنی و امنیتی (ترافیک، سرقت، مناطق ناامن)",
+          "#Lack of reliable information (schedules, delays)": "اطلاعات قابل اعتماد کافی نیست (زمان‌بندی، تأخیر)",
+          "#Physical effort is too high (e.g. carrying a bicycle or walking long distances)": "تلاش جسمی خیلی زیاد است (مثلاً حمل دوچرخه یا پیاده‌روی طولانی)",
+          "#Accessibility issues (stairs, no elevators, etc.)": "مشکلات دسترس‌پذیری (پله، نبود آسانسور و غیره)",
+          "#Weather-related difficulties": "مشکلات مربوط به آب‌وهوا",
+          "#I do not experience significant difficulties": "مشکل قابل توجهی ندارم",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?": "Milyen nehézségeket tapasztal különböző közlekedési módok kombinálásakor, például kerékpár + tömegközlekedés, autó + metró vagy gyaloglás + busz?",
+          "#Vehicles are too crowded (e.g. no space for a bicycle or luggage)": "A járművek túl zsúfoltak (pl. nincs hely kerékpárnak vagy csomagnak)",
+          "#Poor coordination between modes (long waiting times, missed connections)": "Gyenge az összehangolás a közlekedési módok között (hosszú várakozás, lekésett csatlakozás)",
+          "#Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)": "Hiányos az infrastruktúra (pl. nincs kerékpárparkoló vagy nem lehet kerékpárt vinni a tömegközlekedésre)",
+          "#Complicated transfers (stations far apart, unclear routes)": "Bonyolult az átszállás (az állomások messze vannak egymástól, az útvonalak nem egyértelműek)",
+          "#Travel time becomes too long": "Az utazási idő túl hosszú lesz",
+          "#Cost is too high when combining modes": "Túl magas a költség több közlekedési mód kombinálásakor",
+          "#Safety concerns (traffic, theft, unsafe areas)": "Biztonsági problémák (forgalom, lopás, nem biztonságos területek)",
+          "#Lack of reliable information (schedules, delays)": "Nincs elég megbízható információ (menetrend, késés)",
+          "#Physical effort is too high (e.g. carrying a bicycle or walking long distances)": "Túl nagy a fizikai megterhelés (pl. kerékpár cipelése vagy hosszú gyaloglás)",
+          "#Accessibility issues (stairs, no elevators, etc.)": "Akadálymentességi problémák (lépcső, lift hiánya stb.)",
+          "#Weather-related difficulties": "Időjárással kapcsolatos nehézségek",
+          "#I do not experience significant difficulties": "Nem tapasztalok jelentős nehézséget",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#What difficulties do you experience when combining different transport modes (e.g. bike + public transport, car + metro, walking + bus)?": "ما الصعوبات التي تواجهها عند الجمع بين وسائل تنقل مختلفة، مثل الدراجة + النقل العام، السيارة + المترو، أو المشي + الحافلة؟",
+          "#Vehicles are too crowded (e.g. no space for a bicycle or luggage)": "المركبات مزدحمة جدًا (مثل عدم وجود مساحة للدراجة أو الأمتعة)",
+          "#Poor coordination between modes (long waiting times, missed connections)": "ضعف التنسيق بين الوسائل (انتظار طويل، فقدان وسيلة الربط)",
+          "#Lack of infrastructure (e.g. no bicycle parking or no bicycle access on public transport)": "نقص البنية التحتية (مثل عدم وجود موقف للدراجات أو عدم السماح بالدراجة في النقل العام)",
+          "#Complicated transfers (stations far apart, unclear routes)": "التبديل بين الوسائل معقد (المحطات بعيدة عن بعضها، الطرق غير واضحة)",
+          "#Travel time becomes too long": "وقت الرحلة يصبح طويلًا جدًا",
+          "#Cost is too high when combining modes": "التكلفة مرتفعة جدًا عند الجمع بين عدة وسائل",
+          "#Safety concerns (traffic, theft, unsafe areas)": "مخاوف تتعلق بالأمان والسلامة (حركة المرور، السرقة، مناطق غير آمنة)",
+          "#Lack of reliable information (schedules, delays)": "نقص المعلومات الموثوقة (المواعيد، التأخير)",
+          "#Physical effort is too high (e.g. carrying a bicycle or walking long distances)": "الجهد البدني مرتفع جدًا (مثل حمل الدراجة أو المشي لمسافات طويلة)",
+          "#Accessibility issues (stairs, no elevators, etc.)": "مشكلات في سهولة الوصول (سلالم، عدم وجود مصعد، وغيرها)",
+          "#Weather-related difficulties": "صعوبات بسبب الطقس",
+          "#I do not experience significant difficulties": "لا أواجه صعوبات كبيرة",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

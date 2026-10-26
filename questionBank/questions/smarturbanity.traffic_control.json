@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.traffic_control",
   "project": "SmartUrbanity",
   "key": "traffic_control",
-  "version": 1,
-  "status": "draft",
+  "version": 3,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -115,6 +114,142 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_ffd71a90635e": {
+      "schema": {
+        "text": "How does this crossing work?",
+        "help": "Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.",
+        "answer_key": "traffic_control",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "There is no zebra crossing and no traffic light",
+            "value": "no_control"
+          },
+          {
+            "text": "Zebra crossing without a traffic light",
+            "value": "priority_no_signal"
+          },
+          {
+            "text": "Traffic light: when it is green for me, the cars are stopped",
+            "value": "protected_signal"
+          },
+          {
+            "text": "Traffic light, but turning cars still pass",
+            "value": "permissive_signal_with_turning_conflict"
+          },
+          {
+            "text": "There is a traffic light, but it is unclear who should go",
+            "value": "unclear_signal_priority"
+          },
+          {
+            "text": "The traffic light is broken or switched off",
+            "value": "signal_broken"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#How does this crossing work?": "How does this crossing work?",
+          "#Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.": "Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.",
+          "#There is no zebra crossing and no traffic light": "There is no zebra crossing and no traffic light",
+          "#Zebra crossing without a traffic light": "Zebra crossing without a traffic light",
+          "#Traffic light: when it is green for me, the cars are stopped": "Traffic light: when it is green for me, the cars are stopped",
+          "#Traffic light, but turning cars still pass": "Traffic light, but turning cars still pass",
+          "#There is a traffic light, but it is unclear who should go": "There is a traffic light, but it is unclear who should go",
+          "#The traffic light is broken or switched off": "The traffic light is broken or switched off",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How does this crossing work?": "Come funziona questo attraversamento?",
+          "#Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.": "Le auto che girano sono i veicoli che svoltano all’incrocio e passano sull’attraversamento mentre per chi attraversa è verde. Chi deve passare si riferisce alla precedenza, cioè a chi ha diritto di passare per primo.",
+          "#There is no zebra crossing and no traffic light": "Non ci sono né strisce pedonali né semaforo",
+          "#Zebra crossing without a traffic light": "Strisce pedonali senza semaforo",
+          "#Traffic light: when it is green for me, the cars are stopped": "Semaforo: quando è verde per me, le auto sono ferme",
+          "#Traffic light, but turning cars still pass": "Semaforo, ma le auto che girano passano lo stesso",
+          "#There is a traffic light, but it is unclear who should go": "C'è un semaforo, ma non si capisce chi deve passare",
+          "#The traffic light is broken or switched off": "Il semaforo è guasto o spento",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How does this crossing work?": "Comment fonctionne cette traversée ?",
+          "#Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.": "Les voitures qui tournent sont les véhicules qui tournent au carrefour et passent sur la traversée pendant que le feu des personnes qui traversent est vert. Qui doit passer renvoie à la priorité, c’est-à-dire à qui a le droit de passer en premier.",
+          "#There is no zebra crossing and no traffic light": "Il n'y a ni passage piéton ni feu",
+          "#Zebra crossing without a traffic light": "Passage piéton sans feu",
+          "#Traffic light: when it is green for me, the cars are stopped": "Feu : quand il est vert pour moi, les voitures sont arrêtées",
+          "#Traffic light, but turning cars still pass": "Feu, mais les voitures qui tournent passent quand même",
+          "#There is a traffic light, but it is unclear who should go": "Il y a un feu, mais on ne comprend pas qui doit passer",
+          "#The traffic light is broken or switched off": "Le feu est en panne ou éteint",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How does this crossing work?": "Wie funktioniert dieser Übergang?",
+          "#Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.": "Abbiegende Autos sind Fahrzeuge, die an der Kreuzung abbiegen und über den Übergang fahren, während die Ampel für Querende grün ist. Wer gehen oder fahren darf bezieht sich auf den Vorrang, also darauf, wer zuerst gehen oder fahren darf.",
+          "#There is no zebra crossing and no traffic light": "Es gibt weder Zebrastreifen noch Ampel",
+          "#Zebra crossing without a traffic light": "Zebrastreifen ohne Ampel",
+          "#Traffic light: when it is green for me, the cars are stopped": "Ampel: Wenn ich Grün habe, stehen die Autos",
+          "#Traffic light, but turning cars still pass": "Ampel, aber abbiegende Autos fahren trotzdem",
+          "#There is a traffic light, but it is unclear who should go": "Es gibt eine Ampel, aber es ist unklar, wer gehen oder fahren darf",
+          "#The traffic light is broken or switched off": "Die Ampel ist kaputt oder ausgeschaltet",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How does this crossing work?": "Bu geçit nasıl işliyor?",
+          "#Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.": "Dönen araçlar, kavşakta dönüp karşıya geçenlerin ışığı yeşilken geçidin üzerinden geçen araçlardır. Kimin geçmesi gerektiği, geçiş üstünlüğünü, yani önce kimin geçme hakkı olduğunu ifade eder.",
+          "#There is no zebra crossing and no traffic light": "Ne yaya geçidi çizgisi ne de trafik ışığı var",
+          "#Zebra crossing without a traffic light": "Trafik ışığı olmayan yaya geçidi",
+          "#Traffic light: when it is green for me, the cars are stopped": "Trafik ışığı: benim için yeşil yandığında arabalar duruyor",
+          "#Traffic light, but turning cars still pass": "Trafik ışığı var, ama dönen arabalar yine de geçiyor",
+          "#There is a traffic light, but it is unclear who should go": "Trafik ışığı var, ama kimin geçeceği belli değil",
+          "#The traffic light is broken or switched off": "Trafik ışığı arızalı veya kapalı",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How does this crossing work?": "این گذرگاه چگونه کار می‌کند؟",
+          "#Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.": "خودروهای در حال گردش وسایلی هستند که در تقاطع می‌پیچند و در حالی که چراغ عابران سبز است از محل عبور می‌گذرند. «چه کسی باید برود» به حق تقدم اشاره دارد، یعنی چه کسی اجازه دارد اول برود.",
+          "#There is no zebra crossing and no traffic light": "نه خط عابر پیاده هست و نه چراغ راهنمایی",
+          "#Zebra crossing without a traffic light": "خط عابر پیاده بدون چراغ راهنمایی",
+          "#Traffic light: when it is green for me, the cars are stopped": "چراغ راهنمایی: وقتی برای من سبز است، خودروها متوقف‌اند",
+          "#Traffic light, but turning cars still pass": "چراغ راهنمایی هست، اما خودروهای در حال گردش باز هم عبور می‌کنند",
+          "#There is a traffic light, but it is unclear who should go": "چراغ راهنمایی هست، اما معلوم نیست چه کسی باید عبور کند",
+          "#The traffic light is broken or switched off": "چراغ راهنمایی خراب یا خاموش است",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How does this crossing work?": "Hogyan működik ez az átkelő?",
+          "#Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.": "A kanyarodó autók azok a járművek, amelyek a kereszteződésben befordulnak, és áthaladnak az átkelőn, miközben az átkelőknek zöld a lámpa. A ki mehet kérdés az elsőbbségre vonatkozik, vagyis arra, kinek szabad előbb mennie.",
+          "#There is no zebra crossing and no traffic light": "Nincs se zebra, se jelzőlámpa",
+          "#Zebra crossing without a traffic light": "Zebra jelzőlámpa nélkül",
+          "#Traffic light: when it is green for me, the cars are stopped": "Jelzőlámpa: amikor nekem zöld, az autók állnak",
+          "#Traffic light, but turning cars still pass": "Jelzőlámpa, de a kanyarodó autók így is áthaladnak",
+          "#There is a traffic light, but it is unclear who should go": "Van jelzőlámpa, de nem egyértelmű, ki mehet",
+          "#The traffic light is broken or switched off": "A jelzőlámpa elromlott vagy ki van kapcsolva",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How does this crossing work?": "كيف يعمل هذا المعبر؟",
+          "#Turning cars are vehicles that turn at the junction and drive across the crossing while the light for people crossing is green. Who should go refers to the right of way, that is who is allowed to go first.": "السيارات المنعطفة هي المركبات التي تنعطف عند التقاطع وتمر فوق ممر العبور بينما تكون إشارة العابرين خضراء. عبارة من يجب أن يمر تشير إلى حق الأولوية، أي من يحق له المرور أولًا.",
+          "#There is no zebra crossing and no traffic light": "لا يوجد ممر مشاة ولا إشارة ضوئية",
+          "#Zebra crossing without a traffic light": "ممر مشاة بدون إشارة ضوئية",
+          "#Traffic light: when it is green for me, the cars are stopped": "إشارة ضوئية: عندما تكون خضراء لي، تكون السيارات متوقفة",
+          "#Traffic light, but turning cars still pass": "إشارة ضوئية، لكن السيارات التي تنعطف تمر رغم ذلك",
+          "#There is a traffic light, but it is unclear who should go": "توجد إشارة ضوئية، لكن من غير الواضح من يجب أن يمر",
+          "#The traffic light is broken or switched off": "الإشارة الضوئية معطلة أو مطفأة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

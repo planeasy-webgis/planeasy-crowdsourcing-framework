@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.desired_walking_path",
   "project": "SmartUrbanity",
   "key": "desired_walking_path",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_segment_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -118,6 +117,129 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_f27a3cccb810": {
+      "schema": {
+        "text": "Should a continuous walking space be added here?",
+        "help": "A continuous walking space is a sidewalk or path without gaps along the whole stretch.",
+        "answer_key": "desired_walking_path",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No",
+            "value": "1_no"
+          },
+          {
+            "text": "Probably not",
+            "value": "2_probably_no"
+          },
+          {
+            "text": "Not sure",
+            "value": "3_not_sure"
+          },
+          {
+            "text": "Probably yes",
+            "value": "4_probably_yes"
+          },
+          {
+            "text": "Yes",
+            "value": "5_yes"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#No": "No",
+          "#Yes": "Yes",
+          "#Should a continuous walking space be added here?": "Should a continuous walking space be added here?",
+          "#A continuous walking space is a sidewalk or path without gaps along the whole stretch.": "A continuous walking space is a sidewalk or path without gaps along the whole stretch.",
+          "#Probably not": "Probably not",
+          "#Not sure": "Not sure",
+          "#Probably yes": "Probably yes",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#No": "No",
+          "#Yes": "Sì",
+          "#Should a continuous walking space be added here?": "Servirebbe qui uno spazio continuo per camminare?",
+          "#A continuous walking space is a sidewalk or path without gaps along the whole stretch.": "Uno spazio pedonale continuo è un marciapiede o percorso senza interruzioni lungo tutto il tratto.",
+          "#Probably not": "Probabilmente no",
+          "#Not sure": "Non saprei",
+          "#Probably yes": "Probabilmente sì",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#No": "Non",
+          "#Yes": "Oui",
+          "#Should a continuous walking space be added here?": "Faudrait-il ajouter ici un espace continu pour marcher ?",
+          "#A continuous walking space is a sidewalk or path without gaps along the whole stretch.": "Un espace piéton continu est un trottoir ou un chemin sans interruption sur tout le tronçon.",
+          "#Probably not": "Probablement pas",
+          "#Not sure": "Je ne sais pas",
+          "#Probably yes": "Probablement oui",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#No": "Nein",
+          "#Yes": "Ja",
+          "#Should a continuous walking space be added here?": "Sollte hier ein durchgehender Gehbereich angelegt werden?",
+          "#A continuous walking space is a sidewalk or path without gaps along the whole stretch.": "Ein durchgehender Gehbereich ist ein Gehweg oder Weg ohne Unterbrechung auf dem ganzen Abschnitt.",
+          "#Probably not": "Eher nein",
+          "#Not sure": "Nicht sicher",
+          "#Probably yes": "Eher ja",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#No": "Hayır",
+          "#Yes": "Evet",
+          "#Should a continuous walking space be added here?": "Buraya kesintisiz bir yürüme alanı eklenmeli mi?",
+          "#A continuous walking space is a sidewalk or path without gaps along the whole stretch.": "Kesintisiz yürüme alanı, bölüm boyunca hiç kesilmeyen bir kaldırım veya yoldur.",
+          "#Probably not": "Muhtemelen hayır",
+          "#Not sure": "Emin değilim",
+          "#Probably yes": "Muhtemelen evet",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#No": "خیر",
+          "#Yes": "بله",
+          "#Should a continuous walking space be added here?": "آیا باید اینجا یک فضای پیوسته برای پیاده‌روی اضافه شود؟",
+          "#A continuous walking space is a sidewalk or path without gaps along the whole stretch.": "فضای پیاده‌روی پیوسته پیاده‌رو یا مسیری بدون قطعی در تمام این بخش است.",
+          "#Probably not": "احتمالاً خیر",
+          "#Not sure": "مطمئن نیستم",
+          "#Probably yes": "احتمالاً بله",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#No": "Nem",
+          "#Yes": "Igen",
+          "#Should a continuous walking space be added here?": "Kellene-e itt folyamatos gyalogos helyet kialakítani?",
+          "#A continuous walking space is a sidewalk or path without gaps along the whole stretch.": "A folyamatos gyalogos tér olyan járda vagy út, amely a teljes szakaszon megszakítás nélkül fut végig.",
+          "#Probably not": "Valószínűleg nem",
+          "#Not sure": "Nem biztos",
+          "#Probably yes": "Valószínűleg igen",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#No": "لا",
+          "#Yes": "نعم",
+          "#Should a continuous walking space be added here?": "هل يجب إضافة مساحة مشي متصلة هنا؟",
+          "#A continuous walking space is a sidewalk or path without gaps along the whole stretch.": "مساحة المشي المتصلة رصيف أو مسار بلا انقطاع على طول المقطع كله.",
+          "#Probably not": "على الأرجح لا",
+          "#Not sure": "غير متأكد",
+          "#Probably yes": "على الأرجح نعم",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

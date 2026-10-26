@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.main_segment_improvements_needed",
   "project": "SmartUrbanity",
   "key": "main_segment_improvements_needed",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_segment_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -248,6 +247,251 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_4c82a76b1f1d": {
+      "schema": {
+        "text": "What would improve this street segment most?",
+        "help": "A curb ramp is a short slope that connects the sidewalk to the road.",
+        "answer_key": "main_segment_improvements_needed",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Widen the walking space",
+            "value": "add_widen_walking_space"
+          },
+          {
+            "text": "Add a sidewalk or make it continuous",
+            "value": "continuous_sidewalk"
+          },
+          {
+            "text": "Add curb ramps at crossings",
+            "value": "curb_ramps"
+          },
+          {
+            "text": "Add or improve cycling infrastructure",
+            "value": "add_improve_cycling_infrastructure"
+          },
+          {
+            "text": "Repair the surface",
+            "value": "repair_surface"
+          },
+          {
+            "text": "Remove obstacles",
+            "value": "remove_obstacles"
+          },
+          {
+            "text": "Add an alternative to stairs (ramp or elevator)",
+            "value": "step_free_alternative"
+          },
+          {
+            "text": "Reopen closed stairs or passages",
+            "value": "reopen_closed_passages"
+          },
+          {
+            "text": "Add benches or places to sit",
+            "value": "benches_resting"
+          },
+          {
+            "text": "Improve lighting",
+            "value": "better_lighting"
+          },
+          {
+            "text": "Add shade or heat protection",
+            "value": "shade_heat_protection"
+          },
+          {
+            "text": "Reduce vehicle speed",
+            "value": "traffic_calming"
+          },
+          {
+            "text": "Improve separation from traffic",
+            "value": "traffic_separation"
+          },
+          {
+            "text": "Improve maintenance or cleaning",
+            "value": "maintenance_cleaning"
+          },
+          {
+            "text": "Nothing important",
+            "value": "nothing"
+          }
+        ],
+        "max_answers": 3
+      },
+      "translations": {
+        "en": {
+          "#What would improve this street segment most?": "What would improve this street segment most?",
+          "#A curb ramp is a short slope that connects the sidewalk to the road.": "A curb ramp is a short slope that connects the sidewalk to the road.",
+          "#Widen the walking space": "Widen the walking space",
+          "#Add a sidewalk or make it continuous": "Add a sidewalk or make it continuous",
+          "#Add curb ramps at crossings": "Add curb ramps at crossings",
+          "#Add or improve cycling infrastructure": "Add or improve cycling infrastructure",
+          "#Repair the surface": "Repair the surface",
+          "#Remove obstacles": "Remove obstacles",
+          "#Add an alternative to stairs (ramp or elevator)": "Add an alternative to stairs (ramp or elevator)",
+          "#Reopen closed stairs or passages": "Reopen closed stairs or passages",
+          "#Add benches or places to sit": "Add benches or places to sit",
+          "#Improve lighting": "Improve lighting",
+          "#Add shade or heat protection": "Add shade or heat protection",
+          "#Reduce vehicle speed": "Reduce vehicle speed",
+          "#Improve separation from traffic": "Improve separation from traffic",
+          "#Improve maintenance or cleaning": "Improve maintenance or cleaning",
+          "#Nothing important": "Nothing important",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#What would improve this street segment most?": "Cosa migliorerebbe maggiormente questo tratto di strada?",
+          "#A curb ramp is a short slope that connects the sidewalk to the road.": "Uno scivolo è una breve rampa che collega il marciapiede alla strada.",
+          "#Widen the walking space": "Allargare lo spazio per camminare",
+          "#Add a sidewalk or make it continuous": "Aggiungere o rendere continuo il marciapiede",
+          "#Add curb ramps at crossings": "Aggiungere scivoli agli attraversamenti",
+          "#Add or improve cycling infrastructure": "Aggiungere o migliorare lo spazio ciclabile",
+          "#Repair the surface": "Riparare la superficie",
+          "#Remove obstacles": "Rimuovere gli ostacoli",
+          "#Add an alternative to stairs (ramp or elevator)": "Aggiungere un'alternativa alle scale (rampa o ascensore)",
+          "#Reopen closed stairs or passages": "Riaprire scale o passaggi chiusi",
+          "#Add benches or places to sit": "Aggiungere panchine o punti per sedersi",
+          "#Improve lighting": "Migliorare l'illuminazione",
+          "#Add shade or heat protection": "Aggiungere ombra o protezione dal caldo",
+          "#Reduce vehicle speed": "Ridurre la velocità dei veicoli",
+          "#Improve separation from traffic": "Migliorare la separazione dal traffico",
+          "#Improve maintenance or cleaning": "Migliorare la manutenzione o la pulizia",
+          "#Nothing important": "Niente di importante",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#What would improve this street segment most?": "Qu’est-ce qui améliorerait le plus ce tronçon de rue ?",
+          "#A curb ramp is a short slope that connects the sidewalk to the road.": "Un bateau de trottoir est une courte pente qui relie le trottoir à la chaussée.",
+          "#Widen the walking space": "Élargir l’espace pour marcher",
+          "#Add a sidewalk or make it continuous": "Ajouter un trottoir ou le rendre continu",
+          "#Add curb ramps at crossings": "Ajouter des bateaux de trottoir aux traversées",
+          "#Add or improve cycling infrastructure": "Ajouter ou améliorer l’aménagement cyclable",
+          "#Repair the surface": "Réparer la surface",
+          "#Remove obstacles": "Retirer les obstacles",
+          "#Add an alternative to stairs (ramp or elevator)": "Ajouter une alternative aux escaliers (rampe ou ascenseur)",
+          "#Reopen closed stairs or passages": "Rouvrir les escaliers ou passages fermés",
+          "#Add benches or places to sit": "Ajouter des bancs ou des endroits pour s'asseoir",
+          "#Improve lighting": "Améliorer l’éclairage",
+          "#Add shade or heat protection": "Ajouter de l’ombre ou une protection contre la chaleur",
+          "#Reduce vehicle speed": "Réduire la vitesse des véhicules",
+          "#Improve separation from traffic": "Améliorer la séparation avec la circulation",
+          "#Improve maintenance or cleaning": "Améliorer l’entretien ou le nettoyage",
+          "#Nothing important": "Rien d’important",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#What would improve this street segment most?": "Was würde diesen Straßenabschnitt am meisten verbessern?",
+          "#A curb ramp is a short slope that connects the sidewalk to the road.": "Ein abgesenkter Bordstein ist eine kurze Schräge zwischen Gehweg und Fahrbahn.",
+          "#Widen the walking space": "Den Gehbereich verbreitern",
+          "#Add a sidewalk or make it continuous": "Einen Gehweg anlegen oder durchgehend machen",
+          "#Add curb ramps at crossings": "Abgesenkte Bordsteine an Übergängen schaffen",
+          "#Add or improve cycling infrastructure": "Radinfrastruktur anlegen oder verbessern",
+          "#Repair the surface": "Oberfläche reparieren",
+          "#Remove obstacles": "Hindernisse entfernen",
+          "#Add an alternative to stairs (ramp or elevator)": "Eine Alternative zur Treppe schaffen (Rampe oder Aufzug)",
+          "#Reopen closed stairs or passages": "Geschlossene Treppen oder Durchgänge wieder öffnen",
+          "#Add benches or places to sit": "Bänke oder Sitzgelegenheiten aufstellen",
+          "#Improve lighting": "Beleuchtung verbessern",
+          "#Add shade or heat protection": "Schatten oder Hitzeschutz schaffen",
+          "#Reduce vehicle speed": "Fahrzeuggeschwindigkeit reduzieren",
+          "#Improve separation from traffic": "Trennung vom Verkehr verbessern",
+          "#Improve maintenance or cleaning": "Wartung oder Reinigung verbessern",
+          "#Nothing important": "Nichts Wesentliches",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#What would improve this street segment most?": "Bu sokak kesimini en çok ne iyileştirir?",
+          "#A curb ramp is a short slope that connects the sidewalk to the road.": "Bordür rampası, kaldırımı yola bağlayan kısa bir eğimdir.",
+          "#Widen the walking space": "Yürüme alanını genişletmek",
+          "#Add a sidewalk or make it continuous": "Kaldırım eklemek veya kesintisiz hale getirmek",
+          "#Add curb ramps at crossings": "Geçitlere bordür rampaları eklemek",
+          "#Add or improve cycling infrastructure": "Bisiklet altyapısı eklemek veya iyileştirmek",
+          "#Repair the surface": "Yüzeyi onarmak",
+          "#Remove obstacles": "Engelleri kaldırmak",
+          "#Add an alternative to stairs (ramp or elevator)": "Merdivenlere bir alternatif eklemek (rampa veya asansör)",
+          "#Reopen closed stairs or passages": "Kapalı merdivenleri veya geçitleri yeniden açmak",
+          "#Add benches or places to sit": "Banklar veya oturacak yerler eklemek",
+          "#Improve lighting": "Aydınlatmayı iyileştirmek",
+          "#Add shade or heat protection": "Gölge veya sıcaktan korunma eklemek",
+          "#Reduce vehicle speed": "Araç hızını azaltmak",
+          "#Improve separation from traffic": "Trafikten ayrımı iyileştirmek",
+          "#Improve maintenance or cleaning": "Bakım veya temizliği iyileştirmek",
+          "#Nothing important": "Önemli bir şey yok",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#What would improve this street segment most?": "چه چیزی بیش از همه این بخش خیابان را بهتر می‌کند؟",
+          "#A curb ramp is a short slope that connects the sidewalk to the road.": "رمپ لبه پیاده‌رو شیب کوتاهی است که پیاده‌رو را به خیابان وصل می‌کند.",
+          "#Widen the walking space": "پهن‌کردن فضای پیاده‌روی",
+          "#Add a sidewalk or make it continuous": "افزودن پیاده‌رو یا پیوسته کردن آن",
+          "#Add curb ramps at crossings": "افزودن رمپ لبه پیاده‌رو در محل‌های عبور",
+          "#Add or improve cycling infrastructure": "افزودن یا بهبود زیرساخت دوچرخه",
+          "#Repair the surface": "تعمیر سطح",
+          "#Remove obstacles": "برداشتن موانع",
+          "#Add an alternative to stairs (ramp or elevator)": "افزودن جایگزینی برای پله (رمپ یا آسانسور)",
+          "#Reopen closed stairs or passages": "بازگشایی پله‌ها یا معبرهای بسته",
+          "#Add benches or places to sit": "افزودن نیمکت یا جایی برای نشستن",
+          "#Improve lighting": "بهبود روشنایی",
+          "#Add shade or heat protection": "افزودن سایه یا محافظت در برابر گرما",
+          "#Reduce vehicle speed": "کاهش سرعت خودروها",
+          "#Improve separation from traffic": "بهبود جداسازی از ترافیک",
+          "#Improve maintenance or cleaning": "بهبود نگهداری یا نظافت",
+          "#Nothing important": "هیچ مورد مهمی نیست",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#What would improve this street segment most?": "Mi javítaná leginkább ezt az utcaszakaszt?",
+          "#A curb ramp is a short slope that connects the sidewalk to the road.": "A szegélyrámpa rövid lejtő, amely a járdát az úttesttel köti össze.",
+          "#Widen the walking space": "A gyalogos tér szélesítése",
+          "#Add a sidewalk or make it continuous": "Járda kialakítása vagy folyamatossá tétele",
+          "#Add curb ramps at crossings": "Szegélyrámpák kialakítása az átkelőknél",
+          "#Add or improve cycling infrastructure": "Kerékpáros infrastruktúra kialakítása vagy javítása",
+          "#Repair the surface": "A felület javítása",
+          "#Remove obstacles": "Akadályok eltávolítása",
+          "#Add an alternative to stairs (ramp or elevator)": "Lépcső helyett más megoldás kialakítása (rámpa vagy lift)",
+          "#Reopen closed stairs or passages": "A lezárt lépcsők vagy átjárók újranyitása",
+          "#Add benches or places to sit": "Padok vagy ülőhelyek elhelyezése",
+          "#Improve lighting": "A világítás javítása",
+          "#Add shade or heat protection": "Árnyék vagy hővédelem kialakítása",
+          "#Reduce vehicle speed": "A járművek sebességének csökkentése",
+          "#Improve separation from traffic": "A forgalomtól való elválasztás javítása",
+          "#Improve maintenance or cleaning": "A karbantartás vagy takarítás javítása",
+          "#Nothing important": "Semmi lényeges",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#What would improve this street segment most?": "ما الذي سيحسن هذا المقطع من الشارع أكثر؟",
+          "#A curb ramp is a short slope that connects the sidewalk to the road.": "منحدر حافة الرصيف منحدر قصير يصل الرصيف بالطريق.",
+          "#Widen the walking space": "توسيع مساحة المشي",
+          "#Add a sidewalk or make it continuous": "إضافة رصيف أو جعله متصلًا",
+          "#Add curb ramps at crossings": "إضافة منحدرات عند حافة الرصيف في أماكن العبور",
+          "#Add or improve cycling infrastructure": "إضافة بنية تحتية للدراجات أو تحسينها",
+          "#Repair the surface": "إصلاح السطح",
+          "#Remove obstacles": "إزالة العوائق",
+          "#Add an alternative to stairs (ramp or elevator)": "إضافة بديل عن الدرج (منحدر أو مصعد)",
+          "#Reopen closed stairs or passages": "إعادة فتح الأدراج أو الممرات المغلقة",
+          "#Add benches or places to sit": "إضافة مقاعد أو أماكن للجلوس",
+          "#Improve lighting": "تحسين الإضاءة",
+          "#Add shade or heat protection": "إضافة ظل أو حماية من الحرارة",
+          "#Reduce vehicle speed": "خفض سرعة المركبات",
+          "#Improve separation from traffic": "تحسين الفصل عن حركة المرور",
+          "#Improve maintenance or cleaning": "تحسين الصيانة أو التنظيف",
+          "#Nothing important": "لا شيء مهم",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

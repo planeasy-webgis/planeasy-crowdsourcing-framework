@@ -2,17 +2,16 @@
   "question_id": "smarturbanity.cyclist_perceived_risk",
   "project": "SmartUrbanity",
   "key": "cyclist_perceived_risk",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "first_source_in_current_inventory_unverified",
   "source_questionnaires": [
     "street_connection_assessment",
     "street_segment_assessment"
   ],
   "review_required": true,
   "variants": {
-    "default": {
+    "street_connection_assessment": {
       "schema": {
         "text": "Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?",
         "answer_key": "cyclist_perceived_risk",
@@ -227,6 +226,235 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_3c992d055761": {
+      "schema": {
+        "text": "Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?",
+        "answer_key": "cyclist_perceived_risk",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not risky",
+            "value": "1_not_risky"
+          },
+          {
+            "text": "Slightly risky",
+            "value": "2_slightly_risky"
+          },
+          {
+            "text": "Moderately risky",
+            "value": "3_moderately_risky"
+          },
+          {
+            "text": "Very risky",
+            "value": "4_very_risky"
+          },
+          {
+            "text": "Extremely risky",
+            "value": "5_extremely_risky"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Not risky": "Not risky",
+          "#Slightly risky": "Slightly risky",
+          "#Moderately risky": "Moderately risky",
+          "#Very risky": "Very risky",
+          "#Extremely risky": "Extremely risky",
+          "#Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?": "Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Not risky": "Per niente rischioso",
+          "#Slightly risky": "Poco rischioso",
+          "#Moderately risky": "Abbastanza rischioso",
+          "#Very risky": "Molto rischioso",
+          "#Extremely risky": "Estremamente rischioso",
+          "#Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?": "Per il traffico, quanto ti sembra rischioso usare questo luogo in bici o in monopattino?",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Not risky": "Pas risqué",
+          "#Slightly risky": "Légèrement risqué",
+          "#Moderately risky": "Modérément risqué",
+          "#Very risky": "Très risqué",
+          "#Extremely risky": "Extrêmement risqué",
+          "#Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?": "À cause de la circulation, à quel point vous semble-t-il risqué d’utiliser ce lieu à vélo ou en trottinette électrique ?",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Not risky": "Nicht riskant",
+          "#Slightly risky": "Etwas riskant",
+          "#Moderately risky": "Mäßig riskant",
+          "#Very risky": "Sehr riskant",
+          "#Extremely risky": "Extrem riskant",
+          "#Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?": "Wie riskant fühlt es sich wegen des Verkehrs an, diesen Ort mit dem Fahrrad oder E-Scooter zu nutzen?",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Not risky": "Riskli değil",
+          "#Slightly risky": "Biraz riskli",
+          "#Moderately risky": "Orta derecede riskli",
+          "#Very risky": "Çok riskli",
+          "#Extremely risky": "Son derece riskli",
+          "#Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?": "Trafik nedeniyle bu yeri bisikletle veya elektrikli scooterla kullanmak ne kadar riskli geliyor?",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Not risky": "بدون خطر",
+          "#Slightly risky": "کمی پرخطر",
+          "#Moderately risky": "با خطر متوسط",
+          "#Very risky": "بسیار پرخطر",
+          "#Extremely risky": "به‌شدت پرخطر",
+          "#Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?": "به‌خاطر ترافیک، استفاده از این مکان با دوچرخه یا اسکوتر برقی چقدر پرخطر به نظر می‌رسد؟",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Not risky": "Nem kockázatos",
+          "#Slightly risky": "Kissé kockázatos",
+          "#Moderately risky": "Közepesen kockázatos",
+          "#Very risky": "Nagyon kockázatos",
+          "#Extremely risky": "Rendkívül kockázatos",
+          "#Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?": "A forgalom miatt mennyire érzi kockázatosnak kerékpárral vagy elektromos rollerrel használni ezt a helyet?",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Not risky": "غير خطير",
+          "#Slightly risky": "خطير قليلًا",
+          "#Moderately risky": "متوسط الخطورة",
+          "#Very risky": "خطير جدًا",
+          "#Extremely risky": "شديد الخطورة",
+          "#Because of traffic, how risky does it feel to use this place by bicycle or e-scooter?": "بسبب حركة المرور، ما مدى خطورة استخدام هذا المكان بالدراجة أو السكوتر الكهربائي في رأيك؟",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
+    },
+    "reference_3b4f3a69722a": {
+      "schema": {
+        "text": "Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?",
+        "answer_key": "cyclist_perceived_risk",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not risky",
+            "value": "1_not_risky"
+          },
+          {
+            "text": "Slightly risky",
+            "value": "2_slightly_risky"
+          },
+          {
+            "text": "Moderately risky",
+            "value": "3_moderately_risky"
+          },
+          {
+            "text": "Very risky",
+            "value": "4_very_risky"
+          },
+          {
+            "text": "Extremely risky",
+            "value": "5_extremely_risky"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Not risky": "Not risky",
+          "#Slightly risky": "Slightly risky",
+          "#Moderately risky": "Moderately risky",
+          "#Very risky": "Very risky",
+          "#Extremely risky": "Extremely risky",
+          "#Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?": "Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Not risky": "Per niente rischioso",
+          "#Slightly risky": "Poco rischioso",
+          "#Moderately risky": "Abbastanza rischioso",
+          "#Very risky": "Molto rischioso",
+          "#Extremely risky": "Estremamente rischioso",
+          "#Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?": "Per il traffico, quanto ti sembra rischioso percorrere questo tratto di strada in bici o in monopattino?",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Not risky": "Pas risqué",
+          "#Slightly risky": "Légèrement risqué",
+          "#Moderately risky": "Modérément risqué",
+          "#Very risky": "Très risqué",
+          "#Extremely risky": "Extrêmement risqué",
+          "#Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?": "À cause de la circulation, à quel point vous semble-t-il risqué d’emprunter ce tronçon à vélo ou en trottinette électrique ?",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Not risky": "Nicht riskant",
+          "#Slightly risky": "Etwas riskant",
+          "#Moderately risky": "Mäßig riskant",
+          "#Very risky": "Sehr riskant",
+          "#Extremely risky": "Extrem riskant",
+          "#Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?": "Wie riskant fühlt es sich wegen des Verkehrs an, diesen Straßenabschnitt mit dem Fahrrad oder E-Scooter zu nutzen?",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Not risky": "Riskli değil",
+          "#Slightly risky": "Biraz riskli",
+          "#Moderately risky": "Orta derecede riskli",
+          "#Very risky": "Çok riskli",
+          "#Extremely risky": "Son derece riskli",
+          "#Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?": "Trafik nedeniyle bu sokak kesimini bisikletle veya elektrikli scooterla kullanmak ne kadar riskli geliyor?",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Not risky": "بدون خطر",
+          "#Slightly risky": "کمی پرخطر",
+          "#Moderately risky": "با خطر متوسط",
+          "#Very risky": "بسیار پرخطر",
+          "#Extremely risky": "به‌شدت پرخطر",
+          "#Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?": "به‌خاطر ترافیک، استفاده از این بخش خیابان با دوچرخه یا اسکوتر برقی چقدر پرخطر به نظر می‌رسد؟",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Not risky": "Nem kockázatos",
+          "#Slightly risky": "Kissé kockázatos",
+          "#Moderately risky": "Közepesen kockázatos",
+          "#Very risky": "Nagyon kockázatos",
+          "#Extremely risky": "Rendkívül kockázatos",
+          "#Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?": "A forgalom miatt mennyire érzi kockázatosnak ezt az utcaszakaszt kerékpárral vagy elektromos rollerrel használni?",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Not risky": "غير خطير",
+          "#Slightly risky": "خطير قليلًا",
+          "#Moderately risky": "متوسط الخطورة",
+          "#Very risky": "خطير جدًا",
+          "#Extremely risky": "شديد الخطورة",
+          "#Because of traffic, how risky does it feel to use this street segment by bicycle or e-scooter?": "بسبب حركة المرور، ما مدى خطورة استخدام هذا المقطع بالدراجة أو السكوتر الكهربائي في رأيك؟",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

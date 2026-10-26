@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.vehicles_used",
   "project": "SmartUrbanity",
   "key": "vehicles_used",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_daily_travel",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "Which of the following do you personally use regularly? (Select all that apply)",
         "answer_key": "vehicles_used",
+        "legacy_answer_keys": [
+          "vehicles_used_v1"
+        ],
         "question_type": "multiple_options",
         "options": [
           {
@@ -38,10 +40,7 @@
             "value": "none"
           }
         ],
-        "add_other": true,
-        "legacy_answer_keys": [
-          "vehicles_used_v1"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -120,6 +119,112 @@
       "source_questionnaires": [
         "smarturbanity_daily_travel"
       ]
+    },
+    "reference_9aeb0ad7b7a9": {
+      "schema": {
+        "text": "Which of the following do you personally use regularly? (Select all that apply)",
+        "answer_key": "vehicles_used",
+        "question_type": "multiple_options",
+        "options": [
+          {
+            "text": "Car",
+            "value": "car"
+          },
+          {
+            "text": "Motorcycle",
+            "value": "motorcycle"
+          },
+          {
+            "text": "Bicycle/e-bike",
+            "value": "bicycle_e_bike"
+          },
+          {
+            "text": "E-scooter",
+            "value": "e_scooter"
+          },
+          {
+            "text": "None",
+            "value": "none"
+          }
+        ],
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#Car": "Car",
+          "#Motorcycle": "Motorcycle",
+          "#Other": "Other",
+          "#Bicycle/e-bike": "Bicycle/e-bike",
+          "#E-scooter": "E-scooter",
+          "#Which of the following do you personally use regularly? (Select all that apply)": "Which of the following do you personally use regularly? (Select all that apply)",
+          "#None": "None"
+        },
+        "it": {
+          "#Car": "Auto",
+          "#Motorcycle": "Moto",
+          "#Other": "Altro",
+          "#Bicycle/e-bike": "Bicicletta/e-bike",
+          "#E-scooter": "Monopattino elettrico",
+          "#Which of the following do you personally use regularly? (Select all that apply)": "Quali dei seguenti mezzi utilizzi personalmente con regolarità? (Seleziona tutte le opzioni applicabili)",
+          "#None": "Nessuno"
+        },
+        "fr": {
+          "#Car": "Voiture",
+          "#Motorcycle": "Moto",
+          "#Other": "Autre",
+          "#Bicycle/e-bike": "Vélo / vélo électrique",
+          "#E-scooter": "Trottinette électrique",
+          "#Which of the following do you personally use regularly? (Select all that apply)": "Parmi les modes suivants, lesquels utilisez-vous personnellement de façon régulière ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#None": "Aucun"
+        },
+        "de": {
+          "#Car": "Auto",
+          "#Motorcycle": "Motorrad",
+          "#Other": "Anderes",
+          "#Bicycle/e-bike": "Fahrrad / E-Bike",
+          "#E-scooter": "E-Scooter",
+          "#Which of the following do you personally use regularly? (Select all that apply)": "Welche der folgenden Möglichkeiten nutzen Sie persönlich regelmäßig? (Wählen Sie alles Zutreffende aus)",
+          "#None": "Keine"
+        },
+        "tr": {
+          "#Car": "Otomobil",
+          "#Motorcycle": "Motosiklet",
+          "#Other": "Diğer",
+          "#Bicycle/e-bike": "Bisiklet / elektrikli bisiklet",
+          "#E-scooter": "E-scooter",
+          "#Which of the following do you personally use regularly? (Select all that apply)": "Aşağıdakilerden hangilerini düzenli olarak kendiniz kullanıyorsunuz? (Uygun olanların tümünü seçin)",
+          "#None": "Hiçbiri"
+        },
+        "fa": {
+          "#Car": "خودرو",
+          "#Motorcycle": "موتورسیکلت",
+          "#Other": "سایر",
+          "#Bicycle/e-bike": "دوچرخه / دوچرخه برقی",
+          "#E-scooter": "اسکوتر برقی",
+          "#Which of the following do you personally use regularly? (Select all that apply)": "کدام یک از گزینه‌های زیر را خودتان به طور منظم استفاده می‌کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+          "#None": "هیچ‌کدام"
+        },
+        "hu": {
+          "#Car": "Autó",
+          "#Motorcycle": "Motorkerékpár",
+          "#Other": "Egyéb",
+          "#Bicycle/e-bike": "Kerékpár / e-bike",
+          "#E-scooter": "Elektromos roller",
+          "#Which of the following do you personally use regularly? (Select all that apply)": "Az alábbiak közül melyeket használja személyesen rendszeresen? (Jelölje meg az összes megfelelőt)",
+          "#None": "Egyik sem"
+        },
+        "ar": {
+          "#Car": "السيارة",
+          "#Motorcycle": "الدراجة النارية",
+          "#Other": "أخرى",
+          "#Bicycle/e-bike": "دراجة / دراجة كهربائية",
+          "#E-scooter": "سكوتر كهربائي",
+          "#Which of the following do you personally use regularly? (Select all that apply)": "أي من الخيارات التالية تستخدمه أنت شخصيًا بشكل منتظم؟ (اختر كل ما ينطبق)",
+          "#None": "لا شيء"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

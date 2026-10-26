@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.app_mobility",
   "project": "SmartUrbanity",
   "key": "app_mobility",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_daily_travel",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -120,6 +119,123 @@
       "source_questionnaires": [
         "smarturbanity_daily_travel"
       ]
+    },
+    "reference_2f077c8eb414": {
+      "schema": {
+        "text": "How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?",
+        "answer_key": "app_mobility",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very uncomfortable",
+            "value": "very_uncomfortable"
+          },
+          {
+            "text": "Somewhat uncomfortable",
+            "value": "uncomfortable"
+          },
+          {
+            "text": "Neither comfortable nor uncomfortable",
+            "value": "neutral"
+          },
+          {
+            "text": "Somewhat comfortable",
+            "value": "comfortable"
+          },
+          {
+            "text": "Very comfortable",
+            "value": "very_comfortable"
+          },
+          {
+            "text": "I don't use it at all.",
+            "value": "not_used"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#Very uncomfortable": "Very uncomfortable",
+          "#Somewhat uncomfortable": "Somewhat uncomfortable",
+          "#Neither comfortable nor uncomfortable": "Neither comfortable nor uncomfortable",
+          "#Somewhat comfortable": "Somewhat comfortable",
+          "#Very comfortable": "Very comfortable",
+          "#I don't use it at all.": "I don't use it at all.",
+          "#How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?": "How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#Very uncomfortable": "Per niente a mio agio",
+          "#Somewhat uncomfortable": "Poco a mio agio",
+          "#Neither comfortable nor uncomfortable": "Né a mio agio né a disagio",
+          "#Somewhat comfortable": "Abbastanza a mio agio",
+          "#Very comfortable": "Molto a mio agio",
+          "#I don't use it at all.": "Non le utilizzo affatto.",
+          "#How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?": "Quanto ti senti a tuo agio nell'utilizzare app di ride-hailing o di mobilità condivisa (ad es. taxi, bike sharing, scooter sharing)?"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#Very uncomfortable": "Très mal à l’aise",
+          "#Somewhat uncomfortable": "Plutôt mal à l’aise",
+          "#Neither comfortable nor uncomfortable": "Ni à l’aise ni mal à l’aise",
+          "#Somewhat comfortable": "Plutôt à l’aise",
+          "#Very comfortable": "Très à l’aise",
+          "#I don't use it at all.": "Je ne les utilise pas du tout.",
+          "#How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?": "Êtes-vous à l’aise pour utiliser des applications de VTC ou de mobilité partagée, par exemple taxi, vélo partagé ou trottinette partagée ?"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#Very uncomfortable": "Sehr unwohl",
+          "#Somewhat uncomfortable": "Eher unwohl",
+          "#Neither comfortable nor uncomfortable": "Weder wohl noch unwohl",
+          "#Somewhat comfortable": "Eher wohl",
+          "#Very comfortable": "Sehr wohl",
+          "#I don't use it at all.": "Ich nutze sie gar nicht.",
+          "#How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?": "Wie wohl fühlen Sie sich bei der Nutzung von Taxi-, Fahrdienst- oder Sharing-Apps, zum Beispiel für Taxi, Leihrad oder E-Scooter?"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#Very uncomfortable": "Çok rahatsız",
+          "#Somewhat uncomfortable": "Biraz rahatsız",
+          "#Neither comfortable nor uncomfortable": "Ne rahat ne rahatsız",
+          "#Somewhat comfortable": "Oldukça rahat",
+          "#Very comfortable": "Çok rahat",
+          "#I don't use it at all.": "Hiç kullanmıyorum.",
+          "#How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?": "Taksi, araç çağırma veya paylaşımlı ulaşım uygulamalarını, örneğin taksi, bisiklet paylaşımı veya scooter paylaşımı için, kullanırken kendinizi ne kadar rahat hissediyorsunuz?"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#Very uncomfortable": "بسیار ناراحت",
+          "#Somewhat uncomfortable": "کمی ناراحت",
+          "#Neither comfortable nor uncomfortable": "نه راحت و نه ناراحت",
+          "#Somewhat comfortable": "تا حدی راحت",
+          "#Very comfortable": "بسیار راحت",
+          "#I don't use it at all.": "اصلاً استفاده نمی‌کنم.",
+          "#How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?": "هنگام استفاده از برنامه‌های تاکسی اینترنتی یا جابه‌جایی اشتراکی، مانند تاکسی، دوچرخه اشتراکی یا اسکوتر اشتراکی، چقدر احساس راحتی می‌کنید؟"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#Very uncomfortable": "Nagyon kényelmetlenül",
+          "#Somewhat uncomfortable": "Kissé kényelmetlenül",
+          "#Neither comfortable nor uncomfortable": "Sem kényelmesen, sem kényelmetlenül",
+          "#Somewhat comfortable": "Elég kényelmesen",
+          "#Very comfortable": "Nagyon kényelmesen",
+          "#I don't use it at all.": "Egyáltalán nem használom.",
+          "#How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?": "Mennyire érzi magát kényelmesen taxi-, személyszállító vagy megosztott mobilitási alkalmazások használatakor, például taxi, közösségi kerékpár vagy roller esetén?"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#Very uncomfortable": "غير مرتاح جدًا",
+          "#Somewhat uncomfortable": "غير مرتاح إلى حد ما",
+          "#Neither comfortable nor uncomfortable": "لا مرتاح ولا غير مرتاح",
+          "#Somewhat comfortable": "مرتاح إلى حد ما",
+          "#Very comfortable": "مرتاح جدًا",
+          "#I don't use it at all.": "لا أستخدمها إطلاقًا.",
+          "#How comfortable are you using ride-hailing or shared mobility apps (e.g., taxi, bike-share, scooter-share)?": "ما مدى راحتك في استخدام تطبيقات سيارات الأجرة أو خدمات طلب السيارات أو التنقل المشترك، مثل التاكسي أو الدراجات المشتركة أو السكوتر المشترك؟"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.tiredness_cause",
   "project": "SmartUrbanity",
   "key": "tiredness_cause",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_experience_on_the_move",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_experience_on_the_move"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "If your typical journey makes you feel tired, what do you think is the main cause?",
         "answer_key": "tiredness_cause",
+        "legacy_answer_keys": [
+          "tiredness_cause_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -38,10 +40,7 @@
             "value": "i_usually_do_not_feel_tired_after_my_tri"
           }
         ],
-        "privacy_classification": "heightened_personal",
-        "legacy_answer_keys": [
-          "tiredness_cause_v1"
-        ]
+        "privacy_classification": "heightened_personal"
       },
       "translations": {
         "en": {
@@ -112,6 +111,120 @@
       "source_questionnaires": [
         "smarturbanity_experience_on_the_move"
       ]
+    },
+    "reference_0997357443c4": {
+      "schema": {
+        "text": "If your typical journey makes you feel tired, what do you think is the main cause?",
+        "answer_key": "tiredness_cause",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Physical effort (e.g. walking, cycling, carrying bags)",
+            "value": "physical_effort_e_g_walking_cycling_carr"
+          },
+          {
+            "text": "Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)",
+            "value": "mental_stress_e_g_traffic_navigation_tim"
+          },
+          {
+            "text": "Environmental discomfort (e.g. heat, noise, poor air quality)",
+            "value": "environmental_discomfort_e_g_heat_noise"
+          },
+          {
+            "text": "Waiting and standing (e.g. at stops, in queues)",
+            "value": "waiting_and_standing_e_g_at_stops_in_que"
+          },
+          {
+            "text": "I usually do not feel tired after my trips",
+            "value": "i_usually_do_not_feel_tired_after_my_tri"
+          }
+        ],
+        "privacy_classification": "heightened_personal"
+      },
+      "translations": {
+        "en": {
+          "#If your typical journey makes you feel tired, what do you think is the main cause?": "If your typical journey makes you feel tired, what do you think is the main cause?",
+          "#Physical effort (e.g. walking, cycling, carrying bags)": "Physical effort (e.g. walking, cycling, carrying bags)",
+          "#Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)": "Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)",
+          "#Environmental discomfort (e.g. heat, noise, poor air quality)": "Environmental discomfort (e.g. heat, noise, poor air quality)",
+          "#Waiting and standing (e.g. at stops, in queues)": "Waiting and standing (e.g. at stops, in queues)",
+          "#I usually do not feel tired after my trips": "I usually do not feel tired after my trips",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#If your typical journey makes you feel tired, what do you think is the main cause?": "Se il tuo spostamento abituale ti fa sentire stanco/a, quale pensi sia la causa principale?",
+          "#Physical effort (e.g. walking, cycling, carrying bags)": "Sforzo fisico (ad es. camminare, andare in bicicletta, trasportare borse)",
+          "#Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)": "Stress mentale (ad es. traffico, orientamento, pressione del tempo, sensazione di insicurezza o pericolo)",
+          "#Environmental discomfort (e.g. heat, noise, poor air quality)": "Disagio ambientale (ad es. caldo, rumore, scarsa qualità dell'aria)",
+          "#Waiting and standing (e.g. at stops, in queues)": "Attesa e permanenza in piedi (ad es. alle fermate o in coda)",
+          "#I usually do not feel tired after my trips": "Di solito non mi sento stanco/a dopo i miei spostamenti",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#If your typical journey makes you feel tired, what do you think is the main cause?": "Si votre trajet habituel vous fatigue, quelle en est selon vous la principale cause ?",
+          "#Physical effort (e.g. walking, cycling, carrying bags)": "Effort physique (par ex. marcher, faire du vélo, porter des sacs)",
+          "#Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)": "Stress mental (par ex. trafic, orientation, manque de temps, sentiment d’insécurité)",
+          "#Environmental discomfort (e.g. heat, noise, poor air quality)": "Inconfort lié à l’environnement (par ex. chaleur, bruit, mauvaise qualité de l’air)",
+          "#Waiting and standing (e.g. at stops, in queues)": "Attente et station debout (par ex. aux arrêts ou dans les files d’attente)",
+          "#I usually do not feel tired after my trips": "En général, je ne suis pas fatigué(e) après mes déplacements",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#If your typical journey makes you feel tired, what do you think is the main cause?": "Wenn Ihr typischer Weg Sie müde macht: Was ist Ihrer Meinung nach der Hauptgrund?",
+          "#Physical effort (e.g. walking, cycling, carrying bags)": "Körperliche Anstrengung (z. B. Gehen, Radfahren, Taschen tragen)",
+          "#Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)": "Psychischer Stress (z. B. Verkehr, Orientierung, Zeitdruck, Gefühl von Unsicherheit)",
+          "#Environmental discomfort (e.g. heat, noise, poor air quality)": "Unangenehme Umweltbedingungen (z. B. Hitze, Lärm, schlechte Luftqualität)",
+          "#Waiting and standing (e.g. at stops, in queues)": "Warten und Stehen (z. B. an Haltestellen oder in Warteschlangen)",
+          "#I usually do not feel tired after my trips": "Normalerweise bin ich nach meinen Wegen nicht müde",
+          "#Other": "Anderes",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#If your typical journey makes you feel tired, what do you think is the main cause?": "Tipik yolculuğunuz sizi yoruyorsa sizce bunun temel nedeni nedir?",
+          "#Physical effort (e.g. walking, cycling, carrying bags)": "Fiziksel çaba (ör. yürümek, bisiklete binmek, çanta taşımak)",
+          "#Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)": "Zihinsel stres (ör. trafik, yön bulma, zaman baskısı, kendini güvensiz hissetme)",
+          "#Environmental discomfort (e.g. heat, noise, poor air quality)": "Çevresel rahatsızlık (ör. sıcak, gürültü, kötü hava kalitesi)",
+          "#Waiting and standing (e.g. at stops, in queues)": "Bekleme ve ayakta durma (ör. duraklarda veya kuyruklarda)",
+          "#I usually do not feel tired after my trips": "Yolculuklarımdan sonra genellikle yorgun hissetmem",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#If your typical journey makes you feel tired, what do you think is the main cause?": "اگر سفر معمول شما باعث خستگی می‌شود، فکر می‌کنید دلیل اصلی چیست؟",
+          "#Physical effort (e.g. walking, cycling, carrying bags)": "تلاش جسمی (مثلاً پیاده‌روی، دوچرخه‌سواری، حمل کیف)",
+          "#Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)": "فشار ذهنی (مثلاً ترافیک، مسیریابی، کمبود وقت، احساس ناامنی)",
+          "#Environmental discomfort (e.g. heat, noise, poor air quality)": "ناراحتی محیطی (مثلاً گرما، صدا، کیفیت پایین هوا)",
+          "#Waiting and standing (e.g. at stops, in queues)": "انتظار و ایستادن (مثلاً در ایستگاه یا صف)",
+          "#I usually do not feel tired after my trips": "معمولاً بعد از سفرهایم خسته نمی‌شوم",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#If your typical journey makes you feel tired, what do you think is the main cause?": "Ha a tipikus utazása kifárasztja, mi ennek Ön szerint a fő oka?",
+          "#Physical effort (e.g. walking, cycling, carrying bags)": "Fizikai erőfeszítés (pl. gyaloglás, kerékpározás, táskák cipelése)",
+          "#Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)": "Mentális stressz (pl. forgalom, tájékozódás, időnyomás, bizonytalanságérzet)",
+          "#Environmental discomfort (e.g. heat, noise, poor air quality)": "Környezeti kellemetlenség (pl. hőség, zaj, rossz levegőminőség)",
+          "#Waiting and standing (e.g. at stops, in queues)": "Várakozás és állás (pl. megállókban vagy sorban)",
+          "#I usually do not feel tired after my trips": "Általában nem vagyok fáradt az utazásaim után",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#If your typical journey makes you feel tired, what do you think is the main cause?": "إذا كانت رحلتك المعتادة تسبب لك التعب، فما السبب الرئيسي برأيك؟",
+          "#Physical effort (e.g. walking, cycling, carrying bags)": "مجهود بدني (مثل المشي، ركوب الدراجة، حمل الحقائب)",
+          "#Mental stress (e.g. traffic, navigation, time pressure, feeling unsafe or insecure)": "ضغط نفسي (مثل حركة المرور، معرفة الطريق، ضيق الوقت، الشعور بعدم الأمان)",
+          "#Environmental discomfort (e.g. heat, noise, poor air quality)": "انزعاج بسبب البيئة (مثل الحر، الضوضاء، سوء جودة الهواء)",
+          "#Waiting and standing (e.g. at stops, in queues)": "الانتظار والوقوف (مثل الانتظار في المحطات أو الطوابير)",
+          "#I usually do not feel tired after my trips": "عادةً لا أشعر بالتعب بعد رحلاتي",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

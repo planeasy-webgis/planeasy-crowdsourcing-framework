@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.unsafe_use_type",
   "project": "SmartUrbanity",
   "key": "unsafe_use_type",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -175,6 +174,178 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_7438ec35843f": {
+      "schema": {
+        "text": "Which situations do you observe?",
+        "help": "The marked place is the zebra crossing or the official passage.",
+        "answer_key": "unsafe_use_type",
+        "question_type": "multiple_options",
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Cars or motorcycles do not stop at the zebra crossing",
+            "value": "drivers_not_stopping"
+          },
+          {
+            "text": "Vehicles go through the red light",
+            "value": "vehicles_running_red"
+          },
+          {
+            "text": "Motorcycles or e-scooters ride on the sidewalk",
+            "value": "motor_vehicles_on_sidewalk"
+          },
+          {
+            "text": "Motorcycles and mopeds weaving between stopped cars while people cross",
+            "value": "two_wheelers_filtering"
+          },
+          {
+            "text": "People cross outside the marked place",
+            "value": "outside_marked_place"
+          },
+          {
+            "text": "People cross against the red light",
+            "value": "red_light_crossing"
+          },
+          {
+            "text": "People cycle in pedestrian-only space",
+            "value": "cyclists_in_ped_space"
+          },
+          {
+            "text": "People walk in bicycle-only space",
+            "value": "pedestrians_in_bike_space"
+          },
+          {
+            "text": "Vehicles stop or park on the crossing or passage",
+            "value": "vehicles_block_connection"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Which situations do you observe?": "Which situations do you observe?",
+          "#The marked place is the zebra crossing or the official passage.": "The marked place is the zebra crossing or the official passage.",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Cars or motorcycles do not stop at the zebra crossing",
+          "#Vehicles go through the red light": "Vehicles go through the red light",
+          "#Motorcycles or e-scooters ride on the sidewalk": "Motorcycles or e-scooters ride on the sidewalk",
+          "#People cross outside the marked place": "People cross outside the marked place",
+          "#People cross against the red light": "People cross against the red light",
+          "#People cycle in pedestrian-only space": "People cycle in pedestrian-only space",
+          "#People walk in bicycle-only space": "People walk in bicycle-only space",
+          "#Vehicles stop or park on the crossing or passage": "Vehicles stop or park on the crossing or passage",
+          "#Other": "Other",
+          "#I don't know": "I don't know",
+          "#Motorcycles and mopeds weaving between stopped cars while people cross": "Motorcycles and mopeds weaving between stopped cars while people cross"
+        },
+        "it": {
+          "#Which situations do you observe?": "Quali situazioni osservi?",
+          "#The marked place is the zebra crossing or the official passage.": "Il punto segnalato è l’attraversamento pedonale o il passaggio ufficiale.",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Auto o moto che non si fermano alle strisce pedonali",
+          "#Vehicles go through the red light": "Veicoli che passano col rosso",
+          "#Motorcycles or e-scooters ride on the sidewalk": "Moto o monopattini che vanno sul marciapiede",
+          "#People cross outside the marked place": "Le persone attraversano fuori dal punto segnalato",
+          "#People cross against the red light": "Le persone attraversano con il rosso",
+          "#People cycle in pedestrian-only space": "Persone in bicicletta usano spazi riservati a chi va a piedi",
+          "#People walk in bicycle-only space": "Persone a piedi usano spazi riservati alle biciclette",
+          "#Vehicles stop or park on the crossing or passage": "I veicoli si fermano o parcheggiano sull'attraversamento o sul passaggio",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so",
+          "#Motorcycles and mopeds weaving between stopped cars while people cross": "Moto e motorini che passano tra le auto ferme mentre si attraversa"
+        },
+        "fr": {
+          "#Which situations do you observe?": "Quelles situations observez-vous ?",
+          "#The marked place is the zebra crossing or the official passage.": "L’endroit marqué est le passage piéton ou le passage officiel.",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Les voitures ou les motos ne s'arrêtent pas au passage piéton",
+          "#Vehicles go through the red light": "Des véhicules passent au feu rouge",
+          "#Motorcycles or e-scooters ride on the sidewalk": "Des motos ou des trottinettes électriques roulent sur le trottoir",
+          "#People cross outside the marked place": "Des personnes traversent en dehors du passage marqué",
+          "#People cross against the red light": "Des personnes traversent au feu rouge",
+          "#People cycle in pedestrian-only space": "Des personnes circulent à vélo dans un espace réservé aux piétons",
+          "#People walk in bicycle-only space": "Des personnes marchent dans un espace réservé aux vélos",
+          "#Vehicles stop or park on the crossing or passage": "Des véhicules s'arrêtent ou se garent sur la traversée ou le passage",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas",
+          "#Motorcycles and mopeds weaving between stopped cars while people cross": "Motos et scooters qui se faufilent entre les voitures arrêtées pendant qu'on traverse"
+        },
+        "de": {
+          "#Which situations do you observe?": "Welche Situationen beobachten Sie?",
+          "#The marked place is the zebra crossing or the official passage.": "Die markierte Stelle ist der Zebrastreifen oder der offizielle Durchgang.",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Autos oder Motorräder halten am Zebrastreifen nicht an",
+          "#Vehicles go through the red light": "Fahrzeuge fahren bei Rot",
+          "#Motorcycles or e-scooters ride on the sidewalk": "Motorräder oder E-Scooter fahren auf dem Gehweg",
+          "#People cross outside the marked place": "Personen queren außerhalb der Markierung",
+          "#People cross against the red light": "Personen queren bei Rot",
+          "#People cycle in pedestrian-only space": "Personen fahren im reinen Fußgängerbereich Rad",
+          "#People walk in bicycle-only space": "Personen gehen im reinen Fahrradbereich zu Fuß",
+          "#Vehicles stop or park on the crossing or passage": "Fahrzeuge halten oder parken auf dem Übergang oder Durchgang",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht",
+          "#Motorcycles and mopeds weaving between stopped cars while people cross": "Motorräder und Motorroller, die zwischen stehenden Autos durchfahren, während man überquert"
+        },
+        "tr": {
+          "#Which situations do you observe?": "Hangi durumları gözlemliyorsunuz?",
+          "#The marked place is the zebra crossing or the official passage.": "İşaretli yer, yaya geçidi veya resmî geçittir.",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Arabalar veya motosikletler yaya geçidinde durmuyor",
+          "#Vehicles go through the red light": "Araçlar kırmızı ışıkta geçiyor",
+          "#Motorcycles or e-scooters ride on the sidewalk": "Motosikletler veya elektrikli scooterlar kaldırımda gidiyor",
+          "#People cross outside the marked place": "İnsanlar işaretli yerin dışında geçiyor",
+          "#People cross against the red light": "İnsanlar kırmızı ışıkta geçiyor",
+          "#People cycle in pedestrian-only space": "İnsanlar yalnızca yayalara ayrılmış alanda bisiklet sürüyor",
+          "#People walk in bicycle-only space": "İnsanlar yalnızca bisiklete ayrılmış alanda yürüyor",
+          "#Vehicles stop or park on the crossing or passage": "Araçlar geçidin üzerinde duruyor veya park ediyor",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum",
+          "#Motorcycles and mopeds weaving between stopped cars while people cross": "Karşıya geçilirken duran arabaların arasından geçen motosiklet ve mopetler"
+        },
+        "fa": {
+          "#Which situations do you observe?": "چه وضعیت‌هایی را مشاهده می‌کنید؟",
+          "#The marked place is the zebra crossing or the official passage.": "محل مشخص‌شده همان خط‌کشی عابر پیاده یا گذرگاه رسمی است.",
+          "#Cars or motorcycles do not stop at the zebra crossing": "خودروها یا موتورسیکلت‌ها پشت خط عابر پیاده نمی‌ایستند",
+          "#Vehicles go through the red light": "وسایل نقلیه از چراغ قرمز عبور می‌کنند",
+          "#Motorcycles or e-scooters ride on the sidewalk": "موتورسیکلت‌ها یا اسکوترهای برقی روی پیاده‌رو حرکت می‌کنند",
+          "#People cross outside the marked place": "مردم بیرون از محل علامت‌گذاری‌شده عبور می‌کنند",
+          "#People cross against the red light": "مردم با چراغ قرمز عبور می‌کنند",
+          "#People cycle in pedestrian-only space": "مردم در فضای ویژه عابر پیاده دوچرخه‌سواری می‌کنند",
+          "#People walk in bicycle-only space": "مردم در فضای ویژه دوچرخه پیاده راه می‌روند",
+          "#Vehicles stop or park on the crossing or passage": "وسایل نقلیه روی گذرگاه یا معبر می‌ایستند یا پارک می‌کنند",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم",
+          "#Motorcycles and mopeds weaving between stopped cars while people cross": "موتورسیکلت‌ها و موتورهای گازی که هنگام عبور از میان خودروهای ایستاده رد می‌شوند"
+        },
+        "hu": {
+          "#Which situations do you observe?": "Milyen helyzeteket figyel meg?",
+          "#The marked place is the zebra crossing or the official passage.": "A kijelölt hely a zebra vagy a hivatalos átjáró.",
+          "#Cars or motorcycles do not stop at the zebra crossing": "Az autók vagy motorok nem állnak meg a zebránál",
+          "#Vehicles go through the red light": "Járművek áthajtanak a piroson",
+          "#Motorcycles or e-scooters ride on the sidewalk": "Motorok vagy elektromos rollerek mennek a járdán",
+          "#People cross outside the marked place": "Az emberek a kijelölt helyen kívül kelnek át",
+          "#People cross against the red light": "Az emberek piros jelzésnél kelnek át",
+          "#People cycle in pedestrian-only space": "Az emberek csak gyalogosoknak fenntartott helyen kerékpároznak",
+          "#People walk in bicycle-only space": "Az emberek csak kerékpárosoknak fenntartott helyen gyalogolnak",
+          "#Vehicles stop or park on the crossing or passage": "Járművek megállnak vagy parkolnak az átkelőn vagy átjárón",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom",
+          "#Motorcycles and mopeds weaving between stopped cars while people cross": "Motorok és robogók, amelyek átkelés közben a megálló autók között cikáznak"
+        },
+        "ar": {
+          "#Which situations do you observe?": "ما الحالات التي تلاحظها؟",
+          "#The marked place is the zebra crossing or the official passage.": "المكان المحدد هو ممر المشاة المخطط أو الممر الرسمي.",
+          "#Cars or motorcycles do not stop at the zebra crossing": "السيارات أو الدراجات النارية لا تتوقف عند ممر المشاة",
+          "#Vehicles go through the red light": "مركبات تتجاوز الإشارة الحمراء",
+          "#Motorcycles or e-scooters ride on the sidewalk": "دراجات نارية أو سكوترات كهربائية تسير على الرصيف",
+          "#People cross outside the marked place": "يعبر الناس خارج المكان المحدد",
+          "#People cross against the red light": "يعبر الناس مع الإشارة الحمراء",
+          "#People cycle in pedestrian-only space": "يركب الناس الدراجات في مساحة مخصصة للمشاة فقط",
+          "#People walk in bicycle-only space": "يمشي الناس في مساحة مخصصة للدراجات فقط",
+          "#Vehicles stop or park on the crossing or passage": "مركبات تتوقف أو تركن على المعبر أو الممر",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف",
+          "#Motorcycles and mopeds weaving between stopped cars while people cross": "دراجات نارية وصغيرة تمر بين السيارات المتوقفة أثناء العبور"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

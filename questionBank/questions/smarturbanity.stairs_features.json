@@ -2,15 +2,14 @@
   "question_id": "smarturbanity.stairs_features",
   "project": "SmartUrbanity",
   "key": "stairs_features",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "first_source_in_current_inventory_unverified",
   "source_questionnaires": [
     "street_connection_assessment",
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -144,6 +143,153 @@
         "street_connection_assessment",
         "street_segment_assessment"
       ]
+    },
+    "reference_3fe5382695df": {
+      "schema": {
+        "text": "For stairs, what helps people use them?",
+        "help": "A bike rail or channel is a groove at the side of the steps for pushing a bicycle.",
+        "answer_key": "stairs_features",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Handrail",
+            "value": "handrail"
+          },
+          {
+            "text": "Good lighting",
+            "value": "lighting"
+          },
+          {
+            "text": "Regular and visible steps",
+            "value": "regular_visible_steps"
+          },
+          {
+            "text": "Non-slip surface",
+            "value": "non_slip_surface"
+          },
+          {
+            "text": "Bike rail or channel",
+            "value": "bike_channel"
+          },
+          {
+            "text": "Resting place nearby",
+            "value": "resting_place"
+          },
+          {
+            "text": "None of these",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#None of these": "None of these",
+          "#Good lighting": "Good lighting",
+          "#Handrail": "Handrail",
+          "#Non-slip surface": "Non-slip surface",
+          "#For stairs, what helps people use them?": "For stairs, what helps people use them?",
+          "#A bike rail or channel is a groove at the side of the steps for pushing a bicycle.": "A bike rail or channel is a groove at the side of the steps for pushing a bicycle.",
+          "#Regular and visible steps": "Regular and visible steps",
+          "#Bike rail or channel": "Bike rail or channel",
+          "#Resting place nearby": "Resting place nearby",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#None of these": "Nessuna di queste",
+          "#Good lighting": "Buona illuminazione",
+          "#Handrail": "Corrimano",
+          "#Non-slip surface": "Superficie antiscivolo",
+          "#For stairs, what helps people use them?": "Per le scale, cosa aiuta le persone a usarle?",
+          "#A bike rail or channel is a groove at the side of the steps for pushing a bicycle.": "La canalina per bici è una guida ai lati dei gradini per spingere la bicicletta.",
+          "#Regular and visible steps": "Gradini regolari e visibili",
+          "#Bike rail or channel": "Canalina per biciclette",
+          "#Resting place nearby": "Punto di riposo vicino",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#None of these": "Aucun de ces éléments",
+          "#Good lighting": "Bon éclairage",
+          "#Handrail": "Main courante",
+          "#Non-slip surface": "Surface antidérapante",
+          "#For stairs, what helps people use them?": "Pour les escaliers, qu’est-ce qui facilite leur utilisation ?",
+          "#A bike rail or channel is a groove at the side of the steps for pushing a bicycle.": "Une goulotte à vélo est une rainure sur le côté des marches pour pousser un vélo.",
+          "#Regular and visible steps": "Marches régulières et visibles",
+          "#Bike rail or channel": "Rail ou goulotte pour vélo",
+          "#Resting place nearby": "Espace de repos à proximité",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#None of these": "Keine davon",
+          "#Good lighting": "Gute Beleuchtung",
+          "#Handrail": "Handlauf",
+          "#Non-slip surface": "Rutschfeste Oberfläche",
+          "#For stairs, what helps people use them?": "Was erleichtert die Nutzung der Treppe?",
+          "#A bike rail or channel is a groove at the side of the steps for pushing a bicycle.": "Eine Schieberinne ist eine Rinne seitlich an den Stufen, um ein Fahrrad zu schieben.",
+          "#Regular and visible steps": "Gleichmäßige und gut sichtbare Stufen",
+          "#Bike rail or channel": "Fahrradschiene oder -rinne",
+          "#Resting place nearby": "Rastmöglichkeit in der Nähe",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#None of these": "Bunların hiçbiri",
+          "#Good lighting": "İyi aydınlatma",
+          "#Handrail": "Küpeşte",
+          "#Non-slip surface": "Kaymaz yüzey",
+          "#For stairs, what helps people use them?": "Merdivenlerin kullanılmasını ne kolaylaştırıyor?",
+          "#A bike rail or channel is a groove at the side of the steps for pushing a bicycle.": "Bisiklet rayı veya kanalı, bisikleti itmek için basamakların kenarındaki oluktur.",
+          "#Regular and visible steps": "Düzenli ve görünür basamaklar",
+          "#Bike rail or channel": "Bisiklet rayı veya kanalı",
+          "#Resting place nearby": "Yakında dinlenme yeri",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#None of these": "هیچ‌کدام از این‌ها",
+          "#Good lighting": "روشنایی خوب",
+          "#Handrail": "دستگیره",
+          "#Non-slip surface": "سطح غیرلغزنده",
+          "#For stairs, what helps people use them?": "چه چیزی استفاده از پله را آسان‌تر می‌کند؟",
+          "#A bike rail or channel is a groove at the side of the steps for pushing a bicycle.": "ریل یا کانال دوچرخه شیاری در کنار پله‌هاست برای هل دادن دوچرخه.",
+          "#Regular and visible steps": "پله‌های منظم و قابل‌دید",
+          "#Bike rail or channel": "ریل یا شیار دوچرخه",
+          "#Resting place nearby": "محل استراحت در نزدیکی",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#None of these": "Ezek közül egyik sem",
+          "#Good lighting": "Jó világítás",
+          "#Handrail": "Korlát",
+          "#Non-slip surface": "Csúszásmentes felület",
+          "#For stairs, what helps people use them?": "Mi könnyíti meg a lépcső használatát?",
+          "#A bike rail or channel is a groove at the side of the steps for pushing a bicycle.": "A kerékpártoló sín a lépcsőfokok szélén futó vájat, amelyben a kerékpárt tolni lehet.",
+          "#Regular and visible steps": "Szabályos és jól látható lépcsőfokok",
+          "#Bike rail or channel": "Kerékpársín vagy -vályú",
+          "#Resting place nearby": "Pihenőhely a közelben",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#None of these": "لا شيء مما سبق",
+          "#Good lighting": "إضاءة جيدة",
+          "#Handrail": "درابزين",
+          "#Non-slip surface": "سطح غير زلق",
+          "#For stairs, what helps people use them?": "ما الذي يساعد الناس على استخدام الدرج؟",
+          "#A bike rail or channel is a groove at the side of the steps for pushing a bicycle.": "سكة الدراجة أو مجراها أخدود على جانب الدرجات لدفع الدراجة.",
+          "#Regular and visible steps": "درجات منتظمة وواضحة",
+          "#Bike rail or channel": "مجرى أو قناة للدراجة",
+          "#Resting place nearby": "مكان للراحة قريب",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

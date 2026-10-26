@@ -2,15 +2,14 @@
   "question_id": "smarturbanity.walking_stairs_extent",
   "project": "SmartUrbanity",
   "key": "walking_stairs_extent",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "first_source_in_current_inventory_unverified",
   "source_questionnaires": [
     "street_connection_assessment",
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -96,6 +95,97 @@
         "street_connection_assessment",
         "street_segment_assessment"
       ]
+    },
+    "reference_83f086bd5077": {
+      "schema": {
+        "text": "How many steps are there?",
+        "answer_key": "walking_stairs_extent",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "A few steps, up to about 10",
+            "value": "1_few_steps"
+          },
+          {
+            "text": "About 11–20 steps",
+            "value": "2_11_20_steps"
+          },
+          {
+            "text": "More than 20 steps",
+            "value": "3_more_than_20_steps"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#How many steps are there?": "How many steps are there?",
+          "#A few steps, up to about 10": "A few steps, up to about 10",
+          "#About 11–20 steps": "About 11–20 steps",
+          "#More than 20 steps": "More than 20 steps",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How many steps are there?": "Quanti gradini ci sono?",
+          "#A few steps, up to about 10": "Pochi gradini, fino a circa 10",
+          "#About 11–20 steps": "Circa 11–20 gradini",
+          "#More than 20 steps": "Più di 20 gradini",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How many steps are there?": "Combien y a-t-il de marches ?",
+          "#A few steps, up to about 10": "Quelques marches, jusqu’à environ 10",
+          "#About 11–20 steps": "Environ 11 à 20 marches",
+          "#More than 20 steps": "Plus de 20 marches",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How many steps are there?": "Wie viele Stufen gibt es?",
+          "#A few steps, up to about 10": "Einige Stufen, bis etwa 10",
+          "#About 11–20 steps": "Etwa 11–20 Stufen",
+          "#More than 20 steps": "Mehr als 20 Stufen",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How many steps are there?": "Kaç basamak var?",
+          "#A few steps, up to about 10": "Birkaç basamak, yaklaşık 10'a kadar",
+          "#About 11–20 steps": "Yaklaşık 11–20 basamak",
+          "#More than 20 steps": "20'den fazla basamak",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How many steps are there?": "چند پله وجود دارد؟",
+          "#A few steps, up to about 10": "چند پله، تا حدود ۱۰ پله",
+          "#About 11–20 steps": "حدود ۱۱ تا ۲۰ پله",
+          "#More than 20 steps": "بیش از ۲۰ پله",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How many steps are there?": "Hány lépcsőfok van?",
+          "#A few steps, up to about 10": "Néhány lépcsőfok, körülbelül 10-ig",
+          "#About 11–20 steps": "Körülbelül 11–20 lépcsőfok",
+          "#More than 20 steps": "Több mint 20 lépcsőfok",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How many steps are there?": "كم عدد الدرجات؟",
+          "#A few steps, up to about 10": "بضع درجات، حتى نحو 10",
+          "#About 11–20 steps": "نحو 11–20 درجة",
+          "#More than 20 steps": "أكثر من 20 درجة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

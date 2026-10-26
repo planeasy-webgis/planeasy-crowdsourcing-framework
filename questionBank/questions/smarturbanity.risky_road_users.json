@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.risky_road_users",
   "project": "SmartUrbanity",
   "key": "risky_road_users",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "Which categories of road users most negatively affect your sense of safety while walking?",
         "answer_key": "risky_road_users",
+        "legacy_answer_keys": [
+          "risky_road_users_v1"
+        ],
         "question_type": "multiple_options",
         "max_answers": 3,
         "options": [
@@ -55,10 +57,7 @@
             "value": "none_no_category_of_road_user_negatively"
           }
         ],
-        "add_other": true,
-        "legacy_answer_keys": [
-          "risky_road_users_v1"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -169,6 +168,161 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_e91911bc22a2": {
+      "schema": {
+        "text": "Which categories of road users most negatively affect your sense of safety while walking?",
+        "answer_key": "risky_road_users",
+        "question_type": "multiple_options",
+        "max_answers": 3,
+        "options": [
+          {
+            "text": "Car drivers",
+            "value": "car_drivers"
+          },
+          {
+            "text": "Motorcycle or scooter riders",
+            "value": "motorcycle_or_scooter_riders"
+          },
+          {
+            "text": "Bus drivers",
+            "value": "bus_drivers"
+          },
+          {
+            "text": "Delivery vehicles (vans, cargo bikes, scooters)",
+            "value": "delivery_vehicles_vans_cargo_bikes_scoot"
+          },
+          {
+            "text": "Taxi or ride-hailing drivers",
+            "value": "taxi_or_ride_hailing_drivers"
+          },
+          {
+            "text": "Cyclists",
+            "value": "cyclists"
+          },
+          {
+            "text": "E-scooter riders",
+            "value": "e_scooter_riders"
+          },
+          {
+            "text": "Other pedestrians",
+            "value": "other_pedestrians"
+          },
+          {
+            "text": "None — no category of road user negatively affects my feeling of safety",
+            "value": "none_no_category_of_road_user_negatively"
+          }
+        ],
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#Which categories of road users most negatively affect your sense of safety while walking?": "Which categories of road users most negatively affect your sense of safety while walking?",
+          "#Car drivers": "Car drivers",
+          "#Motorcycle or scooter riders": "Motorcycle or scooter riders",
+          "#Bus drivers": "Bus drivers",
+          "#Delivery vehicles (vans, cargo bikes, scooters)": "Delivery vehicles (vans, cargo bikes, scooters)",
+          "#Taxi or ride-hailing drivers": "Taxi or ride-hailing drivers",
+          "#Cyclists": "Cyclists",
+          "#E-scooter riders": "E-scooter riders",
+          "#Other pedestrians": "Other pedestrians",
+          "#None — no category of road user negatively affects my feeling of safety": "None — no category of road user negatively affects my feeling of safety"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#Which categories of road users most negatively affect your sense of safety while walking?": "Quali categorie di utenti della strada influiscono più negativamente sulla tua percezione di sicurezza mentre cammini?",
+          "#Car drivers": "Automobilisti",
+          "#Motorcycle or scooter riders": "Motociclisti o conducenti di scooter",
+          "#Bus drivers": "Conducenti di autobus",
+          "#Delivery vehicles (vans, cargo bikes, scooters)": "Veicoli per le consegne (furgoni, cargo bike, scooter)",
+          "#Taxi or ride-hailing drivers": "Tassisti o conducenti di servizi di ride-hailing",
+          "#Cyclists": "Ciclisti",
+          "#E-scooter riders": "Conducenti di monopattini elettrici",
+          "#Other pedestrians": "Altri pedoni",
+          "#None — no category of road user negatively affects my feeling of safety": "Nessuna: nessuna categoria di utenti della strada influisce negativamente sulla mia percezione di sicurezza"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#Which categories of road users most negatively affect your sense of safety while walking?": "Quelles catégories d’usagers de la route réduisent le plus votre sentiment de sécurité lorsque vous marchez ?",
+          "#Car drivers": "Conducteurs de voitures",
+          "#Motorcycle or scooter riders": "Conducteurs de motos ou scooters",
+          "#Bus drivers": "Conducteurs de bus",
+          "#Delivery vehicles (vans, cargo bikes, scooters)": "Véhicules de livraison (fourgonnettes, vélos cargo, scooters)",
+          "#Taxi or ride-hailing drivers": "Conducteurs de taxi ou de VTC",
+          "#Cyclists": "Cyclistes",
+          "#E-scooter riders": "Usagers de trottinettes électriques",
+          "#Other pedestrians": "Autres piétons",
+          "#None — no category of road user negatively affects my feeling of safety": "Aucune — aucune catégorie d’usagers de la route ne réduit mon sentiment de sécurité"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#Which categories of road users most negatively affect your sense of safety while walking?": "Welche Gruppen von Verkehrsteilnehmenden beeinträchtigen Ihr Sicherheitsgefühl beim Gehen am stärksten?",
+          "#Car drivers": "Autofahrer",
+          "#Motorcycle or scooter riders": "Motorrad- oder Rollerfahrer",
+          "#Bus drivers": "Busfahrer",
+          "#Delivery vehicles (vans, cargo bikes, scooters)": "Lieferfahrzeuge (Transporter, Lastenräder, Roller)",
+          "#Taxi or ride-hailing drivers": "Taxi- oder Fahrdienstfahrer",
+          "#Cyclists": "Radfahrer",
+          "#E-scooter riders": "E-Scooter-Fahrer",
+          "#Other pedestrians": "Andere Fußgänger",
+          "#None — no category of road user negatively affects my feeling of safety": "Keine — keine Gruppe von Verkehrsteilnehmenden beeinträchtigt mein Sicherheitsgefühl"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#Which categories of road users most negatively affect your sense of safety while walking?": "Hangi yol kullanıcıları yürürken güvenlik hissinizi en olumsuz etkiliyor?",
+          "#Car drivers": "Otomobil sürücüleri",
+          "#Motorcycle or scooter riders": "Motosiklet veya scooter sürücüleri",
+          "#Bus drivers": "Otobüs sürücüleri",
+          "#Delivery vehicles (vans, cargo bikes, scooters)": "Teslimat araçları (kamyonet, kargo bisikleti, scooter)",
+          "#Taxi or ride-hailing drivers": "Taksi veya uygulama üzerinden çağrılan araç sürücüleri",
+          "#Cyclists": "Bisikletliler",
+          "#E-scooter riders": "E-scooter kullanıcıları",
+          "#Other pedestrians": "Diğer yayalar",
+          "#None — no category of road user negatively affects my feeling of safety": "Hiçbiri — hiçbir yol kullanıcısı grubu güvenlik hissimi olumsuz etkilemiyor"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#Which categories of road users most negatively affect your sense of safety while walking?": "کدام گروه از کاربران راه بیشترین اثر منفی را بر احساس امنیت شما هنگام پیاده‌روی دارند؟",
+          "#Car drivers": "رانندگان خودرو",
+          "#Motorcycle or scooter riders": "موتورسواران یا اسکوترسواران",
+          "#Bus drivers": "رانندگان اتوبوس",
+          "#Delivery vehicles (vans, cargo bikes, scooters)": "وسایل نقلیه تحویل کالا (ون، دوچرخه باری، اسکوتر)",
+          "#Taxi or ride-hailing drivers": "رانندگان تاکسی یا تاکسی اینترنتی",
+          "#Cyclists": "دوچرخه‌سواران",
+          "#E-scooter riders": "کاربران اسکوتر برقی",
+          "#Other pedestrians": "سایر عابران پیاده",
+          "#None — no category of road user negatively affects my feeling of safety": "هیچ‌کدام — هیچ گروهی از کاربران راه احساس امنیت مرا کم نمی‌کند"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#Which categories of road users most negatively affect your sense of safety while walking?": "Mely közlekedői csoportok rontják leginkább a biztonságérzetét gyaloglás közben?",
+          "#Car drivers": "Autóvezetők",
+          "#Motorcycle or scooter riders": "Motorosok vagy robogósok",
+          "#Bus drivers": "Buszvezetők",
+          "#Delivery vehicles (vans, cargo bikes, scooters)": "Áruszállító járművek (furgonok, teherkerékpárok, robogók)",
+          "#Taxi or ride-hailing drivers": "Taxi- vagy személyszállító szolgáltatás vezetői",
+          "#Cyclists": "Kerékpárosok",
+          "#E-scooter riders": "Elektromosroller-használók",
+          "#Other pedestrians": "Más gyalogosok",
+          "#None — no category of road user negatively affects my feeling of safety": "Egyik sem — egyik közlekedői csoport sem rontja a biztonságérzetemet"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#Which categories of road users most negatively affect your sense of safety while walking?": "أي فئات من مستخدمي الطريق تؤثر أكثر سلبًا في شعورك بالأمان أثناء المشي؟",
+          "#Car drivers": "سائقو السيارات",
+          "#Motorcycle or scooter riders": "راكبو الدراجات النارية أو السكوتر",
+          "#Bus drivers": "سائقو الحافلات",
+          "#Delivery vehicles (vans, cargo bikes, scooters)": "مركبات التوصيل (شاحنات صغيرة، دراجات شحن، سكوتر)",
+          "#Taxi or ride-hailing drivers": "سائقو سيارات الأجرة أو خدمات طلب السيارات",
+          "#Cyclists": "راكبو الدراجات",
+          "#E-scooter riders": "مستخدمو السكوتر الكهربائي",
+          "#Other pedestrians": "المشاة الآخرون",
+          "#None — no category of road user negatively affects my feeling of safety": "لا أحد — لا توجد فئة من مستخدمي الطريق تقلل من شعوري بالأمان"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

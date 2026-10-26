@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.usual_mode_satisfaction",
   "project": "SmartUrbanity",
   "key": "usual_mode_satisfaction",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_daily_travel",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -108,6 +107,111 @@
       "source_questionnaires": [
         "smarturbanity_daily_travel"
       ]
+    },
+    "reference_5044bf5e11c4": {
+      "schema": {
+        "text": "Overall, how satisfied are you with your current primary mode of transport?",
+        "answer_key": "usual_mode_satisfaction",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very dissatisfied",
+            "value": "very_dissatisfied"
+          },
+          {
+            "text": "Dissatisfied",
+            "value": "dissatisfied"
+          },
+          {
+            "text": "Neither satisfied nor dissatisfied",
+            "value": "neutral"
+          },
+          {
+            "text": "Satisfied",
+            "value": "satisfied"
+          },
+          {
+            "text": "Very satisfied",
+            "value": "very_satisfied"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#Overall, how satisfied are you with your current primary mode of transport?": "Overall, how satisfied are you with your current primary mode of transport?",
+          "#Very dissatisfied": "Very dissatisfied",
+          "#Dissatisfied": "Dissatisfied",
+          "#Neither satisfied nor dissatisfied": "Neither satisfied nor dissatisfied",
+          "#Satisfied": "Satisfied",
+          "#Very satisfied": "Very satisfied"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#Overall, how satisfied are you with your current primary mode of transport?": "Nel complesso, quanto sei soddisfatto/a della tua attuale modalità di trasporto principale?",
+          "#Very dissatisfied": "Per niente soddisfatto/a",
+          "#Dissatisfied": "Insoddisfatto/a",
+          "#Neither satisfied nor dissatisfied": "Né soddisfatto/a né insoddisfatto/a",
+          "#Satisfied": "Soddisfatto/a",
+          "#Very satisfied": "Molto soddisfatto/a"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#Overall, how satisfied are you with your current primary mode of transport?": "Dans l’ensemble, êtes-vous satisfait(e) de votre principal mode de transport actuel ?",
+          "#Very dissatisfied": "Très insatisfait(e)",
+          "#Dissatisfied": "Insatisfait(e)",
+          "#Neither satisfied nor dissatisfied": "Ni satisfait(e) ni insatisfait(e)",
+          "#Satisfied": "Satisfait(e)",
+          "#Very satisfied": "Très satisfait(e)"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#Overall, how satisfied are you with your current primary mode of transport?": "Wie zufrieden sind Sie insgesamt mit Ihrem derzeit wichtigsten Verkehrsmittel?",
+          "#Very dissatisfied": "Sehr unzufrieden",
+          "#Dissatisfied": "Unzufrieden",
+          "#Neither satisfied nor dissatisfied": "Weder zufrieden noch unzufrieden",
+          "#Satisfied": "Zufrieden",
+          "#Very satisfied": "Sehr zufrieden"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#Overall, how satisfied are you with your current primary mode of transport?": "Genel olarak, şu anda en sık kullandığınız ulaşım seçeneğinden ne kadar memnunsunuz?",
+          "#Very dissatisfied": "Hiç memnun değilim",
+          "#Dissatisfied": "Memnun değilim",
+          "#Neither satisfied nor dissatisfied": "Ne memnunum ne de memnun değilim",
+          "#Satisfied": "Memnunum",
+          "#Very satisfied": "Çok memnunum"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#Overall, how satisfied are you with your current primary mode of transport?": "در مجموع، از روش اصلی رفت‌وآمد فعلی خود چقدر راضی هستید؟",
+          "#Very dissatisfied": "بسیار ناراضی",
+          "#Dissatisfied": "ناراضی",
+          "#Neither satisfied nor dissatisfied": "نه راضی و نه ناراضی",
+          "#Satisfied": "راضی",
+          "#Very satisfied": "بسیار راضی"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#Overall, how satisfied are you with your current primary mode of transport?": "Összességében mennyire elégedett a jelenleg leggyakrabban használt közlekedési módjával?",
+          "#Very dissatisfied": "Nagyon elégedetlen",
+          "#Dissatisfied": "Elégedetlen",
+          "#Neither satisfied nor dissatisfied": "Sem elégedett, sem elégedetlen",
+          "#Satisfied": "Elégedett",
+          "#Very satisfied": "Nagyon elégedett"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#Overall, how satisfied are you with your current primary mode of transport?": "بشكل عام، ما مدى رضاك عن وسيلة التنقل الرئيسية التي تستخدمها حاليًا؟",
+          "#Very dissatisfied": "غير راضٍ جدًا",
+          "#Dissatisfied": "غير راضٍ",
+          "#Neither satisfied nor dissatisfied": "لا راضٍ ولا غير راضٍ",
+          "#Satisfied": "راضٍ",
+          "#Very satisfied": "راضٍ جدًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

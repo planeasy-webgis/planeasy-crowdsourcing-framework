@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.active_days",
   "project": "SmartUrbanity",
   "key": "active_days",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.",
         "answer_key": "active_days",
+        "legacy_answer_keys": [
+          "active_days_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -38,10 +40,7 @@
             "value": "daily_near_daily_67_days"
           }
         ],
-        "privacy_classification": "heightened_personal",
-        "legacy_answer_keys": [
-          "active_days_v1"
-        ]
+        "privacy_classification": "heightened_personal"
       },
       "translations": {
         "en": {
@@ -112,6 +111,128 @@
       "source_questionnaires": [
         "smarturbanity_about_you"
       ]
+    },
+    "reference_2a8e877401f4": {
+      "schema": {
+        "text": "How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.",
+        "answer_key": "active_days",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Inactive (0 days)",
+            "value": "inactive_0_days"
+          },
+          {
+            "text": "Occasionally Active (1 day)",
+            "value": "occasionally_active_1_day"
+          },
+          {
+            "text": "Moderately Active (2–3 days)",
+            "value": "moderately_active_23_days"
+          },
+          {
+            "text": "Highly Active (4–5 days)",
+            "value": "highly_active_45_days"
+          },
+          {
+            "text": "Daily / Near Daily (6–7 days)",
+            "value": "daily_near_daily_67_days"
+          }
+        ],
+        "privacy_classification": "heightened_personal"
+      },
+      "translations": {
+        "en": {
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
+          "#How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.": "How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.",
+          "#Inactive (0 days)": "Inactive (0 days)",
+          "#Occasionally Active (1 day)": "Occasionally Active (1 day)",
+          "#Moderately Active (2–3 days)": "Moderately Active (2–3 days)",
+          "#Highly Active (4–5 days)": "Highly Active (4–5 days)",
+          "#Daily / Near Daily (6–7 days)": "Daily / Near Daily (6–7 days)",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
+          "#How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.": "Quanto sei fisicamente attivo/a durante una settimana tipica? Considera gli spostamenti a piedi, in bicicletta o l’attività fisica dedicata. Se hai una condizione che influisce sulla mobilità, seleziona il livello che descrive meglio la tua situazione.",
+          "#Inactive (0 days)": "Inattivo/a (0 giorni)",
+          "#Occasionally Active (1 day)": "Occasionalmente attivo/a (1 giorno)",
+          "#Moderately Active (2–3 days)": "Moderatamente attivo/a (2-3 giorni)",
+          "#Highly Active (4–5 days)": "Molto attivo/a (4-5 giorni)",
+          "#Daily / Near Daily (6–7 days)": "Ogni giorno o quasi (6-7 giorni)",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
+          "#How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.": "Pendant une semaine habituelle, quel est votre niveau d’activité physique ? Pensez à la marche pour vos déplacements, au vélo ou à une activité physique dédiée. Si vous avez une condition qui limite votre mobilité, choisissez le niveau qui vous correspond le mieux.",
+          "#Inactive (0 days)": "Inactif / inactive (0 jour)",
+          "#Occasionally Active (1 day)": "Actif / active occasionnellement (1 jour)",
+          "#Moderately Active (2–3 days)": "Modérément actif / active (2 à 3 jours)",
+          "#Highly Active (4–5 days)": "Très actif / active (4 à 5 jours)",
+          "#Daily / Near Daily (6–7 days)": "Tous les jours ou presque (6 à 7 jours)",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
+          "#How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.": "Wie körperlich aktiv sind Sie in einer typischen Woche? Denken Sie an Wege zu Fuß, Radfahren oder gezielte Bewegung. Wenn Sie eine Einschränkung Ihrer Mobilität haben, wählen Sie bitte die Stufe, die am besten zu Ihnen passt.",
+          "#Inactive (0 days)": "Inaktiv (0 Tage)",
+          "#Occasionally Active (1 day)": "Gelegentlich aktiv (1 Tag)",
+          "#Moderately Active (2–3 days)": "Mäßig aktiv (2-3 Tage)",
+          "#Highly Active (4–5 days)": "Sehr aktiv (4-5 Tage)",
+          "#Daily / Near Daily (6–7 days)": "Täglich oder fast täglich (6-7 Tage)",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
+          "#How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.": "Tipik bir haftada ne kadar fiziksel olarak aktifsiniz? Ulaşım için yürümeyi, bisiklete binmeyi veya düzenli egzersizi düşünün. Hareketliliğinizi etkileyen bir durumunuz varsa, size en uygun düzeyi seçin.",
+          "#Inactive (0 days)": "Hareketsiz (0 gün)",
+          "#Occasionally Active (1 day)": "Ara sıra aktif (1 gün)",
+          "#Moderately Active (2–3 days)": "Orta düzeyde aktif (2-3 gün)",
+          "#Highly Active (4–5 days)": "Çok aktif (4-5 gün)",
+          "#Daily / Near Daily (6–7 days)": "Her gün veya neredeyse her gün (6-7 gün)",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
+          "#How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.": "در یک هفته معمولی چقدر فعالیت بدنی دارید؟ پیاده‌روی برای رفت‌وآمد، دوچرخه‌سواری یا ورزش را در نظر بگیرید. اگر شرایطی دارید که حرکت شما را محدود می‌کند، گزینه‌ای را انتخاب کنید که بیشتر با وضعیت شما سازگار است.",
+          "#Inactive (0 days)": "بدون فعالیت (۰ روز)",
+          "#Occasionally Active (1 day)": "گاهی فعال (۱ روز)",
+          "#Moderately Active (2–3 days)": "فعالیت متوسط (۲ تا ۳ روز)",
+          "#Highly Active (4–5 days)": "بسیار فعال (۴ تا ۵ روز)",
+          "#Daily / Near Daily (6–7 days)": "هر روز یا تقریباً هر روز (۶ تا ۷ روز)",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
+          "#How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.": "Mennyire fizikailag aktív egy átlagos héten? Gondoljon a közlekedési célú gyaloglásra, kerékpározásra vagy célzott testmozgásra. Ha mozgását valamilyen állapot befolyásolja, válassza az Önre leginkább jellemző szintet.",
+          "#Inactive (0 days)": "Inaktív (0 nap)",
+          "#Occasionally Active (1 day)": "Alkalmanként aktív (1 nap)",
+          "#Moderately Active (2–3 days)": "Közepesen aktív (2-3 nap)",
+          "#Highly Active (4–5 days)": "Nagyon aktív (4-5 nap)",
+          "#Daily / Near Daily (6–7 days)": "Naponta vagy majdnem naponta (6-7 nap)",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
+          "#How physically active are you in a typical week? Consider walking for transport, cycling, or dedicated exercise. If you have a condition affecting your mobility, select the level that best applies to you.": "ما مدى نشاطك البدني في أسبوع عادي؟ فكر في المشي للتنقل، وركوب الدراجة، أو التمارين الرياضية. إذا كانت لديك حالة تؤثر في حركتك، اختر المستوى الذي يناسب حالتك أكثر.",
+          "#Inactive (0 days)": "غير نشط (0 يوم)",
+          "#Occasionally Active (1 day)": "نشط أحيانًا (يوم واحد)",
+          "#Moderately Active (2–3 days)": "نشط بدرجة متوسطة (2-3 أيام)",
+          "#Highly Active (4–5 days)": "نشط جدًا (4-5 أيام)",
+          "#Daily / Near Daily (6–7 days)": "يوميًا أو شبه يومي (6-7 أيام)",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

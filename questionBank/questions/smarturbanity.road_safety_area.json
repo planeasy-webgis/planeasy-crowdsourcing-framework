@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.road_safety_area",
   "project": "SmartUrbanity",
   "key": "road_safety_area",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_safety_environment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_safety_environment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -108,6 +107,111 @@
       "source_questionnaires": [
         "smarturbanity_safety_environment"
       ]
+    },
+    "reference_952fad2bf0cc": {
+      "schema": {
+        "text": "How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?",
+        "answer_key": "road_safety_area",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not safe at all",
+            "value": "not_safe"
+          },
+          {
+            "text": "Slightly safe",
+            "value": "slightly_safe"
+          },
+          {
+            "text": "Moderately safe",
+            "value": "moderately_safe"
+          },
+          {
+            "text": "Very safe",
+            "value": "very_safe"
+          },
+          {
+            "text": "Completely safe",
+            "value": "completely_safe"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?": "How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?",
+          "#Not safe at all": "Not safe at all",
+          "#Slightly safe": "Slightly safe",
+          "#Moderately safe": "Moderately safe",
+          "#Very safe": "Very safe",
+          "#Completely safe": "Completely safe"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?": "Quanto consideri sicuro il tuo ambiente di viaggio abituale rispetto a incidenti e condizioni stradali?",
+          "#Not safe at all": "Per niente sicuro",
+          "#Slightly safe": "Poco sicuro",
+          "#Moderately safe": "Moderatamente sicuro",
+          "#Very safe": "Molto sicuro",
+          "#Completely safe": "Completamente sicuro"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?": "En ce qui concerne les accidents et l’état des routes, à quel point considérez-vous votre environnement de déplacement habituel comme sûr ?",
+          "#Not safe at all": "Pas du tout sûr",
+          "#Slightly safe": "Peu sûr",
+          "#Moderately safe": "Moyennement sûr",
+          "#Very safe": "Très sûr",
+          "#Completely safe": "Tout à fait sûr"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?": "Wie sicher ist Ihrer Meinung nach Ihre typische Verkehrsumgebung in Bezug auf Unfälle und Straßenbedingungen?",
+          "#Not safe at all": "Gar nicht sicher",
+          "#Slightly safe": "Eher unsicher",
+          "#Moderately safe": "Mäßig sicher",
+          "#Very safe": "Sehr sicher",
+          "#Completely safe": "Vollkommen sicher"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?": "Kazalar ve yol koşulları açısından tipik yolculuk çevrenizi ne kadar güvenli buluyorsunuz?",
+          "#Not safe at all": "Hiç güvenli değil",
+          "#Slightly safe": "Pek güvenli değil",
+          "#Moderately safe": "Orta düzeyde güvenli",
+          "#Very safe": "Çok güvenli",
+          "#Completely safe": "Tamamen güvenli"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?": "از نظر تصادف و وضعیت راه، محیط معمول سفر خود را چقدر ایمن می‌دانید؟",
+          "#Not safe at all": "اصلاً ایمن نیست",
+          "#Slightly safe": "کمی ایمن است",
+          "#Moderately safe": "تا حد متوسط ایمن است",
+          "#Very safe": "خیلی ایمن است",
+          "#Completely safe": "کاملاً ایمن است"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?": "Balesetek és útviszonyok szempontjából mennyire tartja biztonságosnak a tipikus közlekedési környezetét?",
+          "#Not safe at all": "Egyáltalán nem biztonságos",
+          "#Slightly safe": "Kissé biztonságos",
+          "#Moderately safe": "Közepesen biztonságos",
+          "#Very safe": "Nagyon biztonságos",
+          "#Completely safe": "Teljesen biztonságos"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How safe (e.g. accidents, road conditions) do you consider your typical travel environment to be?": "من حيث الحوادث وحالة الطرق، ما مدى أمان بيئة تنقلك المعتادة برأيك؟",
+          "#Not safe at all": "غير آمنة إطلاقًا",
+          "#Slightly safe": "آمنة قليلًا",
+          "#Moderately safe": "آمنة بدرجة متوسطة",
+          "#Very safe": "آمنة جدًا",
+          "#Completely safe": "آمنة تمامًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

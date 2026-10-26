@@ -3,9 +3,8 @@
   "project": "SmartUrbanity",
   "key": "observation_details",
   "version": 1,
-  "status": "draft",
   "origin_questionnaire": "smarturbanity_missing_connection_report",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "first_source_in_current_inventory_unverified",
   "source_questionnaires": [
     "smarturbanity_missing_connection_report",
     "smarturbanity_missing_network_element_report",
@@ -13,7 +12,7 @@
   ],
   "review_required": true,
   "variants": {
-    "default": {
+    "smarturbanity_missing_connection_report": {
       "schema": {
         "text": "What should the research team know about this place?",
         "answer_key": "observation_details",

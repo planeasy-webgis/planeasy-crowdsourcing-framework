@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.access_barriers_other",
   "project": "SmartUrbanity",
   "key": "access_barriers_other",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_service_correction_report",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_service_correction_report"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -46,6 +45,57 @@
       "source_questionnaires": [
         "smarturbanity_service_correction_report"
       ]
+    },
+    "reference_e379d6d62757": {
+      "schema": {
+        "text": "What else makes it hard to get in?",
+        "answer_key": "access_barriers_other",
+        "question_type": "text"
+      },
+      "translations": {
+        "en": {
+          "#I don't know": "I don't know",
+          "#Other": "Other",
+          "#What else makes it hard to get in?": "What else makes it hard to get in?"
+        },
+        "it": {
+          "#I don't know": "Non lo so",
+          "#Other": "Altro",
+          "#What else makes it hard to get in?": "Cos'altro rende difficile entrare?"
+        },
+        "fr": {
+          "#I don't know": "Je ne sais pas",
+          "#Other": "Autre",
+          "#What else makes it hard to get in?": "Qu’est-ce qui d’autre rend l’entrée difficile ?"
+        },
+        "de": {
+          "#I don't know": "Ich weiß nicht",
+          "#Other": "Sonstiges",
+          "#What else makes it hard to get in?": "Was erschwert den Zugang sonst noch?"
+        },
+        "tr": {
+          "#I don't know": "Bilmiyorum",
+          "#Other": "Diğer",
+          "#What else makes it hard to get in?": "İçeri girmeyi başka ne zorlaştırıyor?"
+        },
+        "fa": {
+          "#I don't know": "نمی‌دانم",
+          "#Other": "سایر",
+          "#What else makes it hard to get in?": "چه چیز دیگری ورود را دشوار می‌کند؟"
+        },
+        "hu": {
+          "#I don't know": "Nem tudom",
+          "#Other": "Egyéb",
+          "#What else makes it hard to get in?": "Mi más nehezíti meg a bejutást?"
+        },
+        "ar": {
+          "#I don't know": "لا أعرف",
+          "#Other": "أخرى",
+          "#What else makes it hard to get in?": "ما الذي يجعل الدخول صعبًا أيضًا؟"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

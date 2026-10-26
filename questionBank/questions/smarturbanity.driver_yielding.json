@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.driver_yielding",
   "project": "SmartUrbanity",
   "key": "driver_yielding",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -118,6 +117,121 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_45f6c036eb7b": {
+      "schema": {
+        "text": "When there is no working traffic light, how often do drivers stop to let people cross?",
+        "answer_key": "driver_yielding",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Never",
+            "value": "1_never"
+          },
+          {
+            "text": "Rarely",
+            "value": "2_rarely"
+          },
+          {
+            "text": "About half of the time",
+            "value": "3_half"
+          },
+          {
+            "text": "Usually",
+            "value": "4_usually"
+          },
+          {
+            "text": "Always or almost always",
+            "value": "5_always"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#When there is no working traffic light, how often do drivers stop to let people cross?": "When there is no working traffic light, how often do drivers stop to let people cross?",
+          "#Never": "Never",
+          "#Rarely": "Rarely",
+          "#About half of the time": "About half of the time",
+          "#Usually": "Usually",
+          "#Always or almost always": "Always or almost always",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#When there is no working traffic light, how often do drivers stop to let people cross?": "Quando non c'è un semaforo funzionante, quanto spesso chi guida si ferma per lasciar attraversare?",
+          "#Never": "Mai",
+          "#Rarely": "Raramente",
+          "#About half of the time": "Circa metà delle volte",
+          "#Usually": "Di solito",
+          "#Always or almost always": "Sempre o quasi sempre",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#When there is no working traffic light, how often do drivers stop to let people cross?": "Quand il n'y a pas de feu en état de marche, à quelle fréquence les conducteurs s'arrêtent-ils pour laisser traverser ?",
+          "#Never": "Jamais",
+          "#Rarely": "Rarement",
+          "#About half of the time": "Environ la moitié du temps",
+          "#Usually": "Généralement",
+          "#Always or almost always": "Toujours ou presque toujours",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#When there is no working traffic light, how often do drivers stop to let people cross?": "Wenn keine funktionierende Ampel da ist: Wie oft halten Autofahrende an, um Menschen queren zu lassen?",
+          "#Never": "Nie",
+          "#Rarely": "Selten",
+          "#About half of the time": "Etwa in der Hälfte der Fälle",
+          "#Usually": "Meistens",
+          "#Always or almost always": "Immer oder fast immer",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#When there is no working traffic light, how often do drivers stop to let people cross?": "Çalışan bir trafik ışığı yokken sürücüler insanların karşıya geçmesi için ne sıklıkla duruyor?",
+          "#Never": "Hiçbir zaman",
+          "#Rarely": "Nadiren",
+          "#About half of the time": "Yaklaşık yarısında",
+          "#Usually": "Genellikle",
+          "#Always or almost always": "Her zaman veya neredeyse her zaman",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#When there is no working traffic light, how often do drivers stop to let people cross?": "وقتی چراغ راهنمایی فعالی نیست، رانندگان هر چند وقت یک‌بار می‌ایستند تا مردم عبور کنند؟",
+          "#Never": "هرگز",
+          "#Rarely": "به‌ندرت",
+          "#About half of the time": "حدود نیمی از مواقع",
+          "#Usually": "معمولاً",
+          "#Always or almost always": "همیشه یا تقریباً همیشه",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#When there is no working traffic light, how often do drivers stop to let people cross?": "Ha nincs működő jelzőlámpa, a járművezetők milyen gyakran állnak meg, hogy átengedjék a gyalogosokat?",
+          "#Never": "Soha",
+          "#Rarely": "Ritkán",
+          "#About half of the time": "Az esetek körülbelül felében",
+          "#Usually": "Általában",
+          "#Always or almost always": "Mindig vagy majdnem mindig",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#When there is no working traffic light, how often do drivers stop to let people cross?": "عندما لا توجد إشارة ضوئية تعمل، كم مرة يتوقف السائقون للسماح للناس بالعبور؟",
+          "#Never": "أبدًا",
+          "#Rarely": "نادرًا",
+          "#About half of the time": "في نحو نصف المرات",
+          "#Usually": "عادةً",
+          "#Always or almost always": "دائمًا أو دائمًا تقريبًا",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.crossing_kind",
   "project": "SmartUrbanity",
   "key": "crossing_kind",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -94,6 +93,97 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_1785df4f5436": {
+      "schema": {
+        "text": "How is this crossing controlled?",
+        "answer_key": "crossing_kind",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "With a traffic light",
+            "value": "signal"
+          },
+          {
+            "text": "Zebra crossing without a traffic light",
+            "value": "marked_no_signal"
+          },
+          {
+            "text": "No zebra stripes and no traffic light",
+            "value": "unmarked"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Zebra crossing without a traffic light": "Zebra crossing without a traffic light",
+          "#Other": "Other",
+          "#I don't know": "I don't know",
+          "#How is this crossing controlled?": "How is this crossing controlled?",
+          "#With a traffic light": "With a traffic light",
+          "#No zebra stripes and no traffic light": "No zebra stripes and no traffic light"
+        },
+        "it": {
+          "#Zebra crossing without a traffic light": "Strisce pedonali senza semaforo",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so",
+          "#How is this crossing controlled?": "Com'è regolato questo attraversamento?",
+          "#With a traffic light": "Con semaforo",
+          "#No zebra stripes and no traffic light": "Senza strisce né semaforo"
+        },
+        "fr": {
+          "#Zebra crossing without a traffic light": "Passage piéton sans feu",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas",
+          "#How is this crossing controlled?": "Comment ce passage est-il régulé ?",
+          "#With a traffic light": "Avec un feu de circulation",
+          "#No zebra stripes and no traffic light": "Sans marquage ni feu"
+        },
+        "de": {
+          "#Zebra crossing without a traffic light": "Zebrastreifen ohne Ampel",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht",
+          "#How is this crossing controlled?": "Wie ist dieser Übergang geregelt?",
+          "#With a traffic light": "Mit Ampel",
+          "#No zebra stripes and no traffic light": "Ohne Markierung und ohne Ampel"
+        },
+        "tr": {
+          "#Zebra crossing without a traffic light": "Trafik ışığı olmayan yaya geçidi",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum",
+          "#How is this crossing controlled?": "Bu geçit nasıl düzenleniyor?",
+          "#With a traffic light": "Trafik ışıklı",
+          "#No zebra stripes and no traffic light": "Ne çizgi ne de trafik ışığı var"
+        },
+        "fa": {
+          "#Zebra crossing without a traffic light": "خط عابر پیاده بدون چراغ راهنمایی",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم",
+          "#How is this crossing controlled?": "این گذرگاه چگونه کنترل می‌شود؟",
+          "#With a traffic light": "با چراغ راهنمایی",
+          "#No zebra stripes and no traffic light": "بدون خط‌کشی و بدون چراغ راهنمایی"
+        },
+        "hu": {
+          "#Zebra crossing without a traffic light": "Zebra jelzőlámpa nélkül",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom",
+          "#How is this crossing controlled?": "Hogyan szabályozott ez az átkelő?",
+          "#With a traffic light": "Jelzőlámpával",
+          "#No zebra stripes and no traffic light": "Felfestés és jelzőlámpa nélkül"
+        },
+        "ar": {
+          "#Zebra crossing without a traffic light": "ممر مشاة بدون إشارة ضوئية",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف",
+          "#How is this crossing controlled?": "كيف يُنظَّم هذا المعبر؟",
+          "#With a traffic light": "بإشارة مرور ضوئية",
+          "#No zebra stripes and no traffic light": "بدون خطوط وبدون إشارة ضوئية"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

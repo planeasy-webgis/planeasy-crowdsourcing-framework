@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.remote_work",
   "project": "SmartUrbanity",
   "key": "remote_work",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "Do you currently work remotely (partly or fully)?",
         "answer_key": "remote_work",
+        "legacy_answer_keys": [
+          "remote_work_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -33,9 +35,6 @@
             "text": "I am not currently employed",
             "value": "i_am_not_currently_employed"
           }
-        ],
-        "legacy_answer_keys": [
-          "remote_work_v1"
         ]
       },
       "translations": {
@@ -99,6 +98,115 @@
       "source_questionnaires": [
         "smarturbanity_about_you"
       ]
+    },
+    "reference_f8447df9ea51": {
+      "schema": {
+        "text": "Do you currently work remotely (partly or fully)?",
+        "answer_key": "remote_work",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes (3 days or more in a week)",
+            "value": "yes_3_days_or_more_in_a_week"
+          },
+          {
+            "text": "Yes, occasionally (1-2 days in a week)",
+            "value": "yes_occasionally_1_2_days_in_a_week"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          },
+          {
+            "text": "I am not currently employed",
+            "value": "i_am_not_currently_employed"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
+          "#No": "No",
+          "#Do you currently work remotely (partly or fully)?": "Do you currently work remotely (partly or fully)?",
+          "#Yes (3 days or more in a week)": "Yes (3 days or more in a week)",
+          "#Yes, occasionally (1-2 days in a week)": "Yes, occasionally (1-2 days in a week)",
+          "#I am not currently employed": "I am not currently employed",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
+          "#No": "No",
+          "#Do you currently work remotely (partly or fully)?": "Attualmente lavori da remoto, parzialmente o completamente?",
+          "#Yes (3 days or more in a week)": "Sì (3 o più giorni alla settimana)",
+          "#Yes, occasionally (1-2 days in a week)": "Sì, occasionalmente (1-2 giorni alla settimana)",
+          "#I am not currently employed": "Attualmente non lavoro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
+          "#No": "Non",
+          "#Do you currently work remotely (partly or fully)?": "Travaillez-vous actuellement à distance, en partie ou entièrement ?",
+          "#Yes (3 days or more in a week)": "Oui (3 jours ou plus par semaine)",
+          "#Yes, occasionally (1-2 days in a week)": "Oui, occasionnellement (1 à 2 jours par semaine)",
+          "#I am not currently employed": "Je ne travaille pas actuellement",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
+          "#No": "Nein",
+          "#Do you currently work remotely (partly or fully)?": "Arbeiten Sie derzeit teilweise oder vollständig von zu Hause oder einem anderen Ort aus?",
+          "#Yes (3 days or more in a week)": "Ja (3 Tage oder mehr pro Woche)",
+          "#Yes, occasionally (1-2 days in a week)": "Ja, gelegentlich (1-2 Tage pro Woche)",
+          "#I am not currently employed": "Ich bin derzeit nicht berufstätig",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
+          "#No": "Hayır",
+          "#Do you currently work remotely (partly or fully)?": "Şu anda kısmen veya tamamen uzaktan çalışıyor musunuz?",
+          "#Yes (3 days or more in a week)": "Evet (haftada 3 gün veya daha fazla)",
+          "#Yes, occasionally (1-2 days in a week)": "Evet, ara sıra (haftada 1-2 gün)",
+          "#I am not currently employed": "Şu anda çalışmıyorum",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
+          "#No": "خیر",
+          "#Do you currently work remotely (partly or fully)?": "آیا در حال حاضر بخشی یا تمام کار خود را از راه دور انجام می‌دهید؟",
+          "#Yes (3 days or more in a week)": "بله (۳ روز یا بیشتر در هفته)",
+          "#Yes, occasionally (1-2 days in a week)": "بله، گاهی (۱ تا ۲ روز در هفته)",
+          "#I am not currently employed": "در حال حاضر شاغل نیستم",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
+          "#No": "Nem",
+          "#Do you currently work remotely (partly or fully)?": "Dolgozik jelenleg részben vagy teljesen távolról?",
+          "#Yes (3 days or more in a week)": "Igen (heti 3 nap vagy több)",
+          "#Yes, occasionally (1-2 days in a week)": "Igen, alkalmanként (heti 1-2 nap)",
+          "#I am not currently employed": "Jelenleg nem dolgozom",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
+          "#No": "لا",
+          "#Do you currently work remotely (partly or fully)?": "هل تعمل حاليًا عن بُعد، جزئيًا أو بالكامل؟",
+          "#Yes (3 days or more in a week)": "نعم (3 أيام أو أكثر في الأسبوع)",
+          "#Yes, occasionally (1-2 days in a week)": "نعم، أحيانًا (1-2 يوم في الأسبوع)",
+          "#I am not currently employed": "لا أعمل حاليًا",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

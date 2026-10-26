@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.driving_licence",
   "project": "SmartUrbanity",
   "key": "driving_licence",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -72,6 +71,91 @@
       "source_questionnaires": [
         "smarturbanity_about_you"
       ]
+    },
+    "reference_316ebf7c5752": {
+      "schema": {
+        "text": "Do you hold a valid driving license? (Car, motorcycle or both)",
+        "answer_key": "driving_licence",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
+          "#Yes": "Yes",
+          "#No": "No",
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Do you hold a valid driving license? (Car, motorcycle or both)",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
+          "#Yes": "Sì",
+          "#No": "No",
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Possiedi una patente di guida valida? (Auto, moto o entrambe)",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
+          "#Yes": "Oui",
+          "#No": "Non",
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Avez-vous un permis de conduire valide ? (Voiture, moto ou les deux)",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
+          "#Yes": "Ja",
+          "#No": "Nein",
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Haben Sie einen gültigen Führerschein? (Auto, Motorrad oder beides)",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
+          "#Yes": "Evet",
+          "#No": "Hayır",
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Geçerli bir sürücü belgeniz var mı? (Otomobil, motosiklet veya her ikisi)",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
+          "#Yes": "بله",
+          "#No": "خیر",
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "آیا گواهینامه رانندگی معتبر دارید؟ (خودرو، موتورسیکلت یا هر دو)",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
+          "#Yes": "Igen",
+          "#No": "Nem",
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "Van érvényes vezetői engedélye? (Autóra, motorkerékpárra vagy mindkettőre)",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
+          "#Yes": "نعم",
+          "#No": "لا",
+          "#Do you hold a valid driving license? (Car, motorcycle or both)": "هل لديك رخصة قيادة سارية؟ (للسيارة أو الدراجة النارية أو كليهما)",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

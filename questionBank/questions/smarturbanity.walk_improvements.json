@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.walk_improvements",
   "project": "SmartUrbanity",
   "key": "walk_improvements",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "What improvements would most encourage you to walk more often or for longer distances?",
         "answer_key": "walk_improvements",
+        "legacy_answer_keys": [
+          "walk_improvements_v1"
+        ],
         "question_type": "multiple_options",
         "max_answers": 3,
         "options": [
@@ -55,10 +57,7 @@
             "value": "nothing_i_am_satisfied_with_current_cond"
           }
         ],
-        "add_other": true,
-        "legacy_answer_keys": [
-          "walk_improvements_v1"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -169,6 +168,161 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_121bc1e9a1e9": {
+      "schema": {
+        "text": "What improvements would most encourage you to walk more often or for longer distances?",
+        "answer_key": "walk_improvements",
+        "question_type": "multiple_options",
+        "max_answers": 3,
+        "options": [
+          {
+            "text": "Better sidewalk conditions and maintenance",
+            "value": "better_sidewalk_conditions_and_maintenan"
+          },
+          {
+            "text": "More shade, trees, or green spaces along routes",
+            "value": "more_shade_trees_or_green_spaces_along_r"
+          },
+          {
+            "text": "Better street lighting",
+            "value": "better_street_lighting"
+          },
+          {
+            "text": "Safer crossings and reduced vehicle speeds",
+            "value": "safer_crossings_and_reduced_vehicle_spee"
+          },
+          {
+            "text": "More benches and rest areas",
+            "value": "more_benches_and_rest_areas"
+          },
+          {
+            "text": "Cleaner and better-maintained public spaces",
+            "value": "cleaner_and_better_maintained_public_spa"
+          },
+          {
+            "text": "Better separation from cyclists and e-scooters",
+            "value": "better_separation_from_cyclists_and_e_sc"
+          },
+          {
+            "text": "Clearer wayfinding signs and maps",
+            "value": "clearer_wayfinding_signs_and_maps"
+          },
+          {
+            "text": "Nothing — I am satisfied with current conditions",
+            "value": "nothing_i_am_satisfied_with_current_cond"
+          }
+        ],
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#What improvements would most encourage you to walk more often or for longer distances?": "What improvements would most encourage you to walk more often or for longer distances?",
+          "#Better sidewalk conditions and maintenance": "Better sidewalk conditions and maintenance",
+          "#More shade, trees, or green spaces along routes": "More shade, trees, or green spaces along routes",
+          "#Better street lighting": "Better street lighting",
+          "#Safer crossings and reduced vehicle speeds": "Safer crossings and reduced vehicle speeds",
+          "#More benches and rest areas": "More benches and rest areas",
+          "#Cleaner and better-maintained public spaces": "Cleaner and better-maintained public spaces",
+          "#Better separation from cyclists and e-scooters": "Better separation from cyclists and e-scooters",
+          "#Clearer wayfinding signs and maps": "Clearer wayfinding signs and maps",
+          "#Nothing — I am satisfied with current conditions": "Nothing — I am satisfied with current conditions"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#What improvements would most encourage you to walk more often or for longer distances?": "Quali miglioramenti ti incoraggerebbero maggiormente a camminare più spesso o per distanze più lunghe?",
+          "#Better sidewalk conditions and maintenance": "Migliori condizioni e manutenzione dei marciapiedi",
+          "#More shade, trees, or green spaces along routes": "Più ombra, alberi o spazi verdi lungo i percorsi",
+          "#Better street lighting": "Migliore illuminazione stradale",
+          "#Safer crossings and reduced vehicle speeds": "Attraversamenti più sicuri e velocità dei veicoli ridotta",
+          "#More benches and rest areas": "Più panchine e aree di sosta",
+          "#Cleaner and better-maintained public spaces": "Spazi pubblici più puliti e meglio mantenuti",
+          "#Better separation from cyclists and e-scooters": "Migliore separazione da ciclisti e monopattini elettrici",
+          "#Clearer wayfinding signs and maps": "Segnaletica e mappe per l'orientamento più chiare",
+          "#Nothing — I am satisfied with current conditions": "Niente: sono soddisfatto/a delle condizioni attuali"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#What improvements would most encourage you to walk more often or for longer distances?": "Quels changements vous encourageraient le plus à marcher plus souvent ou sur de plus longues distances ?",
+          "#Better sidewalk conditions and maintenance": "Des trottoirs en meilleur état et mieux entretenus",
+          "#More shade, trees, or green spaces along routes": "Davantage d’ombre, d’arbres ou d’espaces verts le long des itinéraires",
+          "#Better street lighting": "Un meilleur éclairage public",
+          "#Safer crossings and reduced vehicle speeds": "Des traversées plus sûres et une vitesse plus faible des véhicules",
+          "#More benches and rest areas": "Davantage de bancs et de zones de repos",
+          "#Cleaner and better-maintained public spaces": "Des espaces publics plus propres et mieux entretenus",
+          "#Better separation from cyclists and e-scooters": "Une meilleure séparation avec les cyclistes et les trottinettes électriques",
+          "#Clearer wayfinding signs and maps": "Des panneaux et des cartes d’orientation plus clairs",
+          "#Nothing — I am satisfied with current conditions": "Rien — les conditions actuelles me conviennent"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#What improvements would most encourage you to walk more often or for longer distances?": "Welche Verbesserungen würden Sie am meisten dazu ermutigen, häufiger oder längere Strecken zu Fuß zu gehen?",
+          "#Better sidewalk conditions and maintenance": "Bessere Gehwege und bessere Instandhaltung",
+          "#More shade, trees, or green spaces along routes": "Mehr Schatten, Bäume oder Grünflächen entlang der Wege",
+          "#Better street lighting": "Bessere Straßenbeleuchtung",
+          "#Safer crossings and reduced vehicle speeds": "Sicherere Querungen und niedrigere Fahrzeuggeschwindigkeiten",
+          "#More benches and rest areas": "Mehr Bänke und Ruheplätze",
+          "#Cleaner and better-maintained public spaces": "Sauberere und besser gepflegte öffentliche Räume",
+          "#Better separation from cyclists and e-scooters": "Bessere Trennung von Radfahrern und E-Scootern",
+          "#Clearer wayfinding signs and maps": "Klarere Wegweiser und Karten",
+          "#Nothing — I am satisfied with current conditions": "Nichts — ich bin mit den aktuellen Bedingungen zufrieden"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#What improvements would most encourage you to walk more often or for longer distances?": "Hangi iyileştirmeler daha sık veya daha uzun mesafelerde yürümenizi en çok teşvik ederdi?",
+          "#Better sidewalk conditions and maintenance": "Daha iyi durumda ve daha iyi bakılan kaldırımlar",
+          "#More shade, trees, or green spaces along routes": "Güzergâhlarda daha fazla gölge, ağaç veya yeşil alan",
+          "#Better street lighting": "Daha iyi sokak aydınlatması",
+          "#Safer crossings and reduced vehicle speeds": "Daha güvenli geçitler ve daha düşük araç hızları",
+          "#More benches and rest areas": "Daha fazla bank ve dinlenme alanı",
+          "#Cleaner and better-maintained public spaces": "Daha temiz ve daha iyi bakılan kamusal alanlar",
+          "#Better separation from cyclists and e-scooters": "Bisikletliler ve e-scooter’lardan daha iyi ayrılmış yaya alanları",
+          "#Clearer wayfinding signs and maps": "Daha açık yönlendirme tabelaları ve haritalar",
+          "#Nothing — I am satisfied with current conditions": "Hiçbiri — mevcut koşullardan memnunum"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#What improvements would most encourage you to walk more often or for longer distances?": "کدام بهبودها بیشتر شما را تشویق می‌کند که بیشتر یا در مسافت‌های طولانی‌تر پیاده‌روی کنید؟",
+          "#Better sidewalk conditions and maintenance": "وضعیت بهتر پیاده‌رو و نگهداری بهتر",
+          "#More shade, trees, or green spaces along routes": "سایه، درخت یا فضای سبز بیشتر در مسیرها",
+          "#Better street lighting": "روشنایی بهتر خیابان",
+          "#Safer crossings and reduced vehicle speeds": "گذرگاه‌های امن‌تر و سرعت کمتر خودروها",
+          "#More benches and rest areas": "نیمکت و محل استراحت بیشتر",
+          "#Cleaner and better-maintained public spaces": "فضاهای عمومی تمیزتر و بهتر نگهداری‌شده",
+          "#Better separation from cyclists and e-scooters": "جداسازی بهتر عابران از دوچرخه و اسکوتر برقی",
+          "#Clearer wayfinding signs and maps": "تابلوها و نقشه‌های راهنمای واضح‌تر",
+          "#Nothing — I am satisfied with current conditions": "هیچ‌کدام — از شرایط فعلی راضی هستم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#What improvements would most encourage you to walk more often or for longer distances?": "Mely fejlesztések ösztönöznék leginkább arra, hogy gyakrabban vagy hosszabb távon gyalogoljon?",
+          "#Better sidewalk conditions and maintenance": "Jobb állapotú és jobban karbantartott járdák",
+          "#More shade, trees, or green spaces along routes": "Több árnyék, fa vagy zöldterület az útvonalakon",
+          "#Better street lighting": "Jobb közvilágítás",
+          "#Safer crossings and reduced vehicle speeds": "Biztonságosabb átkelőhelyek és alacsonyabb járműsebesség",
+          "#More benches and rest areas": "Több pad és pihenőhely",
+          "#Cleaner and better-maintained public spaces": "Tisztább és jobban karbantartott közterületek",
+          "#Better separation from cyclists and e-scooters": "Jobb elkülönítés a kerékpárosoktól és elektromos rollerektől",
+          "#Clearer wayfinding signs and maps": "Egyértelműbb útbaigazító táblák és térképek",
+          "#Nothing — I am satisfied with current conditions": "Semmi — elégedett vagyok a jelenlegi körülményekkel"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#What improvements would most encourage you to walk more often or for longer distances?": "ما التحسينات التي ستشجعك أكثر على المشي بصورة أكثر أو لمسافات أطول؟",
+          "#Better sidewalk conditions and maintenance": "أرصفة أفضل وصيانة أفضل",
+          "#More shade, trees, or green spaces along routes": "المزيد من الظل والأشجار والمساحات الخضراء على الطرق",
+          "#Better street lighting": "إضاءة شارع أفضل",
+          "#Safer crossings and reduced vehicle speeds": "معابر أكثر أمانًا وسرعات أقل للمركبات",
+          "#More benches and rest areas": "المزيد من المقاعد وأماكن الراحة",
+          "#Cleaner and better-maintained public spaces": "أماكن عامة أنظف وأفضل صيانة",
+          "#Better separation from cyclists and e-scooters": "فصل أفضل بين المشاة وراكبي الدراجات والسكوتر الكهربائي",
+          "#Clearer wayfinding signs and maps": "لافتات وخرائط أوضح لمعرفة الطريق",
+          "#Nothing — I am satisfied with current conditions": "لا شيء — أنا راضٍ عن الظروف الحالية"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

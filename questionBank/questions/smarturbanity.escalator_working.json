@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.escalator_working",
   "project": "SmartUrbanity",
   "key": "escalator_working",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -94,6 +93,97 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_efcfc15f262b": {
+      "schema": {
+        "text": "Today, is the escalator working?",
+        "answer_key": "escalator_working",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes, it works",
+            "value": "working"
+          },
+          {
+            "text": "No, the escalator is broken or stopped",
+            "value": "out_of_service"
+          },
+          {
+            "text": "No, the escalator is closed (by a gate or at certain hours)",
+            "value": "closed"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#Yes, it works": "Yes, it works",
+          "#Today, is the escalator working?": "Today, is the escalator working?",
+          "#No, the escalator is broken or stopped": "No, the escalator is broken or stopped",
+          "#No, the escalator is closed (by a gate or at certain hours)": "No, the escalator is closed (by a gate or at certain hours)",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Yes, it works": "Sì, funziona",
+          "#Today, is the escalator working?": "Oggi la scala mobile funziona?",
+          "#No, the escalator is broken or stopped": "No, la scala mobile è guasta o ferma",
+          "#No, the escalator is closed (by a gate or at certain hours)": "No, la scala mobile è chiusa (da un cancello o in certi orari)",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Yes, it works": "Oui, il fonctionne",
+          "#Today, is the escalator working?": "Aujourd’hui, l’escalator fonctionne-t-il ?",
+          "#No, the escalator is broken or stopped": "Non, l’escalator est en panne ou arrêté",
+          "#No, the escalator is closed (by a gate or at certain hours)": "Non, l’escalator est fermé (par une grille ou à certaines heures)",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Yes, it works": "Ja, funktioniert",
+          "#Today, is the escalator working?": "Funktioniert die Rolltreppe heute?",
+          "#No, the escalator is broken or stopped": "Nein, die Rolltreppe ist kaputt oder steht still",
+          "#No, the escalator is closed (by a gate or at certain hours)": "Nein, die Rolltreppe ist geschlossen (durch ein Tor oder zu bestimmten Zeiten)",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Yes, it works": "Evet, çalışıyor",
+          "#Today, is the escalator working?": "Bugün yürüyen merdiven çalışıyor mu?",
+          "#No, the escalator is broken or stopped": "Hayır, yürüyen merdiven arızalı veya durmuş",
+          "#No, the escalator is closed (by a gate or at certain hours)": "Hayır, yürüyen merdiven kapalı (bir kapıyla veya belirli saatlerde)",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Yes, it works": "بله، کار می‌کند",
+          "#Today, is the escalator working?": "آیا امروز پله برقی کار می‌کند؟",
+          "#No, the escalator is broken or stopped": "خیر، پله برقی خراب یا متوقف است",
+          "#No, the escalator is closed (by a gate or at certain hours)": "خیر، پله برقی بسته است (با دروازه یا در ساعات مشخص)",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Yes, it works": "Igen, működik",
+          "#Today, is the escalator working?": "Működik ma a mozgólépcső?",
+          "#No, the escalator is broken or stopped": "Nem, a mozgólépcső elromlott vagy áll",
+          "#No, the escalator is closed (by a gate or at certain hours)": "Nem, a mozgólépcső zárva van (kapuval vagy bizonyos órákban)",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Yes, it works": "نعم، يعمل",
+          "#Today, is the escalator working?": "هل يعمل السلم المتحرك اليوم؟",
+          "#No, the escalator is broken or stopped": "لا، السلم المتحرك معطل أو متوقف",
+          "#No, the escalator is closed (by a gate or at certain hours)": "لا، السلم المتحرك مغلق (ببوابة أو في ساعات معينة)",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

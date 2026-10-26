@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.visual_quality",
   "project": "SmartUrbanity",
   "key": "visual_quality",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_safety_environment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_safety_environment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?",
         "answer_key": "visual_quality",
+        "legacy_answer_keys": [
+          "visual_quality_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "Very strongly, I sometimes choose routes because they are visually appealing or interesting",
             "value": "very_strongly_i_sometimes_choose_routes"
           }
-        ],
-        "legacy_answer_keys": [
-          "visual_quality_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_safety_environment"
       ]
+    },
+    "reference_f910c44728da": {
+      "schema": {
+        "text": "How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?",
+        "answer_key": "visual_quality",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not at all, I do not pay attention to the visual environment",
+            "value": "not_at_all_i_do_not_pay_attention_to_the"
+          },
+          {
+            "text": "Slightly, I notice the surroundings, but they rarely affect my experience",
+            "value": "slightly_i_notice_the_surroundings_but_t"
+          },
+          {
+            "text": "Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel",
+            "value": "moderately_pleasant_or_unpleasant_surrou"
+          },
+          {
+            "text": "Strongly, the visual environment significantly affects my travel experience",
+            "value": "strongly_the_visual_environment_signific"
+          },
+          {
+            "text": "Very strongly, I sometimes choose routes because they are visually appealing or interesting",
+            "value": "very_strongly_i_sometimes_choose_routes"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?": "How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?",
+          "#Not at all, I do not pay attention to the visual environment": "Not at all, I do not pay attention to the visual environment",
+          "#Slightly, I notice the surroundings, but they rarely affect my experience": "Slightly, I notice the surroundings, but they rarely affect my experience",
+          "#Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel": "Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel",
+          "#Strongly, the visual environment significantly affects my travel experience": "Strongly, the visual environment significantly affects my travel experience",
+          "#Very strongly, I sometimes choose routes because they are visually appealing or interesting": "Very strongly, I sometimes choose routes because they are visually appealing or interesting"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?": "Quanto influisce la qualità visiva dell'ambiente circostante (ad es. architettura, spazi pubblici o atmosfera generale) sulla tua esperienza di viaggio?",
+          "#Not at all, I do not pay attention to the visual environment": "Per niente, non presto attenzione all'ambiente visivo",
+          "#Slightly, I notice the surroundings, but they rarely affect my experience": "Poco, noto l'ambiente circostante, ma raramente influisce sulla mia esperienza",
+          "#Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel": "Moderatamente, un ambiente piacevole o sgradevole a volte influisce sul mio umore durante lo spostamento",
+          "#Strongly, the visual environment significantly affects my travel experience": "Molto, l'ambiente visivo influisce significativamente sulla mia esperienza di viaggio",
+          "#Very strongly, I sometimes choose routes because they are visually appealing or interesting": "Moltissimo, a volte scelgo determinati percorsi perché sono visivamente piacevoli o interessanti"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?": "Dans quelle mesure l’aspect visuel de votre environnement, par exemple l’architecture, les espaces publics ou l’ambiance générale, influence-t-il votre expérience de déplacement ?",
+          "#Not at all, I do not pay attention to the visual environment": "Pas du tout : je ne fais pas attention à l’aspect visuel de mon environnement",
+          "#Slightly, I notice the surroundings, but they rarely affect my experience": "Un peu : je remarque mon environnement, mais il influence rarement mon expérience",
+          "#Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel": "Modérément : un environnement agréable ou désagréable influence parfois mon humeur pendant le trajet",
+          "#Strongly, the visual environment significantly affects my travel experience": "Beaucoup : l’aspect visuel de l’environnement influence fortement mon expérience de déplacement",
+          "#Very strongly, I sometimes choose routes because they are visually appealing or interesting": "Énormément : il m’arrive de choisir certains itinéraires parce qu’ils sont beaux ou intéressants"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?": "Wie stark beeinflusst die optische Qualität Ihrer Umgebung, zum Beispiel Architektur, öffentliche Räume oder die allgemeine Atmosphäre, Ihr Erlebnis unterwegs?",
+          "#Not at all, I do not pay attention to the visual environment": "Gar nicht — ich achte nicht auf die optische Umgebung",
+          "#Slightly, I notice the surroundings, but they rarely affect my experience": "Etwas — ich bemerke meine Umgebung, aber sie beeinflusst mein Erlebnis nur selten",
+          "#Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel": "Mäßig — eine angenehme oder unangenehme Umgebung beeinflusst manchmal meine Stimmung",
+          "#Strongly, the visual environment significantly affects my travel experience": "Stark — die optische Umgebung beeinflusst mein Erlebnis unterwegs deutlich",
+          "#Very strongly, I sometimes choose routes because they are visually appealing or interesting": "Sehr stark — manchmal wähle ich Wege, weil sie schön oder interessant sind"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?": "Çevrenizin görsel kalitesi, örneğin mimari, kamusal alanlar veya genel atmosfer, yolculuk deneyiminizi ne kadar etkiler?",
+          "#Not at all, I do not pay attention to the visual environment": "Hiç etkilemez — çevrenin görünümüne dikkat etmem",
+          "#Slightly, I notice the surroundings, but they rarely affect my experience": "Biraz etkiler — çevreyi fark ederim ama deneyimimi nadiren etkiler",
+          "#Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel": "Orta düzeyde etkiler — hoş veya hoş olmayan çevre bazen yolculuk sırasındaki ruh halimi etkiler",
+          "#Strongly, the visual environment significantly affects my travel experience": "Çok etkiler — çevrenin görünümü yolculuk deneyimimi belirgin şekilde etkiler",
+          "#Very strongly, I sometimes choose routes because they are visually appealing or interesting": "Çok güçlü etkiler — bazen güzergâhları daha güzel veya ilgi çekici oldukları için seçerim"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?": "کیفیت ظاهری محیط اطراف، مانند معماری، فضاهای عمومی یا حال‌وهوای کلی، تا چه اندازه بر تجربه سفر شما اثر می‌گذارد؟",
+          "#Not at all, I do not pay attention to the visual environment": "اصلاً؛ به ظاهر محیط توجه نمی‌کنم",
+          "#Slightly, I notice the surroundings, but they rarely affect my experience": "کمی؛ محیط را می‌بینم، اما به ندرت بر تجربه من اثر می‌گذارد",
+          "#Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel": "تا حد متوسط؛ محیط خوشایند یا ناخوشایند گاهی بر حال من در سفر اثر می‌گذارد",
+          "#Strongly, the visual environment significantly affects my travel experience": "زیاد؛ ظاهر محیط به‌طور قابل توجهی بر تجربه سفر من اثر دارد",
+          "#Very strongly, I sometimes choose routes because they are visually appealing or interesting": "خیلی زیاد؛ گاهی مسیرها را به دلیل زیبا یا جالب بودن انتخاب می‌کنم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?": "Mennyire befolyásolja a környezet látványa, például az építészet, a közterek vagy az általános hangulat az utazási élményét?",
+          "#Not at all, I do not pay attention to the visual environment": "Egyáltalán nem — nem figyelek a környezet látványára",
+          "#Slightly, I notice the surroundings, but they rarely affect my experience": "Kissé — észreveszem a környezetet, de ritkán befolyásolja az élményemet",
+          "#Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel": "Közepesen — a kellemes vagy kellemetlen környezet néha befolyásolja a hangulatomat utazás közben",
+          "#Strongly, the visual environment significantly affects my travel experience": "Erősen — a környezet látványa jelentősen befolyásolja az utazási élményemet",
+          "#Very strongly, I sometimes choose routes because they are visually appealing or interesting": "Nagyon erősen — néha azért választok útvonalat, mert szép vagy érdekes"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How much does the visual quality of your surroundings (e.g., architecture, public spaces, or overall atmosphere) influence your travel experience?": "إلى أي مدى يؤثر شكل البيئة المحيطة بك، مثل العمارة أو الأماكن العامة أو الجو العام، في تجربة تنقلك؟",
+          "#Not at all, I do not pay attention to the visual environment": "لا يؤثر إطلاقًا — لا أهتم بالشكل العام للبيئة",
+          "#Slightly, I notice the surroundings, but they rarely affect my experience": "يؤثر قليلًا — ألاحظ البيئة المحيطة لكنها نادرًا ما تؤثر في تجربتي",
+          "#Moderately, pleasant or unpleasant surroundings sometimes affect my mood during travel": "يؤثر بدرجة متوسطة — البيئة الجميلة أو غير المريحة تؤثر أحيانًا في مزاجي أثناء التنقل",
+          "#Strongly, the visual environment significantly affects my travel experience": "يؤثر كثيرًا — شكل البيئة يؤثر بوضوح في تجربة تنقلي",
+          "#Very strongly, I sometimes choose routes because they are visually appealing or interesting": "يؤثر كثيرًا جدًا — أختار أحيانًا بعض الطرق لأنها جميلة أو مثيرة للاهتمام"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

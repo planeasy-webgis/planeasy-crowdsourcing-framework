@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.education",
   "project": "SmartUrbanity",
   "key": "education",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -120,6 +119,139 @@
       "source_questionnaires": [
         "smarturbanity_about_you"
       ]
+    },
+    "reference_d8bc60b45bab": {
+      "schema": {
+        "text": "What is your highest completed level of education?",
+        "answer_key": "education",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "No qualification",
+            "value": "none"
+          },
+          {
+            "text": "Lower secondary school",
+            "value": "lower_secondary"
+          },
+          {
+            "text": "High school",
+            "value": "upper_secondary"
+          },
+          {
+            "text": "Bachelor degree or equivalent",
+            "value": "bachelor"
+          },
+          {
+            "text": "Master degree or equivalent",
+            "value": "master"
+          },
+          {
+            "text": "Doctorate degree",
+            "value": "doctorate"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
+          "#What is your highest completed level of education?": "What is your highest completed level of education?",
+          "#No qualification": "No qualification",
+          "#Lower secondary school": "Lower secondary school",
+          "#High school": "High school",
+          "#Bachelor degree or equivalent": "Bachelor degree or equivalent",
+          "#Master degree or equivalent": "Master degree or equivalent",
+          "#Doctorate degree": "Doctorate degree",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
+          "#What is your highest completed level of education?": "Qual è il livello di istruzione più alto che hai completato?",
+          "#No qualification": "Nessun titolo di studio",
+          "#Lower secondary school": "Scuola secondaria di primo grado",
+          "#High school": "Scuola secondaria di secondo grado",
+          "#Bachelor degree or equivalent": "Laurea triennale o titolo equivalente",
+          "#Master degree or equivalent": "Laurea magistrale o titolo equivalente",
+          "#Doctorate degree": "Dottorato di ricerca",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
+          "#What is your highest completed level of education?": "Quel est le niveau d’études le plus élevé que vous avez terminé ?",
+          "#No qualification": "Aucun diplôme",
+          "#Lower secondary school": "Enseignement secondaire inférieur / collège",
+          "#High school": "Enseignement secondaire supérieur / lycée",
+          "#Bachelor degree or equivalent": "Licence ou équivalent",
+          "#Master degree or equivalent": "Master ou équivalent",
+          "#Doctorate degree": "Doctorat",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
+          "#What is your highest completed level of education?": "Was ist Ihr höchster abgeschlossener Bildungsabschluss?",
+          "#No qualification": "Kein Abschluss",
+          "#Lower secondary school": "Mittlerer Schulabschluss",
+          "#High school": "Abitur oder vergleichbarer Schulabschluss",
+          "#Bachelor degree or equivalent": "Bachelorabschluss oder vergleichbar",
+          "#Master degree or equivalent": "Masterabschluss oder vergleichbar",
+          "#Doctorate degree": "Promotion",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
+          "#What is your highest completed level of education?": "Tamamladığınız en yüksek eğitim düzeyi nedir?",
+          "#No qualification": "Diplomam yok",
+          "#Lower secondary school": "Ortaokul",
+          "#High school": "Lise",
+          "#Bachelor degree or equivalent": "Lisans veya dengi",
+          "#Master degree or equivalent": "Yüksek lisans veya dengi",
+          "#Doctorate degree": "Doktora",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
+          "#What is your highest completed level of education?": "بالاترین سطح تحصیلی که به پایان رسانده‌اید چیست؟",
+          "#No qualification": "بدون مدرک تحصیلی",
+          "#Lower secondary school": "دوره متوسطه اول",
+          "#High school": "دبیرستان",
+          "#Bachelor degree or equivalent": "کارشناسی یا معادل آن",
+          "#Master degree or equivalent": "کارشناسی ارشد یا معادل آن",
+          "#Doctorate degree": "دکتری",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
+          "#What is your highest completed level of education?": "Mi a legmagasabb befejezett iskolai végzettsége?",
+          "#No qualification": "Nincs végzettségem",
+          "#Lower secondary school": "Alsó középfokú végzettség",
+          "#High school": "Középiskolai végzettség",
+          "#Bachelor degree or equivalent": "Alapképzés vagy annak megfelelő végzettség",
+          "#Master degree or equivalent": "Mesterképzés vagy annak megfelelő végzettség",
+          "#Doctorate degree": "Doktori fokozat",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
+          "#What is your highest completed level of education?": "ما أعلى مستوى تعليمي أكملته؟",
+          "#No qualification": "لا توجد مؤهلات دراسية",
+          "#Lower secondary school": "التعليم الثانوي الأدنى",
+          "#High school": "الثانوية العامة",
+          "#Bachelor degree or equivalent": "درجة البكالوريوس أو ما يعادلها",
+          "#Master degree or equivalent": "درجة الماجستير أو ما يعادلها",
+          "#Doctorate degree": "الدكتوراه",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

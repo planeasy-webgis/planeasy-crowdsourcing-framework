@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.car_parking_decisions",
   "project": "SmartUrbanity",
   "key": "car_parking_decisions",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_car",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_car"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How do parking difficulties typically affect your travel decisions?",
         "answer_key": "car_parking_decisions",
+        "legacy_answer_keys": [
+          "v1_how_do_parking_difficulties_typicall"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "They make me choose another mode of transport instead of driving",
             "value": "they_make_me_choose_another_mode_of_tran"
           }
-        ],
-        "legacy_answer_keys": [
-          "v1_how_do_parking_difficulties_typicall"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_car"
       ]
+    },
+    "reference_9c0472748057": {
+      "schema": {
+        "text": "How do parking difficulties typically affect your travel decisions?",
+        "answer_key": "car_parking_decisions",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "They do not affect my travel decisions",
+            "value": "they_do_not_affect_my_travel_decisions"
+          },
+          {
+            "text": "They make my journey less convenient or more stressful",
+            "value": "they_make_my_journey_less_convenient_or"
+          },
+          {
+            "text": "They make me change my route or destination",
+            "value": "they_make_me_change_my_route_or_destinat"
+          },
+          {
+            "text": "They make me postpone, avoid, or cancel some trips",
+            "value": "they_make_me_postpone_avoid_or_cancel_so"
+          },
+          {
+            "text": "They make me choose another mode of transport instead of driving",
+            "value": "they_make_me_choose_another_mode_of_tran"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How do parking difficulties typically affect your travel decisions?": "How do parking difficulties typically affect your travel decisions?",
+          "#They do not affect my travel decisions": "They do not affect my travel decisions",
+          "#They make my journey less convenient or more stressful": "They make my journey less convenient or more stressful",
+          "#They make me change my route or destination": "They make me change my route or destination",
+          "#They make me postpone, avoid, or cancel some trips": "They make me postpone, avoid, or cancel some trips",
+          "#They make me choose another mode of transport instead of driving": "They make me choose another mode of transport instead of driving"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How do parking difficulties typically affect your travel decisions?": "In che modo le difficoltà di parcheggio influenzano normalmente le tue decisioni di viaggio?",
+          "#They do not affect my travel decisions": "Non influenzano le mie decisioni di viaggio",
+          "#They make my journey less convenient or more stressful": "Rendono il mio viaggio meno comodo o più stressante",
+          "#They make me change my route or destination": "Mi portano a cambiare percorso o destinazione",
+          "#They make me postpone, avoid, or cancel some trips": "Mi portano a rimandare, evitare o annullare alcuni spostamenti",
+          "#They make me choose another mode of transport instead of driving": "Mi portano a scegliere un'altra modalità di trasporto invece dell'auto"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How do parking difficulties typically affect your travel decisions?": "Comment les difficultés de stationnement influencent-elles généralement vos décisions de déplacement ?",
+          "#They do not affect my travel decisions": "Elles n’influencent pas mes décisions de déplacement",
+          "#They make my journey less convenient or more stressful": "Elles rendent mon trajet moins pratique ou plus stressant",
+          "#They make me change my route or destination": "Elles me font changer d’itinéraire ou de destination",
+          "#They make me postpone, avoid, or cancel some trips": "Elles me font reporter, éviter ou annuler certains déplacements",
+          "#They make me choose another mode of transport instead of driving": "Elles me font choisir un autre mode de transport au lieu de conduire"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How do parking difficulties typically affect your travel decisions?": "Wie beeinflussen Parkplatzprobleme normalerweise Ihre Entscheidungen bei Wegen und Fahrten?",
+          "#They do not affect my travel decisions": "Sie beeinflussen meine Entscheidungen nicht",
+          "#They make my journey less convenient or more stressful": "Sie machen meine Fahrt weniger bequem oder stressiger",
+          "#They make me change my route or destination": "Sie führen dazu, dass ich Route oder Ziel ändere",
+          "#They make me postpone, avoid, or cancel some trips": "Sie führen dazu, dass ich manche Wege verschiebe, vermeide oder absage",
+          "#They make me choose another mode of transport instead of driving": "Sie führen dazu, dass ich statt des Autos ein anderes Verkehrsmittel wähle"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How do parking difficulties typically affect your travel decisions?": "Park etme güçlükleri ulaşım kararlarınızı genellikle nasıl etkiler?",
+          "#They do not affect my travel decisions": "Ulaşım kararlarımı etkilemez",
+          "#They make my journey less convenient or more stressful": "Yolculuğumu daha zahmetli veya daha stresli hale getirir",
+          "#They make me change my route or destination": "Güzergâhımı veya gideceğim yeri değiştirmeme neden olur",
+          "#They make me postpone, avoid, or cancel some trips": "Bazı yolculukları ertelememe, yapmamama veya iptal etmeme neden olur",
+          "#They make me choose another mode of transport instead of driving": "Otomobil yerine başka bir ulaşım seçeneği kullanmama neden olur"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How do parking difficulties typically affect your travel decisions?": "مشکلات پارک کردن معمولاً چگونه بر تصمیم‌های سفر شما اثر می‌گذارد؟",
+          "#They do not affect my travel decisions": "بر تصمیم‌های سفر من اثری ندارد",
+          "#They make my journey less convenient or more stressful": "سفر را سخت‌تر یا پراسترس‌تر می‌کند",
+          "#They make me change my route or destination": "باعث می‌شود مسیر یا مقصد را تغییر دهم",
+          "#They make me postpone, avoid, or cancel some trips": "باعث می‌شود بعضی سفرها را عقب بیندازم، انجام ندهم یا لغو کنم",
+          "#They make me choose another mode of transport instead of driving": "باعث می‌شود به جای رانندگی از روش دیگری استفاده کنم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How do parking difficulties typically affect your travel decisions?": "Hogyan befolyásolják általában a parkolási nehézségek az utazási döntéseit?",
+          "#They do not affect my travel decisions": "Nem befolyásolják az utazási döntéseimet",
+          "#They make my journey less convenient or more stressful": "Kényelmetlenebbé vagy stresszesebbé teszik az utat",
+          "#They make me change my route or destination": "Arra késztetnek, hogy módosítsam az útvonalat vagy az úti célt",
+          "#They make me postpone, avoid, or cancel some trips": "Arra késztetnek, hogy egyes utakat elhalasszak, elkerüljek vagy lemondjak",
+          "#They make me choose another mode of transport instead of driving": "Arra késztetnek, hogy autózás helyett más közlekedési módot válasszak"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How do parking difficulties typically affect your travel decisions?": "كيف تؤثر صعوبات الوقوف عادةً في قراراتك المتعلقة بالتنقل؟",
+          "#They do not affect my travel decisions": "لا تؤثر في قراراتي",
+          "#They make my journey less convenient or more stressful": "تجعل الرحلة أقل راحة أو أكثر توترًا",
+          "#They make me change my route or destination": "تدفعني إلى تغيير الطريق أو الوجهة",
+          "#They make me postpone, avoid, or cancel some trips": "تدفعني إلى تأجيل بعض الرحلات أو تجنبها أو إلغائها",
+          "#They make me choose another mode of transport instead of driving": "تدفعني إلى اختيار وسيلة أخرى بدلًا من القيادة"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

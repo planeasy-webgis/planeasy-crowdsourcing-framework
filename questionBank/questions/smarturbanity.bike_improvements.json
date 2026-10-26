@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.bike_improvements",
   "project": "SmartUrbanity",
   "key": "bike_improvements",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_cycling",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_cycling"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "What improvements would most encourage you to cycle more often or for longer distances?",
         "answer_key": "bike_improvements",
+        "legacy_answer_keys": [
+          "bike_improvements_v1"
+        ],
         "question_type": "multiple_options",
         "options": [
           {
@@ -63,10 +65,7 @@
           }
         ],
         "max_answers": 3,
-        "add_other": true,
-        "legacy_answer_keys": [
-          "bike_improvements_v1"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -193,6 +192,185 @@
       "source_questionnaires": [
         "smarturbanity_cycling"
       ]
+    },
+    "reference_53bd4704961a": {
+      "schema": {
+        "text": "What improvements would most encourage you to cycle more often or for longer distances?",
+        "answer_key": "bike_improvements",
+        "question_type": "multiple_options",
+        "options": [
+          {
+            "text": "More dedicated and physically separated cycle lanes",
+            "value": "more_dedicated_and_physically_separated"
+          },
+          {
+            "text": "Better road surface quality on cycling routes",
+            "value": "better_road_surface_quality_on_cycling_r"
+          },
+          {
+            "text": "More secure bicycle parking at destinations",
+            "value": "more_secure_bicycle_parking_at_destinati"
+          },
+          {
+            "text": "More secure bicycle storage near home",
+            "value": "more_secure_bicycle_storage_near_home"
+          },
+          {
+            "text": "Reduced vehicle speeds in residential areas",
+            "value": "reduced_vehicle_speeds_in_residential_ar"
+          },
+          {
+            "text": "Better cycle-friendly junctions and crossings",
+            "value": "better_cycle_friendly_junctions_and_cros"
+          },
+          {
+            "text": "More trees and shade along cycling routes",
+            "value": "more_trees_and_shade_along_cycling_route"
+          },
+          {
+            "text": "Better street lighting on cycling routes",
+            "value": "better_street_lighting_on_cycling_routes"
+          },
+          {
+            "text": "Access to cycle training or skills courses",
+            "value": "access_to_cycle_training_or_skills_cours"
+          },
+          {
+            "text": "Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)",
+            "value": "financial_incentives_e_g_employer_cyclin"
+          },
+          {
+            "text": "Nothing — I am satisfied with current conditions",
+            "value": "nothing_i_am_satisfied_with_current_cond"
+          }
+        ],
+        "max_answers": 3,
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#What improvements would most encourage you to cycle more often or for longer distances?": "What improvements would most encourage you to cycle more often or for longer distances?",
+          "#More dedicated and physically separated cycle lanes": "More dedicated and physically separated cycle lanes",
+          "#Better road surface quality on cycling routes": "Better road surface quality on cycling routes",
+          "#More secure bicycle parking at destinations": "More secure bicycle parking at destinations",
+          "#More secure bicycle storage near home": "More secure bicycle storage near home",
+          "#Reduced vehicle speeds in residential areas": "Reduced vehicle speeds in residential areas",
+          "#Better cycle-friendly junctions and crossings": "Better cycle-friendly junctions and crossings",
+          "#More trees and shade along cycling routes": "More trees and shade along cycling routes",
+          "#Better street lighting on cycling routes": "Better street lighting on cycling routes",
+          "#Access to cycle training or skills courses": "Access to cycle training or skills courses",
+          "#Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)": "Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)",
+          "#Nothing — I am satisfied with current conditions": "Nothing — I am satisfied with current conditions"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#What improvements would most encourage you to cycle more often or for longer distances?": "Quali miglioramenti ti incoraggerebbero maggiormente a usare la bicicletta più spesso o per distanze più lunghe?",
+          "#More dedicated and physically separated cycle lanes": "Più piste ciclabili dedicate e fisicamente separate dal traffico",
+          "#Better road surface quality on cycling routes": "Migliore qualità della pavimentazione lungo i percorsi ciclabili",
+          "#More secure bicycle parking at destinations": "Più parcheggi sicuri per biciclette presso le destinazioni",
+          "#More secure bicycle storage near home": "Più spazi sicuri per custodire la bicicletta vicino a casa",
+          "#Reduced vehicle speeds in residential areas": "Riduzione della velocità dei veicoli nelle aree residenziali",
+          "#Better cycle-friendly junctions and crossings": "Incroci e attraversamenti più adatti ai ciclisti",
+          "#More trees and shade along cycling routes": "Più alberi e zone d’ombra lungo i percorsi ciclabili",
+          "#Better street lighting on cycling routes": "Migliore illuminazione stradale lungo i percorsi ciclabili",
+          "#Access to cycle training or skills courses": "Accesso a corsi di formazione o abilità ciclistiche",
+          "#Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)": "Incentivi economici, ad esempio indennità aziendali per chi usa la bicicletta o contributi per l’acquisto",
+          "#Nothing — I am satisfied with current conditions": "Nessun miglioramento — sono soddisfatto/a delle condizioni attuali"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#What improvements would most encourage you to cycle more often or for longer distances?": "Quels changements vous encourageraient le plus à faire du vélo plus souvent ou sur de plus longues distances ?",
+          "#More dedicated and physically separated cycle lanes": "Davantage de pistes cyclables réservées et physiquement séparées du trafic",
+          "#Better road surface quality on cycling routes": "Une meilleure qualité de chaussée sur les itinéraires cyclables",
+          "#More secure bicycle parking at destinations": "Davantage de stationnements sûrs pour vélos à destination",
+          "#More secure bicycle storage near home": "Davantage d’espaces sûrs pour ranger les vélos près du domicile",
+          "#Reduced vehicle speeds in residential areas": "Une vitesse plus faible des véhicules dans les zones résidentielles",
+          "#Better cycle-friendly junctions and crossings": "Des carrefours et traversées mieux adaptés aux cyclistes",
+          "#More trees and shade along cycling routes": "Davantage d’arbres et d’ombre le long des itinéraires cyclables",
+          "#Better street lighting on cycling routes": "Un meilleur éclairage public sur les itinéraires cyclables",
+          "#Access to cycle training or skills courses": "Des cours pour apprendre ou améliorer la pratique du vélo",
+          "#Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)": "Des aides financières (par exemple une indemnité vélo de l’employeur ou une aide à l’achat d’un vélo)",
+          "#Nothing — I am satisfied with current conditions": "Rien — les conditions actuelles me conviennent"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#What improvements would most encourage you to cycle more often or for longer distances?": "Welche Verbesserungen würden Sie am meisten dazu ermutigen, häufiger oder längere Strecken Fahrrad zu fahren?",
+          "#More dedicated and physically separated cycle lanes": "Mehr eigene und baulich vom Verkehr getrennte Radwege",
+          "#Better road surface quality on cycling routes": "Bessere Straßenoberflächen auf Radstrecken",
+          "#More secure bicycle parking at destinations": "Mehr sichere Fahrradabstellplätze am Ziel",
+          "#More secure bicycle storage near home": "Mehr sichere Fahrradabstellmöglichkeiten in Wohnungsnähe",
+          "#Reduced vehicle speeds in residential areas": "Niedrigere Fahrzeuggeschwindigkeiten in Wohngebieten",
+          "#Better cycle-friendly junctions and crossings": "Bessere Kreuzungen und Querungen für Radfahrer",
+          "#More trees and shade along cycling routes": "Mehr Bäume und Schatten entlang der Radstrecken",
+          "#Better street lighting on cycling routes": "Bessere Straßenbeleuchtung auf Radstrecken",
+          "#Access to cycle training or skills courses": "Fahrradkurse oder Trainingsangebote",
+          "#Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)": "Finanzielle Anreize (zum Beispiel Zuschuss vom Arbeitgeber oder Förderung beim Fahrradkauf)",
+          "#Nothing — I am satisfied with current conditions": "Nichts — ich bin mit den aktuellen Bedingungen zufrieden"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#What improvements would most encourage you to cycle more often or for longer distances?": "Hangi iyileştirmeler daha sık veya daha uzun mesafelerde bisiklet kullanmanızı en çok teşvik ederdi?",
+          "#More dedicated and physically separated cycle lanes": "Daha fazla özel ve fiziksel olarak trafikten ayrılmış bisiklet yolu",
+          "#Better road surface quality on cycling routes": "Bisiklet güzergâhlarında daha iyi yol yüzeyi",
+          "#More secure bicycle parking at destinations": "Varış noktalarında daha fazla güvenli bisiklet parkı",
+          "#More secure bicycle storage near home": "Evin yakınında daha fazla güvenli bisiklet saklama alanı",
+          "#Reduced vehicle speeds in residential areas": "Yerleşim bölgelerinde daha düşük araç hızları",
+          "#Better cycle-friendly junctions and crossings": "Bisikletliler için daha iyi kavşaklar ve geçişler",
+          "#More trees and shade along cycling routes": "Bisiklet güzergâhlarında daha fazla ağaç ve gölge",
+          "#Better street lighting on cycling routes": "Bisiklet güzergâhlarında daha iyi sokak aydınlatması",
+          "#Access to cycle training or skills courses": "Bisiklet eğitimi veya beceri kurslarına erişim",
+          "#Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)": "Maddi teşvikler (örneğin işveren bisiklet desteği veya bisiklet satın alma yardımı)",
+          "#Nothing — I am satisfied with current conditions": "Hiçbiri — mevcut koşullardan memnunum"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#What improvements would most encourage you to cycle more often or for longer distances?": "کدام بهبودها بیشتر شما را تشویق می‌کند که بیشتر یا در مسافت‌های طولانی‌تر دوچرخه‌سواری کنید؟",
+          "#More dedicated and physically separated cycle lanes": "مسیرهای دوچرخه بیشتر و جداشده از ترافیک",
+          "#Better road surface quality on cycling routes": "کیفیت بهتر سطح خیابان در مسیرهای دوچرخه",
+          "#More secure bicycle parking at destinations": "پارک امن‌تر و بیشتر برای دوچرخه در مقصدها",
+          "#More secure bicycle storage near home": "فضای امن‌تر برای نگهداری دوچرخه نزدیک خانه",
+          "#Reduced vehicle speeds in residential areas": "سرعت کمتر خودروها در مناطق مسکونی",
+          "#Better cycle-friendly junctions and crossings": "تقاطع‌ها و گذرگاه‌های بهتر برای دوچرخه",
+          "#More trees and shade along cycling routes": "درخت و سایه بیشتر در مسیرهای دوچرخه",
+          "#Better street lighting on cycling routes": "روشنایی بهتر خیابان در مسیرهای دوچرخه",
+          "#Access to cycle training or skills courses": "دسترسی به آموزش یا دوره مهارت دوچرخه‌سواری",
+          "#Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)": "مشوق مالی (مثلاً کمک‌هزینه دوچرخه از طرف کارفرما یا کمک برای خرید دوچرخه)",
+          "#Nothing — I am satisfied with current conditions": "هیچ‌کدام — از شرایط فعلی راضی هستم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#What improvements would most encourage you to cycle more often or for longer distances?": "Mely fejlesztések ösztönöznék leginkább arra, hogy gyakrabban vagy hosszabb távon kerékpározzon?",
+          "#More dedicated and physically separated cycle lanes": "Több külön, fizikailag is elválasztott kerékpársáv",
+          "#Better road surface quality on cycling routes": "Jobb útburkolat a kerékpáros útvonalakon",
+          "#More secure bicycle parking at destinations": "Több biztonságos kerékpárparkoló az úti céloknál",
+          "#More secure bicycle storage near home": "Több biztonságos kerékpártároló az otthon közelében",
+          "#Reduced vehicle speeds in residential areas": "Alacsonyabb járműsebesség a lakóterületeken",
+          "#Better cycle-friendly junctions and crossings": "Jobb, kerékpárosbarát kereszteződések és átkelőhelyek",
+          "#More trees and shade along cycling routes": "Több fa és árnyék a kerékpáros útvonalakon",
+          "#Better street lighting on cycling routes": "Jobb közvilágítás a kerékpáros útvonalakon",
+          "#Access to cycle training or skills courses": "Kerékpáros oktatás vagy készségfejlesztő tanfolyamok",
+          "#Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)": "Pénzügyi ösztönzők (például munkáltatói kerékpáros támogatás vagy vásárlási támogatás)",
+          "#Nothing — I am satisfied with current conditions": "Semmi — elégedett vagyok a jelenlegi körülményekkel"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#What improvements would most encourage you to cycle more often or for longer distances?": "ما التحسينات التي ستشجعك أكثر على ركوب الدراجة بصورة أكثر أو لمسافات أطول؟",
+          "#More dedicated and physically separated cycle lanes": "المزيد من حارات الدراجات المخصصة والمنفصلة فعليًا عن حركة المرور",
+          "#Better road surface quality on cycling routes": "تحسين جودة سطح الطريق على مسارات الدراجات",
+          "#More secure bicycle parking at destinations": "المزيد من مواقف الدراجات الآمنة عند الوجهات",
+          "#More secure bicycle storage near home": "المزيد من أماكن حفظ الدراجات الآمنة بالقرب من المنزل",
+          "#Reduced vehicle speeds in residential areas": "خفض سرعة المركبات في المناطق السكنية",
+          "#Better cycle-friendly junctions and crossings": "تقاطعات ومعابر أفضل للدراجات",
+          "#More trees and shade along cycling routes": "المزيد من الأشجار والظل على طرق الدراجات",
+          "#Better street lighting on cycling routes": "إضاءة شارع أفضل على طرق الدراجات",
+          "#Access to cycle training or skills courses": "إمكانية الحصول على تدريب أو دورات مهارات لركوب الدراجة",
+          "#Financial incentives (e.g., employer cycling allowance, subsidised bike purchase)": "حوافز مالية (مثل بدل دراجة من جهة العمل أو دعم لشراء دراجة)",
+          "#Nothing — I am satisfied with current conditions": "لا شيء — أنا راضٍ عن الظروف الحالية"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.bike_facility",
   "project": "SmartUrbanity",
   "key": "bike_facility",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_segment_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -127,6 +126,130 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_35be23f778b9": {
+      "schema": {
+        "text": "Is there a space for cycling on this street?",
+        "help": "A school street is a street next to a school that is closed to motor traffic when children arrive and leave.",
+        "answer_key": "bike_facility",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "No space for bicycles: people cycle in ordinary traffic",
+            "value": "no_bike_facility"
+          },
+          {
+            "text": "No space for bicycles, but the limit is 30 km/h or it is a school street",
+            "value": "low_speed_street"
+          },
+          {
+            "text": "Cycle lane or path, but it stops",
+            "value": "interrupted_bike_facility"
+          },
+          {
+            "text": "Continuous cycle lane or path",
+            "value": "dedicated_bike_facility"
+          },
+          {
+            "text": "Path shared by people walking and cycling",
+            "value": "shared_ped_bike_path"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Path shared by people walking and cycling": "Path shared by people walking and cycling",
+          "#Is there a space for cycling on this street?": "Is there a space for cycling on this street?",
+          "#A school street is a street next to a school that is closed to motor traffic when children arrive and leave.": "A school street is a street next to a school that is closed to motor traffic when children arrive and leave.",
+          "#No space for bicycles: people cycle in ordinary traffic": "No space for bicycles: people cycle in ordinary traffic",
+          "#No space for bicycles, but the limit is 30 km/h or it is a school street": "No space for bicycles, but the limit is 30 km/h or it is a school street",
+          "#Cycle lane or path, but it stops": "Cycle lane or path, but it stops",
+          "#Continuous cycle lane or path": "Continuous cycle lane or path",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Path shared by people walking and cycling": "Percorso per pedoni e bici insieme",
+          "#Is there a space for cycling on this street?": "C'è uno spazio destinato alle biciclette su questa strada?",
+          "#A school street is a street next to a school that is closed to motor traffic when children arrive and leave.": "Una strada scolastica è una via vicino a una scuola chiusa ai veicoli a motore all'entrata e all'uscita dei bambini.",
+          "#No space for bicycles: people cycle in ordinary traffic": "Nessuno spazio per le bici: si pedala nel traffico normale",
+          "#No space for bicycles, but the limit is 30 km/h or it is a school street": "Nessuno spazio per le bici, ma c'è il limite di 30 km/h o è una strada scolastica",
+          "#Cycle lane or path, but it stops": "Corsia o pista ciclabile, ma si interrompe",
+          "#Continuous cycle lane or path": "Corsia o pista ciclabile continua",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Path shared by people walking and cycling": "Chemin partagé entre piétons et cyclistes",
+          "#Is there a space for cycling on this street?": "Y a-t-il un espace pour les vélos dans cette rue ?",
+          "#A school street is a street next to a school that is closed to motor traffic when children arrive and leave.": "Une rue scolaire est une rue près d’une école, fermée aux véhicules motorisés à l’arrivée et au départ des enfants.",
+          "#No space for bicycles: people cycle in ordinary traffic": "Aucun espace pour les vélos : on roule dans la circulation normale",
+          "#No space for bicycles, but the limit is 30 km/h or it is a school street": "Aucun espace pour les vélos, mais la vitesse est limitée à 30 km/h ou c’est une rue scolaire",
+          "#Cycle lane or path, but it stops": "Bande ou piste cyclable, mais elle s'interrompt",
+          "#Continuous cycle lane or path": "Bande ou piste cyclable continue",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Path shared by people walking and cycling": "Gemeinsamer Geh- und Radweg",
+          "#Is there a space for cycling on this street?": "Gibt es in dieser Straße Platz zum Radfahren?",
+          "#A school street is a street next to a school that is closed to motor traffic when children arrive and leave.": "Eine Schulstraße ist eine Straße an einer Schule, die beim Kommen und Gehen der Kinder für Kraftfahrzeuge gesperrt ist.",
+          "#No space for bicycles: people cycle in ordinary traffic": "Kein Platz für Fahrräder: man fährt im normalen Verkehr",
+          "#No space for bicycles, but the limit is 30 km/h or it is a school street": "Kein Platz für Fahrräder, aber es gilt Tempo 30 oder es ist eine Schulstraße",
+          "#Cycle lane or path, but it stops": "Radfahrstreifen oder Radweg, aber er hört auf",
+          "#Continuous cycle lane or path": "Durchgehender Radfahrstreifen oder Radweg",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Path shared by people walking and cycling": "Yayalar ve bisikletliler için ortak yol",
+          "#Is there a space for cycling on this street?": "Bu sokakta bisiklet için bir alan var mı?",
+          "#A school street is a street next to a school that is closed to motor traffic when children arrive and leave.": "Okul sokağı, çocukların geliş ve çıkış saatlerinde motorlu araçlara kapatılan, okulun yanındaki sokaktır.",
+          "#No space for bicycles: people cycle in ordinary traffic": "Bisiklet için alan yok: normal trafikte sürülüyor",
+          "#No space for bicycles, but the limit is 30 km/h or it is a school street": "Bisiklet için alan yok, ama hız sınırı 30 km/sa veya bir okul sokağı",
+          "#Cycle lane or path, but it stops": "Bisiklet şeridi veya yolu var, ama kesiliyor",
+          "#Continuous cycle lane or path": "Kesintisiz bisiklet şeridi veya yolu",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Path shared by people walking and cycling": "مسیر مشترک عابران پیاده و دوچرخه‌سواران",
+          "#Is there a space for cycling on this street?": "آیا در این خیابان فضایی برای دوچرخه‌سواری وجود دارد؟",
+          "#A school street is a street next to a school that is closed to motor traffic when children arrive and leave.": "خیابان مدرسه خیابانی کنار مدرسه است که هنگام رسیدن و رفتن کودکان به روی وسایل نقلیه موتوری بسته می‌شود.",
+          "#No space for bicycles: people cycle in ordinary traffic": "فضایی برای دوچرخه نیست: در ترافیک عادی رکاب زده می‌شود",
+          "#No space for bicycles, but the limit is 30 km/h or it is a school street": "فضایی برای دوچرخه نیست، اما محدودیت سرعت ۳۰ کیلومتر است یا خیابان مدرسه است",
+          "#Cycle lane or path, but it stops": "خط یا مسیر دوچرخه هست، اما قطع می‌شود",
+          "#Continuous cycle lane or path": "خط یا مسیر دوچرخه پیوسته",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Path shared by people walking and cycling": "Közös gyalog- és kerékpárút",
+          "#Is there a space for cycling on this street?": "Van hely a kerékpározásra ezen az utcán?",
+          "#A school street is a street next to a school that is closed to motor traffic when children arrive and leave.": "Az iskolautca egy iskola melletti utca, amelyet a gyerekek érkezésekor és távozásakor lezárnak a gépjárművek elől.",
+          "#No space for bicycles: people cycle in ordinary traffic": "Nincs hely a kerékpároknak: a normál forgalomban kell tekerni",
+          "#No space for bicycles, but the limit is 30 km/h or it is a school street": "Nincs hely a kerékpároknak, de 30 km/h a sebességkorlát, vagy iskolautca",
+          "#Cycle lane or path, but it stops": "Kerékpársáv vagy -út, de megszakad",
+          "#Continuous cycle lane or path": "Folyamatos kerékpársáv vagy -út",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Path shared by people walking and cycling": "مسار مشترك للمشاة وراكبي الدراجات",
+          "#Is there a space for cycling on this street?": "هل توجد مساحة لركوب الدراجات في هذا الشارع؟",
+          "#A school street is a street next to a school that is closed to motor traffic when children arrive and leave.": "الشارع المدرسي هو شارع قرب مدرسة يُغلق أمام المركبات الآلية عند وصول الأطفال ومغادرتهم.",
+          "#No space for bicycles: people cycle in ordinary traffic": "لا توجد مساحة للدراجات: تُقاد الدراجة وسط حركة المرور العادية",
+          "#No space for bicycles, but the limit is 30 km/h or it is a school street": "لا توجد مساحة للدراجات، لكن حد السرعة 30 كم/س أو إنه شارع مدرسي",
+          "#Cycle lane or path, but it stops": "مسار أو ممر للدراجات، لكنه ينقطع",
+          "#Continuous cycle lane or path": "مسار أو ممر متصل للدراجات",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

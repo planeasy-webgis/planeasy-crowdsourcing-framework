@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.cleanliness_effect",
   "project": "SmartUrbanity",
   "key": "cleanliness_effect",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_safety_environment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_safety_environment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?",
         "answer_key": "cleanliness_effect",
+        "legacy_answer_keys": [
+          "cleanliness_effect_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "It puts me off using this route entirely",
             "value": "it_puts_me_off_using_this_route_entirely"
           }
-        ],
-        "legacy_answer_keys": [
-          "cleanliness_effect_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_safety_environment"
       ]
+    },
+    "reference_92f5c9377ad8": {
+      "schema": {
+        "text": "How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?",
+        "answer_key": "cleanliness_effect",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "No effect on how I travel",
+            "value": "no_effect_on_how_i_travel"
+          },
+          {
+            "text": "I notice it but carry on as usual",
+            "value": "i_notice_it_but_carry_on_as_usual"
+          },
+          {
+            "text": "It makes the journey unpleasant but I still use the route",
+            "value": "it_makes_the_journey_unpleasant_but_i_st"
+          },
+          {
+            "text": "It makes me avoid certain stops or sections of the route",
+            "value": "it_makes_me_avoid_certain_stops_or_secti"
+          },
+          {
+            "text": "It puts me off using this route entirely",
+            "value": "it_puts_me_off_using_this_route_entirely"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?": "How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?",
+          "#No effect on how I travel": "No effect on how I travel",
+          "#I notice it but carry on as usual": "I notice it but carry on as usual",
+          "#It makes the journey unpleasant but I still use the route": "It makes the journey unpleasant but I still use the route",
+          "#It makes me avoid certain stops or sections of the route": "It makes me avoid certain stops or sections of the route",
+          "#It puts me off using this route entirely": "It puts me off using this route entirely"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?": "In che modo la pulizia e la manutenzione dei percorsi e delle strutture (ad es. rifiuti, cattivi odori o vetri rotti) influiscono sul tuo spostamento?",
+          "#No effect on how I travel": "Nessun effetto sul modo in cui viaggio",
+          "#I notice it but carry on as usual": "Me ne accorgo, ma continuo come al solito",
+          "#It makes the journey unpleasant but I still use the route": "Rende lo spostamento spiacevole, ma continuo a utilizzare il percorso",
+          "#It makes me avoid certain stops or sections of the route": "Mi porta a evitare determinate fermate o tratti del percorso",
+          "#It puts me off using this route entirely": "Mi scoraggia completamente dall'utilizzare questo percorso"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?": "Comment la propreté et l’entretien des chemins et des équipements, par exemple les déchets, les mauvaises odeurs ou le verre cassé, influencent-ils votre trajet ?",
+          "#No effect on how I travel": "Aucun effet sur ma façon de me déplacer",
+          "#I notice it but carry on as usual": "Je le remarque, mais je continue comme d’habitude",
+          "#It makes the journey unpleasant but I still use the route": "Cela rend le trajet désagréable, mais je continue à utiliser cet itinéraire",
+          "#It makes me avoid certain stops or sections of the route": "Cela me fait éviter certains arrêts ou certaines parties de l’itinéraire",
+          "#It puts me off using this route entirely": "Cela me décourage complètement d’utiliser cet itinéraire"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?": "Wie beeinflussen Sauberkeit und Zustand von Wegen und Einrichtungen, zum Beispiel Müll, Gerüche oder Glasscherben, Ihren Weg?",
+          "#No effect on how I travel": "Kein Einfluss darauf, wie ich unterwegs bin",
+          "#I notice it but carry on as usual": "Ich bemerke es, mache aber wie gewohnt weiter",
+          "#It makes the journey unpleasant but I still use the route": "Es macht den Weg unangenehm, aber ich nutze die Strecke trotzdem",
+          "#It makes me avoid certain stops or sections of the route": "Ich vermeide dadurch bestimmte Haltestellen oder Abschnitte",
+          "#It puts me off using this route entirely": "Ich nutze diese Strecke deshalb gar nicht mehr"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?": "Yolların ve tesislerin temizliği ve bakımı, örneğin çöp, kötü koku veya kırık cam, yolculuğunuzu nasıl etkiler?",
+          "#No effect on how I travel": "Nasıl seyahat ettiğimi etkilemez",
+          "#I notice it but carry on as usual": "Fark ederim ama her zamanki gibi devam ederim",
+          "#It makes the journey unpleasant but I still use the route": "Yolculuğu rahatsız edici hale getirir ama yine de aynı güzergâhı kullanırım",
+          "#It makes me avoid certain stops or sections of the route": "Bazı duraklardan veya güzergâh bölümlerinden kaçınmama neden olur",
+          "#It puts me off using this route entirely": "Bu güzergâhı tamamen kullanmamama neden olur"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?": "پاکیزگی و نگهداری مسیرها و امکانات، مانند زباله، بو یا شیشه شکسته، چگونه بر سفر شما اثر می‌گذارد؟",
+          "#No effect on how I travel": "بر روش سفر من اثری ندارد",
+          "#I notice it but carry on as usual": "متوجه می‌شوم، اما طبق معمول ادامه می‌دهم",
+          "#It makes the journey unpleasant but I still use the route": "سفر را ناخوشایند می‌کند، اما همچنان از همان مسیر استفاده می‌کنم",
+          "#It makes me avoid certain stops or sections of the route": "باعث می‌شود از بعضی ایستگاه‌ها یا بخش‌های مسیر دوری کنم",
+          "#It puts me off using this route entirely": "باعث می‌شود دیگر اصلاً از آن مسیر استفاده نکنم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?": "Hogyan befolyásolja az utak és létesítmények tisztasága és karbantartása, például a szemét, szagok vagy törött üveg az utazását?",
+          "#No effect on how I travel": "Nem befolyásolja, hogyan közlekedem",
+          "#I notice it but carry on as usual": "Észreveszem, de a megszokott módon folytatom",
+          "#It makes the journey unpleasant but I still use the route": "Kellemetlenné teszi az utat, de továbbra is használom az útvonalat",
+          "#It makes me avoid certain stops or sections of the route": "Elkerülök bizonyos megállókat vagy útszakaszokat",
+          "#It puts me off using this route entirely": "Teljesen elriaszt ettől az útvonaltól"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How do the cleanliness and maintenance of paths and facilities (e.g. litter, smells, or broken glass) affect your journey?": "كيف تؤثر نظافة الطرق والمرافق وصيانتها، مثل النفايات أو الروائح أو الزجاج المكسور، في رحلتك؟",
+          "#No effect on how I travel": "لا تؤثر في طريقة تنقلي",
+          "#I notice it but carry on as usual": "ألاحظها لكنني أواصل كالمعتاد",
+          "#It makes the journey unpleasant but I still use the route": "تجعل الرحلة غير مريحة، لكنني أستمر في استخدام الطريق",
+          "#It makes me avoid certain stops or sections of the route": "تجعلني أتجنب بعض المحطات أو أجزاء من الطريق",
+          "#It puts me off using this route entirely": "تجعلني أتوقف عن استخدام هذا الطريق تمامًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

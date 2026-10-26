@@ -2,15 +2,14 @@
   "question_id": "smarturbanity.personal_safety",
   "project": "SmartUrbanity",
   "key": "personal_safety",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "first_source_in_current_inventory_unverified",
   "source_questionnaires": [
     "street_connection_assessment",
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -141,6 +140,142 @@
         "street_connection_assessment",
         "street_segment_assessment"
       ]
+    },
+    "reference_bf77b57026eb": {
+      "schema": {
+        "text": "How safe from harassment or assault do you feel here, also in the evening?",
+        "help": "Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.",
+        "answer_key": "personal_safety",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Very safe",
+            "value": "1_very_safe"
+          },
+          {
+            "text": "Fairly safe",
+            "value": "2_safe"
+          },
+          {
+            "text": "Neither safe nor unsafe",
+            "value": "3_neutral"
+          },
+          {
+            "text": "Not very safe",
+            "value": "4_unsafe"
+          },
+          {
+            "text": "Not safe at all",
+            "value": "5_very_unsafe"
+          },
+          {
+            "text": "I do not go there in the evening",
+            "value": "avoid_in_evening"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#How safe from harassment or assault do you feel here, also in the evening?": "How safe from harassment or assault do you feel here, also in the evening?",
+          "#Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.": "Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.",
+          "#Very safe": "Very safe",
+          "#Fairly safe": "Fairly safe",
+          "#Neither safe nor unsafe": "Neither safe nor unsafe",
+          "#Not very safe": "Not very safe",
+          "#Not safe at all": "Not safe at all",
+          "#I do not go there in the evening": "I do not go there in the evening",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How safe from harassment or assault do you feel here, also in the evening?": "Quanto ti senti al sicuro da molestie o aggressioni qui, anche di sera?",
+          "#Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.": "Per molestie si intendono commenti, gesti o contatti indesiderati. La domanda riguarda la tua sensazione, non il traffico.",
+          "#Very safe": "Molto al sicuro",
+          "#Fairly safe": "Abbastanza al sicuro",
+          "#Neither safe nor unsafe": "Né al sicuro né insicuro",
+          "#Not very safe": "Poco al sicuro",
+          "#Not safe at all": "Per niente al sicuro",
+          "#I do not go there in the evening": "Non ci passo di sera",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How safe from harassment or assault do you feel here, also in the evening?": "Dans quelle mesure vous sentez-vous ici à l'abri du harcèlement ou des agressions, y compris le soir ?",
+          "#Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.": "Le harcèlement désigne des commentaires, gestes ou contacts non désirés. Cette question porte sur votre ressenti, pas sur la circulation.",
+          "#Very safe": "Tout à fait en sécurité",
+          "#Fairly safe": "Plutôt en sécurité",
+          "#Neither safe nor unsafe": "Ni en sécurité ni en insécurité",
+          "#Not very safe": "Peu en sécurité",
+          "#Not safe at all": "Pas du tout en sécurité",
+          "#I do not go there in the evening": "Je n'y passe pas le soir",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How safe from harassment or assault do you feel here, also in the evening?": "Wie sicher vor Belästigung oder Übergriffen fühlen Sie sich hier, auch abends?",
+          "#Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.": "Belästigung bedeutet unerwünschte Bemerkungen, Gesten oder Berührungen. Diese Frage betrifft Ihr eigenes Gefühl, nicht den Verkehr.",
+          "#Very safe": "Sehr sicher",
+          "#Fairly safe": "Eher sicher",
+          "#Neither safe nor unsafe": "Weder sicher noch unsicher",
+          "#Not very safe": "Eher unsicher",
+          "#Not safe at all": "Überhaupt nicht sicher",
+          "#I do not go there in the evening": "Abends gehe ich dort nicht hin",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How safe from harassment or assault do you feel here, also in the evening?": "Burada, akşamları da dahil, taciz veya saldırıya karşı kendinizi ne kadar güvende hissediyorsunuz?",
+          "#Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.": "Taciz, istenmeyen söz, hareket veya temas demektir. Bu soru trafikle değil, kendi hissinizle ilgilidir.",
+          "#Very safe": "Çok güvende",
+          "#Fairly safe": "Oldukça güvende",
+          "#Neither safe nor unsafe": "Ne güvende ne güvensiz",
+          "#Not very safe": "Pek güvende değil",
+          "#Not safe at all": "Hiç güvende değil",
+          "#I do not go there in the evening": "Akşamları oradan geçmiyorum",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How safe from harassment or assault do you feel here, also in the evening?": "اینجا، حتی در عصر و شب، چقدر از آزار یا حمله احساس امنیت می‌کنید؟",
+          "#Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.": "آزار یعنی سخنان، حرکات یا تماس ناخواسته. این پرسش دربارهٔ احساس خود شماست، نه ترافیک.",
+          "#Very safe": "بسیار امن",
+          "#Fairly safe": "نسبتاً امن",
+          "#Neither safe nor unsafe": "نه امن و نه ناامن",
+          "#Not very safe": "چندان امن نیست",
+          "#Not safe at all": "اصلاً امن نیست",
+          "#I do not go there in the evening": "عصرها و شب‌ها از آنجا عبور نمی‌کنم",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How safe from harassment or assault do you feel here, also in the evening?": "Mennyire érzi magát itt biztonságban zaklatástól vagy támadástól, este is?",
+          "#Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.": "Zaklatáson nem kívánt megjegyzéseket, gesztusokat vagy érintést értünk. Ez a kérdés az Ön saját érzésére vonatkozik, nem a forgalomra.",
+          "#Very safe": "Nagyon biztonságban",
+          "#Fairly safe": "Inkább biztonságban",
+          "#Neither safe nor unsafe": "Se nem biztonságban, se nem veszélyben",
+          "#Not very safe": "Kevéssé biztonságban",
+          "#Not safe at all": "Egyáltalán nem biztonságban",
+          "#I do not go there in the evening": "Este nem járok arra",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How safe from harassment or assault do you feel here, also in the evening?": "ما مدى شعورك بالأمان هنا من التحرش أو الاعتداء، بما في ذلك في المساء؟",
+          "#Harassment means unwanted comments, gestures or contact. This question is about your own feeling, not about traffic.": "التحرش يعني تعليقات أو إيماءات أو لمسًا غير مرغوب فيه. يتعلق هذا السؤال بشعورك أنت، لا بحركة المرور.",
+          "#Very safe": "آمن جدًا",
+          "#Fairly safe": "آمن إلى حد ما",
+          "#Neither safe nor unsafe": "لا آمن ولا غير آمن",
+          "#Not very safe": "قليل الأمان",
+          "#Not safe at all": "غير آمن على الإطلاق",
+          "#I do not go there in the evening": "لا أمرّ من هناك في المساء",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

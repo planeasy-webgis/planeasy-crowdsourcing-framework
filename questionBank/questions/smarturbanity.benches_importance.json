@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.benches_importance",
   "project": "SmartUrbanity",
   "key": "benches_importance",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How does the availability of benches and rest areas affect your ability to complete your journey?",
         "answer_key": "benches_importance",
+        "legacy_answer_keys": [
+          "benches_importance_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -38,10 +40,7 @@
             "value": "i_rely_on_rest_areas_to_make_my_journey"
           }
         ],
-        "privacy_classification": "special_category_health",
-        "legacy_answer_keys": [
-          "benches_importance_v1"
-        ]
+        "privacy_classification": "special_category_health"
       },
       "translations": {
         "en": {
@@ -112,6 +111,112 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_eb88f059e1bd": {
+      "schema": {
+        "text": "How does the availability of benches and rest areas affect your ability to complete your journey?",
+        "answer_key": "benches_importance",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Seating has no influence on my travel choices or physical stamina",
+            "value": "seating_has_no_influence_on_my_travel_ch"
+          },
+          {
+            "text": "I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish",
+            "value": "i_notice_the_lack_of_seating_makes_the_t"
+          },
+          {
+            "text": "I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items",
+            "value": "i_do_not_plan_my_trip_around_them_but_i"
+          },
+          {
+            "text": "I specifically choose routes with seating so I can take breaks, even if it is not the most direct path",
+            "value": "i_specifically_choose_routes_with_seatin"
+          },
+          {
+            "text": "I rely on rest areas to make my journey possible; without them I could not travel this far",
+            "value": "i_rely_on_rest_areas_to_make_my_journey"
+          }
+        ],
+        "privacy_classification": "special_category_health"
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How does the availability of benches and rest areas affect your ability to complete your journey?": "How does the availability of benches and rest areas affect your ability to complete your journey?",
+          "#Seating has no influence on my travel choices or physical stamina": "Seating has no influence on my travel choices or physical stamina",
+          "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish",
+          "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items",
+          "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "I specifically choose routes with seating so I can take breaks, even if it is not the most direct path",
+          "#I rely on rest areas to make my journey possible; without them I could not travel this far": "I rely on rest areas to make my journey possible; without them I could not travel this far"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How does the availability of benches and rest areas affect your ability to complete your journey?": "In che modo la disponibilità di panchine e aree di sosta influisce sulla tua capacità di completare lo spostamento?",
+          "#Seating has no influence on my travel choices or physical stamina": "La disponibilità di posti a sedere non influisce sulle mie scelte di viaggio né sulla mia resistenza fisica",
+          "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "La mancanza di posti a sedere rende lo spostamento meno confortevole, ma non influisce sulla mia capacità di completarlo",
+          "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Non pianifico lo spostamento in base alla loro presenza, ma li utilizzo se mi sento improvvisamente stanco/a o trasporto oggetti pesanti",
+          "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Scelgo appositamente percorsi con posti a sedere per poter fare delle pause, anche se non sono i più diretti",
+          "#I rely on rest areas to make my journey possible; without them I could not travel this far": "Faccio affidamento sulle aree di sosta per riuscire a completare lo spostamento; senza di esse non potrei percorrere una distanza così lunga"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How does the availability of benches and rest areas affect your ability to complete your journey?": "Comment la présence de bancs et de zones de repos influence-t-elle votre capacité à terminer votre trajet ?",
+          "#Seating has no influence on my travel choices or physical stamina": "Les bancs n’influencent ni mes choix de déplacement ni mon endurance",
+          "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "Je remarque le manque de bancs, ce qui rend le trajet moins confortable, mais je peux quand même le terminer",
+          "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Je ne choisis pas mon itinéraire en fonction des bancs, mais je les utilise si je suis fatigué(e) ou si je porte des objets lourds",
+          "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Je choisis certains itinéraires parce qu’ils ont des bancs où je peux faire une pause, même s’ils sont moins directs",
+          "#I rely on rest areas to make my journey possible; without them I could not travel this far": "J’ai besoin de zones de repos pour pouvoir faire ce trajet ; sans elles, je ne pourrais pas aller aussi loin"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How does the availability of benches and rest areas affect your ability to complete your journey?": "Wie beeinflussen Bänke und Ruheplätze Ihre Möglichkeit, Ihren Weg zu Ende zu gehen?",
+          "#Seating has no influence on my travel choices or physical stamina": "Sitzmöglichkeiten beeinflussen weder meine Verkehrsmittelwahl noch meine Ausdauer",
+          "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "Fehlende Sitzmöglichkeiten machen den Weg weniger angenehm, aber ich kann ihn trotzdem zu Ende gehen",
+          "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Ich plane meine Route nicht nach Sitzmöglichkeiten, nutze sie aber, wenn ich unerwartet müde bin oder schwere Dinge trage",
+          "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Ich wähle gezielt Wege mit Sitzmöglichkeiten für Pausen, auch wenn sie nicht die direkteste Route sind",
+          "#I rely on rest areas to make my journey possible; without them I could not travel this far": "Ich brauche Ruheplätze, um diesen Weg schaffen zu können; ohne sie könnte ich nicht so weit gehen"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How does the availability of benches and rest areas affect your ability to complete your journey?": "Bankların ve dinlenme alanlarının bulunması yolculuğunuzu tamamlayabilmenizi nasıl etkiler?",
+          "#Seating has no influence on my travel choices or physical stamina": "Oturma alanları ulaşım tercihlerimi veya fiziksel dayanıklılığımı etkilemez",
+          "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "Oturma alanlarının azlığını fark ederim; yolculuk daha az rahat olur ama tamamlamama engel olmaz",
+          "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Yolculuğumu banklara göre planlamam ama beklenmedik şekilde yorulursam veya ağır bir şey taşıyorsam kullanırım",
+          "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Dinlenebilmek için özellikle oturma alanı olan güzergâhları seçerim, daha uzun olsalar bile",
+          "#I rely on rest areas to make my journey possible; without them I could not travel this far": "Yolculuğu yapabilmek için dinlenme alanlarına ihtiyaç duyarım; onlar olmadan bu kadar uzağa gidemezdim"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How does the availability of benches and rest areas affect your ability to complete your journey?": "وجود نیمکت و محل استراحت چه اثری بر توانایی شما برای کامل کردن سفر دارد؟",
+          "#Seating has no influence on my travel choices or physical stamina": "محل نشستن بر انتخاب سفر یا توان جسمی من اثری ندارد",
+          "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "کمبود محل نشستن سفر را کمتر راحت می‌کند، اما مانع تمام کردن آن نمی‌شود",
+          "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "مسیرم را بر اساس نیمکت انتخاب نمی‌کنم، اما اگر ناگهان خسته شوم یا بار سنگین داشته باشم از آن استفاده می‌کنم",
+          "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "برای اینکه بتوانم استراحت کنم، مسیرهایی را انتخاب می‌کنم که محل نشستن دارند، حتی اگر مستقیم‌ترین راه نباشند",
+          "#I rely on rest areas to make my journey possible; without them I could not travel this far": "برای اینکه بتوانم این مسافت را طی کنم به محل استراحت نیاز دارم؛ بدون آن نمی‌توانم تا این فاصله بروم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How does the availability of benches and rest areas affect your ability to complete your journey?": "Hogyan befolyásolja a padok és pihenőhelyek elérhetősége azt, hogy végig tudja-e járni az útját?",
+          "#Seating has no influence on my travel choices or physical stamina": "Az ülőhelyek nem befolyásolják sem a közlekedési döntéseimet, sem a fizikai állóképességemet",
+          "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "Észreveszem az ülőhelyek hiányát, és emiatt kevésbé kényelmes az út, de be tudom fejezni",
+          "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Nem az ülőhelyek alapján tervezem az utat, de használom őket, ha váratlanul elfáradok vagy nehéz dolgot viszek",
+          "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Kifejezetten olyan útvonalat választok, ahol le tudok ülni pihenni, még akkor is, ha az nem a legrövidebb",
+          "#I rely on rest areas to make my journey possible; without them I could not travel this far": "Szükségem van pihenőhelyekre ahhoz, hogy ezt a távolságot meg tudjam tenni; nélkülük nem jutnék ilyen messzire"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How does the availability of benches and rest areas affect your ability to complete your journey?": "كيف يؤثر توفر المقاعد وأماكن الراحة في قدرتك على إكمال رحلتك؟",
+          "#Seating has no influence on my travel choices or physical stamina": "المقاعد لا تؤثر في اختياراتي أو قدرتي البدنية",
+          "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "ألاحظ نقص المقاعد ويجعل الرحلة أقل راحة، لكنه لا يمنعني من إكمالها",
+          "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "لا أخطط طريقي بناءً على وجود المقاعد، لكنني أستخدمها إذا تعبت فجأة أو كنت أحمل أشياء ثقيلة",
+          "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "أختار عمدًا طرقًا فيها مقاعد حتى أستطيع الاستراحة، حتى لو لم تكن أقصر طريق",
+          "#I rely on rest areas to make my journey possible; without them I could not travel this far": "أعتمد على أماكن الراحة لأتمكن من إكمال الرحلة؛ من دونها لا أستطيع المشي لهذه المسافة"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

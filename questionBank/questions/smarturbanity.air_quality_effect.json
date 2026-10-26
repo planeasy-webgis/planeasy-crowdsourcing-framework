@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.air_quality_effect",
   "project": "SmartUrbanity",
   "key": "air_quality_effect",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_safety_environment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_safety_environment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?",
         "answer_key": "air_quality_effect",
+        "legacy_answer_keys": [
+          "air_quality_effect_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "It makes me switch to a different mode of transport entirely",
             "value": "it_makes_me_switch_to_a_different_mode_o"
           }
-        ],
-        "legacy_answer_keys": [
-          "air_quality_effect_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_safety_environment"
       ]
+    },
+    "reference_4b72f5fe3029": {
+      "schema": {
+        "text": "How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?",
+        "answer_key": "air_quality_effect",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "No effect at all",
+            "value": "no_effect_at_all"
+          },
+          {
+            "text": "I notice it but it doesn't change my behaviour",
+            "value": "i_notice_it_but_it_doesn_t_change_my_beh"
+          },
+          {
+            "text": "It makes me adjust how I travel (e.g. mask, closed windows)",
+            "value": "it_makes_me_adjust_how_i_travel_e_g_mask"
+          },
+          {
+            "text": "It makes me change my route or travel at a different time",
+            "value": "it_makes_me_change_my_route_or_travel_at"
+          },
+          {
+            "text": "It makes me switch to a different mode of transport entirely",
+            "value": "it_makes_me_switch_to_a_different_mode_o"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?": "How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?",
+          "#No effect at all": "No effect at all",
+          "#I notice it but it doesn't change my behaviour": "I notice it but it doesn't change my behaviour",
+          "#It makes me adjust how I travel (e.g. mask, closed windows)": "It makes me adjust how I travel (e.g. mask, closed windows)",
+          "#It makes me change my route or travel at a different time": "It makes me change my route or travel at a different time",
+          "#It makes me switch to a different mode of transport entirely": "It makes me switch to a different mode of transport entirely"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?": "In che modo la qualità dell'aria e i livelli di inquinamento (ad es. gas di scarico, polvere o odori sgradevoli) influiscono sul tuo spostamento?",
+          "#No effect at all": "Nessun effetto",
+          "#I notice it but it doesn't change my behaviour": "Me ne accorgo, ma non modifica il mio comportamento",
+          "#It makes me adjust how I travel (e.g. mask, closed windows)": "Mi porta a modificare il modo in cui viaggio (ad es. usando una mascherina o tenendo i finestrini chiusi)",
+          "#It makes me change my route or travel at a different time": "Mi porta a cambiare percorso o a viaggiare in un orario diverso",
+          "#It makes me switch to a different mode of transport entirely": "Mi porta a scegliere una modalità di trasporto completamente diversa"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?": "Comment la qualité de l’air et la pollution, par exemple les gaz d’échappement, la poussière ou les mauvaises odeurs, influencent-elles votre trajet ?",
+          "#No effect at all": "Aucun effet",
+          "#I notice it but it doesn't change my behaviour": "Je le remarque, mais cela ne change pas ma façon de me déplacer",
+          "#It makes me adjust how I travel (e.g. mask, closed windows)": "Cela me fait adapter ma façon de voyager, par exemple porter un masque ou fermer les fenêtres",
+          "#It makes me change my route or travel at a different time": "Cela me fait changer d’itinéraire ou d’heure de déplacement",
+          "#It makes me switch to a different mode of transport entirely": "Cela me fait choisir un autre mode de transport"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?": "Wie beeinflussen Luftqualität und Verschmutzung, zum Beispiel Abgase, Staub oder unangenehme Gerüche, Ihren Weg?",
+          "#No effect at all": "Gar nicht",
+          "#I notice it but it doesn't change my behaviour": "Ich bemerke es, aber es verändert mein Verhalten nicht",
+          "#It makes me adjust how I travel (e.g. mask, closed windows)": "Ich passe an, wie ich unterwegs bin, zum Beispiel mit Maske oder geschlossenen Fenstern",
+          "#It makes me change my route or travel at a different time": "Ich ändere meine Route oder fahre zu einer anderen Zeit",
+          "#It makes me switch to a different mode of transport entirely": "Ich wechsle ganz zu einem anderen Verkehrsmittel"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?": "Hava kalitesi ve kirlilik, örneğin egzoz dumanı, toz veya kötü kokular, yolculuğunuzu nasıl etkiliyor?",
+          "#No effect at all": "Hiç etkisi yok",
+          "#I notice it but it doesn't change my behaviour": "Fark ederim ama davranışımı değiştirmez",
+          "#It makes me adjust how I travel (e.g. mask, closed windows)": "Nasıl seyahat ettiğimi değiştirmeme neden olur; örneğin maske kullanır veya camları kapatırım",
+          "#It makes me change my route or travel at a different time": "Güzergâhımı değiştirmeme veya farklı bir saatte seyahat etmeme neden olur",
+          "#It makes me switch to a different mode of transport entirely": "Tamamen farklı bir ulaşım seçeneğine geçmeme neden olur"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?": "کیفیت هوا و آلودگی، مانند دود اگزوز، گردوغبار یا بوی نامطبوع، چگونه بر سفر شما اثر می‌گذارد؟",
+          "#No effect at all": "اصلاً اثری ندارد",
+          "#I notice it but it doesn't change my behaviour": "متوجه می‌شوم، اما رفتارم را تغییر نمی‌دهد",
+          "#It makes me adjust how I travel (e.g. mask, closed windows)": "باعث می‌شود روش سفرم را تغییر دهم، مثلاً ماسک بزنم یا پنجره‌ها را ببندم",
+          "#It makes me change my route or travel at a different time": "باعث می‌شود مسیر یا زمان سفر را تغییر دهم",
+          "#It makes me switch to a different mode of transport entirely": "باعث می‌شود کاملاً روش دیگری را برای رفت‌وآمد انتخاب کنم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?": "Hogyan befolyásolja a levegő minősége és a szennyezés, például a kipufogógáz, por vagy kellemetlen szag az utazását?",
+          "#No effect at all": "Egyáltalán nincs hatása",
+          "#I notice it but it doesn't change my behaviour": "Észreveszem, de nem változtatja meg a viselkedésemet",
+          "#It makes me adjust how I travel (e.g. mask, closed windows)": "Módosítom, hogyan utazom, például maszkot használok vagy felhúzom az ablakot",
+          "#It makes me change my route or travel at a different time": "Megváltoztatom az útvonalat vagy más időpontban utazom",
+          "#It makes me switch to a different mode of transport entirely": "Teljesen más közlekedési módra váltok"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How do air quality and pollution levels (e.g. exhaust fumes, dust, or unpleasant odours) affect your journey?": "كيف تؤثر جودة الهواء والتلوث، مثل عوادم المركبات أو الغبار أو الروائح غير المستحبة، في رحلتك؟",
+          "#No effect at all": "لا تأثير إطلاقًا",
+          "#I notice it but it doesn't change my behaviour": "ألاحظه لكنه لا يغير سلوكي",
+          "#It makes me adjust how I travel (e.g. mask, closed windows)": "يجعلني أغيّر طريقة تنقلي، مثل استخدام كمامة أو إغلاق النوافذ",
+          "#It makes me change my route or travel at a different time": "يجعلني أغيّر الطريق أو أتنقل في وقت مختلف",
+          "#It makes me switch to a different mode of transport entirely": "يجعلني أختار وسيلة نقل مختلفة تمامًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

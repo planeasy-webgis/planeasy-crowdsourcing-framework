@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.riding_on_pavement",
   "project": "SmartUrbanity",
   "key": "riding_on_pavement",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How do cyclists and e-scooter riders affect your sense of safety while walking?",
         "answer_key": "riding_on_pavement",
+        "legacy_answer_keys": [
+          "riding_on_pavement_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous",
             "value": "encounters_with_cyclists_or_e_scooters_f"
           }
-        ],
-        "legacy_answer_keys": [
-          "riding_on_pavement_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_dd99b58f52ef": {
+      "schema": {
+        "text": "How do cyclists and e-scooter riders affect your sense of safety while walking?",
+        "answer_key": "riding_on_pavement",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "They do not affect my sense of safety while walking",
+            "value": "they_do_not_affect_my_sense_of_safety_wh"
+          },
+          {
+            "text": "I notice them, but I rarely feel unsafe or uncomfortable",
+            "value": "i_notice_them_but_i_rarely_feel_unsafe_o"
+          },
+          {
+            "text": "I sometimes feel the need to pay extra attention or move aside",
+            "value": "i_sometimes_feel_the_need_to_pay_extra_a"
+          },
+          {
+            "text": "I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me",
+            "value": "i_often_feel_uncomfortable_or_unsafe_whe"
+          },
+          {
+            "text": "Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous",
+            "value": "encounters_with_cyclists_or_e_scooters_f"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How do cyclists and e-scooter riders affect your sense of safety while walking?": "How do cyclists and e-scooter riders affect your sense of safety while walking?",
+          "#They do not affect my sense of safety while walking": "They do not affect my sense of safety while walking",
+          "#I notice them, but I rarely feel unsafe or uncomfortable": "I notice them, but I rarely feel unsafe or uncomfortable",
+          "#I sometimes feel the need to pay extra attention or move aside": "I sometimes feel the need to pay extra attention or move aside",
+          "#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me",
+          "#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How do cyclists and e-scooter riders affect your sense of safety while walking?": "In che modo i ciclisti e i conducenti di monopattini elettrici influenzano la tua percezione di sicurezza mentre cammini?",
+          "#They do not affect my sense of safety while walking": "Non influiscono sulla mia percezione di sicurezza mentre cammino",
+          "#I notice them, but I rarely feel unsafe or uncomfortable": "Li noto, ma raramente mi sento in pericolo o a disagio",
+          "#I sometimes feel the need to pay extra attention or move aside": "A volte sento il bisogno di prestare maggiore attenzione o di spostarmi",
+          "#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "Spesso mi sento a disagio o in pericolo quando ciclisti o monopattini elettrici mi passano vicino",
+          "#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "Gli incontri con ciclisti o monopattini elettrici rendono frequentemente il camminare stressante o pericoloso"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How do cyclists and e-scooter riders affect your sense of safety while walking?": "Comment les cyclistes et les usagers de trottinettes électriques influencent-ils votre sentiment de sécurité lorsque vous marchez ?",
+          "#They do not affect my sense of safety while walking": "Ils n’influencent pas mon sentiment de sécurité lorsque je marche",
+          "#I notice them, but I rarely feel unsafe or uncomfortable": "Je les remarque, mais je me sens rarement en danger ou mal à l’aise",
+          "#I sometimes feel the need to pay extra attention or move aside": "Je ressens parfois le besoin d’être plus attentif(ve) ou de me mettre sur le côté",
+          "#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "Je me sens souvent mal à l’aise ou en danger lorsque des cyclistes ou des trottinettes passent près de moi",
+          "#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "Les rencontres avec des cyclistes ou des trottinettes rendent souvent la marche stressante ou dangereuse"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How do cyclists and e-scooter riders affect your sense of safety while walking?": "Wie beeinflussen Radfahrer und E-Scooter-Fahrer Ihr Sicherheitsgefühl beim Gehen?",
+          "#They do not affect my sense of safety while walking": "Sie beeinflussen mein Sicherheitsgefühl beim Gehen nicht",
+          "#I notice them, but I rarely feel unsafe or uncomfortable": "Ich bemerke sie, fühle mich aber nur selten unsicher oder unwohl",
+          "#I sometimes feel the need to pay extra attention or move aside": "Manchmal habe ich das Gefühl, besonders aufmerksam sein oder zur Seite gehen zu müssen",
+          "#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "Ich fühle mich oft unwohl oder unsicher, wenn Radfahrer oder E-Scooter dicht an mir vorbeifahren",
+          "#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "Begegnungen mit Radfahrern oder E-Scootern machen das Gehen häufig stressig oder gefährlich"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How do cyclists and e-scooter riders affect your sense of safety while walking?": "Bisikletliler ve e-scooter kullanıcıları yürürken güvenlik hissinizi nasıl etkiler?",
+          "#They do not affect my sense of safety while walking": "Yürürken güvenlik hissimi etkilemezler",
+          "#I notice them, but I rarely feel unsafe or uncomfortable": "Onları fark ederim ama nadiren güvensiz veya rahatsız hissederim",
+          "#I sometimes feel the need to pay extra attention or move aside": "Bazen daha dikkatli olmam veya kenara çekilmem gerektiğini hissederim",
+          "#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "Bisikletliler veya e-scooter’lar yakınımdan geçtiğinde sık sık rahatsız veya güvensiz hissederim",
+          "#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "Bisikletliler veya e-scooter’larla karşılaşmak yürümeyi sık sık stresli veya tehlikeli hissettirir"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How do cyclists and e-scooter riders affect your sense of safety while walking?": "دوچرخه‌سواران و کاربران اسکوتر برقی چگونه بر احساس امنیت شما هنگام پیاده‌روی اثر می‌گذارند؟",
+          "#They do not affect my sense of safety while walking": "بر احساس امنیت من هنگام پیاده‌روی اثری ندارند",
+          "#I notice them, but I rarely feel unsafe or uncomfortable": "آن‌ها را متوجه می‌شوم، اما به ندرت احساس ناامنی یا ناراحتی می‌کنم",
+          "#I sometimes feel the need to pay extra attention or move aside": "گاهی احساس می‌کنم باید بیشتر مراقب باشم یا کنار بروم",
+          "#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "وقتی دوچرخه یا اسکوتر برقی از نزدیک من عبور می‌کند، اغلب احساس ناراحتی یا ناامنی می‌کنم",
+          "#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "برخورد با دوچرخه یا اسکوتر برقی اغلب پیاده‌روی را پراسترس یا خطرناک می‌کند"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How do cyclists and e-scooter riders affect your sense of safety while walking?": "Hogyan befolyásolják a kerékpárosok és az elektromosroller-használók a biztonságérzetét gyaloglás közben?",
+          "#They do not affect my sense of safety while walking": "Nem befolyásolják a biztonságérzetemet gyaloglás közben",
+          "#I notice them, but I rarely feel unsafe or uncomfortable": "Észreveszem őket, de ritkán érzem magam bizonytalannak vagy kényelmetlenül",
+          "#I sometimes feel the need to pay extra attention or move aside": "Néha úgy érzem, jobban kell figyelnem vagy félre kell húzódnom",
+          "#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "Gyakran érzem magam kényelmetlenül vagy bizonytalannak, amikor kerékpárosok vagy rollerek haladnak el közel mellettem",
+          "#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "A kerékpárosokkal vagy rollerekkel való találkozás gyakran stresszessé vagy veszélyesnek érzetté teszi a gyaloglást"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How do cyclists and e-scooter riders affect your sense of safety while walking?": "كيف يؤثر راكبو الدراجات ومستخدمو السكوتر الكهربائي في شعورك بالأمان أثناء المشي؟",
+          "#They do not affect my sense of safety while walking": "لا يؤثرون في شعوري بالأمان أثناء المشي",
+          "#I notice them, but I rarely feel unsafe or uncomfortable": "ألاحظهم لكنني نادرًا ما أشعر بعدم الأمان أو عدم الراحة",
+          "#I sometimes feel the need to pay extra attention or move aside": "أشعر أحيانًا أن عليّ الانتباه أكثر أو الابتعاد جانبًا",
+          "#I often feel uncomfortable or unsafe when cyclists or e-scooters pass close to me": "أشعر غالبًا بعدم الراحة أو الأمان عندما تمر الدراجات أو السكوترات بالقرب مني",
+          "#Encounters with cyclists or e-scooters frequently make walking stressful or feel dangerous": "التعامل مع الدراجات أو السكوترات يجعل المشي غالبًا مرهقًا أو يبدو خطيرًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

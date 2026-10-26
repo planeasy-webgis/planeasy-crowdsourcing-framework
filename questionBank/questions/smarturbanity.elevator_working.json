@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.elevator_working",
   "project": "SmartUrbanity",
   "key": "elevator_working",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -94,6 +93,97 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_c5a3f9fcc77e": {
+      "schema": {
+        "text": "Today, is the elevator working?",
+        "answer_key": "elevator_working",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes, it works",
+            "value": "working"
+          },
+          {
+            "text": "No, the elevator is broken or out of service",
+            "value": "out_of_service"
+          },
+          {
+            "text": "No, the elevator is closed (by a gate or at certain hours)",
+            "value": "closed"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#Today, is the elevator working?": "Today, is the elevator working?",
+          "#Yes, it works": "Yes, it works",
+          "#No, the elevator is broken or out of service": "No, the elevator is broken or out of service",
+          "#No, the elevator is closed (by a gate or at certain hours)": "No, the elevator is closed (by a gate or at certain hours)",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Today, is the elevator working?": "Oggi l'ascensore funziona?",
+          "#Yes, it works": "Sì, funziona",
+          "#No, the elevator is broken or out of service": "No, l'ascensore è guasto o fuori servizio",
+          "#No, the elevator is closed (by a gate or at certain hours)": "No, l'ascensore è chiuso (da un cancello o in certi orari)",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Today, is the elevator working?": "Aujourd’hui, l’ascenseur fonctionne-t-il ?",
+          "#Yes, it works": "Oui, il fonctionne",
+          "#No, the elevator is broken or out of service": "Non, l’ascenseur est en panne ou hors service",
+          "#No, the elevator is closed (by a gate or at certain hours)": "Non, l’ascenseur est fermé (par une grille ou à certaines heures)",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Today, is the elevator working?": "Funktioniert der Aufzug heute?",
+          "#Yes, it works": "Ja, funktioniert",
+          "#No, the elevator is broken or out of service": "Nein, der Aufzug ist kaputt oder außer Betrieb",
+          "#No, the elevator is closed (by a gate or at certain hours)": "Nein, der Aufzug ist geschlossen (durch ein Tor oder zu bestimmten Zeiten)",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Today, is the elevator working?": "Bugün asansör çalışıyor mu?",
+          "#Yes, it works": "Evet, çalışıyor",
+          "#No, the elevator is broken or out of service": "Hayır, asansör arızalı veya hizmet dışı",
+          "#No, the elevator is closed (by a gate or at certain hours)": "Hayır, asansör kapalı (bir kapıyla veya belirli saatlerde)",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Today, is the elevator working?": "آیا امروز آسانسور کار می‌کند؟",
+          "#Yes, it works": "بله، کار می‌کند",
+          "#No, the elevator is broken or out of service": "خیر، آسانسور خراب یا از کار افتاده است",
+          "#No, the elevator is closed (by a gate or at certain hours)": "خیر، آسانسور بسته است (با دروازه یا در ساعات مشخص)",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Today, is the elevator working?": "Működik ma a lift?",
+          "#Yes, it works": "Igen, működik",
+          "#No, the elevator is broken or out of service": "Nem, a lift elromlott vagy nem üzemel",
+          "#No, the elevator is closed (by a gate or at certain hours)": "Nem, a lift zárva van (kapuval vagy bizonyos órákban)",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Today, is the elevator working?": "هل يعمل المصعد اليوم؟",
+          "#Yes, it works": "نعم، يعمل",
+          "#No, the elevator is broken or out of service": "لا، المصعد معطل أو خارج الخدمة",
+          "#No, the elevator is closed (by a gate or at certain hours)": "لا، المصعد مغلق (ببوابة أو في ساعات معينة)",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

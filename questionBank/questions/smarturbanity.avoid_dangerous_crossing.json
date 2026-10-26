@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.avoid_dangerous_crossing",
   "project": "SmartUrbanity",
   "key": "avoid_dangerous_crossing",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?",
         "answer_key": "avoid_dangerous_crossing",
+        "legacy_answer_keys": [
+          "avoid_dangerous_crossing_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "I avoid certain roads entirely because I cannot cross them safely on foot",
             "value": "i_avoid_certain_roads_entirely_because_i"
           }
-        ],
-        "legacy_answer_keys": [
-          "avoid_dangerous_crossing_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_917bb6173fc8": {
+      "schema": {
+        "text": "How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?",
+        "answer_key": "avoid_dangerous_crossing",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Crossings are well placed and I feel safe using them",
+            "value": "crossings_are_well_placed_and_i_feel_saf"
+          },
+          {
+            "text": "Crossings exist but I often feel rushed or uncertain while using them",
+            "value": "crossings_exist_but_i_often_feel_rushed"
+          },
+          {
+            "text": "Crossings are too infrequent and I sometimes have to cross in unsafe places",
+            "value": "crossings_are_too_infrequent_and_i_somet"
+          },
+          {
+            "text": "The poor quality or lack of crossings forces me to significantly change my route",
+            "value": "the_poor_quality_or_lack_of_crossings_fo"
+          },
+          {
+            "text": "I avoid certain roads entirely because I cannot cross them safely on foot",
+            "value": "i_avoid_certain_roads_entirely_because_i"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?",
+          "#Crossings are well placed and I feel safe using them": "Crossings are well placed and I feel safe using them",
+          "#Crossings exist but I often feel rushed or uncertain while using them": "Crossings exist but I often feel rushed or uncertain while using them",
+          "#Crossings are too infrequent and I sometimes have to cross in unsafe places": "Crossings are too infrequent and I sometimes have to cross in unsafe places",
+          "#The poor quality or lack of crossings forces me to significantly change my route": "The poor quality or lack of crossings forces me to significantly change my route",
+          "#I avoid certain roads entirely because I cannot cross them safely on foot": "I avoid certain roads entirely because I cannot cross them safely on foot"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "In che modo la qualità e la disponibilità degli attraversamenti pedonali (ad es. strisce pedonali, semafori pedonali o isole salvagente) influenzano il tuo spostamento?",
+          "#Crossings are well placed and I feel safe using them": "Gli attraversamenti sono ben posizionati e mi sento al sicuro quando li utilizzo",
+          "#Crossings exist but I often feel rushed or uncertain while using them": "Gli attraversamenti sono presenti, ma spesso mi sento sotto pressione o insicuro/a mentre li utilizzo",
+          "#Crossings are too infrequent and I sometimes have to cross in unsafe places": "Gli attraversamenti sono troppo distanti tra loro e a volte devo attraversare in punti non sicuri",
+          "#The poor quality or lack of crossings forces me to significantly change my route": "La scarsa qualità o la mancanza di attraversamenti mi costringe a modificare significativamente il percorso",
+          "#I avoid certain roads entirely because I cannot cross them safely on foot": "Evito completamente alcune strade perché non posso attraversarle in sicurezza a piedi"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "Comment la qualité et la disponibilité des passages piétons, par exemple passages zébrés, feux piétons ou îlots centraux, influencent-elles votre trajet ?",
+          "#Crossings are well placed and I feel safe using them": "Les traversées sont bien placées et je me sens en sécurité en les utilisant",
+          "#Crossings exist but I often feel rushed or uncertain while using them": "Il y a des traversées, mais je me sens souvent pressé(e) ou peu sûr(e) quand je les utilise",
+          "#Crossings are too infrequent and I sometimes have to cross in unsafe places": "Les traversées sont trop rares et je dois parfois traverser à des endroits peu sûrs",
+          "#The poor quality or lack of crossings forces me to significantly change my route": "Le mauvais état ou le manque de traversées m’oblige à changer fortement mon itinéraire",
+          "#I avoid certain roads entirely because I cannot cross them safely on foot": "J’évite complètement certaines routes parce que je ne peux pas les traverser à pied en sécurité"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "Wie beeinflussen Qualität und Verfügbarkeit von Fußgängerquerungen, zum Beispiel Zebrastreifen, Fußgängerampeln oder Mittelinseln, Ihren Weg?",
+          "#Crossings are well placed and I feel safe using them": "Die Querungen liegen gut und ich fühle mich dort sicher",
+          "#Crossings exist but I often feel rushed or uncertain while using them": "Es gibt Querungen, aber ich fühle mich dort oft unter Zeitdruck oder unsicher",
+          "#Crossings are too infrequent and I sometimes have to cross in unsafe places": "Es gibt zu wenige Querungen und ich muss manchmal an unsicheren Stellen die Straße überqueren",
+          "#The poor quality or lack of crossings forces me to significantly change my route": "Schlechte oder fehlende Querungen zwingen mich, meine Route deutlich zu ändern",
+          "#I avoid certain roads entirely because I cannot cross them safely on foot": "Ich meide bestimmte Straßen ganz, weil ich sie zu Fuß nicht sicher überqueren kann"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "Yaya geçitlerinin kalitesi ve bulunabilirliği, örneğin yaya geçitleri, yaya sinyalleri veya orta refüjler, yolculuğunuzu nasıl etkiler?",
+          "#Crossings are well placed and I feel safe using them": "Geçitler iyi yerlerde ve kullanırken kendimi güvende hissediyorum",
+          "#Crossings exist but I often feel rushed or uncertain while using them": "Geçitler var ama kullanırken sık sık acele etmek zorunda veya kararsız hissediyorum",
+          "#Crossings are too infrequent and I sometimes have to cross in unsafe places": "Geçitler çok seyrek; bazen güvensiz yerlerden karşıya geçmek zorunda kalıyorum",
+          "#The poor quality or lack of crossings forces me to significantly change my route": "Geçitlerin kötü olması veya hiç olmaması güzergâhımı önemli ölçüde değiştirmeme neden oluyor",
+          "#I avoid certain roads entirely because I cannot cross them safely on foot": "Yaya olarak güvenli şekilde karşıya geçemediğim için bazı yollardan tamamen kaçınıyorum"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "کیفیت و تعداد گذرگاه‌های عابر، مانند خط عابر، چراغ عابر یا جزیره میانی، چگونه بر سفر شما اثر می‌گذارد؟",
+          "#Crossings are well placed and I feel safe using them": "گذرگاه‌ها جای مناسبی دارند و هنگام استفاده احساس امنیت می‌کنم",
+          "#Crossings exist but I often feel rushed or uncertain while using them": "گذرگاه هست، اما هنگام عبور اغلب احساس عجله یا عدم اطمینان می‌کنم",
+          "#Crossings are too infrequent and I sometimes have to cross in unsafe places": "گذرگاه‌ها کم هستند و گاهی مجبورم از محل ناامن عبور کنم",
+          "#The poor quality or lack of crossings forces me to significantly change my route": "کیفیت پایین یا نبود گذرگاه مجبورم می‌کند مسیرم را به‌طور قابل توجهی تغییر دهم",
+          "#I avoid certain roads entirely because I cannot cross them safely on foot": "بعضی خیابان‌ها را کاملاً کنار می‌گذارم چون نمی‌توانم با خیال راحت از آن‌ها عبور کنم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "Hogyan befolyásolja az utazását a gyalogos átkelőhelyek minősége és elérhetősége, például zebra, gyalogos jelzőlámpa vagy középsziget?",
+          "#Crossings are well placed and I feel safe using them": "Az átkelőhelyek jó helyen vannak, és biztonságban érzem magam használat közben",
+          "#Crossings exist but I often feel rushed or uncertain while using them": "Vannak átkelőhelyek, de gyakran siettetve vagy bizonytalannak érzem magam használat közben",
+          "#Crossings are too infrequent and I sometimes have to cross in unsafe places": "Túl kevés az átkelőhely, ezért néha nem biztonságos helyen kell átkelnem",
+          "#The poor quality or lack of crossings forces me to significantly change my route": "A rossz minőségű vagy hiányzó átkelőhelyek miatt jelentősen módosítanom kell az útvonalamat",
+          "#I avoid certain roads entirely because I cannot cross them safely on foot": "Teljesen elkerülök bizonyos utakat, mert nem tudok biztonságosan átkelni gyalog"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How do the quality and availability of pedestrian crossings (e.g., zebra crossings, pedestrian signals, or crossing islands) affect your journey?": "كيف تؤثر جودة وتوفر معابر المشاة، مثل ممرات المشاة أو إشارات المشاة أو الجزر الوسطية، في رحلتك؟",
+          "#Crossings are well placed and I feel safe using them": "المعابر في أماكن مناسبة وأشعر بالأمان عند استخدامها",
+          "#Crossings exist but I often feel rushed or uncertain while using them": "توجد معابر، لكنني أشعر غالبًا بالعجلة أو عدم الثقة عند استخدامها",
+          "#Crossings are too infrequent and I sometimes have to cross in unsafe places": "المعابر قليلة جدًا وأضطر أحيانًا إلى العبور من أماكن غير آمنة",
+          "#The poor quality or lack of crossings forces me to significantly change my route": "سوء جودة المعابر أو غيابها يجبرني على تغيير طريقي بشكل كبير",
+          "#I avoid certain roads entirely because I cannot cross them safely on foot": "أتجنب بعض الطرق تمامًا لأنني لا أستطيع عبورها بأمان سيرًا على الأقدام"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

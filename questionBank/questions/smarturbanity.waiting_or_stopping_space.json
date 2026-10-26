@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.waiting_or_stopping_space",
   "project": "SmartUrbanity",
   "key": "waiting_or_stopping_space",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -106,6 +105,109 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_09dc77ae6ebf": {
+      "schema": {
+        "text": "Is there enough safe space to wait before crossing or to stop and rest?",
+        "answer_key": "waiting_or_stopping_space",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Enough safe space",
+            "value": "1_enough_space"
+          },
+          {
+            "text": "A place exists, but it is too small",
+            "value": "2_too_small"
+          },
+          {
+            "text": "No safe place",
+            "value": "3_no_safe_space"
+          },
+          {
+            "text": "No space to wait or rest is needed here",
+            "value": "not_needed"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Is there enough safe space to wait before crossing or to stop and rest?": "Is there enough safe space to wait before crossing or to stop and rest?",
+          "#Enough safe space": "Enough safe space",
+          "#A place exists, but it is too small": "A place exists, but it is too small",
+          "#No safe place": "No safe place",
+          "#No space to wait or rest is needed here": "No space to wait or rest is needed here",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Is there enough safe space to wait before crossing or to stop and rest?": "C'è abbastanza spazio sicuro per aspettare prima di attraversare o per fermarsi a riposare?",
+          "#Enough safe space": "C'è abbastanza spazio sicuro",
+          "#A place exists, but it is too small": "C'è uno spazio, ma è troppo piccolo",
+          "#No safe place": "Nessun posto sicuro",
+          "#No space to wait or rest is needed here": "Qui non serve uno spazio per aspettare o riposarsi",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Is there enough safe space to wait before crossing or to stop and rest?": "Y a-t-il assez d'espace sûr pour attendre avant de traverser ou pour s'arrêter et se reposer ?",
+          "#Enough safe space": "Assez d’espace sûr",
+          "#A place exists, but it is too small": "Il existe un espace, mais il est trop petit",
+          "#No safe place": "Aucun endroit sûr",
+          "#No space to wait or rest is needed here": "Aucun espace pour attendre ou se reposer n’est nécessaire ici",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Is there enough safe space to wait before crossing or to stop and rest?": "Gibt es genug sicheren Platz, um vor dem Überqueren zu warten oder anzuhalten und sich auszuruhen?",
+          "#Enough safe space": "Ausreichend sicherer Platz",
+          "#A place exists, but it is too small": "Es gibt einen Platz, aber er ist zu klein",
+          "#No safe place": "Kein sicherer Platz",
+          "#No space to wait or rest is needed here": "Hier wird kein Platz zum Warten oder Ausruhen benötigt",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Is there enough safe space to wait before crossing or to stop and rest?": "Karşıya geçmeden önce beklemek veya durup dinlenmek için yeterli güvenli alan var mı?",
+          "#Enough safe space": "Yeterli güvenli alan",
+          "#A place exists, but it is too small": "Bir yer var, ancak çok küçük",
+          "#No safe place": "Güvenli bir yer yok",
+          "#No space to wait or rest is needed here": "Burada beklemek veya dinlenmek için alan gerekmiyor",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Is there enough safe space to wait before crossing or to stop and rest?": "آیا فضای امن کافی برای انتظار پیش از عبور یا توقف و استراحت وجود دارد؟",
+          "#Enough safe space": "فضای امن کافی",
+          "#A place exists, but it is too small": "جایی وجود دارد، اما خیلی کوچک است",
+          "#No safe place": "هیچ جای امنی نیست",
+          "#No space to wait or rest is needed here": "در اینجا فضایی برای انتظار یا استراحت لازم نیست",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Is there enough safe space to wait before crossing or to stop and rest?": "Van-e elég biztonságos hely várakozni az átkelés előtt, vagy megállni pihenni?",
+          "#Enough safe space": "Elegendő biztonságos hely",
+          "#A place exists, but it is too small": "Van hely, de túl kicsi",
+          "#No safe place": "Nincs biztonságos hely",
+          "#No space to wait or rest is needed here": "Itt nincs szükség helyre a várakozáshoz vagy pihenéshez",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Is there enough safe space to wait before crossing or to stop and rest?": "هل توجد مساحة آمنة كافية للانتظار قبل العبور أو للتوقف والاستراحة؟",
+          "#Enough safe space": "مساحة آمنة كافية",
+          "#A place exists, but it is too small": "يوجد مكان، لكنه صغير جدًا",
+          "#No safe place": "لا يوجد مكان آمن",
+          "#No space to wait or rest is needed here": "لا حاجة هنا إلى مساحة للانتظار أو الاستراحة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

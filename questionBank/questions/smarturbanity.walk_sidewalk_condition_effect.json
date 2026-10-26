@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.walk_sidewalk_condition_effect",
   "project": "SmartUrbanity",
   "key": "walk_sidewalk_condition_effect",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?",
         "answer_key": "walk_sidewalk_condition_effect",
+        "legacy_answer_keys": [
+          "v1_how_do_poor_sidewalk_conditions_e_g"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "I completely avoid streets with bad pavement, even if the trip takes longer",
             "value": "i_completely_avoid_streets_with_bad_pave"
           }
-        ],
-        "legacy_answer_keys": [
-          "v1_how_do_poor_sidewalk_conditions_e_g"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_6f9dd29cd416": {
+      "schema": {
+        "text": "How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?",
+        "answer_key": "walk_sidewalk_condition_effect",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "It does not affect my trip at all",
+            "value": "it_does_not_affect_my_trip_at_all"
+          },
+          {
+            "text": "I notice it but it does not significantly change my behaviour or comfort",
+            "value": "i_notice_it_but_it_does_not_significantl"
+          },
+          {
+            "text": "I continue on the same path but it makes me feel uncomfortable, stressed, or more tired",
+            "value": "i_continue_on_the_same_path_but_it_makes"
+          },
+          {
+            "text": "I swerve or switch to the other side of the road to avoid bad sections",
+            "value": "i_swerve_or_switch_to_the_other_side_of"
+          },
+          {
+            "text": "I completely avoid streets with bad pavement, even if the trip takes longer",
+            "value": "i_completely_avoid_streets_with_bad_pave"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?",
+          "#It does not affect my trip at all": "It does not affect my trip at all",
+          "#I notice it but it does not significantly change my behaviour or comfort": "I notice it but it does not significantly change my behaviour or comfort",
+          "#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "I continue on the same path but it makes me feel uncomfortable, stressed, or more tired",
+          "#I swerve or switch to the other side of the road to avoid bad sections": "I swerve or switch to the other side of the road to avoid bad sections",
+          "#I completely avoid streets with bad pavement, even if the trip takes longer": "I completely avoid streets with bad pavement, even if the trip takes longer"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "In che modo le cattive condizioni dei marciapiedi (ad es. buche, superfici irregolari o bordi deteriorati) influenzano il tuo spostamento?",
+          "#It does not affect my trip at all": "Non influiscono affatto sul mio spostamento",
+          "#I notice it but it does not significantly change my behaviour or comfort": "Me ne accorgo, ma non modificano significativamente il mio comportamento o il mio comfort",
+          "#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "Continuo sullo stesso percorso, ma mi fanno sentire a disagio, stressato/a o più stanco/a",
+          "#I swerve or switch to the other side of the road to avoid bad sections": "Devio o passo sull'altro lato della strada per evitare i tratti in cattive condizioni",
+          "#I completely avoid streets with bad pavement, even if the trip takes longer": "Evito completamente le strade con pavimentazione in cattive condizioni, anche se lo spostamento richiede più tempo"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "Comment le mauvais état des trottoirs, par exemple les trous, surfaces irrégulières ou bords abîmés, influence-t-il votre trajet ?",
+          "#It does not affect my trip at all": "Cela n’a aucun effet sur mon trajet",
+          "#I notice it but it does not significantly change my behaviour or comfort": "Je le remarque, mais cela ne change pas vraiment ma façon de marcher ni mon confort",
+          "#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "Je continue sur le même chemin, mais je me sens moins à l’aise, plus stressé(e) ou plus fatigué(e)",
+          "#I swerve or switch to the other side of the road to avoid bad sections": "Je fais un écart ou je passe de l’autre côté de la rue pour éviter les parties en mauvais état",
+          "#I completely avoid streets with bad pavement, even if the trip takes longer": "J’évite complètement les rues dont le revêtement est en mauvais état, même si mon trajet devient plus long"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "Wie beeinflusst ein schlechter Zustand der Gehwege, zum Beispiel Löcher, Unebenheiten oder bröckelnde Kanten, Ihren Weg?",
+          "#It does not affect my trip at all": "Das beeinflusst meinen Weg gar nicht",
+          "#I notice it but it does not significantly change my behaviour or comfort": "Ich bemerke es, aber es verändert mein Verhalten oder meinen Komfort kaum",
+          "#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "Ich bleibe auf demselben Weg, fühle mich aber unwohler, gestresster oder müder",
+          "#I swerve or switch to the other side of the road to avoid bad sections": "Ich weiche aus oder wechsle die Straßenseite, um schlechte Stellen zu vermeiden",
+          "#I completely avoid streets with bad pavement, even if the trip takes longer": "Ich meide Straßen mit schlechtem Belag ganz, auch wenn mein Weg dadurch länger wird"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "Kaldırımların kötü durumda olması, örneğin çukurlar, düzensiz yüzeyler veya kırık kenarlar, yolculuğunuzu nasıl etkiler?",
+          "#It does not affect my trip at all": "Yolculuğumu hiç etkilemez",
+          "#I notice it but it does not significantly change my behaviour or comfort": "Fark ederim ama davranışımı veya rahatlığımı önemli ölçüde değiştirmez",
+          "#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "Aynı yoldan devam ederim ama kendimi daha rahatsız, stresli veya yorgun hissederim",
+          "#I swerve or switch to the other side of the road to avoid bad sections": "Kötü bölümlerden kaçınmak için yönümü değiştirir veya yolun diğer tarafına geçerim",
+          "#I completely avoid streets with bad pavement, even if the trip takes longer": "Yolculuk daha uzun sürse bile kötü zeminli sokaklardan tamamen kaçınırım"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "وضعیت نامناسب پیاده‌رو، مانند چاله، ناهمواری یا لبه‌های خراب، چگونه بر سفر شما اثر می‌گذارد؟",
+          "#It does not affect my trip at all": "اصلاً بر سفرم اثر ندارد",
+          "#I notice it but it does not significantly change my behaviour or comfort": "متوجه می‌شوم، اما رفتار یا راحتی من را خیلی تغییر نمی‌دهد",
+          "#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "در همان مسیر ادامه می‌دهم، اما احساس ناراحتی، استرس یا خستگی بیشتری می‌کنم",
+          "#I swerve or switch to the other side of the road to avoid bad sections": "برای دوری از قسمت‌های بد، کمی منحرف می‌شوم یا به سمت دیگر خیابان می‌روم",
+          "#I completely avoid streets with bad pavement, even if the trip takes longer": "حتی اگر سفر طولانی‌تر شود، از خیابان‌های با کف نامناسب کاملاً دوری می‌کنم"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "Hogyan befolyásolja az utazását a járda rossz állapota, például lyukak, egyenetlen felület vagy töredezett szélek?",
+          "#It does not affect my trip at all": "Egyáltalán nem befolyásolja az utamat",
+          "#I notice it but it does not significantly change my behaviour or comfort": "Észreveszem, de nem változtatja meg jelentősen a viselkedésemet vagy a kényelmemet",
+          "#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "Ugyanazon az úton haladok tovább, de kényelmetlenebbül, stresszesebben vagy fáradtabban érzem magam",
+          "#I swerve or switch to the other side of the road to avoid bad sections": "Kikerülöm a rossz részeket vagy átmegyek az út másik oldalára",
+          "#I completely avoid streets with bad pavement, even if the trip takes longer": "Teljesen elkerülöm a rossz burkolatú utcákat, akkor is, ha így hosszabb az út"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#How do poor sidewalk conditions (e.g., holes, uneven surfaces, or crumbling edges) affect your journey?": "كيف تؤثر حالة الأرصفة السيئة، مثل الحفر أو الأسطح غير المستوية أو الحواف المتكسرة، في رحلتك؟",
+          "#It does not affect my trip at all": "لا تؤثر في رحلتي إطلاقًا",
+          "#I notice it but it does not significantly change my behaviour or comfort": "ألاحظها لكنها لا تغيّر سلوكي أو راحتي بشكل واضح",
+          "#I continue on the same path but it makes me feel uncomfortable, stressed, or more tired": "أواصل على الطريق نفسه لكنها تجعلني أقل راحة أو أكثر توترًا أو تعبًا",
+          "#I swerve or switch to the other side of the road to avoid bad sections": "أغيّر مساري قليلًا أو أعبر إلى الجهة الأخرى لتجنب الأجزاء السيئة",
+          "#I completely avoid streets with bad pavement, even if the trip takes longer": "أتجنب تمامًا الشوارع ذات الرصف السيئ حتى لو أصبحت الرحلة أطول"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

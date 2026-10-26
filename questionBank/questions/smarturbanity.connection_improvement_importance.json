@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.connection_improvement_importance",
   "project": "SmartUrbanity",
   "key": "connection_improvement_importance",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -118,6 +117,121 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_7c3b30c13046": {
+      "schema": {
+        "text": "How urgent is it to improve this place?",
+        "answer_key": "connection_improvement_importance",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Not urgent",
+            "value": "1_not_urgent"
+          },
+          {
+            "text": "Slightly urgent",
+            "value": "2_slightly_urgent"
+          },
+          {
+            "text": "Moderately urgent",
+            "value": "3_moderately_urgent"
+          },
+          {
+            "text": "Urgent",
+            "value": "4_urgent"
+          },
+          {
+            "text": "Very urgent",
+            "value": "5_very_urgent"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How urgent is it to improve this place?": "How urgent is it to improve this place?",
+          "#Not urgent": "Not urgent",
+          "#Slightly urgent": "Slightly urgent",
+          "#Moderately urgent": "Moderately urgent",
+          "#Urgent": "Urgent",
+          "#Very urgent": "Very urgent",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How urgent is it to improve this place?": "Quanto è urgente migliorare questo luogo?",
+          "#Not urgent": "Per niente urgente",
+          "#Slightly urgent": "Poco urgente",
+          "#Moderately urgent": "Abbastanza urgente",
+          "#Urgent": "Urgente",
+          "#Very urgent": "Molto urgente",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How urgent is it to improve this place?": "À quel point est-il urgent d'améliorer ce lieu ?",
+          "#Not urgent": "Pas urgent",
+          "#Slightly urgent": "Peu urgent",
+          "#Moderately urgent": "Modérément urgent",
+          "#Urgent": "Urgent",
+          "#Very urgent": "Très urgent",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How urgent is it to improve this place?": "Wie dringend ist es, diesen Ort zu verbessern?",
+          "#Not urgent": "Nicht dringend",
+          "#Slightly urgent": "Wenig dringend",
+          "#Moderately urgent": "Mäßig dringend",
+          "#Urgent": "Dringend",
+          "#Very urgent": "Sehr dringend",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How urgent is it to improve this place?": "Bu yeri iyileştirmek ne kadar acil?",
+          "#Not urgent": "Acil değil",
+          "#Slightly urgent": "Biraz acil",
+          "#Moderately urgent": "Orta derecede acil",
+          "#Urgent": "Acil",
+          "#Very urgent": "Çok acil",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How urgent is it to improve this place?": "بهبود این مکان چقدر فوری است؟",
+          "#Not urgent": "فوری نیست",
+          "#Slightly urgent": "کمی فوری",
+          "#Moderately urgent": "با فوریت متوسط",
+          "#Urgent": "فوری",
+          "#Very urgent": "بسیار فوری",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How urgent is it to improve this place?": "Mennyire sürgős ennek a helynek a javítása?",
+          "#Not urgent": "Nem sürgős",
+          "#Slightly urgent": "Kissé sürgős",
+          "#Moderately urgent": "Közepesen sürgős",
+          "#Urgent": "Sürgős",
+          "#Very urgent": "Nagyon sürgős",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How urgent is it to improve this place?": "ما مدى إلحاح تحسين هذا المكان؟",
+          "#Not urgent": "غير عاجل",
+          "#Slightly urgent": "عاجل قليلًا",
+          "#Moderately urgent": "متوسط الإلحاح",
+          "#Urgent": "عاجل",
+          "#Very urgent": "عاجل جدًا",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

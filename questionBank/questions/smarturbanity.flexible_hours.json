@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.flexible_hours",
   "project": "SmartUrbanity",
   "key": "flexible_hours",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_about_you",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
         "answer_key": "flexible_hours",
+        "legacy_answer_keys": [
+          "flexible_hours_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -33,9 +35,6 @@
             "text": "I am not currently employed",
             "value": "i_am_not_currently_employed"
           }
-        ],
-        "legacy_answer_keys": [
-          "flexible_hours_v1"
         ]
       },
       "translations": {
@@ -99,6 +98,115 @@
       "source_questionnaires": [
         "smarturbanity_about_you"
       ]
+    },
+    "reference_dca66b9c7a2b": {
+      "schema": {
+        "text": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
+        "answer_key": "flexible_hours",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "Somewhat (within a 1-2 hour window)",
+            "value": "somewhat_within_a_1_2_hour_window"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          },
+          {
+            "text": "I am not currently employed",
+            "value": "i_am_not_currently_employed"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Prefer not to say": "Prefer not to say",
+          "#Other": "Other",
+          "#Yes": "Yes",
+          "#No": "No",
+          "#I am not currently employed": "I am not currently employed",
+          "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Do you have flexible working hours (the ability to choose or adjust your start and finish times)?",
+          "#Somewhat (within a 1-2 hour window)": "Somewhat (within a 1-2 hour window)",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#Other": "Altro",
+          "#Yes": "Sì",
+          "#No": "No",
+          "#I am not currently employed": "Attualmente non lavoro",
+          "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Hai un orario di lavoro flessibile, cioè puoi scegliere o modificare l’orario di inizio e fine?",
+          "#Somewhat (within a 1-2 hour window)": "Parzialmente (entro una fascia di 1-2 ore)",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#Other": "Autre",
+          "#Yes": "Oui",
+          "#No": "Non",
+          "#I am not currently employed": "Je ne travaille pas actuellement",
+          "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Avez-vous des horaires de travail flexibles, c’est-à-dire pouvez-vous choisir ou modifier vos heures de début et de fin ?",
+          "#Somewhat (within a 1-2 hour window)": "En partie (avec une marge de 1 à 2 heures)",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#Other": "Anderes",
+          "#Yes": "Ja",
+          "#No": "Nein",
+          "#I am not currently employed": "Ich bin derzeit nicht berufstätig",
+          "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Haben Sie flexible Arbeitszeiten, also können Sie Beginn und Ende Ihrer Arbeitszeit selbst wählen oder anpassen?",
+          "#Somewhat (within a 1-2 hour window)": "Teilweise (innerhalb eines Zeitfensters von 1-2 Stunden)",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#Other": "Diğer",
+          "#Yes": "Evet",
+          "#No": "Hayır",
+          "#I am not currently employed": "Şu anda çalışmıyorum",
+          "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Esnek çalışma saatleriniz var mı? Yani işe başlama ve bitiş saatlerinizi seçebiliyor veya değiştirebiliyor musunuz?",
+          "#Somewhat (within a 1-2 hour window)": "Kısmen (1-2 saatlik bir esneklik içinde)",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#Other": "سایر",
+          "#Yes": "بله",
+          "#No": "خیر",
+          "#I am not currently employed": "در حال حاضر شاغل نیستم",
+          "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "آیا ساعت کاری انعطاف‌پذیر دارید، یعنی می‌توانید زمان شروع و پایان کار را انتخاب یا تنظیم کنید؟",
+          "#Somewhat (within a 1-2 hour window)": "تا حدی (در بازه ۱ تا ۲ ساعت)",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#Other": "Egyéb",
+          "#Yes": "Igen",
+          "#No": "Nem",
+          "#I am not currently employed": "Jelenleg nem dolgozom",
+          "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "Rugalmas a munkaideje, vagyis megválaszthatja vagy módosíthatja a munkakezdés és a munka befejezésének idejét?",
+          "#Somewhat (within a 1-2 hour window)": "Részben (1-2 órás mozgástérrel)",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#Other": "آخر",
+          "#Yes": "نعم",
+          "#No": "لا",
+          "#I am not currently employed": "لا أعمل حاليًا",
+          "#Do you have flexible working hours (the ability to choose or adjust your start and finish times)?": "هل لديك ساعات عمل مرنة، أي يمكنك اختيار أو تعديل وقت بدء العمل وانتهائه؟",
+          "#Somewhat (within a 1-2 hour window)": "إلى حد ما (ضمن هامش 1-2 ساعة)",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

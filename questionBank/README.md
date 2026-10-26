@@ -24,7 +24,14 @@ moved into this pool.
 
 The infrastructure branch preserves the active baseline question wording and
 answers from SmartUrbanity configuration revision `769e4af`. Proposed editorial
-variants are a separate change on `lory/question-pool-content`.
+variants are a separate change on `lory/question-pool-content`. This branch
+contains those original proposals from configuration revision `7cce541`;
+the baseline is preserved on `lory/question-pool-infrastructure`.
+
+`source.json` records the full source revision, canonical paths and SHA-256 of
+each source file's UTF-8 Git content with LF line endings. Use Git blob content
+or normalize CRLF when checking these digests on Windows. IDs and source hashes
+allow verification of every migrated definition before retiring an old owner.
 
 Before accepting changes, validate every JSON file, unique IDs, canonical file
 names, index/feed equality, and references when compiling a consuming project's

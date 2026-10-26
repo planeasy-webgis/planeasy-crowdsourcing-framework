@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.pt_image_v1",
   "project": "SmartUrbanity",
   "key": "pt_image_v1",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_public_transport",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_public_transport"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -108,6 +107,119 @@
       "source_questionnaires": [
         "smarturbanity_public_transport"
       ]
+    },
+    "reference_712c9952772d": {
+      "schema": {
+        "text": "To what extent does using public transport affect your sense of social comfort or personal image?",
+        "answer_key": "pt_image_v1",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "I would rather not be seen using public transport",
+            "value": "i_would_rather_not_be_seen_using_public"
+          },
+          {
+            "text": "I sometimes feel uncomfortable using public transport in certain social situations",
+            "value": "i_sometimes_feel_uncomfortable_using_pub"
+          },
+          {
+            "text": "I occasionally feel out of place or self-conscious when using this service in certain social situations",
+            "value": "i_occasionally_feel_out_of_place_or_self"
+          },
+          {
+            "text": "I don't feel that my choice of transport has any connection to my social standing or identity",
+            "value": "i_don_t_feel_that_my_choice_of_transport"
+          },
+          {
+            "text": "I feel comfortable and confident using this mode of transport in social settings",
+            "value": "i_feel_comfortable_and_confident_using_t"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#I don't know": "I don't know",
+          "#Other": "Other",
+          "#To what extent does using public transport affect your sense of social comfort or personal image?": "To what extent does using public transport affect your sense of social comfort or personal image?",
+          "#I would rather not be seen using public transport": "I would rather not be seen using public transport",
+          "#I sometimes feel uncomfortable using public transport in certain social situations": "I sometimes feel uncomfortable using public transport in certain social situations",
+          "#I occasionally feel out of place or self-conscious when using this service in certain social situations": "I occasionally feel out of place or self-conscious when using this service in certain social situations",
+          "#I don't feel that my choice of transport has any connection to my social standing or identity": "I don't feel that my choice of transport has any connection to my social standing or identity",
+          "#I feel comfortable and confident using this mode of transport in social settings": "I feel comfortable and confident using this mode of transport in social settings"
+        },
+        "it": {
+          "#I don't know": "Non lo so",
+          "#Other": "Altro",
+          "#To what extent does using public transport affect your sense of social comfort or personal image?": "In che misura l'utilizzo del trasporto pubblico influisce sul tuo comfort sociale o sulla tua immagine personale?",
+          "#I would rather not be seen using public transport": "Preferirei non essere visto/a mentre utilizzo il trasporto pubblico",
+          "#I sometimes feel uncomfortable using public transport in certain social situations": "A volte mi sento a disagio nell'utilizzare il trasporto pubblico in determinate situazioni sociali",
+          "#I occasionally feel out of place or self-conscious when using this service in certain social situations": "Occasionalmente mi sento fuori posto o a disagio nell'utilizzare questo servizio in determinate situazioni sociali",
+          "#I don't feel that my choice of transport has any connection to my social standing or identity": "Non ritengo che la mia scelta del mezzo di trasporto abbia alcun legame con la mia posizione sociale o la mia identità",
+          "#I feel comfortable and confident using this mode of transport in social settings": "Mi sento a mio agio e sicuro/a nell'utilizzare questa modalità di trasporto in contesti sociali"
+        },
+        "fr": {
+          "#I don't know": "Je ne sais pas",
+          "#Other": "Autre",
+          "#To what extent does using public transport affect your sense of social comfort or personal image?": "Dans quelle mesure l’utilisation des transports publics influence-t-elle votre aisance dans les situations sociales ou l’image que vous avez de vous-même ?",
+          "#I would rather not be seen using public transport": "Je préférerais que les autres ne me voient pas utiliser les transports publics",
+          "#I sometimes feel uncomfortable using public transport in certain social situations": "Je me sens parfois mal à l’aise d’utiliser les transports publics dans certaines situations sociales",
+          "#I occasionally feel out of place or self-conscious when using this service in certain social situations": "Dans certaines situations sociales, il m’arrive de me sentir déplacé(e) ou gêné(e) lorsque j’utilise ce service",
+          "#I don't feel that my choice of transport has any connection to my social standing or identity": "Je ne pense pas que mon choix de transport soit lié à mon statut social ou à mon identité",
+          "#I feel comfortable and confident using this mode of transport in social settings": "Je me sens à l’aise et en confiance lorsque j’utilise ce mode de transport dans des situations sociales"
+        },
+        "de": {
+          "#I don't know": "Ich weiß es nicht",
+          "#Other": "Anderes",
+          "#To what extent does using public transport affect your sense of social comfort or personal image?": "Wie stark beeinflusst die Nutzung öffentlicher Verkehrsmittel Ihr Wohlbefinden in sozialen Situationen oder Ihr persönliches Selbstbild?",
+          "#I would rather not be seen using public transport": "Ich würde lieber nicht dabei gesehen werden, öffentliche Verkehrsmittel zu nutzen",
+          "#I sometimes feel uncomfortable using public transport in certain social situations": "In manchen sozialen Situationen fühle ich mich bei der Nutzung öffentlicher Verkehrsmittel unwohl",
+          "#I occasionally feel out of place or self-conscious when using this service in certain social situations": "In manchen sozialen Situationen fühle ich mich bei der Nutzung dieses Angebots fehl am Platz oder beobachtet",
+          "#I don't feel that my choice of transport has any connection to my social standing or identity": "Ich sehe keinen Zusammenhang zwischen meiner Verkehrsmittelwahl und meinem sozialen Status oder meiner Identität",
+          "#I feel comfortable and confident using this mode of transport in social settings": "Ich fühle mich wohl und sicher, wenn ich dieses Verkehrsmittel in sozialen Situationen nutze"
+        },
+        "tr": {
+          "#I don't know": "Bilmiyorum",
+          "#Other": "Diğer",
+          "#To what extent does using public transport affect your sense of social comfort or personal image?": "Toplu taşıma kullanmak sosyal ortamlarda rahatlık hissinizi veya kendinizle ilgili algınızı ne ölçüde etkiler?",
+          "#I would rather not be seen using public transport": "Toplu taşıma kullanırken başkalarının beni görmemesini tercih ederim",
+          "#I sometimes feel uncomfortable using public transport in certain social situations": "Bazı sosyal durumlarda toplu taşıma kullanırken kendimi rahatsız hissederim",
+          "#I occasionally feel out of place or self-conscious when using this service in certain social situations": "Bazı sosyal durumlarda bu hizmeti kullanırken kendimi ait değilmiş veya fazla dikkat çekiyormuş gibi hissederim",
+          "#I don't feel that my choice of transport has any connection to my social standing or identity": "Ulaşım tercihim ile sosyal statüm veya kimliğim arasında bir bağlantı olduğunu düşünmüyorum",
+          "#I feel comfortable and confident using this mode of transport in social settings": "Sosyal ortamlarda bu ulaşım seçeneğini kullanırken kendimi rahat ve güvende hissederim"
+        },
+        "fa": {
+          "#I don't know": "نمی‌دانم",
+          "#Other": "سایر",
+          "#To what extent does using public transport affect your sense of social comfort or personal image?": "استفاده از حمل‌ونقل عمومی تا چه اندازه بر احساس راحتی شما در موقعیت‌های اجتماعی یا برداشت شما از خودتان اثر می‌گذارد؟",
+          "#I would rather not be seen using public transport": "ترجیح می‌دهم دیگران مرا هنگام استفاده از حمل‌ونقل عمومی نبینند",
+          "#I sometimes feel uncomfortable using public transport in certain social situations": "در بعضی موقعیت‌های اجتماعی هنگام استفاده از حمل‌ونقل عمومی احساس ناراحتی می‌کنم",
+          "#I occasionally feel out of place or self-conscious when using this service in certain social situations": "در بعضی موقعیت‌های اجتماعی هنگام استفاده از این سرویس احساس می‌کنم به آن محیط تعلق ندارم یا بیش از حد مورد توجه هستم",
+          "#I don't feel that my choice of transport has any connection to my social standing or identity": "فکر نمی‌کنم انتخاب وسیله رفت‌وآمد من ارتباطی با جایگاه اجتماعی یا هویتم داشته باشد",
+          "#I feel comfortable and confident using this mode of transport in social settings": "در موقعیت‌های اجتماعی هنگام استفاده از این روش رفت‌وآمد احساس راحتی و اطمینان می‌کنم"
+        },
+        "hu": {
+          "#I don't know": "Nem tudom",
+          "#Other": "Egyéb",
+          "#To what extent does using public transport affect your sense of social comfort or personal image?": "Mennyire befolyásolja a tömegközlekedés használata, hogy mennyire érzi magát kényelmesen társas helyzetekben vagy hogyan látja saját magát?",
+          "#I would rather not be seen using public transport": "Inkább nem szeretném, ha mások látnák, hogy tömegközlekedést használok",
+          "#I sometimes feel uncomfortable using public transport in certain social situations": "Bizonyos társas helyzetekben kellemetlenül érzem magam a tömegközlekedés használata miatt",
+          "#I occasionally feel out of place or self-conscious when using this service in certain social situations": "Bizonyos társas helyzetekben néha úgy érzem, hogy nem illeszkedem oda, vagy túlzottan figyelnek rám",
+          "#I don't feel that my choice of transport has any connection to my social standing or identity": "Nem érzem úgy, hogy a közlekedési módom összefüggne a társadalmi helyzetemmel vagy az identitásommal",
+          "#I feel comfortable and confident using this mode of transport in social settings": "Társas helyzetekben is kényelmesen és magabiztosan használom ezt a közlekedési módot"
+        },
+        "ar": {
+          "#I don't know": "لا أعرف",
+          "#Other": "أخرى",
+          "#To what extent does using public transport affect your sense of social comfort or personal image?": "إلى أي مدى يؤثر استخدام النقل العام في شعورك بالراحة في المواقف الاجتماعية أو في نظرتك إلى نفسك؟",
+          "#I would rather not be seen using public transport": "أفضل ألا يراني الآخرون وأنا أستخدم النقل العام",
+          "#I sometimes feel uncomfortable using public transport in certain social situations": "أشعر أحيانًا بعدم الراحة عند استخدام النقل العام في بعض المواقف الاجتماعية",
+          "#I occasionally feel out of place or self-conscious when using this service in certain social situations": "أشعر أحيانًا بأنني غير منسجم مع المكان أو أنني ملفت للانتباه عند استخدام هذه الخدمة في بعض المواقف الاجتماعية",
+          "#I don't feel that my choice of transport has any connection to my social standing or identity": "لا أشعر أن اختياري لوسيلة النقل مرتبط بمكانتي الاجتماعية أو هويتي",
+          "#I feel comfortable and confident using this mode of transport in social settings": "أشعر بالراحة والثقة عند استخدام هذه الوسيلة في المواقف الاجتماعية"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

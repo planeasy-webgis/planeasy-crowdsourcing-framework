@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.connection_use_frequency",
   "project": "SmartUrbanity",
   "key": "connection_use_frequency",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -121,6 +120,132 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_bd6ca06083c9": {
+      "schema": {
+        "text": "How often do you use this place?",
+        "answer_key": "connection_use_frequency",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "This is my first time",
+            "value": "1_first_time"
+          },
+          {
+            "text": "Less than once a month",
+            "value": "2_less_than_monthly"
+          },
+          {
+            "text": "A few times a month",
+            "value": "3_monthly"
+          },
+          {
+            "text": "A few times a week",
+            "value": "4_weekly"
+          },
+          {
+            "text": "Almost every day",
+            "value": "5_daily"
+          },
+          {
+            "text": "I avoid it or have stopped using it",
+            "value": "avoid_or_stopped"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How often do you use this place?": "How often do you use this place?",
+          "#This is my first time": "This is my first time",
+          "#Less than once a month": "Less than once a month",
+          "#A few times a month": "A few times a month",
+          "#A few times a week": "A few times a week",
+          "#Almost every day": "Almost every day",
+          "#I avoid it or have stopped using it": "I avoid it or have stopped using it",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How often do you use this place?": "Quanto spesso passi da questo luogo?",
+          "#This is my first time": "È la prima volta",
+          "#Less than once a month": "Meno di una volta al mese",
+          "#A few times a month": "Alcune volte al mese",
+          "#A few times a week": "Alcune volte a settimana",
+          "#Almost every day": "Quasi ogni giorno",
+          "#I avoid it or have stopped using it": "Lo evito o ho smesso di usarlo",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How often do you use this place?": "À quelle fréquence passez-vous par ce lieu ?",
+          "#This is my first time": "C’est la première fois",
+          "#Less than once a month": "Moins d’une fois par mois",
+          "#A few times a month": "Quelques fois par mois",
+          "#A few times a week": "Quelques fois par semaine",
+          "#Almost every day": "Presque tous les jours",
+          "#I avoid it or have stopped using it": "Je l'évite ou j'ai cessé de l'utiliser",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How often do you use this place?": "Wie oft nutzen Sie diesen Ort?",
+          "#This is my first time": "Das ist mein erstes Mal",
+          "#Less than once a month": "Weniger als einmal im Monat",
+          "#A few times a month": "Einige Male im Monat",
+          "#A few times a week": "Einige Male pro Woche",
+          "#Almost every day": "Fast jeden Tag",
+          "#I avoid it or have stopped using it": "Ich meide diesen Ort oder nutze ihn nicht mehr",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How often do you use this place?": "Bu yeri ne sıklıkla kullanıyorsunuz?",
+          "#This is my first time": "Burayı ilk kez kullanıyorum",
+          "#Less than once a month": "Ayda birden az",
+          "#A few times a month": "Ayda birkaç kez",
+          "#A few times a week": "Haftada birkaç kez",
+          "#Almost every day": "Neredeyse her gün",
+          "#I avoid it or have stopped using it": "Buradan kaçınıyorum veya kullanmayı bıraktım",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How often do you use this place?": "هر چند وقت یک‌بار از این مکان استفاده می‌کنید؟",
+          "#This is my first time": "این نخستین بار من است",
+          "#Less than once a month": "کمتر از ماهی یک‌بار",
+          "#A few times a month": "چند بار در ماه",
+          "#A few times a week": "چند بار در هفته",
+          "#Almost every day": "تقریباً هر روز",
+          "#I avoid it or have stopped using it": "از آن دوری می‌کنم یا دیگر از آن استفاده نمی‌کنم",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How often do you use this place?": "Milyen gyakran használja ezt a helyet?",
+          "#This is my first time": "Most járok itt először",
+          "#Less than once a month": "Havonta ritkábban mint egyszer",
+          "#A few times a month": "Havonta néhányszor",
+          "#A few times a week": "Hetente néhányszor",
+          "#Almost every day": "Szinte minden nap",
+          "#I avoid it or have stopped using it": "Elkerülöm, vagy már nem használom",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How often do you use this place?": "كم مرة تستخدم هذا المكان؟",
+          "#This is my first time": "هذه مرتي الأولى",
+          "#Less than once a month": "أقل من مرة في الشهر",
+          "#A few times a month": "بضع مرات في الشهر",
+          "#A few times a week": "بضع مرات في الأسبوع",
+          "#Almost every day": "كل يوم تقريبًا",
+          "#I avoid it or have stopped using it": "أتجنبه أو توقفت عن استخدامه",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

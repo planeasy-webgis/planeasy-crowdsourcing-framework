@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.crowding_frequency",
   "project": "SmartUrbanity",
   "key": "crowding_frequency",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_segment_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -118,6 +117,121 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_52f6701d2a38": {
+      "schema": {
+        "text": "How often does this segment feel too crowded?",
+        "answer_key": "crowding_frequency",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Never or almost never",
+            "value": "1_never"
+          },
+          {
+            "text": "Rarely",
+            "value": "2_rarely"
+          },
+          {
+            "text": "Sometimes",
+            "value": "3_sometimes"
+          },
+          {
+            "text": "Often",
+            "value": "4_often"
+          },
+          {
+            "text": "Very often",
+            "value": "5_very_often"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Never or almost never": "Never or almost never",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#Often": "Often",
+          "#Very often": "Very often",
+          "#How often does this segment feel too crowded?": "How often does this segment feel too crowded?",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Never or almost never": "Mai o quasi mai",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#Often": "Spesso",
+          "#Very often": "Molto spesso",
+          "#How often does this segment feel too crowded?": "Quanto spesso questo tratto ti sembra troppo affollato?",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Never or almost never": "Jamais ou presque jamais",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#Often": "Souvent",
+          "#Very often": "Très souvent",
+          "#How often does this segment feel too crowded?": "À quelle fréquence ce tronçon vous semble-t-il trop encombré ?",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Never or almost never": "Nie oder fast nie",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#Often": "Oft",
+          "#Very often": "Sehr oft",
+          "#How often does this segment feel too crowded?": "Wie oft fühlt sich dieser Abschnitt zu voll an?",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Never or almost never": "Hiçbir zaman veya neredeyse hiçbir zaman",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#Often": "Sık sık",
+          "#Very often": "Çok sık",
+          "#How often does this segment feel too crowded?": "Bu kesim ne sıklıkla fazla kalabalık geliyor?",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Never or almost never": "هرگز یا تقریباً هرگز",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#Often": "اغلب",
+          "#Very often": "بسیار اغلب",
+          "#How often does this segment feel too crowded?": "این بخش هر چند وقت یک‌بار بیش از حد شلوغ به نظر می‌رسد؟",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Never or almost never": "Soha vagy szinte soha",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#Often": "Gyakran",
+          "#Very often": "Nagyon gyakran",
+          "#How often does this segment feel too crowded?": "Milyen gyakran tűnik ez a szakasz túl zsúfoltnak?",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Never or almost never": "أبدًا أو نادرًا جدًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#Often": "غالبًا",
+          "#Very often": "غالبًا جدًا",
+          "#How often does this segment feel too crowded?": "كم مرة يبدو هذا المقطع مزدحمًا أكثر من اللازم؟",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

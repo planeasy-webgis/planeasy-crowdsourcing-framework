@@ -2,15 +2,14 @@
   "question_id": "smarturbanity.assessment_perspective",
   "project": "SmartUrbanity",
   "key": "assessment_perspective",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "first_source_in_current_inventory_unverified",
   "source_questionnaires": [
     "street_connection_assessment",
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -75,6 +74,84 @@
         "street_connection_assessment",
         "street_segment_assessment"
       ]
+    },
+    "reference_ab2b40d725bc": {
+      "schema": {
+        "text": "How do you move through this place? You can choose both answers.",
+        "answer_key": "assessment_perspective",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Person walking or rolling (also with a stroller, cane, walker or wheelchair)",
+            "value": "pedestrian"
+          },
+          {
+            "text": "Person cycling or riding an e-scooter",
+            "value": "cyclist"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How do you move through this place? You can choose both answers.": "How do you move through this place? You can choose both answers.",
+          "#Person walking or rolling (also with a stroller, cane, walker or wheelchair)": "Person walking or rolling (also with a stroller, cane, walker or wheelchair)",
+          "#Person cycling or riding an e-scooter": "Person cycling or riding an e-scooter",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How do you move through this place? You can choose both answers.": "Come ti sposti in questo luogo? Puoi scegliere entrambe le risposte.",
+          "#Person walking or rolling (also with a stroller, cane, walker or wheelchair)": "Persona a piedi (anche con passeggino, bastone, deambulatore o sedia a rotelle)",
+          "#Person cycling or riding an e-scooter": "Persona in bicicletta o in monopattino",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How do you move through this place? You can choose both answers.": "Comment vous déplacez-vous dans ce lieu ? Vous pouvez choisir les deux réponses.",
+          "#Person walking or rolling (also with a stroller, cane, walker or wheelchair)": "Personne à pied (y compris avec une poussette, une canne, un déambulateur ou un fauteuil roulant)",
+          "#Person cycling or riding an e-scooter": "Personne à vélo ou en trottinette électrique",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How do you move through this place? You can choose both answers.": "Wie bewegen Sie sich an diesem Ort? Sie können beide Antworten wählen.",
+          "#Person walking or rolling (also with a stroller, cane, walker or wheelchair)": "Person zu Fuß (auch mit Kinderwagen, Gehstock, Rollator oder Rollstuhl)",
+          "#Person cycling or riding an e-scooter": "Person mit dem Fahrrad oder E-Scooter",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How do you move through this place? You can choose both answers.": "Bu yerde nasıl hareket ediyorsunuz? Her iki yanıtı da seçebilirsiniz.",
+          "#Person walking or rolling (also with a stroller, cane, walker or wheelchair)": "Yürüyen kişi (bebek arabası, baston, yürüteç veya tekerlekli sandalye ile de)",
+          "#Person cycling or riding an e-scooter": "Bisiklet veya elektrikli scooter kullanan kişi",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How do you move through this place? You can choose both answers.": "در این مکان چگونه جابه‌جا می‌شوید؟ می‌توانید هر دو پاسخ را انتخاب کنید.",
+          "#Person walking or rolling (also with a stroller, cane, walker or wheelchair)": "فرد پیاده (همچنین با کالسکه، عصا، واکر یا ویلچر)",
+          "#Person cycling or riding an e-scooter": "فرد دوچرخه‌سوار یا سوار بر اسکوتر برقی",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How do you move through this place? You can choose both answers.": "Hogyan közlekedik ezen a helyen? Mindkét választ megjelölheti.",
+          "#Person walking or rolling (also with a stroller, cane, walker or wheelchair)": "Gyalogos (babakocsival, bottal, járókerettel vagy kerekesszékkel is)",
+          "#Person cycling or riding an e-scooter": "Kerékpárral vagy elektromos rollerrel közlekedő személy",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How do you move through this place? You can choose both answers.": "كيف تتنقل في هذا المكان؟ يمكنك اختيار الإجابتين معًا.",
+          "#Person walking or rolling (also with a stroller, cane, walker or wheelchair)": "شخص يمشي (بما في ذلك مع عربة أطفال أو عصا أو مشاية أو كرسي متحرك)",
+          "#Person cycling or riding an e-scooter": "شخص يركب دراجة هوائية أو سكوترًا كهربائيًا",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

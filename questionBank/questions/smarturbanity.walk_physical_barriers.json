@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.walk_physical_barriers",
   "project": "SmartUrbanity",
   "key": "walk_physical_barriers",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_walking",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "Which of the following physical barriers do you face on your walking route? (Select all that apply)",
         "answer_key": "walk_physical_barriers",
+        "legacy_answer_keys": [
+          "v1_which_of_the_following_physical_barr"
+        ],
         "question_type": "multiple_options",
         "options": [
           {
@@ -50,10 +52,7 @@
             "value": "i_don_t_face_any_physical_barrier"
           }
         ],
-        "add_other": true,
-        "legacy_answer_keys": [
-          "v1_which_of_the_following_physical_barr"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -156,6 +155,148 @@
       "source_questionnaires": [
         "smarturbanity_walking"
       ]
+    },
+    "reference_a9446c8e2c18": {
+      "schema": {
+        "text": "Which of the following physical barriers do you face on your walking route? (Select all that apply)",
+        "answer_key": "walk_physical_barriers",
+        "question_type": "multiple_options",
+        "options": [
+          {
+            "text": "Steps or steep curbs without ramps",
+            "value": "steps_or_steep_curbs_without_ramps"
+          },
+          {
+            "text": "Missing or broken dropped kerbs at crossings",
+            "value": "missing_or_broken_dropped_kerbs_at_cross"
+          },
+          {
+            "text": "Paths too narrow for a wheelchair, stroller, or two people to pass",
+            "value": "paths_too_narrow_for_a_wheelchair_stroll"
+          },
+          {
+            "text": "Uneven paving, holes, or soft ground (grass or gravel)",
+            "value": "uneven_paving_holes_or_soft_ground_grass"
+          },
+          {
+            "text": "Parked cars, trash bins, or construction signs blocking the path",
+            "value": "parked_cars_trash_bins_or_construction_s"
+          },
+          {
+            "text": "Overhanging branches or bushes narrowing the usable space",
+            "value": "overhanging_branches_or_bushes_narrowing"
+          },
+          {
+            "text": "Missing or broken tactile paving (for visually impaired users)",
+            "value": "missing_or_broken_tactile_paving_for_vis"
+          },
+          {
+            "text": "I don't face any physical barrier",
+            "value": "i_don_t_face_any_physical_barrier"
+          }
+        ],
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "Which of the following physical barriers do you face on your walking route? (Select all that apply)",
+          "#Steps or steep curbs without ramps": "Steps or steep curbs without ramps",
+          "#Missing or broken dropped kerbs at crossings": "Missing or broken dropped kerbs at crossings",
+          "#Paths too narrow for a wheelchair, stroller, or two people to pass": "Paths too narrow for a wheelchair, stroller, or two people to pass",
+          "#Uneven paving, holes, or soft ground (grass or gravel)": "Uneven paving, holes, or soft ground (grass or gravel)",
+          "#Parked cars, trash bins, or construction signs blocking the path": "Parked cars, trash bins, or construction signs blocking the path",
+          "#Overhanging branches or bushes narrowing the usable space": "Overhanging branches or bushes narrowing the usable space",
+          "#Missing or broken tactile paving (for visually impaired users)": "Missing or broken tactile paving (for visually impaired users)",
+          "#I don't face any physical barrier": "I don't face any physical barrier",
+          "#Other": "Other"
+        },
+        "it": {
+          "#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "Quali dei seguenti ostacoli fisici incontri lungo il tuo percorso a piedi? (Seleziona tutte le opzioni applicabili)",
+          "#Steps or steep curbs without ramps": "Gradini o marciapiedi con bordi alti senza rampe",
+          "#Missing or broken dropped kerbs at crossings": "Scivoli del marciapiede mancanti o danneggiati agli attraversamenti",
+          "#Paths too narrow for a wheelchair, stroller, or two people to pass": "Percorsi troppo stretti per il passaggio di una sedia a rotelle, un passeggino o due persone",
+          "#Uneven paving, holes, or soft ground (grass or gravel)": "Pavimentazione irregolare, buche o terreno morbido (erba o ghiaia)",
+          "#Parked cars, trash bins, or construction signs blocking the path": "Auto parcheggiate, cassonetti o segnali di cantiere che bloccano il percorso",
+          "#Overhanging branches or bushes narrowing the usable space": "Rami sporgenti o cespugli che restringono lo spazio utilizzabile",
+          "#Missing or broken tactile paving (for visually impaired users)": "Pavimentazione tattile mancante o danneggiata (per utenti con disabilità visive)",
+          "#I don't face any physical barrier": "Non incontro alcun ostacolo fisico",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "Quels obstacles physiques rencontrez-vous sur vos trajets à pied ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#Steps or steep curbs without ramps": "Marches ou bordures hautes sans rampe",
+          "#Missing or broken dropped kerbs at crossings": "Bordures abaissées absentes ou endommagées aux traversées",
+          "#Paths too narrow for a wheelchair, stroller, or two people to pass": "Chemins trop étroits pour un fauteuil roulant, une poussette ou le passage de deux personnes",
+          "#Uneven paving, holes, or soft ground (grass or gravel)": "Sol irrégulier, trous ou terrain meuble (herbe ou gravier)",
+          "#Parked cars, trash bins, or construction signs blocking the path": "Voitures garées, poubelles ou panneaux de chantier qui bloquent le passage",
+          "#Overhanging branches or bushes narrowing the usable space": "Branches ou buissons qui réduisent l’espace disponible",
+          "#Missing or broken tactile paving (for visually impaired users)": "Bandes tactiles absentes ou endommagées pour les personnes malvoyantes",
+          "#I don't face any physical barrier": "Je ne rencontre aucun obstacle physique",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "Welche körperlichen oder baulichen Hindernisse begegnen Ihnen auf Ihren Wegen zu Fuß? (Wählen Sie alles Zutreffende aus)",
+          "#Steps or steep curbs without ramps": "Stufen oder hohe Bordsteine ohne Rampe",
+          "#Missing or broken dropped kerbs at crossings": "Fehlende oder beschädigte abgesenkte Bordsteine an Querungen",
+          "#Paths too narrow for a wheelchair, stroller, or two people to pass": "Wege, die zu schmal für Rollstuhl, Kinderwagen oder zwei Personen nebeneinander sind",
+          "#Uneven paving, holes, or soft ground (grass or gravel)": "Unebener Belag, Löcher oder weicher Untergrund (Gras oder Kies)",
+          "#Parked cars, trash bins, or construction signs blocking the path": "Geparkte Autos, Mülltonnen oder Baustellenschilder, die den Weg blockieren",
+          "#Overhanging branches or bushes narrowing the usable space": "Überhängende Äste oder Büsche, die den nutzbaren Raum einschränken",
+          "#Missing or broken tactile paving (for visually impaired users)": "Fehlende oder beschädigte taktile Bodenmarkierungen für sehbehinderte Menschen",
+          "#I don't face any physical barrier": "Ich habe keine solchen körperlichen Hindernisse",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "Yürüdüğünüz güzergâhlarda aşağıdaki fiziksel engellerden hangileriyle karşılaşıyorsunuz? (Uygun olanların tümünü seçin)",
+          "#Steps or steep curbs without ramps": "Rampa olmayan basamaklar veya yüksek kaldırımlar",
+          "#Missing or broken dropped kerbs at crossings": "Geçişlerde eksik veya bozuk alçaltılmış kaldırım kenarları",
+          "#Paths too narrow for a wheelchair, stroller, or two people to pass": "Tekerlekli sandalye, bebek arabası veya iki kişinin yan yana geçmesi için çok dar yollar",
+          "#Uneven paving, holes, or soft ground (grass or gravel)": "Düzensiz zemin, çukurlar veya yumuşak yüzeyler (çim veya çakıl)",
+          "#Parked cars, trash bins, or construction signs blocking the path": "Yolu kapatan park etmiş araçlar, çöp kutuları veya inşaat tabelaları",
+          "#Overhanging branches or bushes narrowing the usable space": "Kullanılabilir alanı daraltan sarkan dallar veya çalılar",
+          "#Missing or broken tactile paving (for visually impaired users)": "Görme engelli kişiler için eksik veya bozuk hissedilebilir yüzeyler",
+          "#I don't face any physical barrier": "Herhangi bir fiziksel engelle karşılaşmıyorum",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "در مسیرهای پیاده‌روی با کدام موانع فیزیکی روبه‌رو می‌شوید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+          "#Steps or steep curbs without ramps": "پله یا جدول بلند بدون رمپ",
+          "#Missing or broken dropped kerbs at crossings": "نبود یا خرابی جدول کوتاه‌شده در محل عبور",
+          "#Paths too narrow for a wheelchair, stroller, or two people to pass": "مسیرهایی که برای ویلچر، کالسکه یا عبور دو نفر در کنار هم خیلی باریک‌اند",
+          "#Uneven paving, holes, or soft ground (grass or gravel)": "کف ناهموار، چاله یا سطح نرم (چمن یا شن)",
+          "#Parked cars, trash bins, or construction signs blocking the path": "خودروهای پارک‌شده، سطل زباله یا تابلوهای کارگاهی که مسیر را می‌بندند",
+          "#Overhanging branches or bushes narrowing the usable space": "شاخه یا بوته‌ای که فضای قابل استفاده را کم می‌کند",
+          "#Missing or broken tactile paving (for visually impaired users)": "نبود یا خرابی کفپوش برجسته برای افراد کم‌بینا",
+          "#I don't face any physical barrier": "با هیچ مانع فیزیکی روبه‌رو نمی‌شوم",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "Milyen fizikai akadályokkal találkozik gyalogos útvonalán? (Jelölje meg az összes megfelelőt)",
+          "#Steps or steep curbs without ramps": "Lépcsők vagy magas szegélyek rámpa nélkül",
+          "#Missing or broken dropped kerbs at crossings": "Hiányzó vagy sérült lesüllyesztett járdaszegélyek az átkelőknél",
+          "#Paths too narrow for a wheelchair, stroller, or two people to pass": "Túl keskeny utak kerekesszékhez, babakocsihoz vagy két ember egymás melletti elhaladásához",
+          "#Uneven paving, holes, or soft ground (grass or gravel)": "Egyenetlen burkolat, lyukak vagy puha talaj (fű vagy kavics)",
+          "#Parked cars, trash bins, or construction signs blocking the path": "Az utat elzáró parkoló autók, kukák vagy építési táblák",
+          "#Overhanging branches or bushes narrowing the usable space": "Belógó ágak vagy bokrok, amelyek szűkítik a használható teret",
+          "#Missing or broken tactile paving (for visually impaired users)": "Hiányzó vagy sérült taktilis burkolat látássérült emberek számára",
+          "#I don't face any physical barrier": "Nem találkozom fizikai akadállyal",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#Which of the following physical barriers do you face on your walking route? (Select all that apply)": "ما العوائق المادية التي تواجهها على طريقك أثناء المشي؟ (اختر كل ما ينطبق)",
+          "#Steps or steep curbs without ramps": "درجات أو حواف مرتفعة من دون منحدر",
+          "#Missing or broken dropped kerbs at crossings": "غياب أو تلف الحواف المنخفضة عند المعابر",
+          "#Paths too narrow for a wheelchair, stroller, or two people to pass": "مسارات ضيقة جدًا لكرسي متحرك أو عربة أطفال أو مرور شخصين بجانب بعضهما",
+          "#Uneven paving, holes, or soft ground (grass or gravel)": "أرض غير مستوية أو حفر أو أرض رخوة (عشب أو حصى)",
+          "#Parked cars, trash bins, or construction signs blocking the path": "سيارات متوقفة أو حاويات نفايات أو لافتات أعمال تسد الطريق",
+          "#Overhanging branches or bushes narrowing the usable space": "أغصان أو شجيرات متدلية تقلل المساحة المتاحة",
+          "#Missing or broken tactile paving (for visually impaired users)": "غياب أو تلف الأرضيات البارزة المخصصة لضعاف البصر",
+          "#I don't face any physical barrier": "لا أواجه أي عائق مادي",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

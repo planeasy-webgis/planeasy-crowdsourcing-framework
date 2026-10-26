@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.access_barriers",
   "project": "SmartUrbanity",
   "key": "access_barriers",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_service_correction_report",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_service_correction_report"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -121,6 +120,132 @@
       "source_questionnaires": [
         "smarturbanity_service_correction_report"
       ]
+    },
+    "reference_c3833688d789": {
+      "schema": {
+        "text": "What makes it hard to get in?",
+        "answer_key": "access_barriers",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Steps at the entrance",
+            "value": "steps"
+          },
+          {
+            "text": "A narrow entrance or door",
+            "value": "narrow_entrance"
+          },
+          {
+            "text": "A heavy door or one that is hard to open",
+            "value": "heavy_door"
+          },
+          {
+            "text": "No ramp",
+            "value": "no_ramp"
+          },
+          {
+            "text": "No doorbell or other way to ask for help",
+            "value": "no_call_button"
+          },
+          {
+            "text": "Something else",
+            "value": "other"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#I don't know": "I don't know",
+          "#Other": "Other",
+          "#What makes it hard to get in?": "What makes it hard to get in?",
+          "#Steps at the entrance": "Steps at the entrance",
+          "#A narrow entrance or door": "A narrow entrance or door",
+          "#A heavy door or one that is hard to open": "A heavy door or one that is hard to open",
+          "#No ramp": "No ramp",
+          "#No doorbell or other way to ask for help": "No doorbell or other way to ask for help",
+          "#Something else": "Something else"
+        },
+        "it": {
+          "#I don't know": "Non lo so",
+          "#Other": "Altro",
+          "#What makes it hard to get in?": "Cosa rende difficile entrare?",
+          "#Steps at the entrance": "Gradini all'ingresso",
+          "#A narrow entrance or door": "Un ingresso o una porta stretta",
+          "#A heavy door or one that is hard to open": "Una porta pesante o difficile da aprire",
+          "#No ramp": "Non c'è una rampa",
+          "#No doorbell or other way to ask for help": "Non c'è un campanello o un modo per chiedere aiuto",
+          "#Something else": "Altro"
+        },
+        "fr": {
+          "#I don't know": "Je ne sais pas",
+          "#Other": "Autre",
+          "#What makes it hard to get in?": "Qu’est-ce qui rend l’entrée difficile ?",
+          "#Steps at the entrance": "Des marches à l’entrée",
+          "#A narrow entrance or door": "Une entrée ou une porte étroite",
+          "#A heavy door or one that is hard to open": "Une porte lourde ou difficile à ouvrir",
+          "#No ramp": "Pas de rampe",
+          "#No doorbell or other way to ask for help": "Pas de sonnette ni d’autre moyen de demander de l’aide",
+          "#Something else": "Autre chose"
+        },
+        "de": {
+          "#I don't know": "Ich weiß nicht",
+          "#Other": "Sonstiges",
+          "#What makes it hard to get in?": "Was erschwert den Zugang?",
+          "#Steps at the entrance": "Stufen am Eingang",
+          "#A narrow entrance or door": "Ein enger Eingang oder eine enge Tür",
+          "#A heavy door or one that is hard to open": "Eine schwere oder schwer zu öffnende Tür",
+          "#No ramp": "Keine Rampe",
+          "#No doorbell or other way to ask for help": "Keine Klingel oder andere Möglichkeit, um Hilfe zu bitten",
+          "#Something else": "Etwas anderes"
+        },
+        "tr": {
+          "#I don't know": "Bilmiyorum",
+          "#Other": "Diğer",
+          "#What makes it hard to get in?": "İçeri girmeyi ne zorlaştırıyor?",
+          "#Steps at the entrance": "Girişte basamaklar",
+          "#A narrow entrance or door": "Dar bir giriş veya kapı",
+          "#A heavy door or one that is hard to open": "Ağır veya açılması zor bir kapı",
+          "#No ramp": "Rampa yok",
+          "#No doorbell or other way to ask for help": "Zil veya yardım istemenin başka bir yolu yok",
+          "#Something else": "Başka bir şey"
+        },
+        "fa": {
+          "#I don't know": "نمی‌دانم",
+          "#Other": "سایر",
+          "#What makes it hard to get in?": "چه چیزی ورود را دشوار می‌کند؟",
+          "#Steps at the entrance": "پله در ورودی",
+          "#A narrow entrance or door": "ورودی یا در باریک",
+          "#A heavy door or one that is hard to open": "دری سنگین یا سخت‌بازشونده",
+          "#No ramp": "رمپ ندارد",
+          "#No doorbell or other way to ask for help": "زنگ یا راه دیگری برای درخواست کمک ندارد",
+          "#Something else": "چیز دیگری"
+        },
+        "hu": {
+          "#I don't know": "Nem tudom",
+          "#Other": "Egyéb",
+          "#What makes it hard to get in?": "Mi nehezíti meg a bejutást?",
+          "#Steps at the entrance": "Lépcső a bejáratnál",
+          "#A narrow entrance or door": "Szűk bejárat vagy ajtó",
+          "#A heavy door or one that is hard to open": "Nehéz vagy nehezen nyíló ajtó",
+          "#No ramp": "Nincs rámpa",
+          "#No doorbell or other way to ask for help": "Nincs csengő vagy más mód segítséget kérni",
+          "#Something else": "Valami más"
+        },
+        "ar": {
+          "#I don't know": "لا أعرف",
+          "#Other": "أخرى",
+          "#What makes it hard to get in?": "ما الذي يجعل الدخول صعبًا؟",
+          "#Steps at the entrance": "درجات عند المدخل",
+          "#A narrow entrance or door": "مدخل أو باب ضيق",
+          "#A heavy door or one that is hard to open": "باب ثقيل أو صعب الفتح",
+          "#No ramp": "لا يوجد منحدر",
+          "#No doorbell or other way to ask for help": "لا يوجد جرس أو وسيلة أخرى لطلب المساعدة",
+          "#Something else": "شيء آخر"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

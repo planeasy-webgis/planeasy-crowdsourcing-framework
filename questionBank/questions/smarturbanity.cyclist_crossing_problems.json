@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.cyclist_crossing_problems",
   "project": "SmartUrbanity",
   "key": "cyclist_crossing_problems",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -154,6 +153,145 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_9198af93dfc8": {
+      "schema": {
+        "text": "By bicycle or e-scooter, what problems do you find at this crossing?",
+        "answer_key": "cyclist_crossing_problems",
+        "question_type": "multiple_options",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "The cycle path stops before or after the crossing",
+            "value": "bike_path_interrupted"
+          },
+          {
+            "text": "There is no crossing for bicycles: people use the zebra crossing",
+            "value": "no_bike_crossing"
+          },
+          {
+            "text": "Cars do not give way to bicycles",
+            "value": "not_yielding"
+          },
+          {
+            "text": "Cars or motorcycles stopped on the cycle path near the crossing",
+            "value": "bike_path_blocked"
+          },
+          {
+            "text": "A curb or step at the entrance of the cycle path",
+            "value": "kerb_at_entry"
+          },
+          {
+            "text": "Tram tracks to cross",
+            "value": "tram_tracks"
+          },
+          {
+            "text": "No clear problem",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#No clear problem": "No clear problem",
+          "#Other": "Other",
+          "#I don't know": "I don't know",
+          "#By bicycle or e-scooter, what problems do you find at this crossing?": "By bicycle or e-scooter, what problems do you find at this crossing?",
+          "#The cycle path stops before or after the crossing": "The cycle path stops before or after the crossing",
+          "#There is no crossing for bicycles: people use the zebra crossing": "There is no crossing for bicycles: people use the zebra crossing",
+          "#Cars do not give way to bicycles": "Cars do not give way to bicycles",
+          "#Cars or motorcycles stopped on the cycle path near the crossing": "Cars or motorcycles stopped on the cycle path near the crossing",
+          "#A curb or step at the entrance of the cycle path": "A curb or step at the entrance of the cycle path",
+          "#Tram tracks to cross": "Tram tracks to cross"
+        },
+        "it": {
+          "#No clear problem": "Nessun problema evidente",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so",
+          "#By bicycle or e-scooter, what problems do you find at this crossing?": "In bici o in monopattino, quali problemi trovi in questo attraversamento?",
+          "#The cycle path stops before or after the crossing": "La ciclabile si interrompe prima o dopo l'attraversamento",
+          "#There is no crossing for bicycles: people use the zebra crossing": "Non c'è un passaggio per le bici: si usano le strisce pedonali",
+          "#Cars do not give way to bicycles": "Le auto non danno la precedenza alle bici",
+          "#Cars or motorcycles stopped on the cycle path near the crossing": "Auto o moto ferme sulla ciclabile vicino all'attraversamento",
+          "#A curb or step at the entrance of the cycle path": "Un cordolo o un gradino all'ingresso della ciclabile",
+          "#Tram tracks to cross": "Binari del tram da attraversare"
+        },
+        "fr": {
+          "#No clear problem": "Aucun problème évident",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas",
+          "#By bicycle or e-scooter, what problems do you find at this crossing?": "À vélo ou en trottinette électrique, quels problèmes rencontrez-vous sur ce passage ?",
+          "#The cycle path stops before or after the crossing": "La piste cyclable s'interrompt avant ou après le passage",
+          "#There is no crossing for bicycles: people use the zebra crossing": "Il n'y a pas de passage pour les vélos : on utilise le passage piéton",
+          "#Cars do not give way to bicycles": "Les voitures ne cèdent pas le passage aux vélos",
+          "#Cars or motorcycles stopped on the cycle path near the crossing": "Voitures ou motos arrêtées sur la piste cyclable près du passage",
+          "#A curb or step at the entrance of the cycle path": "Une bordure ou une marche à l'entrée de la piste cyclable",
+          "#Tram tracks to cross": "Rails de tramway à traverser"
+        },
+        "de": {
+          "#No clear problem": "Kein eindeutiges Problem",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht",
+          "#By bicycle or e-scooter, what problems do you find at this crossing?": "Mit dem Fahrrad oder E-Scooter: Welche Probleme haben Sie an diesem Übergang?",
+          "#The cycle path stops before or after the crossing": "Der Radweg endet vor oder nach dem Übergang",
+          "#There is no crossing for bicycles: people use the zebra crossing": "Es gibt keinen Übergang für Fahrräder: man nutzt den Zebrastreifen",
+          "#Cars do not give way to bicycles": "Autos lassen Fahrräder nicht vor",
+          "#Cars or motorcycles stopped on the cycle path near the crossing": "Autos oder Motorräder halten auf dem Radweg nahe dem Übergang",
+          "#A curb or step at the entrance of the cycle path": "Ein Bordstein oder eine Stufe an der Einfahrt zum Radweg",
+          "#Tram tracks to cross": "Straßenbahngleise, die man überqueren muss"
+        },
+        "tr": {
+          "#No clear problem": "Belirgin bir sorun yok",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum",
+          "#By bicycle or e-scooter, what problems do you find at this crossing?": "Bisikletle ya da elektrikli scooterla bu geçitte hangi sorunlarla karşılaşıyorsunuz?",
+          "#The cycle path stops before or after the crossing": "Bisiklet yolu geçitten önce ya da sonra kesiliyor",
+          "#There is no crossing for bicycles: people use the zebra crossing": "Bisikletler için geçit yok: yaya geçidi kullanılıyor",
+          "#Cars do not give way to bicycles": "Arabalar bisikletlere yol vermiyor",
+          "#Cars or motorcycles stopped on the cycle path near the crossing": "Geçidin yakınında bisiklet yolunda duran araba ya da motosikletler",
+          "#A curb or step at the entrance of the cycle path": "Bisiklet yolunun girişinde bordür ya da basamak",
+          "#Tram tracks to cross": "Geçilmesi gereken tramvay rayları"
+        },
+        "fa": {
+          "#No clear problem": "مشکل روشنی وجود ندارد",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم",
+          "#By bicycle or e-scooter, what problems do you find at this crossing?": "با دوچرخه یا اسکوتر برقی، در این گذرگاه با چه مشکلاتی روبه‌رو می‌شوید؟",
+          "#The cycle path stops before or after the crossing": "مسیر دوچرخه قبل یا بعد از گذرگاه قطع می‌شود",
+          "#There is no crossing for bicycles: people use the zebra crossing": "گذرگاهی برای دوچرخه نیست: از خط عابر پیاده استفاده می‌شود",
+          "#Cars do not give way to bicycles": "خودروها به دوچرخه‌ها حق تقدم نمی‌دهند",
+          "#Cars or motorcycles stopped on the cycle path near the crossing": "خودرو یا موتورسیکلت متوقف روی مسیر دوچرخه نزدیک گذرگاه",
+          "#A curb or step at the entrance of the cycle path": "لبه یا پله در ورودی مسیر دوچرخه",
+          "#Tram tracks to cross": "ریل تراموا که باید از آن رد شد"
+        },
+        "hu": {
+          "#No clear problem": "Nincs egyértelmű probléma",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom",
+          "#By bicycle or e-scooter, what problems do you find at this crossing?": "Kerékpárral vagy elektromos rollerrel milyen problémákat tapasztal ennél az átkelőnél?",
+          "#The cycle path stops before or after the crossing": "A kerékpárút megszakad az átkelő előtt vagy után",
+          "#There is no crossing for bicycles: people use the zebra crossing": "Nincs kerékpáros átkelő: a zebrát használják",
+          "#Cars do not give way to bicycles": "Az autók nem adnak elsőbbséget a kerékpárosoknak",
+          "#Cars or motorcycles stopped on the cycle path near the crossing": "Autók vagy motorok állnak a kerékpárúton az átkelő közelében",
+          "#A curb or step at the entrance of the cycle path": "Szegély vagy lépcső a kerékpárút bejáratánál",
+          "#Tram tracks to cross": "Átkelendő villamossínek"
+        },
+        "ar": {
+          "#No clear problem": "لا توجد مشكلة واضحة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف",
+          "#By bicycle or e-scooter, what problems do you find at this crossing?": "بالدراجة أو السكوتر الكهربائي، ما المشكلات التي تواجهها في هذا المعبر؟",
+          "#The cycle path stops before or after the crossing": "مسار الدراجات ينقطع قبل المعبر أو بعده",
+          "#There is no crossing for bicycles: people use the zebra crossing": "لا يوجد معبر للدراجات: يُستخدم ممر المشاة",
+          "#Cars do not give way to bicycles": "السيارات لا تعطي الأولوية للدراجات",
+          "#Cars or motorcycles stopped on the cycle path near the crossing": "سيارات أو دراجات نارية متوقفة على مسار الدراجات قرب المعبر",
+          "#A curb or step at the entrance of the cycle path": "حافة أو درجة عند مدخل مسار الدراجات",
+          "#Tram tracks to cross": "سكك ترام يجب عبورها"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.bike_intrusion_frequency",
   "project": "SmartUrbanity",
   "key": "bike_intrusion_frequency",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_segment_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_segment_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -118,6 +117,121 @@
       "source_questionnaires": [
         "street_segment_assessment"
       ]
+    },
+    "reference_463994cbf1b5": {
+      "schema": {
+        "text": "How often do other vehicles or people occupy the cycling space?",
+        "answer_key": "bike_intrusion_frequency",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Never or almost never",
+            "value": "1_never"
+          },
+          {
+            "text": "Rarely",
+            "value": "2_rarely"
+          },
+          {
+            "text": "Sometimes",
+            "value": "3_sometimes"
+          },
+          {
+            "text": "Often",
+            "value": "4_often"
+          },
+          {
+            "text": "Very often",
+            "value": "5_very_often"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How often do other vehicles or people occupy the cycling space?": "How often do other vehicles or people occupy the cycling space?",
+          "#Never or almost never": "Never or almost never",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#Often": "Often",
+          "#Very often": "Very often",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#How often do other vehicles or people occupy the cycling space?": "Quanto spesso altri veicoli o persone occupano lo spazio per le bici?",
+          "#Never or almost never": "Mai o quasi mai",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#Often": "Spesso",
+          "#Very often": "Molto spesso",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#How often do other vehicles or people occupy the cycling space?": "À quelle fréquence d'autres véhicules ou personnes occupent-ils l'espace cyclable ?",
+          "#Never or almost never": "Jamais ou presque jamais",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#Often": "Souvent",
+          "#Very often": "Très souvent",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#How often do other vehicles or people occupy the cycling space?": "Wie oft wird der Radbereich von anderen Fahrzeugen oder Personen belegt?",
+          "#Never or almost never": "Nie oder fast nie",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#Often": "Oft",
+          "#Very often": "Sehr oft",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#How often do other vehicles or people occupy the cycling space?": "Bisiklet alanını ne sıklıkla başka araçlar veya kişiler işgal ediyor?",
+          "#Never or almost never": "Hiçbir zaman veya neredeyse hiçbir zaman",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#Often": "Sık sık",
+          "#Very often": "Çok sık",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#How often do other vehicles or people occupy the cycling space?": "هر چند وقت یک‌بار وسایل نقلیه یا افراد دیگر فضای دوچرخه را اشغال می‌کنند؟",
+          "#Never or almost never": "هرگز یا تقریباً هرگز",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#Often": "اغلب",
+          "#Very often": "بسیار اغلب",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#How often do other vehicles or people occupy the cycling space?": "Milyen gyakran foglalják el más járművek vagy emberek a kerékpáros helyet?",
+          "#Never or almost never": "Soha vagy szinte soha",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#Often": "Gyakran",
+          "#Very often": "Nagyon gyakran",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#How often do other vehicles or people occupy the cycling space?": "كم مرة تشغل مركبات أو أشخاص آخرون مساحة الدراجات؟",
+          "#Never or almost never": "أبدًا أو نادرًا جدًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#Often": "غالبًا",
+          "#Very often": "غالبًا جدًا",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

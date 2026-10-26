@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.pt_weekly",
   "project": "SmartUrbanity",
   "key": "pt_weekly",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_public_transport",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_public_transport"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -72,6 +71,83 @@
       "source_questionnaires": [
         "smarturbanity_public_transport"
       ]
+    },
+    "reference_9bb414759a32": {
+      "schema": {
+        "text": "Do you use public transport for your daily travels at least once a week?",
+        "answer_key": "pt_weekly",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Do you use public transport for your daily travels at least once a week?": "Do you use public transport for your daily travels at least once a week?",
+          "#Yes": "Yes",
+          "#No": "No",
+          "#I don't know": "I don't know",
+          "#Other": "Other"
+        },
+        "it": {
+          "#Do you use public transport for your daily travels at least once a week?": "Utilizzi il trasporto pubblico per i tuoi spostamenti quotidiani almeno una volta alla settimana?",
+          "#Yes": "Sì",
+          "#No": "No",
+          "#I don't know": "Non lo so",
+          "#Other": "Altro"
+        },
+        "fr": {
+          "#Do you use public transport for your daily travels at least once a week?": "Utilisez-vous les transports publics pour vos déplacements quotidiens au moins une fois par semaine ?",
+          "#Yes": "Oui",
+          "#No": "Non",
+          "#I don't know": "Je ne sais pas",
+          "#Other": "Autre"
+        },
+        "de": {
+          "#Do you use public transport for your daily travels at least once a week?": "Nutzen Sie mindestens einmal pro Woche öffentliche Verkehrsmittel für Ihre täglichen Wege?",
+          "#Yes": "Ja",
+          "#No": "Nein",
+          "#I don't know": "Ich weiß es nicht",
+          "#Other": "Anderes"
+        },
+        "tr": {
+          "#Do you use public transport for your daily travels at least once a week?": "Günlük yolculuklarınızda haftada en az bir kez toplu taşıma kullanıyor musunuz?",
+          "#Yes": "Evet",
+          "#No": "Hayır",
+          "#I don't know": "Bilmiyorum",
+          "#Other": "Diğer"
+        },
+        "fa": {
+          "#Do you use public transport for your daily travels at least once a week?": "آیا حداقل هفته‌ای یک بار برای رفت‌وآمد روزانه از حمل‌ونقل عمومی استفاده می‌کنید؟",
+          "#Yes": "بله",
+          "#No": "خیر",
+          "#I don't know": "نمی‌دانم",
+          "#Other": "سایر"
+        },
+        "hu": {
+          "#Do you use public transport for your daily travels at least once a week?": "Használ tömegközlekedést a mindennapi közlekedéshez legalább hetente egyszer?",
+          "#Yes": "Igen",
+          "#No": "Nem",
+          "#I don't know": "Nem tudom",
+          "#Other": "Egyéb"
+        },
+        "ar": {
+          "#Do you use public transport for your daily travels at least once a week?": "هل تستخدم النقل العام في تنقلاتك اليومية مرة واحدة على الأقل في الأسبوع؟",
+          "#Yes": "نعم",
+          "#No": "لا",
+          "#I don't know": "لا أعرف",
+          "#Other": "أخرى"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

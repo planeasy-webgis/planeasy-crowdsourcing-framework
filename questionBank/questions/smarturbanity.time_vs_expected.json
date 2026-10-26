@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.time_vs_expected",
   "project": "SmartUrbanity",
   "key": "time_vs_expected",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_experience_on_the_move",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_experience_on_the_move"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -108,6 +107,119 @@
       "source_questionnaires": [
         "smarturbanity_experience_on_the_move"
       ]
+    },
+    "reference_290d6d46e0c6": {
+      "schema": {
+        "text": "Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?",
+        "answer_key": "time_vs_expected",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Much shorter than expected",
+            "value": "much_shorter"
+          },
+          {
+            "text": "Slightly shorter than expected",
+            "value": "shorter"
+          },
+          {
+            "text": "Exactly as expected",
+            "value": "as_expected"
+          },
+          {
+            "text": "Slightly longer than expected",
+            "value": "longer"
+          },
+          {
+            "text": "Much longer than expected",
+            "value": "much_longer"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?": "Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?",
+          "#Much shorter than expected": "Much shorter than expected",
+          "#Slightly shorter than expected": "Slightly shorter than expected",
+          "#Exactly as expected": "Exactly as expected",
+          "#Slightly longer than expected": "Slightly longer than expected",
+          "#Much longer than expected": "Much longer than expected",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?": "Pensando al tuo spostamento abituale, come si confronta il tempo effettivamente impiegato con quello che ti aspetti di impiegare?",
+          "#Much shorter than expected": "Molto più breve del previsto",
+          "#Slightly shorter than expected": "Leggermente più breve del previsto",
+          "#Exactly as expected": "Esattamente come previsto",
+          "#Slightly longer than expected": "Leggermente più lungo del previsto",
+          "#Much longer than expected": "Molto più lungo del previsto",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?": "Pour votre trajet habituel, comment le temps réellement nécessaire se compare-t-il au temps que vous pensiez mettre ?",
+          "#Much shorter than expected": "Beaucoup plus court que prévu",
+          "#Slightly shorter than expected": "Un peu plus court que prévu",
+          "#Exactly as expected": "Exactement comme prévu",
+          "#Slightly longer than expected": "Un peu plus long que prévu",
+          "#Much longer than expected": "Beaucoup plus long que prévu",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?": "Wenn Sie an Ihren typischen Weg denken: Wie unterscheidet sich die tatsächliche Dauer von der Zeit, die Sie erwarten?",
+          "#Much shorter than expected": "Viel kürzer als erwartet",
+          "#Slightly shorter than expected": "Etwas kürzer als erwartet",
+          "#Exactly as expected": "Genau wie erwartet",
+          "#Slightly longer than expected": "Etwas länger als erwartet",
+          "#Much longer than expected": "Viel länger als erwartet",
+          "#Other": "Anderes",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?": "Tipik yolculuğunuzu düşündüğünüzde, gerçekten geçen süre beklediğiniz süreyle nasıl karşılaştırılır?",
+          "#Much shorter than expected": "Beklediğimden çok daha kısa",
+          "#Slightly shorter than expected": "Beklediğimden biraz daha kısa",
+          "#Exactly as expected": "Tam beklediğim gibi",
+          "#Slightly longer than expected": "Beklediğimden biraz daha uzun",
+          "#Much longer than expected": "Beklediğimden çok daha uzun",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?": "وقتی به سفر معمول خود فکر می‌کنید، زمان واقعی سفر نسبت به زمانی که انتظار دارید چگونه است؟",
+          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
+          "#Slightly shorter than expected": "کمی کوتاه‌تر از انتظار",
+          "#Exactly as expected": "دقیقاً مطابق انتظار",
+          "#Slightly longer than expected": "کمی طولانی‌تر از انتظار",
+          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?": "Ha a tipikus útjára gondol, a tényleges utazási idő hogyan viszonyul ahhoz, amire számít?",
+          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
+          "#Slightly shorter than expected": "Kissé rövidebb a vártnál",
+          "#Exactly as expected": "Pontosan a vártnak megfelelő",
+          "#Slightly longer than expected": "Kissé hosszabb a vártnál",
+          "#Much longer than expected": "Sokkal hosszabb a vártnál",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Thinking about your typical journey, how does the time it actually takes compare to how long you expect it to take?": "عند التفكير في رحلتك المعتادة، كيف يقارن الوقت الفعلي للرحلة بالوقت الذي تتوقعه؟",
+          "#Much shorter than expected": "أقصر بكثير من المتوقع",
+          "#Slightly shorter than expected": "أقصر قليلًا من المتوقع",
+          "#Exactly as expected": "كما توقعت تمامًا",
+          "#Slightly longer than expected": "أطول قليلًا من المتوقع",
+          "#Much longer than expected": "أطول بكثير من المتوقع",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.ramp_features",
   "project": "SmartUrbanity",
   "key": "ramp_features",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -121,6 +120,132 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_f1e4711ccb46": {
+      "schema": {
+        "text": "For a ramp, what helps people use it?",
+        "answer_key": "ramp_features",
+        "question_type": "multiple_options",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Handrail",
+            "value": "handrail"
+          },
+          {
+            "text": "Good lighting",
+            "value": "lighting"
+          },
+          {
+            "text": "Non-slip surface",
+            "value": "non_slip_surface"
+          },
+          {
+            "text": "Wide enough for wheelchairs or strollers",
+            "value": "wide_enough"
+          },
+          {
+            "text": "Resting place nearby",
+            "value": "resting_place"
+          },
+          {
+            "text": "None of these",
+            "value": "none"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#None of these": "None of these",
+          "#Good lighting": "Good lighting",
+          "#Handrail": "Handrail",
+          "#Non-slip surface": "Non-slip surface",
+          "#Resting place nearby": "Resting place nearby",
+          "#For a ramp, what helps people use it?": "For a ramp, what helps people use it?",
+          "#Wide enough for wheelchairs or strollers": "Wide enough for wheelchairs or strollers",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#None of these": "Nessuna di queste",
+          "#Good lighting": "Buona illuminazione",
+          "#Handrail": "Corrimano",
+          "#Non-slip surface": "Superficie antiscivolo",
+          "#Resting place nearby": "Punto di riposo vicino",
+          "#For a ramp, what helps people use it?": "Per una rampa, cosa aiuta le persone a usarla?",
+          "#Wide enough for wheelchairs or strollers": "Abbastanza larga per sedie a rotelle o passeggini",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#None of these": "Aucun de ces éléments",
+          "#Good lighting": "Bon éclairage",
+          "#Handrail": "Main courante",
+          "#Non-slip surface": "Surface antidérapante",
+          "#Resting place nearby": "Espace de repos à proximité",
+          "#For a ramp, what helps people use it?": "Pour une rampe, qu’est-ce qui facilite son utilisation ?",
+          "#Wide enough for wheelchairs or strollers": "Assez large pour les fauteuils roulants ou les poussettes",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#None of these": "Keine davon",
+          "#Good lighting": "Gute Beleuchtung",
+          "#Handrail": "Handlauf",
+          "#Non-slip surface": "Rutschfeste Oberfläche",
+          "#Resting place nearby": "Rastmöglichkeit in der Nähe",
+          "#For a ramp, what helps people use it?": "Was erleichtert die Nutzung einer Rampe?",
+          "#Wide enough for wheelchairs or strollers": "Breit genug für Rollstühle oder Kinderwagen",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#None of these": "Bunların hiçbiri",
+          "#Good lighting": "İyi aydınlatma",
+          "#Handrail": "Küpeşte",
+          "#Non-slip surface": "Kaymaz yüzey",
+          "#Resting place nearby": "Yakında dinlenme yeri",
+          "#For a ramp, what helps people use it?": "Bir rampanın kullanılmasını ne kolaylaştırıyor?",
+          "#Wide enough for wheelchairs or strollers": "Tekerlekli sandalyeler veya bebek arabaları için yeterince geniş",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#None of these": "هیچ‌کدام از این‌ها",
+          "#Good lighting": "روشنایی خوب",
+          "#Handrail": "دستگیره",
+          "#Non-slip surface": "سطح غیرلغزنده",
+          "#Resting place nearby": "محل استراحت در نزدیکی",
+          "#For a ramp, what helps people use it?": "چه چیزی استفاده از رمپ را آسان‌تر می‌کند؟",
+          "#Wide enough for wheelchairs or strollers": "به‌اندازه کافی پهن برای ویلچر یا کالسکه کودک",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#None of these": "Ezek közül egyik sem",
+          "#Good lighting": "Jó világítás",
+          "#Handrail": "Korlát",
+          "#Non-slip surface": "Csúszásmentes felület",
+          "#Resting place nearby": "Pihenőhely a közelben",
+          "#For a ramp, what helps people use it?": "Mi könnyíti meg egy rámpa használatát?",
+          "#Wide enough for wheelchairs or strollers": "Elég széles kerekesszékhez vagy babakocsihoz",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#None of these": "لا شيء مما سبق",
+          "#Good lighting": "إضاءة جيدة",
+          "#Handrail": "درابزين",
+          "#Non-slip surface": "سطح غير زلق",
+          "#Resting place nearby": "مكان للراحة قريب",
+          "#For a ramp, what helps people use it?": "ما الذي يساعد الناس على استخدام المنحدر؟",
+          "#Wide enough for wheelchairs or strollers": "واسع بما يكفي للكراسي المتحركة أو عربات الأطفال",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

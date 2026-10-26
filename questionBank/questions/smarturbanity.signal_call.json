@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.signal_call",
   "project": "SmartUrbanity",
   "key": "signal_call",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -94,6 +93,97 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_94b964e48e27": {
+      "schema": {
+        "text": "How do you get the green light to cross?",
+        "answer_key": "signal_call",
+        "question_type": "single_option",
+        "add_i_dont_know": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "It comes by itself, every cycle",
+            "value": "automatic"
+          },
+          {
+            "text": "You have to press the button, and it works",
+            "value": "push_button_working"
+          },
+          {
+            "text": "There is a button, but it does not work",
+            "value": "push_button_broken"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#I don't know": "I don't know",
+          "#How do you get the green light to cross?": "How do you get the green light to cross?",
+          "#It comes by itself, every cycle": "It comes by itself, every cycle",
+          "#You have to press the button, and it works": "You have to press the button, and it works",
+          "#There is a button, but it does not work": "There is a button, but it does not work"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#I don't know": "Non lo so",
+          "#How do you get the green light to cross?": "Come si ottiene il verde per attraversare?",
+          "#It comes by itself, every cycle": "Arriva da solo, a ogni ciclo",
+          "#You have to press the button, and it works": "Bisogna premere il pulsante, e funziona",
+          "#There is a button, but it does not work": "C'è il pulsante, ma non funziona"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas",
+          "#How do you get the green light to cross?": "Comment obtient-on le feu vert pour traverser ?",
+          "#It comes by itself, every cycle": "Il arrive tout seul, à chaque cycle",
+          "#You have to press the button, and it works": "Il faut appuyer sur le bouton, et il fonctionne",
+          "#There is a button, but it does not work": "Il y a un bouton, mais il ne fonctionne pas"
+        },
+        "de": {
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht",
+          "#How do you get the green light to cross?": "Wie bekommt man Grün zum Überqueren?",
+          "#It comes by itself, every cycle": "Es kommt von selbst, bei jedem Umlauf",
+          "#You have to press the button, and it works": "Man muss den Knopf drücken, und er funktioniert",
+          "#There is a button, but it does not work": "Es gibt einen Knopf, aber er funktioniert nicht"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum",
+          "#How do you get the green light to cross?": "Karşıya geçmek için yeşil ışık nasıl yanıyor?",
+          "#It comes by itself, every cycle": "Her döngüde kendiliğinden yanıyor",
+          "#You have to press the button, and it works": "Düğmeye basmak gerekiyor ve çalışıyor",
+          "#There is a button, but it does not work": "Düğme var ama çalışmıyor"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم",
+          "#How do you get the green light to cross?": "چطور چراغ سبز برای عبور روشن می‌شود؟",
+          "#It comes by itself, every cycle": "خودش در هر چرخه روشن می‌شود",
+          "#You have to press the button, and it works": "باید دکمه را فشار داد و کار می‌کند",
+          "#There is a button, but it does not work": "دکمه هست، اما کار نمی‌کند"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom",
+          "#How do you get the green light to cross?": "Hogyan lesz zöld az átkeléshez?",
+          "#It comes by itself, every cycle": "Magától jön, minden ciklusban",
+          "#You have to press the button, and it works": "Meg kell nyomni a gombot, és működik",
+          "#There is a button, but it does not work": "Van gomb, de nem működik"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف",
+          "#How do you get the green light to cross?": "كيف تحصل على الإشارة الخضراء للعبور؟",
+          "#It comes by itself, every cycle": "تأتي تلقائيًا في كل دورة",
+          "#You have to press the button, and it works": "يجب الضغط على الزر، وهو يعمل",
+          "#There is a button, but it does not work": "يوجد زر، لكنه لا يعمل"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

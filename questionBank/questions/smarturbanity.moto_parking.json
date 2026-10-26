@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.moto_parking",
   "project": "SmartUrbanity",
   "key": "moto_parking",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_motorcycle",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_motorcycle"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.",
         "answer_key": "moto_parking",
+        "legacy_answer_keys": [
+          "moto_parking_v1"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "Very adequate",
             "value": "very_adequate"
           }
-        ],
-        "legacy_answer_keys": [
-          "moto_parking_v1"
         ]
       },
       "translations": {
@@ -111,6 +110,103 @@
       "source_questionnaires": [
         "smarturbanity_motorcycle"
       ]
+    },
+    "reference_afab5e7f9c5a": {
+      "schema": {
+        "text": "How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.",
+        "answer_key": "moto_parking",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Very inadequate",
+            "value": "very_inadequate"
+          },
+          {
+            "text": "Inadequate",
+            "value": "inadequate"
+          },
+          {
+            "text": "Neutral",
+            "value": "neutral"
+          },
+          {
+            "text": "Adequate",
+            "value": "adequate"
+          },
+          {
+            "text": "Very adequate",
+            "value": "very_adequate"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.": "How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.",
+          "#Very inadequate": "Very inadequate",
+          "#Inadequate": "Inadequate",
+          "#Neutral": "Neutral",
+          "#Adequate": "Adequate",
+          "#Very adequate": "Very adequate"
+        },
+        "it": {
+          "#How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.": "Quanto sono adeguate le strutture di parcheggio dedicate a moto e scooter nella tua città? Considera i parcheggi sicuri e gli spazi riservati vicino alle destinazioni.",
+          "#Very inadequate": "Del tutto inadeguate",
+          "#Inadequate": "Inadeguate",
+          "#Neutral": "Neutrale",
+          "#Adequate": "Adeguate",
+          "#Very adequate": "Molto adeguate"
+        },
+        "fr": {
+          "#How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.": "Les possibilités de stationnement réservées aux motos et scooters dans votre ville sont-elles adaptées ? Pensez aux places sûres et aux emplacements réservés près des destinations.",
+          "#Very inadequate": "Très insuffisantes",
+          "#Inadequate": "Insuffisantes",
+          "#Neutral": "Neutre",
+          "#Adequate": "Adaptées",
+          "#Very adequate": "Très adaptées"
+        },
+        "de": {
+          "#How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.": "Wie gut sind die Parkmöglichkeiten speziell für Motorräder und Roller in Ihrer Stadt? Denken Sie an sichere Stellplätze und ausgewiesene Plätze in der Nähe von Zielen.",
+          "#Very inadequate": "Sehr schlecht",
+          "#Inadequate": "Schlecht",
+          "#Neutral": "Neutral",
+          "#Adequate": "Gut",
+          "#Very adequate": "Sehr gut"
+        },
+        "tr": {
+          "#How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.": "Şehrinizde motosiklet ve scooter için özel park imkânlarını ne kadar yeterli buluyorsunuz? Güvenli park yerlerini ve varış noktalarına yakın ayrılmış alanları düşünün.",
+          "#Very inadequate": "Çok yetersiz",
+          "#Inadequate": "Yetersiz",
+          "#Neutral": "Nötr",
+          "#Adequate": "Yeterli",
+          "#Very adequate": "Çok yeterli"
+        },
+        "fa": {
+          "#How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.": "امکانات پارک مخصوص موتورسیکلت و اسکوتر در شهر شما چقدر مناسب است؟ پارک امن و محل‌های مشخص نزدیک مقصد را در نظر بگیرید.",
+          "#Very inadequate": "بسیار نامناسب",
+          "#Inadequate": "نامناسب",
+          "#Neutral": "خنثی",
+          "#Adequate": "مناسب",
+          "#Very adequate": "بسیار مناسب"
+        },
+        "hu": {
+          "#How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.": "Mennyire megfelelőek a motorkerékpárok és robogók számára kialakított parkolási lehetőségek a városában? Gondoljon a biztonságos és az úti célokhoz közeli kijelölt helyekre.",
+          "#Very inadequate": "Nagyon nem megfelelőek",
+          "#Inadequate": "Nem megfelelőek",
+          "#Neutral": "Semleges",
+          "#Adequate": "Megfelelőek",
+          "#Very adequate": "Nagyon megfelelőek"
+        },
+        "ar": {
+          "#How adequate are motorcycle-specific parking facilities in your city? Think about secure parking and designated spaces near destinations.": "ما مدى ملاءمة أماكن الوقوف المخصصة للدراجات النارية والسكوتر في مدينتك؟ فكر في المواقف الآمنة والأماكن المخصصة بالقرب من الوجهات.",
+          "#Very inadequate": "غير ملائمة جدًا",
+          "#Inadequate": "غير ملائمة",
+          "#Neutral": "محايد",
+          "#Adequate": "ملائمة",
+          "#Very adequate": "ملائمة جدًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

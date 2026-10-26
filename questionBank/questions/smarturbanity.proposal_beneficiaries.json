@@ -3,9 +3,8 @@
   "project": "SmartUrbanity",
   "key": "proposal_beneficiaries",
   "version": 1,
-  "status": "draft",
   "origin_questionnaire": "smarturbanity_improvement_proposal",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "first_source_in_current_inventory_unverified",
   "source_questionnaires": [
     "smarturbanity_improvement_proposal",
     "smarturbanity_missing_connection_report",
@@ -13,7 +12,7 @@
   ],
   "review_required": true,
   "variants": {
-    "default": {
+    "smarturbanity_improvement_proposal": {
       "schema": {
         "text": "Who would it help most? (Select all that apply)",
         "answer_key": "proposal_beneficiaries",

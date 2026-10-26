@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.green_time_sufficient",
   "project": "SmartUrbanity",
   "key": "green_time_sufficient",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -94,6 +93,97 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_8b69c3e121f5": {
+      "schema": {
+        "text": "Does the green light last long enough to cross calmly?",
+        "answer_key": "green_time_sufficient",
+        "question_type": "single_option",
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Yes, with time to spare",
+            "value": "1_yes_with_margin"
+          },
+          {
+            "text": "Only just",
+            "value": "2_just_enough"
+          },
+          {
+            "text": "No, the light turns red before I finish crossing",
+            "value": "3_not_enough"
+          }
+        ],
+        "add_i_dont_know": true
+      },
+      "translations": {
+        "en": {
+          "#Does the green light last long enough to cross calmly?": "Does the green light last long enough to cross calmly?",
+          "#Yes, with time to spare": "Yes, with time to spare",
+          "#Only just": "Only just",
+          "#No, the light turns red before I finish crossing": "No, the light turns red before I finish crossing",
+          "#Other": "Other",
+          "#I don't know": "I don't know"
+        },
+        "it": {
+          "#Does the green light last long enough to cross calmly?": "Il verde dura abbastanza per attraversare con calma?",
+          "#Yes, with time to spare": "Sì, con margine",
+          "#Only just": "Sì, ma appena",
+          "#No, the light turns red before I finish crossing": "No, il rosso arriva prima che finisca di attraversare",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so"
+        },
+        "fr": {
+          "#Does the green light last long enough to cross calmly?": "Le feu vert dure-t-il assez longtemps pour traverser calmement ?",
+          "#Yes, with time to spare": "Oui, avec de la marge",
+          "#Only just": "Tout juste",
+          "#No, the light turns red before I finish crossing": "Non, le feu passe au rouge avant que j'aie fini de traverser",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas"
+        },
+        "de": {
+          "#Does the green light last long enough to cross calmly?": "Dauert die Grünphase lange genug, um in Ruhe zu queren?",
+          "#Yes, with time to spare": "Ja, mit Zeitreserve",
+          "#Only just": "Gerade so",
+          "#No, the light turns red before I finish crossing": "Nein, es wird Rot, bevor ich auf der anderen Seite bin",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht"
+        },
+        "tr": {
+          "#Does the green light last long enough to cross calmly?": "Yeşil ışık sakince karşıya geçmek için yeterince uzun sürüyor mu?",
+          "#Yes, with time to spare": "Evet, rahatça yetiyor",
+          "#Only just": "Ancak yetiyor",
+          "#No, the light turns red before I finish crossing": "Hayır, karşıya geçmeyi bitirmeden ışık kırmızıya dönüyor",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum"
+        },
+        "fa": {
+          "#Does the green light last long enough to cross calmly?": "آیا چراغ سبز به اندازه کافی طول می‌کشد تا با آرامش عبور کنید؟",
+          "#Yes, with time to spare": "بله، با زمان اضافه",
+          "#Only just": "به‌سختی",
+          "#No, the light turns red before I finish crossing": "خیر، پیش از اینکه عبورم تمام شود چراغ قرمز می‌شود",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم"
+        },
+        "hu": {
+          "#Does the green light last long enough to cross calmly?": "Elég hosszú-e a zöld jelzés ahhoz, hogy nyugodtan át lehessen kelni?",
+          "#Yes, with time to spare": "Igen, bőven",
+          "#Only just": "Épphogy",
+          "#No, the light turns red before I finish crossing": "Nem, pirosra vált, mielőtt átérnék",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom"
+        },
+        "ar": {
+          "#Does the green light last long enough to cross calmly?": "هل تدوم الإشارة الخضراء وقتًا كافيًا للعبور بهدوء؟",
+          "#Yes, with time to spare": "نعم، مع وقت إضافي",
+          "#Only just": "بالكاد",
+          "#No, the light turns red before I finish crossing": "لا، تتحول الإشارة إلى الحمراء قبل أن أنهي العبور",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

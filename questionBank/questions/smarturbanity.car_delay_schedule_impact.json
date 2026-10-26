@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.car_delay_schedule_impact",
   "project": "SmartUrbanity",
   "key": "car_delay_schedule_impact",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_car",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_car"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?",
         "answer_key": "car_delay_schedule_impact",
+        "legacy_answer_keys": [
+          "v1_when_delays_occur_e_g_traffic_conges"
+        ],
         "question_type": "single_option",
         "options": [
           {
@@ -37,9 +39,6 @@
             "text": "Extremely affected",
             "value": "extremely_affected"
           }
-        ],
-        "legacy_answer_keys": [
-          "v1_when_delays_occur_e_g_traffic_conges"
         ]
       },
       "translations": {
@@ -111,6 +110,111 @@
       "source_questionnaires": [
         "smarturbanity_car"
       ]
+    },
+    "reference_80f8963ee969": {
+      "schema": {
+        "text": "When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?",
+        "answer_key": "car_delay_schedule_impact",
+        "question_type": "single_option",
+        "options": [
+          {
+            "text": "Not at all affected",
+            "value": "not_at_all_affected"
+          },
+          {
+            "text": "Slightly affected",
+            "value": "slightly_affected"
+          },
+          {
+            "text": "Moderately affected",
+            "value": "moderately_affected"
+          },
+          {
+            "text": "Very affected",
+            "value": "very_affected"
+          },
+          {
+            "text": "Extremely affected",
+            "value": "extremely_affected"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#Other": "Other",
+          "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?",
+          "#Not at all affected": "Not at all affected",
+          "#Slightly affected": "Slightly affected",
+          "#Moderately affected": "Moderately affected",
+          "#Very affected": "Very affected",
+          "#Extremely affected": "Extremely affected"
+        },
+        "it": {
+          "#Other": "Altro",
+          "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Quando si verificano ritardi (ad es. per traffico, congestione o incidenti), in che modo influiscono sui tuoi impegni quotidiani?",
+          "#Not at all affected": "Per niente influenzati",
+          "#Slightly affected": "Poco influenzati",
+          "#Moderately affected": "Moderatamente influenzati",
+          "#Very affected": "Molto influenzati",
+          "#Extremely affected": "Estremamente influenzati"
+        },
+        "fr": {
+          "#Other": "Autre",
+          "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Quand il y a des retards, par exemple à cause du trafic, des embouteillages ou d’un accident, quel effet ont-ils sur votre emploi du temps quotidien ?",
+          "#Not at all affected": "Aucun effet",
+          "#Slightly affected": "Un faible effet",
+          "#Moderately affected": "Un effet modéré",
+          "#Very affected": "Un effet important",
+          "#Extremely affected": "Un effet très important"
+        },
+        "de": {
+          "#Other": "Anderes",
+          "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Wenn es zu Verzögerungen kommt, zum Beispiel durch Verkehr, Stau oder Unfälle: Wie wirkt sich das auf Ihren Tagesablauf aus?",
+          "#Not at all affected": "Gar nicht",
+          "#Slightly affected": "Etwas",
+          "#Moderately affected": "Mäßig",
+          "#Very affected": "Stark",
+          "#Extremely affected": "Sehr stark"
+        },
+        "tr": {
+          "#Other": "Diğer",
+          "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Gecikmeler olduğunda, örneğin trafik, sıkışıklık veya kaza nedeniyle, günlük programınız nasıl etkilenir?",
+          "#Not at all affected": "Hiç etkilenmez",
+          "#Slightly affected": "Biraz etkilenir",
+          "#Moderately affected": "Orta düzeyde etkilenir",
+          "#Very affected": "Çok etkilenir",
+          "#Extremely affected": "Son derece etkilenir"
+        },
+        "fa": {
+          "#Other": "سایر",
+          "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "وقتی تأخیر پیش می‌آید، مثلاً به دلیل ترافیک، ازدحام یا تصادف، برنامه روزانه شما چقدر تحت تأثیر قرار می‌گیرد؟",
+          "#Not at all affected": "اصلاً تحت تأثیر قرار نمی‌گیرد",
+          "#Slightly affected": "کمی تحت تأثیر قرار می‌گیرد",
+          "#Moderately affected": "تا حد متوسط تحت تأثیر قرار می‌گیرد",
+          "#Very affected": "خیلی تحت تأثیر قرار می‌گیرد",
+          "#Extremely affected": "بسیار زیاد تحت تأثیر قرار می‌گیرد"
+        },
+        "hu": {
+          "#Other": "Egyéb",
+          "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Ha késés történik, például forgalom, torlódás vagy baleset miatt, mennyire befolyásolja ez a napi időbeosztását?",
+          "#Not at all affected": "Egyáltalán nem befolyásolja",
+          "#Slightly affected": "Kissé befolyásolja",
+          "#Moderately affected": "Közepesen befolyásolja",
+          "#Very affected": "Nagyon befolyásolja",
+          "#Extremely affected": "Rendkívül befolyásolja"
+        },
+        "ar": {
+          "#Other": "أخرى",
+          "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "عند حدوث تأخير، مثل حركة المرور أو الازدحام أو الحوادث، كيف يؤثر ذلك في جدولك اليومي؟",
+          "#Not at all affected": "لا يؤثر إطلاقًا",
+          "#Slightly affected": "يؤثر قليلًا",
+          "#Moderately affected": "يؤثر بدرجة متوسطة",
+          "#Very affected": "يؤثر كثيرًا",
+          "#Extremely affected": "يؤثر بدرجة كبيرة جدًا"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

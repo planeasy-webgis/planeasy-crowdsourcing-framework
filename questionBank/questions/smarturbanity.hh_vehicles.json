@@ -2,19 +2,21 @@
   "question_id": "smarturbanity.hh_vehicles",
   "project": "SmartUrbanity",
   "key": "hh_vehicles",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "smarturbanity_daily_travel",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
         "text": "Which of the following vehicles are available in your household? (Select all that apply)",
         "answer_key": "hh_vehicles",
+        "legacy_answer_keys": [
+          "hh_vehicles_v1"
+        ],
         "question_type": "multiple_options",
         "options": [
           {
@@ -38,10 +40,7 @@
             "value": "no_vehicle_available"
           }
         ],
-        "add_other": true,
-        "legacy_answer_keys": [
-          "hh_vehicles_v1"
-        ]
+        "add_other": true
       },
       "translations": {
         "en": {
@@ -120,6 +119,112 @@
       "source_questionnaires": [
         "smarturbanity_daily_travel"
       ]
+    },
+    "reference_cb9cf0d03bbc": {
+      "schema": {
+        "text": "Which of the following vehicles are available in your household? (Select all that apply)",
+        "answer_key": "hh_vehicles",
+        "question_type": "multiple_options",
+        "options": [
+          {
+            "text": "Car",
+            "value": "car"
+          },
+          {
+            "text": "Motorcycle",
+            "value": "motorcycle"
+          },
+          {
+            "text": "Bicycle/e-bike",
+            "value": "bicycle_e_bike"
+          },
+          {
+            "text": "E-scooter",
+            "value": "e_scooter"
+          },
+          {
+            "text": "No vehicle available",
+            "value": "no_vehicle_available"
+          }
+        ],
+        "add_other": true
+      },
+      "translations": {
+        "en": {
+          "#Car": "Car",
+          "#Motorcycle": "Motorcycle",
+          "#Other": "Other",
+          "#Which of the following vehicles are available in your household? (Select all that apply)": "Which of the following vehicles are available in your household? (Select all that apply)",
+          "#Bicycle/e-bike": "Bicycle/e-bike",
+          "#E-scooter": "E-scooter",
+          "#No vehicle available": "No vehicle available"
+        },
+        "it": {
+          "#Car": "Auto",
+          "#Motorcycle": "Moto",
+          "#Other": "Altro",
+          "#Which of the following vehicles are available in your household? (Select all that apply)": "Quali dei seguenti veicoli sono disponibili nel tuo nucleo familiare? (Seleziona tutte le opzioni applicabili)",
+          "#Bicycle/e-bike": "Bicicletta/e-bike",
+          "#E-scooter": "Monopattino elettrico",
+          "#No vehicle available": "Nessun veicolo disponibile"
+        },
+        "fr": {
+          "#Car": "Voiture",
+          "#Motorcycle": "Moto",
+          "#Other": "Autre",
+          "#Which of the following vehicles are available in your household? (Select all that apply)": "Quels véhicules sont disponibles dans votre foyer ? (Sélectionnez toutes les réponses qui s’appliquent)",
+          "#Bicycle/e-bike": "Vélo / vélo électrique",
+          "#E-scooter": "Trottinette électrique",
+          "#No vehicle available": "Aucun véhicule disponible"
+        },
+        "de": {
+          "#Car": "Auto",
+          "#Motorcycle": "Motorrad",
+          "#Other": "Anderes",
+          "#Which of the following vehicles are available in your household? (Select all that apply)": "Welche der folgenden Fahrzeuge stehen in Ihrem Haushalt zur Verfügung? (Wählen Sie alles Zutreffende aus)",
+          "#Bicycle/e-bike": "Fahrrad / E-Bike",
+          "#E-scooter": "E-Scooter",
+          "#No vehicle available": "Kein Fahrzeug verfügbar"
+        },
+        "tr": {
+          "#Car": "Otomobil",
+          "#Motorcycle": "Motosiklet",
+          "#Other": "Diğer",
+          "#Which of the following vehicles are available in your household? (Select all that apply)": "Hanenizde aşağıdaki araçlardan hangileri mevcut? (Uygun olanların tümünü seçin)",
+          "#Bicycle/e-bike": "Bisiklet / elektrikli bisiklet",
+          "#E-scooter": "E-scooter",
+          "#No vehicle available": "Mevcut araç yok"
+        },
+        "fa": {
+          "#Car": "خودرو",
+          "#Motorcycle": "موتورسیکلت",
+          "#Other": "سایر",
+          "#Which of the following vehicles are available in your household? (Select all that apply)": "کدام وسیله‌های زیر در خانوار شما در دسترس است؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+          "#Bicycle/e-bike": "دوچرخه / دوچرخه برقی",
+          "#E-scooter": "اسکوتر برقی",
+          "#No vehicle available": "هیچ وسیله‌ای در دسترس نیست"
+        },
+        "hu": {
+          "#Car": "Autó",
+          "#Motorcycle": "Motorkerékpár",
+          "#Other": "Egyéb",
+          "#Which of the following vehicles are available in your household? (Select all that apply)": "Mely járművek állnak rendelkezésre a háztartásában? (Jelölje meg az összes megfelelőt)",
+          "#Bicycle/e-bike": "Kerékpár / e-bike",
+          "#E-scooter": "Elektromos roller",
+          "#No vehicle available": "Nincs elérhető jármű"
+        },
+        "ar": {
+          "#Car": "السيارة",
+          "#Motorcycle": "الدراجة النارية",
+          "#Other": "أخرى",
+          "#Which of the following vehicles are available in your household? (Select all that apply)": "أي من المركبات التالية متاحة في أسرتك؟ (اختر كل ما ينطبق)",
+          "#Bicycle/e-bike": "دراجة / دراجة كهربائية",
+          "#E-scooter": "سكوتر كهربائي",
+          "#No vehicle available": "لا توجد مركبة متاحة"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }

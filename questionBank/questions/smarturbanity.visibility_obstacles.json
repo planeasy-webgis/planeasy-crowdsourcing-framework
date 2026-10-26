@@ -2,14 +2,13 @@
   "question_id": "smarturbanity.visibility_obstacles",
   "project": "SmartUrbanity",
   "key": "visibility_obstacles",
-  "version": 1,
-  "status": "draft",
+  "version": 2,
   "origin_questionnaire": "street_connection_assessment",
-  "origin_basis": "main_baseline_schema_migration",
+  "origin_basis": "only_source_in_current_inventory",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
-  "review_required": false,
+  "review_required": true,
   "variants": {
     "default": {
       "schema": {
@@ -166,6 +165,169 @@
       "source_questionnaires": [
         "street_connection_assessment"
       ]
+    },
+    "reference_96c4bb97682e": {
+      "schema": {
+        "text": "What blocks the view?",
+        "answer_key": "visibility_obstacles",
+        "question_type": "multiple_options",
+        "add_other": true,
+        "checks_inline": false,
+        "options": [
+          {
+            "text": "Parked or stopped cars or vans",
+            "value": "parked_or_stopped_vehicles"
+          },
+          {
+            "text": "Parked motorcycles, mopeds or e-scooters",
+            "value": "two_wheelers_parked"
+          },
+          {
+            "text": "Trees or plants",
+            "value": "vegetation"
+          },
+          {
+            "text": "Bins or containers",
+            "value": "bins"
+          },
+          {
+            "text": "Signs, poles, boxes, or street furniture",
+            "value": "street_furniture"
+          },
+          {
+            "text": "Outdoor café or restaurant seating",
+            "value": "outdoor_seating"
+          },
+          {
+            "text": "Wall, fence, or building corner",
+            "value": "wall_fence_corner"
+          },
+          {
+            "text": "Road curve or slope",
+            "value": "road_geometry"
+          },
+          {
+            "text": "Blind corner or hidden area",
+            "value": "blind_corner_hidden_area"
+          }
+        ]
+      },
+      "translations": {
+        "en": {
+          "#What blocks the view?": "What blocks the view?",
+          "#Parked or stopped cars or vans": "Parked or stopped cars or vans",
+          "#Trees or plants": "Trees or plants",
+          "#Bins or containers": "Bins or containers",
+          "#Signs, poles, boxes, or street furniture": "Signs, poles, boxes, or street furniture",
+          "#Wall, fence, or building corner": "Wall, fence, or building corner",
+          "#Road curve or slope": "Road curve or slope",
+          "#Blind corner or hidden area": "Blind corner or hidden area",
+          "#Other": "Other",
+          "#I don't know": "I don't know",
+          "#Parked motorcycles, mopeds or e-scooters": "Parked motorcycles, mopeds or e-scooters",
+          "#Outdoor café or restaurant seating": "Outdoor café or restaurant seating"
+        },
+        "it": {
+          "#What blocks the view?": "Cosa blocca la visuale?",
+          "#Parked or stopped cars or vans": "Auto o furgoni parcheggiati o fermi",
+          "#Trees or plants": "Alberi o piante",
+          "#Bins or containers": "Cassonetti o contenitori",
+          "#Signs, poles, boxes, or street furniture": "Cartelli, pali, centraline o arredi",
+          "#Wall, fence, or building corner": "Muro, recinzione o angolo di edificio",
+          "#Road curve or slope": "Curva o pendenza della strada",
+          "#Blind corner or hidden area": "Angolo cieco o zona nascosta",
+          "#Other": "Altro",
+          "#I don't know": "Non lo so",
+          "#Parked motorcycles, mopeds or e-scooters": "Moto, motorini o monopattini parcheggiati",
+          "#Outdoor café or restaurant seating": "Tavoli esterni di bar o ristoranti (dehors)"
+        },
+        "fr": {
+          "#What blocks the view?": "Qu'est-ce qui bloque la vue ?",
+          "#Parked or stopped cars or vans": "Voitures ou camionnettes garées ou arrêtées",
+          "#Trees or plants": "Arbres ou végétation",
+          "#Bins or containers": "Poubelles ou conteneurs",
+          "#Signs, poles, boxes, or street furniture": "Panneaux, poteaux, coffrets ou mobilier urbain",
+          "#Wall, fence, or building corner": "Mur, clôture ou angle de bâtiment",
+          "#Road curve or slope": "Virage ou pente de la route",
+          "#Blind corner or hidden area": "Angle mort ou zone cachée",
+          "#Other": "Autre",
+          "#I don't know": "Je ne sais pas",
+          "#Parked motorcycles, mopeds or e-scooters": "Motos, scooters ou trottinettes électriques garés",
+          "#Outdoor café or restaurant seating": "Terrasses de cafés ou de restaurants"
+        },
+        "de": {
+          "#What blocks the view?": "Was versperrt die Sicht?",
+          "#Parked or stopped cars or vans": "Geparkte oder haltende Autos oder Lieferwagen",
+          "#Trees or plants": "Bäume oder Pflanzen",
+          "#Bins or containers": "Abfallbehälter oder Container",
+          "#Signs, poles, boxes, or street furniture": "Schilder, Pfosten, Kästen oder Straßenmobiliar",
+          "#Wall, fence, or building corner": "Mauer, Zaun oder Gebäudeecke",
+          "#Road curve or slope": "Straßenkurve oder Gefälle",
+          "#Blind corner or hidden area": "Uneinsehbare Ecke oder verdeckter Bereich",
+          "#Other": "Sonstiges",
+          "#I don't know": "Ich weiß es nicht",
+          "#Parked motorcycles, mopeds or e-scooters": "Geparkte Motorräder, Motorroller oder E-Scooter",
+          "#Outdoor café or restaurant seating": "Außensitzplätze von Cafés oder Restaurants"
+        },
+        "tr": {
+          "#What blocks the view?": "Görüşü ne engelliyor?",
+          "#Parked or stopped cars or vans": "Park etmiş veya durmuş arabalar ya da kamyonetler",
+          "#Trees or plants": "Ağaçlar veya bitkiler",
+          "#Bins or containers": "Çöp kutuları veya konteynerler",
+          "#Signs, poles, boxes, or street furniture": "İşaretler, direkler, kutular veya sokak mobilyaları",
+          "#Wall, fence, or building corner": "Duvar, çit veya bina köşesi",
+          "#Road curve or slope": "Yol virajı veya eğimi",
+          "#Blind corner or hidden area": "Kör köşe veya gizli alan",
+          "#Other": "Diğer",
+          "#I don't know": "Bilmiyorum",
+          "#Parked motorcycles, mopeds or e-scooters": "Park edilmiş motosiklet, mopet ya da elektrikli scooterlar",
+          "#Outdoor café or restaurant seating": "Kafe veya restoranların dış oturma alanları"
+        },
+        "fa": {
+          "#What blocks the view?": "چه چیزی جلوی دید را می‌گیرد؟",
+          "#Parked or stopped cars or vans": "خودروها یا ون‌های پارک‌شده یا متوقف",
+          "#Trees or plants": "درختان یا گیاهان",
+          "#Bins or containers": "سطل‌ها یا مخزن‌ها",
+          "#Signs, poles, boxes, or street furniture": "تابلوها، تیرها، جعبه‌ها یا مبلمان شهری",
+          "#Wall, fence, or building corner": "دیوار، حصار یا گوشه ساختمان",
+          "#Road curve or slope": "پیچ یا شیب جاده",
+          "#Blind corner or hidden area": "گوشه کور یا بخش پنهان",
+          "#Other": "سایر",
+          "#I don't know": "نمی‌دانم",
+          "#Parked motorcycles, mopeds or e-scooters": "موتورسیکلت، موتور گازی یا اسکوتر برقی پارک‌شده",
+          "#Outdoor café or restaurant seating": "میز و صندلی بیرونی کافه یا رستوران"
+        },
+        "hu": {
+          "#What blocks the view?": "Mi takarja el a kilátást?",
+          "#Parked or stopped cars or vans": "Parkoló vagy álló autók vagy kisteherautók",
+          "#Trees or plants": "Fák vagy növények",
+          "#Bins or containers": "Kukák vagy konténerek",
+          "#Signs, poles, boxes, or street furniture": "Táblák, oszlopok, dobozok vagy utcabútorok",
+          "#Wall, fence, or building corner": "Fal, kerítés vagy épületsarok",
+          "#Road curve or slope": "Útkanyarulat vagy lejtő",
+          "#Blind corner or hidden area": "Beláthatatlan sarok vagy takart terület",
+          "#Other": "Egyéb",
+          "#I don't know": "Nem tudom",
+          "#Parked motorcycles, mopeds or e-scooters": "Parkoló motorok, robogók vagy elektromos rollerek",
+          "#Outdoor café or restaurant seating": "Kávézók vagy éttermek kültéri ülőhelyei"
+        },
+        "ar": {
+          "#What blocks the view?": "ما الذي يحجب الرؤية؟",
+          "#Parked or stopped cars or vans": "سيارات أو شاحنات صغيرة مركونة أو متوقفة",
+          "#Trees or plants": "أشجار أو نباتات",
+          "#Bins or containers": "صناديق قمامة أو حاويات",
+          "#Signs, poles, boxes, or street furniture": "لافتات أو أعمدة أو صناديق أو أثاث شارع",
+          "#Wall, fence, or building corner": "جدار أو سياج أو زاوية مبنى",
+          "#Road curve or slope": "منحنى أو انحدار في الطريق",
+          "#Blind corner or hidden area": "زاوية عمياء أو منطقة محجوبة",
+          "#Other": "أخرى",
+          "#I don't know": "لا أعرف",
+          "#Parked motorcycles, mopeds or e-scooters": "دراجات نارية أو دراجات صغيرة أو سكوترات كهربائية متوقفة",
+          "#Outdoor café or restaurant seating": "جلسات خارجية للمقاهي أو المطاعم"
+        }
+      },
+      "source_questionnaires": []
     }
-  }
+  },
+  "status": "draft"
 }
