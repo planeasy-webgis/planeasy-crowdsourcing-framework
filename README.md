@@ -65,6 +65,7 @@ and organizations wishing to collect participatory data in a compliant and repro
 |------|--------------|
 | [`docs/PRIVACY_GUIDELINES.md`](docs/PRIVACY_GUIDELINES.md) | Explains how the PlanEasy Crowdsourcing Framework collects, uses, and protects participant data. |
 | [`docs/DATA_ARCHITECTURE.md`](docs/DATA_ARCHITECTURE.md) | Defines the unified data model and interoperability logic across Local, Firestore, and MongoDB environments. |
+| [`questionBank/README.md`](questionBank/README.md) | Shared question pool with stable IDs, immutable revisions and topic grouping. |
 | [`questionnaires/README.md`](questionnaires/README.md) | Lists the questionnaires managed by the PlanEasy Crowdsourcing Framework. |
 | [`README.md`](README.md) | This file — overview, workflow, and documentation index. |
 

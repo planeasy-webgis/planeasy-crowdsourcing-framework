@@ -1,0 +1,56 @@
+{
+  "question_id": "place_overall",
+  "key": "place_overall",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "schema": {
+    "text": "Overall, how positively or negatively does this location affect your experience?",
+    "answer_key": "overall_place_impact_rating",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Very negatively",
+        "value": "1_very_negative"
+      },
+      {
+        "text": "Negatively",
+        "value": "2_negative"
+      },
+      {
+        "text": "Neither negatively nor positively",
+        "value": "3_neutral"
+      },
+      {
+        "text": "Positively",
+        "value": "4_positive"
+      },
+      {
+        "text": "Very positively",
+        "value": "5_very_positive"
+      },
+      {
+        "text": "Do not know / prefer not to answer",
+        "value": "dont_know"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "it": {
+      "#Do not know / prefer not to answer": "Non so / preferisco non rispondere",
+      "#Overall, how positively or negatively does this location affect your experience?": "Nel complesso, quanto questo luogo influisce positivamente o negativamente sulla tua esperienza?",
+      "#Very negatively": "Molto negativamente",
+      "#Negatively": "Negativamente",
+      "#Neither negatively nor positively": "Né negativamente né positivamente",
+      "#Positively": "Positivamente",
+      "#Very positively": "Molto positivamente"
+    }
+  }
+}

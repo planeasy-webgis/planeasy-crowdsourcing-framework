@@ -1,0 +1,215 @@
+{
+  "question_id": "bike_obstacles",
+  "key": "bike_obstacles",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "What obstacles make cycling difficult?",
+    "answer_key": "bike_obstacles",
+    "question_type": "multiple_options",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": true,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "No clear obstacle",
+        "value": "none"
+      },
+      {
+        "text": "Narrow sections",
+        "value": "narrow_sections"
+      },
+      {
+        "text": "Parked cars",
+        "value": "parked_cars"
+      },
+      {
+        "text": "Vehicles stopping in the cycle lane",
+        "value": "vehicles_stopping"
+      },
+      {
+        "text": "E-scooters, bicycles, or motorcycles parked on the facility",
+        "value": "micromobility_parked"
+      },
+      {
+        "text": "Trees, poles, signs, or utility boxes",
+        "value": "fixed_objects"
+      },
+      {
+        "text": "Outdoor café or restaurant seating",
+        "value": "outdoor_seating"
+      },
+      {
+        "text": "Shop displays or street vendors",
+        "value": "shop_displays_vendors"
+      },
+      {
+        "text": "Waste bins or rubbish bags",
+        "value": "waste_bins_bags"
+      },
+      {
+        "text": "Construction works",
+        "value": "construction"
+      },
+      {
+        "text": "Flooded areas after rain",
+        "value": "flooding"
+      },
+      {
+        "text": "Public transport stop or people waiting",
+        "value": "pt_stop_waiting"
+      },
+      {
+        "text": "Other",
+        "value": "other"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Parked cars": "Parked cars",
+      "#Other": "Other",
+      "#I don't know": "I don't know",
+      "#No clear obstacle": "No clear obstacle",
+      "#Trees, poles, signs, or utility boxes": "Trees, poles, signs, or utility boxes",
+      "#Outdoor café or restaurant seating": "Outdoor café or restaurant seating",
+      "#Shop displays or street vendors": "Shop displays or street vendors",
+      "#Waste bins or rubbish bags": "Waste bins or rubbish bags",
+      "#Construction works": "Construction works",
+      "#Flooded areas after rain": "Flooded areas after rain",
+      "#What obstacles make cycling difficult?": "What obstacles make cycling difficult?",
+      "#Narrow sections": "Narrow sections",
+      "#Vehicles stopping in the cycle lane": "Vehicles stopping in the cycle lane",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "E-scooters, bicycles, or motorcycles parked on the facility",
+      "#Public transport stop or people waiting": "Public transport stop or people waiting"
+    },
+    "it": {
+      "#Parked cars": "Automobili parcheggiate",
+      "#Other": "Altro",
+      "#I don't know": "Non lo so",
+      "#No clear obstacle": "Nessun ostacolo evidente",
+      "#Trees, poles, signs, or utility boxes": "Alberi, pali, cartelli o centraline",
+      "#Outdoor café or restaurant seating": "Tavoli esterni di bar o ristoranti",
+      "#Shop displays or street vendors": "Espositori di negozi o venditori ambulanti",
+      "#Waste bins or rubbish bags": "Cassonetti o sacchi dei rifiuti",
+      "#Construction works": "Lavori in corso",
+      "#Flooded areas after rain": "Zone allagate dopo la pioggia",
+      "#What obstacles make cycling difficult?": "Quali ostacoli rendono difficile passare in bicicletta?",
+      "#Narrow sections": "Tratti stretti",
+      "#Vehicles stopping in the cycle lane": "Veicoli fermi nello spazio ciclabile",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "Monopattini, biciclette o motocicli parcheggiati nello spazio ciclabile",
+      "#Public transport stop or people waiting": "Fermata del trasporto pubblico o persone in attesa"
+    },
+    "fr": {
+      "#Parked cars": "Voitures stationnées",
+      "#Other": "Autre",
+      "#I don't know": "Je ne sais pas",
+      "#No clear obstacle": "Aucun obstacle évident",
+      "#Trees, poles, signs, or utility boxes": "Arbres, poteaux, panneaux ou boîtiers techniques",
+      "#Outdoor café or restaurant seating": "Terrasses de cafés ou de restaurants",
+      "#Shop displays or street vendors": "Étalages de magasins ou vendeurs ambulants",
+      "#Waste bins or rubbish bags": "Poubelles ou sacs de déchets",
+      "#Construction works": "Travaux en cours",
+      "#Flooded areas after rain": "Zones inondées après la pluie",
+      "#What obstacles make cycling difficult?": "Quels obstacles rendent la circulation à vélo difficile ?",
+      "#Narrow sections": "Sections étroites",
+      "#Vehicles stopping in the cycle lane": "Véhicules arrêtés sur la piste/bande cyclable",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "Trottinettes électriques, vélos ou motos stationnés sur l’aménagement",
+      "#Public transport stop or people waiting": "Arrêt de transport en commun ou personnes en attente"
+    },
+    "de": {
+      "#Parked cars": "Geparkte Autos",
+      "#Other": "Sonstiges",
+      "#I don't know": "Ich weiß es nicht",
+      "#No clear obstacle": "Kein eindeutiges Hindernis",
+      "#Trees, poles, signs, or utility boxes": "Bäume, Pfosten, Schilder oder Versorgungskästen",
+      "#Outdoor café or restaurant seating": "Außensitzplätze von Cafés oder Restaurants",
+      "#Shop displays or street vendors": "Warenauslagen oder Straßenverkauf",
+      "#Waste bins or rubbish bags": "Mülltonnen oder Müllsäcke",
+      "#Construction works": "Baustellen",
+      "#Flooded areas after rain": "Überflutete Bereiche nach Regen",
+      "#What obstacles make cycling difficult?": "Welche Hindernisse erschweren das Radfahren?",
+      "#Narrow sections": "Enge Abschnitte",
+      "#Vehicles stopping in the cycle lane": "Fahrzeuge, die im Radweg halten",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "E-Scooter, Fahrräder oder Motorräder auf der Anlage abgestellt",
+      "#Public transport stop or people waiting": "Haltestelle des öffentlichen Verkehrs oder wartende Personen"
+    },
+    "tr": {
+      "#Parked cars": "Park etmiş arabalar",
+      "#Other": "Diğer",
+      "#I don't know": "Bilmiyorum",
+      "#No clear obstacle": "Belirgin bir engel yok",
+      "#Trees, poles, signs, or utility boxes": "Ağaçlar, direkler, işaretler veya elektrik kutuları",
+      "#Outdoor café or restaurant seating": "Kafe veya restoranların dış oturma alanları",
+      "#Shop displays or street vendors": "Mağaza teşhirleri veya seyyar satıcılar",
+      "#Waste bins or rubbish bags": "Çöp kutuları veya çöp torbaları",
+      "#Construction works": "İnşaat/çalışma alanları",
+      "#Flooded areas after rain": "Yağmurdan sonra su basan alanlar",
+      "#What obstacles make cycling difficult?": "Hangi engeller bisiklet sürmeyi zorlaştırıyor?",
+      "#Narrow sections": "Dar bölümler",
+      "#Vehicles stopping in the cycle lane": "Bisiklet şeridinde duran araçlar",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "Tesise park edilmiş e-scooter, bisiklet veya motosikletler",
+      "#Public transport stop or people waiting": "Toplu taşıma durağı veya bekleyen kişiler"
+    },
+    "fa": {
+      "#Parked cars": "خودروهای پارک‌شده",
+      "#Other": "سایر",
+      "#I don't know": "نمی‌دانم",
+      "#No clear obstacle": "مانع مشخصی وجود ندارد",
+      "#Trees, poles, signs, or utility boxes": "درختان، تیرها، تابلوها یا جعبه‌های تأسیسات",
+      "#Outdoor café or restaurant seating": "میز و صندلی بیرونی کافه یا رستوران",
+      "#Shop displays or street vendors": "اجناس بیرون مغازه یا دستفروشان",
+      "#Waste bins or rubbish bags": "سطل یا کیسه زباله",
+      "#Construction works": "عملیات ساختمانی",
+      "#Flooded areas after rain": "بخش‌های آب‌گرفته پس از باران",
+      "#What obstacles make cycling difficult?": "چه موانعی دوچرخه‌سواری را دشوار می‌کند؟",
+      "#Narrow sections": "بخش‌های باریک",
+      "#Vehicles stopping in the cycle lane": "خودروهای متوقف در مسیر دوچرخه",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "اسکوتر برقی، دوچرخه یا موتورسیکلت پارک‌شده روی مسیر",
+      "#Public transport stop or people waiting": "ایستگاه حمل‌ونقل عمومی یا افراد منتظر"
+    },
+    "hu": {
+      "#Parked cars": "Parkoló autók",
+      "#Other": "Egyéb",
+      "#I don't know": "Nem tudom",
+      "#No clear obstacle": "Nincs egyértelmű akadály",
+      "#Trees, poles, signs, or utility boxes": "Fák, oszlopok, táblák vagy közműszekrények",
+      "#Outdoor café or restaurant seating": "Kávézók vagy éttermek kültéri ülőhelyei",
+      "#Shop displays or street vendors": "Bolti kihelyezések vagy utcai árusok",
+      "#Waste bins or rubbish bags": "Hulladékgyűjtők vagy szemeteszsákok",
+      "#Construction works": "Építési munkák",
+      "#Flooded areas after rain": "Eső után elöntött területek",
+      "#What obstacles make cycling difficult?": "Milyen akadályok nehezítik a kerékpározást?",
+      "#Narrow sections": "Keskeny szakaszok",
+      "#Vehicles stopping in the cycle lane": "A kerékpársávban megálló járművek",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "A létesítményen parkoló e-rollerek, kerékpárok vagy motorkerékpárok",
+      "#Public transport stop or people waiting": "Tömegközlekedési megálló vagy várakozó emberek"
+    },
+    "ar": {
+      "#Parked cars": "سيارات متوقفة",
+      "#Other": "أخرى",
+      "#I don't know": "لا أعرف",
+      "#No clear obstacle": "لا يوجد عائق واضح",
+      "#Trees, poles, signs, or utility boxes": "أشجار أو أعمدة أو لافتات أو صناديق خدمات",
+      "#Outdoor café or restaurant seating": "جلسات خارجية للمقاهي أو المطاعم",
+      "#Shop displays or street vendors": "معروضات المتاجر أو الباعة المتجولون",
+      "#Waste bins or rubbish bags": "حاويات أو أكياس نفايات",
+      "#Construction works": "أعمال إنشاء",
+      "#Flooded areas after rain": "مناطق مغمورة بالمياه بعد المطر",
+      "#What obstacles make cycling difficult?": "ما العوائق التي تجعل ركوب الدراجة صعبًا؟",
+      "#Narrow sections": "مقاطع ضيقة",
+      "#Vehicles stopping in the cycle lane": "مركبات متوقفة في مسار الدراجات",
+      "#E-scooters, bicycles, or motorcycles parked on the facility": "دراجات كهربائية صغيرة أو دراجات أو دراجات نارية متوقفة على المرفق",
+      "#Public transport stop or people waiting": "موقف نقل عام أو أشخاص ينتظرون"
+    }
+  }
+}

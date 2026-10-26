@@ -1,0 +1,207 @@
+{
+  "question_id": "employment",
+  "key": "employment",
+  "project": "shared",
+  "version": "0.5.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_about_you",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "schema": {
+    "text": "Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.",
+    "answer_key": "employment",
+    "question_type": "multiple_options",
+    "help": "We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.",
+    "max_answers": 2,
+    "options": [
+      {
+        "text": "Employed full-time",
+        "value": "employed_full_time"
+      },
+      {
+        "text": "Employed part-time",
+        "value": "employed_part_time"
+      },
+      {
+        "text": "Occasional, on-call or temporary work",
+        "value": "occasionally_employed"
+      },
+      {
+        "text": "Self-employed/freelance full-time",
+        "value": "self_employed_freelance_full_time"
+      },
+      {
+        "text": "Self employed/freelance part-time",
+        "value": "self_employed_freelance_part_time"
+      },
+      {
+        "text": "Student (school, university or training)",
+        "value": "student"
+      },
+      {
+        "text": "Homemaker",
+        "value": "homemaker"
+      },
+      {
+        "text": "Retired",
+        "value": "retired"
+      },
+      {
+        "text": "Unemployed looking for work",
+        "value": "unemployed_looking_for_work"
+      },
+      {
+        "text": "Unemployed not looking for work",
+        "value": "unemployed_not_looking_for_work"
+      },
+      {
+        "text": "Not working because of health problems or disability",
+        "value": "unable_to_work_health"
+      }
+    ],
+    "add_other": true,
+    "add_prefer_not_to_say": true,
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Prefer not to say": "Prefer not to say",
+      "#Other": "Other",
+      "#Employed full-time": "Employed full-time",
+      "#Employed part-time": "Employed part-time",
+      "#Self-employed/freelance full-time": "Self-employed/freelance full-time",
+      "#Self employed/freelance part-time": "Self employed/freelance part-time",
+      "#Homemaker": "Homemaker",
+      "#Retired": "Retired",
+      "#Unemployed looking for work": "Unemployed looking for work",
+      "#Unemployed not looking for work": "Unemployed not looking for work",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.",
+      "#Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.": "Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.",
+      "#Occasional, on-call or temporary work": "Occasional, on-call or temporary work",
+      "#Student (school, university or training)": "Student (school, university or training)",
+      "#Not working because of health problems or disability": "Not working because of health problems or disability"
+    },
+    "it": {
+      "#Prefer not to say": "Preferisco non rispondere",
+      "#Other": "Altro",
+      "#Employed full-time": "Lavoratore/lavoratrice a tempo pieno",
+      "#Employed part-time": "Lavoratore/lavoratrice a tempo parziale",
+      "#Self-employed/freelance full-time": "Lavoratore/lavoratrice autonomo/a o libero/a professionista a tempo pieno",
+      "#Self employed/freelance part-time": "Lavoratore/lavoratrice autonomo/a o libero/a professionista a tempo parziale",
+      "#Homemaker": "Persona che si occupa della casa",
+      "#Retired": "Pensionato/a",
+      "#Unemployed looking for work": "Disoccupato/a in cerca di lavoro",
+      "#Unemployed not looking for work": "Disoccupato/a non in cerca di lavoro",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Lo chiediamo per descrivere chi partecipa allo studio. Rispondere è facoltativo e la tua risposta non è collegata al tuo nome.",
+      "#Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.": "Quali di queste opzioni descrivono meglio la tua attuale situazione di lavoro o di studio? Se studi e lavori, puoi scegliere due risposte.",
+      "#Occasional, on-call or temporary work": "Lavoro occasionale, a chiamata o a termine",
+      "#Student (school, university or training)": "Studente/studentessa (scuola, università o formazione)",
+      "#Not working because of health problems or disability": "Non lavoro per motivi di salute o disabilità"
+    },
+    "fr": {
+      "#Prefer not to say": "Je préfère ne pas répondre",
+      "#Other": "Autre",
+      "#Employed full-time": "Salarié(e) à temps plein",
+      "#Employed part-time": "Salarié(e) à temps partiel",
+      "#Self-employed/freelance full-time": "Indépendant(e) / freelance à temps plein",
+      "#Self employed/freelance part-time": "Indépendant(e) / freelance à temps partiel",
+      "#Homemaker": "Personne au foyer",
+      "#Retired": "Retraité(e)",
+      "#Unemployed looking for work": "Sans emploi et à la recherche d’un emploi",
+      "#Unemployed not looking for work": "Sans emploi et ne recherchant pas d’emploi",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Nous posons cette question pour décrire qui participe à l’étude. Répondre est facultatif et votre réponse n’est pas liée à votre nom.",
+      "#Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.": "Lesquelles de ces options décrivent le mieux votre situation actuelle de travail ou d’études ? Si vous étudiez et travaillez, vous pouvez choisir deux réponses.",
+      "#Occasional, on-call or temporary work": "Travail occasionnel, sur appel ou temporaire",
+      "#Student (school, university or training)": "Élève ou étudiant(e) (école, université ou formation)",
+      "#Not working because of health problems or disability": "Je ne travaille pas pour des raisons de santé ou de handicap"
+    },
+    "de": {
+      "#Prefer not to say": "Ich möchte nicht antworten",
+      "#Other": "Anderes",
+      "#Employed full-time": "Vollzeit beschäftigt",
+      "#Employed part-time": "Teilzeit beschäftigt",
+      "#Self-employed/freelance full-time": "Selbstständig / freiberuflich in Vollzeit",
+      "#Self employed/freelance part-time": "Selbstständig / freiberuflich in Teilzeit",
+      "#Homemaker": "Im Haushalt tätig",
+      "#Retired": "Im Ruhestand",
+      "#Unemployed looking for work": "Arbeitslos und auf Arbeitssuche",
+      "#Unemployed not looking for work": "Arbeitslos und nicht auf Arbeitssuche",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Wir fragen dies, um zu beschreiben, wer an der Studie teilnimmt. Die Antwort ist freiwillig und nicht mit Ihrem Namen verbunden.",
+      "#Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.": "Welche dieser Angaben beschreiben Ihre aktuelle Arbeits- oder Ausbildungssituation am besten? Wenn Sie lernen oder studieren und zugleich arbeiten, können Sie zwei Antworten wählen.",
+      "#Occasional, on-call or temporary work": "Gelegentliche, Abruf- oder befristete Arbeit",
+      "#Student (school, university or training)": "In Schule, Studium oder Ausbildung",
+      "#Not working because of health problems or disability": "Ich arbeite aus gesundheitlichen Gründen oder wegen einer Behinderung nicht"
+    },
+    "tr": {
+      "#Prefer not to say": "Yanıtlamak istemiyorum",
+      "#Other": "Diğer",
+      "#Employed full-time": "Tam zamanlı çalışıyorum",
+      "#Employed part-time": "Yarı zamanlı çalışıyorum",
+      "#Self-employed/freelance full-time": "Tam zamanlı serbest / kendi hesabıma çalışıyorum",
+      "#Self employed/freelance part-time": "Yarı zamanlı serbest / kendi hesabıma çalışıyorum",
+      "#Homemaker": "Ev işleriyle ilgileniyorum",
+      "#Retired": "Emekliyim",
+      "#Unemployed looking for work": "İşsizim ve iş arıyorum",
+      "#Unemployed not looking for work": "İşsizim ve iş aramıyorum",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Bunu, çalışmaya kimlerin katıldığını tanımlamak için soruyoruz. Yanıt vermek isteğe bağlıdır ve yanıtınız adınızla ilişkilendirilmez.",
+      "#Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.": "Şu anki çalışma veya öğrenim durumunuzu en iyi hangileri tanımlar? Hem okuyup hem çalışıyorsanız iki yanıt seçebilirsiniz.",
+      "#Occasional, on-call or temporary work": "Ara sıra, çağrı üzerine veya geçici iş",
+      "#Student (school, university or training)": "Öğrenci (okul, üniversite veya eğitim)",
+      "#Not working because of health problems or disability": "Sağlık sorunları veya engellilik nedeniyle çalışmıyorum"
+    },
+    "fa": {
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#Other": "سایر",
+      "#Employed full-time": "شاغل تمام‌وقت",
+      "#Employed part-time": "شاغل پاره‌وقت",
+      "#Self-employed/freelance full-time": "خوداشتغال / فریلنسر تمام‌وقت",
+      "#Self employed/freelance part-time": "خوداشتغال / فریلنسر پاره‌وقت",
+      "#Homemaker": "خانه‌دار",
+      "#Retired": "بازنشسته",
+      "#Unemployed looking for work": "بیکار و در جست‌وجوی کار",
+      "#Unemployed not looking for work": "بیکار و در حال حاضر جویای کار نیستم",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "این را می‌پرسیم تا توصیف کنیم چه کسانی در این مطالعه شرکت می‌کنند. پاسخ دادن اختیاری است و پاسخ شما به نام شما مرتبط نمی‌شود.",
+      "#Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.": "کدام گزینه‌ها وضعیت فعلی کار یا تحصیل شما را بهتر توصیف می‌کنند؟ اگر هم درس می‌خوانید و هم کار می‌کنید، می‌توانید دو پاسخ انتخاب کنید.",
+      "#Occasional, on-call or temporary work": "کار گاه‌به‌گاه، موردی یا موقت",
+      "#Student (school, university or training)": "دانش‌آموز یا دانشجو (مدرسه، دانشگاه یا دوره آموزشی)",
+      "#Not working because of health problems or disability": "به دلیل مشکلات سلامتی یا معلولیت کار نمی‌کنم"
+    },
+    "hu": {
+      "#Prefer not to say": "Nem szeretnék válaszolni",
+      "#Other": "Egyéb",
+      "#Employed full-time": "Teljes munkaidőben dolgozom",
+      "#Employed part-time": "Részmunkaidőben dolgozom",
+      "#Self-employed/freelance full-time": "Teljes munkaidőben önfoglalkoztató / szabadúszó vagyok",
+      "#Self employed/freelance part-time": "Részmunkaidőben önfoglalkoztató / szabadúszó vagyok",
+      "#Homemaker": "Háztartásbeli vagyok",
+      "#Retired": "Nyugdíjas vagyok",
+      "#Unemployed looking for work": "Munkanélküli vagyok és munkát keresek",
+      "#Unemployed not looking for work": "Munkanélküli vagyok és jelenleg nem keresek munkát",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Azért kérdezzük, hogy leírjuk, kik vesznek részt a vizsgálatban. A válaszadás nem kötelező, és a válasza nincs összekapcsolva a nevével.",
+      "#Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.": "Melyik válaszok írják le legjobban jelenlegi munka- vagy tanulási helyzetét? Ha tanul és dolgozik is, két választ is megjelölhet.",
+      "#Occasional, on-call or temporary work": "Alkalmi, behívásos vagy határozott idejű munka",
+      "#Student (school, university or training)": "Tanuló vagy hallgató (iskola, egyetem vagy képzés)",
+      "#Not working because of health problems or disability": "Egészségügyi okból vagy fogyatékosság miatt nem dolgozom"
+    },
+    "ar": {
+      "#Prefer not to say": "أفضل عدم الإجابة",
+      "#Other": "آخر",
+      "#Employed full-time": "أعمل بدوام كامل",
+      "#Employed part-time": "أعمل بدوام جزئي",
+      "#Self-employed/freelance full-time": "أعمل لحسابي الخاص / مستقل بدوام كامل",
+      "#Self employed/freelance part-time": "أعمل لحسابي الخاص / مستقل بدوام جزئي",
+      "#Homemaker": "أتولى شؤون المنزل",
+      "#Retired": "متقاعد",
+      "#Unemployed looking for work": "عاطل عن العمل وأبحث عن عمل",
+      "#Unemployed not looking for work": "عاطل عن العمل ولا أبحث عن عمل حاليًا",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "نسأل عن ذلك لوصف من يشارك في الدراسة. الإجابة اختيارية وإجابتك غير مرتبطة باسمك.",
+      "#Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.": "أي من هذه الخيارات يصف بشكل أفضل وضعك الحالي في العمل أو الدراسة؟ إذا كنت تدرس وتعمل معًا، يمكنك اختيار إجابتين.",
+      "#Occasional, on-call or temporary work": "عمل عرضي أو عند الطلب أو مؤقت",
+      "#Student (school, university or training)": "طالب/ة (مدرسة أو جامعة أو تدريب)",
+      "#Not working because of health problems or disability": "لا أعمل بسبب مشكلات صحية أو إعاقة"
+    }
+  }
+}

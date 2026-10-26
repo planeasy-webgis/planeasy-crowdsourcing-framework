@@ -1,0 +1,4012 @@
+{
+  "schema_version": 1,
+  "source_repository": "smarturbanity/smarturbanity-configuration",
+  "source_commit": "fb2dd6ab0580de01ed68c0f6ac2669e2119ef503",
+  "stage": "published_main",
+  "forms": [
+    {
+      "questionnaire_id": "smarturbanity_geolocated_perception_report",
+      "source_questionnaire_version": "0.3.1",
+      "source_path": "forms/locationReports/geolocated_perception_report.json",
+      "source_blob_sha1": "9d21767a0379237aaa2df97c816b263ecc5894ad",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Your experience here",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "report_perspective",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "22c73a6c990361f9796af962d0b72bb6adb322e9880012d2c77535e7be3accb4",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "report_when",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "078cc88ae13a890a03bc3d16143478643b72fbe9ce12ba1fa1233c3dd2638334",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "place_use_frequency",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "18fd85e4cc033093b3932d957b7256c087720c16234dd3d33a232aae195a148d",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "place_traffic_safety",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "1ab76811caeb19ef31dddb5aab7c4aab45f23fbc1637ab54df2bcd020a3299f3",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "place_personal_security",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "6e5a16d448bec4d6c72c319acfbb3086e3bba2ca0a58164167130422b435876a",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "place_pleasantness",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "facc8028cbc88d203e3a6fbeb76787b82df5b0fd1c069568e5f2e63e97d83f8c",
+              "overrides": {}
+            },
+            {
+              "order": 6,
+              "question_id": "place_overall",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "3cfddf7701b261c96b5c9431d6c87127a4ac726a3e206bb40e627bea38a37599",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "place_avoidance",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "e4fa4bc09677b6e37ce9a1a7a9d865ec59dcaad5a0c5fe9096a9cea2f5b662fd",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "place_use_frequency": [
+                    "lt_monthly",
+                    "monthly",
+                    "weekly",
+                    "daily"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "place_factors",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/8",
+              "source_node_sha256": "92817068751283d5eb82256a9f3e709b0f25057ca91a48f09849ff28d2e7fe15",
+              "overrides": {}
+            },
+            {
+              "order": 9,
+              "question_id": "place_more_details",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/9",
+              "source_node_sha256": "6c48ef112e7e4db6fa815944d37cb489557d519a61ae79d650f1ed7211f26185",
+              "overrides": {}
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "title": "More details",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "place_moving_ease",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/0",
+              "source_node_sha256": "e83117ddd2f5354ff2ee4b0b01da8043168cd1a77fb9dcc64986be1c0209c6c7",
+              "overrides": {
+                "show_if": {
+                  "place_more_details": [
+                    "yes"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "place_heat_shade",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/1",
+              "source_node_sha256": "4d8a71e9be5b155f7e1ea6ebdd972a048d2ab56451d1565b71401ad06a216d77",
+              "overrides": {
+                "show_if": {
+                  "place_more_details": [
+                    "yes"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "place_noise",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/2",
+              "source_node_sha256": "2c10e060814b3937e7d54d98bd59a0111e3ea6618192b2680fd60d9d15273f89",
+              "overrides": {
+                "show_if": {
+                  "place_more_details": [
+                    "yes"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "place_air",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/3",
+              "source_node_sha256": "802940594dba51b7eff65aecc2c377a8927e5a4dafadd98238293a3fd0ed1ada",
+              "overrides": {
+                "show_if": {
+                  "place_more_details": [
+                    "yes"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "place_cleanliness",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/4",
+              "source_node_sha256": "57ac7f2cddf991d772d6b3e5ace11d8f4c89ba1fde6d458dc0d892d5b398ce93",
+              "overrides": {
+                "show_if": {
+                  "place_more_details": [
+                    "yes"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "place_people",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/5",
+              "source_node_sha256": "ddf498920c030ecf85c57a79c8854970c61445f3cebacbe0b28dcba495374414",
+              "overrides": {
+                "show_if": {
+                  "place_more_details": [
+                    "yes"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "place_improvements",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/6",
+              "source_node_sha256": "a4c629020cacfc9deab5f09ec301e39c5f9652ca593fbeb2ee4715e4bac832e5",
+              "overrides": {
+                "show_if": {
+                  "place_more_details": [
+                    "yes"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "place_comment",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/7",
+              "source_node_sha256": "d8133eca1f2b6bc7befe4d5d0d86bf3874e16427b0a08fce3c999059809fccf1",
+              "overrides": {
+                "show_if": {
+                  "place_more_details": [
+                    "yes"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_improvement_proposal",
+      "source_questionnaire_version": "1.1.0",
+      "source_path": "forms/locationReports/improvement_proposal.json",
+      "source_blob_sha1": "9e326136125b995e8ae0dcece4ac79e82bf91ab6",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Your proposal",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "improvement_type",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "ac7b5283eeea65009f24d426970b46f0f04ea65113ceebd41de3cc7c05ac663e",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "improvement_type_other",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "a740c29b0dcecb02a8d260da8e8865fc3fe2eaca4f3d69878a4fd01ba9f1faff",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "improvement_type": [
+                    "other"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "proposal_description",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "758db62a3ea5143c477ce2f49f05a7096dc834ad17fc62f4154a7fbaccfc0c82",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "improvement_type": {
+                    "not": [
+                      "other"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "proposal_beneficiaries",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "a89dce7f25b77883971aa7b7e7f825673458c96e27823566467c7a8f0553a6a0",
+              "overrides": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_missing_connection_report",
+      "source_questionnaire_version": "1.1.0",
+      "source_path": "forms/locationReports/missing_connection_report.json",
+      "source_blob_sha1": "6f481030d21e49d6395b1a56726b6a24dbd09820",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Missing connection",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "needed_connection_form",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "f549b4e2f32de04f04e5a87af0febc0f89cc8cd22dc601a59f517f5aec0e9666",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "needed_connection_form_other",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "b914e8233048c7255c252e911baf24a2c3b2513706adc525422b793cc22a768d",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "needed_connection_form": [
+                    "other"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "closed_connection_intervention",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "f88e173282b3216f3f8a3ee60f3e7993ad0a954cd0a13d09e547674d67ee1b5d",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "needed_connection_form": [
+                    "exists_closed"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "missing_element_urgency",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "367c665ca5bd8653cd18ca80586353c05706624901014d5cd4c6de66a22fc9e0",
+              "overrides": {}
+            },
+            {
+              "order": 4,
+              "question_id": "proposal_beneficiaries",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "a89dce7f25b77883971aa7b7e7f825673458c96e27823566467c7a8f0553a6a0",
+              "overrides": {}
+            },
+            {
+              "order": 5,
+              "question_id": "missing_element_destination",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "6c3f9edf259024f85f858ea8844454abe14ad09efad63b78c9cebc336eda8329",
+              "overrides": {
+                "required": false
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "observation_details",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "006b34736ab81ce3ca96c023362bba4f7e4c1882cc7adb5f1006668fcf7001f7",
+              "overrides": {
+                "required": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_missing_network_element_report",
+      "source_questionnaire_version": "1.0.1",
+      "source_path": "forms/locationReports/missing_network_element_report.json",
+      "source_blob_sha1": "47db018d0b1f6fe079ba29269d1a89067ff8c059",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Missing network element",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "observation_details",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "550f3ddef503d12de8b407b5d258611859fa9d87a485d93f6588a65f9e249b88",
+              "overrides": {
+                "required": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_missing_path_report",
+      "source_questionnaire_version": "1.1.0",
+      "source_path": "forms/locationReports/missing_path_report.json",
+      "source_blob_sha1": "5c6e77f76b44aff210f25d95fc1f356ba49f5334",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Missing path",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "needed_path_type",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "72e63d4c2dcbd3584dee63c0feda8634f98648aa2a25d29afef6722039be6d13",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "needed_path_type_other",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "b96582114e4970ce321de6d868deb35abb1bf348b5e676bf7a9884dee107685e",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "needed_path_type": [
+                    "other"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "missing_element_urgency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "49355bf1f91495f6f6aaf1b41946c32ea0824b2905d41beaab5f2a199a9fa655",
+              "overrides": {}
+            },
+            {
+              "order": 3,
+              "question_id": "proposal_beneficiaries",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "a89dce7f25b77883971aa7b7e7f825673458c96e27823566467c7a8f0553a6a0",
+              "overrides": {}
+            },
+            {
+              "order": 4,
+              "question_id": "missing_element_destination",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "6c3f9edf259024f85f858ea8844454abe14ad09efad63b78c9cebc336eda8329",
+              "overrides": {
+                "required": false
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "observation_details",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "006b34736ab81ce3ca96c023362bba4f7e4c1882cc7adb5f1006668fcf7001f7",
+              "overrides": {
+                "required": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_near_miss_report",
+      "source_questionnaire_version": "0.3.0",
+      "source_path": "forms/locationReports/near_miss_report.json",
+      "source_blob_sha1": "3181f8c576e3fa3f8fc1af72206a7b23bea73f0e",
+      "sections": [
+        {
+          "order": 0,
+          "title": "What happened",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "nm_your_mode",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "134f0d297f004c0a76fef047683e3dffa718d1acd8fdde6e5cc69aed63712349",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "nm_when",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "6a18b16f3eb98aeb1778b007a6c5155eccfb573587c6eefe6275038f48d77a4c",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "nm_light",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "bc621bde1e896ffbf98b26b651fdd254340e94e749b95f70b8140577a82d44b0",
+              "overrides": {}
+            },
+            {
+              "order": 3,
+              "question_id": "nm_other_party",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "505b52ea94ec2354c4a915a647efd70da383810996dc9cf68994142b63774570",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "nm_location_type",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "bf78ce2e3dcd97e6dd5c62cd5a55397dc52414f8691b087f2fcb912fe499a374",
+              "overrides": {}
+            },
+            {
+              "order": 5,
+              "question_id": "nm_what",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "afeb4828251376a86e3bf0bf3f9a811f60403363c42e4887e873aa11cad66513",
+              "overrides": {}
+            },
+            {
+              "order": 6,
+              "question_id": "nm_outcome",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "0a91d06bc8d6c0db193579f7755bb36d87c41b36c38acc550d834b6c25a317fa",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "nm_comment",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "228dec80b9445f7615fa6350321cb327d8ee14f3a8a0f0d3bf498991b10945c8",
+              "overrides": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_service_correction_report",
+      "source_questionnaire_version": "1.2.0",
+      "source_path": "forms/locationReports/service_correction_report.json",
+      "source_blob_sha1": "4b41d5f2a82046327666bd3e07db6bfaaef4706f",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Fix this service",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "correction_reason",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "0b3b4f744d074006b74ce5fcd4b9f126c15fb3d380eedadcea988fee4ff032f5",
+              "overrides": {
+                "required": true
+              }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "title": "A few quick details",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "closed_when",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/0",
+              "source_node_sha256": "5eec9868f0fb97f0f1656e3d3fc083bf96de925e4d7d1bf932163b8ce264e161",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "correction_reason": [
+                    "no_longer_exists"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "closed_source",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/1",
+              "source_node_sha256": "1948196f8560122324e1239c34c186bf631c0b5e76e268945c1ae79950c714aa",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "correction_reason": [
+                    "no_longer_exists"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "replaced_by",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/2",
+              "source_node_sha256": "006635cc07794b1426d379b50fb89127195902e56e7e8fd463424c208d1e2ef4",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "correction_reason": [
+                    "no_longer_exists"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "closed_until",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/3",
+              "source_node_sha256": "3e5ede2228c9299d23b398d2edcd3771156836f5f37f94c50c154d2434b89203",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "correction_reason": [
+                    "temporarily_closed"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "location_distance",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/4",
+              "source_node_sha256": "942c2020666f8182a200e958a90330cac15788f8c5bbbaff20e8333c808cb17c",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "correction_reason": [
+                    "wrong_location"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "real_location",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/5",
+              "source_node_sha256": "65d79b3b4c8971dbe222f53d7f69b031394887404c2e0c19170c51d7c117e872",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "correction_reason": [
+                    "wrong_location"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "duplicate_of",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/6",
+              "source_node_sha256": "a8c7fb71baa879fe929ab948c69cf4bf15e7e0d73db58635026cf84ac016d433",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "correction_reason": [
+                    "duplicate_entry"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "duplicate_keep",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/7",
+              "source_node_sha256": "793e0daacd2af5c8b5ec797f3b84d40d6d5721c2333dcd961911cae181ec4eef",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "correction_reason": [
+                    "duplicate_entry"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "access_barriers",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/8",
+              "source_node_sha256": "66ff146655825617226b6723f516317ad3cc9d515c324e4bc0cee2120b038b02",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "correction_reason": [
+                    "not_accessible"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 9,
+              "question_id": "access_barriers_other",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/9",
+              "source_node_sha256": "cda3d55bcf761e26900bf19f70ab03a4056a6cf9d3211ea3ecee9cb3b761bc93",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "access_barriers": [
+                    "other"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 10,
+              "question_id": "wrong_fields",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/10",
+              "source_node_sha256": "e976a2e91f112ca3834d1f30267a5655aaa49abac10842f6599f5e376e043019",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "correction_reason": [
+                    "wrong_information"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 11,
+              "question_id": "correct_information",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/11",
+              "source_node_sha256": "3e66a3d456d7dd94420570622df2c05aaa9d4239c910f389eedf3c2c2b76969b",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "correction_reason": [
+                    "wrong_information"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 12,
+              "question_id": "correction_details",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/12",
+              "source_node_sha256": "3116088e8806e43e88e45cb25ab0f1da8156560dc604fecad8e74d9e450fd71c",
+              "overrides": {
+                "required": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_service_opportunities",
+      "source_questionnaire_version": "1.1.0",
+      "source_path": "forms/locationReports/service_opportunities.json",
+      "source_blob_sha1": "b627e1fd51f7ebbd35f57906e0717d0574e3951d",
+      "sections": [
+        {
+          "order": 0,
+          "title": "What can be done at this service",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "service_opportunities",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "dcdf132d351adb7070ff917b9cfcb8bf44d6d30d11b549febdf3c524e0836c64",
+              "overrides": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "street_connection_assessment",
+      "source_questionnaire_version": "0.4.0",
+      "source_path": "forms/locationReports/street_connection_assessment.json",
+      "source_blob_sha1": "ff0917c48ded7de954c6548165affccfd4c93d67",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Your point of view",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "assessment_perspective",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "d6c4bba3986adc257ee983777e74bfd6324a8bbf3bbae42856826cd42dbffec6",
+              "overrides": {
+                "required": true,
+                "show_if": {}
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "journey_context",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "a3023ddfd8ec81c433ff9cdeeaccfe81234b33d0a61e926a4b20aefd9b1dc9e9",
+              "overrides": {
+                "required": true,
+                "show_if": {}
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "connection_use_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "464ceb27da4898865f9a6e931e024fa719151dc59c125e2c8cb879698a82780c",
+              "overrides": {
+                "required": true
+              }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "title": "Quick assessment",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "connection_form",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/0",
+              "source_node_sha256": "308bfdcc52fc6ed727e2891e669c64aeb35b9a901c989a05ca23640abc8d6afb",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "crossing_kind",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/1",
+              "source_node_sha256": "3cc48054fbe512bd425b33d5cffe0b5be9ad81c7e4b85e6f2867c28ecf79f13c",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "connection_form": "street_level"
+                },
+                "prefill_from": "element.crossing_kind"
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "crossing_users",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/2",
+              "source_node_sha256": "55c51d22efc22419cf9e55fd186077573de7405502b2033d2c101e3df65e7985",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "connection_form": "street_level"
+                },
+                "prefill_from": "element.crossing_users"
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "pedestrian_use_difficulty",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/3",
+              "source_node_sha256": "bd74b08fe8a3a3327a665a0410f0e362bc945fa3bd183b1b6d4271537dacd174",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "pedestrian_perceived_risk",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/4",
+              "source_node_sha256": "0f4bdf8e8037b1ffe5a5b3f9e22e184824b21045d2c68d1fdba90a785981b2df",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "cyclist_use_difficulty",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/5",
+              "source_node_sha256": "b1326250a02de65a2e6888a3c3f2039950619ee10f6441ed5737b86971183d44",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "cyclist_perceived_risk",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/6",
+              "source_node_sha256": "01f54f96a288094887a848761edf87fe40cb8ce7c16db48f983773b6a4b43a3b",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "personal_safety",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/7",
+              "source_node_sha256": "32d2d8fc0781000b0dd3555f3e2fb62c060c1e4dd53ad7697f6cadc60cb1a246",
+              "overrides": {
+                "required": true,
+                "show_if": {}
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "continue_audit",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/8",
+              "source_node_sha256": "127324d71275c6203a47fc0c73b1b10021460287a1cf9ef91aa04e3b50f11df6",
+              "overrides": {
+                "required": true
+              }
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Access and crossing",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "pedestrian_access",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/0",
+              "source_node_sha256": "d04002f61ea6a24f72b29d1331b509384ca37fd374b2c381358a4afbe9e6c535",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "bicycle_access",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/1",
+              "source_node_sha256": "9a74419efac39f816ba6aec5dcdf15765d4a138af24f16ef548c63fee3f99743",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "cyclist_crossing_problems",
+              "question_version": "0.1.0",
+              "source_pointer": "/questionnaire/sections/2/questions/2",
+              "source_node_sha256": "ea002e00d90838dbc4682ca8b226b37a1b397f851ee2cc7dc5b4569f5b2af783",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "connection_elements",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/3",
+              "source_node_sha256": "f54504a8c9816d62b3326a93b685f656e12555ec38595bfd902a272f1e10480e",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": [
+                    "under_road",
+                    "over_road",
+                    "level_change",
+                    "other"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "elevator_working",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/4",
+              "source_node_sha256": "48cf7f30428e64410dac5a0c792cc6a8294175f1b89f122b6ba7a5e7f166636e",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_elements": [
+                    "elevator"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "escalator_working",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/5",
+              "source_node_sha256": "1ae6dc3abf76c663c3a02f590f0d67228abe9d22c6de54e1c4ea6e091f82a302",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_elements": [
+                    "escalator"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "traffic_control",
+              "question_version": "0.4.0",
+              "source_pointer": "/questionnaire/sections/2/questions/6",
+              "source_node_sha256": "fee7059135f340c72e477213e40f4938eac7767522fc32d530b26e28885460e2",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": "street_level"
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "signal_call",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/7",
+              "source_node_sha256": "de663567de9cd9704f67047102b33a15b75b3fd243c3b6cca22db9776a08a376",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "crossing_kind": [
+                    "signal"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "audible_signal_status",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/8",
+              "source_node_sha256": "66ae3821cbeb28cdc1fd4c3859b0b61cd51bd5c4ff10f5a26ea9987d4988dff5",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "crossing_kind": [
+                    "signal"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 9,
+              "question_id": "lanes_crossed",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/9",
+              "source_node_sha256": "ddc5900537629691e7ef18b6c16479b081a2bedb20e87042c86e2a6e471aea87",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": "street_level"
+                }
+              }
+            },
+            {
+              "order": 10,
+              "question_id": "street_level_visibility",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/10",
+              "source_node_sha256": "3e646003eaa39c6cb4a29bcb37c19b20d5e8ad9adf8978c237deeae09e450cff",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": "street_level"
+                }
+              }
+            },
+            {
+              "order": 11,
+              "question_id": "visibility_obstacles",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/11",
+              "source_node_sha256": "ec22d6914302689abd1bdb27f205f6647683b11cbbed01d5fd9ddc93a9173590",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": "street_level",
+                  "street_level_visibility": [
+                    "2_partly",
+                    "3_poor"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 12,
+              "question_id": "spatial_visibility",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/12",
+              "source_node_sha256": "2b1f742758779bfb64948030a5ccefb8fbfc3fb454fad6cd33a93683ec7baea8",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": [
+                    "under_road",
+                    "over_road",
+                    "level_change",
+                    "other"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Orientation and space",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "connection_clarity",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/0",
+              "source_node_sha256": "693614dbde669e0663f7e80938b6433025ae34a20a03435baa1d194769a3b81c",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "connection_clarity_problems",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/1",
+              "source_node_sha256": "d332d35f38f55bdc10dfe966c85dc4c42e5cc6bd6aa2dc72e3391d239b07c15c",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_clarity": [
+                    "4_difficult",
+                    "5_very_difficult"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "waiting_or_stopping_space",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/2",
+              "source_node_sha256": "ef3621e6680e4c3e01368f6fe68e9ab3c89aa66f36c8f4b93627163c3a6961e3",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "users_with_difficulty",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/3",
+              "source_node_sha256": "1ee8a10e61a84bd31f808effeed4926ebf447f525673bd7a05fae7ab6fd174cf",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "title": "Safety features and condition",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "safety_features",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/0",
+              "source_node_sha256": "0d2f516a91e8999dd071fedaedf56ee99d2af0e25d20c4af7198d898baefd632",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "street_crossing_problems",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/1",
+              "source_node_sha256": "aaa6432c2030733612e49f2a8e2b469a97e8330beb0fbaec169cf6de0d7385d0",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": "street_level"
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "tunnel_problems",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/2",
+              "source_node_sha256": "bd4e882128887baab4da405ee0dc822155fa45426a855fbe53f713d987f1e519",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": "under_road"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "bridge_cover",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/3",
+              "source_node_sha256": "b1ca94b8ee73b90b40cb2ce40b6ec8b1a1a5d06e7981fdfbab2c46a1e9adf177",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_form": "over_road"
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "stairs_features",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/4",
+              "source_node_sha256": "bdc81d874cb108a0b53ef6febacc27bab95f358130d485f29373a8fd5b3fc16c",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_elements": [
+                    "stairs"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "stairs_problems",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/5",
+              "source_node_sha256": "2a7b5cc38f5d0320fda995868f12adf0578410b852c6a552ab192a7b963b5076",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_elements": [
+                    "stairs"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "walking_stairs_extent",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/6",
+              "source_node_sha256": "5d6ee9bd01965f0175827564665b742bb623d9747887617c9ae15771e4ea7d3c",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_elements": [
+                    "stairs"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "ramp_features",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/7",
+              "source_node_sha256": "256e03ed9e325603c7cb42557d909585a688027ef1789ba4eac94570d33d89dc",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_elements": [
+                    "ramp"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "ramp_too_steep",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/8",
+              "source_node_sha256": "c3eb5c54e2d605efe1c82cbe4433a7ae74d089582d825e8a488a874fa57a2dc7",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "connection_elements": [
+                    "ramp"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "title": "Your experience here",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "driver_yielding",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/0",
+              "source_node_sha256": "462b05baf89a2c1ae4c1cab84d467b4decbaf4e81cdcb7311ad3bc5a2e3d6948",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "traffic_control": [
+                    "no_control",
+                    "priority_no_signal",
+                    "signal_broken"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "signal_wait_time",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/1",
+              "source_node_sha256": "5c45acc77861d13740b6758c829b02131b59d60ccd6e45fd34e19b3c0098357a",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "crossing_kind": [
+                    "signal"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "green_time_sufficient",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/2",
+              "source_node_sha256": "8c14e2e031e141293469743026e6a9719e699e56ade9f1d760235768953e58bd",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "crossing_kind": [
+                    "signal"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "unsafe_use_observed",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/3",
+              "source_node_sha256": "4c323f6aa67487ff284464a1158bb24e674e9b3990ee048eea7214e63985ba0b",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "unsafe_use_type",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/4",
+              "source_node_sha256": "1a4dcc5aace888c14bd5cc809a9299b2aa134b753c1472d12da215a487028c13",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "unsafe_use_observed": [
+                    "3_sometimes",
+                    "4_often",
+                    "5_very_often"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "title": "Improve this place",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "connection_improvement_importance",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/6/questions/0",
+              "source_node_sha256": "de6dbf3f72ba3898adef0e1e8f7cb80ca7d66facee6f727e9cf1cc1671b9a61d",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "main_improvements_needed",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/6/questions/1",
+              "source_node_sha256": "4a03a3eca6732797b3f118772b2e4dad3e01fdb253342f43a869a9c2232df4c8",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "additional_comments",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/6/questions/2",
+              "source_node_sha256": "93e8df2d28763d17785203c2fc2df0c1934eace9958b9140c3f433a37dc0b93f",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "street_segment_assessment",
+      "source_questionnaire_version": "0.4.0",
+      "source_path": "forms/locationReports/street_segment_assessment.json",
+      "source_blob_sha1": "dbf808ee53e126329c5ce6e7ba784370e655f96a",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Your point of view",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "assessment_perspective",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "d6c4bba3986adc257ee983777e74bfd6324a8bbf3bbae42856826cd42dbffec6",
+              "overrides": {
+                "required": true,
+                "show_if": {}
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "journey_context",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "a3023ddfd8ec81c433ff9cdeeaccfe81234b33d0a61e926a4b20aefd9b1dc9e9",
+              "overrides": {
+                "required": true,
+                "show_if": {}
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "segment_use_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "9f45c4d9b24869ea23cacf5a8a733ecb32cd7c632db6d53a38a1f448832ef710",
+              "overrides": {
+                "required": true
+              }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "title": "Quick assessment",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "walk_facility",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/0",
+              "source_node_sha256": "fedb8ced6eef04264f4d791991a98cf9c4acabe791f83fff0a114115ee48abfa",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "bike_facility",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/1",
+              "source_node_sha256": "5fd2c89081be8123b04d5a87290c4d0bf04d8b70202cc17c50b7d167c6028666",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "pedestrian_use_difficulty",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/2",
+              "source_node_sha256": "c73cd2083822905db3dc536596b9f23d00aed1144b86f863995395123eda538a",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "pedestrian_perceived_risk",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/3",
+              "source_node_sha256": "89600c680c4fbe596a1fd6fa2879f291bdfbd1cfbb9a78461f05d6c5603c21d0",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "cyclist_use_difficulty",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/4",
+              "source_node_sha256": "2e5f41095b3c31abbb8777c5839605143af6d3e238383645cad46d8a8ea13210",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "cyclist_perceived_risk",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/5",
+              "source_node_sha256": "cd729f8db9ec0c3860eeedbe81cf990a3e163c8471784c4e65ba46bb78fa6cd8",
+              "overrides": {
+                "required": true,
+                "show_if": {
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "personal_safety",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/6",
+              "source_node_sha256": "32d2d8fc0781000b0dd3555f3e2fb62c060c1e4dd53ad7697f6cadc60cb1a246",
+              "overrides": {
+                "required": true,
+                "show_if": {}
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "continue_audit",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/7",
+              "source_node_sha256": "1eced6dbf2c29ddd02baf98d885418dc8493af3642d671b4dc142cf0818043fd",
+              "overrides": {
+                "required": true
+              }
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Walking space",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "walking_width_passability",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/0",
+              "source_node_sha256": "70c51026f8ae2c24dff8f01d2b0f64d030a4ad96709f51fbc070ce554435dfb0",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walk_facility": [
+                    "shoulder",
+                    "interrupted_or_one_side_sidewalk",
+                    "raised_sidewalk",
+                    "level_walking_area",
+                    "shared_ped_bike_path",
+                    "dedicated_pedestrian_area",
+                    "stairway"
+                  ],
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "raised_sidewalk_protection",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/1",
+              "source_node_sha256": "9d05244f81e6a8df8cc50fa0cf82682d0ff584537537a988b12f2a3480034466",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walk_facility": [
+                    "raised_sidewalk",
+                    "interrupted_or_one_side_sidewalk"
+                  ],
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "level_walking_separation",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/2",
+              "source_node_sha256": "198505388e567593ef60d34142fa7bb3a8f728c46f016a9eb6964e0279bcf0ea",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ],
+                  "walk_facility": "level_walking_area"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "walking_accessibility_features",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/3",
+              "source_node_sha256": "4591fe5b4f23b1dd72d0e41369b1e0277a9f687a260b5842c6253128e8720b2a",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walk_facility": [
+                    "shoulder",
+                    "interrupted_or_one_side_sidewalk",
+                    "raised_sidewalk",
+                    "level_walking_area",
+                    "shared_ped_bike_path",
+                    "dedicated_pedestrian_area",
+                    "stairway"
+                  ],
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "walking_stairs_present",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/4",
+              "source_node_sha256": "b56827ae18a369ba11a42f564561cafa3aff63acfefdd0daec497fc42f4e6bb6",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walk_facility": [
+                    "shoulder",
+                    "interrupted_or_one_side_sidewalk",
+                    "raised_sidewalk",
+                    "level_walking_area",
+                    "shared_ped_bike_path",
+                    "dedicated_pedestrian_area",
+                    "stairway"
+                  ],
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "walking_stairs_extent",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/5",
+              "source_node_sha256": "a3e8b1a93ebc90214412e907a1f773a8c9bcced3e8b503e65e5b09d2c52e9bb0",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ],
+                  "walking_stairs_present": "yes"
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "stairs_features",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/6",
+              "source_node_sha256": "492f8cab988ea65f0cfa89ed2d303e05fb26634a2f9fc974777aa6e503747568",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walking_stairs_present": "yes",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "stairs_problems",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/7",
+              "source_node_sha256": "74c7a52d38702aea766a9202e83fb8bab895f20006fa529101e65d21a04b1497",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walking_stairs_present": "yes",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Cycling space",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "bike_separation",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/0",
+              "source_node_sha256": "d996786fddf889226cc1eafb2c0f0a13f380eb3aa924031276ce4c9c97d7c3a1",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_facility": [
+                    "interrupted_bike_facility",
+                    "dedicated_bike_facility"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "bike_direction",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/1",
+              "source_node_sha256": "5950ff5f9b63d26e098deea08605e622f51474bb088ffd485251988e56a9a9a3",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_facility": [
+                    "interrupted_bike_facility",
+                    "dedicated_bike_facility"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "bike_surface_type",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/2",
+              "source_node_sha256": "39f8e7a4942771db1ee93f47133006cd55f62971397669c26ba0e215c83d42ac",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_facility": [
+                    "interrupted_bike_facility",
+                    "dedicated_bike_facility",
+                    "shared_ped_bike_path"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "bike_vehicle_conflict_points",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/3",
+              "source_node_sha256": "f2741b39f64de49c97327c56db9e5cd4992c303927752f1fe37d8c83f26eb560",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_facility": [
+                    "interrupted_bike_facility",
+                    "dedicated_bike_facility"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "bike_intrusion_users",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/4",
+              "source_node_sha256": "d4853f84add9d55044aa50253925ca96559ee8b29b4c9714ff7cefdb663cad66",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_facility": [
+                    "interrupted_bike_facility",
+                    "dedicated_bike_facility"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "bike_intrusion_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/3/questions/5",
+              "source_node_sha256": "ad05e0accd36289296cfb499e662c46b2b9aa5b30d13dfaaf9a4f5ed3f8c5321",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_intrusion_users": [
+                    "cars",
+                    "motorcycles",
+                    "public_transport_vehicles",
+                    "pedestrians",
+                    "Other"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "title": "Traffic and slope",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "traffic_speed_feeling",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/0",
+              "source_node_sha256": "95ad4be304ebd0f19ed913de5e08e4e3a5742d426515703a7d2821a53f09dce6",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "traffic_interaction_problems",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/1",
+              "source_node_sha256": "e65d30d8ccdd1a9e56c9b1cfb94fcbcd8db89cf5c491ef8bf03cf242ae9ed021",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "segment_slope",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/4/questions/2",
+              "source_node_sha256": "0a2848016bffd4ec511c765da399959ed815ee556d438a1c9c9999c86e9a226f",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "title": "Walking along this segment",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "walking_surface_problems",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/0",
+              "source_node_sha256": "bb86a0f59359a475d2cad4c33b153dc8746ee7fe190c416b73938cf8518c53c4",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "pedestrian_surface_problem_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/1",
+              "source_node_sha256": "415e8a87bb696b5fe04f3867bb27beb83e6dcfaa582ca866dd9b03a44934ae16",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walking_surface_problems": [
+                    "uneven_surface",
+                    "cracks",
+                    "potholes",
+                    "raised_edges_bumps",
+                    "tree_roots",
+                    "side_slope",
+                    "level_changes",
+                    "missing_curb_ramp",
+                    "slippery_wet",
+                    "water_collects",
+                    "Other"
+                  ],
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "walking_obstacles",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/2",
+              "source_node_sha256": "3e336cb5afca4505a88c1a7e07c1dd3663d7ecc3da6384d55138da59ee767316",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "pedestrian_obstacle_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/3",
+              "source_node_sha256": "2126b1de2fab59526b46d9c3a0723c922ce2de2636798de61e06b97d96cc43d8",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walking_obstacles": [
+                    "parked_cars",
+                    "micromobility_parked",
+                    "fixed_objects",
+                    "vegetation",
+                    "outdoor_seating",
+                    "shop_displays_vendors",
+                    "waste_bins_bags",
+                    "dog_waste",
+                    "construction",
+                    "queues",
+                    "flooding",
+                    "Other"
+                  ],
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "crowding_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/4",
+              "source_node_sha256": "f0869c8b111747b6f9fb2766b49c521a4b24f6041792d5c18341601f3dcd6d91",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "pedestrian_close_passing_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/5/questions/5",
+              "source_node_sha256": "6f6475859d9ec1da55fd7eada0fe6cf8c70a3e2f2c6743d96ed01888a473ac36",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "title": "Cycling along this segment",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "bike_surface_problems",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/6/questions/0",
+              "source_node_sha256": "7e43f0b88c2dcbcca749e828bff95ead70063ac852f865c8e52eb18b86371efb",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "cyclist_surface_problem_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/6/questions/1",
+              "source_node_sha256": "0fac31ea6d1ec590b4460e798cc6ccba718b5ba27ec70b8418cbcd6dc951e6f6",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_surface_problems": [
+                    "uneven_surface",
+                    "cracks",
+                    "potholes",
+                    "raised_edges_bumps",
+                    "tree_roots",
+                    "slippery_wet",
+                    "loose_gravel_debris",
+                    "level_changes",
+                    "surface_vibration",
+                    "Other"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "bike_obstacles",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/6/questions/2",
+              "source_node_sha256": "db6cf2501f275b8e494e03cfb3c47ae375b3b8e6c6a115aed03e2dac7d47d722",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "cyclist_obstacle_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/6/questions/3",
+              "source_node_sha256": "353f970d9202e7c36fc22b696a029f53e5bc695f29f753c6d775c04029b08c97",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_obstacles": [
+                    "narrow_sections",
+                    "parked_cars",
+                    "vehicles_stopping",
+                    "micromobility_parked",
+                    "fixed_objects",
+                    "outdoor_seating",
+                    "shop_displays_vendors",
+                    "waste_bins_bags",
+                    "construction",
+                    "flooding",
+                    "pt_stop_waiting",
+                    "Other"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "cyclist_close_passing_frequency",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/6/questions/4",
+              "source_node_sha256": "5c7185fe499717a0a0eb7a6bd63678d0982590ca6e4b128b909ab9be71ba19fb",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "title": "Improve this street segment",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "desired_walking_path",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/7/questions/0",
+              "source_node_sha256": "7432ce815e30249bf3dc8b79621d32831c155dec94be2ad387d141b4410c67ff",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "walk_facility": [
+                    "no_walk_space",
+                    "shoulder",
+                    "interrupted_or_one_side_sidewalk"
+                  ],
+                  "assessment_perspective": [
+                    "pedestrian"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "desired_bike_facility",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/7/questions/1",
+              "source_node_sha256": "204e77e8d9475a556511874947dd7bfc130b712df735fdc74237ddd9c447241e",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit",
+                  "bike_facility": [
+                    "no_bike_facility",
+                    "interrupted_bike_facility"
+                  ],
+                  "assessment_perspective": [
+                    "cyclist"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "segment_improvement_importance",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/7/questions/2",
+              "source_node_sha256": "b06bb0b7acbe9bbc1fbb93b138efd76fb408fe2f9b078f49da3fc3966a850a3e",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "main_segment_improvements_needed",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/7/questions/3",
+              "source_node_sha256": "200ae03e123c19590659bac07524de42521fc9e6514d849d23f8f254fa081ca5",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "additional_comments",
+              "question_version": "2.0.0",
+              "source_pointer": "/questionnaire/sections/7/questions/4",
+              "source_node_sha256": "685ccb47f02ee6a9d373e23ab186949e0774365a16885de7c6c510447da81931",
+              "overrides": {
+                "required": false,
+                "show_if": {
+                  "continue_audit": "yes_audit"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_about_you",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_about_you.json",
+      "source_blob_sha1": "bf9c895a11ff35bee649bf803623b6c3be5be05c",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Personal & Household",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "age_group",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "7d98575abd9d24123a3eba5ca9e0832313daf72d38ab33388ef103d0c73bc165",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "gender",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "982715e1b0c627707776477521ca830a1020872ad54ab51b2ca5ef0ffa779615",
+              "overrides": {}
+            },
+            {
+              "order": 2,
+              "question_id": "carer",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "a667626ad39a65a2c5715163dec8088e597ebf9b7849fbfbffc8176000a0742d",
+              "overrides": {}
+            },
+            {
+              "order": 3,
+              "question_id": "household_adults",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "8eaae306b72658b5532fb509a2c14ddfcb80e1a2c1e470ff63ad4a26c5381878",
+              "overrides": {}
+            },
+            {
+              "order": 4,
+              "question_id": "education",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "7203d1c3d52b2fff786a8b9359e70fed8875957e79a79ac3bbe96e97efece1f4",
+              "overrides": {}
+            },
+            {
+              "order": 5,
+              "question_id": "economic_status",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "df2c6bd71c70488f3f507a7bd9e3c2f07ae72b549346b9db45ec9dbd8da5c107",
+              "overrides": {}
+            },
+            {
+              "order": 6,
+              "question_id": "employment",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "fb5badf71f2603687e4615721026583afab5ecb02811fac74649e0b6728cb94e",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "remote_work",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "608adbe5fbc6d265429513284dce4a2e4790f385f07d38591a4e01bad62ed432",
+              "overrides": {
+                "show_if": {
+                  "employment": [
+                    "employed_full_time",
+                    "employed_part_time",
+                    "occasionally_employed",
+                    "self_employed_freelance_full_time",
+                    "self_employed_freelance_part_time"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "flexible_hours",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/8",
+              "source_node_sha256": "011059a3e9573c7580170c45e5cf5c9c0f30a2bdd495777862a9521acb1e87c4",
+              "overrides": {
+                "show_if": {
+                  "employment": [
+                    "employed_full_time",
+                    "employed_part_time",
+                    "occasionally_employed",
+                    "self_employed_freelance_full_time",
+                    "self_employed_freelance_part_time"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 9,
+              "question_id": "mobility_limitation",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/9",
+              "source_node_sha256": "9e4b7ec3f15a23fdc145ed062c059ab24d282fb2a07bd2a8dabe62180afbceef",
+              "overrides": {}
+            },
+            {
+              "order": 10,
+              "question_id": "pet_walks",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/10",
+              "source_node_sha256": "31b9053ef9064badd362d75b15daa167f3db5dc37fe55a84d3dbac92f380c5b3",
+              "overrides": {}
+            },
+            {
+              "order": 11,
+              "question_id": "driving_licence",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/11",
+              "source_node_sha256": "ac8e734a0dd7a41e10c698fc1d677dd93450f5c9381cf80ef4bb91bbf3baaf0a",
+              "overrides": {}
+            },
+            {
+              "order": 12,
+              "question_id": "professional_role",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/12",
+              "source_node_sha256": "f9a99d82f91c82bb532057d4ca61fe42b9d45439e9f0dc245545eb96fdaeaff3",
+              "overrides": {}
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "title": "Physical Capability",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "walk_distance",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/0",
+              "source_node_sha256": "b95b0c4c22cca9c24925cd2c117ec87be8084854fdbe3b7ddbbb8fbc94ed6fde",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "active_days",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/1",
+              "source_node_sha256": "9ebf91d9f8660399ef16913a033e62b6f7e3ce83401b0444efbfb1d9aa276313",
+              "overrides": {}
+            },
+            {
+              "order": 2,
+              "question_id": "fitness",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/2",
+              "source_node_sha256": "3d737a944c5db8b2cb2892592205cff7d7114b13382250921a85f7b125e0e982",
+              "overrides": {}
+            },
+            {
+              "order": 3,
+              "question_id": "height",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/3",
+              "source_node_sha256": "ddbe5ad647a2b365c9749c40adf2719c5ed273115a84209981f9734300762e0b",
+              "overrides": {}
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Living context",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "residence",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/0",
+              "source_node_sha256": "cbfde8ebc6d75241a4a28c5765639bc9e84778f702251c4e83fc57cd3264eb78",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "home_municipio",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/1",
+              "source_node_sha256": "1ace0614ed4d2531d68eb65e1858ed5c14fb5329e860115003faac3c5c752350",
+              "overrides": {
+                "show_if": {
+                  "residence": [
+                    "travel",
+                    "visit",
+                    "reason"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "home_neighbourhood",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/2",
+              "source_node_sha256": "0c74e1d25d6026b7d1d66b1f12e7eaae09729e349e759c3c01596e859f5fb874",
+              "overrides": {
+                "show_if": {
+                  "residence": "live"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "travel",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/3",
+              "source_node_sha256": "3cc9215e044ae1e2e588199fe54ca4f0b5d2524bbec040c6332573a4c3d9d0fe",
+              "overrides": {}
+            },
+            {
+              "order": 4,
+              "question_id": "second",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/4",
+              "source_node_sha256": "f32997605a87c03f801e5c1081d0e98b881c019eb728313f9da7ff8b23ce5979",
+              "overrides": {
+                "show_if": {
+                  "travel": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "third_most_visited_district",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/5",
+              "source_node_sha256": "3ae4f274371b985af56ccf83437be2fdad2998bebf158e1d4aba10b66a196522",
+              "overrides": {
+                "show_if": {
+                  "second": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "reasons_outside",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/6",
+              "source_node_sha256": "e6edd4f915b50cb5d477aff1f8804521243d5945c0c368d34b6bb8bc8fb03188",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "place_attachment",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/7",
+              "source_node_sha256": "ebc43c4009a2f82e936035ed4c2cce57a4dafd399e8bc5bfb8ff4352257284ae",
+              "overrides": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_car",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_car.json",
+      "source_blob_sha1": "c668f9cdd7412e56e4bb70b7fd6d325b73e2635b",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Car Travel",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "car_weekly",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "1786c8b7bcb3c0f729dfbd2965be7d0342da4126ec7a7ffa5e23e5b5ec77f47b",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "car_sustainable_motivation",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "987696946e1ac2065c55460ba9c88628df7d4ef060da7e66c79bd119b7a6ba51",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "car_free_shared_trial",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "dd121893afeb3581716d67b091f66d7d12bb1549c2c94e763b69ea7d45ce2f41",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "car_delay_stress",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "12738cbecbea826c9e758551a514fbf06b71d57c572cb261c6faa5e96217b16a",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "car_delay_schedule_impact",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "1650684dccdc373f16bb7b533ea1194ac05ec65a13f0b9dfdcf1097da5b55438",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "car_congestion_adapt",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "d45f76902215dc8dd374183696db60494da511107a2ad96f55cdb9dd63de9dbb",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "car_cost_sensitivity",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "d324277d7a9006e6975cf82b2ce32eda27a5b08e17d1861b92fc60444c14ee75",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "car_emissions",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "719507a4b1cd8c6a7e8c3ab83ae6eaf082a1aab6a9593ec3d36637cfef3052f8",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "car_comfort",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/8",
+              "source_node_sha256": "0cc257b5398d966b67c9fca31d25542f998a5b6f915cfb41be02122be990e421",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 9,
+              "question_id": "car_parking_issue",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/9",
+              "source_node_sha256": "d3c5476455da3429f74bcf91eda4ecb126065b7e57b2cd6c9901499737e59de5",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 10,
+              "question_id": "car_parking_decisions",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/10",
+              "source_node_sha256": "b40c89d2106f69a63c2d61001df1c2e5fa0b645a8d5809249b6ad786b0e0f9d0",
+              "overrides": {
+                "show_if": {
+                  "car_weekly": "yes"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_cycling",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_cycling.json",
+      "source_blob_sha1": "0c9a1f90404d29e5a4a4a9c4b829c66306b3ddb8",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Cycling Habits",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "bike_weekly",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "13a62c89e80c4365940ca908a6776c82505af0918da7b6e46fbb391453b03258",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "bike_type",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "1dc44cfa43d1e185152373f2707a3624fdb3cbc0e4fa695a8bcec5e05d1fdcaa",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "bike_confidence",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "08c15aab57950feca13c686bc39718c0068734d2cc82742d21f8da780ead9770",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "bike_infra_adequacy",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "353de729843cfefc92325cf961a450cc240d045696cb940ddbcbbbe8cd233ca9",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "bike_barriers",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "83cd2137bca359445859fc995150cf34c4d75b8888c8de6a474597f4e5120be8",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "bike_poor_surface_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "91ed9dc3c0a49ac413637083477bac0a8389951e30338d60cbd752b84b7dfd7f",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "bike_avoid_slopes",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "6a253e8c7551f98234a7c62f01c7fb92f910e5e7aa5d180ea3a2af1bad18982d",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "bike_wayfinding",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "4bc6b65d435fc5a5b0ec8e5df28a3a3bdaff3d1dab41e6fd290cd4f20d579c44",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "bike_avoid_traffic",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/8",
+              "source_node_sha256": "54e1612e0d7abbb6491af01c54ab79e9bde0a3edfcfb0ae6b426c0a8d578756b",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 9,
+              "question_id": "bike_risky_users",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/9",
+              "source_node_sha256": "fe04cde03f14a628f988729873d89345e072d4b240358f74a6ccc4a1fbe5bfe1",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 10,
+              "question_id": "bike_hazard_confidence",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/10",
+              "source_node_sha256": "4d734d17a85c6b2e4b865a0693fde2008a58126e7b01206af23af785529f58cb",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 11,
+              "question_id": "bike_skip_dark",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/11",
+              "source_node_sha256": "aa3ebeea4f9f24bc85287cb8319e02f56f30a4c2e895eecd4e2916ebfa0a8a28",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 12,
+              "question_id": "bike_parking_destination",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/12",
+              "source_node_sha256": "0c81482112fd68f946d322983548c55c8eb7fb8dba65794686c3c98f3916e5f1",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 13,
+              "question_id": "bike_parking_changed_plans",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/13",
+              "source_node_sha256": "522d5273a6260e410a7f4c36b02ee70e01029d99d3e3b73183b1482980a2f110",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 14,
+              "question_id": "bike_improvements",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/14",
+              "source_node_sha256": "1bc315d531ab6ee1d7d92c6932e46fca0388862a5df11209e7a3a933fcfd1787",
+              "overrides": {
+                "show_if": {
+                  "bike_weekly": "yes"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_daily_travel",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_daily_travel.json",
+      "source_blob_sha1": "ca40c932b2a9e1f616dd69a6b2c94e0326a9d8b1",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Mobility habits",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "usual_mode",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "a57eab6e2329f1d075cc90cc9be5f53476845498854b0fc7eb0a18f0c6496813",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "combined_modes",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "e74dc2beb5ba5a80bfa6cb91a965309de09ea573a5ac8193ee374ce9ff838cb4",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "multimodal_difficulties",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "63ea06ac9a1641d1ad9dd4e27c85a40f1faa18b23743066b4dff109f1c5e341b",
+              "overrides": {
+                "show_if": {
+                  "combined_modes": {
+                    "not": [
+                      "i_don_t_use_any_combination"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "multimodal_response",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "0d1ba4b0225838bab42dfbf875b82234de73cb4fb7b7547332587dc9dc7df071",
+              "overrides": {
+                "show_if": {
+                  "combined_modes": {
+                    "not": [
+                      "i_don_t_use_any_combination"
+                    ]
+                  },
+                  "multimodal_difficulties": {
+                    "not": [
+                      "i_do_not_experience_significant_difficul"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "shared_frequency",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "8ebc14d827b3541a61fab6acb5a9f757ff21f2e9bd0512d88838743f2d0fad8a",
+              "overrides": {}
+            },
+            {
+              "order": 5,
+              "question_id": "travel_times",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "d61461fe284ce58aa1d971e46ea8cd7e9ce3d3ade1359244570f80c4ba663caa",
+              "overrides": {}
+            },
+            {
+              "order": 6,
+              "question_id": "freq_trip_company",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "b567da4d9e159ae34f096acab5a7e06145ff0ec2ed1e1f1365d395d25bbccbe9",
+              "overrides": {}
+            },
+            {
+              "order": 7,
+              "question_id": "freq_trip_purpose",
+              "question_version": "0.5.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "ab37e0f76054d3da9a96d2b3eea4a6950c6c30ce0ed32ea9e59e0a6d19b47b1f",
+              "overrides": {}
+            },
+            {
+              "order": 8,
+              "question_id": "freq_trip_frequency",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/8",
+              "source_node_sha256": "3d0898646e0ae8e0275172ffd865fe4a9cbcf7cee7e1e6f993eefd6a50a5ebe2",
+              "overrides": {}
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "title": "Preferences & Satisfaction",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "usual_mode_satisfaction",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/0",
+              "source_node_sha256": "b844deaac0067cb406dcf9a1396f30f084d43609469619b8c243d73e1894f549",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "usual_mode_dissatisfied",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/1",
+              "source_node_sha256": "5268c11cbc8a4ec3fc172d90b94f35245300a25cb6e1e6278952126397fef40f",
+              "overrides": {
+                "show_if": {
+                  "usual_mode_satisfaction": [
+                    "very_dissatisfied",
+                    "dissatisfied",
+                    "neutral"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "choice_factors",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/2",
+              "source_node_sha256": "2240faa714a74fe5c33779624bde88d484469622e2e77945fd1454c32f264999",
+              "overrides": {}
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Resources",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "hh_vehicles",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/0",
+              "source_node_sha256": "21421ad381e768343ebd8489f1c43863f52b43ad54bd792bfaf91951cef6a67d",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "vehicles_used",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/1",
+              "source_node_sha256": "c7128f9b10cf4007c87cbf0e3d03f34fe0c87f411860e24cf7911c181746f50f",
+              "overrides": {}
+            },
+            {
+              "order": 2,
+              "question_id": "vehicle_ease",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/2",
+              "source_node_sha256": "608374a9b099f9fcda17788ff8fd7841644b723e908b3f10fb5399f0714445cc",
+              "overrides": {
+                "show_if": {
+                  "hh_vehicles": [
+                    "Other",
+                    "e_scooter",
+                    "bicycle_e_bike",
+                    "motorcycle",
+                    "car"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "app_navigation",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/3",
+              "source_node_sha256": "a2174041fdf88915aa4246ae6bc513d8b217a788e9686303682bd4e06f1c141e",
+              "overrides": {}
+            },
+            {
+              "order": 4,
+              "question_id": "app_pt_tickets",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/4",
+              "source_node_sha256": "c9928ca0de1d0d46da671e870642e2491180272cd1f7fcd6113edec3fde3424f",
+              "overrides": {}
+            },
+            {
+              "order": 5,
+              "question_id": "app_mobility",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/2/questions/5",
+              "source_node_sha256": "95e91cc04b203e48421ee560bac0fa7fb026aa5a9c0227ac8aeb525cdcc3e33a",
+              "overrides": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_experience_on_the_move",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_experience_on_the_move.json",
+      "source_blob_sha1": "f593d223eaeda9a118d358e53a83a89f876d98c0",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Emotional experience",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "emotional_state",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "606c5b7864f72926aca3cbfc31416fa4ebbbedec3d9c02438803dce5cb7c24ed",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "time_vs_expected",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "fa82c912e5531da652b6365e2e079485a7f0464b0e7a506502521d3e511fcc63",
+              "overrides": {}
+            },
+            {
+              "order": 2,
+              "question_id": "tiredness",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "13dd5e65d0f01b7ac3239c39d8b1223e1390a6f9149f38e2ac4c64524a77fe0c",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "tiredness_cause",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "25a17c215f20ada147fbae0c0f528b67c3aef94279c390e09bbbf46107362ccd",
+              "overrides": {
+                "show_if": {
+                  "tiredness": {
+                    "not": [
+                      "not_tired"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "anxiety_frequency",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "524a274981f9f3573e9e22b5c3a8d6067f50075ed27a4389625c062e99359328",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "anxiety_causes",
+              "question_version": "0.7.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "06e4154d9a8c6023616d57f1810880a7c8426b50f424e6048ef86ffef8a16221",
+              "overrides": {
+                "show_if": {
+                  "anxiety_frequency": {
+                    "not": [
+                      "never"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "effort_vs_alternatives",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "62c5e129a2535a040fc09df856792045fd8014543e87e6092ba560eaf937e585",
+              "overrides": {}
+            },
+            {
+              "order": 7,
+              "question_id": "route_liveliness_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "4d37340e0f303f85622696ba857ad8458acb63a590c23194a289b3853ed7f282",
+              "overrides": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_motorcycle",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_motorcycle.json",
+      "source_blob_sha1": "52aca3fd996509586961bfc98ac048bcb35b9290",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Motorcycle",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "moto_weekly",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "69f893968039f3bca405235e14c0f3ada96ba02d33780b1207eba951ba46742e",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "moto_calming",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "8e33d5277ef2c25c45c12b18a492b148ec3fcd8c6f477bfbf9111ad4e4bc202c",
+              "overrides": {
+                "show_if": {
+                  "moto_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "moto_narrow",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "0a8a0c9fe2382179934a6ffcc0ffe6c65d723b4f3158a45466a55f973c3e89f3",
+              "overrides": {
+                "show_if": {
+                  "moto_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "moto_hazard_confidence",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "17ba1c4d6a5ba6387ca61e9fff12e9349a41981d4197406aedf283acd57476b1",
+              "overrides": {
+                "show_if": {
+                  "moto_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "moto_driver_stress",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "d72e11ecc86ae85fbc935fa0f49d4a84e8f693f9d504c14e7e3d8b58a08a1ba2",
+              "overrides": {
+                "show_if": {
+                  "moto_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "moto_parking",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "d069cc5618ee50201ebd7de8a8d2667cd5f3bd07067640e2b86bdfedf1f32702",
+              "overrides": {
+                "show_if": {
+                  "moto_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "moto_charging",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "4f8aa6f7347db9f9feb599d43dd687f4ea2e1d217060d122d1438bbfd6c75bfc",
+              "overrides": {
+                "show_if": {
+                  "moto_weekly": "yes"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_public_transport",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_public_transport.json",
+      "source_blob_sha1": "fdef22ef3d05c7e54a9fab2d146af644b6e96802",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Public transport",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "pt_weekly",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "85806fa9b6beae067cb2b34efe2073d04aa96cf92a6d51f5d7bb2c1f4f1c12b3",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "pt_stop_ease",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "7e144459f5c8d8e6318dc20a298a89868f922d9aa92e27ae0ce7e3005bd014b9",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "pt_barriers",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "bc93f473be2b1323d6d12e6f50ae43fb6ad0e132de6382ef6a88c2375d7361d8",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "pt_crowding_comfort",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "7588a3c99b562a085838050e71fdbd925ecf94ae1edc738ea66cabe0806c9c81",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "pt_step_free_need",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "fb382bad942c96cbba9ea70e06890992726e9d60ab2b69f2df6309cd9c9002e7",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "stop_crossing_safety",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "dbac8e75a25c051326687664c014347bce7ae71f05ab2770cc37a9ec6e8f30b5",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "public_transport_reliability",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "738c58ac449144c3dcf0dc922a749eec56f998de35100b8b6dfc2af1cb68fda1",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "public_transport_social_comfort",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "f71764c0954621226419d93e1211050180202f43e793b0e4fefaf8b7638613dd",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "pt_delay_stress",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/8",
+              "source_node_sha256": "65c19531f51c952308c79515f45b07a1a79a0127b237e4c48af0cf65874c6a0d",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            },
+            {
+              "order": 9,
+              "question_id": "pt_delay_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/9",
+              "source_node_sha256": "9bff6a14be2774da6df02580ed3c8c41a341bab58874a03f82f280b908e65325",
+              "overrides": {
+                "show_if": {
+                  "pt_weekly": "yes"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_safety_environment",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_safety_environment.json",
+      "source_blob_sha1": "f51a17471cf14b4c2b7b9111fa53f991a0077e0f",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Safety Perception",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "journey_personal_security",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "b8acebe7d27f27e8928e396c88465d660fe5b93b450a6129776278047ce2acb6",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "insecurity_factors",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "0539701792b59436a62fa0f32c2db4ad62e9915e9b1355992256a338ab60dc03",
+              "overrides": {}
+            },
+            {
+              "order": 2,
+              "question_id": "road_safety_area",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "c91cca2d65f6aa4a175b33471ae804b17946dd4af7286043a59001d806b4ca45",
+              "overrides": {}
+            },
+            {
+              "order": 3,
+              "question_id": "road_unsafe_situations",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "537b10a53bcdfaae51a4384fe57dfa69478c39162db14fa3e165916444062eb1",
+              "overrides": {}
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "title": "Environmental Factors",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "noise_bother",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/0",
+              "source_node_sha256": "65c404bf86e48c9f5bc5925ad57d1c10e547167dd7fdd2227a04763dabaaa384",
+              "overrides": {}
+            },
+            {
+              "order": 1,
+              "question_id": "air_quality_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/1",
+              "source_node_sha256": "4e36acb50f80342c5c3048e8c0e800663ed8246dbd48eafbf1c4cdfcabe3fcc1",
+              "overrides": {}
+            },
+            {
+              "order": 2,
+              "question_id": "adverse_weather_travel_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/2",
+              "source_node_sha256": "5bc118f4db29b3c4f232677c99d13e60051945cb949d773b972fc18e5a4e5d04",
+              "overrides": {}
+            },
+            {
+              "order": 3,
+              "question_id": "cleanliness_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/3",
+              "source_node_sha256": "380ea4f544cdc049e88134a6d14507342a33ee7ee207fee5ee9a06ff6a3cf8e6",
+              "overrides": {}
+            },
+            {
+              "order": 4,
+              "question_id": "visual_quality",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/1/questions/4",
+              "source_node_sha256": "77eea66300bacede3ad879c7e17bf06868f355daa9c0dce9383425f8a6ec4cd8",
+              "overrides": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_walking",
+      "source_questionnaire_version": "0.1.3",
+      "source_path": "forms/surveys/smarturbanity_walking.json",
+      "source_blob_sha1": "1cf9094a05218b0fdb2b34ff07846c93b671a27a",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Walking Habits",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "walk_days",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "24990ecb267fce506d0cc545097b73da8ad630baa0679fce5828fcf2f8e13ee8",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "walk_physical_barriers",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "17a146c78ae6cb654e9988785b310cee6f9b11038e099e56a285c2a41dd8f1d2",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "walk_sidewalk_condition_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "2c650847cec35e203198de34034e60c8d1daf66f54b14444d12621793765ee35",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 3,
+              "question_id": "avoid_obstacles",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "4d67366b97a87a7e6012c68cdf9a9bdca0383273eaf22ffd06ab40c99e0aaf69",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "walk_slope_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "6c33240772a85769433d78474c9debf5d30e5cb33e2dbf19d38faa55b33a9446",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 5,
+              "question_id": "avoid_dangerous_crossing",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "e0aa4f7ddad525524cc2d53225c426f1d22cedda436790a7492642851e98b20f",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 6,
+              "question_id": "benches_importance",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "92201daecf4cc63811e5969366c829487b051c723515930ea56755a2f55686b8",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 7,
+              "question_id": "walk_lighting_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "c0c9c183f90eb6110f35fb6b898e663a608234f30ca4e4e0e12423180a239486",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 8,
+              "question_id": "prefer_pleasant",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/8",
+              "source_node_sha256": "571a90a88d587d8de6bb2abbb968cfb0c289559fcaa9190bf3c3f49e7c1a5b88",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 9,
+              "question_id": "walk_heat_shade_effect",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/9",
+              "source_node_sha256": "011bfd0b6de951e1468b0876b6b06a0e0d131b2ad0ff019935674b77a8e81d67",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 10,
+              "question_id": "wayfinding",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/10",
+              "source_node_sha256": "84b98951af582445b35e86c54ee461f0ead9099f50ff7ef56bc2f69b90d5f493",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 11,
+              "question_id": "avoid_fast_traffic",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/11",
+              "source_node_sha256": "27c866d0f2e2bcd2c0abc785e346370c081432819e66579865c04fdc43cf36a0",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 12,
+              "question_id": "risky_road_users",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/12",
+              "source_node_sha256": "83791b18bb3444af3d5e723b4800ab8f63a77585fb2d208c5293cd8e3f858720",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 13,
+              "question_id": "riding_on_pavement",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/13",
+              "source_node_sha256": "71cfdb625cd876835cafad8e4407589d90ee69687612b2ad7fdaf0cd78ab4cd0",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 14,
+              "question_id": "fast_vehicles",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/14",
+              "source_node_sha256": "63a00e3db1cba81696a59786aca853d6ceb1a4c927ae0c4e115b9413a6d1700d",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 15,
+              "question_id": "walk_health_benefit",
+              "question_version": "0.5.0",
+              "source_pointer": "/questionnaire/sections/0/questions/15",
+              "source_node_sha256": "ff0a9b54a5533aa32558a6abba4b427a219a7595331ae4cd0a4f38f498398629",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            },
+            {
+              "order": 16,
+              "question_id": "walk_improvements",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/16",
+              "source_node_sha256": "00128b98e1934de034f0b2058ca6245c12d2a2c241ca407ceca5af18f40e6633",
+              "overrides": {
+                "show_if": {
+                  "walk_days": "yes"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_post_trip",
+      "source_questionnaire_version": "0.2.1",
+      "source_path": "forms/tripSurveys/smarturbanity_post_trip.json",
+      "source_blob_sha1": "abbe060781ff1ca2110cd93285c8c9dc42bbb0d8",
+      "sections": [
+        {
+          "order": 0,
+          "title": "After the trip",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "stages_correct",
+              "question_version": "0.2.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "35422d0f3e7264640269051297832508b2aa8214ce929c957f37922f53f7caff",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "trip_time_vs_expected",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "3b3ea4b629d5934d5cdd47c984043ee527fe0b8a274821203720ec42fb2293b4",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "trip_effort",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "8b141a11f1d3ba4c6daf3bf7c80e73701357955d2c8ce6ffb7bfe54291cb0edc",
+              "overrides": {}
+            },
+            {
+              "order": 3,
+              "question_id": "trip_traffic_safety",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/3",
+              "source_node_sha256": "4e780dd432e856277941fe5291c8856390f86c5193502936cc62f0207db97850",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 4,
+              "question_id": "trip_personal_security",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/4",
+              "source_node_sha256": "e9722028b73d5365169340037f806b17fe47b3a6aabf9c88166e18a11f47030b",
+              "overrides": {}
+            },
+            {
+              "order": 5,
+              "question_id": "route_familiarity",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/5",
+              "source_node_sha256": "f1cce9cae08caac0914320efc4d098504c392ce44bbd0b3b540237e00f76bdaf",
+              "overrides": {}
+            },
+            {
+              "order": 6,
+              "question_id": "route_reasons",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/6",
+              "source_node_sha256": "8b1e0155a22ef7953bfab24373f0ba07d68cac4660f0a34f79cf78de0a6d6e6e",
+              "overrides": {}
+            },
+            {
+              "order": 7,
+              "question_id": "avoided_place",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/7",
+              "source_node_sha256": "17b1f13d57a540f3f325ef338545d296da5af9dbcfc1d31cf67216396d50fa0f",
+              "overrides": {}
+            },
+            {
+              "order": 8,
+              "question_id": "avoided_reasons",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/8",
+              "source_node_sha256": "b1232680f33373f6650206f8ba45390e51789a126092858a84f7a185db91ee49",
+              "overrides": {
+                "show_if": {
+                  "avoided_place": [
+                    "yes"
+                  ]
+                }
+              }
+            },
+            {
+              "order": 9,
+              "question_id": "trip_incidents",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/9",
+              "source_node_sha256": "f1459a6f4766bea849aedffa5b88f2a4d93fc3d5c6f231ea807098e2a6b12390",
+              "overrides": {
+                "required": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionnaire_id": "smarturbanity_pre_trip",
+      "source_questionnaire_version": "0.2.2",
+      "source_path": "forms/tripSurveys/smarturbanity_pre_trip.json",
+      "source_blob_sha1": "513cda04ca08ddb0b1207344aa39b9b25cd01461",
+      "sections": [
+        {
+          "order": 0,
+          "title": "Before you go",
+          "questions": [
+            {
+              "order": 0,
+              "question_id": "trip_mode",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/0",
+              "source_node_sha256": "e95d05a6f85f2a2e9655981a131a513c0d37b0bccd9354e7d1bfef87a3927100",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 1,
+              "question_id": "trip_purpose",
+              "question_version": "0.2.0",
+              "source_pointer": "/questionnaire/sections/0/questions/1",
+              "source_node_sha256": "ef39080bfb1231d3e28dca6e4e1ed83202b3a17506bc3cb250a06455888131ef",
+              "overrides": {
+                "required": true
+              }
+            },
+            {
+              "order": 2,
+              "question_id": "trip_company",
+              "question_version": "1.0.0",
+              "source_pointer": "/questionnaire/sections/0/questions/2",
+              "source_node_sha256": "cdaa65d3a0b05f5cdd49dcb068dfdad79c051653d1086f0e1032421093e76ebc",
+              "overrides": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

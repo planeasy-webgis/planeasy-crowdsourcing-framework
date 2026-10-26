@@ -1,0 +1,111 @@
+{
+  "question_id": "pedestrian_access",
+  "key": "pedestrian_access",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "Can people walking use this connection?",
+    "answer_key": "pedestrian_access",
+    "question_type": "single_option",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": false,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Yes, clearly and comfortably",
+        "value": "yes_clear"
+      },
+      {
+        "text": "Yes, but it is not very clear",
+        "value": "yes_unclear"
+      },
+      {
+        "text": "Yes, but with difficulty",
+        "value": "yes_difficult"
+      },
+      {
+        "text": "No, pedestrians cannot or should not use it",
+        "value": "not_possible"
+      },
+      {
+        "text": "I don't know",
+        "value": "dont_know"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#I don't know": "I don't know",
+      "#Can people walking use this connection?": "Can people walking use this connection?",
+      "#Yes, clearly and comfortably": "Yes, clearly and comfortably",
+      "#Yes, but it is not very clear": "Yes, but it is not very clear",
+      "#Yes, but with difficulty": "Yes, but with difficulty",
+      "#No, pedestrians cannot or should not use it": "No, pedestrians cannot or should not use it"
+    },
+    "it": {
+      "#I don't know": "Non lo so",
+      "#Can people walking use this connection?": "Questo collegamento può essere usato da chi si sposta a piedi?",
+      "#Yes, clearly and comfortably": "Sì, in modo chiaro e comodo",
+      "#Yes, but it is not very clear": "Sì, ma non è molto chiaro",
+      "#Yes, but with difficulty": "Sì, ma con difficoltà",
+      "#No, pedestrians cannot or should not use it": "No, non può o non dovrebbe essere usato a piedi"
+    },
+    "fr": {
+      "#I don't know": "Je ne sais pas",
+      "#Can people walking use this connection?": "Les personnes à pied peuvent-elles utiliser cette liaison ?",
+      "#Yes, clearly and comfortably": "Oui, clairement et confortablement",
+      "#Yes, but it is not very clear": "Oui, mais ce n’est pas très clair",
+      "#Yes, but with difficulty": "Oui, mais avec difficulté",
+      "#No, pedestrians cannot or should not use it": "Non, les personnes à pied ne peuvent pas ou ne devraient pas l’utiliser"
+    },
+    "de": {
+      "#I don't know": "Ich weiß es nicht",
+      "#Can people walking use this connection?": "Können Personen zu Fuß diese Verbindung nutzen?",
+      "#Yes, clearly and comfortably": "Ja, eindeutig und bequem",
+      "#Yes, but it is not very clear": "Ja, aber es ist nicht ganz eindeutig",
+      "#Yes, but with difficulty": "Ja, aber nur mit Schwierigkeiten",
+      "#No, pedestrians cannot or should not use it": "Nein, zu Fuß kann oder sollte sie nicht genutzt werden"
+    },
+    "tr": {
+      "#I don't know": "Bilmiyorum",
+      "#Can people walking use this connection?": "Yürüyen kişiler bu bağlantıyı kullanabilir mi?",
+      "#Yes, clearly and comfortably": "Evet, açık ve rahat biçimde",
+      "#Yes, but it is not very clear": "Evet, ancak çok açık değil",
+      "#Yes, but with difficulty": "Evet, ancak güçlükle",
+      "#No, pedestrians cannot or should not use it": "Hayır, yayalar bunu kullanamaz veya kullanmamalıdır"
+    },
+    "fa": {
+      "#I don't know": "نمی‌دانم",
+      "#Can people walking use this connection?": "آیا افراد پیاده می‌توانند از این ارتباط استفاده کنند؟",
+      "#Yes, clearly and comfortably": "بله، به‌روشنی و راحتی",
+      "#Yes, but it is not very clear": "بله، اما چندان روشن نیست",
+      "#Yes, but with difficulty": "بله، اما با دشواری",
+      "#No, pedestrians cannot or should not use it": "خیر، عابران پیاده نمی‌توانند یا نباید از آن استفاده کنند"
+    },
+    "hu": {
+      "#I don't know": "Nem tudom",
+      "#Can people walking use this connection?": "Használhatják ezt a kapcsolatot a gyalogosan közlekedők?",
+      "#Yes, clearly and comfortably": "Igen, egyértelműen és kényelmesen",
+      "#Yes, but it is not very clear": "Igen, de nem teljesen egyértelmű",
+      "#Yes, but with difficulty": "Igen, de nehézséggel",
+      "#No, pedestrians cannot or should not use it": "Nem, gyalogosan nem lehet vagy nem szabad használni"
+    },
+    "ar": {
+      "#I don't know": "لا أعرف",
+      "#Can people walking use this connection?": "هل يستطيع الأشخاص سيرًا استخدام هذا الرابط؟",
+      "#Yes, clearly and comfortably": "نعم، بوضوح وراحة",
+      "#Yes, but it is not very clear": "نعم، لكنه غير واضح تمامًا",
+      "#Yes, but with difficulty": "نعم، ولكن بصعوبة",
+      "#No, pedestrians cannot or should not use it": "لا، لا يستطيع المشاة استخدامه أو لا ينبغي لهم ذلك"
+    }
+  }
+}

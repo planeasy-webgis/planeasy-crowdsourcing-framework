@@ -1,0 +1,120 @@
+{
+  "question_id": "traffic_control",
+  "key": "traffic_control",
+  "project": "shared",
+  "version": "0.2.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "When people use this connection, how is crossing controlled?",
+    "answer_key": "traffic_control",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "There is no signal or clear priority",
+        "value": "no_control"
+      },
+      {
+        "text": "Vehicles should give way, but there is no signal",
+        "value": "priority_no_signal"
+      },
+      {
+        "text": "There is a signal and conflicting vehicles are stopped when people cross",
+        "value": "protected_signal"
+      },
+      {
+        "text": "There is a signal, but turning vehicles may still cross the path",
+        "value": "permissive_signal_with_turning_conflict"
+      },
+      {
+        "text": "There is a signal, but priority is unclear",
+        "value": "unclear_signal_priority"
+      },
+      {
+        "text": "I don't know / I cannot tell",
+        "value": "dont_know"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#When people use this connection, how is crossing controlled?": "When people use this connection, how is crossing controlled?",
+      "#There is no signal or clear priority": "There is no signal or clear priority",
+      "#Vehicles should give way, but there is no signal": "Vehicles should give way, but there is no signal",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "There is a signal and conflicting vehicles are stopped when people cross",
+      "#There is a signal, but turning vehicles may still cross the path": "There is a signal, but turning vehicles may still cross the path",
+      "#There is a signal, but priority is unclear": "There is a signal, but priority is unclear",
+      "#I don't know / I cannot tell": "I don't know / I cannot tell"
+    },
+    "it": {
+      "#When people use this connection, how is crossing controlled?": "Come è regolato l'attraversamento di questo collegamento?",
+      "#There is no signal or clear priority": "Non c'è semaforo né precedenza chiara",
+      "#Vehicles should give way, but there is no signal": "I veicoli dovrebbero dare precedenza, ma non c'è semaforo",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "C'è un semaforo e i veicoli in conflitto sono fermi quando le persone attraversano",
+      "#There is a signal, but turning vehicles may still cross the path": "C'è un semaforo, ma i veicoli in svolta possono ancora attraversare il percorso",
+      "#There is a signal, but priority is unclear": "C'è un semaforo, ma la precedenza non è chiara",
+      "#I don't know / I cannot tell": "Non lo so / non riesco a capirlo"
+    },
+    "fr": {
+      "#When people use this connection, how is crossing controlled?": "Lorsque des personnes utilisent cette liaison, comment la traversée est-elle régulée ?",
+      "#There is no signal or clear priority": "Il n’y a ni signalisation ni priorité claire",
+      "#Vehicles should give way, but there is no signal": "Les véhicules devraient céder le passage, mais il n’y a pas de signalisation",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "Il y a un feu et les véhicules en conflit sont arrêtés pendant la traversée",
+      "#There is a signal, but turning vehicles may still cross the path": "Il y a un feu, mais les véhicules qui tournent peuvent encore couper le passage",
+      "#There is a signal, but priority is unclear": "Il y a un feu, mais la priorité n’est pas claire",
+      "#I don't know / I cannot tell": "Je ne sais pas / je ne peux pas le déterminer"
+    },
+    "de": {
+      "#When people use this connection, how is crossing controlled?": "Wie wird die Querung geregelt, wenn Personen diese Verbindung nutzen?",
+      "#There is no signal or clear priority": "Es gibt kein Signal und keinen klaren Vorrang",
+      "#Vehicles should give way, but there is no signal": "Fahrzeuge sollten Vorfahrt gewähren, aber es gibt kein Signal",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "Es gibt ein Signal, und kreuzende Fahrzeuge werden während der Querung angehalten",
+      "#There is a signal, but turning vehicles may still cross the path": "Es gibt ein Signal, aber abbiegende Fahrzeuge können den Weg weiterhin kreuzen",
+      "#There is a signal, but priority is unclear": "Es gibt ein Signal, aber der Vorrang ist unklar",
+      "#I don't know / I cannot tell": "Ich weiß es nicht / ich kann es nicht beurteilen"
+    },
+    "tr": {
+      "#When people use this connection, how is crossing controlled?": "İnsanlar bu bağlantıyı kullanırken geçiş nasıl kontrol ediliyor?",
+      "#There is no signal or clear priority": "Sinyal veya açık bir geçiş önceliği yok",
+      "#Vehicles should give way, but there is no signal": "Araçlar yol vermeli, ancak sinyal yok",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "Sinyal var ve insanlar geçerken çakışan araçlar durduruluyor",
+      "#There is a signal, but turning vehicles may still cross the path": "Sinyal var, ancak dönen araçlar yolu kesmeye devam edebilir",
+      "#There is a signal, but priority is unclear": "Sinyal var, ancak geçiş önceliği belirsiz",
+      "#I don't know / I cannot tell": "Bilmiyorum / anlayamıyorum"
+    },
+    "fa": {
+      "#When people use this connection, how is crossing controlled?": "هنگام استفاده مردم از این ارتباط، عبور چگونه کنترل می‌شود؟",
+      "#There is no signal or clear priority": "هیچ چراغ یا حق‌تقدم روشنی وجود ندارد",
+      "#Vehicles should give way, but there is no signal": "خودروها باید راه بدهند، اما چراغی وجود ندارد",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "چراغ وجود دارد و هنگام عبور مردم، خودروهای متعارض متوقف می‌شوند",
+      "#There is a signal, but turning vehicles may still cross the path": "چراغ وجود دارد، اما خودروهای در حال گردش ممکن است همچنان مسیر را قطع کنند",
+      "#There is a signal, but priority is unclear": "چراغ وجود دارد، اما حق‌تقدم روشن نیست",
+      "#I don't know / I cannot tell": "نمی‌دانم / نمی‌توانم تشخیص دهم"
+    },
+    "hu": {
+      "#When people use this connection, how is crossing controlled?": "Hogyan szabályozzák az átkelést, amikor az emberek ezt a kapcsolatot használják?",
+      "#There is no signal or clear priority": "Nincs jelzés vagy egyértelmű elsőbbség",
+      "#Vehicles should give way, but there is no signal": "A járműveknek elsőbbséget kellene adniuk, de nincs jelzés",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "Van jelzés, és átkeléskor a keresztező járművek megállnak",
+      "#There is a signal, but turning vehicles may still cross the path": "Van jelzés, de a kanyarodó járművek még keresztezhetik az útvonalat",
+      "#There is a signal, but priority is unclear": "Van jelzés, de az elsőbbség nem egyértelmű",
+      "#I don't know / I cannot tell": "Nem tudom / nem tudom megállapítani"
+    },
+    "ar": {
+      "#When people use this connection, how is crossing controlled?": "كيف يُنظَّم العبور عند استخدام الأشخاص لهذا الرابط؟",
+      "#There is no signal or clear priority": "لا توجد إشارة أو أولوية واضحة",
+      "#Vehicles should give way, but there is no signal": "ينبغي للمركبات إعطاء الأولوية، لكن لا توجد إشارة",
+      "#There is a signal and conflicting vehicles are stopped when people cross": "توجد إشارة وتتوقف المركبات المتعارضة أثناء عبور الأشخاص",
+      "#There is a signal, but turning vehicles may still cross the path": "توجد إشارة، لكن المركبات المنعطفة قد تظل تقطع المسار",
+      "#There is a signal, but priority is unclear": "توجد إشارة، لكن الأولوية غير واضحة",
+      "#I don't know / I cannot tell": "لا أعرف / لا أستطيع التحديد"
+    }
+  }
+}

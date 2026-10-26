@@ -1,0 +1,129 @@
+{
+  "question_id": "bicycle_access",
+  "key": "bicycle_access",
+  "project": "shared",
+  "version": "0.3.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "Can people cycle through this place?",
+    "answer_key": "bicycle_access",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Yes, with a dedicated bicycle space",
+        "value": "dedicated_bicycle_space"
+      },
+      {
+        "text": "Yes, shared with people walking",
+        "value": "shared_with_pedestrians"
+      },
+      {
+        "text": "Yes, shared with traffic",
+        "value": "shared_with_traffic"
+      },
+      {
+        "text": "Yes, but people cycling probably need to dismount",
+        "value": "dismount_needed"
+      },
+      {
+        "text": "No, cycling is forbidden",
+        "value": "no_forbidden"
+      },
+      {
+        "text": "No, it is not possible to get through by bicycle",
+        "value": "no_cannot_pass"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Can people cycle through this place?": "Can people cycle through this place?",
+      "#Yes, with a dedicated bicycle space": "Yes, with a dedicated bicycle space",
+      "#Yes, shared with people walking": "Yes, shared with people walking",
+      "#Yes, shared with traffic": "Yes, shared with traffic",
+      "#Yes, but people cycling probably need to dismount": "Yes, but people cycling probably need to dismount",
+      "#No, cycling is forbidden": "No, cycling is forbidden",
+      "#No, it is not possible to get through by bicycle": "No, it is not possible to get through by bicycle",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#Can people cycle through this place?": "Si può passare in bicicletta in questo luogo?",
+      "#Yes, with a dedicated bicycle space": "Sì, con uno spazio dedicato alle biciclette",
+      "#Yes, shared with people walking": "Sì, condiviso con persone a piedi",
+      "#Yes, shared with traffic": "Sì, condiviso con il traffico",
+      "#Yes, but people cycling probably need to dismount": "Sì, ma probabilmente occorre scendere dalla bicicletta",
+      "#No, cycling is forbidden": "No, in bicicletta è vietato",
+      "#No, it is not possible to get through by bicycle": "No, in bicicletta non si riesce a passare",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#Can people cycle through this place?": "Peut-on passer à vélo dans ce lieu ?",
+      "#Yes, with a dedicated bicycle space": "Oui, avec un espace réservé aux vélos",
+      "#Yes, shared with people walking": "Oui, dans un espace partagé avec les personnes à pied",
+      "#Yes, shared with traffic": "Oui, dans un espace partagé avec la circulation",
+      "#Yes, but people cycling probably need to dismount": "Oui, mais les personnes à vélo doivent probablement descendre de leur vélo",
+      "#No, cycling is forbidden": "Non, le vélo est interdit",
+      "#No, it is not possible to get through by bicycle": "Non, il est impossible de passer à vélo",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#Can people cycle through this place?": "Kann man diesen Ort mit dem Fahrrad nutzen?",
+      "#Yes, with a dedicated bicycle space": "Ja, mit einem eigenen Fahrradbereich",
+      "#Yes, shared with people walking": "Ja, gemeinsam mit Personen zu Fuß",
+      "#Yes, shared with traffic": "Ja, gemeinsam mit dem Verkehr",
+      "#Yes, but people cycling probably need to dismount": "Ja, aber Radfahrende müssen wahrscheinlich absteigen",
+      "#No, cycling is forbidden": "Nein, Radfahren ist verboten",
+      "#No, it is not possible to get through by bicycle": "Nein, mit dem Fahrrad kommt man nicht durch",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#Can people cycle through this place?": "Bu yerden bisikletle geçilebilir mi?",
+      "#Yes, with a dedicated bicycle space": "Evet, ayrılmış bir bisiklet alanıyla",
+      "#Yes, shared with people walking": "Evet, yürüyen kişilerle ortak",
+      "#Yes, shared with traffic": "Evet, trafikle ortak",
+      "#Yes, but people cycling probably need to dismount": "Evet, ancak bisiklet sürenlerin muhtemelen inmesi gerekir",
+      "#No, cycling is forbidden": "Hayır, bisiklet yasak",
+      "#No, it is not possible to get through by bicycle": "Hayır, bisikletle geçmek mümkün değil",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#Can people cycle through this place?": "آیا می‌توان با دوچرخه از این مکان عبور کرد؟",
+      "#Yes, with a dedicated bicycle space": "بله، با فضای اختصاصی دوچرخه",
+      "#Yes, shared with people walking": "بله، مشترک با افراد پیاده",
+      "#Yes, shared with traffic": "بله، مشترک با ترافیک",
+      "#Yes, but people cycling probably need to dismount": "بله، اما دوچرخه‌سواران احتمالاً باید پیاده شوند",
+      "#No, cycling is forbidden": "خیر، دوچرخه‌سواری ممنوع است",
+      "#No, it is not possible to get through by bicycle": "خیر، با دوچرخه عبور ممکن نیست",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#Can people cycle through this place?": "Át lehet-e kerékpározni ezen a helyen?",
+      "#Yes, with a dedicated bicycle space": "Igen, külön kerékpáros térrel",
+      "#Yes, shared with people walking": "Igen, a gyalogosan közlekedőkkel közösen",
+      "#Yes, shared with traffic": "Igen, a forgalommal közösen",
+      "#Yes, but people cycling probably need to dismount": "Igen, de a kerékpározóknak valószínűleg le kell szállniuk",
+      "#No, cycling is forbidden": "Nem, kerékpárral tilos",
+      "#No, it is not possible to get through by bicycle": "Nem, kerékpárral nem lehet átjutni",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#Can people cycle through this place?": "هل يمكن المرور بالدراجة في هذا المكان؟",
+      "#Yes, with a dedicated bicycle space": "نعم، مع مساحة مخصصة للدراجات",
+      "#Yes, shared with people walking": "نعم، بمشاركة الأشخاص سيرًا",
+      "#Yes, shared with traffic": "نعم، بمشاركة حركة المرور",
+      "#Yes, but people cycling probably need to dismount": "نعم، لكن راكبي الدراجات سيحتاجون غالبًا إلى النزول عنها",
+      "#No, cycling is forbidden": "لا، ركوب الدراجة ممنوع",
+      "#No, it is not possible to get through by bicycle": "لا، لا يمكن المرور بالدراجة",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

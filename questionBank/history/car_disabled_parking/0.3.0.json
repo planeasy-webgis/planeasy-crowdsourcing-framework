@@ -1,0 +1,137 @@
+{
+  "question_id": "car_disabled_parking",
+  "key": "car_disabled_parking",
+  "project": "shared",
+  "version": "0.3.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_car",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_car"
+  ],
+  "schema": {
+    "text": "If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?",
+    "help": "A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.",
+    "answer_key": "car_disabled_parking",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Never",
+        "value": "never"
+      },
+      {
+        "text": "Rarely",
+        "value": "rarely"
+      },
+      {
+        "text": "Sometimes",
+        "value": "sometimes"
+      },
+      {
+        "text": "Often",
+        "value": "often"
+      },
+      {
+        "text": "Always",
+        "value": "always"
+      },
+      {
+        "text": "I don't have a disabled parking permit",
+        "value": "no_disabled_parking_permit"
+      }
+    ],
+    "add_prefer_not_to_say": true,
+    "privacy_classification": "special_category_health"
+  },
+  "translations": {
+    "en": {
+      "#Prefer not to say": "Prefer not to say",
+      "#Never": "Never",
+      "#Rarely": "Rarely",
+      "#Sometimes": "Sometimes",
+      "#Often": "Often",
+      "#Always": "Always",
+      "#If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?": "If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?",
+      "#A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.": "A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.",
+      "#I don't have a disabled parking permit": "I don't have a disabled parking permit"
+    },
+    "it": {
+      "#Prefer not to say": "Preferisco non rispondere",
+      "#Never": "Mai",
+      "#Rarely": "Raramente",
+      "#Sometimes": "A volte",
+      "#Often": "Spesso",
+      "#Always": "Sempre",
+      "#If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?": "Se hai il contrassegno per persone con disabilità: quanto spesso i posti riservati a destinazione sono occupati da altri o mancano del tutto?",
+      "#A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.": "Il contrassegno per persone con disabilità è il permesso ufficiale che consente di parcheggiare nei posti riservati alle persone con disabilità. Lo chiediamo per capire se questi posti sono davvero disponibili. Rispondere è facoltativo e puoi anche scegliere di non dirlo.",
+      "#I don't have a disabled parking permit": "Non ho il contrassegno per persone con disabilità"
+    },
+    "fr": {
+      "#Prefer not to say": "Je préfère ne pas répondre",
+      "#Never": "Jamais",
+      "#Rarely": "Rarement",
+      "#Sometimes": "Parfois",
+      "#Often": "Souvent",
+      "#Always": "Toujours",
+      "#If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?": "Si vous avez une carte de stationnement pour personnes handicapées : à quelle fréquence les places réservées à destination sont-elles occupées par d'autres ou inexistantes ?",
+      "#A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.": "La carte de stationnement pour personnes handicapées est le document officiel qui permet de se garer sur les places réservées aux personnes handicapées. Nous posons cette question pour savoir si ces places sont vraiment disponibles. Répondre est facultatif, et vous pouvez aussi choisir de ne pas le dire.",
+      "#I don't have a disabled parking permit": "Je n'ai pas de carte de stationnement pour personnes handicapées"
+    },
+    "de": {
+      "#Prefer not to say": "Ich möchte nicht antworten",
+      "#Never": "Nie",
+      "#Rarely": "Selten",
+      "#Sometimes": "Manchmal",
+      "#Often": "Oft",
+      "#Always": "Immer",
+      "#If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?": "Wenn Sie einen Parkausweis für Menschen mit Behinderung haben: Wie oft sind die reservierten Plätze an Ihrem Ziel von anderen belegt oder gar nicht vorhanden?",
+      "#A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.": "Der Parkausweis für Menschen mit Behinderung ist der amtliche Ausweis, mit dem man auf den für Menschen mit Behinderung reservierten Plätzen parken darf. Wir fragen dies, um zu verstehen, ob diese Plätze wirklich verfügbar sind. Die Antwort ist freiwillig, und Sie können auch angeben, dass Sie es lieber nicht sagen möchten.",
+      "#I don't have a disabled parking permit": "Ich habe keinen Parkausweis für Menschen mit Behinderung"
+    },
+    "tr": {
+      "#Prefer not to say": "Yanıtlamak istemiyorum",
+      "#Never": "Hiçbir zaman",
+      "#Rarely": "Nadiren",
+      "#Sometimes": "Bazen",
+      "#Often": "Sık sık",
+      "#Always": "Her zaman",
+      "#If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?": "Engelli park kartınız varsa: gittiğiniz yerdeki ayrılmış park yerleri ne sıklıkla başkaları tarafından işgal ediliyor veya hiç bulunmuyor?",
+      "#A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.": "Engelli park kartı, engelli kişilere ayrılmış yerlere park etmeye izin veren resmi karttır. Bunu, bu yerlerin gerçekten kullanılabilir olup olmadığını anlamak için soruyoruz. Yanıt vermek isteğe bağlıdır; belirtmemeyi de seçebilirsiniz.",
+      "#I don't have a disabled parking permit": "Engelli park kartım yok"
+    },
+    "fa": {
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#Never": "هرگز",
+      "#Rarely": "به‌ندرت",
+      "#Sometimes": "گاهی",
+      "#Often": "اغلب",
+      "#Always": "همیشه",
+      "#If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?": "اگر کارت پارک ویژهٔ افراد دارای معلولیت دارید: هر چند وقت یک بار جاهای پارک ویژه در مقصد توسط دیگران اشغال شده‌اند یا اصلاً وجود ندارند؟",
+      "#A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.": "کارت پارک ویژهٔ افراد دارای معلولیت کارت رسمی است که اجازهٔ پارک در جاهای ویژهٔ افراد دارای معلولیت را می‌دهد. این را می‌پرسیم تا بفهمیم آیا این جاها واقعاً در دسترس‌اند. پاسخ دادن اختیاری است و می‌توانید ترجیح دهید آن را نگویید.",
+      "#I don't have a disabled parking permit": "کارت پارک ویژهٔ افراد دارای معلولیت ندارم"
+    },
+    "hu": {
+      "#Prefer not to say": "Nem szeretnék válaszolni",
+      "#Never": "Soha",
+      "#Rarely": "Ritkán",
+      "#Sometimes": "Néha",
+      "#Often": "Gyakran",
+      "#Always": "Mindig",
+      "#If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?": "Ha van mozgáskorlátozott parkolási igazolványa: milyen gyakran foglalják el mások a fenntartott helyeket az úti célján, vagy hiányoznak teljesen?",
+      "#A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.": "A mozgáskorlátozott parkolási igazolvány az a hivatalos kártya, amellyel a mozgáskorlátozottak számára fenntartott helyeken lehet parkolni. Azért kérdezzük, hogy megértsük, valóban szabadok-e ezek a helyek. A válaszadás nem kötelező, és azt is választhatja, hogy nem kívánja megadni.",
+      "#I don't have a disabled parking permit": "Nincs mozgáskorlátozott parkolási igazolványom"
+    },
+    "ar": {
+      "#Prefer not to say": "أفضل عدم الإجابة",
+      "#Never": "أبدًا",
+      "#Rarely": "نادرًا",
+      "#Sometimes": "أحيانًا",
+      "#Often": "غالبًا",
+      "#Always": "دائمًا",
+      "#If you have a disabled parking permit: how often are the reserved spaces at your destination occupied by others or missing?": "إذا كانت لديك بطاقة ركن لذوي الإعاقة: كم مرة تكون الأماكن المخصصة عند وجهتك مشغولة من قبل آخرين أو غير موجودة؟",
+      "#A disabled parking permit is the official card that allows parking in spaces reserved for people with disabilities. We ask this to understand whether these spaces are really available. Answering is optional, and you can also choose not to say.": "بطاقة الركن لذوي الإعاقة هي البطاقة الرسمية التي تسمح بالركن في الأماكن المخصصة للأشخاص ذوي الإعاقة. نسأل عن ذلك لنفهم ما إذا كانت هذه الأماكن متاحة فعلًا. الإجابة اختيارية، ويمكنك أيضًا اختيار عدم الإفصاح.",
+      "#I don't have a disabled parking permit": "ليست لدي بطاقة ركن لذوي الإعاقة"
+    }
+  }
+}

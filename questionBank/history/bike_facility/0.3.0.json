@@ -1,0 +1,117 @@
+{
+  "question_id": "bike_facility",
+  "key": "bike_facility",
+  "project": "shared",
+  "version": "0.3.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Is there cycling infrastructure on this street?",
+    "answer_key": "bike_facility",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "No space for bicycles: people cycle in traffic",
+        "value": "no_bike_facility"
+      },
+      {
+        "text": "Cycle lane or path, but it stops",
+        "value": "interrupted_bike_facility"
+      },
+      {
+        "text": "Continuous cycle lane or path",
+        "value": "dedicated_bike_facility"
+      },
+      {
+        "text": "Street with a 30 km/h limit or a school street",
+        "value": "low_speed_street"
+      },
+      {
+        "text": "Path shared by people walking and cycling",
+        "value": "shared_ped_bike_path"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Path shared by people walking and cycling": "Path shared by people walking and cycling",
+      "#Is there cycling infrastructure on this street?": "Is there cycling infrastructure on this street?",
+      "#No space for bicycles: people cycle in traffic": "No space for bicycles: people cycle in traffic",
+      "#Cycle lane or path, but it stops": "Cycle lane or path, but it stops",
+      "#Continuous cycle lane or path": "Continuous cycle lane or path",
+      "#Street with a 30 km/h limit or a school street": "Street with a 30 km/h limit or a school street",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#Path shared by people walking and cycling": "Percorso per pedoni e bici insieme",
+      "#Is there cycling infrastructure on this street?": "C'è uno spazio destinato alle biciclette su questa strada?",
+      "#No space for bicycles: people cycle in traffic": "Nessuno spazio per le bici: si pedala nel traffico",
+      "#Cycle lane or path, but it stops": "Corsia o pista ciclabile, ma si interrompe",
+      "#Continuous cycle lane or path": "Corsia o pista ciclabile continua",
+      "#Street with a 30 km/h limit or a school street": "Strada con limite 30 o strada scolastica",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#Path shared by people walking and cycling": "Chemin partagé entre piétons et cyclistes",
+      "#Is there cycling infrastructure on this street?": "Y a-t-il un aménagement cyclable dans cette rue ?",
+      "#No space for bicycles: people cycle in traffic": "Aucun espace pour les vélos : on roule dans la circulation",
+      "#Cycle lane or path, but it stops": "Bande ou piste cyclable, mais elle s'interrompt",
+      "#Continuous cycle lane or path": "Bande ou piste cyclable continue",
+      "#Street with a 30 km/h limit or a school street": "Rue limitée à 30 km/h ou rue scolaire",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#Path shared by people walking and cycling": "Gemeinsamer Geh- und Radweg",
+      "#Is there cycling infrastructure on this street?": "Gibt es in dieser Straße Radinfrastruktur?",
+      "#No space for bicycles: people cycle in traffic": "Kein Platz für Fahrräder: man fährt im Verkehr",
+      "#Cycle lane or path, but it stops": "Radfahrstreifen oder Radweg, aber er hört auf",
+      "#Continuous cycle lane or path": "Durchgehender Radfahrstreifen oder Radweg",
+      "#Street with a 30 km/h limit or a school street": "Straße mit Tempo 30 oder Schulstraße",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#Path shared by people walking and cycling": "Yayalar ve bisikletliler için ortak yol",
+      "#Is there cycling infrastructure on this street?": "Bu sokakta bisiklet altyapısı var mı?",
+      "#No space for bicycles: people cycle in traffic": "Bisiklet için alan yok: trafikte sürülüyor",
+      "#Cycle lane or path, but it stops": "Bisiklet şeridi veya yolu var, ama kesiliyor",
+      "#Continuous cycle lane or path": "Kesintisiz bisiklet şeridi veya yolu",
+      "#Street with a 30 km/h limit or a school street": "30 km/sa hız sınırlı sokak veya okul sokağı",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#Path shared by people walking and cycling": "مسیر مشترک عابران پیاده و دوچرخه‌سواران",
+      "#Is there cycling infrastructure on this street?": "آیا در این خیابان زیرساخت دوچرخه وجود دارد؟",
+      "#No space for bicycles: people cycle in traffic": "فضایی برای دوچرخه نیست: در میان ترافیک رکاب زده می‌شود",
+      "#Cycle lane or path, but it stops": "خط یا مسیر دوچرخه هست، اما قطع می‌شود",
+      "#Continuous cycle lane or path": "خط یا مسیر دوچرخه پیوسته",
+      "#Street with a 30 km/h limit or a school street": "خیابان با محدودیت سرعت ۳۰ کیلومتر یا خیابان مدرسه",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#Path shared by people walking and cycling": "Közös gyalog- és kerékpárút",
+      "#Is there cycling infrastructure on this street?": "Van kerékpáros infrastruktúra ezen az utcán?",
+      "#No space for bicycles: people cycle in traffic": "Nincs hely a kerékpároknak: a forgalomban kell tekerni",
+      "#Cycle lane or path, but it stops": "Kerékpársáv vagy -út, de megszakad",
+      "#Continuous cycle lane or path": "Folyamatos kerékpársáv vagy -út",
+      "#Street with a 30 km/h limit or a school street": "30 km/h-s sebességkorlátozású utca vagy iskolautca",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#Path shared by people walking and cycling": "مسار مشترك للمشاة وراكبي الدراجات",
+      "#Is there cycling infrastructure on this street?": "هل توجد بنية تحتية للدراجات في هذا الشارع؟",
+      "#No space for bicycles: people cycle in traffic": "لا توجد مساحة للدراجات: تُقاد الدراجة وسط حركة المرور",
+      "#Cycle lane or path, but it stops": "مسار أو ممر للدراجات، لكنه ينقطع",
+      "#Continuous cycle lane or path": "مسار أو ممر متصل للدراجات",
+      "#Street with a 30 km/h limit or a school street": "شارع بحد سرعة 30 كم/س أو شارع مدرسي",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

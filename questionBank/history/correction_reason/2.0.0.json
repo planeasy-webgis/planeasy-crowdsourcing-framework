@@ -1,0 +1,143 @@
+{
+  "question_id": "correction_reason",
+  "key": "correction_reason",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "active_in_source_main": true,
+  "origin_questionnaire": "smarturbanity_service_correction_report",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_service_correction_report"
+  ],
+  "schema": {
+    "text": "What is wrong with this service?",
+    "answer_key": "correction_reason",
+    "question_type": "single_option",
+    "add_other": true,
+    "other_input": {
+      "text": "Tell us what is wrong",
+      "answer_key": "correction_reason_other",
+      "type": "text",
+      "required": true
+    },
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "It no longer exists",
+        "value": "no_longer_exists"
+      },
+      {
+        "text": "It is temporarily closed (holidays, works)",
+        "value": "temporarily_closed"
+      },
+      {
+        "text": "It is in the wrong place",
+        "value": "wrong_location"
+      },
+      {
+        "text": "It appears twice on the map",
+        "value": "duplicate_entry"
+      },
+      {
+        "text": "Some of its information is wrong (name, type, opening hours...)",
+        "value": "wrong_information"
+      },
+      {
+        "text": "It is not accessible or it is hard to get in (steps, narrow entrance)",
+        "value": "not_accessible"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#What is wrong with this service?": "What is wrong with this service?",
+      "#It no longer exists": "It no longer exists",
+      "#It is temporarily closed (holidays, works)": "It is temporarily closed (holidays, works)",
+      "#It is in the wrong place": "It is in the wrong place",
+      "#It appears twice on the map": "It appears twice on the map",
+      "#Some of its information is wrong (name, type, opening hours...)": "Some of its information is wrong (name, type, opening hours...)",
+      "#It is not accessible or it is hard to get in (steps, narrow entrance)": "It is not accessible or it is hard to get in (steps, narrow entrance)",
+      "#Tell us what is wrong": "Tell us what is wrong",
+      "#Other": "Other"
+    },
+    "it": {
+      "#What is wrong with this service?": "Cosa non va in questo servizio?",
+      "#It no longer exists": "Non esiste più",
+      "#It is temporarily closed (holidays, works)": "È chiuso temporaneamente (ferie, lavori)",
+      "#It is in the wrong place": "È nel posto sbagliato",
+      "#It appears twice on the map": "Compare due volte sulla mappa",
+      "#Some of its information is wrong (name, type, opening hours...)": "Alcune sue informazioni sono sbagliate (nome, tipo, orari...)",
+      "#It is not accessible or it is hard to get in (steps, narrow entrance)": "Non è accessibile o è difficile entrare (gradini, ingresso stretto)",
+      "#Tell us what is wrong": "Dicci cosa non va",
+      "#Other": "Altro"
+    },
+    "fr": {
+      "#What is wrong with this service?": "Qu’est-ce qui ne va pas avec ce service ?",
+      "#It no longer exists": "Il n’existe plus",
+      "#It is temporarily closed (holidays, works)": "Il est temporairement fermé (congés, travaux)",
+      "#It is in the wrong place": "Il est au mauvais endroit",
+      "#It appears twice on the map": "Il apparaît deux fois sur la carte",
+      "#Some of its information is wrong (name, type, opening hours...)": "Certaines de ses informations sont fausses (nom, type, horaires...)",
+      "#It is not accessible or it is hard to get in (steps, narrow entrance)": "Il n’est pas accessible ou il est difficile d’y entrer (marches, entrée étroite)",
+      "#Tell us what is wrong": "Dites-nous ce qui ne va pas",
+      "#Other": "Autre"
+    },
+    "de": {
+      "#What is wrong with this service?": "Was stimmt mit diesem Dienst nicht?",
+      "#It no longer exists": "Es gibt ihn nicht mehr",
+      "#It is temporarily closed (holidays, works)": "Er ist vorübergehend geschlossen (Urlaub, Bauarbeiten)",
+      "#It is in the wrong place": "Er ist an der falschen Stelle",
+      "#It appears twice on the map": "Er erscheint zweimal auf der Karte",
+      "#Some of its information is wrong (name, type, opening hours...)": "Einige Angaben sind falsch (Name, Art, Öffnungszeiten...)",
+      "#It is not accessible or it is hard to get in (steps, narrow entrance)": "Er ist nicht barrierefrei oder schwer zugänglich (Stufen, enger Eingang)",
+      "#Tell us what is wrong": "Sagen Sie uns, was nicht stimmt",
+      "#Other": "Sonstiges"
+    },
+    "tr": {
+      "#What is wrong with this service?": "Bu hizmette yanlış olan ne?",
+      "#It no longer exists": "Artık yok",
+      "#It is temporarily closed (holidays, works)": "Geçici olarak kapalı (tatil, tadilat)",
+      "#It is in the wrong place": "Yanlış yerde",
+      "#It appears twice on the map": "Haritada iki kez görünüyor",
+      "#Some of its information is wrong (name, type, opening hours...)": "Bazı bilgileri yanlış (ad, tür, çalışma saatleri...)",
+      "#It is not accessible or it is hard to get in (steps, narrow entrance)": "Erişilebilir değil veya içeri girmek zor (basamaklar, dar giriş)",
+      "#Tell us what is wrong": "Neyin yanlış olduğunu bize söyleyin",
+      "#Other": "Diğer"
+    },
+    "fa": {
+      "#What is wrong with this service?": "چه چیزی درباره این خدمت نادرست است؟",
+      "#It no longer exists": "دیگر وجود ندارد",
+      "#It is temporarily closed (holidays, works)": "موقتاً بسته است (تعطیلات، تعمیرات)",
+      "#It is in the wrong place": "در جای اشتباه است",
+      "#It appears twice on the map": "دو بار روی نقشه آمده است",
+      "#Some of its information is wrong (name, type, opening hours...)": "برخی از اطلاعات آن نادرست است (نام، نوع، ساعت کاری...)",
+      "#It is not accessible or it is hard to get in (steps, narrow entrance)": "دسترس‌پذیر نیست یا ورود به آن دشوار است (پله، ورودی باریک)",
+      "#Tell us what is wrong": "به ما بگویید چه چیزی نادرست است",
+      "#Other": "سایر"
+    },
+    "hu": {
+      "#What is wrong with this service?": "Mi a hiba ezzel a szolgáltatással?",
+      "#It no longer exists": "Már nem létezik",
+      "#It is temporarily closed (holidays, works)": "Átmenetileg zárva van (szabadság, felújítás)",
+      "#It is in the wrong place": "Rossz helyen van",
+      "#It appears twice on the map": "Kétszer szerepel a térképen",
+      "#Some of its information is wrong (name, type, opening hours...)": "Néhány adata hibás (név, típus, nyitvatartás...)",
+      "#It is not accessible or it is hard to get in (steps, narrow entrance)": "Nem akadálymentes, vagy nehéz bejutni (lépcső, szűk bejárat)",
+      "#Tell us what is wrong": "Mondja el, mi a hiba",
+      "#Other": "Egyéb"
+    },
+    "ar": {
+      "#What is wrong with this service?": "ما الخطأ في هذه الخدمة؟",
+      "#It no longer exists": "لم تعد موجودة",
+      "#It is temporarily closed (holidays, works)": "مغلقة مؤقتًا (عطلة، أعمال)",
+      "#It is in the wrong place": "في المكان الخطأ",
+      "#It appears twice on the map": "تظهر مرتين على الخريطة",
+      "#Some of its information is wrong (name, type, opening hours...)": "بعض معلوماتها خاطئة (الاسم، النوع، ساعات العمل...)",
+      "#It is not accessible or it is hard to get in (steps, narrow entrance)": "غير ميسّرة الوصول أو يصعب دخولها (درجات، مدخل ضيق)",
+      "#Tell us what is wrong": "أخبرنا بما هو خطأ",
+      "#Other": "أخرى"
+    }
+  }
+}

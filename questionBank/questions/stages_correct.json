@@ -1,0 +1,72 @@
+{
+  "question_id": "stages_correct",
+  "key": "stages_correct",
+  "project": "shared",
+  "version": "3.0.0",
+  "status": "draft",
+  "active_in_source_main": true,
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "schema": {
+    "text": "Did the app record correctly how you travelled?",
+    "answer_key": "stages_correct",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Yes",
+        "value": "yes"
+      },
+      {
+        "text": "No, something is wrong",
+        "value": "no_fix"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Yes": "Yes",
+      "#Did the app record correctly how you travelled?": "Did the app record correctly how you travelled?",
+      "#No, something is wrong": "No, something is wrong"
+    },
+    "it": {
+      "#Yes": "Sì",
+      "#Did the app record correctly how you travelled?": "L'app ha registrato correttamente come ti sei spostato/a?",
+      "#No, something is wrong": "No, qualcosa non va"
+    },
+    "fr": {
+      "#Yes": "Oui",
+      "#Did the app record correctly how you travelled?": "L'application a-t-elle enregistré correctement votre façon de vous déplacer ?",
+      "#No, something is wrong": "Non, quelque chose ne va pas"
+    },
+    "de": {
+      "#Yes": "Ja",
+      "#Did the app record correctly how you travelled?": "Hat die App richtig aufgezeichnet, wie Sie unterwegs waren?",
+      "#No, something is wrong": "Nein, etwas stimmt nicht"
+    },
+    "tr": {
+      "#Yes": "Evet",
+      "#Did the app record correctly how you travelled?": "Uygulama yolculuğunuzu doğru kaydetti mi?",
+      "#No, something is wrong": "Hayır, bir şey yanlış"
+    },
+    "fa": {
+      "#Yes": "بله",
+      "#Did the app record correctly how you travelled?": "آیا برنامه شیوه سفر شما را درست ثبت کرد؟",
+      "#No, something is wrong": "خیر، چیزی درست نیست"
+    },
+    "hu": {
+      "#Yes": "Igen",
+      "#Did the app record correctly how you travelled?": "Helyesen rögzítette az alkalmazás, hogyan közlekedett?",
+      "#No, something is wrong": "Nem, valami nem stimmel"
+    },
+    "ar": {
+      "#Yes": "نعم",
+      "#Did the app record correctly how you travelled?": "هل سجّل التطبيق طريقة تنقلك بشكل صحيح؟",
+      "#No, something is wrong": "لا، هناك خطأ ما"
+    }
+  }
+}

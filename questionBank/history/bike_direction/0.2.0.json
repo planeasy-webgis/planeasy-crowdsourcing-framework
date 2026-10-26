@@ -1,0 +1,90 @@
+{
+  "question_id": "bike_direction",
+  "key": "bike_direction",
+  "project": "shared",
+  "version": "0.2.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Is the cycling infrastructure one-way or two-way?",
+    "help": "Two-way means bicycles can ride in both directions on the same lane or path.",
+    "answer_key": "bike_direction",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "One-way cycling facility",
+        "value": "one_way"
+      },
+      {
+        "text": "Two-way cycling facility",
+        "value": "two_way"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Is the cycling infrastructure one-way or two-way?": "Is the cycling infrastructure one-way or two-way?",
+      "#Two-way means bicycles can ride in both directions on the same lane or path.": "Two-way means bicycles can ride in both directions on the same lane or path.",
+      "#One-way cycling facility": "One-way cycling facility",
+      "#Two-way cycling facility": "Two-way cycling facility",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#Is the cycling infrastructure one-way or two-way?": "Lo spazio ciclabile è a senso unico o a doppio senso?",
+      "#Two-way means bicycles can ride in both directions on the same lane or path.": "Bidirezionale significa che le bici possono andare nei due sensi sulla stessa corsia o pista.",
+      "#One-way cycling facility": "Spazio ciclabile a senso unico",
+      "#Two-way cycling facility": "Spazio ciclabile a doppio senso",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#Is the cycling infrastructure one-way or two-way?": "L'aménagement cyclable est-il à sens unique ou à double sens ?",
+      "#Two-way means bicycles can ride in both directions on the same lane or path.": "À double sens veut dire que les vélos peuvent circuler dans les deux sens sur la même bande ou piste.",
+      "#One-way cycling facility": "Aménagement cyclable à sens unique",
+      "#Two-way cycling facility": "Aménagement cyclable à double sens",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#Is the cycling infrastructure one-way or two-way?": "Ist die Radinfrastruktur ein- oder zweirichtungsgeführt?",
+      "#Two-way means bicycles can ride in both directions on the same lane or path.": "Zweirichtungs bedeutet, dass Fahrräder auf demselben Streifen oder Weg in beide Richtungen fahren dürfen.",
+      "#One-way cycling facility": "Einrichtungs-Radinfrastruktur",
+      "#Two-way cycling facility": "Zweirichtungs-Radinfrastruktur",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#Is the cycling infrastructure one-way or two-way?": "Bisiklet altyapısı tek yönlü mü, çift yönlü mü?",
+      "#Two-way means bicycles can ride in both directions on the same lane or path.": "Çift yönlü, bisikletlerin aynı şerit veya yolda iki yönde de gidebilmesi demektir.",
+      "#One-way cycling facility": "Tek yönlü bisiklet yolu",
+      "#Two-way cycling facility": "Çift yönlü bisiklet yolu",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#Is the cycling infrastructure one-way or two-way?": "مسیر دوچرخه یک‌طرفه است یا دوطرفه؟",
+      "#Two-way means bicycles can ride in both directions on the same lane or path.": "دوطرفه یعنی دوچرخه‌ها می‌توانند در یک خط یا مسیر در هر دو جهت حرکت کنند.",
+      "#One-way cycling facility": "مسیر دوچرخه یک‌طرفه",
+      "#Two-way cycling facility": "مسیر دوچرخه دوطرفه",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#Is the cycling infrastructure one-way or two-way?": "A kerékpáros infrastruktúra egy- vagy kétirányú?",
+      "#Two-way means bicycles can ride in both directions on the same lane or path.": "A kétirányú azt jelenti, hogy ugyanazon a sávon vagy úton mindkét irányba lehet kerékpározni.",
+      "#One-way cycling facility": "Egyirányú kerékpáros infrastruktúra",
+      "#Two-way cycling facility": "Kétirányú kerékpáros infrastruktúra",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#Is the cycling infrastructure one-way or two-way?": "هل مسار الدراجات باتجاه واحد أم باتجاهين؟",
+      "#Two-way means bicycles can ride in both directions on the same lane or path.": "الاتجاهين يعني أن الدراجات يمكنها السير في الاتجاهين على الحارة أو المسار نفسه.",
+      "#One-way cycling facility": "مسار دراجات باتجاه واحد",
+      "#Two-way cycling facility": "مسار دراجات باتجاهين",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

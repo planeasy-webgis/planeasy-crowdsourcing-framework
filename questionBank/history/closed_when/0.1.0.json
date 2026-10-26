@@ -1,0 +1,54 @@
+{
+  "question_id": "closed_when",
+  "key": "closed_when",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_service_correction_report",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_service_correction_report"
+  ],
+  "schema": {
+    "text": "When did it close?",
+    "answer_key": "closed_when",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Less than a month ago",
+        "value": "lt_month"
+      },
+      {
+        "text": "This year",
+        "value": "this_year"
+      },
+      {
+        "text": "More than a year ago",
+        "value": "gt_year"
+      },
+      {
+        "text": "I don't know",
+        "value": "unknown"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#When did it close?": "When did it close?",
+      "#Less than a month ago": "Less than a month ago",
+      "#This year": "This year",
+      "#More than a year ago": "More than a year ago",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#When did it close?": "Quando ha chiuso?",
+      "#Less than a month ago": "Meno di un mese fa",
+      "#This year": "Quest'anno",
+      "#More than a year ago": "Più di un anno fa",
+      "#I don't know": "Non lo so"
+    }
+  }
+}

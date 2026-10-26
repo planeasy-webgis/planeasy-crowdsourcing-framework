@@ -1,0 +1,87 @@
+{
+  "question_id": "service_opportunities",
+  "key": "service_opportunities",
+  "project": "shared",
+  "version": "0.2.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_service_opportunities",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_service_opportunities"
+  ],
+  "schema": {
+    "text": "What can people do at this service?",
+    "answer_key": "service_opportunities",
+    "question_type": "matrix",
+    "row_source": "opportunities",
+    "row_filter": {
+      "mapping_source": "service_opportunity_mapping",
+      "relation": "provides_opportunity"
+    },
+    "add_other": true,
+    "columns": [
+      {
+        "key": "exists",
+        "label": "Can it be done here?",
+        "type": "boolean"
+      },
+      {
+        "key": "desired_here",
+        "label": "Would you like it to be possible here?",
+        "type": "boolean"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#What can people do at this service?": "What can people do at this service?",
+      "#Can it be done here?": "Can it be done here?",
+      "#Would you like it to be possible here?": "Would you like it to be possible here?",
+      "#Other": "Other"
+    },
+    "it": {
+      "#What can people do at this service?": "Cosa si può fare in questo servizio?",
+      "#Can it be done here?": "Si può fare qui?",
+      "#Would you like it to be possible here?": "Vorresti che si potesse fare qui?",
+      "#Other": "Altro"
+    },
+    "fr": {
+      "#What can people do at this service?": "Que peut-on faire dans ce service ?",
+      "#Can it be done here?": "Peut-on le faire ici ?",
+      "#Would you like it to be possible here?": "Aimeriez-vous que ce soit possible ici ?",
+      "#Other": "Autre"
+    },
+    "de": {
+      "#What can people do at this service?": "Was kann man bei diesem Dienst tun?",
+      "#Can it be done here?": "Kann man das hier tun?",
+      "#Would you like it to be possible here?": "Würden Sie sich wünschen, dass es hier möglich ist?",
+      "#Other": "Sonstiges"
+    },
+    "tr": {
+      "#What can people do at this service?": "Bu hizmette insanlar neler yapabilir?",
+      "#Can it be done here?": "Burada yapılabilir mi?",
+      "#Would you like it to be possible here?": "Burada yapılabilmesini ister misiniz?",
+      "#Other": "Diğer"
+    },
+    "fa": {
+      "#What can people do at this service?": "مردم در این خدمت چه کارهایی می‌توانند انجام دهند؟",
+      "#Can it be done here?": "آیا اینجا می‌توان انجامش داد؟",
+      "#Would you like it to be possible here?": "دوست دارید اینجا امکان‌پذیر باشد؟",
+      "#Other": "سایر"
+    },
+    "hu": {
+      "#What can people do at this service?": "Mit lehet intézni ennél a szolgáltatásnál?",
+      "#Can it be done here?": "Elvégezhető itt?",
+      "#Would you like it to be possible here?": "Szeretné, ha itt lehetséges lenne?",
+      "#Other": "Egyéb"
+    },
+    "ar": {
+      "#What can people do at this service?": "ما الذي يمكن للناس فعله في هذه الخدمة؟",
+      "#Can it be done here?": "هل يمكن القيام به هنا؟",
+      "#Would you like it to be possible here?": "هل تودّ أن يكون ذلك ممكنًا هنا؟",
+      "#Other": "أخرى"
+    }
+  }
+}

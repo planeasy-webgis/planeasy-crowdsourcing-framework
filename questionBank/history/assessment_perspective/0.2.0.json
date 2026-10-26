@@ -1,0 +1,51 @@
+{
+  "question_id": "assessment_perspective",
+  "key": "assessment_perspective",
+  "project": "shared",
+  "version": "0.2.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "schema": {
+    "text": "From which perspective are you assessing this place today?",
+    "answer_key": "assessment_perspective",
+    "question_type": "multiple_options",
+    "options": [
+      {
+        "text": "Walking",
+        "value": "pedestrian"
+      },
+      {
+        "text": "Cycling",
+        "value": "cyclist"
+      },
+      {
+        "text": "Using public transport",
+        "value": "public_transport_user"
+      },
+      {
+        "text": "Using a car or motorcycle",
+        "value": "motor_vehicle_user"
+      },
+      {
+        "text": "Staying in or passing through the area",
+        "value": "place_user"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "it": {
+      "#From which perspective are you assessing this place today?": "Da quale prospettiva stai valutando questo luogo oggi?",
+      "#Walking": "A piedi",
+      "#Cycling": "In bicicletta",
+      "#Using public transport": "Con il trasporto pubblico",
+      "#Using a car or motorcycle": "In auto o moto",
+      "#Staying in or passing through the area": "Fermandomi o attraversando l'area"
+    }
+  }
+}

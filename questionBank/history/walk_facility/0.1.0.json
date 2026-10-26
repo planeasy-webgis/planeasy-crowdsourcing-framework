@@ -1,0 +1,131 @@
+{
+  "question_id": "walk_facility",
+  "key": "walk_facility",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Is there a place for people to walk along this street?",
+    "answer_key": "walk_facility",
+    "question_type": "single_option",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": true,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "No walking space – people must walk on the road",
+        "value": "no_walk_space"
+      },
+      {
+        "text": "Road shoulder available for walking",
+        "value": "shoulder"
+      },
+      {
+        "text": "Shared walking and cycling path",
+        "value": "shared_ped_bike_path"
+      },
+      {
+        "text": "Walking area at the same level as the road",
+        "value": "level_walking_area"
+      },
+      {
+        "text": "Raised sidewalk",
+        "value": "raised_sidewalk"
+      },
+      {
+        "text": "Dedicated walking street or area",
+        "value": "dedicated_pedestrian_area"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Is there a place for people to walk along this street?": "Is there a place for people to walk along this street?",
+      "#No walking space – people must walk on the road": "No walking space – people must walk on the road",
+      "#Road shoulder available for walking": "Road shoulder available for walking",
+      "#Shared walking and cycling path": "Shared walking and cycling path",
+      "#Walking area at the same level as the road": "Walking area at the same level as the road",
+      "#Raised sidewalk": "Raised sidewalk",
+      "#Dedicated walking street or area": "Dedicated walking street or area",
+      "#I don't know": "I don't know"
+    },
+    "it": {
+      "#Is there a place for people to walk along this street?": "C'è uno spazio in cui camminare lungo questa strada?",
+      "#No walking space – people must walk on the road": "Non c'è uno spazio pedonale: occorre camminare sulla carreggiata",
+      "#Road shoulder available for walking": "Banchina stradale utilizzabile a piedi",
+      "#Shared walking and cycling path": "Percorso condiviso da persone a piedi e in bicicletta",
+      "#Walking area at the same level as the road": "Spazio pedonale allo stesso livello della carreggiata",
+      "#Raised sidewalk": "Marciapiede rialzato",
+      "#Dedicated walking street or area": "Strada o area riservata alle persone a piedi",
+      "#I don't know": "Non lo so"
+    },
+    "fr": {
+      "#Is there a place for people to walk along this street?": "Y a-t-il un espace où les personnes peuvent marcher le long de cette rue ?",
+      "#No walking space – people must walk on the road": "Aucun espace piéton : il faut marcher sur la chaussée",
+      "#Road shoulder available for walking": "Accotement disponible pour marcher",
+      "#Shared walking and cycling path": "Chemin partagé pour la marche et le vélo",
+      "#Walking area at the same level as the road": "Espace piéton au même niveau que la chaussée",
+      "#Raised sidewalk": "Trottoir surélevé",
+      "#Dedicated walking street or area": "Rue ou zone réservée aux piétons",
+      "#I don't know": "Je ne sais pas"
+    },
+    "de": {
+      "#Is there a place for people to walk along this street?": "Gibt es entlang dieser Straße einen Bereich zum Gehen?",
+      "#No walking space – people must walk on the road": "Kein Gehbereich – Personen müssen auf der Fahrbahn gehen",
+      "#Road shoulder available for walking": "Straßenrand/Seitenstreifen zum Gehen vorhanden",
+      "#Shared walking and cycling path": "Gemeinsamer Geh- und Radweg",
+      "#Walking area at the same level as the road": "Gehbereich auf gleicher Höhe wie die Fahrbahn",
+      "#Raised sidewalk": "Erhöhter Gehweg",
+      "#Dedicated walking street or area": "Eigene Fußgängerstraße oder eigener Fußgängerbereich",
+      "#I don't know": "Ich weiß es nicht"
+    },
+    "tr": {
+      "#Is there a place for people to walk along this street?": "Bu sokak boyunca insanların yürüyebileceği bir alan var mı?",
+      "#No walking space – people must walk on the road": "Yürüme alanı yok – insanlar yolda yürümek zorunda",
+      "#Road shoulder available for walking": "Yol kenarı yürümek için kullanılabilir",
+      "#Shared walking and cycling path": "Ortak yaya ve bisiklet yolu",
+      "#Walking area at the same level as the road": "Yürüyüş alanı yol ile aynı seviyede",
+      "#Raised sidewalk": "Yükseltilmiş kaldırım",
+      "#Dedicated walking street or area": "Yürümeye ayrılmış sokak veya alan",
+      "#I don't know": "Bilmiyorum"
+    },
+    "fa": {
+      "#Is there a place for people to walk along this street?": "آیا در امتداد این خیابان فضایی برای پیاده‌روی وجود دارد؟",
+      "#No walking space – people must walk on the road": "فضای پیاده وجود ندارد – مردم باید در جاده راه بروند",
+      "#Road shoulder available for walking": "شانه خیابان برای پیاده‌روی قابل استفاده است",
+      "#Shared walking and cycling path": "مسیر مشترک پیاده و دوچرخه",
+      "#Walking area at the same level as the road": "فضای پیاده در همان سطح خیابان",
+      "#Raised sidewalk": "پیاده‌رو مرتفع",
+      "#Dedicated walking street or area": "خیابان یا محدوده اختصاصی پیاده",
+      "#I don't know": "نمی‌دانم"
+    },
+    "hu": {
+      "#Is there a place for people to walk along this street?": "Van gyaloglásra alkalmas hely ezen az utcán?",
+      "#No walking space – people must walk on the road": "Nincs gyalogos tér – az úttesten kell gyalogolni",
+      "#Road shoulder available for walking": "Útpadka használható gyaloglásra",
+      "#Shared walking and cycling path": "Közös gyalog- és kerékpárút",
+      "#Walking area at the same level as the road": "Gyalogos terület az úttal azonos szinten",
+      "#Raised sidewalk": "Megemelt járda",
+      "#Dedicated walking street or area": "Kijelölt gyalogos utca vagy terület",
+      "#I don't know": "Nem tudom"
+    },
+    "ar": {
+      "#Is there a place for people to walk along this street?": "هل توجد مساحة للمشي على طول هذا الشارع؟",
+      "#No walking space – people must walk on the road": "لا توجد مساحة للمشي – يجب على الناس المشي في الطريق",
+      "#Road shoulder available for walking": "كتف الطريق متاح للمشي",
+      "#Shared walking and cycling path": "مسار مشترك للمشي وركوب الدراجات",
+      "#Walking area at the same level as the road": "مساحة مشاة على نفس مستوى الطريق",
+      "#Raised sidewalk": "رصيف مرتفع",
+      "#Dedicated walking street or area": "شارع أو منطقة مخصصة للمشي",
+      "#I don't know": "لا أعرف"
+    }
+  }
+}

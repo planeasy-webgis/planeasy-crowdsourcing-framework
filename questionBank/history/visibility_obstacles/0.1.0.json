@@ -1,0 +1,171 @@
+{
+  "question_id": "visibility_obstacles",
+  "key": "visibility_obstacles",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "What blocks the view, if anything?",
+    "answer_key": "visibility_obstacles",
+    "question_type": "multiple_options",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": false,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Parked vehicles",
+        "value": "parked_vehicles"
+      },
+      {
+        "text": "Stopped vehicles",
+        "value": "stopped_vehicles"
+      },
+      {
+        "text": "Trees or plants",
+        "value": "vegetation"
+      },
+      {
+        "text": "Bins or containers",
+        "value": "bins"
+      },
+      {
+        "text": "Signs, poles, boxes, or street furniture",
+        "value": "street_furniture"
+      },
+      {
+        "text": "Wall, fence, or building corner",
+        "value": "wall_fence_corner"
+      },
+      {
+        "text": "Road curve or slope",
+        "value": "road_geometry"
+      },
+      {
+        "text": "Blind corner or hidden area",
+        "value": "blind_corner_hidden_area"
+      },
+      {
+        "text": "Nothing / not relevant",
+        "value": "none_or_not_relevant"
+      },
+      {
+        "text": "Other",
+        "value": "other"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Other": "Other",
+      "#What blocks the view, if anything?": "What blocks the view, if anything?",
+      "#Parked vehicles": "Parked vehicles",
+      "#Stopped vehicles": "Stopped vehicles",
+      "#Trees or plants": "Trees or plants",
+      "#Bins or containers": "Bins or containers",
+      "#Signs, poles, boxes, or street furniture": "Signs, poles, boxes, or street furniture",
+      "#Wall, fence, or building corner": "Wall, fence, or building corner",
+      "#Road curve or slope": "Road curve or slope",
+      "#Blind corner or hidden area": "Blind corner or hidden area",
+      "#Nothing / not relevant": "Nothing / not relevant"
+    },
+    "it": {
+      "#Other": "Altro",
+      "#What blocks the view, if anything?": "Cosa blocca la visuale, se c'è qualcosa?",
+      "#Parked vehicles": "Veicoli parcheggiati",
+      "#Stopped vehicles": "Veicoli fermi",
+      "#Trees or plants": "Alberi o piante",
+      "#Bins or containers": "Cassonetti o contenitori",
+      "#Signs, poles, boxes, or street furniture": "Cartelli, pali, centraline o arredi",
+      "#Wall, fence, or building corner": "Muro, recinzione o angolo di edificio",
+      "#Road curve or slope": "Curva o pendenza della strada",
+      "#Blind corner or hidden area": "Angolo cieco o zona nascosta",
+      "#Nothing / not relevant": "Niente / non rilevante"
+    },
+    "fr": {
+      "#Other": "Autre",
+      "#What blocks the view, if anything?": "Qu’est-ce qui bloque la vue, le cas échéant ?",
+      "#Parked vehicles": "Véhicules stationnés",
+      "#Stopped vehicles": "Véhicules arrêtés",
+      "#Trees or plants": "Arbres ou végétation",
+      "#Bins or containers": "Poubelles ou conteneurs",
+      "#Signs, poles, boxes, or street furniture": "Panneaux, poteaux, coffrets ou mobilier urbain",
+      "#Wall, fence, or building corner": "Mur, clôture ou angle de bâtiment",
+      "#Road curve or slope": "Virage ou pente de la route",
+      "#Blind corner or hidden area": "Angle mort ou zone cachée",
+      "#Nothing / not relevant": "Rien / sans objet"
+    },
+    "de": {
+      "#Other": "Sonstiges",
+      "#What blocks the view, if anything?": "Was versperrt gegebenenfalls die Sicht?",
+      "#Parked vehicles": "Geparkte Fahrzeuge",
+      "#Stopped vehicles": "Haltende Fahrzeuge",
+      "#Trees or plants": "Bäume oder Pflanzen",
+      "#Bins or containers": "Abfallbehälter oder Container",
+      "#Signs, poles, boxes, or street furniture": "Schilder, Pfosten, Kästen oder Straßenmobiliar",
+      "#Wall, fence, or building corner": "Mauer, Zaun oder Gebäudeecke",
+      "#Road curve or slope": "Straßenkurve oder Gefälle",
+      "#Blind corner or hidden area": "Uneinsehbare Ecke oder verdeckter Bereich",
+      "#Nothing / not relevant": "Nichts / nicht relevant"
+    },
+    "tr": {
+      "#Other": "Diğer",
+      "#What blocks the view, if anything?": "Varsa görüşü ne engelliyor?",
+      "#Parked vehicles": "Park etmiş araçlar",
+      "#Stopped vehicles": "Durmuş araçlar",
+      "#Trees or plants": "Ağaçlar veya bitkiler",
+      "#Bins or containers": "Çöp kutuları veya konteynerler",
+      "#Signs, poles, boxes, or street furniture": "İşaretler, direkler, kutular veya sokak mobilyaları",
+      "#Wall, fence, or building corner": "Duvar, çit veya bina köşesi",
+      "#Road curve or slope": "Yol virajı veya eğimi",
+      "#Blind corner or hidden area": "Kör köşe veya gizli alan",
+      "#Nothing / not relevant": "Hiçbiri / ilgili değil"
+    },
+    "fa": {
+      "#Other": "سایر",
+      "#What blocks the view, if anything?": "در صورت وجود، چه چیزی دید را مسدود می‌کند؟",
+      "#Parked vehicles": "خودروهای پارک‌شده",
+      "#Stopped vehicles": "خودروهای متوقف",
+      "#Trees or plants": "درختان یا گیاهان",
+      "#Bins or containers": "سطل‌ها یا مخزن‌ها",
+      "#Signs, poles, boxes, or street furniture": "تابلوها، تیرها، جعبه‌ها یا مبلمان شهری",
+      "#Wall, fence, or building corner": "دیوار، حصار یا گوشه ساختمان",
+      "#Road curve or slope": "پیچ یا شیب جاده",
+      "#Blind corner or hidden area": "گوشه کور یا بخش پنهان",
+      "#Nothing / not relevant": "هیچ‌چیز / مرتبط نیست"
+    },
+    "hu": {
+      "#Other": "Egyéb",
+      "#What blocks the view, if anything?": "Mi akadályozza a kilátást, ha van ilyen?",
+      "#Parked vehicles": "Parkoló járművek",
+      "#Stopped vehicles": "Megálló járművek",
+      "#Trees or plants": "Fák vagy növények",
+      "#Bins or containers": "Kukák vagy konténerek",
+      "#Signs, poles, boxes, or street furniture": "Táblák, oszlopok, dobozok vagy utcabútorok",
+      "#Wall, fence, or building corner": "Fal, kerítés vagy épületsarok",
+      "#Road curve or slope": "Útkanyarulat vagy lejtő",
+      "#Blind corner or hidden area": "Beláthatatlan sarok vagy takart terület",
+      "#Nothing / not relevant": "Semmi / nem releváns"
+    },
+    "ar": {
+      "#Other": "أخرى",
+      "#What blocks the view, if anything?": "ما الذي يحجب الرؤية، إن وُجد؟",
+      "#Parked vehicles": "مركبات متوقفة",
+      "#Stopped vehicles": "مركبات متوقفة",
+      "#Trees or plants": "أشجار أو نباتات",
+      "#Bins or containers": "صناديق قمامة أو حاويات",
+      "#Signs, poles, boxes, or street furniture": "لافتات أو أعمدة أو صناديق أو أثاث شارع",
+      "#Wall, fence, or building corner": "جدار أو سياج أو زاوية مبنى",
+      "#Road curve or slope": "منحنى أو انحدار في الطريق",
+      "#Blind corner or hidden area": "زاوية عمياء أو منطقة محجوبة",
+      "#Nothing / not relevant": "لا شيء / غير ذي صلة"
+    }
+  }
+}

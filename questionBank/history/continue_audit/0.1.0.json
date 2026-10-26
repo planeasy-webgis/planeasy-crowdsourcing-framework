@@ -1,0 +1,76 @@
+{
+  "question_id": "continue_audit",
+  "key": "continue_audit",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Would you like to add a few optional details?",
+    "answer_key": "continue_audit",
+    "question_type": "single_option",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": false,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "No, finish the assessment",
+        "value": "no_finish"
+      },
+      {
+        "text": "Yes, add optional details",
+        "value": "yes_audit"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Would you like to add a few optional details?": "Would you like to add a few optional details?",
+      "#No, finish the assessment": "No, finish the assessment",
+      "#Yes, add optional details": "Yes, add optional details"
+    },
+    "it": {
+      "#Would you like to add a few optional details?": "Vuoi aggiungere qualche dettaglio facoltativo?",
+      "#No, finish the assessment": "No, termina la valutazione",
+      "#Yes, add optional details": "Sì, aggiungi dettagli facoltativi"
+    },
+    "fr": {
+      "#Would you like to add a few optional details?": "Souhaitez-vous ajouter quelques détails facultatifs ?",
+      "#No, finish the assessment": "Non, terminer l’évaluation",
+      "#Yes, add optional details": "Oui, ajouter des détails facultatifs"
+    },
+    "de": {
+      "#Would you like to add a few optional details?": "Möchten Sie einige optionale Details hinzufügen?",
+      "#No, finish the assessment": "Nein, Bewertung abschließen",
+      "#Yes, add optional details": "Ja, optionale Details hinzufügen"
+    },
+    "tr": {
+      "#Would you like to add a few optional details?": "Birkaç isteğe bağlı ayrıntı eklemek ister misiniz?",
+      "#No, finish the assessment": "Hayır, değerlendirmeyi bitir",
+      "#Yes, add optional details": "Evet, isteğe bağlı ayrıntılar ekle"
+    },
+    "fa": {
+      "#Would you like to add a few optional details?": "آیا می‌خواهید چند جزئیات اختیاری اضافه کنید؟",
+      "#No, finish the assessment": "خیر، پایان ارزیابی",
+      "#Yes, add optional details": "بله، افزودن جزئیات اختیاری"
+    },
+    "hu": {
+      "#Would you like to add a few optional details?": "Szeretne néhány választható részletet megadni?",
+      "#No, finish the assessment": "Nem, az értékelés befejezése",
+      "#Yes, add optional details": "Igen, választható részletek hozzáadása"
+    },
+    "ar": {
+      "#Would you like to add a few optional details?": "هل ترغب في إضافة بعض التفاصيل الاختيارية؟",
+      "#No, finish the assessment": "لا، إنهاء التقييم",
+      "#Yes, add optional details": "نعم، إضافة تفاصيل اختيارية"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "question_id": "hh_vehicles",
+  "key": "hh_vehicles",
+  "project": "shared",
+  "version": "0.5.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_daily_travel"
+  ],
+  "schema": {
+    "text": "Which of the following vehicles are available in your household? (Count only vehicles used by adults.)",
+    "answer_key": "hh_vehicles",
+    "question_type": "multiple_options",
+    "options": [
+      {
+        "text": "Car",
+        "value": "car"
+      },
+      {
+        "text": "Car adapted for a person with disability",
+        "value": "adapted_car"
+      },
+      {
+        "text": "Motorcycle, scooter or moped",
+        "value": "motorcycle"
+      },
+      {
+        "text": "Bicycle/e-bike",
+        "value": "bicycle_e_bike"
+      },
+      {
+        "text": "E-scooter",
+        "value": "e_scooter"
+      },
+      {
+        "text": "Powered wheelchair or mobility scooter",
+        "value": "powered_wheelchair"
+      },
+      {
+        "text": "No vehicle available",
+        "value": "no_vehicle_available",
+        "exclusive": true
+      }
+    ],
+    "add_other": true,
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Car": "Car",
+      "#Other": "Other",
+      "#Bicycle/e-bike": "Bicycle/e-bike",
+      "#E-scooter": "E-scooter",
+      "#No vehicle available": "No vehicle available",
+      "#Motorcycle, scooter or moped": "Motorcycle, scooter or moped",
+      "#Which of the following vehicles are available in your household? (Count only vehicles used by adults.)": "Which of the following vehicles are available in your household? (Count only vehicles used by adults.)",
+      "#Car adapted for a person with disability": "Car adapted for a person with disability",
+      "#Powered wheelchair or mobility scooter": "Powered wheelchair or mobility scooter"
+    },
+    "it": {
+      "#Car": "Auto",
+      "#Other": "Altro",
+      "#Bicycle/e-bike": "Bicicletta/e-bike",
+      "#E-scooter": "Monopattino elettrico",
+      "#No vehicle available": "Nessun veicolo disponibile",
+      "#Motorcycle, scooter or moped": "Moto, scooter o motorino",
+      "#Which of the following vehicles are available in your household? (Count only vehicles used by adults.)": "Quali dei seguenti veicoli sono disponibili nel tuo nucleo familiare? (Conta solo i veicoli usati da persone adulte.)",
+      "#Car adapted for a person with disability": "Auto adattata per persona con disabilità",
+      "#Powered wheelchair or mobility scooter": "Carrozzina elettrica o scooter per la mobilità"
+    },
+    "fr": {
+      "#Car": "Voiture",
+      "#Other": "Autre",
+      "#Bicycle/e-bike": "Vélo / vélo électrique",
+      "#E-scooter": "Trottinette électrique",
+      "#No vehicle available": "Aucun véhicule disponible",
+      "#Motorcycle, scooter or moped": "Moto, scooter ou cyclomoteur",
+      "#Which of the following vehicles are available in your household? (Count only vehicles used by adults.)": "Lesquels des véhicules suivants sont disponibles dans votre foyer ? (Ne comptez que les véhicules utilisés par des adultes.)",
+      "#Car adapted for a person with disability": "Voiture adaptée pour une personne en situation de handicap",
+      "#Powered wheelchair or mobility scooter": "Fauteuil roulant électrique ou scooter pour personnes à mobilité réduite"
+    },
+    "de": {
+      "#Car": "Auto",
+      "#Other": "Anderes",
+      "#Bicycle/e-bike": "Fahrrad / E-Bike",
+      "#E-scooter": "E-Scooter",
+      "#No vehicle available": "Kein Fahrzeug verfügbar",
+      "#Motorcycle, scooter or moped": "Motorrad, Motorroller oder Moped",
+      "#Which of the following vehicles are available in your household? (Count only vehicles used by adults.)": "Welche der folgenden Fahrzeuge stehen in Ihrem Haushalt zur Verfügung? (Zählen Sie nur Fahrzeuge, die von Erwachsenen genutzt werden.)",
+      "#Car adapted for a person with disability": "Für Menschen mit Behinderung umgebautes Auto",
+      "#Powered wheelchair or mobility scooter": "Elektrorollstuhl oder Elektromobil (Seniorenmobil)"
+    },
+    "tr": {
+      "#Car": "Otomobil",
+      "#Other": "Diğer",
+      "#Bicycle/e-bike": "Bisiklet / elektrikli bisiklet",
+      "#E-scooter": "E-scooter",
+      "#No vehicle available": "Mevcut araç yok",
+      "#Motorcycle, scooter or moped": "Motosiklet, skuter veya moped",
+      "#Which of the following vehicles are available in your household? (Count only vehicles used by adults.)": "Hanenizde aşağıdaki araçlardan hangileri var? (Yalnızca yetişkinlerin kullandığı araçları sayın.)",
+      "#Car adapted for a person with disability": "Engelli bir kişi için uyarlanmış otomobil",
+      "#Powered wheelchair or mobility scooter": "Akülü tekerlekli sandalye veya engelli skuteri"
+    },
+    "fa": {
+      "#Car": "خودرو",
+      "#Other": "سایر",
+      "#Bicycle/e-bike": "دوچرخه / دوچرخه برقی",
+      "#E-scooter": "اسکوتر برقی",
+      "#No vehicle available": "هیچ وسیله‌ای در دسترس نیست",
+      "#Motorcycle, scooter or moped": "موتورسیکلت، اسکوتر یا موتور گازی",
+      "#Which of the following vehicles are available in your household? (Count only vehicles used by adults.)": "کدام‌یک از وسایل نقلیه زیر در خانوار شما در دسترس است؟ (فقط وسایلی را بشمارید که بزرگسالان استفاده می‌کنند.)",
+      "#Car adapted for a person with disability": "خودروی تطبیق‌یافته برای فرد دارای معلولیت",
+      "#Powered wheelchair or mobility scooter": "ویلچر برقی یا اسکوتر مخصوص افراد کم‌توان حرکتی"
+    },
+    "hu": {
+      "#Car": "Autó",
+      "#Other": "Egyéb",
+      "#Bicycle/e-bike": "Kerékpár / e-bike",
+      "#E-scooter": "Elektromos roller",
+      "#No vehicle available": "Nincs elérhető jármű",
+      "#Motorcycle, scooter or moped": "Motorkerékpár, robogó vagy segédmotor",
+      "#Which of the following vehicles are available in your household? (Count only vehicles used by adults.)": "Az alábbi járművek közül melyek állnak rendelkezésre a háztartásában? (Csak a felnőttek által használt járműveket számolja.)",
+      "#Car adapted for a person with disability": "Fogyatékossággal élő személy számára átalakított autó",
+      "#Powered wheelchair or mobility scooter": "Elektromos kerekesszék vagy mozgássegítő robogó"
+    },
+    "ar": {
+      "#Car": "السيارة",
+      "#Other": "أخرى",
+      "#Bicycle/e-bike": "دراجة / دراجة كهربائية",
+      "#E-scooter": "سكوتر كهربائي",
+      "#No vehicle available": "لا توجد مركبة متاحة",
+      "#Motorcycle, scooter or moped": "دراجة نارية أو سكوتر أو دراجة بمحرك صغير",
+      "#Which of the following vehicles are available in your household? (Count only vehicles used by adults.)": "أي من المركبات التالية متوفرة في أسرتك؟ (احسب فقط المركبات التي يستخدمها البالغون.)",
+      "#Car adapted for a person with disability": "سيارة مهيأة لشخص من ذوي الإعاقة",
+      "#Powered wheelchair or mobility scooter": "كرسي متحرك كهربائي أو سكوتر للتنقل"
+    }
+  }
+}

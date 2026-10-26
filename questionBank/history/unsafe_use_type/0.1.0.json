@@ -1,0 +1,123 @@
+{
+  "question_id": "unsafe_use_type",
+  "key": "unsafe_use_type",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_connection_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "schema": {
+    "text": "Which situations do you observe?",
+    "answer_key": "unsafe_use_type",
+    "question_type": "multiple_options",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": false,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "People cross outside the marked place",
+        "value": "outside_marked_place"
+      },
+      {
+        "text": "People cross against the red light",
+        "value": "red_light_crossing"
+      },
+      {
+        "text": "People cycle in pedestrian-only space",
+        "value": "cyclists_in_ped_space"
+      },
+      {
+        "text": "People walk in bicycle-only space",
+        "value": "pedestrians_in_bike_space"
+      },
+      {
+        "text": "Vehicles stop or park on the connection",
+        "value": "vehicles_block_connection"
+      },
+      {
+        "text": "Other",
+        "value": "other"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Other": "Other",
+      "#Which situations do you observe?": "Which situations do you observe?",
+      "#People cross outside the marked place": "People cross outside the marked place",
+      "#People cross against the red light": "People cross against the red light",
+      "#People cycle in pedestrian-only space": "People cycle in pedestrian-only space",
+      "#People walk in bicycle-only space": "People walk in bicycle-only space",
+      "#Vehicles stop or park on the connection": "Vehicles stop or park on the connection"
+    },
+    "it": {
+      "#Other": "Altro",
+      "#Which situations do you observe?": "Quali situazioni osservi?",
+      "#People cross outside the marked place": "Le persone attraversano fuori dal punto segnalato",
+      "#People cross against the red light": "Le persone attraversano con il rosso",
+      "#People cycle in pedestrian-only space": "Persone in bicicletta usano spazi riservati a chi va a piedi",
+      "#People walk in bicycle-only space": "Persone a piedi usano spazi riservati alle biciclette",
+      "#Vehicles stop or park on the connection": "I veicoli si fermano o parcheggiano sul collegamento"
+    },
+    "fr": {
+      "#Other": "Autre",
+      "#Which situations do you observe?": "Quelles situations observez-vous ?",
+      "#People cross outside the marked place": "Des personnes traversent en dehors du passage marqué",
+      "#People cross against the red light": "Des personnes traversent au feu rouge",
+      "#People cycle in pedestrian-only space": "Des personnes circulent à vélo dans un espace réservé aux piétons",
+      "#People walk in bicycle-only space": "Des personnes marchent dans un espace réservé aux vélos",
+      "#Vehicles stop or park on the connection": "Des véhicules s’arrêtent ou stationnent sur la liaison"
+    },
+    "de": {
+      "#Other": "Sonstiges",
+      "#Which situations do you observe?": "Welche Situationen beobachten Sie?",
+      "#People cross outside the marked place": "Personen queren außerhalb der Markierung",
+      "#People cross against the red light": "Personen queren bei Rot",
+      "#People cycle in pedestrian-only space": "Personen fahren im reinen Fußgängerbereich Rad",
+      "#People walk in bicycle-only space": "Personen gehen im reinen Fahrradbereich zu Fuß",
+      "#Vehicles stop or park on the connection": "Fahrzeuge halten oder parken auf der Verbindung"
+    },
+    "tr": {
+      "#Other": "Diğer",
+      "#Which situations do you observe?": "Hangi durumları gözlemliyorsunuz?",
+      "#People cross outside the marked place": "İnsanlar işaretli yerin dışında geçiyor",
+      "#People cross against the red light": "İnsanlar kırmızı ışıkta geçiyor",
+      "#People cycle in pedestrian-only space": "İnsanlar yalnızca yayalara ayrılmış alanda bisiklet sürüyor",
+      "#People walk in bicycle-only space": "İnsanlar yalnızca bisiklete ayrılmış alanda yürüyor",
+      "#Vehicles stop or park on the connection": "Araçlar bağlantı üzerinde duruyor veya park ediyor"
+    },
+    "fa": {
+      "#Other": "سایر",
+      "#Which situations do you observe?": "چه وضعیت‌هایی را مشاهده می‌کنید؟",
+      "#People cross outside the marked place": "مردم بیرون از محل علامت‌گذاری‌شده عبور می‌کنند",
+      "#People cross against the red light": "مردم با چراغ قرمز عبور می‌کنند",
+      "#People cycle in pedestrian-only space": "مردم در فضای ویژه عابر پیاده دوچرخه‌سواری می‌کنند",
+      "#People walk in bicycle-only space": "مردم در فضای ویژه دوچرخه پیاده راه می‌روند",
+      "#Vehicles stop or park on the connection": "خودروها روی ارتباط توقف یا پارک می‌کنند"
+    },
+    "hu": {
+      "#Other": "Egyéb",
+      "#Which situations do you observe?": "Milyen helyzeteket figyel meg?",
+      "#People cross outside the marked place": "Az emberek a kijelölt helyen kívül kelnek át",
+      "#People cross against the red light": "Az emberek piros jelzésnél kelnek át",
+      "#People cycle in pedestrian-only space": "Az emberek csak gyalogosoknak fenntartott helyen kerékpároznak",
+      "#People walk in bicycle-only space": "Az emberek csak kerékpárosoknak fenntartott helyen gyalogolnak",
+      "#Vehicles stop or park on the connection": "Járművek állnak meg vagy parkolnak a kapcsolaton"
+    },
+    "ar": {
+      "#Other": "أخرى",
+      "#Which situations do you observe?": "ما الحالات التي تلاحظها؟",
+      "#People cross outside the marked place": "يعبر الناس خارج المكان المحدد",
+      "#People cross against the red light": "يعبر الناس مع الإشارة الحمراء",
+      "#People cycle in pedestrian-only space": "يركب الناس الدراجات في مساحة مخصصة للمشاة فقط",
+      "#People walk in bicycle-only space": "يمشي الناس في مساحة مخصصة للدراجات فقط",
+      "#Vehicles stop or park on the connection": "تتوقف المركبات أو تصطف على الرابط"
+    }
+  }
+}

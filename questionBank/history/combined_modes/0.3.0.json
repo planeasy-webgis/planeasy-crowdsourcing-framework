@@ -1,0 +1,204 @@
+{
+  "question_id": "combined_modes",
+  "key": "combined_modes",
+  "project": "shared",
+  "version": "0.3.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_daily_travel"
+  ],
+  "schema": {
+    "text": "Which of these modes do you combine in the same trip at least once a week?",
+    "answer_key": "v1_do_you_use_any_combination_of_the_fo",
+    "question_type": "multiple_options",
+    "options": [
+      {
+        "text": "Walking (stretches of at least 10 minutes)",
+        "value": "walking_10_min"
+      },
+      {
+        "text": "Car (as driver or passenger)",
+        "value": "car"
+      },
+      {
+        "text": "Car sharing",
+        "value": "car_sharing"
+      },
+      {
+        "text": "Motorcycle, scooter or moped",
+        "value": "motorcycle"
+      },
+      {
+        "text": "Bus or tram",
+        "value": "bus_tram"
+      },
+      {
+        "text": "Metro",
+        "value": "metro"
+      },
+      {
+        "text": "Regional or suburban train",
+        "value": "train"
+      },
+      {
+        "text": "Bicycle/e-bike (private)",
+        "value": "bicycle_e_bike_private"
+      },
+      {
+        "text": "Bicycle/e-bike (shared)",
+        "value": "bicycle_e_bike_shared"
+      },
+      {
+        "text": "e-scooter (private)",
+        "value": "e_scooter_private"
+      },
+      {
+        "text": "e-scooter (shared)",
+        "value": "e_scooter_shared"
+      },
+      {
+        "text": "Taxi or similar service (e.g. Uber, Bolt)",
+        "value": "taxi_or_similar_service_e_g_uber_bolt"
+      },
+      {
+        "text": "I don't use any combination",
+        "value": "i_don_t_use_any_combination",
+        "exclusive": true
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Car sharing": "Car sharing",
+      "#Bicycle/e-bike (private)": "Bicycle/e-bike (private)",
+      "#Bicycle/e-bike (shared)": "Bicycle/e-bike (shared)",
+      "#e-scooter (private)": "e-scooter (private)",
+      "#e-scooter (shared)": "e-scooter (shared)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi or similar service (e.g. Uber, Bolt)",
+      "#I don't use any combination": "I don't use any combination",
+      "#Motorcycle, scooter or moped": "Motorcycle, scooter or moped",
+      "#Which of these modes do you combine in the same trip at least once a week?": "Which of these modes do you combine in the same trip at least once a week?",
+      "#Walking (stretches of at least 10 minutes)": "Walking (stretches of at least 10 minutes)",
+      "#Car (as driver or passenger)": "Car (as driver or passenger)",
+      "#Bus or tram": "Bus or tram",
+      "#Metro": "Metro",
+      "#Regional or suburban train": "Regional or suburban train"
+    },
+    "it": {
+      "#Car sharing": "Car sharing",
+      "#Bicycle/e-bike (private)": "Bicicletta/e-bike (privata)",
+      "#Bicycle/e-bike (shared)": "Bicicletta/e-bike (condivisa)",
+      "#e-scooter (private)": "Monopattino elettrico (privato)",
+      "#e-scooter (shared)": "Monopattino elettrico (condiviso)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi o servizio simile (ad es. Uber, Bolt)",
+      "#I don't use any combination": "Non utilizzo alcuna combinazione di mezzi",
+      "#Motorcycle, scooter or moped": "Moto, scooter o motorino",
+      "#Which of these modes do you combine in the same trip at least once a week?": "Quali di questi mezzi usi insieme nello stesso spostamento almeno una volta alla settimana?",
+      "#Walking (stretches of at least 10 minutes)": "A piedi (tratti di almeno 10 minuti)",
+      "#Car (as driver or passenger)": "Auto (alla guida o come passeggero/a)",
+      "#Bus or tram": "Autobus o tram",
+      "#Metro": "Metropolitana",
+      "#Regional or suburban train": "Treno regionale o suburbano"
+    },
+    "fr": {
+      "#Car sharing": "Autopartage",
+      "#Bicycle/e-bike (private)": "Vélo / vélo électrique (personnel)",
+      "#Bicycle/e-bike (shared)": "Vélo / vélo électrique (partagé)",
+      "#e-scooter (private)": "Trottinette électrique (personnelle)",
+      "#e-scooter (shared)": "Trottinette électrique (partagée)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi ou service similaire (par ex. Uber, Bolt)",
+      "#I don't use any combination": "Je ne combine pas plusieurs modes",
+      "#Motorcycle, scooter or moped": "Moto, scooter ou cyclomoteur",
+      "#Which of these modes do you combine in the same trip at least once a week?": "Lesquels de ces moyens de transport combinez-vous dans un même trajet au moins une fois par semaine ?",
+      "#Walking (stretches of at least 10 minutes)": "À pied (trajets d’au moins 10 minutes)",
+      "#Car (as driver or passenger)": "Voiture (conducteur/conductrice ou passager/passagère)",
+      "#Bus or tram": "Bus ou tramway",
+      "#Metro": "Métro",
+      "#Regional or suburban train": "Train régional ou de banlieue"
+    },
+    "de": {
+      "#Car sharing": "Carsharing",
+      "#Bicycle/e-bike (private)": "Fahrrad / E-Bike (privat)",
+      "#Bicycle/e-bike (shared)": "Fahrrad / E-Bike (Sharing)",
+      "#e-scooter (private)": "E-Scooter (privat)",
+      "#e-scooter (shared)": "E-Scooter (Sharing)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi oder ähnlicher Fahrdienst (z. B. Uber, Bolt)",
+      "#I don't use any combination": "Ich kombiniere keine Verkehrsmittel",
+      "#Motorcycle, scooter or moped": "Motorrad, Motorroller oder Moped",
+      "#Which of these modes do you combine in the same trip at least once a week?": "Welche dieser Verkehrsmittel kombinieren Sie mindestens einmal pro Woche auf demselben Weg?",
+      "#Walking (stretches of at least 10 minutes)": "Zu Fuß (Abschnitte von mindestens 10 Minuten)",
+      "#Car (as driver or passenger)": "Auto (als Fahrer/in oder Mitfahrer/in)",
+      "#Bus or tram": "Bus oder Straßenbahn",
+      "#Metro": "U-Bahn/Metro",
+      "#Regional or suburban train": "Regional- oder S-Bahn"
+    },
+    "tr": {
+      "#Car sharing": "Araç paylaşımı",
+      "#Bicycle/e-bike (private)": "Bisiklet / elektrikli bisiklet (kişisel)",
+      "#Bicycle/e-bike (shared)": "Bisiklet / elektrikli bisiklet (paylaşımlı)",
+      "#e-scooter (private)": "E-scooter (kişisel)",
+      "#e-scooter (shared)": "E-scooter (paylaşımlı)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taksi veya benzeri hizmet (ör. Uber, Bolt)",
+      "#I don't use any combination": "Herhangi bir ulaşım seçeneği kombinasyonu kullanmıyorum",
+      "#Motorcycle, scooter or moped": "Motosiklet, skuter veya moped",
+      "#Which of these modes do you combine in the same trip at least once a week?": "Aşağıdaki ulaşım türlerinden hangilerini haftada en az bir kez aynı yolculukta birlikte kullanıyorsunuz?",
+      "#Walking (stretches of at least 10 minutes)": "Yürüyerek (en az 10 dakikalık bölümler)",
+      "#Car (as driver or passenger)": "Otomobil (sürücü veya yolcu olarak)",
+      "#Bus or tram": "Otobüs veya tramvay",
+      "#Metro": "Metro",
+      "#Regional or suburban train": "Bölgesel veya banliyö treni"
+    },
+    "fa": {
+      "#Car sharing": "خودروی اشتراکی",
+      "#Bicycle/e-bike (private)": "دوچرخه / دوچرخه برقی (شخصی)",
+      "#Bicycle/e-bike (shared)": "دوچرخه / دوچرخه برقی (اشتراکی)",
+      "#e-scooter (private)": "اسکوتر برقی (شخصی)",
+      "#e-scooter (shared)": "اسکوتر برقی (اشتراکی)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "تاکسی یا خدمات مشابه (مثلاً Uber، Bolt)",
+      "#I don't use any combination": "از ترکیب چند روش استفاده نمی‌کنم",
+      "#Motorcycle, scooter or moped": "موتورسیکلت، اسکوتر یا موتور گازی",
+      "#Which of these modes do you combine in the same trip at least once a week?": "کدام‌یک از این وسایل را دست‌کم هفته‌ای یک بار در یک سفر با هم ترکیب می‌کنید؟",
+      "#Walking (stretches of at least 10 minutes)": "پیاده (بخش‌هایی دست‌کم ۱۰ دقیقه‌ای)",
+      "#Car (as driver or passenger)": "خودرو (به‌عنوان راننده یا سرنشین)",
+      "#Bus or tram": "اتوبوس یا تراموا",
+      "#Metro": "مترو",
+      "#Regional or suburban train": "قطار منطقه‌ای یا حومه‌ای"
+    },
+    "hu": {
+      "#Car sharing": "Autómegosztás",
+      "#Bicycle/e-bike (private)": "Kerékpár / e-bike (saját)",
+      "#Bicycle/e-bike (shared)": "Kerékpár / e-bike (megosztott)",
+      "#e-scooter (private)": "Elektromos roller (saját)",
+      "#e-scooter (shared)": "Elektromos roller (megosztott)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi vagy hasonló szolgáltatás (pl. Uber, Bolt)",
+      "#I don't use any combination": "Nem kombinálok több közlekedési módot",
+      "#Motorcycle, scooter or moped": "Motorkerékpár, robogó vagy segédmotor",
+      "#Which of these modes do you combine in the same trip at least once a week?": "Az alábbi közlekedési módok közül melyeket kombinálja ugyanazon az úton legalább hetente egyszer?",
+      "#Walking (stretches of at least 10 minutes)": "Gyalog (legalább 10 perces szakaszok)",
+      "#Car (as driver or passenger)": "Autó (vezetőként vagy utasként)",
+      "#Bus or tram": "Busz vagy villamos",
+      "#Metro": "Metró",
+      "#Regional or suburban train": "Regionális vagy elővárosi vonat"
+    },
+    "ar": {
+      "#Car sharing": "مشاركة السيارات",
+      "#Bicycle/e-bike (private)": "الدراجة / الدراجة الكهربائية (شخصية)",
+      "#Bicycle/e-bike (shared)": "الدراجة / الدراجة الكهربائية (مشتركة)",
+      "#e-scooter (private)": "السكوتر الكهربائي (شخصي)",
+      "#e-scooter (shared)": "السكوتر الكهربائي (مشترك)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "سيارة أجرة أو خدمة مشابهة (مثل Uber وBolt)",
+      "#I don't use any combination": "لا أستخدم أكثر من وسيلة في الرحلة نفسها",
+      "#Motorcycle, scooter or moped": "دراجة نارية أو سكوتر أو دراجة بمحرك صغير",
+      "#Which of these modes do you combine in the same trip at least once a week?": "أي من وسائل النقل هذه تجمع بينها في التنقل نفسه مرة واحدة على الأقل في الأسبوع؟",
+      "#Walking (stretches of at least 10 minutes)": "سيرًا على الأقدام (مسافات لا تقل عن 10 دقائق)",
+      "#Car (as driver or passenger)": "سيارة (كسائق أو راكب)",
+      "#Bus or tram": "حافلة أو ترام",
+      "#Metro": "مترو",
+      "#Regional or suburban train": "قطار إقليمي أو قطار ضواحي"
+    }
+  }
+}

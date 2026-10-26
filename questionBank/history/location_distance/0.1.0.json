@@ -1,0 +1,54 @@
+{
+  "question_id": "location_distance",
+  "key": "location_distance",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_service_correction_report",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_service_correction_report"
+  ],
+  "schema": {
+    "text": "How far is it from the marked place?",
+    "answer_key": "location_distance",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "About the same street",
+        "value": "same_street"
+      },
+      {
+        "text": "Within 200 m",
+        "value": "within_200m"
+      },
+      {
+        "text": "Farther",
+        "value": "farther"
+      },
+      {
+        "text": "I don't know",
+        "value": "unknown"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#I don't know": "I don't know",
+      "#How far is it from the marked place?": "How far is it from the marked place?",
+      "#About the same street": "About the same street",
+      "#Within 200 m": "Within 200 m",
+      "#Farther": "Farther"
+    },
+    "it": {
+      "#I don't know": "Non lo so",
+      "#How far is it from the marked place?": "Quanto dista dal punto segnato?",
+      "#About the same street": "Più o meno la stessa strada",
+      "#Within 200 m": "Entro 200 m",
+      "#Farther": "Più lontano"
+    }
+  }
+}

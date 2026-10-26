@@ -1,0 +1,51 @@
+{
+  "question_id": "place_use_frequency",
+  "key": "place_use_frequency",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_geolocated_perception_report",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_geolocated_perception_report"
+  ],
+  "schema": {
+    "text": "How often do you visit or pass this location?",
+    "answer_key": "location_use_frequency",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "First time",
+        "value": "1_first_time"
+      },
+      {
+        "text": "Less than monthly",
+        "value": "2_less_than_monthly"
+      },
+      {
+        "text": "Monthly",
+        "value": "3_monthly"
+      },
+      {
+        "text": "Weekly",
+        "value": "4_weekly"
+      },
+      {
+        "text": "Daily or almost daily",
+        "value": "5_daily"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "it": {
+      "#How often do you visit or pass this location?": "Quanto spesso frequenti o attraversi questo luogo?",
+      "#First time": "Prima volta",
+      "#Less than monthly": "Meno di una volta al mese",
+      "#Monthly": "Mensilmente",
+      "#Weekly": "Settimanalmente",
+      "#Daily or almost daily": "Ogni giorno o quasi"
+    }
+  }
+}

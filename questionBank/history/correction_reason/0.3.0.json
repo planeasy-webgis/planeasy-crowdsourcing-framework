@@ -1,0 +1,65 @@
+{
+  "question_id": "correction_reason",
+  "key": "correction_reason",
+  "project": "shared",
+  "version": "0.3.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_service_correction_report",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "smarturbanity_service_correction_report"
+  ],
+  "schema": {
+    "text": "What is wrong with this service?",
+    "answer_key": "correction_reason",
+    "question_type": "single_option",
+    "add_other": true,
+    "other_input": {
+      "text": "Tell us what is wrong",
+      "answer_key": "correction_reason_other",
+      "type": "text",
+      "required": true
+    },
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "It no longer exists",
+        "value": "no_longer_exists"
+      },
+      {
+        "text": "It is in the wrong place",
+        "value": "wrong_location"
+      },
+      {
+        "text": "It is a duplicate of another service",
+        "value": "duplicate_entry"
+      },
+      {
+        "text": "Its information is wrong (name, type, hours...)",
+        "value": "wrong_information"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#What is wrong with this service?": "What is wrong with this service?",
+      "#It no longer exists": "It no longer exists",
+      "#It is in the wrong place": "It is in the wrong place",
+      "#It is a duplicate of another service": "It is a duplicate of another service",
+      "#Its information is wrong (name, type, hours...)": "Its information is wrong (name, type, hours...)",
+      "#Other": "Other",
+      "#Tell us what is wrong": "Tell us what is wrong"
+    },
+    "it": {
+      "#What is wrong with this service?": "Cosa non va in questo servizio?",
+      "#It no longer exists": "Non esiste più",
+      "#It is in the wrong place": "È nel posto sbagliato",
+      "#It is a duplicate of another service": "È un duplicato di un altro servizio",
+      "#Its information is wrong (name, type, hours...)": "Le sue informazioni sono sbagliate (nome, tipo, orari...)",
+      "#Other": "Altro",
+      "#Tell us what is wrong": "Dicci cosa non va"
+    }
+  }
+}

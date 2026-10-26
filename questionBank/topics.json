@@ -1,0 +1,2951 @@
+{
+  "schema_version": 1,
+  "catalog": [
+    {
+      "topic_id": "personal_household_context",
+      "label": "Personal and household context",
+      "description": "Age, household, employment, education, income, residence and other participant background."
+    },
+    {
+      "topic_id": "travel_patterns_choices",
+      "label": "Travel patterns and choices",
+      "description": "Trip purpose, timing, frequency, destinations, companions, mode choice and multimodal behaviour."
+    },
+    {
+      "topic_id": "walking_wheeling",
+      "label": "Walking and wheeling",
+      "description": "Walking, wheelchair or mobility-aid travel and pedestrian route conditions."
+    },
+    {
+      "topic_id": "cycling_micromobility",
+      "label": "Cycling and micromobility",
+      "description": "Bicycle, e-bike and e-scooter use, facilities, barriers and parking."
+    },
+    {
+      "topic_id": "driving_motorcycling",
+      "label": "Driving and motorcycling",
+      "description": "Car and motorcycle use, parking, licensing, costs and driving conditions."
+    },
+    {
+      "topic_id": "public_transport",
+      "label": "Public transport",
+      "description": "Bus, tram, rail, metro, stops, service reliability and transfers."
+    },
+    {
+      "topic_id": "shared_transport",
+      "label": "Shared transport and taxis",
+      "description": "Taxi, ride sharing and shared vehicles, including service preferences."
+    },
+    {
+      "topic_id": "digital_travel_tools",
+      "label": "Digital travel tools",
+      "description": "Navigation, ticketing, mobility applications, tracking and digital privacy preferences."
+    },
+    {
+      "topic_id": "accessibility_navigation",
+      "label": "Accessibility and navigation",
+      "description": "Access, independent movement, crossings, wayfinding, steps, lifts, ramps and obstacles."
+    },
+    {
+      "topic_id": "traffic_safety",
+      "label": "Traffic safety",
+      "description": "Traffic risk, driver behaviour, conflicts, near misses and road safety interventions."
+    },
+    {
+      "topic_id": "personal_security",
+      "label": "Personal security and inclusion",
+      "description": "Crime, harassment, perceived security, social acceptance and security measures."
+    },
+    {
+      "topic_id": "health_wellbeing",
+      "label": "Health and wellbeing",
+      "description": "Physical capacity, fatigue, stress, anxiety, health effects and activity."
+    },
+    {
+      "topic_id": "environment_public_space",
+      "label": "Environment and public space",
+      "description": "Air, noise, weather, heat, shade, cleanliness, appearance, seating and public-space experience."
+    },
+    {
+      "topic_id": "community_services",
+      "label": "Community and service access",
+      "description": "Belonging, neighbourhood relationships, services and access to local activities."
+    },
+    {
+      "topic_id": "place_reporting_improvements",
+      "label": "Place reporting and improvements",
+      "description": "Place descriptions, observations, service data corrections and improvement proposals."
+    }
+  ],
+  "memberships": [
+    {
+      "question_id": "access_barriers",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "access_barriers_other",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "access_point",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "active_days",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "cycling_micromobility",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "additional_comments",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "adverse_weather_travel_effect",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "age_group",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "air_quality_effect",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "air_quality_health",
+      "primary_topic": "health_wellbeing",
+      "topics": [
+        "health_wellbeing",
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "anxiety_causes",
+      "primary_topic": "health_wellbeing",
+      "topics": [
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "anxiety_frequency",
+      "primary_topic": "health_wellbeing",
+      "topics": [
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "app_mobility",
+      "primary_topic": "shared_transport",
+      "topics": [
+        "shared_transport",
+        "digital_travel_tools"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "app_navigation",
+      "primary_topic": "digital_travel_tools",
+      "topics": [
+        "digital_travel_tools"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "app_pt_tickets",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport",
+        "digital_travel_tools"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "assessment_perspective",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "audible_signal_status",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "avoid_dangerous_crossing",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "avoid_fast_traffic",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "avoid_obstacles",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "avoided_place",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "avoided_reasons",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "personal_security",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "benches_importance",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bicycle_access",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_avoid_slopes",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_avoid_traffic",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_barriers",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_confidence",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_direction",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_facility",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_hazard_confidence",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_improvements",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_infra_adequacy",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_intrusion_frequency",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_intrusion_users",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_obstacles",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_parking_changed_plans",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_parking_destination",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_poor_surface_effect",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_risky_users",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_separation",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "walking_wheeling",
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_skip_dark",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_surface_problems",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_surface_type",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_type",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_vehicle_conflict_points",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_wayfinding",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_weekly",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bike_why_not",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bridge_cover",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "bridge_perceived_safety",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation",
+        "personal_security",
+        "traffic_safety"
+      ],
+      "needs_review": true,
+      "reason": "General perceived safety on a bridge spans safe use, personal security and traffic; historical wording does not isolate one risk domain.",
+      "basis": "General perceived safety on a bridge spans safe use, personal security and traffic; historical wording does not isolate one risk domain."
+    },
+    {
+      "question_id": "car_comfort",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_congestion_adapt",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_cost_sensitivity",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "personal_household_context",
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_delay_schedule_impact",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_delay_stress",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling",
+        "traffic_safety",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_disabled_parking",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_emissions",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_free_shared_trial",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "cycling_micromobility",
+        "driving_motorcycling",
+        "shared_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_parking_decisions",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_parking_issue",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_sustainable_motivation",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "walking_wheeling",
+        "cycling_micromobility",
+        "driving_motorcycling",
+        "shared_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_weekly",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "car_why_not",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "carer",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "categoryId",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "choice_factors",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "cleanliness_effect",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "closed_connection_intervention",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "closed_source",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "closed_until",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "closed_when",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "combined_modes",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "community_attachment",
+      "primary_topic": "community_services",
+      "topics": [
+        "community_services"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "connection_clarity",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "connection_clarity_problems",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "connection_elements",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation",
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "connection_elements_operating_status",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": true,
+      "reason": "Operational availability of stairs, lifts and escalators governs access through the connection.",
+      "basis": "Operational availability of stairs, lifts and escalators governs access through the connection."
+    },
+    {
+      "question_id": "connection_form",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation",
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "connection_improvement_importance",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "connection_use_frequency",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "continue_audit",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "correct_information",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "correction_details",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "correction_reason",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "crossing_kind",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "crossing_users",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "crowded_streets_feeling",
+      "primary_topic": "personal_security",
+      "topics": [
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "crowding_frequency",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "cyclist_close_passing_frequency",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "cyclist_crossing_problems",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "cyclist_obstacle_frequency",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "cyclist_perceived_risk",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "cyclist_surface_problem_frequency",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "cyclist_use_difficulty",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "description",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "desired_bike_facility",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "desired_walking_path",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "driver_yielding",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "driving_licence",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "duplicate_keep",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "duplicate_of",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "economic_status",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "education",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "effort_vs_alternatives",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "public_transport",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "elevator_working",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "emotional_state",
+      "primary_topic": "health_wellbeing",
+      "topics": [
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "employment",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "empty_streets_feeling",
+      "primary_topic": "personal_security",
+      "topics": [
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "escalator_working",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "escorts_minors",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context",
+        "travel_patterns_choices"
+      ],
+      "needs_review": true,
+      "reason": "Regular accompaniment of children or teenagers describes care context and accompanied travel.",
+      "basis": "Regular accompaniment of children or teenagers describes care context and accompanied travel."
+    },
+    {
+      "question_id": "fast_vehicles",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "fitness",
+      "primary_topic": "health_wellbeing",
+      "topics": [
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "flexible_hours",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "freq_trip_company",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "freq_trip_frequency",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "freq_trip_purpose",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "frequent_municipi",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "gender",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "green_time_sufficient",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "height",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "hh_vehicles",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "home_municipio",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "home_neighbourhood",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context",
+        "community_services"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "household_adults",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "household_children_under_14",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": true,
+      "reason": "Household composition by age threshold.",
+      "basis": "Household composition by age threshold."
+    },
+    {
+      "question_id": "household_children_under_18",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "improvement_type",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "improvement_type_other",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "insecurity_factors",
+      "primary_topic": "personal_security",
+      "topics": [
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "journey_context",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "journey_personal_security",
+      "primary_topic": "personal_security",
+      "topics": [
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "lanes_crossed",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "level_walking_separation",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "location_distance",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "main_improvements_needed",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "main_segment_improvements_needed",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "missing_element_destination",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "missing_element_urgency",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "mobility_aids",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "mobility_limitation",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_calming",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_charging",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "cycling_micromobility",
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_driver_stress",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling",
+        "traffic_safety",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_hazard_confidence",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_narrow",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_parking",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "travel_patterns_choices",
+        "cycling_micromobility",
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_road_surface",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_road_surface_fall",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_weekly",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "cycling_micromobility",
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "moto_why_not",
+      "primary_topic": "driving_motorcycling",
+      "topics": [
+        "cycling_micromobility",
+        "driving_motorcycling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "multimodal_difficulties",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "walking_wheeling",
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "multimodal_response",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "needed_connection_form",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "needed_connection_form_other",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "needed_path_type",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "needed_path_type_other",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "nm_comment",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety",
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "nm_light",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "nm_location_type",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "nm_other_party",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "nm_outcome",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "nm_what",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "nm_when",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "nm_your_mode",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "noise_bother",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "observation_details",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pedestrian_access",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pedestrian_close_passing_frequency",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pedestrian_obstacle_frequency",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pedestrian_perceived_risk",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "cycling_micromobility",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pedestrian_surface_problem_frequency",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pedestrian_use_difficulty",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "personal_safety",
+      "primary_topic": "personal_security",
+      "topics": [
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "personal_security_day",
+      "primary_topic": "personal_security",
+      "topics": [
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "personal_security_evening",
+      "primary_topic": "personal_security",
+      "topics": [
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pet_walks",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context",
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_air",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_attachment",
+      "primary_topic": "community_services",
+      "topics": [
+        "community_services"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_avoidance",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_cleanliness",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_comfort_accessibility",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation",
+        "environment_public_space"
+      ],
+      "needs_review": true,
+      "reason": "Historical combined comfort and accessibility construct; preserve both aspects in discovery.",
+      "basis": "Historical combined comfort and accessibility construct; preserve both aspects in discovery."
+    },
+    {
+      "question_id": "place_comment",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_environment_quality",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": true,
+      "reason": "Aggregate noise, air, heat and greenery assessment.",
+      "basis": "Aggregate noise, air, heat and greenery assessment."
+    },
+    {
+      "question_id": "place_factors",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_heat_shade",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_improvements",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_more_details",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_moving_ease",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_noise",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_overall",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_people",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_personal_security",
+      "primary_topic": "personal_security",
+      "topics": [
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_pleasantness",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_rating_factors",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space",
+        "accessibility_navigation",
+        "traffic_safety",
+        "personal_security"
+      ],
+      "needs_review": true,
+      "reason": "Cross-domain factors behind place ratings include physical conditions, traffic and security-relevant visibility or isolation.",
+      "basis": "Cross-domain factors behind place ratings include physical conditions, traffic and security-relevant visibility or isolation."
+    },
+    {
+      "question_id": "place_traffic_safety",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "place_use_frequency",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "prefer_pleasant",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "professional_role",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "proposal_beneficiaries",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "proposal_description",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "providedName",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_barriers",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_crowding_comfort",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_delay_effect",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_delay_stress",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_evening_stop_safety",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport",
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_monthly",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_reliability_day",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_reliability_evening",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_social_discomfort",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport",
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_step_free_need",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_stop_ease",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_weekly",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "pt_why_not",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "public_transport_reliability",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "public_transport_social_comfort",
+      "primary_topic": "public_transport",
+      "topics": [
+        "personal_household_context",
+        "public_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "raised_sidewalk_protection",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "ramp_features",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "ramp_too_steep",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "real_location",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "reasons_outside",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "community_services"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "reasons_outside_why",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "community_services"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "refuge_island",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "remote_work",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "replaced_by",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "report_perspective",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "report_when",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "residence",
+      "primary_topic": "personal_household_context",
+      "topics": [
+        "personal_household_context"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "riding_on_pavement",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "cycling_micromobility",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "risky_road_users",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "road_safety_area",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "road_unsafe_situations",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "route_familiarity",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "route_liveliness_effect",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "route_reasons",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "safety_features",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "second",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "segment_improvement_importance",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "segment_slope",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "segment_use_frequency",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "sensory_difficulty",
+      "primary_topic": "health_wellbeing",
+      "topics": [
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "service_opportunities",
+      "primary_topic": "community_services",
+      "topics": [
+        "community_services",
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "serviceSubtype",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "serviceTypeId",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "shared_frequency",
+      "primary_topic": "cycling_micromobility",
+      "topics": [
+        "cycling_micromobility",
+        "shared_transport"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "signal_call",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "signal_wait_time",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "spatial_visibility",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "stages_correct",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "digital_travel_tools"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "stairs_features",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "stairs_problems",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "stop_crossing_safety",
+      "primary_topic": "public_transport",
+      "topics": [
+        "public_transport",
+        "accessibility_navigation",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "street_crossing_problems",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "street_level_visibility",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "cycling_micromobility",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "third_most_visited_district",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "time_vs_expected",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "tiredness",
+      "primary_topic": "health_wellbeing",
+      "topics": [
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "tiredness_cause",
+      "primary_topic": "health_wellbeing",
+      "topics": [
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "traffic_control",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "traffic_interaction_problems",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "traffic_speed_feeling",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "travel",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "travel_times",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "trip_company",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "trip_effort",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "trip_incidents",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "trip_mode",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "trip_personal_security",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "personal_security"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "trip_purpose",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "trip_time_vs_expected",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "trip_traffic_safety",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "tunnel_problems",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "underpass_perceived_safety",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation",
+        "personal_security",
+        "traffic_safety"
+      ],
+      "needs_review": true,
+      "reason": "General perceived safety in an underpass spans safe use, personal security and traffic; historical wording does not isolate one risk domain.",
+      "basis": "General perceived safety in an underpass spans safe use, personal security and traffic; historical wording does not isolate one risk domain."
+    },
+    {
+      "question_id": "unsafe_use_observed",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "cycling_micromobility",
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "unsafe_use_type",
+      "primary_topic": "traffic_safety",
+      "topics": [
+        "traffic_safety"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "users_with_difficulty",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "usual_mode",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "usual_mode_dissatisfied",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "usual_mode_satisfaction",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "vehicle_ease",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "vehicles_used",
+      "primary_topic": "travel_patterns_choices",
+      "topics": [
+        "travel_patterns_choices"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "visibility_obstacles",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "visual_quality",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "waiting_or_stopping_space",
+      "primary_topic": "accessibility_navigation",
+      "topics": [
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_days",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_distance",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_facility",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_health_benefit",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "health_wellbeing"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_heat_shade_effect",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_improvements",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_lighting_effect",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_physical_barriers",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_sidewalk_condition_effect",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_slope_effect",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walk_why_not",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walking_accessibility_features",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walking_obstacles",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walking_stairs_extent",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walking_stairs_present",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walking_surface_problems",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "walking_width_passability",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "wayfinding",
+      "primary_topic": "walking_wheeling",
+      "topics": [
+        "walking_wheeling",
+        "accessibility_navigation"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "weather_heat_effect",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "weather_rain_effect",
+      "primary_topic": "environment_public_space",
+      "topics": [
+        "environment_public_space"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    },
+    {
+      "question_id": "wrong_fields",
+      "primary_topic": "place_reporting_improvements",
+      "topics": [
+        "place_reporting_improvements"
+      ],
+      "needs_review": false,
+      "basis": "Pinned topic proposal; grouping does not imply scientific identity or approval"
+    }
+  ]
+}

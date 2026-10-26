@@ -1,0 +1,83 @@
+{
+  "question_id": "walking_stairs_present",
+  "key": "walking_stairs_present",
+  "project": "shared",
+  "version": "0.1.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "street_segment_assessment",
+  "origin_basis": "Chronological occurrence in pinned SmartUrbanity main Git history",
+  "source_questionnaires": [
+    "street_segment_assessment"
+  ],
+  "schema": {
+    "text": "Does this walking path include stairs?",
+    "answer_key": "walking_stairs_present",
+    "question_type": "single_option",
+    "add_prefer_not_to_say": false,
+    "add_i_dont_know": true,
+    "add_other": false,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "No",
+        "value": "no"
+      },
+      {
+        "text": "Yes",
+        "value": "yes"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#I don't know": "I don't know",
+      "#No": "No",
+      "#Yes": "Yes",
+      "#Does this walking path include stairs?": "Does this walking path include stairs?"
+    },
+    "it": {
+      "#I don't know": "Non lo so",
+      "#No": "No",
+      "#Yes": "Sì",
+      "#Does this walking path include stairs?": "Questo percorso pedonale comprende delle scale?"
+    },
+    "fr": {
+      "#I don't know": "Je ne sais pas",
+      "#No": "Non",
+      "#Yes": "Oui",
+      "#Does this walking path include stairs?": "Ce chemin piéton comprend-il des escaliers ?"
+    },
+    "de": {
+      "#I don't know": "Ich weiß es nicht",
+      "#No": "Nein",
+      "#Yes": "Ja",
+      "#Does this walking path include stairs?": "Enthält dieser Gehweg Treppen?"
+    },
+    "tr": {
+      "#I don't know": "Bilmiyorum",
+      "#No": "Hayır",
+      "#Yes": "Evet",
+      "#Does this walking path include stairs?": "Bu yaya yolunda merdiven var mı?"
+    },
+    "fa": {
+      "#I don't know": "نمی‌دانم",
+      "#No": "خیر",
+      "#Yes": "بله",
+      "#Does this walking path include stairs?": "آیا این مسیر پیاده دارای پله است؟"
+    },
+    "hu": {
+      "#I don't know": "Nem tudom",
+      "#No": "Nem",
+      "#Yes": "Igen",
+      "#Does this walking path include stairs?": "Van lépcső ezen a gyalogúton?"
+    },
+    "ar": {
+      "#I don't know": "لا أعرف",
+      "#No": "لا",
+      "#Yes": "نعم",
+      "#Does this walking path include stairs?": "هل يتضمن مسار المشي هذا درجًا؟"
+    }
+  }
+}
