@@ -14,3 +14,9 @@ JSON parsing, source equality, unique IDs, canonical paths, source SHA-256 and
 index/feed parity. No project flow, legal page or response was copied. No remote
 publication. Consumer integration remains with the coordinator; human editorial
 review is still pending.
+
+Owner requested a fresh collection without legacy answer-key aliases. Integrated
+infrastructure commit `07314e6bc5092cc579b018077d83e5c6839ea363` without rewriting
+history. Kept original editorial source hashes and added transformed canonical
+hashes; all 245 definitions match their original content except that one removed
+property. Feed and canonical definitions remain consistent.

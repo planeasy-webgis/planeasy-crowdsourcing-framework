@@ -33,6 +33,11 @@ each source file's UTF-8 Git content with LF line endings. Use Git blob content
 or normalize CRLF when checking these digests on Windows. IDs and source hashes
 allow verification of every migrated definition before retiring an old owner.
 
+This is a new collection: legacy answer-key aliases have been removed at the
+owner's request. `source.json` retains each original source `sha256` and records
+the transformed `canonicalSha256` of the canonical UTF-8 content with LF endings.
+All other schemas, translations, IDs and versions remain unchanged.
+
 Before accepting changes, validate every JSON file, unique IDs, canonical file
 names, index/feed equality, and references when compiling a consuming project's
 flows. Keep versions and all translations together. No response data belongs here.
