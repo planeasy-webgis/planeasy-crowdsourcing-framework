@@ -1,6 +1,6 @@
 {
-  "question_id": "providedName",
-  "key": "providedName",
+  "question_id": "service_subtype",
+  "key": "service_subtype",
   "project": "shared",
   "version": "1.0.0",
   "status": "draft",
@@ -10,12 +10,13 @@
     "smarturbanity_service"
   ],
   "schema": {
-    "answer_key": "providedName",
-    "text": "Service name",
-    "question_type": "text",
+    "answer_key": "serviceSubtype",
+    "text": "Service subtype",
+    "question_type": "select",
     "control": {
-      "id": "serviceName",
-      "placeholder": "e.g. Parco Gallo"
+      "id": "serviceSubtype",
+      "input_type": "search_select",
+      "placeholder": "Select an optional pilot-defined subtype"
     },
     "privacy_classification": "personal_data"
   },

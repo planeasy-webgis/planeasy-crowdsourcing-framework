@@ -1,6 +1,6 @@
 {
-  "question_id": "serviceTypeId",
-  "key": "serviceTypeId",
+  "question_id": "category_id",
+  "key": "category_id",
   "project": "shared",
   "version": "1.0.0",
   "status": "draft",
@@ -10,13 +10,14 @@
     "smarturbanity_service"
   ],
   "schema": {
-    "answer_key": "serviceTypeId",
-    "text": "Service type",
+    "answer_key": "categoryId",
+    "text": "Service category",
     "question_type": "select",
     "control": {
-      "id": "serviceType",
+      "id": "category",
       "input_type": "search_select",
-      "placeholder": "Type or select a service type"
+      "placeholder": "Type or select a service category",
+      "max_height": "min(360px, 50vh)"
     },
     "privacy_classification": "personal_data"
   },
