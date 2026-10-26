@@ -1,11 +1,21 @@
-# Initial SmartUrbanity main-history question pool
+# Shared question pool
 
-This data-only pool (version 1.0.0) is built exclusively from the pinned SmartUrbanity main first-parent history, including v0. No proposed-review branch definitions or former PlanEasy scientific definitions are imported. The pinned reference supplies names and privacy labels only. All definitions remain draft.
+The pool stores reusable questions and their revisions. Questionnaire composition and questionnaire history belong to the repository that publishes each questionnaire; SmartUrbanity keeps its own questionnaires and Git history.
 
-A stable family ID owns exact immutable schema/translation revisions. The current main declared question version is reserved; older distinct meanings receive chronological 0.N.0 versions. Exact meaning reuse shares a revision. Any distinct current meanings claiming the same version require an explicitly reported patch allocation and pointer mapping. Current files select the most frequent main pin with a SemVer tie-break; absent families retain their latest historical meaning and are marked inactive.
+| Path | Purpose |
+| --- | --- |
+| `questions/<question_id>.json` | Selected revision of each question; selection is not approval. |
+| `history/<question_id>/<version>.json` | Immutable question revisions. |
+| `history/index.json` | Revision catalog, hashes and original source references. |
+| `index.json` | Entry point listing the question files and catalogs. |
+| `topics.json` | Topic catalog and question memberships; one question may have multiple topics. |
+| `feed.json` | Generated export containing all question revisions for import by tools. |
+| `migration/` | Initial import records, separate from the operational pool. |
 
-Scientific schema preserves response keys (including their absence), text, option order and actual/missing values. Root flow fields, identity/version transport and legacy alias fields are excluded from reusable definitions. Legacy privacy metadata is normalized conservatively into one question-root classification with provenance; it is not a legal determination. Relevant translations are copied only from dictionaries in the exact source blob, including present generated escape/other-input labels.
+Edit and review question data through the builder. Preserve historical revision bytes; select a revision through its question file. The feed must agree with the revision files and can be regenerated from them. IDs use snake_case and remain independent of project and topic labels. Existing response keys are preserved.
 
-This pool stores questions and their revisions. SmartUrbanity owns questionnaire composition and its history in its own repository. Question-source references retain commit, path, pointer and blob/node hashes for provenance; questionnaire snapshots, ordered compositions and flow overrides are not stored here.
+The initial import uses SmartUrbanity main history, including v0. Definitions remain draft. Earlier distinct source definitions were assigned chronological 0.N.0 revisions; source-main declared question versions were retained. Translations come from the exact source dictionaries. Privacy classification is question-level; topic assignments marked needs_review still require review.
 
-The feed contains every immutable revision, zero flows and empty initial reviews. topics.json provides additive multi-topic grouping; IDs and storage paths remain independent of topic/project labels. New families lacking topic assignments are explicitly marked needs_review. proof.json verifies question-source coverage, source equality, dictionaries, unique question versions, hashes and current selection.
+The migration folder contains source.json (source commits and import inputs), source-mappings.json (source occurrences mapped to question revisions), and proof.json (verification manifest). Proof artifact paths are relative to questionBank/, as declared by artifact_root. These files are not required to load the pool.
+
+There are no saved editorial review records in this initial pool. The empty questionnaire-oriented placeholder was removed; note/status/priority editing requires the separate builder review feature.
