@@ -2,9 +2,9 @@
   "question_id": "gender",
   "key": "gender",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "smarturbanity_about_you"
@@ -13,6 +13,7 @@
     "text": "What is your gender?",
     "answer_key": "gender",
     "question_type": "single_option",
+    "help": "We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.",
     "options": [
       {
         "text": "Male",
@@ -21,9 +22,16 @@
       {
         "text": "Female",
         "value": "female"
+      },
+      {
+        "text": "Non-binary",
+        "value": "non_binary"
+      },
+      {
+        "text": "I describe myself in another way",
+        "value": "self_described"
       }
     ],
-    "add_other": true,
     "add_prefer_not_to_say": true,
     "privacy_classification": "heightened_personal"
   },
@@ -33,56 +41,72 @@
       "#What is your gender?": "What is your gender?",
       "#Male": "Male",
       "#Female": "Female",
-      "#Other": "Other"
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.",
+      "#Non-binary": "Non-binary",
+      "#I describe myself in another way": "I describe myself in another way"
     },
     "it": {
       "#Prefer not to say": "Preferisco non rispondere",
       "#What is your gender?": "Qual è il tuo genere?",
       "#Male": "Uomo",
       "#Female": "Donna",
-      "#Other": "Altro"
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Lo chiediamo per descrivere chi partecipa allo studio. Rispondere è facoltativo e la tua risposta non è collegata al tuo nome.",
+      "#Non-binary": "Non binario/a",
+      "#I describe myself in another way": "Mi descrivo in un altro modo"
     },
     "fr": {
       "#Prefer not to say": "Je préfère ne pas répondre",
       "#What is your gender?": "Quel est votre genre ?",
       "#Male": "Homme",
       "#Female": "Femme",
-      "#Other": "Autre"
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Nous posons cette question pour décrire qui participe à l’étude. Répondre est facultatif et votre réponse n’est pas liée à votre nom.",
+      "#Non-binary": "Non binaire",
+      "#I describe myself in another way": "Je me décris autrement"
     },
     "de": {
       "#Prefer not to say": "Ich möchte nicht antworten",
       "#What is your gender?": "Welches Geschlecht haben Sie?",
       "#Male": "Männlich",
       "#Female": "Weiblich",
-      "#Other": "Anderes"
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Wir fragen dies, um zu beschreiben, wer an der Studie teilnimmt. Die Antwort ist freiwillig und nicht mit Ihrem Namen verbunden.",
+      "#Non-binary": "Nicht-binär",
+      "#I describe myself in another way": "Ich beschreibe mich anders"
     },
     "tr": {
       "#Prefer not to say": "Yanıtlamak istemiyorum",
       "#What is your gender?": "Cinsiyetiniz nedir?",
       "#Male": "Erkek",
       "#Female": "Kadın",
-      "#Other": "Diğer"
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Bunu, çalışmaya kimlerin katıldığını tanımlamak için soruyoruz. Yanıt vermek isteğe bağlıdır ve yanıtınız adınızla ilişkilendirilmez.",
+      "#Non-binary": "Non-binary (ikili olmayan)",
+      "#I describe myself in another way": "Kendimi başka bir şekilde tanımlıyorum"
     },
     "fa": {
       "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
       "#What is your gender?": "جنسیت شما چیست؟",
       "#Male": "مرد",
       "#Female": "زن",
-      "#Other": "سایر"
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "این را می‌پرسیم تا توصیف کنیم چه کسانی در این مطالعه شرکت می‌کنند. پاسخ دادن اختیاری است و پاسخ شما به نام شما مرتبط نمی‌شود.",
+      "#Non-binary": "نان‌باینری (غیردودویی)",
+      "#I describe myself in another way": "خودم را به شکل دیگری توصیف می‌کنم"
     },
     "hu": {
       "#Prefer not to say": "Nem szeretnék válaszolni",
       "#What is your gender?": "Mi az Ön neme?",
       "#Male": "Férfi",
       "#Female": "Nő",
-      "#Other": "Egyéb"
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Azért kérdezzük, hogy leírjuk, kik vesznek részt a vizsgálatban. A válaszadás nem kötelező, és a válasza nincs összekapcsolva a nevével.",
+      "#Non-binary": "Nem bináris",
+      "#I describe myself in another way": "Másként írom le magam"
     },
     "ar": {
       "#Prefer not to say": "أفضل عدم الإجابة",
       "#What is your gender?": "ما جنسك؟",
       "#Male": "ذكر",
       "#Female": "أنثى",
-      "#Other": "آخر"
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "نسأل عن ذلك لوصف من يشارك في الدراسة. الإجابة اختيارية وإجابتك غير مرتبطة باسمك.",
+      "#Non-binary": "غير ثنائي الجنس",
+      "#I describe myself in another way": "أصف نفسي بطريقة أخرى"
     }
   }
 }

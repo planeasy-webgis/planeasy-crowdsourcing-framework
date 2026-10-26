@@ -2,25 +2,30 @@
   "question_id": "residence",
   "key": "residence",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "smarturbanity_about_you"
   ],
   "schema": {
-    "text": "Which of the following best describes your relationship to Municipio XII?",
+    "text": "Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?",
     "answer_key": "residence",
     "question_type": "single_option",
+    "help": "Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.",
     "options": [
       {
-        "text": "I live here (Resident)",
+        "text": "I live here (even without official registered residence)",
         "value": "live"
       },
       {
         "text": "I travel here regularly for work or study (Commuter)",
         "value": "travel"
+      },
+      {
+        "text": "I come here regularly for services, healthcare or to accompany someone",
+        "value": "services"
       },
       {
         "text": "I’m visiting for leisure (Tourist)",
@@ -35,60 +40,76 @@
   },
   "translations": {
     "en": {
-      "#Which of the following best describes your relationship to Municipio XII?": "Which of the following best describes your relationship to Municipio XII?",
-      "#I live here (Resident)": "I live here (Resident)",
       "#I travel here regularly for work or study (Commuter)": "I travel here regularly for work or study (Commuter)",
       "#I’m visiting for leisure (Tourist)": "I’m visiting for leisure (Tourist)",
-      "#I’m here temporarily for another reason (Visitor)": "I’m here temporarily for another reason (Visitor)"
+      "#I’m here temporarily for another reason (Visitor)": "I’m here temporarily for another reason (Visitor)",
+      "#Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?": "Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?",
+      "#Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.": "Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.",
+      "#I live here (even without official registered residence)": "I live here (even without official registered residence)",
+      "#I come here regularly for services, healthcare or to accompany someone": "I come here regularly for services, healthcare or to accompany someone"
     },
     "it": {
-      "#Which of the following best describes your relationship to Municipio XII?": "Quale delle seguenti opzioni descrive meglio il tuo rapporto con il Municipio XII?",
-      "#I live here (Resident)": "Vivo qui (residente)",
       "#I travel here regularly for work or study (Commuter)": "Vengo qui regolarmente per lavoro o studio (pendolare)",
       "#I’m visiting for leisure (Tourist)": "Sono qui per turismo o svago (turista)",
-      "#I’m here temporarily for another reason (Visitor)": "Sono qui temporaneamente per un altro motivo (visitatore/visitatrice)"
+      "#I’m here temporarily for another reason (Visitor)": "Sono qui temporaneamente per un altro motivo (visitatore/visitatrice)",
+      "#Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?": "Quale delle seguenti opzioni descrive meglio il tuo rapporto con l’area di questo studio (a Roma: il Municipio XII)?",
+      "#Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.": "Roma è divisa in 15 Municipi, ciascuno con un proprio consiglio. Il Municipio XII è la parte di Roma che comprende Monteverde, Colli Portuensi e Bravetta.",
+      "#I live here (even without official registered residence)": "Vivo qui (anche senza residenza anagrafica)",
+      "#I come here regularly for services, healthcare or to accompany someone": "Ci vengo regolarmente per servizi, cure mediche o per accompagnare qualcuno"
     },
     "fr": {
-      "#Which of the following best describes your relationship to Municipio XII?": "Laquelle de ces situations décrit le mieux votre lien avec le Municipio XII ?",
-      "#I live here (Resident)": "J’habite ici (résident)",
       "#I travel here regularly for work or study (Commuter)": "Je viens ici régulièrement pour travailler ou étudier",
       "#I’m visiting for leisure (Tourist)": "Je suis ici pour les loisirs (touriste)",
-      "#I’m here temporarily for another reason (Visitor)": "Je suis ici temporairement pour une autre raison (visiteur)"
+      "#I’m here temporarily for another reason (Visitor)": "Je suis ici temporairement pour une autre raison (visiteur)",
+      "#Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?": "Laquelle des propositions suivantes décrit le mieux votre lien avec la zone de cette étude (à Rome : le Municipio XII) ?",
+      "#Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.": "Rome est divisée en 15 Municipi, des arrondissements dotés chacun de leur propre conseil. Le Municipio XII est la partie de Rome qui comprend Monteverde, Colli Portuensi et Bravetta.",
+      "#I live here (even without official registered residence)": "J’habite ici (même sans y être officiellement domicilié(e))",
+      "#I come here regularly for services, healthcare or to accompany someone": "Je viens ici régulièrement pour des services, des soins ou pour accompagner quelqu’un"
     },
     "de": {
-      "#Which of the following best describes your relationship to Municipio XII?": "Welche der folgenden Aussagen beschreibt Ihre Beziehung zum Municipio XII am besten?",
-      "#I live here (Resident)": "Ich wohne hier",
       "#I travel here regularly for work or study (Commuter)": "Ich komme regelmäßig zum Arbeiten oder Studieren hierher",
       "#I’m visiting for leisure (Tourist)": "Ich bin hier in meiner Freizeit zu Besuch",
-      "#I’m here temporarily for another reason (Visitor)": "Ich bin aus einem anderen Grund vorübergehend hier"
+      "#I’m here temporarily for another reason (Visitor)": "Ich bin aus einem anderen Grund vorübergehend hier",
+      "#Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?": "Welche der folgenden Aussagen beschreibt Ihre Beziehung zum Gebiet dieser Studie (in Rom: Municipio XII) am besten?",
+      "#Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.": "Rom ist in 15 Municipi gegliedert, Stadtbezirke mit jeweils eigenem Rat. Das Municipio XII ist der Teil Roms, zu dem Monteverde, Colli Portuensi und Bravetta gehören.",
+      "#I live here (even without official registered residence)": "Ich wohne hier (auch ohne gemeldeten Wohnsitz)",
+      "#I come here regularly for services, healthcare or to accompany someone": "Ich komme regelmäßig hierher für Dienstleistungen, ärztliche Versorgung oder um jemanden zu begleiten"
     },
     "tr": {
-      "#Which of the following best describes your relationship to Municipio XII?": "Aşağıdakilerden hangisi Municipio XII ile ilişkinizi en iyi tanımlar?",
-      "#I live here (Resident)": "Burada yaşıyorum",
       "#I travel here regularly for work or study (Commuter)": "İş veya eğitim için buraya düzenli olarak geliyorum",
       "#I’m visiting for leisure (Tourist)": "Gezi veya boş zaman için buradayım",
-      "#I’m here temporarily for another reason (Visitor)": "Başka bir nedenle geçici olarak buradayım"
+      "#I’m here temporarily for another reason (Visitor)": "Başka bir nedenle geçici olarak buradayım",
+      "#Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?": "Aşağıdakilerden hangisi bu çalışmanın yapıldığı bölgeyle (Roma'da: Municipio XII) ilişkinizi en iyi tanımlar?",
+      "#Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.": "Roma, her birinin kendi meclisi olan 15 Municipio’ya, yani yerel bölgeye ayrılır. Municipio XII, Roma’nın Monteverde, Colli Portuensi ve Bravetta’yı kapsayan bölümüdür.",
+      "#I live here (even without official registered residence)": "Burada yaşıyorum (resmi ikametgâhım burada olmasa bile)",
+      "#I come here regularly for services, healthcare or to accompany someone": "Hizmetler, sağlık bakımı veya birine eşlik etmek için buraya düzenli olarak geliyorum"
     },
     "fa": {
-      "#Which of the following best describes your relationship to Municipio XII?": "کدام گزینه رابطه شما با Municipio XII را بهتر توصیف می‌کند؟",
-      "#I live here (Resident)": "اینجا زندگی می‌کنم",
       "#I travel here regularly for work or study (Commuter)": "برای کار یا تحصیل به طور منظم به اینجا می‌آیم",
       "#I’m visiting for leisure (Tourist)": "برای تفریح یا بازدید اینجا هستم",
-      "#I’m here temporarily for another reason (Visitor)": "به دلیل دیگری به طور موقت اینجا هستم"
+      "#I’m here temporarily for another reason (Visitor)": "به دلیل دیگری به طور موقت اینجا هستم",
+      "#Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?": "کدام گزینه رابطه شما با محدوده این مطالعه (در رم: Municipio XII) را بهتر توصیف می‌کند؟",
+      "#Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.": "رم به ۱۵ Municipio یا ناحیهٔ محلی تقسیم شده که هر کدام شورای خود را دارد. Municipio XII بخشی از رم است که Monteverde، Colli Portuensi و Bravetta را در بر می‌گیرد.",
+      "#I live here (even without official registered residence)": "اینجا زندگی می‌کنم (حتی بدون اقامت رسمی ثبت‌شده)",
+      "#I come here regularly for services, healthcare or to accompany someone": "به‌طور منظم برای خدمات، درمان یا همراهی کسی به اینجا می‌آیم"
     },
     "hu": {
-      "#Which of the following best describes your relationship to Municipio XII?": "Melyik állítás írja le legjobban a kapcsolatát a Municipio XII területével?",
-      "#I live here (Resident)": "Itt élek",
       "#I travel here regularly for work or study (Commuter)": "Rendszeresen ide járok dolgozni vagy tanulni",
       "#I’m visiting for leisure (Tourist)": "Szabadidős céllal látogatok ide",
-      "#I’m here temporarily for another reason (Visitor)": "Más okból ideiglenesen tartózkodom itt"
+      "#I’m here temporarily for another reason (Visitor)": "Más okból ideiglenesen tartózkodom itt",
+      "#Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?": "Az alábbiak közül melyik írja le legjobban a kapcsolatát a vizsgálat területével (Rómában: Municipio XII)?",
+      "#Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.": "Róma 15 Municipióra, saját testülettel rendelkező kerületre oszlik. A Municipio XII Róma azon része, amelyhez Monteverde, Colli Portuensi és Bravetta tartozik.",
+      "#I live here (even without official registered residence)": "Itt élek (akkor is, ha nincs itt bejelentett lakcímem)",
+      "#I come here regularly for services, healthcare or to accompany someone": "Rendszeresen ide járok szolgáltatások, egészségügyi ellátás miatt vagy hogy elkísérjek valakit"
     },
     "ar": {
-      "#Which of the following best describes your relationship to Municipio XII?": "أي من العبارات التالية تصف علاقتك بـ Municipio XII بشكل أفضل؟",
-      "#I live here (Resident)": "أعيش هنا",
       "#I travel here regularly for work or study (Commuter)": "آتي إلى هنا بانتظام للعمل أو الدراسة",
       "#I’m visiting for leisure (Tourist)": "أزور المنطقة للترفيه",
-      "#I’m here temporarily for another reason (Visitor)": "أقيم هنا مؤقتًا لسبب آخر"
+      "#I’m here temporarily for another reason (Visitor)": "أقيم هنا مؤقتًا لسبب آخر",
+      "#Which of the following best describes your relationship to the area of this study (in Rome: Municipio XII)?": "أي مما يلي يصف بشكل أفضل علاقتك بمنطقة هذه الدراسة (في روما: Municipio XII)؟",
+      "#Rome is divided into 15 Municipi, local districts each with its own council. Municipio XII is the part of Rome that includes Monteverde, Colli Portuensi and Bravetta.": "تنقسم روما إلى 15 Municipio، وهي دوائر محلية لكل منها مجلسها الخاص. الـMunicipio XII هو جزء روما الذي يضم Monteverde وColli Portuensi وBravetta.",
+      "#I live here (even without official registered residence)": "أعيش هنا (حتى من دون إقامة مسجّلة رسميًا)",
+      "#I come here regularly for services, healthcare or to accompany someone": "آتي إلى هنا بانتظام من أجل الخدمات أو الرعاية الصحية أو لمرافقة شخص ما"
     }
   }
 }

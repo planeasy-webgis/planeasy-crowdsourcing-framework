@@ -2,105 +2,105 @@
   "question_id": "avoid_obstacles",
   "key": "avoid_obstacles",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_walking",
   "source_questionnaires": [
     "smarturbanity_walking"
   ],
   "schema": {
-    "text": "How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?",
+    "text": "How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?",
     "answer_key": "avoid_obstacles",
     "question_type": "single_option",
     "options": [
       {
-        "text": "I rarely encounter obstacles that affect my movement",
-        "value": "i_rarely_encounter_obstacles_that_affect"
+        "text": "They do not affect my walking",
+        "value": "no_effect"
       },
       {
-        "text": "I occasionally need to walk around obstacles, but they do not significantly affect my journey",
-        "value": "i_occasionally_need_to_walk_around_obsta"
+        "text": "I walk around them without much trouble",
+        "value": "walk_around_them_easily"
       },
       {
-        "text": "Obstacles sometimes slow me down or make walking less comfortable",
-        "value": "obstacles_sometimes_slow_me_down_or_make"
+        "text": "They slow me down or make walking less comfortable",
+        "value": "slow_me_down_or_less_comfortable"
       },
       {
-        "text": "Obstacles frequently force me to change my path or walk closer to traffic",
-        "value": "obstacles_frequently_force_me_to_change"
+        "text": "They force me to change my path or walk closer to traffic",
+        "value": "change_path_or_walk_closer_to_traffic"
       },
       {
-        "text": "Obstacles regularly make the route difficult, stressful, or inaccessible",
-        "value": "obstacles_regularly_make_the_route_diffi"
+        "text": "They make the route difficult, stressful, or impossible for me",
+        "value": "route_difficult_stressful_or_inaccessible"
       }
     ],
     "privacy_classification": "personal_data"
   },
   "translations": {
     "en": {
-      "#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?",
-      "#I rarely encounter obstacles that affect my movement": "I rarely encounter obstacles that affect my movement",
-      "#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "I occasionally need to walk around obstacles, but they do not significantly affect my journey",
-      "#Obstacles sometimes slow me down or make walking less comfortable": "Obstacles sometimes slow me down or make walking less comfortable",
-      "#Obstacles frequently force me to change my path or walk closer to traffic": "Obstacles frequently force me to change my path or walk closer to traffic",
-      "#Obstacles regularly make the route difficult, stressful, or inaccessible": "Obstacles regularly make the route difficult, stressful, or inaccessible"
+      "#I walk around them without much trouble": "I walk around them without much trouble",
+      "#They slow me down or make walking less comfortable": "They slow me down or make walking less comfortable",
+      "#They force me to change my path or walk closer to traffic": "They force me to change my path or walk closer to traffic",
+      "#They make the route difficult, stressful, or impossible for me": "They make the route difficult, stressful, or impossible for me",
+      "#How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?": "How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?",
+      "#They do not affect my walking": "They do not affect my walking"
     },
     "it": {
-      "#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "In che modo gli ostacoli temporanei (ad es. lavori stradali, cassonetti o scooter parcheggiati) influenzano normalmente il tuo percorso a piedi?",
-      "#I rarely encounter obstacles that affect my movement": "Raramente incontro ostacoli che limitano i miei movimenti",
-      "#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "Occasionalmente devo aggirare degli ostacoli, ma questi non influenzano significativamente il mio spostamento",
-      "#Obstacles sometimes slow me down or make walking less comfortable": "A volte gli ostacoli mi rallentano o rendono meno confortevole camminare",
-      "#Obstacles frequently force me to change my path or walk closer to traffic": "Gli ostacoli mi costringono frequentemente a cambiare percorso o a camminare più vicino al traffico",
-      "#Obstacles regularly make the route difficult, stressful, or inaccessible": "Gli ostacoli rendono regolarmente il percorso difficile, stressante o inaccessibile"
+      "#I walk around them without much trouble": "Li aggiro senza grandi difficoltà",
+      "#They slow me down or make walking less comfortable": "Mi rallentano o rendono meno confortevole camminare",
+      "#They force me to change my path or walk closer to traffic": "Mi costringono a cambiare percorso o a camminare più vicino al traffico",
+      "#They make the route difficult, stressful, or impossible for me": "Rendono il percorso difficile, stressante o impossibile per me",
+      "#How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?": "In che modo gli ostacoli temporanei (ad es. lavori stradali, cassonetti, monopattini o motorini parcheggiati sul marciapiede) influenzano normalmente il tuo percorso a piedi?",
+      "#They do not affect my walking": "Non influiscono sui miei spostamenti a piedi"
     },
     "fr": {
-      "#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "Comment les obstacles temporaires, par exemple les travaux, poubelles ou scooters garés, influencent-ils généralement votre trajet à pied ?",
-      "#I rarely encounter obstacles that affect my movement": "Je rencontre rarement des obstacles qui gênent mes déplacements",
-      "#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "Je dois parfois contourner des obstacles, mais cela ne change pas vraiment mon trajet",
-      "#Obstacles sometimes slow me down or make walking less comfortable": "Les obstacles me ralentissent parfois ou rendent la marche moins confortable",
-      "#Obstacles frequently force me to change my path or walk closer to traffic": "Les obstacles m’obligent souvent à changer de chemin ou à marcher plus près de la circulation",
-      "#Obstacles regularly make the route difficult, stressful, or inaccessible": "Les obstacles rendent régulièrement l’itinéraire difficile, stressant ou inaccessible"
+      "#I walk around them without much trouble": "Je les contourne sans grande difficulté",
+      "#They slow me down or make walking less comfortable": "Ils me ralentissent ou rendent la marche moins confortable",
+      "#They force me to change my path or walk closer to traffic": "Ils m’obligent à changer de chemin ou à marcher plus près de la circulation",
+      "#They make the route difficult, stressful, or impossible for me": "Ils rendent l’itinéraire difficile, stressant ou impossible pour moi",
+      "#How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?": "Comment les obstacles temporaires (par ex. travaux, poubelles, trottinettes ou deux-roues motorisés garés sur le trottoir) affectent-ils habituellement votre trajet à pied ?",
+      "#They do not affect my walking": "Ils n'ont pas d'effet sur mes déplacements à pied"
     },
     "de": {
-      "#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "Wie beeinflussen vorübergehende Hindernisse, zum Beispiel Baustellen, Mülltonnen oder geparkte Roller, normalerweise Ihren Weg zu Fuß?",
-      "#I rarely encounter obstacles that affect my movement": "Ich treffe selten auf Hindernisse, die meine Bewegung beeinträchtigen",
-      "#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "Ich muss gelegentlich um Hindernisse herumgehen, aber mein Weg wird dadurch kaum beeinflusst",
-      "#Obstacles sometimes slow me down or make walking less comfortable": "Hindernisse verlangsamen mich manchmal oder machen das Gehen weniger angenehm",
-      "#Obstacles frequently force me to change my path or walk closer to traffic": "Hindernisse zwingen mich häufig, meinen Weg zu ändern oder näher am Verkehr zu gehen",
-      "#Obstacles regularly make the route difficult, stressful, or inaccessible": "Hindernisse machen die Strecke regelmäßig schwierig, stressig oder unzugänglich"
+      "#I walk around them without much trouble": "Ich gehe ohne große Mühe um sie herum",
+      "#They slow me down or make walking less comfortable": "Sie verlangsamen mich oder machen das Gehen weniger angenehm",
+      "#They force me to change my path or walk closer to traffic": "Sie zwingen mich, meinen Weg zu ändern oder näher am Verkehr zu gehen",
+      "#They make the route difficult, stressful, or impossible for me": "Sie machen die Strecke für mich schwierig, stressig oder unmöglich",
+      "#How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?": "Wie wirken sich vorübergehende Hindernisse (z. B. Baustellen, Mülltonnen oder auf dem Gehweg abgestellte E-Scooter und Motorroller) normalerweise auf Ihren Fußweg aus?",
+      "#They do not affect my walking": "Sie beeinflussen mein Gehen nicht"
     },
     "tr": {
-      "#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "Yol çalışmaları, çöp kutuları veya park edilmiş scooter’lar gibi geçici engeller yürüme güzergâhınızı genellikle nasıl etkiler?",
-      "#I rarely encounter obstacles that affect my movement": "Hareketimi etkileyen engellerle nadiren karşılaşırım",
-      "#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "Bazen engellerin etrafından dolaşmam gerekir ama yolculuğum önemli ölçüde etkilenmez",
-      "#Obstacles sometimes slow me down or make walking less comfortable": "Engeller bazen beni yavaşlatır veya yürümeyi daha az rahat hale getirir",
-      "#Obstacles frequently force me to change my path or walk closer to traffic": "Engeller sık sık yolumu değiştirmeme veya trafiğe daha yakın yürümeme neden olur",
-      "#Obstacles regularly make the route difficult, stressful, or inaccessible": "Engeller güzergâhı düzenli olarak zor, stresli veya erişilemez hale getirir"
+      "#I walk around them without much trouble": "Fazla zorlanmadan etraflarından dolaşırım",
+      "#They slow me down or make walking less comfortable": "Beni yavaşlatırlar veya yürümeyi daha az rahat hale getirirler",
+      "#They force me to change my path or walk closer to traffic": "Yolumu değiştirmeme veya trafiğe daha yakın yürümeme neden olurlar",
+      "#They make the route difficult, stressful, or impossible for me": "Güzergâhı benim için zor, stresli veya imkânsız hale getirirler",
+      "#How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?": "Geçici engeller (ör. yol çalışmaları, çöp konteynerleri veya kaldırıma park edilmiş elektrikli scooter ve motosikletler) yürüyüş güzergâhınızı genellikle nasıl etkiliyor?",
+      "#They do not affect my walking": "Yürüyüşümü etkilemezler"
     },
     "fa": {
-      "#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "موانع موقت مانند کارگاه، سطل زباله یا اسکوتر پارک‌شده معمولاً چگونه بر مسیر پیاده‌روی شما اثر می‌گذارند؟",
-      "#I rarely encounter obstacles that affect my movement": "به ندرت با مانعی روبه‌رو می‌شوم که حرکت مرا مختل کند",
-      "#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "گاهی مجبور می‌شوم دور مانع راه بروم، اما سفرم خیلی تغییر نمی‌کند",
-      "#Obstacles sometimes slow me down or make walking less comfortable": "موانع گاهی سرعت مرا کم می‌کنند یا پیاده‌روی را کمتر راحت می‌کنند",
-      "#Obstacles frequently force me to change my path or walk closer to traffic": "موانع اغلب مجبورم می‌کنند مسیر را تغییر دهم یا نزدیک‌تر به ترافیک راه بروم",
-      "#Obstacles regularly make the route difficult, stressful, or inaccessible": "موانع مرتب مسیر را دشوار، پراسترس یا غیرقابل دسترس می‌کنند"
+      "#I walk around them without much trouble": "بدون زحمت زیاد دور آن‌ها راه می‌روم",
+      "#They slow me down or make walking less comfortable": "سرعت مرا کم می‌کنند یا پیاده‌روی را کمتر راحت می‌کنند",
+      "#They force me to change my path or walk closer to traffic": "مجبورم می‌کنند مسیر را تغییر دهم یا نزدیک‌تر به ترافیک راه بروم",
+      "#They make the route difficult, stressful, or impossible for me": "مسیر را برایم دشوار، پراسترس یا غیرممکن می‌کنند",
+      "#How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?": "موانع موقت (مانند کارهای عمرانی، سطل‌های زباله، یا اسکوترهای برقی و موتورسیکلت‌های پارک‌شده روی پیاده‌رو) معمولاً چه تأثیری بر مسیر پیاده‌روی شما دارند؟",
+      "#They do not affect my walking": "بر پیاده‌روی من اثری ندارند"
     },
     "hu": {
-      "#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "Hogyan befolyásolják általában az ideiglenes akadályok, például útépítés, kukák vagy parkoló rollerek a gyalogos útvonalát?",
-      "#I rarely encounter obstacles that affect my movement": "Ritkán találkozom olyan akadállyal, amely zavarja a mozgásomat",
-      "#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "Néha ki kell kerülnöm az akadályokat, de az utazásomat ez nem befolyásolja jelentősen",
-      "#Obstacles sometimes slow me down or make walking less comfortable": "Az akadályok néha lelassítanak vagy kényelmetlenebbé teszik a gyaloglást",
-      "#Obstacles frequently force me to change my path or walk closer to traffic": "Az akadályok gyakran arra kényszerítenek, hogy útvonalat váltsak vagy közelebb menjek a forgalomhoz",
-      "#Obstacles regularly make the route difficult, stressful, or inaccessible": "Az akadályok rendszeresen nehézzé, stresszessé vagy járhatatlanná teszik az útvonalat"
+      "#I walk around them without much trouble": "Különösebb gond nélkül kikerülöm őket",
+      "#They slow me down or make walking less comfortable": "Lelassítanak vagy kényelmetlenebbé teszik a gyaloglást",
+      "#They force me to change my path or walk closer to traffic": "Arra kényszerítenek, hogy útvonalat váltsak vagy közelebb menjek a forgalomhoz",
+      "#They make the route difficult, stressful, or impossible for me": "Nehézzé, stresszessé vagy számomra járhatatlanná teszik az útvonalat",
+      "#How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?": "Az ideiglenes akadályok (pl. útépítés, kukák, a járdán parkoló elektromos rollerek és motorok) általában hogyan befolyásolják gyalogos útvonalát?",
+      "#They do not affect my walking": "Nem befolyásolják a gyaloglásomat"
     },
     "ar": {
-      "#How do temporary obstacles (e.g., roadworks, bins, or parked scooters) typically affect your walking route?": "كيف تؤثر العوائق المؤقتة، مثل أعمال الطرق أو حاويات النفايات أو السكوترات المتوقفة، عادةً في طريقك أثناء المشي؟",
-      "#I rarely encounter obstacles that affect my movement": "نادراً ما أواجه عوائق تؤثر في حركتي",
-      "#I occasionally need to walk around obstacles, but they do not significantly affect my journey": "أحتاج أحيانًا إلى الالتفاف حول العوائق لكنها لا تؤثر كثيرًا في رحلتي",
-      "#Obstacles sometimes slow me down or make walking less comfortable": "تبطئني العوائق أحيانًا أو تجعل المشي أقل راحة",
-      "#Obstacles frequently force me to change my path or walk closer to traffic": "تجبرني العوائق كثيرًا على تغيير طريقي أو المشي أقرب إلى حركة المرور",
-      "#Obstacles regularly make the route difficult, stressful, or inaccessible": "تجعل العوائق الطريق صعبًا أو مرهقًا أو غير قابل للاستخدام بشكل متكرر"
+      "#I walk around them without much trouble": "ألتف حولها من دون صعوبة كبيرة",
+      "#They slow me down or make walking less comfortable": "تبطئني أو تجعل المشي أقل راحة",
+      "#They force me to change my path or walk closer to traffic": "تجبرني على تغيير طريقي أو المشي أقرب إلى حركة المرور",
+      "#They make the route difficult, stressful, or impossible for me": "تجعل الطريق صعبًا أو مرهقًا أو مستحيلًا بالنسبة لي",
+      "#How do temporary obstacles (e.g., roadworks, bins, or e-scooters and motorbikes parked on the sidewalk) typically affect your walking route?": "كيف تؤثر العوائق المؤقتة (مثل أعمال الطرق أو حاويات النفايات أو السكوترات الكهربائية والدراجات النارية المركونة على الرصيف) عادةً على طريقك أثناء المشي؟",
+      "#They do not affect my walking": "لا تؤثر في مشيي"
     }
   }
 }

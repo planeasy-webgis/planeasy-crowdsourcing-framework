@@ -2,9 +2,9 @@
   "question_id": "motorcycle_charging",
   "key": "motorcycle_charging",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_motorcycle",
   "source_questionnaires": [
     "smarturbanity_motorcycle"
@@ -14,10 +14,6 @@
     "answer_key": "moto_charging",
     "question_type": "single_option",
     "options": [
-      {
-        "text": "I don't have an electric vehicle, so this doesn't apply to me",
-        "value": "i_don_t_have_an_electric_vehicle_so_this"
-      },
       {
         "text": "Not at all influential",
         "value": "not_at_all_influential"
@@ -37,6 +33,10 @@
       {
         "text": "Extremely influential",
         "value": "extremely_influential"
+      },
+      {
+        "text": "I don't have an electric vehicle, so this doesn't apply to me",
+        "value": "i_don_t_have_an_electric_vehicle_so_this"
       }
     ],
     "privacy_classification": "personal_data"

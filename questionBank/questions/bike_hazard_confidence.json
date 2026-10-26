@@ -2,105 +2,114 @@
   "question_id": "bike_hazard_confidence",
   "key": "bike_hazard_confidence",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_cycling",
   "source_questionnaires": [
     "smarturbanity_cycling"
   ],
   "schema": {
-    "text": "How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?",
+    "text": "How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?",
+    "help": "A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.",
     "answer_key": "bike_hazard_confidence",
     "question_type": "single_option",
     "options": [
       {
-        "text": "Not confident at all — I feel unprepared for these situations",
-        "value": "not_confident_at_all_i_feel_unprepared_f"
+        "text": "Completely confident — I feel well prepared for the typical hazards",
+        "value": "completely_confident"
+      },
+      {
+        "text": "Very confident — I anticipate most hazards and respond well",
+        "value": "very_confident"
+      },
+      {
+        "text": "Fairly confident — I manage most situations but some still worry me",
+        "value": "fairly_confident"
       },
       {
         "text": "Slightly confident — I am aware of the risks but often feel caught off guard",
-        "value": "slightly_confident_i_am_aware_of_the_ris"
+        "value": "slightly_confident"
       },
       {
-        "text": "Moderately confident — I manage most situations but some still worry me",
-        "value": "moderately_confident_i_manage_most_situa"
-      },
-      {
-        "text": "Quite confident — I anticipate most hazards and respond well",
-        "value": "quite_confident_i_anticipate_most_hazard"
-      },
-      {
-        "text": "Very confident — I feel well prepared for all typical cycling hazards",
-        "value": "very_confident_i_feel_well_prepared_for"
+        "text": "Not confident at all — I feel unprepared for these situations",
+        "value": "not_confident_at_all"
       }
     ],
     "privacy_classification": "personal_data"
   },
   "translations": {
     "en": {
-      "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?",
+      "#How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?",
+      "#A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.": "A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.",
       "#Not confident at all — I feel unprepared for these situations": "Not confident at all — I feel unprepared for these situations",
       "#Slightly confident — I am aware of the risks but often feel caught off guard": "Slightly confident — I am aware of the risks but often feel caught off guard",
-      "#Moderately confident — I manage most situations but some still worry me": "Moderately confident — I manage most situations but some still worry me",
-      "#Quite confident — I anticipate most hazards and respond well": "Quite confident — I anticipate most hazards and respond well",
-      "#Very confident — I feel well prepared for all typical cycling hazards": "Very confident — I feel well prepared for all typical cycling hazards"
+      "#Fairly confident — I manage most situations but some still worry me": "Fairly confident — I manage most situations but some still worry me",
+      "#Very confident — I anticipate most hazards and respond well": "Very confident — I anticipate most hazards and respond well",
+      "#Completely confident — I feel well prepared for the typical hazards": "Completely confident — I feel well prepared for the typical hazards"
     },
     "it": {
-      "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Quanto ti senti sicuro/a della tua capacità di prevedere e affrontare situazioni pericolose mentre pedali, ad esempio porte di auto che si aprono improvvisamente, veicoli che tagliano la strada o incroci con scarsa visibilità?",
-      "#Not confident at all — I feel unprepared for these situations": "Per niente sicuro/a — mi sento impreparato/a ad affrontare queste situazioni",
-      "#Slightly confident — I am aware of the risks but often feel caught off guard": "Poco sicuro/a — sono consapevole dei rischi, ma spesso vengo colto/a di sorpresa",
-      "#Moderately confident — I manage most situations but some still worry me": "Moderatamente sicuro/a — gestisco la maggior parte delle situazioni, ma alcune mi preoccupano ancora",
-      "#Quite confident — I anticipate most hazards and respond well": "Abbastanza sicuro/a — prevedo la maggior parte dei pericoli e reagisco bene",
-      "#Very confident — I feel well prepared for all typical cycling hazards": "Molto sicuro/a — mi sento ben preparato/a ad affrontare i pericoli tipici della mobilità ciclistica"
+      "#How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Quanto ti senti capace di prevedere e affrontare situazioni pericolose mentre sei in bici o in monopattino, ad esempio portiere di auto che si aprono improvvisamente, veicoli che tagliano la strada o incroci con scarsa visibilità?",
+      "#A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.": "Un incrocio con scarsa visibilità è un incrocio dove edifici, muri o veicoli parcheggiati nascondono il traffico che arriva di lato.",
+      "#Not confident at all — I feel unprepared for these situations": "Per niente capace — mi sento impreparato/a ad affrontare queste situazioni",
+      "#Slightly confident — I am aware of the risks but often feel caught off guard": "Poco capace — sono consapevole dei rischi, ma spesso vengo colto/a di sorpresa",
+      "#Fairly confident — I manage most situations but some still worry me": "Abbastanza capace — gestisco la maggior parte delle situazioni, ma alcune mi preoccupano ancora",
+      "#Very confident — I anticipate most hazards and respond well": "Molto capace — prevedo la maggior parte dei pericoli e reagisco bene",
+      "#Completely confident — I feel well prepared for the typical hazards": "Del tutto capace — mi sento ben preparato/a ad affrontare i pericoli tipici"
     },
     "fr": {
-      "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "À quel point vous sentez-vous capable d’anticiper et de réagir aux situations dangereuses à vélo, par exemple une portière qui s’ouvre soudainement, un véhicule qui coupe votre trajectoire ou un carrefour avec mauvaise visibilité ?",
+      "#How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "À quel point vous sentez-vous capable d’anticiper et de réagir aux situations dangereuses à vélo ou en trottinette, par exemple une portière qui s’ouvre soudainement, un véhicule qui coupe votre trajectoire ou un carrefour avec mauvaise visibilité ?",
+      "#A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.": "Un carrefour avec mauvaise visibilité est un carrefour où des bâtiments, des murs ou des véhicules garés cachent la circulation venant du côté.",
       "#Not confident at all — I feel unprepared for these situations": "Pas du tout en confiance — je ne me sens pas préparé(e) à ces situations",
       "#Slightly confident — I am aware of the risks but often feel caught off guard": "Un peu en confiance — je connais les risques, mais je suis souvent surpris(e)",
-      "#Moderately confident — I manage most situations but some still worry me": "Modérément en confiance — je gère la plupart des situations, mais certaines m’inquiètent encore",
-      "#Quite confident — I anticipate most hazards and respond well": "Plutôt en confiance — j’anticipe la plupart des dangers et je réagis correctement",
-      "#Very confident — I feel well prepared for all typical cycling hazards": "Très en confiance — je me sens bien préparé(e) aux dangers habituels à vélo"
+      "#Fairly confident — I manage most situations but some still worry me": "Plutôt en confiance — je gère la plupart des situations, mais certaines m’inquiètent encore",
+      "#Very confident — I anticipate most hazards and respond well": "Très en confiance — j’anticipe la plupart des dangers et je réagis correctement",
+      "#Completely confident — I feel well prepared for the typical hazards": "Tout à fait en confiance — je me sens bien préparé(e) aux dangers habituels"
     },
     "de": {
-      "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Wie sicher fühlen Sie sich darin, gefährliche Situationen beim Radfahren früh zu erkennen und darauf zu reagieren, zum Beispiel plötzlich geöffnete Autotüren, abbiegende Fahrzeuge oder unübersichtliche Kreuzungen?",
+      "#How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Wie sicher fühlen Sie sich darin, gefährliche Situationen mit dem Fahrrad oder E-Scooter früh zu erkennen und darauf zu reagieren, zum Beispiel plötzlich geöffnete Autotüren, abbiegende Fahrzeuge oder unübersichtliche Kreuzungen?",
+      "#A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.": "Eine unübersichtliche Kreuzung ist eine Kreuzung, an der Gebäude, Mauern oder parkende Fahrzeuge den seitlich kommenden Verkehr verdecken.",
       "#Not confident at all — I feel unprepared for these situations": "Gar nicht sicher — ich fühle mich auf solche Situationen nicht vorbereitet",
       "#Slightly confident — I am aware of the risks but often feel caught off guard": "Etwas sicher — ich kenne die Risiken, werde aber oft überrascht",
-      "#Moderately confident — I manage most situations but some still worry me": "Mäßig sicher — ich komme mit den meisten Situationen zurecht, manche machen mir aber noch Sorgen",
-      "#Quite confident — I anticipate most hazards and respond well": "Ziemlich sicher — ich erkenne die meisten Gefahren früh und reagiere gut",
-      "#Very confident — I feel well prepared for all typical cycling hazards": "Sehr sicher — ich fühle mich auf die typischen Gefahren beim Radfahren gut vorbereitet"
+      "#Fairly confident — I manage most situations but some still worry me": "Ziemlich sicher — ich komme mit den meisten Situationen zurecht, manche machen mir aber noch Sorgen",
+      "#Very confident — I anticipate most hazards and respond well": "Sehr sicher — ich erkenne die meisten Gefahren früh und reagiere gut",
+      "#Completely confident — I feel well prepared for the typical hazards": "Völlig sicher — ich fühle mich auf die typischen Gefahren gut vorbereitet"
     },
     "tr": {
-      "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Bisiklet sürerken tehlikeli durumları önceden fark edip tepki verme konusunda kendinizi ne kadar güvende hissediyorsunuz? Örneğin aniden açılan otomobil kapıları, önünüzü kesen araçlar veya görüşü kısıtlı kavşaklar.",
+      "#How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Bisiklet veya elektrikli scooter kullanırken tehlikeli durumları önceden fark edip tepki verme becerinize ne kadar güveniyorsunuz? Örneğin aniden açılan otomobil kapıları, önünüzü kesen araçlar veya görüşü kısıtlı kavşaklar.",
+      "#A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.": "Görüşü kısıtlı kavşak, binaların, duvarların ya da park etmiş araçların yandan gelen trafiği gizlediği kavşaktır.",
       "#Not confident at all — I feel unprepared for these situations": "Hiç güvende hissetmiyorum — bu durumlara hazırlıklı hissetmiyorum",
       "#Slightly confident — I am aware of the risks but often feel caught off guard": "Biraz güvende hissediyorum — riskleri biliyorum ama sık sık hazırlıksız yakalanıyorum",
-      "#Moderately confident — I manage most situations but some still worry me": "Orta düzeyde güvende hissediyorum — çoğu durumla başa çıkıyorum ama bazıları hâlâ beni endişelendiriyor",
-      "#Quite confident — I anticipate most hazards and respond well": "Oldukça güvende hissediyorum — çoğu tehlikeyi önceden fark edip uygun şekilde tepki veriyorum",
-      "#Very confident — I feel well prepared for all typical cycling hazards": "Çok güvende hissediyorum — bisiklet kullanırken karşılaşılabilecek tipik tehlikelere iyi hazırlandığımı düşünüyorum"
+      "#Fairly confident — I manage most situations but some still worry me": "Oldukça güveniyorum — çoğu durumla başa çıkıyorum ama bazıları hâlâ beni endişelendiriyor",
+      "#Very confident — I anticipate most hazards and respond well": "Çok güveniyorum — çoğu tehlikeyi önceden fark edip uygun şekilde tepki veriyorum",
+      "#Completely confident — I feel well prepared for the typical hazards": "Tamamen güveniyorum — tipik tehlikelere iyi hazırlandığımı düşünüyorum"
     },
     "fa": {
-      "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "در پیش‌بینی و واکنش به موقعیت‌های خطرناک هنگام دوچرخه‌سواری چقدر به توانایی خود اطمینان دارید؟ مثلاً باز شدن ناگهانی در خودرو، پیچیدن خودرو جلوی شما یا تقاطع با دید محدود.",
+      "#How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "در پیش‌بینی و واکنش به موقعیت‌های خطرناک هنگام استفاده از دوچرخه یا اسکوتر برقی چقدر به توانایی خود اطمینان دارید؟ مثلاً باز شدن ناگهانی در خودرو، پیچیدن خودرو جلوی شما یا تقاطع با دید محدود.",
+      "#A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.": "تقاطع با دید محدود تقاطعی است که در آن ساختمان‌ها، دیوارها یا خودروهای پارک‌شده ترافیکی را که از کنار می‌آید پنهان می‌کنند.",
       "#Not confident at all — I feel unprepared for these situations": "اصلاً مطمئن نیستم — برای این موقعیت‌ها آماده نیستم",
       "#Slightly confident — I am aware of the risks but often feel caught off guard": "کمی مطمئنم — خطرها را می‌شناسم اما اغلب غافلگیر می‌شوم",
-      "#Moderately confident — I manage most situations but some still worry me": "تا حد متوسط مطمئنم — بیشتر موقعیت‌ها را مدیریت می‌کنم، اما بعضی هنوز نگرانم می‌کنند",
-      "#Quite confident — I anticipate most hazards and respond well": "نسبتاً مطمئنم — بیشتر خطرها را از قبل تشخیص می‌دهم و خوب واکنش نشان می‌دهم",
-      "#Very confident — I feel well prepared for all typical cycling hazards": "خیلی مطمئنم — برای خطرهای معمول دوچرخه‌سواری آمادگی خوبی دارم"
+      "#Fairly confident — I manage most situations but some still worry me": "نسبتاً مطمئنم — بیشتر موقعیت‌ها را مدیریت می‌کنم، اما بعضی هنوز نگرانم می‌کنند",
+      "#Very confident — I anticipate most hazards and respond well": "خیلی مطمئنم — بیشتر خطرها را از قبل تشخیص می‌دهم و خوب واکنش نشان می‌دهم",
+      "#Completely confident — I feel well prepared for the typical hazards": "کاملاً مطمئنم — برای خطرهای معمول آمادگی خوبی دارم"
     },
     "hu": {
-      "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Mennyire érzi magát magabiztosnak abban, hogy előre felismeri és kezeli a veszélyes helyzeteket kerékpározás közben, például hirtelen kinyíló autóajtót, elé forduló járművet vagy beláthatatlan kereszteződést?",
+      "#How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "Mennyire bízik abban, hogy kerékpározás vagy rollerezés közben előre felismeri és kezeli a veszélyes helyzeteket, például hirtelen kinyíló autóajtót, elé forduló járművet vagy beláthatatlan kereszteződést?",
+      "#A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.": "Beláthatatlan kereszteződés az, ahol épületek, falak vagy parkoló járművek eltakarják az oldalról érkező forgalmat.",
       "#Not confident at all — I feel unprepared for these situations": "Egyáltalán nem vagyok magabiztos — nem érzem magam felkészültnek ezekre a helyzetekre",
       "#Slightly confident — I am aware of the risks but often feel caught off guard": "Kissé magabiztos vagyok — ismerem a kockázatokat, de gyakran váratlanul érnek",
-      "#Moderately confident — I manage most situations but some still worry me": "Közepesen magabiztos vagyok — a legtöbb helyzetet kezelem, de néhány még aggaszt",
-      "#Quite confident — I anticipate most hazards and respond well": "Elég magabiztos vagyok — a legtöbb veszélyt előre észreveszem és megfelelően reagálok",
-      "#Very confident — I feel well prepared for all typical cycling hazards": "Nagyon magabiztos vagyok — jól felkészültnek érzem magam a kerékpározás tipikus veszélyeire"
+      "#Fairly confident — I manage most situations but some still worry me": "Elég magabiztos vagyok — a legtöbb helyzetet kezelem, de néhány még aggaszt",
+      "#Very confident — I anticipate most hazards and respond well": "Nagyon magabiztos vagyok — a legtöbb veszélyt előre észreveszem és megfelelően reagálok",
+      "#Completely confident — I feel well prepared for the typical hazards": "Teljesen magabiztos vagyok — jól felkészültnek érzem magam a tipikus veszélyekre"
     },
     "ar": {
-      "#How confident are you in your ability to anticipate and react to dangerous situations while cycling (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "ما مدى ثقتك في قدرتك على توقع المواقف الخطرة والتعامل معها أثناء ركوب الدراجة، مثل فتح باب سيارة فجأة أو قطع مركبة لطريقك أو تقاطع محدود الرؤية؟",
+      "#How confident are you in your ability to anticipate and react to dangerous situations while riding (e.g., car doors opening suddenly, vehicles cutting across, or blind junctions)?": "ما مدى ثقتك في قدرتك على توقع المواقف الخطرة والتعامل معها أثناء ركوب الدراجة أو السكوتر الكهربائي، مثل فتح باب سيارة فجأة أو قطع مركبة لطريقك أو تقاطع محدود الرؤية؟",
+      "#A junction with poor visibility is one where buildings, walls or parked vehicles hide traffic coming from the side.": "التقاطع محدود الرؤية هو تقاطع تحجب فيه المباني أو الجدران أو المركبات المتوقفة حركة المرور القادمة من الجانب.",
       "#Not confident at all — I feel unprepared for these situations": "لست واثقًا إطلاقًا — لا أشعر أنني مستعد لهذه المواقف",
       "#Slightly confident — I am aware of the risks but often feel caught off guard": "واثق قليلًا — أعرف المخاطر لكنني أفاجأ بها كثيرًا",
-      "#Moderately confident — I manage most situations but some still worry me": "واثق بدرجة متوسطة — أتعامل مع معظم المواقف لكن بعضها ما زال يقلقني",
-      "#Quite confident — I anticipate most hazards and respond well": "واثق إلى حد كبير — أتوقع معظم المخاطر وأستجيب جيدًا",
-      "#Very confident — I feel well prepared for all typical cycling hazards": "واثق جدًا — أشعر أنني مستعد جيدًا للمخاطر المعتادة عند ركوب الدراجة"
+      "#Fairly confident — I manage most situations but some still worry me": "واثق إلى حد ما — أتعامل مع معظم المواقف لكن بعضها ما زال يقلقني",
+      "#Very confident — I anticipate most hazards and respond well": "واثق جدًا — أتوقع معظم المخاطر وأستجيب جيدًا",
+      "#Completely confident — I feel well prepared for the typical hazards": "واثق تمامًا — أشعر أنني مستعد جيدًا للمخاطر المعتادة"
     }
   }
 }

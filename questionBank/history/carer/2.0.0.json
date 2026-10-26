@@ -1,0 +1,125 @@
+{
+  "question_id": "carer",
+  "key": "carer",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "active_in_source_main": false,
+  "origin_questionnaire": "smarturbanity_about_you",
+  "source_questionnaires": [
+    "smarturbanity_about_you"
+  ],
+  "schema": {
+    "text": "Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.",
+    "answer_key": "carer",
+    "question_type": "multiple_options",
+    "help": "We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.",
+    "options": [
+      {
+        "text": "Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)",
+        "value": "escorts_minors_daily"
+      },
+      {
+        "text": "Yes, I accompany children or teenagers at least once a week",
+        "value": "escorts_minors_weekly"
+      },
+      {
+        "text": "Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)",
+        "value": "yes_lives_with_me"
+      },
+      {
+        "text": "Yes, I help an adult who does not live with me",
+        "value": "yes_lives_elsewhere"
+      },
+      {
+        "text": "No",
+        "value": "no",
+        "exclusive": true
+      }
+    ],
+    "add_prefer_not_to_say": true,
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Prefer not to say": "Prefer not to say",
+      "#No": "No",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.": "Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.",
+      "#Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)": "Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)",
+      "#Yes, I accompany children or teenagers at least once a week": "Yes, I accompany children or teenagers at least once a week",
+      "#Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)": "Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)",
+      "#Yes, I help an adult who does not live with me": "Yes, I help an adult who does not live with me",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name."
+    },
+    "it": {
+      "#Prefer not to say": "Preferisco non rispondere",
+      "#No": "No",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.": "Accompagni o assisti regolarmente qualcuno che ha bisogno del tuo aiuto negli spostamenti o nella vita quotidiana? Puoi scegliere più di una risposta.",
+      "#Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)": "Sì, accompagno bambini o ragazzi quasi ogni giorno (ad esempio a scuola, allo sport o ad altre attività)",
+      "#Yes, I accompany children or teenagers at least once a week": "Sì, accompagno bambini o ragazzi almeno una volta alla settimana",
+      "#Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)": "Sì, aiuto una persona adulta che vive con me (ad esempio un familiare anziano o una persona con disabilità)",
+      "#Yes, I help an adult who does not live with me": "Sì, aiuto una persona adulta che non vive con me",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Lo chiediamo per descrivere chi partecipa allo studio. Rispondere è facoltativo e la tua risposta non è collegata al tuo nome."
+    },
+    "fr": {
+      "#Prefer not to say": "Je préfère ne pas répondre",
+      "#No": "Non",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.": "Accompagnez-vous ou aidez-vous régulièrement une personne qui a besoin de votre aide pour se déplacer ou dans la vie quotidienne ? Vous pouvez choisir plusieurs réponses.",
+      "#Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)": "Oui, j’accompagne des enfants ou des adolescents presque tous les jours (par ex. à l’école, au sport ou à d’autres activités)",
+      "#Yes, I accompany children or teenagers at least once a week": "Oui, j’accompagne des enfants ou des adolescents au moins une fois par semaine",
+      "#Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)": "Oui, j’aide un adulte qui vit avec moi (par ex. un proche âgé ou une personne en situation de handicap)",
+      "#Yes, I help an adult who does not live with me": "Oui, j’aide un adulte qui ne vit pas avec moi",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Nous posons cette question pour décrire qui participe à l’étude. Répondre est facultatif et votre réponse n’est pas liée à votre nom."
+    },
+    "de": {
+      "#Prefer not to say": "Ich möchte nicht antworten",
+      "#No": "Nein",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.": "Begleiten oder unterstützen Sie regelmäßig jemanden, der bei Wegen oder im Alltag auf Ihre Hilfe angewiesen ist? Sie können mehrere Antworten wählen.",
+      "#Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)": "Ja, ich begleite fast täglich Kinder oder Jugendliche (z. B. zur Schule, zum Sport oder zu anderen Aktivitäten)",
+      "#Yes, I accompany children or teenagers at least once a week": "Ja, ich begleite mindestens einmal pro Woche Kinder oder Jugendliche",
+      "#Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)": "Ja, ich unterstütze einen Erwachsenen, der bei mir lebt (z. B. einen älteren Angehörigen oder einen Menschen mit Behinderung)",
+      "#Yes, I help an adult who does not live with me": "Ja, ich unterstütze einen Erwachsenen, der nicht bei mir lebt",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Wir fragen dies, um zu beschreiben, wer an der Studie teilnimmt. Die Antwort ist freiwillig und nicht mit Ihrem Namen verbunden."
+    },
+    "tr": {
+      "#Prefer not to say": "Yanıtlamak istemiyorum",
+      "#No": "Hayır",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.": "Ulaşımda veya günlük yaşamda yardımınıza ihtiyaç duyan birine düzenli olarak eşlik ediyor ya da bakıyor musunuz? Birden fazla yanıt seçebilirsiniz.",
+      "#Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)": "Evet, neredeyse her gün çocuklara veya gençlere eşlik ediyorum (örneğin okula, spora veya başka etkinliklere)",
+      "#Yes, I accompany children or teenagers at least once a week": "Evet, haftada en az bir kez çocuklara veya gençlere eşlik ediyorum",
+      "#Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)": "Evet, benimle birlikte yaşayan bir yetişkine yardım ediyorum (örneğin yaşlı bir akraba veya engelli bir kişi)",
+      "#Yes, I help an adult who does not live with me": "Evet, benimle birlikte yaşamayan bir yetişkine yardım ediyorum",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Bunu, çalışmaya kimlerin katıldığını tanımlamak için soruyoruz. Yanıt vermek isteğe bağlıdır ve yanıtınız adınızla ilişkilendirilmez."
+    },
+    "fa": {
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#No": "خیر",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.": "آیا به‌طور منظم کسی را که برای رفت‌وآمد یا کارهای روزمره به کمک شما نیاز دارد همراهی یا از او مراقبت می‌کنید؟ می‌توانید بیش از یک پاسخ انتخاب کنید.",
+      "#Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)": "بله، تقریباً هر روز کودکان یا نوجوانان را همراهی می‌کنم (مثلاً به مدرسه، ورزش یا فعالیت‌های دیگر)",
+      "#Yes, I accompany children or teenagers at least once a week": "بله، دست‌کم هفته‌ای یک بار کودکان یا نوجوانان را همراهی می‌کنم",
+      "#Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)": "بله، به بزرگسالی که با من زندگی می‌کند کمک می‌کنم (مثلاً یکی از بستگان سالمند یا فردی دارای معلولیت)",
+      "#Yes, I help an adult who does not live with me": "بله، به بزرگسالی که با من زندگی نمی‌کند کمک می‌کنم",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "این را می‌پرسیم تا توصیف کنیم چه کسانی در این مطالعه شرکت می‌کنند. پاسخ دادن اختیاری است و پاسخ شما به نام شما مرتبط نمی‌شود."
+    },
+    "hu": {
+      "#Prefer not to say": "Nem szeretnék válaszolni",
+      "#No": "Nem",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.": "Rendszeresen elkísér vagy segít valakit, akinek a közlekedésben vagy a mindennapi életben szüksége van az Ön segítségére? Több választ is megjelölhet.",
+      "#Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)": "Igen, szinte minden nap elkísérek gyermekeket vagy fiatalokat (például iskolába, sportolni vagy más tevékenységekre)",
+      "#Yes, I accompany children or teenagers at least once a week": "Igen, legalább hetente egyszer elkísérek gyermekeket vagy fiatalokat",
+      "#Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)": "Igen, segítek egy velem élő felnőttnek (például idős hozzátartozónak vagy fogyatékossággal élő személynek)",
+      "#Yes, I help an adult who does not live with me": "Igen, segítek egy felnőttnek, aki nem velem él",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Azért kérdezzük, hogy leírjuk, kik vesznek részt a vizsgálatban. A válaszadás nem kötelező, és a válasza nincs összekapcsolva a nevével."
+    },
+    "ar": {
+      "#Prefer not to say": "أفضل عدم الإجابة",
+      "#No": "لا",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.": "هل ترافق بانتظام شخصًا يحتاج إلى مساعدتك في التنقل أو في حياته اليومية أو تعتني به؟ يمكنك اختيار أكثر من إجابة.",
+      "#Yes, I accompany children or teenagers almost every day (e.g. to school, sports or other activities)": "نعم، أرافق أطفالًا أو مراهقين كل يوم تقريبًا (مثلًا إلى المدرسة أو الرياضة أو أنشطة أخرى)",
+      "#Yes, I accompany children or teenagers at least once a week": "نعم، أرافق أطفالًا أو مراهقين مرة واحدة على الأقل في الأسبوع",
+      "#Yes, I help an adult who lives with me (e.g. an older relative or a person with disabilities)": "نعم، أساعد شخصًا بالغًا يعيش معي (مثل قريب مسن أو شخص من ذوي الإعاقة)",
+      "#Yes, I help an adult who does not live with me": "نعم، أساعد شخصًا بالغًا لا يعيش معي",
+      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "نسأل عن ذلك لوصف من يشارك في الدراسة. الإجابة اختيارية وإجابتك غير مرتبطة باسمك."
+    }
+  }
+}

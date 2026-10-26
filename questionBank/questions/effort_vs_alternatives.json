@@ -2,37 +2,42 @@
   "question_id": "effort_vs_alternatives",
   "key": "effort_vs_alternatives",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_experience_on_the_move",
   "source_questionnaires": [
     "smarturbanity_experience_on_the_move"
   ],
   "schema": {
-    "text": "Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?",
+    "text": "Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?",
     "answer_key": "effort_vs_alternatives",
     "question_type": "single_option",
+    "help": "Demanding means how much physical or mental effort the trip takes.",
     "options": [
       {
-        "text": "My current mode is significantly easier and more relaxing than any alternative",
+        "text": "Much less demanding than the alternatives",
         "value": "my_current_mode_is_significantly_easier"
       },
       {
-        "text": "This is a bit easier than other ways I could travel",
+        "text": "A little less demanding than the alternatives",
         "value": "this_is_a_bit_easier_than_other_ways_i_c"
       },
       {
-        "text": "Regardless of the mode the effort feels roughly equal",
+        "text": "About as demanding as the alternatives",
         "value": "regardless_of_the_mode_the_effort_feels"
       },
       {
-        "text": "This takes a bit more out of me than other options would",
+        "text": "A little more demanding than the alternatives",
         "value": "this_takes_a_bit_more_out_of_me_than_oth"
       },
       {
-        "text": "Far more demanding than alternatives (physically or mentally)",
+        "text": "Much more demanding than the alternatives (physically or mentally)",
         "value": "far_more_demanding_than_alternatives_phy"
+      },
+      {
+        "text": "I have no realistic alternative",
+        "value": "no_realistic_alternative"
       }
     ],
     "add_i_dont_know": true,
@@ -40,76 +45,92 @@
   },
   "translations": {
     "en": {
-      "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?",
-      "#My current mode is significantly easier and more relaxing than any alternative": "My current mode is significantly easier and more relaxing than any alternative",
-      "#This is a bit easier than other ways I could travel": "This is a bit easier than other ways I could travel",
-      "#Regardless of the mode the effort feels roughly equal": "Regardless of the mode the effort feels roughly equal",
-      "#This takes a bit more out of me than other options would": "This takes a bit more out of me than other options would",
-      "#Far more demanding than alternatives (physically or mentally)": "Far more demanding than alternatives (physically or mentally)",
-      "#I don't know": "I don't know"
+      "#I don't know": "I don't know",
+      "#Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?": "Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?",
+      "#Demanding means how much physical or mental effort the trip takes.": "Demanding means how much physical or mental effort the trip takes.",
+      "#Much less demanding than the alternatives": "Much less demanding than the alternatives",
+      "#A little less demanding than the alternatives": "A little less demanding than the alternatives",
+      "#About as demanding as the alternatives": "About as demanding as the alternatives",
+      "#A little more demanding than the alternatives": "A little more demanding than the alternatives",
+      "#Much more demanding than the alternatives (physically or mentally)": "Much more demanding than the alternatives (physically or mentally)",
+      "#I have no realistic alternative": "I have no realistic alternative"
     },
     "it": {
-      "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Rispetto alle altre modalità di trasporto a tua disposizione (ad es. a piedi, in auto, con il trasporto pubblico), come valuteresti lo sforzo complessivo richiesto dalla modalità che utilizzi abitualmente?",
-      "#My current mode is significantly easier and more relaxing than any alternative": "La modalità che utilizzo attualmente è decisamente più facile e rilassante di qualsiasi alternativa",
-      "#This is a bit easier than other ways I could travel": "È un po' più facile rispetto alle altre modalità con cui potrei spostarmi",
-      "#Regardless of the mode the effort feels roughly equal": "Indipendentemente dalla modalità, lo sforzo mi sembra più o meno equivalente",
-      "#This takes a bit more out of me than other options would": "Questa modalità richiede un po' più di energie rispetto alle altre opzioni",
-      "#Far more demanding than alternatives (physically or mentally)": "Molto più impegnativa delle alternative, dal punto di vista fisico o mentale",
-      "#I don't know": "Non lo so"
+      "#I don't know": "Non lo so",
+      "#Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?": "Rispetto agli altri modi in cui potresti realisticamente fare il tuo spostamento abituale (ad es. a piedi, in auto, con i mezzi pubblici), quanto è impegnativo il modo in cui ti sposti di solito?",
+      "#Demanding means how much physical or mental effort the trip takes.": "Per impegnativo si intende quanta fatica fisica o mentale richiede lo spostamento.",
+      "#Much less demanding than the alternatives": "Molto meno impegnativo delle alternative",
+      "#A little less demanding than the alternatives": "Un po’ meno impegnativo delle alternative",
+      "#About as demanding as the alternatives": "Impegnativo più o meno quanto le alternative",
+      "#A little more demanding than the alternatives": "Un po’ più impegnativo delle alternative",
+      "#Much more demanding than the alternatives (physically or mentally)": "Molto più impegnativo delle alternative (fisicamente o mentalmente)",
+      "#I have no realistic alternative": "Non ho alternative realistiche"
     },
     "fr": {
-      "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Par rapport aux autres possibilités de déplacement dont vous disposez, par exemple la marche, la voiture ou les transports publics, comment évaluez-vous l’effort global demandé par votre mode de transport habituel ?",
-      "#My current mode is significantly easier and more relaxing than any alternative": "Mon mode actuel est nettement plus facile et plus reposant que toutes les autres possibilités",
-      "#This is a bit easier than other ways I could travel": "C’est un peu plus facile que les autres façons dont je pourrais me déplacer",
-      "#Regardless of the mode the effort feels roughly equal": "Quel que soit le mode, l’effort me semble à peu près le même",
-      "#This takes a bit more out of me than other options would": "Ce mode me demande un peu plus d’effort que les autres possibilités",
-      "#Far more demanding than alternatives (physically or mentally)": "Beaucoup plus exigeant que les autres possibilités, physiquement ou mentalement",
-      "#I don't know": "Je ne sais pas"
+      "#I don't know": "Je ne sais pas",
+      "#Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?": "Par rapport aux autres façons dont vous pourriez réalistement faire votre trajet habituel (par ex. à pied, en voiture, en transports en commun), à quel point votre façon habituelle de vous déplacer est-elle exigeante ?",
+      "#Demanding means how much physical or mental effort the trip takes.": "Exigeant désigne l’effort physique ou mental que demande le trajet.",
+      "#Much less demanding than the alternatives": "Beaucoup moins exigeante que les alternatives",
+      "#A little less demanding than the alternatives": "Un peu moins exigeante que les alternatives",
+      "#About as demanding as the alternatives": "À peu près aussi exigeante que les alternatives",
+      "#A little more demanding than the alternatives": "Un peu plus exigeante que les alternatives",
+      "#Much more demanding than the alternatives (physically or mentally)": "Beaucoup plus exigeante que les alternatives (physiquement ou mentalement)",
+      "#I have no realistic alternative": "Je n’ai pas d’alternative réaliste"
     },
     "de": {
-      "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Verglichen mit anderen Möglichkeiten, die Ihnen zur Verfügung stehen, zum Beispiel Gehen, Autofahren oder öffentlicher Verkehr: Wie hoch ist der gesamte Aufwand bei Ihrem üblichen Verkehrsmittel?",
-      "#My current mode is significantly easier and more relaxing than any alternative": "Mein derzeitiges Verkehrsmittel ist deutlich einfacher und entspannter als alle Alternativen",
-      "#This is a bit easier than other ways I could travel": "Es ist etwas einfacher als andere Möglichkeiten, die ich nutzen könnte",
-      "#Regardless of the mode the effort feels roughly equal": "Unabhängig vom Verkehrsmittel fühlt sich der Aufwand ungefähr gleich an",
-      "#This takes a bit more out of me than other options would": "Dieses Verkehrsmittel kostet mich etwas mehr Kraft als andere Möglichkeiten",
-      "#Far more demanding than alternatives (physically or mentally)": "Deutlich anstrengender als die Alternativen, körperlich oder mental",
-      "#I don't know": "Ich weiß es nicht"
+      "#I don't know": "Ich weiß es nicht",
+      "#Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?": "Wie anstrengend ist die Art, wie Sie normalerweise unterwegs sind, im Vergleich zu den anderen realistischen Möglichkeiten für Ihren üblichen Weg (z. B. zu Fuß, mit dem Auto, mit öffentlichen Verkehrsmitteln)?",
+      "#Demanding means how much physical or mental effort the trip takes.": "Anstrengend meint, wie viel körperliche oder geistige Mühe der Weg kostet.",
+      "#Much less demanding than the alternatives": "Viel weniger anstrengend als die Alternativen",
+      "#A little less demanding than the alternatives": "Etwas weniger anstrengend als die Alternativen",
+      "#About as demanding as the alternatives": "Etwa so anstrengend wie die Alternativen",
+      "#A little more demanding than the alternatives": "Etwas anstrengender als die Alternativen",
+      "#Much more demanding than the alternatives (physically or mentally)": "Viel anstrengender als die Alternativen (körperlich oder geistig)",
+      "#I have no realistic alternative": "Ich habe keine realistische Alternative"
     },
     "tr": {
-      "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Yürüme, otomobil veya toplu taşıma gibi kullanabileceğiniz diğer seçeneklerle karşılaştırıldığında, genellikle kullandığınız ulaşım seçeneğinin gerektirdiği toplam çabayı nasıl değerlendirirsiniz?",
-      "#My current mode is significantly easier and more relaxing than any alternative": "Şu an kullandığım seçenek diğer tüm alternatiflerden belirgin şekilde daha kolay ve rahat",
-      "#This is a bit easier than other ways I could travel": "Kullanabileceğim diğer seçeneklerden biraz daha kolay",
-      "#Regardless of the mode the effort feels roughly equal": "Hangi ulaşım seçeneğini kullansam da gereken çaba yaklaşık aynı",
-      "#This takes a bit more out of me than other options would": "Bu seçenek diğerlerine göre biraz daha fazla enerji harcamamı gerektiriyor",
-      "#Far more demanding than alternatives (physically or mentally)": "Alternatiflere göre fiziksel veya zihinsel olarak çok daha yorucu",
-      "#I don't know": "Bilmiyorum"
+      "#I don't know": "Bilmiyorum",
+      "#Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?": "Olağan yolculuğunuzu yapabileceğiniz diğer gerçekçi seçeneklerle (örneğin yürüyerek, otomobille, toplu taşımayla) karşılaştırıldığında, genellikle kullandığınız yol ne kadar yorucu?",
+      "#Demanding means how much physical or mental effort the trip takes.": "Yorucu, yolculuğun ne kadar fiziksel veya zihinsel çaba gerektirdiği anlamına gelir.",
+      "#Much less demanding than the alternatives": "Alternatiflerden çok daha az yorucu",
+      "#A little less demanding than the alternatives": "Alternatiflerden biraz daha az yorucu",
+      "#About as demanding as the alternatives": "Alternatifler kadar yorucu",
+      "#A little more demanding than the alternatives": "Alternatiflerden biraz daha yorucu",
+      "#Much more demanding than the alternatives (physically or mentally)": "Alternatiflerden çok daha yorucu (fiziksel veya zihinsel olarak)",
+      "#I have no realistic alternative": "Gerçekçi bir alternatifim yok"
     },
     "fa": {
-      "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "در مقایسه با گزینه‌های دیگر مانند پیاده‌روی، رانندگی یا حمل‌ونقل عمومی، میزان تلاش کلی موردنیاز برای روش معمول رفت‌وآمد خود را چگونه ارزیابی می‌کنید؟",
-      "#My current mode is significantly easier and more relaxing than any alternative": "روش فعلی من به‌طور محسوسی آسان‌تر و آرام‌تر از همه گزینه‌های دیگر است",
-      "#This is a bit easier than other ways I could travel": "کمی آسان‌تر از روش‌های دیگری است که می‌توانم استفاده کنم",
-      "#Regardless of the mode the effort feels roughly equal": "صرف‌نظر از روش، میزان تلاش تقریباً یکسان است",
-      "#This takes a bit more out of me than other options would": "این روش کمی بیشتر از گزینه‌های دیگر از من انرژی می‌گیرد",
-      "#Far more demanding than alternatives (physically or mentally)": "از نظر جسمی یا ذهنی بسیار سخت‌تر از گزینه‌های دیگر است",
-      "#I don't know": "نمی‌دانم"
+      "#I don't know": "نمی‌دانم",
+      "#Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?": "در مقایسه با راه‌های دیگری که به‌طور واقع‌بینانه می‌توانید سفر معمول خود را انجام دهید (مثلاً پیاده، با خودرو، با حمل‌ونقل عمومی)، روشی که معمولاً استفاده می‌کنید چقدر طاقت‌فرساست؟",
+      "#Demanding means how much physical or mental effort the trip takes.": "منظور از دشوار بودن، میزان تلاش جسمی یا ذهنی است که سفر می‌طلبد.",
+      "#Much less demanding than the alternatives": "خیلی کمتر از گزینه‌های دیگر طاقت‌فرساست",
+      "#A little less demanding than the alternatives": "کمی کمتر از گزینه‌های دیگر طاقت‌فرساست",
+      "#About as demanding as the alternatives": "تقریباً به اندازه گزینه‌های دیگر طاقت‌فرساست",
+      "#A little more demanding than the alternatives": "کمی بیشتر از گزینه‌های دیگر طاقت‌فرساست",
+      "#Much more demanding than the alternatives (physically or mentally)": "خیلی بیشتر از گزینه‌های دیگر طاقت‌فرساست (از نظر جسمی یا ذهنی)",
+      "#I have no realistic alternative": "گزینه واقع‌بینانه دیگری ندارم"
     },
     "hu": {
-      "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "Az Ön számára elérhető más lehetőségekhez, például gyalogláshoz, autózáshoz vagy tömegközlekedéshez képest hogyan értékeli a szokásos közlekedési módjához szükséges teljes erőfeszítést?",
-      "#My current mode is significantly easier and more relaxing than any alternative": "A jelenlegi közlekedési módom lényegesen könnyebb és nyugodtabb minden más lehetőségnél",
-      "#This is a bit easier than other ways I could travel": "Ez egy kicsit könnyebb, mint más módok, amelyeket használhatnék",
-      "#Regardless of the mode the effort feels roughly equal": "A közlekedési módtól függetlenül nagyjából ugyanakkora erőfeszítésnek érzem",
-      "#This takes a bit more out of me than other options would": "Ez valamivel több energiát vesz ki belőlem, mint a többi lehetőség",
-      "#Far more demanding than alternatives (physically or mentally)": "Sokkal megterhelőbb a többi lehetőségnél, fizikailag vagy lelkileg",
-      "#I don't know": "Nem tudom"
+      "#I don't know": "Nem tudom",
+      "#Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?": "Ha összehasonlítja a szokásos útja megtételének más reális lehetőségeivel (például gyalog, autóval, tömegközlekedéssel), mennyire megterhelő az a mód, ahogyan általában közlekedik?",
+      "#Demanding means how much physical or mental effort the trip takes.": "A megterhelő azt jelenti, mennyi fizikai vagy szellemi erőfeszítést kíván az út.",
+      "#Much less demanding than the alternatives": "Sokkal kevésbé megterhelő, mint a többi lehetőség",
+      "#A little less demanding than the alternatives": "Valamivel kevésbé megterhelő, mint a többi lehetőség",
+      "#About as demanding as the alternatives": "Nagyjából ugyanolyan megterhelő, mint a többi lehetőség",
+      "#A little more demanding than the alternatives": "Valamivel megterhelőbb, mint a többi lehetőség",
+      "#Much more demanding than the alternatives (physically or mentally)": "Sokkal megterhelőbb, mint a többi lehetőség (fizikailag vagy szellemileg)",
+      "#I have no realistic alternative": "Nincs reális alternatívám"
     },
     "ar": {
-      "#Compared to other travel options available to you (e.g., walking, driving, public transport), how would you rate the overall effort required by your usual mode of travel?": "مقارنةً بوسائل التنقل الأخرى المتاحة لك، مثل المشي أو القيادة أو النقل العام، كيف تقيّم إجمالي الجهد المطلوب لاستخدام وسيلة التنقل المعتادة لديك؟",
-      "#My current mode is significantly easier and more relaxing than any alternative": "وسيلتي الحالية أسهل وأكثر راحة بوضوح من أي بديل",
-      "#This is a bit easier than other ways I could travel": "هي أسهل قليلًا من الطرق الأخرى التي يمكنني استخدامها",
-      "#Regardless of the mode the effort feels roughly equal": "بغض النظر عن الوسيلة، أشعر أن الجهد متقارب تقريبًا",
-      "#This takes a bit more out of me than other options would": "هذه الوسيلة تتطلب مني طاقة أكبر قليلًا من الخيارات الأخرى",
-      "#Far more demanding than alternatives (physically or mentally)": "أكثر إرهاقًا بكثير من البدائل، جسديًا أو نفسيًا",
-      "#I don't know": "لا أعرف"
+      "#I don't know": "لا أعرف",
+      "#Compared to the other ways you could realistically make your usual trip (e.g. walking, driving, public transport), how demanding is the way you usually travel?": "مقارنةً بالطرق الأخرى التي يمكنك بها واقعيًا القيام بتنقّلك المعتاد (مثل المشي أو القيادة أو النقل العام)، ما مدى إرهاق الطريقة التي تتنقل بها عادةً؟",
+      "#Demanding means how much physical or mental effort the trip takes.": "يُقصد بالمُرهِق مقدار الجهد البدني أو الذهني الذي تتطلبه الرحلة.",
+      "#Much less demanding than the alternatives": "أقل إرهاقًا بكثير من البدائل",
+      "#A little less demanding than the alternatives": "أقل إرهاقًا قليلًا من البدائل",
+      "#About as demanding as the alternatives": "مرهقة تقريبًا بقدر البدائل",
+      "#A little more demanding than the alternatives": "أكثر إرهاقًا قليلًا من البدائل",
+      "#Much more demanding than the alternatives (physically or mentally)": "أكثر إرهاقًا بكثير من البدائل (جسديًا أو ذهنيًا)",
+      "#I have no realistic alternative": "ليس لدي بديل واقعي"
     }
   }
 }

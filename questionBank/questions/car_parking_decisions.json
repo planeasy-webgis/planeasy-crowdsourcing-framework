@@ -2,9 +2,9 @@
   "question_id": "car_parking_decisions",
   "key": "car_parking_decisions",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
     "smarturbanity_car"
@@ -12,12 +12,8 @@
   "schema": {
     "text": "How do parking difficulties typically affect your travel decisions?",
     "answer_key": "car_parking_decisions",
-    "question_type": "single_option",
+    "question_type": "multiple_options",
     "options": [
-      {
-        "text": "They do not affect my travel decisions",
-        "value": "they_do_not_affect_my_travel_decisions"
-      },
       {
         "text": "They make my journey less convenient or more stressful",
         "value": "they_make_my_journey_less_convenient_or"
@@ -33,8 +29,14 @@
       {
         "text": "They make me choose another mode of transport instead of driving",
         "value": "they_make_me_choose_another_mode_of_tran"
+      },
+      {
+        "text": "They do not affect my travel decisions",
+        "value": "they_do_not_affect_my_travel_decisions",
+        "exclusive": true
       }
     ],
+    "max_answers": 3,
     "privacy_classification": "personal_data"
   },
   "translations": {
@@ -47,9 +49,9 @@
       "#They make me choose another mode of transport instead of driving": "They make me choose another mode of transport instead of driving"
     },
     "it": {
-      "#How do parking difficulties typically affect your travel decisions?": "In che modo le difficoltà di parcheggio influenzano normalmente le tue decisioni di viaggio?",
-      "#They do not affect my travel decisions": "Non influenzano le mie decisioni di viaggio",
-      "#They make my journey less convenient or more stressful": "Rendono il mio viaggio meno comodo o più stressante",
+      "#How do parking difficulties typically affect your travel decisions?": "In che modo le difficoltà di parcheggio influenzano normalmente le tue decisioni di spostamento?",
+      "#They do not affect my travel decisions": "Non influenzano le mie decisioni di spostamento",
+      "#They make my journey less convenient or more stressful": "Rendono il mio spostamento meno comodo o più stressante",
       "#They make me change my route or destination": "Mi portano a cambiare percorso o destinazione",
       "#They make me postpone, avoid, or cancel some trips": "Mi portano a rimandare, evitare o annullare alcuni spostamenti",
       "#They make me choose another mode of transport instead of driving": "Mi portano a scegliere un'altra modalità di trasporto invece dell'auto"

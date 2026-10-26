@@ -2,9 +2,9 @@
   "question_id": "choice_factors",
   "key": "choice_factors",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_daily_travel",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
@@ -24,7 +24,7 @@
         "value": "physical_comfort_and_effort"
       },
       {
-        "text": "Mental Well-being",
+        "text": "Mental well-being (how calm or stressed I feel)",
         "value": "mental_well_being"
       },
       {
@@ -32,7 +32,7 @@
         "value": "environmental_impact"
       },
       {
-        "text": "Reliability and Predictability",
+        "text": "Reliability (the trip takes the time I expect)",
         "value": "reliability_and_predictability"
       },
       {
@@ -44,12 +44,20 @@
         "value": "personal_safety_and_security"
       },
       {
-        "text": "Time Efficiency",
+        "text": "Barrier-free access (no stairs, accessible vehicles)",
+        "value": "barrier_free_access"
+      },
+      {
+        "text": "Travel time",
         "value": "time_efficiency"
       },
       {
         "text": "Flexibility and independence",
         "value": "flexibility_and_independence"
+      },
+      {
+        "text": "Being able to bring children, a pushchair or shopping",
+        "value": "bring_children_or_shopping"
       }
     ],
     "add_other": true,
@@ -58,107 +66,123 @@
   "translations": {
     "en": {
       "#Other": "Other",
+      "#Reliability (the trip takes the time I expect)": "Reliability (the trip takes the time I expect)",
       "#When choosing how to travel, which factors matter most to you?": "When choosing how to travel, which factors matter most to you?",
       "#Financial Cost": "Financial Cost",
       "#Physical Comfort and effort": "Physical Comfort and effort",
-      "#Mental Well-being": "Mental Well-being",
+      "#Mental well-being (how calm or stressed I feel)": "Mental well-being (how calm or stressed I feel)",
       "#Environmental Impact": "Environmental Impact",
-      "#Reliability and Predictability": "Reliability and Predictability",
       "#Social status": "Social status",
       "#Personal safety and security": "Personal safety and security",
-      "#Time Efficiency": "Time Efficiency",
-      "#Flexibility and independence": "Flexibility and independence"
+      "#Flexibility and independence": "Flexibility and independence",
+      "#Barrier-free access (no stairs, accessible vehicles)": "Barrier-free access (no stairs, accessible vehicles)",
+      "#Travel time": "Travel time",
+      "#Being able to bring children, a pushchair or shopping": "Being able to bring children, a pushchair or shopping"
     },
     "it": {
       "#Other": "Altro",
+      "#Reliability (the trip takes the time I expect)": "Affidabilità (lo spostamento dura quanto previsto)",
       "#When choosing how to travel, which factors matter most to you?": "Quando scegli come spostarti, quali fattori sono più importanti per te?",
       "#Financial Cost": "Costo economico",
       "#Physical Comfort and effort": "Comfort e sforzo fisico",
-      "#Mental Well-being": "Benessere mentale",
+      "#Mental well-being (how calm or stressed I feel)": "Benessere mentale (quanto mi sento tranquillo/a o stressato/a)",
       "#Environmental Impact": "Impatto ambientale",
-      "#Reliability and Predictability": "Affidabilità e prevedibilità",
       "#Social status": "Status sociale",
       "#Personal safety and security": "Sicurezza personale",
-      "#Time Efficiency": "Efficienza in termini di tempo",
-      "#Flexibility and independence": "Flessibilità e indipendenza"
+      "#Flexibility and independence": "Flessibilità e indipendenza",
+      "#Barrier-free access (no stairs, accessible vehicles)": "Accessibilità senza barriere (niente scale, mezzi accessibili)",
+      "#Travel time": "Tempo di spostamento",
+      "#Being able to bring children, a pushchair or shopping": "Poter portare con sé bambini, passeggino o spesa"
     },
     "fr": {
       "#Other": "Autre",
+      "#Reliability (the trip takes the time I expect)": "Fiabilité (le trajet dure le temps prévu)",
       "#When choosing how to travel, which factors matter most to you?": "Quand vous choisissez comment vous déplacer, quels facteurs sont les plus importants pour vous ?",
       "#Financial Cost": "Coût",
       "#Physical Comfort and effort": "Confort physique et effort",
-      "#Mental Well-being": "Bien-être mental",
+      "#Mental well-being (how calm or stressed I feel)": "Bien-être mental (à quel point je me sens calme ou stressé(e))",
       "#Environmental Impact": "Impact sur l’environnement",
-      "#Reliability and Predictability": "Fiabilité et prévisibilité",
       "#Social status": "Statut social",
       "#Personal safety and security": "Sécurité personnelle et routière",
-      "#Time Efficiency": "Gain de temps",
-      "#Flexibility and independence": "Flexibilité et autonomie"
+      "#Flexibility and independence": "Flexibilité et autonomie",
+      "#Barrier-free access (no stairs, accessible vehicles)": "Accès sans obstacles (pas d’escaliers, véhicules accessibles)",
+      "#Travel time": "Temps de trajet",
+      "#Being able to bring children, a pushchair or shopping": "Pouvoir emmener des enfants, une poussette ou des courses"
     },
     "de": {
       "#Other": "Anderes",
+      "#Reliability (the trip takes the time I expect)": "Zuverlässigkeit (der Weg dauert so lange wie erwartet)",
       "#When choosing how to travel, which factors matter most to you?": "Welche Faktoren sind Ihnen am wichtigsten, wenn Sie entscheiden, wie Sie sich fortbewegen?",
       "#Financial Cost": "Kosten",
       "#Physical Comfort and effort": "Körperlicher Komfort und Anstrengung",
-      "#Mental Well-being": "Psychisches Wohlbefinden",
+      "#Mental well-being (how calm or stressed I feel)": "Psychisches Wohlbefinden (wie ruhig oder gestresst ich mich fühle)",
       "#Environmental Impact": "Umweltauswirkungen",
-      "#Reliability and Predictability": "Zuverlässigkeit und Planbarkeit",
       "#Social status": "Sozialer Status",
       "#Personal safety and security": "Persönliche Sicherheit und Verkehrssicherheit",
-      "#Time Efficiency": "Zeitersparnis",
-      "#Flexibility and independence": "Flexibilität und Unabhängigkeit"
+      "#Flexibility and independence": "Flexibilität und Unabhängigkeit",
+      "#Barrier-free access (no stairs, accessible vehicles)": "Barrierefreier Zugang (keine Treppen, barrierefreie Fahrzeuge)",
+      "#Travel time": "Zeitaufwand für den Weg",
+      "#Being able to bring children, a pushchair or shopping": "Kinder, Kinderwagen oder Einkäufe mitnehmen können"
     },
     "tr": {
       "#Other": "Diğer",
+      "#Reliability (the trip takes the time I expect)": "Güvenilirlik (yolculuk beklediğim kadar sürüyor)",
       "#When choosing how to travel, which factors matter most to you?": "Nasıl seyahat edeceğinize karar verirken hangi faktörler sizin için en önemlidir?",
       "#Financial Cost": "Maliyet",
       "#Physical Comfort and effort": "Fiziksel konfor ve çaba",
-      "#Mental Well-being": "Ruhsal iyi oluş",
+      "#Mental well-being (how calm or stressed I feel)": "Ruhsal iyi oluş (kendimi ne kadar sakin ya da stresli hissettiğim)",
       "#Environmental Impact": "Çevresel etki",
-      "#Reliability and Predictability": "Güvenilirlik ve öngörülebilirlik",
       "#Social status": "Sosyal statü",
       "#Personal safety and security": "Kişisel güvenlik ve trafik güvenliği",
-      "#Time Efficiency": "Zaman tasarrufu",
-      "#Flexibility and independence": "Esneklik ve bağımsızlık"
+      "#Flexibility and independence": "Esneklik ve bağımsızlık",
+      "#Barrier-free access (no stairs, accessible vehicles)": "Engelsiz erişim (merdiven yok, erişilebilir araçlar)",
+      "#Travel time": "Yolculuk süresi",
+      "#Being able to bring children, a pushchair or shopping": "Çocukları, bebek arabasını veya alışverişi yanımda götürebilmek"
     },
     "fa": {
       "#Other": "سایر",
+      "#Reliability (the trip takes the time I expect)": "قابل اعتماد بودن (سفر همان‌قدر طول می‌کشد که انتظار دارم)",
       "#When choosing how to travel, which factors matter most to you?": "هنگام انتخاب روش سفر، کدام عامل‌ها برای شما مهم‌ترند؟",
       "#Financial Cost": "هزینه",
       "#Physical Comfort and effort": "راحتی جسمی و میزان تلاش",
-      "#Mental Well-being": "سلامت و آرامش روانی",
+      "#Mental well-being (how calm or stressed I feel)": "آرامش روانی (چقدر احساس آرامش یا استرس می‌کنم)",
       "#Environmental Impact": "اثر بر محیط‌زیست",
-      "#Reliability and Predictability": "قابل اعتماد بودن و قابل پیش‌بینی بودن",
       "#Social status": "جایگاه اجتماعی",
       "#Personal safety and security": "امنیت شخصی و ایمنی ترافیکی",
-      "#Time Efficiency": "صرفه‌جویی در زمان",
-      "#Flexibility and independence": "انعطاف‌پذیری و استقلال"
+      "#Flexibility and independence": "انعطاف‌پذیری و استقلال",
+      "#Barrier-free access (no stairs, accessible vehicles)": "دسترسی بدون مانع (بدون پله، وسایل نقلیه دسترس‌پذیر)",
+      "#Travel time": "مدت زمان سفر",
+      "#Being able to bring children, a pushchair or shopping": "امکان همراه بردن کودکان، کالسکه یا خرید"
     },
     "hu": {
       "#Other": "Egyéb",
+      "#Reliability (the trip takes the time I expect)": "Megbízhatóság (az út annyi ideig tart, amennyire számítok)",
       "#When choosing how to travel, which factors matter most to you?": "Amikor eldönti, hogyan közlekedjen, mely tényezők a legfontosabbak Önnek?",
       "#Financial Cost": "Költség",
       "#Physical Comfort and effort": "Fizikai kényelem és erőfeszítés",
-      "#Mental Well-being": "Lelki jóllét",
+      "#Mental well-being (how calm or stressed I feel)": "Lelki jóllét (mennyire érzem magam nyugodtnak vagy feszültnek)",
       "#Environmental Impact": "Környezeti hatás",
-      "#Reliability and Predictability": "Megbízhatóság és kiszámíthatóság",
       "#Social status": "Társadalmi státusz",
       "#Personal safety and security": "Személyes biztonság és közlekedésbiztonság",
-      "#Time Efficiency": "Időmegtakarítás",
-      "#Flexibility and independence": "Rugalmasság és önállóság"
+      "#Flexibility and independence": "Rugalmasság és önállóság",
+      "#Barrier-free access (no stairs, accessible vehicles)": "Akadálymentes hozzáférés (nincs lépcső, akadálymentes járművek)",
+      "#Travel time": "Utazási idő",
+      "#Being able to bring children, a pushchair or shopping": "Hogy gyermeket, babakocsit vagy bevásárlást is magammal vihessek"
     },
     "ar": {
       "#Other": "أخرى",
+      "#Reliability (the trip takes the time I expect)": "الموثوقية (يستغرق التنقل الوقت الذي أتوقعه)",
       "#When choosing how to travel, which factors matter most to you?": "عند اختيار طريقة التنقل، ما العوامل الأكثر أهمية بالنسبة لك؟",
       "#Financial Cost": "التكلفة",
       "#Physical Comfort and effort": "الراحة البدنية والجهد",
-      "#Mental Well-being": "الراحة النفسية",
+      "#Mental well-being (how calm or stressed I feel)": "الراحة النفسية (مدى شعوري بالهدوء أو التوتر)",
       "#Environmental Impact": "الأثر البيئي",
-      "#Reliability and Predictability": "الموثوقية وإمكانية التوقع",
       "#Social status": "المكانة الاجتماعية",
       "#Personal safety and security": "الأمان الشخصي والسلامة المرورية",
-      "#Time Efficiency": "توفير الوقت",
-      "#Flexibility and independence": "المرونة والاستقلالية"
+      "#Flexibility and independence": "المرونة والاستقلالية",
+      "#Barrier-free access (no stairs, accessible vehicles)": "وصول خالٍ من العوائق (بلا درج، مركبات مهيأة)",
+      "#Travel time": "مدة التنقل",
+      "#Being able to bring children, a pushchair or shopping": "إمكانية اصطحاب الأطفال أو عربة الأطفال أو المشتريات"
     }
   }
 }

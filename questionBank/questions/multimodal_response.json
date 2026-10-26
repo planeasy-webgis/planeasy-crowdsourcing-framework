@@ -2,9 +2,9 @@
   "question_id": "multimodal_response",
   "key": "multimodal_response",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_daily_travel",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
@@ -12,7 +12,8 @@
   "schema": {
     "text": "When you face these difficulties, how do you mostly respond?",
     "answer_key": "multimodal_response",
-    "question_type": "single_option",
+    "question_type": "multiple_options",
+    "max_answers": 2,
     "options": [
       {
         "text": "I stop using one of the modes (e.g. stop bringing my bike)",
@@ -49,10 +50,6 @@
       {
         "text": "I avoid that trip entirely if possible",
         "value": "i_avoid_that_trip_entirely_if_possible"
-      },
-      {
-        "text": "I do not experience significant difficulties",
-        "value": "i_do_not_experience_significant_difficul"
       }
     ],
     "add_other": true,
@@ -60,7 +57,6 @@
   },
   "translations": {
     "en": {
-      "#I do not experience significant difficulties": "I do not experience significant difficulties",
       "#Other": "Other",
       "#When you face these difficulties, how do you mostly respond?": "When you face these difficulties, how do you mostly respond?",
       "#I stop using one of the modes (e.g. stop bringing my bike)": "I stop using one of the modes (e.g. stop bringing my bike)",
@@ -74,7 +70,6 @@
       "#I avoid that trip entirely if possible": "I avoid that trip entirely if possible"
     },
     "it": {
-      "#I do not experience significant difficulties": "Non incontro difficoltà significative",
       "#Other": "Altro",
       "#When you face these difficulties, how do you mostly respond?": "Quando incontri queste difficoltà, come reagisci principalmente?",
       "#I stop using one of the modes (e.g. stop bringing my bike)": "Smetto di utilizzare uno dei mezzi (ad es. non porto più la mia bicicletta)",
@@ -88,7 +83,6 @@
       "#I avoid that trip entirely if possible": "Evito completamente quello spostamento, se possibile"
     },
     "fr": {
-      "#I do not experience significant difficulties": "Je ne rencontre pas de difficulté importante",
       "#Other": "Autre",
       "#When you face these difficulties, how do you mostly respond?": "Quand vous rencontrez ces difficultés, que faites-vous le plus souvent ?",
       "#I stop using one of the modes (e.g. stop bringing my bike)": "J’arrête d’utiliser l’un des modes (par ex. je ne prends plus mon vélo)",
@@ -102,7 +96,6 @@
       "#I avoid that trip entirely if possible": "J’évite complètement ce trajet si c’est possible"
     },
     "de": {
-      "#I do not experience significant difficulties": "Ich habe keine größeren Schwierigkeiten",
       "#Other": "Anderes",
       "#When you face these difficulties, how do you mostly respond?": "Wie reagieren Sie normalerweise, wenn diese Schwierigkeiten auftreten?",
       "#I stop using one of the modes (e.g. stop bringing my bike)": "Ich nutze eines der Verkehrsmittel nicht mehr (z. B. nehme ich mein Fahrrad nicht mehr mit)",
@@ -116,7 +109,6 @@
       "#I avoid that trip entirely if possible": "Ich vermeide diesen Weg ganz, wenn es möglich ist"
     },
     "tr": {
-      "#I do not experience significant difficulties": "Önemli bir güçlük yaşamıyorum",
       "#Other": "Diğer",
       "#When you face these difficulties, how do you mostly respond?": "Bu güçlüklerle karşılaştığınızda genellikle ne yaparsınız?",
       "#I stop using one of the modes (e.g. stop bringing my bike)": "Ulaşım seçeneklerinden birini kullanmayı bırakırım (ör. bisikletimi yanımda götürmem)",
@@ -130,7 +122,6 @@
       "#I avoid that trip entirely if possible": "Mümkünse o yolculuğu tamamen yapmam"
     },
     "fa": {
-      "#I do not experience significant difficulties": "مشکل قابل توجهی ندارم",
       "#Other": "سایر",
       "#When you face these difficulties, how do you mostly respond?": "وقتی با این مشکلات روبه‌رو می‌شوید معمولاً چه کار می‌کنید؟",
       "#I stop using one of the modes (e.g. stop bringing my bike)": "استفاده از یکی از روش‌ها را کنار می‌گذارم (مثلاً دیگر دوچرخه‌ام را نمی‌برم)",
@@ -144,7 +135,6 @@
       "#I avoid that trip entirely if possible": "اگر ممکن باشد آن سفر را انجام نمی‌دهم"
     },
     "hu": {
-      "#I do not experience significant difficulties": "Nem tapasztalok jelentős nehézséget",
       "#Other": "Egyéb",
       "#When you face these difficulties, how do you mostly respond?": "Mit tesz általában, amikor ilyen nehézségekkel találkozik?",
       "#I stop using one of the modes (e.g. stop bringing my bike)": "Abbahagyom az egyik közlekedési mód használatát (pl. nem viszem magammal a kerékpárt)",
@@ -158,7 +148,6 @@
       "#I avoid that trip entirely if possible": "Ha lehet, teljesen elkerülöm azt az utat"
     },
     "ar": {
-      "#I do not experience significant difficulties": "لا أواجه صعوبات كبيرة",
       "#Other": "أخرى",
       "#When you face these difficulties, how do you mostly respond?": "عندما تواجه هذه الصعوبات، ماذا تفعل عادةً؟",
       "#I stop using one of the modes (e.g. stop bringing my bike)": "أتوقف عن استخدام إحدى الوسائل (مثل عدم أخذ الدراجة معي)",

@@ -2,9 +2,9 @@
   "question_id": "travel_times",
   "key": "travel_times",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_daily_travel",
   "source_questionnaires": [
     "smarturbanity_daily_travel"
@@ -23,20 +23,24 @@
         "value": "7_10"
       },
       {
-        "text": "10:00-14:00 (midday)",
-        "value": "10_14"
+        "text": "10:00-16:00 (daytime)",
+        "value": "10_16"
       },
       {
-        "text": "14:00-18:00 (afternoon rush)",
-        "value": "14_18"
+        "text": "16:00-20:00 (afternoon and evening rush)",
+        "value": "16_20"
       },
       {
-        "text": "18:00-20:00 (evening return)",
-        "value": "18_20"
+        "text": "20:00-22:00 (evening)",
+        "value": "20_22"
       },
       {
-        "text": "After 20:00 (evening/night)",
-        "value": "after_20"
+        "text": "After 22:00 (night)",
+        "value": "after_22"
+      },
+      {
+        "text": "Variable hours or shifts",
+        "value": "variable"
       }
     ],
     "privacy_classification": "heightened_personal"
@@ -46,73 +50,81 @@
       "#At what times of day do you most often travel? (Select all that apply)": "At what times of day do you most often travel? (Select all that apply)",
       "#Before 7:00": "Before 7:00",
       "#7:00-10:00 (morning rush)": "7:00-10:00 (morning rush)",
-      "#10:00-14:00 (midday)": "10:00-14:00 (midday)",
-      "#14:00-18:00 (afternoon rush)": "14:00-18:00 (afternoon rush)",
-      "#18:00-20:00 (evening return)": "18:00-20:00 (evening return)",
-      "#After 20:00 (evening/night)": "After 20:00 (evening/night)"
+      "#10:00-16:00 (daytime)": "10:00-16:00 (daytime)",
+      "#16:00-20:00 (afternoon and evening rush)": "16:00-20:00 (afternoon and evening rush)",
+      "#20:00-22:00 (evening)": "20:00-22:00 (evening)",
+      "#After 22:00 (night)": "After 22:00 (night)",
+      "#Variable hours or shifts": "Variable hours or shifts"
     },
     "it": {
       "#At what times of day do you most often travel? (Select all that apply)": "In quali momenti della giornata ti sposti più frequentemente? (Seleziona tutte le opzioni applicabili)",
       "#Before 7:00": "Prima delle 7:00",
       "#7:00-10:00 (morning rush)": "7:00-10:00 (ora di punta mattutina)",
-      "#10:00-14:00 (midday)": "10:00-14:00 (metà giornata)",
-      "#14:00-18:00 (afternoon rush)": "14:00-18:00 (ora di punta pomeridiana)",
-      "#18:00-20:00 (evening return)": "18:00-20:00 (rientro serale)",
-      "#After 20:00 (evening/night)": "Dopo le 20:00 (sera/notte)"
+      "#10:00-16:00 (daytime)": "10:00-16:00 (in giornata)",
+      "#16:00-20:00 (afternoon and evening rush)": "16:00-20:00 (ora di punta del pomeriggio e della sera)",
+      "#20:00-22:00 (evening)": "20:00-22:00 (sera)",
+      "#After 22:00 (night)": "Dopo le 22:00 (notte)",
+      "#Variable hours or shifts": "Orari variabili o a turni"
     },
     "fr": {
       "#At what times of day do you most often travel? (Select all that apply)": "À quels moments de la journée vous déplacez-vous le plus souvent ? (Sélectionnez toutes les réponses qui s’appliquent)",
       "#Before 7:00": "Avant 7 h",
       "#7:00-10:00 (morning rush)": "7 h-10 h (heure de pointe du matin)",
-      "#10:00-14:00 (midday)": "10 h-14 h (milieu de journée)",
-      "#14:00-18:00 (afternoon rush)": "14 h-18 h (après-midi)",
-      "#18:00-20:00 (evening return)": "18 h-20 h (retour du soir)",
-      "#After 20:00 (evening/night)": "Après 20 h (soir / nuit)"
+      "#10:00-16:00 (daytime)": "10 h-16 h (journée)",
+      "#16:00-20:00 (afternoon and evening rush)": "16 h-20 h (heure de pointe de l’après-midi et du soir)",
+      "#20:00-22:00 (evening)": "20 h-22 h (soirée)",
+      "#After 22:00 (night)": "Après 22 h (nuit)",
+      "#Variable hours or shifts": "Horaires variables ou postés"
     },
     "de": {
       "#At what times of day do you most often travel? (Select all that apply)": "Zu welchen Tageszeiten sind Sie am häufigsten unterwegs? (Wählen Sie alles Zutreffende aus)",
       "#Before 7:00": "Vor 7:00 Uhr",
       "#7:00-10:00 (morning rush)": "7:00-10:00 Uhr (morgendliche Stoßzeit)",
-      "#10:00-14:00 (midday)": "10:00-14:00 Uhr (Mittagszeit)",
-      "#14:00-18:00 (afternoon rush)": "14:00-18:00 Uhr (Nachmittag)",
-      "#18:00-20:00 (evening return)": "18:00-20:00 Uhr (Abendlicher Rückweg)",
-      "#After 20:00 (evening/night)": "Nach 20:00 Uhr (Abend / Nacht)"
+      "#10:00-16:00 (daytime)": "10:00-16:00 Uhr (tagsüber)",
+      "#16:00-20:00 (afternoon and evening rush)": "16:00-20:00 Uhr (Nachmittags- und Abendverkehr)",
+      "#20:00-22:00 (evening)": "20:00-22:00 Uhr (abends)",
+      "#After 22:00 (night)": "Nach 22:00 Uhr (nachts)",
+      "#Variable hours or shifts": "Wechselnde Zeiten oder Schichtdienst"
     },
     "tr": {
       "#At what times of day do you most often travel? (Select all that apply)": "En sık günün hangi saatlerinde yolculuk yaparsınız? (Uygun olanların tümünü seçin)",
       "#Before 7:00": "07.00’den önce",
       "#7:00-10:00 (morning rush)": "07.00-10.00 (sabah yoğunluğu)",
-      "#10:00-14:00 (midday)": "10.00-14.00 (öğle saatleri)",
-      "#14:00-18:00 (afternoon rush)": "14.00-18.00 (öğleden sonra)",
-      "#18:00-20:00 (evening return)": "18.00-20.00 (akşam dönüşü)",
-      "#After 20:00 (evening/night)": "20.00’den sonra (akşam / gece)"
+      "#10:00-16:00 (daytime)": "10.00-16.00 (gün içi)",
+      "#16:00-20:00 (afternoon and evening rush)": "16.00-20.00 (öğleden sonra ve akşam yoğunluğu)",
+      "#20:00-22:00 (evening)": "20.00-22.00 (akşam)",
+      "#After 22:00 (night)": "22.00’den sonra (gece)",
+      "#Variable hours or shifts": "Değişken saatler veya vardiyalı"
     },
     "fa": {
       "#At what times of day do you most often travel? (Select all that apply)": "بیشتر در چه ساعت‌هایی از روز سفر می‌کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
       "#Before 7:00": "قبل از ۷:۰۰",
       "#7:00-10:00 (morning rush)": "۷:۰۰ تا ۱۰:۰۰ (ساعت شلوغی صبح)",
-      "#10:00-14:00 (midday)": "۱۰:۰۰ تا ۱۴:۰۰ (میانه روز)",
-      "#14:00-18:00 (afternoon rush)": "۱۴:۰۰ تا ۱۸:۰۰ (بعدازظهر)",
-      "#18:00-20:00 (evening return)": "۱۸:۰۰ تا ۲۰:۰۰ (بازگشت عصر)",
-      "#After 20:00 (evening/night)": "بعد از ۲۰:۰۰ (عصر / شب)"
+      "#10:00-16:00 (daytime)": "۱۰:۰۰ تا ۱۶:۰۰ (طول روز)",
+      "#16:00-20:00 (afternoon and evening rush)": "۱۶:۰۰ تا ۲۰:۰۰ (ساعات شلوغی بعدازظهر و عصر)",
+      "#20:00-22:00 (evening)": "۲۰:۰۰ تا ۲۲:۰۰ (اوایل شب)",
+      "#After 22:00 (night)": "بعد از ۲۲:۰۰ (شب)",
+      "#Variable hours or shifts": "ساعات متغیر یا شیفتی"
     },
     "hu": {
       "#At what times of day do you most often travel? (Select all that apply)": "A nap mely időszakaiban közlekedik leggyakrabban? (Jelölje meg az összes megfelelőt)",
       "#Before 7:00": "7:00 előtt",
       "#7:00-10:00 (morning rush)": "7:00-10:00 (reggeli csúcsidő)",
-      "#10:00-14:00 (midday)": "10:00-14:00 (napközben)",
-      "#14:00-18:00 (afternoon rush)": "14:00-18:00 (délután)",
-      "#18:00-20:00 (evening return)": "18:00-20:00 (esti hazatérés)",
-      "#After 20:00 (evening/night)": "20:00 után (este / éjszaka)"
+      "#10:00-16:00 (daytime)": "10:00-16:00 (napközben)",
+      "#16:00-20:00 (afternoon and evening rush)": "16:00-20:00 (délutáni és esti csúcsidő)",
+      "#20:00-22:00 (evening)": "20:00-22:00 (este)",
+      "#After 22:00 (night)": "22:00 után (éjszaka)",
+      "#Variable hours or shifts": "Változó időpontok vagy műszakbeosztás"
     },
     "ar": {
       "#At what times of day do you most often travel? (Select all that apply)": "في أي أوقات من اليوم تتنقل غالبًا؟ (اختر كل ما ينطبق)",
       "#Before 7:00": "قبل الساعة 7:00",
       "#7:00-10:00 (morning rush)": "7:00-10:00 (ذروة الصباح)",
-      "#10:00-14:00 (midday)": "10:00-14:00 (منتصف اليوم)",
-      "#14:00-18:00 (afternoon rush)": "14:00-18:00 (بعد الظهر)",
-      "#18:00-20:00 (evening return)": "18:00-20:00 (العودة مساءً)",
-      "#After 20:00 (evening/night)": "بعد 20:00 (المساء / الليل)"
+      "#10:00-16:00 (daytime)": "10:00-16:00 (خلال النهار)",
+      "#16:00-20:00 (afternoon and evening rush)": "16:00-20:00 (ذروة بعد الظهر والمساء)",
+      "#20:00-22:00 (evening)": "20:00-22:00 (المساء)",
+      "#After 22:00 (night)": "بعد 22:00 (الليل)",
+      "#Variable hours or shifts": "أوقات متغيرة أو نظام مناوبات"
     }
   }
 }

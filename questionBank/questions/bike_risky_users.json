@@ -2,15 +2,15 @@
   "question_id": "bike_risky_users",
   "key": "bike_risky_users",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_cycling",
   "source_questionnaires": [
     "smarturbanity_cycling"
   ],
   "schema": {
-    "text": "Which categories of road users most negatively affect your sense of safety while cycling?",
+    "text": "Which categories of road users most negatively affect your sense of safety while riding?",
     "answer_key": "bike_risky_users",
     "question_type": "multiple_options",
     "options": [
@@ -19,7 +19,7 @@
         "value": "car_drivers"
       },
       {
-        "text": "Motorcycle or scooter riders",
+        "text": "Motorcyclists or riders of scooters and mopeds",
         "value": "motorcycle_or_scooter_riders"
       },
       {
@@ -27,20 +27,16 @@
         "value": "bus_drivers"
       },
       {
-        "text": "Delivery vehicles (vans, cargo bikes, scooters)",
+        "text": "Delivery vehicles (vans, cargo bikes, mopeds)",
         "value": "delivery_vehicles_vans_cargo_bikes_scoot"
       },
       {
-        "text": "Taxi or ride-hailing drivers",
+        "text": "Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)",
         "value": "taxi_or_ride_hailing_drivers"
       },
       {
-        "text": "Other cyclists",
-        "value": "other_cyclists"
-      },
-      {
-        "text": "E-scooter riders",
-        "value": "e_scooter_riders"
+        "text": "Other cyclists or e-scooter riders",
+        "value": "other_cyclists_or_e_scooter_riders"
       },
       {
         "text": "Pedestrians",
@@ -48,7 +44,8 @@
       },
       {
         "text": "None — no category negatively affects my feeling of safety",
-        "value": "none_no_category_negatively_affects_my_f"
+        "value": "none_no_category_negatively_affects_my_f",
+        "exclusive": true
       }
     ],
     "max_answers": 3,
@@ -58,107 +55,99 @@
   "translations": {
     "en": {
       "#Other": "Other",
-      "#Which categories of road users most negatively affect your sense of safety while cycling?": "Which categories of road users most negatively affect your sense of safety while cycling?",
+      "#Which categories of road users most negatively affect your sense of safety while riding?": "Which categories of road users most negatively affect your sense of safety while riding?",
       "#Car drivers": "Car drivers",
-      "#Motorcycle or scooter riders": "Motorcycle or scooter riders",
+      "#Motorcyclists or riders of scooters and mopeds": "Motorcyclists or riders of scooters and mopeds",
       "#Bus drivers": "Bus drivers",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Delivery vehicles (vans, cargo bikes, scooters)",
-      "#Taxi or ride-hailing drivers": "Taxi or ride-hailing drivers",
-      "#Other cyclists": "Other cyclists",
-      "#E-scooter riders": "E-scooter riders",
+      "#Delivery vehicles (vans, cargo bikes, mopeds)": "Delivery vehicles (vans, cargo bikes, mopeds)",
+      "#Other cyclists or e-scooter riders": "Other cyclists or e-scooter riders",
       "#Pedestrians": "Pedestrians",
-      "#None — no category negatively affects my feeling of safety": "None — no category negatively affects my feeling of safety"
+      "#None — no category negatively affects my feeling of safety": "None — no category negatively affects my feeling of safety",
+      "#Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)": "Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)"
     },
     "it": {
       "#Other": "Altro",
-      "#Which categories of road users most negatively affect your sense of safety while cycling?": "Quali categorie di utenti della strada influenzano più negativamente la tua percezione di sicurezza mentre pedali?",
+      "#Which categories of road users most negatively affect your sense of safety while riding?": "Quali categorie di utenti della strada influenzano più negativamente la tua percezione di sicurezza mentre sei in bici o in monopattino?",
       "#Car drivers": "Conducenti di automobili",
-      "#Motorcycle or scooter riders": "Conducenti di motocicli o scooter",
+      "#Motorcyclists or riders of scooters and mopeds": "Motociclisti o conducenti di scooter e motorini",
       "#Bus drivers": "Conducenti di autobus",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Veicoli per le consegne (furgoni, cargo bike, scooter)",
-      "#Taxi or ride-hailing drivers": "Conducenti di taxi o servizi di ride-hailing",
-      "#Other cyclists": "Altri ciclisti",
-      "#E-scooter riders": "Utilizzatori di monopattini elettrici",
+      "#Delivery vehicles (vans, cargo bikes, mopeds)": "Veicoli per le consegne (furgoni, cargo bike, motorini)",
+      "#Other cyclists or e-scooter riders": "Altri ciclisti o utilizzatori di monopattini elettrici",
       "#Pedestrians": "Pedoni",
-      "#None — no category negatively affects my feeling of safety": "Nessuna — nessuna categoria influisce negativamente sulla mia percezione di sicurezza"
+      "#None — no category negatively affects my feeling of safety": "Nessuna — nessuna categoria influisce negativamente sulla mia percezione di sicurezza",
+      "#Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)": "Tassisti o autisti di auto a noleggio con conducente (NCC, servizi tramite app)"
     },
     "fr": {
       "#Other": "Autre",
-      "#Which categories of road users most negatively affect your sense of safety while cycling?": "Quelles catégories d’usagers de la route réduisent le plus votre sentiment de sécurité à vélo ?",
+      "#Which categories of road users most negatively affect your sense of safety while riding?": "Quelles catégories d’usagers de la route affectent le plus négativement votre sentiment de sécurité à vélo ou en trottinette ?",
       "#Car drivers": "Conducteurs de voitures",
-      "#Motorcycle or scooter riders": "Conducteurs de motos ou scooters",
+      "#Motorcyclists or riders of scooters and mopeds": "Conducteurs de motos, de scooters ou de cyclomoteurs",
       "#Bus drivers": "Conducteurs de bus",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Véhicules de livraison (fourgonnettes, vélos cargo, scooters)",
-      "#Taxi or ride-hailing drivers": "Conducteurs de taxi ou de VTC",
-      "#Other cyclists": "Autres cyclistes",
-      "#E-scooter riders": "Usagers de trottinettes électriques",
+      "#Delivery vehicles (vans, cargo bikes, mopeds)": "Véhicules de livraison (fourgonnettes, vélos cargo, cyclomoteurs)",
+      "#Other cyclists or e-scooter riders": "Autres cyclistes ou usagers de trottinettes électriques",
       "#Pedestrians": "Piétons",
-      "#None — no category negatively affects my feeling of safety": "Aucune — aucune catégorie ne réduit mon sentiment de sécurité"
+      "#None — no category negatively affects my feeling of safety": "Aucune — aucune catégorie ne réduit mon sentiment de sécurité",
+      "#Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)": "Chauffeurs de taxi ou de voitures avec chauffeur (VTC, services par application)"
     },
     "de": {
       "#Other": "Anderes",
-      "#Which categories of road users most negatively affect your sense of safety while cycling?": "Welche Gruppen von Verkehrsteilnehmenden beeinträchtigen Ihr Sicherheitsgefühl beim Radfahren am stärksten?",
+      "#Which categories of road users most negatively affect your sense of safety while riding?": "Welche Gruppen von Verkehrsteilnehmenden beeinträchtigen Ihr Sicherheitsgefühl mit dem Fahrrad oder E-Scooter am stärksten?",
       "#Car drivers": "Autofahrer",
-      "#Motorcycle or scooter riders": "Motorrad- oder Rollerfahrer",
+      "#Motorcyclists or riders of scooters and mopeds": "Motorrad-, Motorroller- oder Mopedfahrer",
       "#Bus drivers": "Busfahrer",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Lieferfahrzeuge (Transporter, Lastenräder, Roller)",
-      "#Taxi or ride-hailing drivers": "Taxi- oder Fahrdienstfahrer",
-      "#Other cyclists": "Andere Radfahrer",
-      "#E-scooter riders": "E-Scooter-Fahrer",
+      "#Delivery vehicles (vans, cargo bikes, mopeds)": "Lieferfahrzeuge (Transporter, Lastenräder, Mopeds)",
+      "#Other cyclists or e-scooter riders": "Andere Radfahrer oder E-Scooter-Fahrer",
       "#Pedestrians": "Fußgänger",
-      "#None — no category negatively affects my feeling of safety": "Keine — keine Gruppe beeinträchtigt mein Sicherheitsgefühl"
+      "#None — no category negatively affects my feeling of safety": "Keine — keine Gruppe beeinträchtigt mein Sicherheitsgefühl",
+      "#Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)": "Taxifahrer oder Fahrer von Mietwagen mit Fahrer (auch über Apps gebuchte Fahrdienste)"
     },
     "tr": {
       "#Other": "Diğer",
-      "#Which categories of road users most negatively affect your sense of safety while cycling?": "Hangi yol kullanıcıları bisiklet sürerken güvenlik hissinizi en olumsuz etkiliyor?",
+      "#Which categories of road users most negatively affect your sense of safety while riding?": "Bisiklet veya elektrikli scooter kullanırken güvenlik hissinizi en çok hangi yol kullanıcısı grupları olumsuz etkiliyor?",
       "#Car drivers": "Otomobil sürücüleri",
-      "#Motorcycle or scooter riders": "Motosiklet veya scooter sürücüleri",
+      "#Motorcyclists or riders of scooters and mopeds": "Motosiklet, scooter veya moped sürücüleri",
       "#Bus drivers": "Otobüs sürücüleri",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Teslimat araçları (kamyonet, kargo bisikleti, scooter)",
-      "#Taxi or ride-hailing drivers": "Taksi veya uygulama üzerinden çağrılan araç sürücüleri",
-      "#Other cyclists": "Diğer bisikletliler",
-      "#E-scooter riders": "E-scooter kullanıcıları",
+      "#Delivery vehicles (vans, cargo bikes, mopeds)": "Teslimat araçları (kamyonet, kargo bisikleti, moped)",
+      "#Other cyclists or e-scooter riders": "Diğer bisikletliler veya e-scooter kullanıcıları",
       "#Pedestrians": "Yayalar",
-      "#None — no category negatively affects my feeling of safety": "Hiçbiri — hiçbir grup güvenlik hissimi olumsuz etkilemiyor"
+      "#None — no category negatively affects my feeling of safety": "Hiçbiri — hiçbir grup güvenlik hissimi olumsuz etkilemiyor",
+      "#Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)": "Taksi şoförleri veya şoförlü kiralık araç sürücüleri (uygulama üzerinden çağrılan hizmetler dahil)"
     },
     "fa": {
       "#Other": "سایر",
-      "#Which categories of road users most negatively affect your sense of safety while cycling?": "کدام گروه از کاربران راه بیشترین اثر منفی را بر احساس امنیت شما هنگام دوچرخه‌سواری دارند؟",
+      "#Which categories of road users most negatively affect your sense of safety while riding?": "کدام گروه‌های کاربران جاده بیشترین اثر منفی را بر احساس امنیت شما هنگام استفاده از دوچرخه یا اسکوتر برقی دارند؟",
       "#Car drivers": "رانندگان خودرو",
-      "#Motorcycle or scooter riders": "موتورسواران یا اسکوترسواران",
+      "#Motorcyclists or riders of scooters and mopeds": "موتورسواران یا رانندگان اسکوتر موتوری و موتور گازی",
       "#Bus drivers": "رانندگان اتوبوس",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "وسایل نقلیه تحویل کالا (ون، دوچرخه باری، اسکوتر)",
-      "#Taxi or ride-hailing drivers": "رانندگان تاکسی یا تاکسی اینترنتی",
-      "#Other cyclists": "سایر دوچرخه‌سواران",
-      "#E-scooter riders": "کاربران اسکوتر برقی",
+      "#Delivery vehicles (vans, cargo bikes, mopeds)": "وسایل نقلیه تحویل کالا (ون، دوچرخه باری، موتور گازی)",
+      "#Other cyclists or e-scooter riders": "سایر دوچرخه‌سواران یا کاربران اسکوتر برقی",
       "#Pedestrians": "عابران پیاده",
-      "#None — no category negatively affects my feeling of safety": "هیچ‌کدام — هیچ گروهی احساس امنیت مرا کم نمی‌کند"
+      "#None — no category negatively affects my feeling of safety": "هیچ‌کدام — هیچ گروهی احساس امنیت مرا کم نمی‌کند",
+      "#Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)": "رانندگان تاکسی یا خودروهای کرایه‌ای با راننده (از جمله سرویس‌های اینترنتی)"
     },
     "hu": {
       "#Other": "Egyéb",
-      "#Which categories of road users most negatively affect your sense of safety while cycling?": "Mely közlekedői csoportok rontják leginkább a biztonságérzetét kerékpározás közben?",
+      "#Which categories of road users most negatively affect your sense of safety while riding?": "A közlekedők mely csoportjai rontják leginkább a biztonságérzetét kerékpározás vagy rollerezés közben?",
       "#Car drivers": "Autóvezetők",
-      "#Motorcycle or scooter riders": "Motorosok vagy robogósok",
+      "#Motorcyclists or riders of scooters and mopeds": "Motorosok, robogósok vagy segédmotorosok",
       "#Bus drivers": "Buszvezetők",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Áruszállító járművek (furgonok, teherkerékpárok, robogók)",
-      "#Taxi or ride-hailing drivers": "Taxi- vagy személyszállító szolgáltatás vezetői",
-      "#Other cyclists": "Más kerékpárosok",
-      "#E-scooter riders": "Elektromosroller-használók",
+      "#Delivery vehicles (vans, cargo bikes, mopeds)": "Áruszállító járművek (furgonok, teherkerékpárok, segédmotoros kerékpárok)",
+      "#Other cyclists or e-scooter riders": "Más kerékpárosok vagy elektromosroller-használók",
       "#Pedestrians": "Gyalogosok",
-      "#None — no category negatively affects my feeling of safety": "Egyik sem — egyik csoport sem rontja a biztonságérzetemet"
+      "#None — no category negatively affects my feeling of safety": "Egyik sem — egyik csoport sem rontja a biztonságérzetemet",
+      "#Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)": "Taxisofőrök vagy sofőrös bérautók vezetői (alkalmazáson keresztül rendelt szolgáltatások is)"
     },
     "ar": {
       "#Other": "أخرى",
-      "#Which categories of road users most negatively affect your sense of safety while cycling?": "أي فئات من مستخدمي الطريق تؤثر أكثر سلبًا في شعورك بالأمان أثناء ركوب الدراجة؟",
+      "#Which categories of road users most negatively affect your sense of safety while riding?": "ما فئات مستخدمي الطريق التي تؤثر سلبًا أكثر من غيرها في شعورك بالأمان أثناء ركوب الدراجة أو السكوتر الكهربائي؟",
       "#Car drivers": "سائقو السيارات",
-      "#Motorcycle or scooter riders": "راكبو الدراجات النارية أو السكوتر",
+      "#Motorcyclists or riders of scooters and mopeds": "راكبو الدراجات النارية أو السكوتر أو الدراجات البخارية الصغيرة",
       "#Bus drivers": "سائقو الحافلات",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "مركبات التوصيل (شاحنات صغيرة، دراجات شحن، سكوتر)",
-      "#Taxi or ride-hailing drivers": "سائقو سيارات الأجرة أو خدمات طلب السيارات",
-      "#Other cyclists": "راكبو دراجات آخرون",
-      "#E-scooter riders": "مستخدمو السكوتر الكهربائي",
+      "#Delivery vehicles (vans, cargo bikes, mopeds)": "مركبات التوصيل (شاحنات صغيرة، دراجات شحن، دراجات بخارية صغيرة)",
+      "#Other cyclists or e-scooter riders": "راكبو دراجات آخرون أو مستخدمو السكوتر الكهربائي",
       "#Pedestrians": "المشاة",
-      "#None — no category negatively affects my feeling of safety": "لا أحد — لا توجد فئة تقلل من شعوري بالأمان"
+      "#None — no category negatively affects my feeling of safety": "لا أحد — لا توجد فئة تقلل من شعوري بالأمان",
+      "#Taxi drivers or drivers of hire cars with a driver (NCC, app-based services)": "سائقو سيارات الأجرة أو سيارات الإيجار مع سائق (بما في ذلك الخدمات عبر التطبيقات)"
     }
   }
 }

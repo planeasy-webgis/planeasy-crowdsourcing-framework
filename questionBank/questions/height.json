@@ -2,9 +2,9 @@
   "question_id": "height",
   "key": "height",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "smarturbanity_about_you"
@@ -13,6 +13,7 @@
     "text": "What is your approximate height?",
     "answer_key": "height",
     "question_type": "single_option",
+    "help": "We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.",
     "options": [
       {
         "text": "Less than 150 cm",
@@ -35,72 +36,89 @@
         "value": "195_plus"
       }
     ],
+    "add_prefer_not_to_say": true,
     "privacy_classification": "heightened_personal"
   },
   "translations": {
     "en": {
+      "#Prefer not to say": "Prefer not to say",
       "#What is your approximate height?": "What is your approximate height?",
       "#Less than 150 cm": "Less than 150 cm",
       "#150-164 cm": "150-164 cm",
       "#165-179 cm": "165-179 cm",
       "#180-194 cm": "180-194 cm",
-      "#195 cm or more": "195 cm or more"
+      "#195 cm or more": "195 cm or more",
+      "#We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.": "We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name."
     },
     "it": {
+      "#Prefer not to say": "Preferisco non rispondere",
       "#What is your approximate height?": "Qual è approssimativamente la tua altezza?",
       "#Less than 150 cm": "Meno di 150 cm",
       "#150-164 cm": "150-164 cm",
       "#165-179 cm": "165-179 cm",
       "#180-194 cm": "180-194 cm",
-      "#195 cm or more": "195 cm o più"
+      "#195 cm or more": "195 cm o più",
+      "#We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.": "Lo chiediamo per stimare la lunghezza del tuo passo, che cambia i tempi a piedi. Rispondere è facoltativo e la risposta non è collegata al tuo nome."
     },
     "fr": {
+      "#Prefer not to say": "Je préfère ne pas répondre",
       "#What is your approximate height?": "Quelle est approximativement votre taille ?",
       "#Less than 150 cm": "Moins de 150 cm",
       "#150-164 cm": "150-164 cm",
       "#165-179 cm": "165-179 cm",
       "#180-194 cm": "180-194 cm",
-      "#195 cm or more": "195 cm ou plus"
+      "#195 cm or more": "195 cm ou plus",
+      "#We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.": "Nous le demandons pour estimer la longueur de votre pas, qui change les temps de marche. Répondre est facultatif et votre réponse n'est pas liée à votre nom."
     },
     "de": {
+      "#Prefer not to say": "Ich möchte nicht antworten",
       "#What is your approximate height?": "Wie groß sind Sie ungefähr?",
       "#Less than 150 cm": "Weniger als 150 cm",
       "#150-164 cm": "150-164 cm",
       "#165-179 cm": "165-179 cm",
       "#180-194 cm": "180-194 cm",
-      "#195 cm or more": "195 cm oder größer"
+      "#195 cm or more": "195 cm oder größer",
+      "#We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.": "Wir fragen dies, um Ihre Schrittlänge zu schätzen, die die Gehzeiten verändert. Die Antwort ist freiwillig und nicht mit Ihrem Namen verbunden."
     },
     "tr": {
+      "#Prefer not to say": "Yanıtlamak istemiyorum",
       "#What is your approximate height?": "Boyunuz yaklaşık ne kadar?",
       "#Less than 150 cm": "150 cm’den kısa",
       "#150-164 cm": "150-164 cm",
       "#165-179 cm": "165-179 cm",
       "#180-194 cm": "180-194 cm",
-      "#195 cm or more": "195 cm veya daha uzun"
+      "#195 cm or more": "195 cm veya daha uzun",
+      "#We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.": "Bunu, yürüme sürelerini değiştiren adım uzunluğunuzu tahmin etmek için soruyoruz. Yanıt vermek isteğe bağlıdır ve yanıtınız adınızla ilişkilendirilmez."
     },
     "fa": {
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
       "#What is your approximate height?": "قد شما تقریباً چقدر است؟",
       "#Less than 150 cm": "کمتر از ۱۵۰ سانتی‌متر",
       "#150-164 cm": "150-164 cm",
       "#165-179 cm": "165-179 cm",
       "#180-194 cm": "180-194 cm",
-      "#195 cm or more": "۱۹۵ سانتی‌متر یا بیشتر"
+      "#195 cm or more": "۱۹۵ سانتی‌متر یا بیشتر",
+      "#We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.": "این را می‌پرسیم تا طول گام شما را که زمان پیاده‌روی را تغییر می‌دهد تخمین بزنیم. پاسخ دادن اختیاری است و پاسخ شما به نام شما مرتبط نیست."
     },
     "hu": {
+      "#Prefer not to say": "Nem szeretnék válaszolni",
       "#What is your approximate height?": "Körülbelül milyen magas?",
       "#Less than 150 cm": "150 cm-nél alacsonyabb",
       "#150-164 cm": "150-164 cm",
       "#165-179 cm": "165-179 cm",
       "#180-194 cm": "180-194 cm",
-      "#195 cm or more": "195 cm vagy magasabb"
+      "#195 cm or more": "195 cm vagy magasabb",
+      "#We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.": "Azért kérdezzük, hogy megbecsüljük a lépéshosszát, amely befolyásolja a gyaloglási időt. A válasz önkéntes, és nem kapcsolódik az Ön nevéhez."
     },
     "ar": {
+      "#Prefer not to say": "أفضل عدم الإجابة",
       "#What is your approximate height?": "ما طولك التقريبي؟",
       "#Less than 150 cm": "أقل من 150 سم",
       "#150-164 cm": "150-164 سم",
       "#165-179 cm": "165-179 سم",
       "#180-194 cm": "180-194 سم",
-      "#195 cm or more": "195 سم أو أكثر"
+      "#195 cm or more": "195 سم أو أكثر",
+      "#We ask this to estimate the length of your step, which changes walking times. Answering is optional and your answer is not linked to your name.": "نسأل هذا لتقدير طول خطوتك، الذي يغيّر أوقات المشي. الإجابة اختيارية ولا ترتبط إجابتك باسمك."
     }
   }
 }

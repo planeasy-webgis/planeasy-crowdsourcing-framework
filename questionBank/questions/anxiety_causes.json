@@ -2,32 +2,49 @@
   "question_id": "anxiety_causes",
   "key": "anxiety_causes",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_experience_on_the_move",
   "source_questionnaires": [
     "smarturbanity_experience_on_the_move"
   ],
   "schema": {
-    "text": "What specifically makes you feel anxious or overwhelmed during your typical journey?",
+    "text": "What makes you feel anxious or under pressure during your usual trip?",
     "answer_key": "anxiety_causes",
     "question_type": "multiple_options",
+    "max_answers": 3,
     "options": [
       {
         "text": "Heavy traffic or congestion",
         "value": "heavy_traffic_or_congestion"
       },
       {
-        "text": "Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)",
+        "text": "Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)",
         "value": "aggressive_or_unsafe_behavior_from_other"
+      },
+      {
+        "text": "Fear of road accidents",
+        "value": "fear_of_road_accidents"
+      },
+      {
+        "text": "Fear of assault or harassment",
+        "value": "fear_of_assault_or_harassment"
+      },
+      {
+        "text": "Fear of falling",
+        "value": "fear_of_falling"
       },
       {
         "text": "Complex or unfamiliar routes",
         "value": "complex_or_unfamiliar_routes"
       },
       {
-        "text": "Noise, crowding, or other sensory overload",
+        "text": "Not knowing when the bus, tram or train will arrive",
+        "value": "unknown_arrival_time"
+      },
+      {
+        "text": "Noise, crowds or too many things happening at once",
         "value": "noise_crowding_or_other_sensory_overload"
       },
       {
@@ -39,126 +56,142 @@
         "value": "feeling_isolated_or_alone_while_travelin"
       },
       {
-        "text": "Safety and security concerns (e.g., accidents, crime)",
-        "value": "safety_and_security_concerns_e_g_acciden"
-      },
-      {
         "text": "Physical health concerns (pain, breathlessness, dizziness)",
         "value": "physical_health_concerns_pain_breathless"
-      },
-      {
-        "text": "I don't usually feel anxious or overwhelmed",
-        "value": "i_don_t_usually_feel_anxious_or_overwhel"
       }
     ],
-    "max_answers": 3,
     "add_other": true,
+    "add_prefer_not_to_say": true,
     "privacy_classification": "special_category_health"
   },
   "translations": {
     "en": {
-      "#What specifically makes you feel anxious or overwhelmed during your typical journey?": "What specifically makes you feel anxious or overwhelmed during your typical journey?",
       "#Heavy traffic or congestion": "Heavy traffic or congestion",
-      "#Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)": "Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)",
+      "#Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)": "Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)",
       "#Complex or unfamiliar routes": "Complex or unfamiliar routes",
-      "#Noise, crowding, or other sensory overload": "Noise, crowding, or other sensory overload",
       "#Time pressure or risk of being late": "Time pressure or risk of being late",
       "#Feeling isolated or alone while traveling": "Feeling isolated or alone while traveling",
-      "#Safety and security concerns (e.g., accidents, crime)": "Safety and security concerns (e.g., accidents, crime)",
       "#Physical health concerns (pain, breathlessness, dizziness)": "Physical health concerns (pain, breathlessness, dizziness)",
-      "#I don't usually feel anxious or overwhelmed": "I don't usually feel anxious or overwhelmed",
-      "#Other": "Other"
+      "#Other": "Other",
+      "#Prefer not to say": "Prefer not to say",
+      "#What makes you feel anxious or under pressure during your usual trip?": "What makes you feel anxious or under pressure during your usual trip?",
+      "#Fear of road accidents": "Fear of road accidents",
+      "#Fear of assault or harassment": "Fear of assault or harassment",
+      "#Fear of falling": "Fear of falling",
+      "#Not knowing when the bus, tram or train will arrive": "Not knowing when the bus, tram or train will arrive",
+      "#Noise, crowds or too many things happening at once": "Noise, crowds or too many things happening at once"
     },
     "it": {
-      "#What specifically makes you feel anxious or overwhelmed during your typical journey?": "Cosa ti fa sentire in particolare ansioso/a o sopraffatto/a durante il tuo spostamento abituale?",
       "#Heavy traffic or congestion": "Traffico intenso o congestione",
-      "#Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)": "Comportamenti aggressivi o pericolosi da parte di altri utenti della strada (automobilisti, ciclisti, pedoni)",
+      "#Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)": "Comportamenti pericolosi o prepotenti di altri utenti della strada (automobilisti, ciclisti, pedoni)",
       "#Complex or unfamiliar routes": "Percorsi complessi o poco familiari",
-      "#Noise, crowding, or other sensory overload": "Rumore, affollamento o altri sovraccarichi sensoriali",
       "#Time pressure or risk of being late": "Pressione del tempo o rischio di arrivare in ritardo",
       "#Feeling isolated or alone while traveling": "Sentirsi isolato/a o solo/a durante lo spostamento",
-      "#Safety and security concerns (e.g., accidents, crime)": "Preoccupazioni relative alla sicurezza personale e stradale (ad es. incidenti, criminalità)",
       "#Physical health concerns (pain, breathlessness, dizziness)": "Problemi legati alla salute fisica (dolore, affanno, vertigini)",
-      "#I don't usually feel anxious or overwhelmed": "Di solito non mi sento ansioso/a o sopraffatto/a",
-      "#Other": "Altro"
+      "#Other": "Altro",
+      "#Prefer not to say": "Preferisco non rispondere",
+      "#What makes you feel anxious or under pressure during your usual trip?": "Cosa ti mette in ansia o sotto pressione durante il tuo spostamento abituale?",
+      "#Fear of road accidents": "Paura di incidenti stradali",
+      "#Fear of assault or harassment": "Paura di aggressioni o molestie",
+      "#Fear of falling": "Paura di cadere",
+      "#Not knowing when the bus, tram or train will arrive": "Non sapere quando arriverà l’autobus, il tram o il treno",
+      "#Noise, crowds or too many things happening at once": "Rumore, troppa gente o troppe cose insieme"
     },
     "fr": {
-      "#What specifically makes you feel anxious or overwhelmed during your typical journey?": "Qu’est-ce qui vous rend particulièrement anxieux(se) ou dépassé(e) pendant votre trajet habituel ?",
       "#Heavy traffic or congestion": "Trafic dense ou embouteillages",
-      "#Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)": "Comportement agressif ou dangereux d’autres usagers de la route (conducteurs, cyclistes, piétons)",
+      "#Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)": "Comportement dangereux ou brutal d’autres usagers de la route (conducteurs, cyclistes, piétons)",
       "#Complex or unfamiliar routes": "Itinéraires compliqués ou inconnus",
-      "#Noise, crowding, or other sensory overload": "Bruit, foule ou trop nombreuses stimulations autour de moi",
       "#Time pressure or risk of being late": "Manque de temps ou risque d’arriver en retard",
       "#Feeling isolated or alone while traveling": "Sentiment d’être isolé(e) ou seul(e) pendant le déplacement",
-      "#Safety and security concerns (e.g., accidents, crime)": "Préoccupations liées à la sécurité routière ou personnelle (par ex. accidents, criminalité)",
       "#Physical health concerns (pain, breathlessness, dizziness)": "Problèmes de santé physique (douleur, essoufflement, vertiges)",
-      "#I don't usually feel anxious or overwhelmed": "En général, je ne me sens pas anxieux(se) ou dépassé(e)",
-      "#Other": "Autre"
+      "#Other": "Autre",
+      "#Prefer not to say": "Je préfère ne pas répondre",
+      "#What makes you feel anxious or under pressure during your usual trip?": "Qu’est-ce qui vous rend anxieux/anxieuse ou vous met sous pression pendant votre trajet habituel ?",
+      "#Fear of road accidents": "Peur des accidents de la route",
+      "#Fear of assault or harassment": "Peur d’agression ou de harcèlement",
+      "#Fear of falling": "Peur de tomber",
+      "#Not knowing when the bus, tram or train will arrive": "Ne pas savoir quand le bus, le tram ou le train arrivera",
+      "#Noise, crowds or too many things happening at once": "Le bruit, la foule ou trop de choses en même temps"
     },
     "de": {
-      "#What specifically makes you feel anxious or overwhelmed during your typical journey?": "Was genau führt dazu, dass Sie sich während Ihres typischen Weges ängstlich oder überfordert fühlen?",
       "#Heavy traffic or congestion": "Starker Verkehr oder Stau",
-      "#Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)": "Aggressives oder gefährliches Verhalten anderer Verkehrsteilnehmender (Autofahrer, Radfahrer, Fußgänger)",
+      "#Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)": "Gefährliches oder rücksichtsloses Verhalten anderer Verkehrsteilnehmender (Autofahrer, Radfahrer, Fußgänger)",
       "#Complex or unfamiliar routes": "Komplizierte oder unbekannte Wege",
-      "#Noise, crowding, or other sensory overload": "Lärm, Gedränge oder zu viele Reize",
       "#Time pressure or risk of being late": "Zeitdruck oder die Gefahr, zu spät zu kommen",
       "#Feeling isolated or alone while traveling": "Das Gefühl, während des Weges isoliert oder allein zu sein",
-      "#Safety and security concerns (e.g., accidents, crime)": "Bedenken wegen Verkehrssicherheit oder persönlicher Sicherheit (z. B. Unfälle, Kriminalität)",
       "#Physical health concerns (pain, breathlessness, dizziness)": "Körperliche Beschwerden (Schmerzen, Atemnot, Schwindel)",
-      "#I don't usually feel anxious or overwhelmed": "Normalerweise fühle ich mich nicht ängstlich oder überfordert",
-      "#Other": "Anderes"
+      "#Other": "Anderes",
+      "#Prefer not to say": "Ich möchte nicht antworten",
+      "#What makes you feel anxious or under pressure during your usual trip?": "Was macht Sie auf Ihrem üblichen Weg ängstlich oder setzt Sie unter Druck?",
+      "#Fear of road accidents": "Angst vor Verkehrsunfällen",
+      "#Fear of assault or harassment": "Angst vor Übergriffen oder Belästigung",
+      "#Fear of falling": "Angst zu stürzen",
+      "#Not knowing when the bus, tram or train will arrive": "Nicht zu wissen, wann Bus, Straßenbahn oder Zug kommen",
+      "#Noise, crowds or too many things happening at once": "Lärm, Gedränge oder zu viele Eindrücke auf einmal"
     },
     "tr": {
-      "#What specifically makes you feel anxious or overwhelmed during your typical journey?": "Tipik yolculuğunuz sırasında sizi özellikle kaygılı veya bunalmış hissettiren nedir?",
       "#Heavy traffic or congestion": "Yoğun trafik veya sıkışıklık",
-      "#Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)": "Diğer yol kullanıcılarının saldırgan veya tehlikeli davranışları (sürücüler, bisikletliler, yayalar)",
+      "#Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)": "Diğer yol kullanıcılarının tehlikeli veya zorbaca davranışları (sürücüler, bisikletliler, yayalar)",
       "#Complex or unfamiliar routes": "Karmaşık veya bilmediğim güzergâhlar",
-      "#Noise, crowding, or other sensory overload": "Gürültü, kalabalık veya fazla uyaran",
       "#Time pressure or risk of being late": "Zaman baskısı veya geç kalma riski",
       "#Feeling isolated or alone while traveling": "Yolculuk sırasında kendimi yalnız veya izole hissetmek",
-      "#Safety and security concerns (e.g., accidents, crime)": "Trafik güvenliği veya kişisel güvenlikle ilgili kaygılar (ör. kazalar, suç)",
       "#Physical health concerns (pain, breathlessness, dizziness)": "Fiziksel sağlık sorunları (ağrı, nefes darlığı, baş dönmesi)",
-      "#I don't usually feel anxious or overwhelmed": "Genellikle kaygılı veya bunalmış hissetmem",
-      "#Other": "Diğer"
+      "#Other": "Diğer",
+      "#Prefer not to say": "Yanıtlamak istemiyorum",
+      "#What makes you feel anxious or under pressure during your usual trip?": "Olağan yolculuğunuz sırasında sizi ne kaygılandırıyor veya baskı altında hissettiriyor?",
+      "#Fear of road accidents": "Trafik kazası korkusu",
+      "#Fear of assault or harassment": "Saldırıya veya tacize uğrama korkusu",
+      "#Fear of falling": "Düşme korkusu",
+      "#Not knowing when the bus, tram or train will arrive": "Otobüsün, tramvayın veya trenin ne zaman geleceğini bilmemek",
+      "#Noise, crowds or too many things happening at once": "Gürültü, kalabalık veya aynı anda olan çok fazla şey"
     },
     "fa": {
-      "#What specifically makes you feel anxious or overwhelmed during your typical journey?": "چه چیزهایی در سفر معمول شما باعث می‌شود احساس اضطراب یا درماندگی کنید؟",
       "#Heavy traffic or congestion": "ترافیک سنگین یا ازدحام",
-      "#Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)": "رفتار تهاجمی یا خطرناک سایر کاربران راه (رانندگان، دوچرخه‌سواران، عابران)",
+      "#Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)": "رفتار خطرناک یا زورگویانه سایر کاربران راه (رانندگان، دوچرخه‌سواران، عابران)",
       "#Complex or unfamiliar routes": "مسیرهای پیچیده یا ناآشنا",
-      "#Noise, crowding, or other sensory overload": "سر و صدا، شلوغی یا تحریک حسی زیاد",
       "#Time pressure or risk of being late": "کمبود وقت یا خطر دیر رسیدن",
       "#Feeling isolated or alone while traveling": "احساس تنهایی یا انزوا هنگام سفر",
-      "#Safety and security concerns (e.g., accidents, crime)": "نگرانی درباره ایمنی ترافیکی یا امنیت شخصی (مثلاً تصادف، جرم)",
       "#Physical health concerns (pain, breathlessness, dizziness)": "مشکلات جسمی (درد، تنگی نفس، سرگیجه)",
-      "#I don't usually feel anxious or overwhelmed": "معمولاً احساس اضطراب یا درماندگی نمی‌کنم",
-      "#Other": "سایر"
+      "#Other": "سایر",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#What makes you feel anxious or under pressure during your usual trip?": "در طول سفر معمول، چه چیزی شما را مضطرب می‌کند یا تحت فشار قرار می‌دهد؟",
+      "#Fear of road accidents": "ترس از تصادف رانندگی",
+      "#Fear of assault or harassment": "ترس از حمله یا آزار",
+      "#Fear of falling": "ترس از زمین خوردن",
+      "#Not knowing when the bus, tram or train will arrive": "ندانستن اینکه اتوبوس، تراموا یا قطار کی می‌رسد",
+      "#Noise, crowds or too many things happening at once": "سروصدا، شلوغی یا اتفاق افتادن کارهای زیاد به‌طور هم‌زمان"
     },
     "hu": {
-      "#What specifically makes you feel anxious or overwhelmed during your typical journey?": "Mi okozza leginkább, hogy szorongónak vagy túlterheltnek érzi magát a tipikus utazása során?",
       "#Heavy traffic or congestion": "Erős forgalom vagy torlódás",
-      "#Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)": "Más közlekedők agresszív vagy veszélyes viselkedése (járművezetők, kerékpárosok, gyalogosok)",
+      "#Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)": "Más közlekedők veszélyes vagy tolakodó viselkedése (járművezetők, kerékpárosok, gyalogosok)",
       "#Complex or unfamiliar routes": "Bonyolult vagy ismeretlen útvonalak",
-      "#Noise, crowding, or other sensory overload": "Zaj, tömeg vagy túl sok környezeti inger",
       "#Time pressure or risk of being late": "Időnyomás vagy a késés veszélye",
       "#Feeling isolated or alone while traveling": "Az elszigeteltség vagy egyedüllét érzése utazás közben",
-      "#Safety and security concerns (e.g., accidents, crime)": "Közlekedésbiztonsági vagy személyes biztonsági aggodalmak (pl. baleset, bűncselekmény)",
       "#Physical health concerns (pain, breathlessness, dizziness)": "Fizikai egészségi problémák (fájdalom, légszomj, szédülés)",
-      "#I don't usually feel anxious or overwhelmed": "Általában nem érzem magam szorongónak vagy túlterheltnek",
-      "#Other": "Egyéb"
+      "#Other": "Egyéb",
+      "#Prefer not to say": "Nem szeretnék válaszolni",
+      "#What makes you feel anxious or under pressure during your usual trip?": "Mi okoz Önnek szorongást vagy nyomást a szokásos útja során?",
+      "#Fear of road accidents": "Közlekedési balesettől való félelem",
+      "#Fear of assault or harassment": "Támadástól vagy zaklatástól való félelem",
+      "#Fear of falling": "Eséstől való félelem",
+      "#Not knowing when the bus, tram or train will arrive": "Nem tudni, mikor érkezik a busz, a villamos vagy a vonat",
+      "#Noise, crowds or too many things happening at once": "Zaj, tömeg vagy túl sok egyszerre zajló dolog"
     },
     "ar": {
-      "#What specifically makes you feel anxious or overwhelmed during your typical journey?": "ما الذي يجعلك تشعر بالقلق أو الضغط الزائد أثناء رحلتك المعتادة؟",
       "#Heavy traffic or congestion": "حركة مرور كثيفة أو ازدحام",
-      "#Aggressive or unsafe behavior from other road users (drivers, cyclists, pedestrians)": "سلوك عدواني أو خطر من مستخدمي الطريق الآخرين (السائقون، راكبو الدراجات، المشاة)",
+      "#Dangerous or bullying behaviour from other road users (drivers, cyclists, pedestrians)": "سلوك خطر أو متسلط من مستخدمي الطريق الآخرين (السائقون، راكبو الدراجات، المشاة)",
       "#Complex or unfamiliar routes": "طرق معقدة أو غير مألوفة",
-      "#Noise, crowding, or other sensory overload": "الضوضاء أو الازدحام أو كثرة المؤثرات من حولي",
       "#Time pressure or risk of being late": "ضيق الوقت أو احتمال التأخر",
       "#Feeling isolated or alone while traveling": "الشعور بالعزلة أو الوحدة أثناء التنقل",
-      "#Safety and security concerns (e.g., accidents, crime)": "مخاوف تتعلق بالسلامة المرورية أو الأمان الشخصي (مثل الحوادث أو الجريمة)",
       "#Physical health concerns (pain, breathlessness, dizziness)": "مشكلات صحية جسدية (ألم، ضيق تنفس، دوار)",
-      "#I don't usually feel anxious or overwhelmed": "عادةً لا أشعر بالقلق أو الضغط الزائد",
-      "#Other": "أخرى"
+      "#Other": "أخرى",
+      "#Prefer not to say": "أفضل عدم الإجابة",
+      "#What makes you feel anxious or under pressure during your usual trip?": "ما الذي يجعلك تشعر بالقلق أو بالضغط أثناء تنقّلك المعتاد؟",
+      "#Fear of road accidents": "الخوف من حوادث الطرق",
+      "#Fear of assault or harassment": "الخوف من الاعتداء أو التحرش",
+      "#Fear of falling": "الخوف من السقوط",
+      "#Not knowing when the bus, tram or train will arrive": "عدم معرفة موعد وصول الحافلة أو الترام أو القطار",
+      "#Noise, crowds or too many things happening at once": "الضجيج أو الازدحام أو حدوث أشياء كثيرة في آن واحد"
     }
   }
 }

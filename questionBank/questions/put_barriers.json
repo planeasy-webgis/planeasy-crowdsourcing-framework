@@ -2,26 +2,39 @@
   "question_id": "put_barriers",
   "key": "put_barriers",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
-  "active_in_source_main": true,
+  "active_in_source_main": false,
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
     "smarturbanity_public_transport"
   ],
   "schema": {
-    "text": "Which specific barriers did you face while using public transport stops?",
+    "text": "Which specific barriers do you face at public transport stops or when getting on and off vehicles?",
+    "help": "Real-time information displays are screens that show when the next vehicle is expected to arrive.",
     "answer_key": "pt_barriers",
     "question_type": "multiple_options",
-    "max_answers": 3,
+    "max_answers": 5,
     "options": [
       {
         "text": "Stairs or level differences",
         "value": "stairs_or_level_differences"
       },
       {
-        "text": "Difficulty boarding or exiting the vehicle",
+        "text": "Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)",
         "value": "difficulty_boarding_or_exiting_the_vehic"
+      },
+      {
+        "text": "Stop or vehicle cannot be used with a wheelchair, walker or stroller",
+        "value": "stop_or_vehicle_unusable_with_mobility_aid"
+      },
+      {
+        "text": "Vehicles too crowded to get on with a stroller or wheelchair",
+        "value": "too_crowded_to_board_with_stroller_or_wheelchair"
+      },
+      {
+        "text": "No sidewalk or walkway to reach the stop",
+        "value": "no_walkway_to_reach_the_stop"
       },
       {
         "text": "Narrow or crowded spaces",
@@ -30,10 +43,6 @@
       {
         "text": "Poor maintenance or damaged infrastructure",
         "value": "poor_maintenance_or_damaged_infrastructu"
-      },
-      {
-        "text": "Poor accessibility for mobility needs",
-        "value": "poor_accessibility_for_mobility_needs"
       },
       {
         "text": "Lack of real-time information displays",
@@ -45,7 +54,8 @@
       },
       {
         "text": "I don't face any specific barrier",
-        "value": "i_don_t_face_any_specific_barrier"
+        "value": "i_don_t_face_any_specific_barrier",
+        "exclusive": true
       }
     ],
     "add_other": true,
@@ -53,100 +63,124 @@
   },
   "translations": {
     "en": {
-      "#Which specific barriers did you face while using public transport stops?": "Which specific barriers did you face while using public transport stops?",
       "#Stairs or level differences": "Stairs or level differences",
-      "#Difficulty boarding or exiting the vehicle": "Difficulty boarding or exiting the vehicle",
+      "#Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)": "Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)",
       "#Narrow or crowded spaces": "Narrow or crowded spaces",
       "#Poor maintenance or damaged infrastructure": "Poor maintenance or damaged infrastructure",
-      "#Poor accessibility for mobility needs": "Poor accessibility for mobility needs",
       "#Lack of real-time information displays": "Lack of real-time information displays",
       "#Insufficient seating or shelter at stops": "Insufficient seating or shelter at stops",
       "#I don't face any specific barrier": "I don't face any specific barrier",
-      "#Other": "Other"
+      "#Other": "Other",
+      "#Which specific barriers do you face at public transport stops or when getting on and off vehicles?": "Which specific barriers do you face at public transport stops or when getting on and off vehicles?",
+      "#Real-time information displays are screens that show when the next vehicle is expected to arrive.": "Real-time information displays are screens that show when the next vehicle is expected to arrive.",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Stop or vehicle cannot be used with a wheelchair, walker or stroller",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Vehicles too crowded to get on with a stroller or wheelchair",
+      "#No sidewalk or walkway to reach the stop": "No sidewalk or walkway to reach the stop"
     },
     "it": {
-      "#Which specific barriers did you face while using public transport stops?": "Quali ostacoli specifici hai incontrato nell'utilizzo delle fermate del trasporto pubblico?",
       "#Stairs or level differences": "Scale o dislivelli",
-      "#Difficulty boarding or exiting the vehicle": "Difficoltà nel salire o scendere dal mezzo",
+      "#Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)": "Difficoltà nel salire o scendere dal mezzo (ad es. gradino alto, pedana o rampa non funzionante o non aperta)",
       "#Narrow or crowded spaces": "Spazi stretti o affollati",
       "#Poor maintenance or damaged infrastructure": "Scarsa manutenzione o infrastrutture danneggiate",
-      "#Poor accessibility for mobility needs": "Scarsa accessibilità per esigenze di mobilità",
       "#Lack of real-time information displays": "Mancanza di display con informazioni in tempo reale",
       "#Insufficient seating or shelter at stops": "Posti a sedere o ripari insufficienti alle fermate",
       "#I don't face any specific barrier": "Non incontro alcun ostacolo specifico",
-      "#Other": "Altro"
+      "#Other": "Altro",
+      "#Which specific barriers do you face at public transport stops or when getting on and off vehicles?": "Quali ostacoli specifici incontri alle fermate del trasporto pubblico o quando sali e scendi dai mezzi?",
+      "#Real-time information displays are screens that show when the next vehicle is expected to arrive.": "I display con informazioni in tempo reale sono schermi che mostrano quando è previsto l'arrivo del prossimo mezzo.",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Fermata o mezzo non utilizzabili con sedia a rotelle, deambulatore o passeggino",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Mezzi troppo pieni per salire con passeggino o sedia a rotelle",
+      "#No sidewalk or walkway to reach the stop": "Nessun marciapiede o percorso pedonale per arrivare alla fermata"
     },
     "fr": {
-      "#Which specific barriers did you face while using public transport stops?": "Quels obstacles précis avez-vous rencontrés lorsque vous utilisez les arrêts de transports publics ?",
       "#Stairs or level differences": "Escaliers ou différences de niveau",
-      "#Difficulty boarding or exiting the vehicle": "Difficulté pour monter dans le véhicule ou en descendre",
+      "#Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)": "Difficulté pour monter dans le véhicule ou en descendre (par ex. marche haute, rampe en panne ou non déployée)",
       "#Narrow or crowded spaces": "Espaces étroits ou très fréquentés",
       "#Poor maintenance or damaged infrastructure": "Mauvais entretien ou infrastructures endommagées",
-      "#Poor accessibility for mobility needs": "Accès difficile pour les personnes ayant des besoins de mobilité",
       "#Lack of real-time information displays": "Absence d’informations en temps réel",
       "#Insufficient seating or shelter at stops": "Pas assez de sièges ou d’abris aux arrêts",
       "#I don't face any specific barrier": "Je ne rencontre aucun obstacle particulier",
-      "#Other": "Autre"
+      "#Other": "Autre",
+      "#Which specific barriers do you face at public transport stops or when getting on and off vehicles?": "Quels obstacles précis rencontrez-vous aux arrêts de transports en commun ou en montant et en descendant des véhicules ?",
+      "#Real-time information displays are screens that show when the next vehicle is expected to arrive.": "Les informations en temps réel sont affichées sur des écrans qui indiquent quand le prochain véhicule doit arriver.",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Arrêt ou véhicule inutilisable en fauteuil roulant, avec un déambulateur ou une poussette",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Véhicules trop bondés pour monter avec une poussette ou un fauteuil roulant",
+      "#No sidewalk or walkway to reach the stop": "Pas de trottoir ni de cheminement piéton pour rejoindre l'arrêt"
     },
     "de": {
-      "#Which specific barriers did you face while using public transport stops?": "Welche konkreten Hindernisse erleben Sie bei der Nutzung von Haltestellen öffentlicher Verkehrsmittel?",
       "#Stairs or level differences": "Treppen oder Höhenunterschiede",
-      "#Difficulty boarding or exiting the vehicle": "Schwierigkeiten beim Ein- oder Aussteigen",
+      "#Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)": "Schwierigkeiten beim Ein- oder Aussteigen (z. B. hohe Stufe, Rampe defekt oder nicht ausgeklappt)",
       "#Narrow or crowded spaces": "Enge oder überfüllte Bereiche",
       "#Poor maintenance or damaged infrastructure": "Schlechte Instandhaltung oder beschädigte Infrastruktur",
-      "#Poor accessibility for mobility needs": "Schlechte Zugänglichkeit bei besonderen Mobilitätsbedürfnissen",
       "#Lack of real-time information displays": "Fehlende Echtzeit-Anzeigen",
       "#Insufficient seating or shelter at stops": "Zu wenige Sitzplätze oder fehlender Wetterschutz an Haltestellen",
       "#I don't face any specific barrier": "Ich habe keine besonderen Hindernisse",
-      "#Other": "Anderes"
+      "#Other": "Anderes",
+      "#Which specific barriers do you face at public transport stops or when getting on and off vehicles?": "Auf welche konkreten Hindernisse stoßen Sie an Haltestellen oder beim Ein- und Aussteigen?",
+      "#Real-time information displays are screens that show when the next vehicle is expected to arrive.": "Echtzeit-Anzeigen sind Bildschirme, die zeigen, wann das nächste Fahrzeug voraussichtlich ankommt.",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Haltestelle oder Fahrzeug mit Rollstuhl, Rollator oder Kinderwagen nicht nutzbar",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Fahrzeuge zu voll, um mit Kinderwagen oder Rollstuhl einzusteigen",
+      "#No sidewalk or walkway to reach the stop": "Kein Gehweg oder Fußweg zur Haltestelle"
     },
     "tr": {
-      "#Which specific barriers did you face while using public transport stops?": "Toplu taşıma duraklarını kullanırken hangi belirli engellerle karşılaştınız?",
       "#Stairs or level differences": "Merdivenler veya seviye farkları",
-      "#Difficulty boarding or exiting the vehicle": "Araca binme veya araçtan inme güçlüğü",
+      "#Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)": "Araca binme veya araçtan inme güçlüğü (ör. yüksek basamak, rampanın çalışmaması veya açılmaması)",
       "#Narrow or crowded spaces": "Dar veya kalabalık alanlar",
       "#Poor maintenance or damaged infrastructure": "Kötü bakım veya hasarlı altyapı",
-      "#Poor accessibility for mobility needs": "Hareket ihtiyacı olan kişiler için yetersiz erişilebilirlik",
       "#Lack of real-time information displays": "Gerçek zamanlı bilgi ekranlarının olmaması",
       "#Insufficient seating or shelter at stops": "Duraklarda yeterli oturma alanı veya siperlik olmaması",
       "#I don't face any specific barrier": "Belirli bir engelle karşılaşmıyorum",
-      "#Other": "Diğer"
+      "#Other": "Diğer",
+      "#Which specific barriers do you face at public transport stops or when getting on and off vehicles?": "Toplu taşıma duraklarında veya araçlara binip inerken hangi belirli engellerle karşılaşıyorsunuz?",
+      "#Real-time information displays are screens that show when the next vehicle is expected to arrive.": "Gerçek zamanlı bilgi ekranları, bir sonraki aracın ne zaman gelmesinin beklendiğini gösteren ekranlardır.",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Durak veya araç tekerlekli sandalye, yürüteç ya da bebek arabasıyla kullanılamıyor",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Araçlar bebek arabası veya tekerlekli sandalyeyle binilemeyecek kadar kalabalık",
+      "#No sidewalk or walkway to reach the stop": "Durağa ulaşmak için kaldırım veya yaya yolu yok"
     },
     "fa": {
-      "#Which specific barriers did you face while using public transport stops?": "هنگام استفاده از ایستگاه‌های حمل‌ونقل عمومی با چه موانع مشخصی روبه‌رو شده‌اید؟",
       "#Stairs or level differences": "پله یا اختلاف سطح",
-      "#Difficulty boarding or exiting the vehicle": "دشواری در سوار یا پیاده شدن از وسیله",
+      "#Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)": "دشواری در سوار یا پیاده شدن از وسیله (مثلاً پلهٔ بلند، رمپی که کار نمی‌کند یا باز نمی‌شود)",
       "#Narrow or crowded spaces": "فضای باریک یا شلوغ",
       "#Poor maintenance or damaged infrastructure": "نگهداری ضعیف یا زیرساخت آسیب‌دیده",
-      "#Poor accessibility for mobility needs": "دسترسی نامناسب برای نیازهای حرکتی",
       "#Lack of real-time information displays": "نبود نمایشگر اطلاعات لحظه‌ای",
       "#Insufficient seating or shelter at stops": "کمبود صندلی یا سرپناه در ایستگاه",
       "#I don't face any specific barrier": "با مانع مشخصی روبه‌رو نمی‌شوم",
-      "#Other": "سایر"
+      "#Other": "سایر",
+      "#Which specific barriers do you face at public transport stops or when getting on and off vehicles?": "در ایستگاه‌های حمل‌ونقل عمومی یا هنگام سوار و پیاده شدن از وسایل نقلیه با چه موانع مشخصی روبه‌رو می‌شوید؟",
+      "#Real-time information displays are screens that show when the next vehicle is expected to arrive.": "نمایشگر اطلاعات لحظه‌ای صفحه‌ای است که زمان پیش‌بینی‌شدهٔ رسیدن وسیلهٔ بعدی را نشان می‌دهد.",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "ایستگاه یا وسیلهٔ نقلیه با ویلچر، واکر یا کالسکهٔ کودک قابل استفاده نیست",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "وسایل نقلیه برای سوار شدن با کالسکهٔ کودک یا ویلچر بیش از حد شلوغ هستند",
+      "#No sidewalk or walkway to reach the stop": "پیاده‌رو یا مسیر پیاده‌ای برای رسیدن به ایستگاه وجود ندارد"
     },
     "hu": {
-      "#Which specific barriers did you face while using public transport stops?": "Milyen konkrét akadályokkal találkozott a tömegközlekedési megállók használatakor?",
       "#Stairs or level differences": "Lépcsők vagy szintkülönbségek",
-      "#Difficulty boarding or exiting the vehicle": "Nehézség a járműre való fel- vagy leszálláskor",
+      "#Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)": "Nehézség a járműre való fel- vagy leszálláskor (pl. magas lépcső, nem működő vagy ki nem nyitott rámpa)",
       "#Narrow or crowded spaces": "Szűk vagy zsúfolt terek",
       "#Poor maintenance or damaged infrastructure": "Rossz karbantartás vagy sérült infrastruktúra",
-      "#Poor accessibility for mobility needs": "Nem megfelelő hozzáférés mozgási igények esetén",
       "#Lack of real-time information displays": "Valós idejű információs kijelzők hiánya",
       "#Insufficient seating or shelter at stops": "Kevés ülőhely vagy fedett váró a megállóban",
       "#I don't face any specific barrier": "Nem találkozom konkrét akadállyal",
-      "#Other": "Egyéb"
+      "#Other": "Egyéb",
+      "#Which specific barriers do you face at public transport stops or when getting on and off vehicles?": "Milyen konkrét akadályokkal találkozik a tömegközlekedési megállókban vagy a járművekre való fel- és leszálláskor?",
+      "#Real-time information displays are screens that show when the next vehicle is expected to arrive.": "A valós idejű információs kijelzők olyan képernyők, amelyek mutatják, mikorra várható a következő jármű érkezése.",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "A megálló vagy a jármű nem használható kerekesszékkel, járókerettel vagy babakocsival",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "A járművek túl zsúfoltak ahhoz, hogy babakocsival vagy kerekesszékkel felszálljak",
+      "#No sidewalk or walkway to reach the stop": "Nincs járda vagy gyalogút a megállóhoz"
     },
     "ar": {
-      "#Which specific barriers did you face while using public transport stops?": "ما العوائق المحددة التي واجهتها عند استخدام محطات النقل العام؟",
       "#Stairs or level differences": "درج أو اختلاف في المستوى",
-      "#Difficulty boarding or exiting the vehicle": "صعوبة في الصعود إلى المركبة أو النزول منها",
+      "#Difficulty getting on or off the vehicle (e.g., high step, ramp not working or not deployed)": "صعوبة في الصعود إلى المركبة أو النزول منها (مثل درجة عالية، أو منحدر لا يعمل أو لا يتم إنزاله)",
       "#Narrow or crowded spaces": "مساحات ضيقة أو مزدحمة",
       "#Poor maintenance or damaged infrastructure": "صيانة سيئة أو بنية تحتية متضررة",
-      "#Poor accessibility for mobility needs": "صعوبة الوصول للأشخاص الذين لديهم احتياجات حركية",
       "#Lack of real-time information displays": "غياب شاشات المعلومات الفورية",
       "#Insufficient seating or shelter at stops": "قلة المقاعد أو أماكن الحماية من الطقس في المحطات",
       "#I don't face any specific barrier": "لا أواجه عائقًا محددًا",
-      "#Other": "أخرى"
+      "#Other": "أخرى",
+      "#Which specific barriers do you face at public transport stops or when getting on and off vehicles?": "ما العوائق المحددة التي تواجهها في محطات النقل العام أو عند الصعود إلى المركبات والنزول منها؟",
+      "#Real-time information displays are screens that show when the next vehicle is expected to arrive.": "شاشات المعلومات الفورية شاشات تُظهر الموعد المتوقع لوصول المركبة التالية.",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "لا يمكن استخدام المحطة أو المركبة بكرسي متحرك أو مشّاية أو عربة أطفال",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "المركبات مزدحمة جدًا للصعود بعربة أطفال أو كرسي متحرك",
+      "#No sidewalk or walkway to reach the stop": "لا يوجد رصيف أو ممر للمشاة للوصول إلى المحطة"
     }
   }
 }
