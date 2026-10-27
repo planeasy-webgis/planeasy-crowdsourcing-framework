@@ -1,0 +1,371 @@
+{
+  "questionnaire": {
+    "name": "Comitato Cittadinanza Attiva Casal Bertone - Poliambulatorio ASL di Largo De Dominicis",
+    "questionnaire_id": "comitato_casal_bertone_case_comunita",
+    "questionnaire_version": "0.3.0",
+    "project": "cittadinanza_attiva_casal_bertone",
+    "estimated_minutes": 2,
+    "options": {
+      "review_mode": false,
+      "ask_consent": true,
+      "ask_adult": true,
+      "save_user_id": false
+    },
+    "welcome_page": {
+      "title": "Dove vai ora per curarti?",
+      "description": "<p>Sette domande, solo tocchi. Il comitato Cittadinanza Attiva Casal Bertone conta quali servizi usavate al Poliambulatorio ASL Roma 2 di Largo De Dominicis, dove dovete andare ora e come ci arrivate.</p><p>Anonimo: nessun nome, email o indirizzo. Solo conteggi complessivi per zona. Per maggiorenni; chi accompagna un familiare risponde pensando a lui o a lei.</p>"
+    },
+    "final_page": {
+      "title": "Grazie!",
+      "description": "<p>Le tue risposte sono state registrate. I risultati, solo in forma aggregata, saranno presentati alle assemblee del comitato.</p>"
+    },
+    "title": "Il Poliambulatorio di Largo De Dominicis: cosa cambia per te",
+    "sections": [
+      {
+        "title": "Il Poliambulatorio di Largo De Dominicis",
+        "description": "",
+        "backgroundColor": "#f0f0f0",
+        "questions": [
+          {
+            "text": "Quale servizio usavi al Poliambulatorio ASL di Largo De Dominicis? (anche più di una risposta)",
+            "answer_key": "servizi_usati",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Visite specialistiche (cardiologia, oculistica, dermatologia…)",
+                "value": "ambulatorio_specialistico"
+              },
+              {
+                "text": "Radiologia, ecografie, ritiro referti",
+                "value": "radiologia"
+              },
+              {
+                "text": "Prelievi del sangue",
+                "value": "prelievi"
+              },
+              {
+                "text": "Sportello CUP (prenotazioni, esenzioni, scelta del medico)",
+                "value": "cup"
+              },
+              {
+                "text": "Ambulatorio infermieristico (medicazioni, iniezioni)",
+                "value": "infermieristico"
+              },
+              {
+                "text": "Medico nei festivi (AmbuFest)",
+                "value": "ambufest"
+              },
+              {
+                "text": "Uffici (PUA, assistenza domiciliare, invalidità)",
+                "value": "uffici"
+              },
+              {
+                "text": "Nessuno",
+                "value": "nessuno"
+              }
+            ],
+            "required": true,
+            "question_id": "servizi_usati",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "Dove devi andare ora per questi servizi, se lo sai? (anche più di una risposta)",
+            "answer_key": "destinazione",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Ancora al Poliambulatorio di Largo De Dominicis",
+                "value": "de_dominicis"
+              },
+              {
+                "text": "Casa della Comunità Tiburtino III (via Mozart)",
+                "value": "cdc_tiburtino_iii"
+              },
+              {
+                "text": "Casa della Comunità Frantoio (via del Frantoio)",
+                "value": "cdc_frantoio"
+              },
+              {
+                "text": "Casa della Comunità Pietralata (via di Pietralata)",
+                "value": "cdc_pietralata"
+              },
+              {
+                "text": "Casa della Comunità Villa Tiburtina (via di Casal dei Pazzi)",
+                "value": "cdc_villa_tiburtina"
+              },
+              {
+                "text": "Casa della Comunità Bonifacio (San Basilio)",
+                "value": "cdc_bonifacio"
+              },
+              {
+                "text": "Casa della Comunità Santa Caterina (via Forteguerri)",
+                "value": "cdc_santa_caterina"
+              },
+              {
+                "text": "Un'altra sede",
+                "value": "altra_sede"
+              },
+              {
+                "text": "Non lo so",
+                "value": "non_so"
+              }
+            ],
+            "required": false,
+            "question_id": "destinazione",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "Con che mezzo ci andrai?",
+            "answer_key": "mezzo_ora",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "A piedi",
+                "value": "piedi"
+              },
+              {
+                "text": "Bus, tram o metro",
+                "value": "mezzi_pubblici"
+              },
+              {
+                "text": "In auto, guidando io",
+                "value": "auto_guido"
+              },
+              {
+                "text": "In auto, accompagnato/a",
+                "value": "auto_accompagnato"
+              },
+              {
+                "text": "In taxi",
+                "value": "taxi"
+              },
+              {
+                "text": "In bicicletta",
+                "value": "bici"
+              },
+              {
+                "text": "Non riesco ad andarci",
+                "value": "non_riesco"
+              },
+              {
+                "text": "Non lo so ancora",
+                "value": "non_so"
+              }
+            ],
+            "required": false,
+            "question_id": "mezzo_ora",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "Riesci ad andarci da solo/a?",
+            "answer_key": "autonomia",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Sì, senza problemi",
+                "value": "si"
+              },
+              {
+                "text": "Solo se qualcuno mi accompagna",
+                "value": "accompagnato"
+              },
+              {
+                "text": "In auto non posso più guidare",
+                "value": "niente_auto"
+              },
+              {
+                "text": "No",
+                "value": "no"
+              }
+            ],
+            "required": false,
+            "question_id": "autonomia",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "Con che mezzo andavi al Poliambulatorio di Largo De Dominicis?",
+            "answer_key": "mezzo_prima",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "A piedi",
+                "value": "piedi"
+              },
+              {
+                "text": "Bus, tram o metro",
+                "value": "mezzi_pubblici"
+              },
+              {
+                "text": "In auto, guidando io",
+                "value": "auto_guido"
+              },
+              {
+                "text": "In auto, accompagnato/a",
+                "value": "auto_accompagnato"
+              },
+              {
+                "text": "In taxi",
+                "value": "taxi"
+              },
+              {
+                "text": "In bicicletta",
+                "value": "bici"
+              }
+            ],
+            "required": false,
+            "question_id": "mezzo_prima",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "In quale zona abiti?",
+            "answer_key": "zona",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Casal Bertone",
+                "value": "casal_bertone"
+              },
+              {
+                "text": "Portonaccio",
+                "value": "portonaccio"
+              },
+              {
+                "text": "Tiburtino, Stazione Tiburtina",
+                "value": "tiburtino"
+              },
+              {
+                "text": "Pietralata, Casal Bruciato",
+                "value": "pietralata_casal_bruciato"
+              },
+              {
+                "text": "Pigneto, Prenestino (Municipio V)",
+                "value": "pigneto_prenestino"
+              },
+              {
+                "text": "Collatino, Villa Gordiani",
+                "value": "collatino"
+              },
+              {
+                "text": "San Lorenzo",
+                "value": "san_lorenzo"
+              },
+              {
+                "text": "Colli Aniene, Tiburtino III",
+                "value": "colli_aniene"
+              },
+              {
+                "text": "Un'altra zona",
+                "value": "altra_zona"
+              }
+            ],
+            "required": false,
+            "question_id": "zona",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "Quanti anni hai?",
+            "answer_key": "eta",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Meno di 40",
+                "value": "u40"
+              },
+              {
+                "text": "Da 40 a 64",
+                "value": "40_64"
+              },
+              {
+                "text": "Da 65 a 79",
+                "value": "65_79"
+              },
+              {
+                "text": "80 o più",
+                "value": "80_piu"
+              }
+            ],
+            "required": false,
+            "question_id": "eta",
+            "question_version": "1.0.0"
+          }
+        ]
+      }
+    ],
+    "gdpr_link": "https://michetta91.github.io/planeasy-webgis/transparency.html"
+  },
+  "languages": {
+    "it": {
+      "code": "it",
+      "#Dove vai ora per curarti?": "Dove vai ora per curarti?",
+      "#Grazie!": "Grazie!",
+      "#Il Poliambulatorio di Largo De Dominicis": "Il Poliambulatorio di Largo De Dominicis",
+      "#Il Poliambulatorio di Largo De Dominicis: cosa cambia per te": "Il Poliambulatorio di Largo De Dominicis: cosa cambia per te",
+      "#Ambulatorio infermieristico (medicazioni, iniezioni)": "Ambulatorio infermieristico (medicazioni, iniezioni)",
+      "#Medico nei festivi (AmbuFest)": "Medico nei festivi (AmbuFest)",
+      "#Nessuno": "Nessuno",
+      "#Prelievi del sangue": "Prelievi del sangue",
+      "#Quale servizio usavi al Poliambulatorio ASL di Largo De Dominicis? (anche più di una risposta)": "Quale servizio usavi al Poliambulatorio ASL di Largo De Dominicis? (anche più di una risposta)",
+      "#Radiologia, ecografie, ritiro referti": "Radiologia, ecografie, ritiro referti",
+      "#Sportello CUP (prenotazioni, esenzioni, scelta del medico)": "Sportello CUP (prenotazioni, esenzioni, scelta del medico)",
+      "#Uffici (PUA, assistenza domiciliare, invalidità)": "Uffici (PUA, assistenza domiciliare, invalidità)",
+      "#Visite specialistiche (cardiologia, oculistica, dermatologia…)": "Visite specialistiche (cardiologia, oculistica, dermatologia…)",
+      "#Ancora al Poliambulatorio di Largo De Dominicis": "Ancora al Poliambulatorio di Largo De Dominicis",
+      "#Casa della Comunità Bonifacio (San Basilio)": "Casa della Comunità Bonifacio (San Basilio)",
+      "#Casa della Comunità Frantoio (via del Frantoio)": "Casa della Comunità Frantoio (via del Frantoio)",
+      "#Casa della Comunità Pietralata (via di Pietralata)": "Casa della Comunità Pietralata (via di Pietralata)",
+      "#Casa della Comunità Santa Caterina (via Forteguerri)": "Casa della Comunità Santa Caterina (via Forteguerri)",
+      "#Casa della Comunità Tiburtino III (via Mozart)": "Casa della Comunità Tiburtino III (via Mozart)",
+      "#Casa della Comunità Villa Tiburtina (via di Casal dei Pazzi)": "Casa della Comunità Villa Tiburtina (via di Casal dei Pazzi)",
+      "#Dove devi andare ora per questi servizi, se lo sai? (anche più di una risposta)": "Dove devi andare ora per questi servizi, se lo sai? (anche più di una risposta)",
+      "#Non lo so": "Non lo so",
+      "#Un'altra sede": "Un'altra sede",
+      "#A piedi": "A piedi",
+      "#Bus, tram o metro": "Bus, tram o metro",
+      "#Con che mezzo ci andrai?": "Con che mezzo ci andrai?",
+      "#In auto, accompagnato/a": "In auto, accompagnato/a",
+      "#In auto, guidando io": "In auto, guidando io",
+      "#In bicicletta": "In bicicletta",
+      "#In taxi": "In taxi",
+      "#Non lo so ancora": "Non lo so ancora",
+      "#Non riesco ad andarci": "Non riesco ad andarci",
+      "#In auto non posso più guidare": "In auto non posso più guidare",
+      "#No": "No",
+      "#Riesci ad andarci da solo/a?": "Riesci ad andarci da solo/a?",
+      "#Solo se qualcuno mi accompagna": "Solo se qualcuno mi accompagna",
+      "#Sì, senza problemi": "Sì, senza problemi",
+      "#Con che mezzo andavi al Poliambulatorio di Largo De Dominicis?": "Con che mezzo andavi al Poliambulatorio di Largo De Dominicis?",
+      "#Casal Bertone": "Casal Bertone",
+      "#Collatino, Villa Gordiani": "Collatino, Villa Gordiani",
+      "#Colli Aniene, Tiburtino III": "Colli Aniene, Tiburtino III",
+      "#In quale zona abiti?": "In quale zona abiti?",
+      "#Pietralata, Casal Bruciato": "Pietralata, Casal Bruciato",
+      "#Pigneto, Prenestino (Municipio V)": "Pigneto, Prenestino (Municipio V)",
+      "#Portonaccio": "Portonaccio",
+      "#San Lorenzo": "San Lorenzo",
+      "#Tiburtino, Stazione Tiburtina": "Tiburtino, Stazione Tiburtina",
+      "#Un'altra zona": "Un'altra zona",
+      "#80 o più": "80 o più",
+      "#Da 40 a 64": "Da 40 a 64",
+      "#Da 65 a 79": "Da 65 a 79",
+      "#Meno di 40": "Meno di 40",
+      "#Quanti anni hai?": "Quanti anni hai?"
+    }
+  },
+  "id": "comitato_casal_bertone_case_comunita",
+  "db_set": "questionnaires",
+  "response_format": "planeasy.response",
+  "response_schema_version": "2.0",
+  "response_kind": "survey",
+  "default_language": "it",
+  "response_contract": {
+    "entity": {},
+    "related_entities": [],
+    "geometry": null,
+    "privacy": {
+      "email": "not_collected",
+      "remove_user_id_supported": false
+    },
+    "id_strategy": "generated_response_id",
+    "subcollection": "surveyResponses/{questionnaireId}/responses/{responseId}"
+  }
+}

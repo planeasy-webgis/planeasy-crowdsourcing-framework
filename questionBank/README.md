@@ -18,3 +18,7 @@ Files ending in `.generated.json` are derived outputs; do not edit them manually
 The initial import uses SmartUrbanity main history, including v0. Definitions remain draft. Earlier distinct source definitions were assigned chronological 0.N.0 revisions; source-main declared question versions were retained. Translations come from the exact source dictionaries. Privacy classification is question-level; topic assignments marked needs_review still require review.
 
 There are no saved editorial review records in this initial pool. Saved authoring reviews can be included in the generated feed by the builder; runtime questionnaires remain separate.
+
+## Casal Bertone configuration migration
+
+The seven existing Italian Casal Bertone definitions and their exact 1.0.0 revisions are preserved in this pool. The standalone questionnaire and catalog are under questionnaires/cittadinanza_attiva_casal_bertone/. Their wording, response keys, options, translations and consent remain unchanged. Topic assignments are provisional and marked needs_review. This repository owns these project data; the application repository reads the standalone catalog by a pinned external URL. The pool remains authoring-only, with no questionnaire bodies or flows embedded.
