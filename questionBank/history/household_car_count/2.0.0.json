@@ -1,0 +1,60 @@
+{
+  "question_id": "household_car_count",
+  "key": "household_car_count",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "origin_questionnaire": "perception_on_ride_sharing",
+  "source_questionnaires": [
+    "perception_on_ride_sharing"
+  ],
+  "schema": {
+    "text": "How many cars does your household own?",
+    "answer_key": "household_car_count",
+    "question_type": "single_option",
+    "privacy_classification": "personal_data",
+    "options": [
+      {
+        "text": "None",
+        "value": "0"
+      },
+      {
+        "text": "One",
+        "value": "1"
+      },
+      {
+        "text": "Two",
+        "value": "2"
+      },
+      {
+        "text": "Three",
+        "value": "3"
+      },
+      {
+        "text": "Four or more",
+        "value": "4_plus"
+      }
+    ],
+    "add_prefer_not_to_say": true
+  },
+  "translations": {
+    "en": {
+      "#How many cars does your household own?": "How many cars does your household own?",
+      "#None": "None",
+      "#One": "One",
+      "#Two": "Two",
+      "#Three": "Three",
+      "#Four or more": "Four or more",
+      "#Prefer not to say": "Prefer not to say"
+    },
+    "fa": {
+      "#How many cars does your household own?": "خانوار شما چند خودرو دارد؟",
+      "#None": "هیچ‌کدام",
+      "#One": "یک",
+      "#Two": "دو",
+      "#Three": "سه",
+      "#Four or more": "چهار یا بیشتر",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم"
+    }
+  }
+}

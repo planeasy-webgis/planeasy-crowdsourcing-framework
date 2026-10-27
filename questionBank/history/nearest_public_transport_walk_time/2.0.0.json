@@ -1,0 +1,60 @@
+{
+  "question_id": "nearest_public_transport_walk_time",
+  "key": "nearest_public_transport_walk_time",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "origin_questionnaire": "perception_on_ride_sharing",
+  "source_questionnaires": [
+    "perception_on_ride_sharing"
+  ],
+  "schema": {
+    "text": "How long does it take you to walk from home to the bus or metro stop you usually use?",
+    "answer_key": "nearest_public_transport_walk_time",
+    "question_type": "single_option",
+    "privacy_classification": "personal_data",
+    "options": [
+      {
+        "text": "Up to 5 minutes",
+        "value": "up_to_5"
+      },
+      {
+        "text": "6–10 minutes",
+        "value": "6_to_10"
+      },
+      {
+        "text": "11–15 minutes",
+        "value": "11_to_15"
+      },
+      {
+        "text": "More than 15 minutes",
+        "value": "over_15"
+      },
+      {
+        "text": "I cannot walk to the stop",
+        "value": "cannot_walk"
+      }
+    ],
+    "add_prefer_not_to_say": true
+  },
+  "translations": {
+    "en": {
+      "#How long does it take you to walk from home to the bus or metro stop you usually use?": "How long does it take you to walk from home to the bus or metro stop you usually use?",
+      "#Up to 5 minutes": "Up to 5 minutes",
+      "#6–10 minutes": "6–10 minutes",
+      "#11–15 minutes": "11–15 minutes",
+      "#More than 15 minutes": "More than 15 minutes",
+      "#I cannot walk to the stop": "I cannot walk to the stop",
+      "#Prefer not to say": "Prefer not to say"
+    },
+    "fa": {
+      "#How long does it take you to walk from home to the bus or metro stop you usually use?": "پیاده‌روی از خانه تا ایستگاه اتوبوس یا مترویی که معمولاً استفاده می‌کنید چقدر طول می‌کشد؟",
+      "#Up to 5 minutes": "تا ۵ دقیقه",
+      "#6–10 minutes": "۶ تا ۱۰ دقیقه",
+      "#11–15 minutes": "۱۱ تا ۱۵ دقیقه",
+      "#More than 15 minutes": "بیش از ۱۵ دقیقه",
+      "#I cannot walk to the stop": "نمی‌توانم پیاده به ایستگاه بروم",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم"
+    }
+  }
+}
