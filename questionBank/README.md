@@ -35,13 +35,13 @@ The study is **Perceptions on Ride Sharing**, with project identifier `perceptio
 
 Selection and reuse in this branch are draft proposals, not evidence that a revised definition has already been used in research. Historical source references record actual source occurrences. Topic assignments marked `needs_review` remain editorial aids. Religious-activity questions retain source privacy annotations and still need a specific privacy review; the current classification vocabulary does not distinguish religion.
 
-## Find questions by project
+## Find questions by origin project
 
-Current question files include optional family-level `project_provenance`, with a documented `origin` project and `uses` records at `historical` or `draft` stage. The feed carries this metadata automatically. The builder can distinguish questions originating in a study from generic questions reused there, without adding project names to question IDs.
+Current question files contain only an optional origin_project with project_id and name. It identifies the first documented source project, not authorship. There are no project usage records, usage stages or associated-project lists in the pool. Reusing a question in another questionnaire never changes its origin.
 
-**Perceptions on Ride Sharing** (`perceptions_on_ride_sharing`) is associated with 45 question families: 40 from the recovered study and five generic families reused in its revised draft. **SmartUrbanity** (`smarturbanity`) is associated with the 305 families imported from its configuration history. `historical` means a documented source occurrence, not approval or proof of response collection; `draft` means a proposed composition. These are family associations, not claims that every revision was used in each project. Origin means the first documented source, not an assertion of authorship.
+**Perceptions on Ride Sharing** (perceptions_on_ride_sharing) is the documented origin of 40 recovered question families. The five generic families reused in its questionnaire retain **SmartUrbanity** (smarturbanity) as their documented origin. All 305 families imported from SmartUrbanity retain that origin. Questionnaire composition records which questions are actually selected.
 
-These associations do not change question content or semantic versions. Earlier immutable revision files remain unchanged. Runtime questionnaires retain their selected ID/version references without embedding pool history or project provenance.
+The builder filters by origin project. The feed includes this metadata automatically. Question IDs, wording, semantic versions and immutable historical snapshots remain unchanged. Runtime questionnaires do not embed origin metadata or pool history.
 
 ## Additional recovered survey history
 
