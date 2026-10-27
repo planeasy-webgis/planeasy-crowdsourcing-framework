@@ -1,0 +1,66 @@
+{
+  "question_id": "taxi_security_response_preference",
+  "key": "taxi_security_response_preference",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "origin_questionnaire": "perception_on_ride_sharing",
+  "source_questionnaires": [
+    "perception_on_ride_sharing"
+  ],
+  "schema": {
+    "text": "What would you prefer to do if you experienced a personal security problem in a taxi?",
+    "answer_key": "taxi_security_response_preference",
+    "question_type": "single_option",
+    "privacy_classification": "personal_data",
+    "options": [
+      {
+        "text": "Contact someone I trust",
+        "value": "trusted_contact"
+      },
+      {
+        "text": "Contact the police",
+        "value": "police"
+      },
+      {
+        "text": "Report it to the taxi operator",
+        "value": "operator"
+      },
+      {
+        "text": "Report it anonymously through an app",
+        "value": "anonymous_report"
+      },
+      {
+        "text": "Report it through an app using my details",
+        "value": "named_report"
+      },
+      {
+        "text": "Not sure",
+        "value": "unsure"
+      }
+    ],
+    "add_prefer_not_to_say": true
+  },
+  "translations": {
+    "en": {
+      "#What would you prefer to do if you experienced a personal security problem in a taxi?": "What would you prefer to do if you experienced a personal security problem in a taxi?",
+      "#Contact someone I trust": "Contact someone I trust",
+      "#Contact the police": "Contact the police",
+      "#Report it to the taxi operator": "Report it to the taxi operator",
+      "#Report it anonymously through an app": "Report it anonymously through an app",
+      "#Report it through an app using my details": "Report it through an app using my details",
+      "#Not sure": "Not sure",
+      "#Prefer not to say": "Prefer not to say"
+    },
+    "fa": {
+      "#What would you prefer to do if you experienced a personal security problem in a taxi?": "اگر در تاکسی با مشکل امنیت شخصی روبه‌رو شوید، ترجیح می‌دهید چه کاری انجام دهید؟",
+      "#Contact someone I trust": "تماس با فردی مورد اعتماد",
+      "#Contact the police": "تماس با پلیس",
+      "#Report it to the taxi operator": "گزارش به شرکت تاکسی",
+      "#Report it anonymously through an app": "گزارش ناشناس از طریق برنامه",
+      "#Report it through an app using my details": "گزارش از طریق برنامه با مشخصات خودم",
+      "#Not sure": "مطمئن نیستم",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم"
+    }
+  }
+}
