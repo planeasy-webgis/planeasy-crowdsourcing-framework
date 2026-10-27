@@ -36,3 +36,11 @@ Selection and reuse in this branch are draft proposals, not evidence that a revi
 ## Casal Bertone configuration migration
 
 The seven existing Italian Casal Bertone definitions and their exact 1.0.0 revisions are preserved in this pool. The standalone questionnaire and catalog are under questionnaires/cittadinanza_attiva_casal_bertone/. Their wording, response keys, options, translations and consent remain unchanged. Topic assignments are provisional and marked needs_review. This repository owns these project data; the application repository reads the standalone catalog by a pinned external URL. The pool remains authoring-only, with no questionnaire bodies or flows embedded.
+
+## Find questions by origin project
+
+Current question files contain only an optional origin_project with project_id and name. It identifies the first documented source project, not authorship. There are no project usage records, usage stages or associated-project lists in the pool. Reusing a question in another questionnaire never changes its origin.
+
+**Perceptions on Ride Sharing** (perceptions_on_ride_sharing) is the documented origin of 40 recovered question families. The five generic families reused in its questionnaire retain **SmartUrbanity** (smarturbanity) as their documented origin. All 305 families imported from SmartUrbanity retain that origin. Questionnaire composition records which questions are actually selected.
+
+The builder filters by origin project. The feed includes this metadata automatically. Question IDs, wording, semantic versions and immutable historical snapshots remain unchanged. Runtime questionnaires do not embed origin metadata or pool history.
