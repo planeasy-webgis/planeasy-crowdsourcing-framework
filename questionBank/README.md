@@ -42,3 +42,7 @@ Current question files include optional family-level `project_provenance`, with 
 **Perceptions on Ride Sharing** (`perceptions_on_ride_sharing`) is associated with 45 question families: 40 from the recovered study and five generic families reused in its revised draft. **SmartUrbanity** (`smarturbanity`) is associated with the 305 families imported from its configuration history. `historical` means a documented source occurrence, not approval or proof of response collection; `draft` means a proposed composition. These are family associations, not claims that every revision was used in each project. Origin means the first documented source, not an assertion of authorship.
 
 These associations do not change question content or semantic versions. Earlier immutable revision files remain unchanged. Runtime questionnaires retain their selected ID/version references without embedding pool history or project provenance.
+
+## Additional recovered survey history
+
+The previous `economic_status` and `walk_distance` definitions at backup versions `2.0.0` and `3.0.0` are preserved as archival `0.4.0` and `0.5.0` revisions of each family. The original numbers collide with different content already in the new pool; the history catalog retains the original backup ID/version, path, commit and digest. Their schemas and translations are unchanged. Selected question definitions and the complete questionnaire remain unchanged.
