@@ -1,0 +1,66 @@
+{
+  "question_id": "household_size",
+  "key": "household_size",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "origin_questionnaire": "perception_on_ride_sharing",
+  "source_questionnaires": [
+    "perception_on_ride_sharing"
+  ],
+  "schema": {
+    "text": "How many people live in your household, including you?",
+    "answer_key": "household_size",
+    "question_type": "single_option",
+    "privacy_classification": "personal_data",
+    "options": [
+      {
+        "text": "One",
+        "value": "1"
+      },
+      {
+        "text": "Two",
+        "value": "2"
+      },
+      {
+        "text": "Three",
+        "value": "3"
+      },
+      {
+        "text": "Four",
+        "value": "4"
+      },
+      {
+        "text": "Five",
+        "value": "5"
+      },
+      {
+        "text": "Six or more",
+        "value": "6_plus"
+      }
+    ],
+    "add_prefer_not_to_say": true
+  },
+  "translations": {
+    "en": {
+      "#How many people live in your household, including you?": "How many people live in your household, including you?",
+      "#One": "One",
+      "#Two": "Two",
+      "#Three": "Three",
+      "#Four": "Four",
+      "#Five": "Five",
+      "#Six or more": "Six or more",
+      "#Prefer not to say": "Prefer not to say"
+    },
+    "fa": {
+      "#How many people live in your household, including you?": "چند نفر با احتساب خود شما در خانوارتان زندگی می‌کنند؟",
+      "#One": "یک",
+      "#Two": "دو",
+      "#Three": "سه",
+      "#Four": "چهار",
+      "#Five": "پنج",
+      "#Six or more": "شش یا بیشتر",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "question_id": "taxi_daytime_security",
+  "key": "taxi_daytime_security",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "origin_questionnaire": "perception_on_ride_sharing",
+  "source_questionnaires": [
+    "perception_on_ride_sharing"
+  ],
+  "schema": {
+    "text": "How secure do you feel when using a taxi during the day?",
+    "answer_key": "taxi_daytime_security",
+    "question_type": "single_option",
+    "privacy_classification": "personal_data",
+    "options": [
+      {
+        "text": "Very insecure",
+        "value": "very_insecure"
+      },
+      {
+        "text": "Somewhat insecure",
+        "value": "insecure"
+      },
+      {
+        "text": "Neither secure nor insecure",
+        "value": "neutral"
+      },
+      {
+        "text": "Somewhat secure",
+        "value": "secure"
+      },
+      {
+        "text": "Very secure",
+        "value": "very_secure"
+      }
+    ],
+    "add_prefer_not_to_say": true
+  },
+  "translations": {
+    "en": {
+      "#How secure do you feel when using a taxi during the day?": "How secure do you feel when using a taxi during the day?",
+      "#Very insecure": "Very insecure",
+      "#Somewhat insecure": "Somewhat insecure",
+      "#Neither secure nor insecure": "Neither secure nor insecure",
+      "#Somewhat secure": "Somewhat secure",
+      "#Very secure": "Very secure",
+      "#Prefer not to say": "Prefer not to say"
+    },
+    "fa": {
+      "#How secure do you feel when using a taxi during the day?": "هنگام استفاده از تاکسی در طول روز چقدر احساس امنیت می‌کنید؟",
+      "#Very insecure": "بسیار ناامن",
+      "#Somewhat insecure": "تا حدی ناامن",
+      "#Neither secure nor insecure": "نه امن و نه ناامن",
+      "#Somewhat secure": "تا حدی امن",
+      "#Very secure": "بسیار امن",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم"
+    }
+  }
+}

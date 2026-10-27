@@ -1,0 +1,131 @@
+{
+  "question_id": "service_opportunities",
+  "key": "service_opportunities",
+  "project": "shared",
+  "version": "2.0.1",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_service_opportunities",
+  "source_questionnaires": [
+    "smarturbanity_service",
+    "smarturbanity_service_opportunities"
+  ],
+  "schema": {
+    "text": "What can people do at this service?",
+    "answer_key": "service_opportunities",
+    "question_type": "matrix",
+    "row_source": "opportunities",
+    "row_filter": {
+      "mapping_source": "service_opportunity_mapping",
+      "relation": "provides_opportunity"
+    },
+    "add_other": true,
+    "columns": [
+      {
+        "key": "availability",
+        "label": "Can it be done here?",
+        "type": "select",
+        "options": [
+          {
+            "value": "available",
+            "label": "Yes, it can be done here"
+          },
+          {
+            "value": "not_available_wanted",
+            "label": "No, and I would like it to be possible here"
+          },
+          {
+            "value": "not_available",
+            "label": "No"
+          },
+          {
+            "value": "dont_know",
+            "label": "I don't know"
+          }
+        ]
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#What can people do at this service?": "What can people do at this service?",
+      "#Can it be done here?": "Can it be done here?",
+      "#Yes, it can be done here": "Yes, it can be done here",
+      "#No, and I would like it to be possible here": "No, and I would like it to be possible here",
+      "#No": "No",
+      "#I don't know": "I don't know",
+      "#Other": "Other",
+      "#Please specify": "Please specify"
+    },
+    "it": {
+      "#What can people do at this service?": "Cosa si può fare in questo servizio?",
+      "#Can it be done here?": "Si può fare qui?",
+      "#Yes, it can be done here": "Sì, si può fare qui",
+      "#No, and I would like it to be possible here": "No, e vorrei che si potesse fare qui",
+      "#No": "No",
+      "#I don't know": "Non lo so",
+      "#Other": "Altro",
+      "#Please specify": "Specifica"
+    },
+    "fr": {
+      "#What can people do at this service?": "Que peut-on faire dans ce service ?",
+      "#Can it be done here?": "Peut-on le faire ici ?",
+      "#Yes, it can be done here": "Oui, on peut le faire ici",
+      "#No, and I would like it to be possible here": "Non, et j’aimerais que ce soit possible ici",
+      "#No": "Non",
+      "#I don't know": "Je ne sais pas",
+      "#Other": "Autre",
+      "#Please specify": "Veuillez préciser"
+    },
+    "de": {
+      "#What can people do at this service?": "Was kann man bei diesem Dienst tun?",
+      "#Can it be done here?": "Kann man das hier tun?",
+      "#Yes, it can be done here": "Ja, das kann man hier tun",
+      "#No, and I would like it to be possible here": "Nein, und ich würde mir wünschen, dass es hier möglich ist",
+      "#No": "Nein",
+      "#I don't know": "Ich weiß nicht",
+      "#Other": "Sonstiges",
+      "#Please specify": "Bitte angeben"
+    },
+    "tr": {
+      "#What can people do at this service?": "Bu hizmette insanlar neler yapabilir?",
+      "#Can it be done here?": "Burada yapılabilir mi?",
+      "#Yes, it can be done here": "Evet, burada yapılabilir",
+      "#No, and I would like it to be possible here": "Hayır ama burada yapılabilmesini isterim",
+      "#No": "Hayır",
+      "#I don't know": "Bilmiyorum",
+      "#Other": "Diğer",
+      "#Please specify": "Lütfen belirtin"
+    },
+    "fa": {
+      "#What can people do at this service?": "مردم در این خدمت چه کارهایی می‌توانند انجام دهند؟",
+      "#Can it be done here?": "آیا اینجا می‌توان انجامش داد؟",
+      "#Yes, it can be done here": "بله، اینجا می‌توان انجامش داد",
+      "#No, and I would like it to be possible here": "نه، و دوست دارم اینجا امکان‌پذیر باشد",
+      "#No": "نه",
+      "#I don't know": "نمی‌دانم",
+      "#Other": "سایر",
+      "#Please specify": "لطفاً مشخص کنید"
+    },
+    "hu": {
+      "#What can people do at this service?": "Mit lehet intézni ennél a szolgáltatásnál?",
+      "#Can it be done here?": "Elvégezhető itt?",
+      "#Yes, it can be done here": "Igen, itt elvégezhető",
+      "#No, and I would like it to be possible here": "Nem, de szeretném, ha itt lehetséges lenne",
+      "#No": "Nem",
+      "#I don't know": "Nem tudom",
+      "#Other": "Egyéb",
+      "#Please specify": "Kérjük, pontosítsa"
+    },
+    "ar": {
+      "#What can people do at this service?": "ما الذي يمكن للناس فعله في هذه الخدمة؟",
+      "#Can it be done here?": "هل يمكن القيام به هنا؟",
+      "#Yes, it can be done here": "نعم، يمكن القيام به هنا",
+      "#No, and I would like it to be possible here": "لا، وأودّ أن يكون ذلك ممكنًا هنا",
+      "#No": "لا",
+      "#I don't know": "لا أعرف",
+      "#Other": "أخرى",
+      "#Please specify": "يرجى التحديد"
+    }
+  }
+}
