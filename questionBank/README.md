@@ -32,3 +32,11 @@ The standalone taxi questionnaire reuses five existing selected questions: `age_
 The study is **Perceptions on Ride Sharing**, with project identifier `perceptions_on_ride_sharing`. The existing `no_project/` publication path is retained so its URL remains stable.
 
 Selection and reuse in this branch are draft proposals, not evidence that a revised definition has already been used in research. Historical source references record actual source occurrences. Topic assignments marked `needs_review` remain editorial aids. Religious-activity questions retain source privacy annotations and still need a specific privacy review; the current classification vocabulary does not distinguish religion.
+
+## Find questions by origin project
+
+Current question files contain only an optional origin_project with project_id and name. It identifies the first documented source project, not authorship. There are no project usage records, usage stages or associated-project lists in the pool. Reusing a question in another questionnaire never changes its origin.
+
+**Perceptions on Ride Sharing** (perceptions_on_ride_sharing) is the documented origin of 40 recovered question families. The five generic families reused in its questionnaire retain **SmartUrbanity** (smarturbanity) as their documented origin. All 305 families imported from SmartUrbanity retain that origin. Questionnaire composition records which questions are actually selected.
+
+The builder filters by origin project. The feed includes this metadata automatically. Question IDs, wording, semantic versions and immutable historical snapshots remain unchanged. Runtime questionnaires do not embed origin metadata or pool history.
