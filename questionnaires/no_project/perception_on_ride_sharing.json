@@ -1,1505 +1,1837 @@
 {
-	"questionnaire": {
-		"name": "Perceptions on Ride Sharing",
-		"questionnaire_id": "perception_on_ride_sharing",
-		"questionnaire_version": "0.0.0",
-		"project": "no_project",
-		"image": "https://raw.githubusercontent.com/planeasy-webgis/planeasy-crowdsourcing-framework/main/questionnaires/no_project/assets/perception_on_ride_sharing.jpeg",
-		"image_alt": "#A street by a metro entrance with a bike-sharing station, a person on an e-scooter and a cyclist",
-		"options": {
-			"review_mode": false,
-			"ask_consent": false,
-			"save_user_id": false
-		},
-		"gdpr_link": "https://michetta91.github.io/planeasy-webgis/transparency.html",
-		"sections": [
-			{
-				"title": "Preface",
-				"description": "Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com",
-				"backgroundColor": "#7bccb5",
-				"condition": "undefined",
-				"questions": []
-			},
-			{
-				"title": "Demographic information",
-				"description": "",
-				"backgroundColor": "#7bccb5",
-				"condition": "undefined",
-				"questions": [
-					{
-						"text": "what is your gender?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Man"
-							},
-							{
-								"text": "Female"
-							}
-						]
-					},
-					{
-						"text": "how old are you?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "< 18 years"
-							},
-							{
-								"text": "18-24"
-							},
-							{
-								"text": "25-34"
-							},
-							{
-								"text": "35-49"
-							},
-							{
-								"text": "50-69"
-							},
-							{
-								"text": ">70 "
-							}
-						]
-					},
-					{
-						"text": "What is your highest level of education?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Diploma or less"
-							},
-							{
-								"text": "Bachelor"
-							},
-							{
-								"text": "Master's or Ph.D"
-							}
-						]
-					},
-					{
-						"text": "What is your current employment status?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Student"
-							},
-							{
-								"text": "Employee"
-							},
-							{
-								"text": "My own business"
-							},
-							{
-								"text": "Retired"
-							},
-							{
-								"text": "Unemployed"
-							}
-						]
-					},
-					{
-						"text": "How many people live in your immediate family? Please write the total number of people, including yourself?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "One"
-							},
-							{
-								"text": "two"
-							},
-							{
-								"text": "Three"
-							},
-							{
-								"text": "four"
-							},
-							{
-								"text": "Five and more"
-							}
-						]
-					},
-					{
-						"text": "Can you tell how your family's income compares to other families in your community?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Well below average"
-							},
-							{
-								"text": "Below average"
-							},
-							{
-								"text": "Average"
-							},
-							{
-								"text": "Above average"
-							},
-							{
-								"text": "Much above average"
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "Factors related to the modes of travel",
-				"description": "",
-				"backgroundColor": "#b3d9d9",
-				"condition": "undefined",
-				"questions": [
-					{
-						"text": "How many years of driving experience do you have?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "0 (Because I don't have a driving license)"
-							},
-							{
-								"text": "0 (Because I don't have confidence in driving a car)"
-							},
-							{
-								"text": "Less than 3 years"
-							},
-							{
-								"text": "3-10 years"
-							},
-							{
-								"text": "More than 10 years"
-							}
-						]
-					},
-					{
-						"text": "How many cars does your family own?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Zero"
-							},
-							{
-								"text": "One"
-							},
-							{
-								"text": "two"
-							},
-							{
-								"text": "Three and more than three"
-							}
-						]
-					},
-					{
-						"text": "How many motorcycles does your family own?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Zero"
-							},
-							{
-								"text": "One"
-							},
-							{
-								"text": "two"
-							},
-							{
-								"text": "Three and more than three"
-							}
-						]
-					},
-					{
-						"text": "How far is the walking distance from your home to the nearest metro or bus station that you usually use?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "0-5 minutes"
-							},
-							{
-								"text": "6-10 minutes"
-							},
-							{
-								"text": "11-15 minutes"
-							},
-							{
-								"text": "More than 15 minutes"
-							}
-						]
-					},
-					{
-						"text": "How often do you go on city trips? (such as school, workplace or for shopping and entertainment)",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Daily"
-							},
-							{
-								"text": "Several times a day"
-							},
-							{
-								"text": "weekly"
-							},
-							{
-								"text": "Several times a week"
-							},
-							{
-								"text": "Several times a month"
-							},
-							{
-								"text": "with irregular intervals or without setting time"
-							}
-						]
-					},
-					{
-						"text": "What destinations do you most travel to?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "school or university"
-							},
-							{
-								"text": "Workplace"
-							},
-							{
-								"text": "Shopping"
-							},
-							{
-								"text": "Having fun or meeting friends"
-							},
-							{
-								"text": "Supporting family members"
-							},
-							{
-								"text": "Other services such as hospitals"
-							}
-						]
-					},
-					{
-						"text": "Which modes of transportation do you use the most? Select more than one option if desired",
-						"question_type": "multiple_options",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "personal car"
-							},
-							{
-								"text": "motorcycle"
-							},
-							{
-								"text": "Bus/Metro"
-							},
-							{
-								"text": "Taxis in the city"
-							},
-							{
-								"text": "Van"
-							},
-							{
-								"text": "Agency or internet taxis such as Tapsi or Snap"
-							},
-							{
-								"text": "Bike"
-							},
-							{
-								"text": "walking"
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "Taxi",
-				"description": "",
-				"backgroundColor": "#afdcec",
-				"condition": "undefined",
-				"questions": [
-					{
-						"text": "Online shared taxi is a service that, by using mobile applications, users can share their trips with other passengers on the same route, reduce costs and optimize transportation.",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false
-					},
-					{
-						"text": "Please choose based on your experience using a taxi",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "I have never used taxis"
-							},
-							{
-								"text": "I have used taxis in the city"
-							},
-							{
-								"text": "I have used shared online taxis"
-							},
-							{
-								"text": "I have used both regular and online shared taxi services"
-							}
-						]
-					},
-					{
-						"text": "How do you evaluate the security of taxis?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "very unsecured"
-							},
-							{
-								"text": "Unsecured"
-							},
-							{
-								"text": "Relatively secured"
-							},
-							{
-								"text": "Secured"
-							},
-							{
-								"text": "very secured"
-							}
-						]
-					},
-					{
-						"text": "How secured do you feel when you are using a taxi with a 'familiar person'?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "very unsecured"
-							},
-							{
-								"text": "Unsecured"
-							},
-							{
-								"text": "Relatively secured"
-							},
-							{
-								"text": "Secured"
-							},
-							{
-								"text": "very secured"
-							}
-						]
-					},
-					{
-						"text": "How secured do you feel when you are using a taxi with 'strange women'?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "very unsecured"
-							},
-							{
-								"text": "Unsecured"
-							},
-							{
-								"text": "Relatively secured"
-							},
-							{
-								"text": "Secured"
-							},
-							{
-								"text": "very secured"
-							}
-						]
-					},
-					{
-						"text": "How secured do you feel when you are using a taxi with 'strange men'?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "very unsecured"
-							},
-							{
-								"text": "Unsecured"
-							},
-							{
-								"text": "Relatively secured"
-							},
-							{
-								"text": "Secured"
-							},
-							{
-								"text": "very secured"
-							}
-						]
-					},
-					{
-						"text": "How secured do you feel when you use a taxi 'during the day'?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "very unsecured"
-							},
-							{
-								"text": "Unsecured"
-							},
-							{
-								"text": "Relatively secured"
-							},
-							{
-								"text": "Secured"
-							},
-							{
-								"text": "very secured"
-							}
-						]
-					},
-					{
-						"text": "How secured do you feel when you use a taxi ' during the night '?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "very unsecured"
-							},
-							{
-								"text": "Unsecured"
-							},
-							{
-								"text": "Relatively secured"
-							},
-							{
-								"text": "Secured"
-							},
-							{
-								"text": "very secured"
-							}
-						]
-					},
-					{
-						"text": "How secured do you feel when you use a taxi in 'urban areas'?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "very unsecured"
-							},
-							{
-								"text": "Unsecured"
-							},
-							{
-								"text": "Relatively secured"
-							},
-							{
-								"text": "Secured"
-							},
-							{
-								"text": "very secured"
-							}
-						]
-					},
-					{
-						"text": "How secured do you feel when you use a taxi in the 'Outside the city Areas'?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "very unsecured"
-							},
-							{
-								"text": "Unsecured"
-							},
-							{
-								"text": "Relatively secured"
-							},
-							{
-								"text": "Secured"
-							},
-							{
-								"text": "very secured"
-							}
-						]
-					},
-					{
-						"text": "Do you have a preference for the 'gender of the driver' of the shared taxi?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes, I prefer male driver because they drive better and safer"
-							},
-							{
-								"text": "Yes, I prefer a male driver, because I feel secured with a male driver"
-							},
-							{
-								"text": "Yes, I prefer female driver because they drive better and safer"
-							},
-							{
-								"text": "Yes, I prefer a female driver, because I feel secured with a female driver"
-							},
-							{
-								"text": "There is no difference"
-							}
-						]
-					},
-					{
-						"text": "Do you think your willingness or unwillingness to talk to strangers might influence your choice of taxi service?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes, it has an effect, I like to talk to people"
-							},
-							{
-								"text": "Yes, it has an effect, I feel uncomfortable talking to strangers"
-							},
-							{
-								"text": "It does not affect my choice"
-							},
-							{
-								"text": "No, it doesn't matter, although I like to talk to people"
-							},
-							{
-								"text": "No, it doesn't matter, although I feel uncomfortable talking to strangers"
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "Scoring",
-				"description": "",
-				"backgroundColor": "#7c9d8e",
-				"condition": "undefined",
-				"questions": [
-					{
-						"text": "Safety refers to protecting people from unintentional hazards and incidents such as accidents and vehicle breakdowns, while security is concerned with protecting people from intentional threats such as theft and criminal attacks.",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false
-					},
-					{
-						"text": "In each section, please rate the importance of the issue in using a taxi on a scale of 1-5, where 1 means 'not important' and 5 means 'very important'",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false
-					},
-					{
-						"text": "security",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "safety",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "Convenience and ease (such as having an air conditioner, comfortable seats, etc.)",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "Travel time",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "Car cleanliness",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "Taxi fares",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "Question Text",
-						"question_type": "single_option",
-						"condition": "undefined",
-						"prefer_not_to_say": false,
-						"add_other": false
-					}
-				]
-			},
-			{
-				"title": "Social perception",
-				"description": "",
-				"backgroundColor": "#b5eaaa",
-				"condition": "undefined",
-				"questions": [
-					{
-						"text": "Do you care about the social class of other passengers when using a taxi?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "not important"
-							},
-							{
-								"text": "A bit important"
-							},
-							{
-								"text": "Relatively important"
-							},
-							{
-								"text": "Important"
-							},
-							{
-								"text": "Very important"
-							}
-						]
-					},
-					{
-						"text": "Have you ever hesitated to take a taxi because of concern about your social image?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Never"
-							},
-							{
-								"text": "rarely"
-							},
-							{
-								"text": "sometimes"
-							},
-							{
-								"text": "mostly"
-							},
-							{
-								"text": "Many times"
-							}
-						]
-					},
-					{
-						"text": "How often do you go to a religious place (such as church, mosque, etc.)?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Never"
-							},
-							{
-								"text": "rarely"
-							},
-							{
-								"text": "Several times a year"
-							},
-							{
-								"text": "monthly"
-							},
-							{
-								"text": "Weekly or more"
-							}
-						]
-					},
-					{
-						"text": "How often do you engage in private religious activities, such as prayer, meditation, etc.?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Never"
-							},
-							{
-								"text": "once a month"
-							},
-							{
-								"text": "once a week"
-							},
-							{
-								"text": "Several times a week"
-							},
-							{
-								"text": "Daily"
-							}
-						]
-					},
-					{
-						"text": "Do family restrictions directly affect your decisions about how to travel?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes, always"
-							},
-							{
-								"text": "Yes, most of the time"
-							},
-							{
-								"text": "Yes, sometimes"
-							},
-							{
-								"text": "rarely"
-							},
-							{
-								"text": "No, never"
-							}
-						]
-					},
-					{
-						"text": "Do you take your family's advice into account when deciding about mode of transportation ?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes, always"
-							},
-							{
-								"text": "Yes, most of the time"
-							},
-							{
-								"text": "Yes, sometimes"
-							},
-							{
-								"text": "rarely"
-							},
-							{
-								"text": "No, never"
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "Survey",
-				"description": "",
-				"backgroundColor": "#7dd4c5",
-				"condition": "undefined",
-				"questions": [
-					{
-						"text": "Pink transportation refers to services that are specifically designed for women and aim to provide a safer and more comfortable travel experience, such as women-only taxis or separate spaces on buses and subways for women.",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false
-					},
-					{
-						"text": "Do you think that pink transportation has given an appropriate answer to the security issue?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "no"
-							}
-						]
-					},
-					{
-						"text": "Security apps are usually designed to help travelers stay safer on their travels. Some of the features of these applications include tracking, sending emergency messages, or reporting anti-social behavior or vandalism.",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false
-					},
-					{
-						"text": "Have you ever downloaded or purchased a security app?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "no"
-							}
-						]
-					},
-					{
-						"text": "Do you have privacy concerns using these types of apps?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Yes"
-							},
-							{
-								"text": "no"
-							}
-						]
-					},
-					{
-						"text": "What is your preference when facing any security problem in a taxi?",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "Contact a familiar person"
-							},
-							{
-								"text": "Go to the police"
-							},
-							{
-								"text": "Direct phone call to the transportation provider center and report the issue"
-							},
-							{
-								"text": "Using security applications and reporting the issue anonymously"
-							},
-							{
-								"text": "The use of security applications and the possibility of reporting the issue with personal or anonymous information"
-							}
-						]
-					},
-					{
-						"text": "How much more would you be willing to pay for a taxi that implements enhanced security measures? Such as tracking the vehicle's route, and verifying the driver's identity. Please indicate your willingness to pay a percentage increase from the standard fare",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "0-10%"
-							},
-							{
-								"text": "11-20%"
-							},
-							{
-								"text": "21-30%"
-							},
-							{
-								"text": "More than 30 percent"
-							},
-							{
-								"text": "I'm not willing to spend more for additional security."
-							}
-						]
-					}
-				]
-			},
-			{
-				"title": "The future implementation",
-				"description": "",
-				"backgroundColor": "#000000",
-				"condition": "undefined",
-				"questions": [
-					{
-						"text": "Please rate the importance of each topic on a scale of 1-5, where 1 is 'not important' and 5 is 'very important'",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false
-					},
-					{
-						"text": "Send your location or taxi information to trusted contacts while using a taxi.",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "Implement real-time driver tracking feature to enhance security",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips",
-						"question_type": "single_option",
-						"prefer_not_to_say": false,
-						"add_other": false,
-						"options": [
-							{
-								"text": "1"
-							},
-							{
-								"text": "2"
-							},
-							{
-								"text": "3"
-							},
-							{
-								"text": "4"
-							},
-							{
-								"text": "5"
-							}
-						]
-					},
-					{
-						"text": "If you have any experience or ideas related to this research, we would be very happy for you to share them with us.",
-						"question_type": "text"
-					}
-				]
-			}
-		]
-	},
-	"languages": {
-		"en": {
-			"code": "en",
-			"#0 (Because I don't have a driving license)": "0 (Because I don't have a driving license) ",
-			"#0 (Because I don't have confidence in driving a car)": "0 (Because I don't have confidence in driving a car)",
-			"#0-10%": "0-10%",
-			"#0-5 minutes": "0-5 minutes",
-			"#11-15 minutes": "11-15 minutes",
-			"#11-20%": "11-20%",
-			"#18-24": "18-24",
-			"#21-30%": "21-30%",
-			"#25-34": "25-34",
-			"#3-10 years": "3-10 years",
-			"#35-49": "35-49",
-			"#6-10 minutes": "6-10 minutes",
-			"#< 18 years": "< 18 years",
-			"#A bit important": "A bit important",
-			"#Above average": "Above average",
-			"#Agency or internet taxis such as Tapsi or Snap": "Agency or internet taxis such as Tapsi or Snap",
-			"#Average": "Average",
-			"#Bachelor": "Bachelor",
-			"#Below average": "Below average",
-			"#Bike": "Bike",
-			"#Bus/Metro": "Bus/Metro",
-			"#Can you tell how your family's income compares to other families in your community?": "Can you tell how your family's income compares to other families in your community?",
-			"#Car cleanliness": "Car cleanliness",
-			"#Contact a familiar person": "Contact a familiar person",
-			"#Convenience and ease (such as having an air conditioner, comfortable seats, etc.)": "Convenience and ease (such as having an air conditioner, comfortable seats, etc.)",
-			"#Daily": "Daily",
-			"#Demographic information": "Demographic information",
-			"#Diploma or less": "Diploma or less",
-			"#Direct phone call to the transportation provider center and report the issue": "Direct phone call to the transportation provider center and report the issue",
-			"#Do family restrictions directly affect your decisions about how to travel?": "Do family restrictions directly affect your decisions about how to travel?",
-			"#Do you care about the social class of other passengers when using a taxi?": "Do you care about the social class of other passengers when using a taxi?",
-			"#Do you have a preference for the 'gender of the driver' of the shared taxi?": "Do you have a preference for the 'gender of the driver' of the shared taxi?",
-			"#Do you have privacy concerns using these types of apps?": "Do you have privacy concerns using these types of apps?",
-			"#Do you take your family's advice into account when deciding about mode of transportation ?": "Do you take your family's advice into account when deciding about mode of transportation ?",
-			"#Do you think that pink transportation has given an appropriate answer to the security issue?": "Do you think that pink transportation has given an appropriate answer to the security issue?",
-			"#Do you think your willingness or unwillingness to talk to strangers might influence your choice of taxi service?": "Do you think your willingness or unwillingness to talk to strangers might influence your choice of taxi service?",
-			"#Employee": "Employee",
-			"#Factors related to the modes of travel": "Factors related to the modes of travel",
-			"#Female": "Female",
-			"#Five and more": "Five and more",
-			"#Go to the police": "Go to the police",
-			"#Have you ever downloaded or purchased a security app?": "Have you ever downloaded or purchased a security app?",
-			"#Have you ever hesitated to take a taxi because of concern about your social image?": "Have you ever hesitated to take a taxi because of concern about your social image?",
-			"#Having fun or meeting friends": "Having fun or meeting friends",
-			"#How do you evaluate the security of taxis?": "How do you evaluate the security of taxis?",
-			"#How far is the walking distance from your home to the nearest metro or bus station that you usually use?": "How far is the walking distance from your home to the nearest metro or bus station that you usually use?",
-			"#How many cars does your family own?": "How many cars does your family own?",
-			"#How many motorcycles does your family own?": "How many motorcycles does your family own?",
-			"#How many people live in your immediate family? Please write the total number of people, including yourself?": "How many people live in your immediate family? Please write the total number of people, including yourself?",
-			"#How many years of driving experience do you have?": "How many years of driving experience do you have?",
-			"#How much more would you be willing to pay for a taxi that implements enhanced security measures? Such as tracking the vehicle's route, and verifying the driver's identity. Please indicate your willingness to pay a percentage increase from the standard fare": "How much more would you be willing to pay for a taxi that implements enhanced security measures? Such as tracking the vehicle's route, and verifying the driver's identity. Please indicate your willingness to pay a percentage increase from the standard fare",
-			"#How often do you engage in private religious activities, such as prayer, meditation, etc.?": "How often do you engage in private religious activities, such as prayer, meditation, etc.?",
-			"#How often do you go on city trips? (such as school, workplace or for shopping and entertainment)": "How often do you go on city trips? (such as school, workplace or for shopping and entertainment)",
-			"#How often do you go to a religious place (such as church, mosque, etc.)?": "How often do you go to a religious place (such as church, mosque, etc.)?",
-			"#How secured do you feel when you are using a taxi with 'strange men'?": "How secured do you feel when you are using a taxi with 'strange men'?",
-			"#How secured do you feel when you are using a taxi with 'strange women'?": "How secured do you feel when you are using a taxi with 'strange women'?",
-			"#How secured do you feel when you are using a taxi with a 'familiar person'?": "How secured do you feel when you are using a taxi with a 'familiar person'?",
-			"#How secured do you feel when you use a taxi ' during the night '?": "How secured do you feel when you use a taxi ' during the night '?",
-			"#How secured do you feel when you use a taxi 'during the day'?": "How secured do you feel when you use a taxi 'during the day'?",
-			"#How secured do you feel when you use a taxi in 'urban areas'?": "How secured do you feel when you use a taxi in 'urban areas'?",
-			"#How secured do you feel when you use a taxi in the 'Outside the city Areas'?": "How secured do you feel when you use a taxi in the 'Outside the city Areas'?",
-			"#I have never used taxis": "I have never used taxis",
-			"#I have used both regular and online shared taxi services": "I have used both regular and online shared taxi services",
-			"#I have used shared online taxis": "I have used shared online taxis",
-			"#I have used taxis in the city": "I have used taxis in the city",
-			"#I'm not willing to spend more for additional security.": "I'm not willing to spend more for additional security.",
-			"#If you have any experience or ideas related to this research, we would be very happy for you to share them with us.": "If you have any experience or ideas related to this research, we would be very happy for you to share them with us.",
-			"#Implement real-time driver tracking feature to enhance security": "Implement real-time driver tracking feature to enhance security",
-			"#Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips": "Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips",
-			"#Important": "Important",
-			"#In each section, please rate the importance of the issue in using a taxi on a scale of 1-5, where 1 means 'not important' and 5 means 'very important'": "In each section, please rate the importance of the issue in using a taxi on a scale of 1-5, where 1 means 'not important' and 5 means 'very important'",
-			"#It does not affect my choice": "It does not affect my choice",
-			"#Less than 3 years": "Less than 3 years",
-			"#Man": "Man",
-			"#Many times": "Many times",
-			"#Master's or Ph.D": "Master's or Ph.D",
-			"#More than 10 years": "More than 10 years",
-			"#More than 15 minutes": "More than 15 minutes",
-			"#More than 30 percent": "More than 30 percent",
-			"#Much above average": "Much above average",
-			"#My own business": "My own business",
-			"#Never": "Never",
-			"#No, it doesn't matter, although I feel uncomfortable talking to strangers": "No, it doesn't matter, although I feel uncomfortable talking to strangers",
-			"#No, it doesn't matter, although I like to talk to people": "No, it doesn't matter, although I like to talk to people",
-			"#No, never": "No, never",
-			"#One": "One",
-			"#Online shared taxi is a service that, by using mobile applications, users can share their trips with other passengers on the same route, reduce costs and optimize transportation.": "Online shared taxi is a service that, by using mobile applications, users can share their trips with other passengers on the same route, reduce costs and optimize transportation.",
-			"#Other services such as hospitals": "Other services such as hospitals",
-			"#Pink transportation refers to services that are specifically designed for women and aim to provide a safer and more comfortable travel experience, such as women-only taxis or separate spaces on buses and subways for women.": "Pink transportation refers to services that are specifically designed for women and aim to provide a safer and more comfortable travel experience, such as women-only taxis or separate spaces on buses and subways for women.",
-			"#Please choose based on your experience using a taxi": "Please choose based on your experience using a taxi",
-			"#Please rate the importance of each topic on a scale of 1-5, where 1 is 'not important' and 5 is 'very important'": "Please rate the importance of each topic on a scale of 1-5, where 1 is 'not important' and 5 is 'very important'",
-			"#Preface": "Preface",
-			"#Relatively important": "Relatively important",
-			"#Relatively secured": "Relatively secured",
-			"#Retired": "Retired",
-			"#Safety refers to protecting people from unintentional hazards and incidents such as accidents and vehicle breakdowns, while security is concerned with protecting people from intentional threats such as theft and criminal attacks.": "Safety refers to protecting people from unintentional hazards and incidents such as accidents and vehicle breakdowns, while security is concerned with protecting people from intentional threats such as theft and criminal attacks.",
-			"#Scoring": "Scoring",
-			"#Secured": "Secured",
-			"#Security apps are usually designed to help travelers stay safer on their travels. Some of the features of these applications include tracking, sending emergency messages, or reporting anti-social behavior or vandalism.": "Security apps are usually designed to help travelers stay safer on their travels. Some of the features of these applications include tracking, sending emergency messages, or reporting anti-social behavior or vandalism.",
-			"#Send your location or taxi information to trusted contacts while using a taxi.": "Send your location or taxi information to trusted contacts while using a taxi.",
-			"#Several times a day": "Several times a day",
-			"#Several times a month": "Several times a month",
-			"#Several times a week": "Several times a week",
-			"#Several times a year": "Several times a year",
-			"#Shopping": "Shopping",
-			"#Social perception": "Social perception",
-			"#Student": "Student",
-			"#Supporting family members": "Supporting family members",
-			"#Survey": "Survey",
-			"#Taxi": "Taxi",
-			"#Taxi fares": "Taxi fares",
-			"#Taxis in the city": "Taxis in the city",
-			"#The future implementation": "The future implementation",
-			"#The use of security applications and the possibility of reporting the issue with personal or anonymous information": "The use of security applications and the possibility of reporting the issue with personal or anonymous information",
-			"#There is no difference": "There is no difference",
-			"#Three": "Three",
-			"#Three and more than three": "Three and more than three",
-			"#Travel time": "Travel time",
-			"#Unemployed": "Unemployed",
-			"#Unsecured": "Unsecured",
-			"#Using security applications and reporting the issue anonymously": "Using security applications and reporting the issue anonymously",
-			"#Van": "Van",
-			"#Very important": "Very important",
-			"#Weekly or more": "Weekly or more",
-			"#Well below average": "Well below average",
-			"#What destinations do you most travel to?": "What destinations do you most travel to?",
-			"#What is your current employment status?": "What is your current employment status?",
-			"#What is your highest level of education?": "What is your highest level of education?",
-			"#What is your preference when facing any security problem in a taxi?": "What is your preference when facing any security problem in a taxi?",
-			"#Which modes of transportation do you use the most? Select more than one option if desired": "Which modes of transportation do you use the most? Select more than one option if desired",
-			"#Workplace": "Workplace",
-			"#Yes": "Yes",
-			"#Yes, I prefer a female driver, because I feel secured with a female driver": "Yes, I prefer a female driver, because I feel secured with a female driver",
-			"#Yes, I prefer a male driver, because I feel secured with a male driver": "Yes, I prefer a male driver, because I feel secured with a male driver",
-			"#Yes, I prefer female driver because they drive better and safer": "Yes, I prefer female driver because they drive better and safer",
-			"#Yes, I prefer male driver because they drive better and safer": "Yes, I prefer male driver because they drive better and safer",
-			"#Yes, always": "Yes, always",
-			"#Yes, it has an effect, I feel uncomfortable talking to strangers": "Yes, it has an effect, I feel uncomfortable talking to strangers",
-			"#Yes, it has an effect, I like to talk to people": "Yes, it has an effect, I like to talk to people",
-			"#Yes, most of the time": "Yes, most of the time",
-			"#Yes, sometimes": "Yes, sometimes",
-			"#Zero": "Zero",
-			"#four": "four",
-			"#how old are you?": "how old are you?",
-			"#monthly": "monthly",
-			"#mostly": "mostly",
-			"#motorcycle": "motorcycle",
-			"#no": "no",
-			"#not important": "not important",
-			"#once a month": "once a month",
-			"#once a week": "once a week",
-			"#personal car": "personal car",
-			"#rarely": "rarely",
-			"#safety": "safety",
-			"#school or university": "school or university",
-			"#security": "security",
-			"#sometimes": "sometimes",
-			"#two": "two",
-			"#very secured": "very secured",
-			"#very unsecured": "very unsecured",
-			"#walking": "walking",
-			"#weekly": "weekly",
-			"#what is your gender?": "what is your gender?",
-			"#with irregular intervals or without setting time": "with irregular intervals or without setting time",
-			"#Perceptions on Ride Sharing": "Perceptions on Ride Sharing",
-			"#A street by a metro entrance with a bike-sharing station, a person on an e-scooter and a cyclist": "A street by a metro entrance with a bike-sharing station, a person on an e-scooter and a cyclist",
-			"#50-69": "50-69",
-			"#>70 ": ">70 ",
-			"#1": "1",
-			"#2": "2",
-			"#3": "3",
-			"#4": "4",
-			"#5": "5",
-			"#Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com": "Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com"
-		},
-		"fa": {
-			"code": "fa",
-			"#Perceptions on Ride Sharing": "برداشت‌ها درباره هم‌سفری",
-			"#A street by a metro entrance with a bike-sharing station, a person on an e-scooter and a cyclist": "خیابانی کنار ورودی مترو با ایستگاه دوچرخه اشتراکی، فردی سوار بر اسکوتر برقی و یک دوچرخه‌سوار",
-			"rtl": true,
-			"#0 (Because I don't have a driving license)": "0 (زیرا من گواهینامه رانندگی ندارم)",
-			"#0 (Because I don't have confidence in driving a car)": "(زیرا من در رانندگی ماشین اعتماد به نفس ندارم) 0",
-			"#Have you ever experienced an unpleasant touch, or an unpleasant feeling from the behavior of the driver or other passengers while using a taxi? (Imaginary sexual harassment)": "(آزار جنسی خیالی)آیا تا به حال هنگام استفاده از تاکسی، تجربه لمس ناخوشایند ،یا احساس نا خوشایندی از رفتار راننده و یا سایر مسافرین داشته‌اید؟",
-			"#0 (because I don't have a personal car)": "(زیرا من  ماشین شخصی ندارم) 0",
-			"#0-10%": "0-10%",
-			"#0-5 minutes": "0-5 دقیقه",
-			"#1 - 5 years": "1 - 5 سال",
-			"#1-3 km": "1-3 کیلومتر",
-			"#11-15 minutes": "11-15 دقیقه",
-			"#11-20%": "11-20%",
-			"#18-24": "18-24",
-			"#21-30%": "21-30%",
-			"#25-34": "25-34",
-			"#3-10 years": "3 - 10 سال",
-			"#3-5 km": "3-5 کیلومتر",
-			"#35-49": "35-49",
-			"#50-59": "50-59",
-			"#6-10 minutes": "6-10 دقیقه",
-			"#< 18 years": "<18 سال",
-			"#>60": ">60",
-			"#A bit important": "کمی مهم",
-			"#Above average": "بالا‌تر از متوسط",
-			"#Agency or internet taxis such as Tapsi or Snap": "آژانس و یا تاکسی های اینترنتی شخصی مثل تپسی یا اسنپ",
-			"#Average": "متوسط",
-			"#Bachelor": "کارشناسی",
-			"#Below average": "پایین‌تر از متوسط",
-			"#Bike": "دوچرخه",
-			"#Bus/Metro": "اتوبوس/مترو",
-			"#Can you tell how your family's income compares to other families in your community?": "در مقایسه با سایر خانواده‌ها در جامعه خود، آیا می‌توانید بگویید درآمد خانواده شما چگونه است؟",
-			"#Car cleanliness": "تمیزی خودرو",
-			"#Compared to other families in your community, can you describe how your family's income is?": "در مقایسه با سایر خانواده‌ها در جامعه خود، آیا می‌توانید بگویید درآمد خانواده شما چگونه است",
-			"#Contact a familiar person": "تماس با یک آشنا",
-			"#Convenience and ease (such as having an air conditioner, comfortable seats, etc.)": "راحتی و سهولت  (مانند داشتن کولر، راحتی صندلی ها و ... )",
-			"#Daily": "روزانه",
-			"#Demographic information": "اطلاعات دموگرافیک",
-			"#Diploma or less": "دیپلم یا کمتر",
-			"#Direct phone call to the transportation provider center and report the issue": "تماس تلفنی مستقیم با مرکز ارایه دهنده حمل و نقل و گزارش موضوع",
-			"#Do family restrictions directly affect your decisions about how to travel?": "آیا محدودیت‌های خانوادگی تصمیمات شما در مورد نحوه سفر را مستقیماً تحت تأثیر قرار می‌دهند؟",
-			"#Do you care about the social class of other passengers when using a taxi?": "آیا هنگام استفاده از تاکسی به طبقه اجتماعی سایر مسافران اهمیت می‌دهید؟",
-			"#Do you have a driving license?": "آیا گواهینامه رانندگی دارید؟",
-			"#Do you have a preference for the 'gender of the driver' of the shared taxi?": "آیا ترجیحی برای ' جنسیت راننده ' تاکسی اشتراکی دارید؟",
-			"#Do you have privacy concerns using these types of apps?": "آیا با استفاده از این نوع برنامه‌ها نگرانی از حریم خصوصی دارید؟",
-			"#Do you take your family's advice into account when deciding about mode of transportation ?": "آیا شما در تصمیم‌گیری درباره نحوه حمل‌ونقل خود، نصایح یا پند خانواده‌تان را در نظر می‌گیرید؟",
-			"#Do you think that pink transportation has given an appropriate answer to the security issue?": "آیا فکر می‌کنید حمل‌ونقل صورتی به مسئله امنیت پاسخ مناسبی داده است؟",
-			"#Do you think your willingness or unwillingness to talk to strangers might influence your choice of taxi service?": "آیا فکر می‌کنید که تمایل یا عدم تمایل به صحبت کردن با غریبه‌ها ممکن است بر انتخاب شما از خدمات تاکسی تأثیر بگذارد؟",
-			"#Employee": "کارمند",
-			"#Factors related to the modes of travel": "عوامل مرتبط با وسیله سفر",
-			"#Female": "زن",
-			"#Five and more": "پنج و بیشتر",
-			"#Future implementation": "پیاده‌سازی آینده",
-			"#Go to the police": "مراجعه به پلیس",
-			"#Have you ever been robbed or witnessed a robbery while using a taxi?": "آیا تا به حال هنگام استفاده از تاکسی مورد سرقت قرار گرفته‌اید و یا شاهد سرقت بوده اید؟",
-			"#Have you ever downloaded or purchased a security app?": "آیا تا به حال یک اپلیکیشن امنیتی را دانلود یا خریداری کرده‌اید؟",
-			"#Have you ever felt uncomfortable when using a taxi because of the difference in the social level of other passengers?": "آیا تا به حال به دلیل تفاوت در سطح اجتماعی سایر مسافران هنگام استفاده از تاکسی احساس ناراحتی کرده‌اید؟",
-			"#Have you ever had an unpleasant experience involving sexual harassment while using a taxi?": "آیا تا به حال هنگام استفاده از تاکسی، تجربه ناخوشایندی مربوط به آزار جنسی داشته‌اید؟",
-			"#Have you ever heard from people who were sexually harassed in a taxi or had an unpleasant feeling from the behavior of the driver or other passengers?": "آیا تا به حال از افرادی که در تاکسی آزار جنسی دیده‌اند  و یا احساس نا خوشایندی از رفتار راننده و یا سایر مسافرین داشته اند چیزی شنیده‌اید؟",
-			"#Have you ever heard or read about sexual harassment in a taxi through the media or newspapers?": "آیا تا به حال از طریق رسانه‌ها یا روزنامه‌ها درباره آزار جنسی در تاکسی چیزی شنیده‌اید یا خوانده‌اید؟",
-			"#Have you ever hesitated to take a taxi because of concern about your social image?": "آیا تا به حال به دلیل نگرانی درباره تصویر اجتماعی دیگران از شما، در استفاده از تاکسی تردید کرده‌اید؟",
-			"#Have you ever witnessed any sexual harassment or making other passengers feel uncomfortable while using a taxi?": "آیا تا به حال هنگام استفاده از تاکسی شاهد هیچ گونه آزار جنسی  و یا ایجاد احساس نا خوشایندی در سایر مسافرین بوده اید؟",
-			"#Having fun or meeting friends": "تفریح یا ملاقات با دوستان",
-			"#How do you evaluate the security of taxis?": "امنیت تاکسی های (در سطح شهر) را چگونه ارزیابی می‌کنید؟",
-			"#How far is the walking distance from your home to the nearest metro or bus station that you usually use?": "فاصله پیاده‌روی خانه شما تا نزدیک‌ترین ایستگاه مترو یا اتوبوس که معمولا از آن استفاده می‌کنید چقدر است؟",
-			"#How far is your house from the nearest subway or bus station?": "فاصله خانه شما تا نزدیک‌ترین ایستگاه مترو یا اتوبوس چقدر است؟",
-			"#How many cars does your family own?": "چند خودرو در خانواده شما موجود است؟",
-			"#How many motorcycles does your family own?": "چند موتورسیکلت در خانواده شما موجود است؟",
-			"#How many people live in your immediate family? Please write the total number of people, including yourself?": "در خانواده نزدیک شما چند نفر زندگی می‌کنند؟ لطفاً تعداد کل افراد، شامل خودتان، را بنویسید",
-			"#How many years of driving experience do you have?": "چند سال تجربه رانندگی دارید؟",
-			"#How much more would you be willing to pay for a taxi that implements enhanced security measures? Such as tracking the vehicle's route, and verifying the driver's identity. Please indicate your willingness to pay a percentage increase from the standard fare": "چقدر مایلید برای یک تاکسی که اقدامات امنیتی افزایش یافته را اجرا می کند، کرایه بیشتر بپردازید؟مانند رهگیری مسیر خودرو،  و تأیید هویت راننده. لطفاً تمایل خود را برای پرداخت درصد افزایش از کرایه استاندارد اعلام کنید",
-			"#How often do you engage in private religious activities, such as prayer, meditation, etc.?": "چند وقت یکبار به فعالیت‌های مذهبی خصوصی، مانند دعا، مدیتیشن و غیره می‌پردازید؟",
-			"#How often do you go on city trips? (such as school, workplace or for shopping and entertainment)": "چقدر اغلب به سفرهای داخل شهری می‌روید؟ (مانند مدرسه، محل کار و یا برای خرید و تفریح)",
-			"#How often do you go to a religious place (such as church, mosque, etc.)?": "چند وقت یکبار به مکان مذهبی (مانند کلیسا، مسجد و ...) می‌روید؟",
-			"#How secured do you feel when you are using a taxi with 'strange men'?": "وقتی در تاکسی سایر مسافرین ' مردان غریبه ' هستند، چقدر احساس امنیت می‌کنید؟",
-			"#How secured do you feel when you are using a taxi with 'strange women'?": "وقتی در تاکسی سایر مسافرین ' زنان غریبه ' هستند، چقدر احساس امنیت می‌کنید؟",
-			"#How secured do you feel when you are using a taxi with a 'familiar person'?": "وقتی با یک ' فرد آشنا ' در حال استفاده از تاکسی هستید، چقدر احساس امنیت می‌کنید؟",
-			"#How secured do you feel when you use a taxi ' during the night '?": "در ' طول شب ' چقدر احساس امنیت می‌کنید وقتی از تاکسی استفاده می‌کنید؟",
-			"#How secured do you feel when you use a taxi 'during the day'?": "در ' طول روز ' چقدر احساس امنیت می‌کنید وقتی از تاکسی استفاده می‌کنید؟",
-			"#How secured do you feel when you use a taxi in 'urban areas'?": "در ' مناطق شهری ' چقدر احساس امنیت می‌کنید وقتی از تاکسی استفاده می‌کنید؟",
-			"#How secured do you feel when you use a taxi in the 'Outside the city Areas'?": "در ' مناطق خارج از شهر ' چقدر احساس امنیت می‌کنید وقتی از تاکسی استفاده می‌کنید؟",
-			"#I am not willing to pay more for security": "من حاضر نیستم برامنی بیشتر هزینه کنم",
-			"#I have never used taxis": "هرگز از تاکسی ها استفاده نکرده ام",
-			"#I have used both regular and online shared taxi services": "از هر دو سرویس تاکسی معمول و اینترنتی اشتراکی استفاده کرده ام",
-			"#I have used shared online taxis": "از تاکسی های اشتراکی اینترنتی استفاده کرده ام",
-			"#I have used taxis in the city": "از تاکسی های در سطح شهر استفاده کرده ام",
-			"#I prefer not to say": "ترجیح می‌دهم نگویم",
-			"#I'm not willing to spend more for additional security.": "من حاضر نیستم برای امنیت بیشتر هزینه کنم",
-			"#If you have any experience or ideas related to this research, we would be very happy for you to share them with us.": "اگر تجربه یا ایده‌ای در زمینه این تحقیق دارید، بسیار خوشحال خواهیم شد که آن را با ما به اشتراک بگذارید",
-			"#If you have any questions or would like to discuss this research further, please contact us via the email below": "اگر سوالی دارید یا می‌خواهید درباره این تحقیق بیشتر بحث کنید، لطفاً با ما از طریق ایمیل زیر تماس بگیرید",
-			"#Implement real-time driver tracking feature to add security": "پیاده‌سازی ویژگی ردیابی لحظه‌ای راننده برای افزودن امنیت",
-			"#Implement real-time driver tracking feature to enhance security": "پیاده‌سازی ویژگی ردیابی لحظه‌ای راننده برای افزودن امنیت",
-			"#Implementing surveillance features such as the use of in-cab surveillance cameras to add security and monitoring during trips": "پیاده‌سازی ویژگی‌های نظارتی مانند استفاده از دوربین نظارتی داخل تاکسی برای افزودن امنیت و نظارت در حین سفرها",
-			"#Important": "مهم",
-			"#In each section, please rate the importance of the issue in using a taxi on a scale of 1-5, where 1 means 'not important' and 5 means 'very important'": "لطفاً در هر بخش اهمیت موضوع را در استفاده از تاکسی با مقیاس 1-5 ارزیابی کنید که در آن 1 به معنای 'مهم نیست' و 5 به معنای 'بسیار مهم' است",
-			"#It does not affect my choice": "تاثیری در انتخاب من ندارد",
-			"#Less than 1 km": "کمتر از 1 کیلومتر",
-			"#Less than 1 year": "کمتر از 1 سال",
-			"#Less than 3 years": "کمتر از 3 سال",
-			"#Man": "مرد",
-			"#Many times": "به دفعات زیاد",
-			"#Master's or Ph.D": "کارشناسی ارشد یا دکترا",
-			"#More than 10 years": "بیشتر از 10 سال",
-			"#More than 15 minutes": "بیشتر از 15 دقیقه",
-			"#More than 30 percent": "بیشتر از 30 درصد",
-			"#More than 5 km": "بیشتر از 5 کیلومتر",
-			"#More than 5 years": "بیشتر از 5 سال",
-			"#Much above average": "خیلی بالا‌تر از متوسط",
-			"#My own business": "کسب و کار خودم",
-			"#Never": "هرگز",
-			"#No, it doesn't matter, although I feel uncomfortable talking to strangers": "خیر تاثیر ندارد، هرچند که از صحبت کردن با غریبه‌ها احساس ناراحتی می‌کنم",
-			"#No, it doesn't matter, although I like to talk to people": "خیر تاثیر ندارد،هرچند که دوست دارم با افراد صحبت کنم",
-			"#No, never": "خیر، هرگز",
-			"#One": "یک",
-			"#Online shared taxi is a service that, by using mobile applications, users can share their trips with other passengers on the same route, reduce costs and optimize transportation.": "تاکسی اشتراکی اینترنتی سرویسی است که با استفاده از اپلیکیشن‌های موبایل، کاربران می‌توانند سفرهای خود را با دیگر مسافران هم‌مسیر به اشتراک بگذارند، هزینه‌ها را کاهش دهند و حمل و نقل را بهینه کنند",
-			"#Other services such as hospitals": "خدمات دیگر مانند بیمارستان",
-			"#Pink transportation refers to services that are specifically designed for women and aim to provide a safer and more comfortable travel experience, such as women-only taxis or separate spaces on buses and subways for women.": "حمل‌ونقل صورتی به خدماتی اشاره دارد که به‌طور خاص برای زنان طراحی شده‌اند و هدف آن‌ها ارائه تجربه سفری ایمن‌تر و راحت‌تر است، مانند تاکسی‌هایی که مخصوص بانوان هستند و یا در نظرگیری فضای مجزا در اتوبوس و مترو برای بانوان",
-			"#Please choose based on your experience using a taxi": "لطفا تجربه خود را در استفاده از تاکسی با استفاده از مقیاس زیر مشخص کنید",
-			"#Please rate the importance of each topic on a scale of 1-5, where 1 is 'not important' and 5 is 'very important'": "لطفاً در هر بخش اهمیت موضوع را با مقیاس 1-5 ارزیابی کنید که در آن 1 به معنای 'مهم نیست' و 5 به معنای 'بسیار مهم' است",
-			"#Preface": "پیشگفتار",
-			"#Questionnaire": "پرسشنامه",
-			"#Relatively important": "نسبتاً مهم",
-			"#Relatively secured": "نسبتاً امن",
-			"#Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification": "گروه تحقیقاتی حمل و نقل دانشگاه ساپینزا رم در حال بررسی احساس امنیت افراد در تاکسی‌ها در کشورهای پیشرفته و در حال توسعه می‌باشد. هدف از این تحقیق، شناسایی علل احساس ناامنی و ارائه راه‌حل‌هایی برای فراهم کردن سیستم تاکسی امن‌تر در آینده است. علاوه بر این، می‌خواهیم در برنامه‌ریزی‌های شهری فاصله بین زنان و مردان، طبقات مختلف اجتماعی و اقتصادی را کاهش دهیم و جامعه‌ای امن برای تمام مردم فارغ از هر گونه طبقه‌بندی فراهم کنیم",
-			"#Retired": "بازنشسته",
-			"#Safety refers to protecting people from unintentional hazards and incidents such as accidents and vehicle breakdowns, while security is concerned with protecting people from intentional threats such as theft and criminal attacks.": "ایمنی  به محافظت از افراد در برابر خطرات و حوادث غیرعمدی مانند تصادفات و نقص فنی خودرو اشاره دارد، در حالی که امنیت به محافظت از افراد در برابر تهدیدات عمدی مانند سرقت و حملات جنایی مربوط می‌شود",
-			"#Scoring": "امتیازدهی",
-			"#Secured": "امن",
-			"#Security apps are usually designed to help travelers stay safer on their travels. Some of the features of these applications include tracking, sending emergency messages, or reporting anti-social behavior or vandalism.": "اپلیکیشن‌های امنیتی معمولاً طراحی شده‌اند تا به مسافران کمک کنند تا در سفرهای خود امنیت بیشتری داشته باشند. برخی از ویژگی‌های این اپلیکیشن‌ها عبارتند ازموقعیت یابی، ارسال پیام‌های اضطراری، و یا گزارش رفتار ضد اجتماعی یا خرابکاری",
-			"#Send your location or taxi information to trusted contacts while using a taxi": "ارسال موقعیت مکانی شما یا اطلاعات تاکسی به مخاطبین قابل اعتماد در حین استفاده از تاکسی",
-			"#Send your location or taxi information to trusted contacts while using a taxi.": "ارسال موقعیت مکانی شما یا اطلاعات تاکسی به مخاطبین قابل اعتماد در حین استفاده از تاکسی",
-			"#Several times a day": "چندین بار در روز",
-			"#Several times a month": "چندین بار در ماه",
-			"#Several times a week": "چندین بار درهفته",
-			"#Several times a year": "چندین بار در سال",
-			"#Sexual harassment": "آزار و اذیت جنسی",
-			"#Sexual harassment includes intentional and inappropriate sexual behavior, such as inappropriate physical contact. While imaginary sexual harassment is the unpleasant feeling caused by a person's interpretation or personal sensitivities that they imagine sexual intent in the behavior of others, this intent may not be real.": "آزار جنسی شامل رفتارهای جنسی ناپسند و عمدی است، مانند تماس بدنی نامناسب یا اظهارات رکیک. در حالی که آزار جنسی خیالی، ایجاد احساس ناخوشایند ناشی از تفسیر یا حساسیت‌های شخصی فرد است که نیت جنسی را در رفتار دیگران تصور می‌کند، اما این نیت ممکن است واقعی نباشد",
-			"#Shared taxi": "تاکسی اشتراکی",
-			"#Shopping": "خرید",
-			"#Social perception": "ادراک اجتماعی",
-			"#Student": "دانشجو",
-			"#Supporting family members": "حمایت از اعضای خانواده",
-			"#Survey": "نظرسنجی",
-			"#Taxi": "تاکسی",
-			"#Taxi fares": "کرایه تاکسی",
-			"#Taxis in the city": "تاکسی های خطی و یا گردشی سطح شهر",
-			"#The Future implementation": "پیاده‌سازی آینده",
-			"#The future implementation": "پیاده‌سازی آینده",
-			"#The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.": "پرسشنامه از سه بخش تشکیل شده است. بخش اول شامل سوالات دموگرافیک درباره خودتان است که به ما کمک می‌کند تا ترجیحات مختلف را با انواع مختلف افراد تطبیق دهیم. بخش دوم شامل چندین سوال درباره استفاده فعلی شما از تاکسی‌ها و ترجیحات شما در این زمینه است. در نهایت، بخش سوم شامل سوالاتی درباره میزان آگاهی شما از امنیت در تاکسی‌ها  و ترجیحات شما برای طراحی سیستم تاکسی امن‌تر در آینده است.  تمام پاسخ ها بصورت ناشناس جمع آوری خواهد شد",
-			"#The use of security applications and the possibility of reporting the issue with personal or anonymous information": "استفاده از اپلیکیشن‌های امنیتی و امکان گزارش موضوع با اطلاعات شخصی و یا ناشناس",
-			"#There is no difference": "تفاوتی ندارد",
-			"#This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes": "این پرسشنامه شامل ۸ صفحه می‌باشد و پاسخگویی به آن حدود ۱۰ تا ۱۵ دقیقه زمان خواهد برد",
-			"#This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.": "این پرسشنامه شامل ۸ صفحه می‌باشد و پاسخگویی به آن حدود ۱۰ تا ۱۵ دقیقه زمان خواهد برد",
-			"#Three": "سه",
-			"#Three and more than three": "سه و بیشتر از سه",
-			"#Three or more": "سه یا بیشتر",
-			"#Travel time": "مدت زمان سفر",
-			"#Unemployed": "بیکار",
-			"#Unsecured": "ناامن",
-			"#Using security applications and reporting the issue anonymously": "استفاده از اپلیکیشن‌های امنیتی و گزارش موضوع به صورت ناشناس",
-			"#Van": "ون",
-			"#Very important": "بسیار مهم",
-			"#We appreciate the time you spend answering this questionnaire": "از وقتی که برای پاسخگویی به این پرسشنامه صرف می‌کنید، سپاسگزاریم",
-			"#We appreciate the time you spend answering this questionnaire.": "از وقتی که برای پاسخگویی به این پرسشنامه صرف می‌کنید، سپاسگزاریم",
-			"#Weekly or more": "هفتگی یا بیشتر",
-			"#Well below average": "خیلی پایین‌تر از متوسط",
-			"#What destinations do you most travel to?": "بیشترین سفرهای شما به چه مقاصدی است؟",
-			"#What is your current employment status?": "وضعیت اشتغال کنونی شما چیست؟",
-			"#What is your highest level of education?": "بالاترین سطح تحصیلات شما چیست؟",
-			"#What is your preference when facing any security problem in a taxi?": "ترجیح شما در مواجه با هر گونه مشکل امنیتی در تاکسی کدام گزینه میباشد؟",
-			"#Which modes of transportation do you use the most? Select more than one option if desired": "از کدام وسیله نقلیه بیشتر استفاده می‌کنید؟ در صورت تمایل بیشتر از یک گزینه انتخاب کنید",
-			"#Within walking distance": "در فاصله پیاده‌روی",
-			"#Workplace": "محل کار",
-			"#Yes": "بله",
-			"#Yes, I prefer a female driver, because I feel secured with a female driver": "بله، راننده زن را ترجیح می‌دهم، چون با راننده زن احساس امنیت می‌کنم",
-			"#Yes, I prefer a male driver, because I feel secured with a male driver": "بله، راننده مرد را ترجیح می‌دهم، چون با راننده مرد احساس امنیت می‌کنم",
-			"#Yes, I prefer female driver because they drive better and safer": "بله، راننده زن را ترجیح می‌دهم، چون رانندگی آن‌ها بهتر و ایمن‌تر است",
-			"#Yes, I prefer male driver because they drive better and safer": "بله، راننده مرد را ترجیح می‌دهم، چون رانندگی آن‌ها بهتر و ایمن‌تر است",
-			"#Yes, always": "بله، همیشه",
-			"#Yes, it has an effect, I feel uncomfortable talking to strangers": "بله تاثیر دارد، از صحبت کردن با غریبه‌ها احساس ناراحتی می‌کنم",
-			"#Yes, it has an effect, I like to talk to people": "بله تاثیر دارد، دوست دارم با افراد صحبت کنم",
-			"#Yes, most of the time": "بله، بیشتر مواقع",
-			"#Yes, sometimes": "بله، گاهی اوقات",
-			"#Yes, up to approx": "بله تا حدود",
-			"#Zero": "صفر",
-			"#four": "چهار",
-			"#how old are you?": "چند سال دارید؟",
-			"#monthly": "ماهانه",
-			"#mostly": "اغلب",
-			"#motorcycle": "موتورسیکلت",
-			"#no": "خیر",
-			"#not important": "غیرمهم",
-			"#once a month": "ماهی یکبار",
-			"#once a week": "هفته ای یکبار",
-			"#other": "سایر",
-			"#personal car": "اتومبیل شخصی",
-			"#rarely": "بندرت",
-			"#safety": "ایمنی",
-			"#school or university": "مدرسه یا دانشگاه",
-			"#security": "امنیت",
-			"#sometimes": "گاهی",
-			"#to some extent": "تا حدودی",
-			"#two": "دو",
-			"#very secured": "خیلی امن",
-			"#very unsecured": "خیلی ناامن",
-			"#walking": "پیاده روی",
-			"#weekly": "هفتگی",
-			"#what is your gender?": "جنسیت شما چیست؟",
-			"#with irregular intervals or without setting time": "با فواصل نامنظم یا بدون تعیین زمان",
-			"#yearly": "سالانه",
-			"#چندین بار در روز": "چندین بار در روز",
-			"#Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com": "شرکت‌کننده گرامی,<br><br>گروه پژوهشی حمل‌ونقل در دانشگاه ساپینزا رم در حال بررسی احساس امنیت افراد در تاکسی‌ها در کشورهای توسعه‌یافته و در حال توسعه است. هدف این پژوهش شناسایی دلایل احساس ناامنی و ارائه‌ی راه‌حل‌هایی برای ایجاد یک سیستم تاکسی امن‌تر در آینده می‌باشد. علاوه بر این، ما قصد داریم شکاف بین زنان و مردان و طبقات مختلف اجتماعی و اقتصادی را در برنامه‌ریزی شهری کاهش دهیم و جامعه‌ای امن برای همه‌ی افراد، فارغ از هرگونه طبقه‌بندی، ایجاد کنیم.<br><br>این پرسشنامه شامل ۸ صفحه است و پاسخ‌گویی به آن تقریباً ۱۰ تا ۱۵ دقیقه زمان می‌برد.<br><br>پرسشنامه از سه بخش تشکیل شده است. بخش اول شامل سؤالات جمعیت‌شناختی درباره‌ی خود شماست که به ما کمک می‌کند ترجیحات مختلف را با انواع متفاوت افراد مقایسه کنیم. بخش دوم شامل چندین سؤال درباره‌ی نحوه‌ی استفاده‌ی فعلی شما از تاکسی و ترجیحاتتان در این زمینه است. در نهایت، بخش سوم به آگاهی شما از موضوع امنیت در تاکسی‌ها و ترجیحاتتان برای طراحی یک سیستم تاکسی امن‌تر در آینده می‌پردازد. تمامی پاسخ‌ها به صورت ناشناس جمع‌آوری خواهند شد.<br><br>از زمانی که برای پاسخ‌گویی به این پرسشنامه اختصاص می‌دهید، صمیمانه سپاسگزاریم.<br><br>m.afsary@gmail.com"
-		}
-	},
-	"id": "perception_on_ride_sharing",
-	"db_set": "questionnaires",
-	"response_format": "planeasy.response",
-	"response_schema_version": "2.0",
-	"response_kind": "survey",
-	"response_contract": {"entity": {}, "related_entities": [], "geometry": null, "privacy": {"email": "sha256_only", "remove_user_id_supported": true}, "id_strategy": "generated_response_id", "subcollection": "surveyResponses/{questionnaireId}/responses/{responseId}"},
-	"default_language": "en"
+  "questionnaire": {
+    "name": "Perceptions on Ride Sharing",
+    "questionnaire_id": "perception_on_ride_sharing",
+    "questionnaire_version": "1.0.0",
+    "project": "perceptions_on_ride_sharing",
+    "image": "https://raw.githubusercontent.com/planeasy-webgis/planeasy-crowdsourcing-framework/main/questionnaires/no_project/assets/perception_on_ride_sharing.jpeg",
+    "image_alt": "#A street by a metro entrance with a bike-sharing station, a person on an e-scooter and a cyclist",
+    "options": {
+      "review_mode": false,
+      "ask_consent": false,
+      "save_user_id": false
+    },
+    "gdpr_link": "https://michetta91.github.io/planeasy-webgis/transparency.html",
+    "sections": [
+      {
+        "title": "Preface",
+        "description": "Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com",
+        "backgroundColor": "#7bccb5",
+        "questions": []
+      },
+      {
+        "title": "About you and your household",
+        "description": "",
+        "backgroundColor": "#7bccb5",
+        "questions": [
+          {
+            "text": "What is your gender?",
+            "answer_key": "gender",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Male",
+                "value": "male"
+              },
+              {
+                "text": "Female",
+                "value": "female"
+              }
+            ],
+            "add_other": true,
+            "add_prefer_not_to_say": true,
+            "privacy_classification": "heightened_personal",
+            "question_id": "gender",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "What is your age group? (Participation is limited to adults aged 18 or older)",
+            "answer_key": "age_group",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "18-24",
+                "value": "18_24"
+              },
+              {
+                "text": "25-34",
+                "value": "25_34"
+              },
+              {
+                "text": "35-44",
+                "value": "35_44"
+              },
+              {
+                "text": "45-54",
+                "value": "45_54"
+              },
+              {
+                "text": "55-64",
+                "value": "55_64"
+              },
+              {
+                "text": "65-74",
+                "value": "65_74"
+              },
+              {
+                "text": "75-84",
+                "value": "75_84"
+              },
+              {
+                "text": "85 or older",
+                "value": "85_or_older"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "privacy_classification": "heightened_personal",
+            "question_id": "age_group",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "What is your highest completed level of education?",
+            "answer_key": "education",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "No qualification",
+                "value": "none"
+              },
+              {
+                "text": "Lower secondary school",
+                "value": "lower_secondary"
+              },
+              {
+                "text": "High school",
+                "value": "upper_secondary"
+              },
+              {
+                "text": "Bachelor degree or equivalent",
+                "value": "bachelor"
+              },
+              {
+                "text": "Master degree or equivalent",
+                "value": "master"
+              },
+              {
+                "text": "Doctorate degree",
+                "value": "doctorate"
+              }
+            ],
+            "privacy_classification": "heightened_personal",
+            "question_id": "education",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "Which best describes your employment status?",
+            "answer_key": "employment",
+            "question_type": "single_option",
+            "options": [
+              {
+                "text": "Employed full-time",
+                "value": "employed_full_time"
+              },
+              {
+                "text": "Employed part-time",
+                "value": "employed_part_time"
+              },
+              {
+                "text": "Occasionally employed",
+                "value": "occasionally_employed"
+              },
+              {
+                "text": "Self-employed/freelance full-time",
+                "value": "self_employed_freelance_full_time"
+              },
+              {
+                "text": "Self employed/freelance part-time",
+                "value": "self_employed_freelance_part_time"
+              },
+              {
+                "text": "Homemaker",
+                "value": "homemaker"
+              },
+              {
+                "text": "Retired",
+                "value": "retired"
+              },
+              {
+                "text": "Unemployed looking for work",
+                "value": "unemployed_looking_for_work"
+              },
+              {
+                "text": "Unemployed not looking for work",
+                "value": "unemployed_not_looking_for_work"
+              },
+              {
+                "text": "Adult learner (student)",
+                "value": "adult_learner_student"
+              }
+            ],
+            "add_other": true,
+            "privacy_classification": "heightened_personal",
+            "question_id": "employment",
+            "question_version": "1.0.0"
+          },
+          {
+            "text": "How many people live in your household, including you?",
+            "answer_key": "household_size",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "One",
+                "value": "1"
+              },
+              {
+                "text": "Two",
+                "value": "2"
+              },
+              {
+                "text": "Three",
+                "value": "3"
+              },
+              {
+                "text": "Four",
+                "value": "4"
+              },
+              {
+                "text": "Five",
+                "value": "5"
+              },
+              {
+                "text": "Six or more",
+                "value": "6_plus"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "household_size",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How does your household income compare with other households in your community?",
+            "answer_key": "household_income_comparison",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Much lower",
+                "value": "much_lower"
+              },
+              {
+                "text": "Lower",
+                "value": "lower"
+              },
+              {
+                "text": "About the same",
+                "value": "similar"
+              },
+              {
+                "text": "Higher",
+                "value": "higher"
+              },
+              {
+                "text": "Much higher",
+                "value": "much_higher"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "household_income_comparison",
+            "question_version": "2.0.0"
+          }
+        ]
+      },
+      {
+        "title": "Your everyday travel",
+        "description": "",
+        "backgroundColor": "#b3d9d9",
+        "questions": [
+          {
+            "text": "How many years of driving experience do you have?",
+            "answer_key": "driving_experience_years",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "No driving experience",
+                "value": "none"
+              },
+              {
+                "text": "Less than 1 year",
+                "value": "under_1"
+              },
+              {
+                "text": "1–2 years",
+                "value": "1_to_2"
+              },
+              {
+                "text": "3–5 years",
+                "value": "3_to_5"
+              },
+              {
+                "text": "6–10 years",
+                "value": "6_to_10"
+              },
+              {
+                "text": "More than 10 years",
+                "value": "over_10"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "driving_experience_years",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How many cars does your household own?",
+            "answer_key": "household_car_count",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "None",
+                "value": "0"
+              },
+              {
+                "text": "One",
+                "value": "1"
+              },
+              {
+                "text": "Two",
+                "value": "2"
+              },
+              {
+                "text": "Three",
+                "value": "3"
+              },
+              {
+                "text": "Four or more",
+                "value": "4_plus"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "household_car_count",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How many motorcycles does your household own?",
+            "answer_key": "household_motorcycle_count",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "None",
+                "value": "0"
+              },
+              {
+                "text": "One",
+                "value": "1"
+              },
+              {
+                "text": "Two",
+                "value": "2"
+              },
+              {
+                "text": "Three",
+                "value": "3"
+              },
+              {
+                "text": "Four or more",
+                "value": "4_plus"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "household_motorcycle_count",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How long does it take you to walk from home to the bus or metro stop you usually use?",
+            "answer_key": "nearest_public_transport_walk_time",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Up to 5 minutes",
+                "value": "up_to_5"
+              },
+              {
+                "text": "6–10 minutes",
+                "value": "6_to_10"
+              },
+              {
+                "text": "11–15 minutes",
+                "value": "11_to_15"
+              },
+              {
+                "text": "More than 15 minutes",
+                "value": "over_15"
+              },
+              {
+                "text": "I cannot walk to the stop",
+                "value": "cannot_walk"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "nearest_public_transport_walk_time",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How often do you travel within your city, for example for work, study, shopping or leisure?",
+            "answer_key": "urban_trip_frequency",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Several times a day",
+                "value": "several_daily"
+              },
+              {
+                "text": "Daily",
+                "value": "daily"
+              },
+              {
+                "text": "Several times a week",
+                "value": "several_weekly"
+              },
+              {
+                "text": "Weekly",
+                "value": "weekly"
+              },
+              {
+                "text": "Several times a month",
+                "value": "several_monthly"
+              },
+              {
+                "text": "Less than once a month",
+                "value": "less_monthly"
+              },
+              {
+                "text": "At irregular intervals",
+                "value": "irregular"
+              },
+              {
+                "text": "Never",
+                "value": "never"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "urban_trip_frequency",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "Where do you usually travel? Select all that apply.",
+            "answer_key": "main_trip_destinations",
+            "question_type": "multiple_options",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "School or university",
+                "value": "study"
+              },
+              {
+                "text": "Work",
+                "value": "work"
+              },
+              {
+                "text": "Shopping",
+                "value": "shopping"
+              },
+              {
+                "text": "Leisure or meeting friends",
+                "value": "leisure"
+              },
+              {
+                "text": "Caring for or helping others",
+                "value": "care"
+              },
+              {
+                "text": "Healthcare",
+                "value": "healthcare"
+              },
+              {
+                "text": "Other services",
+                "value": "other_services"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "main_trip_destinations",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "Which of the following do you personally use regularly? (Select all that apply)",
+            "answer_key": "vehicles_used",
+            "question_type": "multiple_options",
+            "options": [
+              {
+                "text": "Car",
+                "value": "car"
+              },
+              {
+                "text": "Motorcycle",
+                "value": "motorcycle"
+              },
+              {
+                "text": "Bicycle/e-bike",
+                "value": "bicycle_e_bike"
+              },
+              {
+                "text": "E-scooter",
+                "value": "e_scooter"
+              },
+              {
+                "text": "None",
+                "value": "none"
+              }
+            ],
+            "add_other": true,
+            "privacy_classification": "heightened_personal",
+            "question_id": "vehicles_used",
+            "question_version": "1.0.0"
+          }
+        ]
+      },
+      {
+        "title": "Taxi experience and personal security",
+        "description": "",
+        "backgroundColor": "#afdcec",
+        "questions": [
+          {
+            "text": "Which taxi services have you used?",
+            "answer_key": "taxi_service_experience",
+            "question_type": "multiple_options",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "I have never used a taxi",
+                "value": "none",
+                "exclusive": true
+              },
+              {
+                "text": "Street or rank taxis",
+                "value": "street_taxi"
+              },
+              {
+                "text": "App-booked taxis",
+                "value": "app_taxi"
+              },
+              {
+                "text": "Shared taxis",
+                "value": "shared_taxi"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_service_experience",
+            "question_version": "2.0.0",
+            "help": "Shared taxis can carry passengers from separate bookings on the same journey."
+          },
+          {
+            "text": "How secure do you generally feel when using a taxi?",
+            "answer_key": "taxi_security_rating",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Very insecure",
+                "value": "very_insecure"
+              },
+              {
+                "text": "Somewhat insecure",
+                "value": "insecure"
+              },
+              {
+                "text": "Neither secure nor insecure",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat secure",
+                "value": "secure"
+              },
+              {
+                "text": "Very secure",
+                "value": "very_secure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_rating",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How secure do you feel when sharing a taxi with someone you know?",
+            "answer_key": "taxi_security_with_familiar_passengers",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Very insecure",
+                "value": "very_insecure"
+              },
+              {
+                "text": "Somewhat insecure",
+                "value": "insecure"
+              },
+              {
+                "text": "Neither secure nor insecure",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat secure",
+                "value": "secure"
+              },
+              {
+                "text": "Very secure",
+                "value": "very_secure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_with_familiar_passengers",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How secure do you feel when sharing a taxi with women you do not know?",
+            "answer_key": "taxi_security_with_unfamiliar_women",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Very insecure",
+                "value": "very_insecure"
+              },
+              {
+                "text": "Somewhat insecure",
+                "value": "insecure"
+              },
+              {
+                "text": "Neither secure nor insecure",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat secure",
+                "value": "secure"
+              },
+              {
+                "text": "Very secure",
+                "value": "very_secure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_with_unfamiliar_women",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How secure do you feel when sharing a taxi with men you do not know?",
+            "answer_key": "taxi_security_with_unfamiliar_men",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Very insecure",
+                "value": "very_insecure"
+              },
+              {
+                "text": "Somewhat insecure",
+                "value": "insecure"
+              },
+              {
+                "text": "Neither secure nor insecure",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat secure",
+                "value": "secure"
+              },
+              {
+                "text": "Very secure",
+                "value": "very_secure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_with_unfamiliar_men",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How secure do you feel when using a taxi during the day?",
+            "answer_key": "taxi_daytime_security",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Very insecure",
+                "value": "very_insecure"
+              },
+              {
+                "text": "Somewhat insecure",
+                "value": "insecure"
+              },
+              {
+                "text": "Neither secure nor insecure",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat secure",
+                "value": "secure"
+              },
+              {
+                "text": "Very secure",
+                "value": "very_secure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_daytime_security",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How secure do you feel when using a taxi at night?",
+            "answer_key": "taxi_nighttime_security",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Very insecure",
+                "value": "very_insecure"
+              },
+              {
+                "text": "Somewhat insecure",
+                "value": "insecure"
+              },
+              {
+                "text": "Neither secure nor insecure",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat secure",
+                "value": "secure"
+              },
+              {
+                "text": "Very secure",
+                "value": "very_secure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_nighttime_security",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How secure do you feel when using a taxi in urban areas?",
+            "answer_key": "taxi_security_in_urban_areas",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Very insecure",
+                "value": "very_insecure"
+              },
+              {
+                "text": "Somewhat insecure",
+                "value": "insecure"
+              },
+              {
+                "text": "Neither secure nor insecure",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat secure",
+                "value": "secure"
+              },
+              {
+                "text": "Very secure",
+                "value": "very_secure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_in_urban_areas",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How secure do you feel when using a taxi outside the city?",
+            "answer_key": "taxi_security_outside_city",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Very insecure",
+                "value": "very_insecure"
+              },
+              {
+                "text": "Somewhat insecure",
+                "value": "insecure"
+              },
+              {
+                "text": "Neither secure nor insecure",
+                "value": "neutral"
+              },
+              {
+                "text": "Somewhat secure",
+                "value": "secure"
+              },
+              {
+                "text": "Very secure",
+                "value": "very_secure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_outside_city",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "Do you have a preference for the gender of a shared-taxi driver?",
+            "answer_key": "taxi_driver_gender_preference",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "No preference",
+                "value": "no_preference"
+              },
+              {
+                "text": "A woman",
+                "value": "woman"
+              },
+              {
+                "text": "A man",
+                "value": "man"
+              },
+              {
+                "text": "Another gender",
+                "value": "another_gender"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_driver_gender_preference",
+            "question_version": "2.0.0",
+            "help": "Shared taxis can carry passengers from separate bookings on the same journey."
+          },
+          {
+            "text": "How does talking with unfamiliar people affect your choice of taxi service?",
+            "answer_key": "social_interaction_influence_on_taxi_choice",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "I prefer a service where I can talk with others",
+                "value": "prefer_talking"
+              },
+              {
+                "text": "I prefer to avoid talking with unfamiliar people",
+                "value": "avoid_talking"
+              },
+              {
+                "text": "It does not affect my choice",
+                "value": "no_effect"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "social_interaction_influence_on_taxi_choice",
+            "question_version": "2.0.0"
+          }
+        ]
+      },
+      {
+        "title": "What matters when choosing a taxi",
+        "description": "",
+        "backgroundColor": "#7c9d8e",
+        "questions": [
+          {
+            "text": "How important is protection from theft, harassment or other intentional harm when you choose a taxi?",
+            "answer_key": "taxi_security_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How important is protection from traffic crashes and vehicle breakdowns when you choose a taxi?",
+            "answer_key": "taxi_safety_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_safety_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How important is comfort, such as comfortable seats and air conditioning, when you choose a taxi?",
+            "answer_key": "taxi_comfort_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_comfort_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How important is journey time when you choose a taxi?",
+            "answer_key": "taxi_travel_time_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_travel_time_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How important is vehicle cleanliness when you choose a taxi?",
+            "answer_key": "vehicle_cleanliness_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "vehicle_cleanliness_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How important is the fare when you choose a taxi?",
+            "answer_key": "taxi_fare_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_fare_importance",
+            "question_version": "2.0.0"
+          }
+        ]
+      },
+      {
+        "title": "Social influences on travel",
+        "description": "",
+        "backgroundColor": "#b5eaaa",
+        "questions": [
+          {
+            "text": "How important is the perceived socioeconomic background of other passengers when you choose a shared taxi?",
+            "answer_key": "taxi_passenger_social_background_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_passenger_social_background_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How often have concerns about how others see you made you hesitate to use a taxi?",
+            "answer_key": "taxi_social_image_concerns",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Never",
+                "value": "never"
+              },
+              {
+                "text": "Rarely",
+                "value": "rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "often"
+              },
+              {
+                "text": "Always",
+                "value": "always"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_social_image_concerns",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How often do you visit a place of worship, such as a church or mosque?",
+            "answer_key": "religious_place_visit_frequency",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Never",
+                "value": "never"
+              },
+              {
+                "text": "Rarely",
+                "value": "rarely"
+              },
+              {
+                "text": "Several times a year",
+                "value": "several_yearly"
+              },
+              {
+                "text": "Monthly",
+                "value": "monthly"
+              },
+              {
+                "text": "Weekly or more often",
+                "value": "weekly_or_more"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "religious_place_visit_frequency",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How often do you practise religious or spiritual activities in private, such as prayer or meditation?",
+            "answer_key": "private_religious_activity_frequency",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Never",
+                "value": "never"
+              },
+              {
+                "text": "Monthly or less often",
+                "value": "monthly_or_less"
+              },
+              {
+                "text": "Weekly",
+                "value": "weekly"
+              },
+              {
+                "text": "Several times a week",
+                "value": "several_weekly"
+              },
+              {
+                "text": "Daily",
+                "value": "daily"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "private_religious_activity_frequency",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How often do restrictions set by your family affect how you travel?",
+            "answer_key": "family_travel_restrictions",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Never",
+                "value": "never"
+              },
+              {
+                "text": "Rarely",
+                "value": "rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "often"
+              },
+              {
+                "text": "Always",
+                "value": "always"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "family_travel_restrictions",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How often do you consider advice from your family when choosing how to travel?",
+            "answer_key": "family_influence_on_transport_choice",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Never",
+                "value": "never"
+              },
+              {
+                "text": "Rarely",
+                "value": "rarely"
+              },
+              {
+                "text": "Sometimes",
+                "value": "sometimes"
+              },
+              {
+                "text": "Often",
+                "value": "often"
+              },
+              {
+                "text": "Always",
+                "value": "always"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "family_influence_on_transport_choice",
+            "question_version": "2.0.0"
+          }
+        ]
+      },
+      {
+        "title": "Religious and spiritual activities",
+        "description": "",
+        "backgroundColor": "#7dd4c5",
+        "questions": [
+          {
+            "text": "Do you think pink transportation services adequately address personal security concerns?",
+            "answer_key": "pink_transport_security_effectiveness",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Yes",
+                "value": "yes"
+              },
+              {
+                "text": "No",
+                "value": "no"
+              },
+              {
+                "text": "Not sure",
+                "value": "unsure"
+              },
+              {
+                "text": "I am not familiar with these services",
+                "value": "unfamiliar"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "pink_transport_security_effectiveness",
+            "question_version": "2.0.0",
+            "help": "Pink transportation refers to services intended specifically for women, such as women-only taxis or spaces on public transport."
+          },
+          {
+            "text": "Have you ever used an app to improve your personal safety while travelling?",
+            "answer_key": "travel_safety_app_use",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Yes",
+                "value": "yes"
+              },
+              {
+                "text": "No",
+                "value": "no"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "travel_safety_app_use",
+            "question_version": "2.0.0",
+            "help": "Examples include journey tracking, emergency alerts and reporting unsafe situations."
+          },
+          {
+            "text": "Do you have privacy concerns about apps that track your journey or share your travel details?",
+            "answer_key": "travel_safety_app_privacy_concerns",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Yes",
+                "value": "yes"
+              },
+              {
+                "text": "No",
+                "value": "no"
+              },
+              {
+                "text": "I do not use these apps",
+                "value": "not_used"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "travel_safety_app_privacy_concerns",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "What would you prefer to do if you experienced a personal security problem in a taxi?",
+            "answer_key": "taxi_security_response_preference",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Contact someone I trust",
+                "value": "trusted_contact"
+              },
+              {
+                "text": "Contact the police",
+                "value": "police"
+              },
+              {
+                "text": "Report it to the taxi operator",
+                "value": "operator"
+              },
+              {
+                "text": "Report it anonymously through an app",
+                "value": "anonymous_report"
+              },
+              {
+                "text": "Report it through an app using my details",
+                "value": "named_report"
+              },
+              {
+                "text": "Not sure",
+                "value": "unsure"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_response_preference",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How much extra would you be willing to pay for a taxi with additional personal security measures?",
+            "answer_key": "taxi_security_willingness_to_pay",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "No extra fare",
+                "value": "none"
+              },
+              {
+                "text": "Up to 10% more",
+                "value": "up_to_10"
+              },
+              {
+                "text": "11–20% more",
+                "value": "11_to_20"
+              },
+              {
+                "text": "21–30% more",
+                "value": "21_to_30"
+              },
+              {
+                "text": "More than 30% extra",
+                "value": "over_30"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_security_willingness_to_pay",
+            "question_version": "2.0.0"
+          }
+        ]
+      },
+      {
+        "title": "Security features and support",
+        "description": "",
+        "backgroundColor": "#000000",
+        "questions": [
+          {
+            "text": "How important is the ability to share your taxi location or trip details with someone you trust?",
+            "answer_key": "taxi_trusted_contact_sharing_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_trusted_contact_sharing_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How important is live tracking of your taxi journey for your personal security?",
+            "answer_key": "taxi_driver_tracking_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_driver_tracking_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "How important are cameras inside taxis for your personal security?",
+            "answer_key": "taxi_camera_security_importance",
+            "question_type": "single_option",
+            "privacy_classification": "personal_data",
+            "options": [
+              {
+                "text": "Not important",
+                "value": "not_important"
+              },
+              {
+                "text": "Slightly important",
+                "value": "slightly_important"
+              },
+              {
+                "text": "Moderately important",
+                "value": "moderately_important"
+              },
+              {
+                "text": "Important",
+                "value": "important"
+              },
+              {
+                "text": "Very important",
+                "value": "very_important"
+              }
+            ],
+            "add_prefer_not_to_say": true,
+            "question_id": "taxi_camera_security_importance",
+            "question_version": "2.0.0"
+          },
+          {
+            "text": "Is there anything else you would like to share about personal safety while travelling?",
+            "answer_key": "travel_safety_comments",
+            "question_type": "text",
+            "privacy_classification": "personal_data",
+            "question_id": "travel_safety_comments",
+            "question_version": "2.0.0"
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "en": {
+      "#Preface": "Preface",
+      "#Perceptions on Ride Sharing": "Perceptions on Ride Sharing",
+      "#A street by a metro entrance with a bike-sharing station, a person on an e-scooter and a cyclist": "A street by a metro entrance with a bike-sharing station, a person on an e-scooter and a cyclist",
+      "#Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com": "Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com",
+      "#About you and your household": "About you and your household",
+      "#Your everyday travel": "Your everyday travel",
+      "#Taxi experience and personal security": "Taxi experience and personal security",
+      "#What matters when choosing a taxi": "What matters when choosing a taxi",
+      "#Social influences on travel": "Social influences on travel",
+      "#Religious and spiritual activities": "Religious and spiritual activities",
+      "#Security features and support": "Security features and support",
+      "#How does your household income compare with other households in your community?": "How does your household income compare with other households in your community?",
+      "#Much lower": "Much lower",
+      "#Lower": "Lower",
+      "#About the same": "About the same",
+      "#Higher": "Higher",
+      "#Much higher": "Much higher",
+      "#Prefer not to say": "Prefer not to say",
+      "#How important is vehicle cleanliness when you choose a taxi?": "How important is vehicle cleanliness when you choose a taxi?",
+      "#Not important": "Not important",
+      "#Slightly important": "Slightly important",
+      "#Moderately important": "Moderately important",
+      "#Important": "Important",
+      "#Very important": "Very important",
+      "#How important is comfort, such as comfortable seats and air conditioning, when you choose a taxi?": "How important is comfort, such as comfortable seats and air conditioning, when you choose a taxi?",
+      "#How often do restrictions set by your family affect how you travel?": "How often do restrictions set by your family affect how you travel?",
+      "#Never": "Never",
+      "#Rarely": "Rarely",
+      "#Sometimes": "Sometimes",
+      "#Often": "Often",
+      "#Always": "Always",
+      "#How important is the perceived socioeconomic background of other passengers when you choose a shared taxi?": "How important is the perceived socioeconomic background of other passengers when you choose a shared taxi?",
+      "#Do you have a preference for the gender of a shared-taxi driver?": "Do you have a preference for the gender of a shared-taxi driver?",
+      "#No preference": "No preference",
+      "#A woman": "A woman",
+      "#A man": "A man",
+      "#Another gender": "Another gender",
+      "#Do you have privacy concerns about apps that track your journey or share your travel details?": "Do you have privacy concerns about apps that track your journey or share your travel details?",
+      "#Yes": "Yes",
+      "#No": "No",
+      "#I do not use these apps": "I do not use these apps",
+      "#How often do you consider advice from your family when choosing how to travel?": "How often do you consider advice from your family when choosing how to travel?",
+      "#Do you think pink transportation services adequately address personal security concerns?": "Do you think pink transportation services adequately address personal security concerns?",
+      "#Not sure": "Not sure",
+      "#I am not familiar with these services": "I am not familiar with these services",
+      "#How does talking with unfamiliar people affect your choice of taxi service?": "How does talking with unfamiliar people affect your choice of taxi service?",
+      "#I prefer a service where I can talk with others": "I prefer a service where I can talk with others",
+      "#I prefer to avoid talking with unfamiliar people": "I prefer to avoid talking with unfamiliar people",
+      "#It does not affect my choice": "It does not affect my choice",
+      "#Have you ever used an app to improve your personal safety while travelling?": "Have you ever used an app to improve your personal safety while travelling?",
+      "#How often have concerns about how others see you made you hesitate to use a taxi?": "How often have concerns about how others see you made you hesitate to use a taxi?",
+      "#How secure do you generally feel when using a taxi?": "How secure do you generally feel when using a taxi?",
+      "#Very insecure": "Very insecure",
+      "#Somewhat insecure": "Somewhat insecure",
+      "#Neither secure nor insecure": "Neither secure nor insecure",
+      "#Somewhat secure": "Somewhat secure",
+      "#Very secure": "Very secure",
+      "#How long does it take you to walk from home to the bus or metro stop you usually use?": "How long does it take you to walk from home to the bus or metro stop you usually use?",
+      "#Up to 5 minutes": "Up to 5 minutes",
+      "#6–10 minutes": "6–10 minutes",
+      "#11–15 minutes": "11–15 minutes",
+      "#More than 15 minutes": "More than 15 minutes",
+      "#I cannot walk to the stop": "I cannot walk to the stop",
+      "#How many cars does your household own?": "How many cars does your household own?",
+      "#None": "None",
+      "#One": "One",
+      "#Two": "Two",
+      "#Three": "Three",
+      "#Four or more": "Four or more",
+      "#How many motorcycles does your household own?": "How many motorcycles does your household own?",
+      "#How many people live in your household, including you?": "How many people live in your household, including you?",
+      "#Four": "Four",
+      "#Five": "Five",
+      "#Six or more": "Six or more",
+      "#How many years of driving experience do you have?": "How many years of driving experience do you have?",
+      "#No driving experience": "No driving experience",
+      "#Less than 1 year": "Less than 1 year",
+      "#1–2 years": "1–2 years",
+      "#3–5 years": "3–5 years",
+      "#6–10 years": "6–10 years",
+      "#More than 10 years": "More than 10 years",
+      "#How much extra would you be willing to pay for a taxi with additional personal security measures?": "How much extra would you be willing to pay for a taxi with additional personal security measures?",
+      "#No extra fare": "No extra fare",
+      "#Up to 10% more": "Up to 10% more",
+      "#11–20% more": "11–20% more",
+      "#21–30% more": "21–30% more",
+      "#More than 30% extra": "More than 30% extra",
+      "#How often do you practise religious or spiritual activities in private, such as prayer or meditation?": "How often do you practise religious or spiritual activities in private, such as prayer or meditation?",
+      "#Monthly or less often": "Monthly or less often",
+      "#Weekly": "Weekly",
+      "#Several times a week": "Several times a week",
+      "#Daily": "Daily",
+      "#How often do you travel within your city, for example for work, study, shopping or leisure?": "How often do you travel within your city, for example for work, study, shopping or leisure?",
+      "#Several times a day": "Several times a day",
+      "#Several times a month": "Several times a month",
+      "#Less than once a month": "Less than once a month",
+      "#At irregular intervals": "At irregular intervals",
+      "#How often do you visit a place of worship, such as a church or mosque?": "How often do you visit a place of worship, such as a church or mosque?",
+      "#Several times a year": "Several times a year",
+      "#Monthly": "Monthly",
+      "#Weekly or more often": "Weekly or more often",
+      "#What is your age group? (Participation is limited to adults aged 18 or older)": "What is your age group? (Participation is limited to adults aged 18 or older)",
+      "#18-24": "18-24",
+      "#25-34": "25-34",
+      "#35-44": "35-44",
+      "#45-54": "45-54",
+      "#55-64": "55-64",
+      "#65-74": "65-74",
+      "#75-84": "75-84",
+      "#85 or older": "85 or older",
+      "#How secure do you feel when sharing a taxi with someone you know?": "How secure do you feel when sharing a taxi with someone you know?",
+      "#How secure do you feel when sharing a taxi with women you do not know?": "How secure do you feel when sharing a taxi with women you do not know?",
+      "#How secure do you feel when sharing a taxi with men you do not know?": "How secure do you feel when sharing a taxi with men you do not know?",
+      "#How secure do you feel when using a taxi during the day?": "How secure do you feel when using a taxi during the day?",
+      "#How secure do you feel when using a taxi at night?": "How secure do you feel when using a taxi at night?",
+      "#How secure do you feel when using a taxi outside the city?": "How secure do you feel when using a taxi outside the city?",
+      "#How secure do you feel when using a taxi in urban areas?": "How secure do you feel when using a taxi in urban areas?",
+      "#Is there anything else you would like to share about personal safety while travelling?": "Is there anything else you would like to share about personal safety while travelling?",
+      "#How important is live tracking of your taxi journey for your personal security?": "How important is live tracking of your taxi journey for your personal security?",
+      "#How important are cameras inside taxis for your personal security?": "How important are cameras inside taxis for your personal security?",
+      "#Which taxi services have you used?": "Which taxi services have you used?",
+      "#I have never used a taxi": "I have never used a taxi",
+      "#Street or rank taxis": "Street or rank taxis",
+      "#App-booked taxis": "App-booked taxis",
+      "#Shared taxis": "Shared taxis",
+      "#How important is protection from traffic crashes and vehicle breakdowns when you choose a taxi?": "How important is protection from traffic crashes and vehicle breakdowns when you choose a taxi?",
+      "#How important is protection from theft, harassment or other intentional harm when you choose a taxi?": "How important is protection from theft, harassment or other intentional harm when you choose a taxi?",
+      "#How important is the ability to share your taxi location or trip details with someone you trust?": "How important is the ability to share your taxi location or trip details with someone you trust?",
+      "#How important is the fare when you choose a taxi?": "How important is the fare when you choose a taxi?",
+      "#How important is journey time when you choose a taxi?": "How important is journey time when you choose a taxi?",
+      "#Where do you usually travel? Select all that apply.": "Where do you usually travel? Select all that apply.",
+      "#School or university": "School or university",
+      "#Work": "Work",
+      "#Shopping": "Shopping",
+      "#Leisure or meeting friends": "Leisure or meeting friends",
+      "#Caring for or helping others": "Caring for or helping others",
+      "#Healthcare": "Healthcare",
+      "#Other services": "Other services",
+      "#Other": "Other",
+      "#Which best describes your employment status?": "Which best describes your employment status?",
+      "#Employed full-time": "Employed full-time",
+      "#Employed part-time": "Employed part-time",
+      "#Occasionally employed": "Occasionally employed",
+      "#Self-employed/freelance full-time": "Self-employed/freelance full-time",
+      "#Self employed/freelance part-time": "Self employed/freelance part-time",
+      "#Homemaker": "Homemaker",
+      "#Retired": "Retired",
+      "#Unemployed looking for work": "Unemployed looking for work",
+      "#Unemployed not looking for work": "Unemployed not looking for work",
+      "#Adult learner (student)": "Adult learner (student)",
+      "#What is your gender?": "What is your gender?",
+      "#Male": "Male",
+      "#Female": "Female",
+      "#What is your highest completed level of education?": "What is your highest completed level of education?",
+      "#No qualification": "No qualification",
+      "#Lower secondary school": "Lower secondary school",
+      "#High school": "High school",
+      "#Bachelor degree or equivalent": "Bachelor degree or equivalent",
+      "#Master degree or equivalent": "Master degree or equivalent",
+      "#Doctorate degree": "Doctorate degree",
+      "#What would you prefer to do if you experienced a personal security problem in a taxi?": "What would you prefer to do if you experienced a personal security problem in a taxi?",
+      "#Contact someone I trust": "Contact someone I trust",
+      "#Contact the police": "Contact the police",
+      "#Report it to the taxi operator": "Report it to the taxi operator",
+      "#Report it anonymously through an app": "Report it anonymously through an app",
+      "#Report it through an app using my details": "Report it through an app using my details",
+      "#Car": "Car",
+      "#Motorcycle": "Motorcycle",
+      "#Bicycle/e-bike": "Bicycle/e-bike",
+      "#E-scooter": "E-scooter",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "Which of the following do you personally use regularly? (Select all that apply)",
+      "#Pink transportation refers to services intended specifically for women, such as women-only taxis or spaces on public transport.": "Pink transportation refers to services intended specifically for women, such as women-only taxis or spaces on public transport.",
+      "#Shared taxis can carry passengers from separate bookings on the same journey.": "Shared taxis can carry passengers from separate bookings on the same journey.",
+      "#Examples include journey tracking, emergency alerts and reporting unsafe situations.": "Examples include journey tracking, emergency alerts and reporting unsafe situations."
+    },
+    "fa": {
+      "#Perceptions on Ride Sharing": "برداشت‌ها درباره هم‌سفری",
+      "#A street by a metro entrance with a bike-sharing station, a person on an e-scooter and a cyclist": "خیابانی کنار ورودی مترو با ایستگاه دوچرخه اشتراکی، فردی سوار بر اسکوتر برقی و یک دوچرخه‌سوار",
+      "#Preface": "پیشگفتار",
+      "#Dear Participant,<br><br>Research Group on Transportation at Sapinza University in Rome is currently investigating the sense of security of individuals in taxis in both developed and developing countries. The aim of this research is to identify the causes of insecurity and propose solutions to create a safer taxi system in the future. Additionally, we aim to reduce the gap between women and men, different social and economic classes in urban planning, and create a secure society for all people regardless of any classification.<br><br>This questionnaire consists of 8 pages and answering it will take approximately 10 to 15 minutes.<br><br>The questionnaire consists of three sections. The first section includes demographic questions about yourself, which helps us match different preferences with different types of people. The second section includes several questions about your current use of taxis and your preferences in this regard. Finally, the third section includes questions about your awareness of security in taxis and your preferences for designing a safer taxi system in the future. All answers will be collected anonymously.<br><br>We appreciate the time you spend answering this questionnaire.<br><br>m.afsary@gmail.com": "شرکت‌کننده گرامی,<br><br>گروه پژوهشی حمل‌ونقل در دانشگاه ساپینزا رم در حال بررسی احساس امنیت افراد در تاکسی‌ها در کشورهای توسعه‌یافته و در حال توسعه است. هدف این پژوهش شناسایی دلایل احساس ناامنی و ارائه‌ی راه‌حل‌هایی برای ایجاد یک سیستم تاکسی امن‌تر در آینده می‌باشد. علاوه بر این، ما قصد داریم شکاف بین زنان و مردان و طبقات مختلف اجتماعی و اقتصادی را در برنامه‌ریزی شهری کاهش دهیم و جامعه‌ای امن برای همه‌ی افراد، فارغ از هرگونه طبقه‌بندی، ایجاد کنیم.<br><br>این پرسشنامه شامل ۸ صفحه است و پاسخ‌گویی به آن تقریباً ۱۰ تا ۱۵ دقیقه زمان می‌برد.<br><br>پرسشنامه از سه بخش تشکیل شده است. بخش اول شامل سؤالات جمعیت‌شناختی درباره‌ی خود شماست که به ما کمک می‌کند ترجیحات مختلف را با انواع متفاوت افراد مقایسه کنیم. بخش دوم شامل چندین سؤال درباره‌ی نحوه‌ی استفاده‌ی فعلی شما از تاکسی و ترجیحاتتان در این زمینه است. در نهایت، بخش سوم به آگاهی شما از موضوع امنیت در تاکسی‌ها و ترجیحاتتان برای طراحی یک سیستم تاکسی امن‌تر در آینده می‌پردازد. تمامی پاسخ‌ها به صورت ناشناس جمع‌آوری خواهند شد.<br><br>از زمانی که برای پاسخ‌گویی به این پرسشنامه اختصاص می‌دهید، صمیمانه سپاسگزاریم.<br><br>m.afsary@gmail.com",
+      "#About you and your household": "درباره شما و خانوارتان",
+      "#Your everyday travel": "رفت‌وآمد روزمره شما",
+      "#Taxi experience and personal security": "تجربه استفاده از تاکسی و امنیت شخصی",
+      "#What matters when choosing a taxi": "معیارهای مهم در انتخاب تاکسی",
+      "#Social influences on travel": "تأثیر عوامل اجتماعی بر رفت‌وآمد",
+      "#Religious and spiritual activities": "فعالیت‌های دینی و معنوی",
+      "#Security features and support": "امکانات امنیتی و پشتیبانی",
+      "#How does your household income compare with other households in your community?": "درآمد خانوار شما در مقایسه با سایر خانوارهای محل زندگی‌تان چگونه است؟",
+      "#Much lower": "بسیار کمتر",
+      "#Lower": "کمتر",
+      "#About the same": "تقریباً برابر",
+      "#Higher": "بیشتر",
+      "#Much higher": "بسیار بیشتر",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#How important is vehicle cleanliness when you choose a taxi?": "هنگام انتخاب تاکسی، تمیزی خودرو چقدر برای شما مهم است؟",
+      "#Not important": "مهم نیست",
+      "#Slightly important": "کمی مهم",
+      "#Moderately important": "تا حدی مهم",
+      "#Important": "مهم",
+      "#Very important": "بسیار مهم",
+      "#How important is comfort, such as comfortable seats and air conditioning, when you choose a taxi?": "هنگام انتخاب تاکسی، راحتی مانند صندلی مناسب و تهویه مطبوع چقدر برای شما مهم است؟",
+      "#How often do restrictions set by your family affect how you travel?": "محدودیت‌هایی که خانواده شما تعیین می‌کند، چند وقت یک‌بار بر شیوه رفت‌وآمد شما تأثیر می‌گذارد؟",
+      "#Never": "هرگز",
+      "#Rarely": "به‌ندرت",
+      "#Sometimes": "گاهی",
+      "#Often": "اغلب",
+      "#Always": "همیشه",
+      "#How important is the perceived socioeconomic background of other passengers when you choose a shared taxi?": "هنگام انتخاب تاکسی اشتراکی، پیشینه اجتماعی و اقتصادی سایر مسافران از نظر شما چقدر اهمیت دارد؟",
+      "#Do you have a preference for the gender of a shared-taxi driver?": "آیا درباره جنسیت راننده تاکسی اشتراکی ترجیحی دارید؟",
+      "#No preference": "ترجیحی ندارم",
+      "#A woman": "زن",
+      "#A man": "مرد",
+      "#Another gender": "جنسیت دیگر",
+      "#Do you have privacy concerns about apps that track your journey or share your travel details?": "آیا درباره حریم خصوصی در برنامه‌هایی که مسیر سفر را ردیابی می‌کنند یا اطلاعات سفر شما را به اشتراک می‌گذارند نگرانی دارید؟",
+      "#Yes": "بله",
+      "#No": "خیر",
+      "#I do not use these apps": "از این برنامه‌ها استفاده نمی‌کنم",
+      "#How often do you consider advice from your family when choosing how to travel?": "هنگام انتخاب شیوه رفت‌وآمد، چند وقت یک‌بار توصیه‌های خانواده خود را در نظر می‌گیرید؟",
+      "#Do you think pink transportation services adequately address personal security concerns?": "آیا به نظر شما خدمات حمل‌ونقل صورتی به‌طور مناسبی به نگرانی‌های مربوط به امنیت شخصی پاسخ می‌دهند؟",
+      "#Not sure": "مطمئن نیستم",
+      "#I am not familiar with these services": "با این خدمات آشنا نیستم",
+      "#How does talking with unfamiliar people affect your choice of taxi service?": "گفت‌وگو با افراد ناآشنا چه تأثیری بر انتخاب خدمات تاکسی شما دارد؟",
+      "#I prefer a service where I can talk with others": "خدمتی را ترجیح می‌دهم که بتوانم با دیگران گفت‌وگو کنم",
+      "#I prefer to avoid talking with unfamiliar people": "ترجیح می‌دهم با افراد ناآشنا گفت‌وگو نکنم",
+      "#It does not affect my choice": "بر انتخاب من تأثیری ندارد",
+      "#Have you ever used an app to improve your personal safety while travelling?": "آیا تاکنون برای افزایش امنیت شخصی هنگام سفر از برنامه‌ای استفاده کرده‌اید؟",
+      "#How often have concerns about how others see you made you hesitate to use a taxi?": "نگرانی درباره نگاه دیگران چند وقت یک‌بار باعث شده است در استفاده از تاکسی تردید کنید؟",
+      "#How secure do you generally feel when using a taxi?": "به‌طور کلی هنگام استفاده از تاکسی چقدر احساس امنیت می‌کنید؟",
+      "#Very insecure": "بسیار ناامن",
+      "#Somewhat insecure": "تا حدی ناامن",
+      "#Neither secure nor insecure": "نه امن و نه ناامن",
+      "#Somewhat secure": "تا حدی امن",
+      "#Very secure": "بسیار امن",
+      "#How long does it take you to walk from home to the bus or metro stop you usually use?": "پیاده‌روی از خانه تا ایستگاه اتوبوس یا مترویی که معمولاً استفاده می‌کنید چقدر طول می‌کشد؟",
+      "#Up to 5 minutes": "تا ۵ دقیقه",
+      "#6–10 minutes": "۶ تا ۱۰ دقیقه",
+      "#11–15 minutes": "۱۱ تا ۱۵ دقیقه",
+      "#More than 15 minutes": "بیش از ۱۵ دقیقه",
+      "#I cannot walk to the stop": "نمی‌توانم پیاده به ایستگاه بروم",
+      "#How many cars does your household own?": "خانوار شما چند خودرو دارد؟",
+      "#None": "هیچ‌کدام",
+      "#One": "یک",
+      "#Two": "دو",
+      "#Three": "سه",
+      "#Four or more": "چهار یا بیشتر",
+      "#How many motorcycles does your household own?": "خانوار شما چند موتورسیکلت دارد؟",
+      "#How many people live in your household, including you?": "چند نفر با احتساب خود شما در خانوارتان زندگی می‌کنند؟",
+      "#Four": "چهار",
+      "#Five": "پنج",
+      "#Six or more": "شش یا بیشتر",
+      "#How many years of driving experience do you have?": "چند سال تجربه رانندگی دارید؟",
+      "#No driving experience": "بدون تجربه رانندگی",
+      "#Less than 1 year": "کمتر از یک سال",
+      "#1–2 years": "۱ تا ۲ سال",
+      "#3–5 years": "۳ تا ۵ سال",
+      "#6–10 years": "۶ تا ۱۰ سال",
+      "#More than 10 years": "بیش از ۱۰ سال",
+      "#How much extra would you be willing to pay for a taxi with additional personal security measures?": "برای تاکسی با امکانات بیشتر برای امنیت شخصی، حاضر به پرداخت چه میزان هزینه اضافی هستید؟",
+      "#No extra fare": "بدون هزینه اضافی",
+      "#Up to 10% more": "تا ۱۰ درصد بیشتر",
+      "#11–20% more": "۱۱ تا ۲۰ درصد بیشتر",
+      "#21–30% more": "۲۱ تا ۳۰ درصد بیشتر",
+      "#More than 30% extra": "بیش از ۳۰ درصد بیشتر",
+      "#How often do you practise religious or spiritual activities in private, such as prayer or meditation?": "چند وقت یک‌بار در خلوت به فعالیت‌های دینی یا معنوی مانند دعا یا مراقبه می‌پردازید؟",
+      "#Monthly or less often": "ماهی یک‌بار یا کمتر",
+      "#Weekly": "هفتگی",
+      "#Several times a week": "چند بار در هفته",
+      "#Daily": "روزانه",
+      "#How often do you travel within your city, for example for work, study, shopping or leisure?": "چند وقت یک‌بار برای کار، تحصیل، خرید یا تفریح در شهر خود رفت‌وآمد می‌کنید؟",
+      "#Several times a day": "چند بار در روز",
+      "#Several times a month": "چند بار در ماه",
+      "#Less than once a month": "کمتر از ماهی یک‌بار",
+      "#At irregular intervals": "در فاصله‌های نامنظم",
+      "#How often do you visit a place of worship, such as a church or mosque?": "چند وقت یک‌بار به مکانی برای عبادت مانند کلیسا یا مسجد می‌روید؟",
+      "#Several times a year": "چند بار در سال",
+      "#Monthly": "ماهانه",
+      "#Weekly or more often": "هفتگی یا بیشتر",
+      "#What is your age group? (Participation is limited to adults aged 18 or older)": "در کدام گروه سنی هستید؟ (شرکت در این مطالعه فقط برای افراد ۱۸ ساله و بالاتر است)",
+      "#18-24": "18-24",
+      "#25-34": "25-34",
+      "#35-44": "35-44",
+      "#45-54": "45-54",
+      "#55-64": "55-64",
+      "#65-74": "65-74",
+      "#75-84": "75-84",
+      "#85 or older": "۸۵ سال یا بیشتر",
+      "#How secure do you feel when sharing a taxi with someone you know?": "هنگام استفاده از تاکسی اشتراکی با فردی که می‌شناسید چقدر احساس امنیت می‌کنید؟",
+      "#How secure do you feel when sharing a taxi with women you do not know?": "هنگام استفاده از تاکسی اشتراکی با زنانی که نمی‌شناسید چقدر احساس امنیت می‌کنید؟",
+      "#How secure do you feel when sharing a taxi with men you do not know?": "هنگام استفاده از تاکسی اشتراکی با مردانی که نمی‌شناسید چقدر احساس امنیت می‌کنید؟",
+      "#How secure do you feel when using a taxi during the day?": "هنگام استفاده از تاکسی در طول روز چقدر احساس امنیت می‌کنید؟",
+      "#How secure do you feel when using a taxi at night?": "هنگام استفاده از تاکسی در شب چقدر احساس امنیت می‌کنید؟",
+      "#How secure do you feel when using a taxi outside the city?": "هنگام استفاده از تاکسی در خارج از شهر چقدر احساس امنیت می‌کنید؟",
+      "#How secure do you feel when using a taxi in urban areas?": "هنگام استفاده از تاکسی در مناطق شهری چقدر احساس امنیت می‌کنید؟",
+      "#Is there anything else you would like to share about personal safety while travelling?": "آیا نکته دیگری درباره امنیت شخصی هنگام سفر دارید که بخواهید بیان کنید؟",
+      "#How important is live tracking of your taxi journey for your personal security?": "ردیابی زنده مسیر تاکسی چقدر برای امنیت شخصی شما مهم است؟",
+      "#How important are cameras inside taxis for your personal security?": "دوربین‌های داخل تاکسی چقدر برای امنیت شخصی شما مهم هستند؟",
+      "#Which taxi services have you used?": "از کدام خدمات تاکسی استفاده کرده‌اید؟",
+      "#I have never used a taxi": "هرگز از تاکسی استفاده نکرده‌ام",
+      "#Street or rank taxis": "تاکسی خیابانی یا ایستگاهی",
+      "#App-booked taxis": "تاکسی رزروشده با برنامه",
+      "#Shared taxis": "تاکسی اشتراکی",
+      "#How important is protection from traffic crashes and vehicle breakdowns when you choose a taxi?": "هنگام انتخاب تاکسی، محافظت در برابر تصادف و خرابی خودرو چقدر برای شما مهم است؟",
+      "#How important is protection from theft, harassment or other intentional harm when you choose a taxi?": "هنگام انتخاب تاکسی، محافظت در برابر سرقت، آزار یا سایر آسیب‌های عمدی چقدر برای شما مهم است؟",
+      "#How important is the ability to share your taxi location or trip details with someone you trust?": "امکان اشتراک‌گذاری موقعیت تاکسی یا اطلاعات سفر با فردی مورد اعتماد چقدر برای شما مهم است؟",
+      "#How important is the fare when you choose a taxi?": "هنگام انتخاب تاکسی، کرایه چقدر برای شما مهم است؟",
+      "#How important is journey time when you choose a taxi?": "هنگام انتخاب تاکسی، مدت سفر چقدر برای شما مهم است؟",
+      "#Where do you usually travel? Select all that apply.": "معمولاً به کجا رفت‌وآمد می‌کنید؟ همه گزینه‌های مرتبط را انتخاب کنید.",
+      "#School or university": "مدرسه یا دانشگاه",
+      "#Work": "محل کار",
+      "#Shopping": "خرید",
+      "#Leisure or meeting friends": "تفریح یا دیدار دوستان",
+      "#Caring for or helping others": "مراقبت از دیگران یا کمک به آن‌ها",
+      "#Healthcare": "خدمات درمانی",
+      "#Other services": "سایر خدمات",
+      "#Other": "سایر",
+      "#Which best describes your employment status?": "کدام گزینه وضعیت شغلی شما را بهتر توصیف می‌کند؟",
+      "#Employed full-time": "شاغل تمام‌وقت",
+      "#Employed part-time": "شاغل پاره‌وقت",
+      "#Occasionally employed": "شاغل به‌صورت موردی",
+      "#Self-employed/freelance full-time": "خوداشتغال / فریلنسر تمام‌وقت",
+      "#Self employed/freelance part-time": "خوداشتغال / فریلنسر پاره‌وقت",
+      "#Homemaker": "خانه‌دار",
+      "#Retired": "بازنشسته",
+      "#Unemployed looking for work": "بیکار و در جست‌وجوی کار",
+      "#Unemployed not looking for work": "بیکار و در حال حاضر جویای کار نیستم",
+      "#Adult learner (student)": "دانشجو یا هنرجوی بزرگسال",
+      "#What is your gender?": "جنسیت شما چیست؟",
+      "#Male": "مرد",
+      "#Female": "زن",
+      "#What is your highest completed level of education?": "بالاترین سطح تحصیلی که به پایان رسانده‌اید چیست؟",
+      "#No qualification": "بدون مدرک تحصیلی",
+      "#Lower secondary school": "دوره متوسطه اول",
+      "#High school": "دبیرستان",
+      "#Bachelor degree or equivalent": "کارشناسی یا معادل آن",
+      "#Master degree or equivalent": "کارشناسی ارشد یا معادل آن",
+      "#Doctorate degree": "دکتری",
+      "#What would you prefer to do if you experienced a personal security problem in a taxi?": "اگر در تاکسی با مشکل امنیت شخصی روبه‌رو شوید، ترجیح می‌دهید چه کاری انجام دهید؟",
+      "#Contact someone I trust": "تماس با فردی مورد اعتماد",
+      "#Contact the police": "تماس با پلیس",
+      "#Report it to the taxi operator": "گزارش به شرکت تاکسی",
+      "#Report it anonymously through an app": "گزارش ناشناس از طریق برنامه",
+      "#Report it through an app using my details": "گزارش از طریق برنامه با مشخصات خودم",
+      "#Car": "خودرو",
+      "#Motorcycle": "موتورسیکلت",
+      "#Bicycle/e-bike": "دوچرخه / دوچرخه برقی",
+      "#E-scooter": "اسکوتر برقی",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "کدام یک از گزینه‌های زیر را خودتان به طور منظم استفاده می‌کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+      "#Pink transportation refers to services intended specifically for women, such as women-only taxis or spaces on public transport.": "حمل‌ونقل صورتی به خدماتی ویژه زنان، مانند تاکسی مخصوص زنان یا بخش‌های ویژه زنان در حمل‌ونقل عمومی، گفته می‌شود.",
+      "#Shared taxis can carry passengers from separate bookings on the same journey.": "تاکسی‌های اشتراکی می‌توانند در یک سفر مسافرانی با رزروهای جداگانه داشته باشند.",
+      "#Examples include journey tracking, emergency alerts and reporting unsafe situations.": "از جمله امکانات این برنامه‌ها می‌توان به ردیابی سفر، هشدار اضطراری و گزارش موقعیت‌های ناامن اشاره کرد."
+    }
+  },
+  "id": "perception_on_ride_sharing",
+  "db_set": "questionnaires",
+  "response_format": "planeasy.response",
+  "response_schema_version": "2.0",
+  "response_kind": "survey",
+  "response_contract": {
+    "entity": {},
+    "related_entities": [],
+    "geometry": null,
+    "privacy": {
+      "email": "sha256_only",
+      "remove_user_id_supported": true
+    },
+    "id_strategy": "generated_response_id",
+    "subcollection": "surveyResponses/{questionnaireId}/responses/{responseId}"
+  },
+  "default_language": "en"
 }

@@ -1,0 +1,57 @@
+{
+  "question_id": "taxi_driver_gender_preference",
+  "key": "taxi_driver_gender_preference",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "origin_questionnaire": "perception_on_ride_sharing",
+  "source_questionnaires": [
+    "perception_on_ride_sharing"
+  ],
+  "schema": {
+    "text": "Do you have a preference for the gender of a shared-taxi driver?",
+    "answer_key": "taxi_driver_gender_preference",
+    "question_type": "single_option",
+    "privacy_classification": "personal_data",
+    "options": [
+      {
+        "text": "No preference",
+        "value": "no_preference"
+      },
+      {
+        "text": "A woman",
+        "value": "woman"
+      },
+      {
+        "text": "A man",
+        "value": "man"
+      },
+      {
+        "text": "Another gender",
+        "value": "another_gender"
+      }
+    ],
+    "add_prefer_not_to_say": true,
+    "help": "Shared taxis can carry passengers from separate bookings on the same journey."
+  },
+  "translations": {
+    "en": {
+      "#Do you have a preference for the gender of a shared-taxi driver?": "Do you have a preference for the gender of a shared-taxi driver?",
+      "#No preference": "No preference",
+      "#A woman": "A woman",
+      "#A man": "A man",
+      "#Another gender": "Another gender",
+      "#Prefer not to say": "Prefer not to say",
+      "#Shared taxis can carry passengers from separate bookings on the same journey.": "Shared taxis can carry passengers from separate bookings on the same journey."
+    },
+    "fa": {
+      "#Do you have a preference for the gender of a shared-taxi driver?": "آیا درباره جنسیت راننده تاکسی اشتراکی ترجیحی دارید؟",
+      "#No preference": "ترجیحی ندارم",
+      "#A woman": "زن",
+      "#A man": "مرد",
+      "#Another gender": "جنسیت دیگر",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#Shared taxis can carry passengers from separate bookings on the same journey.": "تاکسی‌های اشتراکی می‌توانند در یک سفر مسافرانی با رزروهای جداگانه داشته باشند."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "question_id": "taxi_service_experience",
+  "key": "taxi_service_experience",
+  "project": "shared",
+  "version": "2.0.0",
+  "status": "draft",
+  "origin_questionnaire": "perception_on_ride_sharing",
+  "source_questionnaires": [
+    "perception_on_ride_sharing"
+  ],
+  "schema": {
+    "text": "Which taxi services have you used?",
+    "answer_key": "taxi_service_experience",
+    "question_type": "multiple_options",
+    "privacy_classification": "personal_data",
+    "options": [
+      {
+        "text": "I have never used a taxi",
+        "value": "none",
+        "exclusive": true
+      },
+      {
+        "text": "Street or rank taxis",
+        "value": "street_taxi"
+      },
+      {
+        "text": "App-booked taxis",
+        "value": "app_taxi"
+      },
+      {
+        "text": "Shared taxis",
+        "value": "shared_taxi"
+      }
+    ],
+    "add_prefer_not_to_say": true,
+    "help": "Shared taxis can carry passengers from separate bookings on the same journey."
+  },
+  "translations": {
+    "en": {
+      "#Which taxi services have you used?": "Which taxi services have you used?",
+      "#I have never used a taxi": "I have never used a taxi",
+      "#Street or rank taxis": "Street or rank taxis",
+      "#App-booked taxis": "App-booked taxis",
+      "#Shared taxis": "Shared taxis",
+      "#Prefer not to say": "Prefer not to say",
+      "#Shared taxis can carry passengers from separate bookings on the same journey.": "Shared taxis can carry passengers from separate bookings on the same journey."
+    },
+    "fa": {
+      "#Which taxi services have you used?": "از کدام خدمات تاکسی استفاده کرده‌اید؟",
+      "#I have never used a taxi": "هرگز از تاکسی استفاده نکرده‌ام",
+      "#Street or rank taxis": "تاکسی خیابانی یا ایستگاهی",
+      "#App-booked taxis": "تاکسی رزروشده با برنامه",
+      "#Shared taxis": "تاکسی اشتراکی",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#Shared taxis can carry passengers from separate bookings on the same journey.": "تاکسی‌های اشتراکی می‌توانند در یک سفر مسافرانی با رزروهای جداگانه داشته باشند."
+    }
+  }
+}
