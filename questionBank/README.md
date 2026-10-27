@@ -34,3 +34,11 @@ The standalone taxi questionnaire reuses five existing questions: `age_group`, `
 The study is **Perceptions on Ride Sharing**, with project identifier `perceptions_on_ride_sharing`. The existing `no_project/` publication path is retained so its URL remains stable.
 
 Selection and reuse in this branch are draft proposals, not evidence that a revised definition has already been used in research. Historical source references record actual source occurrences. Topic assignments marked `needs_review` remain editorial aids. Religious-activity questions retain source privacy annotations and still need a specific privacy review; the current classification vocabulary does not distinguish religion.
+
+## Find questions by project
+
+Current question files include optional family-level `project_provenance`, with a documented `origin` project and `uses` records at `historical` or `draft` stage. The feed carries this metadata automatically. The builder can distinguish questions originating in a study from generic questions reused there, without adding project names to question IDs.
+
+**Perceptions on Ride Sharing** (`perceptions_on_ride_sharing`) is associated with 45 question families: 40 from the recovered study and five generic families reused in its revised draft. **SmartUrbanity** (`smarturbanity`) is associated with the 305 families imported from its configuration history. `historical` means a documented source occurrence, not approval or proof of response collection; `draft` means a proposed composition. These are family associations, not claims that every revision was used in each project. Origin means the first documented source, not an assertion of authorship.
+
+These associations do not change question content or semantic versions. Earlier immutable revision files remain unchanged. Runtime questionnaires retain their selected ID/version references without embedding pool history or project provenance.
