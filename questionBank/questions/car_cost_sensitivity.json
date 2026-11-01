@@ -2,14 +2,15 @@
   "question_id": "car_cost_sensitivity",
   "key": "car_cost_sensitivity",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
     "smarturbanity_car"
   ],
   "schema": {
-    "text": "How would increased driving-related costs (fuel, tolls, parking) affect your car usage?",
+    "text": "How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?",
+    "help": "A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.",
     "answer_key": "car_cost_sensitivity",
     "question_type": "single_option",
     "options": [
@@ -32,74 +33,103 @@
       {
         "text": "Would stop using car for most trips",
         "value": "would_stop_using_car_for_most_trips"
+      },
+      {
+        "text": "I could not reduce it: I have no alternative",
+        "value": "could_not_reduce_no_alternative"
       }
     ],
+    "add_i_dont_know": true,
     "privacy_classification": "personal_data"
   },
   "translations": {
     "en": {
-      "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "How would increased driving-related costs (fuel, tolls, parking) affect your car usage?",
       "#No change in usage": "No change in usage",
       "#Slight reduction in car use": "Slight reduction in car use",
       "#Moderate reduction in car use": "Moderate reduction in car use",
       "#Significant reduction in car use": "Significant reduction in car use",
-      "#Would stop using car for most trips": "Would stop using car for most trips"
+      "#Would stop using car for most trips": "Would stop using car for most trips",
+      "#How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?": "How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?",
+      "#A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.": "A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.",
+      "#I could not reduce it: I have no alternative": "I could not reduce it: I have no alternative",
+      "#I don't know": "I don't know"
     },
     "it": {
-      "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "In che modo un aumento dei costi legati all'uso dell'auto (carburante, pedaggi, parcheggio) influenzerebbe il tuo utilizzo dell'auto?",
       "#No change in usage": "Nessun cambiamento nell'utilizzo",
       "#Slight reduction in car use": "Leggera riduzione dell'uso dell'auto",
       "#Moderate reduction in car use": "Moderata riduzione dell'uso dell'auto",
       "#Significant reduction in car use": "Significativa riduzione dell'uso dell'auto",
-      "#Would stop using car for most trips": "Smetterei di utilizzare l'auto per la maggior parte degli spostamenti"
+      "#Would stop using car for most trips": "Smetterei di utilizzare l'auto per la maggior parte degli spostamenti",
+      "#How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?": "In che modo un aumento dei costi legati all'uso dell'auto (carburante, pedaggi, parcheggio, permessi per le zone a traffico limitato) influenzerebbe il tuo utilizzo dell'auto?",
+      "#A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.": "La zona a traffico limitato (ZTL) è un'area, per esempio un centro storico, in cui le auto possono entrare solo con un permesso.",
+      "#I could not reduce it: I have no alternative": "Non potrei ridurlo: non ho alternative",
+      "#I don't know": "Non lo so"
     },
     "fr": {
-      "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "Si les coûts liés à la conduite augmentaient, par exemple le carburant, les péages ou le stationnement, quel effet cela aurait-il sur votre usage de la voiture ?",
       "#No change in usage": "Aucun changement",
       "#Slight reduction in car use": "Une légère réduction de mon usage de la voiture",
       "#Moderate reduction in car use": "Une réduction modérée de mon usage de la voiture",
       "#Significant reduction in car use": "Une forte réduction de mon usage de la voiture",
-      "#Would stop using car for most trips": "J’arrêterais d’utiliser la voiture pour la plupart de mes déplacements"
+      "#Would stop using car for most trips": "J’arrêterais d’utiliser la voiture pour la plupart de mes déplacements",
+      "#How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?": "Si les coûts liés à la conduite augmentaient, par exemple le carburant, les péages, le stationnement ou les permis d’accès aux zones à circulation limitée, quel effet cela aurait-il sur votre usage de la voiture ?",
+      "#A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.": "Une zone à circulation limitée est un secteur, par exemple un centre historique, où les voitures ne peuvent entrer qu'avec une autorisation.",
+      "#I could not reduce it: I have no alternative": "Je ne pourrais pas la réduire : je n'ai pas d'alternative",
+      "#I don't know": "Je ne sais pas"
     },
     "de": {
-      "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "Wenn die Kosten des Autofahrens steigen würden, zum Beispiel Kraftstoff, Maut oder Parken: Wie würde sich das auf Ihre Autonutzung auswirken?",
       "#No change in usage": "Keine Änderung",
       "#Slight reduction in car use": "Ich würde das Auto etwas weniger nutzen",
       "#Moderate reduction in car use": "Ich würde das Auto deutlich weniger nutzen",
       "#Significant reduction in car use": "Ich würde das Auto viel weniger nutzen",
-      "#Would stop using car for most trips": "Ich würde für die meisten Wege auf das Auto verzichten"
+      "#Would stop using car for most trips": "Ich würde für die meisten Wege auf das Auto verzichten",
+      "#How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?": "Wenn die Kosten des Autofahrens steigen würden, zum Beispiel Kraftstoff, Maut, Parken oder Zufahrtsgenehmigungen für verkehrsbeschränkte Zonen: Wie würde sich das auf Ihre Autonutzung auswirken?",
+      "#A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.": "Eine verkehrsbeschränkte Zone ist ein Bereich, zum Beispiel eine Altstadt, in den Autos nur mit Genehmigung einfahren dürfen.",
+      "#I could not reduce it: I have no alternative": "Ich könnte sie nicht reduzieren: Ich habe keine Alternative",
+      "#I don't know": "Ich weiß es nicht"
     },
     "tr": {
-      "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "Yakıt, geçiş ücreti veya otopark gibi otomobil kullanma maliyetleri artsaydı otomobil kullanımınız nasıl etkilenirdi?",
       "#No change in usage": "Kullanımım değişmezdi",
       "#Slight reduction in car use": "Otomobili biraz daha az kullanırdım",
       "#Moderate reduction in car use": "Otomobili orta düzeyde daha az kullanırdım",
       "#Significant reduction in car use": "Otomobili belirgin şekilde daha az kullanırdım",
-      "#Would stop using car for most trips": "Çoğu yolculukta otomobil kullanmayı bırakırdım"
+      "#Would stop using car for most trips": "Çoğu yolculukta otomobil kullanmayı bırakırdım",
+      "#How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?": "Yakıt, geçiş ücreti, otopark veya trafiğe kısıtlı bölgeler için giriş izni gibi otomobil kullanma maliyetleri artsaydı otomobil kullanımınız nasıl etkilenirdi?",
+      "#A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.": "Trafiğe kısıtlı bölge, örneğin tarihi bir merkez gibi, arabaların yalnızca izinle girebildiği bir alandır.",
+      "#I could not reduce it: I have no alternative": "Azaltamazdım: başka seçeneğim yok",
+      "#I don't know": "Bilmiyorum"
     },
     "fa": {
-      "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "اگر هزینه‌های رانندگی مثل سوخت، عوارض یا پارکینگ افزایش پیدا کند، استفاده شما از خودرو چگونه تغییر می‌کند؟",
       "#No change in usage": "تغییری نمی‌کند",
       "#Slight reduction in car use": "کمی کمتر از خودرو استفاده می‌کنم",
       "#Moderate reduction in car use": "تا حد متوسط کمتر از خودرو استفاده می‌کنم",
       "#Significant reduction in car use": "به‌طور قابل توجهی کمتر از خودرو استفاده می‌کنم",
-      "#Would stop using car for most trips": "برای بیشتر سفرها استفاده از خودرو را کنار می‌گذارم"
+      "#Would stop using car for most trips": "برای بیشتر سفرها استفاده از خودرو را کنار می‌گذارم",
+      "#How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?": "اگر هزینه‌های رانندگی مثل سوخت، عوارض، پارکینگ یا مجوز ورود به محدوده‌های ترافیکی افزایش پیدا کند، استفاده شما از خودرو چگونه تغییر می‌کند؟",
+      "#A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.": "محدودهٔ ترافیکی منطقه‌ای است، مثلاً مرکز تاریخی شهر، که خودروها فقط با مجوز می‌توانند وارد آن شوند.",
+      "#I could not reduce it: I have no alternative": "نمی‌توانستم آن را کم کنم: جایگزینی ندارم",
+      "#I don't know": "نمی‌دانم"
     },
     "hu": {
-      "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "Ha nőnének az autózással kapcsolatos költségek, például az üzemanyag, útdíj vagy parkolás, hogyan változna az autóhasználata?",
       "#No change in usage": "Nem változna",
       "#Slight reduction in car use": "Kissé kevesebbet használnám az autót",
       "#Moderate reduction in car use": "Közepesen csökkenteném az autóhasználatot",
       "#Significant reduction in car use": "Jelentősen csökkenteném az autóhasználatot",
-      "#Would stop using car for most trips": "A legtöbb útra nem használnék autót"
+      "#Would stop using car for most trips": "A legtöbb útra nem használnék autót",
+      "#How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?": "Ha nőnének az autózással kapcsolatos költségek, például az üzemanyag, útdíj, parkolás vagy a forgalomkorlátozott övezetek behajtási engedélye, hogyan változna az autóhasználata?",
+      "#A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.": "A forgalomkorlátozott övezet olyan terület, például egy történelmi belváros, ahová autóval csak engedéllyel lehet behajtani.",
+      "#I could not reduce it: I have no alternative": "Nem tudnám csökkenteni: nincs más lehetőségem",
+      "#I don't know": "Nem tudom"
     },
     "ar": {
-      "#How would increased driving-related costs (fuel, tolls, parking) affect your car usage?": "إذا ارتفعت تكاليف القيادة مثل الوقود أو الرسوم أو مواقف السيارات، كيف سيؤثر ذلك في استخدامك للسيارة؟",
       "#No change in usage": "لن يتغير استخدامي",
       "#Slight reduction in car use": "سأقلل استخدام السيارة قليلًا",
       "#Moderate reduction in car use": "سأقلل استخدام السيارة بدرجة متوسطة",
       "#Significant reduction in car use": "سأقلل استخدام السيارة بشكل واضح",
-      "#Would stop using car for most trips": "سأتوقف عن استخدام السيارة في معظم الرحلات"
+      "#Would stop using car for most trips": "سأتوقف عن استخدام السيارة في معظم الرحلات",
+      "#How would increased driving-related costs (fuel, tolls, parking, permits for limited traffic zones) affect your car usage?": "إذا ارتفعت تكاليف القيادة مثل الوقود أو الرسوم أو مواقف السيارات أو تصاريح دخول المناطق المقيدة لحركة المرور، كيف سيؤثر ذلك في استخدامك للسيارة؟",
+      "#A limited traffic zone is an area, such as a historic centre, that cars may enter only with a permit.": "المنطقة المقيدة لحركة المرور منطقة، مثل وسط المدينة التاريخي، لا يمكن للسيارات دخولها إلا بتصريح.",
+      "#I could not reduce it: I have no alternative": "لن أستطيع تقليله: ليس لدي بديل",
+      "#I don't know": "لا أعرف"
     }
   },
   "origin_project": {
