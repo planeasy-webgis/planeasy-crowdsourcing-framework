@@ -2,16 +2,19 @@
   "question_id": "home_neighbourhood",
   "key": "home_neighbourhood",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
-    "smarturbanity_about_you"
+    "smarturbanity_about_you",
+    "smarturbanity_your_profile"
   ],
   "schema": {
+    "privacy_classification": "heightened_personal",
     "text": "In which neighbourhood of Municipio XII do you currently live?",
     "answer_key": "home_neighbourhood",
     "question_type": "single_option",
+    "checks_inline": false,
     "options": [
       {
         "text": "BRAVETTA",
@@ -65,26 +68,10 @@
         "text": "VILLINI",
         "value": "villini"
       }
-    ],
-    "privacy_classification": "heightened_personal"
+    ]
   },
   "translations": {
-    "en": {
-      "#In which neighbourhood of Municipio XII do you currently live?": "In which neighbourhood of Municipio XII do you currently live?",
-      "#BRAVETTA": "BRAVETTA",
-      "#CASAL LUMBROSO": "CASAL LUMBROSO",
-      "#COLLE AURELIO": "COLLE AURELIO",
-      "#COLLI PORTUENSI": "COLLI PORTUENSI",
-      "#LA PISANA": "LA PISANA",
-      "#MASSIMINA": "MASSIMINA",
-      "#MONTEVERDE NUOVO": "MONTEVERDE NUOVO",
-      "#MONTEVERDE VECCHIO": "MONTEVERDE VECCHIO",
-      "#PORTA PORTESE": "PORTA PORTESE",
-      "#SANTA CECILIA": "SANTA CECILIA",
-      "#VIGNACCIA": "VIGNACCIA",
-      "#VILLA TROILI": "VILLA TROILI",
-      "#VILLINI": "VILLINI"
-    },
+    "en": {},
     "it": {
       "#In which neighbourhood of Municipio XII do you currently live?": "In quale quartiere del Municipio XII vivi attualmente?",
       "#BRAVETTA": "BRAVETTA",
@@ -182,7 +169,7 @@
       "#VILLINI": "VILLINI"
     },
     "ar": {
-      "#In which neighbourhood of Municipio XII do you currently live?": "في أي حي من Municipio XII تعيش حاليًا؟",
+      "#In which neighbourhood of Municipio XII do you currently live?": "ما حيّ سكنك الحالي في Municipio XII؟",
       "#BRAVETTA": "BRAVETTA",
       "#CASAL LUMBROSO": "CASAL LUMBROSO",
       "#COLLE AURELIO": "COLLE AURELIO",

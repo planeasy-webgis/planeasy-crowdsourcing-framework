@@ -2,19 +2,22 @@
   "question_id": "residence",
   "key": "residence",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
-    "smarturbanity_about_you"
+    "smarturbanity_about_you",
+    "smarturbanity_your_profile"
   ],
   "schema": {
+    "privacy_classification": "heightened_personal",
     "text": "Which of the following best describes your relationship to Municipio XII?",
     "answer_key": "residence",
     "question_type": "single_option",
+    "checks_inline": false,
     "options": [
       {
-        "text": "I live here (Resident)",
+        "text": "I live here (even without official registered residence)",
         "value": "live"
       },
       {
@@ -22,72 +25,76 @@
         "value": "travel"
       },
       {
-        "text": "I’m visiting for leisure (Tourist)",
+        "text": "I come here regularly for services, healthcare or to accompany someone",
+        "value": "services"
+      },
+      {
+        "text": "I'm visiting for leisure (Tourist)",
         "value": "visit"
       },
       {
-        "text": "I’m here temporarily for another reason (Visitor)",
+        "text": "I'm here temporarily for another reason (Visitor)",
         "value": "reason"
       }
-    ],
-    "privacy_classification": "heightened_personal"
+    ]
   },
   "translations": {
-    "en": {
-      "#Which of the following best describes your relationship to Municipio XII?": "Which of the following best describes your relationship to Municipio XII?",
-      "#I live here (Resident)": "I live here (Resident)",
-      "#I travel here regularly for work or study (Commuter)": "I travel here regularly for work or study (Commuter)",
-      "#I’m visiting for leisure (Tourist)": "I’m visiting for leisure (Tourist)",
-      "#I’m here temporarily for another reason (Visitor)": "I’m here temporarily for another reason (Visitor)"
-    },
+    "en": {},
     "it": {
       "#Which of the following best describes your relationship to Municipio XII?": "Quale delle seguenti opzioni descrive meglio il tuo rapporto con il Municipio XII?",
-      "#I live here (Resident)": "Vivo qui (residente)",
+      "#I live here (even without official registered residence)": "Ci vivo (anche senza residenza ufficialmente registrata)",
       "#I travel here regularly for work or study (Commuter)": "Vengo qui regolarmente per lavoro o studio (pendolare)",
-      "#I’m visiting for leisure (Tourist)": "Sono qui per turismo o svago (turista)",
-      "#I’m here temporarily for another reason (Visitor)": "Sono qui temporaneamente per un altro motivo (visitatore/visitatrice)"
+      "#I come here regularly for services, healthcare or to accompany someone": "Ci vengo regolarmente per servizi, assistenza sanitaria o per accompagnare qualcuno",
+      "#I'm visiting for leisure (Tourist)": "Sono qui per turismo (turista)",
+      "#I'm here temporarily for another reason (Visitor)": "Sono qui temporaneamente per un altro motivo (in visita)"
     },
     "fr": {
       "#Which of the following best describes your relationship to Municipio XII?": "Laquelle de ces situations décrit le mieux votre lien avec le Municipio XII ?",
-      "#I live here (Resident)": "J’habite ici (résident)",
+      "#I live here (even without official registered residence)": "J’habite ici (même sans résidence officiellement déclarée)",
       "#I travel here regularly for work or study (Commuter)": "Je viens ici régulièrement pour travailler ou étudier",
-      "#I’m visiting for leisure (Tourist)": "Je suis ici pour les loisirs (touriste)",
-      "#I’m here temporarily for another reason (Visitor)": "Je suis ici temporairement pour une autre raison (visiteur)"
+      "#I come here regularly for services, healthcare or to accompany someone": "Je viens ici régulièrement pour des services, des soins de santé ou pour accompagner quelqu’un",
+      "#I'm visiting for leisure (Tourist)": "Je suis ici en visite de loisir (tourisme)",
+      "#I'm here temporarily for another reason (Visitor)": "Je suis ici temporairement pour une autre raison (visite)"
     },
     "de": {
       "#Which of the following best describes your relationship to Municipio XII?": "Welche der folgenden Aussagen beschreibt Ihre Beziehung zum Municipio XII am besten?",
-      "#I live here (Resident)": "Ich wohne hier",
+      "#I live here (even without official registered residence)": "Ich wohne hier (auch ohne offiziell gemeldeten Wohnsitz)",
       "#I travel here regularly for work or study (Commuter)": "Ich komme regelmäßig zum Arbeiten oder Studieren hierher",
-      "#I’m visiting for leisure (Tourist)": "Ich bin hier in meiner Freizeit zu Besuch",
-      "#I’m here temporarily for another reason (Visitor)": "Ich bin aus einem anderen Grund vorübergehend hier"
+      "#I come here regularly for services, healthcare or to accompany someone": "Ich komme regelmäßig hierher, um Dienstleistungen oder medizinische Versorgung zu nutzen oder um jemanden zu begleiten",
+      "#I'm visiting for leisure (Tourist)": "Ich bin in meiner Freizeit zu Besuch hier (Tourismus)",
+      "#I'm here temporarily for another reason (Visitor)": "Ich bin vorübergehend aus einem anderen Grund hier (Besuch)"
     },
     "tr": {
       "#Which of the following best describes your relationship to Municipio XII?": "Aşağıdakilerden hangisi Municipio XII ile ilişkinizi en iyi tanımlar?",
-      "#I live here (Resident)": "Burada yaşıyorum",
+      "#I live here (even without official registered residence)": "Burada yaşıyorum (resmi olarak kayıtlı ikametim olmasa bile)",
       "#I travel here regularly for work or study (Commuter)": "İş veya eğitim için buraya düzenli olarak geliyorum",
-      "#I’m visiting for leisure (Tourist)": "Gezi veya boş zaman için buradayım",
-      "#I’m here temporarily for another reason (Visitor)": "Başka bir nedenle geçici olarak buradayım"
+      "#I come here regularly for services, healthcare or to accompany someone": "Hizmetler, sağlık hizmetleri veya birine eşlik etmek için buraya düzenli olarak geliyorum",
+      "#I'm visiting for leisure (Tourist)": "Gezi amacıyla buradayım (turist)",
+      "#I'm here temporarily for another reason (Visitor)": "Başka bir nedenle geçici olarak buradayım (ziyaretçi)"
     },
     "fa": {
       "#Which of the following best describes your relationship to Municipio XII?": "کدام گزینه رابطه شما با Municipio XII را بهتر توصیف می‌کند؟",
-      "#I live here (Resident)": "اینجا زندگی می‌کنم",
+      "#I live here (even without official registered residence)": "اینجا زندگی می‌کنم (حتی بدون اقامت رسمی ثبت‌شده)",
       "#I travel here regularly for work or study (Commuter)": "برای کار یا تحصیل به طور منظم به اینجا می‌آیم",
-      "#I’m visiting for leisure (Tourist)": "برای تفریح یا بازدید اینجا هستم",
-      "#I’m here temporarily for another reason (Visitor)": "به دلیل دیگری به طور موقت اینجا هستم"
+      "#I come here regularly for services, healthcare or to accompany someone": "به طور منظم برای استفاده از خدمات، مراقبت‌های درمانی یا همراهی با کسی به اینجا می‌آیم",
+      "#I'm visiting for leisure (Tourist)": "برای تفریح به اینجا آمده‌ام (گردشگر)",
+      "#I'm here temporarily for another reason (Visitor)": "به دلیل دیگری موقتاً اینجا هستم (بازدیدکننده)"
     },
     "hu": {
       "#Which of the following best describes your relationship to Municipio XII?": "Melyik állítás írja le legjobban a kapcsolatát a Municipio XII területével?",
-      "#I live here (Resident)": "Itt élek",
+      "#I live here (even without official registered residence)": "Itt élek (hivatalosan bejelentett lakcím nélkül is)",
       "#I travel here regularly for work or study (Commuter)": "Rendszeresen ide járok dolgozni vagy tanulni",
-      "#I’m visiting for leisure (Tourist)": "Szabadidős céllal látogatok ide",
-      "#I’m here temporarily for another reason (Visitor)": "Más okból ideiglenesen tartózkodom itt"
+      "#I come here regularly for services, healthcare or to accompany someone": "Rendszeresen ide járok szolgáltatások vagy egészségügyi ellátás igénybevétele miatt, illetve hogy elkísérjek valakit",
+      "#I'm visiting for leisure (Tourist)": "Szabadidős céllal vagyok itt (turista)",
+      "#I'm here temporarily for another reason (Visitor)": "Átmenetileg más okból vagyok itt (látogató)"
     },
     "ar": {
       "#Which of the following best describes your relationship to Municipio XII?": "أي من العبارات التالية تصف علاقتك بـ Municipio XII بشكل أفضل؟",
-      "#I live here (Resident)": "أعيش هنا",
+      "#I live here (even without official registered residence)": "أعيش هنا (حتى من دون إقامة مسجلة رسميًا)",
       "#I travel here regularly for work or study (Commuter)": "آتي إلى هنا بانتظام للعمل أو الدراسة",
-      "#I’m visiting for leisure (Tourist)": "أزور المنطقة للترفيه",
-      "#I’m here temporarily for another reason (Visitor)": "أقيم هنا مؤقتًا لسبب آخر"
+      "#I come here regularly for services, healthcare or to accompany someone": "آتي إلى هنا بانتظام للحصول على خدمات أو رعاية صحية أو لمرافقة شخص ما",
+      "#I'm visiting for leisure (Tourist)": "أنا هنا في زيارة ترفيهية (سياحة)",
+      "#I'm here temporarily for another reason (Visitor)": "أنا هنا مؤقتًا لسبب آخر (زيارة)"
     }
   },
   "origin_project": {

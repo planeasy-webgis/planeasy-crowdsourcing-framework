@@ -2,21 +2,21 @@
   "question_id": "trip_mode",
   "key": "trip_mode",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_pre_trip",
   "source_questionnaires": [
     "smarturbanity_pre_trip"
   ],
   "schema": {
-    "text": "How are you starting this trip?",
+    "text": "How do you plan to travel on this trip? (Select all that apply)",
     "answer_key": "trip_mode",
-    "question_type": "single_option",
+    "question_type": "multiple_options",
     "add_other": true,
     "checks_inline": false,
     "options": [
       {
-        "text": "On foot",
+        "text": "On foot (more than 5 minutes, also to reach a stop)",
         "value": "walk"
       },
       {
@@ -32,8 +32,12 @@
         "value": "ebike"
       },
       {
-        "text": "Shared bike or e-bike",
+        "text": "Shared bike",
         "value": "bike_shared"
+      },
+      {
+        "text": "Shared e-bike",
+        "value": "ebike_shared"
       },
       {
         "text": "E-scooter (own)",
@@ -64,7 +68,7 @@
         "value": "motorcycle"
       },
       {
-        "text": "Taxi or app-based car service (e.g. Uber, FreeNow)",
+        "text": "Taxi, private hire or app-based car service (e.g. Uber, FreeNow)",
         "value": "taxi"
       }
     ],
@@ -72,12 +76,13 @@
   },
   "translations": {
     "en": {
-      "#How are you starting this trip?": "How are you starting this trip?",
-      "#On foot": "On foot",
+      "#How do you plan to travel on this trip? (Select all that apply)": "How do you plan to travel on this trip? (Select all that apply)",
+      "#On foot (more than 5 minutes, also to reach a stop)": "On foot (more than 5 minutes, also to reach a stop)",
       "#Wheelchair or mobility scooter": "Wheelchair or mobility scooter",
       "#Bicycle (own)": "Bicycle (own)",
       "#E-bike (own)": "E-bike (own)",
-      "#Shared bike or e-bike": "Shared bike or e-bike",
+      "#Shared bike": "Shared bike",
+      "#Shared e-bike": "Shared e-bike",
       "#E-scooter (own)": "E-scooter (own)",
       "#Shared e-scooter": "Shared e-scooter",
       "#Public transport (bus, tram, metro, train)": "Public transport (bus, tram, metro, train)",
@@ -85,63 +90,67 @@
       "#Car, as passenger": "Car, as passenger",
       "#Car sharing": "Car sharing",
       "#Motorcycle or moped": "Motorcycle or moped",
-      "#Taxi or app-based car service (e.g. Uber, FreeNow)": "Taxi or app-based car service (e.g. Uber, FreeNow)"
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi, private hire or app-based car service (e.g. Uber, FreeNow)"
     },
     "it": {
-      "#How are you starting this trip?": "Come inizi questo spostamento?",
-      "#On foot": "A piedi",
-      "#Wheelchair or mobility scooter": "Sedia a rotelle o scooter per disabili",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Come pensi di fare questo spostamento? (Puoi sceglierne più di uno)",
+      "#On foot (more than 5 minutes, also to reach a stop)": "A piedi (più di 5 minuti, anche per raggiungere la fermata)",
+      "#Wheelchair or mobility scooter": "Sedia a rotelle, manuale o elettrica",
       "#Bicycle (own)": "Bicicletta (tua)",
       "#E-bike (own)": "Bici elettrica (tua)",
-      "#Shared bike or e-bike": "Bici o bici elettrica in sharing",
+      "#Shared bike": "Bici in sharing",
+      "#Shared e-bike": "Bici elettrica in sharing",
       "#E-scooter (own)": "Monopattino elettrico (tuo)",
       "#Shared e-scooter": "Monopattino in sharing",
       "#Public transport (bus, tram, metro, train)": "Mezzi pubblici (bus, tram, metro, treno)",
       "#Car, as driver": "Auto, come conducente",
-      "#Car, as passenger": "Auto, come passeggero/a",
+      "#Car, as passenger": "Auto, senza guidare",
       "#Car sharing": "Car sharing",
       "#Motorcycle or moped": "Moto o scooter",
-      "#Taxi or app-based car service (e.g. Uber, FreeNow)": "Taxi o auto con conducente tramite app (ad es. Uber, FreeNow)"
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi o NCC (ad es. Uber, FreeNow)"
     },
     "fr": {
-      "#How are you starting this trip?": "Comment commencez-vous ce trajet ?",
-      "#On foot": "À pied",
-      "#Wheelchair or mobility scooter": "Fauteuil roulant ou scooter de mobilité",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Comment prévoyez-vous de vous déplacer pour ce trajet ? (Sélectionnez toutes les réponses qui s'appliquent)",
+      "#On foot (more than 5 minutes, also to reach a stop)": "À pied (plus de 5 minutes, y compris pour rejoindre un arrêt)",
+      "#Wheelchair or mobility scooter": "Fauteuil roulant, manuel ou électrique",
       "#Bicycle (own)": "Vélo (personnel)",
       "#E-bike (own)": "Vélo électrique (personnel)",
-      "#Shared bike or e-bike": "Vélo ou vélo électrique en libre-service",
+      "#Shared bike": "Vélo en libre-service",
+      "#Shared e-bike": "Vélo électrique en libre-service",
       "#E-scooter (own)": "Trottinette électrique (personnelle)",
       "#Shared e-scooter": "Trottinette électrique en libre-service",
       "#Public transport (bus, tram, metro, train)": "Transports en commun (bus, tram, métro, train)",
-      "#Car, as driver": "Voiture, en tant que conducteur/conductrice",
-      "#Car, as passenger": "Voiture, en tant que passager/passagère",
+      "#Car, as driver": "Voiture, au volant",
+      "#Car, as passenger": "Voiture, sans conduire",
       "#Car sharing": "Autopartage",
       "#Motorcycle or moped": "Moto ou scooter",
-      "#Taxi or app-based car service (e.g. Uber, FreeNow)": "Taxi ou service de voiture via application (p. ex. Uber, FreeNow)"
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi ou VTC (p. ex. Uber, FreeNow)"
     },
     "de": {
-      "#How are you starting this trip?": "Wie beginnen Sie diesen Weg?",
-      "#On foot": "Zu Fuß",
-      "#Wheelchair or mobility scooter": "Rollstuhl oder Elektromobil",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Wie planen Sie, diesen Weg zurückzulegen? (Alle zutreffenden auswählen)",
+      "#On foot (more than 5 minutes, also to reach a stop)": "Zu Fuß (mehr als 5 Minuten, auch zur Haltestelle)",
+      "#Wheelchair or mobility scooter": "Rollstuhl oder Elektrorollstuhl",
       "#Bicycle (own)": "Fahrrad (eigenes)",
       "#E-bike (own)": "E-Bike (eigenes)",
-      "#Shared bike or e-bike": "Leihfahrrad oder Leih-E-Bike (Sharing)",
+      "#Shared bike": "Leihfahrrad (Sharing)",
+      "#Shared e-bike": "Leih-E-Bike (Sharing)",
       "#E-scooter (own)": "E-Scooter (eigener)",
       "#Shared e-scooter": "Leih-E-Scooter (Sharing)",
       "#Public transport (bus, tram, metro, train)": "Öffentlicher Verkehr (Bus, Tram, U-Bahn, Zug)",
-      "#Car, as driver": "Auto, als Fahrer/in",
-      "#Car, as passenger": "Auto, als Mitfahrer/in",
+      "#Car, as driver": "Auto, selbst am Steuer",
+      "#Car, as passenger": "Auto, mitfahrend",
       "#Car sharing": "Carsharing",
       "#Motorcycle or moped": "Motorrad oder Moped/Roller",
-      "#Taxi or app-based car service (e.g. Uber, FreeNow)": "Taxi oder App-basierter Fahrdienst (z. B. Uber, FreeNow)"
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi, Mietwagen mit Fahrer oder Fahrdienst per App (z. B. Uber, FreeNow)"
     },
     "tr": {
-      "#How are you starting this trip?": "Bu yolculuğa nasıl başlıyorsunuz?",
-      "#On foot": "Yürüyerek",
-      "#Wheelchair or mobility scooter": "Tekerlekli sandalye veya engelli scooterı",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Bu yolculukta nasıl ulaşım sağlamayı planlıyorsunuz? (Uygun olanların tümünü seçin)",
+      "#On foot (more than 5 minutes, also to reach a stop)": "Yürüyerek (5 dakikadan fazla, durağa yürümek de dahil)",
+      "#Wheelchair or mobility scooter": "Manuel veya akülü tekerlekli sandalye",
       "#Bicycle (own)": "Bisiklet (kendi)",
       "#E-bike (own)": "Elektrikli bisiklet (kendi)",
-      "#Shared bike or e-bike": "Paylaşımlı bisiklet veya elektrikli bisiklet",
+      "#Shared bike": "Paylaşımlı bisiklet",
+      "#Shared e-bike": "Paylaşımlı elektrikli bisiklet",
       "#E-scooter (own)": "Elektrikli scooter (kendi)",
       "#Shared e-scooter": "Paylaşımlı elektrikli scooter",
       "#Public transport (bus, tram, metro, train)": "Toplu taşıma (otobüs, tramvay, metro, tren)",
@@ -149,15 +158,16 @@
       "#Car, as passenger": "Araba, yolcu olarak",
       "#Car sharing": "Araç paylaşımı",
       "#Motorcycle or moped": "Motosiklet veya moped/scooter",
-      "#Taxi or app-based car service (e.g. Uber, FreeNow)": "Taksi veya uygulama tabanlı araç hizmeti (örn. Uber, FreeNow)"
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taksi, şoförlü araç veya uygulama üzerinden araç (örn. Uber, FreeNow)"
     },
     "fa": {
-      "#How are you starting this trip?": "این سفر را چگونه شروع می‌کنید؟",
-      "#On foot": "پیاده",
-      "#Wheelchair or mobility scooter": "ویلچر یا اسکوتر معلولان",
+      "#How do you plan to travel on this trip? (Select all that apply)": "قصد دارید این سفر را با چه شیوه‌هایی انجام دهید؟ (همه موارد مربوط را انتخاب کنید)",
+      "#On foot (more than 5 minutes, also to reach a stop)": "پیاده (بیش از ۵ دقیقه، حتی برای رسیدن به ایستگاه)",
+      "#Wheelchair or mobility scooter": "ویلچر دستی یا برقی",
       "#Bicycle (own)": "دوچرخه (شخصی)",
       "#E-bike (own)": "دوچرخه برقی (شخصی)",
-      "#Shared bike or e-bike": "دوچرخه یا دوچرخه برقی اشتراکی",
+      "#Shared bike": "دوچرخه اشتراکی",
+      "#Shared e-bike": "دوچرخه برقی اشتراکی",
       "#E-scooter (own)": "اسکوتر برقی (شخصی)",
       "#Shared e-scooter": "اسکوتر برقی اشتراکی",
       "#Public transport (bus, tram, metro, train)": "حمل‌ونقل عمومی (اتوبوس، تراموا، مترو، قطار)",
@@ -165,15 +175,16 @@
       "#Car, as passenger": "خودرو، به‌عنوان سرنشین",
       "#Car sharing": "خودروی اشتراکی",
       "#Motorcycle or moped": "موتورسیکلت یا موتور گازی",
-      "#Taxi or app-based car service (e.g. Uber, FreeNow)": "تاکسی یا سرویس خودرو با اپلیکیشن (مثلاً Uber، FreeNow)"
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "تاکسی، تاکسی اینترنتی یا خودروی دربستی با راننده (مثلاً Uber، FreeNow)"
     },
     "hu": {
-      "#How are you starting this trip?": "Hogyan kezdi ezt az utat?",
-      "#On foot": "Gyalog",
-      "#Wheelchair or mobility scooter": "Kerekesszék vagy mozgássegítő robogó",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Hogyan tervez közlekedni ezen az úton? (Jelölje meg az összes megfelelőt)",
+      "#On foot (more than 5 minutes, also to reach a stop)": "Gyalog (több mint 5 perc, a megállóig is)",
+      "#Wheelchair or mobility scooter": "Kézi vagy elektromos kerekesszék",
       "#Bicycle (own)": "Kerékpár (saját)",
       "#E-bike (own)": "Elektromos kerékpár (saját)",
-      "#Shared bike or e-bike": "Megosztott kerékpár vagy elektromos kerékpár",
+      "#Shared bike": "Megosztott kerékpár",
+      "#Shared e-bike": "Megosztott elektromos kerékpár",
       "#E-scooter (own)": "Elektromos roller (saját)",
       "#Shared e-scooter": "Megosztott elektromos roller",
       "#Public transport (bus, tram, metro, train)": "Tömegközlekedés (busz, villamos, metró, vonat)",
@@ -181,23 +192,24 @@
       "#Car, as passenger": "Autó, utasként",
       "#Car sharing": "Autómegosztás",
       "#Motorcycle or moped": "Motorkerékpár vagy robogó",
-      "#Taxi or app-based car service (e.g. Uber, FreeNow)": "Taxi vagy applikációs autós szolgáltatás (pl. Uber, FreeNow)"
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi, sofőrös bérautó vagy alkalmazáson rendelt fuvar (pl. Uber, FreeNow)"
     },
     "ar": {
-      "#How are you starting this trip?": "كيف تبدأ هذه الرحلة؟",
-      "#On foot": "سيرًا على الأقدام",
-      "#Wheelchair or mobility scooter": "كرسي متحرك أو سكوتر للتنقل",
+      "#How do you plan to travel on this trip? (Select all that apply)": "ما وسائل التنقل المخطط لها في هذه الرحلة؟ (يمكن اختيار كل ما ينطبق)",
+      "#On foot (more than 5 minutes, also to reach a stop)": "سيرًا على الأقدام (أكثر من 5 دقائق، بما في ذلك الوصول إلى المحطة)",
+      "#Wheelchair or mobility scooter": "كرسي متحرك يدوي أو كهربائي",
       "#Bicycle (own)": "دراجة (خاصة)",
       "#E-bike (own)": "دراجة كهربائية (خاصة)",
-      "#Shared bike or e-bike": "دراجة أو دراجة كهربائية مشتركة",
+      "#Shared bike": "دراجة مشتركة",
+      "#Shared e-bike": "دراجة كهربائية مشتركة",
       "#E-scooter (own)": "سكوتر كهربائي (خاص)",
       "#Shared e-scooter": "سكوتر كهربائي مشترك",
       "#Public transport (bus, tram, metro, train)": "النقل العام (حافلة، ترام، مترو، قطار)",
-      "#Car, as driver": "سيارة، بصفتي سائقًا/سائقة",
-      "#Car, as passenger": "سيارة، بصفتي راكبًا/راكبة",
+      "#Car, as driver": "سيارة، أقود بنفسي",
+      "#Car, as passenger": "سيارة، دون أن أقود",
       "#Car sharing": "مشاركة السيارات",
       "#Motorcycle or moped": "دراجة نارية أو سكوتر",
-      "#Taxi or app-based car service (e.g. Uber, FreeNow)": "تاكسي أو خدمة سيارات عبر تطبيق (مثل Uber وFreeNow)"
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "تاكسي أو سيارة خاصة بسائق أو خدمة نقل عبر التطبيقات (مثل Uber وFreeNow)"
     }
   },
   "origin_project": {

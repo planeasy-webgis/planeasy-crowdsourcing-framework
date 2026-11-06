@@ -2,17 +2,21 @@
   "question_id": "age_group",
   "key": "age_group",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "smarturbanity_about_you",
-    "perception_on_ride_sharing"
+    "perception_on_ride_sharing",
+    "smarturbanity_your_profile"
   ],
   "schema": {
-    "text": "What is your age group? (Participation is limited to adults aged 18 or older)",
+    "privacy_classification": "heightened_personal",
+    "text": "What is your age group?",
     "answer_key": "age_group",
     "question_type": "single_option",
+    "add_prefer_not_to_say": true,
+    "checks_inline": false,
     "options": [
       {
         "text": "18-24",
@@ -46,25 +50,12 @@
         "text": "85 or older",
         "value": "85_or_older"
       }
-    ],
-    "add_prefer_not_to_say": true,
-    "privacy_classification": "heightened_personal"
+    ]
   },
   "translations": {
-    "en": {
-      "#What is your age group? (Participation is limited to adults aged 18 or older)": "What is your age group? (Participation is limited to adults aged 18 or older)",
-      "#18-24": "18-24",
-      "#25-34": "25-34",
-      "#35-44": "35-44",
-      "#45-54": "45-54",
-      "#55-64": "55-64",
-      "#65-74": "65-74",
-      "#75-84": "75-84",
-      "#85 or older": "85 or older",
-      "#Prefer not to say": "Prefer not to say"
-    },
+    "en": {},
     "it": {
-      "#What is your age group? (Participation is limited to adults aged 18 or older)": "Qual è la tua fascia d’età? (La partecipazione è riservata alle persone di almeno 18 anni)",
+      "#What is your age group?": "Qual è la tua fascia d’età?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -76,7 +67,7 @@
       "#Prefer not to say": "Preferisco non rispondere"
     },
     "fr": {
-      "#What is your age group? (Participation is limited to adults aged 18 or older)": "Dans quelle tranche d’âge êtes-vous ? (La participation est réservée aux personnes de 18 ans ou plus)",
+      "#What is your age group?": "Dans quelle tranche d’âge êtes-vous ?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -88,7 +79,7 @@
       "#Prefer not to say": "Je préfère ne pas répondre"
     },
     "de": {
-      "#What is your age group? (Participation is limited to adults aged 18 or older)": "Zu welcher Altersgruppe gehören Sie? (Teilnehmen können nur Personen ab 18 Jahren)",
+      "#What is your age group?": "Zu welcher Altersgruppe gehören Sie?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -100,7 +91,7 @@
       "#Prefer not to say": "Ich möchte nicht antworten"
     },
     "tr": {
-      "#What is your age group? (Participation is limited to adults aged 18 or older)": "Hangi yaş grubundasınız? (Katılım 18 yaş ve üzerindeki yetişkinlerle sınırlıdır)",
+      "#What is your age group?": "Hangi yaş grubundasınız?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -112,7 +103,7 @@
       "#Prefer not to say": "Yanıtlamak istemiyorum"
     },
     "fa": {
-      "#What is your age group? (Participation is limited to adults aged 18 or older)": "در کدام گروه سنی هستید؟ (شرکت در این مطالعه فقط برای افراد ۱۸ ساله و بالاتر است)",
+      "#What is your age group?": "در کدام گروه سنی هستید؟",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -124,7 +115,7 @@
       "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم"
     },
     "hu": {
-      "#What is your age group? (Participation is limited to adults aged 18 or older)": "Melyik korcsoportba tartozik? (A részvétel 18 éves vagy idősebb felnőttek számára lehetséges)",
+      "#What is your age group?": "Melyik korcsoportba tartozik?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -136,7 +127,7 @@
       "#Prefer not to say": "Nem szeretnék válaszolni"
     },
     "ar": {
-      "#What is your age group? (Participation is limited to adults aged 18 or older)": "ما فئتك العمرية؟ (المشاركة متاحة فقط للبالغين من عمر 18 سنة فأكثر)",
+      "#What is your age group?": "ما فئتك العمرية؟",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
