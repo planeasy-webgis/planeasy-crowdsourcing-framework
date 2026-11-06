@@ -2,7 +2,7 @@
   "question_id": "evening_travel_behaviour",
   "key": "evening_travel_behaviour",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_safety",
   "source_questionnaires": [
@@ -10,7 +10,7 @@
   ],
   "schema": {
     "privacy_classification": "personal_data",
-    "text": "Because of this, what do you usually do?",
+    "text": "When you don't feel safe in the evening, what do you usually do?",
     "answer_key": "evening_travel_behaviour",
     "question_type": "single_option",
     "checks_inline": false,
@@ -20,6 +20,10 @@
         "value": "travels_must_unsafe"
       },
       {
+        "text": "I still go out, but I change my route, stop or company",
+        "value": "adapts"
+      },
+      {
         "text": "I avoid travelling in the evening",
         "value": "avoids_evening"
       }
@@ -27,43 +31,51 @@
   },
   "translations": {
     "en": {
-      "#Because of this, what do you usually do?": "Because of this, what do you usually do?",
+      "#When you don't feel safe in the evening, what do you usually do?": "When you don't feel safe in the evening, what do you usually do?",
       "#I still travel in the evening because I have to": "I still travel in the evening because I have to",
+      "#I still go out, but I change my route, stop or company": "I still go out, but I change my route, stop or company",
       "#I avoid travelling in the evening": "I avoid travelling in the evening"
     },
     "it": {
-      "#Because of this, what do you usually do?": "Per questo motivo, cosa fai di solito?",
+      "#When you don't feel safe in the evening, what do you usually do?": "Quando la sera non ti senti al sicuro, cosa fai di solito?",
       "#I still travel in the evening because I have to": "Mi sposto comunque la sera perché devo",
+      "#I still go out, but I change my route, stop or company": "Esco lo stesso, ma cambio percorso, fermata o compagnia",
       "#I avoid travelling in the evening": "Evito di spostarmi la sera"
     },
     "fr": {
-      "#Because of this, what do you usually do?": "À cause de cela, que faites-vous habituellement ?",
+      "#When you don't feel safe in the evening, what do you usually do?": "Quand vous ne vous sentez pas en sécurité le soir, que faites-vous habituellement ?",
       "#I still travel in the evening because I have to": "Je me déplace quand même le soir parce que je dois le faire",
+      "#I still go out, but I change my route, stop or company": "Je sors quand même, mais je change d’itinéraire, d’arrêt ou de compagnie",
       "#I avoid travelling in the evening": "J’évite de me déplacer le soir"
     },
     "de": {
-      "#Because of this, what do you usually do?": "Was tun Sie deshalb in der Regel?",
+      "#When you don't feel safe in the evening, what do you usually do?": "Was tun Sie in der Regel, wenn Sie sich abends nicht sicher fühlen?",
       "#I still travel in the evening because I have to": "Ich bin trotzdem abends unterwegs, weil ich muss",
+      "#I still go out, but I change my route, stop or company": "Ich gehe trotzdem aus dem Haus, ändere aber meine Route, Haltestelle oder Begleitung",
       "#I avoid travelling in the evening": "Ich vermeide es, abends unterwegs zu sein"
     },
     "tr": {
-      "#Because of this, what do you usually do?": "Bu nedenle genellikle ne yaparsınız?",
+      "#When you don't feel safe in the evening, what do you usually do?": "Akşamları kendinizi güvende hissetmediğinizde genellikle ne yaparsınız?",
       "#I still travel in the evening because I have to": "Yine de akşamları yolculuk yapıyorum, çünkü mecburum",
+      "#I still go out, but I change my route, stop or company": "Yine de dışarı çıkıyorum, ama güzergâhımı, durağımı veya yanımdaki kişileri değiştiriyorum",
       "#I avoid travelling in the evening": "Akşamları yolculuk yapmaktan kaçınıyorum"
     },
     "fa": {
-      "#Because of this, what do you usually do?": "به همین دلیل، معمولاً چه کار می‌کنید؟",
+      "#When you don't feel safe in the evening, what do you usually do?": "وقتی شب‌ها احساس امنیت نمی‌کنید، معمولاً چه کار می‌کنید؟",
       "#I still travel in the evening because I have to": "با این حال شب‌ها رفت‌وآمد می‌کنم چون مجبورم",
+      "#I still go out, but I change my route, stop or company": "با این حال بیرون می‌روم، اما مسیر، ایستگاه یا همراهم را عوض می‌کنم",
       "#I avoid travelling in the evening": "از رفت‌وآمد در شب پرهیز می‌کنم"
     },
     "hu": {
-      "#Because of this, what do you usually do?": "Emiatt általában mit tesz?",
+      "#When you don't feel safe in the evening, what do you usually do?": "Mit szokott tenni, ha este nem érzi magát biztonságban?",
       "#I still travel in the evening because I have to": "Este mégis közlekedem, mert muszáj",
+      "#I still go out, but I change my route, stop or company": "Mégis útra kelek, de más útvonalat, megállót vagy társaságot választok",
       "#I avoid travelling in the evening": "Kerülöm az esti közlekedést"
     },
     "ar": {
-      "#Because of this, what do you usually do?": "بسبب ذلك، ما التصرف المعتاد في هذه الحالة؟",
+      "#When you don't feel safe in the evening, what do you usually do?": "عندما لا تشعر بالأمان في المساء، ماذا تفعل عادةً؟",
       "#I still travel in the evening because I have to": "أتنقل مساءً رغم ذلك لأن الأمر ضروري",
+      "#I still go out, but I change my route, stop or company": "أخرج رغم ذلك، لكنني أغيّر طريقي أو محطتي أو من يرافقني",
       "#I avoid travelling in the evening": "أتجنب التنقل مساءً"
     }
   },

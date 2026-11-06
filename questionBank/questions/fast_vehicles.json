@@ -2,7 +2,7 @@
   "question_id": "fast_vehicles",
   "key": "fast_vehicles",
   "project": "shared",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking",
   "source_questionnaires": [
@@ -10,7 +10,7 @@
   ],
   "schema": {
     "privacy_classification": "personal_data",
-    "text": "On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?",
+    "text": "When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?",
     "answer_key": "fast_vehicles",
     "question_type": "single_option",
     "checks_inline": false,
@@ -20,7 +20,7 @@
         "value": "no_effect"
       },
       {
-        "text": "I feel a little uneasy but manage",
+        "text": "I feel a little uneasy",
         "value": "slightly_uncomfortable"
       },
       {
@@ -38,81 +38,93 @@
       {
         "text": "I don't use roads like these",
         "value": "no_fast_roads"
+      },
+      {
+        "text": "Not for me: I rarely get around on foot or in a wheelchair",
+        "value": "not_on_foot"
       }
     ]
   },
   "translations": {
     "en": {
-      "#On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?",
+      "#When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?",
       "#They don't affect me": "They don't affect me",
-      "#I feel a little uneasy but manage": "I feel a little uneasy but manage",
+      "#I feel a little uneasy": "I feel a little uneasy",
       "#I feel unsafe and stay near them as little as possible": "I feel unsafe and stay near them as little as possible",
       "#I take much longer routes to avoid them": "I take much longer routes to avoid them",
       "#I avoid trips that make me use them": "I avoid trips that make me use them",
-      "#I don't use roads like these": "I don't use roads like these"
+      "#I don't use roads like these": "I don't use roads like these",
+      "#Not for me: I rarely get around on foot or in a wheelchair": "Not for me: I rarely get around on foot or in a wheelchair"
     },
     "it": {
-      "#On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "A piedi o in sedia a rotelle, che effetto ti fanno le strade con traffico veloce quando le percorri o le attraversi?",
+      "#When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "Quando cammini (anche con passeggino, bastone o altro ausilio) o usi la sedia a rotelle, che effetto ti fanno le strade con traffico veloce quando le percorri o le attraversi?",
       "#They don't affect me": "Non mi creano problemi",
-      "#I feel a little uneasy but manage": "Mi sento un po' a disagio, ma me la cavo",
+      "#I feel a little uneasy": "Mi sento un po' a disagio",
       "#I feel unsafe and stay near them as little as possible": "Non mi sento al sicuro e ci passo il meno possibile",
       "#I take much longer routes to avoid them": "Faccio percorsi molto più lunghi per evitarle",
       "#I avoid trips that make me use them": "Evito gli spostamenti che mi obbligano a passarci",
-      "#I don't use roads like these": "Non passo da strade di questo tipo"
+      "#I don't use roads like these": "Non passo da strade di questo tipo",
+      "#Not for me: I rarely get around on foot or in a wheelchair": "Non mi riguarda: mi muovo raramente a piedi o in sedia a rotelle"
     },
     "fr": {
-      "#On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "À pied ou en fauteuil roulant, quel effet ont sur vous les routes où la circulation est rapide quand vous les longez ou les traversez ?",
+      "#When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "Quand vous marchez (même avec une poussette, une canne ou une autre aide) ou que vous utilisez un fauteuil roulant, que ressentez-vous sur les routes à circulation rapide, quand vous les longez ou les traversez ?",
       "#They don't affect me": "Elles ne me gênent pas",
-      "#I feel a little uneasy but manage": "Je me sens un peu mal à l’aise, mais je peux continuer",
+      "#I feel a little uneasy": "Je me sens un peu mal à l'aise",
       "#I feel unsafe and stay near them as little as possible": "Je ne me sens pas en sécurité et j’y reste le moins possible",
       "#I take much longer routes to avoid them": "Je fais des détours bien plus longs pour les éviter",
       "#I avoid trips that make me use them": "J’évite les trajets qui m’obligent à les emprunter",
-      "#I don't use roads like these": "Je n’emprunte pas de routes de ce genre"
+      "#I don't use roads like these": "Je n’emprunte pas de routes de ce genre",
+      "#Not for me: I rarely get around on foot or in a wheelchair": "Cela ne me concerne pas : je me déplace rarement à pied ou en fauteuil roulant"
     },
     "de": {
-      "#On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "Zu Fuß oder im Rollstuhl: Wie wirken Straßen mit schnellem Verkehr auf Sie, wenn Sie an ihnen entlanggehen oder sie überqueren?",
+      "#When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "Wenn Sie zu Fuß gehen (auch mit Kinderwagen, Stock oder anderer Gehhilfe) oder einen Rollstuhl nutzen: Wie wirken Straßen mit schnellem Verkehr auf Sie, wenn Sie an ihnen entlanggehen oder sie überqueren?",
       "#They don't affect me": "Sie stören mich nicht",
-      "#I feel a little uneasy but manage": "Ich fühle mich etwas unwohl, komme aber zurecht",
+      "#I feel a little uneasy": "Ich fühle mich etwas unwohl",
       "#I feel unsafe and stay near them as little as possible": "Ich fühle mich unsicher und halte mich möglichst kurz dort auf",
       "#I take much longer routes to avoid them": "Ich nehme viel längere Wege, um sie zu vermeiden",
       "#I avoid trips that make me use them": "Ich vermeide Wege, auf denen ich sie benutzen muss",
-      "#I don't use roads like these": "Ich benutze solche Straßen nicht"
+      "#I don't use roads like these": "Ich benutze solche Straßen nicht",
+      "#Not for me: I rarely get around on foot or in a wheelchair": "Trifft auf mich nicht zu: Ich bin selten zu Fuß oder im Rollstuhl unterwegs"
     },
     "tr": {
-      "#On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "Yaya olarak veya tekerlekli sandalyedeyken, trafiğin hızlı aktığı yollar boyunca giderken ya da karşıdan karşıya geçerken kendinizi nasıl hissediyorsunuz?",
+      "#When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "Yürürken (bebek arabası, baston veya başka bir yardımcı araçla da olsa) ya da tekerlekli sandalye kullanırken, trafiğin hızlı aktığı yollar boyunca giderken veya karşıdan karşıya geçerken sizi nasıl etkiliyor?",
       "#They don't affect me": "Beni etkilemez",
-      "#I feel a little uneasy but manage": "Biraz rahatsız hissederim ama idare ederim",
+      "#I feel a little uneasy": "Kendimi biraz tedirgin hissederim",
       "#I feel unsafe and stay near them as little as possible": "Kendimi güvensiz hisseder ve orada olabildiğince az kalırım",
       "#I take much longer routes to avoid them": "Onlardan kaçınmak için çok daha uzun güzergâhlar kullanırım",
       "#I avoid trips that make me use them": "Onları kullanmamı gerektiren yolculuklardan kaçınırım",
-      "#I don't use roads like these": "Bu tür yollardan geçmem"
+      "#I don't use roads like these": "Bu tür yollardan geçmem",
+      "#Not for me: I rarely get around on foot or in a wheelchair": "Bu soru benim için geçerli değil: Yaya veya tekerlekli sandalyeyle nadiren dolaşırım"
     },
     "fa": {
-      "#On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "پیاده یا با ویلچر، وقتی در امتداد خیابان‌هایی با ترافیک پرسرعت راه می‌روید یا از آن‌ها عبور می‌کنید، چه احساسی دارید؟",
+      "#When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "وقتی پیاده راه می‌روید (حتی با کالسکه، عصا یا وسیله کمکی دیگر) یا از ویلچر استفاده می‌کنید، خیابان‌های پرسرعت چه حسی به شما می‌دهند، هنگام رفتن در امتداد آن‌ها یا عبور از آن‌ها؟",
       "#They don't affect me": "مشکلی برایم ایجاد نمی‌کنند",
-      "#I feel a little uneasy but manage": "کمی ناراحت می‌شوم، اما می‌توانم ادامه دهم",
+      "#I feel a little uneasy": "کمی ناراحت می‌شوم",
       "#I feel unsafe and stay near them as little as possible": "احساس ناامنی می‌کنم و تا جای ممکن کمتر کنار آن‌ها می‌مانم",
       "#I take much longer routes to avoid them": "برای دوری از آن‌ها مسیرهای بسیار طولانی‌تری انتخاب می‌کنم",
       "#I avoid trips that make me use them": "از سفرهایی که مجبورم از آن‌ها استفاده کنم پرهیز می‌کنم",
-      "#I don't use roads like these": "از خیابان‌هایی از این نوع استفاده نمی‌کنم"
+      "#I don't use roads like these": "از خیابان‌هایی از این نوع استفاده نمی‌کنم",
+      "#Not for me: I rarely get around on foot or in a wheelchair": "مربوط به من نیست: کم پیش می‌آید پیاده یا با ویلچر جابه‌جا شوم"
     },
     "hu": {
-      "#On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "Gyalog vagy kerekesszékkel hogyan hatnak Önre a gyors forgalmú utak, amikor mellettük halad vagy átkel rajtuk?",
+      "#When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "Amikor sétál (babakocsival, bottal vagy más segédeszközzel is) vagy kerekesszéket használ, hogyan hatnak Önre a gyors forgalmú utak, amikor mellettük halad vagy átkel rajtuk?",
       "#They don't affect me": "Nem zavarnak",
-      "#I feel a little uneasy but manage": "Kicsit kényelmetlenül érzem magam, de megoldom",
+      "#I feel a little uneasy": "Kicsit kényelmetlenül érzem magam",
       "#I feel unsafe and stay near them as little as possible": "Nem érzem magam biztonságban, és a lehető legkevesebbet tartózkodom ott",
       "#I take much longer routes to avoid them": "Sokkal hosszabb útvonalakat választok, hogy elkerüljem őket",
       "#I avoid trips that make me use them": "Elkerülöm azokat az utakat, ahol használnom kell őket",
-      "#I don't use roads like these": "Nem használok ilyen utakat"
+      "#I don't use roads like these": "Nem használok ilyen utakat",
+      "#Not for me: I rarely get around on foot or in a wheelchair": "Rám nem vonatkozik: ritkán közlekedem gyalog vagy kerekesszékkel"
     },
     "ar": {
-      "#On foot or in a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "سيرًا على الأقدام أو بكرسي متحرك، كيف تؤثر فيك الطرق ذات الحركة السريعة عند السير بمحاذاتها أو عبورها؟",
+      "#When you walk (also with a pushchair, a cane or another aid) or use a wheelchair, how do roads with fast traffic affect you when you go along or cross them?": "عند المشي (ولو مع عربة أطفال أو عكاز أو أداة مساعدة) أو استخدام كرسي متحرك، كيف تؤثر فيك الطرق ذات الحركة السريعة عند السير بمحاذاتها أو عبورها؟",
       "#They don't affect me": "لا تؤثر فيّ",
-      "#I feel a little uneasy but manage": "أشعر بعدم ارتياح بسيط لكنني أتدبر الأمر",
+      "#I feel a little uneasy": "أشعر ببعض الانزعاج",
       "#I feel unsafe and stay near them as little as possible": "أشعر بعدم الأمان وأقضي بقربها أقل وقت ممكن",
       "#I take much longer routes to avoid them": "أختار طرقًا أطول بكثير لتجنبها",
       "#I avoid trips that make me use them": "أتجنب الرحلات التي تجبرني على استخدامها",
-      "#I don't use roads like these": "لا أستخدم طرقًا من هذا النوع"
+      "#I don't use roads like these": "لا أستخدم طرقًا من هذا النوع",
+      "#Not for me: I rarely get around on foot or in a wheelchair": "لا ينطبق عليّ: نادرًا ما أتنقل مشيًا أو بكرسي متحرك"
     }
   },
   "origin_project": {

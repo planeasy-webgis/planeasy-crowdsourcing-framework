@@ -1,0 +1,74 @@
+{
+  "question_id": "avoided_place_action",
+  "key": "avoided_place_action",
+  "project": "shared",
+  "version": "1.0.0",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "schema": {
+    "text": "What did you do?",
+    "answer_key": "avoided_place_action",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "I avoided it or went around it",
+        "value": "avoided"
+      },
+      {
+        "text": "I went through it anyway",
+        "value": "used_anyway"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#What did you do?": "What did you do?",
+      "#I avoided it or went around it": "I avoided it or went around it",
+      "#I went through it anyway": "I went through it anyway"
+    },
+    "it": {
+      "#What did you do?": "Cosa hai fatto?",
+      "#I avoided it or went around it": "L'ho evitato o aggirato",
+      "#I went through it anyway": "L'ho attraversato comunque"
+    },
+    "fr": {
+      "#What did you do?": "Qu'avez-vous fait ?",
+      "#I avoided it or went around it": "Je l'ai évité ou contourné",
+      "#I went through it anyway": "Je l'ai traversé quand même"
+    },
+    "de": {
+      "#What did you do?": "Was haben Sie getan?",
+      "#I avoided it or went around it": "Ich habe ihn gemieden oder umgangen",
+      "#I went through it anyway": "Ich bin trotzdem dort durchgegangen"
+    },
+    "tr": {
+      "#What did you do?": "Ne yaptınız?",
+      "#I avoided it or went around it": "Oradan kaçındım ya da çevresinden dolaştım",
+      "#I went through it anyway": "Yine de oradan geçtim"
+    },
+    "fa": {
+      "#What did you do?": "چه کار کردید؟",
+      "#I avoided it or went around it": "از آن دوری کردم یا آن را دور زدم",
+      "#I went through it anyway": "با این حال از آن عبور کردم"
+    },
+    "hu": {
+      "#What did you do?": "Mit tett?",
+      "#I avoided it or went around it": "Elkerültem vagy megkerültem",
+      "#I went through it anyway": "Mégis áthaladtam rajta"
+    },
+    "ar": {
+      "#What did you do?": "ماذا فعلت؟",
+      "#I avoided it or went around it": "تجنبته أو التففت حوله",
+      "#I went through it anyway": "مررت منه رغم ذلك"
+    }
+  },
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  }
+}
