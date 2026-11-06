@@ -2,7 +2,7 @@
   "question_id": "walk_lighting_effect",
   "key": "walk_lighting_effect",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking",
   "source_questionnaires": [
@@ -10,109 +10,121 @@
   ],
   "schema": {
     "privacy_classification": "personal_data",
-    "text": "When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?",
+    "text": "When you walk after dark, does poor street lighting change your route or when you go out?",
     "answer_key": "walk_lighting_effect",
     "question_type": "single_option",
     "checks_inline": false,
     "options": [
       {
-        "text": "Lighting levels have no influence on my travel choices or comfort",
+        "text": "No, it makes no difference to me",
         "value": "no_influence"
       },
       {
-        "text": "I notice poor lighting but it does not significantly change how or when I travel",
+        "text": "I notice it, but I don't change anything",
         "value": "notice_no_change"
       },
       {
-        "text": "I still use the route but I move faster, avoid certain spots, or stay on high alert",
+        "text": "I go the same way but faster, or avoid some spots",
         "value": "faster_or_avoid_spots"
       },
       {
-        "text": "I take a much longer alternative route specifically to stay in better-lit areas",
+        "text": "I take a longer, better-lit route",
         "value": "longer_route"
       },
       {
-        "text": "I do not walk after dark because of poor lighting",
+        "text": "I don't walk after dark because of poor lighting",
         "value": "no_walk_poor_lighting"
       },
       {
-        "text": "I do not walk after dark for other reasons",
+        "text": "I don't walk after dark for other reasons",
         "value": "no_walk_other_reasons"
+      },
+      {
+        "text": "Lighting doesn't matter to me because I don't rely on sight",
+        "value": "lighting_not_relevant"
       }
     ]
   },
   "translations": {
     "en": {
-      "#When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?": "When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?",
-      "#Lighting levels have no influence on my travel choices or comfort": "Lighting levels have no influence on my travel choices or comfort",
-      "#I notice poor lighting but it does not significantly change how or when I travel": "I notice poor lighting but it does not significantly change how or when I travel",
-      "#I still use the route but I move faster, avoid certain spots, or stay on high alert": "I still use the route but I move faster, avoid certain spots, or stay on high alert",
-      "#I take a much longer alternative route specifically to stay in better-lit areas": "I take a much longer alternative route specifically to stay in better-lit areas",
-      "#I do not walk after dark because of poor lighting": "I do not walk after dark because of poor lighting",
-      "#I do not walk after dark for other reasons": "I do not walk after dark for other reasons"
+      "#When you walk after dark, does poor street lighting change your route or when you go out?": "When you walk after dark, does poor street lighting change your route or when you go out?",
+      "#No, it makes no difference to me": "No, it makes no difference to me",
+      "#I notice it, but I don't change anything": "I notice it, but I don't change anything",
+      "#I go the same way but faster, or avoid some spots": "I go the same way but faster, or avoid some spots",
+      "#I take a longer, better-lit route": "I take a longer, better-lit route",
+      "#I don't walk after dark because of poor lighting": "I don't walk after dark because of poor lighting",
+      "#I don't walk after dark for other reasons": "I don't walk after dark for other reasons",
+      "#Lighting doesn't matter to me because I don't rely on sight": "Lighting doesn't matter to me because I don't rely on sight"
     },
     "it": {
-      "#When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?": "Quando sei a piedi dopo il tramonto, anche solo per raggiungere una fermata o un veicolo parcheggiato, in che modo la qualità dell'illuminazione stradale influisce sulla scelta del percorso o sulla decisione di camminare?",
-      "#Lighting levels have no influence on my travel choices or comfort": "Il livello di illuminazione non influisce sulle mie scelte di viaggio né sul mio comfort",
-      "#I notice poor lighting but it does not significantly change how or when I travel": "Noto la scarsa illuminazione, ma non cambia significativamente il modo o l'orario in cui mi sposto",
-      "#I still use the route but I move faster, avoid certain spots, or stay on high alert": "Continuo a utilizzare il percorso, ma cammino più velocemente, evito alcuni punti o rimango molto vigile",
-      "#I take a much longer alternative route specifically to stay in better-lit areas": "Scelgo appositamente un percorso alternativo molto più lungo per rimanere in zone meglio illuminate",
-      "#I do not walk after dark because of poor lighting": "Non cammino dopo il tramonto a causa della scarsa illuminazione",
-      "#I do not walk after dark for other reasons": "Non cammino dopo il tramonto per altri motivi"
+      "#When you walk after dark, does poor street lighting change your route or when you go out?": "Quando cammini dopo il tramonto, la scarsa illuminazione cambia il tuo percorso o l'orario in cui esci?",
+      "#No, it makes no difference to me": "No, per me non cambia nulla",
+      "#I notice it, but I don't change anything": "Me ne accorgo, ma non cambio nulla",
+      "#I go the same way but faster, or avoid some spots": "Faccio la stessa strada ma più veloce, o evito alcuni punti",
+      "#I take a longer, better-lit route": "Faccio un percorso più lungo e meglio illuminato",
+      "#I don't walk after dark because of poor lighting": "Non cammino dopo il tramonto per la scarsa illuminazione",
+      "#I don't walk after dark for other reasons": "Non cammino dopo il tramonto per altri motivi",
+      "#Lighting doesn't matter to me because I don't rely on sight": "L'illuminazione per me non conta, perché non mi oriento con la vista"
     },
     "fr": {
-      "#When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?": "Lorsque vous êtes à pied après la tombée de la nuit, même seulement pour rejoindre un arrêt ou un véhicule stationné, comment la qualité de l’éclairage public influence-t-elle votre choix d’itinéraire ou votre décision de marcher ?",
-      "#Lighting levels have no influence on my travel choices or comfort": "Le niveau d’éclairage n’influence ni mes choix de déplacement ni mon confort",
-      "#I notice poor lighting but it does not significantly change how or when I travel": "Je remarque quand l’éclairage est mauvais, mais cela ne change pas vraiment ma façon ou mon heure de déplacement",
-      "#I still use the route but I move faster, avoid certain spots, or stay on high alert": "Je continue à utiliser l’itinéraire, mais je marche plus vite, j’évite certains endroits ou je reste sur mes gardes",
-      "#I take a much longer alternative route specifically to stay in better-lit areas": "Je prends un itinéraire beaucoup plus long pour rester dans des zones mieux éclairées",
-      "#I do not walk after dark because of poor lighting": "Je ne marche pas après la tombée de la nuit à cause du mauvais éclairage",
-      "#I do not walk after dark for other reasons": "Je ne marche pas après la tombée de la nuit pour d’autres raisons"
+      "#When you walk after dark, does poor street lighting change your route or when you go out?": "Quand vous marchez après la tombée de la nuit, un mauvais éclairage change-t-il votre itinéraire ou le moment où vous sortez ?",
+      "#No, it makes no difference to me": "Non, cela ne change rien pour moi",
+      "#I notice it, but I don't change anything": "Je le remarque, mais je ne change rien",
+      "#I go the same way but faster, or avoid some spots": "Je passe par le même chemin, mais plus vite, ou j'évite certains endroits",
+      "#I take a longer, better-lit route": "Je prends un itinéraire plus long et mieux éclairé",
+      "#I don't walk after dark because of poor lighting": "Je ne marche pas après la tombée de la nuit à cause du mauvais éclairage",
+      "#I don't walk after dark for other reasons": "Je ne marche pas après la tombée de la nuit pour d'autres raisons",
+      "#Lighting doesn't matter to me because I don't rely on sight": "L'éclairage m'est indifférent, car je ne me repère pas avec la vue"
     },
     "de": {
-      "#When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?": "Wenn Sie nach Einbruch der Dunkelheit zu Fuß unterwegs sind, auch nur um eine Haltestelle oder ein geparktes Fahrzeug zu erreichen: Wie beeinflusst die Qualität der Straßenbeleuchtung Ihre Wegewahl oder Ihre Entscheidung, zu Fuß zu gehen?",
-      "#Lighting levels have no influence on my travel choices or comfort": "Die Beleuchtung beeinflusst weder meine Verkehrsmittelwahl noch meinen Komfort",
-      "#I notice poor lighting but it does not significantly change how or when I travel": "Ich bemerke schlechte Beleuchtung, ändere aber kaum, wie oder wann ich unterwegs bin",
-      "#I still use the route but I move faster, avoid certain spots, or stay on high alert": "Ich nutze die Strecke weiterhin, gehe aber schneller, meide bestimmte Stellen oder bin besonders aufmerksam",
-      "#I take a much longer alternative route specifically to stay in better-lit areas": "Ich nehme einen deutlich längeren Weg, um in besser beleuchteten Bereichen zu bleiben",
-      "#I do not walk after dark because of poor lighting": "Ich gehe wegen schlechter Beleuchtung nach Einbruch der Dunkelheit nicht zu Fuß",
-      "#I do not walk after dark for other reasons": "Ich gehe aus anderen Gründen nach Einbruch der Dunkelheit nicht zu Fuß"
+      "#When you walk after dark, does poor street lighting change your route or when you go out?": "Wenn Sie nach Einbruch der Dunkelheit zu Fuß gehen: Ändert schlechte Straßenbeleuchtung Ihren Weg oder den Zeitpunkt, zu dem Sie rausgehen?",
+      "#No, it makes no difference to me": "Nein, für mich macht es keinen Unterschied",
+      "#I notice it, but I don't change anything": "Ich bemerke es, ändere aber nichts",
+      "#I go the same way but faster, or avoid some spots": "Ich gehe denselben Weg, aber schneller, oder meide manche Stellen",
+      "#I take a longer, better-lit route": "Ich nehme einen längeren, besser beleuchteten Weg",
+      "#I don't walk after dark because of poor lighting": "Ich gehe wegen schlechter Beleuchtung nach Einbruch der Dunkelheit nicht zu Fuß",
+      "#I don't walk after dark for other reasons": "Ich gehe aus anderen Gründen nach Einbruch der Dunkelheit nicht zu Fuß",
+      "#Lighting doesn't matter to me because I don't rely on sight": "Beleuchtung spielt für mich keine Rolle, weil ich mich nicht auf mein Sehen verlasse"
     },
     "tr": {
-      "#When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?": "Hava karardıktan sonra yaya olduğunuzda, yalnızca bir durağa veya park edilmiş bir araca ulaşmak için bile olsa, sokak aydınlatmasının kalitesi güzergâh seçiminizi veya yürüme kararınızı nasıl etkiliyor?",
-      "#Lighting levels have no influence on my travel choices or comfort": "Aydınlatma düzeyi ulaşım tercihlerimi veya rahatlığımı etkilemez",
-      "#I notice poor lighting but it does not significantly change how or when I travel": "Yetersiz aydınlatmayı fark ederim ama nasıl veya ne zaman seyahat ettiğimi önemli ölçüde değiştirmem",
-      "#I still use the route but I move faster, avoid certain spots, or stay on high alert": "Güzergâhı kullanmaya devam ederim ama daha hızlı yürür, bazı yerlerden kaçınır veya daha dikkatli olurum",
-      "#I take a much longer alternative route specifically to stay in better-lit areas": "Daha iyi aydınlatılmış yerlerde kalmak için belirgin şekilde daha uzun bir güzergâh kullanırım",
-      "#I do not walk after dark because of poor lighting": "Yetersiz aydınlatma nedeniyle hava karardıktan sonra yürümem",
-      "#I do not walk after dark for other reasons": "Başka nedenlerle hava karardıktan sonra yürümem"
+      "#When you walk after dark, does poor street lighting change your route or when you go out?": "Hava karardıktan sonra yürürken, yetersiz sokak aydınlatması güzergâhınızı veya dışarı çıkma zamanınızı değiştiriyor mu?",
+      "#No, it makes no difference to me": "Hayır, benim için fark etmez",
+      "#I notice it, but I don't change anything": "Fark ederim ama hiçbir şeyi değiştirmem",
+      "#I go the same way but faster, or avoid some spots": "Aynı yoldan giderim ama daha hızlı yürür veya bazı yerlerden kaçınırım",
+      "#I take a longer, better-lit route": "Daha uzun ama daha iyi aydınlatılmış bir güzergâh seçerim",
+      "#I don't walk after dark because of poor lighting": "Yetersiz aydınlatma nedeniyle hava karardıktan sonra yürümem",
+      "#I don't walk after dark for other reasons": "Başka nedenlerle hava karardıktan sonra yürümem",
+      "#Lighting doesn't matter to me because I don't rely on sight": "Görmeye dayanmadığım için aydınlatma benim için önemli değil"
     },
     "fa": {
-      "#When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?": "وقتی بعد از تاریک شدن هوا پیاده هستید، حتی فقط برای رسیدن به ایستگاه یا وسیله نقلیه پارک‌شده، کیفیت روشنایی خیابان چه تأثیری بر انتخاب مسیر یا تصمیم شما برای پیاده‌روی دارد؟",
-      "#Lighting levels have no influence on my travel choices or comfort": "میزان روشنایی بر انتخاب سفر یا راحتی من اثری ندارد",
-      "#I notice poor lighting but it does not significantly change how or when I travel": "روشنایی کم را متوجه می‌شوم، اما روش یا زمان سفرم را خیلی تغییر نمی‌دهم",
-      "#I still use the route but I move faster, avoid certain spots, or stay on high alert": "همان مسیر را استفاده می‌کنم، اما سریع‌تر راه می‌روم، از بعضی نقاط دوری می‌کنم یا بیشتر مراقب هستم",
-      "#I take a much longer alternative route specifically to stay in better-lit areas": "برای ماندن در مناطق روشن‌تر مسیر بسیار طولانی‌تری انتخاب می‌کنم",
-      "#I do not walk after dark because of poor lighting": "به دلیل روشنایی کم، بعد از تاریکی هوا پیاده‌روی نمی‌کنم",
-      "#I do not walk after dark for other reasons": "به دلایل دیگر بعد از تاریک شدن هوا پیاده‌روی نمی‌کنم"
+      "#When you walk after dark, does poor street lighting change your route or when you go out?": "وقتی بعد از تاریک شدن هوا پیاده راه می‌روید، آیا روشنایی کم خیابان مسیر یا زمان بیرون رفتن شما را تغییر می‌دهد؟",
+      "#No, it makes no difference to me": "نه، برای من فرقی نمی‌کند",
+      "#I notice it, but I don't change anything": "متوجه می‌شوم، اما چیزی را تغییر نمی‌دهم",
+      "#I go the same way but faster, or avoid some spots": "همان مسیر را می‌روم، اما سریع‌تر، یا از بعضی نقاط دوری می‌کنم",
+      "#I take a longer, better-lit route": "مسیری طولانی‌تر و روشن‌تر انتخاب می‌کنم",
+      "#I don't walk after dark because of poor lighting": "به دلیل روشنایی کم، بعد از تاریک شدن هوا پیاده‌روی نمی‌کنم",
+      "#I don't walk after dark for other reasons": "به دلایل دیگر بعد از تاریک شدن هوا پیاده‌روی نمی‌کنم",
+      "#Lighting doesn't matter to me because I don't rely on sight": "روشنایی برایم مهم نیست، چون به بینایی تکیه نمی‌کنم"
     },
     "hu": {
-      "#When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?": "Amikor sötétedés után gyalog van, akár csak azért, hogy elérjen egy megállót vagy egy parkoló járművet, hogyan befolyásolja a közvilágítás minősége az útvonalválasztását vagy azt, hogy gyalog megy-e?",
-      "#Lighting levels have no influence on my travel choices or comfort": "A világítás szintje nem befolyásolja sem a közlekedési döntéseimet, sem a kényelmemet",
-      "#I notice poor lighting but it does not significantly change how or when I travel": "Észreveszem a rossz világítást, de ez nem változtatja meg jelentősen, hogyan vagy mikor közlekedem",
-      "#I still use the route but I move faster, avoid certain spots, or stay on high alert": "Továbbra is használom az útvonalat, de gyorsabban megyek, kerülök bizonyos helyeket vagy fokozottan figyelek",
-      "#I take a much longer alternative route specifically to stay in better-lit areas": "Jelentősen hosszabb kerülőutat választok, hogy jobban megvilágított helyeken maradjak",
-      "#I do not walk after dark because of poor lighting": "Rossz világítás miatt sötétedés után nem gyalogolok",
-      "#I do not walk after dark for other reasons": "Más okok miatt sötétedés után nem gyalogolok"
+      "#When you walk after dark, does poor street lighting change your route or when you go out?": "Ha sötétedés után sétál, megváltoztatja-e a rossz közvilágítás az útvonalát vagy azt, hogy mikor indul el otthonról?",
+      "#No, it makes no difference to me": "Nem, számomra nincs jelentősége",
+      "#I notice it, but I don't change anything": "Észreveszem, de nem változtatok semmit",
+      "#I go the same way but faster, or avoid some spots": "Ugyanazon az úton megyek, de gyorsabban, vagy kerülök bizonyos helyeket",
+      "#I take a longer, better-lit route": "Hosszabb, jobban megvilágított útvonalat választok",
+      "#I don't walk after dark because of poor lighting": "Rossz világítás miatt sötétedés után nem sétálok",
+      "#I don't walk after dark for other reasons": "Más okok miatt sötétedés után nem sétálok",
+      "#Lighting doesn't matter to me because I don't rely on sight": "A világítás nem számít nekem, mert nem a látásomra támaszkodom"
     },
     "ar": {
-      "#When you are on foot after dark, even just to reach a stop or a parked vehicle, how does the quality of street lighting affect your choice of route or your decision to walk?": "عند التنقل سيرًا على الأقدام بعد حلول الظلام، حتى لمجرد الوصول إلى محطة أو إلى مركبة مركونة، كيف تؤثر جودة إنارة الشوارع في اختيار الطريق أو في قرار المشي؟",
-      "#Lighting levels have no influence on my travel choices or comfort": "مستوى الإضاءة لا يؤثر في اختياراتي أو راحتي",
-      "#I notice poor lighting but it does not significantly change how or when I travel": "ألاحظ ضعف الإضاءة لكنه لا يغيّر كثيرًا طريقة أو وقت تنقلي",
-      "#I still use the route but I move faster, avoid certain spots, or stay on high alert": "أواصل استخدام الطريق لكنني أسرع أو أتجنب بعض الأماكن أو أكون أكثر انتباهًا",
-      "#I take a much longer alternative route specifically to stay in better-lit areas": "أختار طريقًا أطول بكثير للبقاء في مناطق أكثر إضاءة",
-      "#I do not walk after dark because of poor lighting": "لا أمشي بعد حلول الظلام بسبب ضعف الإضاءة",
-      "#I do not walk after dark for other reasons": "لا أمشي بعد حلول الظلام لأسباب أخرى"
+      "#When you walk after dark, does poor street lighting change your route or when you go out?": "عند المشي بعد حلول الظلام، هل يغيّر ضعف إنارة الشوارع طريقك أو وقت خروجك؟",
+      "#No, it makes no difference to me": "لا، الأمر لا يفرق معي",
+      "#I notice it, but I don't change anything": "ألاحظ ذلك، لكنني لا أغيّر شيئًا",
+      "#I go the same way but faster, or avoid some spots": "أسلك الطريق نفسه لكن بسرعة أكبر، أو أتجنب بعض الأماكن",
+      "#I take a longer, better-lit route": "أسلك طريقًا أطول وأفضل إضاءة",
+      "#I don't walk after dark because of poor lighting": "لا أمشي بعد حلول الظلام بسبب ضعف الإضاءة",
+      "#I don't walk after dark for other reasons": "لا أمشي بعد حلول الظلام لأسباب أخرى",
+      "#Lighting doesn't matter to me because I don't rely on sight": "الإضاءة لا تهمني لأنني لا أعتمد على البصر"
     }
   },
   "origin_project": {

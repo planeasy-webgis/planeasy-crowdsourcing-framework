@@ -2,7 +2,7 @@
   "question_id": "route_reasons",
   "key": "route_reasons",
   "project": "shared",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_post_trip",
   "source_questionnaires": [
@@ -45,6 +45,10 @@
         "value": "flatter"
       },
       {
+        "text": "It's more accessible (ramps, audible signals, tactile paving)",
+        "value": "accessible"
+      },
+      {
         "text": "Better pavements or cycle lanes",
         "value": "better_surface"
       },
@@ -77,6 +81,7 @@
       "#It's nicer or greener": "It's nicer or greener",
       "#It has more shade": "It has more shade",
       "#It has fewer slopes or stairs": "It has fewer slopes or stairs",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "It's more accessible (ramps, audible signals, tactile paving)",
       "#Better pavements or cycle lanes": "Better pavements or cycle lanes",
       "#To stop somewhere on the way": "To stop somewhere on the way",
       "#My usual route was closed or diverted (e.g. roadworks)": "My usual route was closed or diverted (e.g. roadworks)",
@@ -92,6 +97,7 @@
       "#It's nicer or greener": "È più bello o più verde",
       "#It has more shade": "Ha più ombra",
       "#It has fewer slopes or stairs": "Ha meno salite o scale",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "È più accessibile (scivoli, segnali acustici, guide tattili)",
       "#Better pavements or cycle lanes": "Marciapiedi o piste ciclabili migliori",
       "#To stop somewhere on the way": "Per fermarmi da qualche parte lungo la strada",
       "#My usual route was closed or diverted (e.g. roadworks)": "Il mio solito percorso era chiuso o deviato (ad es. lavori)",
@@ -107,6 +113,7 @@
       "#It's nicer or greener": "Il est plus agréable ou plus vert",
       "#It has more shade": "Il y a plus d'ombre",
       "#It has fewer slopes or stairs": "Il y a moins de pentes ou d'escaliers",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "Il est plus accessible (rampes, signaux sonores, bandes de guidage tactiles)",
       "#Better pavements or cycle lanes": "De meilleurs trottoirs ou pistes cyclables",
       "#To stop somewhere on the way": "Pour m'arrêter quelque part en chemin",
       "#My usual route was closed or diverted (e.g. roadworks)": "Mon trajet habituel était fermé ou dévié (par ex. travaux)",
@@ -122,6 +129,7 @@
       "#It's nicer or greener": "Sie ist schöner oder grüner",
       "#It has more shade": "Sie hat mehr Schatten",
       "#It has fewer slopes or stairs": "Sie hat weniger Steigungen oder Treppen",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "Sie ist besser zugänglich (Rampen, akustische Signale, Blindenleitstreifen)",
       "#Better pavements or cycle lanes": "Bessere Gehwege oder Radwege",
       "#To stop somewhere on the way": "Um unterwegs irgendwo anzuhalten",
       "#My usual route was closed or diverted (e.g. roadworks)": "Mein üblicher Weg war gesperrt oder umgeleitet (z. B. Baustelle)",
@@ -137,6 +145,7 @@
       "#It's nicer or greener": "Daha güzel veya daha yeşil",
       "#It has more shade": "Daha çok gölge var",
       "#It has fewer slopes or stairs": "Daha az eğim veya merdiven var",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "Daha erişilebilir (rampalar, sesli sinyaller, görme engelliler için kabartmalı yüzey)",
       "#Better pavements or cycle lanes": "Daha iyi kaldırımlar veya bisiklet yolları",
       "#To stop somewhere on the way": "Yolda bir yere uğramak için",
       "#My usual route was closed or diverted (e.g. roadworks)": "Her zamanki yolum kapalıydı veya yönlendirilmişti (ör. yol çalışması)",
@@ -152,6 +161,7 @@
       "#It's nicer or greener": "زیباتر یا سرسبزتر است",
       "#It has more shade": "سایه بیشتری دارد",
       "#It has fewer slopes or stairs": "شیب یا پله کمتری دارد",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "دسترسی در آن آسان‌تر است (رمپ، علامت‌های صوتی، نوار برجسته برای نابینایان)",
       "#Better pavements or cycle lanes": "پیاده‌روها یا مسیرهای دوچرخه بهتر",
       "#To stop somewhere on the way": "برای توقف در جایی در طول مسیر",
       "#My usual route was closed or diverted (e.g. roadworks)": "مسیر همیشگی‌ام بسته بود یا تغییر کرده بود (مثلاً به‌خاطر کارهای عمرانی)",
@@ -167,6 +177,7 @@
       "#It's nicer or greener": "Szebb vagy zöldebb",
       "#It has more shade": "Több az árnyék",
       "#It has fewer slopes or stairs": "Kevesebb az emelkedő vagy a lépcső",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "Akadálymentesebb (rámpák, hangjelzések, tapintható vezetősáv)",
       "#Better pavements or cycle lanes": "Jobb járdák vagy kerékpársávok",
       "#To stop somewhere on the way": "Hogy útközben megálljak valahol",
       "#My usual route was closed or diverted (e.g. roadworks)": "A szokásos útvonalam le volt zárva vagy el volt terelve (pl. útépítés)",
@@ -182,6 +193,7 @@
       "#It's nicer or greener": "إنه أجمل أو أكثر خضرة",
       "#It has more shade": "فيه ظل أكثر",
       "#It has fewer slopes or stairs": "فيه منحدرات أو درج أقل",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "إمكانية الوصول فيه أفضل (منحدرات، إشارات صوتية، بلاطات لمسية إرشادية)",
       "#Better pavements or cycle lanes": "أرصفة أو مسارات دراجات أفضل",
       "#To stop somewhere on the way": "للتوقف في مكان ما في الطريق",
       "#My usual route was closed or diverted (e.g. roadworks)": "كان طريقي المعتاد مغلقًا أو محوّلًا (مثل أشغال الطرق)",
