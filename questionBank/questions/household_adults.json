@@ -2,17 +2,19 @@
   "question_id": "household_adults",
   "key": "household_adults",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
-    "smarturbanity_about_you"
+    "smarturbanity_about_you",
+    "smarturbanity_your_profile"
   ],
   "schema": {
+    "privacy_classification": "heightened_personal",
     "text": "How many adults (aged 18 or older), including yourself, live in your home?",
     "answer_key": "household_adults",
     "question_type": "single_option",
-    "help": "Count everyone who lives with you, including flatmates or a live-in carer.",
+    "checks_inline": false,
     "options": [
       {
         "text": "1 (only myself)",
@@ -34,89 +36,65 @@
         "text": "5 or more",
         "value": "5_plus"
       }
-    ],
-    "privacy_classification": "heightened_personal"
+    ]
   },
   "translations": {
-    "en": {
-      "#1 (only myself)": "1 (only myself)",
-      "#2": "2",
-      "#3": "3",
-      "#4": "4",
-      "#5 or more": "5 or more",
-      "#1": "1",
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "How many adults (aged 18 or older), including yourself, live in your home?",
-      "#Count everyone who lives with you, including flatmates or a live-in carer.": "Count everyone who lives with you, including flatmates or a live-in carer."
-    },
+    "en": {},
     "it": {
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Quante persone adulte (di 18 anni o più) vivono nella tua casa, contando anche te?",
       "#1 (only myself)": "1 (solo io)",
       "#2": "2",
       "#3": "3",
       "#4": "4",
-      "#5 or more": "5 o più",
-      "#1": "1",
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Quante persone adulte (dai 18 anni in su), te compreso/a, vivono nella tua abitazione?",
-      "#Count everyone who lives with you, including flatmates or a live-in carer.": "Conta tutte le persone che vivono con te, compresi coinquilini o un/una badante convivente."
+      "#5 or more": "5 o più"
     },
     "fr": {
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Combien de personnes adultes (de 18 ans ou plus), y compris vous, vivent dans votre logement ?",
       "#1 (only myself)": "1 (moi uniquement)",
       "#2": "2",
       "#3": "3",
       "#4": "4",
-      "#5 or more": "5 ou plus",
-      "#1": "1",
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Combien d’adultes (18 ans ou plus), vous compris(e), vivent dans votre logement ?",
-      "#Count everyone who lives with you, including flatmates or a live-in carer.": "Comptez toutes les personnes qui vivent avec vous, y compris les colocataires ou une aide à domicile qui habite chez vous."
+      "#5 or more": "5 ou plus"
     },
     "de": {
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Wie viele Erwachsene (ab 18 Jahren), Sie selbst eingeschlossen, leben in Ihrem Haushalt?",
       "#1 (only myself)": "1 (nur ich)",
       "#2": "2",
       "#3": "3",
       "#4": "4",
-      "#5 or more": "5 oder mehr",
-      "#1": "1",
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Wie viele Erwachsene (ab 18 Jahren), Sie selbst eingeschlossen, leben in Ihrer Wohnung?",
-      "#Count everyone who lives with you, including flatmates or a live-in carer.": "Zählen Sie alle Personen, die mit Ihnen wohnen, auch Mitbewohnerinnen und Mitbewohner oder eine im Haushalt lebende Pflegekraft."
+      "#5 or more": "5 oder mehr"
     },
     "tr": {
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Siz dahil, evinizde kaç yetişkin (18 yaş ve üzeri) yaşıyor?",
       "#1 (only myself)": "1 (yalnızca ben)",
       "#2": "2",
       "#3": "3",
       "#4": "4",
-      "#5 or more": "5 veya daha fazla",
-      "#1": "1",
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Siz dahil, evinizde kaç yetişkin (18 yaş ve üzeri) yaşıyor?",
-      "#Count everyone who lives with you, including flatmates or a live-in carer.": "Ev arkadaşları veya sizinle yaşayan bir bakıcı dahil, sizinle yaşayan herkesi sayın."
+      "#5 or more": "5 veya daha fazla"
     },
     "fa": {
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "چند بزرگسال (18 سال یا بیشتر)، از جمله خودتان، در خانه شما زندگی می‌کنند؟",
       "#1 (only myself)": "1 (فقط خودم)",
       "#2": "2",
       "#3": "3",
       "#4": "4",
-      "#5 or more": "۵ نفر یا بیشتر",
-      "#1": "1",
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "با احتساب خودتان، چند بزرگسال (۱۸ سال و بالاتر) در خانه شما زندگی می‌کنند؟",
-      "#Count everyone who lives with you, including flatmates or a live-in carer.": "همه کسانی را که با شما زندگی می‌کنند بشمارید، از جمله هم‌خانه‌ها یا مراقبی که با شما زندگی می‌کند."
+      "#5 or more": "۵ نفر یا بیشتر"
     },
     "hu": {
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Hány felnőtt (18 éves vagy idősebb) él az otthonában, Önt is beleértve?",
       "#1 (only myself)": "1 (csak én)",
       "#2": "2",
       "#3": "3",
       "#4": "4",
-      "#5 or more": "5 vagy több",
-      "#1": "1",
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Önnel együtt hány felnőtt (18 éves vagy idősebb) él a lakásában?",
-      "#Count everyone who lives with you, including flatmates or a live-in carer.": "Számoljon bele mindenkit, aki Önnel él, a lakótársakat vagy a bentlakó gondozót is."
+      "#5 or more": "5 vagy több"
     },
     "ar": {
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "كم عدد الأشخاص البالغين (18 سنة أو أكثر) الذين يعيشون في منزلك، بما في ذلك أنت؟",
       "#1 (only myself)": "1 (أنا فقط)",
       "#2": "2",
       "#3": "3",
       "#4": "4",
-      "#5 or more": "5 أو أكثر",
-      "#1": "1",
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "كم عدد البالغين (18 عامًا فأكثر)، بمن فيهم أنت، الذين يعيشون في منزلك؟",
-      "#Count everyone who lives with you, including flatmates or a live-in carer.": "احسب كل من يعيش معك، بمن فيهم شركاء السكن أو مقدّم الرعاية المقيم."
+      "#5 or more": "5 أو أكثر"
     }
   },
   "origin_project": {

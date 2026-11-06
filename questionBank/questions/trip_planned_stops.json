@@ -1,0 +1,98 @@
+{
+  "question_id": "trip_planned_stops",
+  "key": "trip_planned_stops",
+  "project": "shared",
+  "version": "1.0.2",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_pre_trip",
+  "source_questionnaires": [
+    "smarturbanity_pre_trip"
+  ],
+  "schema": {
+    "text": "Do you plan to stop somewhere on the way? (e.g. a shop or a café)",
+    "answer_key": "trip_planned_stops",
+    "question_type": "single_option",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "No, I'm going straight there",
+        "value": "no"
+      },
+      {
+        "text": "Yes, one stop",
+        "value": "one"
+      },
+      {
+        "text": "Yes, more than one stop",
+        "value": "several"
+      },
+      {
+        "text": "I don't know yet",
+        "value": "not_sure"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Do you plan to stop somewhere on the way? (e.g. a shop or a café)",
+      "#No, I'm going straight there": "No, I'm going straight there",
+      "#Yes, one stop": "Yes, one stop",
+      "#Yes, more than one stop": "Yes, more than one stop",
+      "#I don't know yet": "I don't know yet"
+    },
+    "it": {
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Pensi di fare delle soste lungo il tragitto? (ad es. un negozio o un bar)",
+      "#No, I'm going straight there": "No, vado direttamente",
+      "#Yes, one stop": "Sì, una sosta",
+      "#Yes, more than one stop": "Sì, più di una sosta",
+      "#I don't know yet": "Non lo so ancora"
+    },
+    "fr": {
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Prévoyez-vous de vous arrêter quelque part en chemin ? (par ex. un magasin ou un café)",
+      "#No, I'm going straight there": "Non, j'y vais directement",
+      "#Yes, one stop": "Oui, un arrêt",
+      "#Yes, more than one stop": "Oui, plusieurs arrêts",
+      "#I don't know yet": "Je ne sais pas encore"
+    },
+    "de": {
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Planen Sie unterwegs einen Zwischenstopp? (z. B. ein Geschäft oder ein Café)",
+      "#No, I'm going straight there": "Nein, direkt zum Ziel",
+      "#Yes, one stop": "Ja, einen Zwischenstopp",
+      "#Yes, more than one stop": "Ja, mehrere Zwischenstopps",
+      "#I don't know yet": "Weiß ich noch nicht"
+    },
+    "tr": {
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Yolda bir yerde durmayı planlıyor musunuz? (ör. bir dükkân veya kafe)",
+      "#No, I'm going straight there": "Hayır, doğrudan gideceğim",
+      "#Yes, one stop": "Evet, bir mola",
+      "#Yes, more than one stop": "Evet, birden fazla mola",
+      "#I don't know yet": "Henüz bilmiyorum"
+    },
+    "fa": {
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "آیا قصد دارید در مسیر جایی توقف کنید؟ (مثلاً یک مغازه یا کافه)",
+      "#No, I'm going straight there": "نه، مستقیم می‌روم",
+      "#Yes, one stop": "بله، یک توقف",
+      "#Yes, more than one stop": "بله، بیش از یک توقف",
+      "#I don't know yet": "هنوز نمی‌دانم"
+    },
+    "hu": {
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Tervez útközben megállni valahol? (pl. egy boltban vagy kávézóban)",
+      "#No, I'm going straight there": "Nem, egyenesen odamegyek",
+      "#Yes, one stop": "Igen, egyszer megállok",
+      "#Yes, more than one stop": "Igen, többször megállok",
+      "#I don't know yet": "Még nem tudom"
+    },
+    "ar": {
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "هل من المخطط التوقف في مكان ما في الطريق؟ (مثل متجر أو مقهى)",
+      "#No, I'm going straight there": "لا، سأذهب مباشرة",
+      "#Yes, one stop": "نعم، توقف واحد",
+      "#Yes, more than one stop": "نعم، أكثر من توقف",
+      "#I don't know yet": "لا أعرف بعد"
+    }
+  },
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  }
+}

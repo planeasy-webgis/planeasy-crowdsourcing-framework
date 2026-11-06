@@ -2,80 +2,77 @@
   "question_id": "driving_licence",
   "key": "driving_licence",
   "project": "shared",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
-    "smarturbanity_about_you"
+    "smarturbanity_about_you",
+    "smarturbanity_your_profile"
   ],
   "schema": {
+    "privacy_classification": "heightened_personal",
     "text": "Do you hold a valid driving license? (Car, motorcycle or both)",
     "answer_key": "driving_licence",
     "question_type": "single_option",
+    "checks_inline": false,
     "options": [
       {
         "text": "Yes",
         "value": "yes"
       },
       {
-        "text": "Yes, but I no longer drive",
+        "text": "Yes, but I do not drive",
         "value": "yes_no_longer_drives"
       },
       {
         "text": "No",
         "value": "no"
       }
-    ],
-    "privacy_classification": "heightened_personal"
+    ]
   },
   "translations": {
-    "en": {
-      "#Yes": "Yes",
-      "#No": "No",
-      "#Do you hold a valid driving license? (Car, motorcycle or both)": "Do you hold a valid driving license? (Car, motorcycle or both)",
-      "#Yes, but I no longer drive": "Yes, but I no longer drive"
-    },
+    "en": {},
     "it": {
-      "#Yes": "Sì",
-      "#No": "No",
       "#Do you hold a valid driving license? (Car, motorcycle or both)": "Possiedi una patente di guida valida? (Auto, moto o entrambe)",
-      "#Yes, but I no longer drive": "Sì, ma non guido più"
+      "#Yes": "Sì",
+      "#Yes, but I do not drive": "Sì, ma non guido",
+      "#No": "No"
     },
     "fr": {
-      "#Yes": "Oui",
-      "#No": "Non",
       "#Do you hold a valid driving license? (Car, motorcycle or both)": "Avez-vous un permis de conduire valide ? (Voiture, moto ou les deux)",
-      "#Yes, but I no longer drive": "Oui, mais je ne conduis plus"
+      "#Yes": "Oui",
+      "#Yes, but I do not drive": "Oui, mais je ne conduis pas",
+      "#No": "Non"
     },
     "de": {
-      "#Yes": "Ja",
-      "#No": "Nein",
       "#Do you hold a valid driving license? (Car, motorcycle or both)": "Haben Sie einen gültigen Führerschein? (Auto, Motorrad oder beides)",
-      "#Yes, but I no longer drive": "Ja, aber ich fahre nicht mehr"
+      "#Yes": "Ja",
+      "#Yes, but I do not drive": "Ja, aber ich fahre nicht selbst",
+      "#No": "Nein"
     },
     "tr": {
-      "#Yes": "Evet",
-      "#No": "Hayır",
       "#Do you hold a valid driving license? (Car, motorcycle or both)": "Geçerli bir sürücü belgeniz var mı? (Otomobil, motosiklet veya her ikisi)",
-      "#Yes, but I no longer drive": "Evet, ama artık araç kullanmıyorum"
+      "#Yes": "Evet",
+      "#Yes, but I do not drive": "Evet, ama araç kullanmıyorum",
+      "#No": "Hayır"
     },
     "fa": {
-      "#Yes": "بله",
-      "#No": "خیر",
       "#Do you hold a valid driving license? (Car, motorcycle or both)": "آیا گواهینامه رانندگی معتبر دارید؟ (خودرو، موتورسیکلت یا هر دو)",
-      "#Yes, but I no longer drive": "بله، اما دیگر رانندگی نمی‌کنم"
+      "#Yes": "بله",
+      "#Yes, but I do not drive": "بله، اما رانندگی نمی‌کنم",
+      "#No": "خیر"
     },
     "hu": {
-      "#Yes": "Igen",
-      "#No": "Nem",
       "#Do you hold a valid driving license? (Car, motorcycle or both)": "Van érvényes vezetői engedélye? (Autóra, motorkerékpárra vagy mindkettőre)",
-      "#Yes, but I no longer drive": "Igen, de már nem vezetek"
+      "#Yes": "Igen",
+      "#Yes, but I do not drive": "Igen, de nem vezetek",
+      "#No": "Nem"
     },
     "ar": {
-      "#Yes": "نعم",
-      "#No": "لا",
       "#Do you hold a valid driving license? (Car, motorcycle or both)": "هل لديك رخصة قيادة سارية؟ (للسيارة أو الدراجة النارية أو كليهما)",
-      "#Yes, but I no longer drive": "نعم، لكنني لم أعد أقود"
+      "#Yes": "نعم",
+      "#Yes, but I do not drive": "نعم، لكنني لا أقود",
+      "#No": "لا"
     }
   },
   "origin_project": {

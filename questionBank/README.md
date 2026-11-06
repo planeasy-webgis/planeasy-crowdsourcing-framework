@@ -46,3 +46,9 @@ The builder filters by origin project. The feed includes this metadata automatic
 ## Additional recovered survey history
 
 The previous `economic_status` and `walk_distance` definitions at backup versions `2.0.0` and `3.0.0` are preserved as archival `0.4.0` and `0.5.0` revisions of each family. The original numbers collide with different content already in the new pool; the history catalog retains the original backup ID/version, path, commit and digest. Their schemas and translations are unchanged. Selected question definitions and the complete questionnaire remain unchanged.
+
+## SmartUrbanity questionnaire changes of 2026-11-06
+
+The pool selects the question definitions of SmartUrbanity Configuration `marzie` at commit `a5068478`: the new Your profile and Safety questionnaires, the revised pre- and post-trip questionnaires from main, the answer limits of the safety questions (five unsafe road situations, three insecurity factors, both asking for the most important ones) and the question texts that no longer repeat "Up to N", which the app now shows. 41 question families receive a new selected revision; earlier revisions, including the review proposals they replace as selection, stay unchanged in the history.
+
+Declared source question versions are retained. When the declared version already identifies different content in the pool (`fast_vehicles` 1.1.0), the new definition receives the next unoccupied minor version. The Your profile questions declare no version and receive the next minor version of their family. Six questions used by these questionnaires were not yet in the pool and are added as new families: `road_safety_environment`, `insecurity_factors_detailed`, `trip_rating`, `trip_feeling`, `trip_comment` and `trip_planned_stops`; their topic assignments are marked `needs_review`. Source references record `published_main` for definitions identical on main and `review_proposal` for definitions that exist only on `marzie`.

@@ -2,18 +2,20 @@
   "question_id": "education",
   "key": "education",
   "project": "shared",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "smarturbanity_about_you",
-    "perception_on_ride_sharing"
+    "perception_on_ride_sharing",
+    "smarturbanity_your_profile"
   ],
   "schema": {
-    "text": "What is your highest completed level of education?",
+    "privacy_classification": "heightened_personal",
+    "text": "What is your highest completed level of education? If you are still studying, choose the last level you completed; if you studied abroad, choose the closest equivalent.",
     "answer_key": "education",
     "question_type": "single_option",
-    "help": "We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.",
+    "checks_inline": false,
     "options": [
       {
         "text": "No qualification",
@@ -47,114 +49,86 @@
         "text": "Doctorate degree",
         "value": "doctorate"
       }
-    ],
-    "add_prefer_not_to_say": true,
-    "privacy_classification": "heightened_personal"
+    ]
   },
   "translations": {
-    "en": {
-      "#Prefer not to say": "Prefer not to say",
-      "#What is your highest completed level of education?": "What is your highest completed level of education?",
-      "#No qualification": "No qualification",
-      "#Bachelor degree or equivalent": "Bachelor degree or equivalent",
-      "#Master degree or equivalent": "Master degree or equivalent",
-      "#Doctorate degree": "Doctorate degree",
-      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.",
-      "#Primary school certificate": "Primary school certificate",
-      "#Lower secondary school (middle school)": "Lower secondary school (middle school)",
-      "#Vocational qualification (2-3 year course)": "Vocational qualification (2-3 year course)",
-      "#Upper secondary school (high school diploma)": "Upper secondary school (high school diploma)"
-    },
+    "en": {},
     "it": {
-      "#Prefer not to say": "Preferisco non rispondere",
-      "#What is your highest completed level of education?": "Qual è il livello di istruzione più alto che hai completato?",
+      "#What is your highest completed level of education? If you are still studying, choose the last level you completed; if you studied abroad, choose the closest equivalent.": "Qual è il tuo titolo di studio più elevato tra quelli conseguiti? Se stai ancora studiando, indica l'ultimo titolo conseguito; se hai studiato all'estero, scegli il titolo equivalente più vicino.",
       "#No qualification": "Nessun titolo di studio",
+      "#Primary school certificate": "Licenza elementare",
+      "#Lower secondary school (middle school)": "Scuola media inferiore",
+      "#Vocational qualification (2-3 year course)": "Qualifica professionale (corso di 2-3 anni)",
+      "#Upper secondary school (high school diploma)": "Scuola media superiore (diploma)",
       "#Bachelor degree or equivalent": "Laurea triennale o titolo equivalente",
       "#Master degree or equivalent": "Laurea magistrale o titolo equivalente",
-      "#Doctorate degree": "Dottorato di ricerca",
-      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Lo chiediamo per descrivere chi partecipa allo studio. Rispondere è facoltativo e la tua risposta non è collegata al tuo nome.",
-      "#Primary school certificate": "Licenza elementare",
-      "#Lower secondary school (middle school)": "Scuola secondaria di primo grado (licenza media)",
-      "#Vocational qualification (2-3 year course)": "Qualifica professionale (corso di 2-3 anni)",
-      "#Upper secondary school (high school diploma)": "Scuola secondaria di secondo grado (diploma di maturità)"
+      "#Doctorate degree": "Dottorato di ricerca"
     },
     "fr": {
-      "#Prefer not to say": "Je préfère ne pas répondre",
-      "#What is your highest completed level of education?": "Quel est le niveau d’études le plus élevé que vous avez terminé ?",
+      "#What is your highest completed level of education? If you are still studying, choose the last level you completed; if you studied abroad, choose the closest equivalent.": "Quel est le plus haut niveau d’études que vous avez terminé ? Si vous faites encore des études, indiquez le dernier niveau terminé ; si vous avez étudié à l’étranger, choisissez l’équivalent le plus proche.",
       "#No qualification": "Aucun diplôme",
+      "#Primary school certificate": "Certificat d’études primaires",
+      "#Lower secondary school (middle school)": "Premier cycle du secondaire (collège)",
+      "#Vocational qualification (2-3 year course)": "Qualification professionnelle (formation de 2-3 ans)",
+      "#Upper secondary school (high school diploma)": "Second cycle du secondaire (diplôme de fin d’études secondaires)",
       "#Bachelor degree or equivalent": "Licence ou équivalent",
       "#Master degree or equivalent": "Master ou équivalent",
-      "#Doctorate degree": "Doctorat",
-      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Nous posons cette question pour décrire qui participe à l’étude. Répondre est facultatif et votre réponse n’est pas liée à votre nom.",
-      "#Primary school certificate": "Certificat d’études primaires (école primaire)",
-      "#Lower secondary school (middle school)": "Collège (brevet)",
-      "#Vocational qualification (2-3 year course)": "Qualification professionnelle (formation de 2 à 3 ans, par ex. CAP)",
-      "#Upper secondary school (high school diploma)": "Lycée (baccalauréat)"
+      "#Doctorate degree": "Doctorat"
     },
     "de": {
-      "#Prefer not to say": "Ich möchte nicht antworten",
-      "#What is your highest completed level of education?": "Was ist Ihr höchster abgeschlossener Bildungsabschluss?",
+      "#What is your highest completed level of education? If you are still studying, choose the last level you completed; if you studied abroad, choose the closest equivalent.": "Welches ist Ihr höchster erworbener Bildungsabschluss? Wenn Sie noch in Schule, Studium oder Ausbildung sind, wählen Sie den zuletzt erworbenen Abschluss; wenn Sie im Ausland gelernt oder studiert haben, wählen Sie den am ehesten vergleichbaren Abschluss.",
       "#No qualification": "Kein Abschluss",
+      "#Primary school certificate": "Grundschulabschluss",
+      "#Lower secondary school (middle school)": "Sekundarstufe I (Mittelschule)",
+      "#Vocational qualification (2-3 year course)": "Berufliche Qualifikation (Ausbildung von 2-3 Jahren)",
+      "#Upper secondary school (high school diploma)": "Sekundarstufe II (Abitur oder Matura)",
       "#Bachelor degree or equivalent": "Bachelorabschluss oder vergleichbar",
       "#Master degree or equivalent": "Masterabschluss oder vergleichbar",
-      "#Doctorate degree": "Promotion",
-      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Wir fragen dies, um zu beschreiben, wer an der Studie teilnimmt. Die Antwort ist freiwillig und nicht mit Ihrem Namen verbunden.",
-      "#Primary school certificate": "Grundschulabschluss",
-      "#Lower secondary school (middle school)": "Abschluss der Sekundarstufe I (z. B. Haupt- oder Realschulabschluss)",
-      "#Vocational qualification (2-3 year course)": "Berufsabschluss (zwei- bis dreijährige Ausbildung)",
-      "#Upper secondary school (high school diploma)": "Abschluss der Sekundarstufe II (z. B. Abitur)"
+      "#Doctorate degree": "Promotion"
     },
     "tr": {
-      "#Prefer not to say": "Yanıtlamak istemiyorum",
-      "#What is your highest completed level of education?": "Tamamladığınız en yüksek eğitim düzeyi nedir?",
+      "#What is your highest completed level of education? If you are still studying, choose the last level you completed; if you studied abroad, choose the closest equivalent.": "Tamamladığınız en yüksek eğitim düzeyi nedir? Hâlâ öğrenim görüyorsanız tamamladığınız son düzeyi seçin; yurt dışında okuduysanız en yakın karşılığını seçin.",
       "#No qualification": "Diplomam yok",
-      "#Bachelor degree or equivalent": "Lisans veya dengi",
-      "#Master degree or equivalent": "Yüksek lisans veya dengi",
-      "#Doctorate degree": "Doktora",
-      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Bunu, çalışmaya kimlerin katıldığını tanımlamak için soruyoruz. Yanıt vermek isteğe bağlıdır ve yanıtınız adınızla ilişkilendirilmez.",
       "#Primary school certificate": "İlkokul diploması",
       "#Lower secondary school (middle school)": "Ortaokul",
-      "#Vocational qualification (2-3 year course)": "Mesleki yeterlilik (2-3 yıllık program)",
-      "#Upper secondary school (high school diploma)": "Lise diploması"
+      "#Vocational qualification (2-3 year course)": "Mesleki yeterlilik (2-3 yıllık kurs)",
+      "#Upper secondary school (high school diploma)": "Lise (lise diploması)",
+      "#Bachelor degree or equivalent": "Lisans veya dengi",
+      "#Master degree or equivalent": "Yüksek lisans veya dengi",
+      "#Doctorate degree": "Doktora"
     },
     "fa": {
-      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
-      "#What is your highest completed level of education?": "بالاترین سطح تحصیلی که به پایان رسانده‌اید چیست؟",
+      "#What is your highest completed level of education? If you are still studying, choose the last level you completed; if you studied abroad, choose the closest equivalent.": "بالاترین مقطع تحصیلی که به پایان رسانده‌اید چیست؟ اگر هنوز در حال تحصیل هستید، آخرین مقطعی را که تمام کرده‌اید انتخاب کنید؛ اگر در خارج از کشور تحصیل کرده‌اید، نزدیک‌ترین مقطع معادل را انتخاب کنید.",
       "#No qualification": "بدون مدرک تحصیلی",
+      "#Primary school certificate": "مدرک دوره ابتدایی",
+      "#Lower secondary school (middle school)": "دوره اول متوسطه (راهنمایی)",
+      "#Vocational qualification (2-3 year course)": "مدرک فنی و حرفه‌ای (دوره 2-3 ساله)",
+      "#Upper secondary school (high school diploma)": "دوره دوم متوسطه (دیپلم دبیرستان)",
       "#Bachelor degree or equivalent": "کارشناسی یا معادل آن",
       "#Master degree or equivalent": "کارشناسی ارشد یا معادل آن",
-      "#Doctorate degree": "دکتری",
-      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "این را می‌پرسیم تا توصیف کنیم چه کسانی در این مطالعه شرکت می‌کنند. پاسخ دادن اختیاری است و پاسخ شما به نام شما مرتبط نمی‌شود.",
-      "#Primary school certificate": "مدرک دبستان (ابتدایی)",
-      "#Lower secondary school (middle school)": "دوره اول متوسطه (راهنمایی)",
-      "#Vocational qualification (2-3 year course)": "مدرک فنی‌وحرفه‌ای (دوره ۲ تا ۳ ساله)",
-      "#Upper secondary school (high school diploma)": "دیپلم دبیرستان"
+      "#Doctorate degree": "دکتری"
     },
     "hu": {
-      "#Prefer not to say": "Nem szeretnék válaszolni",
-      "#What is your highest completed level of education?": "Mi a legmagasabb befejezett iskolai végzettsége?",
+      "#What is your highest completed level of education? If you are still studying, choose the last level you completed; if you studied abroad, choose the closest equivalent.": "Mi az Ön legmagasabb befejezett iskolai végzettsége? Ha még tanul, az utolsó befejezett szintet válassza; ha külföldön tanult, a legközelebbi megfelelőt válassza.",
       "#No qualification": "Nincs végzettségem",
-      "#Bachelor degree or equivalent": "Alapképzés vagy annak megfelelő végzettség",
-      "#Master degree or equivalent": "Mesterképzés vagy annak megfelelő végzettség",
-      "#Doctorate degree": "Doktori fokozat",
-      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "Azért kérdezzük, hogy leírjuk, kik vesznek részt a vizsgálatban. A válaszadás nem kötelező, és a válasza nincs összekapcsolva a nevével.",
       "#Primary school certificate": "Elemi iskolai végzettség (alsó tagozat)",
       "#Lower secondary school (middle school)": "Általános iskola (8 osztály)",
-      "#Vocational qualification (2-3 year course)": "Szakmai végzettség (2-3 éves képzés)",
-      "#Upper secondary school (high school diploma)": "Középiskolai érettségi"
+      "#Vocational qualification (2-3 year course)": "Szakmai képesítés (2-3 éves képzés)",
+      "#Upper secondary school (high school diploma)": "Középiskola (érettségi)",
+      "#Bachelor degree or equivalent": "Alapképzés vagy annak megfelelő végzettség",
+      "#Master degree or equivalent": "Mesterképzés vagy annak megfelelő végzettség",
+      "#Doctorate degree": "Doktori fokozat"
     },
     "ar": {
-      "#Prefer not to say": "أفضل عدم الإجابة",
-      "#What is your highest completed level of education?": "ما أعلى مستوى تعليمي أكملته؟",
+      "#What is your highest completed level of education? If you are still studying, choose the last level you completed; if you studied abroad, choose the closest equivalent.": "ما أعلى مستوى تعليمي أكملته؟ في حال استمرار الدراسة، يُرجى اختيار آخر مستوى مكتمل؛ وفي حال الدراسة في الخارج، يُرجى اختيار أقرب مستوى معادل.",
       "#No qualification": "لا توجد مؤهلات دراسية",
-      "#Bachelor degree or equivalent": "درجة البكالوريوس أو ما يعادلها",
-      "#Master degree or equivalent": "درجة الماجستير أو ما يعادلها",
-      "#Doctorate degree": "الدكتوراه",
-      "#We ask this to describe who takes part in the study. Answering is optional and your answer is not linked to your name.": "نسأل عن ذلك لوصف من يشارك في الدراسة. الإجابة اختيارية وإجابتك غير مرتبطة باسمك.",
       "#Primary school certificate": "شهادة المرحلة الابتدائية",
       "#Lower secondary school (middle school)": "المرحلة الإعدادية (المتوسطة)",
       "#Vocational qualification (2-3 year course)": "مؤهل مهني (دورة مدتها 2-3 سنوات)",
-      "#Upper secondary school (high school diploma)": "شهادة الثانوية العامة"
+      "#Upper secondary school (high school diploma)": "المرحلة الثانوية (شهادة الثانوية العامة)",
+      "#Bachelor degree or equivalent": "درجة البكالوريوس أو ما يعادلها",
+      "#Master degree or equivalent": "درجة الماجستير أو ما يعادلها",
+      "#Doctorate degree": "الدكتوراه"
     }
   },
   "origin_project": {
