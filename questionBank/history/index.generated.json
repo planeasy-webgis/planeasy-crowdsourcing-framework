@@ -129364,6 +129364,51 @@
       ]
     },
     {
+      "question_id": "walk_days",
+      "version": "1.2.1",
+      "path": "history/walk_days/1.2.1.json",
+      "sha256": "bb95a14e2d97a9181bc3a61bee8731e189482263f01de10f899b1364b917d1f7",
+      "sources": [
+        {
+          "repository": "smarturbanity/smarturbanity-configuration",
+          "commit": "1f9663d60f63c6368376b02c3530a344decadd87",
+          "path": "forms/surveys/smarturbanity_walking_habits.json",
+          "pointer": "/questionnaire/sections/0/questions/0",
+          "source_blob_sha1": "4047e779ea33a216535718cfaa1d10ba95f7797c",
+          "canonical_node_sha256": "100903093c85dc8fe6ba6852ee9cb7ecd1437afbc28a830c12d547d66597ef95",
+          "source_questionnaire_id": "smarturbanity_walking_habits",
+          "source_questionnaire_version": "2.0.1",
+          "source_project": "SmartUrbanity",
+          "source_question_id": "walk_days",
+          "source_question_version": "1.1.1",
+          "stage": "review_proposal",
+          "privacy_needs_review": false
+        },
+        {
+          "repository": "smarturbanity/smarturbanity-configuration",
+          "commit": "77b559e3238987a40e5fffe1565412a852b6d1ee",
+          "path": "forms/surveys/smarturbanity_walking_habits.json",
+          "pointer": "/questionnaire/sections/0/questions/0",
+          "source_blob_sha1": "b2fbb40e137418b416cd8c4bf1e213055a8e298f",
+          "canonical_node_sha256": "100903093c85dc8fe6ba6852ee9cb7ecd1437afbc28a830c12d547d66597ef95",
+          "source_questionnaire_id": "smarturbanity_walking_habits",
+          "source_questionnaire_version": "2.1.0",
+          "source_project": "SmartUrbanity",
+          "source_question_id": "walk_days",
+          "source_question_version": "1.1.1",
+          "stage": "review_proposal",
+          "privacy_needs_review": false
+        }
+      ],
+      "derived_from": [
+        {
+          "question_id": "walk_days",
+          "version": "1.1.1",
+          "derivation": "renumber"
+        }
+      ]
+    },
+    {
       "question_id": "walk_dissatisfied",
       "version": "1.0.0",
       "path": "history/walk_dissatisfied/1.0.0.json",
