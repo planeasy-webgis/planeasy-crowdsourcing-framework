@@ -2,17 +2,16 @@
   "question_id": "trip_planned_stops",
   "key": "trip_planned_stops",
   "project": "shared",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_pre_trip",
   "source_questionnaires": [
     "smarturbanity_pre_trip"
   ],
   "schema": {
-    "text": "Do you plan to stop somewhere on the way? (e.g. a shop or a café)",
     "answer_key": "trip_planned_stops",
-    "question_type": "single_option",
     "checks_inline": false,
+    "help": "Count only stops on the way there, not on the way back.",
     "options": [
       {
         "text": "No, I'm going straight there",
@@ -31,64 +30,74 @@
         "value": "not_sure"
       }
     ],
-    "privacy_classification": "heightened_personal"
+    "privacy_classification": "heightened_personal",
+    "question_type": "single_option",
+    "text": "Do you plan to stop somewhere on the way? (e.g. a shop or a café)"
   },
   "translations": {
-    "en": {
-      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Do you plan to stop somewhere on the way? (e.g. a shop or a café)",
-      "#No, I'm going straight there": "No, I'm going straight there",
-      "#Yes, one stop": "Yes, one stop",
-      "#Yes, more than one stop": "Yes, more than one stop",
-      "#I don't know yet": "I don't know yet"
-    },
-    "it": {
-      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Pensi di fare delle soste lungo il tragitto? (ad es. un negozio o un bar)",
-      "#No, I'm going straight there": "No, vado direttamente",
-      "#Yes, one stop": "Sì, una sosta",
-      "#Yes, more than one stop": "Sì, più di una sosta",
-      "#I don't know yet": "Non lo so ancora"
-    },
-    "fr": {
-      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Prévoyez-vous de vous arrêter quelque part en chemin ? (par ex. un magasin ou un café)",
-      "#No, I'm going straight there": "Non, j'y vais directement",
-      "#Yes, one stop": "Oui, un arrêt",
-      "#Yes, more than one stop": "Oui, plusieurs arrêts",
-      "#I don't know yet": "Je ne sais pas encore"
+    "ar": {
+      "#Count only stops on the way there, not on the way back.": "احسب التوقفات في طريق الذهاب فقط، لا في طريق العودة.",
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "هل من المخطط التوقف في مكان ما في الطريق؟ (مثل متجر أو مقهى)",
+      "#I don't know yet": "لا أعرف بعد",
+      "#No, I'm going straight there": "لا، سأذهب مباشرة",
+      "#Yes, more than one stop": "نعم، أكثر من توقف",
+      "#Yes, one stop": "نعم، توقف واحد"
     },
     "de": {
+      "#Count only stops on the way there, not on the way back.": "Zählen Sie nur Stopps auf dem Hinweg, nicht auf dem Rückweg.",
       "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Planen Sie unterwegs einen Zwischenstopp? (z. B. ein Geschäft oder ein Café)",
+      "#I don't know yet": "Weiß ich noch nicht",
       "#No, I'm going straight there": "Nein, direkt zum Ziel",
-      "#Yes, one stop": "Ja, einen Zwischenstopp",
       "#Yes, more than one stop": "Ja, mehrere Zwischenstopps",
-      "#I don't know yet": "Weiß ich noch nicht"
+      "#Yes, one stop": "Ja, einen Zwischenstopp"
     },
-    "tr": {
-      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Yolda bir yerde durmayı planlıyor musunuz? (ör. bir dükkân veya kafe)",
-      "#No, I'm going straight there": "Hayır, doğrudan gideceğim",
-      "#Yes, one stop": "Evet, bir mola",
-      "#Yes, more than one stop": "Evet, birden fazla mola",
-      "#I don't know yet": "Henüz bilmiyorum"
+    "en": {
+      "#Count only stops on the way there, not on the way back.": "Count only stops on the way there, not on the way back.",
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Do you plan to stop somewhere on the way? (e.g. a shop or a café)",
+      "#I don't know yet": "I don't know yet",
+      "#No, I'm going straight there": "No, I'm going straight there",
+      "#Yes, more than one stop": "Yes, more than one stop",
+      "#Yes, one stop": "Yes, one stop"
     },
     "fa": {
+      "#Count only stops on the way there, not on the way back.": "فقط توقف‌های مسیر رفت را حساب کنید، نه برگشت.",
       "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "آیا قصد دارید در مسیر جایی توقف کنید؟ (مثلاً یک مغازه یا کافه)",
+      "#I don't know yet": "هنوز نمی‌دانم",
       "#No, I'm going straight there": "نه، مستقیم می‌روم",
-      "#Yes, one stop": "بله، یک توقف",
       "#Yes, more than one stop": "بله، بیش از یک توقف",
-      "#I don't know yet": "هنوز نمی‌دانم"
+      "#Yes, one stop": "بله، یک توقف"
+    },
+    "fr": {
+      "#Count only stops on the way there, not on the way back.": "Comptez seulement les arrêts à l’aller, pas au retour.",
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Prévoyez-vous de vous arrêter quelque part en chemin ? (par ex. un magasin ou un café)",
+      "#I don't know yet": "Je ne sais pas encore",
+      "#No, I'm going straight there": "Non, j'y vais directement",
+      "#Yes, more than one stop": "Oui, plusieurs arrêts",
+      "#Yes, one stop": "Oui, un arrêt"
     },
     "hu": {
+      "#Count only stops on the way there, not on the way back.": "Csak az odaúton tett megállásokat számolja, a visszautat nem.",
       "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Tervez útközben megállni valahol? (pl. egy boltban vagy kávézóban)",
+      "#I don't know yet": "Még nem tudom",
       "#No, I'm going straight there": "Nem, egyenesen odamegyek",
-      "#Yes, one stop": "Igen, egyszer megállok",
       "#Yes, more than one stop": "Igen, többször megállok",
-      "#I don't know yet": "Még nem tudom"
+      "#Yes, one stop": "Igen, egyszer megállok"
     },
-    "ar": {
-      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "هل من المخطط التوقف في مكان ما في الطريق؟ (مثل متجر أو مقهى)",
-      "#No, I'm going straight there": "لا، سأذهب مباشرة",
-      "#Yes, one stop": "نعم، توقف واحد",
-      "#Yes, more than one stop": "نعم، أكثر من توقف",
-      "#I don't know yet": "لا أعرف بعد"
+    "it": {
+      "#Count only stops on the way there, not on the way back.": "Conta solo le soste all'andata, non al ritorno.",
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Pensi di fare delle soste lungo il tragitto? (ad es. un negozio o un bar)",
+      "#I don't know yet": "Non lo so ancora",
+      "#No, I'm going straight there": "No, vado direttamente",
+      "#Yes, more than one stop": "Sì, più di una sosta",
+      "#Yes, one stop": "Sì, una sosta"
+    },
+    "tr": {
+      "#Count only stops on the way there, not on the way back.": "Yalnızca gidiş yolundaki duraklamaları sayın, dönüşü değil.",
+      "#Do you plan to stop somewhere on the way? (e.g. a shop or a café)": "Yolda bir yerde durmayı planlıyor musunuz? (ör. bir dükkân veya kafe)",
+      "#I don't know yet": "Henüz bilmiyorum",
+      "#No, I'm going straight there": "Hayır, doğrudan gideceğim",
+      "#Yes, more than one stop": "Evet, birden fazla mola",
+      "#Yes, one stop": "Evet, bir mola"
     }
   },
   "origin_project": {

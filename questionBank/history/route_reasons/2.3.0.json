@@ -1,0 +1,239 @@
+{
+  "question_id": "route_reasons",
+  "key": "route_reasons",
+  "project": "shared",
+  "version": "2.3.0",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_post_trip",
+  "source_questionnaires": [
+    "smarturbanity_post_trip"
+  ],
+  "schema": {
+    "add_other": true,
+    "answer_key": "route_reasons",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "It's the quickest or shortest",
+        "value": "fastest"
+      },
+      {
+        "text": "It's safer from traffic",
+        "value": "safer_traffic"
+      },
+      {
+        "text": "It's better lit",
+        "value": "better_lit"
+      },
+      {
+        "text": "There are more people around",
+        "value": "more_people"
+      },
+      {
+        "text": "It's nicer or greener",
+        "value": "pleasant"
+      },
+      {
+        "text": "It has more shade",
+        "value": "shade"
+      },
+      {
+        "text": "It has fewer slopes or stairs",
+        "value": "flatter"
+      },
+      {
+        "text": "It's more accessible (ramps, audible signals, tactile paving)",
+        "value": "accessible"
+      },
+      {
+        "text": "Better pavements or cycle lanes",
+        "value": "better_surface"
+      },
+      {
+        "text": "The cycle lane doesn't break off along the way",
+        "value": "continuous_cycle_lane"
+      },
+      {
+        "text": "To stop somewhere on the way",
+        "value": "stop_on_way"
+      },
+      {
+        "text": "It suits what I carry for work (e.g. a delivery box)",
+        "value": "work_load"
+      },
+      {
+        "text": "My usual route was closed or diverted (e.g. roadworks)",
+        "value": "detour"
+      },
+      {
+        "text": "It is the only possible route, or the fixed line of my bus or tram",
+        "value": "only_route"
+      },
+      {
+        "text": "A navigation app suggested it",
+        "value": "app"
+      },
+      {
+        "text": "Out of habit",
+        "value": "habit"
+      }
+    ],
+    "privacy_classification": "heightened_personal",
+    "question_type": "multiple_options",
+    "text": "Why did you choose this route?"
+  },
+  "translations": {
+    "ar": {
+      "#A navigation app suggested it": "اقترحه تطبيق ملاحة",
+      "#Better pavements or cycle lanes": "أرصفة أو مسارات دراجات أفضل",
+      "#It has fewer slopes or stairs": "فيه منحدرات أو درج أقل",
+      "#It has more shade": "فيه ظل أكثر",
+      "#It is the only possible route, or the fixed line of my bus or tram": "إنه الطريق الوحيد الممكن، أو الخط الثابت للحافلة أو الترام الذي أستقله",
+      "#It suits what I carry for work (e.g. a delivery box)": "يناسب ما أحمله للعمل (مثل صندوق التوصيل)",
+      "#It's better lit": "إضاءته أفضل",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "إمكانية الوصول فيه أفضل (منحدرات، إشارات صوتية، بلاطات لمسية إرشادية)",
+      "#It's nicer or greener": "إنه أجمل أو أكثر خضرة",
+      "#It's safer from traffic": "إنه أكثر أمانًا من حركة المرور",
+      "#It's the quickest or shortest": "إنه الأسرع أو الأقصر",
+      "#My usual route was closed or diverted (e.g. roadworks)": "كان طريقي المعتاد مغلقًا أو محوّلًا (مثل أشغال الطرق)",
+      "#Out of habit": "بحكم العادة",
+      "#The cycle lane doesn't break off along the way": "مسار الدراجات لا ينقطع على طول الطريق",
+      "#There are more people around": "يوجد ناس أكثر حوله",
+      "#To stop somewhere on the way": "للتوقف في مكان ما في الطريق",
+      "#Why did you choose this route?": "لماذا اخترت هذا المسار؟"
+    },
+    "de": {
+      "#A navigation app suggested it": "Eine Navigations-App hat sie vorgeschlagen",
+      "#Better pavements or cycle lanes": "Bessere Gehwege oder Radwege",
+      "#It has fewer slopes or stairs": "Sie hat weniger Steigungen oder Treppen",
+      "#It has more shade": "Sie hat mehr Schatten",
+      "#It is the only possible route, or the fixed line of my bus or tram": "Es ist der einzig mögliche Weg oder die feste Linie meines Busses oder meiner Straßenbahn",
+      "#It suits what I carry for work (e.g. a delivery box)": "Er passt zu dem, was ich beruflich transportiere (z. B. eine Lieferbox)",
+      "#It's better lit": "Sie ist besser beleuchtet",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "Sie ist besser zugänglich (Rampen, akustische Signale, Blindenleitstreifen)",
+      "#It's nicer or greener": "Sie ist schöner oder grüner",
+      "#It's safer from traffic": "Sie ist sicherer vor dem Verkehr",
+      "#It's the quickest or shortest": "Sie ist die schnellste oder kürzeste",
+      "#My usual route was closed or diverted (e.g. roadworks)": "Mein üblicher Weg war gesperrt oder umgeleitet (z. B. Baustelle)",
+      "#Out of habit": "Aus Gewohnheit",
+      "#The cycle lane doesn't break off along the way": "Der Radweg hört unterwegs nicht auf",
+      "#There are more people around": "Es sind mehr Menschen unterwegs",
+      "#To stop somewhere on the way": "Um unterwegs irgendwo anzuhalten",
+      "#Why did you choose this route?": "Warum haben Sie diese Route gewählt?"
+    },
+    "en": {
+      "#A navigation app suggested it": "A navigation app suggested it",
+      "#Better pavements or cycle lanes": "Better pavements or cycle lanes",
+      "#It has fewer slopes or stairs": "It has fewer slopes or stairs",
+      "#It has more shade": "It has more shade",
+      "#It is the only possible route, or the fixed line of my bus or tram": "It is the only possible route, or the fixed line of my bus or tram",
+      "#It suits what I carry for work (e.g. a delivery box)": "It suits what I carry for work (e.g. a delivery box)",
+      "#It's better lit": "It's better lit",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "It's more accessible (ramps, audible signals, tactile paving)",
+      "#It's nicer or greener": "It's nicer or greener",
+      "#It's safer from traffic": "It's safer from traffic",
+      "#It's the quickest or shortest": "It's the quickest or shortest",
+      "#My usual route was closed or diverted (e.g. roadworks)": "My usual route was closed or diverted (e.g. roadworks)",
+      "#Out of habit": "Out of habit",
+      "#The cycle lane doesn't break off along the way": "The cycle lane doesn't break off along the way",
+      "#There are more people around": "There are more people around",
+      "#To stop somewhere on the way": "To stop somewhere on the way",
+      "#Why did you choose this route?": "Why did you choose this route?"
+    },
+    "fa": {
+      "#A navigation app suggested it": "یک برنامه مسیریاب پیشنهاد داد",
+      "#Better pavements or cycle lanes": "پیاده‌روها یا مسیرهای دوچرخه بهتر",
+      "#It has fewer slopes or stairs": "شیب یا پله کمتری دارد",
+      "#It has more shade": "سایه بیشتری دارد",
+      "#It is the only possible route, or the fixed line of my bus or tram": "تنها مسیر ممکن است، یا مسیر ثابت اتوبوس یا تراموای من",
+      "#It suits what I carry for work (e.g. a delivery box)": "با چیزی که برای کار حمل می‌کنم سازگار است (مثلاً جعبه تحویل سفارش)",
+      "#It's better lit": "روشنایی بهتری دارد",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "دسترسی در آن آسان‌تر است (رمپ، علامت‌های صوتی، نوار برجسته برای نابینایان)",
+      "#It's nicer or greener": "زیباتر یا سرسبزتر است",
+      "#It's safer from traffic": "در برابر ترافیک امن‌تر است",
+      "#It's the quickest or shortest": "سریع‌ترین یا کوتاه‌ترین است",
+      "#My usual route was closed or diverted (e.g. roadworks)": "مسیر همیشگی‌ام بسته بود یا تغییر کرده بود (مثلاً به‌خاطر کارهای عمرانی)",
+      "#Out of habit": "از روی عادت",
+      "#The cycle lane doesn't break off along the way": "مسیر دوچرخه در طول راه قطع نمی‌شود",
+      "#There are more people around": "افراد بیشتری در اطراف هستند",
+      "#To stop somewhere on the way": "برای توقف در جایی در طول مسیر",
+      "#Why did you choose this route?": "چرا این مسیر را انتخاب کردید؟"
+    },
+    "fr": {
+      "#A navigation app suggested it": "Une application de navigation me l'a suggéré",
+      "#Better pavements or cycle lanes": "De meilleurs trottoirs ou pistes cyclables",
+      "#It has fewer slopes or stairs": "Il y a moins de pentes ou d'escaliers",
+      "#It has more shade": "Il y a plus d'ombre",
+      "#It is the only possible route, or the fixed line of my bus or tram": "C’est le seul trajet possible, ou la ligne fixe de mon bus ou tram",
+      "#It suits what I carry for work (e.g. a delivery box)": "Il convient à ce que je transporte pour le travail (par ex. un sac de livraison)",
+      "#It's better lit": "Il est mieux éclairé",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "Il est plus accessible (rampes, signaux sonores, bandes de guidage tactiles)",
+      "#It's nicer or greener": "Il est plus agréable ou plus vert",
+      "#It's safer from traffic": "Il est plus sûr par rapport à la circulation",
+      "#It's the quickest or shortest": "C'est le plus rapide ou le plus court",
+      "#My usual route was closed or diverted (e.g. roadworks)": "Mon trajet habituel était fermé ou dévié (par ex. travaux)",
+      "#Out of habit": "Par habitude",
+      "#The cycle lane doesn't break off along the way": "La piste cyclable ne s’interrompt pas en chemin",
+      "#There are more people around": "Il y a plus de monde",
+      "#To stop somewhere on the way": "Pour m'arrêter quelque part en chemin",
+      "#Why did you choose this route?": "Pourquoi avez-vous choisi cet itinéraire ?"
+    },
+    "hu": {
+      "#A navigation app suggested it": "Egy navigációs alkalmazás javasolta",
+      "#Better pavements or cycle lanes": "Jobb járdák vagy kerékpársávok",
+      "#It has fewer slopes or stairs": "Kevesebb az emelkedő vagy a lépcső",
+      "#It has more shade": "Több az árnyék",
+      "#It is the only possible route, or the fixed line of my bus or tram": "Ez az egyetlen lehetséges útvonal, vagy a buszom, villamosom kötött vonala",
+      "#It suits what I carry for work (e.g. a delivery box)": "Megfelel annak, amit munkához viszek (pl. ételfutár-doboz)",
+      "#It's better lit": "Jobban meg van világítva",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "Akadálymentesebb (rámpák, hangjelzések, tapintható vezetősáv)",
+      "#It's nicer or greener": "Szebb vagy zöldebb",
+      "#It's safer from traffic": "Biztonságosabb a forgalomtól",
+      "#It's the quickest or shortest": "Ez a leggyorsabb vagy a legrövidebb",
+      "#My usual route was closed or diverted (e.g. roadworks)": "A szokásos útvonalam le volt zárva vagy el volt terelve (pl. útépítés)",
+      "#Out of habit": "Megszokásból",
+      "#The cycle lane doesn't break off along the way": "A kerékpárút nem szakad meg útközben",
+      "#There are more people around": "Több ember van a környéken",
+      "#To stop somewhere on the way": "Hogy útközben megálljak valahol",
+      "#Why did you choose this route?": "Miért ezt az útvonalat választotta?"
+    },
+    "it": {
+      "#A navigation app suggested it": "Me l'ha suggerito un'app di navigazione",
+      "#Better pavements or cycle lanes": "Marciapiedi o piste ciclabili migliori",
+      "#It has fewer slopes or stairs": "Ha meno salite o scale",
+      "#It has more shade": "Ha più ombra",
+      "#It is the only possible route, or the fixed line of my bus or tram": "È l'unico percorso possibile, o la linea fissa del mio bus o tram",
+      "#It suits what I carry for work (e.g. a delivery box)": "È adatto a ciò che porto per lavoro (es. un box per le consegne)",
+      "#It's better lit": "È più illuminato",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "È più accessibile (scivoli, segnali acustici, guide tattili)",
+      "#It's nicer or greener": "È più bello o più verde",
+      "#It's safer from traffic": "È più sicuro rispetto al traffico",
+      "#It's the quickest or shortest": "È il più veloce o il più breve",
+      "#My usual route was closed or diverted (e.g. roadworks)": "Il mio solito percorso era chiuso o deviato (ad es. lavori)",
+      "#Out of habit": "Per abitudine",
+      "#The cycle lane doesn't break off along the way": "La pista ciclabile non si interrompe lungo il percorso",
+      "#There are more people around": "Ci sono più persone in giro",
+      "#To stop somewhere on the way": "Per fermarmi da qualche parte lungo la strada",
+      "#Why did you choose this route?": "Perché hai scelto questo percorso?"
+    },
+    "tr": {
+      "#A navigation app suggested it": "Bir navigasyon uygulaması önerdi",
+      "#Better pavements or cycle lanes": "Daha iyi kaldırımlar veya bisiklet yolları",
+      "#It has fewer slopes or stairs": "Daha az eğim veya merdiven var",
+      "#It has more shade": "Daha çok gölge var",
+      "#It is the only possible route, or the fixed line of my bus or tram": "Tek olası yol bu ya da otobüsümün veya tramvayımın sabit hattı",
+      "#It suits what I carry for work (e.g. a delivery box)": "İş için taşıdığım şeylere uygun (örn. teslimat kutusu)",
+      "#It's better lit": "Daha iyi aydınlatılmış",
+      "#It's more accessible (ramps, audible signals, tactile paving)": "Daha erişilebilir (rampalar, sesli sinyaller, görme engelliler için kabartmalı yüzey)",
+      "#It's nicer or greener": "Daha güzel veya daha yeşil",
+      "#It's safer from traffic": "Trafiğe karşı daha güvenli",
+      "#It's the quickest or shortest": "En hızlı veya en kısa olan bu",
+      "#My usual route was closed or diverted (e.g. roadworks)": "Her zamanki yolum kapalıydı veya yönlendirilmişti (ör. yol çalışması)",
+      "#Out of habit": "Alışkanlıktan",
+      "#The cycle lane doesn't break off along the way": "Bisiklet yolu yol boyunca kesilmiyor",
+      "#There are more people around": "Etrafta daha çok insan var",
+      "#To stop somewhere on the way": "Yolda bir yere uğramak için",
+      "#Why did you choose this route?": "Bu güzergâhı neden seçtiniz?"
+    }
+  }
+}

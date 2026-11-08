@@ -2,17 +2,15 @@
   "question_id": "trip_purpose",
   "key": "trip_purpose",
   "project": "shared",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_pre_trip",
   "source_questionnaires": [
     "smarturbanity_pre_trip"
   ],
   "schema": {
-    "text": "What is this trip for? (Think of where you are going)",
-    "answer_key": "trip_purpose",
-    "question_type": "single_option",
     "add_other": true,
+    "answer_key": "trip_purpose",
     "checks_inline": false,
     "options": [
       {
@@ -40,6 +38,10 @@
         "value": "health"
       },
       {
+        "text": "Public office or paperwork (e.g. registry office, post office)",
+        "value": "public_office"
+      },
+      {
         "text": "Leisure or visiting people",
         "value": "leisure"
       },
@@ -48,96 +50,106 @@
         "value": "walk_exercise"
       }
     ],
-    "privacy_classification": "special_category_health"
+    "privacy_classification": "special_category_health",
+    "question_type": "multiple_options",
+    "text": "What is this trip for? (Think of where you are going; you can choose more than one)"
   },
   "translations": {
-    "en": {
-      "#What is this trip for? (Think of where you are going)": "What is this trip for? (Think of where you are going)",
-      "#Home": "Home",
-      "#Work": "Work",
-      "#Study": "Study",
-      "#Shopping or errands": "Shopping or errands",
-      "#Taking or picking someone up": "Taking or picking someone up",
-      "#Doctor or health appointment": "Doctor or health appointment",
-      "#Leisure or visiting people": "Leisure or visiting people",
-      "#A walk or exercise (no destination)": "A walk or exercise (no destination)"
-    },
-    "it": {
-      "#What is this trip for? (Think of where you are going)": "Qual è lo scopo di questo spostamento? (Pensa a dove stai andando)",
-      "#Home": "Casa",
-      "#Work": "Lavoro",
-      "#Study": "Studio",
-      "#Shopping or errands": "Spesa o commissioni",
-      "#Taking or picking someone up": "Accompagnare o andare a prendere una persona",
-      "#Doctor or health appointment": "Visita medica o appuntamento sanitario",
-      "#Leisure or visiting people": "Svago o visite a persone",
-      "#A walk or exercise (no destination)": "Passeggiata o attività fisica (senza una meta)"
-    },
-    "fr": {
-      "#What is this trip for? (Think of where you are going)": "Quel est le but de ce trajet ? (Pensez à l'endroit où vous allez)",
-      "#Home": "Domicile",
-      "#Work": "Travail",
-      "#Study": "Études",
-      "#Shopping or errands": "Courses ou démarches",
-      "#Taking or picking someone up": "Accompagner ou aller chercher une personne",
-      "#Doctor or health appointment": "Rendez-vous médical ou de santé",
-      "#Leisure or visiting people": "Loisirs ou visites à des proches",
-      "#A walk or exercise (no destination)": "Une promenade ou de l'exercice (sans destination)"
+    "ar": {
+      "#A walk or exercise (no destination)": "نزهة أو تمرين (دون وجهة)",
+      "#Doctor or health appointment": "موعد طبي أو صحي",
+      "#Home": "المنزل",
+      "#Leisure or visiting people": "الترفيه أو زيارة الأشخاص",
+      "#Public office or paperwork (e.g. registry office, post office)": "مكتب حكومي أو معاملات إدارية (مثل السجل المدني، مكتب البريد)",
+      "#Shopping or errands": "التسوق أو قضاء الحاجات",
+      "#Study": "الدراسة",
+      "#Taking or picking someone up": "توصيل شخص أو اصطحابه",
+      "#What is this trip for? (Think of where you are going; you can choose more than one)": "ما الغرض من هذه الرحلة؟ (أي المكان المقصود; يمكنك اختيار أكثر من إجابة)",
+      "#Work": "العمل"
     },
     "de": {
-      "#What is this trip for? (Think of where you are going)": "Wozu dient dieser Weg? (Denken Sie an Ihr Ziel)",
-      "#Home": "Zuhause",
-      "#Work": "Arbeit",
-      "#Study": "Ausbildung/Studium",
-      "#Shopping or errands": "Einkaufen oder Besorgungen",
-      "#Taking or picking someone up": "Jemanden bringen oder abholen",
+      "#A walk or exercise (no destination)": "Spaziergang oder Bewegung (ohne Ziel)",
       "#Doctor or health appointment": "Medizinischer oder gesundheitlicher Termin",
+      "#Home": "Zuhause",
       "#Leisure or visiting people": "Freizeit oder Besuche",
-      "#A walk or exercise (no destination)": "Spaziergang oder Bewegung (ohne Ziel)"
+      "#Public office or paperwork (e.g. registry office, post office)": "Behörde oder Amtsgang (z. B. Bürgeramt, Post)",
+      "#Shopping or errands": "Einkaufen oder Besorgungen",
+      "#Study": "Ausbildung/Studium",
+      "#Taking or picking someone up": "Jemanden bringen oder abholen",
+      "#What is this trip for? (Think of where you are going; you can choose more than one)": "Wozu dient dieser Weg? (Denken Sie an Ihr Ziel; Sie können mehrere auswählen)",
+      "#Work": "Arbeit"
     },
-    "tr": {
-      "#What is this trip for? (Think of where you are going)": "Bu yolculuğun amacı nedir? (Nereye gittiğinizi düşünün)",
-      "#Home": "Ev",
-      "#Work": "İş",
-      "#Study": "Eğitim",
-      "#Shopping or errands": "Alışveriş veya günlük işler",
-      "#Taking or picking someone up": "Birini bırakmak veya almak",
-      "#Doctor or health appointment": "Doktor veya sağlık randevusu",
-      "#Leisure or visiting people": "Boş zaman veya ziyaret",
-      "#A walk or exercise (no destination)": "Yürüyüş veya egzersiz (varış noktası olmadan)"
+    "en": {
+      "#A walk or exercise (no destination)": "A walk or exercise (no destination)",
+      "#Doctor or health appointment": "Doctor or health appointment",
+      "#Home": "Home",
+      "#Leisure or visiting people": "Leisure or visiting people",
+      "#Public office or paperwork (e.g. registry office, post office)": "Public office or paperwork (e.g. registry office, post office)",
+      "#Shopping or errands": "Shopping or errands",
+      "#Study": "Study",
+      "#Taking or picking someone up": "Taking or picking someone up",
+      "#What is this trip for? (Think of where you are going; you can choose more than one)": "What is this trip for? (Think of where you are going; you can choose more than one)",
+      "#Work": "Work"
     },
     "fa": {
-      "#What is this trip for? (Think of where you are going)": "هدف این سفر چیست؟ (به مقصدتان فکر کنید)",
-      "#Home": "خانه",
-      "#Work": "کار",
-      "#Study": "تحصیل",
-      "#Shopping or errands": "خرید یا کارهای روزمره",
-      "#Taking or picking someone up": "رساندن یا آوردن کسی",
+      "#A walk or exercise (no destination)": "پیاده‌روی یا ورزش (بدون مقصد)",
       "#Doctor or health appointment": "نوبت پزشک یا درمانی",
+      "#Home": "خانه",
       "#Leisure or visiting people": "تفریح یا دیدار با دیگران",
-      "#A walk or exercise (no destination)": "پیاده‌روی یا ورزش (بدون مقصد)"
+      "#Public office or paperwork (e.g. registry office, post office)": "اداره دولتی یا کارهای اداری (مثلاً ثبت احوال، اداره پست)",
+      "#Shopping or errands": "خرید یا کارهای روزمره",
+      "#Study": "تحصیل",
+      "#Taking or picking someone up": "رساندن یا آوردن کسی",
+      "#What is this trip for? (Think of where you are going; you can choose more than one)": "هدف این سفر چیست؟ (به مقصدتان فکر کنید; می‌توانید بیش از یکی را انتخاب کنید)",
+      "#Work": "کار"
+    },
+    "fr": {
+      "#A walk or exercise (no destination)": "Une promenade ou de l'exercice (sans destination)",
+      "#Doctor or health appointment": "Rendez-vous médical ou de santé",
+      "#Home": "Domicile",
+      "#Leisure or visiting people": "Loisirs ou visites à des proches",
+      "#Public office or paperwork (e.g. registry office, post office)": "Administration ou démarches (par ex. mairie, poste)",
+      "#Shopping or errands": "Courses ou démarches",
+      "#Study": "Études",
+      "#Taking or picking someone up": "Accompagner ou aller chercher une personne",
+      "#What is this trip for? (Think of where you are going; you can choose more than one)": "Quel est le but de ce trajet ? (Pensez à l'endroit où vous allez; vous pouvez en choisir plusieurs)",
+      "#Work": "Travail"
     },
     "hu": {
-      "#What is this trip for? (Think of where you are going)": "Mi a célja ennek az útnak? (Gondoljon arra, hová megy)",
-      "#Home": "Otthon",
-      "#Work": "Munka",
-      "#Study": "Tanulás",
-      "#Shopping or errands": "Vásárlás vagy ügyintézés",
-      "#Taking or picking someone up": "Valakit elkísérni vagy érte menni",
+      "#A walk or exercise (no destination)": "Séta vagy testmozgás (úti cél nélkül)",
       "#Doctor or health appointment": "Orvosi vagy egészségügyi időpont",
+      "#Home": "Otthon",
       "#Leisure or visiting people": "Szabadidő vagy látogatás",
-      "#A walk or exercise (no destination)": "Séta vagy testmozgás (úti cél nélkül)"
+      "#Public office or paperwork (e.g. registry office, post office)": "Hivatali ügyintézés (pl. okmányiroda, posta)",
+      "#Shopping or errands": "Vásárlás vagy ügyintézés",
+      "#Study": "Tanulás",
+      "#Taking or picking someone up": "Valakit elkísérni vagy érte menni",
+      "#What is this trip for? (Think of where you are going; you can choose more than one)": "Mi a célja ennek az útnak? (Gondoljon arra, hová megy; több is választható)",
+      "#Work": "Munka"
     },
-    "ar": {
-      "#What is this trip for? (Think of where you are going)": "ما الغرض من هذه الرحلة؟ (أي المكان المقصود)",
-      "#Home": "المنزل",
-      "#Work": "العمل",
-      "#Study": "الدراسة",
-      "#Shopping or errands": "التسوق أو قضاء الحاجات",
-      "#Taking or picking someone up": "توصيل شخص أو اصطحابه",
-      "#Doctor or health appointment": "موعد طبي أو صحي",
-      "#Leisure or visiting people": "الترفيه أو زيارة الأشخاص",
-      "#A walk or exercise (no destination)": "نزهة أو تمرين (دون وجهة)"
+    "it": {
+      "#A walk or exercise (no destination)": "Passeggiata o attività fisica (senza una meta)",
+      "#Doctor or health appointment": "Visita medica o appuntamento sanitario",
+      "#Home": "Casa",
+      "#Leisure or visiting people": "Svago o visite a persone",
+      "#Public office or paperwork (e.g. registry office, post office)": "Uffici pubblici o pratiche (ad es. anagrafe, posta)",
+      "#Shopping or errands": "Spesa o commissioni",
+      "#Study": "Studio",
+      "#Taking or picking someone up": "Accompagnare o andare a prendere una persona",
+      "#What is this trip for? (Think of where you are going; you can choose more than one)": "Qual è lo scopo di questo spostamento? (Pensa a dove stai andando; puoi sceglierne più di uno)",
+      "#Work": "Lavoro"
+    },
+    "tr": {
+      "#A walk or exercise (no destination)": "Yürüyüş veya egzersiz (varış noktası olmadan)",
+      "#Doctor or health appointment": "Doktor veya sağlık randevusu",
+      "#Home": "Ev",
+      "#Leisure or visiting people": "Boş zaman veya ziyaret",
+      "#Public office or paperwork (e.g. registry office, post office)": "Resmî daire veya işlemler (örn. nüfus müdürlüğü, postane)",
+      "#Shopping or errands": "Alışveriş veya günlük işler",
+      "#Study": "Eğitim",
+      "#Taking or picking someone up": "Birini bırakmak veya almak",
+      "#What is this trip for? (Think of where you are going; you can choose more than one)": "Bu yolculuğun amacı nedir? (Nereye gittiğinizi düşünün; birden fazla seçebilirsiniz)",
+      "#Work": "İş"
     }
   },
   "origin_project": {
