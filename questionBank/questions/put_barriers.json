@@ -2,7 +2,7 @@
   "question_id": "put_barriers",
   "key": "put_barriers",
   "project": "shared",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
@@ -38,6 +38,14 @@
         "value": "too_crowded_to_board_with_stroller_or_wheelchair"
       },
       {
+        "text": "The ramp does not work or the wheelchair space is taken",
+        "value": "broken_ramp_or_space_taken"
+      },
+      {
+        "text": "Vehicles so full that I have to wait for the next one",
+        "value": "vehicle_full"
+      },
+      {
         "text": "No sidewalk or walkway to reach the stop",
         "value": "no_walkway_to_reach_the_stop"
       },
@@ -70,6 +78,8 @@
       "#Nothing in particular": "لا شيء بعينه",
       "#Stairs or steps": "سلالم أو درجات",
       "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "لا يمكن استخدام المحطة أو المركبة بكرسي متحرك أو مشّاية أو عربة أطفال",
+      "#The ramp does not work or the wheelchair space is taken": "المنحدر لا يعمل أو مكان الكرسي المتحرك مشغول",
+      "#Vehicles so full that I have to wait for the next one": "المركبات ممتلئة لدرجة أنني أضطر لانتظار التالية",
       "#Vehicles too crowded to get on with a stroller or wheelchair": "المركبات مزدحمة جدًا للصعود بعربة أطفال أو كرسي متحرك",
       "#What problems do you meet at stops or when getting on and off?": "ما المشكلات التي تواجهها في المحطات أو عند الصعود والنزول؟"
     },
@@ -83,6 +93,8 @@
       "#Nothing in particular": "Nichts Besonderes",
       "#Stairs or steps": "Treppen oder Stufen",
       "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Haltestelle oder Fahrzeug mit Rollstuhl, Rollator oder Kinderwagen nicht nutzbar",
+      "#The ramp does not work or the wheelchair space is taken": "Die Rampe funktioniert nicht oder der Rollstuhlplatz ist belegt",
+      "#Vehicles so full that I have to wait for the next one": "Fahrzeuge so voll, dass ich auf das nächste warten muss",
       "#Vehicles too crowded to get on with a stroller or wheelchair": "Fahrzeuge zu voll, um mit Kinderwagen oder Rollstuhl einzusteigen",
       "#What problems do you meet at stops or when getting on and off?": "Welche Probleme begegnen Ihnen an Haltestellen oder beim Ein- und Aussteigen?"
     },
@@ -96,6 +108,8 @@
       "#Nothing in particular": "Nothing in particular",
       "#Stairs or steps": "Stairs or steps",
       "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Stop or vehicle cannot be used with a wheelchair, walker or stroller",
+      "#The ramp does not work or the wheelchair space is taken": "The ramp does not work or the wheelchair space is taken",
+      "#Vehicles so full that I have to wait for the next one": "Vehicles so full that I have to wait for the next one",
       "#Vehicles too crowded to get on with a stroller or wheelchair": "Vehicles too crowded to get on with a stroller or wheelchair",
       "#What problems do you meet at stops or when getting on and off?": "What problems do you meet at stops or when getting on and off?"
     },
@@ -109,6 +123,8 @@
       "#Nothing in particular": "هیچ مورد خاصی",
       "#Stairs or steps": "پله یا پلکان",
       "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "ایستگاه یا وسیلهٔ نقلیه با ویلچر، واکر یا کالسکهٔ کودک قابل استفاده نیست",
+      "#The ramp does not work or the wheelchair space is taken": "رمپ کار نمی‌کند یا جای ویلچر اشغال است",
+      "#Vehicles so full that I have to wait for the next one": "وسایل نقلیه آن‌قدر پر هستند که باید منتظر بعدی بمانم",
       "#Vehicles too crowded to get on with a stroller or wheelchair": "وسایل نقلیه برای سوار شدن با کالسکهٔ کودک یا ویلچر بیش از حد شلوغ هستند",
       "#What problems do you meet at stops or when getting on and off?": "در ایستگاه‌ها یا هنگام سوار و پیاده شدن با چه مشکلاتی روبه‌رو می‌شوید؟"
     },
@@ -122,6 +138,8 @@
       "#Nothing in particular": "Rien en particulier",
       "#Stairs or steps": "Escaliers ou marches",
       "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Arrêt ou véhicule inutilisable en fauteuil roulant, avec un déambulateur ou une poussette",
+      "#The ramp does not work or the wheelchair space is taken": "La rampe ne fonctionne pas ou la place pour fauteuil roulant est occupée",
+      "#Vehicles so full that I have to wait for the next one": "Véhicules si pleins que je dois attendre le suivant",
       "#Vehicles too crowded to get on with a stroller or wheelchair": "Véhicules trop bondés pour monter avec une poussette ou un fauteuil roulant",
       "#What problems do you meet at stops or when getting on and off?": "Quels problèmes rencontrez-vous aux arrêts ou en montant et en descendant ?"
     },
@@ -135,6 +153,8 @@
       "#Nothing in particular": "Semmi különös",
       "#Stairs or steps": "Lépcsők vagy lépcsőfokok",
       "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "A megálló vagy a jármű nem használható kerekesszékkel, járókerettel vagy babakocsival",
+      "#The ramp does not work or the wheelchair space is taken": "A rámpa nem működik, vagy a kerekesszékes hely foglalt",
+      "#Vehicles so full that I have to wait for the next one": "A járművek annyira tele vannak, hogy meg kell várnom a következőt",
       "#Vehicles too crowded to get on with a stroller or wheelchair": "A járművek túl zsúfoltak ahhoz, hogy babakocsival vagy kerekesszékkel felszálljak",
       "#What problems do you meet at stops or when getting on and off?": "Milyen problémákkal találkozik a megállókban, illetve fel- és leszálláskor?"
     },
@@ -148,6 +168,8 @@
       "#Nothing in particular": "Niente in particolare",
       "#Stairs or steps": "Scale o gradini",
       "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Fermata o mezzo non utilizzabili con sedia a rotelle, deambulatore o passeggino",
+      "#The ramp does not work or the wheelchair space is taken": "La pedana non funziona o il posto per la sedia a rotelle è occupato",
+      "#Vehicles so full that I have to wait for the next one": "Mezzi così pieni che devo aspettare il successivo",
       "#Vehicles too crowded to get on with a stroller or wheelchair": "Mezzi troppo pieni per salire con passeggino o sedia a rotelle",
       "#What problems do you meet at stops or when getting on and off?": "Quali problemi incontri alle fermate o quando sali e scendi?"
     },
@@ -161,6 +183,8 @@
       "#Nothing in particular": "Özellikle hiçbir şey",
       "#Stairs or steps": "Merdivenler veya basamaklar",
       "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Durak veya araç tekerlekli sandalye, yürüteç ya da bebek arabasıyla kullanılamıyor",
+      "#The ramp does not work or the wheelchair space is taken": "Rampa çalışmıyor veya tekerlekli sandalye yeri dolu",
+      "#Vehicles so full that I have to wait for the next one": "Araçlar o kadar dolu ki bir sonrakini beklemem gerekiyor",
       "#Vehicles too crowded to get on with a stroller or wheelchair": "Araçlar bebek arabası veya tekerlekli sandalyeyle binilemeyecek kadar kalabalık",
       "#What problems do you meet at stops or when getting on and off?": "Duraklarda veya araca binip inerken hangi sorunlarla karşılaşıyorsunuz?"
     }
