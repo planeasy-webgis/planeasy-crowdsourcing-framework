@@ -3297,7 +3297,7 @@
       "question_id": "bike_hazard_confidence",
       "key": "bike_hazard_confidence",
       "project": "shared",
-      "version": "1.1.2",
+      "version": "3.0.0",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_cycling",
       "source_questionnaires": [
@@ -3308,102 +3308,102 @@
         "help": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
         "options": [
           {
-            "text": "Not at all: I feel unprepared",
-            "value": "not_confident_at_all_i_feel_unprepared_f"
+            "text": "Not quick at all: I often cannot react in time",
+            "value": "not_quick"
           },
           {
-            "text": "A little: I know the risks, but they often catch me out",
-            "value": "slightly_confident_i_am_aware_of_the_ris"
+            "text": "A little quick: sometimes I react late",
+            "value": "slightly_quick"
           },
           {
-            "text": "Fairly: I manage most, but some still worry me",
-            "value": "moderately_confident_i_manage_most_situa"
+            "text": "Fairly quick: I usually react in time",
+            "value": "fairly_quick"
           },
           {
-            "text": "Quite: I see most dangers coming and react well",
-            "value": "quite_confident_i_anticipate_most_hazard"
+            "text": "Very quick: I almost always react in time",
+            "value": "very_quick"
           },
           {
-            "text": "Very: I feel ready for the usual dangers",
-            "value": "very_confident_i_feel_well_prepared_for"
+            "text": "Extremely quick: I always react in time",
+            "value": "extremely_quick"
           }
         ],
         "privacy_classification": "personal_data",
         "question_type": "single_option",
-        "text": "How confident are you that you can react in time to danger on the bike?"
+        "text": "When you cycle, how quick are your reflexes if something happens suddenly?"
       },
       "translations": {
         "ar": {
-          "#A little: I know the risks, but they often catch me out": "قليلًا: أعرف المخاطر، لكنها تفاجئني كثيرًا",
-          "#Fairly: I manage most, but some still worry me": "إلى حد ما: أتعامل مع معظمها، لكن بعضها ما زال يقلقني",
+          "#A little quick: sometimes I react late": "سريعة قليلًا: أحيانًا أتصرف متأخرًا",
+          "#Extremely quick: I always react in time": "سريعة للغاية: أتصرف دائمًا في الوقت المناسب",
+          "#Fairly quick: I usually react in time": "سريعة إلى حد ما: عادةً أتصرف في الوقت المناسب",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثل فتح باب سيارة فجأة، أو مركبة تقطع طريقك، أو تقاطع لا ترى فيه ما هو قادم.",
-          "#How confident are you that you can react in time to danger on the bike?": "ما مدى ثقتك بأنك تستطيع التصرف في الوقت المناسب أمام الخطر أثناء ركوب الدراجة؟",
-          "#Not at all: I feel unprepared": "على الإطلاق: أشعر بعدم الاستعداد",
-          "#Quite: I see most dangers coming and react well": "بدرجة جيدة: أرى معظم المخاطر قبل وقوعها وأتصرف جيدًا",
-          "#Very: I feel ready for the usual dangers": "كثيرًا: أشعر بالاستعداد للمخاطر المعتادة"
+          "#Not quick at all: I often cannot react in time": "ليست سريعة على الإطلاق: غالبًا لا أستطيع التصرف في الوقت المناسب",
+          "#Very quick: I almost always react in time": "سريعة جدًا: أتصرف في الوقت المناسب دائمًا تقريبًا",
+          "#When you cycle, how quick are your reflexes if something happens suddenly?": "عند ركوب الدراجة، ما مدى سرعة ردود فعلك إذا حدث شيء فجأة؟"
         },
         "de": {
-          "#A little: I know the risks, but they often catch me out": "Wenig: Ich kenne die Gefahren, aber sie überraschen mich oft",
-          "#Fairly: I manage most, but some still worry me": "Einigermaßen: Ich komme mit den meisten zurecht, aber manche machen mir noch Sorgen",
+          "#A little quick: sometimes I react late": "Wenig schnell: Manchmal reagiere ich zu spät",
+          "#Extremely quick: I always react in time": "Äußerst schnell: Ich reagiere immer rechtzeitig",
+          "#Fairly quick: I usually react in time": "Einigermaßen schnell: Meistens reagiere ich rechtzeitig",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Zum Beispiel eine plötzlich aufgehende Autotür, ein Fahrzeug, das Ihnen den Weg abschneidet, oder eine Kreuzung, an der Sie nicht sehen, was kommt.",
-          "#How confident are you that you can react in time to danger on the bike?": "Wie sicher sind Sie, dass Sie auf dem Rad rechtzeitig auf Gefahren reagieren können?",
-          "#Not at all: I feel unprepared": "Gar nicht: Ich fühle mich unvorbereitet",
-          "#Quite: I see most dangers coming and react well": "Gut: Ich sehe die meisten Gefahren kommen und reagiere gut",
-          "#Very: I feel ready for the usual dangers": "Sehr gut: Ich fühle mich auf die üblichen Gefahren vorbereitet"
+          "#Not quick at all: I often cannot react in time": "Gar nicht schnell: Oft kann ich nicht rechtzeitig reagieren",
+          "#Very quick: I almost always react in time": "Sehr schnell: Ich reagiere fast immer rechtzeitig",
+          "#When you cycle, how quick are your reflexes if something happens suddenly?": "Wie schnell sind Ihre Reflexe auf dem Rad, wenn plötzlich etwas passiert?"
         },
         "en": {
-          "#A little: I know the risks, but they often catch me out": "A little: I know the risks, but they often catch me out",
-          "#Fairly: I manage most, but some still worry me": "Fairly: I manage most, but some still worry me",
+          "#A little quick: sometimes I react late": "A little quick: sometimes I react late",
+          "#Extremely quick: I always react in time": "Extremely quick: I always react in time",
+          "#Fairly quick: I usually react in time": "Fairly quick: I usually react in time",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
-          "#How confident are you that you can react in time to danger on the bike?": "How confident are you that you can react in time to danger on the bike?",
-          "#Not at all: I feel unprepared": "Not at all: I feel unprepared",
-          "#Quite: I see most dangers coming and react well": "Quite: I see most dangers coming and react well",
-          "#Very: I feel ready for the usual dangers": "Very: I feel ready for the usual dangers"
+          "#Not quick at all: I often cannot react in time": "Not quick at all: I often cannot react in time",
+          "#Very quick: I almost always react in time": "Very quick: I almost always react in time",
+          "#When you cycle, how quick are your reflexes if something happens suddenly?": "When you cycle, how quick are your reflexes if something happens suddenly?"
         },
         "fa": {
-          "#A little: I know the risks, but they often catch me out": "کمی: خطرها را می‌شناسم، اما اغلب غافلگیرم می‌کنند",
-          "#Fairly: I manage most, but some still worry me": "نسبتاً: بیشتر آن‌ها را مدیریت می‌کنم، اما بعضی هنوز نگرانم می‌کنند",
+          "#A little quick: sometimes I react late": "کمی سریع: گاهی دیر واکنش نشان می‌دهم",
+          "#Extremely quick: I always react in time": "فوق‌العاده سریع: همیشه به‌موقع واکنش نشان می‌دهم",
+          "#Fairly quick: I usually react in time": "نسبتاً سریع: معمولاً به‌موقع واکنش نشان می‌دهم",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثلاً باز شدن ناگهانی در خودرو، عبور ناگهانی وسیله‌ای از جلوی شما، یا تقاطعی که نمی‌توانید ببینید چه چیزی می‌آید.",
-          "#How confident are you that you can react in time to danger on the bike?": "چقدر مطمئن هستید که روی دوچرخه می‌توانید به‌موقع در برابر خطر واکنش نشان دهید؟",
-          "#Not at all: I feel unprepared": "اصلاً: احساس می‌کنم آماده نیستم",
-          "#Quite: I see most dangers coming and react well": "تا حد زیادی: بیشتر خطرها را پیش‌بینی می‌کنم و خوب واکنش نشان می‌دهم",
-          "#Very: I feel ready for the usual dangers": "بسیار: برای خطرهای معمول احساس آمادگی می‌کنم"
+          "#Not quick at all: I often cannot react in time": "اصلاً سریع نیست: اغلب نمی‌توانم به‌موقع واکنش نشان دهم",
+          "#Very quick: I almost always react in time": "خیلی سریع: تقریباً همیشه به‌موقع واکنش نشان می‌دهم",
+          "#When you cycle, how quick are your reflexes if something happens suddenly?": "هنگام دوچرخه‌سواری، اگر ناگهان اتفاقی بیفتد، واکنش‌های شما چقدر سریع است؟"
         },
         "fr": {
-          "#A little: I know the risks, but they often catch me out": "Un peu : je connais les risques, mais ils me surprennent souvent",
-          "#Fairly: I manage most, but some still worry me": "Assez : je gère la plupart, mais certains m'inquiètent encore",
+          "#A little quick: sometimes I react late": "Peu rapides : parfois je réagis trop tard",
+          "#Extremely quick: I always react in time": "Extrêmement rapides : je réagis toujours à temps",
+          "#Fairly quick: I usually react in time": "Assez rapides : en général je réagis à temps",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Par exemple une portière de voiture qui s'ouvre brusquement, un véhicule qui vous coupe la route ou un carrefour où vous ne voyez pas ce qui arrive.",
-          "#How confident are you that you can react in time to danger on the bike?": "Dans quelle mesure êtes-vous sûr de pouvoir réagir à temps à un danger à vélo ?",
-          "#Not at all: I feel unprepared": "Pas du tout : je me sens mal préparé",
-          "#Quite: I see most dangers coming and react well": "Bien : je vois venir la plupart des dangers et je réagis bien",
-          "#Very: I feel ready for the usual dangers": "Très bien : je me sens prêt face aux dangers habituels"
+          "#Not quick at all: I often cannot react in time": "Pas du tout rapides : souvent, je n’arrive pas à réagir à temps",
+          "#Very quick: I almost always react in time": "Très rapides : je réagis presque toujours à temps",
+          "#When you cycle, how quick are your reflexes if something happens suddenly?": "Lorsque vous faites du vélo, à quel point vos réflexes sont-ils rapides si quelque chose arrive soudainement ?"
         },
         "hu": {
-          "#A little: I know the risks, but they often catch me out": "Egy kicsit: ismerem a veszélyeket, de gyakran váratlanul érnek",
-          "#Fairly: I manage most, but some still worry me": "Eléggé: a legtöbbet kezelem, de néhány még aggaszt",
+          "#A little quick: sometimes I react late": "Kevéssé gyorsak: néha későn reagálok",
+          "#Extremely quick: I always react in time": "Rendkívül gyorsak: mindig időben reagálok",
+          "#Fairly quick: I usually react in time": "Eléggé gyorsak: általában időben reagálok",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Például hirtelen kinyíló autóajtó, Ön elé bevágó jármű, vagy olyan kereszteződés, ahol nem látja, mi jön.",
-          "#How confident are you that you can react in time to danger on the bike?": "Mennyire biztos benne, hogy a biciklin időben tud reagálni a veszélyre?",
-          "#Not at all: I feel unprepared": "Egyáltalán nem: felkészületlennek érzem magam",
-          "#Quite: I see most dangers coming and react well": "Meglehetősen: a legtöbb veszélyt előre látom, és jól reagálok",
-          "#Very: I feel ready for the usual dangers": "Nagyon: felkészültnek érzem magam a szokásos veszélyekre"
+          "#Not quick at all: I often cannot react in time": "Egyáltalán nem gyorsak: gyakran nem tudok időben reagálni",
+          "#Very quick: I almost always react in time": "Nagyon gyorsak: szinte mindig időben reagálok",
+          "#When you cycle, how quick are your reflexes if something happens suddenly?": "Kerékpározás közben milyen gyorsak a reflexei, ha hirtelen történik valami?"
         },
         "it": {
-          "#A little: I know the risks, but they often catch me out": "Poco: conosco i rischi, ma spesso mi colgono di sorpresa",
-          "#Fairly: I manage most, but some still worry me": "Abbastanza: me la cavo quasi sempre, ma alcuni pericoli mi preoccupano ancora",
+          "#A little quick: sometimes I react late": "Poco pronti: a volte reagisco tardi",
+          "#Extremely quick: I always react in time": "Prontissimi: reagisco sempre in tempo",
+          "#Fairly quick: I usually react in time": "Abbastanza pronti: di solito reagisco in tempo",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Per esempio una portiera d'auto che si apre all'improvviso, un veicolo che ti taglia la strada o un incrocio dove non vedi cosa arriva.",
-          "#How confident are you that you can react in time to danger on the bike?": "Quanto sei sicuro di riuscire a reagire in tempo a un pericolo in bici?",
-          "#Not at all: I feel unprepared": "Per niente: mi manca la preparazione",
-          "#Quite: I see most dangers coming and react well": "Molto: vedo arrivare quasi tutti i pericoli e reagisco bene",
-          "#Very: I feel ready for the usual dangers": "Moltissimo: so affrontare i pericoli più comuni"
+          "#Not quick at all: I often cannot react in time": "Per niente pronti: spesso non riesco a reagire in tempo",
+          "#Very quick: I almost always react in time": "Molto pronti: reagisco quasi sempre in tempo",
+          "#When you cycle, how quick are your reflexes if something happens suddenly?": "Quando vai in bici, quanto sono pronti i tuoi riflessi se succede qualcosa all’improvviso?"
         },
         "tr": {
-          "#A little: I know the risks, but they often catch me out": "Biraz: Riskleri bilirim ama çoğu zaman beni hazırlıksız yakalar",
-          "#Fairly: I manage most, but some still worry me": "Oldukça: Çoğunu idare ederim ama bazıları hâlâ beni endişelendirir",
+          "#A little quick: sometimes I react late": "Biraz hızlı: Bazen geç tepki veririm",
+          "#Extremely quick: I always react in time": "Son derece hızlı: Her zaman zamanında tepki veririm",
+          "#Fairly quick: I usually react in time": "Oldukça hızlı: Genellikle zamanında tepki veririm",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Örneğin aniden açılan bir araba kapısı, önünüzden kesen bir araç veya ne geldiğini göremediğiniz bir kavşak.",
-          "#How confident are you that you can react in time to danger on the bike?": "Bisikletteyken bir tehlikeye zamanında tepki verebileceğinizden ne kadar eminsiniz?",
-          "#Not at all: I feel unprepared": "Hiç değil: Kendimi hazırlıksız hissederim",
-          "#Quite: I see most dangers coming and react well": "İyi: Tehlikelerin çoğunu önceden görür ve iyi tepki veririm",
-          "#Very: I feel ready for the usual dangers": "Çok iyi: Olağan tehlikelere karşı kendimi hazır hissederim"
+          "#Not quick at all: I often cannot react in time": "Hiç hızlı değil: Çoğu zaman zamanında tepki veremem",
+          "#Very quick: I almost always react in time": "Çok hızlı: Neredeyse her zaman zamanında tepki veririm",
+          "#When you cycle, how quick are your reflexes if something happens suddenly?": "Bisiklet sürerken aniden bir şey olursa refleksleriniz ne kadar hızlıdır?"
         }
       },
       "origin_project": {
@@ -42986,7 +42986,7 @@
       "question_id": "car_time_vs_expected",
       "key": "car_time_vs_expected",
       "project": "shared",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_car_experience",
       "source_questionnaires": [
@@ -42996,94 +42996,94 @@
         "answer_key": "car_time_vs_expected",
         "options": [
           {
-            "text": "Much shorter than expected",
-            "value": "much_shorter"
+            "text": "Never",
+            "value": "never"
           },
           {
-            "text": "A little shorter than expected",
-            "value": "shorter"
+            "text": "Rarely",
+            "value": "rarely"
           },
           {
-            "text": "As expected",
-            "value": "as_expected"
+            "text": "Sometimes",
+            "value": "sometimes"
           },
           {
-            "text": "A little longer than expected",
-            "value": "longer"
+            "text": "Often",
+            "value": "often"
           },
           {
-            "text": "Much longer than expected",
-            "value": "much_longer"
+            "text": "Always",
+            "value": "always"
           }
         ],
         "privacy_classification": "heightened_personal",
         "question_type": "single_option",
-        "text": "When you travel by car, do your trips take as long as you expect?"
+        "text": "When you travel by car, how often do you arrive in the time you planned?"
       },
       "translations": {
         "ar": {
-          "#A little longer than expected": "أطول قليلًا من المتوقع",
-          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
-          "#As expected": "كما هو متوقع",
-          "#Much longer than expected": "أطول بكثير من المتوقع",
-          "#Much shorter than expected": "أقصر بكثير من المتوقع",
-          "#When you travel by car, do your trips take as long as you expect?": "عند التنقل بالسيارة، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+          "#Always": "دائمًا",
+          "#Never": "أبدًا",
+          "#Often": "غالبًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#When you travel by car, how often do you arrive in the time you planned?": "عند التنقل بالسيارة، كم مرة تصل في الوقت الذي خططت له؟"
         },
         "de": {
-          "#A little longer than expected": "Etwas länger als erwartet",
-          "#A little shorter than expected": "Etwas kürzer als erwartet",
-          "#As expected": "Wie erwartet",
-          "#Much longer than expected": "Viel länger als erwartet",
-          "#Much shorter than expected": "Viel kürzer als erwartet",
-          "#When you travel by car, do your trips take as long as you expect?": "Dauern Ihre Wege mit dem Auto so lange wie erwartet?"
+          "#Always": "Immer",
+          "#Never": "Nie",
+          "#Often": "Oft",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#When you travel by car, how often do you arrive in the time you planned?": "Wie oft kommen Sie mit dem Auto in der Zeit an, die Sie eingeplant haben?"
         },
         "en": {
-          "#A little longer than expected": "A little longer than expected",
-          "#A little shorter than expected": "A little shorter than expected",
-          "#As expected": "As expected",
-          "#Much longer than expected": "Much longer than expected",
-          "#Much shorter than expected": "Much shorter than expected",
-          "#When you travel by car, do your trips take as long as you expect?": "When you travel by car, do your trips take as long as you expect?"
+          "#Always": "Always",
+          "#Never": "Never",
+          "#Often": "Often",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#When you travel by car, how often do you arrive in the time you planned?": "When you travel by car, how often do you arrive in the time you planned?"
         },
         "fa": {
-          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
-          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
-          "#As expected": "مطابق انتظار",
-          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
-          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
-          "#When you travel by car, do your trips take as long as you expect?": "هنگام سفر با خودرو، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+          "#Always": "همیشه",
+          "#Never": "هرگز",
+          "#Often": "اغلب",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#When you travel by car, how often do you arrive in the time you planned?": "هنگام سفر با خودرو، چقدر پیش می‌آید که در زمانی که برنامه‌ریزی کرده‌اید به مقصد برسید؟"
         },
         "fr": {
-          "#A little longer than expected": "Un peu plus long que prévu",
-          "#A little shorter than expected": "Un peu plus court que prévu",
-          "#As expected": "Comme prévu",
-          "#Much longer than expected": "Beaucoup plus long que prévu",
-          "#Much shorter than expected": "Beaucoup plus court que prévu",
-          "#When you travel by car, do your trips take as long as you expect?": "Lorsque vous vous déplacez en voiture, vos trajets durent-ils aussi longtemps que prévu ?"
+          "#Always": "Toujours",
+          "#Never": "Jamais",
+          "#Often": "Souvent",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#When you travel by car, how often do you arrive in the time you planned?": "Lorsque vous vous déplacez en voiture, à quelle fréquence arrivez-vous dans le temps que vous aviez prévu ?"
         },
         "hu": {
-          "#A little longer than expected": "Kicsit hosszabb a vártnál",
-          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
-          "#As expected": "A vártnak megfelelően",
-          "#Much longer than expected": "Sokkal hosszabb a vártnál",
-          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
-          "#When you travel by car, do your trips take as long as you expect?": "Autós utazás közben az útjai annyi ideig tartanak, ahogy várja?"
+          "#Always": "Mindig",
+          "#Never": "Soha",
+          "#Often": "Gyakran",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#When you travel by car, how often do you arrive in the time you planned?": "Autós utazás közben milyen gyakran ér célba a tervezett idő alatt?"
         },
         "it": {
-          "#A little longer than expected": "Un po' più lungo del previsto",
-          "#A little shorter than expected": "Un po' più breve del previsto",
-          "#As expected": "Come previsto",
-          "#Much longer than expected": "Molto più lungo del previsto",
-          "#Much shorter than expected": "Molto più breve del previsto",
-          "#When you travel by car, do your trips take as long as you expect?": "Quando viaggi in auto, i tuoi spostamenti durano quanto ti aspetti?"
+          "#Always": "Sempre",
+          "#Never": "Mai",
+          "#Often": "Spesso",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#When you travel by car, how often do you arrive in the time you planned?": "Quando viaggi in auto, quanto spesso arrivi nel tempo che avevi previsto?"
         },
         "tr": {
-          "#A little longer than expected": "Beklenenden biraz daha uzun",
-          "#A little shorter than expected": "Beklenenden biraz daha kısa",
-          "#As expected": "Beklendiği gibi",
-          "#Much longer than expected": "Beklediğimden çok daha uzun",
-          "#Much shorter than expected": "Beklediğimden çok daha kısa",
-          "#When you travel by car, do your trips take as long as you expect?": "Arabayla yolculuk ederken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+          "#Always": "Her zaman",
+          "#Never": "Hiçbir zaman",
+          "#Often": "Sık sık",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#When you travel by car, how often do you arrive in the time you planned?": "Arabayla yolculuk ederken gideceğiniz yere ne sıklıkla planladığınız sürede ulaşıyorsunuz?"
         }
       },
       "origin_project": {
@@ -49131,7 +49131,7 @@
       "question_id": "bike_time_vs_expected",
       "key": "bike_time_vs_expected",
       "project": "shared",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_cycling_experience",
       "source_questionnaires": [
@@ -49141,94 +49141,94 @@
         "answer_key": "bike_time_vs_expected",
         "options": [
           {
-            "text": "Much shorter than expected",
-            "value": "much_shorter"
+            "text": "Never",
+            "value": "never"
           },
           {
-            "text": "A little shorter than expected",
-            "value": "shorter"
+            "text": "Rarely",
+            "value": "rarely"
           },
           {
-            "text": "As expected",
-            "value": "as_expected"
+            "text": "Sometimes",
+            "value": "sometimes"
           },
           {
-            "text": "A little longer than expected",
-            "value": "longer"
+            "text": "Often",
+            "value": "often"
           },
           {
-            "text": "Much longer than expected",
-            "value": "much_longer"
+            "text": "Always",
+            "value": "always"
           }
         ],
         "privacy_classification": "heightened_personal",
         "question_type": "single_option",
-        "text": "When you cycle, do your trips take as long as you expect?"
+        "text": "When you cycle, how often do you arrive in the time you planned?"
       },
       "translations": {
         "ar": {
-          "#A little longer than expected": "أطول قليلًا من المتوقع",
-          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
-          "#As expected": "كما هو متوقع",
-          "#Much longer than expected": "أطول بكثير من المتوقع",
-          "#Much shorter than expected": "أقصر بكثير من المتوقع",
-          "#When you cycle, do your trips take as long as you expect?": "عند ركوب الدراجة، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+          "#Always": "دائمًا",
+          "#Never": "أبدًا",
+          "#Often": "غالبًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#When you cycle, how often do you arrive in the time you planned?": "عند ركوب الدراجة، كم مرة تصل في الوقت الذي خططت له؟"
         },
         "de": {
-          "#A little longer than expected": "Etwas länger als erwartet",
-          "#A little shorter than expected": "Etwas kürzer als erwartet",
-          "#As expected": "Wie erwartet",
-          "#Much longer than expected": "Viel länger als erwartet",
-          "#Much shorter than expected": "Viel kürzer als erwartet",
-          "#When you cycle, do your trips take as long as you expect?": "Dauern Ihre Wege mit dem Rad so lange wie erwartet?"
+          "#Always": "Immer",
+          "#Never": "Nie",
+          "#Often": "Oft",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#When you cycle, how often do you arrive in the time you planned?": "Wie oft kommen Sie mit dem Rad in der Zeit an, die Sie eingeplant haben?"
         },
         "en": {
-          "#A little longer than expected": "A little longer than expected",
-          "#A little shorter than expected": "A little shorter than expected",
-          "#As expected": "As expected",
-          "#Much longer than expected": "Much longer than expected",
-          "#Much shorter than expected": "Much shorter than expected",
-          "#When you cycle, do your trips take as long as you expect?": "When you cycle, do your trips take as long as you expect?"
+          "#Always": "Always",
+          "#Never": "Never",
+          "#Often": "Often",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#When you cycle, how often do you arrive in the time you planned?": "When you cycle, how often do you arrive in the time you planned?"
         },
         "fa": {
-          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
-          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
-          "#As expected": "مطابق انتظار",
-          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
-          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
-          "#When you cycle, do your trips take as long as you expect?": "هنگام دوچرخه‌سواری، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+          "#Always": "همیشه",
+          "#Never": "هرگز",
+          "#Often": "اغلب",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#When you cycle, how often do you arrive in the time you planned?": "هنگام دوچرخه‌سواری، چقدر پیش می‌آید که در زمانی که برنامه‌ریزی کرده‌اید به مقصد برسید؟"
         },
         "fr": {
-          "#A little longer than expected": "Un peu plus long que prévu",
-          "#A little shorter than expected": "Un peu plus court que prévu",
-          "#As expected": "Comme prévu",
-          "#Much longer than expected": "Beaucoup plus long que prévu",
-          "#Much shorter than expected": "Beaucoup plus court que prévu",
-          "#When you cycle, do your trips take as long as you expect?": "Lorsque vous faites du vélo, vos trajets durent-ils aussi longtemps que prévu ?"
+          "#Always": "Toujours",
+          "#Never": "Jamais",
+          "#Often": "Souvent",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#When you cycle, how often do you arrive in the time you planned?": "Lorsque vous faites du vélo, à quelle fréquence arrivez-vous dans le temps que vous aviez prévu ?"
         },
         "hu": {
-          "#A little longer than expected": "Kicsit hosszabb a vártnál",
-          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
-          "#As expected": "A vártnak megfelelően",
-          "#Much longer than expected": "Sokkal hosszabb a vártnál",
-          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
-          "#When you cycle, do your trips take as long as you expect?": "Kerékpározás közben az útjai annyi ideig tartanak, ahogy várja?"
+          "#Always": "Mindig",
+          "#Never": "Soha",
+          "#Often": "Gyakran",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#When you cycle, how often do you arrive in the time you planned?": "Kerékpározás közben milyen gyakran ér célba a tervezett idő alatt?"
         },
         "it": {
-          "#A little longer than expected": "Un po' più lungo del previsto",
-          "#A little shorter than expected": "Un po' più breve del previsto",
-          "#As expected": "Come previsto",
-          "#Much longer than expected": "Molto più lungo del previsto",
-          "#Much shorter than expected": "Molto più breve del previsto",
-          "#When you cycle, do your trips take as long as you expect?": "Quando vai in bici, i tuoi spostamenti durano quanto ti aspetti?"
+          "#Always": "Sempre",
+          "#Never": "Mai",
+          "#Often": "Spesso",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#When you cycle, how often do you arrive in the time you planned?": "Quando vai in bici, quanto spesso arrivi nel tempo che avevi previsto?"
         },
         "tr": {
-          "#A little longer than expected": "Beklenenden biraz daha uzun",
-          "#A little shorter than expected": "Beklenenden biraz daha kısa",
-          "#As expected": "Beklendiği gibi",
-          "#Much longer than expected": "Beklediğimden çok daha uzun",
-          "#Much shorter than expected": "Beklediğimden çok daha kısa",
-          "#When you cycle, do your trips take as long as you expect?": "Bisiklet sürerken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+          "#Always": "Her zaman",
+          "#Never": "Hiçbir zaman",
+          "#Often": "Sık sık",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#When you cycle, how often do you arrive in the time you planned?": "Bisiklet sürerken gideceğiniz yere ne sıklıkla planladığınız sürede ulaşıyorsunuz?"
         }
       },
       "origin_project": {
@@ -53780,7 +53780,7 @@
       "question_id": "motorcycle_time_vs_expected",
       "key": "motorcycle_time_vs_expected",
       "project": "shared",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_motorcycle_experience",
       "source_questionnaires": [
@@ -53790,94 +53790,94 @@
         "answer_key": "motorcycle_time_vs_expected",
         "options": [
           {
-            "text": "Much shorter than expected",
-            "value": "much_shorter"
+            "text": "Never",
+            "value": "never"
           },
           {
-            "text": "A little shorter than expected",
-            "value": "shorter"
+            "text": "Rarely",
+            "value": "rarely"
           },
           {
-            "text": "As expected",
-            "value": "as_expected"
+            "text": "Sometimes",
+            "value": "sometimes"
           },
           {
-            "text": "A little longer than expected",
-            "value": "longer"
+            "text": "Often",
+            "value": "often"
           },
           {
-            "text": "Much longer than expected",
-            "value": "much_longer"
+            "text": "Always",
+            "value": "always"
           }
         ],
         "privacy_classification": "heightened_personal",
         "question_type": "single_option",
-        "text": "When you ride a motorcycle or scooter, do your trips take as long as you expect?"
+        "text": "When you ride a motorcycle or scooter, how often do you arrive in the time you planned?"
       },
       "translations": {
         "ar": {
-          "#A little longer than expected": "أطول قليلًا من المتوقع",
-          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
-          "#As expected": "كما هو متوقع",
-          "#Much longer than expected": "أطول بكثير من المتوقع",
-          "#Much shorter than expected": "أقصر بكثير من المتوقع",
-          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "عند ركوب الدراجة النارية أو السكوتر، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+          "#Always": "دائمًا",
+          "#Never": "أبدًا",
+          "#Often": "غالبًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#When you ride a motorcycle or scooter, how often do you arrive in the time you planned?": "عند ركوب الدراجة النارية أو السكوتر، كم مرة تصل في الوقت الذي خططت له؟"
         },
         "de": {
-          "#A little longer than expected": "Etwas länger als erwartet",
-          "#A little shorter than expected": "Etwas kürzer als erwartet",
-          "#As expected": "Wie erwartet",
-          "#Much longer than expected": "Viel länger als erwartet",
-          "#Much shorter than expected": "Viel kürzer als erwartet",
-          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Dauern Ihre Wege mit dem Motorrad oder Roller so lange wie erwartet?"
+          "#Always": "Immer",
+          "#Never": "Nie",
+          "#Often": "Oft",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#When you ride a motorcycle or scooter, how often do you arrive in the time you planned?": "Wie oft kommen Sie mit dem Motorrad oder Roller in der Zeit an, die Sie eingeplant haben?"
         },
         "en": {
-          "#A little longer than expected": "A little longer than expected",
-          "#A little shorter than expected": "A little shorter than expected",
-          "#As expected": "As expected",
-          "#Much longer than expected": "Much longer than expected",
-          "#Much shorter than expected": "Much shorter than expected",
-          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "When you ride a motorcycle or scooter, do your trips take as long as you expect?"
+          "#Always": "Always",
+          "#Never": "Never",
+          "#Often": "Often",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#When you ride a motorcycle or scooter, how often do you arrive in the time you planned?": "When you ride a motorcycle or scooter, how often do you arrive in the time you planned?"
         },
         "fa": {
-          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
-          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
-          "#As expected": "مطابق انتظار",
-          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
-          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
-          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "هنگام موتورسواری، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+          "#Always": "همیشه",
+          "#Never": "هرگز",
+          "#Often": "اغلب",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#When you ride a motorcycle or scooter, how often do you arrive in the time you planned?": "هنگام موتورسواری، چقدر پیش می‌آید که در زمانی که برنامه‌ریزی کرده‌اید به مقصد برسید؟"
         },
         "fr": {
-          "#A little longer than expected": "Un peu plus long que prévu",
-          "#A little shorter than expected": "Un peu plus court que prévu",
-          "#As expected": "Comme prévu",
-          "#Much longer than expected": "Beaucoup plus long que prévu",
-          "#Much shorter than expected": "Beaucoup plus court que prévu",
-          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Lorsque vous roulez à moto ou en scooter, vos trajets durent-ils aussi longtemps que prévu ?"
+          "#Always": "Toujours",
+          "#Never": "Jamais",
+          "#Often": "Souvent",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#When you ride a motorcycle or scooter, how often do you arrive in the time you planned?": "Lorsque vous roulez à moto ou en scooter, à quelle fréquence arrivez-vous dans le temps que vous aviez prévu ?"
         },
         "hu": {
-          "#A little longer than expected": "Kicsit hosszabb a vártnál",
-          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
-          "#As expected": "A vártnak megfelelően",
-          "#Much longer than expected": "Sokkal hosszabb a vártnál",
-          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
-          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Motorozás vagy robogózás közben az útjai annyi ideig tartanak, ahogy várja?"
+          "#Always": "Mindig",
+          "#Never": "Soha",
+          "#Often": "Gyakran",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#When you ride a motorcycle or scooter, how often do you arrive in the time you planned?": "Motorozás vagy robogózás közben milyen gyakran ér célba a tervezett idő alatt?"
         },
         "it": {
-          "#A little longer than expected": "Un po' più lungo del previsto",
-          "#A little shorter than expected": "Un po' più breve del previsto",
-          "#As expected": "Come previsto",
-          "#Much longer than expected": "Molto più lungo del previsto",
-          "#Much shorter than expected": "Molto più breve del previsto",
-          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Quando vai in moto o in scooter, i tuoi spostamenti durano quanto ti aspetti?"
+          "#Always": "Sempre",
+          "#Never": "Mai",
+          "#Often": "Spesso",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#When you ride a motorcycle or scooter, how often do you arrive in the time you planned?": "Quando vai in moto o in scooter, quanto spesso arrivi nel tempo che avevi previsto?"
         },
         "tr": {
-          "#A little longer than expected": "Beklenenden biraz daha uzun",
-          "#A little shorter than expected": "Beklenenden biraz daha kısa",
-          "#As expected": "Beklendiği gibi",
-          "#Much longer than expected": "Beklediğimden çok daha uzun",
-          "#Much shorter than expected": "Beklediğimden çok daha kısa",
-          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Motosiklet veya scooter sürerken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+          "#Always": "Her zaman",
+          "#Never": "Hiçbir zaman",
+          "#Often": "Sık sık",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#When you ride a motorcycle or scooter, how often do you arrive in the time you planned?": "Motosiklet veya scooter sürerken gideceğiniz yere ne sıklıkla planladığınız sürede ulaşıyorsunuz?"
         }
       },
       "origin_project": {
@@ -59974,7 +59974,7 @@
       "question_id": "put_time_vs_expected",
       "key": "put_time_vs_expected",
       "project": "shared",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_public_transport_experience",
       "source_questionnaires": [
@@ -59984,94 +59984,94 @@
         "answer_key": "put_time_vs_expected",
         "options": [
           {
-            "text": "Much shorter than expected",
-            "value": "much_shorter"
+            "text": "Never",
+            "value": "never"
           },
           {
-            "text": "A little shorter than expected",
-            "value": "shorter"
+            "text": "Rarely",
+            "value": "rarely"
           },
           {
-            "text": "As expected",
-            "value": "as_expected"
+            "text": "Sometimes",
+            "value": "sometimes"
           },
           {
-            "text": "A little longer than expected",
-            "value": "longer"
+            "text": "Often",
+            "value": "often"
           },
           {
-            "text": "Much longer than expected",
-            "value": "much_longer"
+            "text": "Always",
+            "value": "always"
           }
         ],
         "privacy_classification": "heightened_personal",
         "question_type": "single_option",
-        "text": "When you use public transport, do your trips take as long as you expect?"
+        "text": "When you use public transport, how often do you arrive in the time you planned?"
       },
       "translations": {
         "ar": {
-          "#A little longer than expected": "أطول قليلًا من المتوقع",
-          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
-          "#As expected": "كما هو متوقع",
-          "#Much longer than expected": "أطول بكثير من المتوقع",
-          "#Much shorter than expected": "أقصر بكثير من المتوقع",
-          "#When you use public transport, do your trips take as long as you expect?": "عند استخدام وسائل النقل العام، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+          "#Always": "دائمًا",
+          "#Never": "أبدًا",
+          "#Often": "غالبًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#When you use public transport, how often do you arrive in the time you planned?": "عند استخدام وسائل النقل العام، كم مرة تصل في الوقت الذي خططت له؟"
         },
         "de": {
-          "#A little longer than expected": "Etwas länger als erwartet",
-          "#A little shorter than expected": "Etwas kürzer als erwartet",
-          "#As expected": "Wie erwartet",
-          "#Much longer than expected": "Viel länger als erwartet",
-          "#Much shorter than expected": "Viel kürzer als erwartet",
-          "#When you use public transport, do your trips take as long as you expect?": "Dauern Ihre Wege mit öffentlichen Verkehrsmitteln so lange wie erwartet?"
+          "#Always": "Immer",
+          "#Never": "Nie",
+          "#Often": "Oft",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#When you use public transport, how often do you arrive in the time you planned?": "Wie oft kommen Sie mit öffentlichen Verkehrsmitteln in der Zeit an, die Sie eingeplant haben?"
         },
         "en": {
-          "#A little longer than expected": "A little longer than expected",
-          "#A little shorter than expected": "A little shorter than expected",
-          "#As expected": "As expected",
-          "#Much longer than expected": "Much longer than expected",
-          "#Much shorter than expected": "Much shorter than expected",
-          "#When you use public transport, do your trips take as long as you expect?": "When you use public transport, do your trips take as long as you expect?"
+          "#Always": "Always",
+          "#Never": "Never",
+          "#Often": "Often",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#When you use public transport, how often do you arrive in the time you planned?": "When you use public transport, how often do you arrive in the time you planned?"
         },
         "fa": {
-          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
-          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
-          "#As expected": "مطابق انتظار",
-          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
-          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
-          "#When you use public transport, do your trips take as long as you expect?": "هنگام استفاده از حمل‌ونقل عمومی، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+          "#Always": "همیشه",
+          "#Never": "هرگز",
+          "#Often": "اغلب",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#When you use public transport, how often do you arrive in the time you planned?": "هنگام استفاده از حمل‌ونقل عمومی، چقدر پیش می‌آید که در زمانی که برنامه‌ریزی کرده‌اید به مقصد برسید؟"
         },
         "fr": {
-          "#A little longer than expected": "Un peu plus long que prévu",
-          "#A little shorter than expected": "Un peu plus court que prévu",
-          "#As expected": "Comme prévu",
-          "#Much longer than expected": "Beaucoup plus long que prévu",
-          "#Much shorter than expected": "Beaucoup plus court que prévu",
-          "#When you use public transport, do your trips take as long as you expect?": "Lorsque vous utilisez les transports en commun, vos trajets durent-ils aussi longtemps que prévu ?"
+          "#Always": "Toujours",
+          "#Never": "Jamais",
+          "#Often": "Souvent",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#When you use public transport, how often do you arrive in the time you planned?": "Lorsque vous utilisez les transports en commun, à quelle fréquence arrivez-vous dans le temps que vous aviez prévu ?"
         },
         "hu": {
-          "#A little longer than expected": "Kicsit hosszabb a vártnál",
-          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
-          "#As expected": "A vártnak megfelelően",
-          "#Much longer than expected": "Sokkal hosszabb a vártnál",
-          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
-          "#When you use public transport, do your trips take as long as you expect?": "Tömegközlekedés közben az útjai annyi ideig tartanak, ahogy várja?"
+          "#Always": "Mindig",
+          "#Never": "Soha",
+          "#Often": "Gyakran",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#When you use public transport, how often do you arrive in the time you planned?": "Tömegközlekedés közben milyen gyakran ér célba a tervezett idő alatt?"
         },
         "it": {
-          "#A little longer than expected": "Un po' più lungo del previsto",
-          "#A little shorter than expected": "Un po' più breve del previsto",
-          "#As expected": "Come previsto",
-          "#Much longer than expected": "Molto più lungo del previsto",
-          "#Much shorter than expected": "Molto più breve del previsto",
-          "#When you use public transport, do your trips take as long as you expect?": "Quando usi i mezzi pubblici, i tuoi spostamenti durano quanto ti aspetti?"
+          "#Always": "Sempre",
+          "#Never": "Mai",
+          "#Often": "Spesso",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#When you use public transport, how often do you arrive in the time you planned?": "Quando usi i mezzi pubblici, quanto spesso arrivi nel tempo che avevi previsto?"
         },
         "tr": {
-          "#A little longer than expected": "Beklenenden biraz daha uzun",
-          "#A little shorter than expected": "Beklenenden biraz daha kısa",
-          "#As expected": "Beklendiği gibi",
-          "#Much longer than expected": "Beklediğimden çok daha uzun",
-          "#Much shorter than expected": "Beklediğimden çok daha kısa",
-          "#When you use public transport, do your trips take as long as you expect?": "Toplu taşıma kullanırken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+          "#Always": "Her zaman",
+          "#Never": "Hiçbir zaman",
+          "#Often": "Sık sık",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#When you use public transport, how often do you arrive in the time you planned?": "Toplu taşıma kullanırken gideceğiniz yere ne sıklıkla planladığınız sürede ulaşıyorsunuz?"
         }
       },
       "origin_project": {
@@ -66037,7 +66037,7 @@
       "question_id": "walk_time_vs_expected",
       "key": "walk_time_vs_expected",
       "project": "shared",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_walking_experience",
       "source_questionnaires": [
@@ -66047,94 +66047,94 @@
         "answer_key": "walk_time_vs_expected",
         "options": [
           {
-            "text": "Much shorter than expected",
-            "value": "much_shorter"
+            "text": "Never",
+            "value": "never"
           },
           {
-            "text": "A little shorter than expected",
-            "value": "shorter"
+            "text": "Rarely",
+            "value": "rarely"
           },
           {
-            "text": "As expected",
-            "value": "as_expected"
+            "text": "Sometimes",
+            "value": "sometimes"
           },
           {
-            "text": "A little longer than expected",
-            "value": "longer"
+            "text": "Often",
+            "value": "often"
           },
           {
-            "text": "Much longer than expected",
-            "value": "much_longer"
+            "text": "Always",
+            "value": "always"
           }
         ],
         "privacy_classification": "heightened_personal",
         "question_type": "single_option",
-        "text": "When you walk or use a wheelchair, do your trips take as long as you expect?"
+        "text": "When you walk or use a wheelchair, how often do you arrive in the time you planned?"
       },
       "translations": {
         "ar": {
-          "#A little longer than expected": "أطول قليلًا من المتوقع",
-          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
-          "#As expected": "كما هو متوقع",
-          "#Much longer than expected": "أطول بكثير من المتوقع",
-          "#Much shorter than expected": "أقصر بكثير من المتوقع",
-          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "عند المشي أو التنقل بكرسي متحرك، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+          "#Always": "دائمًا",
+          "#Never": "أبدًا",
+          "#Often": "غالبًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#When you walk or use a wheelchair, how often do you arrive in the time you planned?": "عند المشي أو التنقل بكرسي متحرك، كم مرة تصل في الوقت الذي خططت له؟"
         },
         "de": {
-          "#A little longer than expected": "Etwas länger als erwartet",
-          "#A little shorter than expected": "Etwas kürzer als erwartet",
-          "#As expected": "Wie erwartet",
-          "#Much longer than expected": "Viel länger als erwartet",
-          "#Much shorter than expected": "Viel kürzer als erwartet",
-          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Dauern Ihre Wege zu Fuß oder im Rollstuhl so lange wie erwartet?"
+          "#Always": "Immer",
+          "#Never": "Nie",
+          "#Often": "Oft",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#When you walk or use a wheelchair, how often do you arrive in the time you planned?": "Wie oft kommen Sie zu Fuß oder im Rollstuhl in der Zeit an, die Sie eingeplant haben?"
         },
         "en": {
-          "#A little longer than expected": "A little longer than expected",
-          "#A little shorter than expected": "A little shorter than expected",
-          "#As expected": "As expected",
-          "#Much longer than expected": "Much longer than expected",
-          "#Much shorter than expected": "Much shorter than expected",
-          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "When you walk or use a wheelchair, do your trips take as long as you expect?"
+          "#Always": "Always",
+          "#Never": "Never",
+          "#Often": "Often",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#When you walk or use a wheelchair, how often do you arrive in the time you planned?": "When you walk or use a wheelchair, how often do you arrive in the time you planned?"
         },
         "fa": {
-          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
-          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
-          "#As expected": "مطابق انتظار",
-          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
-          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
-          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "هنگام پیاده‌روی یا حرکت با ویلچر، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+          "#Always": "همیشه",
+          "#Never": "هرگز",
+          "#Often": "اغلب",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#When you walk or use a wheelchair, how often do you arrive in the time you planned?": "هنگام پیاده‌روی یا حرکت با ویلچر، چقدر پیش می‌آید که در زمانی که برنامه‌ریزی کرده‌اید به مقصد برسید؟"
         },
         "fr": {
-          "#A little longer than expected": "Un peu plus long que prévu",
-          "#A little shorter than expected": "Un peu plus court que prévu",
-          "#As expected": "Comme prévu",
-          "#Much longer than expected": "Beaucoup plus long que prévu",
-          "#Much shorter than expected": "Beaucoup plus court que prévu",
-          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, vos trajets durent-ils aussi longtemps que prévu ?"
+          "#Always": "Toujours",
+          "#Never": "Jamais",
+          "#Often": "Souvent",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#When you walk or use a wheelchair, how often do you arrive in the time you planned?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, à quelle fréquence arrivez-vous dans le temps que vous aviez prévu ?"
         },
         "hu": {
-          "#A little longer than expected": "Kicsit hosszabb a vártnál",
-          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
-          "#As expected": "A vártnak megfelelően",
-          "#Much longer than expected": "Sokkal hosszabb a vártnál",
-          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
-          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Gyaloglás vagy kerekesszékes közlekedés közben az útjai annyi ideig tartanak, ahogy várja?"
+          "#Always": "Mindig",
+          "#Never": "Soha",
+          "#Often": "Gyakran",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#When you walk or use a wheelchair, how often do you arrive in the time you planned?": "Gyaloglás vagy kerekesszékes közlekedés közben milyen gyakran ér célba a tervezett idő alatt?"
         },
         "it": {
-          "#A little longer than expected": "Un po' più lungo del previsto",
-          "#A little shorter than expected": "Un po' più breve del previsto",
-          "#As expected": "Come previsto",
-          "#Much longer than expected": "Molto più lungo del previsto",
-          "#Much shorter than expected": "Molto più breve del previsto",
-          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Quando ti sposti a piedi o in sedia a rotelle, i tuoi spostamenti durano quanto ti aspetti?"
+          "#Always": "Sempre",
+          "#Never": "Mai",
+          "#Often": "Spesso",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#When you walk or use a wheelchair, how often do you arrive in the time you planned?": "Quando ti sposti a piedi o in sedia a rotelle, quanto spesso arrivi nel tempo che avevi previsto?"
         },
         "tr": {
-          "#A little longer than expected": "Beklenenden biraz daha uzun",
-          "#A little shorter than expected": "Beklenenden biraz daha kısa",
-          "#As expected": "Beklendiği gibi",
-          "#Much longer than expected": "Beklediğimden çok daha uzun",
-          "#Much shorter than expected": "Beklediğimden çok daha kısa",
-          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Yürürken veya tekerlekli sandalyeyle ilerlerken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+          "#Always": "Her zaman",
+          "#Never": "Hiçbir zaman",
+          "#Often": "Sık sık",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#When you walk or use a wheelchair, how often do you arrive in the time you planned?": "Yürürken veya tekerlekli sandalyeyle ilerlerken gideceğiniz yere ne sıklıkla planladığınız sürede ulaşıyorsunuz?"
         }
       },
       "origin_project": {
@@ -70251,7 +70251,7 @@
       "question_id": "identity_harassment",
       "key": "identity_harassment",
       "project": "shared",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_walking_security",
       "source_questionnaires": [
@@ -70282,48 +70282,56 @@
         "ar": {
           "#Doesn't apply to me": "لا ينطبق عليّ",
           "#No": "لا",
+          "#Prefer not to say": "أفضل عدم الإجابة",
           "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "عند المشي أو التنقل بكرسي متحرك، هل سبق أن تعرضت للتحرش بسبب هويتك أو مظهرك (مثل النوع الاجتماعي أو المظهر أو الأصل أو السن)، أو هل يقلقك ذلك؟",
           "#Yes": "نعم"
         },
         "de": {
           "#Doesn't apply to me": "Trifft auf mich nicht zu",
           "#No": "Nein",
+          "#Prefer not to say": "Ich möchte nicht antworten",
           "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Haben Sie beim Gehen oder Fahren im Rollstuhl Belästigung wegen Ihrer Person oder Ihres Aussehens (z. B. Geschlecht, Aussehen, Herkunft, Alter) erlebt oder befürchten Sie sie?",
           "#Yes": "Ja"
         },
         "en": {
           "#Doesn't apply to me": "Doesn't apply to me",
           "#No": "No",
+          "#Prefer not to say": "Prefer not to say",
           "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?",
           "#Yes": "Yes"
         },
         "fa": {
           "#Doesn't apply to me": "به من مربوط نمی‌شود",
           "#No": "خیر",
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
           "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "هنگام پیاده‌روی یا حرکت با ویلچر، آیا به دلیل ویژگی‌های شخصی یا ظاهرتان (مثلاً جنسیت، ظاهر، خاستگاه، سن) آزار دیده‌اید یا از آن می‌ترسید؟",
           "#Yes": "بله"
         },
         "fr": {
           "#Doesn't apply to me": "Ne me concerne pas",
           "#No": "Non",
+          "#Prefer not to say": "Je préfère ne pas répondre",
           "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, avez-vous subi ou redoutez-vous du harcèlement en raison de qui vous êtes ou de votre aspect (par ex. genre, apparence, origine, âge) ?",
           "#Yes": "Oui"
         },
         "hu": {
           "#Doesn't apply to me": "Rám nem vonatkozik",
           "#No": "Nem",
+          "#Prefer not to say": "Nem szeretnék válaszolni",
           "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Gyaloglás vagy kerekesszékes közlekedés közben élt át vagy tart zaklatástól amiatt, hogy ki Ön vagy hogyan néz ki (pl. nem, külső, származás, életkor)?",
           "#Yes": "Igen"
         },
         "it": {
           "#Doesn't apply to me": "Non mi riguarda",
           "#No": "No",
+          "#Prefer not to say": "Preferisco non rispondere",
           "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Quando ti sposti a piedi o in sedia a rotelle, hai subito o temi molestie per chi sei o per come appari (es. genere, aspetto, origine, età)?",
           "#Yes": "Sì"
         },
         "tr": {
           "#Doesn't apply to me": "Benim için geçerli değil",
           "#No": "Hayır",
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
           "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Yürürken veya tekerlekli sandalyeyle ilerlerken kim olduğunuz ya da nasıl göründüğünüz nedeniyle (örn. cinsiyet, görünüş, köken, yaş) taciz yaşadınız mı ya da bundan korkuyor musunuz?",
           "#Yes": "Evet"
         }
@@ -73969,7 +73977,7 @@
       "question_id": "escooter_time_vs_expected",
       "key": "escooter_time_vs_expected",
       "project": "shared",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_e_scooter_experience",
       "source_questionnaires": [
@@ -73979,94 +73987,94 @@
         "answer_key": "escooter_time_vs_expected",
         "options": [
           {
-            "text": "Much shorter than expected",
-            "value": "much_shorter"
+            "text": "Never",
+            "value": "never"
           },
           {
-            "text": "A little shorter than expected",
-            "value": "shorter"
+            "text": "Rarely",
+            "value": "rarely"
           },
           {
-            "text": "As expected",
-            "value": "as_expected"
+            "text": "Sometimes",
+            "value": "sometimes"
           },
           {
-            "text": "A little longer than expected",
-            "value": "longer"
+            "text": "Often",
+            "value": "often"
           },
           {
-            "text": "Much longer than expected",
-            "value": "much_longer"
+            "text": "Always",
+            "value": "always"
           }
         ],
         "privacy_classification": "heightened_personal",
         "question_type": "single_option",
-        "text": "When you ride an e-scooter, do your trips take as long as you expect?"
+        "text": "When you ride an e-scooter, how often do you arrive in the time you planned?"
       },
       "translations": {
         "ar": {
-          "#A little longer than expected": "أطول قليلًا من المتوقع",
-          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
-          "#As expected": "كما هو متوقع",
-          "#Much longer than expected": "أطول بكثير من المتوقع",
-          "#Much shorter than expected": "أقصر بكثير من المتوقع",
-          "#When you ride an e-scooter, do your trips take as long as you expect?": "عند ركوب السكوتر الكهربائي، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+          "#Always": "دائمًا",
+          "#Never": "أبدًا",
+          "#Often": "غالبًا",
+          "#Rarely": "نادرًا",
+          "#Sometimes": "أحيانًا",
+          "#When you ride an e-scooter, how often do you arrive in the time you planned?": "عند ركوب السكوتر الكهربائي، كم مرة تصل في الوقت الذي خططت له؟"
         },
         "de": {
-          "#A little longer than expected": "Etwas länger als erwartet",
-          "#A little shorter than expected": "Etwas kürzer als erwartet",
-          "#As expected": "Wie erwartet",
-          "#Much longer than expected": "Viel länger als erwartet",
-          "#Much shorter than expected": "Viel kürzer als erwartet",
-          "#When you ride an e-scooter, do your trips take as long as you expect?": "Dauern Ihre Wege mit dem E-Scooter so lange, wie Sie erwarten?"
+          "#Always": "Immer",
+          "#Never": "Nie",
+          "#Often": "Oft",
+          "#Rarely": "Selten",
+          "#Sometimes": "Manchmal",
+          "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Wie oft kommen Sie mit dem E-Scooter in der Zeit an, die Sie eingeplant haben?"
         },
         "en": {
-          "#A little longer than expected": "A little longer than expected",
-          "#A little shorter than expected": "A little shorter than expected",
-          "#As expected": "As expected",
-          "#Much longer than expected": "Much longer than expected",
-          "#Much shorter than expected": "Much shorter than expected",
-          "#When you ride an e-scooter, do your trips take as long as you expect?": "When you ride an e-scooter, do your trips take as long as you expect?"
+          "#Always": "Always",
+          "#Never": "Never",
+          "#Often": "Often",
+          "#Rarely": "Rarely",
+          "#Sometimes": "Sometimes",
+          "#When you ride an e-scooter, how often do you arrive in the time you planned?": "When you ride an e-scooter, how often do you arrive in the time you planned?"
         },
         "fa": {
-          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
-          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
-          "#As expected": "مطابق انتظار",
-          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
-          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
-          "#When you ride an e-scooter, do your trips take as long as you expect?": "هنگام استفاده از اسکوتر برقی، آیا سفرهایتان همان‌قدر که انتظار دارید طول می‌کشند؟"
+          "#Always": "همیشه",
+          "#Never": "هرگز",
+          "#Often": "اغلب",
+          "#Rarely": "به‌ندرت",
+          "#Sometimes": "گاهی",
+          "#When you ride an e-scooter, how often do you arrive in the time you planned?": "هنگام استفاده از اسکوتر برقی، چقدر پیش می‌آید که در زمانی که برنامه‌ریزی کرده‌اید به مقصد برسید؟"
         },
         "fr": {
-          "#A little longer than expected": "Un peu plus long que prévu",
-          "#A little shorter than expected": "Un peu plus court que prévu",
-          "#As expected": "Comme prévu",
-          "#Much longer than expected": "Beaucoup plus long que prévu",
-          "#Much shorter than expected": "Beaucoup plus court que prévu",
-          "#When you ride an e-scooter, do your trips take as long as you expect?": "Lorsque vous roulez en trottinette électrique, vos trajets durent-ils aussi longtemps que prévu ?"
+          "#Always": "Toujours",
+          "#Never": "Jamais",
+          "#Often": "Souvent",
+          "#Rarely": "Rarement",
+          "#Sometimes": "Parfois",
+          "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Lorsque vous roulez en trottinette électrique, à quelle fréquence arrivez-vous dans le temps que vous aviez prévu ?"
         },
         "hu": {
-          "#A little longer than expected": "Kicsit hosszabb a vártnál",
-          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
-          "#As expected": "A vártnak megfelelően",
-          "#Much longer than expected": "Sokkal hosszabb a vártnál",
-          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
-          "#When you ride an e-scooter, do your trips take as long as you expect?": "Ha elektromos rollerrel közlekedik, az útjai annyi ideig tartanak, amennyire számít?"
+          "#Always": "Mindig",
+          "#Never": "Soha",
+          "#Often": "Gyakran",
+          "#Rarely": "Ritkán",
+          "#Sometimes": "Néha",
+          "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Ha elektromos rollerrel közlekedik, milyen gyakran ér célba a tervezett idő alatt?"
         },
         "it": {
-          "#A little longer than expected": "Un po' più lungo del previsto",
-          "#A little shorter than expected": "Un po' più breve del previsto",
-          "#As expected": "Come previsto",
-          "#Much longer than expected": "Molto più lungo del previsto",
-          "#Much shorter than expected": "Molto più breve del previsto",
-          "#When you ride an e-scooter, do your trips take as long as you expect?": "Quando vai in monopattino elettrico, gli spostamenti durano quanto ti aspetti?"
+          "#Always": "Sempre",
+          "#Never": "Mai",
+          "#Often": "Spesso",
+          "#Rarely": "Raramente",
+          "#Sometimes": "A volte",
+          "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Quando vai in monopattino elettrico, quanto spesso arrivi nel tempo che avevi previsto?"
         },
         "tr": {
-          "#A little longer than expected": "Beklenenden biraz daha uzun",
-          "#A little shorter than expected": "Beklenenden biraz daha kısa",
-          "#As expected": "Beklendiği gibi",
-          "#Much longer than expected": "Beklediğimden çok daha uzun",
-          "#Much shorter than expected": "Beklediğimden çok daha kısa",
-          "#When you ride an e-scooter, do your trips take as long as you expect?": "Elektrikli scooter kullanırken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+          "#Always": "Her zaman",
+          "#Never": "Hiçbir zaman",
+          "#Often": "Sık sık",
+          "#Rarely": "Nadiren",
+          "#Sometimes": "Bazen",
+          "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Elektrikli scooter kullanırken gideceğiniz yere ne sıklıkla planladığınız sürede ulaşıyorsunuz?"
         }
       },
       "origin_project": {
@@ -75603,7 +75611,7 @@
       "question_id": "escooter_hazard_confidence",
       "key": "escooter_hazard_confidence",
       "project": "shared",
-      "version": "1.0.2",
+      "version": "2.0.0",
       "status": "draft",
       "origin_questionnaire": "smarturbanity_e_scooter_road_safety",
       "source_questionnaires": [
@@ -75614,102 +75622,102 @@
         "help": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
         "options": [
           {
-            "text": "Not at all: I feel unprepared",
-            "value": "not_confident_at_all_i_feel_unprepared_f"
+            "text": "Not quick at all: I often cannot react in time",
+            "value": "not_quick"
           },
           {
-            "text": "A little: I know the risks, but they often catch me out",
-            "value": "slightly_confident_i_am_aware_of_the_ris"
+            "text": "A little quick: sometimes I react late",
+            "value": "slightly_quick"
           },
           {
-            "text": "Fairly: I manage most, but some still worry me",
-            "value": "moderately_confident_i_manage_most_situa"
+            "text": "Fairly quick: I usually react in time",
+            "value": "fairly_quick"
           },
           {
-            "text": "Quite: I see most dangers coming and react well",
-            "value": "quite_confident_i_anticipate_most_hazard"
+            "text": "Very quick: I almost always react in time",
+            "value": "very_quick"
           },
           {
-            "text": "Very: I feel ready for the usual dangers",
-            "value": "very_confident_i_feel_well_prepared_for"
+            "text": "Extremely quick: I always react in time",
+            "value": "extremely_quick"
           }
         ],
         "privacy_classification": "personal_data",
         "question_type": "single_option",
-        "text": "How confident are you that you can react in time to danger on the e-scooter?"
+        "text": "When you ride an e-scooter, how quick are your reflexes if something happens suddenly?"
       },
       "translations": {
         "ar": {
-          "#A little: I know the risks, but they often catch me out": "قليلًا: أعرف المخاطر، لكنها تفاجئني كثيرًا",
-          "#Fairly: I manage most, but some still worry me": "إلى حد ما: أتعامل مع معظمها، لكن بعضها ما زال يقلقني",
+          "#A little quick: sometimes I react late": "سريعة قليلًا: أحيانًا أتصرف متأخرًا",
+          "#Extremely quick: I always react in time": "سريعة للغاية: أتصرف دائمًا في الوقت المناسب",
+          "#Fairly quick: I usually react in time": "سريعة إلى حد ما: عادةً أتصرف في الوقت المناسب",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثل فتح باب سيارة فجأة، أو مركبة تقطع طريقك، أو تقاطع لا ترى فيه ما هو قادم.",
-          "#How confident are you that you can react in time to danger on the e-scooter?": "ما مدى ثقتك بأنك تستطيع التصرف في الوقت المناسب أمام الخطر أثناء ركوب السكوتر الكهربائي؟",
-          "#Not at all: I feel unprepared": "على الإطلاق: أشعر بعدم الاستعداد",
-          "#Quite: I see most dangers coming and react well": "بدرجة جيدة: أرى معظم المخاطر قبل وقوعها وأتصرف جيدًا",
-          "#Very: I feel ready for the usual dangers": "كثيرًا: أشعر بالاستعداد للمخاطر المعتادة"
+          "#Not quick at all: I often cannot react in time": "ليست سريعة على الإطلاق: غالبًا لا أستطيع التصرف في الوقت المناسب",
+          "#Very quick: I almost always react in time": "سريعة جدًا: أتصرف في الوقت المناسب دائمًا تقريبًا",
+          "#When you ride an e-scooter, how quick are your reflexes if something happens suddenly?": "عند ركوب السكوتر الكهربائي، ما مدى سرعة ردود فعلك إذا حدث شيء فجأة؟"
         },
         "de": {
-          "#A little: I know the risks, but they often catch me out": "Wenig: Ich kenne die Gefahren, aber sie überraschen mich oft",
-          "#Fairly: I manage most, but some still worry me": "Einigermaßen: Ich komme mit den meisten zurecht, aber manche machen mir noch Sorgen",
+          "#A little quick: sometimes I react late": "Wenig schnell: Manchmal reagiere ich zu spät",
+          "#Extremely quick: I always react in time": "Äußerst schnell: Ich reagiere immer rechtzeitig",
+          "#Fairly quick: I usually react in time": "Einigermaßen schnell: Meistens reagiere ich rechtzeitig",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Zum Beispiel eine plötzlich aufgehende Autotür, ein Fahrzeug, das Ihnen den Weg abschneidet, oder eine Kreuzung, an der Sie nicht sehen, was kommt.",
-          "#How confident are you that you can react in time to danger on the e-scooter?": "Wie sicher sind Sie, dass Sie auf dem E-Scooter rechtzeitig auf Gefahren reagieren können?",
-          "#Not at all: I feel unprepared": "Gar nicht: Ich fühle mich unvorbereitet",
-          "#Quite: I see most dangers coming and react well": "Gut: Ich sehe die meisten Gefahren kommen und reagiere gut",
-          "#Very: I feel ready for the usual dangers": "Sehr gut: Ich fühle mich auf die üblichen Gefahren vorbereitet"
+          "#Not quick at all: I often cannot react in time": "Gar nicht schnell: Oft kann ich nicht rechtzeitig reagieren",
+          "#Very quick: I almost always react in time": "Sehr schnell: Ich reagiere fast immer rechtzeitig",
+          "#When you ride an e-scooter, how quick are your reflexes if something happens suddenly?": "Wie schnell sind Ihre Reflexe auf dem E-Scooter, wenn plötzlich etwas passiert?"
         },
         "en": {
-          "#A little: I know the risks, but they often catch me out": "A little: I know the risks, but they often catch me out",
-          "#Fairly: I manage most, but some still worry me": "Fairly: I manage most, but some still worry me",
+          "#A little quick: sometimes I react late": "A little quick: sometimes I react late",
+          "#Extremely quick: I always react in time": "Extremely quick: I always react in time",
+          "#Fairly quick: I usually react in time": "Fairly quick: I usually react in time",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
-          "#How confident are you that you can react in time to danger on the e-scooter?": "How confident are you that you can react in time to danger on the e-scooter?",
-          "#Not at all: I feel unprepared": "Not at all: I feel unprepared",
-          "#Quite: I see most dangers coming and react well": "Quite: I see most dangers coming and react well",
-          "#Very: I feel ready for the usual dangers": "Very: I feel ready for the usual dangers"
+          "#Not quick at all: I often cannot react in time": "Not quick at all: I often cannot react in time",
+          "#Very quick: I almost always react in time": "Very quick: I almost always react in time",
+          "#When you ride an e-scooter, how quick are your reflexes if something happens suddenly?": "When you ride an e-scooter, how quick are your reflexes if something happens suddenly?"
         },
         "fa": {
-          "#A little: I know the risks, but they often catch me out": "کمی: خطرها را می‌شناسم، اما اغلب غافلگیرم می‌کنند",
-          "#Fairly: I manage most, but some still worry me": "نسبتاً: بیشتر آن‌ها را مدیریت می‌کنم، اما بعضی هنوز نگرانم می‌کنند",
+          "#A little quick: sometimes I react late": "کمی سریع: گاهی دیر واکنش نشان می‌دهم",
+          "#Extremely quick: I always react in time": "فوق‌العاده سریع: همیشه به‌موقع واکنش نشان می‌دهم",
+          "#Fairly quick: I usually react in time": "نسبتاً سریع: معمولاً به‌موقع واکنش نشان می‌دهم",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثلاً باز شدن ناگهانی در خودرو، عبور ناگهانی وسیله‌ای از جلوی شما، یا تقاطعی که نمی‌توانید ببینید چه چیزی می‌آید.",
-          "#How confident are you that you can react in time to danger on the e-scooter?": "چقدر مطمئن هستید که روی اسکوتر برقی می‌توانید به‌موقع در برابر خطر واکنش نشان دهید؟",
-          "#Not at all: I feel unprepared": "اصلاً: احساس می‌کنم آماده نیستم",
-          "#Quite: I see most dangers coming and react well": "تا حد زیادی: بیشتر خطرها را پیش‌بینی می‌کنم و خوب واکنش نشان می‌دهم",
-          "#Very: I feel ready for the usual dangers": "بسیار: برای خطرهای معمول احساس آمادگی می‌کنم"
+          "#Not quick at all: I often cannot react in time": "اصلاً سریع نیست: اغلب نمی‌توانم به‌موقع واکنش نشان دهم",
+          "#Very quick: I almost always react in time": "خیلی سریع: تقریباً همیشه به‌موقع واکنش نشان می‌دهم",
+          "#When you ride an e-scooter, how quick are your reflexes if something happens suddenly?": "هنگام استفاده از اسکوتر برقی، اگر ناگهان اتفاقی بیفتد، واکنش‌های شما چقدر سریع است؟"
         },
         "fr": {
-          "#A little: I know the risks, but they often catch me out": "Un peu : je connais les risques, mais ils me surprennent souvent",
-          "#Fairly: I manage most, but some still worry me": "Assez : je gère la plupart, mais certains m'inquiètent encore",
+          "#A little quick: sometimes I react late": "Peu rapides : parfois je réagis trop tard",
+          "#Extremely quick: I always react in time": "Extrêmement rapides : je réagis toujours à temps",
+          "#Fairly quick: I usually react in time": "Assez rapides : en général je réagis à temps",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Par exemple une portière de voiture qui s'ouvre brusquement, un véhicule qui vous coupe la route ou un carrefour où vous ne voyez pas ce qui arrive.",
-          "#How confident are you that you can react in time to danger on the e-scooter?": "Quelle confiance avez-vous dans votre capacité à réagir à temps à un danger en trottinette électrique ?",
-          "#Not at all: I feel unprepared": "Pas du tout : je me sens mal préparé",
-          "#Quite: I see most dangers coming and react well": "Bien : je vois venir la plupart des dangers et je réagis bien",
-          "#Very: I feel ready for the usual dangers": "Très bien : je me sens prêt face aux dangers habituels"
+          "#Not quick at all: I often cannot react in time": "Pas du tout rapides : souvent, je n’arrive pas à réagir à temps",
+          "#Very quick: I almost always react in time": "Très rapides : je réagis presque toujours à temps",
+          "#When you ride an e-scooter, how quick are your reflexes if something happens suddenly?": "Lorsque vous roulez en trottinette électrique, à quel point vos réflexes sont-ils rapides si quelque chose arrive soudainement ?"
         },
         "hu": {
-          "#A little: I know the risks, but they often catch me out": "Egy kicsit: ismerem a veszélyeket, de gyakran váratlanul érnek",
-          "#Fairly: I manage most, but some still worry me": "Eléggé: a legtöbbet kezelem, de néhány még aggaszt",
+          "#A little quick: sometimes I react late": "Kevéssé gyorsak: néha későn reagálok",
+          "#Extremely quick: I always react in time": "Rendkívül gyorsak: mindig időben reagálok",
+          "#Fairly quick: I usually react in time": "Eléggé gyorsak: általában időben reagálok",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Például hirtelen kinyíló autóajtó, Ön elé bevágó jármű, vagy olyan kereszteződés, ahol nem látja, mi jön.",
-          "#How confident are you that you can react in time to danger on the e-scooter?": "Mennyire biztos benne, hogy az elektromos rolleren időben tud reagálni a veszélyre?",
-          "#Not at all: I feel unprepared": "Egyáltalán nem: felkészületlennek érzem magam",
-          "#Quite: I see most dangers coming and react well": "Meglehetősen: a legtöbb veszélyt előre látom, és jól reagálok",
-          "#Very: I feel ready for the usual dangers": "Nagyon: felkészültnek érzem magam a szokásos veszélyekre"
+          "#Not quick at all: I often cannot react in time": "Egyáltalán nem gyorsak: gyakran nem tudok időben reagálni",
+          "#Very quick: I almost always react in time": "Nagyon gyorsak: szinte mindig időben reagálok",
+          "#When you ride an e-scooter, how quick are your reflexes if something happens suddenly?": "Elektromos rollerezés közben milyen gyorsak a reflexei, ha hirtelen történik valami?"
         },
         "it": {
-          "#A little: I know the risks, but they often catch me out": "Poco: conosco i rischi, ma spesso mi colgono di sorpresa",
-          "#Fairly: I manage most, but some still worry me": "Abbastanza: me la cavo quasi sempre, ma alcuni pericoli mi preoccupano ancora",
+          "#A little quick: sometimes I react late": "Poco pronti: a volte reagisco tardi",
+          "#Extremely quick: I always react in time": "Prontissimi: reagisco sempre in tempo",
+          "#Fairly quick: I usually react in time": "Abbastanza pronti: di solito reagisco in tempo",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Per esempio una portiera d'auto che si apre all'improvviso, un veicolo che ti taglia la strada o un incrocio dove non vedi cosa arriva.",
-          "#How confident are you that you can react in time to danger on the e-scooter?": "Quanta fiducia hai di riuscire a reagire in tempo a un pericolo in monopattino?",
-          "#Not at all: I feel unprepared": "Per niente: mi manca la preparazione",
-          "#Quite: I see most dangers coming and react well": "Molto: vedo arrivare quasi tutti i pericoli e reagisco bene",
-          "#Very: I feel ready for the usual dangers": "Moltissimo: so affrontare i pericoli più comuni"
+          "#Not quick at all: I often cannot react in time": "Per niente pronti: spesso non riesco a reagire in tempo",
+          "#Very quick: I almost always react in time": "Molto pronti: reagisco quasi sempre in tempo",
+          "#When you ride an e-scooter, how quick are your reflexes if something happens suddenly?": "Quando vai in monopattino, quanto sono pronti i tuoi riflessi se succede qualcosa all’improvviso?"
         },
         "tr": {
-          "#A little: I know the risks, but they often catch me out": "Biraz: Riskleri bilirim ama çoğu zaman beni hazırlıksız yakalar",
-          "#Fairly: I manage most, but some still worry me": "Oldukça: Çoğunu idare ederim ama bazıları hâlâ beni endişelendirir",
+          "#A little quick: sometimes I react late": "Biraz hızlı: Bazen geç tepki veririm",
+          "#Extremely quick: I always react in time": "Son derece hızlı: Her zaman zamanında tepki veririm",
+          "#Fairly quick: I usually react in time": "Oldukça hızlı: Genellikle zamanında tepki veririm",
           "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Örneğin aniden açılan bir araba kapısı, önünüzden kesen bir araç veya ne geldiğini göremediğiniz bir kavşak.",
-          "#How confident are you that you can react in time to danger on the e-scooter?": "Elektrikli scooter'da bir tehlikeye zamanında tepki verebileceğinizden ne kadar eminsiniz?",
-          "#Not at all: I feel unprepared": "Hiç değil: Kendimi hazırlıksız hissederim",
-          "#Quite: I see most dangers coming and react well": "İyi: Tehlikelerin çoğunu önceden görür ve iyi tepki veririm",
-          "#Very: I feel ready for the usual dangers": "Çok iyi: Olağan tehlikelere karşı kendimi hazır hissederim"
+          "#Not quick at all: I often cannot react in time": "Hiç hızlı değil: Çoğu zaman zamanında tepki veremem",
+          "#Very quick: I almost always react in time": "Çok hızlı: Neredeyse her zaman zamanında tepki veririm",
+          "#When you ride an e-scooter, how quick are your reflexes if something happens suddenly?": "Elektrikli scooter kullanırken aniden bir şey olursa refleksleriniz ne kadar hızlıdır?"
         }
       },
       "origin_project": {
@@ -79665,6 +79673,162 @@
           "#Moderately": "Orta derecede",
           "#Not at all": "Hiç",
           "#Slightly": "Biraz"
+        }
+      },
+      "origin_project": {
+        "project_id": "smarturbanity",
+        "name": "SmartUrbanity"
+      }
+    },
+    {
+      "question_id": "evening_insecure_changes",
+      "key": "evening_insecure_changes",
+      "project": "shared",
+      "version": "1.0.0",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_walking_security",
+      "source_questionnaires": [
+        "smarturbanity_walking_security"
+      ],
+      "schema": {
+        "answer_key": "evening_insecure_changes",
+        "help": "You can choose more than one answer.",
+        "options": [
+          {
+            "text": "I change my route",
+            "value": "change_route"
+          },
+          {
+            "text": "I change the time",
+            "value": "change_time"
+          },
+          {
+            "text": "I share my location with someone",
+            "value": "share_location"
+          },
+          {
+            "text": "I ask someone to come with me",
+            "value": "accompanied"
+          },
+          {
+            "text": "I use a different means of transport",
+            "value": "other_mode"
+          },
+          {
+            "text": "I give up going out",
+            "value": "stay_home"
+          },
+          {
+            "exclusive": true,
+            "text": "Nothing",
+            "value": "nothing"
+          },
+          {
+            "exclusive": true,
+            "text": "Prefer not to say",
+            "value": "prefer_not_to_say"
+          }
+        ],
+        "privacy_classification": "personal_data",
+        "question_type": "multiple_options",
+        "text": "When you feel unsafe in the evening, what do you change?"
+      },
+      "translations": {
+        "ar": {
+          "#I ask someone to come with me": "أطلب من شخص أن يرافقني",
+          "#I change my route": "أغيّر طريقي",
+          "#I change the time": "أغيّر موعد تنقلي",
+          "#I give up going out": "أمتنع عن الخروج",
+          "#I share my location with someone": "أشارك موقعي مع شخص ما",
+          "#I use a different means of transport": "أستخدم وسيلة نقل أخرى",
+          "#Nothing": "لا شيء",
+          "#Prefer not to say": "أفضل عدم الإجابة",
+          "#When you feel unsafe in the evening, what do you change?": "عندما ينتابك شعور بعدم الأمان في المساء، ما الذي يتغيّر في طريقة تنقلك؟",
+          "#You can choose more than one answer.": "يمكن اختيار أكثر من إجابة."
+        },
+        "de": {
+          "#I ask someone to come with me": "Ich lasse mich begleiten",
+          "#I change my route": "Ich ändere meinen Weg",
+          "#I change the time": "Ich ändere die Uhrzeit",
+          "#I give up going out": "Ich verzichte darauf, hinauszugehen",
+          "#I share my location with someone": "Ich teile meinen Standort mit jemandem",
+          "#I use a different means of transport": "Ich nehme ein anderes Verkehrsmittel",
+          "#Nothing": "Nichts",
+          "#Prefer not to say": "Ich möchte nicht antworten",
+          "#When you feel unsafe in the evening, what do you change?": "Wenn Sie sich abends nicht sicher fühlen, was ändern Sie?",
+          "#You can choose more than one answer.": "Sie können mehrere Antworten auswählen."
+        },
+        "en": {
+          "#I ask someone to come with me": "I ask someone to come with me",
+          "#I change my route": "I change my route",
+          "#I change the time": "I change the time",
+          "#I give up going out": "I give up going out",
+          "#I share my location with someone": "I share my location with someone",
+          "#I use a different means of transport": "I use a different means of transport",
+          "#Nothing": "Nothing",
+          "#Prefer not to say": "Prefer not to say",
+          "#When you feel unsafe in the evening, what do you change?": "When you feel unsafe in the evening, what do you change?",
+          "#You can choose more than one answer.": "You can choose more than one answer."
+        },
+        "fa": {
+          "#I ask someone to come with me": "از کسی می‌خواهم همراهم بیاید",
+          "#I change my route": "مسیرم را تغییر می‌دهم",
+          "#I change the time": "ساعت رفت‌وآمدم را تغییر می‌دهم",
+          "#I give up going out": "از بیرون رفتن صرف‌نظر می‌کنم",
+          "#I share my location with someone": "موقعیت مکانی‌ام را با کسی به اشتراک می‌گذارم",
+          "#I use a different means of transport": "از وسیله نقلیه دیگری استفاده می‌کنم",
+          "#Nothing": "هیچ چیز",
+          "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+          "#When you feel unsafe in the evening, what do you change?": "وقتی عصر احساس امنیت نمی‌کنید، چه چیزی را تغییر می‌دهید؟",
+          "#You can choose more than one answer.": "می‌توانید بیش از یک پاسخ انتخاب کنید."
+        },
+        "fr": {
+          "#I ask someone to come with me": "Je me fais accompagner",
+          "#I change my route": "Je change d’itinéraire",
+          "#I change the time": "Je change d’horaire",
+          "#I give up going out": "Je renonce à sortir",
+          "#I share my location with someone": "Je partage ma position avec quelqu’un",
+          "#I use a different means of transport": "Je prends un autre moyen de transport",
+          "#Nothing": "Rien",
+          "#Prefer not to say": "Je préfère ne pas répondre",
+          "#When you feel unsafe in the evening, what do you change?": "Quand vous ne vous sentez pas en sécurité le soir, que changez-vous ?",
+          "#You can choose more than one answer.": "Vous pouvez choisir plusieurs réponses."
+        },
+        "hu": {
+          "#I ask someone to come with me": "Megkérek valakit, hogy kísérjen el",
+          "#I change my route": "Más útvonalat választok",
+          "#I change the time": "Más időpontban indulok",
+          "#I give up going out": "Lemondok arról, hogy elinduljak",
+          "#I share my location with someone": "Megosztom a tartózkodási helyemet valakivel",
+          "#I use a different means of transport": "Más közlekedési eszközt választok",
+          "#Nothing": "Semmin",
+          "#Prefer not to say": "Nem szeretnék válaszolni",
+          "#When you feel unsafe in the evening, what do you change?": "Ha este nem érzi magát biztonságban, min változtat?",
+          "#You can choose more than one answer.": "Több választ is megjelölhet."
+        },
+        "it": {
+          "#I ask someone to come with me": "Mi faccio accompagnare",
+          "#I change my route": "Cambio strada",
+          "#I change the time": "Cambio orario",
+          "#I give up going out": "Rinuncio a uscire",
+          "#I share my location with someone": "Condivido la mia posizione con qualcuno",
+          "#I use a different means of transport": "Prendo un altro mezzo",
+          "#Nothing": "Niente",
+          "#Prefer not to say": "Preferisco non rispondere",
+          "#When you feel unsafe in the evening, what do you change?": "Quando la sera non ti senti al sicuro, cosa cambi?",
+          "#You can choose more than one answer.": "Puoi scegliere più di una risposta."
+        },
+        "tr": {
+          "#I ask someone to come with me": "Birinin bana eşlik etmesini isterim",
+          "#I change my route": "Güzergâhımı değiştiririm",
+          "#I change the time": "Saatimi değiştiririm",
+          "#I give up going out": "Dışarı çıkmaktan vazgeçerim",
+          "#I share my location with someone": "Konumumu biriyle paylaşırım",
+          "#I use a different means of transport": "Başka bir ulaşım aracı kullanırım",
+          "#Nothing": "Hiçbir şey",
+          "#Prefer not to say": "Yanıtlamak istemiyorum",
+          "#When you feel unsafe in the evening, what do you change?": "Akşamları kendinizi güvende hissetmediğinizde neyi değiştiriyorsunuz?",
+          "#You can choose more than one answer.": "Birden fazla yanıt seçebilirsiniz."
         }
       },
       "origin_project": {
@@ -98854,6 +99018,120 @@
       }
     },
     {
+      "question_id": "bike_hazard_confidence",
+      "key": "bike_hazard_confidence",
+      "project": "shared",
+      "version": "1.1.2",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_cycling",
+      "source_questionnaires": [
+        "smarturbanity_cycling_road_safety"
+      ],
+      "schema": {
+        "answer_key": "bike_hazard_confidence",
+        "help": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
+        "options": [
+          {
+            "text": "Not at all: I feel unprepared",
+            "value": "not_confident_at_all_i_feel_unprepared_f"
+          },
+          {
+            "text": "A little: I know the risks, but they often catch me out",
+            "value": "slightly_confident_i_am_aware_of_the_ris"
+          },
+          {
+            "text": "Fairly: I manage most, but some still worry me",
+            "value": "moderately_confident_i_manage_most_situa"
+          },
+          {
+            "text": "Quite: I see most dangers coming and react well",
+            "value": "quite_confident_i_anticipate_most_hazard"
+          },
+          {
+            "text": "Very: I feel ready for the usual dangers",
+            "value": "very_confident_i_feel_well_prepared_for"
+          }
+        ],
+        "privacy_classification": "personal_data",
+        "question_type": "single_option",
+        "text": "How confident are you that you can react in time to danger on the bike?"
+      },
+      "translations": {
+        "ar": {
+          "#A little: I know the risks, but they often catch me out": "قليلًا: أعرف المخاطر، لكنها تفاجئني كثيرًا",
+          "#Fairly: I manage most, but some still worry me": "إلى حد ما: أتعامل مع معظمها، لكن بعضها ما زال يقلقني",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثل فتح باب سيارة فجأة، أو مركبة تقطع طريقك، أو تقاطع لا ترى فيه ما هو قادم.",
+          "#How confident are you that you can react in time to danger on the bike?": "ما مدى ثقتك بأنك تستطيع التصرف في الوقت المناسب أمام الخطر أثناء ركوب الدراجة؟",
+          "#Not at all: I feel unprepared": "على الإطلاق: أشعر بعدم الاستعداد",
+          "#Quite: I see most dangers coming and react well": "بدرجة جيدة: أرى معظم المخاطر قبل وقوعها وأتصرف جيدًا",
+          "#Very: I feel ready for the usual dangers": "كثيرًا: أشعر بالاستعداد للمخاطر المعتادة"
+        },
+        "de": {
+          "#A little: I know the risks, but they often catch me out": "Wenig: Ich kenne die Gefahren, aber sie überraschen mich oft",
+          "#Fairly: I manage most, but some still worry me": "Einigermaßen: Ich komme mit den meisten zurecht, aber manche machen mir noch Sorgen",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Zum Beispiel eine plötzlich aufgehende Autotür, ein Fahrzeug, das Ihnen den Weg abschneidet, oder eine Kreuzung, an der Sie nicht sehen, was kommt.",
+          "#How confident are you that you can react in time to danger on the bike?": "Wie sicher sind Sie, dass Sie auf dem Rad rechtzeitig auf Gefahren reagieren können?",
+          "#Not at all: I feel unprepared": "Gar nicht: Ich fühle mich unvorbereitet",
+          "#Quite: I see most dangers coming and react well": "Gut: Ich sehe die meisten Gefahren kommen und reagiere gut",
+          "#Very: I feel ready for the usual dangers": "Sehr gut: Ich fühle mich auf die üblichen Gefahren vorbereitet"
+        },
+        "en": {
+          "#A little: I know the risks, but they often catch me out": "A little: I know the risks, but they often catch me out",
+          "#Fairly: I manage most, but some still worry me": "Fairly: I manage most, but some still worry me",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
+          "#How confident are you that you can react in time to danger on the bike?": "How confident are you that you can react in time to danger on the bike?",
+          "#Not at all: I feel unprepared": "Not at all: I feel unprepared",
+          "#Quite: I see most dangers coming and react well": "Quite: I see most dangers coming and react well",
+          "#Very: I feel ready for the usual dangers": "Very: I feel ready for the usual dangers"
+        },
+        "fa": {
+          "#A little: I know the risks, but they often catch me out": "کمی: خطرها را می‌شناسم، اما اغلب غافلگیرم می‌کنند",
+          "#Fairly: I manage most, but some still worry me": "نسبتاً: بیشتر آن‌ها را مدیریت می‌کنم، اما بعضی هنوز نگرانم می‌کنند",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثلاً باز شدن ناگهانی در خودرو، عبور ناگهانی وسیله‌ای از جلوی شما، یا تقاطعی که نمی‌توانید ببینید چه چیزی می‌آید.",
+          "#How confident are you that you can react in time to danger on the bike?": "چقدر مطمئن هستید که روی دوچرخه می‌توانید به‌موقع در برابر خطر واکنش نشان دهید؟",
+          "#Not at all: I feel unprepared": "اصلاً: احساس می‌کنم آماده نیستم",
+          "#Quite: I see most dangers coming and react well": "تا حد زیادی: بیشتر خطرها را پیش‌بینی می‌کنم و خوب واکنش نشان می‌دهم",
+          "#Very: I feel ready for the usual dangers": "بسیار: برای خطرهای معمول احساس آمادگی می‌کنم"
+        },
+        "fr": {
+          "#A little: I know the risks, but they often catch me out": "Un peu : je connais les risques, mais ils me surprennent souvent",
+          "#Fairly: I manage most, but some still worry me": "Assez : je gère la plupart, mais certains m'inquiètent encore",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Par exemple une portière de voiture qui s'ouvre brusquement, un véhicule qui vous coupe la route ou un carrefour où vous ne voyez pas ce qui arrive.",
+          "#How confident are you that you can react in time to danger on the bike?": "Dans quelle mesure êtes-vous sûr de pouvoir réagir à temps à un danger à vélo ?",
+          "#Not at all: I feel unprepared": "Pas du tout : je me sens mal préparé",
+          "#Quite: I see most dangers coming and react well": "Bien : je vois venir la plupart des dangers et je réagis bien",
+          "#Very: I feel ready for the usual dangers": "Très bien : je me sens prêt face aux dangers habituels"
+        },
+        "hu": {
+          "#A little: I know the risks, but they often catch me out": "Egy kicsit: ismerem a veszélyeket, de gyakran váratlanul érnek",
+          "#Fairly: I manage most, but some still worry me": "Eléggé: a legtöbbet kezelem, de néhány még aggaszt",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Például hirtelen kinyíló autóajtó, Ön elé bevágó jármű, vagy olyan kereszteződés, ahol nem látja, mi jön.",
+          "#How confident are you that you can react in time to danger on the bike?": "Mennyire biztos benne, hogy a biciklin időben tud reagálni a veszélyre?",
+          "#Not at all: I feel unprepared": "Egyáltalán nem: felkészületlennek érzem magam",
+          "#Quite: I see most dangers coming and react well": "Meglehetősen: a legtöbb veszélyt előre látom, és jól reagálok",
+          "#Very: I feel ready for the usual dangers": "Nagyon: felkészültnek érzem magam a szokásos veszélyekre"
+        },
+        "it": {
+          "#A little: I know the risks, but they often catch me out": "Poco: conosco i rischi, ma spesso mi colgono di sorpresa",
+          "#Fairly: I manage most, but some still worry me": "Abbastanza: me la cavo quasi sempre, ma alcuni pericoli mi preoccupano ancora",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Per esempio una portiera d'auto che si apre all'improvviso, un veicolo che ti taglia la strada o un incrocio dove non vedi cosa arriva.",
+          "#How confident are you that you can react in time to danger on the bike?": "Quanto sei sicuro di riuscire a reagire in tempo a un pericolo in bici?",
+          "#Not at all: I feel unprepared": "Per niente: mi manca la preparazione",
+          "#Quite: I see most dangers coming and react well": "Molto: vedo arrivare quasi tutti i pericoli e reagisco bene",
+          "#Very: I feel ready for the usual dangers": "Moltissimo: so affrontare i pericoli più comuni"
+        },
+        "tr": {
+          "#A little: I know the risks, but they often catch me out": "Biraz: Riskleri bilirim ama çoğu zaman beni hazırlıksız yakalar",
+          "#Fairly: I manage most, but some still worry me": "Oldukça: Çoğunu idare ederim ama bazıları hâlâ beni endişelendirir",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Örneğin aniden açılan bir araba kapısı, önünüzden kesen bir araç veya ne geldiğini göremediğiniz bir kavşak.",
+          "#How confident are you that you can react in time to danger on the bike?": "Bisikletteyken bir tehlikeye zamanında tepki verebileceğinizden ne kadar eminsiniz?",
+          "#Not at all: I feel unprepared": "Hiç değil: Kendimi hazırlıksız hissederim",
+          "#Quite: I see most dangers coming and react well": "İyi: Tehlikelerin çoğunu önceden görür ve iyi tepki veririm",
+          "#Very: I feel ready for the usual dangers": "Çok iyi: Olağan tehlikelere karşı kendimi hazır hissederim"
+        }
+      }
+    },
+    {
       "question_id": "bike_identity_harassment",
       "key": "bike_identity_harassment",
       "project": "shared",
@@ -109185,6 +109463,111 @@
         },
         "fa": {
           "#A little longer than expected": "کمی طولانی‌تر از حد انتظار",
+          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
+          "#As expected": "مطابق انتظار",
+          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
+          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
+          "#When you cycle, do your trips take as long as you expect?": "هنگام دوچرخه‌سواری، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+        },
+        "fr": {
+          "#A little longer than expected": "Un peu plus long que prévu",
+          "#A little shorter than expected": "Un peu plus court que prévu",
+          "#As expected": "Comme prévu",
+          "#Much longer than expected": "Beaucoup plus long que prévu",
+          "#Much shorter than expected": "Beaucoup plus court que prévu",
+          "#When you cycle, do your trips take as long as you expect?": "Lorsque vous faites du vélo, vos trajets durent-ils aussi longtemps que prévu ?"
+        },
+        "hu": {
+          "#A little longer than expected": "Kicsit hosszabb a vártnál",
+          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
+          "#As expected": "A vártnak megfelelően",
+          "#Much longer than expected": "Sokkal hosszabb a vártnál",
+          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
+          "#When you cycle, do your trips take as long as you expect?": "Kerékpározás közben az útjai annyi ideig tartanak, ahogy várja?"
+        },
+        "it": {
+          "#A little longer than expected": "Un po' più lungo del previsto",
+          "#A little shorter than expected": "Un po' più breve del previsto",
+          "#As expected": "Come previsto",
+          "#Much longer than expected": "Molto più lungo del previsto",
+          "#Much shorter than expected": "Molto più breve del previsto",
+          "#When you cycle, do your trips take as long as you expect?": "Quando vai in bici, i tuoi spostamenti durano quanto ti aspetti?"
+        },
+        "tr": {
+          "#A little longer than expected": "Beklenenden biraz daha uzun",
+          "#A little shorter than expected": "Beklenenden biraz daha kısa",
+          "#As expected": "Beklendiği gibi",
+          "#Much longer than expected": "Beklediğimden çok daha uzun",
+          "#Much shorter than expected": "Beklediğimden çok daha kısa",
+          "#When you cycle, do your trips take as long as you expect?": "Bisiklet sürerken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+        }
+      }
+    },
+    {
+      "question_id": "bike_time_vs_expected",
+      "key": "bike_time_vs_expected",
+      "project": "shared",
+      "version": "1.0.1",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_cycling_experience",
+      "source_questionnaires": [
+        "smarturbanity_cycling_experience"
+      ],
+      "schema": {
+        "answer_key": "bike_time_vs_expected",
+        "options": [
+          {
+            "text": "Much shorter than expected",
+            "value": "much_shorter"
+          },
+          {
+            "text": "A little shorter than expected",
+            "value": "shorter"
+          },
+          {
+            "text": "As expected",
+            "value": "as_expected"
+          },
+          {
+            "text": "A little longer than expected",
+            "value": "longer"
+          },
+          {
+            "text": "Much longer than expected",
+            "value": "much_longer"
+          }
+        ],
+        "privacy_classification": "heightened_personal",
+        "question_type": "single_option",
+        "text": "When you cycle, do your trips take as long as you expect?"
+      },
+      "translations": {
+        "ar": {
+          "#A little longer than expected": "أطول قليلًا من المتوقع",
+          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
+          "#As expected": "كما هو متوقع",
+          "#Much longer than expected": "أطول بكثير من المتوقع",
+          "#Much shorter than expected": "أقصر بكثير من المتوقع",
+          "#When you cycle, do your trips take as long as you expect?": "عند ركوب الدراجة، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+        },
+        "de": {
+          "#A little longer than expected": "Etwas länger als erwartet",
+          "#A little shorter than expected": "Etwas kürzer als erwartet",
+          "#As expected": "Wie erwartet",
+          "#Much longer than expected": "Viel länger als erwartet",
+          "#Much shorter than expected": "Viel kürzer als erwartet",
+          "#When you cycle, do your trips take as long as you expect?": "Dauern Ihre Wege mit dem Rad so lange wie erwartet?"
+        },
+        "en": {
+          "#A little longer than expected": "A little longer than expected",
+          "#A little shorter than expected": "A little shorter than expected",
+          "#As expected": "As expected",
+          "#Much longer than expected": "Much longer than expected",
+          "#Much shorter than expected": "Much shorter than expected",
+          "#When you cycle, do your trips take as long as you expect?": "When you cycle, do your trips take as long as you expect?"
+        },
+        "fa": {
+          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
           "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
           "#As expected": "مطابق انتظار",
           "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
@@ -123906,6 +124289,111 @@
         },
         "fa": {
           "#A little longer than expected": "کمی طولانی‌تر از حد انتظار",
+          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
+          "#As expected": "مطابق انتظار",
+          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
+          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
+          "#When you travel by car, do your trips take as long as you expect?": "هنگام سفر با خودرو، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+        },
+        "fr": {
+          "#A little longer than expected": "Un peu plus long que prévu",
+          "#A little shorter than expected": "Un peu plus court que prévu",
+          "#As expected": "Comme prévu",
+          "#Much longer than expected": "Beaucoup plus long que prévu",
+          "#Much shorter than expected": "Beaucoup plus court que prévu",
+          "#When you travel by car, do your trips take as long as you expect?": "Lorsque vous vous déplacez en voiture, vos trajets durent-ils aussi longtemps que prévu ?"
+        },
+        "hu": {
+          "#A little longer than expected": "Kicsit hosszabb a vártnál",
+          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
+          "#As expected": "A vártnak megfelelően",
+          "#Much longer than expected": "Sokkal hosszabb a vártnál",
+          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
+          "#When you travel by car, do your trips take as long as you expect?": "Autós utazás közben az útjai annyi ideig tartanak, ahogy várja?"
+        },
+        "it": {
+          "#A little longer than expected": "Un po' più lungo del previsto",
+          "#A little shorter than expected": "Un po' più breve del previsto",
+          "#As expected": "Come previsto",
+          "#Much longer than expected": "Molto più lungo del previsto",
+          "#Much shorter than expected": "Molto più breve del previsto",
+          "#When you travel by car, do your trips take as long as you expect?": "Quando viaggi in auto, i tuoi spostamenti durano quanto ti aspetti?"
+        },
+        "tr": {
+          "#A little longer than expected": "Beklenenden biraz daha uzun",
+          "#A little shorter than expected": "Beklenenden biraz daha kısa",
+          "#As expected": "Beklendiği gibi",
+          "#Much longer than expected": "Beklediğimden çok daha uzun",
+          "#Much shorter than expected": "Beklediğimden çok daha kısa",
+          "#When you travel by car, do your trips take as long as you expect?": "Arabayla yolculuk ederken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+        }
+      }
+    },
+    {
+      "question_id": "car_time_vs_expected",
+      "key": "car_time_vs_expected",
+      "project": "shared",
+      "version": "1.0.1",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_car_experience",
+      "source_questionnaires": [
+        "smarturbanity_car_experience"
+      ],
+      "schema": {
+        "answer_key": "car_time_vs_expected",
+        "options": [
+          {
+            "text": "Much shorter than expected",
+            "value": "much_shorter"
+          },
+          {
+            "text": "A little shorter than expected",
+            "value": "shorter"
+          },
+          {
+            "text": "As expected",
+            "value": "as_expected"
+          },
+          {
+            "text": "A little longer than expected",
+            "value": "longer"
+          },
+          {
+            "text": "Much longer than expected",
+            "value": "much_longer"
+          }
+        ],
+        "privacy_classification": "heightened_personal",
+        "question_type": "single_option",
+        "text": "When you travel by car, do your trips take as long as you expect?"
+      },
+      "translations": {
+        "ar": {
+          "#A little longer than expected": "أطول قليلًا من المتوقع",
+          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
+          "#As expected": "كما هو متوقع",
+          "#Much longer than expected": "أطول بكثير من المتوقع",
+          "#Much shorter than expected": "أقصر بكثير من المتوقع",
+          "#When you travel by car, do your trips take as long as you expect?": "عند التنقل بالسيارة، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+        },
+        "de": {
+          "#A little longer than expected": "Etwas länger als erwartet",
+          "#A little shorter than expected": "Etwas kürzer als erwartet",
+          "#As expected": "Wie erwartet",
+          "#Much longer than expected": "Viel länger als erwartet",
+          "#Much shorter than expected": "Viel kürzer als erwartet",
+          "#When you travel by car, do your trips take as long as you expect?": "Dauern Ihre Wege mit dem Auto so lange wie erwartet?"
+        },
+        "en": {
+          "#A little longer than expected": "A little longer than expected",
+          "#A little shorter than expected": "A little shorter than expected",
+          "#As expected": "As expected",
+          "#Much longer than expected": "Much longer than expected",
+          "#Much shorter than expected": "Much shorter than expected",
+          "#When you travel by car, do your trips take as long as you expect?": "When you travel by car, do your trips take as long as you expect?"
+        },
+        "fa": {
+          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
           "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
           "#As expected": "مطابق انتظار",
           "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
@@ -144534,6 +145022,120 @@
       }
     },
     {
+      "question_id": "escooter_hazard_confidence",
+      "key": "escooter_hazard_confidence",
+      "project": "shared",
+      "version": "1.0.2",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_e_scooter_road_safety",
+      "source_questionnaires": [
+        "smarturbanity_e_scooter_road_safety"
+      ],
+      "schema": {
+        "answer_key": "escooter_hazard_confidence",
+        "help": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
+        "options": [
+          {
+            "text": "Not at all: I feel unprepared",
+            "value": "not_confident_at_all_i_feel_unprepared_f"
+          },
+          {
+            "text": "A little: I know the risks, but they often catch me out",
+            "value": "slightly_confident_i_am_aware_of_the_ris"
+          },
+          {
+            "text": "Fairly: I manage most, but some still worry me",
+            "value": "moderately_confident_i_manage_most_situa"
+          },
+          {
+            "text": "Quite: I see most dangers coming and react well",
+            "value": "quite_confident_i_anticipate_most_hazard"
+          },
+          {
+            "text": "Very: I feel ready for the usual dangers",
+            "value": "very_confident_i_feel_well_prepared_for"
+          }
+        ],
+        "privacy_classification": "personal_data",
+        "question_type": "single_option",
+        "text": "How confident are you that you can react in time to danger on the e-scooter?"
+      },
+      "translations": {
+        "ar": {
+          "#A little: I know the risks, but they often catch me out": "قليلًا: أعرف المخاطر، لكنها تفاجئني كثيرًا",
+          "#Fairly: I manage most, but some still worry me": "إلى حد ما: أتعامل مع معظمها، لكن بعضها ما زال يقلقني",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثل فتح باب سيارة فجأة، أو مركبة تقطع طريقك، أو تقاطع لا ترى فيه ما هو قادم.",
+          "#How confident are you that you can react in time to danger on the e-scooter?": "ما مدى ثقتك بأنك تستطيع التصرف في الوقت المناسب أمام الخطر أثناء ركوب السكوتر الكهربائي؟",
+          "#Not at all: I feel unprepared": "على الإطلاق: أشعر بعدم الاستعداد",
+          "#Quite: I see most dangers coming and react well": "بدرجة جيدة: أرى معظم المخاطر قبل وقوعها وأتصرف جيدًا",
+          "#Very: I feel ready for the usual dangers": "كثيرًا: أشعر بالاستعداد للمخاطر المعتادة"
+        },
+        "de": {
+          "#A little: I know the risks, but they often catch me out": "Wenig: Ich kenne die Gefahren, aber sie überraschen mich oft",
+          "#Fairly: I manage most, but some still worry me": "Einigermaßen: Ich komme mit den meisten zurecht, aber manche machen mir noch Sorgen",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Zum Beispiel eine plötzlich aufgehende Autotür, ein Fahrzeug, das Ihnen den Weg abschneidet, oder eine Kreuzung, an der Sie nicht sehen, was kommt.",
+          "#How confident are you that you can react in time to danger on the e-scooter?": "Wie sicher sind Sie, dass Sie auf dem E-Scooter rechtzeitig auf Gefahren reagieren können?",
+          "#Not at all: I feel unprepared": "Gar nicht: Ich fühle mich unvorbereitet",
+          "#Quite: I see most dangers coming and react well": "Gut: Ich sehe die meisten Gefahren kommen und reagiere gut",
+          "#Very: I feel ready for the usual dangers": "Sehr gut: Ich fühle mich auf die üblichen Gefahren vorbereitet"
+        },
+        "en": {
+          "#A little: I know the risks, but they often catch me out": "A little: I know the risks, but they often catch me out",
+          "#Fairly: I manage most, but some still worry me": "Fairly: I manage most, but some still worry me",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
+          "#How confident are you that you can react in time to danger on the e-scooter?": "How confident are you that you can react in time to danger on the e-scooter?",
+          "#Not at all: I feel unprepared": "Not at all: I feel unprepared",
+          "#Quite: I see most dangers coming and react well": "Quite: I see most dangers coming and react well",
+          "#Very: I feel ready for the usual dangers": "Very: I feel ready for the usual dangers"
+        },
+        "fa": {
+          "#A little: I know the risks, but they often catch me out": "کمی: خطرها را می‌شناسم، اما اغلب غافلگیرم می‌کنند",
+          "#Fairly: I manage most, but some still worry me": "نسبتاً: بیشتر آن‌ها را مدیریت می‌کنم، اما بعضی هنوز نگرانم می‌کنند",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثلاً باز شدن ناگهانی در خودرو، عبور ناگهانی وسیله‌ای از جلوی شما، یا تقاطعی که نمی‌توانید ببینید چه چیزی می‌آید.",
+          "#How confident are you that you can react in time to danger on the e-scooter?": "چقدر مطمئن هستید که روی اسکوتر برقی می‌توانید به‌موقع در برابر خطر واکنش نشان دهید؟",
+          "#Not at all: I feel unprepared": "اصلاً: احساس می‌کنم آماده نیستم",
+          "#Quite: I see most dangers coming and react well": "تا حد زیادی: بیشتر خطرها را پیش‌بینی می‌کنم و خوب واکنش نشان می‌دهم",
+          "#Very: I feel ready for the usual dangers": "بسیار: برای خطرهای معمول احساس آمادگی می‌کنم"
+        },
+        "fr": {
+          "#A little: I know the risks, but they often catch me out": "Un peu : je connais les risques, mais ils me surprennent souvent",
+          "#Fairly: I manage most, but some still worry me": "Assez : je gère la plupart, mais certains m'inquiètent encore",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Par exemple une portière de voiture qui s'ouvre brusquement, un véhicule qui vous coupe la route ou un carrefour où vous ne voyez pas ce qui arrive.",
+          "#How confident are you that you can react in time to danger on the e-scooter?": "Quelle confiance avez-vous dans votre capacité à réagir à temps à un danger en trottinette électrique ?",
+          "#Not at all: I feel unprepared": "Pas du tout : je me sens mal préparé",
+          "#Quite: I see most dangers coming and react well": "Bien : je vois venir la plupart des dangers et je réagis bien",
+          "#Very: I feel ready for the usual dangers": "Très bien : je me sens prêt face aux dangers habituels"
+        },
+        "hu": {
+          "#A little: I know the risks, but they often catch me out": "Egy kicsit: ismerem a veszélyeket, de gyakran váratlanul érnek",
+          "#Fairly: I manage most, but some still worry me": "Eléggé: a legtöbbet kezelem, de néhány még aggaszt",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Például hirtelen kinyíló autóajtó, Ön elé bevágó jármű, vagy olyan kereszteződés, ahol nem látja, mi jön.",
+          "#How confident are you that you can react in time to danger on the e-scooter?": "Mennyire biztos benne, hogy az elektromos rolleren időben tud reagálni a veszélyre?",
+          "#Not at all: I feel unprepared": "Egyáltalán nem: felkészületlennek érzem magam",
+          "#Quite: I see most dangers coming and react well": "Meglehetősen: a legtöbb veszélyt előre látom, és jól reagálok",
+          "#Very: I feel ready for the usual dangers": "Nagyon: felkészültnek érzem magam a szokásos veszélyekre"
+        },
+        "it": {
+          "#A little: I know the risks, but they often catch me out": "Poco: conosco i rischi, ma spesso mi colgono di sorpresa",
+          "#Fairly: I manage most, but some still worry me": "Abbastanza: me la cavo quasi sempre, ma alcuni pericoli mi preoccupano ancora",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Per esempio una portiera d'auto che si apre all'improvviso, un veicolo che ti taglia la strada o un incrocio dove non vedi cosa arriva.",
+          "#How confident are you that you can react in time to danger on the e-scooter?": "Quanta fiducia hai di riuscire a reagire in tempo a un pericolo in monopattino?",
+          "#Not at all: I feel unprepared": "Per niente: mi manca la preparazione",
+          "#Quite: I see most dangers coming and react well": "Molto: vedo arrivare quasi tutti i pericoli e reagisco bene",
+          "#Very: I feel ready for the usual dangers": "Moltissimo: so affrontare i pericoli più comuni"
+        },
+        "tr": {
+          "#A little: I know the risks, but they often catch me out": "Biraz: Riskleri bilirim ama çoğu zaman beni hazırlıksız yakalar",
+          "#Fairly: I manage most, but some still worry me": "Oldukça: Çoğunu idare ederim ama bazıları hâlâ beni endişelendirir",
+          "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Örneğin aniden açılan bir araba kapısı, önünüzden kesen bir araç veya ne geldiğini göremediğiniz bir kavşak.",
+          "#How confident are you that you can react in time to danger on the e-scooter?": "Elektrikli scooter'da bir tehlikeye zamanında tepki verebileceğinizden ne kadar eminsiniz?",
+          "#Not at all: I feel unprepared": "Hiç değil: Kendimi hazırlıksız hissederim",
+          "#Quite: I see most dangers coming and react well": "İyi: Tehlikelerin çoğunu önceden görür ve iyi tepki veririm",
+          "#Very: I feel ready for the usual dangers": "Çok iyi: Olağan tehlikelere karşı kendimi hazır hissederim"
+        }
+      }
+    },
+    {
       "question_id": "escooter_identity_harassment",
       "key": "escooter_identity_harassment",
       "project": "shared",
@@ -144809,6 +145411,111 @@
           "#It makes no difference to me": "Benim için fark etmez",
           "#They are sometimes a bit too much for me": "Bazen benim için biraz fazla gelirler",
           "#When you ride an e-scooter, how do you feel on streets with lots of people, shops and activity?": "Elektrikli scooter kullanırken çok sayıda insan, dükkân ve hareketlilik olan sokaklarda nasıl hissedersiniz?"
+        }
+      }
+    },
+    {
+      "question_id": "escooter_time_vs_expected",
+      "key": "escooter_time_vs_expected",
+      "project": "shared",
+      "version": "1.0.1",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_e_scooter_experience",
+      "source_questionnaires": [
+        "smarturbanity_e_scooter_experience"
+      ],
+      "schema": {
+        "answer_key": "escooter_time_vs_expected",
+        "options": [
+          {
+            "text": "Much shorter than expected",
+            "value": "much_shorter"
+          },
+          {
+            "text": "A little shorter than expected",
+            "value": "shorter"
+          },
+          {
+            "text": "As expected",
+            "value": "as_expected"
+          },
+          {
+            "text": "A little longer than expected",
+            "value": "longer"
+          },
+          {
+            "text": "Much longer than expected",
+            "value": "much_longer"
+          }
+        ],
+        "privacy_classification": "heightened_personal",
+        "question_type": "single_option",
+        "text": "When you ride an e-scooter, do your trips take as long as you expect?"
+      },
+      "translations": {
+        "ar": {
+          "#A little longer than expected": "أطول قليلًا من المتوقع",
+          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
+          "#As expected": "كما هو متوقع",
+          "#Much longer than expected": "أطول بكثير من المتوقع",
+          "#Much shorter than expected": "أقصر بكثير من المتوقع",
+          "#When you ride an e-scooter, do your trips take as long as you expect?": "عند ركوب السكوتر الكهربائي، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+        },
+        "de": {
+          "#A little longer than expected": "Etwas länger als erwartet",
+          "#A little shorter than expected": "Etwas kürzer als erwartet",
+          "#As expected": "Wie erwartet",
+          "#Much longer than expected": "Viel länger als erwartet",
+          "#Much shorter than expected": "Viel kürzer als erwartet",
+          "#When you ride an e-scooter, do your trips take as long as you expect?": "Dauern Ihre Wege mit dem E-Scooter so lange, wie Sie erwarten?"
+        },
+        "en": {
+          "#A little longer than expected": "A little longer than expected",
+          "#A little shorter than expected": "A little shorter than expected",
+          "#As expected": "As expected",
+          "#Much longer than expected": "Much longer than expected",
+          "#Much shorter than expected": "Much shorter than expected",
+          "#When you ride an e-scooter, do your trips take as long as you expect?": "When you ride an e-scooter, do your trips take as long as you expect?"
+        },
+        "fa": {
+          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
+          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
+          "#As expected": "مطابق انتظار",
+          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
+          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
+          "#When you ride an e-scooter, do your trips take as long as you expect?": "هنگام استفاده از اسکوتر برقی، آیا سفرهایتان همان‌قدر که انتظار دارید طول می‌کشند؟"
+        },
+        "fr": {
+          "#A little longer than expected": "Un peu plus long que prévu",
+          "#A little shorter than expected": "Un peu plus court que prévu",
+          "#As expected": "Comme prévu",
+          "#Much longer than expected": "Beaucoup plus long que prévu",
+          "#Much shorter than expected": "Beaucoup plus court que prévu",
+          "#When you ride an e-scooter, do your trips take as long as you expect?": "Lorsque vous roulez en trottinette électrique, vos trajets durent-ils aussi longtemps que prévu ?"
+        },
+        "hu": {
+          "#A little longer than expected": "Kicsit hosszabb a vártnál",
+          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
+          "#As expected": "A vártnak megfelelően",
+          "#Much longer than expected": "Sokkal hosszabb a vártnál",
+          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
+          "#When you ride an e-scooter, do your trips take as long as you expect?": "Ha elektromos rollerrel közlekedik, az útjai annyi ideig tartanak, amennyire számít?"
+        },
+        "it": {
+          "#A little longer than expected": "Un po' più lungo del previsto",
+          "#A little shorter than expected": "Un po' più breve del previsto",
+          "#As expected": "Come previsto",
+          "#Much longer than expected": "Molto più lungo del previsto",
+          "#Much shorter than expected": "Molto più breve del previsto",
+          "#When you ride an e-scooter, do your trips take as long as you expect?": "Quando vai in monopattino elettrico, gli spostamenti durano quanto ti aspetti?"
+        },
+        "tr": {
+          "#A little longer than expected": "Beklenenden biraz daha uzun",
+          "#A little shorter than expected": "Beklenenden biraz daha kısa",
+          "#As expected": "Beklendiği gibi",
+          "#Much longer than expected": "Beklediğimden çok daha uzun",
+          "#Much shorter than expected": "Beklediğimden çok daha kısa",
+          "#When you ride an e-scooter, do your trips take as long as you expect?": "Elektrikli scooter kullanırken yolculuklarınız beklediğiniz kadar sürüyor mu?"
         }
       }
     },
@@ -159519,6 +160226,88 @@
           "#Doesn't apply to me": "Benim için geçerli değil",
           "#No": "Hayır",
           "#When you walk, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Yürürken kim olduğunuz ya da nasıl göründüğünüz nedeniyle (örn. cinsiyet, görünüş, köken, yaş) taciz yaşadınız mı ya da bundan korkuyor musunuz?",
+          "#Yes": "Evet"
+        }
+      }
+    },
+    {
+      "question_id": "identity_harassment",
+      "key": "identity_harassment",
+      "project": "shared",
+      "version": "1.3.0",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_walking_security",
+      "source_questionnaires": [
+        "smarturbanity_walking_security"
+      ],
+      "schema": {
+        "add_prefer_not_to_say": true,
+        "answer_key": "identity_harassment",
+        "options": [
+          {
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "text": "No",
+            "value": "no"
+          },
+          {
+            "text": "Doesn't apply to me",
+            "value": "not_applicable"
+          }
+        ],
+        "privacy_classification": "heightened_personal",
+        "question_type": "single_option",
+        "text": "When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?"
+      },
+      "translations": {
+        "ar": {
+          "#Doesn't apply to me": "لا ينطبق عليّ",
+          "#No": "لا",
+          "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "عند المشي أو التنقل بكرسي متحرك، هل سبق أن تعرضت للتحرش بسبب هويتك أو مظهرك (مثل النوع الاجتماعي أو المظهر أو الأصل أو السن)، أو هل يقلقك ذلك؟",
+          "#Yes": "نعم"
+        },
+        "de": {
+          "#Doesn't apply to me": "Trifft auf mich nicht zu",
+          "#No": "Nein",
+          "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Haben Sie beim Gehen oder Fahren im Rollstuhl Belästigung wegen Ihrer Person oder Ihres Aussehens (z. B. Geschlecht, Aussehen, Herkunft, Alter) erlebt oder befürchten Sie sie?",
+          "#Yes": "Ja"
+        },
+        "en": {
+          "#Doesn't apply to me": "Doesn't apply to me",
+          "#No": "No",
+          "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?",
+          "#Yes": "Yes"
+        },
+        "fa": {
+          "#Doesn't apply to me": "به من مربوط نمی‌شود",
+          "#No": "خیر",
+          "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "هنگام پیاده‌روی یا حرکت با ویلچر، آیا به دلیل ویژگی‌های شخصی یا ظاهرتان (مثلاً جنسیت، ظاهر، خاستگاه، سن) آزار دیده‌اید یا از آن می‌ترسید؟",
+          "#Yes": "بله"
+        },
+        "fr": {
+          "#Doesn't apply to me": "Ne me concerne pas",
+          "#No": "Non",
+          "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, avez-vous subi ou redoutez-vous du harcèlement en raison de qui vous êtes ou de votre aspect (par ex. genre, apparence, origine, âge) ?",
+          "#Yes": "Oui"
+        },
+        "hu": {
+          "#Doesn't apply to me": "Rám nem vonatkozik",
+          "#No": "Nem",
+          "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Gyaloglás vagy kerekesszékes közlekedés közben élt át vagy tart zaklatástól amiatt, hogy ki Ön vagy hogyan néz ki (pl. nem, külső, származás, életkor)?",
+          "#Yes": "Igen"
+        },
+        "it": {
+          "#Doesn't apply to me": "Non mi riguarda",
+          "#No": "No",
+          "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Quando ti sposti a piedi o in sedia a rotelle, hai subito o temi molestie per chi sei o per come appari (es. genere, aspetto, origine, età)?",
+          "#Yes": "Sì"
+        },
+        "tr": {
+          "#Doesn't apply to me": "Benim için geçerli değil",
+          "#No": "Hayır",
+          "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Yürürken veya tekerlekli sandalyeyle ilerlerken kim olduğunuz ya da nasıl göründüğünüz nedeniyle (örn. cinsiyet, görünüş, köken, yaş) taciz yaşadınız mı ya da bundan korkuyor musunuz?",
           "#Yes": "Evet"
         }
       }
@@ -176287,6 +177076,111 @@
         },
         "fa": {
           "#A little longer than expected": "کمی طولانی‌تر از حد انتظار",
+          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
+          "#As expected": "مطابق انتظار",
+          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
+          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
+          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "هنگام موتورسواری، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+        },
+        "fr": {
+          "#A little longer than expected": "Un peu plus long que prévu",
+          "#A little shorter than expected": "Un peu plus court que prévu",
+          "#As expected": "Comme prévu",
+          "#Much longer than expected": "Beaucoup plus long que prévu",
+          "#Much shorter than expected": "Beaucoup plus court que prévu",
+          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Lorsque vous roulez à moto ou en scooter, vos trajets durent-ils aussi longtemps que prévu ?"
+        },
+        "hu": {
+          "#A little longer than expected": "Kicsit hosszabb a vártnál",
+          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
+          "#As expected": "A vártnak megfelelően",
+          "#Much longer than expected": "Sokkal hosszabb a vártnál",
+          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
+          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Motorozás vagy robogózás közben az útjai annyi ideig tartanak, ahogy várja?"
+        },
+        "it": {
+          "#A little longer than expected": "Un po' più lungo del previsto",
+          "#A little shorter than expected": "Un po' più breve del previsto",
+          "#As expected": "Come previsto",
+          "#Much longer than expected": "Molto più lungo del previsto",
+          "#Much shorter than expected": "Molto più breve del previsto",
+          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Quando vai in moto o in scooter, i tuoi spostamenti durano quanto ti aspetti?"
+        },
+        "tr": {
+          "#A little longer than expected": "Beklenenden biraz daha uzun",
+          "#A little shorter than expected": "Beklenenden biraz daha kısa",
+          "#As expected": "Beklendiği gibi",
+          "#Much longer than expected": "Beklediğimden çok daha uzun",
+          "#Much shorter than expected": "Beklediğimden çok daha kısa",
+          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Motosiklet veya scooter sürerken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+        }
+      }
+    },
+    {
+      "question_id": "motorcycle_time_vs_expected",
+      "key": "motorcycle_time_vs_expected",
+      "project": "shared",
+      "version": "1.0.1",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_motorcycle_experience",
+      "source_questionnaires": [
+        "smarturbanity_motorcycle_experience"
+      ],
+      "schema": {
+        "answer_key": "motorcycle_time_vs_expected",
+        "options": [
+          {
+            "text": "Much shorter than expected",
+            "value": "much_shorter"
+          },
+          {
+            "text": "A little shorter than expected",
+            "value": "shorter"
+          },
+          {
+            "text": "As expected",
+            "value": "as_expected"
+          },
+          {
+            "text": "A little longer than expected",
+            "value": "longer"
+          },
+          {
+            "text": "Much longer than expected",
+            "value": "much_longer"
+          }
+        ],
+        "privacy_classification": "heightened_personal",
+        "question_type": "single_option",
+        "text": "When you ride a motorcycle or scooter, do your trips take as long as you expect?"
+      },
+      "translations": {
+        "ar": {
+          "#A little longer than expected": "أطول قليلًا من المتوقع",
+          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
+          "#As expected": "كما هو متوقع",
+          "#Much longer than expected": "أطول بكثير من المتوقع",
+          "#Much shorter than expected": "أقصر بكثير من المتوقع",
+          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "عند ركوب الدراجة النارية أو السكوتر، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+        },
+        "de": {
+          "#A little longer than expected": "Etwas länger als erwartet",
+          "#A little shorter than expected": "Etwas kürzer als erwartet",
+          "#As expected": "Wie erwartet",
+          "#Much longer than expected": "Viel länger als erwartet",
+          "#Much shorter than expected": "Viel kürzer als erwartet",
+          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "Dauern Ihre Wege mit dem Motorrad oder Roller so lange wie erwartet?"
+        },
+        "en": {
+          "#A little longer than expected": "A little longer than expected",
+          "#A little shorter than expected": "A little shorter than expected",
+          "#As expected": "As expected",
+          "#Much longer than expected": "Much longer than expected",
+          "#Much shorter than expected": "Much shorter than expected",
+          "#When you ride a motorcycle or scooter, do your trips take as long as you expect?": "When you ride a motorcycle or scooter, do your trips take as long as you expect?"
+        },
+        "fa": {
+          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
           "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
           "#As expected": "مطابق انتظار",
           "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
@@ -207502,6 +208396,111 @@
         },
         "fa": {
           "#A little longer than expected": "کمی طولانی‌تر از حد انتظار",
+          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
+          "#As expected": "مطابق انتظار",
+          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
+          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
+          "#When you use public transport, do your trips take as long as you expect?": "هنگام استفاده از حمل‌ونقل عمومی، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+        },
+        "fr": {
+          "#A little longer than expected": "Un peu plus long que prévu",
+          "#A little shorter than expected": "Un peu plus court que prévu",
+          "#As expected": "Comme prévu",
+          "#Much longer than expected": "Beaucoup plus long que prévu",
+          "#Much shorter than expected": "Beaucoup plus court que prévu",
+          "#When you use public transport, do your trips take as long as you expect?": "Lorsque vous utilisez les transports en commun, vos trajets durent-ils aussi longtemps que prévu ?"
+        },
+        "hu": {
+          "#A little longer than expected": "Kicsit hosszabb a vártnál",
+          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
+          "#As expected": "A vártnak megfelelően",
+          "#Much longer than expected": "Sokkal hosszabb a vártnál",
+          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
+          "#When you use public transport, do your trips take as long as you expect?": "Tömegközlekedés közben az útjai annyi ideig tartanak, ahogy várja?"
+        },
+        "it": {
+          "#A little longer than expected": "Un po' più lungo del previsto",
+          "#A little shorter than expected": "Un po' più breve del previsto",
+          "#As expected": "Come previsto",
+          "#Much longer than expected": "Molto più lungo del previsto",
+          "#Much shorter than expected": "Molto più breve del previsto",
+          "#When you use public transport, do your trips take as long as you expect?": "Quando usi i mezzi pubblici, i tuoi spostamenti durano quanto ti aspetti?"
+        },
+        "tr": {
+          "#A little longer than expected": "Beklenenden biraz daha uzun",
+          "#A little shorter than expected": "Beklenenden biraz daha kısa",
+          "#As expected": "Beklendiği gibi",
+          "#Much longer than expected": "Beklediğimden çok daha uzun",
+          "#Much shorter than expected": "Beklediğimden çok daha kısa",
+          "#When you use public transport, do your trips take as long as you expect?": "Toplu taşıma kullanırken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+        }
+      }
+    },
+    {
+      "question_id": "put_time_vs_expected",
+      "key": "put_time_vs_expected",
+      "project": "shared",
+      "version": "1.0.1",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_public_transport_experience",
+      "source_questionnaires": [
+        "smarturbanity_public_transport_experience"
+      ],
+      "schema": {
+        "answer_key": "put_time_vs_expected",
+        "options": [
+          {
+            "text": "Much shorter than expected",
+            "value": "much_shorter"
+          },
+          {
+            "text": "A little shorter than expected",
+            "value": "shorter"
+          },
+          {
+            "text": "As expected",
+            "value": "as_expected"
+          },
+          {
+            "text": "A little longer than expected",
+            "value": "longer"
+          },
+          {
+            "text": "Much longer than expected",
+            "value": "much_longer"
+          }
+        ],
+        "privacy_classification": "heightened_personal",
+        "question_type": "single_option",
+        "text": "When you use public transport, do your trips take as long as you expect?"
+      },
+      "translations": {
+        "ar": {
+          "#A little longer than expected": "أطول قليلًا من المتوقع",
+          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
+          "#As expected": "كما هو متوقع",
+          "#Much longer than expected": "أطول بكثير من المتوقع",
+          "#Much shorter than expected": "أقصر بكثير من المتوقع",
+          "#When you use public transport, do your trips take as long as you expect?": "عند استخدام وسائل النقل العام، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+        },
+        "de": {
+          "#A little longer than expected": "Etwas länger als erwartet",
+          "#A little shorter than expected": "Etwas kürzer als erwartet",
+          "#As expected": "Wie erwartet",
+          "#Much longer than expected": "Viel länger als erwartet",
+          "#Much shorter than expected": "Viel kürzer als erwartet",
+          "#When you use public transport, do your trips take as long as you expect?": "Dauern Ihre Wege mit öffentlichen Verkehrsmitteln so lange wie erwartet?"
+        },
+        "en": {
+          "#A little longer than expected": "A little longer than expected",
+          "#A little shorter than expected": "A little shorter than expected",
+          "#As expected": "As expected",
+          "#Much longer than expected": "Much longer than expected",
+          "#Much shorter than expected": "Much shorter than expected",
+          "#When you use public transport, do your trips take as long as you expect?": "When you use public transport, do your trips take as long as you expect?"
+        },
+        "fa": {
+          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
           "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
           "#As expected": "مطابق انتظار",
           "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
@@ -259506,6 +260505,111 @@
           "#Much longer than expected": "Beklediğimden çok daha uzun",
           "#Much shorter than expected": "Beklediğimden çok daha kısa",
           "#When you walk, do your trips take as long as you expect?": "Yürürken yolculuklarınız beklediğiniz kadar sürüyor mu?"
+        }
+      }
+    },
+    {
+      "question_id": "walk_time_vs_expected",
+      "key": "walk_time_vs_expected",
+      "project": "shared",
+      "version": "1.1.0",
+      "status": "draft",
+      "origin_questionnaire": "smarturbanity_walking_experience",
+      "source_questionnaires": [
+        "smarturbanity_walking_experience"
+      ],
+      "schema": {
+        "answer_key": "walk_time_vs_expected",
+        "options": [
+          {
+            "text": "Much shorter than expected",
+            "value": "much_shorter"
+          },
+          {
+            "text": "A little shorter than expected",
+            "value": "shorter"
+          },
+          {
+            "text": "As expected",
+            "value": "as_expected"
+          },
+          {
+            "text": "A little longer than expected",
+            "value": "longer"
+          },
+          {
+            "text": "Much longer than expected",
+            "value": "much_longer"
+          }
+        ],
+        "privacy_classification": "heightened_personal",
+        "question_type": "single_option",
+        "text": "When you walk or use a wheelchair, do your trips take as long as you expect?"
+      },
+      "translations": {
+        "ar": {
+          "#A little longer than expected": "أطول قليلًا من المتوقع",
+          "#A little shorter than expected": "أقصر قليلًا من المتوقع",
+          "#As expected": "كما هو متوقع",
+          "#Much longer than expected": "أطول بكثير من المتوقع",
+          "#Much shorter than expected": "أقصر بكثير من المتوقع",
+          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "عند المشي أو التنقل بكرسي متحرك، هل تستغرق رحلاتك الوقت الذي تتوقعه؟"
+        },
+        "de": {
+          "#A little longer than expected": "Etwas länger als erwartet",
+          "#A little shorter than expected": "Etwas kürzer als erwartet",
+          "#As expected": "Wie erwartet",
+          "#Much longer than expected": "Viel länger als erwartet",
+          "#Much shorter than expected": "Viel kürzer als erwartet",
+          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Dauern Ihre Wege zu Fuß oder im Rollstuhl so lange wie erwartet?"
+        },
+        "en": {
+          "#A little longer than expected": "A little longer than expected",
+          "#A little shorter than expected": "A little shorter than expected",
+          "#As expected": "As expected",
+          "#Much longer than expected": "Much longer than expected",
+          "#Much shorter than expected": "Much shorter than expected",
+          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "When you walk or use a wheelchair, do your trips take as long as you expect?"
+        },
+        "fa": {
+          "#A little longer than expected": "کمی طولانی‌تر از انتظار",
+          "#A little shorter than expected": "کمی کوتاه‌تر از انتظار",
+          "#As expected": "مطابق انتظار",
+          "#Much longer than expected": "خیلی طولانی‌تر از انتظار",
+          "#Much shorter than expected": "خیلی کوتاه‌تر از انتظار",
+          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "هنگام پیاده‌روی یا حرکت با ویلچر، آیا سفرهایتان به اندازه‌ای که انتظار دارید طول می‌کشد؟"
+        },
+        "fr": {
+          "#A little longer than expected": "Un peu plus long que prévu",
+          "#A little shorter than expected": "Un peu plus court que prévu",
+          "#As expected": "Comme prévu",
+          "#Much longer than expected": "Beaucoup plus long que prévu",
+          "#Much shorter than expected": "Beaucoup plus court que prévu",
+          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, vos trajets durent-ils aussi longtemps que prévu ?"
+        },
+        "hu": {
+          "#A little longer than expected": "Kicsit hosszabb a vártnál",
+          "#A little shorter than expected": "Kicsit rövidebb a vártnál",
+          "#As expected": "A vártnak megfelelően",
+          "#Much longer than expected": "Sokkal hosszabb a vártnál",
+          "#Much shorter than expected": "Sokkal rövidebb a vártnál",
+          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Gyaloglás vagy kerekesszékes közlekedés közben az útjai annyi ideig tartanak, ahogy várja?"
+        },
+        "it": {
+          "#A little longer than expected": "Un po' più lungo del previsto",
+          "#A little shorter than expected": "Un po' più breve del previsto",
+          "#As expected": "Come previsto",
+          "#Much longer than expected": "Molto più lungo del previsto",
+          "#Much shorter than expected": "Molto più breve del previsto",
+          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Quando ti sposti a piedi o in sedia a rotelle, i tuoi spostamenti durano quanto ti aspetti?"
+        },
+        "tr": {
+          "#A little longer than expected": "Beklenenden biraz daha uzun",
+          "#A little shorter than expected": "Beklenenden biraz daha kısa",
+          "#As expected": "Beklendiği gibi",
+          "#Much longer than expected": "Beklediğimden çok daha uzun",
+          "#Much shorter than expected": "Beklediğimden çok daha kısa",
+          "#When you walk or use a wheelchair, do your trips take as long as you expect?": "Yürürken veya tekerlekli sandalyeyle ilerlerken yolculuklarınız beklediğiniz kadar sürüyor mu?"
         }
       }
     },
