@@ -2,16 +2,14 @@
   "question_id": "usual_mode",
   "key": "usual_mode",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_daily_travel",
   "source_questionnaires": [
-    "smarturbanity_daily_travel"
+    "smarturbanity_your_profile"
   ],
   "schema": {
-    "text": "Which travel mode do you most often use for your trips?",
     "answer_key": "usual_mode",
-    "question_type": "single_option",
     "options": [
       {
         "text": "Walking (as the main mode for the trip, not short access or transfer walking)",
@@ -54,112 +52,114 @@
         "value": "taxi_or_similar_service_e_g_uber_bolt"
       }
     ],
-    "privacy_classification": "heightened_personal"
+    "privacy_classification": "heightened_personal",
+    "question_type": "single_option",
+    "text": "Which travel mode do you most often use for your trips?"
   },
   "translations": {
-    "en": {
-      "#Which travel mode do you most often use for your trips?": "Which travel mode do you most often use for your trips?",
-      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Walking (as the main mode for the trip, not short access or transfer walking)",
-      "#Car": "Car",
-      "#Car sharing": "Car sharing",
-      "#Motorcycle": "Motorcycle",
-      "#Public transport": "Public transport",
-      "#Bicycle/e-bike (private)": "Bicycle/e-bike (private)",
-      "#Bicycle/e-bike (shared)": "Bicycle/e-bike (shared)",
-      "#e-scooter (private)": "e-scooter (private)",
-      "#e-scooter (shared)": "e-scooter (shared)",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi or similar service (e.g. Uber, Bolt)"
-    },
-    "it": {
-      "#Which travel mode do you most often use for your trips?": "Quale mezzo di trasporto utilizzi più frequentemente per i tuoi spostamenti?",
-      "#Walking (as the main mode for the trip, not short access or transfer walking)": "A piedi (come modalità principale dello spostamento, esclusi brevi tratti di accesso o trasferimento)",
-      "#Car": "Auto",
-      "#Car sharing": "Car sharing",
-      "#Motorcycle": "Moto",
-      "#Public transport": "Trasporto pubblico",
-      "#Bicycle/e-bike (private)": "Bicicletta/e-bike (privata)",
-      "#Bicycle/e-bike (shared)": "Bicicletta/e-bike (condivisa)",
-      "#e-scooter (private)": "Monopattino elettrico (privato)",
-      "#e-scooter (shared)": "Monopattino elettrico (condiviso)",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi o servizio simile (ad es. Uber, Bolt)"
-    },
-    "fr": {
-      "#Which travel mode do you most often use for your trips?": "Quel mode de transport utilisez-vous le plus souvent pour vos déplacements ?",
-      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Marche (comme mode principal du trajet, pas seulement pour rejoindre un autre mode ou faire une correspondance)",
-      "#Car": "Voiture",
-      "#Car sharing": "Autopartage",
-      "#Motorcycle": "Moto",
-      "#Public transport": "Transports publics",
-      "#Bicycle/e-bike (private)": "Vélo / vélo électrique (personnel)",
-      "#Bicycle/e-bike (shared)": "Vélo / vélo électrique (partagé)",
-      "#e-scooter (private)": "Trottinette électrique (personnelle)",
-      "#e-scooter (shared)": "Trottinette électrique (partagée)",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi ou service similaire (par ex. Uber, Bolt)"
-    },
-    "de": {
-      "#Which travel mode do you most often use for your trips?": "Welches Verkehrsmittel nutzen Sie für Ihre Wege am häufigsten?",
-      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Zu Fuß (als Hauptverkehrsmittel für den Weg, nicht nur für kurze Zuwege oder Umstiege)",
-      "#Car": "Auto",
-      "#Car sharing": "Carsharing",
-      "#Motorcycle": "Motorrad",
-      "#Public transport": "Öffentliche Verkehrsmittel",
-      "#Bicycle/e-bike (private)": "Fahrrad / E-Bike (privat)",
-      "#Bicycle/e-bike (shared)": "Fahrrad / E-Bike (Sharing)",
-      "#e-scooter (private)": "E-Scooter (privat)",
-      "#e-scooter (shared)": "E-Scooter (Sharing)",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi oder ähnlicher Fahrdienst (z. B. Uber, Bolt)"
-    },
-    "tr": {
-      "#Which travel mode do you most often use for your trips?": "Yolculuklarınızda en sık hangi ulaşım seçeneğini kullanıyorsunuz?",
-      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Yürüme (yolculuğun ana ulaşım şekli olarak; kısa erişim veya aktarma yürüyüşleri hariç)",
-      "#Car": "Otomobil",
-      "#Car sharing": "Araç paylaşımı",
-      "#Motorcycle": "Motosiklet",
-      "#Public transport": "Toplu taşıma",
-      "#Bicycle/e-bike (private)": "Bisiklet / elektrikli bisiklet (kişisel)",
-      "#Bicycle/e-bike (shared)": "Bisiklet / elektrikli bisiklet (paylaşımlı)",
-      "#e-scooter (private)": "E-scooter (kişisel)",
-      "#e-scooter (shared)": "E-scooter (paylaşımlı)",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "Taksi veya benzeri hizmet (ör. Uber, Bolt)"
-    },
-    "fa": {
-      "#Which travel mode do you most often use for your trips?": "برای سفرهای خود بیشتر از کدام روش رفت‌وآمد استفاده می‌کنید؟",
-      "#Walking (as the main mode for the trip, not short access or transfer walking)": "پیاده‌روی (به عنوان روش اصلی سفر، نه فقط پیاده‌روی کوتاه برای رسیدن به وسیله دیگر یا تعویض وسیله)",
-      "#Car": "خودرو",
-      "#Car sharing": "خودروی اشتراکی",
-      "#Motorcycle": "موتورسیکلت",
-      "#Public transport": "حمل‌ونقل عمومی",
-      "#Bicycle/e-bike (private)": "دوچرخه / دوچرخه برقی (شخصی)",
-      "#Bicycle/e-bike (shared)": "دوچرخه / دوچرخه برقی (اشتراکی)",
-      "#e-scooter (private)": "اسکوتر برقی (شخصی)",
-      "#e-scooter (shared)": "اسکوتر برقی (اشتراکی)",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "تاکسی یا خدمات مشابه (مثلاً Uber، Bolt)"
-    },
-    "hu": {
-      "#Which travel mode do you most often use for your trips?": "Melyik közlekedési módot használja a leggyakrabban?",
-      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Gyaloglás (az út fő közlekedési módjaként, nem csak rövid rá- vagy átszállási gyaloglásként)",
-      "#Car": "Autó",
-      "#Car sharing": "Autómegosztás",
-      "#Motorcycle": "Motorkerékpár",
-      "#Public transport": "Tömegközlekedés",
-      "#Bicycle/e-bike (private)": "Kerékpár / e-bike (saját)",
-      "#Bicycle/e-bike (shared)": "Kerékpár / e-bike (megosztott)",
-      "#e-scooter (private)": "Elektromos roller (saját)",
-      "#e-scooter (shared)": "Elektromos roller (megosztott)",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi vagy hasonló szolgáltatás (pl. Uber, Bolt)"
-    },
     "ar": {
-      "#Which travel mode do you most often use for your trips?": "ما وسيلة التنقل التي تستخدمها غالبًا في رحلاتك؟",
-      "#Walking (as the main mode for the trip, not short access or transfer walking)": "المشي (كوسيلة رئيسية للرحلة، وليس فقط للمشي القصير للوصول إلى وسيلة أخرى أو للتبديل بينها)",
+      "#Bicycle/e-bike (private)": "الدراجة / الدراجة الكهربائية (شخصية)",
+      "#Bicycle/e-bike (shared)": "الدراجة / الدراجة الكهربائية (مشتركة)",
       "#Car": "السيارة",
       "#Car sharing": "مشاركة السيارات",
       "#Motorcycle": "الدراجة النارية",
       "#Public transport": "النقل العام",
-      "#Bicycle/e-bike (private)": "الدراجة / الدراجة الكهربائية (شخصية)",
-      "#Bicycle/e-bike (shared)": "الدراجة / الدراجة الكهربائية (مشتركة)",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "سيارة أجرة أو خدمة مشابهة (مثل Uber وBolt)",
+      "#Walking (as the main mode for the trip, not short access or transfer walking)": "المشي (كوسيلة رئيسية للرحلة، وليس فقط للمشي القصير للوصول إلى وسيلة أخرى أو للتبديل بينها)",
+      "#Which travel mode do you most often use for your trips?": "ما وسيلة التنقل الأكثر استخدامًا في رحلاتك؟",
       "#e-scooter (private)": "السكوتر الكهربائي (شخصي)",
-      "#e-scooter (shared)": "السكوتر الكهربائي (مشترك)",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "سيارة أجرة أو خدمة مشابهة (مثل Uber وBolt)"
+      "#e-scooter (shared)": "السكوتر الكهربائي (مشترك)"
+    },
+    "de": {
+      "#Bicycle/e-bike (private)": "Fahrrad / E-Bike (privat)",
+      "#Bicycle/e-bike (shared)": "Fahrrad / E-Bike (Sharing)",
+      "#Car": "Auto",
+      "#Car sharing": "Carsharing",
+      "#Motorcycle": "Motorrad",
+      "#Public transport": "Öffentliche Verkehrsmittel",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi oder ähnlicher Fahrdienst (z. B. Uber, Bolt)",
+      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Zu Fuß (als Hauptverkehrsmittel für den Weg, nicht nur für kurze Zuwege oder Umstiege)",
+      "#Which travel mode do you most often use for your trips?": "Welches Verkehrsmittel nutzen Sie für Ihre Wege am häufigsten?",
+      "#e-scooter (private)": "E-Scooter (privat)",
+      "#e-scooter (shared)": "E-Scooter (Sharing)"
+    },
+    "en": {
+      "#Bicycle/e-bike (private)": "Bicycle/e-bike (private)",
+      "#Bicycle/e-bike (shared)": "Bicycle/e-bike (shared)",
+      "#Car": "Car",
+      "#Car sharing": "Car sharing",
+      "#Motorcycle": "Motorcycle",
+      "#Public transport": "Public transport",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi or similar service (e.g. Uber, Bolt)",
+      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Walking (as the main mode for the trip, not short access or transfer walking)",
+      "#Which travel mode do you most often use for your trips?": "Which travel mode do you most often use for your trips?",
+      "#e-scooter (private)": "e-scooter (private)",
+      "#e-scooter (shared)": "e-scooter (shared)"
+    },
+    "fa": {
+      "#Bicycle/e-bike (private)": "دوچرخه / دوچرخه برقی (شخصی)",
+      "#Bicycle/e-bike (shared)": "دوچرخه / دوچرخه برقی (اشتراکی)",
+      "#Car": "خودرو",
+      "#Car sharing": "خودروی اشتراکی",
+      "#Motorcycle": "موتورسیکلت",
+      "#Public transport": "حمل‌ونقل عمومی",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "تاکسی یا خدمات مشابه (مثلاً Uber، Bolt)",
+      "#Walking (as the main mode for the trip, not short access or transfer walking)": "پیاده‌روی (به عنوان روش اصلی سفر، نه فقط پیاده‌روی کوتاه برای رسیدن به وسیله دیگر یا تعویض وسیله)",
+      "#Which travel mode do you most often use for your trips?": "برای سفرهای خود بیشتر از کدام روش رفت‌وآمد استفاده می‌کنید؟",
+      "#e-scooter (private)": "اسکوتر برقی (شخصی)",
+      "#e-scooter (shared)": "اسکوتر برقی (اشتراکی)"
+    },
+    "fr": {
+      "#Bicycle/e-bike (private)": "Vélo / vélo électrique (personnel)",
+      "#Bicycle/e-bike (shared)": "Vélo / vélo électrique (partagé)",
+      "#Car": "Voiture",
+      "#Car sharing": "Autopartage",
+      "#Motorcycle": "Moto",
+      "#Public transport": "Transports publics",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi ou service similaire (par ex. Uber, Bolt)",
+      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Marche (comme mode principal du trajet, pas seulement pour rejoindre un autre mode ou faire une correspondance)",
+      "#Which travel mode do you most often use for your trips?": "Quel mode de transport utilisez-vous le plus souvent pour vos déplacements ?",
+      "#e-scooter (private)": "Trottinette électrique (personnelle)",
+      "#e-scooter (shared)": "Trottinette électrique (partagée)"
+    },
+    "hu": {
+      "#Bicycle/e-bike (private)": "Kerékpár / e-bike (saját)",
+      "#Bicycle/e-bike (shared)": "Kerékpár / e-bike (megosztott)",
+      "#Car": "Autó",
+      "#Car sharing": "Autómegosztás",
+      "#Motorcycle": "Motorkerékpár",
+      "#Public transport": "Tömegközlekedés",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi vagy hasonló szolgáltatás (pl. Uber, Bolt)",
+      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Gyaloglás (az út fő közlekedési módjaként, nem csak rövid rá- vagy átszállási gyaloglásként)",
+      "#Which travel mode do you most often use for your trips?": "Melyik közlekedési módot használja a leggyakrabban?",
+      "#e-scooter (private)": "Elektromos roller (saját)",
+      "#e-scooter (shared)": "Elektromos roller (megosztott)"
+    },
+    "it": {
+      "#Bicycle/e-bike (private)": "Bicicletta/e-bike (privata)",
+      "#Bicycle/e-bike (shared)": "Bicicletta/e-bike (condivisa)",
+      "#Car": "Auto",
+      "#Car sharing": "Car sharing",
+      "#Motorcycle": "Moto",
+      "#Public transport": "Trasporto pubblico",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi o servizio simile (ad es. Uber, Bolt)",
+      "#Walking (as the main mode for the trip, not short access or transfer walking)": "A piedi (come modalità principale dello spostamento, esclusi brevi tratti di accesso o trasferimento)",
+      "#Which travel mode do you most often use for your trips?": "Quale mezzo di trasporto utilizzi più frequentemente per i tuoi spostamenti?",
+      "#e-scooter (private)": "Monopattino elettrico (privato)",
+      "#e-scooter (shared)": "Monopattino elettrico (condiviso)"
+    },
+    "tr": {
+      "#Bicycle/e-bike (private)": "Bisiklet / elektrikli bisiklet (kişisel)",
+      "#Bicycle/e-bike (shared)": "Bisiklet / elektrikli bisiklet (paylaşımlı)",
+      "#Car": "Otomobil",
+      "#Car sharing": "Araç paylaşımı",
+      "#Motorcycle": "Motosiklet",
+      "#Public transport": "Toplu taşıma",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taksi veya benzeri hizmet (ör. Uber, Bolt)",
+      "#Walking (as the main mode for the trip, not short access or transfer walking)": "Yürüme (yolculuğun ana ulaşım şekli olarak; kısa erişim veya aktarma yürüyüşleri hariç)",
+      "#Which travel mode do you most often use for your trips?": "Yolculuklarınızda en sık hangi ulaşım seçeneğini kullanıyorsunuz?",
+      "#e-scooter (private)": "E-scooter (kişisel)",
+      "#e-scooter (shared)": "E-scooter (paylaşımlı)"
     }
   },
   "origin_project": {

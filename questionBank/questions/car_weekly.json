@@ -2,16 +2,15 @@
   "question_id": "car_weekly",
   "key": "car_weekly",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
-    "smarturbanity_car"
+    "smarturbanity_car_habits"
   ],
   "schema": {
-    "text": "Do you use a car for your daily travel at least once a week?",
     "answer_key": "car_weekly",
-    "question_type": "single_option",
+    "help": "As the driver or as a passenger, also car sharing.",
     "options": [
       {
         "text": "Yes",
@@ -22,48 +21,58 @@
         "value": "no"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Do you travel by car at least once a week?"
   },
   "translations": {
-    "en": {
-      "#Do you use a car for your daily travel at least once a week?": "Do you use a car for your daily travel at least once a week?",
-      "#Yes": "Yes",
-      "#No": "No"
-    },
-    "it": {
-      "#Do you use a car for your daily travel at least once a week?": "Utilizzi l'auto per i tuoi spostamenti quotidiani almeno una volta alla settimana?",
-      "#Yes": "Sì",
-      "#No": "No"
-    },
-    "fr": {
-      "#Do you use a car for your daily travel at least once a week?": "Utilisez-vous une voiture pour vos déplacements quotidiens au moins une fois par semaine ?",
-      "#Yes": "Oui",
-      "#No": "Non"
+    "ar": {
+      "#As the driver or as a passenger, also car sharing.": "سواء كنت السائق أو راكبًا، وتشمل مشاركة السيارة.",
+      "#Do you travel by car at least once a week?": "هل تتنقل بالسيارة مرة واحدة على الأقل في الأسبوع؟",
+      "#No": "لا",
+      "#Yes": "نعم"
     },
     "de": {
-      "#Do you use a car for your daily travel at least once a week?": "Nutzen Sie mindestens einmal pro Woche ein Auto für Ihre täglichen Wege?",
-      "#Yes": "Ja",
-      "#No": "Nein"
+      "#As the driver or as a passenger, also car sharing.": "Als Fahrer oder Fahrerin oder als Mitfahrende, auch Carsharing.",
+      "#Do you travel by car at least once a week?": "Fahren Sie mindestens einmal pro Woche Auto?",
+      "#No": "Nein",
+      "#Yes": "Ja"
     },
-    "tr": {
-      "#Do you use a car for your daily travel at least once a week?": "Günlük yolculuklarınızda haftada en az bir kez otomobil kullanıyor musunuz?",
-      "#Yes": "Evet",
-      "#No": "Hayır"
+    "en": {
+      "#As the driver or as a passenger, also car sharing.": "As the driver or as a passenger, also car sharing.",
+      "#Do you travel by car at least once a week?": "Do you travel by car at least once a week?",
+      "#No": "No",
+      "#Yes": "Yes"
     },
     "fa": {
-      "#Do you use a car for your daily travel at least once a week?": "آیا حداقل هفته‌ای یک بار برای رفت‌وآمد روزانه از خودرو استفاده می‌کنید؟",
-      "#Yes": "بله",
-      "#No": "خیر"
+      "#As the driver or as a passenger, also car sharing.": "چه راننده باشید چه سرنشین، و همچنین خودروی اشتراکی.",
+      "#Do you travel by car at least once a week?": "آیا حداقل هفته‌ای یک بار با خودرو سفر می‌کنید؟",
+      "#No": "خیر",
+      "#Yes": "بله"
+    },
+    "fr": {
+      "#As the driver or as a passenger, also car sharing.": "Comme conducteur ou comme passager, y compris en autopartage.",
+      "#Do you travel by car at least once a week?": "Vous déplacez-vous en voiture au moins une fois par semaine ?",
+      "#No": "Non",
+      "#Yes": "Oui"
     },
     "hu": {
-      "#Do you use a car for your daily travel at least once a week?": "Használ autót a mindennapi közlekedéshez legalább hetente egyszer?",
-      "#Yes": "Igen",
-      "#No": "Nem"
+      "#As the driver or as a passenger, also car sharing.": "Vezetőként vagy utasként, az autómegosztás is számít.",
+      "#Do you travel by car at least once a week?": "Utazik autóval legalább hetente egyszer?",
+      "#No": "Nem",
+      "#Yes": "Igen"
     },
-    "ar": {
-      "#Do you use a car for your daily travel at least once a week?": "هل تستخدم السيارة في تنقلاتك اليومية مرة واحدة على الأقل في الأسبوع؟",
-      "#Yes": "نعم",
-      "#No": "لا"
+    "it": {
+      "#As the driver or as a passenger, also car sharing.": "Alla guida o come passeggero, anche con il car sharing.",
+      "#Do you travel by car at least once a week?": "Vai in auto almeno una volta a settimana?",
+      "#No": "No",
+      "#Yes": "Sì"
+    },
+    "tr": {
+      "#As the driver or as a passenger, also car sharing.": "Sürücü veya yolcu olarak, araç paylaşımı da dahil.",
+      "#Do you travel by car at least once a week?": "Haftada en az bir kez otomobille yolculuk yapıyor musunuz?",
+      "#No": "Hayır",
+      "#Yes": "Evet"
     }
   },
   "origin_project": {

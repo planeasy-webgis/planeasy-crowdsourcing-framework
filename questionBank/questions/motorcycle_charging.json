@@ -2,116 +2,116 @@
   "question_id": "motorcycle_charging",
   "key": "motorcycle_charging",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle",
   "source_questionnaires": [
-    "smarturbanity_motorcycle"
+    "smarturbanity_motorcycle_comfort"
   ],
   "schema": {
-    "text": "To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?",
-    "answer_key": "moto_charging",
-    "question_type": "single_option",
+    "answer_key": "motorcycle_charging",
     "options": [
       {
-        "text": "I don't have an electric vehicle, so this doesn't apply to me",
-        "value": "i_don_t_have_an_electric_vehicle_so_this"
-      },
-      {
-        "text": "Not at all influential",
+        "text": "Not at all",
         "value": "not_at_all_influential"
       },
       {
-        "text": "Slightly influential",
+        "text": "A little",
         "value": "slightly_influential"
       },
       {
-        "text": "Moderately influential",
+        "text": "Moderately",
         "value": "moderately_influential"
       },
       {
-        "text": "Very influential",
+        "text": "A lot",
         "value": "very_influential"
       },
       {
-        "text": "Extremely influential",
+        "text": "Very much",
         "value": "extremely_influential"
+      },
+      {
+        "text": "Not for me: my vehicle isn't electric",
+        "value": "i_don_t_have_an_electric_vehicle_so_this"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "How much do charging points affect whether you use your electric motorcycle or scooter?"
   },
   "translations": {
-    "en": {
-      "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?",
-      "#I don't have an electric vehicle, so this doesn't apply to me": "I don't have an electric vehicle, so this doesn't apply to me",
-      "#Not at all influential": "Not at all influential",
-      "#Slightly influential": "Slightly influential",
-      "#Moderately influential": "Moderately influential",
-      "#Very influential": "Very influential",
-      "#Extremely influential": "Extremely influential"
-    },
-    "it": {
-      "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "In che misura la presenza di stazioni di ricarica per moto o scooter elettrici influenza la tua propensione a utilizzare il tuo veicolo?",
-      "#I don't have an electric vehicle, so this doesn't apply to me": "Non possiedo un veicolo elettrico, quindi questa domanda non si applica al mio caso",
-      "#Not at all influential": "Per niente influente",
-      "#Slightly influential": "Poco influente",
-      "#Moderately influential": "Moderatamente influente",
-      "#Very influential": "Molto influente",
-      "#Extremely influential": "Estremamente influente"
-    },
-    "fr": {
-      "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "Dans quelle mesure la présence de bornes de recharge pour motos ou scooters électriques influence-t-elle votre envie d’utiliser votre véhicule ?",
-      "#I don't have an electric vehicle, so this doesn't apply to me": "Je n’ai pas de véhicule électrique, donc cette question ne me concerne pas",
-      "#Not at all influential": "Pas du tout",
-      "#Slightly influential": "Un peu",
-      "#Moderately influential": "Modérément",
-      "#Very influential": "Beaucoup",
-      "#Extremely influential": "Énormément"
+    "ar": {
+      "#A little": "قليلًا",
+      "#A lot": "كثيرًا",
+      "#How much do charging points affect whether you use your electric motorcycle or scooter?": "إلى أي مدى تؤثر محطات الشحن في استخدامك لدراجتك النارية أو سكوترك الكهربائي؟",
+      "#Moderately": "بدرجة متوسطة",
+      "#Not at all": "على الإطلاق",
+      "#Not for me: my vehicle isn't electric": "لا ينطبق عليّ: مركبتي ليست كهربائية",
+      "#Very much": "كثيرًا جدًا"
     },
     "de": {
-      "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "Wie stark beeinflusst das Vorhandensein von Ladestationen für elektrische Motorräder oder Roller Ihre Bereitschaft, Ihr Fahrzeug zu nutzen?",
-      "#I don't have an electric vehicle, so this doesn't apply to me": "Ich habe kein Elektrofahrzeug, daher trifft das auf mich nicht zu",
-      "#Not at all influential": "Gar nicht",
-      "#Slightly influential": "Etwas",
-      "#Moderately influential": "Mäßig",
-      "#Very influential": "Stark",
-      "#Extremely influential": "Sehr stark"
+      "#A little": "Ein wenig",
+      "#A lot": "Stark",
+      "#How much do charging points affect whether you use your electric motorcycle or scooter?": "Wie sehr beeinflussen Ladepunkte, ob Sie Ihr Elektromotorrad oder Ihren Elektroroller nutzen?",
+      "#Moderately": "Mittel",
+      "#Not at all": "Gar nicht",
+      "#Not for me: my vehicle isn't electric": "Trifft auf mich nicht zu: Mein Fahrzeug ist nicht elektrisch",
+      "#Very much": "Sehr stark"
     },
-    "tr": {
-      "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "Elektrikli motosiklet veya scooter için şarj istasyonlarının bulunması aracınızı kullanma isteğinizi ne ölçüde etkiler?",
-      "#I don't have an electric vehicle, so this doesn't apply to me": "Elektrikli aracım yok, bu nedenle bu soru benim için geçerli değil",
-      "#Not at all influential": "Hiç etkilemez",
-      "#Slightly influential": "Biraz etkiler",
-      "#Moderately influential": "Orta düzeyde etkiler",
-      "#Very influential": "Çok etkiler",
-      "#Extremely influential": "Çok güçlü etkiler"
+    "en": {
+      "#A little": "A little",
+      "#A lot": "A lot",
+      "#How much do charging points affect whether you use your electric motorcycle or scooter?": "How much do charging points affect whether you use your electric motorcycle or scooter?",
+      "#Moderately": "Moderately",
+      "#Not at all": "Not at all",
+      "#Not for me: my vehicle isn't electric": "Not for me: my vehicle isn't electric",
+      "#Very much": "Very much"
     },
     "fa": {
-      "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "وجود ایستگاه شارژ برای موتورسیکلت یا اسکوتر برقی تا چه اندازه بر تمایل شما به استفاده از وسیله‌تان اثر دارد؟",
-      "#I don't have an electric vehicle, so this doesn't apply to me": "وسیله برقی ندارم، پس این موضوع برای من کاربرد ندارد",
-      "#Not at all influential": "اصلاً اثر ندارد",
-      "#Slightly influential": "کمی اثر دارد",
-      "#Moderately influential": "تا حد متوسط اثر دارد",
-      "#Very influential": "زیاد اثر دارد",
-      "#Extremely influential": "خیلی زیاد اثر دارد"
+      "#A little": "کمی",
+      "#A lot": "زیاد",
+      "#How much do charging points affect whether you use your electric motorcycle or scooter?": "ایستگاه‌های شارژ چقدر بر استفاده شما از موتورسیکلت یا اسکوتر برقی‌تان اثر می‌گذارند؟",
+      "#Moderately": "تا حدی",
+      "#Not at all": "اصلاً",
+      "#Not for me: my vehicle isn't electric": "مربوط به من نیست: وسیله من برقی نیست",
+      "#Very much": "خیلی زیاد"
+    },
+    "fr": {
+      "#A little": "Un peu",
+      "#A lot": "Beaucoup",
+      "#How much do charging points affect whether you use your electric motorcycle or scooter?": "Dans quelle mesure les bornes de recharge influencent-elles votre usage de votre moto ou scooter électrique ?",
+      "#Moderately": "Modérément",
+      "#Not at all": "Pas du tout",
+      "#Not for me: my vehicle isn't electric": "Cela ne me concerne pas : mon véhicule n'est pas électrique",
+      "#Very much": "Énormément"
     },
     "hu": {
-      "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "Mennyire befolyásolja az elektromos motorkerékpárok vagy robogók töltőállomásainak elérhetősége azt, hogy szívesen használja-e a járművét?",
-      "#I don't have an electric vehicle, so this doesn't apply to me": "Nincs elektromos járművem, ezért ez nem vonatkozik rám",
-      "#Not at all influential": "Egyáltalán nem befolyásolja",
-      "#Slightly influential": "Kissé befolyásolja",
-      "#Moderately influential": "Közepesen befolyásolja",
-      "#Very influential": "Nagyon befolyásolja",
-      "#Extremely influential": "Rendkívül befolyásolja"
+      "#A little": "Kissé",
+      "#A lot": "Nagyon",
+      "#How much do charging points affect whether you use your electric motorcycle or scooter?": "Mennyire befolyásolják a töltőpontok, hogy használja-e az elektromos motorkerékpárját vagy robogóját?",
+      "#Moderately": "Közepesen",
+      "#Not at all": "Egyáltalán nem",
+      "#Not for me: my vehicle isn't electric": "Rám nem vonatkozik: a járművem nem elektromos",
+      "#Very much": "Nagyon"
     },
-    "ar": {
-      "#To what extent does the presence of charging stations (for electric motorcycles/scooters) influence your willingness to use your vehicle?": "إلى أي مدى يؤثر توفر محطات شحن للدراجات النارية أو السكوتر الكهربائية في رغبتك في استخدام مركبتك؟",
-      "#I don't have an electric vehicle, so this doesn't apply to me": "ليس لدي مركبة كهربائية، لذلك لا ينطبق هذا عليّ",
-      "#Not at all influential": "لا يؤثر إطلاقًا",
-      "#Slightly influential": "يؤثر قليلًا",
-      "#Moderately influential": "يؤثر بدرجة متوسطة",
-      "#Very influential": "يؤثر كثيرًا",
-      "#Extremely influential": "يؤثر بدرجة كبيرة جدًا"
+    "it": {
+      "#A little": "Un po'",
+      "#A lot": "Molto",
+      "#How much do charging points affect whether you use your electric motorcycle or scooter?": "Quanto contano le colonnine di ricarica per usare la tua moto o il tuo scooter elettrico?",
+      "#Moderately": "Abbastanza",
+      "#Not at all": "Per niente",
+      "#Not for me: my vehicle isn't electric": "Non mi riguarda: il mio veicolo non è elettrico",
+      "#Very much": "Moltissimo"
+    },
+    "tr": {
+      "#A little": "Biraz",
+      "#A lot": "Çok",
+      "#How much do charging points affect whether you use your electric motorcycle or scooter?": "Şarj noktaları elektrikli motosikletinizi veya scooter'ınızı kullanıp kullanmamanızı ne kadar etkiliyor?",
+      "#Moderately": "Orta derecede",
+      "#Not at all": "Hiç",
+      "#Not for me: my vehicle isn't electric": "Bu soru benim için geçerli değil: Aracım elektrikli değil",
+      "#Very much": "Çok fazla"
     }
   },
   "origin_project": {

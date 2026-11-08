@@ -2,104 +2,113 @@
   "question_id": "motorcycle_hazard_confidence",
   "key": "motorcycle_hazard_confidence",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle",
   "source_questionnaires": [
-    "smarturbanity_motorcycle"
+    "smarturbanity_motorcycle_road_safety"
   ],
   "schema": {
-    "text": "How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?",
-    "answer_key": "moto_hazard_confidence",
-    "question_type": "single_option",
+    "answer_key": "motorcycle_hazard_confidence",
+    "help": "For example a car door opening suddenly, or a driver changing lane or turning without checking.",
     "options": [
       {
-        "text": "Not at all confident",
+        "text": "Not at all",
         "value": "not_confident"
       },
       {
-        "text": "Slightly confident",
+        "text": "A little",
         "value": "slightly_confident"
       },
       {
-        "text": "Moderately confident",
+        "text": "Moderately",
         "value": "moderately_confident"
       },
       {
-        "text": "Quite confident",
+        "text": "Quite",
         "value": "very_confident"
       },
       {
-        "text": "Extremely confident",
+        "text": "Very",
         "value": "extremely_confident"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?"
   },
   "translations": {
-    "en": {
-      "#How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?": "How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?",
-      "#Not at all confident": "Not at all confident",
-      "#Slightly confident": "Slightly confident",
-      "#Moderately confident": "Moderately confident",
-      "#Quite confident": "Quite confident",
-      "#Extremely confident": "Extremely confident"
-    },
-    "it": {
-      "#How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?": "Quanta fiducia hai nella tua capacità di evitare incidenti causati dall'apertura improvvisa delle portiere delle auto o da chi guida senza controllare gli angoli ciechi?",
-      "#Not at all confident": "Nessuna fiducia",
-      "#Slightly confident": "Poca fiducia",
-      "#Moderately confident": "Fiducia moderata",
-      "#Quite confident": "Buona fiducia",
-      "#Extremely confident": "Moltissima fiducia"
-    },
-    "fr": {
-      "#How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?": "À quel point vous sentez-vous capable d’éviter un accident causé par une portière de voiture qui s’ouvre soudainement ou par une personne au volant qui ne vérifie pas son angle mort ?",
-      "#Not at all confident": "Pas du tout en confiance",
-      "#Slightly confident": "Un peu en confiance",
-      "#Moderately confident": "Modérément en confiance",
-      "#Quite confident": "Plutôt en confiance",
-      "#Extremely confident": "Tout à fait en confiance"
+    "ar": {
+      "#A little": "قليلًا",
+      "#For example a car door opening suddenly, or a driver changing lane or turning without checking.": "مثل فتح باب سيارة فجأة، أو سائق يغيّر مساره أو ينعطف دون أن ينظر.",
+      "#How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?": "ما مدى ثقتك بأنك تستطيع تجنب الاصطدام عندما يُفتح باب سيارة أو لا يراك أحد السائقين؟",
+      "#Moderately": "بدرجة متوسطة",
+      "#Not at all": "على الإطلاق",
+      "#Quite": "إلى حد كبير",
+      "#Very": "كثيرًا"
     },
     "de": {
-      "#How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?": "Wie sicher fühlen Sie sich darin, Unfälle durch plötzlich geöffnete Autotüren oder nicht kontrollierte tote Winkel zu vermeiden?",
-      "#Not at all confident": "Gar nicht sicher",
-      "#Slightly confident": "Etwas sicher",
-      "#Moderately confident": "Mäßig sicher",
-      "#Quite confident": "Ziemlich sicher",
-      "#Extremely confident": "Sehr sicher"
+      "#A little": "Ein wenig",
+      "#For example a car door opening suddenly, or a driver changing lane or turning without checking.": "Zum Beispiel eine plötzlich aufgehende Autotür oder ein Fahrer, der ohne zu schauen die Spur wechselt oder abbiegt.",
+      "#How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?": "Wie sicher sind Sie, einen Zusammenstoß zu vermeiden, wenn eine Autotür aufgeht oder ein Fahrer Sie nicht sieht?",
+      "#Moderately": "Mittel",
+      "#Not at all": "Gar nicht",
+      "#Quite": "Ziemlich",
+      "#Very": "Sehr"
     },
-    "tr": {
-      "#How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?": "Aniden açılan otomobil kapıları veya sürücülerin kör noktayı kontrol etmemesi nedeniyle oluşabilecek kazalardan kaçınma konusunda kendinizi ne kadar güvende hissediyorsunuz?",
-      "#Not at all confident": "Hiç güvende hissetmiyorum",
-      "#Slightly confident": "Biraz güvende hissediyorum",
-      "#Moderately confident": "Orta düzeyde güvende hissediyorum",
-      "#Quite confident": "Oldukça güvende hissediyorum",
-      "#Extremely confident": "Çok güvende hissediyorum"
+    "en": {
+      "#A little": "A little",
+      "#For example a car door opening suddenly, or a driver changing lane or turning without checking.": "For example a car door opening suddenly, or a driver changing lane or turning without checking.",
+      "#How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?": "How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?",
+      "#Moderately": "Moderately",
+      "#Not at all": "Not at all",
+      "#Quite": "Quite",
+      "#Very": "Very"
     },
     "fa": {
-      "#How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?": "در جلوگیری از تصادف ناشی از باز شدن ناگهانی در خودرو یا بررسی نکردن نقطه کور توسط رانندگان چقدر به توانایی خود اطمینان دارید؟",
-      "#Not at all confident": "اصلاً مطمئن نیستم",
-      "#Slightly confident": "کمی مطمئنم",
-      "#Moderately confident": "تا حد متوسط مطمئنم",
-      "#Quite confident": "نسبتاً مطمئنم",
-      "#Extremely confident": "خیلی مطمئنم"
+      "#A little": "کمی",
+      "#For example a car door opening suddenly, or a driver changing lane or turning without checking.": "مثلاً باز شدن ناگهانی در خودرو، یا راننده‌ای که بدون نگاه کردن خط را عوض می‌کند یا می‌پیچد.",
+      "#How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?": "چقدر مطمئن هستید که وقتی در خودرو باز می‌شود یا راننده شما را نمی‌بیند، می‌توانید از برخورد جلوگیری کنید؟",
+      "#Moderately": "تا حدی",
+      "#Not at all": "اصلاً",
+      "#Quite": "تا حد زیادی",
+      "#Very": "بسیار"
+    },
+    "fr": {
+      "#A little": "Un peu",
+      "#For example a car door opening suddenly, or a driver changing lane or turning without checking.": "Par exemple une portière qui s'ouvre brusquement, ou un conducteur qui change de voie ou tourne sans regarder.",
+      "#How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?": "Dans quelle mesure êtes-vous sûr de pouvoir éviter une collision quand une portière s'ouvre ou qu'un conducteur ne vous voit pas ?",
+      "#Moderately": "Modérément",
+      "#Not at all": "Pas du tout",
+      "#Quite": "Assez",
+      "#Very": "Très"
     },
     "hu": {
-      "#How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?": "Mennyire érzi magát magabiztosnak abban, hogy elkerülje a hirtelen kinyíló autóajtó vagy a holttér ellenőrzésének elmulasztása miatt kialakuló balesetet?",
-      "#Not at all confident": "Egyáltalán nem vagyok magabiztos",
-      "#Slightly confident": "Kissé magabiztos vagyok",
-      "#Moderately confident": "Közepesen magabiztos vagyok",
-      "#Quite confident": "Elég magabiztos vagyok",
-      "#Extremely confident": "Nagyon magabiztos vagyok"
+      "#A little": "Kissé",
+      "#For example a car door opening suddenly, or a driver changing lane or turning without checking.": "Például hirtelen kinyíló autóajtó, vagy olyan járművezető, aki ellenőrzés nélkül sávot vált vagy kanyarodik.",
+      "#How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?": "Mennyire biztos benne, hogy el tudja kerülni az ütközést, ha kinyílik egy autóajtó, vagy egy járművezető nem veszi észre?",
+      "#Moderately": "Közepesen",
+      "#Not at all": "Egyáltalán nem",
+      "#Quite": "Meglehetősen",
+      "#Very": "Nagyon"
     },
-    "ar": {
-      "#How confident are you in your ability to avoid accidents caused by “dooring” (car doors opening suddenly) or drivers failing to check blind spots?": "ما مدى ثقتك في قدرتك على تجنب الحوادث الناتجة عن فتح باب سيارة فجأة أو عدم فحص النقطة العمياء من جانب من يقود؟",
-      "#Not at all confident": "لا ثقة إطلاقًا",
-      "#Slightly confident": "ثقة قليلة",
-      "#Moderately confident": "ثقة متوسطة",
-      "#Quite confident": "ثقة كبيرة",
-      "#Extremely confident": "ثقة كبيرة جدًا"
+    "it": {
+      "#A little": "Un po'",
+      "#For example a car door opening suddenly, or a driver changing lane or turning without checking.": "Per esempio una portiera che si apre all'improvviso, o un automobilista che cambia corsia o gira senza controllare.",
+      "#How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?": "Quanto sei sicuro di riuscire a evitare uno scontro quando si apre una portiera o un automobilista non ti vede?",
+      "#Moderately": "Abbastanza",
+      "#Not at all": "Per niente",
+      "#Quite": "Molto",
+      "#Very": "Molto"
+    },
+    "tr": {
+      "#A little": "Biraz",
+      "#For example a car door opening suddenly, or a driver changing lane or turning without checking.": "Örneğin aniden açılan bir araba kapısı veya kontrol etmeden şerit değiştiren ya da dönen bir sürücü.",
+      "#How confident are you that you can avoid a crash when a car door opens or a driver doesn't see you?": "Bir araba kapısı açıldığında veya bir sürücü sizi görmediğinde çarpışmayı önleyebileceğinizden ne kadar eminsiniz?",
+      "#Moderately": "Orta derecede",
+      "#Not at all": "Hiç",
+      "#Quite": "Oldukça",
+      "#Very": "Çok"
     }
   },
   "origin_project": {

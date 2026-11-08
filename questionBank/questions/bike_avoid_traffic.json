@@ -2,104 +2,104 @@
   "question_id": "bike_avoid_traffic",
   "key": "bike_avoid_traffic",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling",
   "source_questionnaires": [
-    "smarturbanity_cycling"
+    "smarturbanity_cycling_road_safety"
   ],
   "schema": {
-    "text": "How do traffic levels and vehicle speeds on your cycling route typically affect your journey?",
     "answer_key": "bike_avoid_traffic",
-    "question_type": "single_option",
     "options": [
       {
-        "text": "Not at all — traffic does not affect my cycling experience",
+        "text": "No, traffic doesn't bother me",
         "value": "not_at_all_traffic_does_not_affect_my_cy"
       },
       {
-        "text": "Slightly — I notice traffic, but it rarely affects my comfort or route",
+        "text": "I notice it, but it rarely changes my comfort or route",
         "value": "slightly_i_notice_traffic_but_it_rarely"
       },
       {
-        "text": "Moderately — traffic sometimes reduces my comfort or enjoyment while cycling",
+        "text": "It sometimes makes cycling less pleasant",
         "value": "moderately_traffic_sometimes_reduces_my"
       },
       {
-        "text": "Significantly — traffic often makes me feel stressed or unsafe",
+        "text": "It often makes me feel stressed or unsafe",
         "value": "significantly_traffic_often_makes_me_fee"
       },
       {
-        "text": "Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic",
+        "text": "I change my route or time to avoid it",
         "value": "very_significantly_i_change_my_route_or"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Does heavy or fast traffic on your route change how you cycle?"
   },
   "translations": {
-    "en": {
-      "#How do traffic levels and vehicle speeds on your cycling route typically affect your journey?": "How do traffic levels and vehicle speeds on your cycling route typically affect your journey?",
-      "#Not at all — traffic does not affect my cycling experience": "Not at all — traffic does not affect my cycling experience",
-      "#Slightly — I notice traffic, but it rarely affects my comfort or route": "Slightly — I notice traffic, but it rarely affects my comfort or route",
-      "#Moderately — traffic sometimes reduces my comfort or enjoyment while cycling": "Moderately — traffic sometimes reduces my comfort or enjoyment while cycling",
-      "#Significantly — traffic often makes me feel stressed or unsafe": "Significantly — traffic often makes me feel stressed or unsafe",
-      "#Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic": "Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic"
-    },
-    "it": {
-      "#How do traffic levels and vehicle speeds on your cycling route typically affect your journey?": "In che modo il livello di traffico e la velocità dei veicoli lungo il tuo percorso ciclabile influenzano normalmente il tuo viaggio?",
-      "#Not at all — traffic does not affect my cycling experience": "Per niente — il traffico non influisce sulla mia esperienza in bicicletta",
-      "#Slightly — I notice traffic, but it rarely affects my comfort or route": "Poco — noto il traffico, ma raramente influisce sul mio comfort o sul percorso",
-      "#Moderately — traffic sometimes reduces my comfort or enjoyment while cycling": "Moderatamente — il traffico a volte riduce il mio comfort o il piacere di pedalare",
-      "#Significantly — traffic often makes me feel stressed or unsafe": "Molto — il traffico mi mette spesso sotto stress o mi fa sentire in pericolo",
-      "#Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic": "Moltissimo — cambio percorso o orario di viaggio appositamente per evitare traffico intenso o veloce"
-    },
-    "fr": {
-      "#How do traffic levels and vehicle speeds on your cycling route typically affect your journey?": "Comment le niveau de trafic et la vitesse des véhicules sur votre itinéraire à vélo influencent-ils généralement votre trajet ?",
-      "#Not at all — traffic does not affect my cycling experience": "Pas du tout — le trafic n’a pas d’effet sur mon expérience à vélo",
-      "#Slightly — I notice traffic, but it rarely affects my comfort or route": "Un peu — je remarque le trafic, mais il change rarement mon confort ou mon itinéraire",
-      "#Moderately — traffic sometimes reduces my comfort or enjoyment while cycling": "Modérément — le trafic réduit parfois mon confort ou le plaisir de faire du vélo",
-      "#Significantly — traffic often makes me feel stressed or unsafe": "Beaucoup — le trafic me cause souvent du stress ou un sentiment de danger",
-      "#Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic": "Énormément — je change mon itinéraire ou mon heure de déplacement pour éviter un trafic dense ou rapide"
+    "ar": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "هل تغيّر حركة المرور الكثيفة أو السريعة على طريقك طريقة ركوبك للدراجة؟",
+      "#I change my route or time to avoid it": "أغيّر طريقي أو وقتي لتجنبها",
+      "#I notice it, but it rarely changes my comfort or route": "ألاحظها، لكنها نادرًا ما تغيّر راحتي أو طريقي",
+      "#It often makes me feel stressed or unsafe": "تجعلني غالبًا أشعر بالتوتر أو بعدم الأمان",
+      "#It sometimes makes cycling less pleasant": "تجعل ركوب الدراجة أقل متعة أحيانًا",
+      "#No, traffic doesn't bother me": "لا، حركة المرور لا تزعجني"
     },
     "de": {
-      "#How do traffic levels and vehicle speeds on your cycling route typically affect your journey?": "Wie beeinflussen Verkehrsmenge und Geschwindigkeit der Fahrzeuge auf Ihrer Radstrecke normalerweise Ihre Fahrt?",
-      "#Not at all — traffic does not affect my cycling experience": "Gar nicht — der Verkehr beeinflusst mein Radfahren nicht",
-      "#Slightly — I notice traffic, but it rarely affects my comfort or route": "Etwas — ich bemerke den Verkehr, aber er beeinflusst Komfort oder Route nur selten",
-      "#Moderately — traffic sometimes reduces my comfort or enjoyment while cycling": "Mäßig — der Verkehr macht das Radfahren manchmal weniger angenehm",
-      "#Significantly — traffic often makes me feel stressed or unsafe": "Stark — der Verkehr führt oft dazu, dass ich mich gestresst oder unsicher fühle",
-      "#Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic": "Sehr stark — ich ändere gezielt Route oder Fahrzeit, um starken oder schnellen Verkehr zu vermeiden"
+      "#Does heavy or fast traffic on your route change how you cycle?": "Verändert starker oder schneller Verkehr auf Ihrer Strecke, wie Sie Rad fahren?",
+      "#I change my route or time to avoid it": "Ich ändere Route oder Zeit, um es zu vermeiden",
+      "#I notice it, but it rarely changes my comfort or route": "Ich merke es, aber es ändert selten mein Wohlbefinden oder meine Strecke",
+      "#It often makes me feel stressed or unsafe": "Oft fühle ich mich dadurch gestresst oder unsicher",
+      "#It sometimes makes cycling less pleasant": "Manchmal macht es das Radfahren weniger angenehm",
+      "#No, traffic doesn't bother me": "Nein, der Verkehr stört mich nicht"
     },
-    "tr": {
-      "#How do traffic levels and vehicle speeds on your cycling route typically affect your journey?": "Bisiklet güzergâhınızdaki trafik yoğunluğu ve araç hızları yolculuğunuzu genellikle nasıl etkiler?",
-      "#Not at all — traffic does not affect my cycling experience": "Hiç etkilemez — trafik bisiklet deneyimimi etkilemez",
-      "#Slightly — I notice traffic, but it rarely affects my comfort or route": "Biraz — trafiği fark ederim ama konforumu veya güzergâhımı nadiren etkiler",
-      "#Moderately — traffic sometimes reduces my comfort or enjoyment while cycling": "Orta düzeyde — trafik bazen bisiklet sürerken konforumu veya keyfimi azaltır",
-      "#Significantly — traffic often makes me feel stressed or unsafe": "Çok — trafik sık sık stresli veya güvensiz hissetmeme neden olur",
-      "#Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic": "Çok fazla — yoğun veya hızlı trafikten kaçınmak için güzergâhımı veya yolculuk saatimi değiştiririm"
+    "en": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "Does heavy or fast traffic on your route change how you cycle?",
+      "#I change my route or time to avoid it": "I change my route or time to avoid it",
+      "#I notice it, but it rarely changes my comfort or route": "I notice it, but it rarely changes my comfort or route",
+      "#It often makes me feel stressed or unsafe": "It often makes me feel stressed or unsafe",
+      "#It sometimes makes cycling less pleasant": "It sometimes makes cycling less pleasant",
+      "#No, traffic doesn't bother me": "No, traffic doesn't bother me"
     },
     "fa": {
-      "#How do traffic levels and vehicle speeds on your cycling route typically affect your journey?": "حجم ترافیک و سرعت خودروها در مسیر دوچرخه‌سواری معمولاً چه اثری بر سفر شما دارد؟",
-      "#Not at all — traffic does not affect my cycling experience": "اصلاً — ترافیک بر تجربه دوچرخه‌سواری من اثر ندارد",
-      "#Slightly — I notice traffic, but it rarely affects my comfort or route": "کمی — ترافیک را می‌بینم، اما به ندرت بر راحتی یا مسیرم اثر می‌گذارد",
-      "#Moderately — traffic sometimes reduces my comfort or enjoyment while cycling": "تا حد متوسط — ترافیک گاهی راحتی یا لذت دوچرخه‌سواری را کم می‌کند",
-      "#Significantly — traffic often makes me feel stressed or unsafe": "زیاد — ترافیک اغلب باعث می‌شود احساس استرس یا ناامنی کنم",
-      "#Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic": "خیلی زیاد — برای دوری از ترافیک سنگین یا سریع، مسیر یا زمان سفر را تغییر می‌دهم"
+      "#Does heavy or fast traffic on your route change how you cycle?": "آیا ترافیک سنگین یا پرسرعت در مسیر شما شیوه دوچرخه‌سواری شما را تغییر می‌دهد؟",
+      "#I change my route or time to avoid it": "برای دوری از آن، مسیر یا زمان خود را تغییر می‌دهم",
+      "#I notice it, but it rarely changes my comfort or route": "متوجه آن می‌شوم، اما به‌ندرت راحتی یا مسیر مرا تغییر می‌دهد",
+      "#It often makes me feel stressed or unsafe": "اغلب باعث می‌شود احساس تنش یا ناامنی کنم",
+      "#It sometimes makes cycling less pleasant": "گاهی دوچرخه‌سواری را ناخوشایندتر می‌کند",
+      "#No, traffic doesn't bother me": "نه، ترافیک مرا اذیت نمی‌کند"
+    },
+    "fr": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "Une circulation dense ou rapide sur votre trajet change-t-elle votre façon de faire du vélo ?",
+      "#I change my route or time to avoid it": "Je change d'itinéraire ou d'horaire pour l'éviter",
+      "#I notice it, but it rarely changes my comfort or route": "Je le remarque, mais cela change rarement mon confort ou mon trajet",
+      "#It often makes me feel stressed or unsafe": "Cela me stresse ou me fait souvent sentir en danger",
+      "#It sometimes makes cycling less pleasant": "Cela rend parfois le vélo moins agréable",
+      "#No, traffic doesn't bother me": "Non, la circulation ne me gêne pas"
     },
     "hu": {
-      "#How do traffic levels and vehicle speeds on your cycling route typically affect your journey?": "Hogyan befolyásolja általában a forgalom nagysága és a járművek sebessége a kerékpáros útvonalán az utazását?",
-      "#Not at all — traffic does not affect my cycling experience": "Egyáltalán nem — a forgalom nem befolyásolja a kerékpározási élményemet",
-      "#Slightly — I notice traffic, but it rarely affects my comfort or route": "Kissé — észreveszem a forgalmat, de ritkán befolyásolja a kényelmemet vagy az útvonalamat",
-      "#Moderately — traffic sometimes reduces my comfort or enjoyment while cycling": "Közepesen — a forgalom néha csökkenti a kerékpározás kényelmét vagy élvezetét",
-      "#Significantly — traffic often makes me feel stressed or unsafe": "Jelentősen — a forgalom gyakran stresszessé vagy bizonytalanná tesz",
-      "#Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic": "Nagyon jelentősen — kifejezetten módosítom az útvonalat vagy az indulási időt, hogy elkerüljem a sűrű vagy gyors forgalmat"
+      "#Does heavy or fast traffic on your route change how you cycle?": "A sűrű vagy gyors forgalom az útvonalán megváltoztatja, hogyan biciklizik?",
+      "#I change my route or time to avoid it": "Megváltoztatom az útvonalat vagy az időpontot, hogy elkerüljem",
+      "#I notice it, but it rarely changes my comfort or route": "Észreveszem, de ritkán változtat a kényelmemen vagy az útvonalamon",
+      "#It often makes me feel stressed or unsafe": "Gyakran feszültté tesz, vagy nem érzem tőle biztonságban magam",
+      "#It sometimes makes cycling less pleasant": "Néha kevésbé élvezetessé teszi a biciklizést",
+      "#No, traffic doesn't bother me": "Nem, a forgalom nem zavar"
     },
-    "ar": {
-      "#How do traffic levels and vehicle speeds on your cycling route typically affect your journey?": "كيف يؤثر حجم حركة المرور وسرعة المركبات على طريقك بالدراجة في رحلتك عادةً؟",
-      "#Not at all — traffic does not affect my cycling experience": "لا يؤثر إطلاقًا — حركة المرور لا تؤثر في تجربتي بالدراجة",
-      "#Slightly — I notice traffic, but it rarely affects my comfort or route": "تؤثر قليلًا — ألاحظ حركة المرور لكنها نادرًا ما تؤثر في راحتي أو طريقي",
-      "#Moderately — traffic sometimes reduces my comfort or enjoyment while cycling": "تؤثر بدرجة متوسطة — حركة المرور تقلل أحيانًا من راحتي أو استمتاعي بالدراجة",
-      "#Significantly — traffic often makes me feel stressed or unsafe": "تؤثر كثيرًا — حركة المرور تجعلني أشعر بالتوتر أو عدم الأمان غالبًا",
-      "#Very significantly — I change my route or travel time specifically to avoid heavy or fast traffic": "تؤثر كثيرًا جدًا — أغيّر الطريق أو وقت الرحلة خصيصًا لتجنب حركة المرور الكثيفة أو السريعة"
+    "it": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "Il traffico intenso o veloce sul tuo percorso cambia il tuo modo di andare in bici?",
+      "#I change my route or time to avoid it": "Cambio percorso o orario per evitarlo",
+      "#I notice it, but it rarely changes my comfort or route": "Me ne accorgo, ma raramente cambia la mia comodità o il percorso",
+      "#It often makes me feel stressed or unsafe": "Spesso mi fa sentire stressato o poco sicuro",
+      "#It sometimes makes cycling less pleasant": "A volte rende meno piacevole andare in bici",
+      "#No, traffic doesn't bother me": "No, il traffico non mi dà fastidio"
+    },
+    "tr": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "Güzergâhınızdaki yoğun veya hızlı trafik bisiklet sürme şeklinizi değiştiriyor mu?",
+      "#I change my route or time to avoid it": "Bundan kaçınmak için güzergâhımı veya saatimi değiştiririm",
+      "#I notice it, but it rarely changes my comfort or route": "Fark ederim ama konforumu veya güzergâhımı nadiren değiştirir",
+      "#It often makes me feel stressed or unsafe": "Sık sık stresli veya güvensiz hissetmeme neden olur",
+      "#It sometimes makes cycling less pleasant": "Bazen bisiklet sürmeyi daha az keyifli hâle getirir",
+      "#No, traffic doesn't bother me": "Hayır, trafik beni rahatsız etmez"
     }
   },
   "origin_project": {

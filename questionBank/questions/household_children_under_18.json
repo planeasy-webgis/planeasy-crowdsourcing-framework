@@ -2,17 +2,14 @@
   "question_id": "household_children_under_18",
   "key": "household_children_under_18",
   "project": "shared",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "smarturbanity_your_profile"
   ],
   "schema": {
-    "privacy_classification": "heightened_personal",
-    "text": "How many children (aged under 18) live in your home?",
     "answer_key": "household_children_under_18",
-    "question_type": "single_option",
     "checks_inline": false,
     "options": [
       {
@@ -31,58 +28,67 @@
         "text": "3 or more",
         "value": "3_plus"
       }
-    ]
+    ],
+    "privacy_classification": "heightened_personal",
+    "question_type": "single_option",
+    "text": "How many children (aged under 18) live in your home?"
   },
   "translations": {
-    "en": {},
-    "it": {
-      "#How many children (aged under 18) live in your home?": "Quante persone con meno di 18 anni vivono nella tua casa?",
-      "#None": "Nessuna",
+    "ar": {
       "#1": "1",
       "#2": "2",
-      "#3 or more": "3 o più"
-    },
-    "fr": {
-      "#How many children (aged under 18) live in your home?": "Combien d’enfants (de moins de 18 ans) vivent dans votre logement ?",
-      "#None": "Aucun",
-      "#1": "1",
-      "#2": "2",
-      "#3 or more": "3 ou plus"
+      "#3 or more": "3 أو أكثر",
+      "#How many children (aged under 18) live in your home?": "كم عدد الأطفال (دون 18 سنة) الذين يعيشون في منزلك؟",
+      "#None": "لا أحد"
     },
     "de": {
+      "#1": "1",
+      "#2": "2",
+      "#3 or more": "3 oder mehr",
       "#How many children (aged under 18) live in your home?": "Wie viele Kinder (unter 18 Jahren) leben in Ihrem Haushalt?",
-      "#None": "Keine",
-      "#1": "1",
-      "#2": "2",
-      "#3 or more": "3 oder mehr"
+      "#None": "Keine"
     },
-    "tr": {
-      "#How many children (aged under 18) live in your home?": "Evinizde kaç çocuk (18 yaş altı) yaşıyor?",
-      "#None": "Hiçbiri",
+    "en": {
       "#1": "1",
       "#2": "2",
-      "#3 or more": "3 veya daha fazla"
+      "#3 or more": "3 or more",
+      "#How many children (aged under 18) live in your home?": "How many children (aged under 18) live in your home?",
+      "#None": "None"
     },
     "fa": {
-      "#How many children (aged under 18) live in your home?": "چند کودک (زیر ۱۸ سال) در خانه شما زندگی می‌کنند؟",
-      "#None": "هیچ‌کدام",
       "#1": "۱",
       "#2": "۲",
-      "#3 or more": "۳ یا بیشتر"
+      "#3 or more": "۳ یا بیشتر",
+      "#How many children (aged under 18) live in your home?": "چند کودک (زیر ۱۸ سال) در خانه شما زندگی می‌کنند؟",
+      "#None": "هیچ‌کدام"
+    },
+    "fr": {
+      "#1": "1",
+      "#2": "2",
+      "#3 or more": "3 ou plus",
+      "#How many children (aged under 18) live in your home?": "Combien d’enfants (de moins de 18 ans) vivent dans votre logement ?",
+      "#None": "Aucun"
     },
     "hu": {
+      "#1": "1",
+      "#2": "2",
+      "#3 or more": "3 vagy több",
       "#How many children (aged under 18) live in your home?": "Hány gyermek (18 év alatti) él az otthonában?",
-      "#None": "Nincs",
-      "#1": "1",
-      "#2": "2",
-      "#3 or more": "3 vagy több"
+      "#None": "Nincs"
     },
-    "ar": {
-      "#How many children (aged under 18) live in your home?": "كم عدد الأطفال (دون 18 سنة) الذين يعيشون في منزلك؟",
-      "#None": "لا أحد",
+    "it": {
       "#1": "1",
       "#2": "2",
-      "#3 or more": "3 أو أكثر"
+      "#3 or more": "3 o più",
+      "#How many children (aged under 18) live in your home?": "Quante persone con meno di 18 anni vivono nella tua casa?",
+      "#None": "Nessuna"
+    },
+    "tr": {
+      "#1": "1",
+      "#2": "2",
+      "#3 or more": "3 veya daha fazla",
+      "#How many children (aged under 18) live in your home?": "Evinizde kaç çocuk (18 yaş altı) yaşıyor?",
+      "#None": "Hiçbiri"
     }
   },
   "origin_project": {

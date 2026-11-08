@@ -2,104 +2,113 @@
   "question_id": "car_emissions",
   "key": "car_emissions",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
-    "smarturbanity_car"
+    "smarturbanity_car_alternatives"
   ],
   "schema": {
-    "text": "To what extent do emissions concerns influence your travel behavior?",
     "answer_key": "car_emissions",
-    "question_type": "single_option",
+    "help": "Pollution means exhaust fumes and gases that harm the air and the climate.",
     "options": [
       {
-        "text": "Not at all, emissions concerns do not influence my travel choices",
+        "text": "No, it doesn't affect my choices",
         "value": "not_at_all_emissions_concerns_do_not_inf"
       },
       {
-        "text": "Slightly, I occasionally think about emissions when choosing how to travel",
+        "text": "I think about it now and then",
         "value": "slightly_i_occasionally_think_about_emis"
       },
       {
-        "text": "Moderately, emissions concerns sometimes influence my travel decisions",
+        "text": "It sometimes affects my choices",
         "value": "moderately_emissions_concerns_sometimes"
       },
       {
-        "text": "Strongly, emissions concerns regularly affect how I travel",
+        "text": "It often affects how I travel",
         "value": "strongly_emissions_concerns_regularly_af"
       },
       {
-        "text": "Very strongly, I actively try to reduce car use because of emissions concerns",
+        "text": "I try to use the car less because of it",
         "value": "very_strongly_i_actively_try_to_reduce_c"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Do you think about pollution from vehicles when you choose how to travel?"
   },
   "translations": {
-    "en": {
-      "#To what extent do emissions concerns influence your travel behavior?": "To what extent do emissions concerns influence your travel behavior?",
-      "#Not at all, emissions concerns do not influence my travel choices": "Not at all, emissions concerns do not influence my travel choices",
-      "#Slightly, I occasionally think about emissions when choosing how to travel": "Slightly, I occasionally think about emissions when choosing how to travel",
-      "#Moderately, emissions concerns sometimes influence my travel decisions": "Moderately, emissions concerns sometimes influence my travel decisions",
-      "#Strongly, emissions concerns regularly affect how I travel": "Strongly, emissions concerns regularly affect how I travel",
-      "#Very strongly, I actively try to reduce car use because of emissions concerns": "Very strongly, I actively try to reduce car use because of emissions concerns"
-    },
-    "it": {
-      "#To what extent do emissions concerns influence your travel behavior?": "In che misura le preoccupazioni relative alle emissioni influenzano le tue scelte di viaggio?",
-      "#Not at all, emissions concerns do not influence my travel choices": "Per niente, le preoccupazioni relative alle emissioni non influenzano le mie scelte di viaggio",
-      "#Slightly, I occasionally think about emissions when choosing how to travel": "Poco, occasionalmente penso alle emissioni quando scelgo come spostarmi",
-      "#Moderately, emissions concerns sometimes influence my travel decisions": "Moderatamente, le preoccupazioni relative alle emissioni a volte influenzano le mie decisioni di viaggio",
-      "#Strongly, emissions concerns regularly affect how I travel": "Molto, le preoccupazioni relative alle emissioni influenzano regolarmente il mio modo di spostarmi",
-      "#Very strongly, I actively try to reduce car use because of emissions concerns": "Moltissimo, cerco attivamente di ridurre l'uso dell'auto a causa delle preoccupazioni relative alle emissioni"
-    },
-    "fr": {
-      "#To what extent do emissions concerns influence your travel behavior?": "Dans quelle mesure les émissions polluantes influencent-elles vos choix de déplacement ?",
-      "#Not at all, emissions concerns do not influence my travel choices": "Pas du tout : les émissions n’influencent pas mes choix de déplacement",
-      "#Slightly, I occasionally think about emissions when choosing how to travel": "Un peu : je pense parfois aux émissions quand je choisis comment me déplacer",
-      "#Moderately, emissions concerns sometimes influence my travel decisions": "Modérément : les émissions influencent parfois mes décisions de déplacement",
-      "#Strongly, emissions concerns regularly affect how I travel": "Beaucoup : les émissions influencent régulièrement ma façon de me déplacer",
-      "#Very strongly, I actively try to reduce car use because of emissions concerns": "Énormément : j’essaie activement de moins utiliser la voiture à cause des émissions"
+    "ar": {
+      "#Do you think about pollution from vehicles when you choose how to travel?": "هل تفكر في التلوث الناتج عن المركبات عند اختيار طريقة تنقلك؟",
+      "#I think about it now and then": "أفكر في ذلك من حين لآخر",
+      "#I try to use the car less because of it": "أحاول استخدام السيارة أقل بسببه",
+      "#It often affects how I travel": "يؤثر غالبًا في طريقة تنقلي",
+      "#It sometimes affects my choices": "يؤثر أحيانًا في اختياراتي",
+      "#No, it doesn't affect my choices": "لا، لا يؤثر في اختياراتي",
+      "#Pollution means exhaust fumes and gases that harm the air and the climate.": "التلوث يعني عوادم المركبات والغازات التي تضر بالهواء والمناخ."
     },
     "de": {
-      "#To what extent do emissions concerns influence your travel behavior?": "Wie stark beeinflussen Bedenken wegen Emissionen Ihre Verkehrsmittelwahl?",
-      "#Not at all, emissions concerns do not influence my travel choices": "Gar nicht: Emissionen beeinflussen meine Wahl nicht",
-      "#Slightly, I occasionally think about emissions when choosing how to travel": "Etwas: Ich denke gelegentlich an Emissionen, wenn ich entscheide, wie ich fahre",
-      "#Moderately, emissions concerns sometimes influence my travel decisions": "Mäßig: Emissionen beeinflussen manchmal meine Entscheidungen",
-      "#Strongly, emissions concerns regularly affect how I travel": "Stark: Emissionen beeinflussen regelmäßig, wie ich mich fortbewege",
-      "#Very strongly, I actively try to reduce car use because of emissions concerns": "Sehr stark: Wegen der Emissionen versuche ich aktiv, weniger Auto zu fahren"
+      "#Do you think about pollution from vehicles when you choose how to travel?": "Denken Sie an die Luftverschmutzung durch Fahrzeuge, wenn Sie entscheiden, wie Sie unterwegs sind?",
+      "#I think about it now and then": "Ich denke ab und zu daran",
+      "#I try to use the car less because of it": "Ich versuche deshalb, weniger Auto zu fahren",
+      "#It often affects how I travel": "Es beeinflusst oft, wie ich unterwegs bin",
+      "#It sometimes affects my choices": "Manchmal beeinflusst es meine Entscheidungen",
+      "#No, it doesn't affect my choices": "Nein, es beeinflusst meine Entscheidungen nicht",
+      "#Pollution means exhaust fumes and gases that harm the air and the climate.": "Gemeint sind Abgase, die der Luft und dem Klima schaden."
     },
-    "tr": {
-      "#To what extent do emissions concerns influence your travel behavior?": "Emisyonlarla ilgili kaygılar ulaşım tercihlerinizi ne ölçüde etkiler?",
-      "#Not at all, emissions concerns do not influence my travel choices": "Hiç etkilemez: emisyon kaygıları ulaşım tercihlerimi değiştirmez",
-      "#Slightly, I occasionally think about emissions when choosing how to travel": "Biraz etkiler: nasıl gideceğime karar verirken bazen emisyonları düşünürüm",
-      "#Moderately, emissions concerns sometimes influence my travel decisions": "Orta düzeyde etkiler: emisyon kaygıları bazen kararlarımı etkiler",
-      "#Strongly, emissions concerns regularly affect how I travel": "Çok etkiler: emisyon kaygıları ulaşım şeklimi düzenli olarak etkiler",
-      "#Very strongly, I actively try to reduce car use because of emissions concerns": "Çok güçlü etkiler: emisyonlar nedeniyle otomobil kullanımımı azaltmaya özellikle çalışırım"
+    "en": {
+      "#Do you think about pollution from vehicles when you choose how to travel?": "Do you think about pollution from vehicles when you choose how to travel?",
+      "#I think about it now and then": "I think about it now and then",
+      "#I try to use the car less because of it": "I try to use the car less because of it",
+      "#It often affects how I travel": "It often affects how I travel",
+      "#It sometimes affects my choices": "It sometimes affects my choices",
+      "#No, it doesn't affect my choices": "No, it doesn't affect my choices",
+      "#Pollution means exhaust fumes and gases that harm the air and the climate.": "Pollution means exhaust fumes and gases that harm the air and the climate."
     },
     "fa": {
-      "#To what extent do emissions concerns influence your travel behavior?": "نگرانی درباره آلایندگی تا چه اندازه بر انتخاب‌های سفر شما اثر می‌گذارد؟",
-      "#Not at all, emissions concerns do not influence my travel choices": "اصلاً؛ نگرانی درباره آلایندگی بر انتخاب من اثر ندارد",
-      "#Slightly, I occasionally think about emissions when choosing how to travel": "کمی؛ گاهی هنگام انتخاب روش سفر به آلایندگی فکر می‌کنم",
-      "#Moderately, emissions concerns sometimes influence my travel decisions": "تا حد متوسط؛ نگرانی درباره آلایندگی گاهی بر تصمیم من اثر می‌گذارد",
-      "#Strongly, emissions concerns regularly affect how I travel": "زیاد؛ نگرانی درباره آلایندگی مرتب بر نحوه رفت‌وآمد من اثر می‌گذارد",
-      "#Very strongly, I actively try to reduce car use because of emissions concerns": "خیلی زیاد؛ به دلیل نگرانی درباره آلایندگی تلاش می‌کنم استفاده از خودرو را کاهش دهم"
+      "#Do you think about pollution from vehicles when you choose how to travel?": "وقتی شیوه سفر را انتخاب می‌کنید، به آلودگی ناشی از وسایل نقلیه فکر می‌کنید؟",
+      "#I think about it now and then": "گاهی به آن فکر می‌کنم",
+      "#I try to use the car less because of it": "به همین دلیل سعی می‌کنم کمتر از خودرو استفاده کنم",
+      "#It often affects how I travel": "اغلب بر شیوه سفر من اثر می‌گذارد",
+      "#It sometimes affects my choices": "گاهی بر انتخاب‌های من اثر می‌گذارد",
+      "#No, it doesn't affect my choices": "نه، بر انتخاب‌های من تأثیری ندارد",
+      "#Pollution means exhaust fumes and gases that harm the air and the climate.": "آلودگی یعنی دود و گازهای اگزوز که به هوا و اقلیم آسیب می‌زنند."
+    },
+    "fr": {
+      "#Do you think about pollution from vehicles when you choose how to travel?": "Pensez-vous à la pollution des véhicules quand vous choisissez comment vous déplacer ?",
+      "#I think about it now and then": "J'y pense de temps en temps",
+      "#I try to use the car less because of it": "J'essaie de moins utiliser la voiture pour cette raison",
+      "#It often affects how I travel": "Cela influence souvent ma façon de me déplacer",
+      "#It sometimes affects my choices": "Cela influence parfois mes choix",
+      "#No, it doesn't affect my choices": "Non, cela n'influence pas mes choix",
+      "#Pollution means exhaust fumes and gases that harm the air and the climate.": "Par pollution, on entend les gaz d'échappement qui nuisent à l'air et au climat."
     },
     "hu": {
-      "#To what extent do emissions concerns influence your travel behavior?": "Mennyire befolyásolják a károsanyag-kibocsátással kapcsolatos szempontok az utazási döntéseit?",
-      "#Not at all, emissions concerns do not influence my travel choices": "Egyáltalán nem: a kibocsátás nem befolyásolja az utazási döntéseimet",
-      "#Slightly, I occasionally think about emissions when choosing how to travel": "Kissé: néha gondolok a kibocsátásra, amikor eldöntöm, hogyan utazzak",
-      "#Moderately, emissions concerns sometimes influence my travel decisions": "Közepesen: a kibocsátás néha befolyásolja a döntéseimet",
-      "#Strongly, emissions concerns regularly affect how I travel": "Erősen: a kibocsátás rendszeresen befolyásolja, hogyan közlekedem",
-      "#Very strongly, I actively try to reduce car use because of emissions concerns": "Nagyon erősen: a kibocsátás miatt tudatosan próbálom csökkenteni az autóhasználatot"
+      "#Do you think about pollution from vehicles when you choose how to travel?": "Gondol a járművek okozta szennyezésre, amikor kiválasztja, hogyan utazik?",
+      "#I think about it now and then": "Időnként gondolok rá",
+      "#I try to use the car less because of it": "Emiatt igyekszem kevesebbet használni az autót",
+      "#It often affects how I travel": "Gyakran befolyásolja, hogyan utazom",
+      "#It sometimes affects my choices": "Néha hatással van a döntéseimre",
+      "#No, it doesn't affect my choices": "Nem, nincs hatással a döntéseimre",
+      "#Pollution means exhaust fumes and gases that harm the air and the climate.": "A szennyezés a kipufogógázokat és más gázokat jelenti, amelyek ártanak a levegőnek és az éghajlatnak."
     },
-    "ar": {
-      "#To what extent do emissions concerns influence your travel behavior?": "إلى أي مدى تؤثر مخاوف الانبعاثات في اختياراتك للتنقل؟",
-      "#Not at all, emissions concerns do not influence my travel choices": "لا تؤثر إطلاقًا؛ مخاوف الانبعاثات لا تغير اختياراتي",
-      "#Slightly, I occasionally think about emissions when choosing how to travel": "تؤثر قليلًا؛ أفكر أحيانًا في الانبعاثات عندما أقرر كيف أتنقل",
-      "#Moderately, emissions concerns sometimes influence my travel decisions": "تؤثر بدرجة متوسطة؛ مخاوف الانبعاثات تؤثر أحيانًا في قراراتي",
-      "#Strongly, emissions concerns regularly affect how I travel": "تؤثر كثيرًا؛ مخاوف الانبعاثات تؤثر بانتظام في طريقة تنقلي",
-      "#Very strongly, I actively try to reduce car use because of emissions concerns": "تؤثر كثيرًا جدًا؛ أحاول بوعي تقليل استخدام السيارة بسبب الانبعاثات"
+    "it": {
+      "#Do you think about pollution from vehicles when you choose how to travel?": "Quando scegli come spostarti, pensi all'inquinamento dei veicoli?",
+      "#I think about it now and then": "Ci penso ogni tanto",
+      "#I try to use the car less because of it": "Cerco di usare meno l'auto per questo motivo",
+      "#It often affects how I travel": "Spesso influisce su come mi sposto",
+      "#It sometimes affects my choices": "A volte influisce sulle mie scelte",
+      "#No, it doesn't affect my choices": "No, non influisce sulle mie scelte",
+      "#Pollution means exhaust fumes and gases that harm the air and the climate.": "Per inquinamento si intendono i fumi di scarico e i gas che fanno male all'aria e al clima."
+    },
+    "tr": {
+      "#Do you think about pollution from vehicles when you choose how to travel?": "Nasıl yolculuk edeceğinize karar verirken araçların neden olduğu kirliliği düşünüyor musunuz?",
+      "#I think about it now and then": "Arada bir düşünürüm",
+      "#I try to use the car less because of it": "Bu yüzden otomobili daha az kullanmaya çalışırım",
+      "#It often affects how I travel": "Nasıl yolculuk ettiğimi sık sık etkiler",
+      "#It sometimes affects my choices": "Bazen seçimlerimi etkiler",
+      "#No, it doesn't affect my choices": "Hayır, seçimlerimi etkilemez",
+      "#Pollution means exhaust fumes and gases that harm the air and the climate.": "Kirlilik, havaya ve iklime zarar veren egzoz dumanları ve gazlar demektir."
     }
   },
   "origin_project": {

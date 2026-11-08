@@ -2,104 +2,116 @@
   "question_id": "bike_skip_dark",
   "key": "bike_skip_dark",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling",
   "source_questionnaires": [
-    "smarturbanity_cycling"
+    "smarturbanity_cycling_security"
   ],
   "schema": {
-    "text": "How does street lighting affect your decision to cycle after dark?",
     "answer_key": "bike_skip_dark",
-    "question_type": "single_option",
     "options": [
       {
-        "text": "Lighting levels have no influence on my decision to cycle after dark",
+        "text": "No, it makes no difference to me",
         "value": "lighting_levels_have_no_influence_on_my"
       },
       {
-        "text": "I notice poor lighting but it does not change when or where I cycle",
+        "text": "I notice it, but I don't change anything",
         "value": "i_notice_poor_lighting_but_it_does_not_c"
       },
       {
-        "text": "I cycle at reduced speed or stay on higher-lit roads in poorly lit areas",
+        "text": "I ride slower or keep to better-lit roads",
         "value": "i_cycle_at_reduced_speed_or_stay_on_high"
       },
       {
-        "text": "I take significantly longer routes to stay in well-lit areas",
+        "text": "I take a much longer, better-lit route",
         "value": "i_take_significantly_longer_routes_to_st"
       },
       {
-        "text": "I do not cycle after dark because of poor lighting",
+        "text": "I don't cycle after dark because of poor lighting",
         "value": "i_do_not_cycle_after_dark_because_of_poo"
+      },
+      {
+        "text": "I don't cycle after dark for other reasons",
+        "value": "no_dark_other"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "When you cycle after dark, does poor street lighting change your route or when you ride?"
   },
   "translations": {
-    "en": {
-      "#How does street lighting affect your decision to cycle after dark?": "How does street lighting affect your decision to cycle after dark?",
-      "#Lighting levels have no influence on my decision to cycle after dark": "Lighting levels have no influence on my decision to cycle after dark",
-      "#I notice poor lighting but it does not change when or where I cycle": "I notice poor lighting but it does not change when or where I cycle",
-      "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "I cycle at reduced speed or stay on higher-lit roads in poorly lit areas",
-      "#I take significantly longer routes to stay in well-lit areas": "I take significantly longer routes to stay in well-lit areas",
-      "#I do not cycle after dark because of poor lighting": "I do not cycle after dark because of poor lighting"
-    },
-    "it": {
-      "#How does street lighting affect your decision to cycle after dark?": "In che modo l’illuminazione stradale influisce sulla tua decisione di usare la bicicletta dopo il tramonto?",
-      "#Lighting levels have no influence on my decision to cycle after dark": "Il livello di illuminazione non influisce sulla mia decisione di andare in bicicletta dopo il tramonto",
-      "#I notice poor lighting but it does not change when or where I cycle": "Noto la scarsa illuminazione, ma non cambia quando o dove uso la bicicletta",
-      "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Nelle zone poco illuminate pedalo più lentamente o scelgo strade meglio illuminate",
-      "#I take significantly longer routes to stay in well-lit areas": "Scelgo percorsi significativamente più lunghi per rimanere in zone ben illuminate",
-      "#I do not cycle after dark because of poor lighting": "Non uso la bicicletta dopo il tramonto a causa della scarsa illuminazione"
-    },
-    "fr": {
-      "#How does street lighting affect your decision to cycle after dark?": "Quel effet l’éclairage public a-t-il sur votre décision de faire du vélo après la tombée de la nuit ?",
-      "#Lighting levels have no influence on my decision to cycle after dark": "Le niveau d’éclairage n’influence pas ma décision de faire du vélo après la tombée de la nuit",
-      "#I notice poor lighting but it does not change when or where I cycle": "Je remarque quand l’éclairage est mauvais, mais cela ne change ni l’heure ni l’endroit où je fais du vélo",
-      "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Je roule moins vite ou je reste sur des rues mieux éclairées dans les zones sombres",
-      "#I take significantly longer routes to stay in well-lit areas": "Je prends des itinéraires nettement plus longs pour rester dans des zones bien éclairées",
-      "#I do not cycle after dark because of poor lighting": "Je ne fais pas de vélo après la tombée de la nuit à cause du mauvais éclairage"
+    "ar": {
+      "#I don't cycle after dark because of poor lighting": "لا أركب الدراجة بعد حلول الظلام بسبب ضعف الإضاءة",
+      "#I don't cycle after dark for other reasons": "لا أركب الدراجة بعد حلول الظلام لأسباب أخرى",
+      "#I notice it, but I don't change anything": "ألاحظ ذلك، لكنني لا أغيّر شيئًا",
+      "#I ride slower or keep to better-lit roads": "أركب ببطء أو ألتزم بالطرق الأفضل إضاءة",
+      "#I take a much longer, better-lit route": "أسلك طريقًا أطول بكثير لكنه أفضل إضاءة",
+      "#No, it makes no difference to me": "لا، الأمر لا يفرق معي",
+      "#When you cycle after dark, does poor street lighting change your route or when you ride?": "عندما تركب الدراجة بعد حلول الظلام، هل يغيّر ضعف إنارة الشوارع طريقك أو وقت ركوبك؟"
     },
     "de": {
-      "#How does street lighting affect your decision to cycle after dark?": "Wie beeinflusst die Straßenbeleuchtung Ihre Entscheidung, nach Einbruch der Dunkelheit Fahrrad zu fahren?",
-      "#Lighting levels have no influence on my decision to cycle after dark": "Die Beleuchtung beeinflusst meine Entscheidung nicht",
-      "#I notice poor lighting but it does not change when or where I cycle": "Ich bemerke schlechte Beleuchtung, ändere aber weder Zeit noch Strecke",
-      "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Ich fahre langsamer oder nutze in schlecht beleuchteten Bereichen besser beleuchtete Straßen",
-      "#I take significantly longer routes to stay in well-lit areas": "Ich nehme deutlich längere Wege, um in gut beleuchteten Bereichen zu bleiben",
-      "#I do not cycle after dark because of poor lighting": "Ich fahre wegen schlechter Beleuchtung nach Einbruch der Dunkelheit nicht Fahrrad"
+      "#I don't cycle after dark because of poor lighting": "Ich fahre nach Einbruch der Dunkelheit wegen schlechter Beleuchtung nicht Rad",
+      "#I don't cycle after dark for other reasons": "Ich fahre nach Einbruch der Dunkelheit aus anderen Gründen nicht Rad",
+      "#I notice it, but I don't change anything": "Ich merke es, ändere aber nichts",
+      "#I ride slower or keep to better-lit roads": "Ich fahre langsamer oder bleibe auf besser beleuchteten Straßen",
+      "#I take a much longer, better-lit route": "Ich nehme eine viel längere, aber besser beleuchtete Strecke",
+      "#No, it makes no difference to me": "Nein, das macht für mich keinen Unterschied",
+      "#When you cycle after dark, does poor street lighting change your route or when you ride?": "Wenn Sie nach Einbruch der Dunkelheit Rad fahren: Ändert schlechte Straßenbeleuchtung Ihre Route oder wann Sie fahren?"
     },
-    "tr": {
-      "#How does street lighting affect your decision to cycle after dark?": "Sokak aydınlatması hava karardıktan sonra bisiklet kullanma kararınızı nasıl etkiler?",
-      "#Lighting levels have no influence on my decision to cycle after dark": "Aydınlatma düzeyi hava karardıktan sonra bisiklet kullanma kararımı etkilemez",
-      "#I notice poor lighting but it does not change when or where I cycle": "Yetersiz aydınlatmayı fark ederim ama ne zaman veya nerede bisiklet kullandığımı değiştirmem",
-      "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Az aydınlatılmış yerlerde daha yavaş gider veya daha iyi aydınlatılmış yolları tercih ederim",
-      "#I take significantly longer routes to stay in well-lit areas": "İyi aydınlatılmış bölgelerde kalmak için belirgin şekilde daha uzun güzergâhlar kullanırım",
-      "#I do not cycle after dark because of poor lighting": "Yetersiz aydınlatma nedeniyle hava karardıktan sonra bisiklet kullanmam"
+    "en": {
+      "#I don't cycle after dark because of poor lighting": "I don't cycle after dark because of poor lighting",
+      "#I don't cycle after dark for other reasons": "I don't cycle after dark for other reasons",
+      "#I notice it, but I don't change anything": "I notice it, but I don't change anything",
+      "#I ride slower or keep to better-lit roads": "I ride slower or keep to better-lit roads",
+      "#I take a much longer, better-lit route": "I take a much longer, better-lit route",
+      "#No, it makes no difference to me": "No, it makes no difference to me",
+      "#When you cycle after dark, does poor street lighting change your route or when you ride?": "When you cycle after dark, does poor street lighting change your route or when you ride?"
     },
     "fa": {
-      "#How does street lighting affect your decision to cycle after dark?": "روشنایی خیابان چگونه بر تصمیم شما برای دوچرخه‌سواری بعد از تاریکی هوا اثر می‌گذارد؟",
-      "#Lighting levels have no influence on my decision to cycle after dark": "میزان روشنایی بر تصمیم من برای دوچرخه‌سواری بعد از تاریکی اثر ندارد",
-      "#I notice poor lighting but it does not change when or where I cycle": "روشنایی کم را متوجه می‌شوم، اما زمان یا مسیرم را تغییر نمی‌دهم",
-      "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "در مناطق کم‌نور آهسته‌تر می‌روم یا خیابان‌های روشن‌تر را انتخاب می‌کنم",
-      "#I take significantly longer routes to stay in well-lit areas": "برای ماندن در مناطق روشن، مسیرهای بسیار طولانی‌تری انتخاب می‌کنم",
-      "#I do not cycle after dark because of poor lighting": "به دلیل روشنایی کم، بعد از تاریکی هوا دوچرخه‌سواری نمی‌کنم"
+      "#I don't cycle after dark because of poor lighting": "به دلیل روشنایی کم، بعد از تاریک شدن هوا دوچرخه‌سواری نمی‌کنم",
+      "#I don't cycle after dark for other reasons": "به دلایل دیگر بعد از تاریک شدن هوا دوچرخه‌سواری نمی‌کنم",
+      "#I notice it, but I don't change anything": "متوجه می‌شوم، اما چیزی را تغییر نمی‌دهم",
+      "#I ride slower or keep to better-lit roads": "آهسته‌تر می‌روم یا در خیابان‌های روشن‌تر می‌مانم",
+      "#I take a much longer, better-lit route": "مسیر خیلی طولانی‌تر اما روشن‌تر را انتخاب می‌کنم",
+      "#No, it makes no difference to me": "نه، برای من فرقی نمی‌کند",
+      "#When you cycle after dark, does poor street lighting change your route or when you ride?": "وقتی بعد از تاریک شدن هوا دوچرخه‌سواری می‌کنید، آیا روشنایی کم خیابان مسیر یا زمان رفتن شما را تغییر می‌دهد؟"
+    },
+    "fr": {
+      "#I don't cycle after dark because of poor lighting": "Je ne fais pas de vélo après la tombée de la nuit à cause du mauvais éclairage",
+      "#I don't cycle after dark for other reasons": "Je ne fais pas de vélo après la tombée de la nuit pour d'autres raisons",
+      "#I notice it, but I don't change anything": "Je le remarque, mais je ne change rien",
+      "#I ride slower or keep to better-lit roads": "Je roule plus lentement ou je reste sur les routes mieux éclairées",
+      "#I take a much longer, better-lit route": "Je fais un trajet beaucoup plus long, mais mieux éclairé",
+      "#No, it makes no difference to me": "Non, cela ne fait aucune différence pour moi",
+      "#When you cycle after dark, does poor street lighting change your route or when you ride?": "Quand vous faites du vélo après la tombée de la nuit, un mauvais éclairage change-t-il votre trajet ou votre heure de sortie ?"
     },
     "hu": {
-      "#How does street lighting affect your decision to cycle after dark?": "Hogyan befolyásolja a közvilágítás azt, hogy sötétedés után kerékpárra ül-e?",
-      "#Lighting levels have no influence on my decision to cycle after dark": "A világítás szintje nem befolyásolja a döntésemet",
-      "#I notice poor lighting but it does not change when or where I cycle": "Észreveszem a rossz világítást, de nem változtatom meg sem az időpontot, sem az útvonalat",
-      "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "Rosszul megvilágított területen lassabban haladok vagy világosabb utcákat választok",
-      "#I take significantly longer routes to stay in well-lit areas": "Jelentősen hosszabb útvonalat választok, hogy jól megvilágított területen maradjak",
-      "#I do not cycle after dark because of poor lighting": "Rossz világítás miatt sötétedés után nem kerékpározom"
+      "#I don't cycle after dark because of poor lighting": "Rossz világítás miatt sötétedés után nem biciklizem",
+      "#I don't cycle after dark for other reasons": "Más okok miatt sötétedés után nem biciklizem",
+      "#I notice it, but I don't change anything": "Észreveszem, de nem változtatok semmit",
+      "#I ride slower or keep to better-lit roads": "Lassabban megyek, vagy a jobban megvilágított utakon maradok",
+      "#I take a much longer, better-lit route": "Sokkal hosszabb, de jobban megvilágított útvonalat választok",
+      "#No, it makes no difference to me": "Nem, számomra nincs jelentősége",
+      "#When you cycle after dark, does poor street lighting change your route or when you ride?": "Ha sötétedés után biciklizik, megváltoztatja az útvonalát vagy az indulási idejét a rossz utcai világítás?"
     },
-    "ar": {
-      "#How does street lighting affect your decision to cycle after dark?": "كيف تؤثر إضاءة الشارع في قرارك ركوب الدراجة بعد حلول الظلام؟",
-      "#Lighting levels have no influence on my decision to cycle after dark": "مستوى الإضاءة لا يؤثر في قراري",
-      "#I notice poor lighting but it does not change when or where I cycle": "ألاحظ ضعف الإضاءة لكنه لا يغير وقت أو مكان ركوب الدراجة",
-      "#I cycle at reduced speed or stay on higher-lit roads in poorly lit areas": "أقود بسرعة أقل أو أختار شوارع أكثر إضاءة في المناطق المظلمة",
-      "#I take significantly longer routes to stay in well-lit areas": "أختار طرقًا أطول بكثير للبقاء في مناطق جيدة الإضاءة",
-      "#I do not cycle after dark because of poor lighting": "لا أركب الدراجة بعد حلول الظلام بسبب ضعف الإضاءة"
+    "it": {
+      "#I don't cycle after dark because of poor lighting": "Non vado in bici dopo il tramonto perché l'illuminazione è scarsa",
+      "#I don't cycle after dark for other reasons": "Non vado in bici dopo il tramonto per altri motivi",
+      "#I notice it, but I don't change anything": "Me ne accorgo, ma non cambio nulla",
+      "#I ride slower or keep to better-lit roads": "Vado più piano o resto sulle strade più illuminate",
+      "#I take a much longer, better-lit route": "Faccio un percorso molto più lungo ma meglio illuminato",
+      "#No, it makes no difference to me": "No, per me non fa differenza",
+      "#When you cycle after dark, does poor street lighting change your route or when you ride?": "Quando vai in bici dopo il tramonto, la scarsa illuminazione cambia il tuo percorso o quando esci?"
+    },
+    "tr": {
+      "#I don't cycle after dark because of poor lighting": "Kötü aydınlatma yüzünden hava karardıktan sonra bisiklet sürmem",
+      "#I don't cycle after dark for other reasons": "Başka nedenlerle hava karardıktan sonra bisiklet sürmem",
+      "#I notice it, but I don't change anything": "Fark ederim ama hiçbir şeyi değiştirmem",
+      "#I ride slower or keep to better-lit roads": "Daha yavaş sürerim veya daha iyi aydınlatılmış yollarda kalırım",
+      "#I take a much longer, better-lit route": "Çok daha uzun ama daha iyi aydınlatılmış bir güzergâh seçerim",
+      "#No, it makes no difference to me": "Hayır, benim için fark etmez",
+      "#When you cycle after dark, does poor street lighting change your route or when you ride?": "Hava karardıktan sonra bisiklet sürerken kötü sokak aydınlatması güzergâhınızı veya ne zaman çıktığınızı değiştiriyor mu?"
     }
   },
   "origin_project": {

@@ -2,104 +2,104 @@
   "question_id": "car_delay_schedule_impact",
   "key": "car_delay_schedule_impact",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
-    "smarturbanity_car"
+    "smarturbanity_car_comfort"
   ],
   "schema": {
-    "text": "When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?",
     "answer_key": "car_delay_schedule_impact",
-    "question_type": "single_option",
     "options": [
       {
-        "text": "Not at all affected",
+        "text": "Not at all",
         "value": "not_at_all_affected"
       },
       {
-        "text": "Slightly affected",
+        "text": "A little",
         "value": "slightly_affected"
       },
       {
-        "text": "Moderately affected",
+        "text": "Moderately",
         "value": "moderately_affected"
       },
       {
-        "text": "Very affected",
+        "text": "A lot",
         "value": "very_affected"
       },
       {
-        "text": "Extremely affected",
+        "text": "Extremely",
         "value": "extremely_affected"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "And how much do these delays upset your plans for the day?"
   },
   "translations": {
-    "en": {
-      "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?",
-      "#Not at all affected": "Not at all affected",
-      "#Slightly affected": "Slightly affected",
-      "#Moderately affected": "Moderately affected",
-      "#Very affected": "Very affected",
-      "#Extremely affected": "Extremely affected"
-    },
-    "it": {
-      "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Quando si verificano ritardi (ad es. per traffico, congestione o incidenti), in che modo influiscono sui tuoi impegni quotidiani?",
-      "#Not at all affected": "Per niente influenzati",
-      "#Slightly affected": "Poco influenzati",
-      "#Moderately affected": "Moderatamente influenzati",
-      "#Very affected": "Molto influenzati",
-      "#Extremely affected": "Estremamente influenzati"
-    },
-    "fr": {
-      "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Quand il y a des retards, par exemple à cause du trafic, des embouteillages ou d’un accident, quel effet ont-ils sur votre emploi du temps quotidien ?",
-      "#Not at all affected": "Aucun effet",
-      "#Slightly affected": "Un faible effet",
-      "#Moderately affected": "Un effet modéré",
-      "#Very affected": "Un effet important",
-      "#Extremely affected": "Un effet très important"
+    "ar": {
+      "#A little": "قليلًا",
+      "#A lot": "كثيرًا",
+      "#And how much do these delays upset your plans for the day?": "وإلى أي مدى تُخلّ هذه التأخيرات بخططك لليوم؟",
+      "#Extremely": "للغاية",
+      "#Moderately": "بدرجة متوسطة",
+      "#Not at all": "لا يؤثر إطلاقًا"
     },
     "de": {
-      "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Wenn es zu Verzögerungen kommt, zum Beispiel durch Verkehr, Stau oder Unfälle: Wie wirkt sich das auf Ihren Tagesablauf aus?",
-      "#Not at all affected": "Gar nicht",
-      "#Slightly affected": "Etwas",
-      "#Moderately affected": "Mäßig",
-      "#Very affected": "Stark",
-      "#Extremely affected": "Sehr stark"
+      "#A little": "Ein wenig",
+      "#A lot": "Stark",
+      "#And how much do these delays upset your plans for the day?": "Und wie sehr bringen diese Verzögerungen Ihre Tagesplanung durcheinander?",
+      "#Extremely": "Äußerst",
+      "#Moderately": "Mittel",
+      "#Not at all": "Gar nicht"
     },
-    "tr": {
-      "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Gecikmeler olduğunda, örneğin trafik, sıkışıklık veya kaza nedeniyle, günlük programınız nasıl etkilenir?",
-      "#Not at all affected": "Hiç etkilenmez",
-      "#Slightly affected": "Biraz etkilenir",
-      "#Moderately affected": "Orta düzeyde etkilenir",
-      "#Very affected": "Çok etkilenir",
-      "#Extremely affected": "Son derece etkilenir"
+    "en": {
+      "#A little": "A little",
+      "#A lot": "A lot",
+      "#And how much do these delays upset your plans for the day?": "And how much do these delays upset your plans for the day?",
+      "#Extremely": "Extremely",
+      "#Moderately": "Moderately",
+      "#Not at all": "Not at all"
     },
     "fa": {
-      "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "وقتی تأخیر پیش می‌آید، مثلاً به دلیل ترافیک، ازدحام یا تصادف، برنامه روزانه شما چقدر تحت تأثیر قرار می‌گیرد؟",
-      "#Not at all affected": "اصلاً تحت تأثیر قرار نمی‌گیرد",
-      "#Slightly affected": "کمی تحت تأثیر قرار می‌گیرد",
-      "#Moderately affected": "تا حد متوسط تحت تأثیر قرار می‌گیرد",
-      "#Very affected": "خیلی تحت تأثیر قرار می‌گیرد",
-      "#Extremely affected": "بسیار زیاد تحت تأثیر قرار می‌گیرد"
+      "#A little": "کمی",
+      "#A lot": "زیاد",
+      "#And how much do these delays upset your plans for the day?": "و این تأخیرها چقدر برنامه روزانه شما را به هم می‌زند؟",
+      "#Extremely": "به‌شدت",
+      "#Moderately": "تا حدی",
+      "#Not at all": "اصلاً"
+    },
+    "fr": {
+      "#A little": "Un peu",
+      "#A lot": "Beaucoup",
+      "#And how much do these delays upset your plans for the day?": "Et dans quelle mesure ces retards bousculent-ils vos projets de la journée ?",
+      "#Extremely": "Énormément",
+      "#Moderately": "Modérément",
+      "#Not at all": "Pas du tout"
     },
     "hu": {
-      "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "Ha késés történik, például forgalom, torlódás vagy baleset miatt, mennyire befolyásolja ez a napi időbeosztását?",
-      "#Not at all affected": "Egyáltalán nem befolyásolja",
-      "#Slightly affected": "Kissé befolyásolja",
-      "#Moderately affected": "Közepesen befolyásolja",
-      "#Very affected": "Nagyon befolyásolja",
-      "#Extremely affected": "Rendkívül befolyásolja"
+      "#A little": "Kissé",
+      "#A lot": "Nagyon",
+      "#And how much do these delays upset your plans for the day?": "És ezek a késések mennyire borítják fel a napi terveit?",
+      "#Extremely": "Rendkívül",
+      "#Moderately": "Közepesen",
+      "#Not at all": "Egyáltalán nem"
     },
-    "ar": {
-      "#When delays occur (e.g. traffic, congestion, accidents), how do they affect your daily schedule?": "عند حدوث تأخير، مثل حركة المرور أو الازدحام أو الحوادث، كيف يؤثر ذلك في جدولك اليومي؟",
-      "#Not at all affected": "لا يؤثر إطلاقًا",
-      "#Slightly affected": "يؤثر قليلًا",
-      "#Moderately affected": "يؤثر بدرجة متوسطة",
-      "#Very affected": "يؤثر كثيرًا",
-      "#Extremely affected": "يؤثر بدرجة كبيرة جدًا"
+    "it": {
+      "#A little": "Un po'",
+      "#A lot": "Molto",
+      "#And how much do these delays upset your plans for the day?": "E quanto questi ritardi sconvolgono i tuoi programmi della giornata?",
+      "#Extremely": "Moltissimo",
+      "#Moderately": "Abbastanza",
+      "#Not at all": "Per niente"
+    },
+    "tr": {
+      "#A little": "Biraz",
+      "#A lot": "Çok",
+      "#And how much do these delays upset your plans for the day?": "Peki bu gecikmeler gün içindeki planlarınızı ne kadar bozuyor?",
+      "#Extremely": "Son derece",
+      "#Moderately": "Orta derecede",
+      "#Not at all": "Hiç"
     }
   },
   "origin_project": {

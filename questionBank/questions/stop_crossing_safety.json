@@ -2,104 +2,113 @@
   "question_id": "stop_crossing_safety",
   "key": "stop_crossing_safety",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
-    "smarturbanity_public_transport"
+    "smarturbanity_public_transport_road_safety"
   ],
   "schema": {
-    "text": "How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?",
-    "answer_key": "v1_how_does_the_quality_of_crossings_e",
-    "question_type": "single_option",
+    "answer_key": "stop_crossing_safety",
+    "help": "Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.",
     "options": [
       {
-        "text": "I avoid using this stop because the crossings feel unsafe",
+        "text": "I avoid some stops because crossing to them feels unsafe",
         "value": "i_avoid_using_this_stop_because_the_cros"
       },
       {
-        "text": "I often feel unsafe when crossing to reach the stop",
+        "text": "I often feel unsafe when I cross",
         "value": "i_often_feel_unsafe_when_crossing_to_rea"
       },
       {
-        "text": "I sometimes change my route to use crossings that feel safer",
+        "text": "I sometimes go a longer way to cross more safely",
         "value": "i_sometimes_change_my_route_to_use_cross"
       },
       {
-        "text": "I generally feel safe, but I still need to be careful when crossing",
+        "text": "I feel safe, but I have to be careful",
         "value": "i_generally_feel_safe_but_i_still_need_t"
       },
       {
-        "text": "I feel safe and well protected by the crossing design and traffic controls",
+        "text": "I feel safe: the crossings are well protected",
         "value": "i_feel_safe_and_well_protected_by_the_cr"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "When you cross the road to reach or leave a stop, how safe do you feel?"
   },
   "translations": {
-    "en": {
-      "#How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?": "How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?",
-      "#I avoid using this stop because the crossings feel unsafe": "I avoid using this stop because the crossings feel unsafe",
-      "#I often feel unsafe when crossing to reach the stop": "I often feel unsafe when crossing to reach the stop",
-      "#I sometimes change my route to use crossings that feel safer": "I sometimes change my route to use crossings that feel safer",
-      "#I generally feel safe, but I still need to be careful when crossing": "I generally feel safe, but I still need to be careful when crossing",
-      "#I feel safe and well protected by the crossing design and traffic controls": "I feel safe and well protected by the crossing design and traffic controls"
-    },
-    "it": {
-      "#How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?": "In che modo la qualità degli attraversamenti (ad es. semafori, ponti o sottopassaggi) vicino alla fermata influisce sulla tua percezione di sicurezza?",
-      "#I avoid using this stop because the crossings feel unsafe": "Evito di utilizzare questa fermata perché gli attraversamenti mi sembrano pericolosi",
-      "#I often feel unsafe when crossing to reach the stop": "Spesso mi sento in pericolo quando attraverso la strada per raggiungere la fermata",
-      "#I sometimes change my route to use crossings that feel safer": "A volte cambio percorso per utilizzare attraversamenti che mi sembrano più sicuri",
-      "#I generally feel safe, but I still need to be careful when crossing": "In generale mi sento al sicuro, ma devo comunque prestare attenzione quando attraverso",
-      "#I feel safe and well protected by the crossing design and traffic controls": "Mi sento al sicuro, con una buona protezione grazie alla progettazione degli attraversamenti e ai sistemi di regolazione del traffico"
-    },
-    "fr": {
-      "#How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?": "Comment la qualité des traversées, par exemple les feux, ponts ou tunnels près de l’arrêt, influence-t-elle votre sentiment de sécurité ?",
-      "#I avoid using this stop because the crossings feel unsafe": "J’évite cet arrêt parce que les traversées me semblent dangereuses",
-      "#I often feel unsafe when crossing to reach the stop": "Je me sens souvent en danger lorsque je traverse pour rejoindre l’arrêt",
-      "#I sometimes change my route to use crossings that feel safer": "Je change parfois d’itinéraire pour utiliser une traversée qui me semble plus sûre",
-      "#I generally feel safe, but I still need to be careful when crossing": "En général, je me sens en sécurité, mais la prudence reste nécessaire lorsque je traverse",
-      "#I feel safe and well protected by the crossing design and traffic controls": "Je me sens en sécurité : l’aménagement de la traversée et la régulation du trafic me protègent bien"
+    "ar": {
+      "#I avoid some stops because crossing to them feels unsafe": "أتجنب بعض المحطات لأن العبور إليها لا يبدو آمنًا",
+      "#I feel safe, but I have to be careful": "أشعر بالأمان، لكن عليّ أن أكون حذرًا",
+      "#I feel safe: the crossings are well protected": "أشعر بالأمان: المعابر محمية جيدًا",
+      "#I often feel unsafe when I cross": "أشعر غالبًا بعدم الأمان عند العبور",
+      "#I sometimes go a longer way to cross more safely": "أسلك أحيانًا طريقًا أطول لأعبر بأمان أكبر",
+      "#Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.": "فكّر في إشارات المرور وممرات المشاة والجسور أو الأنفاق قرب المحطات التي تستخدمها.",
+      "#When you cross the road to reach or leave a stop, how safe do you feel?": "عندما تعبر الطريق للوصول إلى المحطة أو مغادرتها، ما مدى شعورك بالأمان؟"
     },
     "de": {
-      "#How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?": "Wie beeinflusst die Qualität von Querungen, zum Beispiel Ampeln, Brücken oder Unterführungen in der Nähe der Haltestelle, Ihr Sicherheitsgefühl?",
-      "#I avoid using this stop because the crossings feel unsafe": "Ich vermeide diese Haltestelle, weil sich die Querungen unsicher anfühlen",
-      "#I often feel unsafe when crossing to reach the stop": "Ich fühle mich beim Überqueren auf dem Weg zur Haltestelle oft unsicher",
-      "#I sometimes change my route to use crossings that feel safer": "Ich ändere manchmal meine Route, um eine Querung zu nutzen, die sich sicherer anfühlt",
-      "#I generally feel safe, but I still need to be careful when crossing": "Im Allgemeinen fühle ich mich sicher, muss beim Überqueren aber trotzdem vorsichtig sein",
-      "#I feel safe and well protected by the crossing design and traffic controls": "Ich fühle mich durch die Gestaltung der Querung und die Verkehrsregelung sicher und gut geschützt"
+      "#I avoid some stops because crossing to them feels unsafe": "Ich meide manche Haltestellen, weil mir das Überqueren dorthin unsicher vorkommt",
+      "#I feel safe, but I have to be careful": "Ich fühle mich sicher, muss aber aufpassen",
+      "#I feel safe: the crossings are well protected": "Ich fühle mich sicher: Die Übergänge sind gut gesichert",
+      "#I often feel unsafe when I cross": "Ich fühle mich beim Überqueren oft unsicher",
+      "#I sometimes go a longer way to cross more safely": "Manchmal gehe ich einen Umweg, um sicherer zu überqueren",
+      "#Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.": "Denken Sie an Ampeln, Zebrastreifen, Fußgängerbrücken oder Unterführungen bei den Haltestellen, die Sie nutzen.",
+      "#When you cross the road to reach or leave a stop, how safe do you feel?": "Wie sicher fühlen Sie sich, wenn Sie die Straße überqueren, um zu einer Haltestelle zu kommen oder sie zu verlassen?"
     },
-    "tr": {
-      "#How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?": "Durağın yakınındaki geçişlerin, örneğin trafik ışıkları, köprüler veya alt geçitlerin, kalitesi güvenlik hissinizi nasıl etkiler?",
-      "#I avoid using this stop because the crossings feel unsafe": "Geçişler güvensiz hissettirdiği için bu durağı kullanmaktan kaçınırım",
-      "#I often feel unsafe when crossing to reach the stop": "Durağa ulaşmak için karşıya geçerken sık sık kendimi güvensiz hissederim",
-      "#I sometimes change my route to use crossings that feel safer": "Daha güvenli hissettiren geçişleri kullanmak için bazen güzergâhımı değiştiririm",
-      "#I generally feel safe, but I still need to be careful when crossing": "Genellikle kendimi güvende hissederim, ancak karşıya geçerken yine de dikkatli olmam gerekir",
-      "#I feel safe and well protected by the crossing design and traffic controls": "Geçiş tasarımı ve trafik düzenlemeleri sayesinde kendimi güvende ve iyi korunmuş hissederim"
+    "en": {
+      "#I avoid some stops because crossing to them feels unsafe": "I avoid some stops because crossing to them feels unsafe",
+      "#I feel safe, but I have to be careful": "I feel safe, but I have to be careful",
+      "#I feel safe: the crossings are well protected": "I feel safe: the crossings are well protected",
+      "#I often feel unsafe when I cross": "I often feel unsafe when I cross",
+      "#I sometimes go a longer way to cross more safely": "I sometimes go a longer way to cross more safely",
+      "#Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.": "Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.",
+      "#When you cross the road to reach or leave a stop, how safe do you feel?": "When you cross the road to reach or leave a stop, how safe do you feel?"
     },
     "fa": {
-      "#How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?": "کیفیت گذرگاه‌ها، مانند چراغ، پل یا زیرگذر نزدیک ایستگاه، چه اثری بر احساس امنیت شما دارد؟",
-      "#I avoid using this stop because the crossings feel unsafe": "به دلیل ناامن بودن گذرگاه‌ها از این ایستگاه استفاده نمی‌کنم",
-      "#I often feel unsafe when crossing to reach the stop": "هنگام عبور برای رسیدن به ایستگاه اغلب احساس ناامنی می‌کنم",
-      "#I sometimes change my route to use crossings that feel safer": "گاهی مسیرم را تغییر می‌دهم تا از گذرگاهی استفاده کنم که امن‌تر به نظر می‌رسد",
-      "#I generally feel safe, but I still need to be careful when crossing": "در مجموع احساس امنیت می‌کنم، اما هنگام عبور همچنان باید مراقب باشم",
-      "#I feel safe and well protected by the crossing design and traffic controls": "به دلیل طراحی گذرگاه و کنترل ترافیک احساس امنیت و محافظت خوبی دارم"
+      "#I avoid some stops because crossing to them feels unsafe": "از بعضی ایستگاه‌ها دوری می‌کنم چون عبور به آن‌ها ناامن است",
+      "#I feel safe, but I have to be careful": "احساس امنیت می‌کنم، اما باید مراقب باشم",
+      "#I feel safe: the crossings are well protected": "احساس امنیت می‌کنم: گذرگاه‌ها خوب محافظت شده‌اند",
+      "#I often feel unsafe when I cross": "اغلب هنگام عبور احساس ناامنی می‌کنم",
+      "#I sometimes go a longer way to cross more safely": "گاهی برای عبور امن‌تر مسیر طولانی‌تری می‌روم",
+      "#Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.": "به چراغ راهنمایی، خط عابر پیاده، پل هوایی یا زیرگذر نزدیک ایستگاه‌هایی که استفاده می‌کنید فکر کنید.",
+      "#When you cross the road to reach or leave a stop, how safe do you feel?": "وقتی برای رسیدن به ایستگاه یا ترک آن از جاده عبور می‌کنید، چقدر احساس امنیت می‌کنید؟"
+    },
+    "fr": {
+      "#I avoid some stops because crossing to them feels unsafe": "J'évite certains arrêts parce que les traverser pour les rejoindre me semble dangereux",
+      "#I feel safe, but I have to be careful": "Je me sens en sécurité, mais je dois faire attention",
+      "#I feel safe: the crossings are well protected": "Je me sens en sécurité : les passages sont bien protégés",
+      "#I often feel unsafe when I cross": "Je me sens souvent en danger quand je traverse",
+      "#I sometimes go a longer way to cross more safely": "Je fais parfois un détour pour traverser plus sûrement",
+      "#Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.": "Pensez aux feux, aux passages piétons, aux passerelles ou aux passages souterrains près des arrêts que vous utilisez.",
+      "#When you cross the road to reach or leave a stop, how safe do you feel?": "Quand vous traversez la route pour rejoindre ou quitter un arrêt, à quel point vous sentez-vous en sécurité ?"
     },
     "hu": {
-      "#How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?": "Hogyan befolyásolja a megálló közelében lévő átkelőhelyek, például jelzőlámpák, hidak vagy aluljárók minősége a biztonságérzetét?",
-      "#I avoid using this stop because the crossings feel unsafe": "Kerülöm ezt a megállót, mert az átkelés nem tűnik biztonságosnak",
-      "#I often feel unsafe when crossing to reach the stop": "Gyakran érzem magam bizonytalannak, amikor a megállóhoz vezető úton át kell kelnem",
-      "#I sometimes change my route to use crossings that feel safer": "Néha módosítom az útvonalat, hogy biztonságosabbnak tűnő átkelőhelyet használjak",
-      "#I generally feel safe, but I still need to be careful when crossing": "Általában biztonságban érzem magam, de átkeléskor továbbra is óvatosnak kell lennem",
-      "#I feel safe and well protected by the crossing design and traffic controls": "Az átkelőhely kialakítása és a forgalomszabályozás miatt biztonságban és jól védve érzem magam"
+      "#I avoid some stops because crossing to them feels unsafe": "Egyes megállókat elkerülök, mert nem érzem biztonságosnak az odajutást",
+      "#I feel safe, but I have to be careful": "Biztonságban érzem magam, de óvatosnak kell lennem",
+      "#I feel safe: the crossings are well protected": "Biztonságban érzem magam: az átkelők jól védettek",
+      "#I often feel unsafe when I cross": "Átkelés közben gyakran nem érzem magam biztonságban",
+      "#I sometimes go a longer way to cross more safely": "Néha hosszabb utat teszek meg, hogy biztonságosabban kelhessek át",
+      "#Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.": "Gondoljon a lámpákra, zebrákra, gyalogos-felüljárókra vagy aluljárókra az Ön által használt megállók közelében.",
+      "#When you cross the road to reach or leave a stop, how safe do you feel?": "Amikor átkel az úton, hogy elérjen egy megállót vagy elhagyja azt, mennyire érzi magát biztonságban?"
     },
-    "ar": {
-      "#How does the quality of crossings (e.g. signals, bridges, or tunnels) near the stop influence your sense of safety?": "كيف تؤثر جودة المعابر، مثل الإشارات أو الجسور أو الأنفاق القريبة من المحطة، في شعورك بالأمان؟",
-      "#I avoid using this stop because the crossings feel unsafe": "أتجنب استخدام هذه المحطة لأن المعابر تبدو غير آمنة",
-      "#I often feel unsafe when crossing to reach the stop": "غالبًا ما أشعر بعدم الأمان عند العبور للوصول إلى المحطة",
-      "#I sometimes change my route to use crossings that feel safer": "أغيّر طريقي أحيانًا لاستخدام معبر يبدو أكثر أمانًا",
-      "#I generally feel safe, but I still need to be careful when crossing": "أشعر بالأمان عمومًا، لكنني ما زلت بحاجة إلى الحذر عند العبور",
-      "#I feel safe and well protected by the crossing design and traffic controls": "أشعر بالأمان والحماية الجيدة بسبب تصميم المعبر وتنظيم حركة المرور"
+    "it": {
+      "#I avoid some stops because crossing to them feels unsafe": "Evito alcune fermate perché attraversare per raggiungerle non mi sembra sicuro",
+      "#I feel safe, but I have to be careful": "Mi sento sicuro, ma devo stare attento",
+      "#I feel safe: the crossings are well protected": "Mi sento sicuro: gli attraversamenti sono ben protetti",
+      "#I often feel unsafe when I cross": "Spesso mi sento poco sicuro quando attraverso",
+      "#I sometimes go a longer way to cross more safely": "A volte faccio un giro più lungo per attraversare in modo più sicuro",
+      "#Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.": "Pensa a semafori, strisce pedonali, passerelle o sottopassi vicino alle fermate che usi.",
+      "#When you cross the road to reach or leave a stop, how safe do you feel?": "Quando attraversi la strada per raggiungere o lasciare una fermata, quanto ti senti sicuro?"
+    },
+    "tr": {
+      "#I avoid some stops because crossing to them feels unsafe": "Bazı duraklardan kaçınırım çünkü oraya geçmek güvensiz geliyor",
+      "#I feel safe, but I have to be careful": "Kendimi güvende hissederim ama dikkatli olmam gerekir",
+      "#I feel safe: the crossings are well protected": "Kendimi güvende hissederim: Geçitler iyi korunuyor",
+      "#I often feel unsafe when I cross": "Karşıya geçerken sık sık kendimi güvende hissetmem",
+      "#I sometimes go a longer way to cross more safely": "Bazen daha güvenli geçmek için daha uzun bir yol izlerim",
+      "#Think of traffic lights, zebra crossings, footbridges or underpasses near the stops you use.": "Kullandığınız durakların yakınındaki trafik ışıklarını, yaya geçitlerini, üst geçitleri veya alt geçitleri düşünün.",
+      "#When you cross the road to reach or leave a stop, how safe do you feel?": "Bir durağa gitmek veya durağdan ayrılmak için yolu geçerken kendinizi ne kadar güvende hissediyorsunuz?"
     }
   },
   "origin_project": {

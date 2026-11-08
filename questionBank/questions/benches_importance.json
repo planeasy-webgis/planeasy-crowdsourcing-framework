@@ -2,104 +2,104 @@
   "question_id": "benches_importance",
   "key": "benches_importance",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking",
   "source_questionnaires": [
-    "smarturbanity_walking"
+    "smarturbanity_walking_comfort"
   ],
   "schema": {
-    "text": "How does the availability of benches and rest areas affect your ability to complete your journey?",
     "answer_key": "benches_importance",
-    "question_type": "single_option",
     "options": [
       {
-        "text": "Seating has no influence on my travel choices or physical stamina",
+        "text": "No, I don't need them",
         "value": "seating_has_no_influence_on_my_travel_ch"
       },
       {
-        "text": "I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish",
+        "text": "Without benches it's less comfortable, but I manage",
         "value": "i_notice_the_lack_of_seating_makes_the_t"
       },
       {
-        "text": "I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items",
+        "text": "I use them when I'm tired or carrying heavy bags",
         "value": "i_do_not_plan_my_trip_around_them_but_i"
       },
       {
-        "text": "I specifically choose routes with seating so I can take breaks, even if it is not the most direct path",
+        "text": "I choose routes with benches, even if they are longer",
         "value": "i_specifically_choose_routes_with_seatin"
       },
       {
-        "text": "I rely on rest areas to make my journey possible; without them I could not travel this far",
+        "text": "I need them: without benches I can't walk that far",
         "value": "i_rely_on_rest_areas_to_make_my_journey"
       }
     ],
-    "privacy_classification": "special_category_health"
+    "privacy_classification": "special_category_health",
+    "question_type": "single_option",
+    "text": "Do you need benches or places to rest on your way?"
   },
   "translations": {
-    "en": {
-      "#How does the availability of benches and rest areas affect your ability to complete your journey?": "How does the availability of benches and rest areas affect your ability to complete your journey?",
-      "#Seating has no influence on my travel choices or physical stamina": "Seating has no influence on my travel choices or physical stamina",
-      "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish",
-      "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items",
-      "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "I specifically choose routes with seating so I can take breaks, even if it is not the most direct path",
-      "#I rely on rest areas to make my journey possible; without them I could not travel this far": "I rely on rest areas to make my journey possible; without them I could not travel this far"
-    },
-    "it": {
-      "#How does the availability of benches and rest areas affect your ability to complete your journey?": "In che modo la disponibilità di panchine e aree di sosta influisce sulla tua capacità di completare lo spostamento?",
-      "#Seating has no influence on my travel choices or physical stamina": "La disponibilità di posti a sedere non influisce sulle mie scelte di viaggio né sulla mia resistenza fisica",
-      "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "La mancanza di posti a sedere rende lo spostamento meno confortevole, ma non influisce sulla mia capacità di completarlo",
-      "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Non pianifico lo spostamento in base alla loro presenza, ma li utilizzo se all’improvviso ho bisogno di riposare o se trasporto oggetti pesanti",
-      "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Scelgo appositamente percorsi con posti a sedere per poter fare delle pause, anche se non sono i più diretti",
-      "#I rely on rest areas to make my journey possible; without them I could not travel this far": "Faccio affidamento sulle aree di sosta per riuscire a completare lo spostamento; senza di esse non potrei percorrere una distanza così lunga"
-    },
-    "fr": {
-      "#How does the availability of benches and rest areas affect your ability to complete your journey?": "Comment la présence de bancs et de zones de repos influence-t-elle votre capacité à terminer votre trajet ?",
-      "#Seating has no influence on my travel choices or physical stamina": "Les bancs n’influencent ni mes choix de déplacement ni mon endurance",
-      "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "Je remarque le manque de bancs, ce qui rend le trajet moins confortable, mais je peux quand même le terminer",
-      "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Je ne choisis pas mon itinéraire en fonction des bancs, mais je les utilise en cas de fatigue ou si je porte des objets lourds",
-      "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Je choisis certains itinéraires parce qu’ils ont des bancs où je peux faire une pause, même s’ils sont moins directs",
-      "#I rely on rest areas to make my journey possible; without them I could not travel this far": "J’ai besoin de zones de repos pour pouvoir faire ce trajet ; sans elles, je ne pourrais pas aller aussi loin"
+    "ar": {
+      "#Do you need benches or places to rest on your way?": "هل تحتاج إلى مقاعد أو أماكن للراحة في طريقك؟",
+      "#I choose routes with benches, even if they are longer": "أختار طرقًا فيها مقاعد حتى لو كانت أطول",
+      "#I need them: without benches I can't walk that far": "أحتاج إليها: بدون مقاعد لا أستطيع المشي كل هذه المسافة",
+      "#I use them when I'm tired or carrying heavy bags": "أستخدمها عندما أكون متعبًا أو أحمل أكياسًا ثقيلة",
+      "#No, I don't need them": "لا، لا أحتاج إليها",
+      "#Without benches it's less comfortable, but I manage": "بدون مقاعد يكون الأمر أقل راحة، لكنني أتدبر الأمر"
     },
     "de": {
-      "#How does the availability of benches and rest areas affect your ability to complete your journey?": "Wie beeinflussen Bänke und Ruheplätze Ihre Möglichkeit, Ihren Weg zu Ende zu gehen?",
-      "#Seating has no influence on my travel choices or physical stamina": "Sitzmöglichkeiten beeinflussen weder meine Verkehrsmittelwahl noch meine Ausdauer",
-      "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "Fehlende Sitzmöglichkeiten machen den Weg weniger angenehm, aber ich kann ihn trotzdem zu Ende gehen",
-      "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Ich plane meine Route nicht nach Sitzmöglichkeiten, nutze sie aber, wenn ich unerwartet müde bin oder schwere Dinge trage",
-      "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Ich wähle gezielt Wege mit Sitzmöglichkeiten für Pausen, auch wenn sie nicht die direkteste Route sind",
-      "#I rely on rest areas to make my journey possible; without them I could not travel this far": "Ich brauche Ruheplätze, um diesen Weg schaffen zu können; ohne sie könnte ich nicht so weit gehen"
+      "#Do you need benches or places to rest on your way?": "Brauchen Sie unterwegs Bänke oder Orte zum Ausruhen?",
+      "#I choose routes with benches, even if they are longer": "Ich wähle Strecken mit Bänken, auch wenn sie länger sind",
+      "#I need them: without benches I can't walk that far": "Ich brauche sie: Ohne Bänke komme ich nicht so weit",
+      "#I use them when I'm tired or carrying heavy bags": "Ich nutze sie, wenn ich müde bin oder schwere Taschen trage",
+      "#No, I don't need them": "Nein, ich brauche sie nicht",
+      "#Without benches it's less comfortable, but I manage": "Ohne Bänke ist es weniger bequem, aber ich komme zurecht"
     },
-    "tr": {
-      "#How does the availability of benches and rest areas affect your ability to complete your journey?": "Bankların ve dinlenme alanlarının bulunması yolculuğunuzu tamamlayabilmenizi nasıl etkiler?",
-      "#Seating has no influence on my travel choices or physical stamina": "Oturma alanları ulaşım tercihlerimi veya fiziksel dayanıklılığımı etkilemez",
-      "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "Oturma alanlarının azlığını fark ederim; yolculuk daha az rahat olur ama tamamlamama engel olmaz",
-      "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Yolculuğumu banklara göre planlamam ama beklenmedik şekilde yorulursam veya ağır bir şey taşıyorsam kullanırım",
-      "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Dinlenebilmek için özellikle oturma alanı olan güzergâhları seçerim, daha uzun olsalar bile",
-      "#I rely on rest areas to make my journey possible; without them I could not travel this far": "Yolculuğu yapabilmek için dinlenme alanlarına ihtiyaç duyarım; onlar olmadan bu kadar uzağa gidemezdim"
+    "en": {
+      "#Do you need benches or places to rest on your way?": "Do you need benches or places to rest on your way?",
+      "#I choose routes with benches, even if they are longer": "I choose routes with benches, even if they are longer",
+      "#I need them: without benches I can't walk that far": "I need them: without benches I can't walk that far",
+      "#I use them when I'm tired or carrying heavy bags": "I use them when I'm tired or carrying heavy bags",
+      "#No, I don't need them": "No, I don't need them",
+      "#Without benches it's less comfortable, but I manage": "Without benches it's less comfortable, but I manage"
     },
     "fa": {
-      "#How does the availability of benches and rest areas affect your ability to complete your journey?": "وجود نیمکت و محل استراحت چه اثری بر توانایی شما برای کامل کردن سفر دارد؟",
-      "#Seating has no influence on my travel choices or physical stamina": "محل نشستن بر انتخاب سفر یا توان جسمی من اثری ندارد",
-      "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "کمبود محل نشستن سفر را کمتر راحت می‌کند، اما مانع تمام کردن آن نمی‌شود",
-      "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "مسیرم را بر اساس نیمکت انتخاب نمی‌کنم، اما اگر ناگهان خسته شوم یا بار سنگین داشته باشم از آن استفاده می‌کنم",
-      "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "برای اینکه بتوانم استراحت کنم، مسیرهایی را انتخاب می‌کنم که محل نشستن دارند، حتی اگر مستقیم‌ترین راه نباشند",
-      "#I rely on rest areas to make my journey possible; without them I could not travel this far": "برای اینکه بتوانم این مسافت را طی کنم به محل استراحت نیاز دارم؛ بدون آن نمی‌توانم تا این فاصله بروم"
+      "#Do you need benches or places to rest on your way?": "آیا در مسیرتان به نیمکت یا جای استراحت نیاز دارید؟",
+      "#I choose routes with benches, even if they are longer": "مسیرهایی را انتخاب می‌کنم که نیمکت دارند، حتی اگر طولانی‌تر باشند",
+      "#I need them: without benches I can't walk that far": "به آن‌ها نیاز دارم: بدون نیمکت نمی‌توانم این‌قدر راه بروم",
+      "#I use them when I'm tired or carrying heavy bags": "وقتی خسته‌ام یا کیسه سنگین دارم از آن‌ها استفاده می‌کنم",
+      "#No, I don't need them": "نه، نیازی به آن‌ها ندارم",
+      "#Without benches it's less comfortable, but I manage": "بدون نیمکت کمتر راحت است، اما از پسش برمی‌آیم"
+    },
+    "fr": {
+      "#Do you need benches or places to rest on your way?": "Avez-vous besoin de bancs ou d'endroits où vous reposer en chemin ?",
+      "#I choose routes with benches, even if they are longer": "Je choisis des itinéraires avec des bancs, même s'ils sont plus longs",
+      "#I need them: without benches I can't walk that far": "J'en ai besoin : sans bancs, je ne peux pas aller aussi loin",
+      "#I use them when I'm tired or carrying heavy bags": "Je les utilise quand je suis fatigué ou que je porte des sacs lourds",
+      "#No, I don't need them": "Non, je n'en ai pas besoin",
+      "#Without benches it's less comfortable, but I manage": "Sans bancs, c'est moins confortable, mais je me débrouille"
     },
     "hu": {
-      "#How does the availability of benches and rest areas affect your ability to complete your journey?": "Hogyan befolyásolja a padok és pihenőhelyek elérhetősége azt, hogy végig tudja-e járni az útját?",
-      "#Seating has no influence on my travel choices or physical stamina": "Az ülőhelyek nem befolyásolják sem a közlekedési döntéseimet, sem a fizikai állóképességemet",
-      "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "Észreveszem az ülőhelyek hiányát, és emiatt kevésbé kényelmes az út, de be tudom fejezni",
-      "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "Nem az ülőhelyek alapján tervezem az utat, de használom őket, ha váratlanul elfáradok vagy nehéz dolgot viszek",
-      "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "Kifejezetten olyan útvonalat választok, ahol le tudok ülni pihenni, még akkor is, ha az nem a legrövidebb",
-      "#I rely on rest areas to make my journey possible; without them I could not travel this far": "Szükségem van pihenőhelyekre ahhoz, hogy ezt a távolságot meg tudjam tenni; nélkülük nem jutnék ilyen messzire"
+      "#Do you need benches or places to rest on your way?": "Szüksége van padokra vagy pihenőhelyekre az útvonalán?",
+      "#I choose routes with benches, even if they are longer": "Olyan útvonalat választok, ahol van pad, akkor is, ha hosszabb",
+      "#I need them: without benches I can't walk that far": "Szükségem van rájuk: pad nélkül nem tudok ilyen messzire elmenni",
+      "#I use them when I'm tired or carrying heavy bags": "Használom őket, ha fáradt vagyok, vagy nehéz szatyrokat cipelek",
+      "#No, I don't need them": "Nem, nincs rájuk szükségem",
+      "#Without benches it's less comfortable, but I manage": "Pad nélkül kevésbé kényelmes, de megoldom"
     },
-    "ar": {
-      "#How does the availability of benches and rest areas affect your ability to complete your journey?": "كيف يؤثر توفر المقاعد وأماكن الراحة في قدرتك على إكمال رحلتك؟",
-      "#Seating has no influence on my travel choices or physical stamina": "المقاعد لا تؤثر في اختياراتي أو قدرتي البدنية",
-      "#I notice the lack of seating makes the trip less comfortable but it does not affect my ability to finish": "ألاحظ نقص المقاعد ويجعل الرحلة أقل راحة، لكنه لا يمنعني من إكمالها",
-      "#I do not plan my trip around them but I use them if I feel unexpectedly tired or am carrying heavy items": "لا أخطط طريقي بناءً على وجود المقاعد، لكنني أستخدمها إذا تعبت فجأة أو كنت أحمل أشياء ثقيلة",
-      "#I specifically choose routes with seating so I can take breaks, even if it is not the most direct path": "أختار عمدًا طرقًا فيها مقاعد حتى أستطيع الاستراحة، حتى لو لم تكن أقصر طريق",
-      "#I rely on rest areas to make my journey possible; without them I could not travel this far": "أعتمد على أماكن الراحة لأتمكن من إكمال الرحلة؛ من دونها لا أستطيع المشي لهذه المسافة"
+    "it": {
+      "#Do you need benches or places to rest on your way?": "Hai bisogno di panchine o di posti dove riposare lungo la strada?",
+      "#I choose routes with benches, even if they are longer": "Scelgo percorsi con panchine, anche se sono più lunghi",
+      "#I need them: without benches I can't walk that far": "Mi servono: senza panchine non riesco ad andare così lontano",
+      "#I use them when I'm tired or carrying heavy bags": "Le uso quando sono stanco o porto borse pesanti",
+      "#No, I don't need them": "No, non mi servono",
+      "#Without benches it's less comfortable, but I manage": "Senza panchine è meno comodo, ma ce la faccio"
+    },
+    "tr": {
+      "#Do you need benches or places to rest on your way?": "Yolda bank veya dinlenecek yerlere ihtiyacınız var mı?",
+      "#I choose routes with benches, even if they are longer": "Daha uzun olsa bile banklı güzergâhları seçerim",
+      "#I need them: without benches I can't walk that far": "İhtiyacım var: Bank olmadan o kadar uzağa gidemem",
+      "#I use them when I'm tired or carrying heavy bags": "Yorgun olduğumda veya ağır çantalar taşıdığımda kullanırım",
+      "#No, I don't need them": "Hayır, ihtiyacım yok",
+      "#Without benches it's less comfortable, but I manage": "Bank olmadan daha az rahat ama idare ederim"
     }
   },
   "origin_project": {

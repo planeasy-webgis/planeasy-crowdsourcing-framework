@@ -2,16 +2,15 @@
   "question_id": "motorcycle_weekly",
   "key": "motorcycle_weekly",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle",
   "source_questionnaires": [
-    "smarturbanity_motorcycle"
+    "smarturbanity_motorcycle_habits"
   ],
   "schema": {
-    "text": "Do you use a motorcycle or scooter for your daily travel at least once a week?",
-    "answer_key": "moto_weekly",
-    "question_type": "single_option",
+    "answer_key": "motorcycle_weekly",
+    "help": "Petrol or electric. Stand-up e-scooters don't count here.",
     "options": [
       {
         "text": "Yes",
@@ -22,48 +21,58 @@
         "value": "no"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Do you ride a motorcycle, scooter or moped at least once a week?"
   },
   "translations": {
-    "en": {
-      "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Do you use a motorcycle or scooter for your daily travel at least once a week?",
-      "#Yes": "Yes",
-      "#No": "No"
-    },
-    "it": {
-      "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Utilizzi una moto o uno scooter per i tuoi spostamenti quotidiani almeno una volta alla settimana?",
-      "#Yes": "Sì",
-      "#No": "No"
-    },
-    "fr": {
-      "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Utilisez-vous une moto ou un scooter pour vos déplacements quotidiens au moins une fois par semaine ?",
-      "#Yes": "Oui",
-      "#No": "Non"
+    "ar": {
+      "#Do you ride a motorcycle, scooter or moped at least once a week?": "هل تركب دراجة نارية أو سكوترًا أو دراجة نارية خفيفة مرة واحدة على الأقل في الأسبوع؟",
+      "#No": "لا",
+      "#Petrol or electric. Stand-up e-scooters don't count here.": "بالبنزين أو بالكهرباء. السكوترات الكهربائية الواقفة لا تُحسب هنا.",
+      "#Yes": "نعم"
     },
     "de": {
-      "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Nutzen Sie mindestens einmal pro Woche ein Motorrad oder einen Roller für Ihre täglichen Wege?",
-      "#Yes": "Ja",
-      "#No": "Nein"
+      "#Do you ride a motorcycle, scooter or moped at least once a week?": "Fahren Sie mindestens einmal pro Woche Motorrad, Roller oder Moped?",
+      "#No": "Nein",
+      "#Petrol or electric. Stand-up e-scooters don't count here.": "Benzin oder elektrisch. Stehroller zählen hier nicht.",
+      "#Yes": "Ja"
     },
-    "tr": {
-      "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Günlük yolculuklarınızda haftada en az bir kez motosiklet veya scooter kullanıyor musunuz?",
-      "#Yes": "Evet",
-      "#No": "Hayır"
+    "en": {
+      "#Do you ride a motorcycle, scooter or moped at least once a week?": "Do you ride a motorcycle, scooter or moped at least once a week?",
+      "#No": "No",
+      "#Petrol or electric. Stand-up e-scooters don't count here.": "Petrol or electric. Stand-up e-scooters don't count here.",
+      "#Yes": "Yes"
     },
     "fa": {
-      "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "آیا حداقل هفته‌ای یک بار برای رفت‌وآمد روزانه از موتورسیکلت یا اسکوتر استفاده می‌کنید؟",
-      "#Yes": "بله",
-      "#No": "خیر"
+      "#Do you ride a motorcycle, scooter or moped at least once a week?": "آیا حداقل هفته‌ای یک بار با موتورسیکلت، اسکوتر یا موتور کوچک سفر می‌کنید؟",
+      "#No": "خیر",
+      "#Petrol or electric. Stand-up e-scooters don't count here.": "بنزینی یا برقی. اسکوترهای برقی ایستاده در اینجا حساب نمی‌شوند.",
+      "#Yes": "بله"
+    },
+    "fr": {
+      "#Do you ride a motorcycle, scooter or moped at least once a week?": "Faites-vous de la moto, du scooter ou du cyclomoteur au moins une fois par semaine ?",
+      "#No": "Non",
+      "#Petrol or electric. Stand-up e-scooters don't count here.": "À essence ou électrique. Les trottinettes électriques debout ne comptent pas ici.",
+      "#Yes": "Oui"
     },
     "hu": {
-      "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "Használ motorkerékpárt vagy robogót a mindennapi közlekedéshez legalább hetente egyszer?",
-      "#Yes": "Igen",
-      "#No": "Nem"
+      "#Do you ride a motorcycle, scooter or moped at least once a week?": "Közlekedik motorkerékpárral, robogóval vagy segédmotoros kerékpárral legalább hetente egyszer?",
+      "#No": "Nem",
+      "#Petrol or electric. Stand-up e-scooters don't count here.": "Benzines vagy elektromos. Az álló elektromos rollerek itt nem számítanak.",
+      "#Yes": "Igen"
     },
-    "ar": {
-      "#Do you use a motorcycle or scooter for your daily travel at least once a week?": "هل تستخدم دراجة نارية أو سكوتر في تنقلاتك اليومية مرة واحدة على الأقل في الأسبوع؟",
-      "#Yes": "نعم",
-      "#No": "لا"
+    "it": {
+      "#Do you ride a motorcycle, scooter or moped at least once a week?": "Vai in moto, scooter o motorino almeno una volta a settimana?",
+      "#No": "No",
+      "#Petrol or electric. Stand-up e-scooters don't count here.": "A benzina o elettrico. I monopattini elettrici in piedi qui non contano.",
+      "#Yes": "Sì"
+    },
+    "tr": {
+      "#Do you ride a motorcycle, scooter or moped at least once a week?": "Haftada en az bir kez motosiklet, scooter veya moped kullanıyor musunuz?",
+      "#No": "Hayır",
+      "#Petrol or electric. Stand-up e-scooters don't count here.": "Benzinli veya elektrikli. Ayakta kullanılan elektrikli scooter'lar burada sayılmaz.",
+      "#Yes": "Evet"
     }
   },
   "origin_project": {

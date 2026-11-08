@@ -2,17 +2,14 @@
   "question_id": "household_adults",
   "key": "household_adults",
   "project": "shared",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "smarturbanity_your_profile"
   ],
   "schema": {
-    "privacy_classification": "heightened_personal",
-    "text": "How many adults (aged 18 or older), including yourself, live in your home?",
     "answer_key": "household_adults",
-    "question_type": "single_option",
     "checks_inline": false,
     "options": [
       {
@@ -35,65 +32,75 @@
         "text": "5 or more",
         "value": "5_plus"
       }
-    ]
+    ],
+    "privacy_classification": "heightened_personal",
+    "question_type": "single_option",
+    "text": "How many adults (aged 18 or older), including yourself, live in your home?"
   },
   "translations": {
-    "en": {},
-    "it": {
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Quante persone adulte (di 18 anni o più) vivono nella tua casa, contando anche te?",
-      "#1 (only myself)": "1 (solo io)",
-      "#2": "2",
-      "#3": "3",
-      "#4": "4",
-      "#5 or more": "5 o più"
-    },
-    "fr": {
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Combien de personnes adultes (de 18 ans ou plus), y compris vous, vivent dans votre logement ?",
-      "#1 (only myself)": "1 (moi uniquement)",
-      "#2": "2",
-      "#3": "3",
-      "#4": "4",
-      "#5 or more": "5 ou plus"
-    },
-    "de": {
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Wie viele Erwachsene (ab 18 Jahren), Sie selbst eingeschlossen, leben in Ihrem Haushalt?",
-      "#1 (only myself)": "1 (nur ich)",
-      "#2": "2",
-      "#3": "3",
-      "#4": "4",
-      "#5 or more": "5 oder mehr"
-    },
-    "tr": {
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Siz dahil, evinizde kaç yetişkin (18 yaş ve üzeri) yaşıyor?",
-      "#1 (only myself)": "1 (yalnızca ben)",
-      "#2": "2",
-      "#3": "3",
-      "#4": "4",
-      "#5 or more": "5 veya daha fazla"
-    },
-    "fa": {
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "چند بزرگسال (۱۸ سال یا بیشتر)، از جمله خودتان، در خانه شما زندگی می‌کنند؟",
-      "#1 (only myself)": "۱ (فقط خودم)",
-      "#2": "۲",
-      "#3": "۳",
-      "#4": "۴",
-      "#5 or more": "۵ نفر یا بیشتر"
-    },
-    "hu": {
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "Hány felnőtt (18 éves vagy idősebb) él az otthonában, Önt is beleértve?",
-      "#1 (only myself)": "1 (csak én)",
-      "#2": "2",
-      "#3": "3",
-      "#4": "4",
-      "#5 or more": "5 vagy több"
-    },
     "ar": {
-      "#How many adults (aged 18 or older), including yourself, live in your home?": "كم عدد الأشخاص البالغين (18 سنة أو أكثر) الذين يعيشون في منزلك، بما في ذلك أنت؟",
       "#1 (only myself)": "1 (أنا فقط)",
       "#2": "2",
       "#3": "3",
       "#4": "4",
-      "#5 or more": "5 أو أكثر"
+      "#5 or more": "5 أو أكثر",
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "كم عدد الأشخاص البالغين (18 سنة أو أكثر) الذين يعيشون في منزلك، بما في ذلك أنت؟"
+    },
+    "de": {
+      "#1 (only myself)": "1 (nur ich)",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 or more": "5 oder mehr",
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Wie viele Erwachsene (ab 18 Jahren), Sie selbst eingeschlossen, leben in Ihrem Haushalt?"
+    },
+    "en": {
+      "#1 (only myself)": "1 (only myself)",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 or more": "5 or more",
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "How many adults (aged 18 or older), including yourself, live in your home?"
+    },
+    "fa": {
+      "#1 (only myself)": "۱ (فقط خودم)",
+      "#2": "۲",
+      "#3": "۳",
+      "#4": "۴",
+      "#5 or more": "۵ نفر یا بیشتر",
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "چند بزرگسال (۱۸ سال یا بیشتر)، از جمله خودتان، در خانه شما زندگی می‌کنند؟"
+    },
+    "fr": {
+      "#1 (only myself)": "1 (moi uniquement)",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 or more": "5 ou plus",
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Combien de personnes adultes (de 18 ans ou plus), y compris vous, vivent dans votre logement ?"
+    },
+    "hu": {
+      "#1 (only myself)": "1 (csak én)",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 or more": "5 vagy több",
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Hány felnőtt (18 éves vagy idősebb) él az otthonában, Önt is beleértve?"
+    },
+    "it": {
+      "#1 (only myself)": "1 (solo io)",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 or more": "5 o più",
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Quante persone adulte (di 18 anni o più) vivono nella tua casa, contando anche te?"
+    },
+    "tr": {
+      "#1 (only myself)": "1 (yalnızca ben)",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 or more": "5 veya daha fazla",
+      "#How many adults (aged 18 or older), including yourself, live in your home?": "Siz dahil, evinizde kaç yetişkin (18 yaş ve üzeri) yaşıyor?"
     }
   },
   "origin_project": {

@@ -2,104 +2,104 @@
   "question_id": "car_congestion_adapt",
   "key": "car_congestion_adapt",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
-    "smarturbanity_car"
+    "smarturbanity_car_comfort"
   ],
   "schema": {
-    "text": "How do congestion levels influence your route choice or departure time?",
     "answer_key": "car_congestion_adapt",
-    "question_type": "single_option",
     "options": [
       {
-        "text": "Not at all",
+        "text": "No, never",
         "value": "not_at_all"
       },
       {
-        "text": "Slightly (occasionally adjust route or time)",
+        "text": "Now and then",
         "value": "slightly_occasionally_adjust_route_or_ti"
       },
       {
-        "text": "Moderately (sometimes change route or departure time)",
+        "text": "Sometimes",
         "value": "moderately_sometimes_change_route_or_dep"
       },
       {
-        "text": "Strongly (frequently change route or time)",
+        "text": "Often",
         "value": "strongly_frequently_change_route_or_time"
       },
       {
-        "text": "Always (plan trips specifically to avoid congestion)",
+        "text": "Always: I plan my trips to avoid them",
         "value": "always_plan_trips_specifically_to_avoid"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Do traffic jams make you change your route or the time you leave?"
   },
   "translations": {
-    "en": {
-      "#How do congestion levels influence your route choice or departure time?": "How do congestion levels influence your route choice or departure time?",
-      "#Not at all": "Not at all",
-      "#Slightly (occasionally adjust route or time)": "Slightly (occasionally adjust route or time)",
-      "#Moderately (sometimes change route or departure time)": "Moderately (sometimes change route or departure time)",
-      "#Strongly (frequently change route or time)": "Strongly (frequently change route or time)",
-      "#Always (plan trips specifically to avoid congestion)": "Always (plan trips specifically to avoid congestion)"
-    },
-    "it": {
-      "#How do congestion levels influence your route choice or departure time?": "In che modo i livelli di congestione influenzano la scelta del percorso o dell'orario di partenza?",
-      "#Not at all": "Per niente",
-      "#Slightly (occasionally adjust route or time)": "Poco (occasionalmente modifico il percorso o l'orario)",
-      "#Moderately (sometimes change route or departure time)": "Moderatamente (a volte cambio il percorso o l'orario di partenza)",
-      "#Strongly (frequently change route or time)": "Molto (cambio frequentemente il percorso o l'orario)",
-      "#Always (plan trips specifically to avoid congestion)": "Sempre (pianifico appositamente gli spostamenti per evitare la congestione)"
-    },
-    "fr": {
-      "#How do congestion levels influence your route choice or departure time?": "Dans quelle mesure les embouteillages influencent-ils votre choix d’itinéraire ou votre heure de départ ?",
-      "#Not at all": "Pas du tout",
-      "#Slightly (occasionally adjust route or time)": "Un peu (je change parfois d’itinéraire ou d’horaire)",
-      "#Moderately (sometimes change route or departure time)": "Modérément (je change parfois d’itinéraire ou d’heure de départ)",
-      "#Strongly (frequently change route or time)": "Beaucoup (je change souvent d’itinéraire ou d’horaire)",
-      "#Always (plan trips specifically to avoid congestion)": "Toujours (j’organise mes déplacements pour éviter les embouteillages)"
+    "ar": {
+      "#Always: I plan my trips to avoid them": "دائمًا: أخطط رحلاتي لتجنبها",
+      "#Do traffic jams make you change your route or the time you leave?": "هل تدفعك الازدحامات المرورية إلى تغيير طريقك أو وقت خروجك؟",
+      "#No, never": "لا، أبدًا",
+      "#Now and then": "من حين لآخر",
+      "#Often": "غالبًا",
+      "#Sometimes": "أحيانًا"
     },
     "de": {
-      "#How do congestion levels influence your route choice or departure time?": "Wie stark beeinflusst Stau Ihre Wahl der Route oder Ihre Abfahrtszeit?",
-      "#Not at all": "Gar nicht",
-      "#Slightly (occasionally adjust route or time)": "Etwas (ich ändere gelegentlich Route oder Uhrzeit)",
-      "#Moderately (sometimes change route or departure time)": "Mäßig (ich ändere manchmal Route oder Abfahrtszeit)",
-      "#Strongly (frequently change route or time)": "Stark (ich ändere häufig Route oder Uhrzeit)",
-      "#Always (plan trips specifically to avoid congestion)": "Immer (ich plane Fahrten gezielt so, dass ich Stau vermeide)"
+      "#Always: I plan my trips to avoid them": "Immer: Ich plane meine Fahrten so, dass ich sie vermeide",
+      "#Do traffic jams make you change your route or the time you leave?": "Ändern Staus Ihre Route oder die Zeit, zu der Sie losfahren?",
+      "#No, never": "Nein, nie",
+      "#Now and then": "Selten",
+      "#Often": "Oft",
+      "#Sometimes": "Manchmal"
     },
-    "tr": {
-      "#How do congestion levels influence your route choice or departure time?": "Trafik sıkışıklığı güzergâh seçiminizi veya yola çıkış saatinizi ne ölçüde etkiler?",
-      "#Not at all": "Hiç",
-      "#Slightly (occasionally adjust route or time)": "Biraz (bazen güzergâhı veya saati değiştiririm)",
-      "#Moderately (sometimes change route or departure time)": "Orta düzeyde (bazen güzergâhı veya çıkış saatini değiştiririm)",
-      "#Strongly (frequently change route or time)": "Çok (sık sık güzergâhı veya saati değiştiririm)",
-      "#Always (plan trips specifically to avoid congestion)": "Her zaman (yolculuklarımı özellikle sıkışıklıktan kaçınacak şekilde planlarım)"
+    "en": {
+      "#Always: I plan my trips to avoid them": "Always: I plan my trips to avoid them",
+      "#Do traffic jams make you change your route or the time you leave?": "Do traffic jams make you change your route or the time you leave?",
+      "#No, never": "No, never",
+      "#Now and then": "Now and then",
+      "#Often": "Often",
+      "#Sometimes": "Sometimes"
     },
     "fa": {
-      "#How do congestion levels influence your route choice or departure time?": "ترافیک تا چه اندازه انتخاب مسیر یا زمان حرکت شما را تغییر می‌دهد؟",
-      "#Not at all": "اصلاً",
-      "#Slightly (occasionally adjust route or time)": "کمی (گاهی مسیر یا زمان را تغییر می‌دهم)",
-      "#Moderately (sometimes change route or departure time)": "تا حد متوسط (گاهی مسیر یا زمان حرکت را عوض می‌کنم)",
-      "#Strongly (frequently change route or time)": "زیاد (اغلب مسیر یا زمان را تغییر می‌دهم)",
-      "#Always (plan trips specifically to avoid congestion)": "همیشه (سفرها را طوری برنامه‌ریزی می‌کنم که از ترافیک دوری کنم)"
+      "#Always: I plan my trips to avoid them": "همیشه: سفرهایم را طوری برنامه‌ریزی می‌کنم که از آن دوری کنم",
+      "#Do traffic jams make you change your route or the time you leave?": "آیا ترافیک سنگین باعث می‌شود مسیر یا زمان حرکت خود را تغییر دهید؟",
+      "#No, never": "نه، هرگز",
+      "#Now and then": "گاهی",
+      "#Often": "اغلب",
+      "#Sometimes": "بعضی وقت‌ها"
+    },
+    "fr": {
+      "#Always: I plan my trips to avoid them": "Toujours : je planifie mes trajets pour les éviter",
+      "#Do traffic jams make you change your route or the time you leave?": "Les embouteillages vous font-ils changer d'itinéraire ou d'heure de départ ?",
+      "#No, never": "Non, jamais",
+      "#Now and then": "Rarement",
+      "#Often": "Souvent",
+      "#Sometimes": "Parfois"
     },
     "hu": {
-      "#How do congestion levels influence your route choice or departure time?": "Mennyire befolyásolja a torlódás az útvonalválasztását vagy az indulás időpontját?",
-      "#Not at all": "Egyáltalán nem",
-      "#Slightly (occasionally adjust route or time)": "Kissé (néha módosítom az útvonalat vagy az időpontot)",
-      "#Moderately (sometimes change route or departure time)": "Közepesen (néha módosítom az útvonalat vagy az indulás idejét)",
-      "#Strongly (frequently change route or time)": "Erősen (gyakran módosítom az útvonalat vagy az időpontot)",
-      "#Always (plan trips specifically to avoid congestion)": "Mindig (kifejezetten úgy tervezem az utakat, hogy elkerüljem a torlódást)"
+      "#Always: I plan my trips to avoid them": "Mindig: úgy tervezem az utakat, hogy elkerüljem őket",
+      "#Do traffic jams make you change your route or the time you leave?": "A dugók miatt megváltoztatja az útvonalát vagy az indulási idejét?",
+      "#No, never": "Nem, soha",
+      "#Now and then": "Időnként",
+      "#Often": "Gyakran",
+      "#Sometimes": "Néha"
     },
-    "ar": {
-      "#How do congestion levels influence your route choice or departure time?": "إلى أي مدى يؤثر الازدحام في اختيارك للطريق أو وقت الانطلاق؟",
-      "#Not at all": "لا يؤثر إطلاقًا",
-      "#Slightly (occasionally adjust route or time)": "قليلًا (أغيّر الطريق أو الوقت أحيانًا)",
-      "#Moderately (sometimes change route or departure time)": "بدرجة متوسطة (أغيّر الطريق أو وقت الانطلاق أحيانًا)",
-      "#Strongly (frequently change route or time)": "بدرجة كبيرة (أغيّر الطريق أو الوقت كثيرًا)",
-      "#Always (plan trips specifically to avoid congestion)": "دائمًا (أخطط للرحلات خصيصًا لتجنب الازدحام)"
+    "it": {
+      "#Always: I plan my trips to avoid them": "Sempre: organizzo gli spostamenti per evitarle",
+      "#Do traffic jams make you change your route or the time you leave?": "Le code ti fanno cambiare percorso o orario di partenza?",
+      "#No, never": "No, mai",
+      "#Now and then": "Raramente",
+      "#Often": "Spesso",
+      "#Sometimes": "A volte"
+    },
+    "tr": {
+      "#Always: I plan my trips to avoid them": "Her zaman: yolculuklarımı onlardan kaçınacak şekilde planlarım",
+      "#Do traffic jams make you change your route or the time you leave?": "Trafik sıkışıklığı güzergâhınızı veya yola çıkma saatinizi değiştirtiyor mu?",
+      "#No, never": "Hayır, hiçbir zaman",
+      "#Now and then": "Nadiren",
+      "#Often": "Sık sık",
+      "#Sometimes": "Bazen"
     }
   },
   "origin_project": {

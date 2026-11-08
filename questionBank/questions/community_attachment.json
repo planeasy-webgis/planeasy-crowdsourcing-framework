@@ -2,17 +2,14 @@
   "question_id": "community_attachment",
   "key": "community_attachment",
   "project": "shared",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "smarturbanity_your_profile"
   ],
   "schema": {
-    "privacy_classification": "heightened_personal",
-    "text": "How strongly do you feel connected to the people in your neighbourhood?",
     "answer_key": "community_attachment",
-    "question_type": "single_option",
     "checks_inline": false,
     "options": [
       {
@@ -35,65 +32,75 @@
         "text": "Very connected",
         "value": "very_connected"
       }
-    ]
+    ],
+    "privacy_classification": "heightened_personal",
+    "question_type": "single_option",
+    "text": "How strongly do you feel connected to the people in your neighbourhood?"
   },
   "translations": {
-    "en": {},
-    "it": {
-      "#How strongly do you feel connected to the people in your neighbourhood?": "Quanto è forte il legame che senti con le persone del tuo quartiere?",
-      "#Not connected": "Nessun legame",
-      "#Somewhat disconnected": "Un legame piuttosto debole",
-      "#Neither connected nor disconnected": "Un legame né forte né debole",
-      "#Somewhat connected": "Un legame piuttosto forte",
-      "#Very connected": "Un legame molto forte"
-    },
-    "fr": {
-      "#How strongly do you feel connected to the people in your neighbourhood?": "Quelle est la force du lien que vous ressentez avec les personnes de votre quartier ?",
-      "#Not connected": "Aucun lien",
-      "#Somewhat disconnected": "Un lien plutôt faible",
-      "#Neither connected nor disconnected": "Un lien ni fort ni faible",
-      "#Somewhat connected": "Un lien plutôt fort",
-      "#Very connected": "Un lien très fort"
+    "ar": {
+      "#How strongly do you feel connected to the people in your neighbourhood?": "ما مدى شعورك بالارتباط بالأشخاص في حيّك؟",
+      "#Neither connected nor disconnected": "لا أشعر بالارتباط ولا بالانفصال",
+      "#Not connected": "لا أشعر بأي ارتباط",
+      "#Somewhat connected": "أشعر بقدر من الارتباط",
+      "#Somewhat disconnected": "أشعر بارتباط ضعيف",
+      "#Very connected": "أشعر بارتباط قوي"
     },
     "de": {
       "#How strongly do you feel connected to the people in your neighbourhood?": "Wie stark fühlen Sie sich mit den Menschen in Ihrem Viertel verbunden?",
-      "#Not connected": "Gar nicht verbunden",
-      "#Somewhat disconnected": "Eher wenig verbunden",
       "#Neither connected nor disconnected": "Weder verbunden noch unverbunden",
+      "#Not connected": "Gar nicht verbunden",
       "#Somewhat connected": "Eher verbunden",
+      "#Somewhat disconnected": "Eher wenig verbunden",
       "#Very connected": "Sehr verbunden"
     },
-    "tr": {
-      "#How strongly do you feel connected to the people in your neighbourhood?": "Mahallenizdeki insanlara kendinizi ne kadar bağlı hissediyorsunuz?",
-      "#Not connected": "Hiç bağlı hissetmiyorum",
-      "#Somewhat disconnected": "Pek bağlı hissetmiyorum",
-      "#Neither connected nor disconnected": "Ne bağlı ne de kopuk hissediyorum",
-      "#Somewhat connected": "Oldukça bağlı hissediyorum",
-      "#Very connected": "Çok bağlı hissediyorum"
+    "en": {
+      "#How strongly do you feel connected to the people in your neighbourhood?": "How strongly do you feel connected to the people in your neighbourhood?",
+      "#Neither connected nor disconnected": "Neither connected nor disconnected",
+      "#Not connected": "Not connected",
+      "#Somewhat connected": "Somewhat connected",
+      "#Somewhat disconnected": "Somewhat disconnected",
+      "#Very connected": "Very connected"
     },
     "fa": {
       "#How strongly do you feel connected to the people in your neighbourhood?": "چقدر نسبت به مردم محله خود احساس تعلق دارید؟",
-      "#Not connected": "اصلاً احساس تعلق ندارم",
-      "#Somewhat disconnected": "کمی احساس دوری می‌کنم",
       "#Neither connected nor disconnected": "نه احساس تعلق دارم نه احساس دوری",
+      "#Not connected": "اصلاً احساس تعلق ندارم",
       "#Somewhat connected": "تا حدی احساس تعلق دارم",
+      "#Somewhat disconnected": "کمی احساس دوری می‌کنم",
       "#Very connected": "احساس تعلق زیادی دارم"
+    },
+    "fr": {
+      "#How strongly do you feel connected to the people in your neighbourhood?": "Quelle est la force du lien que vous ressentez avec les personnes de votre quartier ?",
+      "#Neither connected nor disconnected": "Un lien ni fort ni faible",
+      "#Not connected": "Aucun lien",
+      "#Somewhat connected": "Un lien plutôt fort",
+      "#Somewhat disconnected": "Un lien plutôt faible",
+      "#Very connected": "Un lien très fort"
     },
     "hu": {
       "#How strongly do you feel connected to the people in your neighbourhood?": "Mennyire érzi, hogy kötődik a környékén élő emberekhez?",
-      "#Not connected": "Egyáltalán nem kötődöm",
-      "#Somewhat disconnected": "Inkább nem kötődöm",
       "#Neither connected nor disconnected": "Sem kötődőnek, sem távolságtartónak nem érzem magam",
+      "#Not connected": "Egyáltalán nem kötődöm",
       "#Somewhat connected": "Inkább kötődöm",
+      "#Somewhat disconnected": "Inkább nem kötődöm",
       "#Very connected": "Nagyon kötődöm"
     },
-    "ar": {
-      "#How strongly do you feel connected to the people in your neighbourhood?": "ما مدى شعورك بالارتباط بالأشخاص في حيّك؟",
-      "#Not connected": "لا أشعر بأي ارتباط",
-      "#Somewhat disconnected": "أشعر بارتباط ضعيف",
-      "#Neither connected nor disconnected": "لا أشعر بالارتباط ولا بالانفصال",
-      "#Somewhat connected": "أشعر بقدر من الارتباط",
-      "#Very connected": "أشعر بارتباط قوي"
+    "it": {
+      "#How strongly do you feel connected to the people in your neighbourhood?": "Quanto è forte il legame che senti con le persone del tuo quartiere?",
+      "#Neither connected nor disconnected": "Un legame né forte né debole",
+      "#Not connected": "Nessun legame",
+      "#Somewhat connected": "Un legame piuttosto forte",
+      "#Somewhat disconnected": "Un legame piuttosto debole",
+      "#Very connected": "Un legame molto forte"
+    },
+    "tr": {
+      "#How strongly do you feel connected to the people in your neighbourhood?": "Mahallenizdeki insanlara kendinizi ne kadar bağlı hissediyorsunuz?",
+      "#Neither connected nor disconnected": "Ne bağlı ne de kopuk hissediyorum",
+      "#Not connected": "Hiç bağlı hissetmiyorum",
+      "#Somewhat connected": "Oldukça bağlı hissediyorum",
+      "#Somewhat disconnected": "Pek bağlı hissetmiyorum",
+      "#Very connected": "Çok bağlı hissediyorum"
     }
   },
   "origin_project": {

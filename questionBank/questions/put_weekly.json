@@ -2,16 +2,15 @@
   "question_id": "put_weekly",
   "key": "put_weekly",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
-    "smarturbanity_public_transport"
+    "smarturbanity_public_transport_habits"
   ],
   "schema": {
-    "text": "Do you use public transport for your daily travels at least once a week?",
-    "answer_key": "pt_weekly",
-    "question_type": "single_option",
+    "answer_key": "put_weekly",
+    "help": "Bus, tram, metro or train.",
     "options": [
       {
         "text": "Yes",
@@ -22,48 +21,58 @@
         "value": "no"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Do you use public transport at least once a week?"
   },
   "translations": {
-    "en": {
-      "#Do you use public transport for your daily travels at least once a week?": "Do you use public transport for your daily travels at least once a week?",
-      "#Yes": "Yes",
-      "#No": "No"
-    },
-    "it": {
-      "#Do you use public transport for your daily travels at least once a week?": "Utilizzi il trasporto pubblico per i tuoi spostamenti quotidiani almeno una volta alla settimana?",
-      "#Yes": "Sì",
-      "#No": "No"
-    },
-    "fr": {
-      "#Do you use public transport for your daily travels at least once a week?": "Utilisez-vous les transports publics pour vos déplacements quotidiens au moins une fois par semaine ?",
-      "#Yes": "Oui",
-      "#No": "Non"
+    "ar": {
+      "#Bus, tram, metro or train.": "حافلة أو ترام أو مترو أو قطار.",
+      "#Do you use public transport at least once a week?": "هل تستخدم النقل العام مرة واحدة على الأقل في الأسبوع؟",
+      "#No": "لا",
+      "#Yes": "نعم"
     },
     "de": {
-      "#Do you use public transport for your daily travels at least once a week?": "Nutzen Sie mindestens einmal pro Woche öffentliche Verkehrsmittel für Ihre täglichen Wege?",
-      "#Yes": "Ja",
-      "#No": "Nein"
+      "#Bus, tram, metro or train.": "Bus, Straßenbahn, U-Bahn oder Zug.",
+      "#Do you use public transport at least once a week?": "Nutzen Sie mindestens einmal pro Woche den öffentlichen Verkehr?",
+      "#No": "Nein",
+      "#Yes": "Ja"
     },
-    "tr": {
-      "#Do you use public transport for your daily travels at least once a week?": "Günlük yolculuklarınızda haftada en az bir kez toplu taşıma kullanıyor musunuz?",
-      "#Yes": "Evet",
-      "#No": "Hayır"
+    "en": {
+      "#Bus, tram, metro or train.": "Bus, tram, metro or train.",
+      "#Do you use public transport at least once a week?": "Do you use public transport at least once a week?",
+      "#No": "No",
+      "#Yes": "Yes"
     },
     "fa": {
-      "#Do you use public transport for your daily travels at least once a week?": "آیا حداقل هفته‌ای یک بار برای رفت‌وآمد روزانه از حمل‌ونقل عمومی استفاده می‌کنید؟",
-      "#Yes": "بله",
-      "#No": "خیر"
+      "#Bus, tram, metro or train.": "اتوبوس، تراموا، مترو یا قطار.",
+      "#Do you use public transport at least once a week?": "آیا حداقل هفته‌ای یک بار از حمل‌ونقل عمومی استفاده می‌کنید؟",
+      "#No": "خیر",
+      "#Yes": "بله"
+    },
+    "fr": {
+      "#Bus, tram, metro or train.": "Bus, tram, métro ou train.",
+      "#Do you use public transport at least once a week?": "Utilisez-vous les transports en commun au moins une fois par semaine ?",
+      "#No": "Non",
+      "#Yes": "Oui"
     },
     "hu": {
-      "#Do you use public transport for your daily travels at least once a week?": "Használ tömegközlekedést a mindennapi közlekedéshez legalább hetente egyszer?",
-      "#Yes": "Igen",
-      "#No": "Nem"
+      "#Bus, tram, metro or train.": "Busz, villamos, metró vagy vonat.",
+      "#Do you use public transport at least once a week?": "Használ tömegközlekedést legalább hetente egyszer?",
+      "#No": "Nem",
+      "#Yes": "Igen"
     },
-    "ar": {
-      "#Do you use public transport for your daily travels at least once a week?": "هل يُستخدم النقل العام في تنقلاتك اليومية مرة واحدة على الأقل في الأسبوع؟",
-      "#Yes": "نعم",
-      "#No": "لا"
+    "it": {
+      "#Bus, tram, metro or train.": "Autobus, tram, metro o treno.",
+      "#Do you use public transport at least once a week?": "Usi i mezzi pubblici almeno una volta a settimana?",
+      "#No": "No",
+      "#Yes": "Sì"
+    },
+    "tr": {
+      "#Bus, tram, metro or train.": "Otobüs, tramvay, metro veya tren.",
+      "#Do you use public transport at least once a week?": "Haftada en az bir kez toplu taşıma kullanıyor musunuz?",
+      "#No": "Hayır",
+      "#Yes": "Evet"
     }
   },
   "origin_project": {

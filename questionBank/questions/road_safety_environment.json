@@ -2,16 +2,14 @@
   "question_id": "road_safety_environment",
   "key": "road_safety_environment",
   "project": "shared",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_safety",
   "source_questionnaires": [
     "smarturbanity_safety"
   ],
   "schema": {
-    "text": "Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?",
     "answer_key": "road_safety_environment",
-    "question_type": "single_option",
     "options": [
       {
         "text": "Not safe at all",
@@ -34,72 +32,74 @@
         "value": "completely_safe"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?"
   },
   "translations": {
-    "en": {
-      "#Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?": "Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?",
-      "#Not safe at all": "Not safe at all",
-      "#Slightly safe": "Slightly safe",
-      "#Moderately safe": "Moderately safe",
-      "#Very safe": "Very safe",
-      "#Completely safe": "Completely safe"
-    },
-    "it": {
-      "#Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?": "Pensando al tuo spostamento abituale (quello che fai più spesso in una settimana tipica), quanto è sicuro muoverti sulle strade che usi, compresi marciapiedi e attraversamenti, per quanto riguarda il traffico e le condizioni della strada?",
-      "#Not safe at all": "Per niente sicuro",
-      "#Slightly safe": "Poco sicuro",
-      "#Moderately safe": "Abbastanza sicuro",
-      "#Very safe": "Molto sicuro",
-      "#Completely safe": "Del tutto sicuro"
-    },
-    "fr": {
-      "#Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?": "En pensant à votre trajet habituel (celui que vous faites le plus souvent au cours d’une semaine type), à quel point est-il sûr de circuler dans les rues que vous empruntez, trottoirs et passages piétons compris, côté circulation et état de la chaussée ?",
-      "#Not safe at all": "Pas du tout sûr",
-      "#Slightly safe": "Peu sûr",
-      "#Moderately safe": "Moyennement sûr",
-      "#Very safe": "Très sûr",
-      "#Completely safe": "Complètement sûr"
+    "ar": {
+      "#Completely safe": "آمنة تمامًا",
+      "#Moderately safe": "آمنة بدرجة متوسطة",
+      "#Not safe at all": "غير آمنة على الإطلاق",
+      "#On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?": "في الطرق التي تستخدمها أكثر من غيرها، بما فيها الأرصفة ومعابر المشاة، إلى أي مدى تشعر بالأمان من حيث حركة المرور وحالة الطريق؟",
+      "#Slightly safe": "آمنة قليلًا",
+      "#Very safe": "آمنة جدًا"
     },
     "de": {
-      "#Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?": "Wenn Sie an Ihren typischen Weg denken (den Weg, den Sie in einer typischen Woche am häufigsten zurücklegen): Wie sicher sind die Straßen, die Sie nutzen, einschließlich Gehwegen und Überwegen, in Bezug auf Verkehr und Straßenzustand?",
-      "#Not safe at all": "Überhaupt nicht sicher",
-      "#Slightly safe": "Wenig sicher",
+      "#Completely safe": "Vollkommen sicher",
       "#Moderately safe": "Einigermaßen sicher",
-      "#Very safe": "Sehr sicher",
-      "#Completely safe": "Vollkommen sicher"
+      "#Not safe at all": "Überhaupt nicht sicher",
+      "#On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?": "Wie sicher fühlen Sie sich auf den Straßen, die Sie am häufigsten nutzen, einschließlich Gehwegen und Überwegen, in Bezug auf Verkehr und Straßenzustand?",
+      "#Slightly safe": "Wenig sicher",
+      "#Very safe": "Sehr sicher"
     },
-    "tr": {
-      "#Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?": "Tipik yolculuğunuzu (tipik bir haftada en sık yaptığınız yolculuk) düşündüğünüzde, kullandığınız sokaklar, kaldırımlar ve yaya geçitleri dahil, trafik ve yol koşulları açısından ne kadar güvenli?",
-      "#Not safe at all": "Hiç güvenli değil",
-      "#Slightly safe": "Biraz güvenli",
-      "#Moderately safe": "Orta düzeyde güvenli",
-      "#Very safe": "Çok güvenli",
-      "#Completely safe": "Tamamen güvenli"
+    "en": {
+      "#Completely safe": "Completely safe",
+      "#Moderately safe": "Moderately safe",
+      "#Not safe at all": "Not safe at all",
+      "#On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?": "On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?",
+      "#Slightly safe": "Slightly safe",
+      "#Very safe": "Very safe"
     },
     "fa": {
-      "#Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?": "با در نظر گرفتن سفر معمول خود (سفری که در یک هفته معمولی بیشتر از همه انجام می‌دهید)، خیابان‌هایی که استفاده می‌کنید، از جمله پیاده‌روها و گذرگاه‌ها، از نظر ترافیک و وضعیت جاده چقدر امن هستند؟",
-      "#Not safe at all": "اصلاً امن نیست",
-      "#Slightly safe": "کمی امن است",
+      "#Completely safe": "کاملاً امن",
       "#Moderately safe": "تا حد متوسط امن است",
-      "#Very safe": "بسیار امن",
-      "#Completely safe": "کاملاً امن"
+      "#Not safe at all": "اصلاً امن نیست",
+      "#On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?": "در خیابان‌هایی که بیشتر از همه استفاده می‌کنید، از جمله پیاده‌روها و گذرگاه‌ها، از نظر ترافیک و وضعیت راه چقدر احساس امنیت می‌کنید؟",
+      "#Slightly safe": "کمی امن است",
+      "#Very safe": "بسیار امن"
+    },
+    "fr": {
+      "#Completely safe": "Complètement sûr",
+      "#Moderately safe": "Moyennement sûr",
+      "#Not safe at all": "Pas du tout sûr",
+      "#On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?": "Dans les rues que vous empruntez le plus souvent, trottoirs et passages piétons compris, à quel point vous sentez-vous en sécurité face à la circulation et à l’état de la chaussée ?",
+      "#Slightly safe": "Peu sûr",
+      "#Very safe": "Très sûr"
     },
     "hu": {
-      "#Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?": "Szokásos útjára gondolva (amelyet egy átlagos héten a leggyakrabban tesz meg), mennyire biztonságosak az Ön által használt utcák, a járdákat és az átkelőhelyeket is beleértve, a forgalom és az útviszonyok szempontjából?",
-      "#Not safe at all": "Egyáltalán nem biztonságos",
-      "#Slightly safe": "Kissé biztonságos",
+      "#Completely safe": "Teljesen biztonságos",
       "#Moderately safe": "Közepesen biztonságos",
-      "#Very safe": "Nagyon biztonságos",
-      "#Completely safe": "Teljesen biztonságos"
+      "#Not safe at all": "Egyáltalán nem biztonságos",
+      "#On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?": "Az Ön által leggyakrabban használt utcákon, a járdákat és az átkelőhelyeket is beleértve, mennyire érzi magát biztonságban a forgalom és az útviszonyok szempontjából?",
+      "#Slightly safe": "Kissé biztonságos",
+      "#Very safe": "Nagyon biztonságos"
     },
-    "ar": {
-      "#Thinking about your typical trip (the trip you make most often in a typical week), how safe are the streets you use, including pavements and crossings, in terms of traffic and road conditions?": "بالتفكير في رحلتك المعتادة (الرحلة الأكثر تكرارًا في أسبوع عادي)، ما مدى أمان الطرق المستخدمة، بما فيها الأرصفة ومعابر المشاة، من حيث حركة المرور وحالة الطريق؟",
-      "#Not safe at all": "غير آمنة على الإطلاق",
-      "#Slightly safe": "آمنة قليلًا",
-      "#Moderately safe": "آمنة بدرجة متوسطة",
-      "#Very safe": "آمنة جدًا",
-      "#Completely safe": "آمنة تمامًا"
+    "it": {
+      "#Completely safe": "Del tutto sicuro",
+      "#Moderately safe": "Abbastanza sicuro",
+      "#Not safe at all": "Per niente sicuro",
+      "#On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?": "Sulle strade che usi più spesso, marciapiedi e attraversamenti compresi, quanto ti senti al sicuro rispetto al traffico e allo stato della strada?",
+      "#Slightly safe": "Poco sicuro",
+      "#Very safe": "Molto sicuro"
+    },
+    "tr": {
+      "#Completely safe": "Tamamen güvenli",
+      "#Moderately safe": "Orta düzeyde güvenli",
+      "#Not safe at all": "Hiç güvenli değil",
+      "#On the streets you use most often, including pavements and crossings, how safe do you feel with regard to traffic and road conditions?": "En sık kullandığınız sokaklarda, kaldırımlar ve yaya geçitleri dahil, trafik ve yol durumu açısından kendinizi ne kadar güvende hissediyorsunuz?",
+      "#Slightly safe": "Biraz güvenli",
+      "#Very safe": "Çok güvenli"
     }
   },
   "origin_project": {

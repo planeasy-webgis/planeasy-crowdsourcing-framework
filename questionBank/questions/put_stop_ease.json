@@ -2,113 +2,114 @@
   "question_id": "put_stop_ease",
   "key": "put_stop_ease",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
-    "smarturbanity_public_transport"
+    "smarturbanity_public_transport_habits"
   ],
   "schema": {
-    "text": "How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.",
-    "answer_key": "pt_stop_ease",
-    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "answer_key": "put_stop_ease",
+    "help": "Think of steps, ramps and space to wait, get on and get off.",
     "options": [
       {
-        "text": "Inaccessible",
+        "text": "Impossible for me",
         "value": "inaccessible"
       },
       {
-        "text": "Difficult to access",
+        "text": "Difficult",
         "value": "difficult_to_access"
       },
       {
-        "text": "Partially accessible",
+        "text": "Partly easy",
         "value": "partially_accessible"
       },
       {
-        "text": "Mostly accessible",
+        "text": "Mostly easy",
         "value": "mostly_accessible"
       },
       {
-        "text": "Completely accessible",
+        "text": "Very easy",
         "value": "completely_accessible"
       }
     ],
-    "add_i_dont_know": true,
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "How easy is it to reach and use the stops on your usual routes?"
   },
   "translations": {
-    "en": {
-      "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.",
-      "#Inaccessible": "Inaccessible",
-      "#Difficult to access": "Difficult to access",
-      "#Partially accessible": "Partially accessible",
-      "#Mostly accessible": "Mostly accessible",
-      "#Completely accessible": "Completely accessible",
-      "#I don't know": "I don't know"
-    },
-    "it": {
-      "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Quanto sono accessibili e facili da utilizzare le fermate del trasporto pubblico (autobus, tram o treno) lungo il tuo percorso? Considera scale, rampe e spazio disponibile.",
-      "#Inaccessible": "Inaccessibili",
-      "#Difficult to access": "Difficili da raggiungere",
-      "#Partially accessible": "Parzialmente accessibili",
-      "#Mostly accessible": "Per lo più accessibili",
-      "#Completely accessible": "Del tutto accessibili",
-      "#I don't know": "Non lo so"
-    },
-    "fr": {
-      "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Les arrêts de transports publics de votre trajet, par exemple bus, tram ou train, sont-ils accessibles et faciles à utiliser ? Pensez aux marches, aux rampes et à l’espace disponible.",
-      "#Inaccessible": "Inaccessibles",
-      "#Difficult to access": "Difficiles d’accès",
-      "#Partially accessible": "Partiellement accessibles",
-      "#Mostly accessible": "Globalement accessibles",
-      "#Completely accessible": "Entièrement accessibles",
-      "#I don't know": "Je ne sais pas"
+    "ar": {
+      "#Difficult": "صعب",
+      "#How easy is it to reach and use the stops on your usual routes?": "ما مدى سهولة الوصول إلى المحطات على طرقك المعتادة واستخدامها؟",
+      "#Impossible for me": "مستحيل بالنسبة إليّ",
+      "#Mostly easy": "سهل في الغالب",
+      "#Partly easy": "سهل جزئيًا",
+      "#Think of steps, ramps and space to wait, get on and get off.": "فكّر في السلالم والمنحدرات والمساحة للانتظار والصعود والنزول.",
+      "#Very easy": "سهل جدًا"
     },
     "de": {
-      "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Wie zugänglich und einfach zu nutzen sind die Haltestellen auf Ihrer Strecke, zum Beispiel für Bus, Straßenbahn oder Zug? Denken Sie an Stufen, Rampen und verfügbaren Platz.",
-      "#Inaccessible": "Nicht zugänglich",
-      "#Difficult to access": "Schwer zugänglich",
-      "#Partially accessible": "Teilweise zugänglich",
-      "#Mostly accessible": "Meist gut zugänglich",
-      "#Completely accessible": "Vollständig zugänglich",
-      "#I don't know": "Ich weiß es nicht"
+      "#Difficult": "Schwierig",
+      "#How easy is it to reach and use the stops on your usual routes?": "Wie leicht ist es, die Haltestellen auf Ihren üblichen Strecken zu erreichen und zu nutzen?",
+      "#Impossible for me": "Für mich unmöglich",
+      "#Mostly easy": "Überwiegend leicht",
+      "#Partly easy": "Teilweise leicht",
+      "#Think of steps, ramps and space to wait, get on and get off.": "Denken Sie an Stufen, Rampen und Platz zum Warten, Einsteigen und Aussteigen.",
+      "#Very easy": "Sehr leicht"
     },
-    "tr": {
-      "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Güzergâhınızdaki otobüs, tramvay veya tren durakları ne kadar erişilebilir ve kullanımı ne kadar kolay? Basamakları, rampaları ve mevcut alanı düşünün.",
-      "#Inaccessible": "Erişilemez",
-      "#Difficult to access": "Erişimi zor",
-      "#Partially accessible": "Kısmen erişilebilir",
-      "#Mostly accessible": "Büyük ölçüde erişilebilir",
-      "#Completely accessible": "Tamamen erişilebilir",
-      "#I don't know": "Bilmiyorum"
+    "en": {
+      "#Difficult": "Difficult",
+      "#How easy is it to reach and use the stops on your usual routes?": "How easy is it to reach and use the stops on your usual routes?",
+      "#Impossible for me": "Impossible for me",
+      "#Mostly easy": "Mostly easy",
+      "#Partly easy": "Partly easy",
+      "#Think of steps, ramps and space to wait, get on and get off.": "Think of steps, ramps and space to wait, get on and get off.",
+      "#Very easy": "Very easy"
     },
     "fa": {
-      "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "ایستگاه‌های حمل‌ونقل عمومی در مسیر شما، مانند اتوبوس، تراموا یا قطار، چقدر دسترس‌پذیر و استفاده از آن‌ها چقدر آسان است؟ پله، رمپ و فضای موجود را در نظر بگیرید.",
-      "#Inaccessible": "غیرقابل دسترس",
-      "#Difficult to access": "دسترسی دشوار",
-      "#Partially accessible": "تا حدی قابل دسترس",
-      "#Mostly accessible": "بیشتر قابل دسترس",
-      "#Completely accessible": "کاملاً قابل دسترس",
-      "#I don't know": "نمی‌دانم"
+      "#Difficult": "دشوار",
+      "#How easy is it to reach and use the stops on your usual routes?": "رسیدن به ایستگاه‌ها و استفاده از آن‌ها در مسیرهای معمول شما چقدر آسان است؟",
+      "#Impossible for me": "برای من غیرممکن است",
+      "#Mostly easy": "بیشتر آسان",
+      "#Partly easy": "تا حدی آسان",
+      "#Think of steps, ramps and space to wait, get on and get off.": "به پله، رمپ و جا برای انتظار، سوار شدن و پیاده شدن فکر کنید.",
+      "#Very easy": "بسیار آسان"
+    },
+    "fr": {
+      "#Difficult": "Difficile",
+      "#How easy is it to reach and use the stops on your usual routes?": "À quel point est-il facile d'atteindre et d'utiliser les arrêts sur vos trajets habituels ?",
+      "#Impossible for me": "Impossible pour moi",
+      "#Mostly easy": "Plutôt facile",
+      "#Partly easy": "En partie facile",
+      "#Think of steps, ramps and space to wait, get on and get off.": "Pensez aux marches, aux rampes et à la place pour attendre, monter et descendre.",
+      "#Very easy": "Très facile"
     },
     "hu": {
-      "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "Mennyire hozzáférhetők és könnyen használhatók az útvonalán lévő tömegközlekedési megállók, például busz-, villamos- vagy vasúti megállók? Gondoljon a lépcsőkre, rámpákra és a rendelkezésre álló helyre.",
-      "#Inaccessible": "Nem hozzáférhető",
-      "#Difficult to access": "Nehezen hozzáférhető",
-      "#Partially accessible": "Részben hozzáférhető",
-      "#Mostly accessible": "Többnyire hozzáférhető",
-      "#Completely accessible": "Teljesen hozzáférhető",
-      "#I don't know": "Nem tudom"
+      "#Difficult": "Nehéz",
+      "#How easy is it to reach and use the stops on your usual routes?": "Mennyire könnyű elérni és használni a megállókat a szokásos útvonalain?",
+      "#Impossible for me": "Számomra lehetetlen",
+      "#Mostly easy": "Többnyire könnyű",
+      "#Partly easy": "Részben könnyű",
+      "#Think of steps, ramps and space to wait, get on and get off.": "Gondoljon a lépcsőkre, rámpákra, valamint a várakozásra, a fel- és leszállásra szolgáló helyre.",
+      "#Very easy": "Nagyon könnyű"
     },
-    "ar": {
-      "#How accessible and easy to use are the public transport stops (bus, tram, or train) on your route? Think about steps, ramps and available space.": "ما مدى سهولة الوصول إلى محطات النقل العام على طريقك، مثل الحافلة أو الترام أو القطار، واستخدامها؟ فكر في الدرج والمنحدرات والمساحة المتاحة.",
-      "#Inaccessible": "غير متاحة",
-      "#Difficult to access": "يصعب الوصول إليها",
-      "#Partially accessible": "متاحة جزئيًا",
-      "#Mostly accessible": "متاحة في الغالب",
-      "#Completely accessible": "متاحة بالكامل",
-      "#I don't know": "لا أعرف"
+    "it": {
+      "#Difficult": "Difficile",
+      "#How easy is it to reach and use the stops on your usual routes?": "Quanto è facile raggiungere e usare le fermate sul tuo percorso abituale?",
+      "#Impossible for me": "Impossibile per me",
+      "#Mostly easy": "Per lo più facile",
+      "#Partly easy": "In parte facile",
+      "#Think of steps, ramps and space to wait, get on and get off.": "Pensa a gradini, rampe e spazio per aspettare, salire e scendere.",
+      "#Very easy": "Molto facile"
+    },
+    "tr": {
+      "#Difficult": "Zor",
+      "#How easy is it to reach and use the stops on your usual routes?": "Her zamanki güzergâhlarınızdaki durakları ulaşmak ve kullanmak ne kadar kolay?",
+      "#Impossible for me": "Benim için imkânsız",
+      "#Mostly easy": "Çoğunlukla kolay",
+      "#Partly easy": "Kısmen kolay",
+      "#Think of steps, ramps and space to wait, get on and get off.": "Basamakları, rampaları ve beklemek, binmek ve inmek için yeri düşünün.",
+      "#Very easy": "Çok kolay"
     }
   },
   "origin_project": {

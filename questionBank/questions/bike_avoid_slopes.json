@@ -2,104 +2,104 @@
   "question_id": "bike_avoid_slopes",
   "key": "bike_avoid_slopes",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling",
   "source_questionnaires": [
-    "smarturbanity_cycling"
+    "smarturbanity_cycling_comfort"
   ],
   "schema": {
-    "text": "To what extent does the steepness of your route affect your cycling?",
     "answer_key": "bike_avoid_slopes",
-    "question_type": "single_option",
     "options": [
       {
-        "text": "Not at all",
+        "text": "No, they don't affect me",
         "value": "not_at_all"
       },
       {
-        "text": "Slightly — I notice hills but they do not significantly affect my journey",
+        "text": "I notice them, but they don't change my trip",
         "value": "slightly_i_notice_hills_but_they_do_not"
       },
       {
-        "text": "Moderately — hills slow me down or increase my effort noticeably",
+        "text": "They slow me down or tire me a lot",
         "value": "moderately_hills_slow_me_down_or_increas"
       },
       {
-        "text": "Significantly — I avoid steep routes when possible",
+        "text": "I avoid steep roads when I can",
         "value": "significantly_i_avoid_steep_routes_when"
       },
       {
-        "text": "Extremely — hills are a major barrier that limits where I can cycle",
+        "text": "They limit where I can cycle",
         "value": "extremely_hills_are_a_major_barrier_that"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Do hills and slopes change how you cycle?"
   },
   "translations": {
-    "en": {
-      "#To what extent does the steepness of your route affect your cycling?": "To what extent does the steepness of your route affect your cycling?",
-      "#Not at all": "Not at all",
-      "#Slightly — I notice hills but they do not significantly affect my journey": "Slightly — I notice hills but they do not significantly affect my journey",
-      "#Moderately — hills slow me down or increase my effort noticeably": "Moderately — hills slow me down or increase my effort noticeably",
-      "#Significantly — I avoid steep routes when possible": "Significantly — I avoid steep routes when possible",
-      "#Extremely — hills are a major barrier that limits where I can cycle": "Extremely — hills are a major barrier that limits where I can cycle"
-    },
-    "it": {
-      "#To what extent does the steepness of your route affect your cycling?": "In che misura la pendenza del percorso influisce sui tuoi spostamenti in bicicletta?",
-      "#Not at all": "Per niente",
-      "#Slightly — I notice hills but they do not significantly affect my journey": "Poco — noto le salite, ma non influenzano significativamente il mio viaggio",
-      "#Moderately — hills slow me down or increase my effort noticeably": "Moderatamente — le salite mi rallentano o aumentano sensibilmente lo sforzo",
-      "#Significantly — I avoid steep routes when possible": "Molto — evito i percorsi ripidi quando possibile",
-      "#Extremely — hills are a major barrier that limits where I can cycle": "Moltissimo — le salite rappresentano un ostacolo importante che limita i luoghi in cui posso andare in bicicletta"
-    },
-    "fr": {
-      "#To what extent does the steepness of your route affect your cycling?": "Dans quelle mesure la pente de votre itinéraire influence-t-elle vos déplacements à vélo ?",
-      "#Not at all": "Pas du tout",
-      "#Slightly — I notice hills but they do not significantly affect my journey": "Un peu — je remarque les montées, mais elles ne changent pas vraiment mon trajet",
-      "#Moderately — hills slow me down or increase my effort noticeably": "Modérément — les montées me ralentissent ou augmentent nettement mon effort",
-      "#Significantly — I avoid steep routes when possible": "Beaucoup — j’évite les itinéraires très pentus quand c’est possible",
-      "#Extremely — hills are a major barrier that limits where I can cycle": "Énormément — les montées sont un obstacle important qui limite mes déplacements à vélo"
+    "ar": {
+      "#Do hills and slopes change how you cycle?": "هل تغيّر التلال والمنحدرات طريقة ركوبك للدراجة؟",
+      "#I avoid steep roads when I can": "أتجنب الطرق شديدة الانحدار عندما أستطيع",
+      "#I notice them, but they don't change my trip": "ألاحظها، لكنها لا تغيّر رحلتي",
+      "#No, they don't affect me": "لا، لا تؤثر فيّ",
+      "#They limit where I can cycle": "تحدّ من الأماكن التي أستطيع ركوب الدراجة فيها",
+      "#They slow me down or tire me a lot": "تبطئني أو تُتعبني كثيرًا"
     },
     "de": {
-      "#To what extent does the steepness of your route affect your cycling?": "Wie stark beeinflusst die Steigung Ihrer Strecke Ihr Radfahren?",
-      "#Not at all": "Gar nicht",
-      "#Slightly — I notice hills but they do not significantly affect my journey": "Etwas — ich merke Steigungen, aber sie beeinflussen meine Fahrt kaum",
-      "#Moderately — hills slow me down or increase my effort noticeably": "Mäßig — Steigungen verlangsamen mich oder machen die Fahrt deutlich anstrengender",
-      "#Significantly — I avoid steep routes when possible": "Stark — ich vermeide steile Strecken, wenn es möglich ist",
-      "#Extremely — hills are a major barrier that limits where I can cycle": "Sehr stark — Steigungen sind ein großes Hindernis und schränken ein, wo ich Rad fahren kann"
+      "#Do hills and slopes change how you cycle?": "Verändern Hügel und Steigungen, wie Sie Rad fahren?",
+      "#I avoid steep roads when I can": "Ich meide steile Straßen, wenn ich kann",
+      "#I notice them, but they don't change my trip": "Ich merke sie, aber sie ändern meine Fahrt nicht",
+      "#No, they don't affect me": "Nein, sie stören mich nicht",
+      "#They limit where I can cycle": "Sie schränken ein, wo ich Rad fahren kann",
+      "#They slow me down or tire me a lot": "Sie bremsen mich oder strengen mich sehr an"
     },
-    "tr": {
-      "#To what extent does the steepness of your route affect your cycling?": "Güzergâhınızdaki eğim bisiklet kullanımınızı ne ölçüde etkiler?",
-      "#Not at all": "Hiç",
-      "#Slightly — I notice hills but they do not significantly affect my journey": "Biraz — yokuşları fark ederim ama yolculuğumu çok etkilemez",
-      "#Moderately — hills slow me down or increase my effort noticeably": "Orta düzeyde — yokuşlar beni yavaşlatır veya harcadığım çabayı belirgin şekilde artırır",
-      "#Significantly — I avoid steep routes when possible": "Çok — mümkün olduğunda dik güzergâhlardan kaçınırım",
-      "#Extremely — hills are a major barrier that limits where I can cycle": "Çok fazla — yokuşlar bisikletle gidebildiğim yerleri önemli ölçüde sınırlar"
+    "en": {
+      "#Do hills and slopes change how you cycle?": "Do hills and slopes change how you cycle?",
+      "#I avoid steep roads when I can": "I avoid steep roads when I can",
+      "#I notice them, but they don't change my trip": "I notice them, but they don't change my trip",
+      "#No, they don't affect me": "No, they don't affect me",
+      "#They limit where I can cycle": "They limit where I can cycle",
+      "#They slow me down or tire me a lot": "They slow me down or tire me a lot"
     },
     "fa": {
-      "#To what extent does the steepness of your route affect your cycling?": "شیب مسیر تا چه اندازه بر دوچرخه‌سواری شما اثر دارد؟",
-      "#Not at all": "اصلاً",
-      "#Slightly — I notice hills but they do not significantly affect my journey": "کمی — سربالایی را حس می‌کنم، اما تأثیر زیادی بر سفرم ندارد",
-      "#Moderately — hills slow me down or increase my effort noticeably": "تا حد متوسط — سربالایی سرعت مرا کم می‌کند یا تلاش بیشتری می‌طلبد",
-      "#Significantly — I avoid steep routes when possible": "زیاد — اگر ممکن باشد از مسیرهای پرشیب دوری می‌کنم",
-      "#Extremely — hills are a major barrier that limits where I can cycle": "خیلی زیاد — سربالایی مانع بزرگی است و محدوده دوچرخه‌سواری مرا کم می‌کند"
+      "#Do hills and slopes change how you cycle?": "آیا تپه‌ها و شیب‌ها شیوه دوچرخه‌سواری شما را تغییر می‌دهند؟",
+      "#I avoid steep roads when I can": "تا می‌توانم از راه‌های پرشیب دوری می‌کنم",
+      "#I notice them, but they don't change my trip": "متوجه آن‌ها می‌شوم، اما سفرم را تغییر نمی‌دهند",
+      "#No, they don't affect me": "نه، بر من اثری ندارند",
+      "#They limit where I can cycle": "محدود می‌کنند کجا دوچرخه‌سواری کنم",
+      "#They slow me down or tire me a lot": "مرا کند می‌کنند یا خیلی خسته‌ام می‌کنند"
+    },
+    "fr": {
+      "#Do hills and slopes change how you cycle?": "Les côtes et les pentes changent-elles votre façon de faire du vélo ?",
+      "#I avoid steep roads when I can": "J'évite les routes raides quand je peux",
+      "#I notice them, but they don't change my trip": "Je les remarque, mais elles ne changent pas mon trajet",
+      "#No, they don't affect me": "Non, elles ne me gênent pas",
+      "#They limit where I can cycle": "Elles limitent où je peux rouler à vélo",
+      "#They slow me down or tire me a lot": "Elles me ralentissent ou me fatiguent beaucoup"
     },
     "hu": {
-      "#To what extent does the steepness of your route affect your cycling?": "Mennyire befolyásolja az útvonal emelkedése a kerékpározását?",
-      "#Not at all": "Egyáltalán nem",
-      "#Slightly — I notice hills but they do not significantly affect my journey": "Kissé — érzékelem az emelkedőket, de nem befolyásolják jelentősen az utamat",
-      "#Moderately — hills slow me down or increase my effort noticeably": "Közepesen — az emelkedők lelassítanak vagy érezhetően növelik a fizikai erőfeszítést",
-      "#Significantly — I avoid steep routes when possible": "Jelentősen — amikor lehet, kerülöm a meredek útvonalakat",
-      "#Extremely — hills are a major barrier that limits where I can cycle": "Nagyon erősen — az emelkedők komoly akadályt jelentenek és korlátozzák, hol tudok kerékpározni"
+      "#Do hills and slopes change how you cycle?": "A dombok és lejtők megváltoztatják, hogyan biciklizik?",
+      "#I avoid steep roads when I can": "Amikor tehetem, kerülöm a meredek utakat",
+      "#I notice them, but they don't change my trip": "Észreveszem őket, de nem változtatnak az utamon",
+      "#No, they don't affect me": "Nem, nincsenek rám hatással",
+      "#They limit where I can cycle": "Korlátozzák, hogy hol biciklizhetek",
+      "#They slow me down or tire me a lot": "Lelassítanak, vagy nagyon elfárasztanak"
     },
-    "ar": {
-      "#To what extent does the steepness of your route affect your cycling?": "إلى أي مدى يؤثر انحدار الطريق في ركوبك للدراجة؟",
-      "#Not at all": "لا يؤثر إطلاقًا",
-      "#Slightly — I notice hills but they do not significantly affect my journey": "قليلًا — ألاحظ المرتفعات لكنها لا تؤثر كثيرًا في الرحلة",
-      "#Moderately — hills slow me down or increase my effort noticeably": "بدرجة متوسطة — المرتفعات تبطئني أو تزيد الجهد بشكل واضح",
-      "#Significantly — I avoid steep routes when possible": "بدرجة كبيرة — أتجنب الطرق شديدة الانحدار عندما يكون ذلك ممكنًا",
-      "#Extremely — hills are a major barrier that limits where I can cycle": "بدرجة كبيرة جدًا — المرتفعات عائق رئيسي يحد من الأماكن التي أستطيع الوصول إليها بالدراجة"
+    "it": {
+      "#Do hills and slopes change how you cycle?": "Le salite cambiano il tuo modo di andare in bici?",
+      "#I avoid steep roads when I can": "Evito le strade ripide quando posso",
+      "#I notice them, but they don't change my trip": "Me ne accorgo, ma non cambiano il mio viaggio",
+      "#No, they don't affect me": "No, non mi danno problemi",
+      "#They limit where I can cycle": "Limitano dove posso andare in bici",
+      "#They slow me down or tire me a lot": "Mi rallentano o mi stancano molto"
+    },
+    "tr": {
+      "#Do hills and slopes change how you cycle?": "Yokuşlar ve eğimler bisiklet sürme şeklinizi değiştiriyor mu?",
+      "#I avoid steep roads when I can": "Mümkünse dik yollardan kaçınırım",
+      "#I notice them, but they don't change my trip": "Fark ederim ama yolculuğumu değiştirmezler",
+      "#No, they don't affect me": "Hayır, beni etkilemezler",
+      "#They limit where I can cycle": "Nerede bisiklet sürebileceğimi sınırlarlar",
+      "#They slow me down or tire me a lot": "Beni yavaşlatırlar veya çok yorarlar"
     }
   },
   "origin_project": {

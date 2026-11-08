@@ -2,16 +2,14 @@
   "question_id": "car_comfort",
   "key": "car_comfort",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
-    "smarturbanity_car"
+    "smarturbanity_car_comfort"
   ],
   "schema": {
-    "text": "How comfortable do you find traveling by car compared to other modes?",
     "answer_key": "car_comfort",
-    "question_type": "single_option",
     "options": [
       {
         "text": "Much less comfortable",
@@ -34,72 +32,74 @@
         "value": "much_more"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Compared with other ways of getting around, how comfortable is the car for you?"
   },
   "translations": {
-    "en": {
-      "#How comfortable do you find traveling by car compared to other modes?": "How comfortable do you find traveling by car compared to other modes?",
-      "#Much less comfortable": "Much less comfortable",
-      "#Less comfortable": "Less comfortable",
-      "#About the same": "About the same",
-      "#More comfortable": "More comfortable",
-      "#Much more comfortable": "Much more comfortable"
-    },
-    "it": {
-      "#How comfortable do you find traveling by car compared to other modes?": "Quanto trovi confortevole viaggiare in auto rispetto ad altre modalità di trasporto?",
-      "#Much less comfortable": "Molto meno confortevole",
-      "#Less comfortable": "Meno confortevole",
-      "#About the same": "Più o meno uguale",
-      "#More comfortable": "Più confortevole",
-      "#Much more comfortable": "Molto più confortevole"
-    },
-    "fr": {
-      "#How comfortable do you find traveling by car compared to other modes?": "Par rapport aux autres modes de transport, trouvez-vous les déplacements en voiture confortables ?",
-      "#Much less comfortable": "Beaucoup moins confortables",
-      "#Less comfortable": "Moins confortables",
-      "#About the same": "À peu près aussi confortables",
-      "#More comfortable": "Plus confortables",
-      "#Much more comfortable": "Beaucoup plus confortables"
+    "ar": {
+      "#About the same": "متقاربة تقريبًا",
+      "#Compared with other ways of getting around, how comfortable is the car for you?": "مقارنةً بوسائل التنقل الأخرى، ما مدى راحتك في السيارة؟",
+      "#Less comfortable": "أقل راحة",
+      "#More comfortable": "أكثر راحة",
+      "#Much less comfortable": "أقل راحة بكثير",
+      "#Much more comfortable": "أكثر راحة بكثير"
     },
     "de": {
-      "#How comfortable do you find traveling by car compared to other modes?": "Wie komfortabel finden Sie Autofahrten im Vergleich zu anderen Verkehrsmitteln?",
-      "#Much less comfortable": "Viel weniger komfortabel",
-      "#Less comfortable": "Weniger komfortabel",
       "#About the same": "Etwa gleich",
+      "#Compared with other ways of getting around, how comfortable is the car for you?": "Wie bequem ist das Auto für Sie im Vergleich zu anderen Fortbewegungsarten?",
+      "#Less comfortable": "Weniger komfortabel",
       "#More comfortable": "Komfortabler",
+      "#Much less comfortable": "Viel weniger komfortabel",
       "#Much more comfortable": "Viel komfortabler"
     },
-    "tr": {
-      "#How comfortable do you find traveling by car compared to other modes?": "Diğer ulaşım seçenekleriyle karşılaştırıldığında otomobille yolculuğu ne kadar konforlu buluyorsunuz?",
-      "#Much less comfortable": "Çok daha az konforlu",
-      "#Less comfortable": "Daha az konforlu",
-      "#About the same": "Yaklaşık aynı",
-      "#More comfortable": "Daha konforlu",
-      "#Much more comfortable": "Çok daha konforlu"
+    "en": {
+      "#About the same": "About the same",
+      "#Compared with other ways of getting around, how comfortable is the car for you?": "Compared with other ways of getting around, how comfortable is the car for you?",
+      "#Less comfortable": "Less comfortable",
+      "#More comfortable": "More comfortable",
+      "#Much less comfortable": "Much less comfortable",
+      "#Much more comfortable": "Much more comfortable"
     },
     "fa": {
-      "#How comfortable do you find traveling by car compared to other modes?": "در مقایسه با روش‌های دیگر، سفر با خودرو را چقدر راحت می‌دانید؟",
-      "#Much less comfortable": "خیلی کمتر راحت",
-      "#Less comfortable": "کمتر راحت",
       "#About the same": "تقریباً یکسان",
+      "#Compared with other ways of getting around, how comfortable is the car for you?": "در مقایسه با روش‌های دیگر رفت‌وآمد، خودرو برای شما چقدر راحت است؟",
+      "#Less comfortable": "کمتر راحت",
       "#More comfortable": "راحت‌تر",
+      "#Much less comfortable": "خیلی کمتر راحت",
       "#Much more comfortable": "خیلی راحت‌تر"
     },
+    "fr": {
+      "#About the same": "À peu près aussi confortables",
+      "#Compared with other ways of getting around, how comfortable is the car for you?": "À quel point la voiture est-elle confortable pour vous, par rapport aux autres moyens de se déplacer ?",
+      "#Less comfortable": "Moins confortables",
+      "#More comfortable": "Plus confortables",
+      "#Much less comfortable": "Beaucoup moins confortables",
+      "#Much more comfortable": "Beaucoup plus confortables"
+    },
     "hu": {
-      "#How comfortable do you find traveling by car compared to other modes?": "Mennyire kényelmesnek találja az autózást más közlekedési módokhoz képest?",
-      "#Much less comfortable": "Sokkal kevésbé kényelmes",
-      "#Less comfortable": "Kevésbé kényelmes",
       "#About the same": "Nagyjából ugyanolyan",
+      "#Compared with other ways of getting around, how comfortable is the car for you?": "A közlekedés más módjaihoz képest mennyire kényelmes Önnek az autó?",
+      "#Less comfortable": "Kevésbé kényelmes",
       "#More comfortable": "Kényelmesebb",
+      "#Much less comfortable": "Sokkal kevésbé kényelmes",
       "#Much more comfortable": "Sokkal kényelmesebb"
     },
-    "ar": {
-      "#How comfortable do you find traveling by car compared to other modes?": "ما مدى راحة التنقل بالسيارة مقارنة بوسائل التنقل الأخرى؟",
-      "#Much less comfortable": "أقل راحة بكثير",
-      "#Less comfortable": "أقل راحة",
-      "#About the same": "متقاربة تقريبًا",
-      "#More comfortable": "أكثر راحة",
-      "#Much more comfortable": "أكثر راحة بكثير"
+    "it": {
+      "#About the same": "Più o meno uguale",
+      "#Compared with other ways of getting around, how comfortable is the car for you?": "Rispetto agli altri modi di spostarsi, quanto è comoda per te l'auto?",
+      "#Less comfortable": "Meno confortevole",
+      "#More comfortable": "Più confortevole",
+      "#Much less comfortable": "Molto meno confortevole",
+      "#Much more comfortable": "Molto più confortevole"
+    },
+    "tr": {
+      "#About the same": "Yaklaşık aynı",
+      "#Compared with other ways of getting around, how comfortable is the car for you?": "Diğer ulaşım yollarına kıyasla otomobil sizin için ne kadar rahat?",
+      "#Less comfortable": "Daha az konforlu",
+      "#More comfortable": "Daha konforlu",
+      "#Much less comfortable": "Çok daha az konforlu",
+      "#Much more comfortable": "Çok daha konforlu"
     }
   },
   "origin_project": {

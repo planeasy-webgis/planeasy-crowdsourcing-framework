@@ -2,16 +2,14 @@
   "question_id": "professional_role",
   "key": "professional_role",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
-    "smarturbanity_about_you"
+    "smarturbanity_your_profile"
   ],
   "schema": {
-    "text": "Do you belong to any of these groups?",
     "answer_key": "professional_role",
-    "question_type": "single_option",
     "options": [
       {
         "text": "Urban planner",
@@ -34,72 +32,74 @@
         "value": "none"
       }
     ],
-    "privacy_classification": "heightened_personal"
+    "privacy_classification": "heightened_personal",
+    "question_type": "single_option",
+    "text": "Do you belong to any of these groups?"
   },
   "translations": {
-    "en": {
-      "#Do you belong to any of these groups?": "Do you belong to any of these groups?",
-      "#Urban planner": "Urban planner",
-      "#Policymaker": "Policymaker",
-      "#Environmental/sustainable mobility activist": "Environmental/sustainable mobility activist",
-      "#Content creator / communicator (social media, journalism, blogging)": "Content creator / communicator (social media, journalism, blogging)",
-      "#None": "None"
-    },
-    "it": {
-      "#Do you belong to any of these groups?": "Appartieni a uno dei seguenti gruppi?",
-      "#Urban planner": "Urbanista",
-      "#Policymaker": "Chi prende decisioni pubbliche",
-      "#Environmental/sustainable mobility activist": "Attivista ambientale o per la mobilità sostenibile",
-      "#Content creator / communicator (social media, journalism, blogging)": "Content creator o chi si occupa di comunicazione (social media, giornalismo, blog)",
-      "#None": "Nessuno"
-    },
-    "fr": {
-      "#Do you belong to any of these groups?": "Faites-vous partie de l’un de ces groupes ?",
-      "#Urban planner": "Urbaniste",
-      "#Policymaker": "Responsable politique ou personne en charge de décisions publiques",
-      "#Environmental/sustainable mobility activist": "Engagement militant pour l’environnement ou la mobilité durable",
-      "#Content creator / communicator (social media, journalism, blogging)": "Création de contenu ou communication (réseaux sociaux, journalisme, blog)",
-      "#None": "Aucun"
+    "ar": {
+      "#Content creator / communicator (social media, journalism, blogging)": "صناعة المحتوى / العمل في مجال التواصل (وسائل التواصل الاجتماعي، الصحافة، التدوين)",
+      "#Do you belong to any of these groups?": "هل ينطبق عليك أي من هذه الأوصاف؟",
+      "#Environmental/sustainable mobility activist": "النشاط في مجال البيئة أو التنقل المستدام",
+      "#None": "لا أحد",
+      "#Policymaker": "صنع السياسات أو المسؤولية عن اتخاذ القرار العام",
+      "#Urban planner": "العمل في التخطيط الحضري"
     },
     "de": {
-      "#Do you belong to any of these groups?": "Gehören Sie zu einer dieser Gruppen?",
-      "#Urban planner": "Fachleute für Stadtplanung",
-      "#Policymaker": "Personen mit politischer Entscheidungsverantwortung",
-      "#Environmental/sustainable mobility activist": "Engagierte für Umwelt oder nachhaltige Mobilität",
       "#Content creator / communicator (social media, journalism, blogging)": "Content-Erstellung / Kommunikation (soziale Medien, Journalismus, Blog)",
-      "#None": "Keine"
+      "#Do you belong to any of these groups?": "Gehören Sie zu einer dieser Gruppen?",
+      "#Environmental/sustainable mobility activist": "Engagierte für Umwelt oder nachhaltige Mobilität",
+      "#None": "Keine",
+      "#Policymaker": "Personen mit politischer Entscheidungsverantwortung",
+      "#Urban planner": "Fachleute für Stadtplanung"
     },
-    "tr": {
-      "#Do you belong to any of these groups?": "Aşağıdaki gruplardan herhangi birine dahil misiniz?",
-      "#Urban planner": "Şehir plancısı",
-      "#Policymaker": "Politika yapıcı / kamu karar vericisi",
-      "#Environmental/sustainable mobility activist": "Çevre veya sürdürülebilir ulaşım aktivisti",
-      "#Content creator / communicator (social media, journalism, blogging)": "İçerik üreticisi / iletişimci (sosyal medya, gazetecilik, blog)",
-      "#None": "Hiçbiri"
+    "en": {
+      "#Content creator / communicator (social media, journalism, blogging)": "Content creator / communicator (social media, journalism, blogging)",
+      "#Do you belong to any of these groups?": "Do you belong to any of these groups?",
+      "#Environmental/sustainable mobility activist": "Environmental/sustainable mobility activist",
+      "#None": "None",
+      "#Policymaker": "Policymaker",
+      "#Urban planner": "Urban planner"
     },
     "fa": {
-      "#Do you belong to any of these groups?": "آیا عضو یکی از این گروه‌ها هستید؟",
-      "#Urban planner": "برنامه‌ریز شهری",
-      "#Policymaker": "سیاست‌گذار یا تصمیم‌گیر عمومی",
-      "#Environmental/sustainable mobility activist": "فعال محیط‌زیست یا حمل‌ونقل پایدار",
       "#Content creator / communicator (social media, journalism, blogging)": "تولیدکننده محتوا / فعال ارتباطات (شبکه‌های اجتماعی، روزنامه‌نگاری، وبلاگ)",
-      "#None": "هیچ‌کدام"
+      "#Do you belong to any of these groups?": "آیا عضو یکی از این گروه‌ها هستید؟",
+      "#Environmental/sustainable mobility activist": "فعال محیط‌زیست یا حمل‌ونقل پایدار",
+      "#None": "هیچ‌کدام",
+      "#Policymaker": "سیاست‌گذار یا تصمیم‌گیر عمومی",
+      "#Urban planner": "برنامه‌ریز شهری"
+    },
+    "fr": {
+      "#Content creator / communicator (social media, journalism, blogging)": "Création de contenu ou communication (réseaux sociaux, journalisme, blog)",
+      "#Do you belong to any of these groups?": "Faites-vous partie de l’un de ces groupes ?",
+      "#Environmental/sustainable mobility activist": "Engagement militant pour l’environnement ou la mobilité durable",
+      "#None": "Aucun",
+      "#Policymaker": "Responsable politique ou personne en charge de décisions publiques",
+      "#Urban planner": "Urbaniste"
     },
     "hu": {
-      "#Do you belong to any of these groups?": "Tartozik az alábbi csoportok valamelyikéhez?",
-      "#Urban planner": "Várostervező",
-      "#Policymaker": "Politikai vagy közpolitikai döntéshozó",
-      "#Environmental/sustainable mobility activist": "Környezetvédelmi vagy fenntartható mobilitási aktivista",
       "#Content creator / communicator (social media, journalism, blogging)": "Tartalomkészítő / kommunikációs szakember (közösségi média, újságírás, blog)",
-      "#None": "Egyik sem"
+      "#Do you belong to any of these groups?": "Tartozik az alábbi csoportok valamelyikéhez?",
+      "#Environmental/sustainable mobility activist": "Környezetvédelmi vagy fenntartható mobilitási aktivista",
+      "#None": "Nincs",
+      "#Policymaker": "Politikai vagy közpolitikai döntéshozó",
+      "#Urban planner": "Várostervező"
     },
-    "ar": {
-      "#Do you belong to any of these groups?": "هل ينطبق عليك أي من هذه الأوصاف؟",
-      "#Urban planner": "العمل في التخطيط الحضري",
-      "#Policymaker": "صنع السياسات أو المسؤولية عن اتخاذ القرار العام",
-      "#Environmental/sustainable mobility activist": "النشاط في مجال البيئة أو التنقل المستدام",
-      "#Content creator / communicator (social media, journalism, blogging)": "صناعة المحتوى / العمل في مجال التواصل (وسائل التواصل الاجتماعي، الصحافة، التدوين)",
-      "#None": "لا شيء مما سبق"
+    "it": {
+      "#Content creator / communicator (social media, journalism, blogging)": "Content creator o chi si occupa di comunicazione (social media, giornalismo, blog)",
+      "#Do you belong to any of these groups?": "Appartieni a uno dei seguenti gruppi?",
+      "#Environmental/sustainable mobility activist": "Attivista ambientale o per la mobilità sostenibile",
+      "#None": "Nessuna",
+      "#Policymaker": "Chi prende decisioni pubbliche",
+      "#Urban planner": "Urbanista"
+    },
+    "tr": {
+      "#Content creator / communicator (social media, journalism, blogging)": "İçerik üreticisi / iletişimci (sosyal medya, gazetecilik, blog)",
+      "#Do you belong to any of these groups?": "Aşağıdaki gruplardan herhangi birine dahil misiniz?",
+      "#Environmental/sustainable mobility activist": "Çevre veya sürdürülebilir ulaşım aktivisti",
+      "#None": "Hiçbiri",
+      "#Policymaker": "Politika yapıcı / kamu karar vericisi",
+      "#Urban planner": "Şehir plancısı"
     }
   },
   "origin_project": {

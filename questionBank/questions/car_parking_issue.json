@@ -2,104 +2,125 @@
   "question_id": "car_parking_issue",
   "key": "car_parking_issue",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
-    "smarturbanity_car"
+    "smarturbanity_car_comfort"
   ],
   "schema": {
-    "text": "To what extent is finding a parking space at your destination an issue for you?",
     "answer_key": "car_parking_issue",
-    "question_type": "single_option",
+    "help": "Think of the places you drive to most often.",
     "options": [
       {
-        "text": "Not an Issue",
+        "text": "Not a problem",
         "value": "not_an_issue"
       },
       {
-        "text": "Minor Issue",
+        "text": "A small problem",
         "value": "minor_issue"
       },
       {
-        "text": "Significant Issue",
+        "text": "A real problem",
         "value": "significant_issue"
       },
       {
-        "text": "Major Issue",
+        "text": "A big problem",
         "value": "major_issue"
       },
       {
-        "text": "Critical Issue",
+        "text": "A very big problem",
         "value": "critical_issue"
+      },
+      {
+        "text": "Not for me: I don't drive",
+        "value": "not_driver"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "How hard is it to find a parking space where you go?"
   },
   "translations": {
-    "en": {
-      "#To what extent is finding a parking space at your destination an issue for you?": "To what extent is finding a parking space at your destination an issue for you?",
-      "#Not an Issue": "Not an Issue",
-      "#Minor Issue": "Minor Issue",
-      "#Significant Issue": "Significant Issue",
-      "#Major Issue": "Major Issue",
-      "#Critical Issue": "Critical Issue"
-    },
-    "it": {
-      "#To what extent is finding a parking space at your destination an issue for you?": "In che misura trovare un parcheggio a destinazione rappresenta un problema per te?",
-      "#Not an Issue": "Non è un problema",
-      "#Minor Issue": "Un problema minore",
-      "#Significant Issue": "Un problema significativo",
-      "#Major Issue": "Un problema importante",
-      "#Critical Issue": "Un problema critico"
-    },
-    "fr": {
-      "#To what extent is finding a parking space at your destination an issue for you?": "Dans quelle mesure est-il difficile pour vous de trouver une place de stationnement à destination ?",
-      "#Not an Issue": "Ce n’est pas un problème",
-      "#Minor Issue": "Petit problème",
-      "#Significant Issue": "Problème important",
-      "#Major Issue": "Problème majeur",
-      "#Critical Issue": "Problème critique"
+    "ar": {
+      "#A big problem": "مشكلة كبيرة",
+      "#A real problem": "مشكلة حقيقية",
+      "#A small problem": "مشكلة صغيرة",
+      "#A very big problem": "مشكلة كبيرة جدًا",
+      "#How hard is it to find a parking space where you go?": "ما مدى صعوبة إيجاد موقف للسيارة في الأماكن التي تذهب إليها؟",
+      "#Not a problem": "ليست مشكلة",
+      "#Not for me: I don't drive": "لا ينطبق عليّ: لا أقود السيارة",
+      "#Think of the places you drive to most often.": "فكّر في الأماكن التي تذهب إليها بالسيارة في أغلب الأحيان."
     },
     "de": {
-      "#To what extent is finding a parking space at your destination an issue for you?": "Wie groß ist für Sie das Problem, am Ziel einen Parkplatz zu finden?",
-      "#Not an Issue": "Kein Problem",
-      "#Minor Issue": "Kleines Problem",
-      "#Significant Issue": "Deutliches Problem",
-      "#Major Issue": "Großes Problem",
-      "#Critical Issue": "Sehr großes Problem"
+      "#A big problem": "Ein großes Problem",
+      "#A real problem": "Ein mittleres Problem",
+      "#A small problem": "Ein kleines Problem",
+      "#A very big problem": "Ein sehr großes Problem",
+      "#How hard is it to find a parking space where you go?": "Wie schwierig ist es, dort, wo Sie hinfahren, einen Parkplatz zu finden?",
+      "#Not a problem": "Kein Problem",
+      "#Not for me: I don't drive": "Trifft auf mich nicht zu: Ich fahre nicht selbst",
+      "#Think of the places you drive to most often.": "Denken Sie an die Orte, zu denen Sie am häufigsten fahren."
     },
-    "tr": {
-      "#To what extent is finding a parking space at your destination an issue for you?": "Varış noktanızda park yeri bulmak sizin için ne kadar büyük bir sorundur?",
-      "#Not an Issue": "Sorun değil",
-      "#Minor Issue": "Küçük bir sorun",
-      "#Significant Issue": "Önemli bir sorun",
-      "#Major Issue": "Büyük bir sorun",
-      "#Critical Issue": "Çok ciddi bir sorun"
+    "en": {
+      "#A big problem": "A big problem",
+      "#A real problem": "A real problem",
+      "#A small problem": "A small problem",
+      "#A very big problem": "A very big problem",
+      "#How hard is it to find a parking space where you go?": "How hard is it to find a parking space where you go?",
+      "#Not a problem": "Not a problem",
+      "#Not for me: I don't drive": "Not for me: I don't drive",
+      "#Think of the places you drive to most often.": "Think of the places you drive to most often."
     },
     "fa": {
-      "#To what extent is finding a parking space at your destination an issue for you?": "پیدا کردن جای پارک در مقصد برای شما چقدر مشکل است؟",
-      "#Not an Issue": "اصلاً مشکل نیست",
-      "#Minor Issue": "مشکل کوچک",
-      "#Significant Issue": "مشکل قابل توجه",
-      "#Major Issue": "مشکل بزرگ",
-      "#Critical Issue": "مشکل بسیار جدی"
+      "#A big problem": "مشکل بزرگ",
+      "#A real problem": "مشکل جدی",
+      "#A small problem": "مشکل کوچک",
+      "#A very big problem": "مشکل بسیار بزرگ",
+      "#How hard is it to find a parking space where you go?": "پیدا کردن جای پارک در جاهایی که می‌روید چقدر سخت است؟",
+      "#Not a problem": "مشکلی نیست",
+      "#Not for me: I don't drive": "مربوط به من نیست: رانندگی نمی‌کنم",
+      "#Think of the places you drive to most often.": "به جاهایی فکر کنید که بیشتر با خودرو به آن‌ها می‌روید."
+    },
+    "fr": {
+      "#A big problem": "Un gros problème",
+      "#A real problem": "Un problème moyen",
+      "#A small problem": "Un petit problème",
+      "#A very big problem": "Un très gros problème",
+      "#How hard is it to find a parking space where you go?": "À quel point est-il difficile de trouver une place de stationnement là où vous allez ?",
+      "#Not a problem": "Pas un problème",
+      "#Not for me: I don't drive": "Cela ne me concerne pas : je ne conduis pas",
+      "#Think of the places you drive to most often.": "Pensez aux endroits où vous allez le plus souvent en voiture."
     },
     "hu": {
-      "#To what extent is finding a parking space at your destination an issue for you?": "Mekkora problémát jelent Önnek parkolóhelyet találni az úti céljánál?",
-      "#Not an Issue": "Nem jelent problémát",
-      "#Minor Issue": "Kisebb probléma",
-      "#Significant Issue": "Jelentős probléma",
-      "#Major Issue": "Nagy probléma",
-      "#Critical Issue": "Nagyon súlyos probléma"
+      "#A big problem": "Nagy probléma",
+      "#A real problem": "Komoly probléma",
+      "#A small problem": "Kis probléma",
+      "#A very big problem": "Nagyon nagy probléma",
+      "#How hard is it to find a parking space where you go?": "Mennyire nehéz parkolóhelyet találni ott, ahová jár?",
+      "#Not a problem": "Nem probléma",
+      "#Not for me: I don't drive": "Rám nem vonatkozik: nem vezetek",
+      "#Think of the places you drive to most often.": "Gondoljon azokra a helyekre, ahová a leggyakrabban autóval megy."
     },
-    "ar": {
-      "#To what extent is finding a parking space at your destination an issue for you?": "ما حجم مشكلة العثور على مكان لوقوف السيارة عند وجهتك؟",
-      "#Not an Issue": "ليست مشكلة",
-      "#Minor Issue": "مشكلة بسيطة",
-      "#Significant Issue": "مشكلة واضحة",
-      "#Major Issue": "مشكلة كبيرة",
-      "#Critical Issue": "مشكلة شديدة"
+    "it": {
+      "#A big problem": "Un grosso problema",
+      "#A real problem": "Un problema medio",
+      "#A small problem": "Un piccolo problema",
+      "#A very big problem": "Un problema molto grosso",
+      "#How hard is it to find a parking space where you go?": "Quanto è difficile trovare parcheggio nei posti dove vai?",
+      "#Not a problem": "Nessun problema",
+      "#Not for me: I don't drive": "Non mi riguarda: non guido",
+      "#Think of the places you drive to most often.": "Pensa ai posti dove vai più spesso in auto."
+    },
+    "tr": {
+      "#A big problem": "Büyük bir sorun",
+      "#A real problem": "Orta düzeyde bir sorun",
+      "#A small problem": "Küçük bir sorun",
+      "#A very big problem": "Çok büyük bir sorun",
+      "#How hard is it to find a parking space where you go?": "Gittiğiniz yerlerde park yeri bulmak ne kadar zor?",
+      "#Not a problem": "Sorun değil",
+      "#Not for me: I don't drive": "Bu soru benim için geçerli değil: Araç kullanmıyorum",
+      "#Think of the places you drive to most often.": "En sık otomobille gittiğiniz yerleri düşünün."
     }
   },
   "origin_project": {

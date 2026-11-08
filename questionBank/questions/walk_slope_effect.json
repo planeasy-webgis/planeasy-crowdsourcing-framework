@@ -2,104 +2,116 @@
   "question_id": "walk_slope_effect",
   "key": "walk_slope_effect",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking",
   "source_questionnaires": [
-    "smarturbanity_walking"
+    "smarturbanity_walking_comfort"
   ],
   "schema": {
-    "text": "To what extent does the steepness of your route affect your walking?",
     "answer_key": "walk_slope_effect",
-    "question_type": "single_option",
     "options": [
       {
-        "text": "Not at all",
+        "text": "No, slopes don't bother me",
         "value": "not_at_all"
       },
       {
-        "text": "Slightly",
-        "value": "slightly"
+        "text": "A little, they make me more tired",
+        "value": "more_tired"
       },
       {
-        "text": "Moderately",
-        "value": "moderately"
+        "text": "Yes, I have to slow down or stop to rest",
+        "value": "slow_or_rest"
       },
       {
-        "text": "Significantly",
-        "value": "significantly"
+        "text": "Yes, I take a flatter route when I can",
+        "value": "flatter_route"
       },
       {
-        "text": "Extremely",
-        "value": "extremely"
+        "text": "Yes, there are slopes I can't manage at all",
+        "value": "cannot_manage"
+      },
+      {
+        "text": "There are no real slopes on my way",
+        "value": "no_slopes"
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "single_option",
+    "text": "Do slopes or hills on your way make walking harder for you?"
   },
   "translations": {
-    "en": {
-      "#To what extent does the steepness of your route affect your walking?": "To what extent does the steepness of your route affect your walking?",
-      "#Not at all": "Not at all",
-      "#Slightly": "Slightly",
-      "#Moderately": "Moderately",
-      "#Significantly": "Significantly",
-      "#Extremely": "Extremely"
-    },
-    "it": {
-      "#To what extent does the steepness of your route affect your walking?": "In che misura la pendenza del percorso influisce sui tuoi spostamenti a piedi?",
-      "#Not at all": "Per niente",
-      "#Slightly": "Poco",
-      "#Moderately": "Moderatamente",
-      "#Significantly": "Significativamente",
-      "#Extremely": "Estremamente"
-    },
-    "fr": {
-      "#To what extent does the steepness of your route affect your walking?": "Dans quelle mesure la pente de votre itinéraire influence-t-elle votre marche ?",
-      "#Not at all": "Pas du tout",
-      "#Slightly": "Un peu",
-      "#Moderately": "Modérément",
-      "#Significantly": "Beaucoup",
-      "#Extremely": "Énormément"
+    "ar": {
+      "#A little, they make me more tired": "قليلًا، تجعلني أتعب أكثر",
+      "#Do slopes or hills on your way make walking harder for you?": "هل تجعل المنحدرات أو المرتفعات في طريقك المشي أصعب عليك؟",
+      "#No, slopes don't bother me": "لا، المنحدرات لا تزعجني",
+      "#There are no real slopes on my way": "لا توجد منحدرات حقيقية في طريقي",
+      "#Yes, I have to slow down or stop to rest": "نعم، أضطر إلى الإبطاء أو التوقف للراحة",
+      "#Yes, I take a flatter route when I can": "نعم، أسلك طريقًا أكثر استواءً عندما أستطيع",
+      "#Yes, there are slopes I can't manage at all": "نعم، هناك منحدرات لا أستطيع تجاوزها إطلاقًا"
     },
     "de": {
-      "#To what extent does the steepness of your route affect your walking?": "Wie stark beeinflusst die Steigung Ihrer Strecke das Gehen?",
-      "#Not at all": "Gar nicht",
-      "#Slightly": "Etwas",
-      "#Moderately": "Mäßig",
-      "#Significantly": "Stark",
-      "#Extremely": "Sehr stark"
+      "#A little, they make me more tired": "Ein wenig, sie machen mich müder",
+      "#Do slopes or hills on your way make walking harder for you?": "Machen Steigungen oder Hügel auf Ihrem Weg das Vorankommen für Sie schwerer?",
+      "#No, slopes don't bother me": "Nein, Steigungen stören mich nicht",
+      "#There are no real slopes on my way": "Auf meinem Weg gibt es keine richtigen Steigungen",
+      "#Yes, I have to slow down or stop to rest": "Ja, ich muss langsamer werden oder zum Ausruhen anhalten",
+      "#Yes, I take a flatter route when I can": "Ja, ich nehme wenn möglich eine flachere Strecke",
+      "#Yes, there are slopes I can't manage at all": "Ja, es gibt Steigungen, die ich gar nicht schaffe"
     },
-    "tr": {
-      "#To what extent does the steepness of your route affect your walking?": "Güzergâhınızdaki eğim yürüyüşünüzü ne ölçüde etkiler?",
-      "#Not at all": "Hiç",
-      "#Slightly": "Biraz",
-      "#Moderately": "Orta düzeyde",
-      "#Significantly": "Çok",
-      "#Extremely": "Çok fazla"
+    "en": {
+      "#A little, they make me more tired": "A little, they make me more tired",
+      "#Do slopes or hills on your way make walking harder for you?": "Do slopes or hills on your way make walking harder for you?",
+      "#No, slopes don't bother me": "No, slopes don't bother me",
+      "#There are no real slopes on my way": "There are no real slopes on my way",
+      "#Yes, I have to slow down or stop to rest": "Yes, I have to slow down or stop to rest",
+      "#Yes, I take a flatter route when I can": "Yes, I take a flatter route when I can",
+      "#Yes, there are slopes I can't manage at all": "Yes, there are slopes I can't manage at all"
     },
     "fa": {
-      "#To what extent does the steepness of your route affect your walking?": "شیب مسیر تا چه اندازه بر پیاده‌روی شما اثر می‌گذارد؟",
-      "#Not at all": "اصلاً",
-      "#Slightly": "کمی",
-      "#Moderately": "تا حد متوسط",
-      "#Significantly": "زیاد",
-      "#Extremely": "خیلی زیاد"
+      "#A little, they make me more tired": "کمی، بیشتر خسته‌ام می‌کنند",
+      "#Do slopes or hills on your way make walking harder for you?": "آیا شیب یا سربالایی در مسیرتان راه رفتن را برای شما سخت‌تر می‌کند؟",
+      "#No, slopes don't bother me": "نه، شیب مزاحم من نیست",
+      "#There are no real slopes on my way": "در مسیر من شیب واقعی وجود ندارد",
+      "#Yes, I have to slow down or stop to rest": "بله، باید آهسته بروم یا برای استراحت بایستم",
+      "#Yes, I take a flatter route when I can": "بله، هر وقت بتوانم از مسیر هموارتر می‌روم",
+      "#Yes, there are slopes I can't manage at all": "بله، شیب‌هایی هست که اصلاً از پس آن‌ها برنمی‌آیم"
+    },
+    "fr": {
+      "#A little, they make me more tired": "Un peu, elles me fatiguent davantage",
+      "#Do slopes or hills on your way make walking harder for you?": "Les pentes ou les côtes sur votre trajet vous compliquent-elles le déplacement ?",
+      "#No, slopes don't bother me": "Non, les pentes ne me gênent pas",
+      "#There are no real slopes on my way": "Il n'y a pas de vraies pentes sur mon trajet",
+      "#Yes, I have to slow down or stop to rest": "Oui, je dois ralentir ou m'arrêter pour me reposer",
+      "#Yes, I take a flatter route when I can": "Oui, je prends un trajet plus plat quand je peux",
+      "#Yes, there are slopes I can't manage at all": "Oui, il y a des pentes que je ne peux pas du tout franchir"
     },
     "hu": {
-      "#To what extent does the steepness of your route affect your walking?": "Mennyire befolyásolja az útvonal emelkedése a gyaloglását?",
-      "#Not at all": "Egyáltalán nem",
-      "#Slightly": "Kissé",
-      "#Moderately": "Közepesen",
-      "#Significantly": "Jelentősen",
-      "#Extremely": "Rendkívül"
+      "#A little, they make me more tired": "Egy kicsit, jobban elfáradok tőlük",
+      "#Do slopes or hills on your way make walking harder for you?": "A lejtők vagy emelkedők az útvonalán megnehezítik Önnek a gyaloglást?",
+      "#No, slopes don't bother me": "Nem, a lejtők nem zavarnak",
+      "#There are no real slopes on my way": "Az útvonalamon nincs igazi lejtő",
+      "#Yes, I have to slow down or stop to rest": "Igen, lassítanom kell, vagy meg kell állnom pihenni",
+      "#Yes, I take a flatter route when I can": "Igen, ha tehetem, laposabb utat választok",
+      "#Yes, there are slopes I can't manage at all": "Igen, vannak lejtők, amelyeket egyáltalán nem tudok megoldani"
     },
-    "ar": {
-      "#To what extent does the steepness of your route affect your walking?": "إلى أي مدى يؤثر انحدار الطريق في المشي؟",
-      "#Not at all": "لا يؤثر إطلاقًا",
-      "#Slightly": "يؤثر قليلًا",
-      "#Moderately": "يؤثر بدرجة متوسطة",
-      "#Significantly": "يؤثر كثيرًا",
-      "#Extremely": "يؤثر بدرجة كبيرة جدًا"
+    "it": {
+      "#A little, they make me more tired": "Un po', mi stancano di più",
+      "#Do slopes or hills on your way make walking harder for you?": "Le salite lungo la tua strada ti rendono più difficile muoverti?",
+      "#No, slopes don't bother me": "No, le salite non mi danno fastidio",
+      "#There are no real slopes on my way": "Sul mio percorso non ci sono vere salite",
+      "#Yes, I have to slow down or stop to rest": "Sì, devo rallentare o fermarmi a riposare",
+      "#Yes, I take a flatter route when I can": "Sì, quando posso scelgo un percorso più pianeggiante",
+      "#Yes, there are slopes I can't manage at all": "Sì, ci sono salite che non riesco proprio a fare"
+    },
+    "tr": {
+      "#A little, they make me more tired": "Biraz, beni daha çok yorarlar",
+      "#Do slopes or hills on your way make walking harder for you?": "Yolunuzdaki eğimler veya yokuşlar ilerlemenizi zorlaştırıyor mu?",
+      "#No, slopes don't bother me": "Hayır, eğimler beni rahatsız etmez",
+      "#There are no real slopes on my way": "Güzergâhımda gerçek bir eğim yok",
+      "#Yes, I have to slow down or stop to rest": "Evet, yavaşlamam veya dinlenmek için durmam gerekir",
+      "#Yes, I take a flatter route when I can": "Evet, mümkünse daha düz bir güzergâh seçerim",
+      "#Yes, there are slopes I can't manage at all": "Evet, hiç çıkamadığım eğimler var"
     }
   },
   "origin_project": {
