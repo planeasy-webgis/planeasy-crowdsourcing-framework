@@ -2,7 +2,7 @@
   "question_id": "category_id",
   "key": "category_id",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_service",
   "source_questionnaires": [
@@ -10,17 +10,42 @@
   ],
   "schema": {
     "answer_key": "categoryId",
-    "text": "Service category",
-    "question_type": "select",
     "control": {
       "id": "category",
       "input_type": "search_select",
-      "placeholder": "Type or select a service category",
-      "max_height": "min(360px, 50vh)"
+      "max_height": "min(360px, 50vh)",
+      "placeholder": "Type or select a service category"
     },
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "select",
+    "text": "Service category"
   },
-  "translations": {},
+  "translations": {
+    "ar": {
+      "#Service category": "فئة الخدمة"
+    },
+    "de": {
+      "#Service category": "Kategorie des Dienstes"
+    },
+    "en": {
+      "#Service category": "Service category"
+    },
+    "fa": {
+      "#Service category": "دستهٔ خدمت"
+    },
+    "fr": {
+      "#Service category": "Catégorie du service"
+    },
+    "hu": {
+      "#Service category": "A szolgáltatás kategóriája"
+    },
+    "it": {
+      "#Service category": "Categoria del servizio"
+    },
+    "tr": {
+      "#Service category": "Hizmet kategorisi"
+    }
+  },
   "origin_project": {
     "project_id": "smarturbanity",
     "name": "SmartUrbanity"

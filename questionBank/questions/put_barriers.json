@@ -2,7 +2,7 @@
   "question_id": "put_barriers",
   "key": "put_barriers",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "2.0.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
@@ -30,8 +30,16 @@
         "value": "poor_maintenance_or_damaged_infrastructu"
       },
       {
-        "text": "Not suitable for wheelchairs, pushchairs or walking aids",
-        "value": "poor_accessibility_for_mobility_needs"
+        "text": "Stop or vehicle cannot be used with a wheelchair, walker or stroller",
+        "value": "stop_or_vehicle_unusable_with_mobility_aid"
+      },
+      {
+        "text": "Vehicles too crowded to get on with a stroller or wheelchair",
+        "value": "too_crowded_to_board_with_stroller_or_wheelchair"
+      },
+      {
+        "text": "No sidewalk or walkway to reach the stop",
+        "value": "no_walkway_to_reach_the_stop"
       },
       {
         "text": "No real-time arrival information, on screen or announced",
@@ -57,10 +65,12 @@
       "#Hard to get on or off the vehicle": "يصعب الصعود إلى المركبة أو النزول منها",
       "#Narrow or crowded spaces": "مساحات ضيقة أو مزدحمة",
       "#No real-time arrival information, on screen or announced": "لا توجد معلومات فورية عن وقت الوصول، لا على الشاشة ولا بالإعلان الصوتي",
+      "#No sidewalk or walkway to reach the stop": "لا يوجد رصيف أو ممر للمشاة للوصول إلى المحطة",
       "#Not enough seats or shelter": "لا توجد مقاعد أو مظلات كافية",
-      "#Not suitable for wheelchairs, pushchairs or walking aids": "غير مناسبة للكراسي المتحركة أو عربات الأطفال أو وسائل المساعدة على المشي",
       "#Nothing in particular": "لا شيء بعينه",
       "#Stairs or steps": "سلالم أو درجات",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "لا يمكن استخدام المحطة أو المركبة بكرسي متحرك أو مشّاية أو عربة أطفال",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "المركبات مزدحمة جدًا للصعود بعربة أطفال أو كرسي متحرك",
       "#What problems do you meet at stops or when getting on and off?": "ما المشكلات التي تواجهها في المحطات أو عند الصعود والنزول؟"
     },
     "de": {
@@ -68,10 +78,12 @@
       "#Hard to get on or off the vehicle": "Das Ein- oder Aussteigen ist schwierig",
       "#Narrow or crowded spaces": "Enge oder überfüllte Bereiche",
       "#No real-time arrival information, on screen or announced": "Keine Echtzeit-Ankunftsinformationen, weder auf Anzeigen noch durch Ansagen",
+      "#No sidewalk or walkway to reach the stop": "Kein Gehweg oder Fußweg zur Haltestelle",
       "#Not enough seats or shelter": "Nicht genug Sitzplätze oder Schutz vor dem Wetter",
-      "#Not suitable for wheelchairs, pushchairs or walking aids": "Nicht geeignet für Rollstühle, Kinderwagen oder Gehhilfen",
       "#Nothing in particular": "Nichts Besonderes",
       "#Stairs or steps": "Treppen oder Stufen",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Haltestelle oder Fahrzeug mit Rollstuhl, Rollator oder Kinderwagen nicht nutzbar",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Fahrzeuge zu voll, um mit Kinderwagen oder Rollstuhl einzusteigen",
       "#What problems do you meet at stops or when getting on and off?": "Welche Probleme begegnen Ihnen an Haltestellen oder beim Ein- und Aussteigen?"
     },
     "en": {
@@ -79,10 +91,12 @@
       "#Hard to get on or off the vehicle": "Hard to get on or off the vehicle",
       "#Narrow or crowded spaces": "Narrow or crowded spaces",
       "#No real-time arrival information, on screen or announced": "No real-time arrival information, on screen or announced",
+      "#No sidewalk or walkway to reach the stop": "No sidewalk or walkway to reach the stop",
       "#Not enough seats or shelter": "Not enough seats or shelter",
-      "#Not suitable for wheelchairs, pushchairs or walking aids": "Not suitable for wheelchairs, pushchairs or walking aids",
       "#Nothing in particular": "Nothing in particular",
       "#Stairs or steps": "Stairs or steps",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Stop or vehicle cannot be used with a wheelchair, walker or stroller",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Vehicles too crowded to get on with a stroller or wheelchair",
       "#What problems do you meet at stops or when getting on and off?": "What problems do you meet at stops or when getting on and off?"
     },
     "fa": {
@@ -90,21 +104,25 @@
       "#Hard to get on or off the vehicle": "سوار یا پیاده شدن از وسیله دشوار است",
       "#Narrow or crowded spaces": "فضای باریک یا شلوغ",
       "#No real-time arrival information, on screen or announced": "اطلاعات لحظه‌ای رسیدن، روی صفحه یا با اعلام صوتی، وجود ندارد",
+      "#No sidewalk or walkway to reach the stop": "پیاده‌رو یا مسیر پیاده‌ای برای رسیدن به ایستگاه وجود ندارد",
       "#Not enough seats or shelter": "صندلی یا سایبان کافی نیست",
-      "#Not suitable for wheelchairs, pushchairs or walking aids": "برای ویلچر، کالسکه یا وسایل کمک‌راه‌رفتن مناسب نیست",
       "#Nothing in particular": "هیچ مورد خاصی",
       "#Stairs or steps": "پله یا پلکان",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "ایستگاه یا وسیلهٔ نقلیه با ویلچر، واکر یا کالسکهٔ کودک قابل استفاده نیست",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "وسایل نقلیه برای سوار شدن با کالسکهٔ کودک یا ویلچر بیش از حد شلوغ هستند",
       "#What problems do you meet at stops or when getting on and off?": "در ایستگاه‌ها یا هنگام سوار و پیاده شدن با چه مشکلاتی روبه‌رو می‌شوید؟"
     },
     "fr": {
-      "#Broken or poorly kept stops (e.g. broken lifts, damaged shelters)": "Arrêts en panne ou mal entretenus (p. ex. ascenseurs en panne, abribus abîmés)",
+      "#Broken or poorly kept stops (e.g. broken lifts, damaged shelters)": "Arrêts en panne ou mal entretenus (par ex. ascenseurs en panne, abribus abîmés)",
       "#Hard to get on or off the vehicle": "Il est difficile de monter dans le véhicule ou d'en descendre",
       "#Narrow or crowded spaces": "Espaces étroits ou très fréquentés",
       "#No real-time arrival information, on screen or announced": "Pas d'information en temps réel sur les arrivées, ni à l'écran ni par annonce",
+      "#No sidewalk or walkway to reach the stop": "Pas de trottoir ni de cheminement piéton pour rejoindre l'arrêt",
       "#Not enough seats or shelter": "Pas assez de places assises ou d'abri",
-      "#Not suitable for wheelchairs, pushchairs or walking aids": "Inadaptés aux fauteuils roulants, aux poussettes ou aux aides à la marche",
       "#Nothing in particular": "Rien en particulier",
       "#Stairs or steps": "Escaliers ou marches",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Arrêt ou véhicule inutilisable en fauteuil roulant, avec un déambulateur ou une poussette",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Véhicules trop bondés pour monter avec une poussette ou un fauteuil roulant",
       "#What problems do you meet at stops or when getting on and off?": "Quels problèmes rencontrez-vous aux arrêts ou en montant et en descendant ?"
     },
     "hu": {
@@ -112,10 +130,12 @@
       "#Hard to get on or off the vehicle": "Nehéz fel- vagy leszállni a járműre",
       "#Narrow or crowded spaces": "Szűk vagy zsúfolt terek",
       "#No real-time arrival information, on screen or announced": "Nincs valós idejű érkezési információ, sem kijelzőn, sem hangosbemondóval",
+      "#No sidewalk or walkway to reach the stop": "Nincs járda vagy gyalogút a megállóhoz",
       "#Not enough seats or shelter": "Nincs elég ülőhely vagy fedett várakozóhely",
-      "#Not suitable for wheelchairs, pushchairs or walking aids": "Nem alkalmas kerekesszékhez, babakocsihoz vagy járássegítő eszközökhöz",
       "#Nothing in particular": "Semmi különös",
       "#Stairs or steps": "Lépcsők vagy lépcsőfokok",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "A megálló vagy a jármű nem használható kerekesszékkel, járókerettel vagy babakocsival",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "A járművek túl zsúfoltak ahhoz, hogy babakocsival vagy kerekesszékkel felszálljak",
       "#What problems do you meet at stops or when getting on and off?": "Milyen problémákkal találkozik a megállókban, illetve fel- és leszálláskor?"
     },
     "it": {
@@ -123,10 +143,12 @@
       "#Hard to get on or off the vehicle": "È difficile salire o scendere dal mezzo",
       "#Narrow or crowded spaces": "Spazi stretti o affollati",
       "#No real-time arrival information, on screen or announced": "Nessuna informazione sull'arrivo in tempo reale, né sullo schermo né a voce",
+      "#No sidewalk or walkway to reach the stop": "Nessun marciapiede o percorso pedonale per arrivare alla fermata",
       "#Not enough seats or shelter": "Pochi posti a sedere o poco riparo",
-      "#Not suitable for wheelchairs, pushchairs or walking aids": "Non adatte a sedie a rotelle, passeggini o ausili per camminare",
       "#Nothing in particular": "Niente in particolare",
       "#Stairs or steps": "Scale o gradini",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Fermata o mezzo non utilizzabili con sedia a rotelle, deambulatore o passeggino",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Mezzi troppo pieni per salire con passeggino o sedia a rotelle",
       "#What problems do you meet at stops or when getting on and off?": "Quali problemi incontri alle fermate o quando sali e scendi?"
     },
     "tr": {
@@ -134,10 +156,12 @@
       "#Hard to get on or off the vehicle": "Araca binmek veya inmek zor",
       "#Narrow or crowded spaces": "Dar veya kalabalık alanlar",
       "#No real-time arrival information, on screen or announced": "Gerçek zamanlı varış bilgisi yok, ne ekranda ne anonsla",
+      "#No sidewalk or walkway to reach the stop": "Durağa ulaşmak için kaldırım veya yaya yolu yok",
       "#Not enough seats or shelter": "Yeterli oturma yeri veya korunak yok",
-      "#Not suitable for wheelchairs, pushchairs or walking aids": "Tekerlekli sandalyeler, bebek arabaları veya yürüme yardımcıları için uygun değil",
       "#Nothing in particular": "Özellikle hiçbir şey",
       "#Stairs or steps": "Merdivenler veya basamaklar",
+      "#Stop or vehicle cannot be used with a wheelchair, walker or stroller": "Durak veya araç tekerlekli sandalye, yürüteç ya da bebek arabasıyla kullanılamıyor",
+      "#Vehicles too crowded to get on with a stroller or wheelchair": "Araçlar bebek arabası veya tekerlekli sandalyeyle binilemeyecek kadar kalabalık",
       "#What problems do you meet at stops or when getting on and off?": "Duraklarda veya araca binip inerken hangi sorunlarla karşılaşıyorsunuz?"
     }
   },

@@ -2,7 +2,7 @@
   "question_id": "motorcycle_combined_modes",
   "key": "motorcycle_combined_modes",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle_habits",
   "source_questionnaires": [
@@ -24,8 +24,20 @@
         "value": "car_sharing"
       },
       {
-        "text": "Public transport",
-        "value": "public_transport"
+        "text": "Bus",
+        "value": "bus"
+      },
+      {
+        "text": "Tram",
+        "value": "tram"
+      },
+      {
+        "text": "Metro",
+        "value": "metro"
+      },
+      {
+        "text": "Regional or suburban train",
+        "value": "train"
       },
       {
         "text": "Bicycle/e-bike (private)",
@@ -54,12 +66,15 @@
   },
   "translations": {
     "ar": {
-      "#Bicycle/e-bike (private)": "الدراجة / الدراجة الكهربائية (شخصية)",
+      "#Bicycle/e-bike (private)": "الدراجة / الدراجة الكهربائية (خاصة)",
       "#Bicycle/e-bike (shared)": "الدراجة / الدراجة الكهربائية (مشتركة)",
+      "#Bus": "حافلة",
       "#Car": "السيارة",
       "#Car sharing": "مشاركة السيارات",
-      "#Public transport": "النقل العام",
+      "#Metro": "مترو",
+      "#Regional or suburban train": "قطار إقليمي أو قطار ضواحي",
       "#Taxi or similar service (e.g. Uber, Bolt)": "سيارة أجرة أو خدمة مشابهة (مثل Uber وBolt)",
+      "#Tram": "ترام",
       "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "المشي (كوسيلة رئيسية لمعظم الرحلة، وليس فقط للمشي القصير للوصول إلى وسيلة أخرى أو للتبديل بينها)",
       "#Which other ways of travelling do you use in the same trip? (Select all that apply)": "ما وسائل التنقل الأخرى المستخدمة في الرحلة نفسها؟ (يمكن اختيار كل ما ينطبق)",
       "#e-scooter (private)": "السكوتر الكهربائي (شخصي)",
@@ -68,10 +83,13 @@
     "de": {
       "#Bicycle/e-bike (private)": "Fahrrad / E-Bike (privat)",
       "#Bicycle/e-bike (shared)": "Fahrrad / E-Bike (Sharing)",
+      "#Bus": "Bus",
       "#Car": "Auto",
       "#Car sharing": "Carsharing",
-      "#Public transport": "Öffentliche Verkehrsmittel",
+      "#Metro": "U-Bahn/Metro",
+      "#Regional or suburban train": "Regional- oder S-Bahn",
       "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi oder ähnlicher Fahrdienst (z. B. Uber, Bolt)",
+      "#Tram": "Straßenbahn",
       "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "Zu Fuß (als Hauptverkehrsmittel für den größten Teil des Weges, nicht nur für kurze Zuwege oder Umstiege)",
       "#Which other ways of travelling do you use in the same trip? (Select all that apply)": "Welche anderen Verkehrsmittel nutzen Sie auf demselben Weg? (Wählen Sie alles Zutreffende aus)",
       "#e-scooter (private)": "E-Scooter (privat)",
@@ -80,10 +98,13 @@
     "en": {
       "#Bicycle/e-bike (private)": "Bicycle/e-bike (private)",
       "#Bicycle/e-bike (shared)": "Bicycle/e-bike (shared)",
+      "#Bus": "Bus",
       "#Car": "Car",
       "#Car sharing": "Car sharing",
-      "#Public transport": "Public transport",
+      "#Metro": "Metro",
+      "#Regional or suburban train": "Regional or suburban train",
       "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi or similar service (e.g. Uber, Bolt)",
+      "#Tram": "Tram",
       "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "Walking (as the main mode for most of the trip, not short access or transfer walking)",
       "#Which other ways of travelling do you use in the same trip? (Select all that apply)": "Which other ways of travelling do you use in the same trip? (Select all that apply)",
       "#e-scooter (private)": "e-scooter (private)",
@@ -92,11 +113,14 @@
     "fa": {
       "#Bicycle/e-bike (private)": "دوچرخه / دوچرخه برقی (شخصی)",
       "#Bicycle/e-bike (shared)": "دوچرخه / دوچرخه برقی (اشتراکی)",
+      "#Bus": "اتوبوس",
       "#Car": "خودرو",
       "#Car sharing": "خودروی اشتراکی",
-      "#Public transport": "حمل‌ونقل عمومی",
+      "#Metro": "مترو",
+      "#Regional or suburban train": "قطار منطقه‌ای یا حومه‌ای",
       "#Taxi or similar service (e.g. Uber, Bolt)": "تاکسی یا خدمات مشابه (مثلاً Uber، Bolt)",
-      "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "پیاده‌روی (به عنوان روش اصلی در بیشتر مسیر، نه فقط پیاده‌روی کوتاه برای رسیدن به وسیله دیگر یا تعویض وسیله)",
+      "#Tram": "تراموا",
+      "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "پیاده‌روی (به‌عنوان روش اصلی در بیشتر مسیر، نه فقط پیاده‌روی کوتاه برای رسیدن به وسیلهٔ دیگر یا تعویض وسیله)",
       "#Which other ways of travelling do you use in the same trip? (Select all that apply)": "در همان سفر از کدام روش‌های دیگر رفت‌وآمد استفاده می‌کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
       "#e-scooter (private)": "اسکوتر برقی (شخصی)",
       "#e-scooter (shared)": "اسکوتر برقی (اشتراکی)"
@@ -104,10 +128,13 @@
     "fr": {
       "#Bicycle/e-bike (private)": "Vélo / vélo électrique (personnel)",
       "#Bicycle/e-bike (shared)": "Vélo / vélo électrique (partagé)",
+      "#Bus": "Bus",
       "#Car": "Voiture",
       "#Car sharing": "Autopartage",
-      "#Public transport": "Transports publics",
+      "#Metro": "Métro",
+      "#Regional or suburban train": "Train régional ou de banlieue",
       "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi ou service similaire (par ex. Uber, Bolt)",
+      "#Tram": "Tramway",
       "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "Marche (comme mode principal sur la plus grande partie du trajet, pas seulement pour rejoindre un autre mode ou faire une correspondance)",
       "#Which other ways of travelling do you use in the same trip? (Select all that apply)": "Quels autres modes de déplacement utilisez-vous au cours du même trajet ? (Sélectionnez toutes les réponses qui s’appliquent)",
       "#e-scooter (private)": "Trottinette électrique (personnelle)",
@@ -116,11 +143,14 @@
     "hu": {
       "#Bicycle/e-bike (private)": "Kerékpár / e-bike (saját)",
       "#Bicycle/e-bike (shared)": "Kerékpár / e-bike (megosztott)",
+      "#Bus": "Busz",
       "#Car": "Autó",
       "#Car sharing": "Autómegosztás",
-      "#Public transport": "Tömegközlekedés",
+      "#Metro": "Metró",
+      "#Regional or suburban train": "Regionális vagy elővárosi vonat",
       "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi vagy hasonló szolgáltatás (pl. Uber, Bolt)",
-      "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "Gyaloglás (az út nagy részének fő közlekedési módjaként, nem csak rövid rá- vagy átszállási gyaloglásként)",
+      "#Tram": "Villamos",
+      "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "Gyaloglás (ez a fő közlekedési mód az út nagy részén, nem csak a megállóig vagy átszálláskor megtett rövid gyaloglás)",
       "#Which other ways of travelling do you use in the same trip? (Select all that apply)": "Milyen más közlekedési módokat használ ugyanazon az úton? (Jelölje meg az összes megfelelőt)",
       "#e-scooter (private)": "Elektromos roller (saját)",
       "#e-scooter (shared)": "Elektromos roller (megosztott)"
@@ -128,10 +158,13 @@
     "it": {
       "#Bicycle/e-bike (private)": "Bicicletta/e-bike (privata)",
       "#Bicycle/e-bike (shared)": "Bicicletta/e-bike (condivisa)",
+      "#Bus": "Autobus",
       "#Car": "Auto",
       "#Car sharing": "Car sharing",
-      "#Public transport": "Trasporto pubblico",
-      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi o servizio simile (ad es. Uber, Bolt)",
+      "#Metro": "Metropolitana",
+      "#Regional or suburban train": "Treno regionale o suburbano",
+      "#Taxi or similar service (e.g. Uber, Bolt)": "Taxi o NCC (ad es. Uber, Bolt)",
+      "#Tram": "Tram",
       "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "A piedi (come modalità principale per la maggior parte dello spostamento, esclusi brevi tratti di accesso o trasferimento)",
       "#Which other ways of travelling do you use in the same trip? (Select all that apply)": "Quali altri modi di spostarti usi nello stesso spostamento? (Seleziona tutte le opzioni applicabili)",
       "#e-scooter (private)": "Monopattino elettrico (privato)",
@@ -140,10 +173,13 @@
     "tr": {
       "#Bicycle/e-bike (private)": "Bisiklet / elektrikli bisiklet (kişisel)",
       "#Bicycle/e-bike (shared)": "Bisiklet / elektrikli bisiklet (paylaşımlı)",
+      "#Bus": "Otobüs",
       "#Car": "Otomobil",
       "#Car sharing": "Araç paylaşımı",
-      "#Public transport": "Toplu taşıma",
+      "#Metro": "Metro",
+      "#Regional or suburban train": "Bölgesel veya banliyö treni",
       "#Taxi or similar service (e.g. Uber, Bolt)": "Taksi veya benzeri hizmet (ör. Uber, Bolt)",
+      "#Tram": "Tramvay",
       "#Walking (as the main mode for most of the trip, not short access or transfer walking)": "Yürüme (yolculuğun büyük bölümünde ana ulaşım şekli olarak; kısa erişim veya aktarma yürüyüşleri hariç)",
       "#Which other ways of travelling do you use in the same trip? (Select all that apply)": "Aynı yolculukta başka hangi ulaşım şekillerini kullanıyorsunuz? (Uygun olanların tümünü seçin)",
       "#e-scooter (private)": "E-scooter (kişisel)",

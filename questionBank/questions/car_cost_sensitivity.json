@@ -2,7 +2,7 @@
   "question_id": "car_cost_sensitivity",
   "key": "car_cost_sensitivity",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car",
   "source_questionnaires": [
@@ -32,6 +32,10 @@
         "value": "would_stop_using_car_for_most_trips"
       },
       {
+        "text": "I could not reduce it: I have no alternative",
+        "value": "could_not_reduce_no_alternative"
+      },
+      {
         "text": "Not for me: I don't pay these costs (e.g. company car, passenger)",
         "value": "not_paying"
       }
@@ -43,6 +47,7 @@
   "translations": {
     "ar": {
       "#A little less": "أقل قليلًا",
+      "#I could not reduce it: I have no alternative": "لن أستطيع تقليله: ليس لدي بديل",
       "#I'd stop using it for most trips": "سأتوقف عن استخدامها في معظم الرحلات",
       "#If driving cost more (fuel, parking, tolls), would you use the car less?": "لو ارتفعت تكلفة القيادة (الوقود، المواقف، الرسوم)، هل ستستخدم السيارة أقل؟",
       "#Much less": "أقل بكثير",
@@ -52,6 +57,7 @@
     },
     "de": {
       "#A little less": "Etwas weniger",
+      "#I could not reduce it: I have no alternative": "Ich könnte sie nicht reduzieren: Ich habe keine Alternative",
       "#I'd stop using it for most trips": "Ich würde es für die meisten Wege nicht mehr nutzen",
       "#If driving cost more (fuel, parking, tolls), would you use the car less?": "Würden Sie das Auto weniger nutzen, wenn Autofahren teurer wäre (Kraftstoff, Parken, Maut)?",
       "#Much less": "Viel weniger",
@@ -61,6 +67,7 @@
     },
     "en": {
       "#A little less": "A little less",
+      "#I could not reduce it: I have no alternative": "I could not reduce it: I have no alternative",
       "#I'd stop using it for most trips": "I'd stop using it for most trips",
       "#If driving cost more (fuel, parking, tolls), would you use the car less?": "If driving cost more (fuel, parking, tolls), would you use the car less?",
       "#Much less": "Much less",
@@ -70,6 +77,7 @@
     },
     "fa": {
       "#A little less": "کمی کمتر",
+      "#I could not reduce it: I have no alternative": "نمی‌توانستم آن را کم کنم: جایگزینی ندارم",
       "#I'd stop using it for most trips": "برای بیشتر سفرها استفاده از آن را متوقف می‌کردم",
       "#If driving cost more (fuel, parking, tolls), would you use the car less?": "اگر رانندگی هزینه بیشتری داشت (سوخت، پارکینگ، عوارض)، کمتر از خودرو استفاده می‌کردید؟",
       "#Much less": "خیلی کمتر",
@@ -79,15 +87,17 @@
     },
     "fr": {
       "#A little less": "Un peu moins",
+      "#I could not reduce it: I have no alternative": "Je ne pourrais pas la réduire : je n'ai pas d'alternative",
       "#I'd stop using it for most trips": "Je cesserais de l'utiliser pour la plupart des trajets",
       "#If driving cost more (fuel, parking, tolls), would you use the car less?": "Si conduire coûtait plus cher (carburant, stationnement, péages), utiliseriez-vous moins la voiture ?",
       "#Much less": "Beaucoup moins",
       "#No, I'd use it the same": "Non, je l'utiliserais autant",
-      "#Not for me: I don't pay these costs (e.g. company car, passenger)": "Cela ne me concerne pas : je ne paie pas ces frais (p. ex. voiture de fonction, passager)",
+      "#Not for me: I don't pay these costs (e.g. company car, passenger)": "Cela ne me concerne pas : je ne paie pas ces frais (par ex. voiture de fonction, passager)",
       "#Somewhat less": "Assez moins"
     },
     "hu": {
       "#A little less": "Egy kicsit kevesebbet",
+      "#I could not reduce it: I have no alternative": "Nem tudnám csökkenteni: nincs más lehetőségem",
       "#I'd stop using it for most trips": "A legtöbb úthoz nem használnám tovább",
       "#If driving cost more (fuel, parking, tolls), would you use the car less?": "Ha többe kerülne az autózás (üzemanyag, parkolás, útdíj), kevesebbet használná az autót?",
       "#Much less": "Sokkal kevesebbet",
@@ -97,6 +107,7 @@
     },
     "it": {
       "#A little less": "Un po' meno",
+      "#I could not reduce it: I have no alternative": "Non potrei ridurlo: non ho alternative",
       "#I'd stop using it for most trips": "Smetterei di usarla per la maggior parte degli spostamenti",
       "#If driving cost more (fuel, parking, tolls), would you use the car less?": "Se guidare costasse di più (carburante, parcheggio, pedaggi), useresti meno l'auto?",
       "#Much less": "Molto meno",
@@ -106,6 +117,7 @@
     },
     "tr": {
       "#A little less": "Biraz daha az",
+      "#I could not reduce it: I have no alternative": "Azaltamazdım: başka seçeneğim yok",
       "#I'd stop using it for most trips": "Yolculuklarımın çoğunda kullanmayı bırakırdım",
       "#If driving cost more (fuel, parking, tolls), would you use the car less?": "Araba kullanmak daha pahalı olsaydı (yakıt, park, geçiş ücretleri) otomobili daha az kullanır mıydınız?",
       "#Much less": "Çok daha az",

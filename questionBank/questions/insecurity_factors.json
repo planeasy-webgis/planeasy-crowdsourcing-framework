@@ -2,162 +2,141 @@
   "question_id": "insecurity_factors",
   "key": "insecurity_factors",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_safety_environment",
   "source_questionnaires": [
-    "smarturbanity_safety_environment"
+    "smarturbanity_walking_security"
   ],
   "schema": {
-    "text": "What factors most reduce your sense of security?",
     "answer_key": "insecurity_factors",
-    "question_type": "multiple_options",
     "options": [
       {
-        "text": "Poor lighting (e.g., dark streets, underpasses)",
-        "value": "poor_lighting_e_g_dark_streets_underpass"
+        "text": "Places with few people around (isolated or deserted areas)",
+        "value": "isolated_areas"
       },
       {
-        "text": "Lack of people around (isolated or deserted areas)",
-        "value": "lack_of_people_around_isolated_or_desert"
+        "text": "People behaving aggressively or in an intimidating way",
+        "value": "aggressive_behaviour"
       },
       {
-        "text": "Presence of suspicious or aggressive individuals",
-        "value": "presence_of_suspicious_or_aggressive_ind"
+        "text": "Blind corners or obstructed views",
+        "value": "blind_corners"
       },
       {
-        "text": "Overcrowding or chaotic environments",
-        "value": "overcrowding_or_chaotic_environments"
+        "text": "Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)",
+        "value": "poor_maintenance"
       },
       {
-        "text": "Poor visibility (e.g., blind corners, obstructed views)",
-        "value": "poor_visibility_e_g_blind_corners_obstru"
+        "text": "No surveillance or security measures (e.g. no cameras, no staff)",
+        "value": "no_surveillance"
       },
       {
-        "text": "Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)",
-        "value": "poor_maintenance_e_g_abandoned_buildings"
+        "text": "Incidents that happened to me or were reported in the area",
+        "value": "past_incidents"
       },
       {
-        "text": "Lack of surveillance or security measures (e.g., no cameras, no staff)",
-        "value": "lack_of_surveillance_or_security_measure"
+        "text": "Overcrowded or chaotic places",
+        "value": "overcrowding"
       },
       {
-        "text": "Previous personal or reported incidents in the area",
-        "value": "previous_personal_or_reported_incidents"
-      },
-      {
-        "text": "I don't feel insecure at all",
-        "value": "i_don_t_feel_insecure_at_all"
+        "exclusive": true,
+        "text": "None of these",
+        "value": "none"
       }
     ],
-    "max_answers": 3,
-    "add_other": true,
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "multiple_options",
+    "text": "When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)"
   },
   "translations": {
-    "en": {
-      "#What factors most reduce your sense of security?": "What factors most reduce your sense of security?",
-      "#Poor lighting (e.g., dark streets, underpasses)": "Poor lighting (e.g., dark streets, underpasses)",
-      "#Lack of people around (isolated or deserted areas)": "Lack of people around (isolated or deserted areas)",
-      "#Presence of suspicious or aggressive individuals": "Presence of suspicious or aggressive individuals",
-      "#Overcrowding or chaotic environments": "Overcrowding or chaotic environments",
-      "#Poor visibility (e.g., blind corners, obstructed views)": "Poor visibility (e.g., blind corners, obstructed views)",
-      "#Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)": "Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)",
-      "#Lack of surveillance or security measures (e.g., no cameras, no staff)": "Lack of surveillance or security measures (e.g., no cameras, no staff)",
-      "#Previous personal or reported incidents in the area": "Previous personal or reported incidents in the area",
-      "#I don't feel insecure at all": "I don't feel insecure at all",
-      "#Other": "Other"
-    },
-    "it": {
-      "#What factors most reduce your sense of security?": "Quali fattori riducono maggiormente la tua percezione di sicurezza personale?",
-      "#Poor lighting (e.g., dark streets, underpasses)": "Scarsa illuminazione (ad es. strade buie, sottopassaggi)",
-      "#Lack of people around (isolated or deserted areas)": "Assenza di persone nelle vicinanze (zone isolate o deserte)",
-      "#Presence of suspicious or aggressive individuals": "Presenza di persone sospette o aggressive",
-      "#Overcrowding or chaotic environments": "Sovraffollamento o ambienti caotici",
-      "#Poor visibility (e.g., blind corners, obstructed views)": "Scarsa visibilità (ad es. angoli ciechi, visuale ostruita)",
-      "#Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)": "Scarsa manutenzione (ad es. edifici abbandonati, graffiti, infrastrutture danneggiate)",
-      "#Lack of surveillance or security measures (e.g., no cameras, no staff)": "Mancanza di sorveglianza o misure di sicurezza (ad es. assenza di telecamere o personale)",
-      "#Previous personal or reported incidents in the area": "Precedenti episodi personali o segnalati nella zona",
-      "#I don't feel insecure at all": "Non mi sento affatto insicuro/a",
-      "#Other": "Altro"
-    },
-    "fr": {
-      "#What factors most reduce your sense of security?": "Quels facteurs réduisent le plus votre sentiment de sécurité personnelle ?",
-      "#Poor lighting (e.g., dark streets, underpasses)": "Mauvais éclairage (par ex. rues sombres, passages souterrains)",
-      "#Lack of people around (isolated or deserted areas)": "Peu ou pas de personnes autour (zones isolées ou désertes)",
-      "#Presence of suspicious or aggressive individuals": "Présence de personnes qui semblent menaçantes ou agressives",
-      "#Overcrowding or chaotic environments": "Trop de monde ou environnement désordonné",
-      "#Poor visibility (e.g., blind corners, obstructed views)": "Mauvaise visibilité (par ex. angles morts, vue bloquée)",
-      "#Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)": "Mauvais entretien (par ex. bâtiments abandonnés, graffitis, infrastructures cassées)",
-      "#Lack of surveillance or security measures (e.g., no cameras, no staff)": "Manque de surveillance ou de mesures de sécurité (par ex. pas de caméra, pas de personnel)",
-      "#Previous personal or reported incidents in the area": "Incidents déjà vécus ou signalés dans la zone",
-      "#I don't feel insecure at all": "Je ne me sens pas du tout en insécurité",
-      "#Other": "Autre"
+    "ar": {
+      "#Blind corners or obstructed views": "زوايا عمياء أو رؤية محجوبة",
+      "#Incidents that happened to me or were reported in the area": "حوادث وقعت لي أو تم الإبلاغ عنها في المنطقة",
+      "#No surveillance or security measures (e.g. no cameras, no staff)": "غياب المراقبة أو إجراءات الأمن (مثل عدم وجود كاميرات أو موظفين)",
+      "#None of these": "لا شيء مما سبق",
+      "#Overcrowded or chaotic places": "أماكن مكتظة أو فوضوية",
+      "#People behaving aggressively or in an intimidating way": "أشخاص يتصرفون بعدوانية أو بطريقة مخيفة",
+      "#Places with few people around (isolated or deserted areas)": "أماكن يقل فيها المارة (مناطق معزولة أو مهجورة)",
+      "#Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)": "سوء الصيانة (مثل المباني المهجورة والكتابات على الجدران والبنية التحتية المتضررة)",
+      "#When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)": "عند المشي، ما الذي يقلل شعورك بالأمان من الجريمة أو التحرش؟ (يمكن اختيار كل ما ينطبق)"
     },
     "de": {
-      "#What factors most reduce your sense of security?": "Welche Faktoren verringern Ihr Gefühl persönlicher Sicherheit am stärksten?",
-      "#Poor lighting (e.g., dark streets, underpasses)": "Schlechte Beleuchtung (z. B. dunkle Straßen, Unterführungen)",
-      "#Lack of people around (isolated or deserted areas)": "Wenig oder keine Menschen in der Umgebung (einsame oder verlassene Bereiche)",
-      "#Presence of suspicious or aggressive individuals": "Anwesenheit von Personen, die bedrohlich oder aggressiv wirken",
-      "#Overcrowding or chaotic environments": "Überfüllung oder chaotische Umgebung",
-      "#Poor visibility (e.g., blind corners, obstructed views)": "Schlechte Sicht (z. B. unübersichtliche Ecken, versperrte Sicht)",
-      "#Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)": "Schlechte Instandhaltung (z. B. verlassene Gebäude, Graffiti, beschädigte Infrastruktur)",
-      "#Lack of surveillance or security measures (e.g., no cameras, no staff)": "Fehlende Überwachung oder Sicherheitsmaßnahmen (z. B. keine Kameras, kein Personal)",
-      "#Previous personal or reported incidents in the area": "Frühere eigene Erlebnisse oder gemeldete Vorfälle in diesem Bereich",
-      "#I don't feel insecure at all": "Ich fühle mich überhaupt nicht unsicher",
-      "#Other": "Anderes"
+      "#Blind corners or obstructed views": "Unübersichtliche Ecken oder verdeckte Sicht",
+      "#Incidents that happened to me or were reported in the area": "Vorfälle, die mir passiert sind oder in der Gegend gemeldet wurden",
+      "#No surveillance or security measures (e.g. no cameras, no staff)": "Fehlende Überwachung oder Sicherheitsmaßnahmen (z. B. keine Kameras, kein Personal)",
+      "#None of these": "Keine davon",
+      "#Overcrowded or chaotic places": "Überfüllte oder chaotische Orte",
+      "#People behaving aggressively or in an intimidating way": "Menschen, die sich aggressiv oder einschüchternd verhalten",
+      "#Places with few people around (isolated or deserted areas)": "Orte, an denen wenige Menschen sind (abgelegene oder menschenleere Gegenden)",
+      "#Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)": "Schlechte Instandhaltung (z. B. verlassene Gebäude, Graffiti, kaputte Infrastruktur)",
+      "#When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)": "Was gibt Ihnen beim Gehen ein geringeres Sicherheitsgefühl vor Kriminalität oder Belästigung? (Wählen Sie alles Zutreffende aus)"
     },
-    "tr": {
-      "#What factors most reduce your sense of security?": "Kişisel güvenlik hissinizi en çok hangi faktörler azaltıyor?",
-      "#Poor lighting (e.g., dark streets, underpasses)": "Yetersiz aydınlatma (ör. karanlık sokaklar, alt geçitler)",
-      "#Lack of people around (isolated or deserted areas)": "Çevrede insanların olmaması (ıssız veya tenha alanlar)",
-      "#Presence of suspicious or aggressive individuals": "Tehditkâr veya saldırgan görünen kişilerin bulunması",
-      "#Overcrowding or chaotic environments": "Aşırı kalabalık veya düzensiz ortamlar",
-      "#Poor visibility (e.g., blind corners, obstructed views)": "Kötü görüş (ör. kör noktalar, kapanmış görüş alanı)",
-      "#Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)": "Kötü bakım (ör. terk edilmiş binalar, grafiti, hasarlı altyapı)",
-      "#Lack of surveillance or security measures (e.g., no cameras, no staff)": "Gözetim veya güvenlik önlemlerinin olmaması (ör. kamera veya görevli olmaması)",
-      "#Previous personal or reported incidents in the area": "Bölgede daha önce yaşanmış veya bildirilmiş olaylar",
-      "#I don't feel insecure at all": "Kendimi hiç güvensiz hissetmiyorum",
-      "#Other": "Diğer"
+    "en": {
+      "#Blind corners or obstructed views": "Blind corners or obstructed views",
+      "#Incidents that happened to me or were reported in the area": "Incidents that happened to me or were reported in the area",
+      "#No surveillance or security measures (e.g. no cameras, no staff)": "No surveillance or security measures (e.g. no cameras, no staff)",
+      "#None of these": "None of these",
+      "#Overcrowded or chaotic places": "Overcrowded or chaotic places",
+      "#People behaving aggressively or in an intimidating way": "People behaving aggressively or in an intimidating way",
+      "#Places with few people around (isolated or deserted areas)": "Places with few people around (isolated or deserted areas)",
+      "#Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)": "Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)",
+      "#When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)": "When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)"
     },
     "fa": {
-      "#What factors most reduce your sense of security?": "کدام عامل‌ها بیشترین کاهش را در احساس امنیت شخصی شما ایجاد می‌کنند؟",
-      "#Poor lighting (e.g., dark streets, underpasses)": "روشنایی ضعیف (مثلاً خیابان تاریک، زیرگذر)",
-      "#Lack of people around (isolated or deserted areas)": "کمبود افراد در اطراف (مناطق خلوت یا متروک)",
-      "#Presence of suspicious or aggressive individuals": "حضور افرادی که مشکوک یا تهاجمی به نظر می‌رسند",
-      "#Overcrowding or chaotic environments": "ازدحام زیاد یا محیط آشفته",
-      "#Poor visibility (e.g., blind corners, obstructed views)": "دید ضعیف (مثلاً گوشه کور، دید بسته)",
-      "#Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)": "نگهداری ضعیف (مثلاً ساختمان متروک، دیوارنویسی، زیرساخت خراب)",
-      "#Lack of surveillance or security measures (e.g., no cameras, no staff)": "نبود نظارت یا اقدامات امنیتی (مثلاً نبود دوربین یا کارکنان)",
-      "#Previous personal or reported incidents in the area": "اتفاق‌های قبلی که خودم تجربه کرده‌ام یا در آن منطقه گزارش شده‌اند",
-      "#I don't feel insecure at all": "اصلاً احساس ناامنی نمی‌کنم",
-      "#Other": "سایر"
+      "#Blind corners or obstructed views": "پیچ‌های کور یا دید مسدود",
+      "#Incidents that happened to me or were reported in the area": "حوادثی که برای من رخ داده یا در منطقه گزارش شده است",
+      "#No surveillance or security measures (e.g. no cameras, no staff)": "نبود نظارت یا اقدامات امنیتی (مثلاً بدون دوربین، بدون کارکنان)",
+      "#None of these": "هیچ‌کدام از این‌ها",
+      "#Overcrowded or chaotic places": "مکان‌های بسیار شلوغ یا پرهرج‌ومرج",
+      "#People behaving aggressively or in an intimidating way": "افرادی که رفتار پرخاشگرانه یا ترساننده دارند",
+      "#Places with few people around (isolated or deserted areas)": "مکان‌هایی با رفت‌وآمد کم (مناطق دورافتاده یا خلوت)",
+      "#Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)": "نگهداری ضعیف (مثلاً ساختمان‌های متروکه، گرافیتی، زیرساخت‌های خراب)",
+      "#When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)": "هنگام پیاده‌روی، چه چیزهایی باعث می‌شوند در برابر جرم یا آزار کمتر احساس امنیت کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)"
+    },
+    "fr": {
+      "#Blind corners or obstructed views": "Les angles morts ou les vues obstruées",
+      "#Incidents that happened to me or were reported in the area": "Des incidents qui me sont arrivés ou qui ont été signalés dans le quartier",
+      "#No surveillance or security measures (e.g. no cameras, no staff)": "L’absence de surveillance ou de mesures de sécurité (par ex. pas de caméras, pas de personnel)",
+      "#None of these": "Aucun de ces éléments",
+      "#Overcrowded or chaotic places": "Les lieux bondés ou chaotiques",
+      "#People behaving aggressively or in an intimidating way": "Des personnes qui se comportent de façon agressive ou intimidante",
+      "#Places with few people around (isolated or deserted areas)": "Les lieux où il y a peu de monde (zones isolées ou désertes)",
+      "#Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)": "Un mauvais entretien (par ex. bâtiments abandonnés, graffitis, infrastructures dégradées)",
+      "#When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)": "Lorsque vous marchez, qu’est-ce qui vous fait vous sentir moins à l’abri de la criminalité ou du harcèlement ? (Sélectionnez toutes les réponses qui s’appliquent)"
     },
     "hu": {
-      "#What factors most reduce your sense of security?": "Mely tényezők csökkentik leginkább a személyes biztonságérzetét?",
-      "#Poor lighting (e.g., dark streets, underpasses)": "Rossz világítás (pl. sötét utcák, aluljárók)",
-      "#Lack of people around (isolated or deserted areas)": "Kevés vagy egyáltalán nincs ember a közelben (elszigetelt vagy kihalt területek)",
-      "#Presence of suspicious or aggressive individuals": "Fenyegetőnek vagy agresszívnak tűnő emberek jelenléte",
-      "#Overcrowding or chaotic environments": "Túl nagy tömeg vagy kaotikus környezet",
-      "#Poor visibility (e.g., blind corners, obstructed views)": "Rossz beláthatóság (pl. beláthatatlan sarkok, akadályozott kilátás)",
-      "#Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)": "Rossz karbantartás (pl. elhagyott épületek, graffiti, sérült infrastruktúra)",
-      "#Lack of surveillance or security measures (e.g., no cameras, no staff)": "Megfigyelés vagy biztonsági intézkedések hiánya (pl. nincs kamera, nincs személyzet)",
-      "#Previous personal or reported incidents in the area": "Korábbi személyes vagy bejelentett esetek a környéken",
-      "#I don't feel insecure at all": "Egyáltalán nem érzem magam bizonytalannak",
-      "#Other": "Egyéb"
+      "#Blind corners or obstructed views": "Beláthatatlan sarkok vagy takart kilátás",
+      "#Incidents that happened to me or were reported in the area": "Velem történt vagy a környéken bejelentett incidensek",
+      "#No surveillance or security measures (e.g. no cameras, no staff)": "A felügyelet vagy a biztonsági intézkedések hiánya (pl. nincs kamera, nincs személyzet)",
+      "#None of these": "Ezek közül egyik sem",
+      "#Overcrowded or chaotic places": "Túlzsúfolt vagy kaotikus helyek",
+      "#People behaving aggressively or in an intimidating way": "Agresszíven vagy megfélemlítően viselkedő emberek",
+      "#Places with few people around (isolated or deserted areas)": "Olyan helyek, ahol kevés ember van (elhagyatott vagy néptelen helyek)",
+      "#Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)": "Rossz karbantartás (pl. elhagyott épületek, graffitik, tönkrement infrastruktúra)",
+      "#When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)": "Gyaloglás közben mi miatt érzi magát kevésbé biztonságban a bűncselekményekkel vagy a zaklatással szemben? (Jelölje meg az összes megfelelőt)"
     },
-    "ar": {
-      "#What factors most reduce your sense of security?": "ما العوامل التي تقلل أكثر من شعورك بالأمان الشخصي؟",
-      "#Poor lighting (e.g., dark streets, underpasses)": "إضاءة ضعيفة (مثل الشوارع المظلمة أو الأنفاق)",
-      "#Lack of people around (isolated or deserted areas)": "قلة الأشخاص حولك (مناطق منعزلة أو خالية)",
-      "#Presence of suspicious or aggressive individuals": "وجود أشخاص يبدون مريبين أو عدوانيين",
-      "#Overcrowding or chaotic environments": "ازدحام شديد أو بيئة فوضوية",
-      "#Poor visibility (e.g., blind corners, obstructed views)": "رؤية ضعيفة (مثل الزوايا غير الواضحة أو الرؤية المحجوبة)",
-      "#Poor maintenance (e.g., abandoned buildings, graffiti, broken infrastructure)": "سوء الصيانة (مثل مبانٍ مهجورة، كتابات على الجدران، بنية تحتية مكسورة)",
-      "#Lack of surveillance or security measures (e.g., no cameras, no staff)": "غياب المراقبة أو إجراءات الأمان (مثل عدم وجود كاميرات أو موظفين)",
-      "#Previous personal or reported incidents in the area": "حوادث سابقة عشتها شخصيًا أو تم الإبلاغ عنها في المنطقة",
-      "#I don't feel insecure at all": "لا أشعر بعدم الأمان إطلاقًا",
-      "#Other": "أخرى"
+    "it": {
+      "#Blind corners or obstructed views": "Angoli ciechi o visuale ostruita",
+      "#Incidents that happened to me or were reported in the area": "Episodi accaduti a me o segnalati nella zona",
+      "#No surveillance or security measures (e.g. no cameras, no staff)": "Mancanza di sorveglianza o di misure di sicurezza (es. niente telecamere, niente personale)",
+      "#None of these": "Nessuna di queste",
+      "#Overcrowded or chaotic places": "Luoghi sovraffollati o caotici",
+      "#People behaving aggressively or in an intimidating way": "Persone che si comportano in modo aggressivo o intimidatorio",
+      "#Places with few people around (isolated or deserted areas)": "Luoghi con poca gente (zone isolate o deserte)",
+      "#Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)": "Scarsa manutenzione (es. edifici abbandonati, graffiti, infrastrutture rotte)",
+      "#When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)": "Quando cammini, cosa ti fa sentire meno al sicuro da reati o molestie? (Seleziona tutte le opzioni applicabili)"
+    },
+    "tr": {
+      "#Blind corners or obstructed views": "Kör köşeler veya kapalı görüş alanları",
+      "#Incidents that happened to me or were reported in the area": "Başıma gelen veya bölgede bildirilen olaylar",
+      "#No surveillance or security measures (e.g. no cameras, no staff)": "Gözetim veya güvenlik önlemlerinin eksikliği (örn. kamera yok, görevli yok)",
+      "#None of these": "Bunların hiçbiri",
+      "#Overcrowded or chaotic places": "Aşırı kalabalık veya karmaşık yerler",
+      "#People behaving aggressively or in an intimidating way": "Saldırgan veya gözdağı verici davranan insanlar",
+      "#Places with few people around (isolated or deserted areas)": "Etrafta az insan olan yerler (ıssız veya tenha alanlar)",
+      "#Poor maintenance (e.g. abandoned buildings, graffiti, broken infrastructure)": "Bakımsızlık (örn. terk edilmiş binalar, grafitiler, bozuk altyapı)",
+      "#When you walk, what makes you feel less secure from crime or harassment? (Select all that apply)": "Yürürken neler kendinizi suça veya tacize karşı daha az güvende hissetmenize neden oluyor? (Uygun olanların tümünü seçin)"
     }
   },
   "origin_project": {

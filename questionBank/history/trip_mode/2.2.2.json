@@ -1,0 +1,215 @@
+{
+  "question_id": "trip_mode",
+  "key": "trip_mode",
+  "project": "shared",
+  "version": "2.2.2",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_pre_trip",
+  "source_questionnaires": [
+    "smarturbanity_pre_trip"
+  ],
+  "schema": {
+    "add_other": true,
+    "answer_key": "trip_mode",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "On foot (also just to reach a stop)",
+        "value": "walk"
+      },
+      {
+        "text": "Wheelchair or mobility scooter",
+        "value": "wheelchair"
+      },
+      {
+        "text": "Bicycle (own)",
+        "value": "bike"
+      },
+      {
+        "text": "E-bike (own)",
+        "value": "ebike"
+      },
+      {
+        "text": "Shared bike",
+        "value": "bike_shared"
+      },
+      {
+        "text": "Shared e-bike",
+        "value": "ebike_shared"
+      },
+      {
+        "text": "E-scooter (own)",
+        "value": "escooter"
+      },
+      {
+        "text": "Shared e-scooter",
+        "value": "escooter_shared"
+      },
+      {
+        "text": "Public transport (bus, tram, metro, train)",
+        "value": "transit"
+      },
+      {
+        "text": "Car, as driver",
+        "value": "car_driver"
+      },
+      {
+        "text": "Car, as passenger",
+        "value": "car_passenger"
+      },
+      {
+        "text": "Car sharing",
+        "value": "car_sharing"
+      },
+      {
+        "text": "Motorcycle or moped",
+        "value": "motorcycle"
+      },
+      {
+        "text": "Taxi, private hire or app-based car service (e.g. Uber, FreeNow)",
+        "value": "taxi"
+      }
+    ],
+    "privacy_classification": "special_category_health",
+    "question_type": "multiple_options",
+    "text": "How do you plan to travel on this trip? (Select all that apply)"
+  },
+  "translations": {
+    "ar": {
+      "#Bicycle (own)": "دراجة (خاصة)",
+      "#Car sharing": "مشاركة السيارات",
+      "#Car, as driver": "سيارة، أقود بنفسي",
+      "#Car, as passenger": "سيارة، دون أن أقود",
+      "#E-bike (own)": "دراجة كهربائية (خاصة)",
+      "#E-scooter (own)": "سكوتر كهربائي (خاص)",
+      "#How do you plan to travel on this trip? (Select all that apply)": "ما وسائل التنقل المخطط لها في هذه الرحلة؟ (يمكن اختيار كل ما ينطبق)",
+      "#Motorcycle or moped": "دراجة نارية أو سكوتر",
+      "#On foot (also just to reach a stop)": "سيرًا على الأقدام (حتى لمجرد الوصول إلى المحطة)",
+      "#Public transport (bus, tram, metro, train)": "النقل العام (حافلة، ترام، مترو، قطار)",
+      "#Shared bike": "دراجة مشتركة",
+      "#Shared e-bike": "دراجة كهربائية مشتركة",
+      "#Shared e-scooter": "سكوتر كهربائي مشترك",
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "تاكسي أو سيارة أجرة خاصة أو خدمة نقل عبر التطبيقات (مثل Uber وFreeNow)",
+      "#Wheelchair or mobility scooter": "كرسي متحرك يدوي أو كهربائي"
+    },
+    "de": {
+      "#Bicycle (own)": "Fahrrad (eigenes)",
+      "#Car sharing": "Carsharing",
+      "#Car, as driver": "Auto, selbst am Steuer",
+      "#Car, as passenger": "Auto, mitfahrend",
+      "#E-bike (own)": "E-Bike (eigenes)",
+      "#E-scooter (own)": "E-Scooter (eigener)",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Wie planen Sie, diesen Weg zurückzulegen? (Alle zutreffenden auswählen)",
+      "#Motorcycle or moped": "Motorrad oder Moped/Roller",
+      "#On foot (also just to reach a stop)": "Zu Fuß (auch nur bis zur Haltestelle)",
+      "#Public transport (bus, tram, metro, train)": "Öffentlicher Verkehr (Bus, Tram, U-Bahn, Zug)",
+      "#Shared bike": "Leihfahrrad (Sharing)",
+      "#Shared e-bike": "Leih-E-Bike (Sharing)",
+      "#Shared e-scooter": "Leih-E-Scooter (Sharing)",
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi, App-Fahrdienst oder Mietwagen mit Fahrer oder Fahrerin (z. B. Uber, FreeNow)",
+      "#Wheelchair or mobility scooter": "Rollstuhl oder Elektrorollstuhl"
+    },
+    "en": {
+      "#Bicycle (own)": "Bicycle (own)",
+      "#Car sharing": "Car sharing",
+      "#Car, as driver": "Car, as driver",
+      "#Car, as passenger": "Car, as passenger",
+      "#E-bike (own)": "E-bike (own)",
+      "#E-scooter (own)": "E-scooter (own)",
+      "#How do you plan to travel on this trip? (Select all that apply)": "How do you plan to travel on this trip? (Select all that apply)",
+      "#Motorcycle or moped": "Motorcycle or moped",
+      "#On foot (also just to reach a stop)": "On foot (also just to reach a stop)",
+      "#Public transport (bus, tram, metro, train)": "Public transport (bus, tram, metro, train)",
+      "#Shared bike": "Shared bike",
+      "#Shared e-bike": "Shared e-bike",
+      "#Shared e-scooter": "Shared e-scooter",
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi, private hire or app-based car service (e.g. Uber, FreeNow)",
+      "#Wheelchair or mobility scooter": "Wheelchair or mobility scooter"
+    },
+    "fa": {
+      "#Bicycle (own)": "دوچرخه (شخصی)",
+      "#Car sharing": "خودروی اشتراکی",
+      "#Car, as driver": "خودرو، به‌عنوان راننده",
+      "#Car, as passenger": "خودرو، به‌عنوان سرنشین",
+      "#E-bike (own)": "دوچرخه برقی (شخصی)",
+      "#E-scooter (own)": "اسکوتر برقی (شخصی)",
+      "#How do you plan to travel on this trip? (Select all that apply)": "قصد دارید این سفر را با چه شیوه‌هایی انجام دهید؟ (همه موارد مربوط را انتخاب کنید)",
+      "#Motorcycle or moped": "موتورسیکلت یا موتور کوچک (موپد)",
+      "#On foot (also just to reach a stop)": "پیاده (حتی فقط برای رسیدن به ایستگاه)",
+      "#Public transport (bus, tram, metro, train)": "حمل‌ونقل عمومی (اتوبوس، تراموا، مترو، قطار)",
+      "#Shared bike": "دوچرخه اشتراکی",
+      "#Shared e-bike": "دوچرخه برقی اشتراکی",
+      "#Shared e-scooter": "اسکوتر برقی اشتراکی",
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "تاکسی، تاکسی اپلیکیشنی یا خودروی کرایه‌ای با راننده (مثلاً Uber، FreeNow)",
+      "#Wheelchair or mobility scooter": "ویلچر دستی یا برقی"
+    },
+    "fr": {
+      "#Bicycle (own)": "Vélo (personnel)",
+      "#Car sharing": "Autopartage",
+      "#Car, as driver": "Voiture, au volant",
+      "#Car, as passenger": "Voiture, sans conduire",
+      "#E-bike (own)": "Vélo électrique (personnel)",
+      "#E-scooter (own)": "Trottinette électrique (personnelle)",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Comment prévoyez-vous de vous déplacer pour ce trajet ? (Sélectionnez toutes les réponses qui s'appliquent)",
+      "#Motorcycle or moped": "Moto ou scooter",
+      "#On foot (also just to reach a stop)": "À pied (même seulement pour rejoindre un arrêt)",
+      "#Public transport (bus, tram, metro, train)": "Transports en commun (bus, tram, métro, train)",
+      "#Shared bike": "Vélo en libre-service",
+      "#Shared e-bike": "Vélo électrique en libre-service",
+      "#Shared e-scooter": "Trottinette électrique en libre-service",
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi ou VTC (par ex. Uber, FreeNow)",
+      "#Wheelchair or mobility scooter": "Fauteuil roulant, manuel ou électrique"
+    },
+    "hu": {
+      "#Bicycle (own)": "Kerékpár (saját)",
+      "#Car sharing": "Autómegosztás",
+      "#Car, as driver": "Autó, vezetőként",
+      "#Car, as passenger": "Autó, utasként",
+      "#E-bike (own)": "Elektromos kerékpár (saját)",
+      "#E-scooter (own)": "Elektromos roller (saját)",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Hogyan tervez közlekedni ezen az úton? (Jelölje meg az összes megfelelőt)",
+      "#Motorcycle or moped": "Motorkerékpár vagy robogó",
+      "#On foot (also just to reach a stop)": "Gyalog (akkor is, ha csak a megállóig megyek)",
+      "#Public transport (bus, tram, metro, train)": "Tömegközlekedés (busz, villamos, metró, vonat)",
+      "#Shared bike": "Megosztott kerékpár",
+      "#Shared e-bike": "Megosztott elektromos kerékpár",
+      "#Shared e-scooter": "Megosztott elektromos roller",
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi, sofőrös bérautó vagy alkalmazáson rendelt fuvar (pl. Uber, FreeNow)",
+      "#Wheelchair or mobility scooter": "Kézi vagy elektromos kerekesszék"
+    },
+    "it": {
+      "#Bicycle (own)": "Bicicletta (tua)",
+      "#Car sharing": "Car sharing",
+      "#Car, as driver": "Auto, alla guida",
+      "#Car, as passenger": "Auto, senza guidare",
+      "#E-bike (own)": "Bici elettrica (tua)",
+      "#E-scooter (own)": "Monopattino elettrico (tuo)",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Come pensi di fare questo spostamento? (Puoi sceglierne più di uno)",
+      "#Motorcycle or moped": "Moto o scooter",
+      "#On foot (also just to reach a stop)": "A piedi (anche solo per raggiungere una fermata)",
+      "#Public transport (bus, tram, metro, train)": "Mezzi pubblici (bus, tram, metro, treno)",
+      "#Shared bike": "Bici in sharing",
+      "#Shared e-bike": "Bici elettrica in sharing",
+      "#Shared e-scooter": "Monopattino in sharing",
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taxi o auto con conducente (ad es. Uber, FreeNow)",
+      "#Wheelchair or mobility scooter": "Sedia a rotelle, manuale o elettrica"
+    },
+    "tr": {
+      "#Bicycle (own)": "Bisiklet (kendi)",
+      "#Car sharing": "Araç paylaşımı",
+      "#Car, as driver": "Araba, sürücü olarak",
+      "#Car, as passenger": "Araba, yolcu olarak",
+      "#E-bike (own)": "Elektrikli bisiklet (kendi)",
+      "#E-scooter (own)": "Elektrikli scooter (kendi)",
+      "#How do you plan to travel on this trip? (Select all that apply)": "Bu yolculuğu nasıl yapmayı planlıyorsunuz? (Uygun olanların tümünü seçin)",
+      "#Motorcycle or moped": "Motosiklet veya moped/scooter",
+      "#On foot (also just to reach a stop)": "Yürüyerek (sadece durağa gitmek için bile olsa)",
+      "#Public transport (bus, tram, metro, train)": "Toplu taşıma (otobüs, tramvay, metro, tren)",
+      "#Shared bike": "Paylaşımlı bisiklet",
+      "#Shared e-bike": "Paylaşımlı elektrikli bisiklet",
+      "#Shared e-scooter": "Paylaşımlı elektrikli scooter",
+      "#Taxi, private hire or app-based car service (e.g. Uber, FreeNow)": "Taksi, şoförlü araç veya uygulama üzerinden araç (örn. Uber, FreeNow)",
+      "#Wheelchair or mobility scooter": "Manuel veya akülü tekerlekli sandalye"
+    }
+  }
+}

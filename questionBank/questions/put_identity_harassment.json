@@ -2,16 +2,14 @@
   "question_id": "put_identity_harassment",
   "key": "put_identity_harassment",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport_security",
   "source_questionnaires": [
     "smarturbanity_public_transport_security"
   ],
   "schema": {
-    "text": "When you use public transport, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?",
     "answer_key": "put_identity_harassment",
-    "question_type": "single_option",
     "options": [
       {
         "text": "Yes",
@@ -22,7 +20,9 @@
         "value": "no"
       }
     ],
-    "privacy_classification": "heightened_personal"
+    "privacy_classification": "heightened_personal",
+    "question_type": "single_option",
+    "text": "When you use public transport, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?"
   },
   "translations": {
     "ar": {
@@ -42,7 +42,7 @@
     },
     "fa": {
       "#No": "خیر",
-      "#When you use public transport, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "هنگام استفاده از حمل‌ونقل عمومی، آیا به دلیل ویژگی‌های شخصی یا ظاهرتان (مثلاً جنسیت، ظاهر، اصالت، سن) آزار دیده‌اید یا از آن می‌ترسید؟",
+      "#When you use public transport, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "هنگام استفاده از حمل‌ونقل عمومی، آیا به دلیل ویژگی‌های شخصی یا ظاهرتان (مثلاً جنسیت، ظاهر، خاستگاه، سن) آزار دیده‌اید یا از آن می‌ترسید؟",
       "#Yes": "بله"
     },
     "fr": {

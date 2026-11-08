@@ -2,7 +2,7 @@
   "question_id": "service_subtype",
   "key": "service_subtype",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_service",
   "source_questionnaires": [
@@ -10,16 +10,41 @@
   ],
   "schema": {
     "answer_key": "serviceSubtype",
-    "text": "Service subtype",
-    "question_type": "select",
     "control": {
       "id": "serviceSubtype",
       "input_type": "search_select",
       "placeholder": "Select an optional pilot-defined subtype"
     },
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "select",
+    "text": "Service subtype"
   },
-  "translations": {},
+  "translations": {
+    "ar": {
+      "#Service subtype": "النوع الفرعي للخدمة"
+    },
+    "de": {
+      "#Service subtype": "Untertyp des Dienstes"
+    },
+    "en": {
+      "#Service subtype": "Service subtype"
+    },
+    "fa": {
+      "#Service subtype": "زیرنوع خدمت"
+    },
+    "fr": {
+      "#Service subtype": "Sous-type de service"
+    },
+    "hu": {
+      "#Service subtype": "A szolgáltatás altípusa"
+    },
+    "it": {
+      "#Service subtype": "Sottotipo del servizio"
+    },
+    "tr": {
+      "#Service subtype": "Hizmet alt türü"
+    }
+  },
   "origin_project": {
     "project_id": "smarturbanity",
     "name": "SmartUrbanity"

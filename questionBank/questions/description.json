@@ -2,7 +2,7 @@
   "question_id": "description",
   "key": "description",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_service",
   "source_questionnaires": [
@@ -10,16 +10,41 @@
   ],
   "schema": {
     "answer_key": "description",
-    "text": "Service description",
-    "question_type": "textarea",
     "control": {
       "id": "serviceDescription",
-      "rows": 2,
-      "placeholder": "Optional context, such as opening hours or the provider's name"
+      "placeholder": "Optional context, such as opening hours or the provider's name",
+      "rows": 2
     },
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "textarea",
+    "text": "Service description"
   },
-  "translations": {},
+  "translations": {
+    "ar": {
+      "#Service description": "وصف الخدمة"
+    },
+    "de": {
+      "#Service description": "Beschreibung des Dienstes"
+    },
+    "en": {
+      "#Service description": "Service description"
+    },
+    "fa": {
+      "#Service description": "توضیح خدمت"
+    },
+    "fr": {
+      "#Service description": "Description du service"
+    },
+    "hu": {
+      "#Service description": "A szolgáltatás leírása"
+    },
+    "it": {
+      "#Service description": "Descrizione del servizio"
+    },
+    "tr": {
+      "#Service description": "Hizmet açıklaması"
+    }
+  },
   "origin_project": {
     "project_id": "smarturbanity",
     "name": "SmartUrbanity"

@@ -2,17 +2,15 @@
   "question_id": "tunnel_problems",
   "key": "tunnel_problems",
   "project": "shared",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "status": "draft",
   "origin_questionnaire": "street_connection_assessment",
   "source_questionnaires": [
     "street_connection_assessment"
   ],
   "schema": {
-    "text": "What problems do you see in this underpass?",
-    "answer_key": "tunnel_problems",
-    "question_type": "multiple_options",
     "add_other": true,
+    "answer_key": "tunnel_problems",
     "checks_inline": false,
     "options": [
       {
@@ -40,100 +38,103 @@
         "value": "long_single_exit"
       },
       {
+        "exclusive": true,
         "text": "No clear problem",
         "value": "none"
       }
     ],
-    "privacy_classification": "heightened_personal"
+    "privacy_classification": "heightened_personal",
+    "question_type": "multiple_options",
+    "text": "What problems do you see in this underpass?"
   },
   "translations": {
-    "en": {
-      "#What problems do you see in this underpass?": "What problems do you see in this underpass?",
-      "#Poor lighting": "Poor lighting",
-      "#Dirty surface or litter": "Dirty surface or litter",
-      "#Walls or ceiling in poor condition": "Walls or ceiling in poor condition",
-      "#Standing water": "Standing water",
-      "#Few people pass, it feels isolated": "Few people pass, it feels isolated",
-      "#Long, with only one entrance and one exit": "Long, with only one entrance and one exit",
-      "#No clear problem": "No clear problem",
-      "#Other": "Other"
-    },
-    "it": {
-      "#What problems do you see in this underpass?": "Quali problemi vedi in questo sottopasso?",
-      "#Poor lighting": "Scarsa illuminazione",
-      "#Dirty surface or litter": "Superficie sporca o rifiuti",
-      "#Walls or ceiling in poor condition": "Pareti o soffitto in cattive condizioni",
-      "#Standing water": "Ristagni d'acqua",
-      "#Few people pass, it feels isolated": "Ci passa poca gente, con una sensazione di isolamento",
-      "#Long, with only one entrance and one exit": "Lungo, con un solo ingresso e una sola uscita",
-      "#No clear problem": "Nessun problema evidente",
-      "#Other": "Altro"
-    },
-    "fr": {
-      "#What problems do you see in this underpass?": "Quels problèmes voyez-vous dans ce passage souterrain ?",
-      "#Poor lighting": "Éclairage insuffisant",
-      "#Dirty surface or litter": "Surface sale ou déchets",
-      "#Walls or ceiling in poor condition": "Murs ou plafond en mauvais état",
-      "#Standing water": "Eau stagnante",
-      "#Few people pass, it feels isolated": "Peu de gens y passent, ce qui donne une impression d’isolement",
-      "#Long, with only one entrance and one exit": "Long, avec une seule entrée et une seule sortie",
-      "#No clear problem": "Aucun problème évident",
-      "#Other": "Autre"
-    },
-    "de": {
-      "#What problems do you see in this underpass?": "Welche Probleme sehen Sie in dieser Unterführung?",
-      "#Poor lighting": "Schlechte Beleuchtung",
-      "#Dirty surface or litter": "Verschmutzte Oberfläche oder Abfall",
-      "#Walls or ceiling in poor condition": "Wände oder Decke in schlechtem Zustand",
-      "#Standing water": "Stehendes Wasser",
-      "#Few people pass, it feels isolated": "Hier kommen wenige Menschen vorbei, man fühlt sich allein",
-      "#Long, with only one entrance and one exit": "Lang, mit nur einem Eingang und einem Ausgang",
-      "#No clear problem": "Kein eindeutiges Problem",
-      "#Other": "Sonstiges"
-    },
-    "tr": {
-      "#What problems do you see in this underpass?": "Bu alt geçitte hangi sorunları görüyorsunuz?",
-      "#Poor lighting": "Yetersiz aydınlatma",
-      "#Dirty surface or litter": "Kirli yüzey veya çöp",
-      "#Walls or ceiling in poor condition": "Duvarlar veya tavan kötü durumda",
-      "#Standing water": "Su birikintisi",
-      "#Few people pass, it feels isolated": "Az kişi geçiyor, insan kendini yalnız hissediyor",
-      "#Long, with only one entrance and one exit": "Uzun, tek giriş ve tek çıkışlı",
-      "#No clear problem": "Belirgin bir sorun yok",
-      "#Other": "Diğer"
-    },
-    "fa": {
-      "#What problems do you see in this underpass?": "چه مشکلاتی در این زیرگذر می‌بینید؟",
-      "#Poor lighting": "روشنایی ضعیف",
-      "#Dirty surface or litter": "سطح کثیف یا زباله",
-      "#Walls or ceiling in poor condition": "دیوارها یا سقف در وضعیت نامناسب",
-      "#Standing water": "آب راکد",
-      "#Few people pass, it feels isolated": "افراد کمی عبور می‌کنند و احساس تنهایی می‌شود",
-      "#Long, with only one entrance and one exit": "طولانی، با فقط یک ورودی و یک خروجی",
-      "#No clear problem": "مشکل روشنی وجود ندارد",
-      "#Other": "سایر"
-    },
-    "hu": {
-      "#What problems do you see in this underpass?": "Milyen problémákat lát ebben az aluljáróban?",
-      "#Poor lighting": "Rossz világítás",
-      "#Dirty surface or litter": "Piszkos felület vagy szemét",
-      "#Walls or ceiling in poor condition": "Rossz állapotú falak vagy mennyezet",
-      "#Standing water": "Állóvíz",
-      "#Few people pass, it feels isolated": "Kevesen járnak erre, elhagyatottnak érzi magát az ember",
-      "#Long, with only one entrance and one exit": "Hosszú, csak egy bejárattal és egy kijárattal",
-      "#No clear problem": "Nincs egyértelmű probléma",
-      "#Other": "Egyéb"
-    },
     "ar": {
-      "#What problems do you see in this underpass?": "ما المشكلات الملحوظة في هذا النفق السفلي؟",
-      "#Poor lighting": "إضاءة ضعيفة",
       "#Dirty surface or litter": "سطح متسخ أو نفايات",
-      "#Walls or ceiling in poor condition": "جدران أو سقف بحالة سيئة",
-      "#Standing water": "مياه راكدة",
       "#Few people pass, it feels isolated": "يمر قليل من الناس، ويشعر المرء بالعزلة",
       "#Long, with only one entrance and one exit": "طويل، بمدخل واحد ومخرج واحد فقط",
       "#No clear problem": "لا توجد مشكلة واضحة",
-      "#Other": "أخرى"
+      "#Other": "أخرى",
+      "#Poor lighting": "إضاءة ضعيفة",
+      "#Standing water": "مياه راكدة",
+      "#Walls or ceiling in poor condition": "جدران أو سقف بحالة سيئة",
+      "#What problems do you see in this underpass?": "ما المشكلات الملحوظة في هذا النفق السفلي؟"
+    },
+    "de": {
+      "#Dirty surface or litter": "Verschmutzte Oberfläche oder Abfall",
+      "#Few people pass, it feels isolated": "Hier kommen wenige Menschen vorbei, man fühlt sich allein",
+      "#Long, with only one entrance and one exit": "Lang, mit nur einem Eingang und einem Ausgang",
+      "#No clear problem": "Kein eindeutiges Problem",
+      "#Other": "Sonstiges",
+      "#Poor lighting": "Schlechte Beleuchtung",
+      "#Standing water": "Stehendes Wasser",
+      "#Walls or ceiling in poor condition": "Wände oder Decke in schlechtem Zustand",
+      "#What problems do you see in this underpass?": "Welche Probleme sehen Sie in dieser Unterführung?"
+    },
+    "en": {
+      "#Dirty surface or litter": "Dirty surface or litter",
+      "#Few people pass, it feels isolated": "Few people pass, it feels isolated",
+      "#Long, with only one entrance and one exit": "Long, with only one entrance and one exit",
+      "#No clear problem": "No clear problem",
+      "#Other": "Other",
+      "#Poor lighting": "Poor lighting",
+      "#Standing water": "Standing water",
+      "#Walls or ceiling in poor condition": "Walls or ceiling in poor condition",
+      "#What problems do you see in this underpass?": "What problems do you see in this underpass?"
+    },
+    "fa": {
+      "#Dirty surface or litter": "سطح کثیف یا زباله",
+      "#Few people pass, it feels isolated": "افراد کمی عبور می‌کنند و احساس تنهایی می‌شود",
+      "#Long, with only one entrance and one exit": "طولانی، با فقط یک ورودی و یک خروجی",
+      "#No clear problem": "مشکل روشنی وجود ندارد",
+      "#Other": "سایر",
+      "#Poor lighting": "روشنایی ضعیف",
+      "#Standing water": "آب راکد",
+      "#Walls or ceiling in poor condition": "دیوارها یا سقف در وضعیت نامناسب",
+      "#What problems do you see in this underpass?": "چه مشکلاتی در این زیرگذر می‌بینید؟"
+    },
+    "fr": {
+      "#Dirty surface or litter": "Surface sale ou déchets",
+      "#Few people pass, it feels isolated": "Peu de gens y passent, ce qui donne une impression d’isolement",
+      "#Long, with only one entrance and one exit": "Long, avec une seule entrée et une seule sortie",
+      "#No clear problem": "Aucun problème évident",
+      "#Other": "Autre",
+      "#Poor lighting": "Éclairage insuffisant",
+      "#Standing water": "Eau stagnante",
+      "#Walls or ceiling in poor condition": "Murs ou plafond en mauvais état",
+      "#What problems do you see in this underpass?": "Quels problèmes voyez-vous dans ce passage souterrain ?"
+    },
+    "hu": {
+      "#Dirty surface or litter": "Piszkos felület vagy szemét",
+      "#Few people pass, it feels isolated": "Kevesen járnak erre, elhagyatottnak érzi magát az ember",
+      "#Long, with only one entrance and one exit": "Hosszú, csak egy bejárattal és egy kijárattal",
+      "#No clear problem": "Nincs egyértelmű probléma",
+      "#Other": "Egyéb",
+      "#Poor lighting": "Rossz világítás",
+      "#Standing water": "Állóvíz",
+      "#Walls or ceiling in poor condition": "Rossz állapotú falak vagy mennyezet",
+      "#What problems do you see in this underpass?": "Milyen problémákat lát ebben az aluljáróban?"
+    },
+    "it": {
+      "#Dirty surface or litter": "Superficie sporca o rifiuti",
+      "#Few people pass, it feels isolated": "Ci passa poca gente, con una sensazione di isolamento",
+      "#Long, with only one entrance and one exit": "Lungo, con un solo ingresso e una sola uscita",
+      "#No clear problem": "Nessun problema evidente",
+      "#Other": "Altro",
+      "#Poor lighting": "Scarsa illuminazione",
+      "#Standing water": "Ristagni d'acqua",
+      "#Walls or ceiling in poor condition": "Pareti o soffitto in cattive condizioni",
+      "#What problems do you see in this underpass?": "Quali problemi vedi in questo sottopasso?"
+    },
+    "tr": {
+      "#Dirty surface or litter": "Kirli yüzey veya çöp",
+      "#Few people pass, it feels isolated": "Az kişi geçiyor, insan kendini yalnız hissediyor",
+      "#Long, with only one entrance and one exit": "Uzun, tek giriş ve tek çıkışlı",
+      "#No clear problem": "Belirgin bir sorun yok",
+      "#Other": "Diğer",
+      "#Poor lighting": "Yetersiz aydınlatma",
+      "#Standing water": "Su birikintisi",
+      "#Walls or ceiling in poor condition": "Duvarlar veya tavan kötü durumda",
+      "#What problems do you see in this underpass?": "Bu alt geçitte hangi sorunları görüyorsunuz?"
     }
   },
   "origin_project": {

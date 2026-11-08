@@ -2,7 +2,7 @@
   "question_id": "provided_name",
   "key": "provided_name",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_service",
   "source_questionnaires": [
@@ -10,15 +10,40 @@
   ],
   "schema": {
     "answer_key": "providedName",
-    "text": "Service name",
-    "question_type": "text",
     "control": {
       "id": "serviceName",
       "placeholder": "e.g. Parco Gallo"
     },
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "question_type": "text",
+    "text": "Service name"
   },
-  "translations": {},
+  "translations": {
+    "ar": {
+      "#Service name": "اسم الخدمة"
+    },
+    "de": {
+      "#Service name": "Name des Dienstes"
+    },
+    "en": {
+      "#Service name": "Service name"
+    },
+    "fa": {
+      "#Service name": "نام خدمت"
+    },
+    "fr": {
+      "#Service name": "Nom du service"
+    },
+    "hu": {
+      "#Service name": "A szolgáltatás neve"
+    },
+    "it": {
+      "#Service name": "Nome del servizio"
+    },
+    "tr": {
+      "#Service name": "Hizmet adı"
+    }
+  },
   "origin_project": {
     "project_id": "smarturbanity",
     "name": "SmartUrbanity"

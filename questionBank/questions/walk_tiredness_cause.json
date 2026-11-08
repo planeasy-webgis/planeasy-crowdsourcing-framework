@@ -2,7 +2,7 @@
   "question_id": "walk_tiredness_cause",
   "key": "walk_tiredness_cause",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking_experience",
   "source_questionnaires": [
@@ -14,6 +14,14 @@
       {
         "text": "Physical effort (walking, cycling, carrying bags)",
         "value": "physical_effort_e_g_walking_cycling_carr"
+      },
+      {
+        "text": "Slopes, stairs and changes in level",
+        "value": "slopes_and_stairs"
+      },
+      {
+        "text": "Carrying children, a pushchair or shopping",
+        "value": "carrying_children_or_shopping"
       },
       {
         "text": "Stress (traffic, finding the way, being late, feeling unsafe)",
@@ -38,65 +46,81 @@
   },
   "translations": {
     "ar": {
+      "#Carrying children, a pushchair or shopping": "حمل الأطفال أو عربة الأطفال أو المشتريات",
       "#Heat, noise or bad air": "الحر أو الضجيج أو الهواء السيئ",
       "#I rarely feel tired after my trips": "نادرًا ما أشعر بالتعب بعد رحلاتي",
       "#Physical effort (walking, cycling, carrying bags)": "الجهد البدني (المشي، ركوب الدراجة، حمل الأكياس)",
+      "#Slopes, stairs and changes in level": "المنحدرات والدرج وفروق المستوى",
       "#Stress (traffic, finding the way, being late, feeling unsafe)": "التوتر (حركة المرور، معرفة الطريق، التأخر، الشعور بعدم الأمان)",
       "#Waiting or standing (at stops, in queues)": "الانتظار أو الوقوف (في المحطات أو الطوابير)",
       "#When you walk, what tires you most?": "عند المشي، ما الذي يرهقك أكثر؟"
     },
     "de": {
+      "#Carrying children, a pushchair or shopping": "Kinder, Kinderwagen oder Einkäufe tragen bzw. schieben",
       "#Heat, noise or bad air": "Hitze, Lärm oder schlechte Luft",
       "#I rarely feel tired after my trips": "Nach meinen Wegen bin ich selten müde",
       "#Physical effort (walking, cycling, carrying bags)": "Körperliche Anstrengung (Gehen, Radfahren, Taschen tragen)",
+      "#Slopes, stairs and changes in level": "Steigungen, Treppen und Höhenunterschiede",
       "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (Verkehr, Weg finden, Verspätung, Unsicherheit)",
       "#Waiting or standing (at stops, in queues)": "Warten oder Stehen (an Haltestellen, in Schlangen)",
       "#When you walk, what tires you most?": "Was ermüdet Sie beim Gehen am meisten?"
     },
     "en": {
+      "#Carrying children, a pushchair or shopping": "Carrying children, a pushchair or shopping",
       "#Heat, noise or bad air": "Heat, noise or bad air",
       "#I rarely feel tired after my trips": "I rarely feel tired after my trips",
       "#Physical effort (walking, cycling, carrying bags)": "Physical effort (walking, cycling, carrying bags)",
+      "#Slopes, stairs and changes in level": "Slopes, stairs and changes in level",
       "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (traffic, finding the way, being late, feeling unsafe)",
       "#Waiting or standing (at stops, in queues)": "Waiting or standing (at stops, in queues)",
       "#When you walk, what tires you most?": "When you walk, what tires you most?"
     },
     "fa": {
+      "#Carrying children, a pushchair or shopping": "حمل کودک، کالسکه یا خرید",
       "#Heat, noise or bad air": "گرما، سر و صدا یا هوای آلوده",
       "#I rarely feel tired after my trips": "به‌ندرت بعد از سفرهایم احساس خستگی می‌کنم",
       "#Physical effort (walking, cycling, carrying bags)": "تلاش بدنی (پیاده‌روی، دوچرخه‌سواری، حمل کیسه)",
+      "#Slopes, stairs and changes in level": "سربالایی‌ها، پله‌ها و اختلاف سطح‌ها",
       "#Stress (traffic, finding the way, being late, feeling unsafe)": "استرس (ترافیک، پیدا کردن راه، دیر رسیدن، احساس ناامنی)",
       "#Waiting or standing (at stops, in queues)": "انتظار یا ایستادن (در ایستگاه، در صف)",
       "#When you walk, what tires you most?": "هنگام پیاده‌روی، چه چیزی بیشتر از همه شما را خسته می‌کند؟"
     },
     "fr": {
+      "#Carrying children, a pushchair or shopping": "Porter des enfants, une poussette ou des courses",
       "#Heat, noise or bad air": "Chaleur, bruit ou mauvaise qualité de l'air",
       "#I rarely feel tired after my trips": "Je me sens rarement fatigué après mes trajets",
       "#Physical effort (walking, cycling, carrying bags)": "Effort physique (marcher, pédaler, porter des sacs)",
+      "#Slopes, stairs and changes in level": "Montées, escaliers et dénivelés",
       "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (circulation, trouver son chemin, être en retard, se sentir en danger)",
       "#Waiting or standing (at stops, in queues)": "Attendre ou rester debout (aux arrêts, dans les files)",
       "#When you walk, what tires you most?": "Lorsque vous marchez, qu’est-ce qui vous fatigue le plus ?"
     },
     "hu": {
+      "#Carrying children, a pushchair or shopping": "Gyermek, babakocsi vagy bevásárlás cipelése",
       "#Heat, noise or bad air": "Hőség, zaj vagy rossz levegő",
       "#I rarely feel tired after my trips": "Ritkán fáradok el az utak után",
       "#Physical effort (walking, cycling, carrying bags)": "Fizikai megterhelés (gyaloglás, biciklizés, szatyrok cipelése)",
+      "#Slopes, stairs and changes in level": "Emelkedők, lépcsők és szintkülönbségek",
       "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stressz (forgalom, eligazodás, késés, a biztonság hiányának érzése)",
       "#Waiting or standing (at stops, in queues)": "Várakozás vagy állás (a megállóban, sorban)",
       "#When you walk, what tires you most?": "Gyaloglás közben mi fárasztja ki a legjobban?"
     },
     "it": {
+      "#Carrying children, a pushchair or shopping": "Portare bambini, passeggino o spesa",
       "#Heat, noise or bad air": "Caldo, rumore o aria cattiva",
       "#I rarely feel tired after my trips": "Mi sento raramente stanco dopo i miei spostamenti",
       "#Physical effort (walking, cycling, carrying bags)": "Fatica fisica (camminare, pedalare, portare borse)",
+      "#Slopes, stairs and changes in level": "Salite, scale e dislivelli",
       "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (traffico, trovare la strada, fare tardi, sentirsi poco sicuri)",
       "#Waiting or standing (at stops, in queues)": "Aspettare o stare in piedi (alle fermate, in coda)",
       "#When you walk, what tires you most?": "Quando cammini, cosa ti stanca di più?"
     },
     "tr": {
+      "#Carrying children, a pushchair or shopping": "Çocuk, bebek arabası veya alışveriş taşımak",
       "#Heat, noise or bad air": "Sıcak, gürültü veya kötü hava kalitesi",
       "#I rarely feel tired after my trips": "Yolculuklarımdan sonra nadiren yorgun hissederim",
       "#Physical effort (walking, cycling, carrying bags)": "Fiziksel efor (yürümek, bisiklet sürmek, çanta taşımak)",
+      "#Slopes, stairs and changes in level": "Yokuşlar, merdivenler ve seviye farkları",
       "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stres (trafik, yolu bulmak, geç kalmak, kendini güvensiz hissetmek)",
       "#Waiting or standing (at stops, in queues)": "Beklemek veya ayakta durmak (duraklarda, kuyruklarda)",
       "#When you walk, what tires you most?": "Yürürken sizi en çok ne yorar?"
