@@ -13962,6 +13962,29 @@
       ]
     },
     {
+      "question_id": "bike_identity_harassment",
+      "version": "1.0.1",
+      "path": "history/bike_identity_harassment/1.0.1.json",
+      "sha256": "ef879c91dda4e54a8989daafa17d03214fa0ae3cb3f6b0f0484c274cdcd8433c",
+      "sources": [
+        {
+          "repository": "smarturbanity/smarturbanity-configuration",
+          "commit": "79d20fa115d65931f99f7882b87624ea350017fa",
+          "path": "forms/surveys/smarturbanity_cycling_security.json",
+          "pointer": "/questionnaire/sections/0/questions/5",
+          "source_blob_sha1": "f2b8228555618c661637057dad87588564d63b2c",
+          "canonical_node_sha256": "ef00d954b8153da95eb03a07c59e0dc0a4553c6e03e931abc3b25a2394c94611",
+          "source_questionnaire_id": "smarturbanity_cycling_security",
+          "source_questionnaire_version": "1.0.0",
+          "source_project": "SmartUrbanity",
+          "source_question_id": "bike_identity_harassment_yn",
+          "source_question_version": "1.0.0",
+          "stage": "review_proposal",
+          "privacy_needs_review": false
+        }
+      ]
+    },
+    {
       "question_id": "bike_improvements",
       "version": "0.1.0",
       "path": "history/bike_improvements/0.1.0.json",
@@ -27820,6 +27843,29 @@
           "version": "1.4.0",
           "derivation": "option_split",
           "option": "identity_harassment"
+        }
+      ]
+    },
+    {
+      "question_id": "car_identity_harassment",
+      "version": "1.0.1",
+      "path": "history/car_identity_harassment/1.0.1.json",
+      "sha256": "d9a9d36cf95d2e358046b8aade2b6dbf4024fd22bfb4b4d185881e3ec9c8f8db",
+      "sources": [
+        {
+          "repository": "smarturbanity/smarturbanity-configuration",
+          "commit": "79d20fa115d65931f99f7882b87624ea350017fa",
+          "path": "forms/surveys/smarturbanity_car_security.json",
+          "pointer": "/questionnaire/sections/0/questions/4",
+          "source_blob_sha1": "a762272ac3eb9d7cb1339e68eaec58ab17f2737c",
+          "canonical_node_sha256": "62a8be5de03b3ddf68ca2c50e23b966dfe93346c2135fb70f2f6bc4f5f116e35",
+          "source_questionnaire_id": "smarturbanity_car_security",
+          "source_questionnaire_version": "1.0.0",
+          "source_project": "SmartUrbanity",
+          "source_question_id": "car_identity_harassment_yn",
+          "source_question_version": "1.0.0",
+          "stage": "review_proposal",
+          "privacy_needs_review": false
         }
       ]
     },
@@ -54185,6 +54231,29 @@
       ]
     },
     {
+      "question_id": "identity_harassment",
+      "version": "1.0.1",
+      "path": "history/identity_harassment/1.0.1.json",
+      "sha256": "04a551626fe1c22c3c033606d6a2a25173d43cc922218d98aec3ebaf92caf880",
+      "sources": [
+        {
+          "repository": "smarturbanity/smarturbanity-configuration",
+          "commit": "79d20fa115d65931f99f7882b87624ea350017fa",
+          "path": "forms/surveys/smarturbanity_walking_security.json",
+          "pointer": "/questionnaire/sections/0/questions/5",
+          "source_blob_sha1": "078cf41fe157887e6c238528803a98d5372fc02b",
+          "canonical_node_sha256": "92a6c4608812a6678541c19435e4da208655d849afccf06293981a27c58d6b3a",
+          "source_questionnaire_id": "smarturbanity_walking_security",
+          "source_questionnaire_version": "1.0.0",
+          "source_project": "SmartUrbanity",
+          "source_question_id": "identity_harassment_yn",
+          "source_question_version": "1.0.0",
+          "stage": "review_proposal",
+          "privacy_needs_review": false
+        }
+      ]
+    },
+    {
       "question_id": "improvement_type",
       "version": "0.1.0",
       "path": "history/improvement_type/0.1.0.json",
@@ -55114,6 +55183,29 @@
           "canonical_node_sha256": "6011e9428d390f1453ea12ee70d7f0fa059f7687da5788f02aa81adeb364bf69",
           "source_questionnaire_id": "smarturbanity_safety",
           "source_questionnaire_version": "1.5.0",
+          "source_project": "SmartUrbanity",
+          "source_question_id": "insecurity_factors_detailed",
+          "source_question_version": "1.4.0",
+          "stage": "review_proposal",
+          "privacy_needs_review": false
+        }
+      ]
+    },
+    {
+      "question_id": "insecurity_factors_detailed",
+      "version": "1.4.1",
+      "path": "history/insecurity_factors_detailed/1.4.1.json",
+      "sha256": "bcace4f7d54f288ecf6653f28120692ed7c6943e5a1388e847c02b3bdfcbfd7d",
+      "sources": [
+        {
+          "repository": "smarturbanity/smarturbanity-configuration",
+          "commit": "79d20fa115d65931f99f7882b87624ea350017fa",
+          "path": "forms/surveys/smarturbanity_safety.json",
+          "pointer": "/questionnaire/sections/0/questions/5",
+          "source_blob_sha1": "bd342d95ef0b9d7e0d2626d1744f44ff24a3bc41",
+          "canonical_node_sha256": "ed0c0541e13a86d2cba2a91dde58afa4a022a265910a6ef9633748f571050fdb",
+          "source_questionnaire_id": "smarturbanity_safety",
+          "source_questionnaire_version": "1.7.0",
           "source_project": "SmartUrbanity",
           "source_question_id": "insecurity_factors_detailed",
           "source_question_version": "1.4.0",
@@ -62764,6 +62856,29 @@
           "version": "1.4.0",
           "derivation": "option_split",
           "option": "identity_harassment"
+        }
+      ]
+    },
+    {
+      "question_id": "motorcycle_identity_harassment",
+      "version": "1.0.1",
+      "path": "history/motorcycle_identity_harassment/1.0.1.json",
+      "sha256": "80bd37d87f9f0bd3e72be5e03fc180a7aee74b78372f2ab4ebd6cdd8028b6955",
+      "sources": [
+        {
+          "repository": "smarturbanity/smarturbanity-configuration",
+          "commit": "79d20fa115d65931f99f7882b87624ea350017fa",
+          "path": "forms/surveys/smarturbanity_motorcycle_security.json",
+          "pointer": "/questionnaire/sections/0/questions/5",
+          "source_blob_sha1": "89d3daef3f8461e81779cb1d455415e8cbd1ee7f",
+          "canonical_node_sha256": "68a796c3ee18e23c532a58aa1d782fc97041757315a2be6ac84c4a4513722ade",
+          "source_questionnaire_id": "smarturbanity_motorcycle_security",
+          "source_questionnaire_version": "1.0.0",
+          "source_project": "SmartUrbanity",
+          "source_question_id": "motorcycle_identity_harassment_yn",
+          "source_question_version": "1.0.0",
+          "stage": "review_proposal",
+          "privacy_needs_review": false
         }
       ]
     },
@@ -88874,6 +88989,29 @@
           "version": "1.4.0",
           "derivation": "option_split",
           "option": "identity_harassment"
+        }
+      ]
+    },
+    {
+      "question_id": "put_identity_harassment",
+      "version": "1.0.1",
+      "path": "history/put_identity_harassment/1.0.1.json",
+      "sha256": "b3da77f0a3064350fb7b1bfc56e92a40847702a934cfb720a1356651da60ec7a",
+      "sources": [
+        {
+          "repository": "smarturbanity/smarturbanity-configuration",
+          "commit": "79d20fa115d65931f99f7882b87624ea350017fa",
+          "path": "forms/surveys/smarturbanity_public_transport_security.json",
+          "pointer": "/questionnaire/sections/0/questions/6",
+          "source_blob_sha1": "31d609e91fb861c3d4db2a8f64cf4694ab789a08",
+          "canonical_node_sha256": "5ca6d95b22f8330dc120bf953c8088b5d315e9462d23f44754fe7f4932115c68",
+          "source_questionnaire_id": "smarturbanity_public_transport_security",
+          "source_questionnaire_version": "1.0.0",
+          "source_project": "SmartUrbanity",
+          "source_question_id": "put_identity_harassment_yn",
+          "source_question_version": "1.0.0",
+          "stage": "review_proposal",
+          "privacy_needs_review": false
         }
       ]
     },

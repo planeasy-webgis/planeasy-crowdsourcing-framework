@@ -2,14 +2,16 @@
   "question_id": "bike_identity_harassment",
   "key": "bike_identity_harassment",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling_security",
   "source_questionnaires": [
     "smarturbanity_cycling_security"
   ],
   "schema": {
+    "text": "When you cycle, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?",
     "answer_key": "bike_identity_harassment",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Yes",
@@ -20,9 +22,7 @@
         "value": "no"
       }
     ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "When you cycle, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?"
+    "privacy_classification": "heightened_personal"
   },
   "translations": {
     "ar": {
