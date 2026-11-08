@@ -2,7 +2,7 @@
   "question_id": "trip_incidents",
   "key": "trip_incidents",
   "project": "shared",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_post_trip",
   "source_questionnaires": [
@@ -35,7 +35,7 @@
         "value": "close_call_bike_scooter"
       },
       {
-        "text": "A car door was opened in front of me while I was cycling",
+        "text": "A car door was opened in front of me",
         "value": "car_door"
       },
       {
@@ -55,6 +55,14 @@
         "value": "broken_bus_ramp"
       },
       {
+        "text": "A lift or escalator I needed was out of order",
+        "value": "broken_lift"
+      },
+      {
+        "text": "I could not find a parking space, or only far from where I was going",
+        "value": "parking"
+      },
+      {
         "text": "I was harassed, threatened or made to feel uneasy",
         "value": "harassment"
       }
@@ -66,13 +74,15 @@
   "translations": {
     "ar": {
       "#A bus ramp did not work": "لم يكن منحدر الحافلة يعمل",
-      "#A car door was opened in front of me while I was cycling": "فُتح باب سيارة أمامي أثناء ركوبي الدراجة",
+      "#A car door was opened in front of me": "فُتح باب سيارة أمامي",
       "#A close call with a bike or e-scooter": "كدت أن أصطدم بدراجة أو سكوتر كهربائي",
       "#A kerb without a ramp, or a blocked ramp, got in my way": "اعترضت طريقي حافة رصيف بلا منحدر، أو منحدر مسدود",
+      "#A lift or escalator I needed was out of order": "كان مصعد أو سلم متحرك أحتاج إليه معطلًا",
       "#A vehicle did not stop for me at a zebra crossing": "لم تتوقف مركبة لتسمح لي بالعبور عند ممر المشاة",
       "#A vehicle passed too close to me": "مرّت مركبة قريبة جدًا مني",
       "#An obstacle on the pavement got in my way": "سدّ عائق على الرصيف طريقي",
       "#Did any of these happen on this trip? (Select all that apply)": "هل حدث أي من هذه الأمور في هذه الرحلة؟ (يمكن اختيار كل ما ينطبق)",
+      "#I could not find a parking space, or only far from where I was going": "لم أجد مكانًا لركن السيارة، أو وجدته بعيدًا عن وجهتي فقط",
       "#I stumbled, tripped or fell": "تعثرت أو اختل توازني أو سقطت",
       "#I was harassed, threatened or made to feel uneasy": "تعرضت لتحرش أو تهديد أو لما سبّب لي انزعاجًا",
       "#I was nearly hit by a car, van, bus or motorbike": "كدت أن تصدمني سيارة أو شاحنة صغيرة أو حافلة أو دراجة نارية",
@@ -80,13 +90,15 @@
     },
     "de": {
       "#A bus ramp did not work": "Die Rampe des Busses funktionierte nicht",
-      "#A car door was opened in front of me while I was cycling": "Beim Radfahren wurde vor mir eine Autotür geöffnet",
+      "#A car door was opened in front of me": "Vor mir wurde eine Autotür geöffnet",
       "#A close call with a bike or e-scooter": "Beinahe-Zusammenstoß mit einem Fahrrad oder E-Scooter",
       "#A kerb without a ramp, or a blocked ramp, got in my way": "Ein Bordstein ohne Rampe oder eine zugestellte Rampe hat mir den Weg versperrt",
+      "#A lift or escalator I needed was out of order": "Ein Aufzug oder eine Rolltreppe, die ich brauchte, war außer Betrieb",
       "#A vehicle did not stop for me at a zebra crossing": "Ein Fahrzeug hat am Zebrastreifen nicht für mich angehalten",
       "#A vehicle passed too close to me": "Ein Fahrzeug ist zu nah an mir vorbeigefahren",
       "#An obstacle on the pavement got in my way": "Ein Hindernis auf dem Gehweg hat mir den Weg versperrt",
       "#Did any of these happen on this trip? (Select all that apply)": "Ist auf diesem Weg etwas davon passiert? (Alle zutreffenden auswählen)",
+      "#I could not find a parking space, or only far from where I was going": "Ich habe keinen Parkplatz gefunden oder nur weit weg vom Ziel",
       "#I stumbled, tripped or fell": "Ich bin gestolpert, gestrauchelt oder gestürzt",
       "#I was harassed, threatened or made to feel uneasy": "Ich wurde belästigt, bedroht oder fühlte mich durch das Verhalten anderer unwohl",
       "#I was nearly hit by a car, van, bus or motorbike": "Ich wäre fast von einem Auto, Lieferwagen, Bus oder Motorrad angefahren worden",
@@ -94,13 +106,15 @@
     },
     "en": {
       "#A bus ramp did not work": "A bus ramp did not work",
-      "#A car door was opened in front of me while I was cycling": "A car door was opened in front of me while I was cycling",
+      "#A car door was opened in front of me": "A car door was opened in front of me",
       "#A close call with a bike or e-scooter": "A close call with a bike or e-scooter",
       "#A kerb without a ramp, or a blocked ramp, got in my way": "A kerb without a ramp, or a blocked ramp, got in my way",
+      "#A lift or escalator I needed was out of order": "A lift or escalator I needed was out of order",
       "#A vehicle did not stop for me at a zebra crossing": "A vehicle did not stop for me at a zebra crossing",
       "#A vehicle passed too close to me": "A vehicle passed too close to me",
       "#An obstacle on the pavement got in my way": "An obstacle on the pavement got in my way",
       "#Did any of these happen on this trip? (Select all that apply)": "Did any of these happen on this trip? (Select all that apply)",
+      "#I could not find a parking space, or only far from where I was going": "I could not find a parking space, or only far from where I was going",
       "#I stumbled, tripped or fell": "I stumbled, tripped or fell",
       "#I was harassed, threatened or made to feel uneasy": "I was harassed, threatened or made to feel uneasy",
       "#I was nearly hit by a car, van, bus or motorbike": "I was nearly hit by a car, van, bus or motorbike",
@@ -108,13 +122,15 @@
     },
     "fa": {
       "#A bus ramp did not work": "رمپ اتوبوس کار نمی‌کرد",
-      "#A car door was opened in front of me while I was cycling": "وقتی دوچرخه‌سواری می‌کردم، درِ یک خودرو جلوی من باز شد",
+      "#A car door was opened in front of me": "درِ یک خودرو جلوی من باز شد",
       "#A close call with a bike or e-scooter": "نزدیک بود با یک دوچرخه یا اسکوتر برقی برخورد کنم",
       "#A kerb without a ramp, or a blocked ramp, got in my way": "لبه پیاده‌رو بدون رمپ، یا رمپ مسدود، راه مرا بست",
+      "#A lift or escalator I needed was out of order": "آسانسور یا پله برقی‌ای که لازم داشتم از کار افتاده بود",
       "#A vehicle did not stop for me at a zebra crossing": "یک وسیله نقلیه در خط عابر پیاده برای من توقف نکرد",
       "#A vehicle passed too close to me": "یک وسیلهٔ نقلیه خیلی نزدیک از کنارم رد شد",
       "#An obstacle on the pavement got in my way": "مانعی روی پیاده‌رو راه مرا بست",
       "#Did any of these happen on this trip? (Select all that apply)": "آیا در این سفر یکی از این موارد رخ داد؟ (همه موارد مربوط را انتخاب کنید)",
+      "#I could not find a parking space, or only far from where I was going": "جای پارک پیدا نکردم، یا فقط دور از مقصدم پیدا کردم",
       "#I stumbled, tripped or fell": "سکندری خوردم، پایم گیر کرد یا زمین خوردم",
       "#I was harassed, threatened or made to feel uneasy": "مورد مزاحمت یا تهدید قرار گرفتم یا رفتاری باعث ناراحتی من شد",
       "#I was nearly hit by a car, van, bus or motorbike": "نزدیک بود یک ماشین، ون، اتوبوس یا موتورسیکلت با من برخورد کند",
@@ -122,13 +138,15 @@
     },
     "fr": {
       "#A bus ramp did not work": "La rampe d'accès du bus ne fonctionnait pas",
-      "#A car door was opened in front of me while I was cycling": "Une portière de voiture a été ouverte devant moi pendant que je faisais du vélo",
+      "#A car door was opened in front of me": "Une portière de voiture a été ouverte juste devant moi",
       "#A close call with a bike or e-scooter": "J'ai failli entrer en collision avec un vélo ou une trottinette électrique",
       "#A kerb without a ramp, or a blocked ramp, got in my way": "Un bord de trottoir sans rampe, ou une rampe bloquée, m'a barré le passage",
+      "#A lift or escalator I needed was out of order": "Un ascenseur ou un escalator dont j’avais besoin était en panne",
       "#A vehicle did not stop for me at a zebra crossing": "Un véhicule ne s'est pas arrêté pour me laisser traverser au passage piéton",
       "#A vehicle passed too close to me": "Un véhicule est passé trop près de moi",
       "#An obstacle on the pavement got in my way": "Un obstacle sur le trottoir m'a barré le passage",
       "#Did any of these happen on this trip? (Select all that apply)": "L'une de ces situations s'est-elle produite pendant ce trajet ? (Sélectionnez toutes les réponses qui s'appliquent)",
+      "#I could not find a parking space, or only far from where I was going": "Je n’ai pas trouvé de place pour me garer, ou seulement loin de ma destination",
       "#I stumbled, tripped or fell": "J'ai trébuché, perdu l'équilibre ou fait une chute",
       "#I was harassed, threatened or made to feel uneasy": "J'ai subi du harcèlement, des menaces ou des comportements qui m'ont causé un malaise",
       "#I was nearly hit by a car, van, bus or motorbike": "Une voiture, une camionnette, un bus ou une moto a failli me renverser",
@@ -136,13 +154,15 @@
     },
     "hu": {
       "#A bus ramp did not work": "A busz rámpája nem működött",
-      "#A car door was opened in front of me while I was cycling": "Biciklizés közben valaki kinyitotta előttem egy autó ajtaját",
+      "#A car door was opened in front of me": "Valaki kinyitotta előttem egy autó ajtaját",
       "#A close call with a bike or e-scooter": "Majdnem összeütköztem egy kerékpárral vagy e-rollerrel",
       "#A kerb without a ramp, or a blocked ramp, got in my way": "Rámpa nélküli járdaszegély vagy eltorlaszolt rámpa állta az utamat",
+      "#A lift or escalator I needed was out of order": "Egy lift vagy mozgólépcső, amelyre szükségem volt, nem működött",
       "#A vehicle did not stop for me at a zebra crossing": "Egy jármű nem állt meg, hogy átkelhessek a zebrán",
       "#A vehicle passed too close to me": "Egy jármű túl közel haladt el mellettem",
       "#An obstacle on the pavement got in my way": "A járdán egy akadály elállta az utamat",
       "#Did any of these happen on this trip? (Select all that apply)": "Történt ezek közül valamelyik ezen az úton? (Jelölje meg az összes megfelelőt)",
+      "#I could not find a parking space, or only far from where I was going": "Nem találtam parkolóhelyet, vagy csak messze attól, ahová mentem",
       "#I stumbled, tripped or fell": "Megbotlottam, elvesztettem az egyensúlyomat vagy elestem",
       "#I was harassed, threatened or made to feel uneasy": "Zaklattak, megfenyegettek, vagy kellemetlen helyzetbe kerültem",
       "#I was nearly hit by a car, van, bus or motorbike": "Majdnem elütött egy autó, kisteherautó, busz vagy motor",
@@ -150,13 +170,15 @@
     },
     "it": {
       "#A bus ramp did not work": "La pedana dell'autobus non funzionava",
-      "#A car door was opened in front of me while I was cycling": "Mentre andavo in bici, qualcuno ha aperto la portiera di un'auto davanti a me",
+      "#A car door was opened in front of me": "Qualcuno ha aperto la portiera di un'auto davanti a me",
       "#A close call with a bike or e-scooter": "Ho rischiato uno scontro con una bici o un monopattino",
       "#A kerb without a ramp, or a blocked ramp, got in my way": "Un bordo del marciapiede senza scivolo, o uno scivolo bloccato, mi ha ostacolato",
+      "#A lift or escalator I needed was out of order": "Un ascensore o una scala mobile che mi serviva era fuori servizio",
       "#A vehicle did not stop for me at a zebra crossing": "Un veicolo non si è fermato per farmi attraversare sulle strisce",
       "#A vehicle passed too close to me": "Un veicolo mi è passato troppo vicino",
       "#An obstacle on the pavement got in my way": "Un ostacolo sul marciapiede mi ha bloccato il passaggio",
       "#Did any of these happen on this trip? (Select all that apply)": "Durante questo spostamento è successo uno di questi episodi? (Puoi sceglierne più di uno)",
+      "#I could not find a parking space, or only far from where I was going": "Non ho trovato parcheggio, o solo lontano dalla mia meta",
       "#I stumbled, tripped or fell": "Ho inciampato, ho perso l'equilibrio o ho fatto una caduta",
       "#I was harassed, threatened or made to feel uneasy": "Ho subito molestie, minacce o comportamenti che mi hanno creato disagio",
       "#I was nearly hit by a car, van, bus or motorbike": "Un'auto, un furgone, un autobus o una moto ha rischiato di investirmi o di urtarmi",
@@ -164,13 +186,15 @@
     },
     "tr": {
       "#A bus ramp did not work": "Otobüsün rampası çalışmıyordu",
-      "#A car door was opened in front of me while I was cycling": "Bisiklet sürerken önümde bir araba kapısı açıldı",
+      "#A car door was opened in front of me": "Önümde bir araba kapısı açıldı",
       "#A close call with a bike or e-scooter": "Bir bisiklet veya elektrikli scooter ile çarpışmaktan kıl payı kurtuldum",
       "#A kerb without a ramp, or a blocked ramp, got in my way": "Rampasız bir kaldırım kenarı veya önü kapalı bir rampa yolumu kapattı",
+      "#A lift or escalator I needed was out of order": "İhtiyacım olan bir asansör veya yürüyen merdiven çalışmıyordu",
       "#A vehicle did not stop for me at a zebra crossing": "Bir araç, yaya geçidinde geçmem için durmadı",
       "#A vehicle passed too close to me": "Bir araç çok yakınımdan geçti",
       "#An obstacle on the pavement got in my way": "Kaldırımdaki bir engel yolumu kapattı",
       "#Did any of these happen on this trip? (Select all that apply)": "Bu yolculukta bunlardan herhangi biri oldu mu? (Uygun olanların tümünü seçin)",
+      "#I could not find a parking space, or only far from where I was going": "Park yeri bulamadım ya da yalnızca gideceğim yerden uzakta buldum",
       "#I stumbled, tripped or fell": "Tökezledim, dengemi kaybettim veya düştüm",
       "#I was harassed, threatened or made to feel uneasy": "Taciz edildim, tehdit edildim veya rahatsız edici bir durumla karşılaştım",
       "#I was nearly hit by a car, van, bus or motorbike": "Az kalsın bir otomobil, kamyonet, otobüs veya motosiklet bana çarpıyordu",

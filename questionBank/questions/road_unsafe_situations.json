@@ -2,7 +2,7 @@
   "question_id": "road_unsafe_situations",
   "key": "road_unsafe_situations",
   "project": "shared",
-  "version": "1.2.3",
+  "version": "2.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_safety_environment",
   "source_questionnaires": [
@@ -34,8 +34,12 @@
         "value": "unsafe_behaviour"
       },
       {
-        "text": "Crowding or conflicts with other road users",
-        "value": "conflicts"
+        "text": "Crowding",
+        "value": "crowding"
+      },
+      {
+        "text": "Conflicts with other road users",
+        "value": "conflicts_road_users"
       },
       {
         "text": "Absence of emergency services",
@@ -53,7 +57,8 @@
   "translations": {
     "ar": {
       "#Absence of emergency services": "غياب خدمات الطوارئ",
-      "#Crowding or conflicts with other road users": "الازدحام أو الاحتكاك بمستخدمي الطريق الآخرين",
+      "#Conflicts with other road users": "الاحتكاك بمستخدمي الطريق الآخرين",
+      "#Crowding": "الازدحام",
       "#Heavy or fast-moving traffic": "حركة مرور كثيفة أو سريعة",
       "#I don't feel unsafe at all": "لا أشعر بالخطر إطلاقًا",
       "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "غياب بنية تحتية آمنة أو مناسبة (مثل الأرصفة، المعابر، مسارات الدراجات، الإضاءة)",
@@ -65,7 +70,8 @@
     },
     "de": {
       "#Absence of emergency services": "Fehlende Notfalldienste",
-      "#Crowding or conflicts with other road users": "Überfüllung oder Konflikte mit anderen Verkehrsteilnehmenden",
+      "#Conflicts with other road users": "Konflikte mit anderen Verkehrsteilnehmenden",
+      "#Crowding": "Überfüllung",
       "#Heavy or fast-moving traffic": "Starker oder schnell fahrender Verkehr",
       "#I don't feel unsafe at all": "Ich fühle mich überhaupt nicht gefährdet",
       "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Fehlende sichere oder geeignete Infrastruktur (z. B. Gehwege, Querungen, Radwege, Beleuchtung)",
@@ -77,7 +83,8 @@
     },
     "en": {
       "#Absence of emergency services": "Absence of emergency services",
-      "#Crowding or conflicts with other road users": "Crowding or conflicts with other road users",
+      "#Conflicts with other road users": "Conflicts with other road users",
+      "#Crowding": "Crowding",
       "#Heavy or fast-moving traffic": "Heavy or fast-moving traffic",
       "#I don't feel unsafe at all": "I don't feel unsafe at all",
       "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)",
@@ -89,7 +96,8 @@
     },
     "fa": {
       "#Absence of emergency services": "نبود خدمات امدادی",
-      "#Crowding or conflicts with other road users": "شلوغی یا برخورد و تعارض با سایر کاربران راه",
+      "#Conflicts with other road users": "برخورد و تعارض با سایر کاربران راه",
+      "#Crowding": "شلوغی",
       "#Heavy or fast-moving traffic": "ترافیک سنگین یا خودروهای پرسرعت",
       "#I don't feel unsafe at all": "اصلاً احساس خطر نمی‌کنم",
       "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "نبود زیرساخت ایمن یا مناسب (مثلاً پیاده‌رو، گذرگاه، مسیر دوچرخه، روشنایی)",
@@ -101,7 +109,8 @@
     },
     "fr": {
       "#Absence of emergency services": "Absence de services d’urgence",
-      "#Crowding or conflicts with other road users": "Forte affluence ou conflits avec d’autres personnes qui circulent",
+      "#Conflicts with other road users": "Conflits avec d’autres personnes qui circulent",
+      "#Crowding": "Forte affluence",
       "#Heavy or fast-moving traffic": "Trafic dense ou véhicules roulant vite",
       "#I don't feel unsafe at all": "Je ne me sens jamais en danger",
       "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Manque d’infrastructures sûres ou adaptées (par ex. trottoirs, traversées, pistes cyclables, éclairage)",
@@ -113,7 +122,8 @@
     },
     "hu": {
       "#Absence of emergency services": "Sürgősségi szolgáltatások hiánya",
-      "#Crowding or conflicts with other road users": "Zsúfoltság vagy konfliktus más közlekedőkkel",
+      "#Conflicts with other road users": "Konfliktus más közlekedőkkel",
+      "#Crowding": "Zsúfoltság",
       "#Heavy or fast-moving traffic": "Erős vagy gyors forgalom",
       "#I don't feel unsafe at all": "Egyáltalán nem érzem magam veszélyben",
       "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Biztonságos vagy megfelelő infrastruktúra hiánya (pl. járdák, átkelőhelyek, kerékpárutak, világítás)",
@@ -125,7 +135,8 @@
     },
     "it": {
       "#Absence of emergency services": "Assenza di servizi di emergenza",
-      "#Crowding or conflicts with other road users": "Affollamento o conflitti con altre persone in strada",
+      "#Conflicts with other road users": "Conflitti con altre persone in strada",
+      "#Crowding": "Affollamento",
       "#Heavy or fast-moving traffic": "Traffico intenso o ad alta velocità",
       "#I don't feel unsafe at all": "Non mi sento affatto in pericolo",
       "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Mancanza di infrastrutture sicure o adeguate (ad es. marciapiedi, attraversamenti, piste ciclabili, illuminazione)",
@@ -137,7 +148,8 @@
     },
     "tr": {
       "#Absence of emergency services": "Acil durum hizmetlerinin olmaması",
-      "#Crowding or conflicts with other road users": "Kalabalık veya diğer yol kullanıcılarıyla tartışma ya da sürtüşme",
+      "#Conflicts with other road users": "Diğer yol kullanıcılarıyla tartışma ya da sürtüşme",
+      "#Crowding": "Kalabalık",
       "#Heavy or fast-moving traffic": "Yoğun veya hızlı akan trafik",
       "#I don't feel unsafe at all": "Kendimi hiç tehlikede hissetmiyorum",
       "#Lack of safe or adequate infrastructure (e.g. sidewalks, crossings, cycle paths, lighting)": "Güvenli veya yeterli altyapının olmaması (ör. kaldırımlar, geçişler, bisiklet yolları, aydınlatma)",

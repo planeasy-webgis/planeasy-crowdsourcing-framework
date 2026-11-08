@@ -2,19 +2,17 @@
   "question_id": "trip_feeling",
   "key": "trip_feeling",
   "project": "shared",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_post_trip",
   "source_questionnaires": [
     "smarturbanity_post_trip"
   ],
   "schema": {
-    "text": "How did you feel emotionally after this trip?",
-    "answer_key": "trip_feeling",
-    "question_type": "multiple_options",
-    "checks_inline": false,
     "add_other": true,
     "add_prefer_not_to_say": true,
+    "answer_key": "trip_feeling",
+    "checks_inline": false,
     "options": [
       {
         "text": "Happy",
@@ -50,96 +48,97 @@
       }
     ],
     "privacy_classification": "heightened_personal",
-    "max_answers": 2
+    "question_type": "multiple_options",
+    "text": "How did you feel emotionally after this trip?"
   },
   "translations": {
-    "en": {
-      "#How did you feel emotionally after this trip?": "How did you feel emotionally after this trip?",
-      "#Happy": "Happy",
-      "#Calm": "Calm",
-      "#Satisfied": "Satisfied",
-      "#Neutral": "Neutral",
-      "#Tired": "Tired",
-      "#Stressed": "Stressed",
-      "#Frustrated": "Frustrated",
-      "#Anxious": "Anxious"
-    },
-    "it": {
-      "#How did you feel emotionally after this trip?": "Che emozioni hai provato dopo questo spostamento?",
-      "#Happy": "Felicità",
-      "#Calm": "Calma",
-      "#Satisfied": "Soddisfazione",
-      "#Neutral": "Nessuna emozione particolare",
-      "#Tired": "Stanchezza",
-      "#Stressed": "Stress",
-      "#Frustrated": "Frustrazione",
-      "#Anxious": "Ansia"
-    },
-    "fr": {
-      "#How did you feel emotionally after this trip?": "Quelles émotions avez-vous ressenties après ce trajet ?",
-      "#Happy": "Joie",
-      "#Calm": "Calme",
-      "#Satisfied": "Satisfaction",
-      "#Neutral": "Aucune émotion particulière",
-      "#Tired": "Fatigue",
-      "#Stressed": "Stress",
-      "#Frustrated": "Frustration",
-      "#Anxious": "Anxiété"
+    "ar": {
+      "#Anxious": "قلق",
+      "#Calm": "هدوء",
+      "#Frustrated": "إحباط",
+      "#Happy": "سعادة",
+      "#How did you feel emotionally after this trip?": "ما المشاعر التي شعرت بها بعد هذه الرحلة؟",
+      "#Neutral": "لا مشاعر محددة",
+      "#Satisfied": "رضا",
+      "#Stressed": "توتر",
+      "#Tired": "تعب"
     },
     "de": {
-      "#How did you feel emotionally after this trip?": "Wie haben Sie sich nach diesem Weg emotional gefühlt?",
-      "#Happy": "Glücklich",
+      "#Anxious": "Ängstlich",
       "#Calm": "Ruhig",
-      "#Satisfied": "Zufrieden",
-      "#Neutral": "Neutral",
-      "#Tired": "Müde",
-      "#Stressed": "Gestresst",
       "#Frustrated": "Frustriert",
-      "#Anxious": "Ängstlich"
+      "#Happy": "Glücklich",
+      "#How did you feel emotionally after this trip?": "Wie haben Sie sich nach diesem Weg gefühlt?",
+      "#Neutral": "Neutral",
+      "#Satisfied": "Zufrieden",
+      "#Stressed": "Gestresst",
+      "#Tired": "Müde"
     },
-    "tr": {
-      "#How did you feel emotionally after this trip?": "Bu yolculuktan sonra duygusal olarak kendinizi nasıl hissettiniz?",
-      "#Happy": "Mutlu",
-      "#Calm": "Sakin",
-      "#Satisfied": "Memnun",
-      "#Neutral": "Nötr",
-      "#Tired": "Yorgun",
-      "#Stressed": "Stresli",
-      "#Frustrated": "Sinirli",
-      "#Anxious": "Endişeli"
+    "en": {
+      "#Anxious": "Anxious",
+      "#Calm": "Calm",
+      "#Frustrated": "Frustrated",
+      "#Happy": "Happy",
+      "#How did you feel emotionally after this trip?": "How did you feel emotionally after this trip?",
+      "#Neutral": "Neutral",
+      "#Satisfied": "Satisfied",
+      "#Stressed": "Stressed",
+      "#Tired": "Tired"
     },
     "fa": {
-      "#How did you feel emotionally after this trip?": "بعد از این سفر چه احساس عاطفی داشتید؟",
-      "#Happy": "شاد",
+      "#Anxious": "نگران",
       "#Calm": "آرام",
-      "#Satisfied": "راضی",
-      "#Neutral": "بی‌تفاوت",
-      "#Tired": "خسته",
-      "#Stressed": "استرس‌زده",
       "#Frustrated": "کلافه",
-      "#Anxious": "نگران"
+      "#Happy": "شاد",
+      "#How did you feel emotionally after this trip?": "بعد از این سفر چه حسی داشتید؟",
+      "#Neutral": "بی‌تفاوت",
+      "#Satisfied": "راضی",
+      "#Stressed": "استرس‌زده",
+      "#Tired": "خسته"
+    },
+    "fr": {
+      "#Anxious": "Anxiété",
+      "#Calm": "Calme",
+      "#Frustrated": "Frustration",
+      "#Happy": "Joie",
+      "#How did you feel emotionally after this trip?": "Quelles émotions avez-vous ressenties après ce trajet ?",
+      "#Neutral": "Aucune émotion particulière",
+      "#Satisfied": "Satisfaction",
+      "#Stressed": "Stress",
+      "#Tired": "Fatigue"
     },
     "hu": {
-      "#How did you feel emotionally after this trip?": "Hogyan érezte magát érzelmileg az út után?",
-      "#Happy": "Boldognak",
+      "#Anxious": "Szorongónak",
       "#Calm": "Nyugodtnak",
-      "#Satisfied": "Elégedettnek",
-      "#Neutral": "Semlegesnek",
-      "#Tired": "Fáradtnak",
-      "#Stressed": "Stresszesnek",
       "#Frustrated": "Frusztráltnak",
-      "#Anxious": "Szorongónak"
+      "#Happy": "Boldognak",
+      "#How did you feel emotionally after this trip?": "Hogyan érezte magát érzelmileg az út után?",
+      "#Neutral": "Semlegesnek",
+      "#Satisfied": "Elégedettnek",
+      "#Stressed": "Stresszesnek",
+      "#Tired": "Fáradtnak"
     },
-    "ar": {
-      "#How did you feel emotionally after this trip?": "ما المشاعر التي شعرت بها بعد هذه الرحلة؟",
-      "#Happy": "سعادة",
-      "#Calm": "هدوء",
-      "#Satisfied": "رضا",
-      "#Neutral": "لا مشاعر محددة",
-      "#Tired": "تعب",
-      "#Stressed": "توتر",
-      "#Frustrated": "إحباط",
-      "#Anxious": "قلق"
+    "it": {
+      "#Anxious": "Ansia",
+      "#Calm": "Calma",
+      "#Frustrated": "Frustrazione",
+      "#Happy": "Felicità",
+      "#How did you feel emotionally after this trip?": "Che emozioni hai provato dopo questo spostamento?",
+      "#Neutral": "Nessuna emozione particolare",
+      "#Satisfied": "Soddisfazione",
+      "#Stressed": "Stress",
+      "#Tired": "Stanchezza"
+    },
+    "tr": {
+      "#Anxious": "Endişeli",
+      "#Calm": "Sakin",
+      "#Frustrated": "Sinirli",
+      "#Happy": "Mutlu",
+      "#How did you feel emotionally after this trip?": "Bu yolculuktan sonra duygusal olarak kendinizi nasıl hissettiniz?",
+      "#Neutral": "Nötr",
+      "#Satisfied": "Memnun",
+      "#Stressed": "Stresli",
+      "#Tired": "Yorgun"
     }
   },
   "origin_project": {

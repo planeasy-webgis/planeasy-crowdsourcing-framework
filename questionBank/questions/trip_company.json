@@ -2,16 +2,14 @@
   "question_id": "trip_company",
   "key": "trip_company",
   "project": "shared",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_pre_trip",
   "source_questionnaires": [
     "smarturbanity_pre_trip"
   ],
   "schema": {
-    "text": "Who or what are you travelling with? (Select all that apply)",
     "answer_key": "trip_company",
-    "question_type": "multiple_options",
     "checks_inline": false,
     "options": [
       {
@@ -43,88 +41,90 @@
         "value": "pet"
       }
     ],
-    "privacy_classification": "heightened_personal"
+    "privacy_classification": "heightened_personal",
+    "question_type": "multiple_options",
+    "text": "Who or what are you travelling with? (Select all that apply)"
   },
   "translations": {
-    "en": {
-      "#Who or what are you travelling with? (Select all that apply)": "Who or what are you travelling with? (Select all that apply)",
-      "#Alone": "Alone",
-      "#With other adults": "With other adults",
-      "#With children on foot": "With children on foot",
-      "#With children in a pushchair or pram": "With children in a pushchair or pram",
-      "#With someone I need to care for": "With someone I need to care for",
-      "#With heavy bags or a trolley": "With heavy bags or a trolley",
-      "#With a pet": "With a pet"
-    },
-    "it": {
-      "#Who or what are you travelling with? (Select all that apply)": "Con chi o con cosa viaggi? (Puoi sceglierne più di uno)",
-      "#Alone": "Senza compagnia",
-      "#With other adults": "Con altre persone adulte",
-      "#With children on foot": "Con bambini e bambine che camminano",
-      "#With children in a pushchair or pram": "Con bambini e bambine nel passeggino",
-      "#With someone I need to care for": "Con una persona di cui mi devo prendere cura",
-      "#With heavy bags or a trolley": "Con borse pesanti o un carrello",
-      "#With a pet": "Con un animale domestico"
-    },
-    "fr": {
-      "#Who or what are you travelling with? (Select all that apply)": "Qui ou quoi vous accompagne pendant ce trajet ? (Sélectionnez toutes les réponses qui s’appliquent)",
-      "#Alone": "Sans compagnie",
-      "#With other adults": "Avec d'autres personnes adultes",
-      "#With children on foot": "Avec des enfants qui marchent",
-      "#With children in a pushchair or pram": "Avec des enfants en poussette",
-      "#With someone I need to care for": "Avec une personne dont je dois m'occuper",
-      "#With heavy bags or a trolley": "Avec des sacs lourds ou un chariot",
-      "#With a pet": "Avec un animal de compagnie"
+    "ar": {
+      "#Alone": "بمفردي",
+      "#Who or what are you travelling with? (Select all that apply)": "من أو ما الذي يرافقك في هذه الرحلة؟ (يمكن اختيار كل ما ينطبق)",
+      "#With a pet": "مع حيوان أليف",
+      "#With children in a pushchair or pram": "مع أطفال في عربة الأطفال",
+      "#With children on foot": "مع أطفال يمشون",
+      "#With heavy bags or a trolley": "بحقائب ثقيلة أو عربة تسوق",
+      "#With other adults": "مع أشخاص بالغين آخرين",
+      "#With someone I need to care for": "مع شخص عليّ رعايته"
     },
     "de": {
-      "#Who or what are you travelling with? (Select all that apply)": "Mit wem oder womit sind Sie unterwegs? (Alle zutreffenden auswählen)",
       "#Alone": "Allein",
-      "#With other adults": "Mit anderen Erwachsenen",
-      "#With children on foot": "Mit Kindern, die zu Fuß gehen",
+      "#Who or what are you travelling with? (Select all that apply)": "Mit wem oder womit sind Sie unterwegs? (Alle zutreffenden auswählen)",
+      "#With a pet": "Mit einem Haustier",
       "#With children in a pushchair or pram": "Mit Kindern im Kinderwagen",
-      "#With someone I need to care for": "Mit einer Person, die ich betreuen muss",
+      "#With children on foot": "Mit Kindern, die zu Fuß gehen",
       "#With heavy bags or a trolley": "Mit schweren Taschen oder einem Einkaufstrolley",
-      "#With a pet": "Mit einem Haustier"
+      "#With other adults": "Mit anderen Erwachsenen",
+      "#With someone I need to care for": "Mit einer Person, die ich betreuen muss"
     },
-    "tr": {
-      "#Who or what are you travelling with? (Select all that apply)": "Kiminle veya neyle yolculuk ediyorsunuz? (Uygun olanların tümünü seçin)",
-      "#Alone": "Yalnız",
-      "#With other adults": "Diğer yetişkinlerle",
-      "#With children on foot": "Yürüyen çocuklarla",
-      "#With children in a pushchair or pram": "Bebek arabasındaki çocuklarla",
-      "#With someone I need to care for": "Bakmam gereken biriyle",
-      "#With heavy bags or a trolley": "Ağır çantalar veya pazar arabası ile",
-      "#With a pet": "Evcil hayvanla"
+    "en": {
+      "#Alone": "Alone",
+      "#Who or what are you travelling with? (Select all that apply)": "Who or what are you travelling with? (Select all that apply)",
+      "#With a pet": "With a pet",
+      "#With children in a pushchair or pram": "With children in a pushchair or pram",
+      "#With children on foot": "With children on foot",
+      "#With heavy bags or a trolley": "With heavy bags or a trolley",
+      "#With other adults": "With other adults",
+      "#With someone I need to care for": "With someone I need to care for"
     },
     "fa": {
-      "#Who or what are you travelling with? (Select all that apply)": "با چه کسی یا با چه چیزی سفر می‌کنید؟ (همه موارد مربوط را انتخاب کنید)",
       "#Alone": "تنها",
-      "#With other adults": "با بزرگسالان دیگر",
-      "#With children on foot": "با کودکانی که پیاده راه می‌روند",
+      "#Who or what are you travelling with? (Select all that apply)": "با چه کسی یا با چه چیزی سفر می‌کنید؟ (همه موارد مربوط را انتخاب کنید)",
+      "#With a pet": "با حیوان خانگی",
       "#With children in a pushchair or pram": "با کودک در کالسکه",
-      "#With someone I need to care for": "با فردی که باید از او مراقبت کنم",
+      "#With children on foot": "با کودکانی که پیاده راه می‌روند",
       "#With heavy bags or a trolley": "با کیف‌های سنگین یا چرخ‌دستی",
-      "#With a pet": "با حیوان خانگی"
+      "#With other adults": "با بزرگسالان دیگر",
+      "#With someone I need to care for": "با فردی که باید از او مراقبت کنم"
+    },
+    "fr": {
+      "#Alone": "Sans compagnie",
+      "#Who or what are you travelling with? (Select all that apply)": "Qui ou quoi vous accompagne pendant ce trajet ? (Sélectionnez toutes les réponses qui s’appliquent)",
+      "#With a pet": "Avec un animal de compagnie",
+      "#With children in a pushchair or pram": "Avec des enfants en poussette",
+      "#With children on foot": "Avec des enfants qui marchent",
+      "#With heavy bags or a trolley": "Avec des sacs lourds ou un chariot",
+      "#With other adults": "Avec d'autres personnes adultes",
+      "#With someone I need to care for": "Avec une personne dont je dois m'occuper"
     },
     "hu": {
-      "#Who or what are you travelling with? (Select all that apply)": "Kivel vagy mivel közlekedik? (Jelölje meg az összes megfelelőt)",
       "#Alone": "Egyedül",
-      "#With other adults": "Más felnőttekkel",
-      "#With children on foot": "Gyalogló gyerekekkel",
+      "#Who or what are you travelling with? (Select all that apply)": "Kivel vagy mivel közlekedik? (Jelölje meg az összes megfelelőt)",
+      "#With a pet": "Háziállattal",
       "#With children in a pushchair or pram": "Babakocsiban ülő gyerekkel",
-      "#With someone I need to care for": "Egy személlyel, akiről gondoskodnom kell",
+      "#With children on foot": "Gyalogló gyerekekkel",
       "#With heavy bags or a trolley": "Nehéz táskákkal vagy bevásárlókocsival",
-      "#With a pet": "Háziállattal"
+      "#With other adults": "Más felnőttekkel",
+      "#With someone I need to care for": "Egy személlyel, akiről gondoskodnom kell"
     },
-    "ar": {
-      "#Who or what are you travelling with? (Select all that apply)": "من أو ما الذي يرافقك في هذه الرحلة؟ (يمكن اختيار كل ما ينطبق)",
-      "#Alone": "بمفردي",
-      "#With other adults": "مع أشخاص بالغين آخرين",
-      "#With children on foot": "مع أطفال يمشون",
-      "#With children in a pushchair or pram": "مع أطفال في عربة الأطفال",
-      "#With someone I need to care for": "مع شخص عليّ رعايته",
-      "#With heavy bags or a trolley": "بحقائب ثقيلة أو عربة تسوق",
-      "#With a pet": "مع حيوان أليف"
+    "it": {
+      "#Alone": "Senza compagnia",
+      "#Who or what are you travelling with? (Select all that apply)": "Con chi o con cosa viaggi? (Puoi sceglierne più di uno)",
+      "#With a pet": "Con un animale domestico",
+      "#With children in a pushchair or pram": "Con un passeggino o una carrozzina",
+      "#With children on foot": "Con minori che camminano",
+      "#With heavy bags or a trolley": "Con borse pesanti o un carrello",
+      "#With other adults": "Con altre persone adulte",
+      "#With someone I need to care for": "Con una persona che accompagno o assisto"
+    },
+    "tr": {
+      "#Alone": "Yalnız",
+      "#Who or what are you travelling with? (Select all that apply)": "Kiminle veya neyle yolculuk ediyorsunuz? (Uygun olanların tümünü seçin)",
+      "#With a pet": "Evcil hayvanla",
+      "#With children in a pushchair or pram": "Bebek arabasındaki çocuklarla",
+      "#With children on foot": "Yürüyen çocuklarla",
+      "#With heavy bags or a trolley": "Ağır çantalar veya pazar arabası ile",
+      "#With other adults": "Diğer yetişkinlerle",
+      "#With someone I need to care for": "Bakmam gereken biriyle"
     }
   },
   "origin_project": {
