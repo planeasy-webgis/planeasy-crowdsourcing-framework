@@ -2,15 +2,18 @@
   "question_id": "motorcycle_parking",
   "key": "motorcycle_parking",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle",
   "source_questionnaires": [
     "smarturbanity_motorcycle_comfort"
   ],
   "schema": {
-    "answer_key": "motorcycle_parking",
+    "privacy_classification": "personal_data",
+    "text": "How good is motorcycle parking near the places you go?",
     "help": "Think of spaces marked for motorcycles and places where your vehicle is safe from theft.",
+    "answer_key": "motorcycle_parking",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Very poor",
@@ -32,83 +35,80 @@
         "text": "Very good",
         "value": "very_adequate"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "How good is motorcycle parking near the places you go?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#Good": "جيدة",
-      "#How good is motorcycle parking near the places you go?": "ما مدى جودة مواقف الدراجات النارية قرب الأماكن التي تذهب إليها؟",
-      "#Neither good nor poor": "لا جيدة ولا سيئة",
-      "#Poor": "سيئة",
-      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "فكّر في الأماكن المخصصة للدراجات النارية والأماكن التي تكون فيها مركبتك محمية من السرقة.",
-      "#Very good": "جيدة جدًا",
-      "#Very poor": "سيئة جدًا"
-    },
-    "de": {
-      "#Good": "Gut",
-      "#How good is motorcycle parking near the places you go?": "Wie gut ist das Motorradparken in der Nähe der Orte, zu denen Sie fahren?",
-      "#Neither good nor poor": "Weder gut noch schlecht",
-      "#Poor": "Schlecht",
-      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Denken Sie an für Motorräder markierte Plätze und Orte, an denen Ihr Fahrzeug vor Diebstahl sicher ist.",
-      "#Very good": "Sehr gut",
-      "#Very poor": "Sehr schlecht"
-    },
     "en": {
-      "#Good": "Good",
       "#How good is motorcycle parking near the places you go?": "How good is motorcycle parking near the places you go?",
-      "#Neither good nor poor": "Neither good nor poor",
-      "#Poor": "Poor",
       "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Think of spaces marked for motorcycles and places where your vehicle is safe from theft.",
-      "#Very good": "Very good",
-      "#Very poor": "Very poor"
-    },
-    "fa": {
-      "#Good": "خوب",
-      "#How good is motorcycle parking near the places you go?": "پارکینگ موتورسیکلت نزدیک جاهایی که می‌روید چقدر خوب است؟",
-      "#Neither good nor poor": "نه خوب نه بد",
-      "#Poor": "بد",
-      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "به جاهای علامت‌گذاری‌شده برای موتورسیکلت و جاهایی فکر کنید که وسیله شما از دزدی در امان است.",
-      "#Very good": "بسیار خوب",
-      "#Very poor": "بسیار بد"
-    },
-    "fr": {
-      "#Good": "Bon",
-      "#How good is motorcycle parking near the places you go?": "Comment est le stationnement pour motos près des endroits où vous allez ?",
-      "#Neither good nor poor": "Ni bon ni mauvais",
-      "#Poor": "Mauvais",
-      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Pensez aux places marquées pour les motos et aux endroits où votre véhicule est à l'abri du vol.",
-      "#Very good": "Très bon",
-      "#Very poor": "Très mauvais"
-    },
-    "hu": {
-      "#Good": "Jó",
-      "#How good is motorcycle parking near the places you go?": "Milyen a motorkerékpár-parkolás azok közelében, ahová jár?",
-      "#Neither good nor poor": "Sem jó, sem rossz",
-      "#Poor": "Rossz",
-      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Gondoljon a motorkerékpároknak kijelölt helyekre, és azokra a helyekre, ahol a járműve védett a lopás ellen.",
-      "#Very good": "Nagyon jó",
-      "#Very poor": "Nagyon rossz"
+      "#Very poor": "Very poor",
+      "#Poor": "Poor",
+      "#Neither good nor poor": "Neither good nor poor",
+      "#Good": "Good",
+      "#Very good": "Very good"
     },
     "it": {
-      "#Good": "Buono",
       "#How good is motorcycle parking near the places you go?": "Com'è il parcheggio per le moto vicino ai posti dove vai?",
-      "#Neither good nor poor": "Né buono né scarso",
-      "#Poor": "Scarso",
       "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Pensa agli stalli segnati per le moto e ai posti dove il tuo veicolo è al sicuro dai furti.",
-      "#Very good": "Molto buono",
-      "#Very poor": "Molto scarso"
+      "#Very poor": "Molto scarso",
+      "#Poor": "Scarso",
+      "#Neither good nor poor": "Né buono né scarso",
+      "#Good": "Buono",
+      "#Very good": "Molto buono"
+    },
+    "fr": {
+      "#How good is motorcycle parking near the places you go?": "Comment est le stationnement pour motos près des endroits où vous allez ?",
+      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Pensez aux places marquées pour les motos et aux endroits où votre véhicule est à l'abri du vol.",
+      "#Very poor": "Très mauvais",
+      "#Poor": "Mauvais",
+      "#Neither good nor poor": "Ni bon ni mauvais",
+      "#Good": "Bon",
+      "#Very good": "Très bon"
+    },
+    "de": {
+      "#How good is motorcycle parking near the places you go?": "Wie gut ist das Motorradparken in der Nähe der Orte, zu denen Sie fahren?",
+      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Denken Sie an für Motorräder markierte Plätze und Orte, an denen Ihr Fahrzeug vor Diebstahl sicher ist.",
+      "#Very poor": "Sehr schlecht",
+      "#Poor": "Schlecht",
+      "#Neither good nor poor": "Weder gut noch schlecht",
+      "#Good": "Gut",
+      "#Very good": "Sehr gut"
     },
     "tr": {
-      "#Good": "İyi",
       "#How good is motorcycle parking near the places you go?": "Gittiğiniz yerlerin yakınında motosiklet park etme imkânı ne kadar iyi?",
-      "#Neither good nor poor": "Ne iyi ne kötü",
-      "#Poor": "Kötü",
       "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Motosikletler için işaretlenmiş alanları ve aracınızın hırsızlığa karşı güvende olduğu yerleri düşünün.",
-      "#Very good": "Çok iyi",
-      "#Very poor": "Çok kötü"
+      "#Very poor": "Çok kötü",
+      "#Poor": "Kötü",
+      "#Neither good nor poor": "Ne iyi ne kötü",
+      "#Good": "İyi",
+      "#Very good": "Çok iyi"
+    },
+    "fa": {
+      "#How good is motorcycle parking near the places you go?": "پارکینگ موتورسیکلت نزدیک جاهایی که می‌روید چقدر خوب است؟",
+      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "به جاهای علامت‌گذاری‌شده برای موتورسیکلت و جاهایی فکر کنید که وسیله شما از دزدی در امان است.",
+      "#Very poor": "بسیار بد",
+      "#Poor": "بد",
+      "#Neither good nor poor": "نه خوب نه بد",
+      "#Good": "خوب",
+      "#Very good": "بسیار خوب"
+    },
+    "hu": {
+      "#How good is motorcycle parking near the places you go?": "Milyen a motorkerékpár-parkolás azok közelében, ahová jár?",
+      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "Gondoljon a motorkerékpároknak kijelölt helyekre, és azokra a helyekre, ahol a járműve védett a lopás ellen.",
+      "#Very poor": "Nagyon rossz",
+      "#Poor": "Rossz",
+      "#Neither good nor poor": "Sem jó, sem rossz",
+      "#Good": "Jó",
+      "#Very good": "Nagyon jó"
+    },
+    "ar": {
+      "#How good is motorcycle parking near the places you go?": "ما مدى جودة مواقف الدراجات النارية قرب وجهاتك المعتادة؟",
+      "#Think of spaces marked for motorcycles and places where your vehicle is safe from theft.": "المقصود الأماكن المخصصة للدراجات النارية والأماكن التي تكون فيها مركبتك محمية من السرقة.",
+      "#Very poor": "سيئة جدًا",
+      "#Poor": "سيئة",
+      "#Neither good nor poor": "لا جيدة ولا سيئة",
+      "#Good": "جيدة",
+      "#Very good": "جيدة جدًا"
     }
   },
   "origin_project": {

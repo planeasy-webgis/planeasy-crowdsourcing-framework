@@ -2,14 +2,17 @@
   "question_id": "put_crowding_comfort",
   "key": "put_crowding_comfort",
   "project": "shared",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
     "smarturbanity_public_transport_comfort"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "How do you feel being close to other people on board or at the stop?",
     "answer_key": "put_crowding_comfort",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Very uncomfortable",
@@ -31,75 +34,72 @@
         "text": "Very comfortable",
         "value": "very_comfortable"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "How do you feel being close to other people on board or at the stop?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#A little uncomfortable": "غير مريح قليلًا",
-      "#How do you feel being close to other people on board or at the stop?": "ما شعورك عندما تكون قريبًا من أشخاص آخرين داخل المركبة أو في المحطة؟",
-      "#It doesn't bother me": "لا يزعجني",
-      "#Mostly comfortable": "ارتياح في الغالب",
-      "#Very comfortable": "ارتياح كبير",
-      "#Very uncomfortable": "عدم ارتياح شديد"
-    },
-    "de": {
-      "#A little uncomfortable": "Ein wenig unangenehm",
-      "#How do you feel being close to other people on board or at the stop?": "Wie fühlen Sie sich, wenn Sie im Fahrzeug oder an der Haltestelle anderen Menschen nahe sind?",
-      "#It doesn't bother me": "Es stört mich nicht",
-      "#Mostly comfortable": "Meist wohl",
-      "#Very comfortable": "Sehr wohl",
-      "#Very uncomfortable": "Sehr unwohl"
-    },
     "en": {
-      "#A little uncomfortable": "A little uncomfortable",
       "#How do you feel being close to other people on board or at the stop?": "How do you feel being close to other people on board or at the stop?",
+      "#Very uncomfortable": "Very uncomfortable",
+      "#A little uncomfortable": "A little uncomfortable",
       "#It doesn't bother me": "It doesn't bother me",
       "#Mostly comfortable": "Mostly comfortable",
-      "#Very comfortable": "Very comfortable",
-      "#Very uncomfortable": "Very uncomfortable"
-    },
-    "fa": {
-      "#A little uncomfortable": "کمی ناراحت",
-      "#How do you feel being close to other people on board or at the stop?": "وقتی در وسیله یا ایستگاه نزدیک دیگران هستید چه احساسی دارید؟",
-      "#It doesn't bother me": "مرا اذیت نمی‌کند",
-      "#Mostly comfortable": "بیشتر راحت",
-      "#Very comfortable": "بسیار راحت",
-      "#Very uncomfortable": "بسیار ناراحت"
-    },
-    "fr": {
-      "#A little uncomfortable": "Un peu mal à l'aise",
-      "#How do you feel being close to other people on board or at the stop?": "Comment vous sentez-vous à proximité d'autres personnes à bord ou à l'arrêt ?",
-      "#It doesn't bother me": "Cela ne me dérange pas",
-      "#Mostly comfortable": "Plutôt à l’aise",
-      "#Very comfortable": "Très à l’aise",
-      "#Very uncomfortable": "Très mal à l’aise"
-    },
-    "hu": {
-      "#A little uncomfortable": "Kissé kellemetlen",
-      "#How do you feel being close to other people on board or at the stop?": "Hogyan érzi magát, amikor más emberek közelében van a járművön vagy a megállóban?",
-      "#It doesn't bother me": "Nem zavar",
-      "#Mostly comfortable": "Többnyire kényelmesen",
-      "#Very comfortable": "Nagyon kényelmesen",
-      "#Very uncomfortable": "Nagyon kényelmetlenül"
+      "#Very comfortable": "Very comfortable"
     },
     "it": {
-      "#A little uncomfortable": "Un po' a disagio",
       "#How do you feel being close to other people on board or at the stop?": "Come ti senti a stare vicino ad altre persone a bordo o alla fermata?",
+      "#Very uncomfortable": "Molto a disagio",
+      "#A little uncomfortable": "Un po' a disagio",
       "#It doesn't bother me": "Non mi dà fastidio",
       "#Mostly comfortable": "Per lo più a mio agio",
-      "#Very comfortable": "Molto a mio agio",
-      "#Very uncomfortable": "Molto a disagio"
+      "#Very comfortable": "Molto a mio agio"
+    },
+    "fr": {
+      "#How do you feel being close to other people on board or at the stop?": "Comment vous sentez-vous à proximité d'autres personnes à bord ou à l'arrêt ?",
+      "#Very uncomfortable": "Très mal à l’aise",
+      "#A little uncomfortable": "Un peu mal à l'aise",
+      "#It doesn't bother me": "Cela ne me dérange pas",
+      "#Mostly comfortable": "Plutôt à l’aise",
+      "#Very comfortable": "Très à l’aise"
+    },
+    "de": {
+      "#How do you feel being close to other people on board or at the stop?": "Wie fühlen Sie sich, wenn Sie im Fahrzeug oder an der Haltestelle anderen Menschen nahe sind?",
+      "#Very uncomfortable": "Sehr unwohl",
+      "#A little uncomfortable": "Ein wenig unangenehm",
+      "#It doesn't bother me": "Es stört mich nicht",
+      "#Mostly comfortable": "Meist wohl",
+      "#Very comfortable": "Sehr wohl"
     },
     "tr": {
-      "#A little uncomfortable": "Biraz rahatsız edici",
       "#How do you feel being close to other people on board or at the stop?": "Araçta veya durakta başka insanlara yakın olmak size nasıl hissettiriyor?",
+      "#Very uncomfortable": "Çok rahatsız",
+      "#A little uncomfortable": "Biraz rahatsız edici",
       "#It doesn't bother me": "Beni rahatsız etmez",
       "#Mostly comfortable": "Genellikle rahat",
-      "#Very comfortable": "Çok rahat",
-      "#Very uncomfortable": "Çok rahatsız"
+      "#Very comfortable": "Çok rahat"
+    },
+    "fa": {
+      "#How do you feel being close to other people on board or at the stop?": "وقتی در وسیله یا ایستگاه نزدیک دیگران هستید چه احساسی دارید؟",
+      "#Very uncomfortable": "بسیار ناراحت",
+      "#A little uncomfortable": "کمی ناراحت",
+      "#It doesn't bother me": "مرا اذیت نمی‌کند",
+      "#Mostly comfortable": "بیشتر راحت",
+      "#Very comfortable": "بسیار راحت"
+    },
+    "hu": {
+      "#How do you feel being close to other people on board or at the stop?": "Hogyan érzi magát, amikor más emberek közelében van a járművön vagy a megállóban?",
+      "#Very uncomfortable": "Nagyon kényelmetlenül",
+      "#A little uncomfortable": "Kissé kellemetlen",
+      "#It doesn't bother me": "Nem zavar",
+      "#Mostly comfortable": "Többnyire kényelmesen",
+      "#Very comfortable": "Nagyon kényelmesen"
+    },
+    "ar": {
+      "#How do you feel being close to other people on board or at the stop?": "ما شعورك عند القرب من أشخاص آخرين داخل المركبة أو في المحطة؟",
+      "#Very uncomfortable": "عدم ارتياح شديد",
+      "#A little uncomfortable": "عدم ارتياح خفيف",
+      "#It doesn't bother me": "لا يزعجني",
+      "#Mostly comfortable": "ارتياح في الغالب",
+      "#Very comfortable": "ارتياح كبير"
     }
   },
   "origin_project": {

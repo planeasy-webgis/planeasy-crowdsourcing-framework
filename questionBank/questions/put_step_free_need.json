@@ -2,14 +2,17 @@
   "question_id": "put_step_free_need",
   "key": "put_step_free_need",
   "project": "shared",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
     "smarturbanity_public_transport_habits"
   ],
   "schema": {
+    "privacy_classification": "special_category_health",
+    "text": "When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?",
     "answer_key": "put_step_free_need",
+    "question_type": "single_option",
     "options": [
       {
         "text": "No, I can't reach it",
@@ -31,75 +34,72 @@
         "text": "Yes, easily and on my own",
         "value": "i_can_reach_the_stop_easily_and_independ"
       }
-    ],
-    "privacy_classification": "special_category_health",
-    "question_type": "single_option",
-    "text": "When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#No, I can't reach it": "لا، لا أستطيع الوصول إليها",
-      "#Only with help from another person": "فقط بمساعدة شخص آخر",
-      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "عندما تكون المصاعد أو المنحدرات أو الممرات الخالية من السلالم غير موجودة أو معطلة، هل ما زال بإمكانك الوصول إلى المحطة؟",
-      "#Yes, but with a lot of effort": "نعم، لكن بجهد كبير",
-      "#Yes, easily and on my own": "نعم، بسهولة وبمفردي",
-      "#Yes, on my own, with some difficulty": "نعم، بمفردي، مع بعض الصعوبة"
-    },
-    "de": {
-      "#No, I can't reach it": "Nein, ich kann sie nicht erreichen",
-      "#Only with help from another person": "Nur mit Hilfe einer anderen Person",
-      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Wenn Aufzüge, Rampen oder stufenlose Wege fehlen oder kaputt sind: Können Sie die Haltestelle trotzdem erreichen?",
-      "#Yes, but with a lot of effort": "Ja, aber mit viel Mühe",
-      "#Yes, easily and on my own": "Ja, leicht und allein",
-      "#Yes, on my own, with some difficulty": "Ja, allein, mit etwas Schwierigkeit"
-    },
     "en": {
+      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?",
       "#No, I can't reach it": "No, I can't reach it",
       "#Only with help from another person": "Only with help from another person",
-      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?",
       "#Yes, but with a lot of effort": "Yes, but with a lot of effort",
-      "#Yes, easily and on my own": "Yes, easily and on my own",
-      "#Yes, on my own, with some difficulty": "Yes, on my own, with some difficulty"
-    },
-    "fa": {
-      "#No, I can't reach it": "نه، نمی‌توانم به آن برسم",
-      "#Only with help from another person": "فقط با کمک شخص دیگر",
-      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "وقتی آسانسور، رمپ یا مسیر بدون پله نیست یا خراب است، باز هم می‌توانید به ایستگاه برسید؟",
-      "#Yes, but with a lot of effort": "بله، اما با زحمت زیاد",
-      "#Yes, easily and on my own": "بله، به‌راحتی و به‌تنهایی",
-      "#Yes, on my own, with some difficulty": "بله، به‌تنهایی، با کمی دشواری"
-    },
-    "fr": {
-      "#No, I can't reach it": "Non, je ne peux pas l'atteindre",
-      "#Only with help from another person": "Seulement avec l'aide d'une autre personne",
-      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Quand les ascenseurs, les rampes ou les cheminements sans marches manquent ou sont en panne, pouvez-vous quand même atteindre l'arrêt ?",
-      "#Yes, but with a lot of effort": "Oui, mais avec beaucoup d'efforts",
-      "#Yes, easily and on my own": "Oui, facilement et seul",
-      "#Yes, on my own, with some difficulty": "Oui, seul, avec quelques difficultés"
-    },
-    "hu": {
-      "#No, I can't reach it": "Nem, nem tudom elérni",
-      "#Only with help from another person": "Csak másvalaki segítségével",
-      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Ha hiányoznak vagy elromlottak a liftek, rámpák vagy lépcsőmentes útvonalak, el tudja még érni a megállót?",
-      "#Yes, but with a lot of effort": "Igen, de nagy erőfeszítéssel",
-      "#Yes, easily and on my own": "Igen, könnyen és egyedül",
-      "#Yes, on my own, with some difficulty": "Igen, egyedül, némi nehézséggel"
+      "#Yes, on my own, with some difficulty": "Yes, on my own, with some difficulty",
+      "#Yes, easily and on my own": "Yes, easily and on my own"
     },
     "it": {
+      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Quando ascensori, rampe o percorsi senza gradini mancano o sono guasti, riesci comunque a raggiungere la fermata?",
       "#No, I can't reach it": "No, non riesco a raggiungerla",
       "#Only with help from another person": "Solo con l'aiuto di un'altra persona",
-      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Quando ascensori, rampe o percorsi senza gradini mancano o sono guasti, riesci comunque a raggiungere la fermata?",
       "#Yes, but with a lot of effort": "Sì, ma con molta fatica",
-      "#Yes, easily and on my own": "Sì, facilmente e da solo",
-      "#Yes, on my own, with some difficulty": "Sì, da solo, con qualche difficoltà"
+      "#Yes, on my own, with some difficulty": "Sì, senza aiuto, con qualche difficoltà",
+      "#Yes, easily and on my own": "Sì, facilmente e senza aiuto"
+    },
+    "fr": {
+      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Quand les ascenseurs, les rampes ou les cheminements sans marches manquent ou sont en panne, pouvez-vous quand même atteindre l'arrêt ?",
+      "#No, I can't reach it": "Non, je ne peux pas l'atteindre",
+      "#Only with help from another person": "Seulement avec l'aide d'une autre personne",
+      "#Yes, but with a lot of effort": "Oui, mais avec beaucoup d'efforts",
+      "#Yes, on my own, with some difficulty": "Oui, sans aide, avec quelques difficultés",
+      "#Yes, easily and on my own": "Oui, facilement et sans aide"
+    },
+    "de": {
+      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Wenn Aufzüge, Rampen oder stufenlose Wege fehlen oder kaputt sind: Können Sie die Haltestelle trotzdem erreichen?",
+      "#No, I can't reach it": "Nein, ich kann sie nicht erreichen",
+      "#Only with help from another person": "Nur mit Hilfe einer anderen Person",
+      "#Yes, but with a lot of effort": "Ja, aber mit viel Mühe",
+      "#Yes, on my own, with some difficulty": "Ja, allein, mit etwas Schwierigkeit",
+      "#Yes, easily and on my own": "Ja, leicht und allein"
     },
     "tr": {
+      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Asansörler, rampalar veya basamaksız yollar yoksa ya da bozuksa durağa yine de ulaşabilir misiniz?",
       "#No, I can't reach it": "Hayır, ulaşamam",
       "#Only with help from another person": "Yalnızca başka birinin yardımıyla",
-      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Asansörler, rampalar veya basamaksız yollar yoksa ya da bozuksa durağa yine de ulaşabilir misiniz?",
       "#Yes, but with a lot of effort": "Evet, ama çok zorlanarak",
-      "#Yes, easily and on my own": "Evet, kolayca ve tek başıma",
-      "#Yes, on my own, with some difficulty": "Evet, tek başıma, biraz zorlanarak"
+      "#Yes, on my own, with some difficulty": "Evet, tek başıma, biraz zorlanarak",
+      "#Yes, easily and on my own": "Evet, kolayca ve tek başıma"
+    },
+    "fa": {
+      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "وقتی آسانسور، رمپ یا مسیر بدون پله نیست یا خراب است، باز هم می‌توانید به ایستگاه برسید؟",
+      "#No, I can't reach it": "نه، نمی‌توانم به آن برسم",
+      "#Only with help from another person": "فقط با کمک شخص دیگر",
+      "#Yes, but with a lot of effort": "بله، اما با زحمت زیاد",
+      "#Yes, on my own, with some difficulty": "بله، به‌تنهایی، با کمی دشواری",
+      "#Yes, easily and on my own": "بله، به‌راحتی و به‌تنهایی"
+    },
+    "hu": {
+      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "Ha hiányoznak vagy elromlottak a liftek, rámpák vagy lépcsőmentes útvonalak, el tudja még érni a megállót?",
+      "#No, I can't reach it": "Nem, nem tudom elérni",
+      "#Only with help from another person": "Csak másvalaki segítségével",
+      "#Yes, but with a lot of effort": "Igen, de nagy erőfeszítéssel",
+      "#Yes, on my own, with some difficulty": "Igen, egyedül, némi nehézséggel",
+      "#Yes, easily and on my own": "Igen, könnyen és egyedül"
+    },
+    "ar": {
+      "#When lifts, ramps or step-free paths are missing or broken, can you still reach the stop?": "عندما تكون المصاعد أو المنحدرات أو الممرات الخالية من السلالم غير موجودة أو معطلة، هل ما زال بإمكانك الوصول إلى المحطة؟",
+      "#No, I can't reach it": "لا، لا أستطيع الوصول إليها",
+      "#Only with help from another person": "فقط بمساعدة شخص آخر",
+      "#Yes, but with a lot of effort": "نعم، لكن بجهد كبير",
+      "#Yes, on my own, with some difficulty": "نعم، بمفردي، مع بعض الصعوبة",
+      "#Yes, easily and on my own": "نعم، بسهولة وبمفردي"
     }
   },
   "origin_project": {

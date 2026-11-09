@@ -2,7 +2,7 @@
   "question_id": "provided_name",
   "key": "provided_name",
   "project": "shared",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_service",
   "source_questionnaires": [
@@ -10,38 +10,46 @@
   ],
   "schema": {
     "answer_key": "providedName",
+    "text": "Service name",
+    "question_type": "text",
     "control": {
       "id": "serviceName",
       "placeholder": "e.g. Parco Gallo"
     },
-    "privacy_classification": "personal_data",
-    "question_type": "text",
-    "text": "Service name"
+    "privacy_classification": "personal_data"
   },
   "translations": {
-    "ar": {
-      "#Service name": "اسم الخدمة"
-    },
-    "de": {
-      "#Service name": "Name des Dienstes"
-    },
     "en": {
-      "#Service name": "Service name"
-    },
-    "fa": {
-      "#Service name": "نام خدمت"
-    },
-    "fr": {
-      "#Service name": "Nom du service"
-    },
-    "hu": {
-      "#Service name": "A szolgáltatás neve"
+      "#Service name": "Service name",
+      "#e.g. Parco Gallo": "e.g. Parco Gallo"
     },
     "it": {
-      "#Service name": "Nome del servizio"
+      "#Service name": "Nome del servizio",
+      "#e.g. Parco Gallo": "ad es. Parco Gallo"
+    },
+    "fr": {
+      "#Service name": "Nom du service",
+      "#e.g. Parco Gallo": "par ex. Parco Gallo"
+    },
+    "de": {
+      "#Service name": "Name des Dienstes",
+      "#e.g. Parco Gallo": "z. B. Parco Gallo"
     },
     "tr": {
-      "#Service name": "Hizmet adı"
+      "#Service name": "Hizmet adı",
+      "#e.g. Parco Gallo": "ör. Parco Gallo"
+    },
+    "fa": {
+      "#Service name": "نام خدمت",
+      "#e.g. Parco Gallo": "مثلاً Parco Gallo"
+    },
+    "hu": {
+      "#Service name": "A szolgáltatás neve",
+      "#e.g. Parco Gallo": "pl. Parco Gallo"
+    },
+    "ar": {
+      "#Service name": "اسم الخدمة",
+      "#e.g. Parco Gallo": "مثال: Parco Gallo"
     }
   },
   "origin_project": {

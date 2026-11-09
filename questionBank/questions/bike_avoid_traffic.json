@@ -2,14 +2,17 @@
   "question_id": "bike_avoid_traffic",
   "key": "bike_avoid_traffic",
   "project": "shared",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling",
   "source_questionnaires": [
     "smarturbanity_cycling_road_safety"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "Does heavy or fast traffic on your route change how you cycle?",
     "answer_key": "bike_avoid_traffic",
+    "question_type": "single_option",
     "options": [
       {
         "text": "No, traffic doesn't bother me",
@@ -31,75 +34,72 @@
         "text": "I change my route or time to avoid it",
         "value": "very_significantly_i_change_my_route_or"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "Does heavy or fast traffic on your route change how you cycle?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#Does heavy or fast traffic on your route change how you cycle?": "هل تغيّر حركة المرور الكثيفة أو السريعة على طريقك طريقة ركوبك للدراجة؟",
-      "#I change my route or time to avoid it": "أغيّر طريقي أو وقتي لتجنبها",
-      "#I notice it, but it rarely changes my comfort or route": "ألاحظها، لكنها نادرًا ما تغيّر راحتي أو طريقي",
-      "#It often makes me feel stressed or unsafe": "تجعلني غالبًا أشعر بالتوتر أو بعدم الأمان",
-      "#It sometimes makes cycling less pleasant": "تجعل ركوب الدراجة أقل متعة أحيانًا",
-      "#No, traffic doesn't bother me": "لا، حركة المرور لا تزعجني"
-    },
-    "de": {
-      "#Does heavy or fast traffic on your route change how you cycle?": "Verändert starker oder schneller Verkehr auf Ihrer Strecke, wie Sie Rad fahren?",
-      "#I change my route or time to avoid it": "Ich ändere Route oder Zeit, um es zu vermeiden",
-      "#I notice it, but it rarely changes my comfort or route": "Ich merke es, aber es ändert selten mein Wohlbefinden oder meine Strecke",
-      "#It often makes me feel stressed or unsafe": "Oft fühle ich mich dadurch gestresst oder unsicher",
-      "#It sometimes makes cycling less pleasant": "Manchmal macht es das Radfahren weniger angenehm",
-      "#No, traffic doesn't bother me": "Nein, der Verkehr stört mich nicht"
-    },
     "en": {
       "#Does heavy or fast traffic on your route change how you cycle?": "Does heavy or fast traffic on your route change how you cycle?",
-      "#I change my route or time to avoid it": "I change my route or time to avoid it",
+      "#No, traffic doesn't bother me": "No, traffic doesn't bother me",
       "#I notice it, but it rarely changes my comfort or route": "I notice it, but it rarely changes my comfort or route",
-      "#It often makes me feel stressed or unsafe": "It often makes me feel stressed or unsafe",
       "#It sometimes makes cycling less pleasant": "It sometimes makes cycling less pleasant",
-      "#No, traffic doesn't bother me": "No, traffic doesn't bother me"
-    },
-    "fa": {
-      "#Does heavy or fast traffic on your route change how you cycle?": "آیا ترافیک سنگین یا پرسرعت در مسیر شما شیوه دوچرخه‌سواری شما را تغییر می‌دهد؟",
-      "#I change my route or time to avoid it": "برای دوری از آن، مسیر یا زمان خود را تغییر می‌دهم",
-      "#I notice it, but it rarely changes my comfort or route": "متوجه آن می‌شوم، اما به‌ندرت راحتی یا مسیر مرا تغییر می‌دهد",
-      "#It often makes me feel stressed or unsafe": "اغلب باعث می‌شود احساس تنش یا ناامنی کنم",
-      "#It sometimes makes cycling less pleasant": "گاهی دوچرخه‌سواری را ناخوشایندتر می‌کند",
-      "#No, traffic doesn't bother me": "نه، ترافیک مرا اذیت نمی‌کند"
-    },
-    "fr": {
-      "#Does heavy or fast traffic on your route change how you cycle?": "Une circulation dense ou rapide sur votre trajet change-t-elle votre façon de faire du vélo ?",
-      "#I change my route or time to avoid it": "Je change d'itinéraire ou d'horaire pour l'éviter",
-      "#I notice it, but it rarely changes my comfort or route": "Je le remarque, mais cela change rarement mon confort ou mon trajet",
-      "#It often makes me feel stressed or unsafe": "Cela me stresse ou me fait souvent sentir en danger",
-      "#It sometimes makes cycling less pleasant": "Cela rend parfois le vélo moins agréable",
-      "#No, traffic doesn't bother me": "Non, la circulation ne me gêne pas"
-    },
-    "hu": {
-      "#Does heavy or fast traffic on your route change how you cycle?": "A sűrű vagy gyors forgalom az útvonalán megváltoztatja, hogyan biciklizik?",
-      "#I change my route or time to avoid it": "Megváltoztatom az útvonalat vagy az időpontot, hogy elkerüljem",
-      "#I notice it, but it rarely changes my comfort or route": "Észreveszem, de ritkán változtat a kényelmemen vagy az útvonalamon",
-      "#It often makes me feel stressed or unsafe": "Gyakran feszültté tesz, vagy nem érzem tőle biztonságban magam",
-      "#It sometimes makes cycling less pleasant": "Néha kevésbé élvezetessé teszi a biciklizést",
-      "#No, traffic doesn't bother me": "Nem, a forgalom nem zavar"
+      "#It often makes me feel stressed or unsafe": "It often makes me feel stressed or unsafe",
+      "#I change my route or time to avoid it": "I change my route or time to avoid it"
     },
     "it": {
       "#Does heavy or fast traffic on your route change how you cycle?": "Il traffico intenso o veloce sul tuo percorso cambia il tuo modo di andare in bici?",
-      "#I change my route or time to avoid it": "Cambio percorso o orario per evitarlo",
+      "#No, traffic doesn't bother me": "No, il traffico non mi dà fastidio",
       "#I notice it, but it rarely changes my comfort or route": "Me ne accorgo, ma raramente cambia la mia comodità o il percorso",
-      "#It often makes me feel stressed or unsafe": "Spesso mi fa sentire stressato o poco sicuro",
       "#It sometimes makes cycling less pleasant": "A volte rende meno piacevole andare in bici",
-      "#No, traffic doesn't bother me": "No, il traffico non mi dà fastidio"
+      "#It often makes me feel stressed or unsafe": "Spesso mi mette sotto stress o mi fa sentire poco al sicuro",
+      "#I change my route or time to avoid it": "Cambio percorso o orario per evitarlo"
+    },
+    "fr": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "Une circulation dense ou rapide sur votre trajet change-t-elle votre façon de faire du vélo ?",
+      "#No, traffic doesn't bother me": "Non, la circulation ne me gêne pas",
+      "#I notice it, but it rarely changes my comfort or route": "Je le remarque, mais cela change rarement mon confort ou mon trajet",
+      "#It sometimes makes cycling less pleasant": "Cela rend parfois le vélo moins agréable",
+      "#It often makes me feel stressed or unsafe": "Cela me stresse ou me fait souvent sentir en danger",
+      "#I change my route or time to avoid it": "Je change d'itinéraire ou d'horaire pour l'éviter"
+    },
+    "de": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "Verändert starker oder schneller Verkehr auf Ihrer Strecke, wie Sie Rad fahren?",
+      "#No, traffic doesn't bother me": "Nein, der Verkehr stört mich nicht",
+      "#I notice it, but it rarely changes my comfort or route": "Ich merke es, aber es ändert selten mein Wohlbefinden oder meine Strecke",
+      "#It sometimes makes cycling less pleasant": "Manchmal macht es das Radfahren weniger angenehm",
+      "#It often makes me feel stressed or unsafe": "Oft fühle ich mich dadurch gestresst oder unsicher",
+      "#I change my route or time to avoid it": "Ich ändere Route oder Zeit, um es zu vermeiden"
     },
     "tr": {
       "#Does heavy or fast traffic on your route change how you cycle?": "Güzergâhınızdaki yoğun veya hızlı trafik bisiklet sürme şeklinizi değiştiriyor mu?",
-      "#I change my route or time to avoid it": "Bundan kaçınmak için güzergâhımı veya saatimi değiştiririm",
+      "#No, traffic doesn't bother me": "Hayır, trafik beni rahatsız etmez",
       "#I notice it, but it rarely changes my comfort or route": "Fark ederim ama konforumu veya güzergâhımı nadiren değiştirir",
-      "#It often makes me feel stressed or unsafe": "Sık sık stresli veya güvensiz hissetmeme neden olur",
       "#It sometimes makes cycling less pleasant": "Bazen bisiklet sürmeyi daha az keyifli hâle getirir",
-      "#No, traffic doesn't bother me": "Hayır, trafik beni rahatsız etmez"
+      "#It often makes me feel stressed or unsafe": "Sık sık stresli veya güvensiz hissetmeme neden olur",
+      "#I change my route or time to avoid it": "Bundan kaçınmak için güzergâhımı veya saatimi değiştiririm"
+    },
+    "fa": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "آیا ترافیک سنگین یا پرسرعت در مسیر شما شیوه دوچرخه‌سواری شما را تغییر می‌دهد؟",
+      "#No, traffic doesn't bother me": "نه، ترافیک مرا اذیت نمی‌کند",
+      "#I notice it, but it rarely changes my comfort or route": "متوجه آن می‌شوم، اما به‌ندرت راحتی یا مسیر مرا تغییر می‌دهد",
+      "#It sometimes makes cycling less pleasant": "گاهی دوچرخه‌سواری را ناخوشایندتر می‌کند",
+      "#It often makes me feel stressed or unsafe": "اغلب باعث می‌شود احساس تنش یا ناامنی کنم",
+      "#I change my route or time to avoid it": "برای دوری از آن، مسیر یا زمان خود را تغییر می‌دهم"
+    },
+    "hu": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "A sűrű vagy gyors forgalom az útvonalán megváltoztatja, hogyan biciklizik?",
+      "#No, traffic doesn't bother me": "Nem, a forgalom nem zavar",
+      "#I notice it, but it rarely changes my comfort or route": "Észreveszem, de ritkán változtat a kényelmemen vagy az útvonalamon",
+      "#It sometimes makes cycling less pleasant": "Néha kevésbé élvezetessé teszi a biciklizést",
+      "#It often makes me feel stressed or unsafe": "Gyakran feszültté tesz, vagy nem érzem tőle biztonságban magam",
+      "#I change my route or time to avoid it": "Megváltoztatom az útvonalat vagy az időpontot, hogy elkerüljem"
+    },
+    "ar": {
+      "#Does heavy or fast traffic on your route change how you cycle?": "هل تغيّر حركة المرور الكثيفة أو السريعة على طريقك طريقة ركوبك للدراجة؟",
+      "#No, traffic doesn't bother me": "لا، حركة المرور لا تزعجني",
+      "#I notice it, but it rarely changes my comfort or route": "ألاحظها، لكنها نادرًا ما تغيّر راحتي أو طريقي",
+      "#It sometimes makes cycling less pleasant": "تجعل ركوب الدراجة أقل متعة أحيانًا",
+      "#It often makes me feel stressed or unsafe": "تجعلني غالبًا أشعر بالتوتر أو بعدم الأمان",
+      "#I change my route or time to avoid it": "أغيّر طريقي أو وقتي لتجنبها"
     }
   },
   "origin_project": {

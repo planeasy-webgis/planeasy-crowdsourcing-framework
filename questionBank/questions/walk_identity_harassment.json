@@ -2,15 +2,16 @@
   "question_id": "walk_identity_harassment",
   "key": "walk_identity_harassment",
   "project": "shared",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking_security",
   "source_questionnaires": [
     "smarturbanity_walking_security"
   ],
   "schema": {
-    "add_prefer_not_to_say": true,
+    "text": "When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?",
     "answer_key": "walk_identity_harassment",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Yes",
@@ -25,66 +26,65 @@
         "value": "not_applicable"
       }
     ],
-    "privacy_classification": "heightened_personal",
-    "question_type": "single_option",
-    "text": "When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?"
+    "add_prefer_not_to_say": true,
+    "privacy_classification": "heightened_personal"
   },
   "translations": {
-    "ar": {
-      "#Doesn't apply to me": "لا ينطبق عليّ",
-      "#No": "لا",
-      "#Prefer not to say": "أفضل عدم الإجابة",
-      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "عند المشي أو التنقل بكرسي متحرك، هل سبق أن تعرضت للتحرش بسبب هويتك أو مظهرك (مثل النوع الاجتماعي أو المظهر أو الأصل أو السن)، أو هل يقلقك ذلك؟",
-      "#Yes": "نعم"
-    },
-    "de": {
-      "#Doesn't apply to me": "Trifft auf mich nicht zu",
-      "#No": "Nein",
-      "#Prefer not to say": "Ich möchte nicht antworten",
-      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Haben Sie beim Gehen oder Fahren im Rollstuhl Belästigung wegen Ihrer Person oder Ihres Aussehens (z. B. Geschlecht, Aussehen, Herkunft, Alter) erlebt oder befürchten Sie sie?",
-      "#Yes": "Ja"
-    },
     "en": {
-      "#Doesn't apply to me": "Doesn't apply to me",
+      "#Yes": "Yes",
       "#No": "No",
+      "#Doesn't apply to me": "Doesn't apply to me",
       "#Prefer not to say": "Prefer not to say",
-      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?",
-      "#Yes": "Yes"
-    },
-    "fa": {
-      "#Doesn't apply to me": "به من مربوط نمی‌شود",
-      "#No": "خیر",
-      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
-      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "هنگام پیاده‌روی یا حرکت با ویلچر، آیا به دلیل ویژگی‌های شخصی یا ظاهرتان (مثلاً جنسیت، ظاهر، خاستگاه، سن) آزار دیده‌اید یا از آن می‌ترسید؟",
-      "#Yes": "بله"
-    },
-    "fr": {
-      "#Doesn't apply to me": "Ne me concerne pas",
-      "#No": "Non",
-      "#Prefer not to say": "Je préfère ne pas répondre",
-      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, avez-vous subi ou redoutez-vous du harcèlement en raison de qui vous êtes ou de votre aspect (par ex. genre, apparence, origine, âge) ?",
-      "#Yes": "Oui"
-    },
-    "hu": {
-      "#Doesn't apply to me": "Rám nem vonatkozik",
-      "#No": "Nem",
-      "#Prefer not to say": "Nem szeretnék válaszolni",
-      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Gyaloglás vagy kerekesszékes közlekedés közben élt át vagy tart zaklatástól amiatt, hogy ki Ön vagy hogyan néz ki (pl. nem, külső, származás, életkor)?",
-      "#Yes": "Igen"
+      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?": "When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?"
     },
     "it": {
-      "#Doesn't apply to me": "Non mi riguarda",
+      "#Yes": "Sì",
       "#No": "No",
+      "#Doesn't apply to me": "Non mi riguarda",
       "#Prefer not to say": "Preferisco non rispondere",
-      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Quando ti sposti a piedi o in sedia a rotelle, hai subito o temi molestie per chi sei o per come appari (es. genere, aspetto, origine, età)?",
-      "#Yes": "Sì"
+      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?": "Quando ti sposti a piedi o in sedia a rotelle, hai subito o temi molestie per chi sei o per come appari (es. genere, aspetto, origine, età, disabilità)?"
+    },
+    "fr": {
+      "#Yes": "Oui",
+      "#No": "Non",
+      "#Doesn't apply to me": "Ne me concerne pas",
+      "#Prefer not to say": "Je préfère ne pas répondre",
+      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?": "Quand vous vous déplacez à pied ou en fauteuil roulant, avez-vous subi ou craignez-vous du harcèlement lié à votre identité ou à votre apparence (par exemple genre, apparence, origine, âge, handicap) ?"
+    },
+    "de": {
+      "#Yes": "Ja",
+      "#No": "Nein",
+      "#Doesn't apply to me": "Trifft auf mich nicht zu",
+      "#Prefer not to say": "Ich möchte nicht antworten",
+      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?": "Haben Sie zu Fuß oder im Rollstuhl Belästigung wegen Ihrer Identität oder Ihres Aussehens erlebt oder befürchten Sie diese (z. B. wegen Geschlecht, Aussehen, Herkunft, Alter oder Behinderung)?"
     },
     "tr": {
-      "#Doesn't apply to me": "Benim için geçerli değil",
+      "#Yes": "Evet",
       "#No": "Hayır",
+      "#Doesn't apply to me": "Benim için geçerli değil",
       "#Prefer not to say": "Yanıtlamak istemiyorum",
-      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age)?": "Yürürken veya tekerlekli sandalyeyle ilerlerken kim olduğunuz ya da nasıl göründüğünüz nedeniyle (örn. cinsiyet, görünüş, köken, yaş) taciz yaşadınız mı ya da bundan korkuyor musunuz?",
-      "#Yes": "Evet"
+      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?": "Yürürken veya tekerlekli sandalye kullanırken kimliğiniz ya da görünüşünüz nedeniyle tacize uğradınız mı veya bundan korkuyor musunuz (ör. cinsiyet, görünüş, köken, yaş, engellilik)?"
+    },
+    "fa": {
+      "#Yes": "بله",
+      "#No": "خیر",
+      "#Doesn't apply to me": "به من مربوط نمی‌شود",
+      "#Prefer not to say": "ترجیح می‌دهم پاسخ ندهم",
+      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?": "هنگام رفت‌وآمد پیاده یا با ویلچر، آیا به دلیل هویت یا ظاهرتان آزار دیده‌اید یا از آن می‌ترسید (مثلاً جنسیت، ظاهر، خاستگاه، سن یا معلولیت)؟"
+    },
+    "hu": {
+      "#Yes": "Igen",
+      "#No": "Nem",
+      "#Doesn't apply to me": "Rám nem vonatkozik",
+      "#Prefer not to say": "Nem szeretnék válaszolni",
+      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?": "Gyalogos vagy kerekesszékes közlekedés közben érte már zaklatás, vagy tart ettől az identitása vagy megjelenése miatt (például nem, külső, származás, életkor, fogyatékosság)?"
+    },
+    "ar": {
+      "#Yes": "نعم",
+      "#No": "لا",
+      "#Doesn't apply to me": "لا ينطبق عليّ",
+      "#Prefer not to say": "أفضل عدم الإجابة",
+      "#When you walk or use a wheelchair, have you experienced or do you fear harassment because of who you are or how you look (e.g. gender, appearance, origin, age, disability)?": "عند التنقل سيرًا على الأقدام أو بالكرسي المتحرك، هل سبق أن تعرضت لمضايقات أو تخشى التعرض لها بسبب هويتك أو مظهرك (مثل النوع الاجتماعي أو المظهر أو الأصل أو العمر أو الإعاقة)؟"
     }
   },
   "origin_project": {

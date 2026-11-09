@@ -2,16 +2,20 @@
   "question_id": "car_effort_vs_alternatives",
   "key": "car_effort_vs_alternatives",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car_experience",
   "source_questionnaires": [
-    "smarturbanity_car_experience"
+    "smarturbanity_car_experience",
+    "smarturbanity_car_effort"
   ],
   "schema": {
-    "add_i_dont_know": true,
+    "privacy_classification": "heightened_personal",
+    "text": "When you travel by car, how demanding is it compared with other ways you could travel?",
+    "help": "Think of both physical and mental effort. Other ways could be walking, cycling or public transport.",
     "answer_key": "car_effort_vs_alternatives",
-    "help": "Think of both physical and mental effort. Other ways could be walking, driving or public transport.",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
     "options": [
       {
         "text": "Much easier than the others",
@@ -37,91 +41,88 @@
         "text": "I have no other way to travel",
         "value": "no_alternative"
       }
-    ],
-    "privacy_classification": "heightened_personal",
-    "question_type": "single_option",
-    "text": "When you travel by car, how demanding is it compared with other ways you could travel?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#A bit easier": "أسهل قليلًا",
-      "#A bit more demanding": "أصعب قليلًا",
-      "#About the same": "بالقدر نفسه تقريبًا",
-      "#I have no other way to travel": "ليس لدي طريقة أخرى للتنقل",
-      "#Much easier than the others": "أسهل بكثير من غيرها",
-      "#Much more demanding": "أصعب بكثير",
-      "#Think of both physical and mental effort. Other ways could be walking, driving or public transport.": "المقصود الجهد البدني والذهني معًا. ومن الوسائل الأخرى المشي أو القيادة أو النقل العام.",
-      "#When you travel by car, how demanding is it compared with other ways you could travel?": "عند التنقل بالسيارة، ما مدى صعوبة ذلك مقارنةً بوسائل التنقل الأخرى المتاحة لك؟"
-    },
-    "de": {
-      "#A bit easier": "Etwas leichter",
-      "#A bit more demanding": "Etwas anstrengender",
-      "#About the same": "Ungefähr gleich",
-      "#I have no other way to travel": "Ich habe keine andere Möglichkeit, unterwegs zu sein",
-      "#Much easier than the others": "Viel leichter als die anderen",
-      "#Much more demanding": "Viel anstrengender",
-      "#Think of both physical and mental effort. Other ways could be walking, driving or public transport.": "Denken Sie an körperliche und geistige Anstrengung. Andere Möglichkeiten wären Gehen, Autofahren oder öffentlicher Verkehr.",
-      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Wie anstrengend ist das Fahren mit dem Auto im Vergleich zu anderen Fortbewegungsarten, die Sie nutzen könnten?"
-    },
     "en": {
-      "#A bit easier": "A bit easier",
-      "#A bit more demanding": "A bit more demanding",
-      "#About the same": "About the same",
-      "#I have no other way to travel": "I have no other way to travel",
+      "#When you travel by car, how demanding is it compared with other ways you could travel?": "When you travel by car, how demanding is it compared with other ways you could travel?",
       "#Much easier than the others": "Much easier than the others",
+      "#A bit easier": "A bit easier",
+      "#About the same": "About the same",
+      "#A bit more demanding": "A bit more demanding",
       "#Much more demanding": "Much more demanding",
-      "#Think of both physical and mental effort. Other ways could be walking, driving or public transport.": "Think of both physical and mental effort. Other ways could be walking, driving or public transport.",
-      "#When you travel by car, how demanding is it compared with other ways you could travel?": "When you travel by car, how demanding is it compared with other ways you could travel?"
-    },
-    "fa": {
-      "#A bit easier": "کمی راحت‌تر",
-      "#A bit more demanding": "کمی سخت‌تر",
-      "#About the same": "تقریباً یکسان",
-      "#I have no other way to travel": "روش دیگری برای سفر ندارم",
-      "#Much easier than the others": "خیلی راحت‌تر از بقیه",
-      "#Much more demanding": "خیلی سخت‌تر",
-      "#Think of both physical and mental effort. Other ways could be walking, driving or public transport.": "هم تلاش جسمی و هم ذهنی را در نظر بگیرید. روش‌های دیگر می‌تواند پیاده‌روی، رانندگی یا حمل‌ونقل عمومی باشد.",
-      "#When you travel by car, how demanding is it compared with other ways you could travel?": "هنگام سفر با خودرو، در مقایسه با روش‌های دیگر رفت‌وآمد، چقدر سخت و پرزحمت است؟"
-    },
-    "fr": {
-      "#A bit easier": "Un peu plus facile",
-      "#A bit more demanding": "Un peu plus exigeant",
-      "#About the same": "À peu près pareil",
-      "#I have no other way to travel": "Je n'ai pas d'autre moyen de me déplacer",
-      "#Much easier than the others": "Beaucoup plus facile que les autres",
-      "#Much more demanding": "Beaucoup plus exigeant",
-      "#Think of both physical and mental effort. Other ways could be walking, driving or public transport.": "Pensez à l'effort physique comme mental. Les autres façons peuvent être la marche, la conduite ou les transports en commun.",
-      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Lorsque vous vous déplacez en voiture, dans quelle mesure est-ce exigeant par rapport aux autres moyens de se déplacer ?"
-    },
-    "hu": {
-      "#A bit easier": "Kicsit könnyebb",
-      "#A bit more demanding": "Kicsit megterhelőbb",
-      "#About the same": "Nagyjából ugyanolyan",
-      "#I have no other way to travel": "Nincs más módom az utazásra",
-      "#Much easier than the others": "Sokkal könnyebb, mint a többi",
-      "#Much more demanding": "Sokkal megterhelőbb",
-      "#Think of both physical and mental effort. Other ways could be walking, driving or public transport.": "Gondoljon a testi és a szellemi megterhelésre is. Más módok lehetnek a gyaloglás, az autózás vagy a tömegközlekedés.",
-      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Autós utazás közben mennyire megterhelő ez a többi lehetőséghez képest, amellyel utazhatna?"
+      "#I have no other way to travel": "I have no other way to travel",
+      "#Think of both physical and mental effort. Other ways could be walking, cycling or public transport.": "Think of both physical and mental effort. Other ways could be walking, cycling or public transport."
     },
     "it": {
-      "#A bit easier": "Un po' più facile",
-      "#A bit more demanding": "Un po' più impegnativo",
-      "#About the same": "Più o meno uguale",
-      "#I have no other way to travel": "Non ho altri modi per spostarmi",
+      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Quando viaggi in auto, quanto è impegnativo rispetto ad altri modi di spostarsi?",
       "#Much easier than the others": "Molto più facile degli altri",
+      "#A bit easier": "Un po' più facile",
+      "#About the same": "Più o meno uguale",
+      "#A bit more demanding": "Un po' più impegnativo",
       "#Much more demanding": "Molto più impegnativo",
-      "#Think of both physical and mental effort. Other ways could be walking, driving or public transport.": "Pensa sia allo sforzo fisico sia a quello mentale. Gli altri modi possono essere camminare, guidare o i mezzi pubblici.",
-      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Quando viaggi in auto, quanto è impegnativo rispetto ad altri modi di spostarsi?"
+      "#I have no other way to travel": "Non ho altri modi per spostarmi",
+      "#Think of both physical and mental effort. Other ways could be walking, cycling or public transport.": "Pensa sia allo sforzo fisico sia a quello mentale. Gli altri modi possono essere camminare, andare in bici o i mezzi pubblici."
+    },
+    "fr": {
+      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Lorsque vous vous déplacez en voiture, dans quelle mesure est-ce exigeant par rapport aux autres moyens de se déplacer ?",
+      "#Much easier than the others": "Beaucoup plus facile que les autres",
+      "#A bit easier": "Un peu plus facile",
+      "#About the same": "À peu près pareil",
+      "#A bit more demanding": "Un peu plus exigeant",
+      "#Much more demanding": "Beaucoup plus exigeant",
+      "#I have no other way to travel": "Je n'ai pas d'autre moyen de me déplacer",
+      "#Think of both physical and mental effort. Other ways could be walking, cycling or public transport.": "Pensez à l'effort physique comme mental. Les autres façons peuvent être la marche, le vélo ou les transports en commun."
+    },
+    "de": {
+      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Wie anstrengend ist das Fahren mit dem Auto im Vergleich zu anderen Fortbewegungsarten, die Sie nutzen könnten?",
+      "#Much easier than the others": "Viel leichter als die anderen",
+      "#A bit easier": "Etwas leichter",
+      "#About the same": "Ungefähr gleich",
+      "#A bit more demanding": "Etwas anstrengender",
+      "#Much more demanding": "Viel anstrengender",
+      "#I have no other way to travel": "Ich habe keine andere Möglichkeit, unterwegs zu sein",
+      "#Think of both physical and mental effort. Other ways could be walking, cycling or public transport.": "Denken Sie an körperliche und geistige Anstrengung. Andere Möglichkeiten wären Gehen, Radfahren oder öffentlicher Verkehr."
     },
     "tr": {
-      "#A bit easier": "Biraz daha kolay",
-      "#A bit more demanding": "Biraz daha zorlayıcı",
-      "#About the same": "Yaklaşık aynı",
-      "#I have no other way to travel": "Başka bir yolculuk yolum yok",
+      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Arabayla yolculuk ederken gidebileceğiniz diğer yollara kıyasla bu ne kadar zahmetli?",
       "#Much easier than the others": "Diğerlerinden çok daha kolay",
+      "#A bit easier": "Biraz daha kolay",
+      "#About the same": "Yaklaşık aynı",
+      "#A bit more demanding": "Biraz daha zorlayıcı",
       "#Much more demanding": "Çok daha zorlayıcı",
-      "#Think of both physical and mental effort. Other ways could be walking, driving or public transport.": "Hem fiziksel hem de zihinsel eforu düşünün. Diğer yollar yürümek, otomobil kullanmak veya toplu taşıma olabilir.",
-      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Arabayla yolculuk ederken gidebileceğiniz diğer yollara kıyasla bu ne kadar zahmetli?"
+      "#I have no other way to travel": "Başka bir yolculuk yolum yok",
+      "#Think of both physical and mental effort. Other ways could be walking, cycling or public transport.": "Hem fiziksel hem de zihinsel eforu düşünün. Diğer yollar yürümek, bisiklet sürmek veya toplu taşıma olabilir."
+    },
+    "fa": {
+      "#When you travel by car, how demanding is it compared with other ways you could travel?": "هنگام سفر با خودرو، در مقایسه با روش‌های دیگر رفت‌وآمد، چقدر سخت و پرزحمت است؟",
+      "#Much easier than the others": "خیلی راحت‌تر از بقیه",
+      "#A bit easier": "کمی راحت‌تر",
+      "#About the same": "تقریباً یکسان",
+      "#A bit more demanding": "کمی سخت‌تر",
+      "#Much more demanding": "خیلی سخت‌تر",
+      "#I have no other way to travel": "روش دیگری برای سفر ندارم",
+      "#Think of both physical and mental effort. Other ways could be walking, cycling or public transport.": "هم تلاش جسمی و هم ذهنی را در نظر بگیرید. روش‌های دیگر می‌تواند پیاده‌روی، دوچرخه‌سواری یا حمل‌ونقل عمومی باشد."
+    },
+    "hu": {
+      "#When you travel by car, how demanding is it compared with other ways you could travel?": "Autós utazás közben mennyire megterhelő ez a többi lehetőséghez képest, amellyel utazhatna?",
+      "#Much easier than the others": "Sokkal könnyebb, mint a többi",
+      "#A bit easier": "Kicsit könnyebb",
+      "#About the same": "Nagyjából ugyanolyan",
+      "#A bit more demanding": "Kicsit megterhelőbb",
+      "#Much more demanding": "Sokkal megterhelőbb",
+      "#I have no other way to travel": "Nincs más módom az utazásra",
+      "#Think of both physical and mental effort. Other ways could be walking, cycling or public transport.": "Gondoljon a testi és a szellemi megterhelésre is. Más módok lehetnek a gyaloglás, a kerékpározás vagy a tömegközlekedés."
+    },
+    "ar": {
+      "#When you travel by car, how demanding is it compared with other ways you could travel?": "عند التنقل بالسيارة، ما مدى صعوبة ذلك مقارنةً بوسائل التنقل الأخرى المتاحة لك؟",
+      "#Much easier than the others": "أسهل بكثير من غيرها",
+      "#A bit easier": "أسهل قليلًا",
+      "#About the same": "بالقدر نفسه تقريبًا",
+      "#A bit more demanding": "أصعب قليلًا",
+      "#Much more demanding": "أصعب بكثير",
+      "#I have no other way to travel": "ليس لدي طريقة أخرى للتنقل",
+      "#Think of both physical and mental effort. Other ways could be walking, cycling or public transport.": "المقصود الجهد البدني والذهني معًا. ومن الوسائل الأخرى المشي أو ركوب الدراجة أو النقل العام."
     }
   },
   "origin_project": {

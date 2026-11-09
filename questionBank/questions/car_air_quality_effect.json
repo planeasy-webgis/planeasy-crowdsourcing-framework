@@ -2,14 +2,18 @@
   "question_id": "car_air_quality_effect",
   "key": "car_air_quality_effect",
   "project": "shared",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car_comfort",
   "source_questionnaires": [
-    "smarturbanity_car_comfort"
+    "smarturbanity_car_comfort",
+    "smarturbanity_car_surroundings"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?",
     "answer_key": "car_air_quality_effect",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Nothing, it doesn't affect me",
@@ -20,7 +24,7 @@
         "value": "i_notice_it_but_it_doesn_t_change_my_beh"
       },
       {
-        "text": "I protect myself, e.g. with a mask or closed windows",
+        "text": "I protect myself, e.g. by closing the windows",
         "value": "it_makes_me_adjust_how_i_travel_e_g_mask"
       },
       {
@@ -28,78 +32,75 @@
         "value": "it_makes_me_change_my_route_or_travel_at"
       },
       {
-        "text": "I travel another way (e.g. by bus instead of on foot)",
+        "text": "I travel another way (e.g. by metro instead of by car)",
         "value": "it_makes_me_switch_to_a_different_mode_o"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#I notice it, but I don't change anything": "ألاحظ ذلك، لكنني لا أغيّر شيئًا",
-      "#I protect myself, e.g. with a mask or closed windows": "أحمي نفسي، مثلًا بكمامة أو بإغلاق النوافذ",
-      "#I take another route or travel at another time": "أسلك طريقًا آخر أو أتنقل في وقت آخر",
-      "#I travel another way (e.g. by bus instead of on foot)": "أتنقل بطريقة أخرى (مثلًا بالحافلة بدل المشي)",
-      "#Nothing, it doesn't affect me": "لا شيء، لا يؤثر فيّ",
-      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "عند التنقل بالسيارة، ماذا تفعل عندما يكون الهواء سيئًا (عوادم المركبات أو الغبار أو الروائح الكريهة)؟"
-    },
-    "de": {
-      "#I notice it, but I don't change anything": "Ich merke es, ändere aber nichts",
-      "#I protect myself, e.g. with a mask or closed windows": "Ich schütze mich, z. B. mit einer Maske oder geschlossenen Fenstern",
-      "#I take another route or travel at another time": "Ich nehme eine andere Route oder fahre zu einer anderen Zeit",
-      "#I travel another way (e.g. by bus instead of on foot)": "Ich nutze ein anderes Verkehrsmittel (z. B. Bus statt zu Fuß)",
-      "#Nothing, it doesn't affect me": "Nichts, es betrifft mich nicht",
-      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Was tun Sie bei Autofahrten, wenn die Luft schlecht ist (Abgase, Staub, schlechte Gerüche)?"
-    },
     "en": {
-      "#I notice it, but I don't change anything": "I notice it, but I don't change anything",
-      "#I protect myself, e.g. with a mask or closed windows": "I protect myself, e.g. with a mask or closed windows",
-      "#I take another route or travel at another time": "I take another route or travel at another time",
-      "#I travel another way (e.g. by bus instead of on foot)": "I travel another way (e.g. by bus instead of on foot)",
+      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?",
       "#Nothing, it doesn't affect me": "Nothing, it doesn't affect me",
-      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?"
-    },
-    "fa": {
-      "#I notice it, but I don't change anything": "متوجه می‌شوم، اما چیزی را تغییر نمی‌دهم",
-      "#I protect myself, e.g. with a mask or closed windows": "از خودم محافظت می‌کنم، مثلاً با ماسک یا بستن شیشه‌ها",
-      "#I take another route or travel at another time": "مسیر دیگری می‌روم یا در زمان دیگری سفر می‌کنم",
-      "#I travel another way (e.g. by bus instead of on foot)": "با روش دیگری سفر می‌کنم (مثلاً با اتوبوس به جای پیاده)",
-      "#Nothing, it doesn't affect me": "هیچ کاری، بر من اثری ندارد",
-      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "هنگام سفر با خودرو، وقتی هوا آلوده است (دود اگزوز، گردوغبار، بوی بد) چه می‌کنید؟"
-    },
-    "fr": {
-      "#I notice it, but I don't change anything": "Je le remarque, mais je ne change rien",
-      "#I protect myself, e.g. with a mask or closed windows": "Je me protège, par ex. avec un masque ou en fermant les fenêtres",
-      "#I take another route or travel at another time": "Je prends un autre itinéraire ou je me déplace à un autre moment",
-      "#I travel another way (e.g. by bus instead of on foot)": "Je me déplace autrement (par ex. en bus plutôt qu'à pied)",
-      "#Nothing, it doesn't affect me": "Rien, cela ne m'affecte pas",
-      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Lorsque vous vous déplacez en voiture, que faites-vous quand l’air est mauvais (gaz d’échappement, poussière, mauvaises odeurs) ?"
-    },
-    "hu": {
-      "#I notice it, but I don't change anything": "Észreveszem, de nem változtatok semmit",
-      "#I protect myself, e.g. with a mask or closed windows": "Védekezem, például maszkkal vagy csukott ablakokkal",
-      "#I take another route or travel at another time": "Más útvonalat választok, vagy más időpontban utazom",
-      "#I travel another way (e.g. by bus instead of on foot)": "Más módon utazom (pl. busszal gyalog helyett)",
-      "#Nothing, it doesn't affect me": "Semmit, nincs hatással rám",
-      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Autós utazás közben mit tesz, ha rossz a levegő (kipufogógáz, por, kellemetlen szagok)?"
+      "#I notice it, but I don't change anything": "I notice it, but I don't change anything",
+      "#I take another route or travel at another time": "I take another route or travel at another time",
+      "#I protect myself, e.g. by closing the windows": "I protect myself, e.g. by closing the windows",
+      "#I travel another way (e.g. by metro instead of by car)": "I travel another way (e.g. by metro instead of by car)"
     },
     "it": {
-      "#I notice it, but I don't change anything": "Me ne accorgo, ma non cambio nulla",
-      "#I protect myself, e.g. with a mask or closed windows": "Mi proteggo, ad es. con una mascherina o i finestrini chiusi",
-      "#I take another route or travel at another time": "Prendo un altro percorso o mi sposto in un altro orario",
-      "#I travel another way (e.g. by bus instead of on foot)": "Mi sposto in un altro modo (ad es. in autobus invece che a piedi)",
+      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Quando viaggi in auto, cosa fai quando l’aria è cattiva (gas di scarico, polvere, cattivi odori)?",
       "#Nothing, it doesn't affect me": "Niente, non mi riguarda",
-      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Quando viaggi in auto, cosa fai quando l’aria è cattiva (gas di scarico, polvere, cattivi odori)?"
+      "#I notice it, but I don't change anything": "Me ne accorgo, ma non cambio nulla",
+      "#I take another route or travel at another time": "Prendo un altro percorso o mi sposto in un altro orario",
+      "#I protect myself, e.g. by closing the windows": "Mi proteggo, ad es. chiudendo i finestrini",
+      "#I travel another way (e.g. by metro instead of by car)": "Mi sposto in un altro modo (ad es. in metro invece che in auto)"
+    },
+    "fr": {
+      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Lorsque vous vous déplacez en voiture, que faites-vous quand l’air est mauvais (gaz d’échappement, poussière, mauvaises odeurs) ?",
+      "#Nothing, it doesn't affect me": "Rien, cela ne m'affecte pas",
+      "#I notice it, but I don't change anything": "Je le remarque, mais je ne change rien",
+      "#I take another route or travel at another time": "Je prends un autre itinéraire ou je me déplace à un autre moment",
+      "#I protect myself, e.g. by closing the windows": "Je me protège, par ex. en fermant les vitres",
+      "#I travel another way (e.g. by metro instead of by car)": "Je me déplace autrement (par ex. en métro plutôt qu'en voiture)"
+    },
+    "de": {
+      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Was tun Sie bei Autofahrten, wenn die Luft schlecht ist (Abgase, Staub, schlechte Gerüche)?",
+      "#Nothing, it doesn't affect me": "Nichts, es betrifft mich nicht",
+      "#I notice it, but I don't change anything": "Ich merke es, ändere aber nichts",
+      "#I take another route or travel at another time": "Ich nehme eine andere Route oder fahre zu einer anderen Zeit",
+      "#I protect myself, e.g. by closing the windows": "Ich schütze mich, z. B. mit geschlossenen Fenstern",
+      "#I travel another way (e.g. by metro instead of by car)": "Ich nutze ein anderes Verkehrsmittel (z. B. U-Bahn statt Auto)"
     },
     "tr": {
-      "#I notice it, but I don't change anything": "Fark ederim ama hiçbir şeyi değiştirmem",
-      "#I protect myself, e.g. with a mask or closed windows": "Kendimi korurum, örn. maske takarak veya camları kapatarak",
-      "#I take another route or travel at another time": "Başka bir güzergâh seçerim veya başka bir saatte yolculuk ederim",
-      "#I travel another way (e.g. by bus instead of on foot)": "Başka bir şekilde giderim (örn. yürümek yerine otobüsle)",
+      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Arabayla yolculuk ederken hava kötü olduğunda (egzoz dumanı, toz, kötü kokular) ne yaparsınız?",
       "#Nothing, it doesn't affect me": "Hiçbir şey, beni etkilemez",
-      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Arabayla yolculuk ederken hava kötü olduğunda (egzoz dumanı, toz, kötü kokular) ne yaparsınız?"
+      "#I notice it, but I don't change anything": "Fark ederim ama hiçbir şeyi değiştirmem",
+      "#I take another route or travel at another time": "Başka bir güzergâh seçerim veya başka bir saatte yolculuk ederim",
+      "#I protect myself, e.g. by closing the windows": "Kendimi korurum, örn. camları kapatarak",
+      "#I travel another way (e.g. by metro instead of by car)": "Başka bir şekilde giderim (örn. otomobil yerine metroyla)"
+    },
+    "fa": {
+      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "هنگام سفر با خودرو، وقتی هوا آلوده است (دود اگزوز، گردوغبار، بوی بد) چه می‌کنید؟",
+      "#Nothing, it doesn't affect me": "هیچ کاری، بر من اثری ندارد",
+      "#I notice it, but I don't change anything": "متوجه می‌شوم، اما چیزی را تغییر نمی‌دهم",
+      "#I take another route or travel at another time": "مسیر دیگری می‌روم یا در زمان دیگری سفر می‌کنم",
+      "#I protect myself, e.g. by closing the windows": "از خودم محافظت می‌کنم، مثلاً با بستن شیشه‌ها",
+      "#I travel another way (e.g. by metro instead of by car)": "با روش دیگری سفر می‌کنم (مثلاً با مترو به جای خودرو)"
+    },
+    "hu": {
+      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Autós utazás közben mit tesz, ha rossz a levegő (kipufogógáz, por, kellemetlen szagok)?",
+      "#Nothing, it doesn't affect me": "Semmit, nincs hatással rám",
+      "#I notice it, but I don't change anything": "Észreveszem, de nem változtatok semmit",
+      "#I take another route or travel at another time": "Más útvonalat választok, vagy más időpontban utazom",
+      "#I protect myself, e.g. by closing the windows": "Védekezem, például csukott ablakokkal",
+      "#I travel another way (e.g. by metro instead of by car)": "Más módon utazom (pl. metróval autó helyett)"
+    },
+    "ar": {
+      "#When you travel by car, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "عند التنقل بالسيارة، ما تصرّفك عندما يكون الهواء سيئًا (عوادم المركبات أو الغبار أو الروائح الكريهة)؟",
+      "#Nothing, it doesn't affect me": "لا شيء، لا يؤثر فيّ",
+      "#I notice it, but I don't change anything": "ألاحظ ذلك، لكنني لا أغيّر شيئًا",
+      "#I take another route or travel at another time": "أسلك طريقًا آخر أو أتنقل في وقت آخر",
+      "#I protect myself, e.g. by closing the windows": "أحمي نفسي، مثلًا بإغلاق النوافذ",
+      "#I travel another way (e.g. by metro instead of by car)": "أتنقل بطريقة أخرى (مثلًا بالمترو بدل السيارة)"
     }
   },
   "origin_project": {

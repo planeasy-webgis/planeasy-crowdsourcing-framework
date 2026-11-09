@@ -2,7 +2,7 @@
   "question_id": "service_subtype",
   "key": "service_subtype",
   "project": "shared",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_service",
   "source_questionnaires": [
@@ -10,39 +10,47 @@
   ],
   "schema": {
     "answer_key": "serviceSubtype",
+    "text": "Service subtype",
+    "question_type": "select",
     "control": {
       "id": "serviceSubtype",
       "input_type": "search_select",
       "placeholder": "Select an optional pilot-defined subtype"
     },
-    "privacy_classification": "personal_data",
-    "question_type": "select",
-    "text": "Service subtype"
+    "privacy_classification": "personal_data"
   },
   "translations": {
-    "ar": {
-      "#Service subtype": "النوع الفرعي للخدمة"
-    },
-    "de": {
-      "#Service subtype": "Untertyp des Dienstes"
-    },
     "en": {
-      "#Service subtype": "Service subtype"
-    },
-    "fa": {
-      "#Service subtype": "زیرنوع خدمت"
-    },
-    "fr": {
-      "#Service subtype": "Sous-type de service"
-    },
-    "hu": {
-      "#Service subtype": "A szolgáltatás altípusa"
+      "#Service subtype": "Service subtype",
+      "#Select an optional pilot-defined subtype": "Select an optional pilot-defined subtype"
     },
     "it": {
-      "#Service subtype": "Sottotipo del servizio"
+      "#Service subtype": "Sottotipo del servizio",
+      "#Select an optional pilot-defined subtype": "Scegli un sottotipo facoltativo definito dal progetto pilota"
+    },
+    "fr": {
+      "#Service subtype": "Sous-type de service",
+      "#Select an optional pilot-defined subtype": "Choisissez un sous-type facultatif défini par le pilote"
+    },
+    "de": {
+      "#Service subtype": "Untertyp des Dienstes",
+      "#Select an optional pilot-defined subtype": "Optionalen, vom Pilotprojekt festgelegten Untertyp auswählen"
     },
     "tr": {
-      "#Service subtype": "Hizmet alt türü"
+      "#Service subtype": "Hizmet alt türü",
+      "#Select an optional pilot-defined subtype": "Pilot projede tanımlanmış isteğe bağlı bir alt tür seçin"
+    },
+    "fa": {
+      "#Service subtype": "زیرنوع خدمت",
+      "#Select an optional pilot-defined subtype": "یک زیرنوع اختیاری تعریف‌شده در طرح آزمایشی را انتخاب کنید"
+    },
+    "hu": {
+      "#Service subtype": "A szolgáltatás altípusa",
+      "#Select an optional pilot-defined subtype": "Válasszon a kísérleti projektben meghatározott, nem kötelező altípust"
+    },
+    "ar": {
+      "#Service subtype": "النوع الفرعي للخدمة",
+      "#Select an optional pilot-defined subtype": "يمكن اختيار نوع فرعي اختياري يحدده المشروع التجريبي"
     }
   },
   "origin_project": {

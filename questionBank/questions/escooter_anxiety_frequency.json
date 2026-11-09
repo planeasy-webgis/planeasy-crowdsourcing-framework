@@ -2,14 +2,17 @@
   "question_id": "escooter_anxiety_frequency",
   "key": "escooter_anxiety_frequency",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_e_scooter_experience",
   "source_questionnaires": [
     "smarturbanity_e_scooter_experience"
   ],
   "schema": {
+    "privacy_classification": "special_category_health",
+    "text": "When you ride an e-scooter, how often do you feel anxious or overwhelmed?",
     "answer_key": "escooter_anxiety_frequency",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Never",
@@ -31,75 +34,72 @@
         "text": "All the time",
         "value": "constantly"
       }
-    ],
-    "privacy_classification": "special_category_health",
-    "question_type": "single_option",
-    "text": "When you ride an e-scooter, how often do you feel anxious or overwhelmed?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#All the time": "طوال الوقت",
-      "#Never": "أبدًا",
-      "#Often": "غالبًا",
-      "#Rarely": "نادرًا",
-      "#Sometimes": "أحيانًا",
-      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "عند ركوب السكوتر الكهربائي، كم مرة تشعر بالقلق أو بأن الأمور أكبر منك؟"
-    },
-    "de": {
-      "#All the time": "Die ganze Zeit",
-      "#Never": "Nie",
-      "#Often": "Oft",
-      "#Rarely": "Selten",
-      "#Sometimes": "Manchmal",
-      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Wie oft fühlen Sie sich beim E-Scooter-Fahren ängstlich oder überfordert?"
-    },
     "en": {
-      "#All the time": "All the time",
+      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "When you ride an e-scooter, how often do you feel anxious or overwhelmed?",
       "#Never": "Never",
-      "#Often": "Often",
       "#Rarely": "Rarely",
       "#Sometimes": "Sometimes",
-      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "When you ride an e-scooter, how often do you feel anxious or overwhelmed?"
-    },
-    "fa": {
-      "#All the time": "همیشه",
-      "#Never": "هرگز",
-      "#Often": "اغلب",
-      "#Rarely": "به‌ندرت",
-      "#Sometimes": "گاهی",
-      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "هنگام استفاده از اسکوتر برقی، چند وقت یک بار احساس نگرانی یا فشار زیاد می‌کنید؟"
-    },
-    "fr": {
-      "#All the time": "Tout le temps",
-      "#Never": "Jamais",
-      "#Often": "Souvent",
-      "#Rarely": "Rarement",
-      "#Sometimes": "Parfois",
-      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Lorsque vous roulez en trottinette électrique, à quelle fréquence éprouvez-vous de l’anxiété ou une sensation de surcharge ?"
-    },
-    "hu": {
-      "#All the time": "Mindig",
-      "#Never": "Soha",
-      "#Often": "Gyakran",
-      "#Rarely": "Ritkán",
-      "#Sometimes": "Néha",
-      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Elektromos rollerezés közben milyen gyakran érzi magát szorongónak vagy túlterheltnek?"
+      "#Often": "Often",
+      "#All the time": "All the time"
     },
     "it": {
-      "#All the time": "Sempre",
+      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Quando vai in monopattino elettrico, quanto spesso provi ansia o un senso di sopraffazione?",
       "#Never": "Mai",
-      "#Often": "Spesso",
       "#Rarely": "Raramente",
       "#Sometimes": "A volte",
-      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Quando vai in monopattino elettrico, quanto spesso provi ansia o un senso di sopraffazione?"
+      "#Often": "Spesso",
+      "#All the time": "Sempre"
+    },
+    "fr": {
+      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Lorsque vous roulez en trottinette électrique, à quelle fréquence éprouvez-vous de l’anxiété ou une sensation de surcharge ?",
+      "#Never": "Jamais",
+      "#Rarely": "Rarement",
+      "#Sometimes": "Parfois",
+      "#Often": "Souvent",
+      "#All the time": "Tout le temps"
+    },
+    "de": {
+      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Wie oft fühlen Sie sich beim E-Scooter-Fahren ängstlich oder überfordert?",
+      "#Never": "Nie",
+      "#Rarely": "Selten",
+      "#Sometimes": "Manchmal",
+      "#Often": "Oft",
+      "#All the time": "Die ganze Zeit"
     },
     "tr": {
-      "#All the time": "Her zaman",
+      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Elektrikli scooter kullanırken ne sıklıkla kaygılı veya bunalmış hissedersiniz?",
       "#Never": "Hiçbir zaman",
-      "#Often": "Sık sık",
       "#Rarely": "Nadiren",
       "#Sometimes": "Bazen",
-      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Elektrikli scooter kullanırken ne sıklıkla kaygılı veya bunalmış hissedersiniz?"
+      "#Often": "Sık sık",
+      "#All the time": "Her zaman"
+    },
+    "fa": {
+      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "هنگام استفاده از اسکوتر برقی، چند وقت یک بار احساس نگرانی یا فشار زیاد می‌کنید؟",
+      "#Never": "هرگز",
+      "#Rarely": "به‌ندرت",
+      "#Sometimes": "گاهی",
+      "#Often": "اغلب",
+      "#All the time": "همیشه"
+    },
+    "hu": {
+      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "Elektromos rollerezés közben milyen gyakran érzi magát szorongónak vagy túlterheltnek?",
+      "#Never": "Soha",
+      "#Rarely": "Ritkán",
+      "#Sometimes": "Néha",
+      "#Often": "Gyakran",
+      "#All the time": "Mindig"
+    },
+    "ar": {
+      "#When you ride an e-scooter, how often do you feel anxious or overwhelmed?": "عند ركوب السكوتر الكهربائي، كم مرة ينتابك القلق أو الشعور بأن الأمور أكبر منك؟",
+      "#Never": "أبدًا",
+      "#Rarely": "نادرًا",
+      "#Sometimes": "أحيانًا",
+      "#Often": "غالبًا",
+      "#All the time": "طوال الوقت"
     }
   },
   "origin_project": {

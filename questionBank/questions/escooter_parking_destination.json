@@ -2,15 +2,18 @@
   "question_id": "escooter_parking_destination",
   "key": "escooter_parking_destination",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_e_scooter_comfort",
   "source_questionnaires": [
     "smarturbanity_e_scooter_comfort"
   ],
   "schema": {
-    "answer_key": "escooter_parking_destination",
+    "privacy_classification": "personal_data",
+    "text": "Where you go most often, is there a good place to leave your e-scooter?",
     "help": "For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.",
+    "answer_key": "escooter_parking_destination",
+    "question_type": "single_option",
     "options": [
       {
         "text": "No, there is nowhere safe to leave it",
@@ -32,83 +35,80 @@
         "text": "Yes, always safe and handy",
         "value": "very_adequate_secure_and_convenient_park"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "Where you go most often, is there a good place to leave your e-scooter?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "للسكوتر الكهربائي الخاص، مكان يمكن قفله فيه بأمان؛ وللمشترك، منطقة يُسمح بركنه فيها.",
-      "#No, there is nowhere safe to leave it": "لا، لا يوجد مكان آمن لتركه",
-      "#There is some, but too little or too far away": "توجد بعض الأماكن، لكنها قليلة جدًا أو بعيدة",
-      "#Where you go most often, is there a good place to leave your e-scooter?": "في الأماكن التي تقصدها أكثر، هل يوجد مكان جيد لترك السكوتر الكهربائي؟",
-      "#Yes, I can usually find a good place": "نعم، أجد عادةً مكانًا جيدًا",
-      "#Yes, always safe and handy": "نعم، دائمًا آمن وقريب",
-      "#Yes, but it isn't always handy or safe": "نعم، لكنه ليس دائمًا قريبًا أو آمنًا"
-    },
-    "de": {
-      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "Für den eigenen E-Scooter ein Platz, an dem Sie ihn sicher abschließen können; für einen geliehenen ein Bereich, in dem Abstellen erlaubt ist.",
-      "#No, there is nowhere safe to leave it": "Nein, es gibt keinen sicheren Ort dafür",
-      "#There is some, but too little or too far away": "Es gibt welche, aber zu wenige oder zu weit weg",
-      "#Where you go most often, is there a good place to leave your e-scooter?": "Gibt es dort, wohin Sie am häufigsten fahren, einen guten Platz, um Ihren E-Scooter abzustellen?",
-      "#Yes, I can usually find a good place": "Ja, ich finde meistens einen guten Platz",
-      "#Yes, always safe and handy": "Ja, immer sicher und praktisch",
-      "#Yes, but it isn't always handy or safe": "Ja, aber nicht immer praktisch oder sicher"
-    },
     "en": {
+      "#Where you go most often, is there a good place to leave your e-scooter?": "Where you go most often, is there a good place to leave your e-scooter?",
       "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.",
       "#No, there is nowhere safe to leave it": "No, there is nowhere safe to leave it",
       "#There is some, but too little or too far away": "There is some, but too little or too far away",
-      "#Where you go most often, is there a good place to leave your e-scooter?": "Where you go most often, is there a good place to leave your e-scooter?",
+      "#Yes, but it isn't always handy or safe": "Yes, but it isn't always handy or safe",
       "#Yes, I can usually find a good place": "Yes, I can usually find a good place",
-      "#Yes, always safe and handy": "Yes, always safe and handy",
-      "#Yes, but it isn't always handy or safe": "Yes, but it isn't always handy or safe"
-    },
-    "fa": {
-      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "برای اسکوتر برقی شخصی، جایی که بتوان آن را امن قفل کرد؛ برای اسکوتر اشتراکی، محدوده‌ای که پارک در آن مجاز است.",
-      "#No, there is nowhere safe to leave it": "نه، جای امنی برای گذاشتن آن نیست",
-      "#There is some, but too little or too far away": "کمی هست، اما خیلی کم است یا دور است",
-      "#Where you go most often, is there a good place to leave your e-scooter?": "در جاهایی که بیشتر می‌روید، جای خوبی برای گذاشتن اسکوتر برقی وجود دارد؟",
-      "#Yes, I can usually find a good place": "بله، معمولاً جای خوبی پیدا می‌کنم",
-      "#Yes, always safe and handy": "بله، همیشه امن و در دسترس",
-      "#Yes, but it isn't always handy or safe": "بله، اما همیشه در دسترس یا امن نیست"
-    },
-    "fr": {
-      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "Pour la vôtre, un endroit où l’attacher en sécurité ; pour une trottinette en libre-service, une zone où le stationnement est autorisé.",
-      "#No, there is nowhere safe to leave it": "Non, il n'y a aucun endroit sûr pour le laisser",
-      "#There is some, but too little or too far away": "Il y en a, mais trop peu ou trop loin",
-      "#Where you go most often, is there a good place to leave your e-scooter?": "Là où vous allez le plus souvent, y a-t-il un bon endroit où laisser votre trottinette électrique ?",
-      "#Yes, I can usually find a good place": "Oui, je trouve en général un bon endroit",
-      "#Yes, always safe and handy": "Oui, toujours sûr et pratique",
-      "#Yes, but it isn't always handy or safe": "Oui, mais ce n'est pas toujours pratique ou sûr"
-    },
-    "hu": {
-      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "Saját elektromos rollernél olyan hely, ahol biztonságosan lezárhatja; megosztottnál olyan terület, ahol szabad parkolni.",
-      "#No, there is nowhere safe to leave it": "Nem, nincs biztonságos hely, ahol otthagyhatnám",
-      "#There is some, but too little or too far away": "Van, de túl kevés, vagy túl messze van",
-      "#Where you go most often, is there a good place to leave your e-scooter?": "Ott, ahová a leggyakrabban megy, van jó hely, ahol az elektromos rollerét hagyhatja?",
-      "#Yes, I can usually find a good place": "Igen, általában találok jó helyet",
-      "#Yes, always safe and handy": "Igen, mindig biztonságos és könnyen elérhető",
-      "#Yes, but it isn't always handy or safe": "Igen, de nem mindig könnyen elérhető vagy biztonságos"
+      "#Yes, always safe and handy": "Yes, always safe and handy"
     },
     "it": {
+      "#Where you go most often, is there a good place to leave your e-scooter?": "Nei posti dove vai più spesso, c’è un buon posto dove lasciare il monopattino elettrico?",
       "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "Per il tuo monopattino, un posto dove chiuderlo in modo sicuro; per uno in condivisione, un’area dove il parcheggio è consentito.",
       "#No, there is nowhere safe to leave it": "No, non c'è nessun posto sicuro dove lasciarla",
       "#There is some, but too little or too far away": "Ce n'è qualcuno, ma troppo poco o troppo lontano",
-      "#Where you go most often, is there a good place to leave your e-scooter?": "Nei posti dove vai più spesso, c’è un buon posto dove lasciare il monopattino elettrico?",
+      "#Yes, but it isn't always handy or safe": "Sì, ma non è sempre comodo o sicuro",
       "#Yes, I can usually find a good place": "Sì, di solito trovo un buon posto",
-      "#Yes, always safe and handy": "Sì, sempre sicuro e comodo",
-      "#Yes, but it isn't always handy or safe": "Sì, ma non è sempre comodo o sicuro"
+      "#Yes, always safe and handy": "Sì, sempre sicuro e comodo"
+    },
+    "fr": {
+      "#Where you go most often, is there a good place to leave your e-scooter?": "Là où vous allez le plus souvent, y a-t-il un bon endroit où laisser votre trottinette électrique ?",
+      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "Pour la vôtre, un endroit où l’attacher en sécurité ; pour une trottinette en libre-service, une zone où le stationnement est autorisé.",
+      "#No, there is nowhere safe to leave it": "Non, il n'y a aucun endroit sûr pour le laisser",
+      "#There is some, but too little or too far away": "Il y en a, mais trop peu ou trop loin",
+      "#Yes, but it isn't always handy or safe": "Oui, mais ce n'est pas toujours pratique ou sûr",
+      "#Yes, I can usually find a good place": "Oui, je trouve en général un bon endroit",
+      "#Yes, always safe and handy": "Oui, toujours sûr et pratique"
+    },
+    "de": {
+      "#Where you go most often, is there a good place to leave your e-scooter?": "Gibt es dort, wohin Sie am häufigsten fahren, einen guten Platz, um Ihren E-Scooter abzustellen?",
+      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "Für den eigenen E-Scooter ein Platz, an dem Sie ihn sicher abschließen können; für einen geliehenen ein Bereich, in dem Abstellen erlaubt ist.",
+      "#No, there is nowhere safe to leave it": "Nein, es gibt keinen sicheren Ort dafür",
+      "#There is some, but too little or too far away": "Es gibt welche, aber zu wenige oder zu weit weg",
+      "#Yes, but it isn't always handy or safe": "Ja, aber nicht immer praktisch oder sicher",
+      "#Yes, I can usually find a good place": "Ja, ich finde meistens einen guten Platz",
+      "#Yes, always safe and handy": "Ja, immer sicher und praktisch"
     },
     "tr": {
+      "#Where you go most often, is there a good place to leave your e-scooter?": "En sık gittiğiniz yerlerde elektrikli scooter'ınızı bırakabileceğiniz iyi bir yer var mı?",
       "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "Kendi elektrikli scooter'ınız için güvenle kilitleyebileceğiniz bir yer; paylaşımlı olan için park etmeye izin verilen bir alan.",
       "#No, there is nowhere safe to leave it": "Hayır, bırakabileceğim güvenli bir yer yok",
       "#There is some, but too little or too far away": "Var ama çok az veya çok uzak",
-      "#Where you go most often, is there a good place to leave your e-scooter?": "En sık gittiğiniz yerlerde elektrikli scooter'ınızı bırakabileceğiniz iyi bir yer var mı?",
+      "#Yes, but it isn't always handy or safe": "Evet, ama her zaman elverişli veya güvenli değil",
       "#Yes, I can usually find a good place": "Evet, genellikle iyi bir yer bulabiliyorum",
-      "#Yes, always safe and handy": "Evet, her zaman güvenli ve elverişli",
-      "#Yes, but it isn't always handy or safe": "Evet, ama her zaman elverişli veya güvenli değil"
+      "#Yes, always safe and handy": "Evet, her zaman güvenli ve elverişli"
+    },
+    "fa": {
+      "#Where you go most often, is there a good place to leave your e-scooter?": "در جاهایی که بیشتر می‌روید، جای خوبی برای گذاشتن اسکوتر برقی وجود دارد؟",
+      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "برای اسکوتر برقی شخصی، جایی که بتوان آن را امن قفل کرد؛ برای اسکوتر اشتراکی، محدوده‌ای که پارک در آن مجاز است.",
+      "#No, there is nowhere safe to leave it": "نه، جای امنی برای گذاشتن آن نیست",
+      "#There is some, but too little or too far away": "کمی هست، اما خیلی کم است یا دور است",
+      "#Yes, but it isn't always handy or safe": "بله، اما همیشه در دسترس یا امن نیست",
+      "#Yes, I can usually find a good place": "بله، معمولاً جای خوبی پیدا می‌کنم",
+      "#Yes, always safe and handy": "بله، همیشه امن و در دسترس"
+    },
+    "hu": {
+      "#Where you go most often, is there a good place to leave your e-scooter?": "Ott, ahová a leggyakrabban megy, van jó hely, ahol az elektromos rollerét hagyhatja?",
+      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "Saját elektromos rollernél olyan hely, ahol biztonságosan lezárhatja; megosztottnál olyan terület, ahol szabad parkolni.",
+      "#No, there is nowhere safe to leave it": "Nem, nincs biztonságos hely, ahol otthagyhatnám",
+      "#There is some, but too little or too far away": "Van, de túl kevés, vagy túl messze van",
+      "#Yes, but it isn't always handy or safe": "Igen, de nem mindig könnyen elérhető vagy biztonságos",
+      "#Yes, I can usually find a good place": "Igen, általában találok jó helyet",
+      "#Yes, always safe and handy": "Igen, mindig biztonságos és könnyen elérhető"
+    },
+    "ar": {
+      "#Where you go most often, is there a good place to leave your e-scooter?": "في وجهاتك الأكثر تكرارًا، هل يوجد مكان جيد لترك السكوتر الكهربائي؟",
+      "#For your own e-scooter, a place where you can lock it safely; for a shared one, an area where parking is allowed.": "للسكوتر الكهربائي الخاص، مكان يمكن قفله فيه بأمان؛ وللمشترك، منطقة يُسمح بركنه فيها.",
+      "#No, there is nowhere safe to leave it": "لا، لا يوجد مكان آمن لتركه",
+      "#There is some, but too little or too far away": "توجد بعض الأماكن، لكنها قليلة جدًا أو بعيدة",
+      "#Yes, but it isn't always handy or safe": "نعم، لكنه ليس دائمًا قريبًا أو آمنًا",
+      "#Yes, I can usually find a good place": "نعم، أجد عادةً مكانًا جيدًا",
+      "#Yes, always safe and handy": "نعم، دائمًا آمن وقريب"
     }
   },
   "origin_project": {

@@ -2,14 +2,18 @@
   "question_id": "escooter_time_vs_expected",
   "key": "escooter_time_vs_expected",
   "project": "shared",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_e_scooter_experience",
   "source_questionnaires": [
-    "smarturbanity_e_scooter_experience"
+    "smarturbanity_e_scooter_experience",
+    "smarturbanity_e_scooter_effort"
   ],
   "schema": {
+    "privacy_classification": "heightened_personal",
+    "text": "When you ride an e-scooter, how often do you arrive in the time you planned?",
     "answer_key": "escooter_time_vs_expected",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Never",
@@ -31,75 +35,72 @@
         "text": "Always",
         "value": "always"
       }
-    ],
-    "privacy_classification": "heightened_personal",
-    "question_type": "single_option",
-    "text": "When you ride an e-scooter, how often do you arrive in the time you planned?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#Always": "دائمًا",
-      "#Never": "أبدًا",
-      "#Often": "غالبًا",
-      "#Rarely": "نادرًا",
-      "#Sometimes": "أحيانًا",
-      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "عند ركوب السكوتر الكهربائي، كم مرة تصل في الوقت الذي خططت له؟"
-    },
-    "de": {
-      "#Always": "Immer",
-      "#Never": "Nie",
-      "#Often": "Oft",
-      "#Rarely": "Selten",
-      "#Sometimes": "Manchmal",
-      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Wie oft kommen Sie mit dem E-Scooter in der Zeit an, die Sie eingeplant haben?"
-    },
     "en": {
-      "#Always": "Always",
       "#Never": "Never",
-      "#Often": "Often",
       "#Rarely": "Rarely",
       "#Sometimes": "Sometimes",
-      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "When you ride an e-scooter, how often do you arrive in the time you planned?"
-    },
-    "fa": {
-      "#Always": "همیشه",
-      "#Never": "هرگز",
-      "#Often": "اغلب",
-      "#Rarely": "به‌ندرت",
-      "#Sometimes": "گاهی",
-      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "هنگام استفاده از اسکوتر برقی، چقدر پیش می‌آید که در زمانی که برنامه‌ریزی کرده‌اید به مقصد برسید؟"
-    },
-    "fr": {
-      "#Always": "Toujours",
-      "#Never": "Jamais",
-      "#Often": "Souvent",
-      "#Rarely": "Rarement",
-      "#Sometimes": "Parfois",
-      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Lorsque vous roulez en trottinette électrique, à quelle fréquence arrivez-vous dans le temps que vous aviez prévu ?"
-    },
-    "hu": {
-      "#Always": "Mindig",
-      "#Never": "Soha",
-      "#Often": "Gyakran",
-      "#Rarely": "Ritkán",
-      "#Sometimes": "Néha",
-      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Ha elektromos rollerrel közlekedik, milyen gyakran ér célba a tervezett idő alatt?"
+      "#Often": "Often",
+      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "When you ride an e-scooter, how often do you arrive in the time you planned?",
+      "#Always": "Always"
     },
     "it": {
-      "#Always": "Sempre",
       "#Never": "Mai",
-      "#Often": "Spesso",
       "#Rarely": "Raramente",
       "#Sometimes": "A volte",
-      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Quando vai in monopattino elettrico, quanto spesso arrivi nel tempo che avevi previsto?"
+      "#Often": "Spesso",
+      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Quando vai in monopattino elettrico, quanto spesso arrivi nel tempo che avevi previsto?",
+      "#Always": "Sempre"
+    },
+    "fr": {
+      "#Never": "Jamais",
+      "#Rarely": "Rarement",
+      "#Sometimes": "Parfois",
+      "#Often": "Souvent",
+      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Lorsque vous roulez en trottinette électrique, à quelle fréquence arrivez-vous dans le temps que vous aviez prévu ?",
+      "#Always": "Toujours"
+    },
+    "de": {
+      "#Never": "Nie",
+      "#Rarely": "Selten",
+      "#Sometimes": "Manchmal",
+      "#Often": "Oft",
+      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Wie oft kommen Sie mit dem E-Scooter in der Zeit an, die Sie eingeplant haben?",
+      "#Always": "Immer"
     },
     "tr": {
-      "#Always": "Her zaman",
       "#Never": "Hiçbir zaman",
-      "#Often": "Sık sık",
       "#Rarely": "Nadiren",
       "#Sometimes": "Bazen",
-      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Elektrikli scooter kullanırken gideceğiniz yere ne sıklıkla planladığınız sürede ulaşıyorsunuz?"
+      "#Often": "Sık sık",
+      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Elektrikli scooter kullanırken gideceğiniz yere ne sıklıkla planladığınız sürede ulaşıyorsunuz?",
+      "#Always": "Her zaman"
+    },
+    "fa": {
+      "#Never": "هرگز",
+      "#Rarely": "به‌ندرت",
+      "#Sometimes": "گاهی",
+      "#Often": "اغلب",
+      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "هنگام استفاده از اسکوتر برقی، چقدر پیش می‌آید که در زمانی که برنامه‌ریزی کرده‌اید به مقصد برسید؟",
+      "#Always": "همیشه"
+    },
+    "hu": {
+      "#Never": "Soha",
+      "#Rarely": "Ritkán",
+      "#Sometimes": "Néha",
+      "#Often": "Gyakran",
+      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "Ha elektromos rollerrel közlekedik, milyen gyakran ér célba a tervezett idő alatt?",
+      "#Always": "Mindig"
+    },
+    "ar": {
+      "#Never": "أبدًا",
+      "#Rarely": "نادرًا",
+      "#Sometimes": "أحيانًا",
+      "#Often": "غالبًا",
+      "#When you ride an e-scooter, how often do you arrive in the time you planned?": "عند ركوب السكوتر الكهربائي، كم مرة يكون وصولك في الوقت الذي خططت له؟",
+      "#Always": "دائمًا"
     }
   },
   "origin_project": {

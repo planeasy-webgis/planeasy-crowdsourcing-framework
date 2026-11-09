@@ -2,15 +2,18 @@
   "question_id": "motorcycle_calming",
   "key": "motorcycle_calming",
   "project": "shared",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle",
   "source_questionnaires": [
     "smarturbanity_motorcycle_road_safety"
   ],
   "schema": {
-    "answer_key": "motorcycle_calming",
+    "privacy_classification": "personal_data",
+    "text": "Do speed bumps and similar features make you feel safer when you ride?",
     "help": "Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.",
+    "answer_key": "motorcycle_calming",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Much less safe",
@@ -32,83 +35,80 @@
         "text": "Much safer",
         "value": "much_safer"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "Do speed bumps and similar features make you feel safer when you ride?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#A little less safe": "أقل أمانًا قليلًا",
-      "#A little safer": "أكثر أمانًا قليلًا",
-      "#Do speed bumps and similar features make you feel safer when you ride?": "هل تجعلك المطبات وما يشبهها تشعر بأمان أكبر عندما تقود؟",
-      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "وسائل تُبطئ حركة المرور، مثل المطبات أو الشرائط المهتزة أو المعابر المرتفعة أو خطوط الطريق.",
-      "#Much less safe": "أقل أمانًا بكثير",
-      "#Much safer": "أكثر أمانًا بكثير",
-      "#No difference": "لا فرق"
-    },
-    "de": {
-      "#A little less safe": "Etwas unsicherer",
-      "#A little safer": "Etwas sicherer",
-      "#Do speed bumps and similar features make you feel safer when you ride?": "Geben Ihnen Bodenwellen und Ähnliches mehr Sicherheit beim Fahren?",
-      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Dinge, die den Verkehr bremsen, etwa Bodenwellen, Rüttelstreifen, erhöhte Übergänge oder Fahrbahnmarkierungen.",
-      "#Much less safe": "Viel unsicherer",
-      "#Much safer": "Viel sicherer",
-      "#No difference": "Kein Unterschied"
-    },
     "en": {
-      "#A little less safe": "A little less safe",
-      "#A little safer": "A little safer",
       "#Do speed bumps and similar features make you feel safer when you ride?": "Do speed bumps and similar features make you feel safer when you ride?",
       "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.",
       "#Much less safe": "Much less safe",
-      "#Much safer": "Much safer",
-      "#No difference": "No difference"
+      "#A little less safe": "A little less safe",
+      "#No difference": "No difference",
+      "#A little safer": "A little safer",
+      "#Much safer": "Much safer"
     },
-    "fa": {
-      "#A little less safe": "کمی ناامن‌تر",
-      "#A little safer": "کمی امن‌تر",
-      "#Do speed bumps and similar features make you feel safer when you ride?": "آیا سرعت‌گیر و موارد مشابه باعث می‌شود هنگام سواری احساس امنیت بیشتری کنید؟",
-      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "ابزارهایی که سرعت ترافیک را کم می‌کنند، مثل سرعت‌گیر، نوار هشداردهنده، گذرگاه بلندشده یا خط‌کشی جاده.",
-      "#Much less safe": "بسیار ناامن‌تر",
-      "#Much safer": "خیلی امن‌تر",
-      "#No difference": "فرقی نمی‌کند"
+    "it": {
+      "#Do speed bumps and similar features make you feel safer when you ride?": "Dossi e simili ti fanno sentire più al sicuro quando guidi?",
+      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Elementi che rallentano il traffico, come dossi, bande sonore, attraversamenti rialzati o segnaletica a terra.",
+      "#Much less safe": "Molto meno al sicuro",
+      "#A little less safe": "Un po' meno al sicuro",
+      "#No difference": "Nessuna differenza",
+      "#A little safer": "Un po' più al sicuro",
+      "#Much safer": "Molto più al sicuro"
     },
     "fr": {
-      "#A little less safe": "Un peu moins en sécurité",
-      "#A little safer": "Un peu plus en sécurité",
       "#Do speed bumps and similar features make you feel safer when you ride?": "Les ralentisseurs et dispositifs semblables vous font-ils vous sentir plus en sécurité quand vous roulez ?",
       "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Des aménagements qui ralentissent la circulation, comme des ralentisseurs, des bandes sonores, des passages surélevés ou des marquages au sol.",
       "#Much less safe": "Beaucoup moins en sécurité",
-      "#Much safer": "Beaucoup plus en sécurité",
-      "#No difference": "Aucune différence"
+      "#A little less safe": "Un peu moins en sécurité",
+      "#No difference": "Aucune différence",
+      "#A little safer": "Un peu plus en sécurité",
+      "#Much safer": "Beaucoup plus en sécurité"
     },
-    "hu": {
-      "#A little less safe": "Kicsit kevésbé biztonságos",
-      "#A little safer": "Kicsit biztonságosabb",
-      "#Do speed bumps and similar features make you feel safer when you ride?": "Biztonságosabbnak érzi a közlekedést a fekvőrendőröktől és hasonló megoldásoktól?",
-      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Olyan megoldások, amelyek lassítják a forgalmat, például fekvőrendőr, rázósáv, kiemelt gyalogátkelő vagy útburkolati jelzések.",
-      "#Much less safe": "Sokkal kevésbé biztonságos",
-      "#Much safer": "Sokkal biztonságosabb",
-      "#No difference": "Nincs különbség"
-    },
-    "it": {
-      "#A little less safe": "Un po' meno sicuro",
-      "#A little safer": "Un po' più sicuro",
-      "#Do speed bumps and similar features make you feel safer when you ride?": "Dossi e simili ti fanno sentire più sicuro quando guidi?",
-      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Elementi che rallentano il traffico, come dossi, bande sonore, attraversamenti rialzati o segnaletica a terra.",
-      "#Much less safe": "Molto meno sicuro",
-      "#Much safer": "Molto più sicuro",
-      "#No difference": "Nessuna differenza"
+    "de": {
+      "#Do speed bumps and similar features make you feel safer when you ride?": "Geben Ihnen Bodenwellen und Ähnliches mehr Sicherheit beim Fahren?",
+      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Dinge, die den Verkehr bremsen, etwa Bodenwellen, Rüttelstreifen, erhöhte Übergänge oder Fahrbahnmarkierungen.",
+      "#Much less safe": "Viel unsicherer",
+      "#A little less safe": "Etwas unsicherer",
+      "#No difference": "Kein Unterschied",
+      "#A little safer": "Etwas sicherer",
+      "#Much safer": "Viel sicherer"
     },
     "tr": {
-      "#A little less safe": "Biraz daha güvensiz",
-      "#A little safer": "Biraz daha güvenli",
       "#Do speed bumps and similar features make you feel safer when you ride?": "Hız kesiciler ve benzeri düzenlemeler sürerken kendinizi daha güvende hissettiriyor mu?",
       "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Trafiği yavaşlatan düzenlemeler; örneğin hız kesiciler, uyarı çizgileri, yükseltilmiş geçitler veya yol işaretleri.",
       "#Much less safe": "Çok daha güvensiz",
-      "#Much safer": "Çok daha güvenli",
-      "#No difference": "Fark etmez"
+      "#A little less safe": "Biraz daha güvensiz",
+      "#No difference": "Fark etmez",
+      "#A little safer": "Biraz daha güvenli",
+      "#Much safer": "Çok daha güvenli"
+    },
+    "fa": {
+      "#Do speed bumps and similar features make you feel safer when you ride?": "آیا سرعت‌گیر و موارد مشابه باعث می‌شود هنگام سواری احساس امنیت بیشتری کنید؟",
+      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "ابزارهایی که سرعت ترافیک را کم می‌کنند، مثل سرعت‌گیر، نوار هشداردهنده، گذرگاه بلندشده یا خط‌کشی جاده.",
+      "#Much less safe": "بسیار ناامن‌تر",
+      "#A little less safe": "کمی ناامن‌تر",
+      "#No difference": "فرقی نمی‌کند",
+      "#A little safer": "کمی امن‌تر",
+      "#Much safer": "خیلی امن‌تر"
+    },
+    "hu": {
+      "#Do speed bumps and similar features make you feel safer when you ride?": "Biztonságosabbnak érzi a közlekedést a fekvőrendőröktől és hasonló megoldásoktól?",
+      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "Olyan megoldások, amelyek lassítják a forgalmat, például fekvőrendőr, rázósáv, kiemelt gyalogátkelő vagy útburkolati jelzések.",
+      "#Much less safe": "Sokkal kevésbé biztonságos",
+      "#A little less safe": "Kicsit kevésbé biztonságos",
+      "#No difference": "Nincs különbség",
+      "#A little safer": "Kicsit biztonságosabb",
+      "#Much safer": "Sokkal biztonságosabb"
+    },
+    "ar": {
+      "#Do speed bumps and similar features make you feel safer when you ride?": "هل تجعلك المطبات وما يشبهها تشعر بأمان أكبر عندما تقود؟",
+      "#Features that slow traffic down, such as speed bumps, rumble strips, raised crossings or road markings.": "وسائل تُبطئ حركة المرور، مثل المطبات أو الشرائط المهتزة أو المعابر المرتفعة أو خطوط الطريق.",
+      "#Much less safe": "أقل أمانًا بكثير",
+      "#A little less safe": "أقل أمانًا قليلًا",
+      "#No difference": "لا فرق",
+      "#A little safer": "أكثر أمانًا قليلًا",
+      "#Much safer": "أكثر أمانًا بكثير"
     }
   },
   "origin_project": {

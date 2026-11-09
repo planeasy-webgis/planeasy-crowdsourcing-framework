@@ -2,15 +2,18 @@
   "question_id": "motorcycle_delay_stress",
   "key": "motorcycle_delay_stress",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle_comfort",
   "source_questionnaires": [
     "smarturbanity_motorcycle_comfort"
   ],
   "schema": {
-    "answer_key": "motorcycle_delay_stress",
+    "privacy_classification": "personal_data",
+    "text": "When you are held up on a motorcycle or scooter trip, how stressed do you feel?",
     "help": "For example traffic jams, crashes or roadworks.",
+    "answer_key": "motorcycle_delay_stress",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Not at all",
@@ -32,83 +35,80 @@
         "text": "Extremely",
         "value": "extremely_stressful"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "When you are held up on a motorcycle or scooter trip, how stressed do you feel?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#A little": "قليلًا",
-      "#Extremely": "للغاية",
-      "#For example traffic jams, crashes or roadworks.": "مثل الازدحام المروري أو اصطدام السيارات أو أعمال الطرق.",
-      "#Moderately": "بدرجة متوسطة",
-      "#Not at all": "على الإطلاق",
-      "#Very": "كثيرًا",
-      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "عندما تتأخر في رحلة بالدراجة النارية أو السكوتر، ما مدى شعورك بالتوتر؟"
-    },
-    "de": {
-      "#A little": "Ein wenig",
-      "#Extremely": "Äußerst",
-      "#For example traffic jams, crashes or roadworks.": "Zum Beispiel Stau, Zusammenstöße oder Baustellen.",
-      "#Moderately": "Mittel",
-      "#Not at all": "Gar nicht",
-      "#Very": "Sehr",
-      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Wie gestresst fühlen Sie sich, wenn Sie auf einer Motorrad- oder Rollerfahrt aufgehalten werden?"
-    },
     "en": {
-      "#A little": "A little",
-      "#Extremely": "Extremely",
-      "#For example traffic jams, crashes or roadworks.": "For example traffic jams, crashes or roadworks.",
-      "#Moderately": "Moderately",
       "#Not at all": "Not at all",
+      "#A little": "A little",
+      "#Moderately": "Moderately",
+      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "When you are held up on a motorcycle or scooter trip, how stressed do you feel?",
+      "#For example traffic jams, crashes or roadworks.": "For example traffic jams, crashes or roadworks.",
       "#Very": "Very",
-      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "When you are held up on a motorcycle or scooter trip, how stressed do you feel?"
-    },
-    "fa": {
-      "#A little": "کمی",
-      "#Extremely": "به‌شدت",
-      "#For example traffic jams, crashes or roadworks.": "مثلاً ترافیک سنگین، برخورد خودروها یا کار در جاده.",
-      "#Moderately": "تا حدی",
-      "#Not at all": "اصلاً",
-      "#Very": "بسیار",
-      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "وقتی در سفر با موتورسیکلت یا اسکوتر معطل می‌شوید، چقدر احساس تنش می‌کنید؟"
-    },
-    "fr": {
-      "#A little": "Un peu",
-      "#Extremely": "Énormément",
-      "#For example traffic jams, crashes or roadworks.": "Par exemple des embouteillages, des collisions ou des travaux.",
-      "#Moderately": "Modérément",
-      "#Not at all": "Pas du tout",
-      "#Very": "Très",
-      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Quand un retard vous ralentit lors d’un trajet à moto ou en scooter, quel stress ressentez-vous ?"
-    },
-    "hu": {
-      "#A little": "Kissé",
-      "#Extremely": "Rendkívül",
-      "#For example traffic jams, crashes or roadworks.": "Például dugó, ütközés vagy útépítés.",
-      "#Moderately": "Közepesen",
-      "#Not at all": "Egyáltalán nem",
-      "#Very": "Nagyon",
-      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Ha motoros vagy robogós úton feltartóztatják, mennyire érzi magát feszültnek?"
+      "#Extremely": "Extremely"
     },
     "it": {
-      "#A little": "Un po'",
-      "#Extremely": "Moltissimo",
-      "#For example traffic jams, crashes or roadworks.": "Per esempio code, scontri o lavori in corso.",
-      "#Moderately": "Abbastanza",
       "#Not at all": "Per niente",
+      "#A little": "Un po'",
+      "#Moderately": "Abbastanza",
+      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Quando uno spostamento in moto o in scooter subisce blocchi o ritardi, quanto stress provi?",
+      "#For example traffic jams, crashes or roadworks.": "Per esempio code, scontri o lavori in corso.",
       "#Very": "Molto",
-      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Quando resti bloccato o in ritardo in uno spostamento in moto o in scooter, quanto stress senti?"
+      "#Extremely": "Moltissimo"
+    },
+    "fr": {
+      "#Not at all": "Pas du tout",
+      "#A little": "Un peu",
+      "#Moderately": "Modérément",
+      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Quand un retard vous ralentit lors d’un trajet à moto ou en scooter, quel stress ressentez-vous ?",
+      "#For example traffic jams, crashes or roadworks.": "Par exemple des embouteillages, des collisions ou des travaux.",
+      "#Very": "Très",
+      "#Extremely": "Énormément"
+    },
+    "de": {
+      "#Not at all": "Gar nicht",
+      "#A little": "Ein wenig",
+      "#Moderately": "Mittel",
+      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Wie gestresst fühlen Sie sich, wenn Sie auf einer Motorrad- oder Rollerfahrt aufgehalten werden?",
+      "#For example traffic jams, crashes or roadworks.": "Zum Beispiel Stau, Zusammenstöße oder Baustellen.",
+      "#Very": "Sehr",
+      "#Extremely": "Äußerst"
     },
     "tr": {
-      "#A little": "Biraz",
-      "#Extremely": "Son derece",
-      "#For example traffic jams, crashes or roadworks.": "Örneğin trafik sıkışıklığı, çarpışmalar veya yol çalışmaları.",
-      "#Moderately": "Orta derecede",
       "#Not at all": "Hiç",
+      "#A little": "Biraz",
+      "#Moderately": "Orta derecede",
+      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Motosiklet veya scooter yolculuğunda gecikmeye uğradığınızda ne kadar stres yaşıyorsunuz?",
+      "#For example traffic jams, crashes or roadworks.": "Örneğin trafik sıkışıklığı, çarpışmalar veya yol çalışmaları.",
       "#Very": "Çok",
-      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Motosiklet veya scooter yolculuğunda gecikmeye uğradığınızda ne kadar stres yaşıyorsunuz?"
+      "#Extremely": "Son derece"
+    },
+    "fa": {
+      "#Not at all": "اصلاً",
+      "#A little": "کمی",
+      "#Moderately": "تا حدی",
+      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "وقتی در سفر با موتورسیکلت یا اسکوتر معطل می‌شوید، چقدر احساس تنش می‌کنید؟",
+      "#For example traffic jams, crashes or roadworks.": "مثلاً ترافیک سنگین، برخورد خودروها یا کار در جاده.",
+      "#Very": "بسیار",
+      "#Extremely": "به‌شدت"
+    },
+    "hu": {
+      "#Not at all": "Egyáltalán nem",
+      "#A little": "Kissé",
+      "#Moderately": "Közepesen",
+      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "Ha motoros vagy robogós úton feltartóztatják, mennyire érzi magát feszültnek?",
+      "#For example traffic jams, crashes or roadworks.": "Például dugó, ütközés vagy útépítés.",
+      "#Very": "Nagyon",
+      "#Extremely": "Rendkívül"
+    },
+    "ar": {
+      "#Not at all": "على الإطلاق",
+      "#A little": "قليلًا",
+      "#Moderately": "بدرجة متوسطة",
+      "#When you are held up on a motorcycle or scooter trip, how stressed do you feel?": "عند التأخر في رحلة بالدراجة النارية أو السكوتر، ما مدى شعورك بالتوتر؟",
+      "#For example traffic jams, crashes or roadworks.": "مثل الازدحام المروري أو اصطدام السيارات أو أعمال الطرق.",
+      "#Very": "كثيرًا",
+      "#Extremely": "للغاية"
     }
   },
   "origin_project": {

@@ -2,14 +2,17 @@
   "question_id": "put_emotional_state",
   "key": "put_emotional_state",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport_experience",
   "source_questionnaires": [
     "smarturbanity_public_transport_experience"
   ],
   "schema": {
+    "privacy_classification": "heightened_personal",
+    "text": "When you use public transport, how stressed or relaxed do you usually feel?",
     "answer_key": "put_emotional_state",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Very stressed",
@@ -31,75 +34,72 @@
         "text": "Very relaxed",
         "value": "very_relaxed"
       }
-    ],
-    "privacy_classification": "heightened_personal",
-    "question_type": "single_option",
-    "text": "When you use public transport, how stressed or relaxed do you usually feel?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#A little relaxed": "بعض الارتياح",
-      "#A little stressed": "بعض التوتر",
-      "#Neither stressed nor relaxed": "لا توتر ولا ارتياح",
-      "#Very relaxed": "ارتياح كبير",
-      "#Very stressed": "توتر شديد",
-      "#When you use public transport, how stressed or relaxed do you usually feel?": "عند استخدام وسائل النقل العام، ما مدى شعورك عادةً بالتوتر أو بالاسترخاء؟"
-    },
-    "de": {
-      "#A little relaxed": "Ein wenig entspannt",
-      "#A little stressed": "Ein wenig gestresst",
-      "#Neither stressed nor relaxed": "Weder gestresst noch entspannt",
-      "#Very relaxed": "Sehr entspannt",
-      "#Very stressed": "Sehr gestresst",
-      "#When you use public transport, how stressed or relaxed do you usually feel?": "Wie gestresst oder entspannt fühlen Sie sich bei Fahrten mit öffentlichen Verkehrsmitteln normalerweise?"
-    },
     "en": {
-      "#A little relaxed": "A little relaxed",
+      "#When you use public transport, how stressed or relaxed do you usually feel?": "When you use public transport, how stressed or relaxed do you usually feel?",
+      "#Very stressed": "Very stressed",
       "#A little stressed": "A little stressed",
       "#Neither stressed nor relaxed": "Neither stressed nor relaxed",
-      "#Very relaxed": "Very relaxed",
-      "#Very stressed": "Very stressed",
-      "#When you use public transport, how stressed or relaxed do you usually feel?": "When you use public transport, how stressed or relaxed do you usually feel?"
-    },
-    "fa": {
-      "#A little relaxed": "کمی آرام هستم",
-      "#A little stressed": "کمی استرس دارم",
-      "#Neither stressed nor relaxed": "نه استرس دارم، نه آرام هستم",
-      "#Very relaxed": "خیلی آرام هستم",
-      "#Very stressed": "خیلی استرس دارم",
-      "#When you use public transport, how stressed or relaxed do you usually feel?": "هنگام استفاده از حمل‌ونقل عمومی، معمولاً چقدر احساس تنش یا آرامش می‌کنید؟"
-    },
-    "fr": {
-      "#A little relaxed": "Un peu détendu",
-      "#A little stressed": "Un peu stressé",
-      "#Neither stressed nor relaxed": "Ni stressé ni détendu",
-      "#Very relaxed": "Grande détente",
-      "#Very stressed": "Stress très fort",
-      "#When you use public transport, how stressed or relaxed do you usually feel?": "Lorsque vous utilisez les transports en commun, ressentez-vous en général plutôt du stress ou de la détente ?"
-    },
-    "hu": {
-      "#A little relaxed": "Kissé nyugodt vagyok",
-      "#A little stressed": "Kissé feszült vagyok",
-      "#Neither stressed nor relaxed": "Nem vagyok sem feszült, sem nyugodt",
-      "#Very relaxed": "Nagyon nyugodt vagyok",
-      "#Very stressed": "Nagyon feszült vagyok",
-      "#When you use public transport, how stressed or relaxed do you usually feel?": "Tömegközlekedés közben általában mennyire érzi magát feszültnek vagy nyugodtnak?"
+      "#A little relaxed": "A little relaxed",
+      "#Very relaxed": "Very relaxed"
     },
     "it": {
-      "#A little relaxed": "Un po' rilassato",
-      "#A little stressed": "Un po' stressato",
-      "#Neither stressed nor relaxed": "Né stressato né rilassato",
-      "#Very relaxed": "Molta tranquillità",
+      "#When you use public transport, how stressed or relaxed do you usually feel?": "Quando usi i mezzi pubblici, di solito provi più tensione o più tranquillità?",
       "#Very stressed": "Molto stress",
-      "#When you use public transport, how stressed or relaxed do you usually feel?": "Quando usi i mezzi pubblici, di solito ti senti più teso o più rilassato?"
+      "#A little stressed": "Un po' di stress",
+      "#Neither stressed nor relaxed": "Né stress né tranquillità",
+      "#A little relaxed": "Un po' di tranquillità",
+      "#Very relaxed": "Molta tranquillità"
+    },
+    "fr": {
+      "#When you use public transport, how stressed or relaxed do you usually feel?": "Lorsque vous utilisez les transports en commun, ressentez-vous en général plutôt du stress ou de la détente ?",
+      "#Very stressed": "Stress très fort",
+      "#A little stressed": "Un peu de stress",
+      "#Neither stressed nor relaxed": "Ni stress ni détente",
+      "#A little relaxed": "Un peu de détente",
+      "#Very relaxed": "Grande détente"
+    },
+    "de": {
+      "#When you use public transport, how stressed or relaxed do you usually feel?": "Wie gestresst oder entspannt fühlen Sie sich bei Fahrten mit öffentlichen Verkehrsmitteln normalerweise?",
+      "#Very stressed": "Sehr gestresst",
+      "#A little stressed": "Ein wenig gestresst",
+      "#Neither stressed nor relaxed": "Weder gestresst noch entspannt",
+      "#A little relaxed": "Ein wenig entspannt",
+      "#Very relaxed": "Sehr entspannt"
     },
     "tr": {
-      "#A little relaxed": "Biraz rahat",
+      "#When you use public transport, how stressed or relaxed do you usually feel?": "Toplu taşıma kullanırken genellikle ne kadar stresli veya rahat hissediyorsunuz?",
+      "#Very stressed": "Çok stresli",
       "#A little stressed": "Biraz stresli",
       "#Neither stressed nor relaxed": "Ne stresli ne rahat",
-      "#Very relaxed": "Çok rahat",
-      "#Very stressed": "Çok stresli",
-      "#When you use public transport, how stressed or relaxed do you usually feel?": "Toplu taşıma kullanırken genellikle ne kadar stresli veya rahat hissediyorsunuz?"
+      "#A little relaxed": "Biraz rahat",
+      "#Very relaxed": "Çok rahat"
+    },
+    "fa": {
+      "#When you use public transport, how stressed or relaxed do you usually feel?": "هنگام استفاده از حمل‌ونقل عمومی، معمولاً چقدر احساس تنش یا آرامش می‌کنید؟",
+      "#Very stressed": "خیلی استرس دارم",
+      "#A little stressed": "کمی استرس دارم",
+      "#Neither stressed nor relaxed": "نه استرس دارم، نه آرام هستم",
+      "#A little relaxed": "کمی آرام هستم",
+      "#Very relaxed": "خیلی آرام هستم"
+    },
+    "hu": {
+      "#When you use public transport, how stressed or relaxed do you usually feel?": "Tömegközlekedés közben általában mennyire érzi magát feszültnek vagy nyugodtnak?",
+      "#Very stressed": "Nagyon feszült vagyok",
+      "#A little stressed": "Kissé feszült vagyok",
+      "#Neither stressed nor relaxed": "Nem vagyok sem feszült, sem nyugodt",
+      "#A little relaxed": "Kissé nyugodt vagyok",
+      "#Very relaxed": "Nagyon nyugodt vagyok"
+    },
+    "ar": {
+      "#When you use public transport, how stressed or relaxed do you usually feel?": "عند استخدام وسائل النقل العام، ما مدى شعورك عادةً بالتوتر أو بالاسترخاء؟",
+      "#Very stressed": "توتر شديد",
+      "#A little stressed": "بعض التوتر",
+      "#Neither stressed nor relaxed": "لا توتر ولا ارتياح",
+      "#A little relaxed": "بعض الارتياح",
+      "#Very relaxed": "ارتياح كبير"
     }
   },
   "origin_project": {

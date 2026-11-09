@@ -1,0 +1,161 @@
+{
+  "question_id": "vehicles_used",
+  "key": "vehicles_used",
+  "project": "shared",
+  "version": "2.0.2",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_daily_travel",
+  "source_questionnaires": [
+    "perception_on_ride_sharing",
+    "smarturbanity_your_profile",
+    "smarturbanity_your_household"
+  ],
+  "schema": {
+    "text": "Which of the following do you personally use regularly? (Select all that apply)",
+    "answer_key": "vehicles_used",
+    "question_type": "multiple_options",
+    "options": [
+      {
+        "text": "Car",
+        "value": "car"
+      },
+      {
+        "text": "Motorcycle, scooter or moped",
+        "value": "motorcycle"
+      },
+      {
+        "text": "Bicycle/e-bike",
+        "value": "bicycle_e_bike"
+      },
+      {
+        "text": "E-scooter",
+        "value": "e_scooter"
+      },
+      {
+        "text": "Powered wheelchair or mobility scooter",
+        "value": "powered_wheelchair"
+      },
+      {
+        "text": "On foot or in a wheelchair",
+        "value": "walking"
+      },
+      {
+        "text": "Public transport",
+        "value": "public_transport"
+      },
+      {
+        "text": "Shared bikes, e-scooters or cars",
+        "value": "shared_vehicles"
+      },
+      {
+        "text": "None",
+        "value": "none",
+        "exclusive": true
+      }
+    ],
+    "add_other": true,
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#None": "None",
+      "#Shared bikes, e-scooters or cars": "Shared bikes, e-scooters or cars",
+      "#Car": "Car",
+      "#Motorcycle, scooter or moped": "Motorcycle, scooter or moped",
+      "#Bicycle/e-bike": "Bicycle/e-bike",
+      "#E-scooter": "E-scooter",
+      "#Powered wheelchair or mobility scooter": "Powered wheelchair or mobility scooter",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "Which of the following do you personally use regularly? (Select all that apply)",
+      "#On foot or in a wheelchair": "On foot or in a wheelchair",
+      "#Public transport": "Public transport"
+    },
+    "it": {
+      "#Car": "Auto",
+      "#Motorcycle, scooter or moped": "Moto, scooter o motorino",
+      "#Bicycle/e-bike": "Bicicletta o bici elettrica",
+      "#E-scooter": "Monopattino elettrico",
+      "#Powered wheelchair or mobility scooter": "Sedia a rotelle motorizzata o scooter per la mobilità",
+      "#None": "Nessuna",
+      "#Shared bikes, e-scooters or cars": "Bici, monopattini o auto in condivisione",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "Quali tra questi modi di spostarti usi personalmente con regolarità? (Seleziona tutte le opzioni applicabili)",
+      "#On foot or in a wheelchair": "A piedi o in sedia a rotelle",
+      "#Public transport": "Trasporto pubblico"
+    },
+    "fr": {
+      "#Car": "Voiture",
+      "#Motorcycle, scooter or moped": "Moto, scooter ou cyclomoteur",
+      "#Bicycle/e-bike": "Vélo / vélo électrique",
+      "#E-scooter": "Trottinette électrique",
+      "#Powered wheelchair or mobility scooter": "Fauteuil roulant électrique ou scooter de mobilité",
+      "#None": "Aucun",
+      "#Shared bikes, e-scooters or cars": "Vélos, trottinettes ou voitures en partage",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "Parmi les modes suivants, lesquels utilisez-vous personnellement de façon régulière ? (Sélectionnez toutes les réponses qui s’appliquent)",
+      "#On foot or in a wheelchair": "À pied ou en fauteuil roulant",
+      "#Public transport": "Transports publics"
+    },
+    "de": {
+      "#Car": "Auto",
+      "#Motorcycle, scooter or moped": "Motorrad, Motorroller oder Moped",
+      "#Bicycle/e-bike": "Fahrrad / E-Bike",
+      "#E-scooter": "E-Scooter",
+      "#Powered wheelchair or mobility scooter": "Elektrorollstuhl oder Elektromobil",
+      "#None": "Keine",
+      "#Shared bikes, e-scooters or cars": "Sharing-Fahrräder, -E-Scooter oder -Autos",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "Welche der folgenden Möglichkeiten nutzen Sie persönlich regelmäßig? (Wählen Sie alles Zutreffende aus)",
+      "#On foot or in a wheelchair": "Zu Fuß oder im Rollstuhl",
+      "#Public transport": "Öffentliche Verkehrsmittel"
+    },
+    "tr": {
+      "#Car": "Otomobil",
+      "#Motorcycle, scooter or moped": "Motosiklet, skuter veya moped",
+      "#Bicycle/e-bike": "Bisiklet / elektrikli bisiklet",
+      "#E-scooter": "E-scooter",
+      "#Powered wheelchair or mobility scooter": "Akülü tekerlekli sandalye veya mobilite skuteri",
+      "#None": "Hiçbiri",
+      "#Shared bikes, e-scooters or cars": "Paylaşımlı bisiklet, scooter veya otomobil",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "Aşağıdakilerden hangilerini düzenli olarak kendiniz kullanıyorsunuz? (Uygun olanların tümünü seçin)",
+      "#On foot or in a wheelchair": "Yürüyerek veya tekerlekli sandalyeyle",
+      "#Public transport": "Toplu taşıma"
+    },
+    "fa": {
+      "#Car": "خودرو",
+      "#Motorcycle, scooter or moped": "موتورسیکلت، اسکوتر یا موتور گازی",
+      "#Bicycle/e-bike": "دوچرخه / دوچرخه برقی",
+      "#E-scooter": "اسکوتر برقی",
+      "#Powered wheelchair or mobility scooter": "ویلچر برقی یا اسکوتر ویژه افراد دارای محدودیت حرکتی",
+      "#None": "هیچ‌کدام",
+      "#Shared bikes, e-scooters or cars": "دوچرخه، اسکوتر یا خودروی اشتراکی",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "کدام یک از گزینه‌های زیر را خودتان به طور منظم استفاده می‌کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+      "#On foot or in a wheelchair": "پیاده یا با ویلچر",
+      "#Public transport": "حمل‌ونقل عمومی"
+    },
+    "hu": {
+      "#Car": "Autó",
+      "#Motorcycle, scooter or moped": "Motorkerékpár, robogó vagy segédmotor",
+      "#Bicycle/e-bike": "Kerékpár / e-bike",
+      "#E-scooter": "Elektromos roller",
+      "#Powered wheelchair or mobility scooter": "Elektromos kerekesszék vagy mozgássegítő robogó",
+      "#None": "Nincs",
+      "#Shared bikes, e-scooters or cars": "Megosztott kerékpár, roller vagy autó",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "Az alábbiak közül melyeket használja személyesen rendszeresen? (Jelölje meg az összes megfelelőt)",
+      "#On foot or in a wheelchair": "Gyalog vagy kerekesszékkel",
+      "#Public transport": "Tömegközlekedés"
+    },
+    "ar": {
+      "#Car": "السيارة",
+      "#Motorcycle, scooter or moped": "دراجة نارية أو سكوتر أو دراجة بمحرك صغير",
+      "#Bicycle/e-bike": "دراجة / دراجة كهربائية",
+      "#E-scooter": "سكوتر كهربائي",
+      "#Powered wheelchair or mobility scooter": "كرسي متحرك كهربائي أو سكوتر تنقل",
+      "#None": "لا أحد",
+      "#Shared bikes, e-scooters or cars": "دراجات أو سكوترات أو سيارات مشتركة",
+      "#Which of the following do you personally use regularly? (Select all that apply)": "ما الخيارات التالية المستخدمة شخصيًا بشكل منتظم؟ (يمكن اختيار كل ما ينطبق)",
+      "#On foot or in a wheelchair": "سيرًا على الأقدام أو بالكرسي المتحرك",
+      "#Public transport": "النقل العام"
+    }
+  },
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  }
+}

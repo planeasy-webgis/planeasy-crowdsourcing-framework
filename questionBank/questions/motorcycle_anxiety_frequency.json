@@ -2,14 +2,17 @@
   "question_id": "motorcycle_anxiety_frequency",
   "key": "motorcycle_anxiety_frequency",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle_experience",
   "source_questionnaires": [
     "smarturbanity_motorcycle_experience"
   ],
   "schema": {
+    "privacy_classification": "special_category_health",
+    "text": "When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?",
     "answer_key": "motorcycle_anxiety_frequency",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Never",
@@ -31,75 +34,72 @@
         "text": "All the time",
         "value": "constantly"
       }
-    ],
-    "privacy_classification": "special_category_health",
-    "question_type": "single_option",
-    "text": "When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#All the time": "طوال الوقت",
-      "#Never": "أبدًا",
-      "#Often": "غالبًا",
-      "#Rarely": "نادرًا",
-      "#Sometimes": "أحيانًا",
-      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "عند ركوب الدراجة النارية أو السكوتر، كم مرة تشعر بالقلق أو بالإرهاق الشديد؟"
-    },
-    "de": {
-      "#All the time": "Die ganze Zeit",
-      "#Never": "Nie",
-      "#Often": "Oft",
-      "#Rarely": "Selten",
-      "#Sometimes": "Manchmal",
-      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Wie oft fühlen Sie sich beim Motorrad- oder Rollerfahren ängstlich oder überfordert?"
-    },
     "en": {
-      "#All the time": "All the time",
+      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?",
       "#Never": "Never",
-      "#Often": "Often",
       "#Rarely": "Rarely",
       "#Sometimes": "Sometimes",
-      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?"
-    },
-    "fa": {
-      "#All the time": "همیشه",
-      "#Never": "هرگز",
-      "#Often": "اغلب",
-      "#Rarely": "به‌ندرت",
-      "#Sometimes": "گاهی",
-      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "هنگام موتورسواری، چند وقت یک بار احساس نگرانی یا فشار زیاد می‌کنید؟"
-    },
-    "fr": {
-      "#All the time": "Tout le temps",
-      "#Never": "Jamais",
-      "#Often": "Souvent",
-      "#Rarely": "Rarement",
-      "#Sometimes": "Parfois",
-      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Lorsque vous roulez à moto ou en scooter, à quelle fréquence ressentez-vous de l’anxiété ou un sentiment de débordement ?"
-    },
-    "hu": {
-      "#All the time": "Mindig",
-      "#Never": "Soha",
-      "#Often": "Gyakran",
-      "#Rarely": "Ritkán",
-      "#Sometimes": "Néha",
-      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Motorozás vagy robogózás közben milyen gyakran érzi magát szorongónak vagy túlterheltnek?"
+      "#Often": "Often",
+      "#All the time": "All the time"
     },
     "it": {
-      "#All the time": "Sempre",
+      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Quando vai in moto o in scooter, quanto spesso provi ansia o agitazione?",
       "#Never": "Mai",
-      "#Often": "Spesso",
       "#Rarely": "Raramente",
       "#Sometimes": "A volte",
-      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Quando vai in moto o in scooter, quanto spesso provi ansia o agitazione?"
+      "#Often": "Spesso",
+      "#All the time": "Sempre"
+    },
+    "fr": {
+      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Lorsque vous roulez à moto ou en scooter, à quelle fréquence ressentez-vous de l’anxiété ou un sentiment de débordement ?",
+      "#Never": "Jamais",
+      "#Rarely": "Rarement",
+      "#Sometimes": "Parfois",
+      "#Often": "Souvent",
+      "#All the time": "Tout le temps"
+    },
+    "de": {
+      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Wie oft fühlen Sie sich beim Motorrad- oder Rollerfahren ängstlich oder überfordert?",
+      "#Never": "Nie",
+      "#Rarely": "Selten",
+      "#Sometimes": "Manchmal",
+      "#Often": "Oft",
+      "#All the time": "Die ganze Zeit"
     },
     "tr": {
-      "#All the time": "Her zaman",
+      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Motosiklet veya scooter sürerken ne sıklıkla kaygılı veya bunalmış hissediyorsunuz?",
       "#Never": "Hiçbir zaman",
-      "#Often": "Sık sık",
       "#Rarely": "Nadiren",
       "#Sometimes": "Bazen",
-      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Motosiklet veya scooter sürerken ne sıklıkla kaygılı veya bunalmış hissediyorsunuz?"
+      "#Often": "Sık sık",
+      "#All the time": "Her zaman"
+    },
+    "fa": {
+      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "هنگام موتورسواری، چند وقت یک بار احساس نگرانی یا فشار زیاد می‌کنید؟",
+      "#Never": "هرگز",
+      "#Rarely": "به‌ندرت",
+      "#Sometimes": "گاهی",
+      "#Often": "اغلب",
+      "#All the time": "همیشه"
+    },
+    "hu": {
+      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "Motorozás vagy robogózás közben milyen gyakran érzi magát szorongónak vagy túlterheltnek?",
+      "#Never": "Soha",
+      "#Rarely": "Ritkán",
+      "#Sometimes": "Néha",
+      "#Often": "Gyakran",
+      "#All the time": "Mindig"
+    },
+    "ar": {
+      "#When you ride a motorcycle or scooter, how often do you feel anxious or overwhelmed?": "عند ركوب الدراجة النارية أو السكوتر، كم مرة ينتابك القلق أو الإرهاق الشديد؟",
+      "#Never": "أبدًا",
+      "#Rarely": "نادرًا",
+      "#Sometimes": "أحيانًا",
+      "#Often": "غالبًا",
+      "#All the time": "طوال الوقت"
     }
   },
   "origin_project": {

@@ -2,14 +2,16 @@
   "question_id": "put_no_seats",
   "key": "put_no_seats",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport_comfort",
   "source_questionnaires": [
     "smarturbanity_public_transport_comfort"
   ],
   "schema": {
+    "text": "Do you need a seat at the stop or on board, and often find none?",
     "answer_key": "put_no_seats",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Yes",
@@ -24,58 +26,56 @@
         "value": "not_applicable"
       }
     ],
-    "privacy_classification": "special_category_health",
-    "question_type": "single_option",
-    "text": "Do you need a seat at the stop or on board, and often find none?"
+    "privacy_classification": "special_category_health"
   },
   "translations": {
-    "ar": {
-      "#Do you need a seat at the stop or on board, and often find none?": "هل تحتاج إلى مقعد في المحطة أو داخل المركبة، وغالبًا لا تجد؟",
-      "#Doesn't apply to me": "لا ينطبق عليّ",
-      "#No": "لا",
-      "#Yes": "نعم"
-    },
-    "de": {
-      "#Do you need a seat at the stop or on board, and often find none?": "Brauchen Sie an der Haltestelle oder im Fahrzeug einen Sitzplatz und finden oft keinen?",
-      "#Doesn't apply to me": "Trifft auf mich nicht zu",
-      "#No": "Nein",
-      "#Yes": "Ja"
-    },
     "en": {
-      "#Do you need a seat at the stop or on board, and often find none?": "Do you need a seat at the stop or on board, and often find none?",
-      "#Doesn't apply to me": "Doesn't apply to me",
+      "#Yes": "Yes",
       "#No": "No",
-      "#Yes": "Yes"
-    },
-    "fa": {
-      "#Do you need a seat at the stop or on board, and often find none?": "آیا در ایستگاه یا داخل وسیله به صندلی نیاز دارید و اغلب جایی پیدا نمی‌کنید؟",
-      "#Doesn't apply to me": "به من مربوط نمی‌شود",
-      "#No": "خیر",
-      "#Yes": "بله"
-    },
-    "fr": {
-      "#Do you need a seat at the stop or on board, and often find none?": "Avez-vous besoin d’une place assise à l’arrêt ou à bord, sans souvent en trouver ?",
-      "#Doesn't apply to me": "Ne me concerne pas",
-      "#No": "Non",
-      "#Yes": "Oui"
-    },
-    "hu": {
-      "#Do you need a seat at the stop or on board, and often find none?": "Szüksége van ülőhelyre a megállóban vagy a járművön, és gyakran nem talál?",
-      "#Doesn't apply to me": "Rám nem vonatkozik",
-      "#No": "Nem",
-      "#Yes": "Igen"
+      "#Doesn't apply to me": "Doesn't apply to me",
+      "#Do you need a seat at the stop or on board, and often find none?": "Do you need a seat at the stop or on board, and often find none?"
     },
     "it": {
-      "#Do you need a seat at the stop or on board, and often find none?": "Hai bisogno di sederti alla fermata o a bordo e spesso non trovi posto?",
-      "#Doesn't apply to me": "Non mi riguarda",
+      "#Yes": "Sì",
       "#No": "No",
-      "#Yes": "Sì"
+      "#Doesn't apply to me": "Non mi riguarda",
+      "#Do you need a seat at the stop or on board, and often find none?": "Hai bisogno di sederti alla fermata o a bordo e spesso non trovi posto?"
+    },
+    "fr": {
+      "#Yes": "Oui",
+      "#No": "Non",
+      "#Doesn't apply to me": "Ne me concerne pas",
+      "#Do you need a seat at the stop or on board, and often find none?": "Avez-vous besoin d’une place assise à l’arrêt ou à bord, sans souvent en trouver ?"
+    },
+    "de": {
+      "#Yes": "Ja",
+      "#No": "Nein",
+      "#Doesn't apply to me": "Trifft auf mich nicht zu",
+      "#Do you need a seat at the stop or on board, and often find none?": "Brauchen Sie an der Haltestelle oder im Fahrzeug einen Sitzplatz und finden oft keinen?"
     },
     "tr": {
-      "#Do you need a seat at the stop or on board, and often find none?": "Durakta veya araçta oturacak yere ihtiyaç duyuyor ama çoğunlukla bulamıyor musunuz?",
-      "#Doesn't apply to me": "Benim için geçerli değil",
+      "#Yes": "Evet",
       "#No": "Hayır",
-      "#Yes": "Evet"
+      "#Doesn't apply to me": "Benim için geçerli değil",
+      "#Do you need a seat at the stop or on board, and often find none?": "Durakta veya araçta oturacak yere ihtiyaç duyuyor ama çoğunlukla bulamıyor musunuz?"
+    },
+    "fa": {
+      "#Yes": "بله",
+      "#No": "خیر",
+      "#Doesn't apply to me": "به من مربوط نمی‌شود",
+      "#Do you need a seat at the stop or on board, and often find none?": "آیا در ایستگاه یا داخل وسیله به صندلی نیاز دارید و اغلب جایی پیدا نمی‌کنید؟"
+    },
+    "hu": {
+      "#Yes": "Igen",
+      "#No": "Nem",
+      "#Doesn't apply to me": "Rám nem vonatkozik",
+      "#Do you need a seat at the stop or on board, and often find none?": "Szüksége van ülőhelyre a megállóban vagy a járművön, és gyakran nem talál?"
+    },
+    "ar": {
+      "#Yes": "نعم",
+      "#No": "لا",
+      "#Doesn't apply to me": "لا ينطبق عليّ",
+      "#Do you need a seat at the stop or on board, and often find none?": "هل يلزمك مقعد في المحطة أو داخل المركبة، وغالبًا لا يتوفر؟"
     }
   },
   "origin_project": {

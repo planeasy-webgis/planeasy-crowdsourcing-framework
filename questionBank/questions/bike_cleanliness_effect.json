@@ -2,14 +2,18 @@
   "question_id": "bike_cleanliness_effect",
   "key": "bike_cleanliness_effect",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling_comfort",
   "source_questionnaires": [
-    "smarturbanity_cycling_comfort"
+    "smarturbanity_cycling_comfort",
+    "smarturbanity_cycling_surroundings"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?",
     "answer_key": "bike_cleanliness_effect",
+    "question_type": "single_option",
     "options": [
       {
         "text": "It doesn't affect me",
@@ -24,82 +28,79 @@
         "value": "it_makes_the_journey_unpleasant_but_i_st"
       },
       {
-        "text": "I avoid some stops or stretches",
+        "text": "I avoid some stretches",
         "value": "it_makes_me_avoid_certain_stops_or_secti"
       },
       {
         "text": "I stop using that route altogether",
         "value": "it_puts_me_off_using_this_route_entirely"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#I avoid some stops or stretches": "أتجنب بعض المحطات أو المقاطع",
-      "#I notice it, but carry on as usual": "ألاحظ ذلك، لكنني أواصل كالمعتاد",
-      "#I stop using that route altogether": "أتوقف تمامًا عن استخدام ذلك الطريق",
-      "#It doesn't affect me": "لا يؤثر فيّ",
-      "#It's unpleasant, but I still go that way": "الأمر غير مريح، لكنني أمرّ من هناك مع ذلك",
-      "#When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?": "عند ركوب الدراجة، ماذا تفعل عندما تكون الشوارع أو المحطات أو الممرات متسخة أو سيئة الصيانة (قمامة أو روائح أو زجاج مكسور)؟"
-    },
-    "de": {
-      "#I avoid some stops or stretches": "Ich meide manche Haltestellen oder Abschnitte",
-      "#I notice it, but carry on as usual": "Ich merke es, mache aber wie gewohnt weiter",
-      "#I stop using that route altogether": "Ich nutze diese Strecke gar nicht mehr",
-      "#It doesn't affect me": "Es stört mich nicht",
-      "#It's unpleasant, but I still go that way": "Es ist unangenehm, aber ich gehe trotzdem diesen Weg",
-      "#When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?": "Was tun Sie beim Radfahren, wenn Straßen, Haltestellen oder Wege schmutzig oder schlecht gepflegt sind (Müll, Gerüche, Glasscherben)?"
-    },
     "en": {
-      "#I avoid some stops or stretches": "I avoid some stops or stretches",
-      "#I notice it, but carry on as usual": "I notice it, but carry on as usual",
-      "#I stop using that route altogether": "I stop using that route altogether",
       "#It doesn't affect me": "It doesn't affect me",
+      "#I notice it, but carry on as usual": "I notice it, but carry on as usual",
       "#It's unpleasant, but I still go that way": "It's unpleasant, but I still go that way",
-      "#When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?": "When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?"
-    },
-    "fa": {
-      "#I avoid some stops or stretches": "از بعضی ایستگاه‌ها یا بخش‌هایی از مسیر دوری می‌کنم",
-      "#I notice it, but carry on as usual": "متوجه می‌شوم، اما مثل همیشه ادامه می‌دهم",
-      "#I stop using that route altogether": "دیگر اصلاً از آن مسیر استفاده نمی‌کنم",
-      "#It doesn't affect me": "بر من اثری ندارد",
-      "#It's unpleasant, but I still go that way": "ناخوشایند است، اما باز هم از آنجا می‌روم",
-      "#When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?": "هنگام دوچرخه‌سواری، وقتی خیابان‌ها، ایستگاه‌ها یا مسیرها کثیف یا نگهداری‌نشده‌اند (زباله، بوی بد، شیشه شکسته) چه می‌کنید؟"
-    },
-    "fr": {
-      "#I avoid some stops or stretches": "J'évite certains arrêts ou certains tronçons",
-      "#I notice it, but carry on as usual": "Je le remarque, mais je continue comme d'habitude",
-      "#I stop using that route altogether": "J'arrête complètement d'utiliser ce trajet",
-      "#It doesn't affect me": "Cela ne me gêne pas",
-      "#It's unpleasant, but I still go that way": "C'est désagréable, mais je passe quand même par là",
-      "#When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?": "Lorsque vous faites du vélo, que faites-vous quand les rues, les arrêts ou les chemins sont sales ou mal entretenus (déchets, odeurs, verre brisé) ?"
-    },
-    "hu": {
-      "#I avoid some stops or stretches": "Néhány megállót vagy szakaszt kerülök",
-      "#I notice it, but carry on as usual": "Észreveszem, de ugyanúgy folytatom",
-      "#I stop using that route altogether": "Egyáltalán nem használom többé azt az útvonalat",
-      "#It doesn't affect me": "Nincs hatással rám",
-      "#It's unpleasant, but I still go that way": "Kellemetlen, de mégis arra megyek",
-      "#When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?": "Kerékpározás közben mit tesz, ha az utcák, megállók vagy utak koszosak vagy elhanyagoltak (szemét, szagok, törött üveg)?"
+      "#I stop using that route altogether": "I stop using that route altogether",
+      "#When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?": "When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?",
+      "#I avoid some stretches": "I avoid some stretches"
     },
     "it": {
-      "#I avoid some stops or stretches": "Evito alcune fermate o alcuni tratti",
-      "#I notice it, but carry on as usual": "Me ne accorgo, ma vado avanti come sempre",
-      "#I stop using that route altogether": "Smetto del tutto di usare quel percorso",
       "#It doesn't affect me": "Non mi dà problemi",
+      "#I notice it, but carry on as usual": "Me ne accorgo, ma vado avanti come sempre",
       "#It's unpleasant, but I still go that way": "È spiacevole, ma passo lo stesso da lì",
-      "#When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?": "Quando vai in bici, cosa fai quando strade, fermate o percorsi sono sporchi o mal tenuti (rifiuti, cattivi odori, vetri rotti)?"
+      "#I stop using that route altogether": "Smetto del tutto di usare quel percorso",
+      "#When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?": "Quando vai in bici, cosa fai quando strade o percorsi sono sporchi o mal tenuti (rifiuti, cattivi odori, vetri rotti)?",
+      "#I avoid some stretches": "Evito alcuni tratti"
+    },
+    "fr": {
+      "#It doesn't affect me": "Cela ne me gêne pas",
+      "#I notice it, but carry on as usual": "Je le remarque, mais je continue comme d'habitude",
+      "#It's unpleasant, but I still go that way": "C'est désagréable, mais je passe quand même par là",
+      "#I stop using that route altogether": "J'arrête complètement d'utiliser ce trajet",
+      "#When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?": "Lorsque vous faites du vélo, que faites-vous quand les rues ou les chemins sont sales ou mal entretenus (déchets, odeurs, verre brisé) ?",
+      "#I avoid some stretches": "J'évite certains tronçons"
+    },
+    "de": {
+      "#It doesn't affect me": "Es stört mich nicht",
+      "#I notice it, but carry on as usual": "Ich merke es, mache aber wie gewohnt weiter",
+      "#It's unpleasant, but I still go that way": "Es ist unangenehm, aber ich gehe trotzdem diesen Weg",
+      "#I stop using that route altogether": "Ich nutze diese Strecke gar nicht mehr",
+      "#When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?": "Was tun Sie beim Radfahren, wenn Straßen oder Wege schmutzig oder schlecht gepflegt sind (Müll, Gerüche, Glasscherben)?",
+      "#I avoid some stretches": "Ich meide manche Abschnitte"
     },
     "tr": {
-      "#I avoid some stops or stretches": "Bazı duraklardan veya bölümlerden kaçınırım",
-      "#I notice it, but carry on as usual": "Fark ederim ama her zamanki gibi devam ederim",
-      "#I stop using that route altogether": "O güzergâhı tamamen kullanmayı bırakırım",
       "#It doesn't affect me": "Beni etkilemez",
+      "#I notice it, but carry on as usual": "Fark ederim ama her zamanki gibi devam ederim",
       "#It's unpleasant, but I still go that way": "Hoş değil ama yine de oradan giderim",
-      "#When you cycle, what do you do when streets, stops or paths are dirty or badly kept (litter, smells, broken glass)?": "Bisiklet sürerken sokaklar, duraklar veya yollar kirli ya da bakımsız olduğunda (çöp, kokular, kırık cam) ne yaparsınız?"
+      "#I stop using that route altogether": "O güzergâhı tamamen kullanmayı bırakırım",
+      "#When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?": "Bisiklet sürerken sokaklar veya yollar kirli ya da bakımsız olduğunda (çöp, kokular, kırık cam) ne yaparsınız?",
+      "#I avoid some stretches": "Bazı bölümlerden kaçınırım"
+    },
+    "fa": {
+      "#It doesn't affect me": "بر من اثری ندارد",
+      "#I notice it, but carry on as usual": "متوجه می‌شوم، اما مثل همیشه ادامه می‌دهم",
+      "#It's unpleasant, but I still go that way": "ناخوشایند است، اما باز هم از آنجا می‌روم",
+      "#I stop using that route altogether": "دیگر اصلاً از آن مسیر استفاده نمی‌کنم",
+      "#When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?": "هنگام دوچرخه‌سواری، وقتی خیابان‌ها یا مسیرها کثیف یا نگهداری‌نشده‌اند (زباله، بوی بد، شیشه شکسته) چه می‌کنید؟",
+      "#I avoid some stretches": "از بعضی بخش‌های مسیر دوری می‌کنم"
+    },
+    "hu": {
+      "#It doesn't affect me": "Nincs hatással rám",
+      "#I notice it, but carry on as usual": "Észreveszem, de ugyanúgy folytatom",
+      "#It's unpleasant, but I still go that way": "Kellemetlen, de mégis arra megyek",
+      "#I stop using that route altogether": "Egyáltalán nem használom többé azt az útvonalat",
+      "#When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?": "Kerékpározás közben mit tesz, ha az utcák vagy utak koszosak vagy elhanyagoltak (szemét, szagok, törött üveg)?",
+      "#I avoid some stretches": "Néhány szakaszt kerülök"
+    },
+    "ar": {
+      "#It doesn't affect me": "لا يؤثر فيّ",
+      "#I notice it, but carry on as usual": "ألاحظ ذلك، لكنني أواصل كالمعتاد",
+      "#It's unpleasant, but I still go that way": "الأمر غير مريح، لكنني أمرّ من هناك مع ذلك",
+      "#I stop using that route altogether": "أتوقف تمامًا عن استخدام ذلك الطريق",
+      "#When you cycle, what do you do when streets or paths are dirty or badly kept (litter, smells, broken glass)?": "عند ركوب الدراجة، ما تصرّفك عندما تكون الشوارع أو الممرات متسخة أو سيئة الصيانة (قمامة أو روائح أو زجاج مكسور)؟",
+      "#I avoid some stretches": "أتجنب بعض المقاطع"
     }
   },
   "origin_project": {

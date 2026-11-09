@@ -2,16 +2,20 @@
   "question_id": "walk_dissatisfied",
   "key": "walk_dissatisfied",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking_experience",
   "source_questionnaires": [
-    "smarturbanity_walking_experience"
+    "smarturbanity_walking_experience",
+    "smarturbanity_walking_effort"
   ],
   "schema": {
-    "add_other": true,
+    "privacy_classification": "heightened_personal",
+    "text": "When you walk or use a wheelchair, what are you least happy with?",
     "answer_key": "walk_dissatisfied",
+    "question_type": "multiple_options",
     "max_answers": 3,
+    "add_other": true,
     "options": [
       {
         "text": "Travel time",
@@ -37,91 +41,80 @@
         "text": "It's not flexible",
         "value": "lack_of_flexibility"
       }
-    ],
-    "privacy_classification": "heightened_personal",
-    "question_type": "multiple_options",
-    "text": "When you walk or use a wheelchair, what are you least happy with?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#Comfort": "الراحة",
-      "#Crowding or lack of space": "الازدحام أو قلة المساحة",
-      "#It's hard to reach or use": "يصعب الوصول إليه أو استخدامه",
-      "#It's not flexible": "غير مرن",
-      "#Other": "أخرى",
-      "#Safety from traffic or crime": "الأمان من حركة المرور أو الجريمة",
-      "#Travel time": "مدة الرحلة",
-      "#When you walk or use a wheelchair, what are you least happy with?": "عند المشي أو التنقل بكرسي متحرك، ما أكثر ما لا يعجبك؟"
-    },
-    "de": {
-      "#Comfort": "Komfort",
-      "#Crowding or lack of space": "Gedränge oder Platzmangel",
-      "#It's hard to reach or use": "Es ist schwer zu erreichen oder zu nutzen",
-      "#It's not flexible": "Es ist nicht flexibel",
-      "#Other": "Anderes",
-      "#Safety from traffic or crime": "Sicherheit vor Verkehr oder Kriminalität",
-      "#Travel time": "Reisezeit",
-      "#When you walk or use a wheelchair, what are you least happy with?": "Was gefällt Ihnen beim Gehen oder Fahren im Rollstuhl am wenigsten?"
-    },
     "en": {
-      "#Comfort": "Comfort",
-      "#Crowding or lack of space": "Crowding or lack of space",
-      "#It's hard to reach or use": "It's hard to reach or use",
-      "#It's not flexible": "It's not flexible",
-      "#Other": "Other",
-      "#Safety from traffic or crime": "Safety from traffic or crime",
+      "#When you walk or use a wheelchair, what are you least happy with?": "When you walk or use a wheelchair, what are you least happy with?",
       "#Travel time": "Travel time",
-      "#When you walk or use a wheelchair, what are you least happy with?": "When you walk or use a wheelchair, what are you least happy with?"
-    },
-    "fa": {
-      "#Comfort": "راحتی",
-      "#Crowding or lack of space": "شلوغی یا کمبود جا",
-      "#It's hard to reach or use": "رسیدن به آن یا استفاده از آن سخت است",
-      "#It's not flexible": "انعطاف‌پذیر نیست",
-      "#Other": "سایر",
-      "#Safety from traffic or crime": "ایمنی در ترافیک یا امنیت در برابر جرم",
-      "#Travel time": "زمان سفر",
-      "#When you walk or use a wheelchair, what are you least happy with?": "هنگام پیاده‌روی یا حرکت با ویلچر، از چه چیزی کمتر از همه راضی هستید؟"
-    },
-    "fr": {
-      "#Comfort": "Confort",
-      "#Crowding or lack of space": "Foule ou manque de place",
-      "#It's hard to reach or use": "C'est difficile d'accès ou d'utilisation",
-      "#It's not flexible": "Ce n'est pas flexible",
-      "#Other": "Autre",
-      "#Safety from traffic or crime": "Sécurité face à la circulation ou à la délinquance",
-      "#Travel time": "Durée du trajet",
-      "#When you walk or use a wheelchair, what are you least happy with?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, qu’est-ce qui vous plaît le moins ?"
-    },
-    "hu": {
-      "#Comfort": "Kényelem",
-      "#Crowding or lack of space": "Zsúfoltság vagy helyhiány",
-      "#It's hard to reach or use": "Nehéz elérni vagy használni",
-      "#It's not flexible": "Nem rugalmas",
-      "#Other": "Egyéb",
-      "#Safety from traffic or crime": "Biztonság a forgalomtól vagy a bűnözéstől",
-      "#Travel time": "Utazási idő",
-      "#When you walk or use a wheelchair, what are you least happy with?": "Gyaloglás vagy kerekesszékes közlekedés közben mivel a legkevésbé elégedett?"
+      "#Comfort": "Comfort",
+      "#Safety from traffic or crime": "Safety from traffic or crime",
+      "#It's hard to reach or use": "It's hard to reach or use",
+      "#Crowding or lack of space": "Crowding or lack of space",
+      "#It's not flexible": "It's not flexible"
     },
     "it": {
-      "#Comfort": "Comfort",
-      "#Crowding or lack of space": "Affollamento o mancanza di spazio",
-      "#It's hard to reach or use": "È difficile da raggiungere o da usare",
-      "#It's not flexible": "Non è flessibile",
-      "#Other": "Altro",
-      "#Safety from traffic or crime": "Sicurezza rispetto al traffico o alla criminalità",
+      "#When you walk or use a wheelchair, what are you least happy with?": "Quando ti sposti a piedi o in sedia a rotelle, cosa ti piace di meno?",
       "#Travel time": "Tempo di viaggio",
-      "#When you walk or use a wheelchair, what are you least happy with?": "Quando ti sposti a piedi o in sedia a rotelle, cosa ti piace di meno?"
+      "#Comfort": "Comfort",
+      "#Safety from traffic or crime": "Sicurezza rispetto al traffico o alla criminalità",
+      "#It's hard to reach or use": "È difficile da raggiungere o da usare",
+      "#Crowding or lack of space": "Affollamento o mancanza di spazio",
+      "#It's not flexible": "Non è flessibile"
+    },
+    "fr": {
+      "#When you walk or use a wheelchair, what are you least happy with?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, qu’est-ce qui vous plaît le moins ?",
+      "#Travel time": "Durée du trajet",
+      "#Comfort": "Confort",
+      "#Safety from traffic or crime": "Sécurité face à la circulation ou à la délinquance",
+      "#It's hard to reach or use": "C'est difficile d'accès ou d'utilisation",
+      "#Crowding or lack of space": "Foule ou manque de place",
+      "#It's not flexible": "Ce n'est pas flexible"
+    },
+    "de": {
+      "#When you walk or use a wheelchair, what are you least happy with?": "Was gefällt Ihnen beim Gehen oder Fahren im Rollstuhl am wenigsten?",
+      "#Travel time": "Reisezeit",
+      "#Comfort": "Komfort",
+      "#Safety from traffic or crime": "Sicherheit vor Verkehr oder Kriminalität",
+      "#It's hard to reach or use": "Es ist schwer zu erreichen oder zu nutzen",
+      "#Crowding or lack of space": "Gedränge oder Platzmangel",
+      "#It's not flexible": "Es ist nicht flexibel"
     },
     "tr": {
-      "#Comfort": "Konfor",
-      "#Crowding or lack of space": "Kalabalık veya yer yetersizliği",
-      "#It's hard to reach or use": "Ulaşması veya kullanması zor",
-      "#It's not flexible": "Esnek değil",
-      "#Other": "Diğer",
-      "#Safety from traffic or crime": "Trafiğe veya suça karşı güvenlik",
+      "#When you walk or use a wheelchair, what are you least happy with?": "Yürürken veya tekerlekli sandalyeyle ilerlerken en az neyden memnunsunuz?",
       "#Travel time": "Yolculuk süresi",
-      "#When you walk or use a wheelchair, what are you least happy with?": "Yürürken veya tekerlekli sandalyeyle ilerlerken en az neyden memnunsunuz?"
+      "#Comfort": "Konfor",
+      "#Safety from traffic or crime": "Trafiğe veya suça karşı güvenlik",
+      "#It's hard to reach or use": "Ulaşması veya kullanması zor",
+      "#Crowding or lack of space": "Kalabalık veya yer yetersizliği",
+      "#It's not flexible": "Esnek değil"
+    },
+    "fa": {
+      "#When you walk or use a wheelchair, what are you least happy with?": "هنگام پیاده‌روی یا حرکت با ویلچر، از چه چیزی کمتر از همه راضی هستید؟",
+      "#Travel time": "زمان سفر",
+      "#Comfort": "راحتی",
+      "#Safety from traffic or crime": "ایمنی در ترافیک یا امنیت در برابر جرم",
+      "#It's hard to reach or use": "رسیدن به آن یا استفاده از آن سخت است",
+      "#Crowding or lack of space": "شلوغی یا کمبود جا",
+      "#It's not flexible": "انعطاف‌پذیر نیست"
+    },
+    "hu": {
+      "#When you walk or use a wheelchair, what are you least happy with?": "Gyaloglás vagy kerekesszékes közlekedés közben mivel a legkevésbé elégedett?",
+      "#Travel time": "Utazási idő",
+      "#Comfort": "Kényelem",
+      "#Safety from traffic or crime": "Biztonság a forgalomtól vagy a bűnözéstől",
+      "#It's hard to reach or use": "Nehéz elérni vagy használni",
+      "#Crowding or lack of space": "Zsúfoltság vagy helyhiány",
+      "#It's not flexible": "Nem rugalmas"
+    },
+    "ar": {
+      "#When you walk or use a wheelchair, what are you least happy with?": "عند المشي أو التنقل بكرسي متحرك، ما أكثر ما لا يعجبك؟",
+      "#Travel time": "مدة الرحلة",
+      "#Comfort": "الراحة",
+      "#Safety from traffic or crime": "الأمان من حركة المرور أو الجريمة",
+      "#It's hard to reach or use": "يصعب الوصول إليه أو استخدامه",
+      "#Crowding or lack of space": "الازدحام أو قلة المساحة",
+      "#It's not flexible": "غير مرن"
     }
   },
   "origin_project": {

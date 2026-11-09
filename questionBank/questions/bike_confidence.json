@@ -2,14 +2,17 @@
   "question_id": "bike_confidence",
   "key": "bike_confidence",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling",
   "source_questionnaires": [
     "smarturbanity_cycling_habits"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "How confident do you feel cycling in city traffic?",
     "answer_key": "bike_confidence",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Not at all: I avoid cycling in traffic",
@@ -35,83 +38,80 @@
         "text": "I never cycle in traffic",
         "value": "i_have_never_cycled_in_urban_traffic"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "How confident do you feel cycling in city traffic?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#Fairly: I manage most situations": "إلى حد كبير: أتعامل مع معظم المواقف",
-      "#How confident do you feel cycling in city traffic?": "ما مدى ثقتك عند ركوب الدراجة في حركة المرور داخل المدينة؟",
-      "#I never cycle in traffic": "لا أركب الدراجة وسط حركة المرور أبدًا",
-      "#In between": "بين بين",
-      "#Not at all: I avoid cycling in traffic": "على الإطلاق: أتجنب ركوب الدراجة وسط حركة المرور",
-      "#Not very: I cycle in traffic only when I have to": "ليس كثيرًا: أركب الدراجة وسط حركة المرور فقط عند الضرورة",
-      "#Very: I cycle in any traffic": "كثيرًا: أركب الدراجة في أي حركة مرور"
-    },
-    "de": {
-      "#Fairly: I manage most situations": "Einigermaßen: Ich komme in den meisten Situationen zurecht",
-      "#How confident do you feel cycling in city traffic?": "Wie sicher fühlen Sie sich beim Radfahren im Stadtverkehr?",
-      "#I never cycle in traffic": "Ich fahre nie im Verkehr Rad",
-      "#In between": "Mittel",
-      "#Not at all: I avoid cycling in traffic": "Gar nicht: Ich vermeide Radfahren im Verkehr",
-      "#Not very: I cycle in traffic only when I have to": "Wenig: Ich fahre nur im Verkehr Rad, wenn ich muss",
-      "#Very: I cycle in any traffic": "Sehr: Ich fahre in jedem Verkehr Rad"
-    },
     "en": {
-      "#Fairly: I manage most situations": "Fairly: I manage most situations",
       "#How confident do you feel cycling in city traffic?": "How confident do you feel cycling in city traffic?",
-      "#I never cycle in traffic": "I never cycle in traffic",
-      "#In between": "In between",
       "#Not at all: I avoid cycling in traffic": "Not at all: I avoid cycling in traffic",
       "#Not very: I cycle in traffic only when I have to": "Not very: I cycle in traffic only when I have to",
-      "#Very: I cycle in any traffic": "Very: I cycle in any traffic"
-    },
-    "fa": {
-      "#Fairly: I manage most situations": "نسبتاً: از پس بیشتر موقعیت‌ها برمی‌آیم",
-      "#How confident do you feel cycling in city traffic?": "در ترافیک شهر با دوچرخه چقدر احساس اطمینان می‌کنید؟",
-      "#I never cycle in traffic": "هرگز در ترافیک دوچرخه‌سواری نمی‌کنم",
-      "#In between": "متوسط",
-      "#Not at all: I avoid cycling in traffic": "اصلاً: از دوچرخه‌سواری در ترافیک دوری می‌کنم",
-      "#Not very: I cycle in traffic only when I have to": "زیاد نه: فقط وقتی مجبورم در ترافیک دوچرخه‌سواری می‌کنم",
-      "#Very: I cycle in any traffic": "بسیار: در هر ترافیکی دوچرخه‌سواری می‌کنم"
-    },
-    "fr": {
-      "#Fairly: I manage most situations": "Assez : je me débrouille dans la plupart des situations",
-      "#How confident do you feel cycling in city traffic?": "Quelle confiance avez-vous à vélo dans la circulation en ville ?",
-      "#I never cycle in traffic": "Je ne fais jamais de vélo dans la circulation",
-      "#In between": "Entre les deux",
-      "#Not at all: I avoid cycling in traffic": "Pas du tout : j'évite le vélo dans la circulation",
-      "#Not very: I cycle in traffic only when I have to": "Peu : je ne fais du vélo dans la circulation que si je dois",
-      "#Very: I cycle in any traffic": "Très : je roule à vélo dans toute circulation"
-    },
-    "hu": {
-      "#Fairly: I manage most situations": "Eléggé: a legtöbb helyzettel megbirkózom",
-      "#How confident do you feel cycling in city traffic?": "Mennyire érzi magabiztosnak magát, ha a városi forgalomban biciklizik?",
-      "#I never cycle in traffic": "Soha nem biciklizem a forgalomban",
-      "#In between": "Valahol a kettő között",
-      "#Not at all: I avoid cycling in traffic": "Egyáltalán nem: kerülöm a forgalomban való biciklizést",
-      "#Not very: I cycle in traffic only when I have to": "Nem nagyon: csak akkor biciklizem a forgalomban, ha muszáj",
-      "#Very: I cycle in any traffic": "Nagyon: bármilyen forgalomban biciklizem"
+      "#In between": "In between",
+      "#Fairly: I manage most situations": "Fairly: I manage most situations",
+      "#Very: I cycle in any traffic": "Very: I cycle in any traffic",
+      "#I never cycle in traffic": "I never cycle in traffic"
     },
     "it": {
-      "#Fairly: I manage most situations": "Abbastanza: me la cavo nella maggior parte dei casi",
-      "#How confident do you feel cycling in city traffic?": "Quanto ti senti sicuro in bici nel traffico cittadino?",
-      "#I never cycle in traffic": "Non vado mai in bici nel traffico",
-      "#In between": "Via di mezzo",
+      "#How confident do you feel cycling in city traffic?": "Quanto ti senti a tuo agio in bici nel traffico cittadino?",
       "#Not at all: I avoid cycling in traffic": "Per niente: evito di andare in bici nel traffico",
       "#Not very: I cycle in traffic only when I have to": "Poco: vado in bici nel traffico solo se devo",
-      "#Very: I cycle in any traffic": "Molto: vado in bici con qualsiasi traffico"
+      "#In between": "Via di mezzo",
+      "#Fairly: I manage most situations": "Abbastanza: me la cavo nella maggior parte dei casi",
+      "#Very: I cycle in any traffic": "Molto: vado in bici con qualsiasi traffico",
+      "#I never cycle in traffic": "Non vado mai in bici nel traffico"
+    },
+    "fr": {
+      "#How confident do you feel cycling in city traffic?": "Quelle confiance avez-vous à vélo dans la circulation en ville ?",
+      "#Not at all: I avoid cycling in traffic": "Pas du tout : j'évite le vélo dans la circulation",
+      "#Not very: I cycle in traffic only when I have to": "Peu : je ne fais du vélo dans la circulation que si je dois",
+      "#In between": "Entre les deux",
+      "#Fairly: I manage most situations": "Assez : je me débrouille dans la plupart des situations",
+      "#Very: I cycle in any traffic": "Très : je roule à vélo dans toute circulation",
+      "#I never cycle in traffic": "Je ne fais jamais de vélo dans la circulation"
+    },
+    "de": {
+      "#How confident do you feel cycling in city traffic?": "Wie sicher fühlen Sie sich beim Radfahren im Stadtverkehr?",
+      "#Not at all: I avoid cycling in traffic": "Gar nicht: Ich vermeide Radfahren im Verkehr",
+      "#Not very: I cycle in traffic only when I have to": "Wenig: Ich fahre nur im Verkehr Rad, wenn ich muss",
+      "#In between": "Mittel",
+      "#Fairly: I manage most situations": "Einigermaßen: Ich komme in den meisten Situationen zurecht",
+      "#Very: I cycle in any traffic": "Sehr: Ich fahre in jedem Verkehr Rad",
+      "#I never cycle in traffic": "Ich fahre nie im Verkehr Rad"
     },
     "tr": {
-      "#Fairly: I manage most situations": "Oldukça: Çoğu durumun üstesinden gelirim",
       "#How confident do you feel cycling in city traffic?": "Şehir trafiğinde bisiklet sürerken kendinizi ne kadar güvende hissediyorsunuz?",
-      "#I never cycle in traffic": "Trafikte hiç bisiklet sürmem",
-      "#In between": "Orta",
       "#Not at all: I avoid cycling in traffic": "Hiç değil: Trafikte bisiklet sürmekten kaçınırım",
       "#Not very: I cycle in traffic only when I have to": "Pek değil: Trafikte yalnızca zorunluysam bisiklet sürerim",
-      "#Very: I cycle in any traffic": "Çok: Her trafikte bisiklet sürerim"
+      "#In between": "Orta",
+      "#Fairly: I manage most situations": "Oldukça: Çoğu durumun üstesinden gelirim",
+      "#Very: I cycle in any traffic": "Çok: Her trafikte bisiklet sürerim",
+      "#I never cycle in traffic": "Trafikte hiç bisiklet sürmem"
+    },
+    "fa": {
+      "#How confident do you feel cycling in city traffic?": "در ترافیک شهر با دوچرخه چقدر احساس اطمینان می‌کنید؟",
+      "#Not at all: I avoid cycling in traffic": "اصلاً: از دوچرخه‌سواری در ترافیک دوری می‌کنم",
+      "#Not very: I cycle in traffic only when I have to": "زیاد نه: فقط وقتی مجبورم در ترافیک دوچرخه‌سواری می‌کنم",
+      "#In between": "متوسط",
+      "#Fairly: I manage most situations": "نسبتاً: از پس بیشتر موقعیت‌ها برمی‌آیم",
+      "#Very: I cycle in any traffic": "بسیار: در هر ترافیکی دوچرخه‌سواری می‌کنم",
+      "#I never cycle in traffic": "هرگز در ترافیک دوچرخه‌سواری نمی‌کنم"
+    },
+    "hu": {
+      "#How confident do you feel cycling in city traffic?": "Mennyire érzi magabiztosnak magát, ha a városi forgalomban biciklizik?",
+      "#Not at all: I avoid cycling in traffic": "Egyáltalán nem: kerülöm a forgalomban való biciklizést",
+      "#Not very: I cycle in traffic only when I have to": "Nem nagyon: csak akkor biciklizem a forgalomban, ha muszáj",
+      "#In between": "Valahol a kettő között",
+      "#Fairly: I manage most situations": "Eléggé: a legtöbb helyzettel megbirkózom",
+      "#Very: I cycle in any traffic": "Nagyon: bármilyen forgalomban biciklizem",
+      "#I never cycle in traffic": "Soha nem biciklizem a forgalomban"
+    },
+    "ar": {
+      "#How confident do you feel cycling in city traffic?": "ما مدى ثقتك عند ركوب الدراجة في حركة المرور داخل المدينة؟",
+      "#Not at all: I avoid cycling in traffic": "على الإطلاق: أتجنب ركوب الدراجة وسط حركة المرور",
+      "#Not very: I cycle in traffic only when I have to": "ليس كثيرًا: أركب الدراجة وسط حركة المرور فقط عند الضرورة",
+      "#In between": "بين بين",
+      "#Fairly: I manage most situations": "إلى حد كبير: أتعامل مع معظم المواقف",
+      "#Very: I cycle in any traffic": "كثيرًا: أركب الدراجة في أي حركة مرور",
+      "#I never cycle in traffic": "لا أركب الدراجة وسط حركة المرور أبدًا"
     }
   },
   "origin_project": {

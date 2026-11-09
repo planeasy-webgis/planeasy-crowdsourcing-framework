@@ -2,14 +2,17 @@
   "question_id": "put_delay_effect",
   "key": "put_delay_effect",
   "project": "shared",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport",
   "source_questionnaires": [
     "smarturbanity_public_transport_comfort"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "When the service is late or unreliable, what do you do?",
     "answer_key": "put_delay_effect",
+    "question_type": "multiple_options",
     "options": [
       {
         "text": "I leave earlier, just in case",
@@ -40,103 +43,100 @@
         "value": "i_give_up_the_trip"
       },
       {
-        "exclusive": true,
         "text": "It doesn't change what I do",
-        "value": "they_do_not_affect_my_behavior"
+        "value": "they_do_not_affect_my_behavior",
+        "exclusive": true
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "multiple_options",
-    "text": "When the service is late or unreliable, what do you do?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#I arrive late for work, school or appointments": "أصل متأخرًا إلى العمل أو المدرسة أو المواعيد",
-      "#I change route or travel time": "أغيّر طريقي أو وقت سفري",
-      "#I don't rely on it for important trips": "لا أعتمد عليها في الرحلات المهمة",
-      "#I give up the trip": "أتخلى عن التنقّل",
-      "#I have no alternative: I wait, sometimes for a long time": "ليس لدي بديل: أنتظر، أحيانًا لفترة طويلة",
-      "#I leave earlier, just in case": "أخرج مبكرًا تحسبًا",
-      "#I use another way of travelling instead": "أستخدم وسيلة تنقل أخرى بدلًا منها",
-      "#It doesn't change what I do": "لا يغيّر ما أفعله",
-      "#When the service is late or unreliable, what do you do?": "عندما تتأخر الخدمة أو لا يُعتمد عليها، ماذا تفعل؟"
-    },
-    "de": {
-      "#I arrive late for work, school or appointments": "Ich komme zu spät zur Arbeit, zur Schule oder zu Terminen",
-      "#I change route or travel time": "Ich ändere Route oder Fahrzeit",
-      "#I don't rely on it for important trips": "Auf wichtigen Wegen verlasse ich mich nicht darauf",
-      "#I give up the trip": "Ich verzichte auf den Weg",
-      "#I have no alternative: I wait, sometimes for a long time": "Ich habe keine Alternative: Ich warte, manchmal lange",
-      "#I leave earlier, just in case": "Ich fahre sicherheitshalber früher los",
-      "#I use another way of travelling instead": "Ich nutze stattdessen ein anderes Verkehrsmittel",
-      "#It doesn't change what I do": "Es ändert nichts an dem, was ich tue",
-      "#When the service is late or unreliable, what do you do?": "Was tun Sie, wenn der Dienst verspätet oder unzuverlässig ist?"
-    },
     "en": {
-      "#I arrive late for work, school or appointments": "I arrive late for work, school or appointments",
+      "#When the service is late or unreliable, what do you do?": "When the service is late or unreliable, what do you do?",
+      "#I leave earlier, just in case": "I leave earlier, just in case",
       "#I change route or travel time": "I change route or travel time",
       "#I don't rely on it for important trips": "I don't rely on it for important trips",
-      "#I give up the trip": "I give up the trip",
-      "#I have no alternative: I wait, sometimes for a long time": "I have no alternative: I wait, sometimes for a long time",
-      "#I leave earlier, just in case": "I leave earlier, just in case",
       "#I use another way of travelling instead": "I use another way of travelling instead",
-      "#It doesn't change what I do": "It doesn't change what I do",
-      "#When the service is late or unreliable, what do you do?": "When the service is late or unreliable, what do you do?"
-    },
-    "fa": {
-      "#I arrive late for work, school or appointments": "دیر به محل کار، مدرسه یا قرارهایم می‌رسم",
-      "#I change route or travel time": "مسیر یا زمان سفر را تغییر می‌دهم",
-      "#I don't rely on it for important trips": "برای سفرهای مهم به آن تکیه نمی‌کنم",
-      "#I give up the trip": "از رفتن صرف‌نظر می‌کنم",
-      "#I have no alternative: I wait, sometimes for a long time": "جایگزینی ندارم: منتظر می‌مانم، گاهی برای مدت طولانی",
-      "#I leave earlier, just in case": "برای احتیاط زودتر حرکت می‌کنم",
-      "#I use another way of travelling instead": "به جای آن از روش دیگری استفاده می‌کنم",
-      "#It doesn't change what I do": "بر کار من تأثیری ندارد",
-      "#When the service is late or unreliable, what do you do?": "وقتی سرویس دیر می‌کند یا قابل‌اعتماد نیست، چه می‌کنید؟"
-    },
-    "fr": {
-      "#I arrive late for work, school or appointments": "J'arrive en retard au travail, à l'école ou à mes rendez-vous",
-      "#I change route or travel time": "Je change d'itinéraire ou d'horaire",
-      "#I don't rely on it for important trips": "Je ne compte pas dessus pour les trajets importants",
-      "#I give up the trip": "Je renonce au déplacement",
-      "#I have no alternative: I wait, sometimes for a long time": "Je n'ai pas d'alternative : j'attends, parfois longtemps",
-      "#I leave earlier, just in case": "Je pars plus tôt, au cas où",
-      "#I use another way of travelling instead": "J'utilise un autre moyen de transport à la place",
-      "#It doesn't change what I do": "Cela ne change rien à ce que je fais",
-      "#When the service is late or unreliable, what do you do?": "Quand le service est en retard ou peu fiable, que faites-vous ?"
-    },
-    "hu": {
-      "#I arrive late for work, school or appointments": "Elkésem a munkából, az iskolából vagy a megbeszélt időpontokról",
-      "#I change route or travel time": "Megváltoztatom az útvonalat vagy az utazás idejét",
-      "#I don't rely on it for important trips": "Fontos utakhoz nem támaszkodom rá",
-      "#I give up the trip": "Lemondok az útról",
-      "#I have no alternative: I wait, sometimes for a long time": "Nincs más lehetőségem: várok, néha sokáig",
-      "#I leave earlier, just in case": "Biztos, ami biztos, korábban indulok",
-      "#I use another way of travelling instead": "Inkább más közlekedési módot használok",
-      "#It doesn't change what I do": "Nem változtat azon, amit csinálok",
-      "#When the service is late or unreliable, what do you do?": "Ha a járat késik, vagy megbízhatatlan, mit tesz?"
+      "#I have no alternative: I wait, sometimes for a long time": "I have no alternative: I wait, sometimes for a long time",
+      "#I arrive late for work, school or appointments": "I arrive late for work, school or appointments",
+      "#I give up the trip": "I give up the trip",
+      "#It doesn't change what I do": "It doesn't change what I do"
     },
     "it": {
-      "#I arrive late for work, school or appointments": "Arrivo in ritardo al lavoro, a scuola o agli appuntamenti",
+      "#When the service is late or unreliable, what do you do?": "Quando il servizio è in ritardo o poco affidabile, cosa fai?",
+      "#I leave earlier, just in case": "Parto prima, per sicurezza",
       "#I change route or travel time": "Cambio percorso o orario",
       "#I don't rely on it for important trips": "Non ci faccio affidamento per gli spostamenti importanti",
-      "#I give up the trip": "Rinuncio allo spostamento",
-      "#I have no alternative: I wait, sometimes for a long time": "Non ho alternative: aspetto, anche a lungo",
-      "#I leave earlier, just in case": "Parto prima, per sicurezza",
       "#I use another way of travelling instead": "Uso invece un altro mezzo",
-      "#It doesn't change what I do": "Non cambia quello che faccio",
-      "#When the service is late or unreliable, what do you do?": "Quando il servizio è in ritardo o poco affidabile, cosa fai?"
+      "#I have no alternative: I wait, sometimes for a long time": "Non ho alternative: aspetto, anche a lungo",
+      "#I arrive late for work, school or appointments": "Arrivo in ritardo al lavoro, a scuola o agli appuntamenti",
+      "#I give up the trip": "Rinuncio allo spostamento",
+      "#It doesn't change what I do": "Non cambia quello che faccio"
+    },
+    "fr": {
+      "#When the service is late or unreliable, what do you do?": "Quand le service est en retard ou peu fiable, que faites-vous ?",
+      "#I leave earlier, just in case": "Je pars plus tôt, au cas où",
+      "#I change route or travel time": "Je change d'itinéraire ou d'horaire",
+      "#I don't rely on it for important trips": "Je ne compte pas dessus pour les trajets importants",
+      "#I use another way of travelling instead": "J'utilise un autre moyen de transport à la place",
+      "#I have no alternative: I wait, sometimes for a long time": "Je n'ai pas d'alternative : j'attends, parfois longtemps",
+      "#I arrive late for work, school or appointments": "J'arrive en retard au travail, à l'école ou à mes rendez-vous",
+      "#I give up the trip": "Je renonce au déplacement",
+      "#It doesn't change what I do": "Cela ne change rien à ce que je fais"
+    },
+    "de": {
+      "#When the service is late or unreliable, what do you do?": "Was tun Sie, wenn der Dienst verspätet oder unzuverlässig ist?",
+      "#I leave earlier, just in case": "Ich fahre sicherheitshalber früher los",
+      "#I change route or travel time": "Ich ändere Route oder Fahrzeit",
+      "#I don't rely on it for important trips": "Auf wichtigen Wegen verlasse ich mich nicht darauf",
+      "#I use another way of travelling instead": "Ich nutze stattdessen ein anderes Verkehrsmittel",
+      "#I have no alternative: I wait, sometimes for a long time": "Ich habe keine Alternative: Ich warte, manchmal lange",
+      "#I arrive late for work, school or appointments": "Ich komme zu spät zur Arbeit, zur Schule oder zu Terminen",
+      "#I give up the trip": "Ich verzichte auf den Weg",
+      "#It doesn't change what I do": "Es ändert nichts an dem, was ich tue"
     },
     "tr": {
-      "#I arrive late for work, school or appointments": "İşe, okula veya randevulara geç kalıyorum",
+      "#When the service is late or unreliable, what do you do?": "Hizmet geciktiğinde veya güvenilmez olduğunda ne yaparsınız?",
+      "#I leave earlier, just in case": "Ne olur ne olmaz diye daha erken çıkarım",
       "#I change route or travel time": "Güzergâhımı veya yolculuk saatimi değiştiririm",
       "#I don't rely on it for important trips": "Önemli yolculuklar için ona güvenmem",
-      "#I give up the trip": "Yolculuktan vazgeçiyorum",
-      "#I have no alternative: I wait, sometimes for a long time": "Başka seçeneğim yok: bazen uzun süre bekliyorum",
-      "#I leave earlier, just in case": "Ne olur ne olmaz diye daha erken çıkarım",
       "#I use another way of travelling instead": "Bunun yerine başka bir ulaşım yolu kullanırım",
-      "#It doesn't change what I do": "Yaptığım şeyi değiştirmez",
-      "#When the service is late or unreliable, what do you do?": "Hizmet geciktiğinde veya güvenilmez olduğunda ne yaparsınız?"
+      "#I have no alternative: I wait, sometimes for a long time": "Başka seçeneğim yok: bazen uzun süre bekliyorum",
+      "#I arrive late for work, school or appointments": "İşe, okula veya randevulara geç kalıyorum",
+      "#I give up the trip": "Yolculuktan vazgeçiyorum",
+      "#It doesn't change what I do": "Yaptığım şeyi değiştirmez"
+    },
+    "fa": {
+      "#When the service is late or unreliable, what do you do?": "وقتی سرویس دیر می‌کند یا قابل‌اعتماد نیست، چه می‌کنید؟",
+      "#I leave earlier, just in case": "برای احتیاط زودتر حرکت می‌کنم",
+      "#I change route or travel time": "مسیر یا زمان سفر را تغییر می‌دهم",
+      "#I don't rely on it for important trips": "برای سفرهای مهم به آن تکیه نمی‌کنم",
+      "#I use another way of travelling instead": "به جای آن از روش دیگری استفاده می‌کنم",
+      "#I have no alternative: I wait, sometimes for a long time": "جایگزینی ندارم: منتظر می‌مانم، گاهی برای مدت طولانی",
+      "#I arrive late for work, school or appointments": "دیر به محل کار، مدرسه یا قرارهایم می‌رسم",
+      "#I give up the trip": "از رفتن صرف‌نظر می‌کنم",
+      "#It doesn't change what I do": "بر کار من تأثیری ندارد"
+    },
+    "hu": {
+      "#When the service is late or unreliable, what do you do?": "Ha a járat késik, vagy megbízhatatlan, mit tesz?",
+      "#I leave earlier, just in case": "Biztos, ami biztos, korábban indulok",
+      "#I change route or travel time": "Megváltoztatom az útvonalat vagy az utazás idejét",
+      "#I don't rely on it for important trips": "Fontos utakhoz nem támaszkodom rá",
+      "#I use another way of travelling instead": "Inkább más közlekedési módot használok",
+      "#I have no alternative: I wait, sometimes for a long time": "Nincs más lehetőségem: várok, néha sokáig",
+      "#I arrive late for work, school or appointments": "Elkésem a munkából, az iskolából vagy a megbeszélt időpontokról",
+      "#I give up the trip": "Lemondok az útról",
+      "#It doesn't change what I do": "Nem változtat azon, amit csinálok"
+    },
+    "ar": {
+      "#When the service is late or unreliable, what do you do?": "عندما تتأخر الخدمة أو لا يُعتمد عليها، ما تصرّفك؟",
+      "#I leave earlier, just in case": "أخرج مبكرًا تحسبًا",
+      "#I change route or travel time": "أغيّر طريقي أو وقت سفري",
+      "#I don't rely on it for important trips": "لا أعتمد عليها في الرحلات المهمة",
+      "#I use another way of travelling instead": "أستخدم وسيلة تنقل أخرى بدلًا منها",
+      "#I have no alternative: I wait, sometimes for a long time": "ليس لدي بديل: أنتظر، أحيانًا لفترة طويلة",
+      "#I arrive late for work, school or appointments": "أتأخر في الوصول إلى العمل أو المدرسة أو المواعيد",
+      "#I give up the trip": "أتخلى عن التنقّل",
+      "#It doesn't change what I do": "لا يغيّر ما أفعله"
     }
   },
   "origin_project": {

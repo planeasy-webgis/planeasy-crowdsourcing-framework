@@ -2,17 +2,21 @@
   "question_id": "motorcycle_tiredness_cause",
   "key": "motorcycle_tiredness_cause",
   "project": "shared",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle_experience",
   "source_questionnaires": [
-    "smarturbanity_motorcycle_experience"
+    "smarturbanity_motorcycle_experience",
+    "smarturbanity_motorcycle_effort"
   ],
   "schema": {
+    "privacy_classification": "heightened_personal",
+    "text": "When you ride a motorcycle or scooter, what tires you most?",
     "answer_key": "motorcycle_tiredness_cause",
+    "question_type": "single_option",
     "options": [
       {
-        "text": "Physical effort (walking, cycling, carrying bags)",
+        "text": "Physical effort (carrying bags)",
         "value": "physical_effort_e_g_walking_cycling_carr"
       },
       {
@@ -24,82 +28,79 @@
         "value": "environmental_discomfort_e_g_heat_noise"
       },
       {
-        "text": "Waiting or standing (at stops, in queues)",
+        "text": "Waiting or standing (at traffic lights, in queues)",
         "value": "waiting_and_standing_e_g_at_stops_in_que"
       },
       {
         "text": "I rarely feel tired after my trips",
         "value": "i_usually_do_not_feel_tired_after_my_tri"
       }
-    ],
-    "privacy_classification": "heightened_personal",
-    "question_type": "single_option",
-    "text": "When you ride a motorcycle or scooter, what tires you most?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#Heat, noise or bad air": "الحر أو الضجيج أو الهواء السيئ",
-      "#I rarely feel tired after my trips": "نادرًا ما أشعر بالتعب بعد رحلاتي",
-      "#Physical effort (walking, cycling, carrying bags)": "الجهد البدني (المشي، ركوب الدراجة، حمل الأكياس)",
-      "#Stress (traffic, finding the way, being late, feeling unsafe)": "التوتر (حركة المرور، معرفة الطريق، التأخر، الشعور بعدم الأمان)",
-      "#Waiting or standing (at stops, in queues)": "الانتظار أو الوقوف (في المحطات أو الطوابير)",
-      "#When you ride a motorcycle or scooter, what tires you most?": "عند ركوب الدراجة النارية أو السكوتر، ما الذي يرهقك أكثر؟"
-    },
-    "de": {
-      "#Heat, noise or bad air": "Hitze, Lärm oder schlechte Luft",
-      "#I rarely feel tired after my trips": "Nach meinen Wegen bin ich selten müde",
-      "#Physical effort (walking, cycling, carrying bags)": "Körperliche Anstrengung (Gehen, Radfahren, Taschen tragen)",
-      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (Verkehr, Weg finden, Verspätung, Unsicherheit)",
-      "#Waiting or standing (at stops, in queues)": "Warten oder Stehen (an Haltestellen, in Schlangen)",
-      "#When you ride a motorcycle or scooter, what tires you most?": "Was ermüdet Sie beim Motorrad- oder Rollerfahren am meisten?"
-    },
     "en": {
+      "#When you ride a motorcycle or scooter, what tires you most?": "When you ride a motorcycle or scooter, what tires you most?",
+      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (traffic, finding the way, being late, feeling unsafe)",
       "#Heat, noise or bad air": "Heat, noise or bad air",
       "#I rarely feel tired after my trips": "I rarely feel tired after my trips",
-      "#Physical effort (walking, cycling, carrying bags)": "Physical effort (walking, cycling, carrying bags)",
-      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (traffic, finding the way, being late, feeling unsafe)",
-      "#Waiting or standing (at stops, in queues)": "Waiting or standing (at stops, in queues)",
-      "#When you ride a motorcycle or scooter, what tires you most?": "When you ride a motorcycle or scooter, what tires you most?"
-    },
-    "fa": {
-      "#Heat, noise or bad air": "گرما، سر و صدا یا هوای آلوده",
-      "#I rarely feel tired after my trips": "به‌ندرت بعد از سفرهایم احساس خستگی می‌کنم",
-      "#Physical effort (walking, cycling, carrying bags)": "تلاش بدنی (پیاده‌روی، دوچرخه‌سواری، حمل کیسه)",
-      "#Stress (traffic, finding the way, being late, feeling unsafe)": "استرس (ترافیک، پیدا کردن راه، دیر رسیدن، احساس ناامنی)",
-      "#Waiting or standing (at stops, in queues)": "انتظار یا ایستادن (در ایستگاه، در صف)",
-      "#When you ride a motorcycle or scooter, what tires you most?": "هنگام موتورسواری، چه چیزی بیشتر از همه شما را خسته می‌کند؟"
-    },
-    "fr": {
-      "#Heat, noise or bad air": "Chaleur, bruit ou mauvaise qualité de l'air",
-      "#I rarely feel tired after my trips": "Je me sens rarement fatigué après mes trajets",
-      "#Physical effort (walking, cycling, carrying bags)": "Effort physique (marcher, pédaler, porter des sacs)",
-      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (circulation, trouver son chemin, être en retard, se sentir en danger)",
-      "#Waiting or standing (at stops, in queues)": "Attendre ou rester debout (aux arrêts, dans les files)",
-      "#When you ride a motorcycle or scooter, what tires you most?": "Lorsque vous roulez à moto ou en scooter, qu’est-ce qui vous fatigue le plus ?"
-    },
-    "hu": {
-      "#Heat, noise or bad air": "Hőség, zaj vagy rossz levegő",
-      "#I rarely feel tired after my trips": "Ritkán fáradok el az utak után",
-      "#Physical effort (walking, cycling, carrying bags)": "Fizikai megterhelés (gyaloglás, biciklizés, szatyrok cipelése)",
-      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stressz (forgalom, eligazodás, késés, a biztonság hiányának érzése)",
-      "#Waiting or standing (at stops, in queues)": "Várakozás vagy állás (a megállóban, sorban)",
-      "#When you ride a motorcycle or scooter, what tires you most?": "Motorozás vagy robogózás közben mi fárasztja ki a legjobban?"
+      "#Physical effort (carrying bags)": "Physical effort (carrying bags)",
+      "#Waiting or standing (at traffic lights, in queues)": "Waiting or standing (at traffic lights, in queues)"
     },
     "it": {
+      "#When you ride a motorcycle or scooter, what tires you most?": "Quando vai in moto o in scooter, cosa ti stanca di più?",
+      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (traffico, trovare la strada, fare tardi, non sentirsi al sicuro)",
       "#Heat, noise or bad air": "Caldo, rumore o aria cattiva",
       "#I rarely feel tired after my trips": "Raramente mi stanco dopo i miei spostamenti",
-      "#Physical effort (walking, cycling, carrying bags)": "Fatica fisica (camminare, pedalare, portare borse)",
-      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (traffico, trovare la strada, fare tardi, non sentirsi al sicuro)",
-      "#Waiting or standing (at stops, in queues)": "Aspettare o stare in piedi (alle fermate, in coda)",
-      "#When you ride a motorcycle or scooter, what tires you most?": "Quando vai in moto o in scooter, cosa ti stanca di più?"
+      "#Physical effort (carrying bags)": "Fatica fisica (portare borse)",
+      "#Waiting or standing (at traffic lights, in queues)": "Aspettare o stare in piedi (ai semafori, in coda)"
+    },
+    "fr": {
+      "#When you ride a motorcycle or scooter, what tires you most?": "Lorsque vous roulez à moto ou en scooter, qu’est-ce qui vous fatigue le plus ?",
+      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (circulation, trouver son chemin, être en retard, se sentir en danger)",
+      "#Heat, noise or bad air": "Chaleur, bruit ou mauvaise qualité de l'air",
+      "#I rarely feel tired after my trips": "Je me sens rarement fatigué après mes trajets",
+      "#Physical effort (carrying bags)": "Effort physique (porter des sacs)",
+      "#Waiting or standing (at traffic lights, in queues)": "Attendre ou rester debout (aux feux, dans les files)"
+    },
+    "de": {
+      "#When you ride a motorcycle or scooter, what tires you most?": "Was ermüdet Sie beim Motorrad- oder Rollerfahren am meisten?",
+      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stress (Verkehr, Weg finden, Verspätung, Unsicherheit)",
+      "#Heat, noise or bad air": "Hitze, Lärm oder schlechte Luft",
+      "#I rarely feel tired after my trips": "Nach meinen Wegen bin ich selten müde",
+      "#Physical effort (carrying bags)": "Körperliche Anstrengung (Taschen tragen)",
+      "#Waiting or standing (at traffic lights, in queues)": "Warten oder Stehen (an Ampeln, in Schlangen)"
     },
     "tr": {
+      "#When you ride a motorcycle or scooter, what tires you most?": "Motosiklet veya scooter sürerken sizi en çok ne yorar?",
+      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stres (trafik, yolu bulmak, geç kalmak, kendini güvensiz hissetmek)",
       "#Heat, noise or bad air": "Sıcak, gürültü veya kötü hava kalitesi",
       "#I rarely feel tired after my trips": "Yolculuklarımdan sonra nadiren yorgun hissederim",
-      "#Physical effort (walking, cycling, carrying bags)": "Fiziksel efor (yürümek, bisiklet sürmek, çanta taşımak)",
-      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stres (trafik, yolu bulmak, geç kalmak, kendini güvensiz hissetmek)",
-      "#Waiting or standing (at stops, in queues)": "Beklemek veya ayakta durmak (duraklarda, kuyruklarda)",
-      "#When you ride a motorcycle or scooter, what tires you most?": "Motosiklet veya scooter sürerken sizi en çok ne yorar?"
+      "#Physical effort (carrying bags)": "Fiziksel efor (çanta taşımak)",
+      "#Waiting or standing (at traffic lights, in queues)": "Beklemek veya ayakta durmak (trafik ışıklarında, kuyruklarda)"
+    },
+    "fa": {
+      "#When you ride a motorcycle or scooter, what tires you most?": "هنگام موتورسواری، چه چیزی بیشتر از همه شما را خسته می‌کند؟",
+      "#Stress (traffic, finding the way, being late, feeling unsafe)": "استرس (ترافیک، پیدا کردن راه، دیر رسیدن، احساس ناامنی)",
+      "#Heat, noise or bad air": "گرما، سر و صدا یا هوای آلوده",
+      "#I rarely feel tired after my trips": "به‌ندرت بعد از سفرهایم احساس خستگی می‌کنم",
+      "#Physical effort (carrying bags)": "تلاش بدنی (حمل کیسه)",
+      "#Waiting or standing (at traffic lights, in queues)": "انتظار یا ایستادن (پشت چراغ قرمز، در صف)"
+    },
+    "hu": {
+      "#When you ride a motorcycle or scooter, what tires you most?": "Motorozás vagy robogózás közben mi fárasztja ki a legjobban?",
+      "#Stress (traffic, finding the way, being late, feeling unsafe)": "Stressz (forgalom, eligazodás, késés, a biztonság hiányának érzése)",
+      "#Heat, noise or bad air": "Hőség, zaj vagy rossz levegő",
+      "#I rarely feel tired after my trips": "Ritkán fáradok el az utak után",
+      "#Physical effort (carrying bags)": "Fizikai megterhelés (szatyrok cipelése)",
+      "#Waiting or standing (at traffic lights, in queues)": "Várakozás vagy állás (a lámpánál, sorban)"
+    },
+    "ar": {
+      "#When you ride a motorcycle or scooter, what tires you most?": "عند ركوب الدراجة النارية أو السكوتر، ما الذي يرهقك أكثر؟",
+      "#Stress (traffic, finding the way, being late, feeling unsafe)": "التوتر (حركة المرور، معرفة الطريق، التأخر، الشعور بعدم الأمان)",
+      "#Heat, noise or bad air": "الحر أو الضجيج أو الهواء السيئ",
+      "#I rarely feel tired after my trips": "نادرًا ما أشعر بالتعب بعد رحلاتي",
+      "#Physical effort (carrying bags)": "الجهد البدني (حمل الأكياس)",
+      "#Waiting or standing (at traffic lights, in queues)": "الانتظار أو الوقوف (عند إشارات المرور أو في الطوابير)"
     }
   },
   "origin_project": {

@@ -2,14 +2,18 @@
   "question_id": "bike_adverse_weather_travel_effect",
   "key": "bike_adverse_weather_travel_effect",
   "project": "shared",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling_comfort",
   "source_questionnaires": [
-    "smarturbanity_cycling_comfort"
+    "smarturbanity_cycling_comfort",
+    "smarturbanity_cycling_surroundings"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?",
     "answer_key": "bike_adverse_weather_travel_effect",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Nothing changes, I travel as usual",
@@ -31,75 +35,72 @@
         "text": "I travel another way (e.g. by car or bus)",
         "value": "it_makes_me_switch_to_a_different_mode_o"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#I prepare differently or change route (e.g. clothes, umbrella)": "أستعد بشكل مختلف أو أغيّر طريقي (مثل الملابس أو المظلة)",
-      "#I put off or skip some trips": "أؤجل بعض الرحلات أو ألغيها",
-      "#I travel another way (e.g. by car or bus)": "أتنقل بطريقة أخرى (مثلًا بالسيارة أو الحافلة)",
-      "#It's less pleasant, but I travel the same way": "الأمر أقل متعة، لكنني أتنقل بالطريقة نفسها",
-      "#Nothing changes, I travel as usual": "لا شيء يتغير، أتنقل كالمعتاد",
-      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "عند ركوب الدراجة، ماذا تفعل عادةً عندما يكون الطقس سيئًا (مطر أو رياح أو برد أو حرّ شديد)؟"
-    },
-    "de": {
-      "#I prepare differently or change route (e.g. clothes, umbrella)": "Ich bereite mich anders vor oder ändere die Route (z. B. Kleidung, Regenschirm)",
-      "#I put off or skip some trips": "Ich verschiebe oder streiche manche Wege",
-      "#I travel another way (e.g. by car or bus)": "Ich nutze ein anderes Verkehrsmittel (z. B. Auto oder Bus)",
-      "#It's less pleasant, but I travel the same way": "Es ist weniger angenehm, aber ich bin auf dieselbe Weise unterwegs",
-      "#Nothing changes, I travel as usual": "Nichts ändert sich, ich bin wie gewohnt unterwegs",
-      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Was tun Sie beim Radfahren normalerweise, wenn das Wetter schlecht ist (Regen, Wind, Kälte oder große Hitze)?"
-    },
     "en": {
+      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?",
+      "#Nothing changes, I travel as usual": "Nothing changes, I travel as usual",
+      "#It's less pleasant, but I travel the same way": "It's less pleasant, but I travel the same way",
       "#I prepare differently or change route (e.g. clothes, umbrella)": "I prepare differently or change route (e.g. clothes, umbrella)",
       "#I put off or skip some trips": "I put off or skip some trips",
-      "#I travel another way (e.g. by car or bus)": "I travel another way (e.g. by car or bus)",
-      "#It's less pleasant, but I travel the same way": "It's less pleasant, but I travel the same way",
-      "#Nothing changes, I travel as usual": "Nothing changes, I travel as usual",
-      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?"
-    },
-    "fa": {
-      "#I prepare differently or change route (e.g. clothes, umbrella)": "طور دیگری آماده می‌شوم یا مسیرم را عوض می‌کنم (مثلاً لباس، چتر)",
-      "#I put off or skip some trips": "بعضی سفرها را به تعویق می‌اندازم یا انجام نمی‌دهم",
-      "#I travel another way (e.g. by car or bus)": "با روش دیگری سفر می‌کنم (مثلاً با خودرو یا اتوبوس)",
-      "#It's less pleasant, but I travel the same way": "کمتر دلپذیر است، اما به همان شکل سفر می‌کنم",
-      "#Nothing changes, I travel as usual": "چیزی تغییر نمی‌کند، مثل همیشه سفر می‌کنم",
-      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "هنگام دوچرخه‌سواری، وقتی هوا بد است (باران، باد، سرما یا گرمای شدید) معمولاً چه می‌کنید؟"
-    },
-    "fr": {
-      "#I prepare differently or change route (e.g. clothes, umbrella)": "Je me prépare autrement ou je change d'itinéraire (par ex. vêtements, parapluie)",
-      "#I put off or skip some trips": "Je reporte ou je saute certains trajets",
-      "#I travel another way (e.g. by car or bus)": "Je me déplace autrement (par ex. en voiture ou en bus)",
-      "#It's less pleasant, but I travel the same way": "C'est moins agréable, mais je me déplace de la même façon",
-      "#Nothing changes, I travel as usual": "Rien ne change, je me déplace comme d'habitude",
-      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Lorsque vous faites du vélo, que faites-vous habituellement quand le temps est mauvais (pluie, vent, froid ou grande chaleur) ?"
-    },
-    "hu": {
-      "#I prepare differently or change route (e.g. clothes, umbrella)": "Másképp készülök, vagy útvonalat váltok (pl. ruházat, esernyő)",
-      "#I put off or skip some trips": "Néhány utat elhalasztok vagy kihagyok",
-      "#I travel another way (e.g. by car or bus)": "Más módon utazom (pl. autóval vagy busszal)",
-      "#It's less pleasant, but I travel the same way": "Kevésbé kellemes, de ugyanúgy utazom",
-      "#Nothing changes, I travel as usual": "Semmi sem változik, ugyanúgy utazom",
-      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Kerékpározás közben mit szokott tenni, ha rossz az idő (eső, szél, hideg vagy nagy hőség)?"
+      "#I travel another way (e.g. by car or bus)": "I travel another way (e.g. by car or bus)"
     },
     "it": {
+      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Quando vai in bici, cosa fai di solito quando il tempo è brutto (pioggia, vento, freddo o gran caldo)?",
+      "#Nothing changes, I travel as usual": "Non cambia niente, mi sposto come sempre",
+      "#It's less pleasant, but I travel the same way": "È meno piacevole, ma mi sposto allo stesso modo",
       "#I prepare differently or change route (e.g. clothes, umbrella)": "Mi preparo in modo diverso o cambio percorso (ad es. vestiti, ombrello)",
       "#I put off or skip some trips": "Rimando o salto alcuni spostamenti",
-      "#I travel another way (e.g. by car or bus)": "Mi sposto in un altro modo (ad es. in auto o autobus)",
-      "#It's less pleasant, but I travel the same way": "È meno piacevole, ma mi sposto allo stesso modo",
-      "#Nothing changes, I travel as usual": "Non cambia niente, mi sposto come sempre",
-      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Quando vai in bici, cosa fai di solito quando il tempo è brutto (pioggia, vento, freddo o gran caldo)?"
+      "#I travel another way (e.g. by car or bus)": "Mi sposto in un altro modo (ad es. in auto o autobus)"
+    },
+    "fr": {
+      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Lorsque vous faites du vélo, que faites-vous habituellement quand le temps est mauvais (pluie, vent, froid ou grande chaleur) ?",
+      "#Nothing changes, I travel as usual": "Rien ne change, je me déplace comme d'habitude",
+      "#It's less pleasant, but I travel the same way": "C'est moins agréable, mais je me déplace de la même façon",
+      "#I prepare differently or change route (e.g. clothes, umbrella)": "Je me prépare autrement ou je change d'itinéraire (par ex. vêtements, parapluie)",
+      "#I put off or skip some trips": "Je reporte ou je saute certains trajets",
+      "#I travel another way (e.g. by car or bus)": "Je me déplace autrement (par ex. en voiture ou en bus)"
+    },
+    "de": {
+      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Was tun Sie beim Radfahren normalerweise, wenn das Wetter schlecht ist (Regen, Wind, Kälte oder große Hitze)?",
+      "#Nothing changes, I travel as usual": "Nichts ändert sich, ich bin wie gewohnt unterwegs",
+      "#It's less pleasant, but I travel the same way": "Es ist weniger angenehm, aber ich bin auf dieselbe Weise unterwegs",
+      "#I prepare differently or change route (e.g. clothes, umbrella)": "Ich bereite mich anders vor oder ändere die Route (z. B. Kleidung, Regenschirm)",
+      "#I put off or skip some trips": "Ich verschiebe oder streiche manche Wege",
+      "#I travel another way (e.g. by car or bus)": "Ich nutze ein anderes Verkehrsmittel (z. B. Auto oder Bus)"
     },
     "tr": {
+      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Bisiklet sürerken hava koşulları kötü olduğunda (yağmur, rüzgâr, soğuk veya aşırı sıcak) genellikle ne yaparsınız?",
+      "#Nothing changes, I travel as usual": "Hiçbir şey değişmez, her zamanki gibi yolculuk ederim",
+      "#It's less pleasant, but I travel the same way": "Daha az keyifli ama aynı şekilde yolculuk ederim",
       "#I prepare differently or change route (e.g. clothes, umbrella)": "Farklı hazırlanırım veya güzergâhı değiştiririm (örn. kıyafet, şemsiye)",
       "#I put off or skip some trips": "Bazı yolculukları ertelerim veya yapmam",
-      "#I travel another way (e.g. by car or bus)": "Başka bir şekilde giderim (örn. otomobille veya otobüsle)",
-      "#It's less pleasant, but I travel the same way": "Daha az keyifli ama aynı şekilde yolculuk ederim",
-      "#Nothing changes, I travel as usual": "Hiçbir şey değişmez, her zamanki gibi yolculuk ederim",
-      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Bisiklet sürerken hava koşulları kötü olduğunda (yağmur, rüzgâr, soğuk veya aşırı sıcak) genellikle ne yaparsınız?"
+      "#I travel another way (e.g. by car or bus)": "Başka bir şekilde giderim (örn. otomobille veya otobüsle)"
+    },
+    "fa": {
+      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "هنگام دوچرخه‌سواری، وقتی هوا بد است (باران، باد، سرما یا گرمای شدید) معمولاً چه می‌کنید؟",
+      "#Nothing changes, I travel as usual": "چیزی تغییر نمی‌کند، مثل همیشه سفر می‌کنم",
+      "#It's less pleasant, but I travel the same way": "کمتر دلپذیر است، اما به همان شکل سفر می‌کنم",
+      "#I prepare differently or change route (e.g. clothes, umbrella)": "طور دیگری آماده می‌شوم یا مسیرم را عوض می‌کنم (مثلاً لباس، چتر)",
+      "#I put off or skip some trips": "بعضی سفرها را به تعویق می‌اندازم یا انجام نمی‌دهم",
+      "#I travel another way (e.g. by car or bus)": "با روش دیگری سفر می‌کنم (مثلاً با خودرو یا اتوبوس)"
+    },
+    "hu": {
+      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "Kerékpározás közben mit szokott tenni, ha rossz az idő (eső, szél, hideg vagy nagy hőség)?",
+      "#Nothing changes, I travel as usual": "Semmi sem változik, ugyanúgy utazom",
+      "#It's less pleasant, but I travel the same way": "Kevésbé kellemes, de ugyanúgy utazom",
+      "#I prepare differently or change route (e.g. clothes, umbrella)": "Másképp készülök, vagy útvonalat váltok (pl. ruházat, esernyő)",
+      "#I put off or skip some trips": "Néhány utat elhalasztok vagy kihagyok",
+      "#I travel another way (e.g. by car or bus)": "Más módon utazom (pl. autóval vagy busszal)"
+    },
+    "ar": {
+      "#When you cycle, what do you usually do when the weather is bad (rain, wind, cold or great heat)?": "عند ركوب الدراجة، ما تصرّفك عادةً عندما يكون الطقس سيئًا (مطر أو رياح أو برد أو حرّ شديد)؟",
+      "#Nothing changes, I travel as usual": "لا شيء يتغير، أتنقل كالمعتاد",
+      "#It's less pleasant, but I travel the same way": "الأمر أقل متعة، لكنني أتنقل بالطريقة نفسها",
+      "#I prepare differently or change route (e.g. clothes, umbrella)": "أستعد بشكل مختلف أو أغيّر طريقي (مثل الملابس أو المظلة)",
+      "#I put off or skip some trips": "أؤجل بعض الرحلات أو ألغيها",
+      "#I travel another way (e.g. by car or bus)": "أتنقل بطريقة أخرى (مثلًا بالسيارة أو الحافلة)"
     }
   },
   "origin_project": {
