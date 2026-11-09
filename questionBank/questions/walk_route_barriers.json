@@ -2,7 +2,7 @@
   "question_id": "walk_route_barriers",
   "key": "walk_route_barriers",
   "project": "shared",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking_road_safety",
   "source_questionnaires": [
@@ -48,14 +48,10 @@
       {
         "text": "Pedestrian traffic lights without an audible signal",
         "value": "pedestrian_lights_no_audio"
-      },
-      {
-        "text": "None of these",
-        "value": "none",
-        "exclusive": true
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "add_none": true
   },
   "translations": {
     "en": {

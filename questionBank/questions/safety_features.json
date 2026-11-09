@@ -2,7 +2,7 @@
   "question_id": "safety_features",
   "key": "safety_features",
   "project": "shared",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "status": "draft",
   "origin_questionnaire": "street_connection_assessment",
   "source_questionnaires": [
@@ -61,16 +61,12 @@
       {
         "text": "Traffic light for bicycles",
         "value": "bike_signal"
-      },
-      {
-        "exclusive": true,
-        "text": "None of these",
-        "value": "none"
       }
     ],
     "privacy_classification": "heightened_personal",
     "question_type": "multiple_options",
-    "text": "What helps people use this place safely?"
+    "text": "What helps people use this place safely?",
+    "add_none": true
   },
   "translations": {
     "ar": {
