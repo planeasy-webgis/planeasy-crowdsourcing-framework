@@ -2,15 +2,18 @@
   "question_id": "bike_hazard_confidence",
   "key": "bike_hazard_confidence",
   "project": "shared",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling",
   "source_questionnaires": [
     "smarturbanity_cycling_road_safety"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "When you cycle, how quick are your reflexes if something happens suddenly?",
+    "help": "Think about how quickly you can react, for example when a car door opens suddenly.",
     "answer_key": "bike_hazard_confidence",
-    "help": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Not quick at all: I often cannot react in time",
@@ -32,83 +35,80 @@
         "text": "Extremely quick: I always react in time",
         "value": "extremely_quick"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "When you cycle, how quick are your reflexes if something happens suddenly?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#A little quick: sometimes I react late": "سريعة قليلًا: أحيانًا أتصرف متأخرًا",
-      "#Extremely quick: I always react in time": "سريعة للغاية: أتصرف دائمًا في الوقت المناسب",
-      "#Fairly quick: I usually react in time": "سريعة إلى حد ما: عادةً أتصرف في الوقت المناسب",
-      "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثل فتح باب سيارة فجأة، أو مركبة تقطع طريقك، أو تقاطع لا ترى فيه ما هو قادم.",
-      "#Not quick at all: I often cannot react in time": "ليست سريعة على الإطلاق: غالبًا لا أستطيع التصرف في الوقت المناسب",
-      "#Very quick: I almost always react in time": "سريعة جدًا: أتصرف في الوقت المناسب دائمًا تقريبًا",
-      "#When you cycle, how quick are your reflexes if something happens suddenly?": "عند ركوب الدراجة، ما مدى سرعة ردود فعلك إذا حدث شيء فجأة؟"
-    },
-    "de": {
-      "#A little quick: sometimes I react late": "Wenig schnell: Manchmal reagiere ich zu spät",
-      "#Extremely quick: I always react in time": "Äußerst schnell: Ich reagiere immer rechtzeitig",
-      "#Fairly quick: I usually react in time": "Einigermaßen schnell: Meistens reagiere ich rechtzeitig",
-      "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Zum Beispiel eine plötzlich aufgehende Autotür, ein Fahrzeug, das Ihnen den Weg abschneidet, oder eine Kreuzung, an der Sie nicht sehen, was kommt.",
-      "#Not quick at all: I often cannot react in time": "Gar nicht schnell: Oft kann ich nicht rechtzeitig reagieren",
-      "#Very quick: I almost always react in time": "Sehr schnell: Ich reagiere fast immer rechtzeitig",
-      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Wie schnell sind Ihre Reflexe auf dem Rad, wenn plötzlich etwas passiert?"
-    },
     "en": {
-      "#A little quick: sometimes I react late": "A little quick: sometimes I react late",
-      "#Extremely quick: I always react in time": "Extremely quick: I always react in time",
-      "#Fairly quick: I usually react in time": "Fairly quick: I usually react in time",
-      "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.",
+      "#When you cycle, how quick are your reflexes if something happens suddenly?": "When you cycle, how quick are your reflexes if something happens suddenly?",
       "#Not quick at all: I often cannot react in time": "Not quick at all: I often cannot react in time",
+      "#A little quick: sometimes I react late": "A little quick: sometimes I react late",
+      "#Fairly quick: I usually react in time": "Fairly quick: I usually react in time",
       "#Very quick: I almost always react in time": "Very quick: I almost always react in time",
-      "#When you cycle, how quick are your reflexes if something happens suddenly?": "When you cycle, how quick are your reflexes if something happens suddenly?"
-    },
-    "fa": {
-      "#A little quick: sometimes I react late": "کمی سریع: گاهی دیر واکنش نشان می‌دهم",
-      "#Extremely quick: I always react in time": "فوق‌العاده سریع: همیشه به‌موقع واکنش نشان می‌دهم",
-      "#Fairly quick: I usually react in time": "نسبتاً سریع: معمولاً به‌موقع واکنش نشان می‌دهم",
-      "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "مثلاً باز شدن ناگهانی در خودرو، عبور ناگهانی وسیله‌ای از جلوی شما، یا تقاطعی که نمی‌توانید ببینید چه چیزی می‌آید.",
-      "#Not quick at all: I often cannot react in time": "اصلاً سریع نیست: اغلب نمی‌توانم به‌موقع واکنش نشان دهم",
-      "#Very quick: I almost always react in time": "خیلی سریع: تقریباً همیشه به‌موقع واکنش نشان می‌دهم",
-      "#When you cycle, how quick are your reflexes if something happens suddenly?": "هنگام دوچرخه‌سواری، اگر ناگهان اتفاقی بیفتد، واکنش‌های شما چقدر سریع است؟"
-    },
-    "fr": {
-      "#A little quick: sometimes I react late": "Peu rapides : parfois je réagis trop tard",
-      "#Extremely quick: I always react in time": "Extrêmement rapides : je réagis toujours à temps",
-      "#Fairly quick: I usually react in time": "Assez rapides : en général je réagis à temps",
-      "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Par exemple une portière de voiture qui s'ouvre brusquement, un véhicule qui vous coupe la route ou un carrefour où vous ne voyez pas ce qui arrive.",
-      "#Not quick at all: I often cannot react in time": "Pas du tout rapides : souvent, je n’arrive pas à réagir à temps",
-      "#Very quick: I almost always react in time": "Très rapides : je réagis presque toujours à temps",
-      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Lorsque vous faites du vélo, à quel point vos réflexes sont-ils rapides si quelque chose arrive soudainement ?"
-    },
-    "hu": {
-      "#A little quick: sometimes I react late": "Kevéssé gyorsak: néha későn reagálok",
-      "#Extremely quick: I always react in time": "Rendkívül gyorsak: mindig időben reagálok",
-      "#Fairly quick: I usually react in time": "Eléggé gyorsak: általában időben reagálok",
-      "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Például hirtelen kinyíló autóajtó, Ön elé bevágó jármű, vagy olyan kereszteződés, ahol nem látja, mi jön.",
-      "#Not quick at all: I often cannot react in time": "Egyáltalán nem gyorsak: gyakran nem tudok időben reagálni",
-      "#Very quick: I almost always react in time": "Nagyon gyorsak: szinte mindig időben reagálok",
-      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Kerékpározás közben milyen gyorsak a reflexei, ha hirtelen történik valami?"
+      "#Extremely quick: I always react in time": "Extremely quick: I always react in time",
+      "#Think about how quickly you can react, for example when a car door opens suddenly.": "Think about how quickly you can react, for example when a car door opens suddenly."
     },
     "it": {
-      "#A little quick: sometimes I react late": "Poco pronti: a volte reagisco tardi",
-      "#Extremely quick: I always react in time": "Prontissimi: reagisco sempre in tempo",
-      "#Fairly quick: I usually react in time": "Abbastanza pronti: di solito reagisco in tempo",
-      "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Per esempio una portiera d'auto che si apre all'improvviso, un veicolo che ti taglia la strada o un incrocio dove non vedi cosa arriva.",
+      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Quando vai in bici, quanto sono pronti i tuoi riflessi se succede qualcosa all’improvviso?",
       "#Not quick at all: I often cannot react in time": "Per niente pronti: spesso non riesco a reagire in tempo",
+      "#A little quick: sometimes I react late": "Poco pronti: a volte reagisco tardi",
+      "#Fairly quick: I usually react in time": "Abbastanza pronti: di solito reagisco in tempo",
       "#Very quick: I almost always react in time": "Molto pronti: reagisco quasi sempre in tempo",
-      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Quando vai in bici, quanto sono pronti i tuoi riflessi se succede qualcosa all’improvviso?"
+      "#Extremely quick: I always react in time": "Prontissimi: reagisco sempre in tempo",
+      "#Think about how quickly you can react, for example when a car door opens suddenly.": "Pensa alla rapidità con cui riesci a reagire, per esempio quando una portiera si apre all’improvviso."
+    },
+    "fr": {
+      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Lorsque vous faites du vélo, à quel point vos réflexes sont-ils rapides si quelque chose arrive soudainement ?",
+      "#Not quick at all: I often cannot react in time": "Pas du tout rapides : souvent, je n’arrive pas à réagir à temps",
+      "#A little quick: sometimes I react late": "Peu rapides : parfois je réagis trop tard",
+      "#Fairly quick: I usually react in time": "Assez rapides : en général je réagis à temps",
+      "#Very quick: I almost always react in time": "Très rapides : je réagis presque toujours à temps",
+      "#Extremely quick: I always react in time": "Extrêmement rapides : je réagis toujours à temps",
+      "#Think about how quickly you can react, for example when a car door opens suddenly.": "Pensez à la rapidité avec laquelle vous pouvez réagir, par exemple lorsqu’une portière s’ouvre soudainement."
+    },
+    "de": {
+      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Wie schnell sind Ihre Reflexe auf dem Rad, wenn plötzlich etwas passiert?",
+      "#Not quick at all: I often cannot react in time": "Gar nicht schnell: Oft kann ich nicht rechtzeitig reagieren",
+      "#A little quick: sometimes I react late": "Wenig schnell: Manchmal reagiere ich zu spät",
+      "#Fairly quick: I usually react in time": "Einigermaßen schnell: Meistens reagiere ich rechtzeitig",
+      "#Very quick: I almost always react in time": "Sehr schnell: Ich reagiere fast immer rechtzeitig",
+      "#Extremely quick: I always react in time": "Äußerst schnell: Ich reagiere immer rechtzeitig",
+      "#Think about how quickly you can react, for example when a car door opens suddenly.": "Denken Sie daran, wie schnell Sie reagieren können, zum Beispiel wenn sich plötzlich eine Autotür öffnet."
     },
     "tr": {
-      "#A little quick: sometimes I react late": "Biraz hızlı: Bazen geç tepki veririm",
-      "#Extremely quick: I always react in time": "Son derece hızlı: Her zaman zamanında tepki veririm",
-      "#Fairly quick: I usually react in time": "Oldukça hızlı: Genellikle zamanında tepki veririm",
-      "#For example a car door opening suddenly, a vehicle cutting across you, or a junction where you can't see what's coming.": "Örneğin aniden açılan bir araba kapısı, önünüzden kesen bir araç veya ne geldiğini göremediğiniz bir kavşak.",
+      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Bisiklet sürerken aniden bir şey olursa refleksleriniz ne kadar hızlıdır?",
       "#Not quick at all: I often cannot react in time": "Hiç hızlı değil: Çoğu zaman zamanında tepki veremem",
+      "#A little quick: sometimes I react late": "Biraz hızlı: Bazen geç tepki veririm",
+      "#Fairly quick: I usually react in time": "Oldukça hızlı: Genellikle zamanında tepki veririm",
       "#Very quick: I almost always react in time": "Çok hızlı: Neredeyse her zaman zamanında tepki veririm",
-      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Bisiklet sürerken aniden bir şey olursa refleksleriniz ne kadar hızlıdır?"
+      "#Extremely quick: I always react in time": "Son derece hızlı: Her zaman zamanında tepki veririm",
+      "#Think about how quickly you can react, for example when a car door opens suddenly.": "Örneğin bir arabanın kapısı aniden açıldığında ne kadar hızlı tepki verebildiğinizi düşünün."
+    },
+    "fa": {
+      "#When you cycle, how quick are your reflexes if something happens suddenly?": "هنگام دوچرخه‌سواری، اگر ناگهان اتفاقی بیفتد، واکنش‌های شما چقدر سریع است؟",
+      "#Not quick at all: I often cannot react in time": "اصلاً سریع نیست: اغلب نمی‌توانم به‌موقع واکنش نشان دهم",
+      "#A little quick: sometimes I react late": "کمی سریع: گاهی دیر واکنش نشان می‌دهم",
+      "#Fairly quick: I usually react in time": "نسبتاً سریع: معمولاً به‌موقع واکنش نشان می‌دهم",
+      "#Very quick: I almost always react in time": "خیلی سریع: تقریباً همیشه به‌موقع واکنش نشان می‌دهم",
+      "#Extremely quick: I always react in time": "فوق‌العاده سریع: همیشه به‌موقع واکنش نشان می‌دهم",
+      "#Think about how quickly you can react, for example when a car door opens suddenly.": "به سرعت واکنش خود فکر کنید؛ برای مثال وقتی درِ خودرویی ناگهان باز می‌شود."
+    },
+    "hu": {
+      "#When you cycle, how quick are your reflexes if something happens suddenly?": "Kerékpározás közben milyen gyorsak a reflexei, ha hirtelen történik valami?",
+      "#Not quick at all: I often cannot react in time": "Egyáltalán nem gyorsak: gyakran nem tudok időben reagálni",
+      "#A little quick: sometimes I react late": "Kevéssé gyorsak: néha későn reagálok",
+      "#Fairly quick: I usually react in time": "Eléggé gyorsak: általában időben reagálok",
+      "#Very quick: I almost always react in time": "Nagyon gyorsak: szinte mindig időben reagálok",
+      "#Extremely quick: I always react in time": "Rendkívül gyorsak: mindig időben reagálok",
+      "#Think about how quickly you can react, for example when a car door opens suddenly.": "Gondoljon arra, milyen gyorsan tud reagálni, például ha hirtelen kinyílik egy autó ajtaja."
+    },
+    "ar": {
+      "#When you cycle, how quick are your reflexes if something happens suddenly?": "عند ركوب الدراجة، ما مدى سرعة ردود فعلك إذا حدث شيء فجأة؟",
+      "#Not quick at all: I often cannot react in time": "ليست سريعة على الإطلاق: غالبًا لا أستطيع التصرف في الوقت المناسب",
+      "#A little quick: sometimes I react late": "سريعة قليلًا: أحيانًا أتصرف متأخرًا",
+      "#Fairly quick: I usually react in time": "سريعة إلى حد ما: عادةً أتصرف في الوقت المناسب",
+      "#Very quick: I almost always react in time": "سريعة جدًا: أتصرف في الوقت المناسب دائمًا تقريبًا",
+      "#Extremely quick: I always react in time": "سريعة للغاية: أتصرف دائمًا في الوقت المناسب",
+      "#Think about how quickly you can react, for example when a car door opens suddenly.": "فكّر في مدى سرعة استجابتك، مثلًا عندما يُفتح باب سيارة فجأة."
     }
   },
   "origin_project": {

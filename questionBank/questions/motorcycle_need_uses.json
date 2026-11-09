@@ -2,14 +2,16 @@
   "question_id": "motorcycle_need_uses",
   "key": "motorcycle_need_uses",
   "project": "shared",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_motorcycle_need",
   "source_questionnaires": [
     "smarturbanity_motorcycle_need"
   ],
   "schema": {
+    "text": "What do you use your motorcycle or scooter for? (Select all that apply)",
     "answer_key": "motorcycle_need_uses",
+    "question_type": "multiple_options",
     "options": [
       {
         "text": "Travelling at night or getting to night shifts, when public transport is scarce",
@@ -29,74 +31,64 @@
       }
     ],
     "privacy_classification": "personal_data",
-    "question_type": "multiple_options",
-    "text": "What do you use your motorcycle or scooter for? (Select all that apply)",
     "add_none": true
   },
   "translations": {
-    "ar": {
-      "#Being sure of getting back, even after many hours": "التأكد من العودة حتى بعد ساعات طويلة",
-      "#Getting around because my area is poorly served by public transport": "التنقل لأن منطقتي تخدمها وسائل النقل العام بشكل سيئ",
-      "#Making unexpected trips, even out of town": "القيام برحلات غير متوقعة، حتى خارج المدينة",
-      "#None of these": "لا شيء مما سبق",
-      "#Travelling at night or getting to night shifts, when public transport is scarce": "التنقل ليلًا أو الوصول إلى نوبات العمل الليلية، حين يقل النقل العام",
-      "#What do you use your motorcycle or scooter for? (Select all that apply)": "ما الأغراض التي تستخدم دراجتك النارية أو السكوتر من أجلها؟ (يمكن اختيار كل ما ينطبق)"
-    },
-    "de": {
-      "#Being sure of getting back, even after many hours": "Sicher sein, wieder zurückzukommen, auch nach vielen Stunden",
-      "#Getting around because my area is poorly served by public transport": "Unterwegs sein, weil meine Gegend schlecht mit öffentlichen Verkehrsmitteln erschlossen ist",
-      "#Making unexpected trips, even out of town": "Unvorhergesehene Fahrten machen, auch außerhalb der Stadt",
-      "#None of these": "Keine davon",
-      "#Travelling at night or getting to night shifts, when public transport is scarce": "Nachts unterwegs sein oder zur Nachtschicht kommen, wenn kaum öffentliche Verkehrsmittel fahren",
-      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Wofür nutzen Sie Ihr Motorrad oder Ihren Roller? (Wählen Sie alles Zutreffende aus)"
-    },
     "en": {
-      "#Being sure of getting back, even after many hours": "Being sure of getting back, even after many hours",
-      "#Getting around because my area is poorly served by public transport": "Getting around because my area is poorly served by public transport",
-      "#Making unexpected trips, even out of town": "Making unexpected trips, even out of town",
-      "#None of these": "None of these",
+      "#What do you use your motorcycle or scooter for? (Select all that apply)": "What do you use your motorcycle or scooter for? (Select all that apply)",
       "#Travelling at night or getting to night shifts, when public transport is scarce": "Travelling at night or getting to night shifts, when public transport is scarce",
-      "#What do you use your motorcycle or scooter for? (Select all that apply)": "What do you use your motorcycle or scooter for? (Select all that apply)"
-    },
-    "fa": {
-      "#Being sure of getting back, even after many hours": "اطمینان از بازگشت، حتی پس از ساعت‌های طولانی",
-      "#Getting around because my area is poorly served by public transport": "جابه‌جایی به‌دلیل ضعف خدمات حمل‌ونقل عمومی در محله من",
-      "#Making unexpected trips, even out of town": "سفرهای پیش‌بینی‌نشده، حتی به خارج از شهر",
-      "#None of these": "هیچ‌کدام از این‌ها",
-      "#Travelling at night or getting to night shifts, when public transport is scarce": "سفر در شب یا رفتن به شیفت شب، وقتی حمل‌ونقل عمومی کم است",
-      "#What do you use your motorcycle or scooter for? (Select all that apply)": "از موتور یا اسکوتر خود برای چه کارهایی استفاده می‌کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)"
-    },
-    "fr": {
-      "#Being sure of getting back, even after many hours": "Avoir la certitude de pouvoir rentrer, même après de nombreuses heures",
-      "#Getting around because my area is poorly served by public transport": "Me déplacer parce que mon quartier est mal desservi par les transports en commun",
-      "#Making unexpected trips, even out of town": "Faire des trajets imprévus, même hors de la ville",
-      "#None of these": "Aucun de ces éléments",
-      "#Travelling at night or getting to night shifts, when public transport is scarce": "Me déplacer la nuit ou me rendre à un travail de nuit, quand les transports en commun sont rares",
-      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Pour quoi utilisez-vous votre moto ou votre scooter ? (Sélectionnez toutes les réponses qui s’appliquent)"
-    },
-    "hu": {
-      "#Being sure of getting back, even after many hours": "Biztos hazajutás, akár sok óra elteltével is",
-      "#Getting around because my area is poorly served by public transport": "Közlekedés, mert a környékem rosszul ellátott tömegközlekedéssel",
-      "#Making unexpected trips, even out of town": "Váratlan utak, akár a városon kívülre is",
-      "#None of these": "Ezek közül egyik sem",
-      "#Travelling at night or getting to night shifts, when public transport is scarce": "Éjszakai utazás vagy éjszakai műszakba járás, amikor kevés a tömegközlekedés",
-      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Mire használja a motorkerékpárját vagy robogóját? (Jelölje meg az összes megfelelőt)"
+      "#Getting around because my area is poorly served by public transport": "Getting around because my area is poorly served by public transport",
+      "#Being sure of getting back, even after many hours": "Being sure of getting back, even after many hours",
+      "#Making unexpected trips, even out of town": "Making unexpected trips, even out of town"
     },
     "it": {
-      "#Being sure of getting back, even after many hours": "Avere la certezza di tornare, anche dopo molte ore",
-      "#Getting around because my area is poorly served by public transport": "Spostarmi perché la mia zona è poco servita dai mezzi pubblici",
-      "#Making unexpected trips, even out of town": "Fare spostamenti imprevisti, anche fuori città",
-      "#None of these": "Nessuna di queste",
+      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Per cosa usi la moto o lo scooter? (Seleziona tutte le opzioni applicabili)",
       "#Travelling at night or getting to night shifts, when public transport is scarce": "Spostarmi di notte o raggiungere i turni di notte, quando i mezzi pubblici sono pochi",
-      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Per cosa usi la moto o lo scooter? (Seleziona tutte le opzioni applicabili)"
+      "#Getting around because my area is poorly served by public transport": "Spostarmi perché la mia zona è poco servita dai mezzi pubblici",
+      "#Being sure of getting back, even after many hours": "Avere la certezza di tornare, anche dopo molte ore",
+      "#Making unexpected trips, even out of town": "Fare spostamenti imprevisti, anche fuori città"
+    },
+    "fr": {
+      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Pour quoi utilisez-vous votre moto ou votre scooter ? (Sélectionnez toutes les réponses qui s’appliquent)",
+      "#Travelling at night or getting to night shifts, when public transport is scarce": "Me déplacer la nuit ou me rendre à un travail de nuit, quand les transports en commun sont rares",
+      "#Getting around because my area is poorly served by public transport": "Me déplacer parce que mon quartier est mal desservi par les transports en commun",
+      "#Being sure of getting back, even after many hours": "Avoir la certitude de pouvoir rentrer, même après de nombreuses heures",
+      "#Making unexpected trips, even out of town": "Faire des trajets imprévus, même hors de la ville"
+    },
+    "de": {
+      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Wofür nutzen Sie Ihr Motorrad oder Ihren Roller? (Wählen Sie alles Zutreffende aus)",
+      "#Travelling at night or getting to night shifts, when public transport is scarce": "Nachts unterwegs sein oder zur Nachtschicht kommen, wenn kaum öffentliche Verkehrsmittel fahren",
+      "#Getting around because my area is poorly served by public transport": "Unterwegs sein, weil meine Gegend schlecht mit öffentlichen Verkehrsmitteln erschlossen ist",
+      "#Being sure of getting back, even after many hours": "Sicher sein, wieder zurückzukommen, auch nach vielen Stunden",
+      "#Making unexpected trips, even out of town": "Unvorhergesehene Fahrten machen, auch außerhalb der Stadt"
     },
     "tr": {
-      "#Being sure of getting back, even after many hours": "Saatler sonra bile geri dönebileceğimden emin olmak",
-      "#Getting around because my area is poorly served by public transport": "Bölgeme toplu taşıma yeterince hizmet vermediği için ulaşmak",
-      "#Making unexpected trips, even out of town": "Şehir dışı da dahil, beklenmedik yolculuklar yapmak",
-      "#None of these": "Bunların hiçbiri",
+      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Motosikletinizi veya scooter'ınızı ne için kullanıyorsunuz? (Uygun olanların tümünü seçin)",
       "#Travelling at night or getting to night shifts, when public transport is scarce": "Toplu taşımanın az olduğu saatlerde geceleri yolculuk etmek veya gece vardiyalarına gitmek",
-      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Motosikletinizi veya scooter'ınızı ne için kullanıyorsunuz? (Uygun olanların tümünü seçin)"
+      "#Getting around because my area is poorly served by public transport": "Bölgeme toplu taşıma yeterince hizmet vermediği için ulaşmak",
+      "#Being sure of getting back, even after many hours": "Saatler sonra bile geri dönebileceğimden emin olmak",
+      "#Making unexpected trips, even out of town": "Şehir dışı da dahil, beklenmedik yolculuklar yapmak"
+    },
+    "fa": {
+      "#What do you use your motorcycle or scooter for? (Select all that apply)": "از موتور یا اسکوتر خود برای چه کارهایی استفاده می‌کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+      "#Travelling at night or getting to night shifts, when public transport is scarce": "سفر در شب یا رفتن به شیفت شب، وقتی حمل‌ونقل عمومی کم است",
+      "#Getting around because my area is poorly served by public transport": "جابه‌جایی به‌دلیل ضعف خدمات حمل‌ونقل عمومی در محله من",
+      "#Being sure of getting back, even after many hours": "اطمینان از بازگشت، حتی پس از ساعت‌های طولانی",
+      "#Making unexpected trips, even out of town": "سفرهای پیش‌بینی‌نشده، حتی به خارج از شهر"
+    },
+    "hu": {
+      "#What do you use your motorcycle or scooter for? (Select all that apply)": "Mire használja a motorkerékpárját vagy robogóját? (Jelölje meg az összes megfelelőt)",
+      "#Travelling at night or getting to night shifts, when public transport is scarce": "Éjszakai utazás vagy éjszakai műszakba járás, amikor kevés a tömegközlekedés",
+      "#Getting around because my area is poorly served by public transport": "Közlekedés, mert a környékem rosszul ellátott tömegközlekedéssel",
+      "#Being sure of getting back, even after many hours": "Biztos hazajutás, akár sok óra elteltével is",
+      "#Making unexpected trips, even out of town": "Váratlan utak, akár a városon kívülre is"
+    },
+    "ar": {
+      "#What do you use your motorcycle or scooter for? (Select all that apply)": "ما الأغراض التي تستخدم دراجتك النارية أو السكوتر من أجلها؟ (يمكن اختيار كل ما ينطبق)",
+      "#Travelling at night or getting to night shifts, when public transport is scarce": "التنقل ليلًا أو الوصول إلى نوبات العمل الليلية، حين يقل النقل العام",
+      "#Getting around because my area is poorly served by public transport": "التنقل لأن منطقتي تخدمها وسائل النقل العام بشكل سيئ",
+      "#Being sure of getting back, even after many hours": "التأكد من العودة حتى بعد ساعات طويلة",
+      "#Making unexpected trips, even out of town": "القيام برحلات غير متوقعة، حتى خارج المدينة"
     }
   },
   "origin_project": {
