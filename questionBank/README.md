@@ -112,3 +112,32 @@ configuration sources. The pool now has 752 selected questions and 2,640 revisio
 all 2,613 previous snapshot hashes are unchanged. Existing questionnaire pins and
 standalone files remain unchanged. Using the new revisions requires an application
 supporting the ordinary-question `add_none` flag. No runtime publication is implied.
+
+## Unified profile and final mode questionnaires, 9 November 2026
+
+The pool is aligned with the survey and trip-survey questions of SmartUrbanity
+Configuration `8bb47bf01be961ac014cc48a2e04294203cd7f8d`: 306 source occurrences,
+50 new revisions and one new family, `trip_load_and_pet`. There are now 753
+selected questions and 2,690 immutable revisions. All 2,640 earlier snapshot
+hashes are preserved.
+
+Your Profile now combines About You and Home and work in two sections. This is
+questionnaire composition, maintained only in SmartUrbanity; no duplicate profile
+questionnaire or composition flow is introduced here. The 21 reusable definitions
+already exist in the pool. In particular, the explicitly optional pet question is
+a flow setting and does not need a new pool revision.
+
+The update also selects the final walking and other mode definitions, including
+their latest flags, options, wording and translations. Framework-generated Other,
+None of these, I don't know and Prefer not to say labels are no longer copied into
+these new revisions' translation tables. Earlier historical translations remain
+unchanged. The pre-trip companion question makes Alone exclusive and keeps bags
+and pets in the separate `trip_load_and_pet` question. Its new topic assignment is
+marked `needs_review`.
+
+The [source manifest](updates/2026-11-09-unified-profile.json) pins source paths,
+question pointers and hashes, and maps source versions to pool revisions. Import
+dry run, actual import and generated-feed verification pass. The existing
+standalone questionnaires and their pins remain unchanged. Location-report and
+usability questions are outside this update. This is a local bank update, not
+publication or acceptance by real participants.
