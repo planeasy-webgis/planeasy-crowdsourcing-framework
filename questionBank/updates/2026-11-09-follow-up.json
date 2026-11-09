@@ -1,0 +1,338 @@
+{
+  "commit": "8bff277659676c2233a2de4b32f6126bee124924",
+  "previousSourceCommit": "f6470d1d44ee0ae0d4500f8f1add6c46e15e67a4",
+  "sourceRepository": "smarturbanity/smarturbanity-configuration",
+  "questionFamilies": 24,
+  "newFamilies": [
+    "pedestrian_use_difficult",
+    "cyclist_use_difficult",
+    "pedestrian_traffic_unsafe",
+    "cyclist_traffic_unsafe",
+    "personal_day_unsafe",
+    "personal_evening_unsafe",
+    "crossing_waiting_space",
+    "connection_rest_space"
+  ],
+  "occurrences": [
+    {
+      "id": "journey_context",
+      "previous": "2.1.0",
+      "version": "3.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "2.1.0",
+      "sourcePointer": "/questionnaire/sections/0/questions/1",
+      "sourceQuestionSha256": "b81d24de114256d39afef415c8477c867c1127594db6616db07f80c82d2cadee"
+    },
+    {
+      "id": "pedestrian_use_difficult",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/2/questions/0",
+      "sourceQuestionSha256": "006f2577059b67ea67d71bddf96251a3dd10793fe0ad25df171174c9b78178e1"
+    },
+    {
+      "id": "cyclist_use_difficult",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/2/questions/1",
+      "sourceQuestionSha256": "31c5432feecf11d6b1b061022327d4d88350bd5b9901491a8a837c091c99528d"
+    },
+    {
+      "id": "pedestrian_traffic_unsafe",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/3/questions/0",
+      "sourceQuestionSha256": "d80a10d3df537550aee55c7525255ef6784f4f4ea1425a17c4a10da5613ef006"
+    },
+    {
+      "id": "cyclist_traffic_unsafe",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/3/questions/1",
+      "sourceQuestionSha256": "402a20c902c8114a8d09283f708d72e3a0b1e0daa33135fd4e6bed2477b54d44"
+    },
+    {
+      "id": "personal_day_unsafe",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/4/questions/0",
+      "sourceQuestionSha256": "c8bb01cb8a6c1db095215eef5149ab400fb1946dc0e4f6c7cfd90c1a13846090"
+    },
+    {
+      "id": "personal_evening_unsafe",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/4/questions/1",
+      "sourceQuestionSha256": "fe98ffdf029ce66d754b875a99160e1ba01f1bff7725b11183bb1c944b602bf3"
+    },
+    {
+      "id": "continue_audit",
+      "previous": "2.0.1",
+      "version": "2.1.1",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.1",
+      "sourcePointer": "/questionnaire/sections/5/questions/0",
+      "sourceQuestionSha256": "d3f8b68b89ecd8faabdb263b1d4ed801f41bb35dcf31d7fb41ca0b84f8d965ec"
+    },
+    {
+      "id": "crossing_waiting_space",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/7/questions/2",
+      "sourceQuestionSha256": "50ade1eaab45db9637a994151ed20015240f665828207dcd305a60d3c0d51bbd"
+    },
+    {
+      "id": "connection_rest_space",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_connection_assessment",
+      "sourcePath": "forms/locationReports/street_connection_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/7/questions/3",
+      "sourceQuestionSha256": "72de32f0ec358ce3c8532042adb28ef8f49cbd831c57af7714f97bf7a38bc789"
+    },
+    {
+      "id": "journey_context",
+      "previous": "2.1.0",
+      "version": "3.0.0",
+      "form": "street_segment_assessment",
+      "sourcePath": "forms/locationReports/street_segment_assessment.json",
+      "declared": "2.1.0",
+      "sourcePointer": "/questionnaire/sections/0/questions/1",
+      "sourceQuestionSha256": "b81d24de114256d39afef415c8477c867c1127594db6616db07f80c82d2cadee"
+    },
+    {
+      "id": "pedestrian_use_difficult",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_segment_assessment",
+      "sourcePath": "forms/locationReports/street_segment_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/2/questions/0",
+      "sourceQuestionSha256": "006f2577059b67ea67d71bddf96251a3dd10793fe0ad25df171174c9b78178e1"
+    },
+    {
+      "id": "cyclist_use_difficult",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_segment_assessment",
+      "sourcePath": "forms/locationReports/street_segment_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/2/questions/1",
+      "sourceQuestionSha256": "31c5432feecf11d6b1b061022327d4d88350bd5b9901491a8a837c091c99528d"
+    },
+    {
+      "id": "pedestrian_traffic_unsafe",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_segment_assessment",
+      "sourcePath": "forms/locationReports/street_segment_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/3/questions/0",
+      "sourceQuestionSha256": "d80a10d3df537550aee55c7525255ef6784f4f4ea1425a17c4a10da5613ef006"
+    },
+    {
+      "id": "cyclist_traffic_unsafe",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_segment_assessment",
+      "sourcePath": "forms/locationReports/street_segment_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/3/questions/1",
+      "sourceQuestionSha256": "402a20c902c8114a8d09283f708d72e3a0b1e0daa33135fd4e6bed2477b54d44"
+    },
+    {
+      "id": "personal_day_unsafe",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_segment_assessment",
+      "sourcePath": "forms/locationReports/street_segment_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/4/questions/0",
+      "sourceQuestionSha256": "c8bb01cb8a6c1db095215eef5149ab400fb1946dc0e4f6c7cfd90c1a13846090"
+    },
+    {
+      "id": "personal_evening_unsafe",
+      "previous": null,
+      "version": "1.0.0",
+      "form": "street_segment_assessment",
+      "sourcePath": "forms/locationReports/street_segment_assessment.json",
+      "declared": "1.0.0",
+      "sourcePointer": "/questionnaire/sections/4/questions/1",
+      "sourceQuestionSha256": "fe98ffdf029ce66d754b875a99160e1ba01f1bff7725b11183bb1c944b602bf3"
+    },
+    {
+      "id": "continue_audit",
+      "previous": "2.0.1",
+      "version": "2.1.1",
+      "form": "street_segment_assessment",
+      "sourcePath": "forms/locationReports/street_segment_assessment.json",
+      "declared": "1.0.1",
+      "sourcePointer": "/questionnaire/sections/5/questions/0",
+      "sourceQuestionSha256": "d3f8b68b89ecd8faabdb263b1d4ed801f41bb35dcf31d7fb41ca0b84f8d965ec"
+    },
+    {
+      "id": "car_unsafe_road_users",
+      "previous": "1.0.2",
+      "version": "1.1.0",
+      "form": "smarturbanity_car_road_safety",
+      "sourcePath": "forms/surveys/smarturbanity_car_road_safety.json",
+      "declared": "1.0.3",
+      "sourcePointer": "/questionnaire/sections/1/questions/0",
+      "sourceQuestionSha256": "c261a604f1eed1691cf96ec91526c25b857e6dee900cb1917e83d410abbabd64"
+    },
+    {
+      "id": "bike_unsafe_road_users",
+      "previous": "1.0.2",
+      "version": "1.1.0",
+      "form": "smarturbanity_cycling_road_safety",
+      "sourcePath": "forms/surveys/smarturbanity_cycling_road_safety.json",
+      "declared": "1.0.3",
+      "sourcePointer": "/questionnaire/sections/1/questions/0",
+      "sourceQuestionSha256": "05f8bfb16e0c4815861d928856fd705e83610421cdf4e9cf166b2aa1d54eb744"
+    },
+    {
+      "id": "escooter_unsafe_road_users",
+      "previous": "1.0.2",
+      "version": "1.1.0",
+      "form": "smarturbanity_e_scooter_road_safety",
+      "sourcePath": "forms/surveys/smarturbanity_e_scooter_road_safety.json",
+      "declared": "1.0.3",
+      "sourcePointer": "/questionnaire/sections/1/questions/0",
+      "sourceQuestionSha256": "5801d9c51c7bc2ce7cd0e8dc087711ce051c1823c95b3a890698506af1f0a9ed"
+    },
+    {
+      "id": "motorcycle_hazard_confidence",
+      "previous": "1.2.2",
+      "version": "1.3.0",
+      "form": "smarturbanity_motorcycle_road_safety",
+      "sourcePath": "forms/surveys/smarturbanity_motorcycle_road_safety.json",
+      "declared": "1.1.3",
+      "sourcePointer": "/questionnaire/sections/0/questions/1",
+      "sourceQuestionSha256": "1ec0aef4bec53f2c0cdc6173ef2794fe9d5140aa56c457dd88b659971c43c62b"
+    },
+    {
+      "id": "motorcycle_unsafe_road_users",
+      "previous": "1.0.2",
+      "version": "1.1.0",
+      "form": "smarturbanity_motorcycle_road_safety",
+      "sourcePath": "forms/surveys/smarturbanity_motorcycle_road_safety.json",
+      "declared": "1.0.3",
+      "sourcePointer": "/questionnaire/sections/1/questions/0",
+      "sourceQuestionSha256": "b70be90d08ec56d4e9e8afff7f403afea2d9bed128b8fb6d5ea0e306bf10360e"
+    },
+    {
+      "id": "put_crowding_comfort",
+      "previous": "1.2.1",
+      "version": "1.3.0",
+      "form": "smarturbanity_public_transport_comfort",
+      "sourcePath": "forms/surveys/smarturbanity_public_transport_comfort.json",
+      "declared": "1.1.1",
+      "sourcePointer": "/questionnaire/sections/0/questions/0",
+      "sourceQuestionSha256": "56ae90616ca5ced214dffe3ff21234ce32712dca29366bc1cd57c44df9eaefc0"
+    },
+    {
+      "id": "put_combines",
+      "previous": "1.0.0",
+      "version": "1.1.0",
+      "form": "smarturbanity_public_transport_habits",
+      "sourcePath": "forms/surveys/smarturbanity_public_transport_habits.json",
+      "declared": "1.0.1",
+      "sourcePointer": "/questionnaire/sections/1/questions/0",
+      "sourceQuestionSha256": "91a03524a672b722f0a4aa77270feefa2e6e207b2f0e086cb51d1203fee74539"
+    },
+    {
+      "id": "put_no_car",
+      "previous": "1.0.0",
+      "version": "1.1.0",
+      "form": "smarturbanity_public_transport_without_car",
+      "sourcePath": "forms/surveys/smarturbanity_public_transport_without_car.json",
+      "declared": "1.0.1",
+      "sourcePointer": "/questionnaire/sections/0/questions/0",
+      "sourceQuestionSha256": "08ef4dd75d618a34818ea55a5f3d63b30e11acbd6bd685624c44b0c3f6237f92"
+    },
+    {
+      "id": "put_no_car_hard",
+      "previous": "1.0.2",
+      "version": "1.0.3",
+      "form": "smarturbanity_public_transport_without_car",
+      "sourcePath": "forms/surveys/smarturbanity_public_transport_without_car.json",
+      "declared": "1.0.3",
+      "sourcePointer": "/questionnaire/sections/0/questions/1",
+      "sourceQuestionSha256": "865e27e12d6025b58ab84fe7dc3583918c57e090ca4489f4c075a660b6c95c64"
+    },
+    {
+      "id": "walk_unsafe_road_users",
+      "previous": "1.1.0",
+      "version": "1.2.0",
+      "form": "smarturbanity_walking_road_safety",
+      "sourcePath": "forms/surveys/smarturbanity_walking_road_safety.json",
+      "declared": "1.1.1",
+      "sourcePointer": "/questionnaire/sections/2/questions/0",
+      "sourceQuestionSha256": "4d240211f39e381ef695f019bd2f4e0d57c0b9501087f541b71e174b7c19316f"
+    },
+    {
+      "id": "walk_route_barriers",
+      "previous": "1.0.1",
+      "version": "2.0.0",
+      "form": "smarturbanity_walking_road_safety",
+      "sourcePath": "forms/surveys/smarturbanity_walking_road_safety.json",
+      "declared": "1.1.0",
+      "sourcePointer": "/questionnaire/sections/4/questions/0",
+      "sourceQuestionSha256": "1ff0494fe0ba6e4fb54890c6720a22dadaade4ad02563fc898e55527e52f801e"
+    },
+    {
+      "id": "carer",
+      "previous": "2.2.1",
+      "version": "2.2.2",
+      "form": "smarturbanity_your_household",
+      "sourcePath": "forms/surveys/smarturbanity_your_household.json",
+      "declared": "2.2.2",
+      "sourcePointer": "/questionnaire/sections/0/questions/2",
+      "sourceQuestionSha256": "6a6504d55bb3c4b0201d4fc632c000c62e4a2efbc26bd7206b821f7717a33498"
+    },
+    {
+      "id": "economic_status",
+      "previous": "2.2.1",
+      "version": "2.2.2",
+      "form": "smarturbanity_your_profile",
+      "sourcePath": "forms/surveys/smarturbanity_your_profile.json",
+      "declared": "2.2.1",
+      "sourcePointer": "/questionnaire/sections/0/questions/7",
+      "sourceQuestionSha256": "844a72724c487df0a9260dcffdb4ccdea9b0a7dc77252356db102054cf84b579"
+    },
+    {
+      "id": "mobility_limitation",
+      "previous": "2.5.1",
+      "version": "2.6.0",
+      "form": "smarturbanity_your_profile",
+      "sourcePath": "forms/surveys/smarturbanity_your_profile.json",
+      "declared": "2.5.1",
+      "sourcePointer": "/questionnaire/sections/0/questions/8",
+      "sourceQuestionSha256": "4c5d8aff9081974e11139c4607857a45f56a99d22a3d276bf13646ad9c628784"
+    }
+  ]
+}
