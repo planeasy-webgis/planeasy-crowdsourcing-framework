@@ -97,3 +97,18 @@ The pool now incorporates the later configuration candidate `8bff277659676c2233a
 The [follow-up import manifest](updates/2026-11-09-follow-up.json) records exact source paths, question pointers, hashes and both source and pool versions. Shared occurrences in connection and segment forms use one definition. Semantic version increases follow the maintained importer; lower source version numbers do not overwrite existing pool history. The eight new topic assignments remain marked `needs_review`, and the definitions remain drafts.
 
 Verification: import dry run and build check pass with 752 selected questions and 2,613 revisions. All 2,589 preceding historical snapshot hashes are unchanged; the 24 selected revisions appear in the generated feed and retain eight-language coverage. Existing standalone questionnaires and their version pins are unchanged. Questionnaire composition, publication and participant acceptance remain with the owning projects.
+
+## Standard “None of these” flag, 9 November 2026
+
+Twenty-seven selected question revisions use `add_none: true`: 26 replace the
+explicit standard option and the car-use matrix adds its exclusive cell-free row
+through the same flag. The answer remains `none` (or `{ "none": true }` for the
+matrix), never preselected. Custom negative answers retain their own wording and
+values. All eight translations are retained; the matrix revision also carries the
+existing questionnaire translations of the generated label.
+
+The [migration manifest](updates/2026-11-09-add-none.json) records the revisions and
+configuration sources. The pool now has 752 selected questions and 2,640 revisions;
+all 2,613 previous snapshot hashes are unchanged. Existing questionnaire pins and
+standalone files remain unchanged. Using the new revisions requires an application
+supporting the ordinary-question `add_none` flag. No runtime publication is implied.

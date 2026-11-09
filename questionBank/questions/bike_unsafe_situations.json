@@ -2,7 +2,7 @@
   "question_id": "bike_unsafe_situations",
   "key": "bike_unsafe_situations",
   "project": "shared",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_cycling_road_safety",
   "source_questionnaires": [
@@ -30,16 +30,12 @@
       {
         "text": "No emergency services nearby",
         "value": "no_emergency_services"
-      },
-      {
-        "exclusive": true,
-        "text": "None of these",
-        "value": "none"
       }
     ],
     "privacy_classification": "personal_data",
     "question_type": "multiple_options",
-    "text": "When you cycle, which of these situations make you feel unsafe? (Select all that apply)"
+    "text": "When you cycle, which of these situations make you feel unsafe? (Select all that apply)",
+    "add_none": true
   },
   "translations": {
     "ar": {

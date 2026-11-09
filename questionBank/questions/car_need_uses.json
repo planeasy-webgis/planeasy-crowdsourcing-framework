@@ -2,7 +2,7 @@
   "question_id": "car_need_uses",
   "key": "car_need_uses",
   "project": "shared",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car_need",
   "source_questionnaires": [
@@ -82,16 +82,12 @@
       {
         "text": "Getting around when shared cars or taxis are hard to find (e.g. at night or in outer areas)",
         "value": "sharing_unavailable"
-      },
-      {
-        "exclusive": true,
-        "text": "None of these",
-        "value": "none"
       }
     ],
     "privacy_classification": "personal_data",
     "question_type": "multiple_options",
-    "text": "What do you use the car for? (Select all that apply)"
+    "text": "What do you use the car for? (Select all that apply)",
+    "add_none": true
   },
   "translations": {
     "ar": {

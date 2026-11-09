@@ -2,7 +2,7 @@
   "question_id": "ramp_features",
   "key": "ramp_features",
   "project": "shared",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "status": "draft",
   "origin_questionnaire": "street_connection_assessment",
   "source_questionnaires": [
@@ -31,16 +31,12 @@
       {
         "text": "Resting place nearby",
         "value": "resting_place"
-      },
-      {
-        "exclusive": true,
-        "text": "None of these",
-        "value": "none"
       }
     ],
     "privacy_classification": "heightened_personal",
     "question_type": "multiple_options",
-    "text": "For a ramp, what helps people use it?"
+    "text": "For a ramp, what helps people use it?",
+    "add_none": true
   },
   "translations": {
     "ar": {

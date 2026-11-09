@@ -2,7 +2,7 @@
   "question_id": "put_insecurity_factors",
   "key": "put_insecurity_factors",
   "project": "shared",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport_security",
   "source_questionnaires": [
@@ -52,14 +52,10 @@
       {
         "text": "No visual information about stops or service changes",
         "value": "no_visual_announcements"
-      },
-      {
-        "text": "None of these",
-        "value": "none",
-        "exclusive": true
       }
     ],
-    "privacy_classification": "personal_data"
+    "privacy_classification": "personal_data",
+    "add_none": true
   },
   "translations": {
     "en": {
