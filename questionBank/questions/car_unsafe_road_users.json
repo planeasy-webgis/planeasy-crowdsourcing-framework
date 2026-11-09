@@ -2,14 +2,16 @@
   "question_id": "car_unsafe_road_users",
   "key": "car_unsafe_road_users",
   "project": "shared",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_car_road_safety",
   "source_questionnaires": [
     "smarturbanity_car_road_safety"
   ],
   "schema": {
+    "text": "When you travel by car, who on the road makes you feel unsafe? (Select all that apply)",
     "answer_key": "car_unsafe_road_users",
+    "question_type": "multiple_options",
     "options": [
       {
         "text": "Other car drivers",
@@ -44,111 +46,118 @@
         "value": "pedestrians"
       },
       {
-        "exclusive": true,
         "text": "Nobody in particular",
-        "value": "nobody"
+        "value": "nobody",
+        "exclusive": true
       }
     ],
     "privacy_classification": "personal_data",
-    "question_type": "multiple_options",
-    "text": "When you travel by car, who on the road makes you feel unsafe? (Select all that apply)"
+    "help": "Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group."
   },
   "translations": {
-    "ar": {
-      "#Bus drivers": "سائقو الحافلات",
-      "#Cyclists": "راكبو الدراجات الهوائية",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "مركبات التوصيل (شاحنات صغيرة، دراجات الشحن، سكوترات)",
-      "#E-scooter riders": "مستخدمو السكوتر الكهربائي",
-      "#Motorcycle or scooter riders": "راكبو الدراجات النارية أو السكوترات",
-      "#Nobody in particular": "لا أحد بعينه",
-      "#Other car drivers": "سائقو السيارات الآخرون",
-      "#Pedestrians": "المشاة",
-      "#Taxi or ride-hailing drivers": "سائقو سيارات الأجرة أو خدمات النقل عبر التطبيقات",
-      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "عند التنقل بالسيارة، من على الطريق يجعلك تشعر بعدم الأمان؟ (يمكن اختيار كل ما ينطبق)"
-    },
-    "de": {
-      "#Bus drivers": "Busfahrende",
-      "#Cyclists": "Radfahrende",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Lieferfahrzeuge (Transporter, Lastenräder, Roller)",
-      "#E-scooter riders": "E-Scooter-Fahrende",
-      "#Motorcycle or scooter riders": "Motorrad- oder Rollerfahrende",
-      "#Nobody in particular": "Niemand Bestimmtes",
-      "#Other car drivers": "Andere Autofahrende",
-      "#Pedestrians": "Zu Fuß Gehende",
-      "#Taxi or ride-hailing drivers": "Taxi- oder Fahrdienstfahrende",
-      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Wer im Straßenverkehr gibt Ihnen bei Autofahrten ein unsicheres Gefühl? (Wählen Sie alles Zutreffende aus)"
-    },
     "en": {
-      "#Bus drivers": "Bus drivers",
-      "#Cyclists": "Cyclists",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Delivery vehicles (vans, cargo bikes, scooters)",
-      "#E-scooter riders": "E-scooter riders",
-      "#Motorcycle or scooter riders": "Motorcycle or scooter riders",
-      "#Nobody in particular": "Nobody in particular",
+      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "When you travel by car, who on the road makes you feel unsafe? (Select all that apply)",
       "#Other car drivers": "Other car drivers",
-      "#Pedestrians": "Pedestrians",
+      "#Motorcycle or scooter riders": "Motorcycle or scooter riders",
+      "#Bus drivers": "Bus drivers",
+      "#Delivery vehicles (vans, cargo bikes, scooters)": "Delivery vehicles (vans, cargo bikes, scooters)",
       "#Taxi or ride-hailing drivers": "Taxi or ride-hailing drivers",
-      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "When you travel by car, who on the road makes you feel unsafe? (Select all that apply)"
-    },
-    "fa": {
-      "#Bus drivers": "رانندگان اتوبوس",
-      "#Cyclists": "دوچرخه‌سواران",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "وسایل نقلیهٔ تحویل کالا (ون، دوچرخهٔ باری، موتور)",
-      "#E-scooter riders": "کاربران اسکوتر برقی",
-      "#Motorcycle or scooter riders": "موتورسواران یا اسکوترسواران",
-      "#Nobody in particular": "هیچ‌کس به‌طور خاص",
-      "#Other car drivers": "دیگر رانندگان خودرو",
-      "#Pedestrians": "عابران پیاده",
-      "#Taxi or ride-hailing drivers": "رانندگان تاکسی یا تاکسی اینترنتی",
-      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "هنگام سفر با خودرو، چه کسانی در خیابان باعث می‌شوند احساس ناامنی کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)"
-    },
-    "fr": {
-      "#Bus drivers": "Les personnes qui conduisent un bus",
-      "#Cyclists": "Les cyclistes",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Les véhicules de livraison (fourgonnettes, vélos cargo, scooters)",
-      "#E-scooter riders": "Les personnes en trottinette électrique",
-      "#Motorcycle or scooter riders": "Les personnes à moto ou en scooter",
-      "#Nobody in particular": "Personne en particulier",
-      "#Other car drivers": "Les autres personnes qui conduisent une voiture",
-      "#Pedestrians": "Les personnes à pied",
-      "#Taxi or ride-hailing drivers": "Les personnes qui conduisent un taxi ou un VTC",
-      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Lorsque vous vous déplacez en voiture, qui sur la route vous fait vous sentir en danger ? (Sélectionnez toutes les réponses qui s’appliquent)"
-    },
-    "hu": {
-      "#Bus drivers": "Buszvezetők",
-      "#Cyclists": "Kerékpárosok",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Áruszállító járművek (furgonok, teherkerékpárok, robogók)",
-      "#E-scooter riders": "Elektromosroller-használók",
-      "#Motorcycle or scooter riders": "Motorosok vagy robogósok",
-      "#Nobody in particular": "Különösebben senki",
-      "#Other car drivers": "Más autósok",
-      "#Pedestrians": "Gyalogosok",
-      "#Taxi or ride-hailing drivers": "Taxisofőrök vagy személyszállító alkalmazások sofőrjei",
-      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Autós utazás közben kik miatt érzi magát veszélyben az úton? (Jelölje meg az összes megfelelőt)"
+      "#Cyclists": "Cyclists",
+      "#E-scooter riders": "E-scooter riders",
+      "#Pedestrians": "Pedestrians",
+      "#Nobody in particular": "Nobody in particular",
+      "#Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group.": "Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group."
     },
     "it": {
-      "#Bus drivers": "Chi guida l’autobus",
-      "#Cyclists": "Chi va in bicicletta",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Veicoli per le consegne (furgoni, cargo bike, scooter)",
-      "#E-scooter riders": "Chi va in monopattino elettrico",
-      "#Motorcycle or scooter riders": "Chi guida moto o scooter",
-      "#Nobody in particular": "Nessuno in particolare",
+      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Quando viaggi in auto, chi ti fa sentire in pericolo sulla strada? (Seleziona tutte le opzioni applicabili)",
       "#Other car drivers": "Chi guida un’altra auto",
-      "#Pedestrians": "Chi va a piedi",
+      "#Motorcycle or scooter riders": "Chi guida moto o scooter",
+      "#Bus drivers": "Chi guida l’autobus",
+      "#Delivery vehicles (vans, cargo bikes, scooters)": "Veicoli per le consegne (furgoni, cargo bike, scooter)",
       "#Taxi or ride-hailing drivers": "Chi guida taxi o servizi di ride-hailing",
-      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Quando viaggi in auto, chi ti fa sentire in pericolo sulla strada? (Seleziona tutte le opzioni applicabili)"
+      "#Cyclists": "Chi va in bicicletta",
+      "#E-scooter riders": "Chi va in monopattino elettrico",
+      "#Pedestrians": "Chi va a piedi",
+      "#Nobody in particular": "Nessuno in particolare",
+      "#Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group.": "Pensa a comportamenti specifici, come passare troppo vicino o non dare la precedenza, senza riferirti a tutte le persone di una categoria."
+    },
+    "fr": {
+      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Lorsque vous vous déplacez en voiture, qui sur la route vous fait vous sentir en danger ? (Sélectionnez toutes les réponses qui s’appliquent)",
+      "#Other car drivers": "Les autres personnes qui conduisent une voiture",
+      "#Motorcycle or scooter riders": "Les personnes à moto ou en scooter",
+      "#Bus drivers": "Les personnes qui conduisent un bus",
+      "#Delivery vehicles (vans, cargo bikes, scooters)": "Les véhicules de livraison (fourgonnettes, vélos cargo, scooters)",
+      "#Taxi or ride-hailing drivers": "Les personnes qui conduisent un taxi ou un VTC",
+      "#Cyclists": "Les cyclistes",
+      "#E-scooter riders": "Les personnes en trottinette électrique",
+      "#Pedestrians": "Les personnes à pied",
+      "#Nobody in particular": "Personne en particulier",
+      "#Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group.": "Pensez à des comportements précis, comme passer trop près ou ne pas céder le passage, plutôt qu’à toutes les personnes d’un groupe."
+    },
+    "de": {
+      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Wer im Straßenverkehr gibt Ihnen bei Autofahrten ein unsicheres Gefühl? (Wählen Sie alles Zutreffende aus)",
+      "#Other car drivers": "Andere Autofahrende",
+      "#Motorcycle or scooter riders": "Motorrad- oder Rollerfahrende",
+      "#Bus drivers": "Busfahrende",
+      "#Delivery vehicles (vans, cargo bikes, scooters)": "Lieferfahrzeuge (Transporter, Lastenräder, Roller)",
+      "#Taxi or ride-hailing drivers": "Taxi- oder Fahrdienstfahrende",
+      "#Cyclists": "Radfahrende",
+      "#E-scooter riders": "E-Scooter-Fahrende",
+      "#Pedestrians": "Zu Fuß Gehende",
+      "#Nobody in particular": "Niemand Bestimmtes",
+      "#Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group.": "Denken Sie an konkrete Verhaltensweisen, etwa zu dichtes Vorbeifahren oder Missachtung der Vorfahrt, nicht an alle Personen einer Gruppe."
     },
     "tr": {
-      "#Bus drivers": "Otobüs şoförleri",
-      "#Cyclists": "Bisikletliler",
-      "#Delivery vehicles (vans, cargo bikes, scooters)": "Teslimat araçları (kamyonet, kargo bisikleti, scooter)",
-      "#E-scooter riders": "E-scooter kullanıcıları",
-      "#Motorcycle or scooter riders": "Motosiklet veya scooter sürücüleri",
-      "#Nobody in particular": "Özellikle kimse değil",
+      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Arabayla yolculuk ederken yolda kimler kendinizi güvensiz hissetmenize neden oluyor? (Uygun olanların tümünü seçin)",
       "#Other car drivers": "Diğer araba sürücüleri",
-      "#Pedestrians": "Yayalar",
+      "#Motorcycle or scooter riders": "Motosiklet veya scooter sürücüleri",
+      "#Bus drivers": "Otobüs şoförleri",
+      "#Delivery vehicles (vans, cargo bikes, scooters)": "Teslimat araçları (kamyonet, kargo bisikleti, scooter)",
       "#Taxi or ride-hailing drivers": "Taksi veya uygulama üzerinden çağrılan araç sürücüleri",
-      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Arabayla yolculuk ederken yolda kimler kendinizi güvensiz hissetmenize neden oluyor? (Uygun olanların tümünü seçin)"
+      "#Cyclists": "Bisikletliler",
+      "#E-scooter riders": "E-scooter kullanıcıları",
+      "#Pedestrians": "Yayalar",
+      "#Nobody in particular": "Özellikle kimse değil",
+      "#Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group.": "Bir gruptaki herkes yerine, çok yakından geçmek veya yol vermemek gibi belirli davranışları düşünün."
+    },
+    "fa": {
+      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "هنگام سفر با خودرو، چه کسانی در خیابان باعث می‌شوند احساس ناامنی کنید؟ (همه گزینه‌های مربوط را انتخاب کنید)",
+      "#Other car drivers": "دیگر رانندگان خودرو",
+      "#Motorcycle or scooter riders": "موتورسواران یا اسکوترسواران",
+      "#Bus drivers": "رانندگان اتوبوس",
+      "#Delivery vehicles (vans, cargo bikes, scooters)": "وسایل نقلیهٔ تحویل کالا (ون، دوچرخهٔ باری، موتور)",
+      "#Taxi or ride-hailing drivers": "رانندگان تاکسی یا تاکسی اینترنتی",
+      "#Cyclists": "دوچرخه‌سواران",
+      "#E-scooter riders": "کاربران اسکوتر برقی",
+      "#Pedestrians": "عابران پیاده",
+      "#Nobody in particular": "هیچ‌کس به‌طور خاص",
+      "#Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group.": "به رفتارهای مشخصی مانند عبور از فاصله خیلی نزدیک یا رعایت نکردن حق تقدم فکر کنید، نه همه افراد یک گروه."
+    },
+    "hu": {
+      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "Autós utazás közben kik miatt érzi magát veszélyben az úton? (Jelölje meg az összes megfelelőt)",
+      "#Other car drivers": "Más autósok",
+      "#Motorcycle or scooter riders": "Motorosok vagy robogósok",
+      "#Bus drivers": "Buszvezetők",
+      "#Delivery vehicles (vans, cargo bikes, scooters)": "Áruszállító járművek (furgonok, teherkerékpárok, robogók)",
+      "#Taxi or ride-hailing drivers": "Taxisofőrök vagy személyszállító alkalmazások sofőrjei",
+      "#Cyclists": "Kerékpárosok",
+      "#E-scooter riders": "Elektromosroller-használók",
+      "#Pedestrians": "Gyalogosok",
+      "#Nobody in particular": "Különösebben senki",
+      "#Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group.": "Konkrét viselkedésekre gondoljon, például a túl közeli elhaladásra vagy az elsőbbség meg nem adására, ne egy csoport minden tagjára."
+    },
+    "ar": {
+      "#When you travel by car, who on the road makes you feel unsafe? (Select all that apply)": "عند التنقل بالسيارة، من على الطريق يجعلك تشعر بعدم الأمان؟ (يمكن اختيار كل ما ينطبق)",
+      "#Other car drivers": "سائقو السيارات الآخرون",
+      "#Motorcycle or scooter riders": "راكبو الدراجات النارية أو السكوترات",
+      "#Bus drivers": "سائقو الحافلات",
+      "#Delivery vehicles (vans, cargo bikes, scooters)": "مركبات التوصيل (شاحنات صغيرة، دراجات الشحن، سكوترات)",
+      "#Taxi or ride-hailing drivers": "سائقو سيارات الأجرة أو خدمات النقل عبر التطبيقات",
+      "#Cyclists": "راكبو الدراجات الهوائية",
+      "#E-scooter riders": "مستخدمو السكوتر الكهربائي",
+      "#Pedestrians": "المشاة",
+      "#Nobody in particular": "لا أحد بعينه",
+      "#Think of specific behaviour, such as passing too close or not giving way, rather than everyone in a group.": "فكّر في سلوكيات محددة، مثل المرور قريبًا جدًا أو عدم إعطاء الأولوية، وليس في جميع أفراد فئة ما."
     }
   },
   "origin_project": {
