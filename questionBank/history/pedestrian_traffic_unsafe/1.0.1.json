@@ -1,0 +1,96 @@
+{
+  "question_id": "pedestrian_traffic_unsafe",
+  "key": "pedestrian_traffic_unsafe",
+  "project": "shared",
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  },
+  "schema": {
+    "text": "Does traffic make you feel unsafe here on foot or using a wheelchair?",
+    "answer_key": "pedestrian_traffic_unsafe",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Yes",
+        "value": "yes"
+      },
+      {
+        "text": "No",
+        "value": "no"
+      },
+      {
+        "text": "Doesn't apply to me",
+        "value": "not_applicable"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#No": "No",
+      "#Yes": "Yes",
+      "#I don't know": "I don't know",
+      "#Does traffic make you feel unsafe here on foot or using a wheelchair?": "Does traffic make you feel unsafe here on foot or using a wheelchair?",
+      "#Doesn't apply to me": "Doesn't apply to me"
+    },
+    "it": {
+      "#No": "No",
+      "#Yes": "Sì",
+      "#I don't know": "Non lo so",
+      "#Does traffic make you feel unsafe here on foot or using a wheelchair?": "Il traffico ti fa sentire in pericolo qui a piedi o in sedia a rotelle?",
+      "#Doesn't apply to me": "Non mi riguarda"
+    },
+    "fr": {
+      "#No": "Non",
+      "#Yes": "Oui",
+      "#I don't know": "Je ne sais pas",
+      "#Does traffic make you feel unsafe here on foot or using a wheelchair?": "La circulation te fait-elle te sentir en danger ici à pied ou en fauteuil roulant ?",
+      "#Doesn't apply to me": "Ne me concerne pas"
+    },
+    "de": {
+      "#No": "Nein",
+      "#Yes": "Ja",
+      "#I don't know": "Ich weiß es nicht",
+      "#Does traffic make you feel unsafe here on foot or using a wheelchair?": "Fühlen Sie sich hier zu Fuß oder mit dem Rollstuhl durch den Verkehr unsicher?",
+      "#Doesn't apply to me": "Trifft auf mich nicht zu"
+    },
+    "tr": {
+      "#No": "Hayır",
+      "#Yes": "Evet",
+      "#I don't know": "Bilmiyorum",
+      "#Does traffic make you feel unsafe here on foot or using a wheelchair?": "Burada yürürken veya tekerlekli sandalye kullanırken trafik seni güvensiz hissettiriyor mu?",
+      "#Doesn't apply to me": "Benim için geçerli değil"
+    },
+    "fa": {
+      "#No": "خیر",
+      "#Yes": "بله",
+      "#I don't know": "نمی‌دانم",
+      "#Does traffic make you feel unsafe here on foot or using a wheelchair?": "آیا ترافیک در اینجا هنگام پیاده‌روی یا استفاده از ویلچر باعث احساس ناامنی تو می‌شود؟",
+      "#Doesn't apply to me": "به من مربوط نمی‌شود"
+    },
+    "hu": {
+      "#No": "Nem",
+      "#Yes": "Igen",
+      "#I don't know": "Nem tudom",
+      "#Does traffic make you feel unsafe here on foot or using a wheelchair?": "A forgalom miatt veszélyben érzed magad itt gyalog vagy kerekesszékkel?",
+      "#Doesn't apply to me": "Rám nem vonatkozik"
+    },
+    "ar": {
+      "#No": "لا",
+      "#Yes": "نعم",
+      "#I don't know": "لا أعرف",
+      "#Does traffic make you feel unsafe here on foot or using a wheelchair?": "هل تجعلك حركة المرور تشعر بالخطر هنا مشيًا أو باستخدام كرسي متحرك؟",
+      "#Doesn't apply to me": "لا ينطبق عليّ"
+    }
+  },
+  "version": "1.0.1",
+  "status": "draft"
+}

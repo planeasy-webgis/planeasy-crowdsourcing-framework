@@ -1,0 +1,64 @@
+{
+  "question_id": "tool_usefulness",
+  "key": "tool_usefulness",
+  "project": "shared",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_feedback_access_hub",
+  "source_questionnaires": [
+    "smarturbanity_feedback_access_hub",
+    "smarturbanity_feedback_access_together_app"
+  ],
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  },
+  "schema": {
+    "text": "How useful would the app be for you?",
+    "answer_key": "tool_usefulness",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Not at all useful",
+        "value": "not_at_all"
+      },
+      {
+        "text": "Slightly useful",
+        "value": "slightly"
+      },
+      {
+        "text": "Moderately useful",
+        "value": "moderately"
+      },
+      {
+        "text": "Very useful",
+        "value": "very"
+      },
+      {
+        "text": "Extremely useful",
+        "value": "extremely"
+      }
+    ],
+    "checks_inline": false,
+    "privacy_classification": "personal_data",
+    "add_i_dont_know": true
+  },
+  "translations": {
+    "en": {
+      "#Extremely useful": "Extremely useful",
+      "#How useful would the app be for you?": "How useful would the app be for you?",
+      "#Moderately useful": "Moderately useful",
+      "#Not at all useful": "Not at all useful",
+      "#Slightly useful": "Slightly useful",
+      "#Very useful": "Very useful"
+    },
+    "it": {
+      "#Extremely useful": "Estremamente utile",
+      "#How useful would the app be for you?": "Quanto ti sarebbe utile l’app?",
+      "#Moderately useful": "Abbastanza utile",
+      "#Not at all useful": "Per niente utile",
+      "#Slightly useful": "Poco utile",
+      "#Very useful": "Molto utile"
+    }
+  },
+  "version": "1.1.0"
+}

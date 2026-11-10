@@ -1,0 +1,45 @@
+{
+  "question_id": "device",
+  "key": "device",
+  "project": "shared",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_feedback_access_hub",
+  "source_questionnaires": [
+    "smarturbanity_feedback_access_hub",
+    "smarturbanity_feedback_access_together_app"
+  ],
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  },
+  "schema": {
+    "text": "Which phone did you use?",
+    "answer_key": "device",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Android",
+        "value": "android"
+      },
+      {
+        "text": "iPhone",
+        "value": "iphone"
+      }
+    ],
+    "checks_inline": false,
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "en": {
+      "#Android": "Android",
+      "#Which phone did you use?": "Which phone did you use?",
+      "#iPhone": "iPhone"
+    },
+    "it": {
+      "#Android": "Android",
+      "#Which phone did you use?": "Quale telefono hai usato?",
+      "#iPhone": "iPhone"
+    }
+  },
+  "version": "2.0.0"
+}

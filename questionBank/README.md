@@ -141,3 +141,22 @@ dry run, actual import and generated-feed verification pass. The existing
 standalone questionnaires and their pins remain unchanged. Location-report and
 usability questions are outside this update. This is a local bank update, not
 publication or acceptance by real participants.
+
+## Final SmartUrbanity configuration, 10 November 2026
+
+The pool now covers all 613 question occurrences in the survey, pre/post-trip,
+location-report and usability questionnaires published by SmartUrbanity
+Configuration `1d4274cfe9c3a2a01286afb8d9e6250c7f372ece`. The update adds 146
+revisions, including 89 new families: 842 selected questions and 2,836 immutable
+revisions in total. All 2,690 preceding historical snapshot hashes are unchanged.
+
+Every occurrence resolves to an exact schema and translation revision. The
+[source manifest](updates/2026-11-10-final-configuration.json) records the source
+commit, paths, question pointers, source versions and definition hashes. Reusable
+definitions omit questionnaire-specific requiredness, visibility and prefill.
+Framework-generated labels remain owned by the framework. New topic assignments
+are marked `needs_review`; definitions remain drafts.
+
+The maintained collection importer and generated-feed check pass. Existing
+standalone questionnaires and version pins are unchanged. Runtime SmartUrbanity
+questionnaires remain in their owning repository; none are copied here.

@@ -2,12 +2,13 @@
   "question_id": "put_air_quality_effect",
   "key": "put_air_quality_effect",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport_comfort",
   "source_questionnaires": [
     "smarturbanity_public_transport_comfort",
-    "smarturbanity_public_transport_surroundings"
+    "smarturbanity_public_transport_surroundings",
+    "smarturbanity_public_transport_experience_and_effort"
   ],
   "schema": {
     "privacy_classification": "personal_data",
@@ -28,79 +29,100 @@
         "value": "it_makes_me_adjust_how_i_travel_e_g_mask"
       },
       {
-        "text": "I take another route or travel at another time",
-        "value": "it_makes_me_change_my_route_or_travel_at"
+        "text": "I take another route",
+        "value": "change_route"
+      },
+      {
+        "text": "I travel at another time",
+        "value": "change_travel_time"
       },
       {
         "text": "I travel another way (e.g. by car instead of by bus)",
         "value": "it_makes_me_switch_to_a_different_mode_o"
       }
-    ]
+    ],
+    "help": "Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often."
   },
   "translations": {
     "en": {
       "#When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?",
       "#Nothing, it doesn't affect me": "Nothing, it doesn't affect me",
       "#I notice it, but I don't change anything": "I notice it, but I don't change anything",
-      "#I take another route or travel at another time": "I take another route or travel at another time",
       "#I protect myself, e.g. with a mask": "I protect myself, e.g. with a mask",
-      "#I travel another way (e.g. by car instead of by bus)": "I travel another way (e.g. by car instead of by bus)"
+      "#I travel another way (e.g. by car instead of by bus)": "I travel another way (e.g. by car instead of by bus)",
+      "#Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.": "Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.",
+      "#I take another route": "I take another route",
+      "#I travel at another time": "I travel at another time"
     },
     "it": {
       "#When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Quando usi i mezzi pubblici, cosa fai quando l’aria è cattiva (gas di scarico, polvere, cattivi odori)?",
       "#Nothing, it doesn't affect me": "Niente, non mi riguarda",
       "#I notice it, but I don't change anything": "Me ne accorgo, ma non cambio nulla",
-      "#I take another route or travel at another time": "Prendo un altro percorso o mi sposto in un altro orario",
       "#I protect myself, e.g. with a mask": "Mi proteggo, ad es. con una mascherina",
-      "#I travel another way (e.g. by car instead of by bus)": "Mi sposto in un altro modo (ad es. in auto invece che in autobus)"
+      "#I travel another way (e.g. by car instead of by bus)": "Mi sposto in un altro modo (ad es. in auto invece che in autobus)",
+      "#Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.": "Pensa all’attesa alla fermata e al viaggio a bordo dei mezzi pubblici. Se fai più di una di queste cose, scegli quella che fai più spesso.",
+      "#I take another route": "Cambio percorso",
+      "#I travel at another time": "Mi sposto in un altro orario"
     },
     "fr": {
       "#When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Lorsque vous utilisez les transports en commun, que faites-vous quand l’air est mauvais (gaz d’échappement, poussière, mauvaises odeurs) ?",
       "#Nothing, it doesn't affect me": "Rien, cela ne m'affecte pas",
       "#I notice it, but I don't change anything": "Je le remarque, mais je ne change rien",
-      "#I take another route or travel at another time": "Je prends un autre itinéraire ou je me déplace à un autre moment",
       "#I protect myself, e.g. with a mask": "Je me protège, par ex. avec un masque",
-      "#I travel another way (e.g. by car instead of by bus)": "Je me déplace autrement (par ex. en voiture plutôt qu'en bus)"
+      "#I travel another way (e.g. by car instead of by bus)": "Je me déplace autrement (par ex. en voiture plutôt qu'en bus)",
+      "#Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.": "Pensez à l’attente aux arrêts et au trajet à bord des transports en commun. Si vous faites plusieurs de ces choses, choisissez celle que vous faites le plus souvent.",
+      "#I take another route": "Je change d’itinéraire",
+      "#I travel at another time": "Je me déplace à un autre horaire"
     },
     "de": {
       "#When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Was tun Sie bei Fahrten mit öffentlichen Verkehrsmitteln, wenn die Luft schlecht ist (Abgase, Staub, schlechte Gerüche)?",
       "#Nothing, it doesn't affect me": "Nichts, es betrifft mich nicht",
       "#I notice it, but I don't change anything": "Ich merke es, ändere aber nichts",
-      "#I take another route or travel at another time": "Ich nehme eine andere Route oder fahre zu einer anderen Zeit",
       "#I protect myself, e.g. with a mask": "Ich schütze mich, z. B. mit einer Maske",
-      "#I travel another way (e.g. by car instead of by bus)": "Ich nutze ein anderes Verkehrsmittel (z. B. Auto statt Bus)"
+      "#I travel another way (e.g. by car instead of by bus)": "Ich nutze ein anderes Verkehrsmittel (z. B. Auto statt Bus)",
+      "#Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.": "Denken Sie an das Warten an Haltestellen und die Fahrt in öffentlichen Verkehrsmitteln. Wenn Sie mehrere dieser Dinge tun, wählen Sie das aus, was Sie am häufigsten tun.",
+      "#I take another route": "Ich nehme eine andere Route",
+      "#I travel at another time": "Ich fahre oder gehe zu einer anderen Zeit los"
     },
     "tr": {
       "#When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Toplu taşıma kullanırken hava kötü olduğunda (egzoz dumanı, toz, kötü kokular) ne yaparsınız?",
       "#Nothing, it doesn't affect me": "Hiçbir şey, beni etkilemez",
       "#I notice it, but I don't change anything": "Fark ederim ama hiçbir şeyi değiştirmem",
-      "#I take another route or travel at another time": "Başka bir güzergâh seçerim veya başka bir saatte yolculuk ederim",
       "#I protect myself, e.g. with a mask": "Kendimi korurum, örn. maske takarak",
-      "#I travel another way (e.g. by car instead of by bus)": "Başka bir şekilde giderim (örn. otobüs yerine otomobille)"
+      "#I travel another way (e.g. by car instead of by bus)": "Başka bir şekilde giderim (örn. otobüs yerine otomobille)",
+      "#Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.": "Duraklarda beklemeyi ve toplu taşıma araçlarında yolculuk yapmayı düşünün. Bunlardan birden fazlasını yapıyorsanız en sık yaptığınızı seçin.",
+      "#I take another route": "Başka bir güzergâh seçerim",
+      "#I travel at another time": "Başka bir saatte yola çıkarım"
     },
     "fa": {
       "#When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "هنگام استفاده از حمل‌ونقل عمومی، وقتی هوا آلوده است (دود اگزوز، گردوغبار، بوی بد) چه می‌کنید؟",
       "#Nothing, it doesn't affect me": "هیچ کاری، بر من اثری ندارد",
       "#I notice it, but I don't change anything": "متوجه می‌شوم، اما چیزی را تغییر نمی‌دهم",
-      "#I take another route or travel at another time": "مسیر دیگری می‌روم یا در زمان دیگری سفر می‌کنم",
       "#I protect myself, e.g. with a mask": "از خودم محافظت می‌کنم، مثلاً با ماسک",
-      "#I travel another way (e.g. by car instead of by bus)": "با روش دیگری سفر می‌کنم (مثلاً با خودرو به جای اتوبوس)"
+      "#I travel another way (e.g. by car instead of by bus)": "با روش دیگری سفر می‌کنم (مثلاً با خودرو به جای اتوبوس)",
+      "#Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.": "انتظار در ایستگاه‌ها و سفر با وسایل حمل‌ونقل عمومی را در نظر بگیرید. اگر بیش از یکی از این کارها را انجام می‌دهید، کاری را انتخاب کنید که بیشتر انجام می‌دهید.",
+      "#I take another route": "مسیر دیگری را انتخاب می‌کنم",
+      "#I travel at another time": "در زمان دیگری رفت‌وآمد می‌کنم"
     },
     "hu": {
       "#When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "Tömegközlekedés közben mit tesz, ha rossz a levegő (kipufogógáz, por, kellemetlen szagok)?",
       "#Nothing, it doesn't affect me": "Semmit, nincs hatással rám",
       "#I notice it, but I don't change anything": "Észreveszem, de nem változtatok semmit",
-      "#I take another route or travel at another time": "Más útvonalat választok, vagy más időpontban utazom",
       "#I protect myself, e.g. with a mask": "Védekezem, például maszkkal",
-      "#I travel another way (e.g. by car instead of by bus)": "Más módon utazom (pl. autóval busz helyett)"
+      "#I travel another way (e.g. by car instead of by bus)": "Más módon utazom (pl. autóval busz helyett)",
+      "#Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.": "Gondoljon a megállókban való várakozásra és a tömegközlekedési járműveken való utazásra. Ha ezek közül többet is tesz, válassza azt, amit a leggyakrabban tesz.",
+      "#I take another route": "Másik útvonalat választok",
+      "#I travel at another time": "Más időpontban indulok"
     },
     "ar": {
       "#When you use public transport, what do you do when the air is bad (exhaust fumes, dust, bad smells)?": "عند استخدام وسائل النقل العام، ما تصرّفك عندما يكون الهواء سيئًا (عوادم المركبات أو الغبار أو الروائح الكريهة)؟",
       "#Nothing, it doesn't affect me": "لا شيء، لا يؤثر فيّ",
       "#I notice it, but I don't change anything": "ألاحظ ذلك، لكنني لا أغيّر شيئًا",
-      "#I take another route or travel at another time": "أسلك طريقًا آخر أو أتنقل في وقت آخر",
       "#I protect myself, e.g. with a mask": "أحمي نفسي، مثلًا بكمامة",
-      "#I travel another way (e.g. by car instead of by bus)": "أتنقل بطريقة أخرى (مثلًا بالسيارة بدل الحافلة)"
+      "#I travel another way (e.g. by car instead of by bus)": "أتنقل بطريقة أخرى (مثلًا بالسيارة بدل الحافلة)",
+      "#Think about waiting at stops and travelling on board public transport. If you do more than one of these, choose what you do most often.": "فكّر في الانتظار في المحطات والسفر على متن وسائل النقل العام. إذا كنت تفعل أكثر من أمر من هذه الأمور، فاختر ما تفعله غالبًا.",
+      "#I take another route": "أسلك طريقًا آخر",
+      "#I travel at another time": "أتنقل في وقت آخر"
     }
   },
   "origin_project": {

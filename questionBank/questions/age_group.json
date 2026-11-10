@@ -2,20 +2,18 @@
   "question_id": "age_group",
   "key": "age_group",
   "project": "shared",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "perception_on_ride_sharing",
-    "smarturbanity_your_profile"
+    "smarturbanity_your_profile",
+    "smarturbanity_access_together_usability"
   ],
   "schema": {
-    "privacy_classification": "heightened_personal",
     "text": "What is your age group?",
     "answer_key": "age_group",
     "question_type": "single_option",
-    "add_prefer_not_to_say": true,
-    "checks_inline": false,
     "options": [
       {
         "text": "18-24",
@@ -49,11 +47,13 @@
         "text": "85 or older",
         "value": "85_or_older"
       }
-    ]
+    ],
+    "checks_inline": false,
+    "add_prefer_not_to_say": true,
+    "privacy_classification": "heightened_personal"
   },
   "translations": {
     "en": {
-      "#What is your age group?": "What is your age group?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -61,21 +61,10 @@
       "#55-64": "55-64",
       "#65-74": "65-74",
       "#75-84": "75-84",
-      "#85 or older": "85 or older"
-    },
-    "it": {
-      "#What is your age group?": "Qual è la tua fascia d’età?",
-      "#18-24": "18-24 anni",
-      "#25-34": "25-34 anni",
-      "#35-44": "35-44 anni",
-      "#45-54": "45-54 anni",
-      "#55-64": "55-64 anni",
-      "#65-74": "65-74 anni",
-      "#75-84": "75-84 anni",
-      "#85 or older": "85 anni o più"
+      "#85 or older": "85 or older",
+      "#What is your age group?": "What is your age group?"
     },
     "fr": {
-      "#What is your age group?": "Dans quelle tranche d’âge êtes-vous ?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -83,10 +72,21 @@
       "#55-64": "55-64",
       "#65-74": "65-74",
       "#75-84": "75-84",
-      "#85 or older": "85 ans ou plus"
+      "#85 or older": "85 ans ou plus",
+      "#What is your age group?": "Dans quelle tranche d’âge êtes-vous ?"
+    },
+    "it": {
+      "#18-24": "18-24",
+      "#25-34": "25-34",
+      "#35-44": "35-44",
+      "#45-54": "45-54",
+      "#55-64": "55-64",
+      "#65-74": "65-74",
+      "#75-84": "75-84",
+      "#85 or older": "85 anni o più",
+      "#What is your age group?": "Qual è la tua fascia d’età?"
     },
     "de": {
-      "#What is your age group?": "Zu welcher Altersgruppe gehören Sie?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -94,10 +94,10 @@
       "#55-64": "55-64",
       "#65-74": "65-74",
       "#75-84": "75-84",
-      "#85 or older": "85 Jahre oder älter"
+      "#85 or older": "85 Jahre oder älter",
+      "#What is your age group?": "Zu welcher Altersgruppe gehören Sie?"
     },
     "tr": {
-      "#What is your age group?": "Hangi yaş grubundasınız?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -105,21 +105,10 @@
       "#55-64": "55-64",
       "#65-74": "65-74",
       "#75-84": "75-84",
-      "#85 or older": "85 yaş veya üzeri"
-    },
-    "fa": {
-      "#What is your age group?": "در کدام گروه سنی هستید؟",
-      "#18-24": "۱۸-۲۴",
-      "#25-34": "۲۵-۳۴",
-      "#35-44": "۳۵-۴۴",
-      "#45-54": "۴۵-۵۴",
-      "#55-64": "۵۵-۶۴",
-      "#65-74": "۶۵-۷۴",
-      "#75-84": "۷۵-۸۴",
-      "#85 or older": "۸۵ سال یا بیشتر"
+      "#85 or older": "85 yaş veya üzeri",
+      "#What is your age group?": "Hangi yaş grubundasınız?"
     },
     "hu": {
-      "#What is your age group?": "Melyik korcsoportba tartozik?",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -127,10 +116,21 @@
       "#55-64": "55-64",
       "#65-74": "65-74",
       "#75-84": "75-84",
-      "#85 or older": "85 éves vagy idősebb"
+      "#85 or older": "85 éves vagy idősebb",
+      "#What is your age group?": "Melyik korcsoportba tartozik?"
+    },
+    "fa": {
+      "#18-24": "18-24",
+      "#25-34": "25-34",
+      "#35-44": "35-44",
+      "#45-54": "45-54",
+      "#55-64": "55-64",
+      "#65-74": "65-74",
+      "#75-84": "75-84",
+      "#85 or older": "۸۵ سال یا بیشتر",
+      "#What is your age group?": "در کدام گروه سنی هستید؟"
     },
     "ar": {
-      "#What is your age group?": "ما فئتك العمرية؟",
       "#18-24": "18-24",
       "#25-34": "25-34",
       "#35-44": "35-44",
@@ -138,7 +138,8 @@
       "#55-64": "55-64",
       "#65-74": "65-74",
       "#75-84": "75-84",
-      "#85 or older": "85 سنة أو أكثر"
+      "#85 or older": "85 سنة أو أكثر",
+      "#What is your age group?": "ما فئتك العمرية؟"
     }
   },
   "origin_project": {

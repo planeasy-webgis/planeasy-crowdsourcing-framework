@@ -1,0 +1,51 @@
+{
+  "question_id": "where_tried",
+  "key": "where_tried",
+  "project": "shared",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_feedback_access_hub",
+  "source_questionnaires": [
+    "smarturbanity_feedback_access_hub",
+    "smarturbanity_feedback_access_together_app"
+  ],
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  },
+  "schema": {
+    "text": "Where did you try the app?",
+    "answer_key": "where_tried",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "At the event, with the team",
+        "value": "event_with_team"
+      },
+      {
+        "text": "On my own",
+        "value": "on_my_own"
+      },
+      {
+        "text": "Both",
+        "value": "both"
+      }
+    ],
+    "checks_inline": false,
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "en": {
+      "#At the event, with the team": "At the event, with the team",
+      "#Both": "Both",
+      "#On my own": "On my own",
+      "#Where did you try the app?": "Where did you try the app?"
+    },
+    "it": {
+      "#At the event, with the team": "All’evento, con il team",
+      "#Both": "In entrambi i modi",
+      "#On my own": "Per conto mio",
+      "#Where did you try the app?": "Dove hai provato l’app?"
+    }
+  },
+  "version": "1.1.0"
+}

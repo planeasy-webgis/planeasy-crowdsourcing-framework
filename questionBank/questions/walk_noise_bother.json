@@ -2,14 +2,18 @@
   "question_id": "walk_noise_bother",
   "key": "walk_noise_bother",
   "project": "shared",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_walking_comfort",
   "source_questionnaires": [
-    "smarturbanity_walking_comfort"
+    "smarturbanity_walking_comfort",
+    "smarturbanity_walking_experience_and_improvements"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "When you walk or use a wheelchair, how much does traffic noise bother or annoy you?",
     "answer_key": "walk_noise_bother",
+    "question_type": "single_option",
     "options": [
       {
         "text": "Not at all",
@@ -32,74 +36,80 @@
         "value": "extremely"
       }
     ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "When you walk or use a wheelchair, how much does traffic noise bother or annoy you?"
+    "help": "Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair."
   },
   "translations": {
-    "ar": {
-      "#Extremely": "يزعجني بدرجة كبيرة جدًا",
-      "#Moderately": "يزعجني بدرجة متوسطة",
-      "#Not at all": "لا يزعجني إطلاقًا",
-      "#Slightly": "يزعجني قليلًا",
-      "#Very": "يزعجني كثيرًا",
-      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "عند المشي أو التنقل بكرسي متحرك، ما مدى انزعاجك من ضجيج حركة المرور؟"
-    },
-    "de": {
-      "#Extremely": "Sehr stark",
-      "#Moderately": "Mittel",
-      "#Not at all": "Gar nicht",
-      "#Slightly": "Etwas",
-      "#Very": "Stark",
-      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Wie sehr stört oder ärgert Sie Verkehrslärm beim Gehen oder Fahren im Rollstuhl?"
-    },
     "en": {
-      "#Extremely": "Extremely",
-      "#Moderately": "Moderately",
+      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "When you walk or use a wheelchair, how much does traffic noise bother or annoy you?",
       "#Not at all": "Not at all",
       "#Slightly": "Slightly",
+      "#Moderately": "Moderately",
       "#Very": "Very",
-      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "When you walk or use a wheelchair, how much does traffic noise bother or annoy you?"
-    },
-    "fa": {
-      "#Extremely": "خیلی زیاد",
-      "#Moderately": "تا حد متوسط",
-      "#Not at all": "اصلاً",
-      "#Slightly": "کمی",
-      "#Very": "زیاد",
-      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "هنگام پیاده‌روی یا حرکت با ویلچر، سروصدای ترافیک چقدر شما را اذیت یا آزرده می‌کند؟"
-    },
-    "fr": {
-      "#Extremely": "Énormément",
-      "#Moderately": "Modérément",
-      "#Not at all": "Pas du tout",
-      "#Slightly": "Un peu",
-      "#Very": "Beaucoup",
-      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, dans quelle mesure le bruit de la circulation vous dérange-t-il ?"
-    },
-    "hu": {
-      "#Extremely": "Rendkívül",
-      "#Moderately": "Közepesen",
-      "#Not at all": "Egyáltalán nem",
-      "#Slightly": "Kissé",
-      "#Very": "Nagyon",
-      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Gyaloglás vagy kerekesszékes közlekedés közben mennyire zavarja vagy bosszantja a forgalom zaja?"
+      "#Extremely": "Extremely",
+      "#Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair.": "Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair."
     },
     "it": {
-      "#Extremely": "Estremamente",
-      "#Moderately": "Moderatamente",
+      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Quando ti sposti a piedi o in sedia a rotelle, quanto ti disturba o ti infastidisce il rumore del traffico?",
       "#Not at all": "Per niente",
       "#Slightly": "Poco",
+      "#Moderately": "Moderatamente",
       "#Very": "Molto",
-      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Quando ti sposti a piedi o in sedia a rotelle, quanto ti disturba o ti infastidisce il rumore del traffico?"
+      "#Extremely": "Estremamente",
+      "#Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair.": "Pensa ai tratti che percorri lungo la strada o sul marciapiede, a piedi o in carrozzina."
+    },
+    "fr": {
+      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Lorsque vous marchez ou vous déplacez en fauteuil roulant, dans quelle mesure le bruit de la circulation vous dérange-t-il ?",
+      "#Not at all": "Pas du tout",
+      "#Slightly": "Un peu",
+      "#Moderately": "Modérément",
+      "#Very": "Beaucoup",
+      "#Extremely": "Énormément",
+      "#Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair.": "Pensez aux parties du trajet que vous parcourez dans la rue ou sur le trottoir, à pied ou en fauteuil roulant."
+    },
+    "de": {
+      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Wie sehr stört oder ärgert Sie Verkehrslärm beim Gehen oder Fahren im Rollstuhl?",
+      "#Not at all": "Gar nicht",
+      "#Slightly": "Etwas",
+      "#Moderately": "Mittel",
+      "#Very": "Stark",
+      "#Extremely": "Sehr stark",
+      "#Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair.": "Denken Sie an die Wegabschnitte, die Sie auf Straßen oder Gehwegen zu Fuß oder im Rollstuhl zurücklegen."
     },
     "tr": {
-      "#Extremely": "Çok fazla",
-      "#Moderately": "Orta düzeyde",
+      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Yürürken veya tekerlekli sandalyeyle ilerlerken trafik gürültüsü sizi ne kadar rahatsız eder veya sinirlendirir?",
       "#Not at all": "Hiç",
       "#Slightly": "Biraz",
+      "#Moderately": "Orta düzeyde",
       "#Very": "Çok",
-      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Yürürken veya tekerlekli sandalyeyle ilerlerken trafik gürültüsü sizi ne kadar rahatsız eder veya sinirlendirir?"
+      "#Extremely": "Çok fazla",
+      "#Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair.": "Yolculuğunuzun sokaklarda veya kaldırımlarda yürüyerek ya da tekerlekli sandalyeyle yaptığınız bölümlerini düşünün."
+    },
+    "fa": {
+      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "هنگام پیاده‌روی یا حرکت با ویلچر، سروصدای ترافیک چقدر شما را اذیت یا آزرده می‌کند؟",
+      "#Not at all": "اصلاً",
+      "#Slightly": "کمی",
+      "#Moderately": "تا حد متوسط",
+      "#Very": "زیاد",
+      "#Extremely": "خیلی زیاد",
+      "#Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair.": "بخش‌هایی از سفر را در نظر بگیرید که در خیابان یا پیاده‌رو، پیاده یا با ویلچر طی می‌کنید."
+    },
+    "hu": {
+      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "Gyaloglás vagy kerekesszékes közlekedés közben mennyire zavarja vagy bosszantja a forgalom zaja?",
+      "#Not at all": "Egyáltalán nem",
+      "#Slightly": "Kissé",
+      "#Moderately": "Közepesen",
+      "#Very": "Nagyon",
+      "#Extremely": "Rendkívül",
+      "#Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair.": "Gondoljon az utazás azon szakaszaira, amelyeket az utcán vagy a járdán gyalog vagy kerekesszékkel tesz meg."
+    },
+    "ar": {
+      "#When you walk or use a wheelchair, how much does traffic noise bother or annoy you?": "عند المشي أو التنقل بكرسي متحرك، ما مدى انزعاجك من ضجيج حركة المرور؟",
+      "#Not at all": "لا يزعجني إطلاقًا",
+      "#Slightly": "يزعجني قليلًا",
+      "#Moderately": "يزعجني بدرجة متوسطة",
+      "#Very": "يزعجني كثيرًا",
+      "#Extremely": "يزعجني بدرجة كبيرة جدًا",
+      "#Think about the parts of a journey you make along streets or pavements, on foot or using a wheelchair.": "فكّر في أجزاء الرحلة التي تقطعها في الشارع أو على الرصيف، مشيًا أو باستخدام كرسي متحرك."
     }
   },
   "origin_project": {

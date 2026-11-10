@@ -2,72 +2,73 @@
   "question_id": "gender",
   "key": "gender",
   "project": "shared",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_about_you",
   "source_questionnaires": [
     "perception_on_ride_sharing",
-    "smarturbanity_your_profile"
+    "smarturbanity_your_profile",
+    "smarturbanity_access_together_usability"
   ],
   "schema": {
-    "privacy_classification": "heightened_personal",
     "text": "What is your gender?",
     "answer_key": "gender",
     "question_type": "single_option",
-    "add_prefer_not_to_say": true,
-    "add_other": true,
-    "checks_inline": false,
     "options": [
       {
-        "text": "Man",
+        "text": "Male",
         "value": "male"
       },
       {
-        "text": "Woman",
+        "text": "Female",
         "value": "female"
       }
-    ]
+    ],
+    "checks_inline": false,
+    "add_other": true,
+    "add_prefer_not_to_say": true,
+    "privacy_classification": "heightened_personal"
   },
   "translations": {
     "en": {
       "#What is your gender?": "What is your gender?",
-      "#Man": "Man",
-      "#Woman": "Woman"
-    },
-    "it": {
-      "#What is your gender?": "Qual è il tuo genere?",
-      "#Man": "Uomo",
-      "#Woman": "Donna"
+      "#Male": "Male",
+      "#Female": "Female"
     },
     "fr": {
       "#What is your gender?": "Quel est votre genre ?",
-      "#Man": "Homme",
-      "#Woman": "Femme"
+      "#Male": "Homme",
+      "#Female": "Femme"
+    },
+    "it": {
+      "#What is your gender?": "Qual è il tuo genere?",
+      "#Male": "Uomo",
+      "#Female": "Donna"
     },
     "de": {
       "#What is your gender?": "Welches Geschlecht haben Sie?",
-      "#Man": "Mann",
-      "#Woman": "Frau"
+      "#Male": "Männlich",
+      "#Female": "Weiblich"
     },
     "tr": {
       "#What is your gender?": "Cinsiyetiniz nedir?",
-      "#Man": "Erkek",
-      "#Woman": "Kadın"
-    },
-    "fa": {
-      "#What is your gender?": "جنسیت شما چیست؟",
-      "#Man": "مرد",
-      "#Woman": "زن"
+      "#Male": "Erkek",
+      "#Female": "Kadın"
     },
     "hu": {
       "#What is your gender?": "Mi az Ön neme?",
-      "#Man": "Férfi",
-      "#Woman": "Nő"
+      "#Male": "Férfi",
+      "#Female": "Nő"
+    },
+    "fa": {
+      "#What is your gender?": "جنسیت شما چیست؟",
+      "#Male": "مرد",
+      "#Female": "زن"
     },
     "ar": {
       "#What is your gender?": "ما جنسك؟",
-      "#Man": "رجل",
-      "#Woman": "امرأة"
+      "#Male": "ذكر",
+      "#Female": "أنثى"
     }
   },
   "origin_project": {

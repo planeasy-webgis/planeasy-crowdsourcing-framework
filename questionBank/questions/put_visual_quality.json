@@ -2,15 +2,19 @@
   "question_id": "put_visual_quality",
   "key": "put_visual_quality",
   "project": "shared",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "status": "draft",
   "origin_questionnaire": "smarturbanity_public_transport_comfort",
   "source_questionnaires": [
-    "smarturbanity_public_transport_comfort"
+    "smarturbanity_public_transport_comfort",
+    "smarturbanity_public_transport_experience_and_effort"
   ],
   "schema": {
+    "privacy_classification": "personal_data",
+    "text": "When you use public transport, do pleasant or unpleasant surroundings affect how you feel?",
+    "help": "For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.",
     "answer_key": "put_visual_quality",
-    "help": "For example buildings, squares, how cared-for a place is and its general feel.",
+    "question_type": "single_option",
     "options": [
       {
         "text": "No, I don't pay attention to them",
@@ -31,84 +35,93 @@
       {
         "text": "I sometimes choose a route because it's nicer or more interesting",
         "value": "very_strongly_i_sometimes_choose_routes"
+      },
+      {
+        "text": "I cannot assess this",
+        "value": "cannot_assess"
       }
-    ],
-    "privacy_classification": "personal_data",
-    "question_type": "single_option",
-    "text": "When you use public transport, do pleasant or unpleasant surroundings affect how you feel?"
+    ]
   },
   "translations": {
-    "ar": {
-      "#For example buildings, squares, how cared-for a place is and its general feel.": "مثل المباني والساحات ومدى العناية بالمكان وجوّه العام.",
-      "#I notice them, but they rarely make a difference": "ألاحظها، لكنها نادرًا ما تُحدث فرقًا",
-      "#I sometimes choose a route because it's nicer or more interesting": "أختار أحيانًا طريقًا لأنه أجمل أو أكثر إثارة للاهتمام",
-      "#No, I don't pay attention to them": "لا، لا أنتبه إليها",
-      "#Sometimes they affect my mood": "تؤثر أحيانًا في مزاجي",
-      "#They affect a lot how I feel on the way": "تؤثر كثيرًا في شعوري أثناء الطريق",
-      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "عند استخدام وسائل النقل العام، هل تؤثر البيئة المحيطة، الجميلة أو غير الجميلة، في شعورك؟"
-    },
-    "de": {
-      "#For example buildings, squares, how cared-for a place is and its general feel.": "Zum Beispiel Gebäude, Plätze, wie gepflegt ein Ort ist und wie er insgesamt wirkt.",
-      "#I notice them, but they rarely make a difference": "Ich merke es, aber es macht selten einen Unterschied",
-      "#I sometimes choose a route because it's nicer or more interesting": "Manchmal wähle ich eine Strecke, weil sie schöner oder interessanter ist",
-      "#No, I don't pay attention to them": "Nein, ich achte nicht darauf",
-      "#Sometimes they affect my mood": "Manchmal beeinflussen sie meine Stimmung",
-      "#They affect a lot how I feel on the way": "Sie beeinflussen stark, wie ich mich unterwegs fühle",
-      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Beeinflusst eine angenehme oder unangenehme Umgebung bei Fahrten mit öffentlichen Verkehrsmitteln, wie Sie sich fühlen?"
-    },
     "en": {
-      "#For example buildings, squares, how cared-for a place is and its general feel.": "For example buildings, squares, how cared-for a place is and its general feel.",
-      "#I notice them, but they rarely make a difference": "I notice them, but they rarely make a difference",
-      "#I sometimes choose a route because it's nicer or more interesting": "I sometimes choose a route because it's nicer or more interesting",
+      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "When you use public transport, do pleasant or unpleasant surroundings affect how you feel?",
       "#No, I don't pay attention to them": "No, I don't pay attention to them",
+      "#I notice them, but they rarely make a difference": "I notice them, but they rarely make a difference",
       "#Sometimes they affect my mood": "Sometimes they affect my mood",
       "#They affect a lot how I feel on the way": "They affect a lot how I feel on the way",
-      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "When you use public transport, do pleasant or unpleasant surroundings affect how you feel?"
-    },
-    "fa": {
-      "#For example buildings, squares, how cared-for a place is and its general feel.": "مثلاً ساختمان‌ها، میدان‌ها، میزان رسیدگی به یک محل و حال‌وهوای کلی آن.",
-      "#I notice them, but they rarely make a difference": "متوجه آن‌ها می‌شوم، اما به‌ندرت فرقی ایجاد می‌کنند",
-      "#I sometimes choose a route because it's nicer or more interesting": "گاهی مسیری را انتخاب می‌کنم چون زیباتر یا جالب‌تر است",
-      "#No, I don't pay attention to them": "نه، به آن‌ها توجه نمی‌کنم",
-      "#Sometimes they affect my mood": "گاهی بر حال من اثر می‌گذارند",
-      "#They affect a lot how I feel on the way": "خیلی بر حس من در مسیر اثر می‌گذارند",
-      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "هنگام استفاده از حمل‌ونقل عمومی، آیا محیط خوشایند یا ناخوشایند بر حال شما اثر می‌گذارد؟"
-    },
-    "fr": {
-      "#For example buildings, squares, how cared-for a place is and its general feel.": "Par exemple les bâtiments, les places, l'entretien d'un lieu et son atmosphère générale.",
-      "#I notice them, but they rarely make a difference": "Je les remarque, mais elles font rarement une différence",
-      "#I sometimes choose a route because it's nicer or more interesting": "Je choisis parfois un itinéraire parce qu'il est plus agréable ou plus intéressant",
-      "#No, I don't pay attention to them": "Non, je n'y fais pas attention",
-      "#Sometimes they affect my mood": "Elles influencent parfois mon humeur",
-      "#They affect a lot how I feel on the way": "Elles influencent beaucoup ce que je ressens en chemin",
-      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Lorsque vous utilisez les transports en commun, un cadre agréable ou désagréable influence-t-il ce que vous ressentez ?"
-    },
-    "hu": {
-      "#For example buildings, squares, how cared-for a place is and its general feel.": "Például az épületek, terek, egy hely gondozottsága és általános hangulata.",
-      "#I notice them, but they rarely make a difference": "Észreveszem őket, de ritkán számítanak",
-      "#I sometimes choose a route because it's nicer or more interesting": "Néha azért választok útvonalat, mert szebb vagy érdekesebb",
-      "#No, I don't pay attention to them": "Nem, nem figyelek rájuk",
-      "#Sometimes they affect my mood": "Néha hatnak a hangulatomra",
-      "#They affect a lot how I feel on the way": "Nagyon befolyásolják, hogyan érzem magam az úton",
-      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Tömegközlekedés közben befolyásolja a közérzetét, ha kellemes vagy kellemetlen a környezet?"
+      "#I sometimes choose a route because it's nicer or more interesting": "I sometimes choose a route because it's nicer or more interesting",
+      "#For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.": "For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.",
+      "#I cannot assess this": "I cannot assess this"
     },
     "it": {
-      "#For example buildings, squares, how cared-for a place is and its general feel.": "Per esempio edifici, piazze, quanto un luogo è curato e la sua atmosfera in generale.",
-      "#I notice them, but they rarely make a difference": "Ci faccio caso, ma raramente fanno differenza",
-      "#I sometimes choose a route because it's nicer or more interesting": "A volte scelgo un percorso perché è più bello o più interessante",
+      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Quando usi i mezzi pubblici, l’ambiente intorno, piacevole o sgradevole, influisce su come ti senti?",
       "#No, I don't pay attention to them": "No, non ci faccio caso",
+      "#I notice them, but they rarely make a difference": "Ci faccio caso, ma raramente fanno differenza",
       "#Sometimes they affect my mood": "A volte influiscono sul mio umore",
       "#They affect a lot how I feel on the way": "Influiscono molto su come mi sento lungo la strada",
-      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Quando usi i mezzi pubblici, l’ambiente intorno, piacevole o sgradevole, influisce su come ti senti?"
+      "#I sometimes choose a route because it's nicer or more interesting": "A volte scelgo un percorso perché è più bello o più interessante",
+      "#For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.": "Per esempio edifici, piazze, quanto un luogo è curato e la sua atmosfera in generale. Pensa all’attesa alla fermata e al viaggio a bordo dei mezzi pubblici.",
+      "#I cannot assess this": "Non posso valutarlo"
+    },
+    "fr": {
+      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Lorsque vous utilisez les transports en commun, un cadre agréable ou désagréable influence-t-il ce que vous ressentez ?",
+      "#No, I don't pay attention to them": "Non, je n'y fais pas attention",
+      "#I notice them, but they rarely make a difference": "Je les remarque, mais elles font rarement une différence",
+      "#Sometimes they affect my mood": "Elles influencent parfois mon humeur",
+      "#They affect a lot how I feel on the way": "Elles influencent beaucoup ce que je ressens en chemin",
+      "#I sometimes choose a route because it's nicer or more interesting": "Je choisis parfois un itinéraire parce qu'il est plus agréable ou plus intéressant",
+      "#For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.": "Par exemple les bâtiments, les places, l'entretien d'un lieu et son atmosphère générale. Pensez à l’attente aux arrêts et au trajet à bord des transports en commun.",
+      "#I cannot assess this": "Je ne peux pas l’évaluer"
+    },
+    "de": {
+      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Beeinflusst eine angenehme oder unangenehme Umgebung bei Fahrten mit öffentlichen Verkehrsmitteln, wie Sie sich fühlen?",
+      "#No, I don't pay attention to them": "Nein, ich achte nicht darauf",
+      "#I notice them, but they rarely make a difference": "Ich merke es, aber es macht selten einen Unterschied",
+      "#Sometimes they affect my mood": "Manchmal beeinflussen sie meine Stimmung",
+      "#They affect a lot how I feel on the way": "Sie beeinflussen stark, wie ich mich unterwegs fühle",
+      "#I sometimes choose a route because it's nicer or more interesting": "Manchmal wähle ich eine Strecke, weil sie schöner oder interessanter ist",
+      "#For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.": "Zum Beispiel Gebäude, Plätze, wie gepflegt ein Ort ist und wie er insgesamt wirkt. Denken Sie an das Warten an Haltestellen und die Fahrt in öffentlichen Verkehrsmitteln.",
+      "#I cannot assess this": "Das kann ich nicht beurteilen"
     },
     "tr": {
-      "#For example buildings, squares, how cared-for a place is and its general feel.": "Örneğin binalar, meydanlar, bir yerin ne kadar bakımlı olduğu ve genel havası.",
-      "#I notice them, but they rarely make a difference": "Fark ederim ama nadiren bir fark yaratırlar",
-      "#I sometimes choose a route because it's nicer or more interesting": "Bazen daha güzel veya ilginç olduğu için bir güzergâh seçerim",
+      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Toplu taşıma kullanırken hoş veya hoş olmayan çevre kendinizi nasıl hissettiğinizi etkiliyor mu?",
       "#No, I don't pay attention to them": "Hayır, dikkat etmem",
+      "#I notice them, but they rarely make a difference": "Fark ederim ama nadiren bir fark yaratırlar",
       "#Sometimes they affect my mood": "Bazen ruh hâlimi etkilerler",
       "#They affect a lot how I feel on the way": "Yolda nasıl hissettiğimi çok etkilerler",
-      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Toplu taşıma kullanırken hoş veya hoş olmayan çevre kendinizi nasıl hissettiğinizi etkiliyor mu?"
+      "#I sometimes choose a route because it's nicer or more interesting": "Bazen daha güzel veya ilginç olduğu için bir güzergâh seçerim",
+      "#For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.": "Örneğin binalar, meydanlar, bir yerin ne kadar bakımlı olduğu ve genel havası. Duraklarda beklemeyi ve toplu taşıma araçlarında yolculuk yapmayı düşünün.",
+      "#I cannot assess this": "Bunu değerlendiremiyorum"
+    },
+    "fa": {
+      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "هنگام استفاده از حمل‌ونقل عمومی، آیا محیط خوشایند یا ناخوشایند بر حال شما اثر می‌گذارد؟",
+      "#No, I don't pay attention to them": "نه، به آن‌ها توجه نمی‌کنم",
+      "#I notice them, but they rarely make a difference": "متوجه آن‌ها می‌شوم، اما به‌ندرت فرقی ایجاد می‌کنند",
+      "#Sometimes they affect my mood": "گاهی بر حال من اثر می‌گذارند",
+      "#They affect a lot how I feel on the way": "خیلی بر حس من در مسیر اثر می‌گذارند",
+      "#I sometimes choose a route because it's nicer or more interesting": "گاهی مسیری را انتخاب می‌کنم چون زیباتر یا جالب‌تر است",
+      "#For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.": "مثلاً ساختمان‌ها، میدان‌ها، میزان رسیدگی به یک محل و حال‌وهوای کلی آن. انتظار در ایستگاه‌ها و سفر با وسایل حمل‌ونقل عمومی را در نظر بگیرید.",
+      "#I cannot assess this": "نمی‌توانم این را ارزیابی کنم"
+    },
+    "hu": {
+      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "Tömegközlekedés közben befolyásolja a közérzetét, ha kellemes vagy kellemetlen a környezet?",
+      "#No, I don't pay attention to them": "Nem, nem figyelek rájuk",
+      "#I notice them, but they rarely make a difference": "Észreveszem őket, de ritkán számítanak",
+      "#Sometimes they affect my mood": "Néha hatnak a hangulatomra",
+      "#They affect a lot how I feel on the way": "Nagyon befolyásolják, hogyan érzem magam az úton",
+      "#I sometimes choose a route because it's nicer or more interesting": "Néha azért választok útvonalat, mert szebb vagy érdekesebb",
+      "#For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.": "Például az épületek, terek, egy hely gondozottsága és általános hangulata. Gondoljon a megállókban való várakozásra és a tömegközlekedési járműveken való utazásra.",
+      "#I cannot assess this": "Ezt nem tudom megítélni"
+    },
+    "ar": {
+      "#When you use public transport, do pleasant or unpleasant surroundings affect how you feel?": "عند استخدام وسائل النقل العام، هل تؤثر البيئة المحيطة، الجميلة أو غير الجميلة، في شعورك؟",
+      "#No, I don't pay attention to them": "لا، لا أنتبه إليها",
+      "#I notice them, but they rarely make a difference": "ألاحظها، لكنها نادرًا ما تُحدث فرقًا",
+      "#Sometimes they affect my mood": "تؤثر أحيانًا في مزاجي",
+      "#They affect a lot how I feel on the way": "تؤثر كثيرًا في شعوري أثناء الطريق",
+      "#I sometimes choose a route because it's nicer or more interesting": "أختار أحيانًا طريقًا لأنه أجمل أو أكثر إثارة للاهتمام",
+      "#For example buildings, squares, how cared-for a place is and its general feel. Think about waiting at stops and travelling on board public transport.": "مثل المباني والساحات ومدى العناية بالمكان وجوّه العام. فكّر في الانتظار في المحطات والسفر على متن وسائل النقل العام.",
+      "#I cannot assess this": "لا أستطيع تقييم ذلك"
     }
   },
   "origin_project": {

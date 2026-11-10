@@ -1,0 +1,65 @@
+{
+  "question_id": "intention_to_use",
+  "key": "intention_to_use",
+  "project": "shared",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_access_together_usability",
+  "source_questionnaires": [
+    "smarturbanity_access_together_usability",
+    "smarturbanity_feedback_access_hub",
+    "smarturbanity_feedback_access_together_app",
+    "smarturbanity_feedback_access_together_web"
+  ],
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  },
+  "schema": {
+    "text": "Would you use Access Together Web again, for example from home?",
+    "answer_key": "intention_to_use",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "I would definitely not use it",
+        "value": "definitely_not"
+      },
+      {
+        "text": "I would probably not use it",
+        "value": "probably_not"
+      },
+      {
+        "text": "I am not sure",
+        "value": "not_sure"
+      },
+      {
+        "text": "I would probably use it",
+        "value": "probably"
+      },
+      {
+        "text": "I would definitely use it",
+        "value": "definitely"
+      }
+    ],
+    "checks_inline": false,
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "en": {
+      "#I am not sure": "I am not sure",
+      "#I would definitely not use it": "I would definitely not use it",
+      "#I would definitely use it": "I would definitely use it",
+      "#I would probably not use it": "I would probably not use it",
+      "#I would probably use it": "I would probably use it",
+      "#Would you use Access Together Web again, for example from home?": "Would you use Access Together Web again, for example from home?"
+    },
+    "it": {
+      "#I am not sure": "Non so",
+      "#I would definitely not use it": "Sicuramente non lo userei",
+      "#I would definitely use it": "Sicuramente lo userei",
+      "#I would probably not use it": "Probabilmente non lo userei",
+      "#I would probably use it": "Probabilmente lo userei",
+      "#Would you use Access Together Web again, for example from home?": "Useresti di nuovo Access Together Web, per esempio da casa?"
+    }
+  },
+  "version": "1.3.0"
+}

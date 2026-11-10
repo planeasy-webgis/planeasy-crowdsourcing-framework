@@ -1,0 +1,56 @@
+{
+  "question_id": "task_trip_questions",
+  "key": "task_trip_questions",
+  "project": "shared",
+  "status": "draft",
+  "origin_questionnaire": "smarturbanity_feedback_access_together_app",
+  "source_questionnaires": [
+    "smarturbanity_feedback_access_together_app"
+  ],
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  },
+  "schema": {
+    "text": "Did you manage to answer the questions before and after the trip?",
+    "answer_key": "task_trip_questions",
+    "question_type": "single_option",
+    "options": [
+      {
+        "text": "Yes",
+        "value": "yes"
+      },
+      {
+        "text": "Yes, with help",
+        "value": "yes_with_help"
+      },
+      {
+        "text": "No",
+        "value": "no"
+      },
+      {
+        "text": "I didn’t try it",
+        "value": "not_tried"
+      }
+    ],
+    "checks_inline": false,
+    "privacy_classification": "personal_data"
+  },
+  "translations": {
+    "en": {
+      "#Did you manage to answer the questions before and after the trip?": "Did you manage to answer the questions before and after the trip?",
+      "#I didn’t try it": "I didn’t try it",
+      "#No": "No",
+      "#Yes": "Yes",
+      "#Yes, with help": "Yes, with help"
+    },
+    "it": {
+      "#Did you manage to answer the questions before and after the trip?": "Hai potuto rispondere alle domande prima e dopo lo spostamento?",
+      "#I didn’t try it": "Non l’ho provato",
+      "#No": "No",
+      "#Yes": "Sì",
+      "#Yes, with help": "Sì, con un aiuto"
+    }
+  },
+  "version": "1.0.0"
+}

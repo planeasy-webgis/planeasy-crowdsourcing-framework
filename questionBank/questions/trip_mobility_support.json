@@ -1,0 +1,76 @@
+{
+  "question_id": "trip_mobility_support",
+  "key": "trip_mobility_support",
+  "project": "shared",
+  "status": "draft",
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment"
+  ],
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  },
+  "schema": {
+    "text": "Are you using any of these on this trip? (Optional)",
+    "answer_key": "trip_mobility_support",
+    "question_type": "multiple_options",
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Using a wheelchair, walker, cane or other mobility aid",
+        "value": "mobility_aid"
+      },
+      {
+        "text": "Pushing a stroller",
+        "value": "stroller"
+      }
+    ],
+    "privacy_classification": "special_category_health",
+    "add_prefer_not_to_say": true,
+    "add_none": true
+  },
+  "translations": {
+    "en": {
+      "#Using a wheelchair, walker, cane or other mobility aid": "Using a wheelchair, walker, cane or other mobility aid",
+      "#Pushing a stroller": "Pushing a stroller",
+      "#Are you using any of these on this trip? (Optional)": "Are you using any of these on this trip? (Optional)"
+    },
+    "it": {
+      "#Using a wheelchair, walker, cane or other mobility aid": "Uso una sedia a rotelle, un deambulatore, un bastone o un altro ausilio",
+      "#Pushing a stroller": "Spingo un passeggino",
+      "#Are you using any of these on this trip? (Optional)": "In questo spostamento usi uno di questi ausili o un passeggino? (Facoltativo)"
+    },
+    "fr": {
+      "#Using a wheelchair, walker, cane or other mobility aid": "J'utilise un fauteuil roulant, un déambulateur, une canne ou une autre aide à la mobilité",
+      "#Pushing a stroller": "Je pousse une poussette",
+      "#Are you using any of these on this trip? (Optional)": "Pour ce trajet, utilisez-vous une de ces aides ou une poussette ? (Facultatif)"
+    },
+    "de": {
+      "#Using a wheelchair, walker, cane or other mobility aid": "Ich nutze einen Rollstuhl, Rollator, Gehstock oder eine andere Mobilitätshilfe",
+      "#Pushing a stroller": "Ich schiebe einen Kinderwagen",
+      "#Are you using any of these on this trip? (Optional)": "Nutzen Sie auf diesem Weg eines dieser Hilfsmittel oder einen Kinderwagen? (Freiwillig)"
+    },
+    "tr": {
+      "#Using a wheelchair, walker, cane or other mobility aid": "Tekerlekli sandalye, yürüteç, baston veya başka bir hareket desteği kullanıyorum",
+      "#Pushing a stroller": "Bebek arabası itiyorum",
+      "#Are you using any of these on this trip? (Optional)": "Bu yolculukta bu yardımcı araçlardan birini veya bebek arabası kullanıyor musunuz? (İsteğe bağlı)"
+    },
+    "fa": {
+      "#Using a wheelchair, walker, cane or other mobility aid": "از ویلچر، واکر، عصا یا وسیله کمک‌حرکتی دیگری استفاده می‌کنم",
+      "#Pushing a stroller": "کالسکه بچه را هل می‌دهم",
+      "#Are you using any of these on this trip? (Optional)": "آیا در این سفر از یکی از این وسایل کمکی یا کالسکه استفاده می‌کنید؟ (اختیاری)"
+    },
+    "hu": {
+      "#Using a wheelchair, walker, cane or other mobility aid": "Kerekesszéket, járókeretet, botot vagy más mozgást segítő eszközt használok",
+      "#Pushing a stroller": "Babakocsit tolok",
+      "#Are you using any of these on this trip? (Optional)": "Használ ezen az úton ilyen segédeszközt vagy babakocsit? (Nem kötelező)"
+    },
+    "ar": {
+      "#Using a wheelchair, walker, cane or other mobility aid": "أستخدم كرسيًا متحركًا أو مشاية أو عصا أو وسيلة مساعدة أخرى على الحركة",
+      "#Pushing a stroller": "أدفع عربة أطفال",
+      "#Are you using any of these on this trip? (Optional)": "هل تستخدم في هذه الرحلة إحدى هذه الوسائل المساعدة أو عربة أطفال؟ (اختياري)"
+    }
+  },
+  "version": "1.0.0"
+}

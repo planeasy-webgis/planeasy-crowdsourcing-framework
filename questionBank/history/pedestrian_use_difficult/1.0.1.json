@@ -1,0 +1,96 @@
+{
+  "question_id": "pedestrian_use_difficult",
+  "key": "pedestrian_use_difficult",
+  "project": "shared",
+  "origin_questionnaire": "street_connection_assessment",
+  "source_questionnaires": [
+    "street_connection_assessment",
+    "street_segment_assessment"
+  ],
+  "origin_project": {
+    "project_id": "smarturbanity",
+    "name": "SmartUrbanity"
+  },
+  "schema": {
+    "text": "Is it difficult for you to get through here on foot or using a wheelchair?",
+    "answer_key": "pedestrian_use_difficult",
+    "question_type": "single_option",
+    "add_i_dont_know": true,
+    "checks_inline": false,
+    "options": [
+      {
+        "text": "Yes",
+        "value": "yes"
+      },
+      {
+        "text": "No",
+        "value": "no"
+      },
+      {
+        "text": "I cannot get through",
+        "value": "cannot_get_through"
+      }
+    ],
+    "privacy_classification": "heightened_personal"
+  },
+  "translations": {
+    "en": {
+      "#No": "No",
+      "#Yes": "Yes",
+      "#I don't know": "I don't know",
+      "#Is it difficult for you to get through here on foot or using a wheelchair?": "Is it difficult for you to get through here on foot or using a wheelchair?",
+      "#I cannot get through": "I cannot get through"
+    },
+    "it": {
+      "#No": "No",
+      "#Yes": "Sì",
+      "#I don't know": "Non lo so",
+      "#Is it difficult for you to get through here on foot or using a wheelchair?": "È difficile per te passare da qui a piedi o in sedia a rotelle?",
+      "#I cannot get through": "Non riesco a passare"
+    },
+    "fr": {
+      "#No": "Non",
+      "#Yes": "Oui",
+      "#I don't know": "Je ne sais pas",
+      "#Is it difficult for you to get through here on foot or using a wheelchair?": "Est-il difficile pour toi de passer ici à pied ou en fauteuil roulant ?",
+      "#I cannot get through": "Je ne peux pas passer"
+    },
+    "de": {
+      "#No": "Nein",
+      "#Yes": "Ja",
+      "#I don't know": "Ich weiß es nicht",
+      "#Is it difficult for you to get through here on foot or using a wheelchair?": "Ist es für Sie schwierig, hier zu Fuß oder mit dem Rollstuhl durchzukommen?",
+      "#I cannot get through": "Ich komme nicht durch"
+    },
+    "tr": {
+      "#No": "Hayır",
+      "#Yes": "Evet",
+      "#I don't know": "Bilmiyorum",
+      "#Is it difficult for you to get through here on foot or using a wheelchair?": "Buradan yürüyerek veya tekerlekli sandalyeyle geçmek senin için zor mu?",
+      "#I cannot get through": "Geçemiyorum"
+    },
+    "fa": {
+      "#No": "خیر",
+      "#Yes": "بله",
+      "#I don't know": "نمی‌دانم",
+      "#Is it difficult for you to get through here on foot or using a wheelchair?": "آیا عبور از اینجا پیاده یا با ویلچر برایت دشوار است؟",
+      "#I cannot get through": "نمی‌توانم عبور کنم"
+    },
+    "hu": {
+      "#No": "Nem",
+      "#Yes": "Igen",
+      "#I don't know": "Nem tudom",
+      "#Is it difficult for you to get through here on foot or using a wheelchair?": "Nehéz itt gyalog vagy kerekesszékkel áthaladnod?",
+      "#I cannot get through": "Nem tudok áthaladni"
+    },
+    "ar": {
+      "#No": "لا",
+      "#Yes": "نعم",
+      "#I don't know": "لا أعرف",
+      "#Is it difficult for you to get through here on foot or using a wheelchair?": "هل يصعب عليك المرور من هنا مشيًا أو باستخدام كرسي متحرك؟",
+      "#I cannot get through": "لا أستطيع المرور"
+    }
+  },
+  "version": "1.0.1",
+  "status": "draft"
+}
