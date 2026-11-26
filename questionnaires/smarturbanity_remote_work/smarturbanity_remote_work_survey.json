@@ -1,0 +1,1646 @@
+{
+  "questionnaire": {
+    "questionnaire_id": "smarturbanity_remote_work_survey",
+    "questionnaire_version": "0.0.1",
+    "project": "smarturbanity_remote_work",
+    "options": {
+      "review_mode": false
+    },
+    "name": "SmartUrbanity Remote Work and Coworking Survey",
+    "welcome_page": false,
+    "final_page": false,
+    "sections": [
+      {
+        "title": "A. Respondent profile",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "Which of the following best describes your current situation?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q01",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Student"
+              },
+              {
+                "text": "Employee"
+              },
+              {
+                "text": "Self-employed / Freelancer"
+              },
+              {
+                "text": "Entrepreneur"
+              },
+              {
+                "text": "Both studying and working"
+              },
+              {
+                "text": "Unemployed"
+              },
+              {
+                "text": "Other"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          },
+          {
+            "text": "What is your age group?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q02",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "18–24"
+              },
+              {
+                "text": "25–34"
+              },
+              {
+                "text": "35–44"
+              },
+              {
+                "text": "45–54"
+              },
+              {
+                "text": "55–64"
+              },
+              {
+                "text": "65+"
+              },
+              {
+                "text": "Prefer not to say"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          },
+          {
+            "text": "What is your gender?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q03",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Female"
+              },
+              {
+                "text": "Male"
+              },
+              {
+                "text": "Other / self-describe"
+              },
+              {
+                "text": "Prefer not to say"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          }
+        ]
+      },
+      {
+        "title": "B. Household",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "Do you have caregiving responsibilities?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q04",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "No"
+              },
+              {
+                "text": "Yes – children"
+              },
+              {
+                "text": "Yes – adults/elderly"
+              },
+              {
+                "text": "Yes – both"
+              },
+              {
+                "text": "Prefer not to say"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          }
+        ]
+      },
+      {
+        "title": "C. Spatial context",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "What is the ZIP/postal code of your residence?",
+            "question_type": "text",
+            "required": false,
+            "question_id": "q05",
+            "question_version": "1.0.0",
+            "postal_code_country": "IT"
+          },
+          {
+            "text": "What is the ZIP/postal code of your primary workplace?",
+            "question_type": "text",
+            "required": false,
+            "question_id": "q06",
+            "question_version": "1.0.0",
+            "postal_code_country": "IT"
+          }
+        ]
+      },
+      {
+        "title": "D. Occupation & job",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "To what extent can your work activities be performed remotely?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q07",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Not at all"
+              },
+              {
+                "text": "<25%"
+              },
+              {
+                "text": "25–50%"
+              },
+              {
+                "text": "50–75%"
+              },
+              {
+                "text": ">75%"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          }
+        ]
+      },
+      {
+        "title": "E. Work organization",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "To what extent can you choose your own work start and end times?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q08",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "No flexibility"
+              },
+              {
+                "text": "Limited flexibility"
+              },
+              {
+                "text": "Moderate flexibility"
+              },
+              {
+                "text": "High flexibility"
+              },
+              {
+                "text": "Complete flexibility"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "answer_scale": "likert"
+          },
+          {
+            "text": "How many days per week do you currently work remotely?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q09",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "0"
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5 days"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          },
+          {
+            "text": "How many days per week would you ideally like to work remotely?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q10",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "0"
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5 days"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          },
+          {
+            "text": "What is your employer’s current remote-working policy?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q11",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "No remote work"
+              },
+              {
+                "text": "Fixed number of remote days"
+              },
+              {
+                "text": "Flexible/hybrid policy"
+              },
+              {
+                "text": "Fully remote allowed"
+              },
+              {
+                "text": "No formal policy"
+              },
+              {
+                "text": "Don’t know"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "show_if": {
+              "How many days per week do you currently work remotely?": {
+                "not": [
+                  "0"
+                ]
+              }
+            }
+          },
+          {
+            "text": "When working remotely, which of the following locations do you usually work from? Select up to 2 options.",
+            "question_type": "multiple_options",
+            "required": false,
+            "question_id": "q12",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "At home"
+              },
+              {
+                "text": "Coworking space"
+              },
+              {
+                "text": "Library or study space"
+              },
+              {
+                "text": "Café or other hospitality venue"
+              },
+              {
+                "text": "Another company or client location"
+              },
+              {
+                "text": "While travelling / in transit"
+              },
+              {
+                "text": "Other (please specify)"
+              }
+            ],
+            "min": 0,
+            "max": 2,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "show_if": {
+              "How many days per week do you currently work remotely?": {
+                "not": [
+                  "0"
+                ]
+              }
+            }
+          },
+          {
+            "text": "Does your employer currently provide access to coworking spaces?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q13",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Yes"
+              },
+              {
+                "text": "No"
+              },
+              {
+                "text": "Don’t know"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true,
+            "show_if": {
+              "How many days per week do you currently work remotely?": {
+                "not": [
+                  "0"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "F. Mobility",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "How long does your typical one-way commute from home to your primary workplace take?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q14",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "<15"
+              },
+              {
+                "text": "15–30"
+              },
+              {
+                "text": "30–45"
+              },
+              {
+                "text": "45–60"
+              },
+              {
+                "text": ">60 minutes"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          },
+          {
+            "text": "What is your primary transport mode for commuting?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q15",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Walking"
+              },
+              {
+                "text": "Bicycle"
+              },
+              {
+                "text": "Public transport"
+              },
+              {
+                "text": "Private car"
+              },
+              {
+                "text": "Motorcycle"
+              },
+              {
+                "text": "Shared mobility"
+              },
+              {
+                "text": "Carpooling"
+              },
+              {
+                "text": "Other"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          },
+          {
+            "text": "On average, how many days per week do you travel to your employer’s workplace?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q16",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "0"
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": "2"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "5+ days"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          }
+        ]
+      },
+      {
+        "title": "G. Remote/home experience",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "Overall, how satisfied are you with your current remote-working arrangement?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q17",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Very dissatisfied"
+              },
+              {
+                "text": "Dissatisfied"
+              },
+              {
+                "text": "Neutral"
+              },
+              {
+                "text": "Satisfied"
+              },
+              {
+                "text": "Very satisfied"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "show_if": {
+              "How many days per week do you currently work remotely?": {
+                "not": [
+                  "0"
+                ]
+              }
+            },
+            "answer_scale": "likert"
+          },
+          {
+            "text": "To what extent do you agree or disagree with the following statements about remote working?",
+            "question_type": "matrix",
+            "required": false,
+            "question_id": "q18",
+            "question_version": "1.0.0",
+            "answer_key": "q18",
+            "rows": [
+              {
+                "label": "Remote working can improve work-life balance",
+                "key": "q18_r1"
+              },
+              {
+                "label": "Remote working can provide greater flexibility in organizing daily activities",
+                "key": "q18_r2"
+              },
+              {
+                "label": "Remote working can reduce the time and stress associated with commuting",
+                "key": "q18_r3"
+              },
+              {
+                "label": "Remote working can reduce opportunities for social interaction with colleagues",
+                "key": "q18_r4"
+              },
+              {
+                "label": "Remote working can encourage people to spend more time in their local neighbourhood",
+                "key": "q18_r5"
+              },
+              {
+                "label": "Remote working can make it easier to use services and carry out activities close to home",
+                "key": "q18_r6"
+              }
+            ],
+            "columns": [
+              {
+                "key": "q18_c1",
+                "label": "Strongly disagree",
+                "type": "single_option"
+              },
+              {
+                "key": "q18_c2",
+                "label": "Disagree",
+                "type": "single_option"
+              },
+              {
+                "key": "q18_c3",
+                "label": "Neither agree nor disagree",
+                "type": "single_option"
+              },
+              {
+                "key": "q18_c4",
+                "label": "Agree",
+                "type": "single_option"
+              },
+              {
+                "key": "q18_c5",
+                "label": "Strongly agree",
+                "type": "single_option"
+              }
+            ],
+            "answer_scale": "likert"
+          },
+          {
+            "text": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Workstation equipment",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q19_1",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Basic"
+              },
+              {
+                "text": "Standard"
+              },
+              {
+                "text": "Premium"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true,
+            "show_if": {
+              "How many days per week do you currently work remotely?": {
+                "not": [
+                  "0"
+                ]
+              }
+            }
+          },
+          {
+            "text": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Distractions",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q19_2",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Low"
+              },
+              {
+                "text": "Moderate"
+              },
+              {
+                "text": "High"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true,
+            "show_if": {
+              "How many days per week do you currently work remotely?": {
+                "not": [
+                  "0"
+                ]
+              }
+            }
+          },
+          {
+            "text": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Privacy for calls/confidential work",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q19_3",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Low"
+              },
+              {
+                "text": "Moderate"
+              },
+              {
+                "text": "High"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true,
+            "show_if": {
+              "How many days per week do you currently work remotely?": {
+                "not": [
+                  "0"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "H. Work activities",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "Which of the following activities are part of your regular work?",
+            "question_type": "multiple_options",
+            "required": false,
+            "question_id": "q20",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Focused individual work"
+              },
+              {
+                "text": "Online meetings"
+              },
+              {
+                "text": "Face-to-face meetings"
+              },
+              {
+                "text": "Team collaboration"
+              },
+              {
+                "text": "Calls"
+              },
+              {
+                "text": "Confidential tasks"
+              },
+              {
+                "text": "Client-facing activities"
+              },
+              {
+                "text": "Creative/problem-solving"
+              },
+              {
+                "text": "Administrative/routine tasks"
+              },
+              {
+                "text": "Other"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          },
+          {
+            "text": "Where would you prefer to perform the following work activities?",
+            "question_type": "matrix",
+            "required": false,
+            "question_id": "q21",
+            "question_version": "1.0.0",
+            "answer_key": "q21",
+            "rows": [
+              {
+                "label": "Focused individual work",
+                "key": "q21_r1"
+              },
+              {
+                "label": "Online meetings",
+                "key": "q21_r2"
+              },
+              {
+                "label": "Face-to-face meetings",
+                "key": "q21_r3"
+              },
+              {
+                "label": "Team collaboration",
+                "key": "q21_r4"
+              },
+              {
+                "label": "Calls",
+                "key": "q21_r5"
+              },
+              {
+                "label": "Confidential tasks",
+                "key": "q21_r6"
+              },
+              {
+                "label": "Client-facing activities",
+                "key": "q21_r7"
+              },
+              {
+                "label": "Creative/problem-solving",
+                "key": "q21_r8"
+              },
+              {
+                "label": "Administrative/routine tasks",
+                "key": "q21_r9"
+              }
+            ],
+            "columns": [
+              {
+                "key": "q21_c1",
+                "label": "Home",
+                "type": "single_option"
+              },
+              {
+                "key": "q21_c2",
+                "label": "Coworking",
+                "type": "single_option"
+              },
+              {
+                "key": "q21_c3",
+                "label": "Office",
+                "type": "single_option"
+              },
+              {
+                "key": "q21_c4",
+                "label": "No preference",
+                "type": "single_option"
+              }
+            ],
+            "rows_from_answer": "Which of the following activities are part of your regular work?"
+          }
+        ]
+      },
+      {
+        "title": "J. Coworking",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "How often do you currently use a coworking space?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q22",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Never / I have never used a coworking space"
+              },
+              {
+                "text": "Less than once a month"
+              },
+              {
+                "text": "A few times a month"
+              },
+              {
+                "text": "Once or twice a week"
+              },
+              {
+                "text": "Several times a week"
+              },
+              {
+                "text": "Daily"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          },
+          {
+            "text": "If a coworking space were available close to your home, how often would you consider using it?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q23",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Never"
+              },
+              {
+                "text": "Less than once a month"
+              },
+              {
+                "text": "A few times a month"
+              },
+              {
+                "text": "Once or twice a week"
+              },
+              {
+                "text": "Several times a week"
+              },
+              {
+                "text": "Daily"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          },
+          {
+            "text": "How important would the following factors be to you when deciding whether to use a coworking space?",
+            "question_type": "matrix",
+            "required": false,
+            "question_id": "q24",
+            "question_version": "1.0.0",
+            "answer_key": "q24",
+            "rows": [
+              {
+                "label": "Short distance from home",
+                "key": "q24_r1"
+              },
+              {
+                "label": "Employer contribution to the cost",
+                "key": "q24_r2"
+              },
+              {
+                "label": "Reliable high-speed internet",
+                "key": "q24_r3"
+              },
+              {
+                "label": "Quiet areas for focused work",
+                "key": "q24_r4"
+              },
+              {
+                "label": "Privacy and private spaces for calls",
+                "key": "q24_r5"
+              },
+              {
+                "label": "Meeting and collaboration spaces",
+                "key": "q24_r6"
+              },
+              {
+                "label": "Ergonomic furniture and adequate work equipment",
+                "key": "q24_r7"
+              },
+              {
+                "label": "Flexible opening hours",
+                "key": "q24_r8"
+              },
+              {
+                "label": "Opportunities for networking and social interaction",
+                "key": "q24_r9"
+              },
+              {
+                "label": "Separation between work and home life",
+                "key": "q24_r10"
+              },
+              {
+                "label": "Availability of additional services (e.g. café/kitchen, lockers, printing)",
+                "key": "q24_r11"
+              },
+              {
+                "label": "Parking availability",
+                "key": "q24_r12"
+              },
+              {
+                "label": "Childcare services",
+                "key": "q24_r13"
+              },
+              {
+                "label": "Wellness/relaxation or outdoor spaces",
+                "key": "q24_r14"
+              }
+            ],
+            "columns": [
+              {
+                "key": "q24_c1",
+                "label": "Not at all important",
+                "type": "single_option"
+              },
+              {
+                "key": "q24_c2",
+                "label": "Slightly important",
+                "type": "single_option"
+              },
+              {
+                "key": "q24_c3",
+                "label": "Moderately important",
+                "type": "single_option"
+              },
+              {
+                "key": "q24_c4",
+                "label": "Very important",
+                "type": "single_option"
+              },
+              {
+                "key": "q24_c5",
+                "label": "Extremely important",
+                "type": "single_option"
+              }
+            ],
+            "answer_scale": "likert"
+          }
+        ]
+      },
+      {
+        "title": "K. Accessibility & 15-minute city",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "How would you prefer to reach a coworking space close to your home? (Select up to 2)",
+            "question_type": "multiple_options",
+            "required": false,
+            "question_id": "q25",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Walking"
+              },
+              {
+                "text": "Bicycle"
+              },
+              {
+                "text": "Public transport"
+              },
+              {
+                "text": "Car"
+              },
+              {
+                "text": "Shared mobility"
+              },
+              {
+                "text": "Other"
+              }
+            ],
+            "min": 0,
+            "max": 2,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          },
+          {
+            "text": "Thinking about the area where you live, can you reach the following services within approximately 15 minutes from your home by walking or cycling?",
+            "question_type": "matrix",
+            "required": false,
+            "question_id": "q26",
+            "question_version": "1.0.0",
+            "answer_key": "q26",
+            "rows": [
+              {
+                "label": "Grocery shops / supermarkets",
+                "key": "q26_r1"
+              },
+              {
+                "label": "Healthcare services",
+                "key": "q26_r2"
+              },
+              {
+                "label": "Public transport",
+                "key": "q26_r3"
+              },
+              {
+                "label": "Parks / green spaces",
+                "key": "q26_r4"
+              },
+              {
+                "label": "Cafés / restaurants",
+                "key": "q26_r5"
+              },
+              {
+                "label": "Sport / leisure facilities",
+                "key": "q26_r6"
+              },
+              {
+                "label": "Cultural facilities",
+                "key": "q26_r7"
+              },
+              {
+                "label": "Other everyday services",
+                "key": "q26_r8"
+              }
+            ],
+            "columns": [
+              {
+                "key": "q26_c1",
+                "label": "Yes",
+                "type": "single_option"
+              },
+              {
+                "key": "q26_c2",
+                "label": "No",
+                "type": "single_option"
+              },
+              {
+                "key": "q26_c3",
+                "label": "Don't know",
+                "type": "single_option"
+              }
+            ]
+          },
+          {
+            "text": "When working remotely, how does your use of the following services in your local neighbourhood change compared with days when you travel to your usual workplace?",
+            "question_type": "matrix",
+            "required": false,
+            "question_id": "q27",
+            "question_version": "1.0.0",
+            "answer_key": "q27",
+            "rows": [
+              {
+                "label": "Grocery shops / supermarkets",
+                "key": "q27_r1"
+              },
+              {
+                "label": "Healthcare services",
+                "key": "q27_r2"
+              },
+              {
+                "label": "Public transport",
+                "key": "q27_r3"
+              },
+              {
+                "label": "Parks / green spaces",
+                "key": "q27_r4"
+              },
+              {
+                "label": "Cafés / restaurants",
+                "key": "q27_r5"
+              },
+              {
+                "label": "Sport / leisure facilities",
+                "key": "q27_r6"
+              },
+              {
+                "label": "Cultural facilities",
+                "key": "q27_r7"
+              },
+              {
+                "label": "Other everyday services",
+                "key": "q27_r8"
+              }
+            ],
+            "columns": [
+              {
+                "key": "q27_c1",
+                "label": "Less",
+                "type": "single_option"
+              },
+              {
+                "key": "q27_c2",
+                "label": "About the same",
+                "type": "single_option"
+              },
+              {
+                "key": "q27_c3",
+                "label": "More",
+                "type": "single_option"
+              },
+              {
+                "key": "q27_c4",
+                "label": "I do not use this service",
+                "type": "single_option"
+              }
+            ],
+            "show_if": {
+              "How many days per week do you currently work remotely?": {
+                "not": [
+                  "0"
+                ]
+              }
+            }
+          },
+          {
+            "text": "Where would you prefer a coworking space to be located?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q28",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "in my neighbourhood"
+              },
+              {
+                "text": "City centre"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": true
+          },
+          {
+            "text": "If you worked remotely more often, which activities would you be more likely to perform within your neighbourhood?",
+            "question_type": "multiple_options",
+            "required": false,
+            "question_id": "q29",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Shopping"
+              },
+              {
+                "text": "Cafés/restaurants"
+              },
+              {
+                "text": "Sport/physical activity"
+              },
+              {
+                "text": "Leisure"
+              },
+              {
+                "text": "Healthcare/personal services"
+              },
+              {
+                "text": "Social activities"
+              },
+              {
+                "text": "Care/family activities"
+              },
+              {
+                "text": "Cultural activities"
+              },
+              {
+                "text": "None"
+              },
+              {
+                "text": "Other"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          }
+        ]
+      },
+      {
+        "title": "L. Wellbeing & future work",
+        "description": "",
+        "backgroundColor": "#d3d3d3",
+        "questions": [
+          {
+            "text": "If your commuting time were reduced, how would you most likely use the saved time? (Select up to 3)",
+            "question_type": "multiple_options",
+            "required": false,
+            "question_id": "q30",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "Family/care"
+              },
+              {
+                "text": "Leisure"
+              },
+              {
+                "text": "Physical activity"
+              },
+              {
+                "text": "Social activities"
+              },
+              {
+                "text": "Rest"
+              },
+              {
+                "text": "Household activities"
+              },
+              {
+                "text": "Additional work"
+              },
+              {
+                "text": "Education/training"
+              },
+              {
+                "text": "Activities/services in neighbourhood"
+              },
+              {
+                "text": "Other"
+              }
+            ],
+            "min": 0,
+            "max": 3,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false
+          },
+          {
+            "text": "How do you think having the option to work from a coworking space close to your home would affect your overall quality of life?",
+            "question_type": "single_option",
+            "required": false,
+            "question_id": "q31",
+            "question_version": "1.0.0",
+            "options": [
+              {
+                "text": "No effect"
+              },
+              {
+                "text": "Slightly positively"
+              },
+              {
+                "text": "Moderately positively"
+              },
+              {
+                "text": "Very positively"
+              }
+            ],
+            "min": 0,
+            "max": 0,
+            "step": 0,
+            "add_prefer_not_to_say": false,
+            "add_i_dont_know": false,
+            "add_other": false,
+            "checks_inline": false,
+            "answer_scale": "likert"
+          },
+          {
+            "text": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.)",
+            "question_type": "matrix",
+            "required": false,
+            "question_id": "q32",
+            "question_version": "1.0.0",
+            "answer_key": "q32",
+            "rows": [
+              {
+                "label": "Home",
+                "key": "q32_1"
+              },
+              {
+                "label": "Coworking space",
+                "key": "q32_2"
+              },
+              {
+                "label": "Employer's workplace",
+                "key": "q32_3"
+              }
+            ],
+            "columns": [
+              {
+                "key": "days",
+                "label": "Days per week",
+                "type": "number",
+                "min": 0,
+                "max": 5,
+                "step": 1
+              }
+            ],
+            "total_max": 5
+          }
+        ]
+      }
+    ],
+    "gdpr_link": "https://planeasy-webgis.github.io/planeasy-crowdsourcing-framework/docs/PRIVACY_GUIDELINES.html"
+  },
+  "languages": {
+    "en": {
+      "code": "en",
+      "#SmartUrbanity Remote Work and Coworking Survey": "SmartUrbanity Remote Work and Coworking Survey",
+      "#A. Respondent profile": "A. Respondent profile",
+      "#Which of the following best describes your current situation?": "Which of the following best describes your current situation?",
+      "#Student": "Student",
+      "#Employee": "Employee",
+      "#Self-employed / Freelancer": "Self-employed / Freelancer",
+      "#Entrepreneur": "Entrepreneur",
+      "#Both studying and working": "Both studying and working",
+      "#Unemployed": "Unemployed",
+      "#Other": "Other",
+      "#What is your age group?": "What is your age group?",
+      "#18–24": "18–24",
+      "#25–34": "25–34",
+      "#35–44": "35–44",
+      "#45–54": "45–54",
+      "#55–64": "55–64",
+      "#65+": "65+",
+      "#Prefer not to say": "Prefer not to say",
+      "#What is your gender?": "What is your gender?",
+      "#Female": "Female",
+      "#Male": "Male",
+      "#Other / self-describe": "Other / self-describe",
+      "#B. Household": "B. Household",
+      "#Do you have caregiving responsibilities?": "Do you have caregiving responsibilities?",
+      "#No": "No",
+      "#Yes – children": "Yes – children",
+      "#Yes – adults/elderly": "Yes – adults/elderly",
+      "#Yes – both": "Yes – both",
+      "#C. Spatial context": "C. Spatial context",
+      "#What is the ZIP/postal code of your residence?": "What is the ZIP/postal code of your residence?",
+      "#What is the ZIP/postal code of your primary workplace?": "What is the ZIP/postal code of your primary workplace?",
+      "#D. Occupation & job": "D. Occupation & job",
+      "#To what extent can your work activities be performed remotely?": "To what extent can your work activities be performed remotely?",
+      "#Not at all": "Not at all",
+      "#<25%": "<25%",
+      "#25–50%": "25–50%",
+      "#50–75%": "50–75%",
+      "#>75%": ">75%",
+      "#E. Work organization": "E. Work organization",
+      "#To what extent can you choose your own work start and end times?": "To what extent can you choose your own work start and end times?",
+      "#No flexibility": "No flexibility",
+      "#Limited flexibility": "Limited flexibility",
+      "#Moderate flexibility": "Moderate flexibility",
+      "#High flexibility": "High flexibility",
+      "#Complete flexibility": "Complete flexibility",
+      "#How many days per week do you currently work remotely?": "How many days per week do you currently work remotely?",
+      "#0": "0",
+      "#1": "1",
+      "#2": "2",
+      "#3": "3",
+      "#4": "4",
+      "#5 days": "5 days",
+      "#How many days per week would you ideally like to work remotely?": "How many days per week would you ideally like to work remotely?",
+      "#What is your employer’s current remote-working policy?": "What is your employer’s current remote-working policy?",
+      "#No remote work": "No remote work",
+      "#Fixed number of remote days": "Fixed number of remote days",
+      "#Flexible/hybrid policy": "Flexible/hybrid policy",
+      "#Fully remote allowed": "Fully remote allowed",
+      "#No formal policy": "No formal policy",
+      "#Don’t know": "Don’t know",
+      "#I do not currently work remotely": "I do not currently work remotely",
+      "#When working remotely, which of the following locations do you usually work from? Select up to 2 options.": "When working remotely, which of the following locations do you usually work from? Select up to 2 options.",
+      "#At home": "At home",
+      "#Coworking space": "Coworking space",
+      "#Library or study space": "Library or study space",
+      "#Café or other hospitality venue": "Café or other hospitality venue",
+      "#Another company or client location": "Another company or client location",
+      "#While travelling / in transit": "While travelling / in transit",
+      "#Other (please specify)": "Other (please specify)",
+      "#I do not work remotely": "I do not work remotely",
+      "#Does your employer currently provide access to coworking spaces?": "Does your employer currently provide access to coworking spaces?",
+      "#Yes": "Yes",
+      "#F. Mobility": "F. Mobility",
+      "#How long does your typical one-way commute from home to your primary workplace take?": "How long does your typical one-way commute from home to your primary workplace take?",
+      "#<15": "<15",
+      "#15–30": "15–30",
+      "#30–45": "30–45",
+      "#45–60": "45–60",
+      "#>60 minutes": ">60 minutes",
+      "#What is your primary transport mode for commuting?": "What is your primary transport mode for commuting?",
+      "#Walking": "Walking",
+      "#Bicycle": "Bicycle",
+      "#Public transport": "Public transport",
+      "#Private car": "Private car",
+      "#Motorcycle": "Motorcycle",
+      "#Shared mobility": "Shared mobility",
+      "#Carpooling": "Carpooling",
+      "#On average, how many days per week do you travel to your employer’s workplace?": "On average, how many days per week do you travel to your employer’s workplace?",
+      "#5+ days": "5+ days",
+      "#G. Remote/home experience": "G. Remote/home experience",
+      "#Overall, how satisfied are you with your current remote-working arrangement?": "Overall, how satisfied are you with your current remote-working arrangement?",
+      "#Very dissatisfied": "Very dissatisfied",
+      "#Dissatisfied": "Dissatisfied",
+      "#Neutral": "Neutral",
+      "#Satisfied": "Satisfied",
+      "#Very satisfied": "Very satisfied",
+      "#To what extent do you agree or disagree with the following statements about remote working?": "To what extent do you agree or disagree with the following statements about remote working?",
+      "#Remote working can improve work-life balance": "Remote working can improve work-life balance",
+      "#Remote working can provide greater flexibility in organizing daily activities": "Remote working can provide greater flexibility in organizing daily activities",
+      "#Remote working can reduce the time and stress associated with commuting": "Remote working can reduce the time and stress associated with commuting",
+      "#Remote working can reduce opportunities for social interaction with colleagues": "Remote working can reduce opportunities for social interaction with colleagues",
+      "#Remote working can encourage people to spend more time in their local neighbourhood": "Remote working can encourage people to spend more time in their local neighbourhood",
+      "#Remote working can make it easier to use services and carry out activities close to home": "Remote working can make it easier to use services and carry out activities close to home",
+      "#Strongly disagree": "Strongly disagree",
+      "#Disagree": "Disagree",
+      "#Neither agree nor disagree": "Neither agree nor disagree",
+      "#Agree": "Agree",
+      "#Strongly agree": "Strongly agree",
+      "#Thinking about your usual working conditions at home, how would you rate the following aspects? — Workstation equipment": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Workstation equipment",
+      "#Basic": "Basic",
+      "#Standard": "Standard",
+      "#Premium": "Premium",
+      "#Thinking about your usual working conditions at home, how would you rate the following aspects? — Distractions": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Distractions",
+      "#Low": "Low",
+      "#Moderate": "Moderate",
+      "#High": "High",
+      "#Thinking about your usual working conditions at home, how would you rate the following aspects? — Privacy for calls/confidential work": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Privacy for calls/confidential work",
+      "#H. Work activities": "H. Work activities",
+      "#Which of the following activities are part of your regular work?": "Which of the following activities are part of your regular work?",
+      "#Focused individual work": "Focused individual work",
+      "#Online meetings": "Online meetings",
+      "#Face-to-face meetings": "Face-to-face meetings",
+      "#Team collaboration": "Team collaboration",
+      "#Calls": "Calls",
+      "#Confidential tasks": "Confidential tasks",
+      "#Client-facing activities": "Client-facing activities",
+      "#Creative/problem-solving": "Creative/problem-solving",
+      "#Administrative/routine tasks": "Administrative/routine tasks",
+      "#Where would you prefer to perform the following work activities?": "Where would you prefer to perform the following work activities?",
+      "#focused work": "focused work",
+      "#online meetings": "online meetings",
+      "#collaborative work": "collaborative work",
+      "#confidential calls/tasks": "confidential calls/tasks",
+      "#face-to-face meetings": "face-to-face meetings",
+      "#Home": "Home",
+      "#Coworking": "Coworking",
+      "#Office": "Office",
+      "#No preference": "No preference",
+      "#J. Coworking": "J. Coworking",
+      "#How often do you currently use a coworking space?": "How often do you currently use a coworking space?",
+      "#Never / I have never used a coworking space": "Never / I have never used a coworking space",
+      "#Less than once a month": "Less than once a month",
+      "#A few times a month": "A few times a month",
+      "#Once or twice a week": "Once or twice a week",
+      "#Several times a week": "Several times a week",
+      "#Daily": "Daily",
+      "#If a coworking space were available close to your home, how often would you consider using it?": "If a coworking space were available close to your home, how often would you consider using it?",
+      "#Never": "Never",
+      "#How important would the following factors be to you when deciding whether to use a coworking space?": "How important would the following factors be to you when deciding whether to use a coworking space?",
+      "#Short distance from home": "Short distance from home",
+      "#Employer contribution to the cost": "Employer contribution to the cost",
+      "#Reliable high-speed internet": "Reliable high-speed internet",
+      "#Quiet areas for focused work": "Quiet areas for focused work",
+      "#Privacy and private spaces for calls": "Privacy and private spaces for calls",
+      "#Meeting and collaboration spaces": "Meeting and collaboration spaces",
+      "#Ergonomic furniture and adequate work equipment": "Ergonomic furniture and adequate work equipment",
+      "#Flexible opening hours": "Flexible opening hours",
+      "#Opportunities for networking and social interaction": "Opportunities for networking and social interaction",
+      "#Separation between work and home life": "Separation between work and home life",
+      "#Availability of additional services (e.g. café/kitchen, lockers, printing)": "Availability of additional services (e.g. café/kitchen, lockers, printing)",
+      "#Parking availability": "Parking availability",
+      "#Childcare services": "Childcare services",
+      "#Wellness/relaxation or outdoor spaces": "Wellness/relaxation or outdoor spaces",
+      "#Not at all important": "Not at all important",
+      "#Slightly important": "Slightly important",
+      "#Moderately important": "Moderately important",
+      "#Very important": "Very important",
+      "#Extremely important": "Extremely important",
+      "#K. Accessibility & 15-minute city": "K. Accessibility & 15-minute city",
+      "#How would you prefer to reach a coworking space close to your home? (Select up to 2)": "How would you prefer to reach a coworking space close to your home? (Select up to 2)",
+      "#Car": "Car",
+      "#Thinking about the area where you live, can you reach the following services within approximately 15 minutes from your home by walking or cycling?": "Thinking about the area where you live, can you reach the following services within approximately 15 minutes from your home by walking or cycling?",
+      "#Grocery shops / supermarkets": "Grocery shops / supermarkets",
+      "#Healthcare services": "Healthcare services",
+      "#Parks / green spaces": "Parks / green spaces",
+      "#Cafés / restaurants": "Cafés / restaurants",
+      "#Sport / leisure facilities": "Sport / leisure facilities",
+      "#Cultural facilities": "Cultural facilities",
+      "#Other everyday services": "Other everyday services",
+      "#Don't know": "Don't know",
+      "#When working remotely, how does your use of the following services in your local neighbourhood change compared with days when you travel to your usual workplace?": "When working remotely, how does your use of the following services in your local neighbourhood change compared with days when you travel to your usual workplace?",
+      "#Less": "Less",
+      "#About the same": "About the same",
+      "#More": "More",
+      "#I do not use this service": "I do not use this service",
+      "#Where would you prefer a coworking space to be located?": "Where would you prefer a coworking space to be located?",
+      "#in my neighbourhood": "in my neighbourhood",
+      "#City centre": "City centre",
+      "#If you worked remotely more often, which activities would you be more likely to perform within your neighbourhood?": "If you worked remotely more often, which activities would you be more likely to perform within your neighbourhood?",
+      "#Shopping": "Shopping",
+      "#Cafés/restaurants": "Cafés/restaurants",
+      "#Sport/physical activity": "Sport/physical activity",
+      "#Leisure": "Leisure",
+      "#Healthcare/personal services": "Healthcare/personal services",
+      "#Social activities": "Social activities",
+      "#Care/family activities": "Care/family activities",
+      "#Cultural activities": "Cultural activities",
+      "#None": "None",
+      "#L. Wellbeing & future work": "L. Wellbeing & future work",
+      "#If your commuting time were reduced, how would you most likely use the saved time? (Select up to 3)": "If your commuting time were reduced, how would you most likely use the saved time? (Select up to 3)",
+      "#Family/care": "Family/care",
+      "#Physical activity": "Physical activity",
+      "#Rest": "Rest",
+      "#Household activities": "Household activities",
+      "#Additional work": "Additional work",
+      "#Education/training": "Education/training",
+      "#Activities/services in neighbourhood": "Activities/services in neighbourhood",
+      "#How do you think having the option to work from a coworking space close to your home would affect your overall quality of life?": "How do you think having the option to work from a coworking space close to your home would affect your overall quality of life?",
+      "#No effect": "No effect",
+      "#Slightly positively": "Slightly positively",
+      "#Moderately positively": "Moderately positively",
+      "#Very positively": "Very positively",
+      "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Home": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Home",
+      "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Coworking space": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Coworking space",
+      "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Employer's workplace": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Employer's workplace"
+    }
+  },
+  "id": "smarturbanity_remote_work_survey",
+  "db_set": "questionnaires",
+  "response_format": "planeasy.response",
+  "response_schema_version": "2.0",
+  "response_kind": "survey",
+  "response_contract": {
+    "entity": {},
+    "related_entities": [],
+    "geometry": null,
+    "privacy": {
+      "email": "sha256_only",
+      "remove_user_id_supported": true
+    },
+    "id_strategy": "generated_response_id",
+    "subcollection": "surveyResponses/{questionnaireId}/responses/{responseId}"
+  },
+  "default_language": "en"
+}
