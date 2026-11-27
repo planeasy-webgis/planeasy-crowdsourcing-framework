@@ -163,20 +163,29 @@
         "backgroundColor": "#d3d3d3",
         "questions": [
           {
-            "text": "What is the ZIP/postal code of your residence?",
-            "question_type": "text",
+            "text": "What are the ZIP/postal codes of your residence and primary workplace?",
+            "question_type": "matrix",
             "required": false,
             "question_id": "q05",
-            "question_version": "1.0.0",
-            "postal_code_country": "IT"
-          },
-          {
-            "text": "What is the ZIP/postal code of your primary workplace?",
-            "question_type": "text",
-            "required": false,
-            "question_id": "q06",
-            "question_version": "1.0.0",
-            "postal_code_country": "IT"
+            "question_version": "2.0.0",
+            "answer_key": "q05",
+            "rows": [
+              {
+                "label": "Residence",
+                "key": "q05"
+              },
+              {
+                "label": "Primary workplace",
+                "key": "q06"
+              }
+            ],
+            "columns": [
+              {
+                "key": "postal_code",
+                "label": "ZIP/postal code",
+                "type": "text"
+              }
+            ]
           }
         ]
       },
@@ -256,72 +265,54 @@
             "answer_scale": "likert"
           },
           {
-            "text": "How many days per week do you currently work remotely?",
-            "question_type": "single_option",
+            "text": "How many days per week do you work remotely?",
+            "question_type": "matrix",
             "required": false,
             "question_id": "q09",
-            "question_version": "1.0.0",
-            "options": [
+            "question_version": "2.0.0",
+            "answer_key": "q09_q10",
+            "rows": [
               {
-                "text": "0"
+                "label": "Currently",
+                "key": "q09"
               },
               {
-                "text": "1"
-              },
-              {
-                "text": "2"
-              },
-              {
-                "text": "3"
-              },
-              {
-                "text": "4"
-              },
-              {
-                "text": "5 days"
+                "label": "Ideally",
+                "key": "q10"
               }
             ],
-            "min": 0,
-            "max": 0,
-            "step": 0,
-            "add_prefer_not_to_say": false,
-            "add_i_dont_know": false,
-            "add_other": false,
-            "checks_inline": false
-          },
-          {
-            "text": "How many days per week would you ideally like to work remotely?",
-            "question_type": "single_option",
-            "required": false,
-            "question_id": "q10",
-            "question_version": "1.0.0",
-            "options": [
+            "columns": [
               {
-                "text": "0"
+                "key": "0",
+                "label": "0",
+                "type": "single_option"
               },
               {
-                "text": "1"
+                "key": "1",
+                "label": "1",
+                "type": "single_option"
               },
               {
-                "text": "2"
+                "key": "2",
+                "label": "2",
+                "type": "single_option"
               },
               {
-                "text": "3"
+                "key": "3",
+                "label": "3",
+                "type": "single_option"
               },
               {
-                "text": "4"
+                "key": "4",
+                "label": "4",
+                "type": "single_option"
               },
               {
-                "text": "5 days"
+                "key": "5",
+                "label": "5 days",
+                "type": "single_option"
               }
-            ],
-            "min": 0,
-            "max": 0,
-            "step": 0,
-            "add_prefer_not_to_say": false,
-            "add_i_dont_know": false,
-            "add_other": false,
-            "checks_inline": false
+            ]
           },
           {
             "text": "What is your employer’s current remote-working policy?",
@@ -357,7 +348,7 @@
             "add_other": false,
             "checks_inline": false,
             "show_if": {
-              "How many days per week do you currently work remotely?": {
+              "q09": {
                 "not": [
                   "0"
                 ]
@@ -401,7 +392,7 @@
             "add_other": false,
             "checks_inline": false,
             "show_if": {
-              "How many days per week do you currently work remotely?": {
+              "q09": {
                 "not": [
                   "0"
                 ]
@@ -433,7 +424,7 @@
             "add_other": false,
             "checks_inline": false,
             "show_if": {
-              "How many days per week do you currently work remotely?": {
+              "q09": {
                 "not": [
                   "0"
                 ]
@@ -455,19 +446,19 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "<15"
+                "text": "Less than 15 minutes"
               },
               {
-                "text": "15–30"
+                "text": "15–29 minutes"
               },
               {
-                "text": "30–45"
+                "text": "30–44 minutes"
               },
               {
-                "text": "45–60"
+                "text": "45–59 minutes"
               },
               {
-                "text": ">60 minutes"
+                "text": "60 minutes or more"
               }
             ],
             "min": 0,
@@ -517,40 +508,6 @@
             "add_i_dont_know": false,
             "add_other": false,
             "checks_inline": false
-          },
-          {
-            "text": "On average, how many days per week do you travel to your employer’s workplace?",
-            "question_type": "single_option",
-            "required": false,
-            "question_id": "q16",
-            "question_version": "1.0.0",
-            "options": [
-              {
-                "text": "0"
-              },
-              {
-                "text": "1"
-              },
-              {
-                "text": "2"
-              },
-              {
-                "text": "3"
-              },
-              {
-                "text": "4"
-              },
-              {
-                "text": "5+ days"
-              }
-            ],
-            "min": 0,
-            "max": 0,
-            "step": 0,
-            "add_prefer_not_to_say": false,
-            "add_i_dont_know": false,
-            "add_other": false,
-            "checks_inline": false
           }
         ]
       },
@@ -590,7 +547,7 @@
             "add_other": false,
             "checks_inline": false,
             "show_if": {
-              "How many days per week do you currently work remotely?": {
+              "q09": {
                 "not": [
                   "0"
                 ]
@@ -661,100 +618,50 @@
             "answer_scale": "likert"
           },
           {
-            "text": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Workstation equipment",
-            "question_type": "single_option",
+            "text": "Thinking about your usual working conditions at home, how would you rate the following aspects?",
+            "question_type": "matrix",
             "required": false,
-            "question_id": "q19_1",
-            "question_version": "1.0.0",
-            "options": [
-              {
-                "text": "Basic"
-              },
-              {
-                "text": "Standard"
-              },
-              {
-                "text": "Premium"
-              }
-            ],
-            "min": 0,
-            "max": 0,
-            "step": 0,
-            "add_prefer_not_to_say": false,
-            "add_i_dont_know": false,
-            "add_other": false,
-            "checks_inline": false,
+            "question_id": "q19",
+            "question_version": "2.0.0",
+            "answer_key": "q19",
             "show_if": {
-              "How many days per week do you currently work remotely?": {
+              "q09": {
                 "not": [
                   "0"
                 ]
               }
-            }
-          },
-          {
-            "text": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Distractions",
-            "question_type": "single_option",
-            "required": false,
-            "question_id": "q19_2",
-            "question_version": "1.0.0",
-            "options": [
+            },
+            "rows": [
               {
-                "text": "Low"
+                "label": "Quality of workstation equipment",
+                "key": "q19_1"
               },
               {
-                "text": "Moderate"
+                "label": "Distractions",
+                "key": "q19_2"
               },
               {
-                "text": "High"
+                "label": "Privacy for calls/confidential work",
+                "key": "q19_3"
               }
             ],
-            "min": 0,
-            "max": 0,
-            "step": 0,
-            "add_prefer_not_to_say": false,
-            "add_i_dont_know": false,
-            "add_other": false,
-            "checks_inline": false,
-            "show_if": {
-              "How many days per week do you currently work remotely?": {
-                "not": [
-                  "0"
-                ]
-              }
-            }
-          },
-          {
-            "text": "Thinking about your usual working conditions at home, how would you rate the following aspects? — Privacy for calls/confidential work",
-            "question_type": "single_option",
-            "required": false,
-            "question_id": "q19_3",
-            "question_version": "1.0.0",
-            "options": [
+            "columns": [
               {
-                "text": "Low"
+                "key": "low",
+                "label": "Low",
+                "type": "single_option"
               },
               {
-                "text": "Moderate"
+                "key": "moderate",
+                "label": "Moderate",
+                "type": "single_option"
               },
               {
-                "text": "High"
+                "key": "high",
+                "label": "High",
+                "type": "single_option"
               }
-            ],
-            "min": 0,
-            "max": 0,
-            "step": 0,
-            "add_prefer_not_to_say": false,
-            "add_i_dont_know": false,
-            "add_other": false,
-            "checks_inline": false,
-            "show_if": {
-              "How many days per week do you currently work remotely?": {
-                "not": [
-                  "0"
-                ]
-              }
-            }
+            ]
           }
         ]
       },
@@ -1211,7 +1118,7 @@
               }
             ],
             "show_if": {
-              "How many days per week do you currently work remotely?": {
+              "q09": {
                 "not": [
                   "0"
                 ]
@@ -1226,10 +1133,16 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "in my neighbourhood"
+                "text": "In my neighbourhood"
               },
               {
                 "text": "City centre"
+              },
+              {
+                "text": "Near my workplace"
+              },
+              {
+                "text": "No preference"
               }
             ],
             "min": 0,
@@ -1346,6 +1259,9 @@
             "question_id": "q31",
             "question_version": "1.0.0",
             "options": [
+              {
+                "text": "Negatively"
+              },
               {
                 "text": "No effect"
               },
@@ -1623,7 +1539,29 @@
       "#Very positively": "Very positively",
       "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Home": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Home",
       "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Coworking space": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Coworking space",
-      "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Employer's workplace": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Employer's workplace"
+      "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Employer's workplace": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.) — Employer's workplace",
+      "#What are the ZIP/postal codes of your residence and primary workplace?": "What are the ZIP/postal codes of your residence and primary workplace?",
+      "#Residence": "Residence",
+      "#Primary workplace": "Primary workplace",
+      "#ZIP/postal code": "ZIP/postal code",
+      "#How many days per week do you work remotely?": "How many days per week do you work remotely?",
+      "#Currently": "Currently",
+      "#Ideally": "Ideally",
+      "#Less than 15 minutes": "Less than 15 minutes",
+      "#15–29 minutes": "15–29 minutes",
+      "#30–44 minutes": "30–44 minutes",
+      "#45–59 minutes": "45–59 minutes",
+      "#60 minutes or more": "60 minutes or more",
+      "#Thinking about your usual working conditions at home, how would you rate the following aspects?": "Thinking about your usual working conditions at home, how would you rate the following aspects?",
+      "#Quality of workstation equipment": "Quality of workstation equipment",
+      "#Distractions": "Distractions",
+      "#Privacy for calls/confidential work": "Privacy for calls/confidential work",
+      "#In my neighbourhood": "In my neighbourhood",
+      "#Near my workplace": "Near my workplace",
+      "#Negatively": "Negatively",
+      "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.)": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.)",
+      "#Employer's workplace": "Employer's workplace",
+      "#Days per week": "Days per week"
     }
   },
   "id": "smarturbanity_remote_work_survey",
