@@ -37,6 +37,7 @@ across web dashboards, mobile apps, and research data pipelines.
 |---------|-------------|
 | [`theBIKEnet/`](theBIKEnet/) | Questionnaires from the *theBIKEnet – Cycling and Micromobility Research* project, developed in collaboration with Moving Projects Srl and Sapienza University of Rome (DICEA). |
 | [`no_project/`](no_project/) | Generic, reusable questionnaires not linked to a specific project. The ride-sharing perception questionnaire is kept at its URL for reference; it is no longer listed and collects no responses. |
+| [`smarturbanity_remote_work/`](smarturbanity_remote_work/) | SmartUrbanity survey on remote work, commuting and coworking spaces, published as a standalone PlanEasy survey. |
 
 Each folder contains version-controlled JSON files defining survey instruments,  
 including metadata, sections, and question schemas.
