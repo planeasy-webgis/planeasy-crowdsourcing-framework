@@ -1,7 +1,7 @@
 {
   "questionnaire": {
     "questionnaire_id": "smarturbanity_remote_work_survey",
-    "questionnaire_version": "0.0.1",
+    "questionnaire_version": "1.0.0",
     "project": "smarturbanity_remote_work",
     "options": {
       "review_mode": false
@@ -237,19 +237,24 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Not at all"
+                "text": "Not at all",
+                "value": "not_at_all"
               },
               {
-                "text": "<25%"
+                "text": "<25%",
+                "value": "under_25"
               },
               {
-                "text": "25–50%"
+                "text": "25–50%",
+                "value": "25_50"
               },
               {
-                "text": "50–75%"
+                "text": "50–75%",
+                "value": "50_75"
               },
               {
-                "text": ">75%"
+                "text": ">75%",
+                "value": "over_75"
               }
             ],
             "min": 0,
@@ -362,22 +367,28 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "No remote work"
+                "text": "No remote work",
+                "value": "no_remote_work"
               },
               {
-                "text": "Fixed number of remote days"
+                "text": "Fixed number of remote days",
+                "value": "fixed_number_of_remote_days"
               },
               {
-                "text": "Flexible/hybrid policy"
+                "text": "Flexible/hybrid policy",
+                "value": "flexible_hybrid_policy"
               },
               {
-                "text": "Fully remote allowed"
+                "text": "Fully remote allowed",
+                "value": "fully_remote_allowed"
               },
               {
-                "text": "No formal policy"
+                "text": "No formal policy",
+                "value": "no_formal_policy"
               },
               {
-                "text": "Don’t know"
+                "text": "Don’t know",
+                "value": "dont_know"
               }
             ],
             "min": 0,
@@ -403,25 +414,32 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "At home"
+                "text": "At home",
+                "value": "at_home"
               },
               {
-                "text": "Coworking space"
+                "text": "Coworking space",
+                "value": "coworking_space"
               },
               {
-                "text": "Library or study space"
+                "text": "Library or study space",
+                "value": "library_or_study_space"
               },
               {
-                "text": "Café or other hospitality venue"
+                "text": "Café or other hospitality venue",
+                "value": "cafe_or_hospitality_venue"
               },
               {
-                "text": "Another company or client location"
+                "text": "Another company or client location",
+                "value": "another_company_or_client_location"
               },
               {
-                "text": "While travelling / in transit"
+                "text": "While travelling / in transit",
+                "value": "while_travelling_in_transit"
               },
               {
-                "text": "Other (please specify)"
+                "text": "Other (please specify)",
+                "value": "other"
               }
             ],
             "min": 0,
@@ -447,13 +465,16 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Yes"
+                "text": "Yes",
+                "value": "yes"
               },
               {
-                "text": "No"
+                "text": "No",
+                "value": "no"
               },
               {
-                "text": "Don’t know"
+                "text": "Don’t know",
+                "value": "dont_know"
               }
             ],
             "min": 0,
@@ -497,19 +518,24 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Less than 15 minutes"
+                "text": "Less than 15 minutes",
+                "value": "less_than_15_minutes"
               },
               {
-                "text": "15–29 minutes"
+                "text": "15–29 minutes",
+                "value": "15_29_minutes"
               },
               {
-                "text": "30–44 minutes"
+                "text": "30–44 minutes",
+                "value": "30_44_minutes"
               },
               {
-                "text": "45–59 minutes"
+                "text": "45–59 minutes",
+                "value": "45_59_minutes"
               },
               {
-                "text": "60 minutes or more"
+                "text": "60 minutes or more",
+                "value": "60_minutes_or_more"
               }
             ],
             "min": 0,
@@ -528,28 +554,36 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Walking"
+                "text": "Walking",
+                "value": "walking"
               },
               {
-                "text": "Bicycle"
+                "text": "Bicycle",
+                "value": "bicycle"
               },
               {
-                "text": "Public transport"
+                "text": "Public transport",
+                "value": "public_transport"
               },
               {
-                "text": "Private car"
+                "text": "Private car",
+                "value": "private_car"
               },
               {
-                "text": "Motorcycle"
+                "text": "Motorcycle",
+                "value": "motorcycle"
               },
               {
-                "text": "Shared mobility"
+                "text": "Shared mobility",
+                "value": "shared_mobility"
               },
               {
-                "text": "Carpooling"
+                "text": "Carpooling",
+                "value": "carpooling"
               },
               {
-                "text": "Other"
+                "text": "Other",
+                "value": "other"
               }
             ],
             "min": 0,
@@ -586,19 +620,24 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Very dissatisfied"
+                "text": "Very dissatisfied",
+                "value": "very_dissatisfied"
               },
               {
-                "text": "Dissatisfied"
+                "text": "Dissatisfied",
+                "value": "dissatisfied"
               },
               {
-                "text": "Neutral"
+                "text": "Neutral",
+                "value": "neutral"
               },
               {
-                "text": "Satisfied"
+                "text": "Satisfied",
+                "value": "satisfied"
               },
               {
-                "text": "Very satisfied"
+                "text": "Very satisfied",
+                "value": "very_satisfied"
               }
             ],
             "min": 0,
@@ -751,34 +790,44 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Focused individual work"
+                "text": "Focused individual work",
+                "value": "focused_individual_work"
               },
               {
-                "text": "Online meetings"
+                "text": "Online meetings",
+                "value": "online_meetings"
               },
               {
-                "text": "Face-to-face meetings"
+                "text": "Face-to-face meetings",
+                "value": "face_to_face_meetings"
               },
               {
-                "text": "Team collaboration"
+                "text": "Team collaboration",
+                "value": "team_collaboration"
               },
               {
-                "text": "Calls"
+                "text": "Calls",
+                "value": "calls"
               },
               {
-                "text": "Confidential tasks"
+                "text": "Confidential tasks",
+                "value": "confidential_tasks"
               },
               {
-                "text": "Client-facing activities"
+                "text": "Client-facing activities",
+                "value": "client_facing_activities"
               },
               {
-                "text": "Creative/problem-solving"
+                "text": "Creative/problem-solving",
+                "value": "creative_problem_solving"
               },
               {
-                "text": "Administrative/routine tasks"
+                "text": "Administrative/routine tasks",
+                "value": "administrative_routine_tasks"
               },
               {
-                "text": "Other"
+                "text": "Other",
+                "value": "other"
               }
             ],
             "min": 0,
@@ -1034,22 +1083,28 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Walking"
+                "text": "Walking",
+                "value": "walking"
               },
               {
-                "text": "Bicycle"
+                "text": "Bicycle",
+                "value": "bicycle"
               },
               {
-                "text": "Public transport"
+                "text": "Public transport",
+                "value": "public_transport"
               },
               {
-                "text": "Car"
+                "text": "Car",
+                "value": "car"
               },
               {
-                "text": "Shared mobility"
+                "text": "Shared mobility",
+                "value": "shared_mobility"
               },
               {
-                "text": "Other"
+                "text": "Other",
+                "value": "other"
               }
             ],
             "min": 0,
@@ -1198,16 +1253,20 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "In my neighbourhood"
+                "text": "In my neighbourhood",
+                "value": "in_my_neighbourhood"
               },
               {
-                "text": "City centre"
+                "text": "City centre",
+                "value": "city_centre"
               },
               {
-                "text": "Near my workplace"
+                "text": "Near my workplace",
+                "value": "near_my_workplace"
               },
               {
-                "text": "No preference"
+                "text": "No preference",
+                "value": "no_preference"
               }
             ],
             "min": 0,
@@ -1226,34 +1285,44 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Shopping"
+                "text": "Shopping",
+                "value": "shopping"
               },
               {
-                "text": "Cafés/restaurants"
+                "text": "Cafés/restaurants",
+                "value": "cafes_restaurants"
               },
               {
-                "text": "Sport/physical activity"
+                "text": "Sport/physical activity",
+                "value": "sport_physical_activity"
               },
               {
-                "text": "Leisure"
+                "text": "Leisure",
+                "value": "leisure"
               },
               {
-                "text": "Healthcare/personal services"
+                "text": "Healthcare/personal services",
+                "value": "healthcare_personal_services"
               },
               {
-                "text": "Social activities"
+                "text": "Social activities",
+                "value": "social_activities"
               },
               {
-                "text": "Care/family activities"
+                "text": "Care/family activities",
+                "value": "care_family_activities"
               },
               {
-                "text": "Cultural activities"
+                "text": "Cultural activities",
+                "value": "cultural_activities"
               },
               {
-                "text": "None"
+                "text": "None",
+                "value": "none"
               },
               {
-                "text": "Other"
+                "text": "Other",
+                "value": "other"
               }
             ],
             "min": 0,
@@ -1289,34 +1358,44 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Family/care"
+                "text": "Family/care",
+                "value": "family_care"
               },
               {
-                "text": "Leisure"
+                "text": "Leisure",
+                "value": "leisure"
               },
               {
-                "text": "Physical activity"
+                "text": "Physical activity",
+                "value": "physical_activity"
               },
               {
-                "text": "Social activities"
+                "text": "Social activities",
+                "value": "social_activities"
               },
               {
-                "text": "Rest"
+                "text": "Rest",
+                "value": "rest"
               },
               {
-                "text": "Household activities"
+                "text": "Household activities",
+                "value": "household_activities"
               },
               {
-                "text": "Additional work"
+                "text": "Additional work",
+                "value": "additional_work"
               },
               {
-                "text": "Education/training"
+                "text": "Education/training",
+                "value": "education_training"
               },
               {
-                "text": "Activities/services in neighbourhood"
+                "text": "Activities/services in neighbourhood",
+                "value": "activities_services_in_neighbourhood"
               },
               {
-                "text": "Other"
+                "text": "Other",
+                "value": "other"
               }
             ],
             "min": 0,
@@ -1346,19 +1425,24 @@
             "question_version": "1.0.0",
             "options": [
               {
-                "text": "Negatively"
+                "text": "Negatively",
+                "value": "negatively"
               },
               {
-                "text": "No effect"
+                "text": "No effect",
+                "value": "no_effect"
               },
               {
-                "text": "Slightly positively"
+                "text": "Slightly positively",
+                "value": "slightly_positively"
               },
               {
-                "text": "Moderately positively"
+                "text": "Moderately positively",
+                "value": "moderately_positively"
               },
               {
-                "text": "Very positively"
+                "text": "Very positively",
+                "value": "very_positively"
               }
             ],
             "min": 0,
