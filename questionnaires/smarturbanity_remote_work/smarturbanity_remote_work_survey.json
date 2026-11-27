@@ -796,72 +796,54 @@
         "backgroundColor": "#d3d3d3",
         "questions": [
           {
-            "text": "How often do you currently use a coworking space?",
-            "question_type": "single_option",
+            "text": "How often do you use a coworking space?",
+            "question_type": "matrix",
             "required": true,
             "question_id": "q22",
-            "question_version": "1.0.0",
-            "options": [
+            "question_version": "2.0.0",
+            "answer_key": "q22_q23",
+            "rows": [
               {
-                "text": "Never / I have never used a coworking space"
+                "label": "Currently",
+                "key": "q22"
               },
               {
-                "text": "Less than once a month"
-              },
-              {
-                "text": "A few times a month"
-              },
-              {
-                "text": "Once or twice a week"
-              },
-              {
-                "text": "Several times a week"
-              },
-              {
-                "text": "Daily"
+                "label": "If one were available close to your home",
+                "key": "q23"
               }
             ],
-            "min": 0,
-            "max": 0,
-            "step": 0,
-            "add_prefer_not_to_say": false,
-            "add_i_dont_know": false,
-            "add_other": false,
-            "checks_inline": false
-          },
-          {
-            "text": "If a coworking space were available close to your home, how often would you consider using it?",
-            "question_type": "single_option",
-            "required": true,
-            "question_id": "q23",
-            "question_version": "1.0.0",
-            "options": [
+            "columns": [
               {
-                "text": "Never"
+                "key": "0",
+                "label": "Never",
+                "type": "single_option"
               },
               {
-                "text": "Less than once a month"
+                "key": "1",
+                "label": "Less than once a month",
+                "type": "single_option"
               },
               {
-                "text": "A few times a month"
+                "key": "2",
+                "label": "A few times a month",
+                "type": "single_option"
               },
               {
-                "text": "Once or twice a week"
+                "key": "3",
+                "label": "Once or twice a week",
+                "type": "single_option"
               },
               {
-                "text": "Several times a week"
+                "key": "4",
+                "label": "Several times a week",
+                "type": "single_option"
               },
               {
-                "text": "Daily"
+                "key": "5",
+                "label": "Daily",
+                "type": "single_option"
               }
-            ],
-            "min": 0,
-            "max": 0,
-            "step": 0,
-            "add_prefer_not_to_say": false,
-            "add_i_dont_know": false,
-            "add_other": false,
-            "checks_inline": false
+            ]
           },
           {
             "text": "How important would the following factors be to you when deciding whether to use a coworking space?",
@@ -1567,7 +1549,9 @@
       "#On average, how many days per week do you work…": "On average, how many days per week do you work…",
       "#…remotely, currently": "…remotely, currently",
       "#…remotely, ideally": "…remotely, ideally",
-      "#…at your employer’s workplace": "…at your employer’s workplace"
+      "#…at your employer’s workplace": "…at your employer’s workplace",
+      "#How often do you use a coworking space?": "How often do you use a coworking space?",
+      "#If one were available close to your home": "If one were available close to your home"
     }
   },
   "id": "smarturbanity_remote_work_survey",
