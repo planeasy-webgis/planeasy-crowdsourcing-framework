@@ -1,7 +1,7 @@
 {
   "questionnaire": {
     "questionnaire_id": "smarturbanity_remote_work_survey",
-    "questionnaire_version": "1.0.0",
+    "questionnaire_version": "1.1.0",
     "project": "smarturbanity_remote_work",
     "options": {
       "review_mode": false
@@ -84,10 +84,10 @@
           },
           {
             "privacy_classification": "heightened_personal",
-            "text": "Which of these best describe your current work or study situation? If you both study and work, you can choose two answers.",
+            "text": "Which of these best describe your current work or study situation?",
             "answer_key": "employment",
             "question_id": "employment",
-            "question_version": "2.3.0",
+            "question_version": "2.4.0",
             "question_type": "multiple_options",
             "required": true,
             "add_other": true,
@@ -151,7 +151,8 @@
                 "privacy_classification": "special_category_health"
               }
             ],
-            "add_prefer_not_to_say": true
+            "add_prefer_not_to_say": true,
+            "max_answers": 2
           }
         ]
       },
@@ -162,10 +163,10 @@
         "questions": [
           {
             "privacy_classification": "heightened_personal",
-            "text": "Do you regularly accompany or look after someone who needs your help to get around or in daily life? You can choose more than one answer.",
+            "text": "Do you regularly accompany or look after someone who needs your help to get around or in daily life?",
             "answer_key": "carer",
             "question_id": "carer",
-            "question_version": "3.0.0",
+            "question_version": "3.1.0",
             "question_type": "multiple_options",
             "required": true,
             "checks_inline": false,
@@ -1455,11 +1456,11 @@
             "answer_scale": "likert"
           },
           {
-            "text": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.)",
+            "text": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations?",
             "question_type": "matrix",
             "required": true,
             "question_id": "ideal_work_days",
-            "question_version": "1.0.0",
+            "question_version": "1.1.0",
             "answer_key": "ideal_work_days",
             "rows": [
               {
@@ -1787,7 +1788,10 @@
       "#G. Work activities": "G. Work activities",
       "#H. Coworking": "H. Coworking",
       "#I. Accessibility & 15-minute city": "I. Accessibility & 15-minute city",
-      "#J. Wellbeing & future work": "J. Wellbeing & future work"
+      "#J. Wellbeing & future work": "J. Wellbeing & future work",
+      "#Which of these best describe your current work or study situation?": "Which of these best describe your current work or study situation?",
+      "#Do you regularly accompany or look after someone who needs your help to get around or in daily life?": "Do you regularly accompany or look after someone who needs your help to get around or in daily life?",
+      "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations?": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations?"
     }
   },
   "id": "smarturbanity_remote_work_survey",
