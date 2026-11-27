@@ -265,20 +265,24 @@
             "answer_scale": "likert"
           },
           {
-            "text": "How many days per week do you work remotely?",
+            "text": "On average, how many days per week do you work…",
             "question_type": "matrix",
             "required": false,
             "question_id": "q09",
-            "question_version": "2.0.0",
+            "question_version": "2.1.0",
             "answer_key": "q09_q10",
             "rows": [
               {
-                "label": "Currently",
+                "label": "…remotely, currently",
                 "key": "q09"
               },
               {
-                "label": "Ideally",
+                "label": "…remotely, ideally",
                 "key": "q10"
+              },
+              {
+                "label": "…at your employer’s workplace",
+                "key": "q16"
               }
             ],
             "columns": [
@@ -1561,7 +1565,11 @@
       "#Negatively": "Negatively",
       "#If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.)": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.)",
       "#Employer's workplace": "Employer's workplace",
-      "#Days per week": "Days per week"
+      "#Days per week": "Days per week",
+      "#On average, how many days per week do you work…": "On average, how many days per week do you work…",
+      "#…remotely, currently": "…remotely, currently",
+      "#…remotely, ideally": "…remotely, ideally",
+      "#…at your employer’s workplace": "…at your employer’s workplace"
     }
   },
   "id": "smarturbanity_remote_work_survey",
