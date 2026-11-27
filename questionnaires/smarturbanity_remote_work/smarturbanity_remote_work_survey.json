@@ -18,7 +18,7 @@
           {
             "text": "Which of the following best describes your current situation?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q01",
             "question_version": "1.0.0",
             "options": [
@@ -47,7 +47,7 @@
             "min": 0,
             "max": 0,
             "step": 0,
-            "add_prefer_not_to_say": false,
+            "add_prefer_not_to_say": true,
             "add_i_dont_know": false,
             "add_other": false,
             "checks_inline": false
@@ -55,7 +55,7 @@
           {
             "text": "What is your age group?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q02",
             "question_version": "1.0.0",
             "options": [
@@ -84,7 +84,7 @@
             "min": 0,
             "max": 0,
             "step": 0,
-            "add_prefer_not_to_say": false,
+            "add_prefer_not_to_say": true,
             "add_i_dont_know": false,
             "add_other": false,
             "checks_inline": false
@@ -92,7 +92,7 @@
           {
             "text": "What is your gender?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q03",
             "question_version": "1.0.0",
             "options": [
@@ -127,7 +127,7 @@
           {
             "text": "Do you have caregiving responsibilities?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q04",
             "question_version": "1.0.0",
             "options": [
@@ -165,7 +165,7 @@
           {
             "text": "What are the ZIP/postal codes of your residence and primary workplace?",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q05",
             "question_version": "2.0.0",
             "answer_key": "q05",
@@ -197,7 +197,7 @@
           {
             "text": "To what extent can your work activities be performed remotely?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q07",
             "question_version": "1.0.0",
             "options": [
@@ -235,7 +235,7 @@
           {
             "text": "To what extent can you choose your own work start and end times?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q08",
             "question_version": "1.0.0",
             "options": [
@@ -267,7 +267,7 @@
           {
             "text": "On average, how many days per week do you work…",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q09",
             "question_version": "2.1.0",
             "answer_key": "q09_q10",
@@ -321,7 +321,7 @@
           {
             "text": "What is your employer’s current remote-working policy?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q11",
             "question_version": "1.0.0",
             "options": [
@@ -362,7 +362,7 @@
           {
             "text": "When working remotely, which of the following locations do you usually work from?",
             "question_type": "multiple_options",
-            "required": false,
+            "required": true,
             "question_id": "q12",
             "question_version": "1.0.0",
             "options": [
@@ -406,7 +406,7 @@
           {
             "text": "Does your employer currently provide access to coworking spaces?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q13",
             "question_version": "1.0.0",
             "options": [
@@ -445,7 +445,7 @@
           {
             "text": "How long does your typical one-way commute from home to your primary workplace take?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q14",
             "question_version": "1.0.0",
             "options": [
@@ -476,7 +476,7 @@
           {
             "text": "What is your primary transport mode for commuting?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q15",
             "question_version": "1.0.0",
             "options": [
@@ -523,7 +523,7 @@
           {
             "text": "Overall, how satisfied are you with your current remote-working arrangement?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q17",
             "question_version": "1.0.0",
             "options": [
@@ -562,7 +562,7 @@
           {
             "text": "To what extent do you agree or disagree with the following statements about remote working?",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q18",
             "question_version": "1.0.0",
             "answer_key": "q18",
@@ -624,7 +624,7 @@
           {
             "text": "Thinking about your usual working conditions at home, how would you rate the following aspects?",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q19",
             "question_version": "2.0.0",
             "answer_key": "q19",
@@ -677,7 +677,7 @@
           {
             "text": "Which of the following activities are part of your regular work?",
             "question_type": "multiple_options",
-            "required": false,
+            "required": true,
             "question_id": "q20",
             "question_version": "1.0.0",
             "options": [
@@ -722,7 +722,7 @@
           {
             "text": "Where would you prefer to perform the following work activities?",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q21",
             "question_version": "1.0.0",
             "answer_key": "q21",
@@ -798,7 +798,7 @@
           {
             "text": "How often do you currently use a coworking space?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q22",
             "question_version": "1.0.0",
             "options": [
@@ -832,7 +832,7 @@
           {
             "text": "If a coworking space were available close to your home, how often would you consider using it?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q23",
             "question_version": "1.0.0",
             "options": [
@@ -866,7 +866,7 @@
           {
             "text": "How important would the following factors be to you when deciding whether to use a coworking space?",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q24",
             "question_version": "1.0.0",
             "answer_key": "q24",
@@ -967,7 +967,7 @@
           {
             "text": "How would you prefer to reach a coworking space close to your home?",
             "question_type": "multiple_options",
-            "required": false,
+            "required": true,
             "question_id": "q25",
             "question_version": "1.0.0",
             "options": [
@@ -1001,7 +1001,7 @@
           {
             "text": "Thinking about the area where you live, can you reach the following services within approximately 15 minutes from your home by walking or cycling?",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q26",
             "question_version": "1.0.0",
             "answer_key": "q26",
@@ -1060,7 +1060,7 @@
           {
             "text": "When working remotely, how does your use of the following services in your local neighbourhood change compared with days when you travel to your usual workplace?",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q27",
             "question_version": "1.0.0",
             "answer_key": "q27",
@@ -1131,7 +1131,7 @@
           {
             "text": "Where would you prefer a coworking space to be located?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q28",
             "question_version": "1.0.0",
             "options": [
@@ -1159,7 +1159,7 @@
           {
             "text": "If you worked remotely more often, which activities would you be more likely to perform within your neighbourhood?",
             "question_type": "multiple_options",
-            "required": false,
+            "required": true,
             "question_id": "q29",
             "question_version": "1.0.0",
             "options": [
@@ -1211,7 +1211,7 @@
           {
             "text": "If your commuting time were reduced, how would you most likely use the saved time?",
             "question_type": "multiple_options",
-            "required": false,
+            "required": true,
             "question_id": "q30",
             "question_version": "1.0.0",
             "options": [
@@ -1257,7 +1257,7 @@
           {
             "text": "How do you think having the option to work from a coworking space close to your home would affect your overall quality of life?",
             "question_type": "single_option",
-            "required": false,
+            "required": true,
             "question_id": "q31",
             "question_version": "1.0.0",
             "options": [
@@ -1289,7 +1289,7 @@
           {
             "text": "If you had complete freedom to choose where to work, how many days per week would you ideally work from each of the following locations? (The total number of days should add up to 5.)",
             "question_type": "matrix",
-            "required": false,
+            "required": true,
             "question_id": "q32",
             "question_version": "1.0.0",
             "answer_key": "q32",
